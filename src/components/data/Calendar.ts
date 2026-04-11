@@ -13031,13 +13031,23 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Liebe",
-            "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden.^ORV"
+            "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden.^ORV",
+            "oration_lat": "Deus Pater miséricors, qui beátum Adólphum Kolping de arte sutrína ad sacerdótium vocásti, ut per eum iúvenes e misériis spirituálibus et sociálibus eríperes, da nobis, quǽsumus, eius intercessióne, ut res advérsas témporum nostrórum cognoscámus et fratrum necessitátibus, te adiuvánte, subveníre póssimus.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "Adolph Kolping (1813–1865)",
+            "patr_werk": "Aus einer Predigt zum Neujahrstag",
+            "patr_text": "^hDer Glaube an Gott und an die Menschen^pDie Menschen sind überhaupt nicht so schlecht, als man sie sich gern vormacht. Greift sie nur mal mit einer wahrhaft christlichen Hand an, ihr werdet von eurem Irrtum bald überzeugt sein. Wir haben das vielfach erfahren im Leben, erfahren es noch alle Tage, und während bei anderen Menschen der Glaube an die Menschen zu sinken scheint, sehen wir ihn, Gott sei Dank, wachsen.^pJa, wir glauben noch an die Menschen, besonders glauben wir noch an unsere arbeitende Jugend, trotz ihrer Fehler, trotz ihrer jeweiligen Verkommenheit, trotz der Verführung der Zeit. Und weil wir daran glauben, lässt es uns keine Ruhe, dafür zu wirken.^pWir glauben aber auch noch an mehr als an die Menschen, wir glauben auch an Gott, und weil wir daran glauben, weil wir das Christentum als tätiges Leben, als Wirken zum Heile verstehen, deshalb verlassen wir uns nicht auf uns, sondern auf die siegende Kraft des Christentums und halten es für eine Pflicht, dieser Gotteskraft dienstbar zu sein. Und weil so manches faul ist in dieser Welt, weil so vieles gebrochen und zerrissen ist im gesellschaftlichen Leben, deswegen wäre es für uns, die wir ans Christentum wirklich glauben, wahrlich Verrat an der Sache, wenn wir gerade jetzt nicht alle Kräfte anspannten, die eigenen und die gleichem Zwecke dienenden fremden, zu bessern und zu retten, was sich retten lässt.^pEs ist keine Zeit, zu feiern, zuzuschauen, gewähren zu lassen, bloß zu jammern und zu klagen, sondern es ist Zeit zu handeln, Zeit zu wirken, und zwar für jeden ohne Unterschied, wie es ihm nach Maßgabe seiner Kräfte und Mittel nur möglich ist. Da handelt es sich nicht darum, ob man alles kann, sondern ob man irgendetwas Ersprießliches zu leisten vermag, und kann man allein nichts, dann doch gewiss im Verein mit anderen.^pDas ist kein rechter Christ, der sich dieser gemeinsamen Tätigkeit entzieht, kein rechter Christ, der sich nicht gern und willig gemeinsamem Wirken anschließt und helfend schafft. Diejenigen, welche an Gott glauben, müssen dadurch auch an die Menschen glauben, und welche das Christentum lebendig glauben, müssen in seinem Geiste schaffen.",
+            "patr_resp1": "Wohl dem Mann, der gütig und zum Helfen bereit ist.",
+            "patr_resp2": "Er ordnet das Seine, wie es recht ist.",
+            "patr_resp3": "Niemals gerät er ins Wanken; ewig denkt man an den Gerechten."
           },
           "Laudes": {
             "button": "Sel. Adolph Kolping",
-            "nominativ": "Der selige Adolph",
+            "nominativ": "Der selige Adolph Kolping",
             "genitiv": "des seligen Adolph Kolping",
-            "genitiv_lat": "sancti Adólphi Kolping"
+            "vokativ": "Seliger Adolph Kolping",
+            "genitiv_lat": "beáti Adólphi Kolping"
           },
           "Messe": {
             "ms_les_buch": "Jak",
@@ -14892,135 +14902,13 @@ export const calendarData: CalendarData = {
     }
   },
   "Paderborn": {
-    "10": {
-      "25": {
-        "d1": {
-          "Lesehore": {
-            "les_buch": "Aus dem zweiten Brief des Apostels Paulus an die Gemeinde in Korinth.",
-            "les_stelle": "3,4–4,6",
-            "les_text": "^hWir verkündigen nicht uns, sondern Jesus Christus^pWir haben durch Christus so großes Vertrauen zu Gott. Doch sind wir dazu nicht von uns aus fähig, als ob wir uns selbst etwas zuschreiben könnten; unsere Befähigung stammt vielmehr von Gott. Er hat uns fähig gemacht, Diener des Neuen Bundes zu sein, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tötet, der Geist aber macht lebendig. ^pWenn aber schon der Dienst des Todes, dessen Buchstaben in Stein gemeißelt waren, so herrlich war, dass die Israeliten das Gesicht des Mose nicht anschauen konnten, weil es eine Herrlichkeit ausstrahlte, die doch vergänglich war, wie sollte da der Dienst des Geistes nicht viel herrlicher sein?^pDenn wenn schon der Dienst der Verurteilung herrlich war, so ist der Dienst der Gerechtigkeit noch viel herrlicher. Eigentlich ist das Verherrlichte nämlich in diesem Fall gar nicht verherrlicht angesichts der überragenden Herrlichkeit. Wenn nämlich schon das Vergängliche in Herrlichkeit erschien: Die Herrlichkeit des Bleibenden wird es überstrahlen.^pWeil wir also eine solche Hoffnung haben, treten wir mit großem Freimut auf, nicht wie Mose, der über sein Gesicht eine Hülle legte, damit die Israeliten das Ende des Vergänglichen nicht sahen.^pDoch ihr Denken wurde verhärtet. Denn bis zum heutigen Tag liegt die gleiche Hülle auf dem Alten Bund, wenn daraus vorgelesen wird; sie wird nicht aufgedeckt, weil sie in Christus beseitigt wird. Bis heute liegt die Hülle auf ihrem Herzen, wenn Mose vorgelesen wird.^pSobald er aber zum Herrn zurückkehrt, wird die Hülle entfernt. Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit. Wir alle aber schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.^pDaher erlahmt unser Eifer nicht in dem Dienst, der uns durch Gottes Erbarmen übertragen wurde. Wir haben uns von aller schimpflichen Arglist losgesagt; wir verhalten uns nicht hinterhältig und verfälschen das Wort Gottes nicht, sondern machen die Wahrheit offenbar. So empfehlen wir uns vor dem Angesicht Gottes jedem menschlichen Gewissen.^pWenn unser Evangelium dennoch verhüllt ist, ist es nur denen verhüllt, die verloren gehen; denn der Gott dieser Weltzeit hat das Denken der Ungläubigen verblendet. So strahlt ihnen der Glanz des Evangeliums von der Herrlichkeit Christi, der Gottes Bild ist, nicht auf.^pWir verkünden nämlich nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: Aus Finsternis soll Licht aufleuchten!, er ist in unseren Herzen aufgeleuchtet, damit aufstrahlt die Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi.",
-            "les_text_neu": "Wir predigen, weil Gott uns geprüft und uns das Evangelium anvertraut hat.",
-            "resp0": "Nicht um den Menschen zu gefallen, sondern Gott.",
-            "resp1": "Wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen.",
-            "patr_autor": "Lorenz Kardinal Jaeger (1892–1975)",
-            "patr_werk": "Aus einer Predigt zum Liborifest 1956.",
-            "patr_text": "^hLiborius nahm an den Prüfungen und Leiden Paderborns teil^pLiborius hat vor 1600 Jahren, als eine neue Geschichtsepoche heraufstieg, inmitten einer von Untergangsstimmung geängstigten Welt das Reich Gottes aufgerichtet und damit am Aufstieg der neuen, christlichen Ära erfolgreich mitgearbeitet. Als man seinen heiligen Leib im Jahre 397 in der Apostelbasilika jenseits der Sarthe zu Le Mans zur letzten Ruhe bettete, da ahnte noch niemand, dass dieser Heilige an der Wiege eines jungen Bistums im Westfalenlande stehen würde.^pDas Domkapitel von Le Mans hat vor 750 Jahren nach Paderborn geschrieben, die Ankunft der Reliquien des heiligen Liborius hätte für das Sachsenland das Ende des heidnischen Winters und den Beginn des christlichen Frühlings bedeutet, und kein Geringerer als Johannes Bolandus hat 1648, im Jahre des Westfälischen Friedens, von einem Fatum Liborianum gesprochen, von einer schicksalhaften Verbindung Paderborns mit Liborius.^pDie Vorsehung hat die Schicksale, die Freuden und Leiden unseres Erzbistums auf eine besondere Weise mit dem heiligen Liborius verknüpft. An den großen Prüfungen wie an den Freuden der Stadt und des Bistums Paderborn nahm Liborius auf eine fast leibhafte Art in seinen Reliquien teil. Man denke nur an den Raub der Reliquien im Dreißigjährigen Krieg, an ihre Gefährdung und an ihre Unbilden in und nach dem letzten Krieg. Man denke aber auch an das Wachstum der Liboriusverehrung im Früh- und Hochmittelalter, an den glanzvollen Aufstieg dieser Verehrung im Barockzeitalter und in unserem Jahrhundert.^pEs wäre ein Zeichen der Dankbarkeit, wenn dem heiligen Liborius in unserem Erzbistum noch mehr Kirchen und Kapellen geweiht würden und wenn noch mehr Kinder bei der Taufe seinen Namen erhielten.^pLiborius war wie ein Hoffnungsstern inmitten der versinkenden Welt der Antike, er war der Schutzpatron unseres Erzbistums seit 1120 Jahren. Er ist auch für uns das Symbol der Hoffnung inmitten einer den Untergang des Abendlandes fürchtenden Welt.^pIn Müh und Arbeit harrt er aus,^ldie Leiden wurden Freuden ihm,^ldurchs Irdische so strebte er^lzum Himmlischen hinan, zum Ziel.",
-            "patr_resp1": "Einst hast du, Herr, dein Land begnadet, Jakobs Unglück gewendet.",
-            "patr_resp2": "Richte uns wieder auf, Gott unsres Heils, lass von deinem Unmut gegen uns ab!",
-            "patr_resp3": "Du hast vergeben die Schuld deines Volkes, zugedeckt all ihre Sünden."
-          },
-          "major": {
-            "comm_1": "Hirten",
-            "oration": "Barmherziger Gott, du hast in Zeiten der Not und Gefahr die Kirche von Paderborn auf die Fürbitte des heiligen Liborius beschützt. Erneuere in unseren Tagen die Zeichen deines Heils. Stärke uns im Vertrauen auf deine helfende Hand und lehre uns deine Wege.^ORV"
-          },
-          "Laudes": {
-            "button": "Rückführung der Reliquien des hl. Bischofs Liborius",
-            "genitiv": "des heiligen Liborius"
-          }
-        }
-      },
-      "3": {
-        "d1": {
-          "major": {
-            "comm_1": "MärtPl",
-            "oration": "Herr und Gott, du hast die beiden heiligen Brüder Ewald als Zeugen deines Wortes zu den Sachsen gesandt. Durch ihr Martyrium und auf ihre Fürsprache bewege auch uns, im Leben zu bezeugen, was wir im Glauben bekennen.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Beda Venerabilis († 735)",
-            "patr_werk": "Aus der Englischen Kirchengeschichte Bedas des Ehrwürdigen.",
-            "patr_text": "^hDas ruhmreiche Leiden der Diener Gottes^pAls die Brüder Ewald in das Land gekommen waren, kehrten sie bei einem Meier ein und baten ihn, er möge sie zu seinem Fürsten bringen, sie hätten eine Botschaft an ihn und müssten ihm eine nützliche Sache berichten. Der Meier nahm sie auf und versprach, sie zum Fürsten zu senden, wie sie es erbeten hatten, behielt sie aber einige Tage bei sich.^pAls die heidnische Bevölkerung sie als Bekenner einer anderen Religion erkannte – denn sie beteten und sangen Psalmen und brachten Gott täglich das Opfer des Heils dar, da sie die heiligen Geräte und einen zum Altar geweihten Tisch bei sich hatten –, kamen sie auf den Verdacht, sie würden den Fürsten, wenn sie mit ihm redeten, seinen Göttern abspenstig machen und zu der neuen Religion herüberziehen; sie fürchteten, dass so allmählich das ganze Land gezwungen würde, den alten Gottesdienst zu verlassen und den neuen anzunehmen. ^pDeshalb überfielen sie die beiden und töteten sie. Der weiße Ewald fand einen raschen Tod durch das Schwert, der schwarze hingegen wurde langsam zu Tode gepeinigt, und seine Glieder wurden schrecklich verstümmelt. Ihre Leichname warf man in den Rhein.^pAls dies der Fürst, den sie hatten sehen wollen, vernahm, zürnte er sehr, dass Fremde, die zu ihm kommen wollten, nicht zu ihm gelassen worden waren. Er schickte deshalb hin, ließ alle Bewohner jenes Dorfes töten und das Dorf selbst in Brand stecken. Die genannten Priester und Diener Gottes erlitten den Martertod am 3. Oktober.",
-            "patr_resp1": "Alle, die auf den Herrn vertrauen, werden die Wahrheit erkennen, und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.",
-            "patr_resp2": "Die Gerechten werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit.",
-            "patr_resp3": "Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können."
-          },
-          "Laudes": {
-            "button": "Die beiden hl. Ewalde",
-            "farbe": "r",
-            "genitiv": "der beiden heiligen Ewalde"
-          }
-        }
-      },
-      "5": {
-        "d1": {
-          "major": {
-            "comm_1": "Mann",
-            "oration": "Allmächtiger, ewiger Gott, der heilige Diakon Meinolf hat mit all seiner Kraft für den Aufbau der Kirche von Paderborn gewirkt; schütze auch in unserer Zeit die Kirche dieses Landes, und festige ihre gemeinschaftliche Verbindung mit dem Nachfolger des heiligen Petrus und mit der Schwesterkirche von Le Mans.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Diakon Erconrad (9. Jh.)",
-            "patr_werk": "Aus der Translatio des hl. Liborius.",
-            "patr_text": "^hMeinolf verspricht die Gründung eines Klosters^pAls der Archidiakon Meinolf die nach Gottes Fügung großen Wunderzeichen gesehen hatte, da gab er, erschüttert aus Gottesfurcht und Liebe zugleich, seinen ganzen Erbanteil hin zum hochheiligen Leib des seligen Liborius und machte das feierliche Gelübde, an einem Ort namens Böddeken ein Kloster zu bauen und dort zum Dienst der Gottesgebärerin und des heiligen Liborius eine Gemeinschaft von gottgeweihten Frauen zu sammeln.^pAls dann diese fromme und allen Augenzeugen wohlgefällige Übergabe angesichts des genannten Bischofs Aldrich erfolgt war, die Folodag, Bischof Badurads Vogt, vor den Gefährten jenes Meinolf, dem Priester Adalbert, dem Diakon Aldrich und dem Subdiakon Drudwin als Zeugen entgegengenommen hatte, da fielen sie auf ihr Angesicht vor dem Altar des Herrn nieder zu Füßen des (nun verewigten) Bischofs Aldrich mit der Bitte, heimkehren zu dürfen.^pDer Oberhirte gab den Segen und vertraute ihnen dann vor allem Klerus und Volk den kostbaren Schatz an, auf dass er immer gebührend in Ehren gehalten würde.",
-            "patr_resp1": "Wenn du vollkommen sein willst, verkaufe, was du hast, und gib es den Armen; so wirst du einen Schatz im Himmel haben.",
-            "patr_resp2": "Dann komm und folge mir nach.",
-            "patr_resp3": "Keiner von euch ist mein Jünger, wenn er nicht auf seinen Besitz verzichtet."
-          },
-          "Laudes": {
-            "button": "Hl. Meinolf von°Böddeken/Paderborn",
-            "nominativ": "Der heilige Meinolf",
-            "genitiv": "des heiligen Meinolf"
-          }
-        }
-      }
-    },
     "7": {
       "23": {
         "oblig": {
           "each": {
             "comm_1": "Hirten",
             "oration": "Gott, du Herr aller Völker, du hast den heiligen Liborius der Kirche von Le Mans als Bischof und der Kirche von Paderborn als Patron gegeben. Hilf uns, auf seine Fürsprache die Einheit der Kirche zu wahren und alle Uneinigkeit zwischen den Völkern zu überwinden.^ORV",
-            "oration_lat": ""
-          },
-          "Invitatorium": {},
-          "Lesehore": {
-            "hymn_1": 8723.1,
-            "versikel0": "",
-            "versikel1": "",
-            "les_buch": "Aus dem ersten Brief des Apostels Paulus an die Gemeinde in Thessaloniki.",
-            "les_stelle": "2,1–13",
-            "les_text": "^hDas Wort Gottes ist in den Gläubigen wirksam^pIhr wisst selbst, Brüder und Schwestern, dass wir nicht vergebens zu euch gekommen sind. Wir hatten vorher in Philippi viel zu leiden und wurden misshandelt, wie ihr wisst; dennoch haben wir im Vertrauen auf unseren Gott das Evangelium Gottes trotz harter Kämpfe freimütig bei euch verkündet.^pDenn wir predigen nicht, um euch irrezuführen und nicht in unlauterer oder betrügerischer Absicht, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.^pNie haben wir mit unseren Worten zu schmeicheln versucht, das wisst ihr, und nie haben wir aus versteckter Habgier gehandelt, dafür ist Gott Zeuge. Wir haben auch keine Ehre bei den Menschen gesucht, weder bei euch noch bei anderen, obwohl wir als Apostel Christi unser Ansehen hätten geltend machen können.^pIm Gegenteil, wir sind euch freundlich begegnet: Wie eine Mutter für ihre Kinder sorgt, so waren wir euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem Leben; denn ihr wart uns sehr lieb geworden.^pIhr erinnert euch, Brüder und Schwestern, wie wir uns gemüht und geplagt haben. Bei Tag und Nacht haben wir gearbeitet, um keinem von euch zur Last zu fallen, und haben euch so das Evangelium Gottes verkündet. Ihr seid Zeugen, und auch Gott ist Zeuge, wie gottgefällig, gerecht und untadelig wir uns euch, den Glaubenden, gegenüber verhalten haben. Ihr wisst auch, dass wir, wie ein Vater seine Kinder, jeden Einzelnen von euch ermahnt, ermutigt und beschworen haben zu leben, wie es Gottes würdig ist, der euch zu seinem Reich und zu seiner Herrlichkeit beruft.^pDarum danken wir Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Gottes Wort angenommen habt; und jetzt ist es in euch, den Glaubenden, wirksam.",
-            "resp1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
-            "resp2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
-            "resp3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe.",
-            "patr_autor": "Konrad Martin (1812–1879)",
-            "patr_werk": "Aus einer Predigt zum Liborifest.",
-            "patr_text": "^hDie Bitte um Bewahrung unseres Glaubens^pGewiss haben wir alle Ursache, dem hl. Liborius unsere Verehrung zu erweisen; denn ist es billig und gerecht, alle Heiligen Gottes zu verehren, um wie viel mehr sollen wir dann den Tribut unserer Verehrung demjenigen darbringen, dessen besonderem Schutze wir anvertraut sind!^pSchon die bloße Pflicht der Dankbarkeit verpflichtet uns dazu. Denn wie reichliche Gnaden und Wohltaten, unter ihnen ganz besonders die Bewahrung des unschätzbaren Gutes unseres hl. Glaubens, verdanken wir nicht ihm, unserem himmlischen Schutzpatron!^pEs gab viele einst blühende, nunmehr völlig verschwundene Kirchen und Diözesen, in denen Gott zuließ, dass der Leuchter ihnen genommen ward. Aber der Stuhl des hl. Liborius, dessen hl. Reliquien unter dem zweiten Bischof der Diözese Paderborn, dem hl. Badurad, hierhergebracht wurden, dieser Stuhl, er steht noch immer unverrückt fest, wie am ersten Tage, wo er vor mehr als tausend Jahren gegründet ward. Er steht noch fest trotz der ungeheuersten Stürme, die im Laufe der Zeit darüber hinweggebraust sind, ohne dass sie den katholischen Glauben, den Grund, worauf er gebaut worden, auch nur im mindesten hätten erschüttern können.^pStatten wir daher dem himmlischen Beschützer unserer Diözese für seinen mächtigen Schutz unseren herzlichsten Dank ab; aber fügen wir demselben heute zugleich eine demütige und fromme Bitte hinzu. Der hl. Liborius hat uns bisher beschützt, dass wir den hl. Glauben bewahrten; bitten wir ihn heute, er möge uns auch die andere noch größere Gnade erflehen, nämlich die Gnade, dass wir nach unserem hl. Glauben leben oder dass unser Glaube selbst ein lebendiger, ein in der Liebe und in guten Werken tatkräftiger sei.^pDies ist das eine Notwendige, im Vergleich zu dem alles andere überflüssig und entbehrlich, klein oder unnützt erscheint. Wie bald wird unser gebrechliches Leben vorübergerauscht sein; und wenn es vorüber ist, was liegt daran, ob ich es hingebracht in Entbehrungen und Leiden oder aber in Freuden und Annehmlichkeiten, in Ehren und Genüssen? Das eine und das andere ist vorüber.^pBittet also den hl. Liborius heute nicht um dasjenige, was klein oder unnütz ist. Wenn ihr ihn aber um die Güter der Erde, um Gesundheit, um Befreiung aus leiblichen Nöten, um Gedeihen eurer zeitlichen Unternehmungen bitten wollt, so bittet um diese Dinge wenigstens mit Ergebung in den Willen Gottes, verbindet hiermit die Bitte um das Größte und Beste, was es gibt, dass ihr nämlich treu bleibet im Glauben und in der hl. Liebe zu Gott, um dereinst dahin zu gelangen, wo ihr mit dem hl. Liborius Gott ewig loben und preisen könnt. Amen.",
-            "patr_resp1": "Durch den Glauben wohne Christus in euren Herzen. In der Liebe verwurzelt und auf sie gegründet, sollt ihr zusammen mit allen Heiligen dazu fähig sein, die Länge und Breite, die Höhe und Tiefe zu ermessen und die Liebe Christi zu verstehen, die alle Erkenntnis übersteigt.",
-            "patr_resp2": "So werdet ihr mehr und mehr von der ganzen Fülle Gottes erfüllt.",
-            "patr_resp3": "Singt Gott in eurem Herzen Psalmen, Hymnen und Lieder wie sie der Geist eingibt, denn ihr seid in Gottes Gnade!"
-          },
-          "Laudes": {
-            "button": "Hl. Liborius",
-            "hymn_1": 8723.2,
-            "ant1": "Gott preise in Liborius der Aussätzigen, Blinden und Lahmen Schar, die seine Hilfe gesunden, sehen und gehen ließ.",
-            "ant2": "Während der Himmel den Heiligen aufnahm, kündeten Wunderzeichen seinen seligen Heimgang.",
-            "ant3": "Groß sind die Wunder, die Gott auf die Fürsprache des heiligen Liborius gewirkt hat. Den Herrn wollen wir aus ganzem Herzen preisen.",
-            "les_buch": "Phil",
-            "les_stelle": "4,4-7",
-            "les_text": "Freut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in Christus Jesus bewahren.",
-            "resp1": "Das ist der Freund seiner Brüder,",
-            "resp2": "für das Heil seines Volkes tritt er ein vor Gott.",
-            "resp3": "Für seine Brüder gab er das Leben hin.",
-            "antev": "Die Fürsprache des heiligen Liborius erhalte den Liebesbund ewiger Bruderschaft und festige das Band der Einheit und des Friedens.",
-            "bitten_e": "Gepriesen sei Jesus Christus, der den heiligen Liborius erwählt und uns zum Schutzpatron gegeben hat.",
-            "bitten_r": "Herr, dich lobt die Schar der Heiligen.",
-            "bitten": "Wir danken dir für deine Kirche in unserem Land, die sich unter dem Schutz des hl. Liborius ausgebreitet hat;^qsie eine uns in der Lobpreisung und schenke uns Heil.^pWir danken dir für das Licht des Evangeliums, das Liborius unseren Vorfahren geschenkt hat;^qes erleuchte auch unsere Herzen und stärke unseren Glauben.^pWir danken dir für allen Segen, den Liborius durch die Spendung der Sakramente und seine Fürsprache erwirkt hat;^qer komme auch über uns und unsere Arbeit.^pWir danken dir für alle Werke der Liebe, die Liborius in seinem Leben vollbracht und als Auftrag hinterlassen hat;^qsie sollen uns in der Liebe zu unseren Brüdern und Schwestern stärken.^pWir danken dir für den Frieden, den uns Liborius über Jahrhunderte immer wieder fürbittend erwirkt hat;^qer beherrsche auch zu unserer Zeit die Herzen der Mächtigen."
-          },
-          "Vesper": {
-            "hymn_1": 8723.4,
-            "hymn_2": 8723.403,
-            "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
-            "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
-            "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",
-            "les_buch": "Eph",
-            "les_stelle": "4,2-6",
-            "les_text": "Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch das Band des Friedens! Ein Leib und ein Geist, wie ihr auch berufen seid zu einer Hoffnung in eurer Berufung: ein Herr, ein Glaube, eine Taufe, ein Gott und Vater aller, der über allem und durch alles und in allem ist.",
-            "resp1": "In eurem Herzen herrsche der Friede Christi:",
-            "resp2": "Dazu seid ihr berufen als Glieder des einen Leibes.",
-            "resp3": "Wo Frieden herrscht, wird von den Friedfertigen die Saat der Gerechtigkeit ausgestreut.",
-            "antev": "Du hast dir den heiligen Liborius als Freund erwählt und uns als Patron geschenkt.",
-            "bitten_e": "Gepriesen sei Jesus Christus, der Gute Hirt, der sein Leben hingegeben hat für die Seinen:",
-            "bitten_r": "Herr, sei du der Hirte deines Volkes.",
-            "bitten": "Du hast die Bischöfe und Gläubigen von Paderborn und Le Mans im Liebesbund ewiger Bruderschaft geeint.^qSchenke unseren Kirchen auch in Zukunft deinen Segen.^pDu hast die Menschen Europas auf die Fürsprache des heiligen Liborius zusammengeführt.^qLass sie nicht müde werden, für die Einheit der Völker Europas einzutreten.^pDu hast die Bitten der Kranken und Notleidenden am Grab des heiligen Liborius erhört.^qLass sie stets auf seine Fürsprache bauen.^pDu hast auf die Fürsprache des heiligen Liborius die Kirche von Paderborn erstarken lassen.^qLass uns Tag für Tag im Glauben, in der Hoffnung und in der Liebe wachsen."
+            "oration_lat": "Dómine ómnium populórum, Deus noster, qui sanctum Libórium Ecclésiæ Cenomanénsi epíscopum et Ecclésiæ Paderbornénsi patrónum dedísti, fac, ut intercessióne eius unitátem Ecclésiæ servémus et omnes inter pópulos discórdias superémus.^ORlV"
           },
           "ErsteV": {
             "button": "1. Vesper zum Hochfest des hl. Liborius",
@@ -15039,7 +14927,68 @@ export const calendarData: CalendarData = {
             "antev": "Die Größe dieses Heiligen und seine bleibende Fürbitte bewahre uns vor aller Verführung und verbinde uns in der Freude des Himmels.",
             "bitten_e": "Lasst uns zu Jesus Christus beten, der unter uns weilt und unsere Hoffnung auf Herrlichkeit ist:",
             "bitten_r": "Herr, gedenke deiner Kirche.",
-            "bitten": "Du hast den hl. Liborius der Kirche von Le Mans als Bischof geschenkt:^qSchenk ihr Wachstum im Glauben, in der Hoffnung und in der Liebe.^pDu hast den hl. Liborius der Kirche von Paderborn als Patron gegeben:^qSchütze unseren Erzbischof, die Weihbischöfe, die Priester, die Diakone, die Ordensleute und alle Gläubigen.^pDu hast den hl. Liborius zum Dienst der Einheit und des Friedens für die Völker bestellt:^qEine die Völker Europas und lass sie hilfreich einstehen für alle Menschen.^pDu hast den hl. Liborius zum Patron und Fürsprecher der Kranken gemacht:^qGib ihnen die Gesundheit des Leibes und der Seele und neue Hoffnung auf Leben.^pDu hast den hl. Liborius in die Schar deiner Heiligen aufgenommen:^qRufe alle Toten und auch uns am Ende unseres Lebens in die Herrlichkeit des Himmels."
+            "bitten": "Du hast den hl. Liborius der Kirche von Le Mans als Bischof geschenkt:^qSchenk ihr Wachstum im Glauben, in der Hoffnung und in der Liebe.^pDu hast den hl. Liborius der Kirche von Paderborn als Patron gegeben:^qSchütze unseren Erzbischof, die Weihbischöfe, die Priester, die Diakone, die Ordensleute und alle Gläubigen.^pDu hast den hl. Liborius zum Dienst der Einheit und des Friedens für die Völker bestellt:^qEine die Völker Europas und lass sie hilfreich einstehen für alle Menschen.^pDu hast den hl. Liborius zum Patron und Fürsprecher der Kranken gemacht:^qGib ihnen die Gesundheit des Leibes und der Seele und neue Hoffnung auf Leben.^pDu hast den hl. Liborius in die Schar deiner Heiligen aufgenommen:^qRufe alle Toten und auch uns am Ende unseres Lebens in die Herrlichkeit des Himmels.",
+            "ant1_lat": "Libório plaudat Gállia, quæ tantum virum édidit: felícior nunc Germánia, cui corpus illa crédidit.",
+            "ant2_lat": "Beatus cui Martínus ádfuit in dulci tránsitu, vocátus vir divínus cæli supérno mónitu.",
+            "ant3_lat": "Felix Páderæ cívitas, in qua refúlget hódie ille, quem cæli bónitas ornat signis cotídie.",
+            "resp1_lat": "Pax Christi dominétur in córdibus vestris;",
+            "resp2_lat": "ad quam et vocáti estis in uno córpore.",
+            "resp3_lat": "Fructus autem iustítiæ in pace seminátur faciéntibus pacem.",
+            "antev_lat": "Virtus viri tam célebris et iugis intervéntio nos salvet ab illécebris et cæli iungat gáudio.",
+            "bitten_e_lat": "Orémus Iesum Christum, qui est in nobis spes glóriæ.",
+            "bitten_r_lat": "Recordáre Ecclésiæ tuæ, Dómine.",
+            "bitten_lat": "Qui sanctum Libórium ecclésiæ Cenomanénsi epíscopum constituísti:^qauge in ea fidem, spem, caritátem.^pQui sanctum Libórium ecclésiæ Paderbornénsi patrónum dedísti:^qArchiepíscopum nostrum, auxiliáres eius totúmque clerum cum ómnibus fidélibus tuére.^pQui sanctum Libórium pópulis minístrum unitátis et pacis constituísti:^qconiúnge pópulos Európæ et fac, ut ómnibus adsint homínibus.^pQui sanctum Libórium patrónum et deprecatórem ægrotórum fecísti:^qda eis salútem et córporis et ánimæ novámque spem vitæ.^pQui sanctum Libórium inter Sanctos tuos suscepísti:^qnos quoque in fine vitæ nostræ ad glóriam cæléstem vocáre dignéris.",
+            "les_text_lat": "Digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocátionis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium; qui super omnes et per ómnia et in ómnibus."
+          },
+          "Lesehore": {
+            "hymn_1": 8723.1,
+            "versikel0": "",
+            "versikel1": "",
+            "les_buch": "Aus dem ersten Brief des Apostels Paulus an die Gemeinde in Thessaloniki.",
+            "les_stelle": "2,1–13",
+            "les_text": "^hDas Wort Gottes ist in den Gläubigen wirksam^pIhr wisst selbst, Brüder und Schwestern, dass wir nicht vergebens zu euch gekommen sind. Wir hatten vorher in Philippi viel zu leiden und wurden misshandelt, wie ihr wisst; dennoch haben wir im Vertrauen auf unseren Gott das Evangelium Gottes trotz harter Kämpfe freimütig bei euch verkündet.^pDenn wir predigen nicht, um euch irrezuführen und nicht in unlauterer oder betrügerischer Absicht, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.^pNie haben wir mit unseren Worten zu schmeicheln versucht, das wisst ihr, und nie haben wir aus versteckter Habgier gehandelt, dafür ist Gott Zeuge. Wir haben auch keine Ehre bei den Menschen gesucht, weder bei euch noch bei anderen, obwohl wir als Apostel Christi unser Ansehen hätten geltend machen können.^pIm Gegenteil, wir sind euch freundlich begegnet: Wie eine Mutter für ihre Kinder sorgt, so waren wir euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem Leben; denn ihr wart uns sehr lieb geworden.^pIhr erinnert euch, Brüder und Schwestern, wie wir uns gemüht und geplagt haben. Bei Tag und Nacht haben wir gearbeitet, um keinem von euch zur Last zu fallen, und haben euch so das Evangelium Gottes verkündet. Ihr seid Zeugen, und auch Gott ist Zeuge, wie gottgefällig, gerecht und untadelig wir uns euch, den Glaubenden, gegenüber verhalten haben. Ihr wisst auch, dass wir, wie ein Vater seine Kinder, jeden Einzelnen von euch ermahnt, ermutigt und beschworen haben zu leben, wie es Gottes würdig ist, der euch zu seinem Reich und zu seiner Herrlichkeit beruft.^pDarum danken wir Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Gottes Wort angenommen habt; und jetzt ist es in euch, den Glaubenden, wirksam.",
+            "resp1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
+            "resp2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
+            "resp3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe.",
+            "patr_autor": "Konrad Martin (1812–1879)",
+            "patr_werk": "Aus einer Predigt zum Liborifest.",
+            "patr_text": "^hDie Bitte um Bewahrung unseres Glaubens^pGewiss haben wir alle Ursache, dem hl. Liborius unsere Verehrung zu erweisen; denn ist es billig und gerecht, alle Heiligen Gottes zu verehren, um wie viel mehr sollen wir dann den Tribut unserer Verehrung demjenigen darbringen, dessen besonderem Schutze wir anvertraut sind!^pSchon die bloße Pflicht der Dankbarkeit verpflichtet uns dazu. Denn wie reichliche Gnaden und Wohltaten, unter ihnen ganz besonders die Bewahrung des unschätzbaren Gutes unseres hl. Glaubens, verdanken wir nicht ihm, unserem himmlischen Schutzpatron!^pEs gab viele einst blühende, nunmehr völlig verschwundene Kirchen und Diözesen, in denen Gott zuließ, dass der Leuchter ihnen genommen ward. Aber der Stuhl des hl. Liborius, dessen hl. Reliquien unter dem zweiten Bischof der Diözese Paderborn, dem hl. Badurad, hierhergebracht wurden, dieser Stuhl, er steht noch immer unverrückt fest, wie am ersten Tage, wo er vor mehr als tausend Jahren gegründet ward. Er steht noch fest trotz der ungeheuersten Stürme, die im Laufe der Zeit darüber hinweggebraust sind, ohne dass sie den katholischen Glauben, den Grund, worauf er gebaut worden, auch nur im mindesten hätten erschüttern können.^pStatten wir daher dem himmlischen Beschützer unserer Diözese für seinen mächtigen Schutz unseren herzlichsten Dank ab; aber fügen wir demselben heute zugleich eine demütige und fromme Bitte hinzu. Der hl. Liborius hat uns bisher beschützt, dass wir den hl. Glauben bewahrten; bitten wir ihn heute, er möge uns auch die andere noch größere Gnade erflehen, nämlich die Gnade, dass wir nach unserem hl. Glauben leben oder dass unser Glaube selbst ein lebendiger, ein in der Liebe und in guten Werken tatkräftiger sei.^pDies ist das eine Notwendige, im Vergleich zu dem alles andere überflüssig und entbehrlich, klein oder unnützt erscheint. Wie bald wird unser gebrechliches Leben vorübergerauscht sein; und wenn es vorüber ist, was liegt daran, ob ich es hingebracht in Entbehrungen und Leiden oder aber in Freuden und Annehmlichkeiten, in Ehren und Genüssen? Das eine und das andere ist vorüber.^pBittet also den hl. Liborius heute nicht um dasjenige, was klein oder unnütz ist. Wenn ihr ihn aber um die Güter der Erde, um Gesundheit, um Befreiung aus leiblichen Nöten, um Gedeihen eurer zeitlichen Unternehmungen bitten wollt, so bittet um diese Dinge wenigstens mit Ergebung in den Willen Gottes, verbindet hiermit die Bitte um das Größte und Beste, was es gibt, dass ihr nämlich treu bleibet im Glauben und in der hl. Liebe zu Gott, um dereinst dahin zu gelangen, wo ihr mit dem hl. Liborius Gott ewig loben und preisen könnt. Amen.",
+            "patr_resp1": "Durch den Glauben wohne Christus in euren Herzen. In der Liebe verwurzelt und auf sie gegründet, sollt ihr zusammen mit allen Heiligen dazu fähig sein, die Länge und Breite, die Höhe und Tiefe zu ermessen und die Liebe Christi zu verstehen, die alle Erkenntnis übersteigt.",
+            "patr_resp2": "So werdet ihr mehr und mehr von der ganzen Fülle Gottes erfüllt.",
+            "patr_resp3": "Singt Gott in eurem Herzen Psalmen, Hymnen und Lieder wie sie der Geist eingibt, denn ihr seid in Gottes Gnade!",
+            "ant1_lat": "Si quis vult primus esse, erit ómnium novíssimus et ómnium miníster.",
+            "ant2_lat": "Cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam.",
+            "ant3_lat": "Serve bone et fidélis, intra in gáudium Dómini tui.",
+            "versikel0_lat": "Audies de ore meo verbum.",
+            "versikel1_lat": "Et annunti<abis eis ex me."
+          },
+          "Laudes": {
+            "button": "Hl. Liborius",
+            "hymn_1": 8723.2,
+            "ant1": "Gott preise in Liborius der Aussätzigen, Blinden und Lahmen Schar, die seine Hilfe gesunden, sehen und gehen ließ.",
+            "ant2": "Während der Himmel den Heiligen aufnahm, kündeten Wunderzeichen seinen seligen Heimgang.",
+            "ant3": "Groß sind die Wunder, die Gott auf die Fürsprache des heiligen Liborius gewirkt hat. Den Herrn wollen wir aus ganzem Herzen preisen.",
+            "les_buch": "Phil",
+            "les_stelle": "4,4-7",
+            "les_text": "Freut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in Christus Jesus bewahren.",
+            "resp1": "Das ist der Freund seiner Brüder,",
+            "resp2": "für das Heil seines Volkes tritt er ein vor Gott.",
+            "resp3": "Für seine Brüder gab er das Leben hin.",
+            "antev": "Die Fürsprache des heiligen Liborius erhalte den Liebesbund ewiger Bruderschaft und festige das Band der Einheit und des Friedens.",
+            "bitten_e": "Gepriesen sei Jesus Christus, der den heiligen Liborius erwählt und uns zum Schutzpatron gegeben hat.",
+            "bitten_r": "Herr, dich lobt die Schar der Heiligen.",
+            "bitten": "Wir danken dir für deine Kirche in unserem Land, die sich unter dem Schutz des hl. Liborius ausgebreitet hat;^qsie eine uns in der Lobpreisung und schenke uns Heil.^pWir danken dir für das Licht des Evangeliums, das Liborius unseren Vorfahren geschenkt hat;^qes erleuchte auch unsere Herzen und stärke unseren Glauben.^pWir danken dir für allen Segen, den Liborius durch die Spendung der Sakramente und seine Fürsprache erwirkt hat;^qer komme auch über uns und unsere Arbeit.^pWir danken dir für alle Werke der Liebe, die Liborius in seinem Leben vollbracht und als Auftrag hinterlassen hat;^qsie sollen uns in der Liebe zu unseren Brüdern und Schwestern stärken.^pWir danken dir für den Frieden, den uns Liborius über Jahrhunderte immer wieder fürbittend erwirkt hat;^qer beherrsche auch zu unserer Zeit die Herzen der Mächtigen.",
+            "ant1_lat": "Deum laudent in Libório leprósi, cæci, claudi, quos reddit adiutório salúti, luci, gréssui.",
+            "ant2_lat": "Dum sancti viri spíritum cæli súscipit cúria, felícem eius óbitum signa prǽdicant vária.",
+            "ant3_lat": "Magna sunt mirácula, quæ Deus précibus Sancti Libórii fecit. Dóminum toto corde laudémus.",
+            "resp1_lat": "Hic est fratrum amátor,",
+            "resp2_lat": "qui multum orat pro pópulo.",
+            "resp3_lat": "Et ánimam suam trádidit pro frátribus suis.",
+            "antev_lat": "Intercéssio sancti Libórii consérvet confraternitátem nostram caritátis et confírmet vínculum nostrum unitátis et pacis.",
+            "bitten_e_lat": "Benedíctus sit Iesus Christus, qui sanctum Libórium elégit nobísque dedit patrónum.",
+            "bitten_r_lat": "Te laudat sanctórum chorus, Dómine.",
+            "bitten_lat": "Grátias ágimus tibi pro Ecclésia tua, quæ est in terra nostra sancti Libórii præsídio aucta:^qqua in laude tua uniámur et salus nobis donétur.^pGratias ágimus tibi pro lúmine evangélii a Libório pátribus nostris prædicáto:^qquod nostra quoque corda illúminet et fidem nostram confírmet.^pGrátias ágimus tibi pro ómnibus benedictiónibus Libório sacerdóte et deprecátore partis:^qquæ véniant étiam super nos et super ópera nostra.^pGrátias ágimus tibi pro ómnibus opéribus caritátis a Libório in vita sua perféctis nobísque ad imitándum relíctis:^qquibus confirmémur in caritáte erga omnes fratres et soróres.^pGrátias ágimus tibi pro pace a Libório nobis per sǽcula deprecatiónibus impetráta:^qnostris quoque tempóribus in ánimis poténtium dominétur.",
+            "les_text_lat": "Gaudéte in Dómino semper. Iterum dico: Gaudéte! Modéstia vestra nota sit ómnibus homínibus. Dóminus prope. Nihil sollíciti sitis, sed in ómnibus oratióne et obsecratióne cum gratiárum actióne petitiónes vestræ innotéscant apud Deum. Et pax Dei, quæ exsúperat omnem sensum, custódiet corda vestra et intellegéntias vestras in Christo Iesu."
           },
           "Terz": {
             "hymn_1": 8723.3
@@ -15049,6 +14998,37 @@ export const calendarData: CalendarData = {
           },
           "Non": {
             "hymn_1": 8723.3
+          },
+          "Vesper": {
+            "hymn_1": 8723.4,
+            "hymn_2": 8723.403,
+            "psalm1": 113.0,
+            "psalm2": 146.0,
+            "psalm3": 151.0,
+            "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
+            "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
+            "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",
+            "les_buch": "Eph",
+            "les_stelle": "4,2-6",
+            "les_text": "Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch das Band des Friedens! Ein Leib und ein Geist, wie ihr auch berufen seid zu einer Hoffnung in eurer Berufung: ein Herr, ein Glaube, eine Taufe, ein Gott und Vater aller, der über allem und durch alles und in allem ist.",
+            "resp1": "In eurem Herzen herrsche der Friede Christi:",
+            "resp2": "Dazu seid ihr berufen als Glieder des einen Leibes.",
+            "resp3": "Wo Frieden herrscht, wird von den Friedfertigen die Saat der Gerechtigkeit ausgestreut.",
+            "antev": "Du hast dir den heiligen Liborius als Freund erwählt und uns als Patron geschenkt.",
+            "bitten_e": "Gepriesen sei Jesus Christus, der Gute Hirt, der sein Leben hingegeben hat für die Seinen:",
+            "bitten_r": "Herr, sei du der Hirte deines Volkes.",
+            "bitten": "Du hast die Bischöfe und Gläubigen von Paderborn und Le Mans im Liebesbund ewiger Bruderschaft geeint.^qSchenke unseren Kirchen auch in Zukunft deinen Segen.^pDu hast die Menschen Europas auf die Fürsprache des heiligen Liborius zusammengeführt.^qLass sie nicht müde werden, für die Einheit der Völker Europas einzutreten.^pDu hast die Bitten der Kranken und Notleidenden am Grab des heiligen Liborius erhört.^qLass sie stets auf seine Fürsprache bauen.^pDu hast auf die Fürsprache des heiligen Liborius die Kirche von Paderborn erstarken lassen.^qLass uns Tag für Tag im Glauben, in der Hoffnung und in der Liebe wachsen.",
+            "ant1_lat": "Libório plaudat Gállia, quæ tantum virum édidit: felícior nunc Germánia, cui corpus illa crédidit.",
+            "ant2_lat": "Beatus cui Martínus ádfuit in dulci tránsitu, vocátus vir divínus cæli supérno mónitu.",
+            "ant3_lat": "Felix Páderæ cívitas, in qua refúlget hódie ille, quem cæli bónitas ornat signis cotídie.",
+            "resp1_lat": "Pax Christi dominétur in córdibus vestris;",
+            "resp2_lat": "ad quam et vocáti estis in uno córpore.",
+            "resp3_lat": "Fructus autem iustítiæ in pace seminátur faciéntibus pacem.",
+            "antev_lat": "Sanctum Libórium tibi amícum elegísti – et nobis patrónum dedísti.",
+            "bitten_e_lat": "Benedíctus sit Iesus Christus, pastor bonus, qui vitam suam trádidit pro amícis suis:",
+            "bitten_r_lat": "Dómine, tu esto pastor pópuli tui.",
+            "bitten_lat": "Dómine, qui epíscopos et fidéles Paderbornénses et Cenomanénses perpétua caritáte iunxísti,^qlargíre Ecclésiis nostris étiam in futúrum benedictiónem tuam.^pDómine, qui hómines Európæ sancti Libórii intercessióne coniunxísti,^qpræsta, ut non desístant pro unitáte populórum laboráre.^pDómine, qui ad sepúlcrum sancti Libórii preces ægrotórum et egenórum exaudísti,^qfac, ut semper eius intercessióni confídant.^pDómine, qui sancti Libórii intercessióne Ecclésiam Paderbornénsem roborásti,^qauge hodie in nobis fidem, spem, caritátem.",
+            "les_text_lat": "Digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocátionis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium; qui super omnes et per ómnia et in ómnibus."
           }
         }
       },
@@ -15056,7 +15036,8 @@ export const calendarData: CalendarData = {
         "oblig": {
           "major": {
             "comm_1": "MärtPl",
-            "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORrV"
+            "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORrV",
+            "oration_lat": "Omnípotens et miséricors Deus, qui beáti Kiliáni apostólico labóre christiánæ religiónis fundaménta in terra Francórum iácere dignátus es, fac, ut, eius intercessióne, in fídei stabilitáte firmémur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Friedrich Jürgensmeier (1888–1946)",
@@ -15117,12 +15098,86 @@ export const calendarData: CalendarData = {
         }
       }
     },
+    "10": {
+      "25": {
+        "d1": {
+          "Lesehore": {
+            "les_buch": "Aus dem zweiten Brief des Apostels Paulus an die Gemeinde in Korinth.",
+            "les_stelle": "3,4–4,6",
+            "les_text": "^hWir verkündigen nicht uns, sondern Jesus Christus^pWir haben durch Christus so großes Vertrauen zu Gott. Doch sind wir dazu nicht von uns aus fähig, als ob wir uns selbst etwas zuschreiben könnten; unsere Befähigung stammt vielmehr von Gott. Er hat uns fähig gemacht, Diener des Neuen Bundes zu sein, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tötet, der Geist aber macht lebendig. ^pWenn aber schon der Dienst des Todes, dessen Buchstaben in Stein gemeißelt waren, so herrlich war, dass die Israeliten das Gesicht des Mose nicht anschauen konnten, weil es eine Herrlichkeit ausstrahlte, die doch vergänglich war, wie sollte da der Dienst des Geistes nicht viel herrlicher sein?^pDenn wenn schon der Dienst der Verurteilung herrlich war, so ist der Dienst der Gerechtigkeit noch viel herrlicher. Eigentlich ist das Verherrlichte nämlich in diesem Fall gar nicht verherrlicht angesichts der überragenden Herrlichkeit. Wenn nämlich schon das Vergängliche in Herrlichkeit erschien: Die Herrlichkeit des Bleibenden wird es überstrahlen.^pWeil wir also eine solche Hoffnung haben, treten wir mit großem Freimut auf, nicht wie Mose, der über sein Gesicht eine Hülle legte, damit die Israeliten das Ende des Vergänglichen nicht sahen.^pDoch ihr Denken wurde verhärtet. Denn bis zum heutigen Tag liegt die gleiche Hülle auf dem Alten Bund, wenn daraus vorgelesen wird; sie wird nicht aufgedeckt, weil sie in Christus beseitigt wird. Bis heute liegt die Hülle auf ihrem Herzen, wenn Mose vorgelesen wird.^pSobald er aber zum Herrn zurückkehrt, wird die Hülle entfernt. Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit. Wir alle aber schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.^pDaher erlahmt unser Eifer nicht in dem Dienst, der uns durch Gottes Erbarmen übertragen wurde. Wir haben uns von aller schimpflichen Arglist losgesagt; wir verhalten uns nicht hinterhältig und verfälschen das Wort Gottes nicht, sondern machen die Wahrheit offenbar. So empfehlen wir uns vor dem Angesicht Gottes jedem menschlichen Gewissen.^pWenn unser Evangelium dennoch verhüllt ist, ist es nur denen verhüllt, die verloren gehen; denn der Gott dieser Weltzeit hat das Denken der Ungläubigen verblendet. So strahlt ihnen der Glanz des Evangeliums von der Herrlichkeit Christi, der Gottes Bild ist, nicht auf.^pWir verkünden nämlich nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: Aus Finsternis soll Licht aufleuchten!, er ist in unseren Herzen aufgeleuchtet, damit aufstrahlt die Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi.",
+            "les_text_neu": "Wir predigen, weil Gott uns geprüft und uns das Evangelium anvertraut hat.",
+            "resp0": "Nicht um den Menschen zu gefallen, sondern Gott.",
+            "resp1": "Wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen.",
+            "patr_autor": "Lorenz Kardinal Jaeger (1892–1975)",
+            "patr_werk": "Aus einer Predigt zum Liborifest 1956.",
+            "patr_text": "^hLiborius nahm an den Prüfungen und Leiden Paderborns teil^pLiborius hat vor 1600 Jahren, als eine neue Geschichtsepoche heraufstieg, inmitten einer von Untergangsstimmung geängstigten Welt das Reich Gottes aufgerichtet und damit am Aufstieg der neuen, christlichen Ära erfolgreich mitgearbeitet. Als man seinen heiligen Leib im Jahre 397 in der Apostelbasilika jenseits der Sarthe zu Le Mans zur letzten Ruhe bettete, da ahnte noch niemand, dass dieser Heilige an der Wiege eines jungen Bistums im Westfalenlande stehen würde.^pDas Domkapitel von Le Mans hat vor 750 Jahren nach Paderborn geschrieben, die Ankunft der Reliquien des heiligen Liborius hätte für das Sachsenland das Ende des heidnischen Winters und den Beginn des christlichen Frühlings bedeutet, und kein Geringerer als Johannes Bolandus hat 1648, im Jahre des Westfälischen Friedens, von einem Fatum Liborianum gesprochen, von einer schicksalhaften Verbindung Paderborns mit Liborius.^pDie Vorsehung hat die Schicksale, die Freuden und Leiden unseres Erzbistums auf eine besondere Weise mit dem heiligen Liborius verknüpft. An den großen Prüfungen wie an den Freuden der Stadt und des Bistums Paderborn nahm Liborius auf eine fast leibhafte Art in seinen Reliquien teil. Man denke nur an den Raub der Reliquien im Dreißigjährigen Krieg, an ihre Gefährdung und an ihre Unbilden in und nach dem letzten Krieg. Man denke aber auch an das Wachstum der Liboriusverehrung im Früh- und Hochmittelalter, an den glanzvollen Aufstieg dieser Verehrung im Barockzeitalter und in unserem Jahrhundert.^pEs wäre ein Zeichen der Dankbarkeit, wenn dem heiligen Liborius in unserem Erzbistum noch mehr Kirchen und Kapellen geweiht würden und wenn noch mehr Kinder bei der Taufe seinen Namen erhielten.^pLiborius war wie ein Hoffnungsstern inmitten der versinkenden Welt der Antike, er war der Schutzpatron unseres Erzbistums seit 1120 Jahren. Er ist auch für uns das Symbol der Hoffnung inmitten einer den Untergang des Abendlandes fürchtenden Welt.^pIn Müh und Arbeit harrt er aus,^ldie Leiden wurden Freuden ihm,^ldurchs Irdische so strebte er^lzum Himmlischen hinan, zum Ziel.",
+            "patr_resp1": "Einst hast du, Herr, dein Land begnadet, Jakobs Unglück gewendet.",
+            "patr_resp2": "Richte uns wieder auf, Gott unsres Heils, lass von deinem Unmut gegen uns ab!",
+            "patr_resp3": "Du hast vergeben die Schuld deines Volkes, zugedeckt all ihre Sünden."
+          },
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Barmherziger Gott, du hast in Zeiten der Not und Gefahr die Kirche von Paderborn auf die Fürbitte des heiligen Liborius beschützt. Erneuere in unseren Tagen die Zeichen deines Heils. Stärke uns im Vertrauen auf deine helfende Hand und lehre uns deine Wege.^ORV",
+            "oration_lat": "Omnípotens et miséricors Deus, qui tempóribus advérsis Ecclésiam Paderbornénsem sancti Libórii intercessióne protexísti, quǽsumus, ut diébus nostris signa salútis tuæ renováre et nos in auxílium tuum confidéntes vias tuas docére dignéris.^ORlV"
+          },
+          "Laudes": {
+            "button": "Rückführung der Reliquien des hl. Bischofs Liborius",
+            "genitiv": "des heiligen Liborius"
+          }
+        }
+      },
+      "3": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Herr und Gott, du hast die beiden heiligen Brüder Ewald als Zeugen deines Wortes zu den Sachsen gesandt. Durch ihr Martyrium und auf ihre Fürsprache bewege auch uns, im Leben zu bezeugen, was wir im Glauben bekennen.^ORV",
+            "oration_lat": "Dómine Deus, qui sanctos fratres Ewáldos verbi tui testes ad Saxónas misísti, præsta, quǽsumus, eórum martýrio atque intercessióne, ut vita testificémur, quod fide confitémur.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "Beda Venerabilis († 735)",
+            "patr_werk": "Aus der Englischen Kirchengeschichte Bedas des Ehrwürdigen.",
+            "patr_text": "^hDas ruhmreiche Leiden der Diener Gottes^pAls die Brüder Ewald in das Land gekommen waren, kehrten sie bei einem Meier ein und baten ihn, er möge sie zu seinem Fürsten bringen, sie hätten eine Botschaft an ihn und müssten ihm eine nützliche Sache berichten. Der Meier nahm sie auf und versprach, sie zum Fürsten zu senden, wie sie es erbeten hatten, behielt sie aber einige Tage bei sich.^pAls die heidnische Bevölkerung sie als Bekenner einer anderen Religion erkannte – denn sie beteten und sangen Psalmen und brachten Gott täglich das Opfer des Heils dar, da sie die heiligen Geräte und einen zum Altar geweihten Tisch bei sich hatten –, kamen sie auf den Verdacht, sie würden den Fürsten, wenn sie mit ihm redeten, seinen Göttern abspenstig machen und zu der neuen Religion herüberziehen; sie fürchteten, dass so allmählich das ganze Land gezwungen würde, den alten Gottesdienst zu verlassen und den neuen anzunehmen. ^pDeshalb überfielen sie die beiden und töteten sie. Der weiße Ewald fand einen raschen Tod durch das Schwert, der schwarze hingegen wurde langsam zu Tode gepeinigt, und seine Glieder wurden schrecklich verstümmelt. Ihre Leichname warf man in den Rhein.^pAls dies der Fürst, den sie hatten sehen wollen, vernahm, zürnte er sehr, dass Fremde, die zu ihm kommen wollten, nicht zu ihm gelassen worden waren. Er schickte deshalb hin, ließ alle Bewohner jenes Dorfes töten und das Dorf selbst in Brand stecken. Die genannten Priester und Diener Gottes erlitten den Martertod am 3. Oktober.",
+            "patr_resp1": "Alle, die auf den Herrn vertrauen, werden die Wahrheit erkennen, und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.",
+            "patr_resp2": "Die Gerechten werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit.",
+            "patr_resp3": "Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können."
+          },
+          "Laudes": {
+            "button": "Die beiden hl. Ewalde",
+            "farbe": "r",
+            "genitiv": "der beiden heiligen Ewalde"
+          }
+        }
+      },
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "oration": "Allmächtiger, ewiger Gott, der heilige Diakon Meinolf hat mit all seiner Kraft für den Aufbau der Kirche von Paderborn gewirkt; schütze auch in unserer Zeit die Kirche dieses Landes, und festige ihre gemeinschaftliche Verbindung mit dem Nachfolger des heiligen Petrus und mit der Schwesterkirche von Le Mans.^ORV",
+            "oration_lat": "Omnípotens, sempitérne Deus, cuius múnere beátus Meinúlphus archidiáconus primórdiis Ecclésiæ Paderbornénsis fovéndis totis víribus incúbuit, te súpplices exorámus, ut, ipso intercedénte, Ecclésiam huius loci nostris quoque diébus protégere eiúsque cum beáti Petri successóre et cum Ecclésia soróre Cenomanési communiónem firmáre dignéris."
+          },
+          "Lesehore": {
+            "patr_autor": "Diakon Erconrad (9. Jh.)",
+            "patr_werk": "Aus der Translatio des hl. Liborius.",
+            "patr_text": "^hMeinolf verspricht die Gründung eines Klosters^pAls der Archidiakon Meinolf die nach Gottes Fügung großen Wunderzeichen gesehen hatte, da gab er, erschüttert aus Gottesfurcht und Liebe zugleich, seinen ganzen Erbanteil hin zum hochheiligen Leib des seligen Liborius und machte das feierliche Gelübde, an einem Ort namens Böddeken ein Kloster zu bauen und dort zum Dienst der Gottesgebärerin und des heiligen Liborius eine Gemeinschaft von gottgeweihten Frauen zu sammeln.^pAls dann diese fromme und allen Augenzeugen wohlgefällige Übergabe angesichts des genannten Bischofs Aldrich erfolgt war, die Folodag, Bischof Badurads Vogt, vor den Gefährten jenes Meinolf, dem Priester Adalbert, dem Diakon Aldrich und dem Subdiakon Drudwin als Zeugen entgegengenommen hatte, da fielen sie auf ihr Angesicht vor dem Altar des Herrn nieder zu Füßen des (nun verewigten) Bischofs Aldrich mit der Bitte, heimkehren zu dürfen.^pDer Oberhirte gab den Segen und vertraute ihnen dann vor allem Klerus und Volk den kostbaren Schatz an, auf dass er immer gebührend in Ehren gehalten würde.",
+            "patr_resp1": "Wenn du vollkommen sein willst, verkaufe, was du hast, und gib es den Armen; so wirst du einen Schatz im Himmel haben.",
+            "patr_resp2": "Dann komm und folge mir nach.",
+            "patr_resp3": "Keiner von euch ist mein Jünger, wenn er nicht auf seinen Besitz verzichtet."
+          },
+          "Laudes": {
+            "button": "Hl. Meinolf von°Böddeken/Paderborn",
+            "nominativ": "Der heilige Meinolf",
+            "genitiv": "des heiligen Meinolf"
+          }
+        }
+      }
+    },
     "1": {
       "21": {
         "d1": {
           "major": {
             "comm_1": "MärtSg",
-            "oration": "Herr, schenke uns in Freude die Erfüllung unserer Gebete; am Jahrestag des Leidens des heiligen Märtyrers Patroklus bitten wir dich; lass uns seine Standhaftigkeit im Glauben erlangen und in der Liebe zu dir wachsen.^ORV"
+            "oration": "Herr, schenke uns in Freude die Erfüllung unserer Gebete; am Jahrestag des Leidens des heiligen Märtyrers Patroklus bitten wir dich; lass uns seine Standhaftigkeit im Glauben erlangen und in der Liebe zu dir wachsen.^ORV",
+            "oration_lat": "Præsta, Dómine, précibus nostris cum exsultatióne provéntum, ut sancti mártyris Pátrocli, cuius diem passiónis ánnua devotióne recólimus, étiam fídei constántiam subsequámur et in amóre erga te crescamus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Papst Benedikt XVI. (1927–2022)",
@@ -15145,7 +15200,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "MärtSg",
-            "oration": "Gott, du hast dem seligen Märtyrer Nikolaus die Gnade geschenkt, seine Aufgabe in Familie und Gesellschaft aus christlichem Geist zu erfüllen. Auf dich hoffen auch wir: Mehre unseren Glauben, damit wir in rechter Weise den Anforderungen unserer Berufung entsprechen können.^ORV"
+            "oration": "Gott, du hast dem seligen Märtyrer Nikolaus die Gnade geschenkt, seine Aufgabe in Familie und Gesellschaft aus christlichem Geist zu erfüllen. Auf dich hoffen auch wir: Mehre unseren Glauben, damit wir in rechter Weise den Anforderungen unserer Berufung entsprechen können.^ORV",
+            "oration_lat": "Deus qui beáto Nicoláo, mártyri, ad familiáre et públicum munus spíritu christiáno exercéndum grátiam contulísti, auge fidem in te sperántium, ut nostræ vocatiónis offícia digne persólvere meréamus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Nikolaus Groß (1898–1945)",
@@ -15168,7 +15224,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Herr, unser Gott, du hast dem heiligen Bischof Julian den Geist des Rates und der Stärke verliehen, damit er die Kirche von Le Mans leite und im Glauben festige. Erleuchte auch uns, damit wir unsere Aufgabe erkennen und sie in der Kraft deines Geistes erfüllen.^ORV"
+            "oration": "Herr, unser Gott, du hast dem heiligen Bischof Julian den Geist des Rates und der Stärke verliehen, damit er die Kirche von Le Mans leite und im Glauben festige. Erleuchte auch uns, damit wir unsere Aufgabe erkennen und sie in der Kraft deines Geistes erfüllen.^ORV",
+            "oration_lat": "Dómine, Deus noster, qui sancto Iuliáno epíscopo spíritum consílii et fortitúdinis contulísti, ut Ecclésiam Cenomanénsem dirígeret et in fide firmáret, nos quoque, quǽsumus, illúmina, ut múnera nostra cognoscámus et virtúte Spíritus tui impleámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Paul Simon (1882–1946)",
@@ -15192,7 +15249,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Jgfr",
-            "oration": "Allmächtiger, gütiger Gott, der Glaube an die Gegenwart deines Sohnes im Sakrament des Altares hat die selige Jungfrau Maria Theresia gedrängt, die Nöte der Menschen ihrer Zeit wahrzunehmen und ohne Unterschied allen beizustehen, die ihrer Hilfe bedurften; erfülle auch uns mit dem Geist der Barmherzigkeit, damit wir dir in unseren notleidenden Schwestern und Brüdern dienen.^ORV"
+            "oration": "Allmächtiger, gütiger Gott, der Glaube an die Gegenwart deines Sohnes im Sakrament des Altares hat die selige Jungfrau Maria Theresia gedrängt, die Nöte der Menschen ihrer Zeit wahrzunehmen und ohne Unterschied allen beizustehen, die ihrer Hilfe bedurften; erfülle auch uns mit dem Geist der Barmherzigkeit, damit wir dir in unseren notleidenden Schwestern und Brüdern dienen.^ORV",
+            "oration_lat": "Omnípotens et miséricors Deus, qui beátam Mariam Terésiam, vírginem, in sacramentálem Christi præséntiam fide íntegra succénsam, ad fratres in omni necessitáte remóto discrímine sublevándos roborásti, da nobis, eiusdem spíritu caritátis, tibi in próximo indefésse ministráre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Maria Theresia Bonzel (1830–1905)",
@@ -15216,7 +15274,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Jgfr",
-            "oration": "Allmächtiger Gott, du hast uns in der seligen Pauline von Mallinckrodt ein leuchtendes Zeichen deiner Güte gegeben. Entzünde auf ihre Fürsprache auch in uns das Feuer der Liebe, damit wir allezeit dich suchen und den Menschen deine Liebe bezeugen.^ORV"
+            "oration": "Allmächtiger Gott, du hast uns in der seligen Pauline von Mallinckrodt ein leuchtendes Zeichen deiner Güte gegeben. Entzünde auf ihre Fürsprache auch in uns das Feuer der Liebe, damit wir allezeit dich suchen und den Menschen deine Liebe bezeugen.^ORV",
+            "oration_lat": "Omnípotens, sempitérne Deus, qui in Beáta Paulína de Mallinckrodt præclárum benignitátis tuæ signum ostendísti, ipsa intercedénte, concéde, ut, igne caritátis succénsi, te semper quærámus atque tuæ dilectiónis testes efficiámur in mundo.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Pauline von Mallinckrodt (1817–1881)",
@@ -15242,7 +15301,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Allmächtiger Gott, gib, dass wir das Gedächtnis des heiligen Bischofs Erkanbert würdig feiern; du hast ihn erwählt, dein Volk mit Wort und Tat zu leiten; lass uns stets die Hilfe seiner Fürsprache erfahren.^ORV"
+            "oration": "Allmächtiger Gott, gib, dass wir das Gedächtnis des heiligen Bischofs Erkanbert würdig feiern; du hast ihn erwählt, dein Volk mit Wort und Tat zu leiten; lass uns stets die Hilfe seiner Fürsprache erfahren.^ORV",
+            "oration_lat": "Da nobis, quǽsumus, omnípotens Deus, beáti Erkanbérti epíscopi digne memóriam venerári, et, sicut illum quibus prǽerat, verbo et exémplo prodésse voluísti, ita ipsíus apud te semper intercessiónis suffrágia sentiámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Papst Paul VI. (1897–1978)",
@@ -15264,7 +15324,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Herr und Gott, der heilige Papst Leo hat die Anfänge des kirchlichen Lebens in unserem Erzbistum gefestigt. Schütze auch in unserer Zeit die Kirche von Paderborn, und stärke ihre Einheit mit dem Bischof von Rom.^ORV"
+            "oration": "Herr und Gott, der heilige Papst Leo hat die Anfänge des kirchlichen Lebens in unserem Erzbistum gefestigt. Schütze auch in unserer Zeit die Kirche von Paderborn, und stärke ihre Einheit mit dem Bischof von Rom.^ORV",
+            "oration_lat": "Dómine Deus, qui per sanctum Leónem exórdia Ecclésiæ Paderbornénsis confirmásti, súpplices te rogámus, ut nostro quoque témpore Ecclésiam Paderbornénsem protégere eiúsque uniónem cum Pontífice Románo firmáre dignéris.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Franz Stock (1904–1948)",
@@ -15288,7 +15349,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Verborgener Gott, durch das Wirken deines Geistes hast du die Bischöfe Hathumar, Badurad und Meinwerk zu Zeugen des Evangeliums erwählt. Als gute Hirten haben sie Sorge getragen für die Kirche von Paderborn. Lass uns in der Kraft des Geistes ihren Glauben nachahmen und Zeugen dieser Liebe werden.^ORV"
+            "oration": "Verborgener Gott, durch das Wirken deines Geistes hast du die Bischöfe Hathumar, Badurad und Meinwerk zu Zeugen des Evangeliums erwählt. Als gute Hirten haben sie Sorge getragen für die Kirche von Paderborn. Lass uns in der Kraft des Geistes ihren Glauben nachahmen und Zeugen dieser Liebe werden.^ORV",
+            "oration_lat": "Omnípotens, sempitérne Deus, qui ecclésiam Paderbornénsem per sanctos Hathumárum et Badurádum atque beátum Meinwércum epíscopos ad evangélium perduxísti, da, quǽsumus, ut sanctis episcópis intercedéntibus pópulus tuus et in fide crescat et fructum áfferat in caritáte.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Caspar Klein (1865–1941)",
@@ -15310,7 +15372,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Frau",
-            "oration": "Vater im Himmel, du hast uns die heilige Ida zur Fürsprecherin gegeben. Als Frau und Mutter war sie ihrer Familie Vorbild im Glauben, als Witwe gab sie ein Beispiel der Frömmigkeit und Nächstenliebe. Gib auch uns die Kraft, dir in unserem Stand und Beruf treu zu dienen.^ORV"
+            "oration": "Vater im Himmel, du hast uns die heilige Ida zur Fürsprecherin gegeben. Als Frau und Mutter war sie ihrer Familie Vorbild im Glauben, als Witwe gab sie ein Beispiel der Frömmigkeit und Nächstenliebe. Gib auch uns die Kraft, dir in unserem Stand und Beruf treu zu dienen.^ORV",
+            "oration_lat": "Deus, qui beátam Idam famíliæ suæ fídei et matérnæ dilectiónis exémplar dedísti eámque viduátam exímia pietáte et erga próximos caritáte ornásti, præsta, quǽsumus, nobis, ut, de cuius patrocínio lætámur, eius méritis et intercessióne tibi fidéliter servíre valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Friedrich Normann (1924–1983)",
@@ -15330,7 +15393,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Mann_Ord",
-            "oration": "Gott, in deiner unaussprechlichen Barmherzigkeit hat der heiligen Adalhard den unergründlichen Reichtum der Liebe Christi verkündet; lass uns auf seine Fürsprache in deiner Erkenntnis wachsen, Frucht bringen in guten Werken und in der Wahrheit des Evangeliums treu vor dir wandeln.^ORV"
+            "oration": "Gott, in deiner unaussprechlichen Barmherzigkeit hat der heiligen Adalhard den unergründlichen Reichtum der Liebe Christi verkündet; lass uns auf seine Fürsprache in deiner Erkenntnis wachsen, Frucht bringen in guten Werken und in der Wahrheit des Evangeliums treu vor dir wandeln.^ORV",
+            "oration_lat": "Deus, cuius ineffábili misericórdia beátus Adalhárdus evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evángelii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Benedikt von Nursia († 547)",
@@ -15352,7 +15416,8 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
-            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren.^ORV"
+            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren.^ORV",
+            "oration_lat": "Deus, spes imbecillórum, in cuius honorem beátus póntifex Engelbértus tuéndo oppréssos vitam suam impéndit; præsta, quǽsumus, ut omnes, qui eius implórant auxílium, petitiónis suæ virtútem consequántur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Augustinus (354–430)",
@@ -15375,7 +15440,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Gott, unser Vater, du Ursprung alles Guten, dem seligen Bischof Niels Stensen hast du die Gnade geschenkt, deine wunderbare Weisheit in der Schöpfung zu erkennen und von der Hingabe deines Sohnes am Kreuz ganz erfüllt zu werden. Hilf uns auf seine Fürsprache, dass wir in unserer irdischen Pilgerschaft Christus, unserem einzigen Hirten, folgen und in der ewigen Vollendung dein Angesicht schauen dürfen.^ORV"
+            "oration": "Gott, unser Vater, du Ursprung alles Guten, dem seligen Bischof Niels Stensen hast du die Gnade geschenkt, deine wunderbare Weisheit in der Schöpfung zu erkennen und von der Hingabe deines Sohnes am Kreuz ganz erfüllt zu werden. Hilf uns auf seine Fürsprache, dass wir in unserer irdischen Pilgerschaft Christus, unserem einzigen Hirten, folgen und in der ewigen Vollendung dein Angesicht schauen dürfen.^ORV",
+            "oration_lat": "Deus, qui beáto Nicoláo epíscopo tuam in creátis sapiéntiam mirabíliter contemplári ac Fílii tui cruce inebriári donásti, eius, quǽsumus, intercessióne concéde, ut adhuc in terris peregrinántes Christum Pastórem únicum sequámur tuúmque in cælis vultum intuéri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Niels Stensen (1638–1686)",
@@ -15397,23 +15463,9 @@ export const calendarData: CalendarData = {
     "12": {
       "4": {
         "d1": {
-          "major": {
-            "comm_1": "Hirten",
-            "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Adolph Kolping (1813–1865)",
-            "patr_werk": "Aus einer Predigt zum Neujahrstag",
-            "patr_text": "^hDer Glaube an Gott und an die Menschen^pDie Menschen sind überhaupt nicht so schlecht, als man sie sich gern vormacht. Greift sie nur mal mit einer wahrhaft christlichen Hand an, ihr werdet von eurem Irrtum bald überzeugt sein. Wir haben das vielfach erfahren im Leben, erfahren es noch alle Tage, und während bei anderen Menschen der Glaube an die Menschen zu sinken scheint, sehen wir ihn, Gott sei Dank, wachsen.^pJa, wir glauben noch an die Menschen, besonders glauben wir noch an unsere arbeitende Jugend, trotz ihrer Fehler, trotz ihrer jeweiligen Verkommenheit, trotz der Verführung der Zeit. Und weil wir daran glauben, lässt es uns keine Ruhe, dafür zu wirken.^pWir glauben aber auch noch an mehr als an die Menschen, wir glauben auch an Gott, und weil wir daran glauben, weil wir das Christentum als tätiges Leben, als Wirken zum Heile verstehen, deshalb verlassen wir uns nicht auf uns, sondern auf die siegende Kraft des Christentums und halten es für eine Pflicht, dieser Gotteskraft dienstbar zu sein. Und weil so manches faul ist in dieser Welt, weil so vieles gebrochen und zerrissen ist im gesellschaftlichen Leben, deswegen wäre es für uns, die wir ans Christentum wirklich glauben, wahrlich Verrat an der Sache, wenn wir gerade jetzt nicht alle Kräfte anspannten, die eigenen und die gleichem Zwecke dienenden fremden, zu bessern und zu retten, was sich retten lässt.^pEs ist keine Zeit, zu feiern, zuzuschauen, gewähren zu lassen, bloß zu jammern und zu klagen, sondern es ist Zeit zu handeln, Zeit zu wirken, und zwar für jeden ohne Unterschied, wie es ihm nach Maßgabe seiner Kräfte und Mittel nur möglich ist. Da handelt es sich nicht darum, ob man alles kann, sondern ob man irgendetwas Ersprießliches zu leisten vermag, und kann man allein nichts, dann doch gewiss im Verein mit anderen.^pDas ist kein rechter Christ, der sich dieser gemeinsamen Tätigkeit entzieht, kein rechter Christ, der sich nicht gern und willig gemeinsamem Wirken anschließt und helfend schafft. Diejenigen, welche an Gott glauben, müssen dadurch auch an die Menschen glauben, und welche das Christentum lebendig glauben, müssen in seinem Geiste schaffen.",
-            "patr_resp1": "Wohl dem Mann, der gütig und zum Helfen bereit ist.",
-            "patr_resp2": "Er ordnet das Seine, wie es recht ist.",
-            "patr_resp3": "Niemals gerät er ins Wanken; ewig denkt man an den Gerechten."
-          },
           "Laudes": {
-            "button": "Sel. Adolph Kolping",
-            "nominativ": "Der selige Adolph Kolping",
-            "genitiv": "des seligen Adolph Kolping",
-            "vokativ": "Seliger Adolph Kolping"
+            "referenz": "AAA-12-4-n3",
+            "button": "Sel. Adolph Kolping"
           }
         }
       },
@@ -15421,7 +15473,8 @@ export const calendarData: CalendarData = {
         "d1": {
           "major": {
             "comm_1": "Mann_Ord",
-            "oration": "Herr und Gott, durch das Wirken des heiligen Abtes Sturmius hast du unsere Heimat zum Glauben berufen. Lass seine Fürsprache, die er sterbend seinen Brüdern zugesagt hat, auch uns zugutekommen, damit unser Glaube zunehme und fruchtbar werde in der Liebe.^ORV"
+            "oration": "Herr und Gott, durch das Wirken des heiligen Abtes Sturmius hast du unsere Heimat zum Glauben berufen. Lass seine Fürsprache, die er sterbend seinen Brüdern zugesagt hat, auch uns zugutekommen, damit unser Glaube zunehme und fruchtbar werde in der Liebe.^ORV",
+            "oration_lat": "Deus, qui per beátum Stúrmium abbátem patres nostros vocásti ad fidem, præsta, quǽsumus, ut ipsíus intercéssio, quam frátribus ex hac vita migratúrus promísit, nobis profíciat ad augmentum fídei in caritáte fecúndæ.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Eigil († 822)",
