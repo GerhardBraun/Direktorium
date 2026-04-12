@@ -22,8 +22,22 @@ Es können aber bis zu drei Hymnen zur Auswahl stehen.
 
 # Psalmodie
 Grundmuster: drei Psalmen mit je eigener Antiphon, die vor und nach dem Psalm gebetet wird
+## Elemente
+Psalm 1-3
+Antiphon 1-3 bzw. Antiphon 0 (gemeinsame Antiphon für alle drei Psalmen, s.u.)
 
 ## Psalmen
+### Elemente
+Content: in verschiedenen Sprachen/Übersetzungen:
+1. wie im Stundenbuch (Einheitsübersetzung von 1982) (Standard)
+2. lateinische wie in der Liturgia Horarum (Nova Vulgata)
+3. Münsterschwarzacher Psalter/Benediktinisches Antiphonale
+4. neue Einheitsübersetzung von 2016/2017
+Verses: wenn nicht alle Verse ins Stundengebet übernommen werden oder der Psalm in mehrere Abschnitte aufgeteilt ist
+Title
+Quote: Zitat für biblischen/theologischen Kontext
+NoDoxology: bestimmte Psalmen (157 und 160) werden nicht mit "Ehre sei dem Vater ..." abgeschlossen (in der App ist das in formatPsalm implementiert, kann aber sicherer in der Datenbank hinterlegt werden)
+
 ### abweichende Anzahl der Psalmen
 Invitatorium: nur ein Psalm,
 Komplet am Mi und Sa (1. Vp vom Sonntag) zwei Psalmen, sonst nur ein Psalm
@@ -40,12 +54,27 @@ Sie werden in der Zeit im Jahreskreis durch andere ersetzt. *Layer:* pj-week-day
 *in PsalmHymns.ts:* Psalmabschnitte mit dreistelligem Dezimalanteil, `^(`- und `^)`-Marker.
 *Layers:* pj-week-day, pa-week-day, po-week-day
 
-### Aufteilung von Psalmen in mehrere Abschnitte
+### Verknüpfungen zugunsten der Datenpflege
+1. Längere Psalmen sind gelegentlich in zwei oder drei Abschnitte aufgeteilt.
+Zugunsten der Datenpflege könnte es sinnvoll sein, Verknüpfungen zu verwenden, wo ein Psalm sowohl im vollen Umfang wie auch aufgeteilt Verwendung findet; dann müsste eine etwaige Korrektur nur an einer Stelle vorgenommen werden und wir an einer Parallelstelle nicht vergessen.
+*Beispiel:* Psalm 17.0 = 17.1 + `^p` + 17.2
+auch bei Psalm 22, 27, 30, 33, 38, 40, 45, 72, 76, 92, 96, 145.4=1+2,
+Sonderfall bei Psalm 42.9, 55.1=3+4a.2=4b+5, 86.1, 118.4=1+2.9, 144.3=1+2a,
 
+2. Ein ähnlicher Fall liegt vor, wo der Anfang des Psalmes mit Klammern eingeschlossen wird, weil die Antiphon textgleich ist:
+*Beispiel:* Psalm 18.0 = 18.101 ohne `^(`und `^)`;
+auch bei Psalm 27, 33, 42, 48, 65, 68, 72, 73, 81, 84, 88, 89, 93, 97, 108, 119.205, 120, 122, 130, 145, 147
 
 ### Inline-Marker für den Gesang
+Diese Marker sind so gewählt, dass derselbe Quelltext
+1. für die Darstellung mit der Gesangsnotation genutzt werden kann,
+2. aber auch, von den Markern bereinigt, für die normale Textdarstellung.
 
 ## Antiphonen
+### Elemente
+Content: eigentlicher Text
+Mode: zugeordneter Psalmton nach dem Antiphonale zum Stundenbuch
+
 ### gemeinsame Antiphon für alle Psalmen: `ant0`
 in den Geprägten Zeiten (alle außer Jahreskreis: Advent, Weihnachtszeit, Fastenzeit, Osterzeit):
 in den Kleinen Horen (Terz, Sext, Non) und in der Komplet
@@ -61,8 +90,29 @@ an den Sonntagen der Geprägten Zeiten: *Layer:* season-week-0
 
 # Versikel (nur in der Lesehore)
 immer ein V- und ein R-Teil: `versikel0` und `versikel1`
+*wie nach der Kurzlesung in Terz/Sext/Non*
 
 # Kurzlesung/Erste Lesung
+## Elemente
+Book
+Reference: Kapitel und Verse
+Content: in verschiedenen Sprachen/Übersetzungen:
+1. wie im Stundenbuch (Einheitsübersetzung von 1982) (Standard)
+2. lateinische wie in der Liturgia Horarum (Nova Vulgata)
+3. neue Einheitsübersetzung von 2016/2017
+Die Lesungen der Lesehore gibt es bis auf Weiteres nur in der alten Einheitsübersetzung.
+
+### Alternativen zur Auswahl
+An wenigen Tagen gibt es für die Erste Lesung der Lesehore eine Alternative zur Auswahl.
+Eine größere Auswahl gibt es in manchen Fällen für die Evangelien in der Vigil.
+vgl. `LectureSelector.js`und `LectureAlternatives.ts`
+
+## verwendete Marker
+`^h` Überschriften
+`^p` normaler Absatz
+`^l` Zeilenwechsel
+`°` geschützte Leerzeichen
+
 
 # Responsorium/Versikel/Antiphon
 ## Elemente
@@ -85,6 +135,7 @@ Ehre sei dem Vater ...  *– R*
 ### Terz/Sext/Non
 *V* Call1
 *R* Response1
+(wie das Versikel in der Lesehore)
 
 ### Sonderfälle
 #### Laudes/Vesper/Komplet in Triduum paschale und Osteroktav
@@ -105,6 +156,24 @@ Er wird hier analog zu *R* und *V* zur Kennzeichnung des Textteils verwendet, de
 Deshalb wird er hier wie *R* und *V* in Rubrikenfarbe dargestellt und durch ein geschütztes Leerzeichen mit dem folgenden Response-Text verbunden, während er im Psalm in Textfarbe dargestellt wird und durch geschütztes Leerzeichen mit dem vorhergehenden Psalmtext verbunden ist.
 
 # Zweite Lesung (nur in der Leshore)
+## Elemente
+Author
+Title
+Content
+
+### Alternativen zur Auswahl
+An wenigen Tagen gibt es für die Zweite Lesung eine Alternative zur Auswahl.
+vgl. `LectureSelector.js`und `LectureAlternatives.ts`
+
+## verwendete Marker
+`^h` Überschriften
+`^p` normaler Absatz
+`^l` Zeilenwechsel
+`°` geschützte Leerzeichen
+
+## Fußnoten als Inline-Marker
+codiert mit {N#Text}
+Die Fußnoten können inline angezeigt werden oder als echte Fußnoten mit Ziffern im Text und Zusammenstellung aller Fußnoten am Ende des Textes. `prefFootnotes` als State und im LocalStorage
 
 # Responsorium zur Zweiten Lesung (nur in der Lesehore)
 Eigenschaften wie oben beim ersten Responsorium
