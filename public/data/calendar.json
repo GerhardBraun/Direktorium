@@ -2819,11 +2819,11 @@
             "button": "Hl. Patrick",
             "genitiv": "des heiligen Patrick",
             "genitiv_lat": "sancti Patrícii",
-            "antev": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.",
+            "ant_komm": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.",
             "antev_lat": "Eúntes, docéte omnes gentes, baptizántes eos in nómine Patris et Fílii et Spíritus Sancti."
           },
           "Vesper": {
-            "antev": "Viele werden kommen vom Osten und vom Westen und mit Abraham, Isaak und Jakob zu Tische sitzen im Himmelreich.",
+            "ant_komm": "Viele werden kommen vom Osten und vom Westen und mit Abraham, Isaak und Jakob zu Tische sitzen im Himmelreich.",
             "antev_lat": "Multi ab oriénte et occidénte vénient, et recúmbent cum Abraham, Isaac et Iacob in regno cælórum."
           },
           "Messe": {
@@ -3102,11 +3102,11 @@
             "nominativ": "Der heilige Franz",
             "genitiv": "des heiligen Franz von Paola",
             "genitiv_lat": "sancti Francísci",
-            "antev": "Siehe, ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und mir öffnet, zu dem trete ich ein und halte Mahl mit ihm, und er mit mir.",
+            "ant_komm": "Siehe, ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und mir öffnet, zu dem trete ich ein und halte Mahl mit ihm, und er mit mir.",
             "antev_lat": "Ecce sto ad óstium, et pulso: si quis audíerit vocem meam et aperúerit mihi iánuam, intrábo ad illum et cenábo cum illo, et ipse mecum.^LÖ"
           },
           "Vesper": {
-            "antev": "Böte einer für die Liebe den ganzen Reichtum seines Hauses, nur verachten würde man ihn.",
+            "ant_komm": "Böte einer für die Liebe den ganzen Reichtum seines Hauses, nur verachten würde man ihn.",
             "antev_lat": "Si déderit homo omnem substántiam domus suæ pro dilectióne, quasi nihil despíciet eam.^LÖ"
           },
           "Messe": {
@@ -3300,8 +3300,8 @@
           },
           "Lesehore": {
             "patr_autor": "Martin I. (†°655)",
-            "patr_werk": "Aus einem Brief.",
-            "patr_text": "^hDer Herr ist nahe, was sorge ich mich?^pWir sind voll Sehnsucht, durch Unsere Briefe eure Liebe immer wieder zu trösten und euch die Sorge zu lindern, die ihr Unseretwegen habt, und mit euch alle Heiligen, Unsere Brüder, die um des Herrn willen um Uns besorgt sind. Seht, ich schreibe euch, was uns gegenwärtig bedrängt. Ich sage die Wahrheit im Namen Christi, Unseres Gottes.^pAus allem irdischen Wirbel herausgenommen und unseren Sünden entrückt, seht, müssen wir sogar das Leben entbehren. Die Bewohner dieser Gegend sind alle Heiden, und die sonst hier leben, haben heidnische Sitten angenommen, besitzen keine Liebe, nicht einmal die, welche die menschliche Natur selbst unter den Barbaren durch häufiges Mitleid beweist.^pIch wunderte mich aber und wundere mich noch über die Rücksichtslosigkeit und Mitleidlosigkeit aller, die ehedem zu uns gehörten, sowohl meiner Verwandten als auch meiner Freunde. Sie haben mich in meinem Unglück gründlich vergessen. Sie wollen nicht wissen, wo ich mich befinde, gleich ob ich noch auf der Erde bin oder nicht. Mit welchem Gewissen, denkst du, können wir vor den Richterstuhl Christi treten, wenn dann alle Menschen Anklage gegen mich erheben und Zeugnis (wider mich) ablegen, sie alle, die doch aus dem gleichen Lehm und Stoff bestehen? Welche Furcht hat die Menschen befallen, dass sie die Gebote Gottes nicht erfüllen! Welche Furcht, wo doch nichts zu fürchten ist?{1#Ps 53,6} Oder decken uns die bösen Geister derart mit Verleumdung zu? Hält mich die ganze Kirche für ihren Feind und Gegner?^pDoch Gott, der „will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen“{2#1°Tim 2,4}, möge ihre Herzen auf die Fürsprache des heiligen Petrus im rechten Glauben festigen und stark machen gegen alle Irrlehrer und alle Feinde unserer Kirche. Er möge sie unerschüttert bewahren, besonders den Hirten, der ihnen jetzt als Vorsteher gezeigt wird. Davon sollen sie keinesfalls abfallen oder abweichen. Sie sollen nichts, nicht das Geringste von dem aufgeben, was sie vor Gott und den heiligen Engeln bekannt haben. Sie sollen zusammen mit meiner Niedrigkeit den Kranz des rechten Glaubens erlangen aus der Hand unseres Herrn und Heilandes Jesus Christus.^pFür diesen meinen hinfälligen Leib wird der Herr selber sorgen, wie es ihm zu verfügen gefällt, sei es, dass er ihn in unablässiger Bedrängnis lässt oder ihm ein wenig Erholung gewährt. Der Herr ist nahe, was sorge ich mich?{3#vgl.°Phil 4,5} Ich hoffe auf sein Erbarmen. Er wird nicht zögern, meinen Lauf dort zu beenden, wohin er ihn befohlen hat.^pGrüßt all die Euren im Namen des Herrn und alle, die aus Liebe zu Gott Mitleid mit meinen Fesseln haben. Der höchste Gott beschütze euch mit seiner machtvollen Hand und rette euch und führe euch in sein Reich.",
+            "patr_werk": "Aus einem Brief aus seiner Gefangenschaft.",
+            "patr_text": "^hDer Herr ist nahe, was sorge ich mich?^pWir sind voll Sehnsucht, durch unsere Briefe eure Liebe immer wieder zu trösten und euch die Sorge zu lindern, die ihr unseretwegen habt, und mit euch alle Heiligen, unsere Brüder, die um des Herrn willen um uns besorgt sind. Seht, ich schreibe euch, was uns gegenwärtig bedrängt. Ich sage die Wahrheit im Namen Christi, unseres Gottes.^pAus allem irdischen Wirbel herausgenommen und unseren Sünden entrückt, seht, müssen wir sogar das Leben entbehren. Die Bewohner dieser Gegend sind alle Heiden, und die sonst hier leben, haben heidnische Sitten angenommen, besitzen keine Liebe, nicht einmal die, welche die menschliche Natur selbst unter den Barbaren durch häufiges Mitleid beweist.^pIch wunderte mich aber und wundere mich noch über die Rücksichtslosigkeit und Mitleidlosigkeit aller, die ehedem zu uns gehörten, sowohl meiner Verwandten als auch meiner Freunde. Sie haben mich in meinem Unglück gründlich vergessen. Sie wollen nicht wissen, wo ich mich befinde, gleich ob ich noch auf der Erde bin oder nicht.^pMit welchem Gewissen, denkst du, können wir vor den Richterstuhl Christi treten, wenn dann alle Menschen Anklage gegen mich erheben und Zeugnis (wider mich) ablegen, sie alle, die doch aus dem gleichen Lehm und Stoff bestehen? Welche Furcht hat die Menschen befallen, dass sie die Gebote Gottes nicht erfüllen? Welche Furcht, wo doch nichts zu fürchten ist?{1#Ps 53,6} Oder decken uns die bösen Geister derart mit Verleumdung zu? Hält mich die ganze Kirche für ihren Feind und Gegner?^pDoch Gott, der „will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen“{2#1°Tim 2,4}, möge ihre Herzen auf die Fürsprache des heiligen Petrus im rechten Glauben festigen und stark machen gegen alle Irrlehrer und alle Feinde unserer Kirche. Er möge sie unerschüttert bewahren, besonders den Hirten, der ihnen jetzt als Vorsteher gezeigt wird. Davon sollen sie keinesfalls abfallen oder abweichen. Sie sollen nichts, nicht das Geringste von dem aufgeben, was sie vor Gott und den heiligen Engeln bekannt haben. Sie sollen zusammen mit meiner Niedrigkeit den Kranz des rechten Glaubens erlangen aus der Hand unseres Herrn und Heilandes Jesus Christus.^pFür diesen meinen hinfälligen Leib wird der Herr selber sorgen, wie es ihm zu verfügen gefällt, sei es, dass er ihn in unablässiger Bedrängnis lässt oder ihm ein wenig Erholung gewährt. Der Herr ist nahe, was sorge ich mich?{3#vgl.°Phil 4,5} Ich hoffe auf sein Erbarmen. Er wird nicht zögern, meinen Lauf dort zu beenden, wohin er ihn befohlen hat.^pGrüßt all die Euren im Namen des Herrn und alle, die aus Liebe zu Gott Mitleid mit meinen Fesseln haben. Der höchste Gott beschütze euch mit seiner machtvollen Hand und rette euch und führe euch in sein Reich.",
             "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet;",
             "patr_resp2": "jetzt liegt für mich der Kranz der Gerechtigkeit bereit.^Ö",
             "patr_resp3": "Ich sehe alles als Verlust an, um Christus zu erkennen und die Gemeinschaft mit seinem Leiden. Sein Tod soll mich prägen."
@@ -15340,7 +15340,7 @@
     },
     "12": {
       "4": {
-        "d1": {
+        "d": {
           "Laudes": {
             "referenz": "AAA-12-4-n3",
             "button": "Sel. Adolph Kolping"

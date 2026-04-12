@@ -1,4 +1,15 @@
+# Grundsätzliche Fragen
+## Aufteilung von Backend und Frontend
+Soll das aus dem Backend übergebene texts-Objekt möglichst klein sein?
+Oder sollen auch die Ordinariumstexte, die nicht oder kaum variabel sind, darin enthalten sein?
+Sollen möglichst alle Berechnungen im Backend stattfinden
+und im Frontend nur das, was von User-Entscheidungen abhängt?
+
+## Speicherung von User-Präferenzen
+Nutzt die künftige Anwendung auch den localStorage?
+
 # PreliminaryNotes
+
 # Eröffnung
 Ordinarium
 grundsätzlich in allen Horen gleicher Text
@@ -8,7 +19,7 @@ Dieser Text wird auch in der Lesehore und in den Laudes angezeigt, aber nur, wen
 *Implementierung in der App:* `lastVisit`im localStorage
 
 # Schuldbekenntnis (nur in der Komplet)
-Ordinarium: täglich gleicher Text, keine Varianten
+Ordinarium: täglich gleicher Text, keine Variationen
 deutsche und lateinische Textfassung
 UI: aus-/einblenden
 
@@ -17,8 +28,15 @@ Grundsätzlich gibt es zu jeder Hore einen Hymnus.
 Es können aber bis zu drei Hymnen zur Auswahl stehen.
 
 ## Lesehore: In der Nacht oder am frühen Morgen
+zusätzliche Hymnus
+nur in der Zeit im Jahreskreis
 
 ## Kleines Stundenbuch: abweichende Laudes- und Vesperhymnen
+abweichende Hymnenauswahl im Kleinen Stundenbuch
+wird aus Kompatibilitätsgründen angezeigt
+nur in der Zeit im Jahreskreis
+in den Laudes: Woche II, III, IV
+in der Vesper: Woche III, IV
 
 # Psalmodie
 Grundmuster: drei Psalmen mit je eigener Antiphon, die vor und nach dem Psalm gebetet wird
@@ -56,7 +74,7 @@ Sie werden in der Zeit im Jahreskreis durch andere ersetzt. *Layer:* pj-week-day
 
 ### Verknüpfungen zugunsten der Datenpflege
 1. Längere Psalmen sind gelegentlich in zwei oder drei Abschnitte aufgeteilt.
-Zugunsten der Datenpflege könnte es sinnvoll sein, Verknüpfungen zu verwenden, wo ein Psalm sowohl im vollen Umfang wie auch aufgeteilt Verwendung findet; dann müsste eine etwaige Korrektur nur an einer Stelle vorgenommen werden und wir an einer Parallelstelle nicht vergessen.
+Zugunsten der Datenpflege könnte es sinnvoll sein, Verknüpfungen zu verwenden, wo ein Psalm sowohl im vollen Umfang wie auch aufgeteilt Verwendung findet; dann muss eine etwaige Korrektur nur an einer Stelle vorgenommen werden und wird an einer Parallelstelle nicht vergessen.
 *Beispiel:* Psalm 17.0 = 17.1 + `^p` + 17.2
 auch bei Psalm 22, 27, 30, 33, 38, 40, 45, 72, 76, 92, 96, 145.4=1+2,
 Sonderfall bei Psalm 42.9, 55.1=3+4a.2=4b+5, 86.1, 118.4=1+2.9, 144.3=1+2a,
