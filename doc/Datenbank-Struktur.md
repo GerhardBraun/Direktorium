@@ -24,19 +24,38 @@ deutsche und lateinische Textfassung
 UI: aus-/einblenden
 
 # Hymnus
-Grundsätzlich gibt es zu jeder Hore einen Hymnus.
+## Elemente
+Content
+Content_lat
+Title (Beschriftung für den Button im HymnSelector)
+Rubric (einleitender Hinweis, in der App mit Inline-Marker implementiert)
+### Trennung von Deutsch und Latein
+Content und Content_lat können in der Regel bei einem Hymnus nicht gleichzeitig gegeben sein, weil die Verwendung nicht parallel ist.
+Möglich ist die gleichzeitige Verwendung bei Eigen-Hymnen zu Heiligenfesten; das kommt bei Eigenfeiern der Diözesen vor.
+
+## Anzahl und Zuordnung
+Grundsätzlich gibt es pro Source und Hore einen Hymnus.
 Es können aber bis zu drei Hymnen zur Auswahl stehen.
 
-## Lesehore: In der Nacht oder am frühen Morgen
+### Lesehore: In der Nacht oder am frühen Morgen
 zusätzliche Hymnus
 nur in der Zeit im Jahreskreis
 
-## Kleines Stundenbuch: abweichende Laudes- und Vesperhymnen
+### Kleines Stundenbuch: abweichende Laudes- und Vesperhymnen
 abweichende Hymnenauswahl im Kleinen Stundenbuch
 wird aus Kompatibilitätsgründen angezeigt
 nur in der Zeit im Jahreskreis
 in den Laudes: Woche II, III, IV
 in der Vesper: Woche III, IV
+
+### Geprägte Zeiten
+Für jede Kirchenjahreszeit (Advent, Weihnachten, Fastenzeit, Osterzeit) gibt es mindestens einen, meist zwei, gelegentlich drei Hymnen pro Hore zur Auswahl, die innerhalb der Jahreszeit jeden Tag gleich sind.
+Es gibt meistens für die letzten Tage der Jahreszeit (`season-last-day`) eigene Hymnen.
+
+### Lateinische Hymnen
+Im Lateinischen gibt es gelegentlich eine Unterscheidung für Sonntag und Werktag.
+Es gibt mehr eigene Hymnen zu Heiligenfesten.
+
 
 # Psalmodie
 Grundmuster: drei Psalmen mit je eigener Antiphon, die vor und nach dem Psalm gebetet wird
@@ -91,7 +110,10 @@ Diese Marker sind so gewählt, dass derselbe Quelltext
 ## Antiphonen
 ### Elemente
 Content: eigentlicher Text
+1. deutsch
+2. lateinisch
 Mode: zugeordneter Psalmton nach dem Antiphonale zum Stundenbuch
+ComplementHalleluja (anstelle der Inline-Marker `^Ö`, `^LÖ`): `false`, `true`, `onlyEaster`
 
 ### gemeinsame Antiphon für alle Psalmen: `ant0`
 in den Geprägten Zeiten (alle außer Jahreskreis: Advent, Weihnachtszeit, Fastenzeit, Osterzeit):

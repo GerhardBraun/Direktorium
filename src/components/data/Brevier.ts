@@ -125,7 +125,7 @@ export const brevierData = {
           "ant2": "Unser König wird kommen, Christus, den Johannes verkündet hat als das Lamm Gottes.",
           "ant3": "So spricht der Herr: Siehe, ich komme bald, und mit mir kommt mein Lohn. Ich werde jedem vergelten nach seinem Tun.",
           "antev": "Fürchte dich nicht, Maria, du hast Gnade gefunden beim Herrn. Siehe, du wirst empfangen und einen Sohn gebären.^ö",
-          "ant1_lat": "Iucundáre, fília Sion, et exsúlta satis, fília Ierúsalem.^Ö",
+          "ant1_lat": "Iucundáre, fília Sion, et exsúlta satis, fília Ierúsalem.^LÖ",
           "ant2_lat": "Rex noster advéniet Christus, quem Ioánnes prædicávit Agnum esse ventúrum.",
           "ant3_lat": "Ecce vénio cito, et merces mea mecum est, dicit Dóminus: dare unicuíque secúndum ópera sua.",
           "anta_lat": "Spíritus Sanctus in te descéndet, María: ne tímeas, habébis in útero Fílium Die.^Lö",
@@ -3648,7 +3648,7 @@ export const brevierData = {
           "resp1_lat": "Lætítia sempitérna super cápita eórum.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Gáudium et exsultatiónem obtinébunt.",
-          "antev_lat": "Gaudéte et exsultáte, omnes sancti, quóniam merces vestra copiósa est in cælis.^ö",
+          "antev_lat": "Gaudéte et exsultáte, omnes sancti, quóniam merces vestra copiósa est in cælis.^Lö",
           "les_text_lat": "Hæc est cáritas Dei, ut mandáta eius servémus; et mandáta eius grávia non sunt, quóniam omne, quod natum est ex Deo, vincit mundum; et hæc est victória, quæ vicit mundum: fides nostra. Quis est qui vincit mundum, nisi qui credit quóniam Iesus est Fílius Dei?"
         },
         "Terz": {
@@ -4121,7 +4121,7 @@ export const brevierData = {
           "resp1_lat": "Lætítia sempitérna super cápita eórum.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Gáudium et exsultatiónem obtinébunt.",
-          "antev_lat": "Gaudéte et exsultáte, omnes sancti, quóniam merces vestra copiósa est in cælis.^ö",
+          "antev_lat": "Gaudéte et exsultáte, omnes sancti, quóniam merces vestra copiósa est in cælis.^Lö",
           "les_text_lat": "Hæc est cáritas Dei, ut mandáta eius servémus; et mandáta eius grávia non sunt, quóniam omne, quod natum est ex Deo, vincit mundum; et hæc est victória, quæ vicit mundum: fides nostra. Quis est qui vincit mundum, nisi qui credit quóniam Iesus est Fílius Dei?"
         },
         "Terz": {
