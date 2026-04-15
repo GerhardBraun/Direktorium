@@ -8498,7 +8498,7 @@ export const brevierData = {
           "antev_lat": "Ego sum alpha et ómega, primus et novíssimus; ego sum radix et genus David, stella spléndida et matutína.^LÖ"
         },
         "Vesper": {
-          "antev": "Brannte uns nicht das Herz, als Jesus unterwegs mit uns redete.^ö",
+          "antev": "Brannte uns nicht das Herz, als Jesus unterwegs mit uns redete?^ö",
           "modeev": "I",
           "antev_lat": "Nonne cor nostrum ardens erat in nobis, dum Iesus loquerétur nobis in via?^LÖ"
         }

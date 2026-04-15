@@ -3547,6 +3547,14 @@ export const deceasedData =  {
         "birth": "19.°August°1932°in°Furth°im°Wald (D¥-93437)",
         "grave": "Friedhof°Großentaft",
         "age": 76
+      },
+      {
+        "year": 2026,
+        "birthdate": "2241-06-14",
+        "name": "Klaus°Peter°Jung, Pfr.i.R., GR, Tann¥-Lahrbach",
+        "birth": "14.°Juni°1941°in°Mährisch¥-Schönberg (Šumperk,°CZ¥-787°01)",
+        "grave": "",
+        "age": 84
       }
     ],
     "15": [
@@ -9857,7 +9865,7 @@ export const deceasedData =  {
       {
         "year": 2025,
         "birthdate": "2258-09-22",
-        "name": "P.°Ivan°Kovačević°OFMConv, Hanau",
+        "name": "P.°Ivan°Kovačević°OFMConv, Seelsorger°der°Kroatischen°Mission in°Hanau",
         "birth": "22.°September°1958°in°Zahum (BiH¥-88440°Prozor¥-Rama)",
         "grave": "Krypta°der°Heilig¥-Geist¥-Kapelle in°Zagreb",
         "age": 67

@@ -190,6 +190,10 @@ Hier gibt es nicht nur 1, sondern 3 Call-Response-Paare sowie die Doxologie als 
 *V* Ehre sei dem Vater ...
 *R* Call0 *\** Response1 *\** Response2 *\** Response3
 
+#### Commune-Texte in der Osterzeit
+Call0 und Response1 werden zusammengezogen und als Call0 angezeigt;
+als Response1 wird "Halleluja,°halleluja." bzw. "Allelúia, allelúia." angezeigt.
+
 ## Asteriskus: Bedeutung und Darstellung
 Der Asteriskus (\*) hat beim Responsorium eine grundlegend andere Bedeutung als in den Psalmversen.
 Er wird hier analog zu *R* und *V* zur Kennzeichnung des Textteils verwendet, der wiederholt wird (Response).
