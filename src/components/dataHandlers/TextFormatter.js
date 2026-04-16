@@ -605,7 +605,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
         .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
         .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
-        .replace(/^›|\^<|\$|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
+        .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/(?<!\^)(?<!\^0)([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
@@ -633,6 +633,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
+        .replace(/\$/g, '')
         .replace(/\^Ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^LÖ/g, season === 'o' ? ' Allelúia.' : '')
