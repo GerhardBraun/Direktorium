@@ -196,11 +196,11 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverr
                 />
                 : <>
                     {text && <div className="whitespace-pre-wrap">
-                        {formatPrayerText(text, localPrefLanguage)}
+                        {formatPrayerText({ provText: text, localPrefLanguage })}
                     </div>}
                     {(![157, 160].includes(number) || (number === 157 && localPrefLanguage === "_lat")) &&
                         <div className="whitespace-pre-wrap">
-                            {formatPrayerText(doxology, localPrefLanguage)}
+                            {formatPrayerText({ provText: doxology, localPrefLanguage })}
                         </div>}
                 </>
             }
@@ -217,13 +217,13 @@ const formatQuote = (quote) => {
     // alles ab der letzten öffnenden Klammer bis zur schließenden Klammer ist die Quelle
     const match = quote.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
 
-    if (!match) return formatPrayerText(quote)
+    if (!match) return formatPrayerText({ provText: quote })
 
     const [, quoteText, sourceText] = match;
-    if (!sourceText.includes(',')) return formatPrayerText(quote)
+    if (!sourceText.includes(',')) return formatPrayerText({ provText: quote })
     return (
         <div>
-            {formatPrayerText(quoteText.trim()) + ' '}
+            {formatPrayerText({ provText: quoteText.trim() }) + ' '}
             {formatBibleRef(sourceText.trim(), true)}
         </div>
     );
@@ -346,12 +346,12 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
             </div>
             {text && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText(text, '_cant', 'cant' + selectedMode)}
+                    {formatPrayerText({ provText: text, localPrefLanguage: '_cant', marker: 'cant' + selectedMode })}
                 </div>
             )}
             {showDoxology && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText(doxology, '_cant', 'cant' + selectedMode)}
+                    {formatPrayerText({ provText: doxology, localPrefLanguage: '_cant', marker: 'cant' + selectedMode })}
                 </div>
             )}
         </>
@@ -359,9 +359,9 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
-    hour = '', texts = {},
-    prefSrc = '', widthForHymns = false) => {
+export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLatin = false,
+    marker = '', hour = '', texts = {},
+    prefSrc = '', widthForHymns = false }) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
 
     // Cant-Modus: abstrakte Gesangsmarker in ^u/^b-Tags umwandeln
@@ -634,10 +634,10 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
         .replace(/\$/g, '')
-        .replace(/\^Ö/g, season === 'o' ? ' Halleluja.' : '')
-        .replace(/\^ö/g, season === 'q' ? '' : ' Halleluja.')
-        .replace(/\^LÖ/g, season === 'o' ? ' Allelúia.' : '')
-        .replace(/\^Lö/g, season === 'q' ? '' : ' Allelúia.')
+        .replace(/\^Ö|\^HALLo/g, season === 'o' ? ' Halleluja.' : '')
+        .replace(/\^ö|\^HALLxq/g, season === 'q' ? '' : ' Halleluja.')
+        .replace(/\^LÖ|\^ALLo/g, season === 'o' ? ' Allelúia.' : '')
+        .replace(/\^Lö|\^ALLxq/g, season === 'q' ? '' : ' Allelúia.')
 
     text = replaceNames(text)
     text = replaceRESP(text);

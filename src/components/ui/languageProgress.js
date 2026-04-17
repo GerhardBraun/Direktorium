@@ -47,7 +47,7 @@ const LanguageProgress = () => {
                                 display: 'flex', flexDirection: 'column', gap: '0px',
                                 whiteSpace: 'normal', margin: 0
                             }}>
-                                {formatPrayerText(progressText)}
+                                {formatPrayerText({ provText: progressText })}
                                 <div style={{
                                     paddingTop: '8px',
                                     borderTop: '1px solid #d1d5db',

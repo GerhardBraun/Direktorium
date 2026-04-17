@@ -248,12 +248,12 @@ function getOpeningTexts(hour, localPrefLanguage) {
         "Deus, in adiutórium meum inténde.",
         "Dómine, ad adiuvándum me festína.",
         "Glória Patri et Fílio et Spirítui Sancto.",
-        "Sicut erat in princípio, et nunc et semper, et°in°sǽcula°sæculórum.°Amen.^Lö"
+        "Sicut erat in princípio, et nunc et semper, et°in°sǽcula°sæculórum.°Amen.^ALLxq"
     ] : [
         "O Gott, komm mir zu Hilfe.",
         "Herr, eile, mir zu helfen.",
         "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist.",
-        "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^ö"
+        "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^HALLxq"
     ];
 }
 

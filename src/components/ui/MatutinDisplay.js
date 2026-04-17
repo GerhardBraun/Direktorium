@@ -1,11 +1,12 @@
 import React from 'react';
 import { ordinarium } from '../utils/ordinarium.js';
-import { formatPsalm, formatPrayerText } from '../dataHandlers/TextFormatter.js';
+import { formatPsalm } from '../dataHandlers/TextFormatter.js';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 
 const MatutinDisplay = ({
     texts,
     localPrefLanguage = '',
+    formatPrayerText,
     TitleBar,
     NavigationButtons,
     onBack,
@@ -18,7 +19,7 @@ const MatutinDisplay = ({
         matPsalm, matAnt, matOration }
         = ordinarium('matutin', 'lesehore', localPrefLanguage, true);
     const { closing, vu: TeDeum } = ordinarium(texts, 'lesehore', localPrefLanguage, true);
-    const ordinalZahlen = ['ERSTE', 'ZWEITE', 'DRITTE', 'VIERTE']
+    const ordinalZahlen = ['ERSTE', 'ZWEITE', 'DRITTE', 'VIERTE'];
 
     return (
         <div className="leading-[1.33em] pb-8">
@@ -69,13 +70,13 @@ const MatutinDisplay = ({
                                     <h2 className="prayer-heading">ANTWORTPSALM</h2>
                                     {matAnt[index] && (
                                         <div className="mb-3">
-                                            {formatPrayerText(matAnt[index], localPrefLanguage, 'Ant.°°')}
+                                            {formatPrayerText(matAnt[index], 'Ant.°°')}
                                         </div>
                                     )}
                                     {formatPsalm(matPsalm[index], -1, localPrefLanguage)}
                                     {matAnt[index] && (
                                         <div className="mb-0">
-                                            {formatPrayerText(matAnt[index], localPrefLanguage, 'Ant.°°')}
+                                            {formatPrayerText(matAnt[index], 'Ant.°°')}
                                         </div>
                                     )}
                                 </div>
@@ -127,10 +128,10 @@ const MatutinDisplay = ({
                     <div className="mb-4">
                         <h2 className="prayer-heading">ABSCHLUSS</h2>
                         <div className="flex gap-0">
-                            {formatPrayerText(closing[0], "V°°")}
+                            {formatPrayerText(closing[0], 'V°°')}
                         </div>
                         <div className="flex gap-0">
-                            {formatPrayerText(closing[1], "R°°")}
+                            {formatPrayerText(closing[1], 'R°°')}
                         </div>
                     </div>
                 )}

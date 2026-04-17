@@ -18,7 +18,7 @@ export const UserMessageDisplay = () => {
                         <div key={date} className='text-sm'>
                             <div className="mt-6 border-t dark:border-gray-700" > </div>
                             < div className="mt-3 mb-1 text-xs text-gray-500" > {date} </div>
-                            {formatPrayerText(message)}
+                            {formatPrayerText({ provText: message })}
                         </div>
                     )
                 })

@@ -481,8 +481,10 @@ const PrayerTextDisplay = ({
   );
 
   const formatPrayerText = (provText, marker = "") => {
-    return extFormatPrayerText(provText, localPrefLanguage, marker, hour, texts,
-      prefSrc, widthForHymns);
+    return extFormatPrayerText({
+      provText, localPrefLanguage, localPrefLatin, marker, hour, texts,
+      prefSrc, widthForHymns
+    });
   };
 
   const formatPsalm = (psalm, num = 0, modeOverride = null) => {
@@ -2117,6 +2119,9 @@ export default function Stundenbuch() {
       setSelectedHour('vesper');
   }
 
+  const formatPrayerText = (provText, marker = '') =>
+    extFormatPrayerText({ provText, localPrefLanguage, marker });
+
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <ReferenceDialog />
@@ -2307,6 +2312,7 @@ export default function Stundenbuch() {
           {viewMode === "prayerText" &&
             texts?.swd.combined === 'o-1-0' && selectedHour === 'lesehore' && (
               <MatutinDisplay
+                formatPrayerText={formatPrayerText}
                 TitleBar={TitleBar}
                 NavigationButtons={NavigationButtons}
                 hour={selectedHour}
@@ -2374,6 +2380,7 @@ export default function Stundenbuch() {
 
           {viewMode === "massReadings" && (
             <MassReadings
+              formatPrayerText={formatPrayerText}
               TitleBar={TitleBar}
               NavigationButtons={NavigationButtons}
               SourceSelector={SourceSelector}

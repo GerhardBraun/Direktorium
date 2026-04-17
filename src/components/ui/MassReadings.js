@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { formatPrayerText } from '../dataHandlers/TextFormatter.js';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 import rufvdevData from "../data/RufvdEv.ts";
 
@@ -70,6 +69,7 @@ const MassReadings = ({
     NavigationButtons,
     texts,
     prefSollemnity,
+    formatPrayerText,
     onBack,
     onSelectHour,
     onPrevDay,
@@ -199,7 +199,7 @@ const MassReadings = ({
                             </div>
                             {ms_aps_kv && (
                                 <div className="mb-3">
-                                    {formatPrayerText(ms_aps_kv + kvRepeat, '', 'Kv°°')}
+                                    {formatPrayerText(ms_aps_kv + kvRepeat, 'Kv°°')}
                                     {ms_aps_kv.includes('^APSHALL') && (
                                         <div >
                                             <span className='text-rubric'>(
@@ -211,7 +211,7 @@ const MassReadings = ({
                                     {formatPrayerText('^P')}
                                 </div>
                             )}
-                            {formatPrayerText(ms_aps_text + kvRepeat, '', 'Aps')}
+                            {formatPrayerText(ms_aps_text + kvRepeat, 'Aps')}
                         </div>
                     )}
 

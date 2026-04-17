@@ -113,7 +113,7 @@ Content: eigentlicher Text
 1. deutsch
 2. lateinisch
 Mode: zugeordneter Psalmton nach dem Antiphonale zum Stundenbuch
-ComplementHalleluja (anstelle der Inline-Marker `^Ö`, `^LÖ`): `false`, `true`, `onlyEaster`
+??? ComplementHalleluja (anstelle der Inline-Marker `^Ö`, `^LÖ`): `false`, `true`, `onlyEaster`
 
 ### gemeinsame Antiphon für alle Psalmen: `ant0`
 in den Geprägten Zeiten (alle außer Jahreskreis: Advent, Weihnachtszeit, Fastenzeit, Osterzeit):
@@ -192,7 +192,7 @@ Hier gibt es nicht nur 1, sondern 3 Call-Response-Paare sowie die Doxologie als 
 
 #### Commune-Texte in der Osterzeit
 Call0 und Response1 werden zusammengezogen und als Call0 angezeigt;
-als Response1 wird "Halleluja,°halleluja." bzw. "Allelúia, allelúia." angezeigt.
+als Response1 wird "Halleluja,°halleluja." bzw. "Allelúia,°allelúia." angezeigt.
 
 ## Asteriskus: Bedeutung und Darstellung
 Der Asteriskus (\*) hat beim Responsorium eine grundlegend andere Bedeutung als in den Psalmversen.
