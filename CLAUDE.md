@@ -25,7 +25,7 @@ gesamten deutschsprachigen Raum konzipiert ist.
 Diese Entstehungsgeschichte spiegelt sich noch in manchen Bezeichnungen wider:
 - Die zentrale Komponente heißt `Direktorium.js`, obwohl das Stundengebet ihr
   eigentlicher Inhalt ist.
-- `formatText` wird nur für das Direktorium gebraucht; die viel wichtigere Funktion
+- `formatDirectoryText` wird nur für das Direktorium gebraucht; die viel wichtigere Funktion
   `formatPrayerText` trägt eine spezialisierte Bezeichnung – sinnvoller wäre es umgekehrt.
 
 **Das Anpassen der Bezeichnungen** (Komponenten, Variablen, Funktionen) an die heutige
@@ -168,7 +168,7 @@ Die Texte können aus verschiedenen Quellen stammen:
 | `LitCalendar.js`          | Berechnung der Stellung des Tages im liturgischen Kalender                   |
 | `BrevierDataProcessor.js` | Verarbeitung der Breviertext-Daten                                           |
 | `BibleRefFormatter.js`    | Formatierung von Bibelstellen-Angaben                                        |
-| `TextFormatter.js`        | Textformatierung (`formatPrayerText`, `formatPsalm`, `formatText`, `firstCapital` …) |
+| `TextFormatter.js`        | Textformatierung (`formatPrayerText`, `formatPsalm`, `formatDirectoryText`, `firstCapital` …) |
 | `GetValue.js`             | Werteabfrage aus den Datenhierarchien                                        |
 | `ordinarium.js`           | Feststehende, vom Tag unabhängige Texte des Stundengebets                    |
 | `UserMessageDisplay.js`   | Anzeige von Nutzer-Nachrichten/Hinweisen                                     |

@@ -3,7 +3,7 @@ import { liturgicalData } from "../data/Direktorium.ts";
 import { deceasedData } from "../data/Deceased.ts";
 import { parseTextWithReferences } from "./RefLink.jsx";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./tooltip.jsx";
-import { formatText } from "../dataHandlers/TextFormatter.js";
+import { formatDirectoryText } from "../dataHandlers/TextFormatter.js";
 
 // Konstanten
 const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
@@ -125,7 +125,7 @@ const NotesSection = ({ content, fontSize = "0.93em" }) => {
                                             marginLeft: "0em",
                                         }}
                                         dangerouslySetInnerHTML={{
-                                            __html: parseTextWithReferences(formatText(text)),
+                                            __html: parseTextWithReferences(formatDirectoryText(text)),
                                         }}
                                     />
                                 </div>
@@ -143,7 +143,7 @@ const NotesSection = ({ content, fontSize = "0.93em" }) => {
                                 fontSize: segment.type === "centered" ? "1em" : "inherit",
                             }}
                             dangerouslySetInnerHTML={{
-                                __html: parseTextWithReferences(formatText(segment.content)),
+                                __html: parseTextWithReferences(formatDirectoryText(segment.content)),
                             }}
                         />
                     );
@@ -207,7 +207,7 @@ const DayEntry = ({
                             style={{ fontSize: "1em" }}
                             className="text-gray-900 dark:text-gray-100"
                         >
-                            {formatText(entry.liturgy)
+                            {formatDirectoryText(entry.liturgy)
                                 .split("¥p")
                                 .map((paragraph, index) => {
                                     const [marker, ...contentParts] = paragraph.split("¥t");
@@ -343,7 +343,7 @@ const DayEntry = ({
                             style={{ fontSize: "1em" }}
                             className="text-gray-900 dark:text-gray-100"
                         >
-                            {formatText(entry.sec_liturgy)
+                            {formatDirectoryText(entry.sec_liturgy)
                                 .split("¥p")
                                 .map((paragraph, index) => {
                                     const [marker, ...contentParts] = paragraph.split("¥t");
@@ -553,7 +553,7 @@ const DayEntry = ({
                             style={{ fontSize: `${deceasedSizeRatio}em` }}
                             className="text-gray-900 dark:text-gray-100"
                         >
-                            {formatText(
+                            {formatDirectoryText(
                                 shouldShowMore ? entry.deceased_more : entry.deceased || ""
                             )
                                 .split("¥+k")
@@ -628,7 +628,7 @@ const DayEntry = ({
                             style={{ fontSize: "1em" }}
                             className="text-gray-900 dark:text-gray-100"
                         >
-                            {formatText(entry.vig_liturgy)
+                            {formatDirectoryText(entry.vig_liturgy)
                                 .split("¥p")
                                 .map((paragraph, index) => {
                                     const parts = paragraph.split("¥t");
@@ -708,7 +708,7 @@ const DayEntry = ({
                                                     fontSize: "1em",
                                                 }}
                                                 dangerouslySetInnerHTML={{
-                                                    __html: formatText(subParagraph.trim()),
+                                                    __html: formatDirectoryText(subParagraph.trim()),
                                                 }}
                                             />
                                         );
@@ -724,7 +724,7 @@ const DayEntry = ({
                                                     textAlign: "left",
                                                 }}
                                                 dangerouslySetInnerHTML={{
-                                                    __html: formatText(subParagraph.trim()),
+                                                    __html: formatDirectoryText(subParagraph.trim()),
                                                 }}
                                             />
                                         );
@@ -792,7 +792,7 @@ const DeceasedEntry = ({
                 <div style={{ position: "relative" }}>
                     <span style={{ position: "absolute", left: 0 }}>{deceased.year}</span>
                     <div style={{ paddingLeft: deceasedIndent }}>
-                        <span dangerouslySetInnerHTML={{ __html: formatText(deceased.name) }} />
+                        <span dangerouslySetInnerHTML={{ __html: formatDirectoryText(deceased.name) }} />
                         {deceased.age && <span> ({deceased.age}&nbsp;Jahre)</span>}
                     </div>
                 </div>
@@ -807,7 +807,7 @@ const DeceasedEntry = ({
                     >
                         <span style={{ position: "absolute", left: deceasedIndent }}>*</span>
                         <div style={{ paddingLeft: "0.7em" }}
-                            dangerouslySetInnerHTML={{ __html: formatText(deceased.birth) }} />
+                            dangerouslySetInnerHTML={{ __html: formatDirectoryText(deceased.birth) }} />
                     </div>
                 )}
 
@@ -815,7 +815,7 @@ const DeceasedEntry = ({
                 {deceased.grave && (
                     <div style={{ paddingLeft: deceasedIndent }}>
                         Grab:{" "}
-                        <span dangerouslySetInnerHTML={{ __html: formatText(deceased.grave) }} />
+                        <span dangerouslySetInnerHTML={{ __html: formatDirectoryText(deceased.grave) }} />
                     </div>
                 )}
             </div>

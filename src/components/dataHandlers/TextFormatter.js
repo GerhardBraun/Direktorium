@@ -180,12 +180,16 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverr
                         </>
                     ))}
             </div>
-            {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]"
-                aria-hidden="true">
-                {title}</div>}
-            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]"
-                aria-hidden="true">
-                {formatQuote(quote)}</div>}
+            {title &&
+                <div className="text-[0.9em] text-gray-400 mb-[0.66em]"
+                    aria-hidden="true">
+                    {formatPrayerText({ provText: title })}
+                </div>}
+            {quote &&
+                <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]"
+                    aria-hidden="true">
+                    {formatQuote(quote)}
+                </div>}
             {cantMode
                 ? <PsalmCantDisplay
                     text={text}
@@ -208,10 +212,10 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverr
     );
 };
 
+// Formatiert die Bibelstellen-Angabe am Ende des Psalmzitats, wenn sie vorhanden ist
 const formatQuote = (quote) => {
-    if (!quote || quote === 'LEER' || quote === 'LEER_lat' || quote === '_lat') {
+    if (!quote || quote === 'LEER' || quote === 'LEER_lat' || quote === '_lat')
         return null;
-    }
 
     // Regex zum Aufteilen: Alles vor der letzten öffnenden Klammer ist der Text,
     // alles ab der letzten öffnenden Klammer bis zur schließenden Klammer ist die Quelle
@@ -230,7 +234,8 @@ const formatQuote = (quote) => {
 };
 
 // Basisformatierung für Text mit speziellen Markierungen
-export const formatText = (text) => {
+// wird nur für das Direktorium verwendet; fürs Stundengebet stattdessen formatPrayerText
+export const formatDirectoryText = (text) => {
     if (!text) return '';
 
     // Basis-Formatierungen
@@ -391,15 +396,13 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
             .replace('^R:', '')
             .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '');
         marker = '';
-
     }
 
     const replaceRESP = (text) => {
+        // Die Verwendung von ^RESP und ^LRESP könnte auch durch eine entsprechende Routine im Responsorium-Display ersetzt werden.
+        // Kommt nur an den Drei Österlichen Tagen (Gründonnerstagabend, Karfreitag, Karsamstag, Ostersonntag)
+        // und in der Osteroktav vor, also q-6-4 bis q-6-6, o-1-each, o-2-0.
         const easterAntiphons = {
-            'oktav': {
-                '^RESP': "Das ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.",
-                '^LRESP': "Hæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
-            },
             'q-6-4': {
                 '^RESP': "Christus war für uns gehorsam bis\u00a0zum\u00a0Tod.",
                 '^LRESP': "Christus factus est pro nobis obœ́diens\u00a0usque\u00a0ad\u00a0mortem."
@@ -411,7 +414,11 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
             'q-6-6': {
                 '^RESP': "Christus war für uns gehorsam bis zum Tod, bis\u00a0zum\u00a0Tod\u00a0am\u00a0Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.",
                 '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen."
-            }
+            },
+            'oktav': {
+                '^RESP': "Das ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.",
+                '^LRESP': "Hæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+            },
         }
         return text.replace(/(\^L?RESP)/g, (match) => {
 
@@ -507,7 +514,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
         if (vokativ) {
             text = text
                 .replace(/Heiliger? \^VOK/g, vokativ)
-            // weibliche Formen verwenden
+            // weibliche Formen verwenden (Commune für Kirchenlehrer)
             if (vokativ.startsWith('Heilige ')) {
                 text = text
                     .replace(/tat ihm den/g, 'tat ihr den')
@@ -543,7 +550,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
                 .replace(/(beáte|beáta) \^VOK/g, vokativ_lat
                     .replace(/sancte/g, 'beáte')
                     .replace(/sancta/g, 'beáta'))
-            // weibliche Formen verwenden
+            // weibliche Formen verwenden (Commune für Kirchenlehrer)
             if (vokativ_lat.startsWith('sancta ')) {
                 text = text
                     .replace(/implévit eum/g, 'implévit eam')
@@ -551,7 +558,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
                     .replace(/amátor legis/g, 'amátrix legis')
             }
         }
-        // Wenn keine Namenseinträge vorhanden sind, wird N. verwendet
+        // Wenn keine Namenseinträge vorhanden sind, wird N. in Rubrikenfarbe verwendet
         return text.replace(/\^(NOM|GEN|VOK|NH|N)\.?/g, '^rN.^0r');
     }
 

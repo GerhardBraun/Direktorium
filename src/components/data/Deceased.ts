@@ -3553,7 +3553,7 @@ export const deceasedData =  {
         "birthdate": "2241-06-14",
         "name": "Klaus°Peter°Jung, Pfr.i.R., GR, Tann¥-Lahrbach",
         "birth": "14.°Juni°1941°in°Mährisch¥-Schönberg (Šumperk,°CZ¥-787°01)",
-        "grave": "",
+        "grave": "Friedhof°am°Frauenberg,°Fulda",
         "age": 84
       }
     ],

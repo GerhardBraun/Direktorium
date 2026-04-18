@@ -23,7 +23,7 @@ import { getValue as extGetValue } from "./dataHandlers/GetValue.js";
 import {
   firstCapital,
   formatPsalm as extFormatPsalm,
-  formatText,
+  formatDirectoryText,
   formatPrayerText as extFormatPrayerText,
 } from "./dataHandlers/TextFormatter.js";
 import { NavigationButtons } from "./ui/NavigationButtons.js";
@@ -295,7 +295,7 @@ const PrayerMenu = ({
                                 hover:bg-gray-200 dark:hover:bg-gray-700
                                 text-gray-900 dark:text-gray-100"
             >
-              {formatText(displayText)}
+              {formatDirectoryText(displayText)}
             </button>
           );
         })}
