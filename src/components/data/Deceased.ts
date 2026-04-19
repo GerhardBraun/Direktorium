@@ -3734,7 +3734,7 @@ export const deceasedData =  {
         "year": 2025,
         "birthdate": "2236-12-17",
         "name": "¥fPapst°Franziskus¥0f, Bischof von Rom",
-        "birth": "17.°Dezember°1936°in°Buenos°Aires (RA¥-C1…)",
+        "birth": "17.°Dezember°1936°in°Buenos°Aires/Argentinien",
         "grave": "Basilika°S.°Maria°Maggiore°in°Rom",
         "age": 88
       }

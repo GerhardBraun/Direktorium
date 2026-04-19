@@ -10103,7 +10103,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›1°Kor",
           "les_stelle": "15,20–22",
-          "les_text": "Christus ist von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch EIN Menschen der Tod gekommen ist, kommt durch EIN Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.",
+          "les_text": "Christus ist von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch EINEN Menschen der Tod gekommen ist, kommt durch EIN Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.",
           "les_text_neu": "",
           "les_text_lat": "Christus resurréxit a mórtuis, primítiæ dormiéntium. Quóniam enim per hóminem mors, et per hóminem resurréctio mortuórum: sicut enim in Adam omnes moriúntur, ita et in Christo omnes vivificabúntur."
         },

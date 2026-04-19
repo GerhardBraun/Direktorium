@@ -3,7 +3,14 @@
 // Exportiert: formatCantMarkers, bracketTrim
 
 // Psalmodie-Kadenzstruktur je Psalmton: { Mittelkadenz: [v, b], Schlusskadenz: [v, b] }
+// b: Anzahl der betonten Silben in der Kadenz (1 oder 2)
+// v: vorhergehende Silben vor der Hauptbetonung (0 bis 3; nur bei b=1; bei b=2 immer 0)
+// masculineShift (in der Mittelkadenz): bei männlichem Versschluss rückt die Betonung auf die letzte Note (Normalfall: die letzte Note entfällt)
+// noUnstressed (in der Schlusskadenz): kein weiterer Kadenzton nach ||; folgende unbetonte Silben werden geklammert
+// singleTone (in der Schlusskadenz): nur ein Kadenzton; alle Silben ab || werden durch Unterstreichung verbunden
+// noMasculineShift (in der Schlusskadenz): bei männlichem Versschluss entfällt die letzte Note ohne Verschiebung → vEff = v (statt v+1)
 export const PSALM_TONE_CADENCE = {
+    // Psalmtöne aus dem Antiphonale zum Stundengebet
     'I': { mk: [0, 2], sk: [2, 1] },
     'Ia': { mk: [0, 2], sk: [2, 1] },
     'Ig': { mk: [0, 2], sk: [2, 1] },
@@ -23,6 +30,7 @@ export const PSALM_TONE_CADENCE = {
     'VIIIc': { mk: [0, 1], sk: [2, 1] },
     'IX': { mk: [0, 2], sk: [2, 1] },
     'X': { mk: [0, 1, 'masculineShift'], sk: [0, 2] },
+    // Psalmtöne aus dem Benediktinischen Antiphonale (noch nicht implementiert)
     'IA': { mk: [0, 2], sk: [2, 1], equals: 'I' },
     'IB': { mk: [0, 2], sk: [2, 1], equals: 'Ig' },
     'IC': { mk: [0, 2], sk: [2, 1], },
@@ -68,7 +76,7 @@ export const formatCantMarkers = (text, mode) => {
     if (!cadence) return text;  // unbekannter Psalmton: Text unverändert lassen
 
     // Textanpassungen für den Gesang: [+…]/[-…] = Zeichenfolge hinzufügen/weglassen (Klammerform);
-    // +e/-e als Kurzform nur für den Buchstaben e.
+    // +e/-e/\'e als Kurzform nur für den Buchstaben e.
     text = text.replace(/\[([+-])([^\]]+)\]/g, (_, sign, content) => sign === '+' ? content : '');
     text = text.replace(/(?<!\^)\+e/g, 'e');
     text = text.replace(/(?<!\^)-e/g, '');
@@ -76,8 +84,7 @@ export const formatCantMarkers = (text, mode) => {
 
     // > vor Vokal → ^ELL-Tag (elidierende Silbe, grau-kursiv): muss vor dem ^b/^u-Tagging geschehen,
     // damit der Tag nicht innerhalb von ^b/^u landet und von processInlineFormats übergangen wird.
-    // (Altnotation, wird schrittweise durch +/- ersetzt.)
-    text = text.replace(/>([aeiouæm])/g, '^ELL$1^0ELL');
+    text = text.replace(/>([aeiouærm])/g, '^ELL$1^0ELL');
 
     // Teile in Halbverse auf. Trennzeichen ^*, ^p, ^+ bleiben im Array (captureGroups)
     const halfVerseRe = /(\^\*|\^p|\^\+)/;
