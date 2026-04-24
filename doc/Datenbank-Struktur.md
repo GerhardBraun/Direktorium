@@ -196,7 +196,7 @@ als Response1 wird "Halleluja,°halleluja." bzw. "Allelúia,°allelúia." angeze
 
 ## Asteriskus: Bedeutung und Darstellung
 Der Asteriskus (\*) hat beim Responsorium eine grundlegend andere Bedeutung als in den Psalmversen.
-Er wird hier analog zu *R* und *V* zur Kennzeichnung des Textteils verwendet, der wiederholt wird (Response).
+Er wird hier (analog zu *R* und *V*) zur Kennzeichnung des Textteils verwendet, der wiederholt wird (Response).
 Deshalb wird er hier wie *R* und *V* in Rubrikenfarbe dargestellt und durch ein geschütztes Leerzeichen mit dem folgenden Response-Text verbunden, während er im Psalm in Textfarbe dargestellt wird und durch geschütztes Leerzeichen mit dem vorhergehenden Psalmtext verbunden ist.
 
 # Zweite Lesung (nur in der Leshore)
