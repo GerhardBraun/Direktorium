@@ -1887,9 +1887,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Meine Seele hängt an dir, deine rechte Hand hält mich fest.^HALLo",
           "ant2": "Die Hand des Herrn hat dich stark gemacht, du sollst gesegnet sein auf ewig.^HALLo",
           "ant3": "Ich will jubeln, Herr, und mich freuen über deine Huld.^HALLo",
@@ -2142,9 +2139,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Ihr seid das Licht der Welt. Eine Stadt, die auf dem Berge liegt, kann nicht verborgen bleiben.^HALLo",
           "ant2": "Euer Licht soll vor den Menschen leuchten, damit sie eure guten Taten sehen und euren Vater im Himmel preisen.^HALLo",
           "ant3": "Lebendig ist Gottes Wort, voll Kraft und schärfer als jedes Schwert.^HALLo",
@@ -2384,9 +2378,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 66.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Christus bekenne ich, nach Christus verlange ich, ich sehne mich, für immer bei Christus zu sein.^HALLo",
           "ant2": "Ihr Jungfrauen, preiset den Herrn: Der euch zu ungeteilter Liebe rief, er krönt in euch das Werk seiner Gnade.^HALLo",
           "ant3": "Einen strahlenden Sieg über Fleisch und Blut errangen die Heiligen; nun jubeln sie in der Herrlichkeit.^HALLo",
@@ -2692,7 +2683,7 @@ export const brevierData = {
           "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
           "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o°Herr!^HALLo",
           "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
-          "modeb": "211.0",
+          "modeb": "211",
           "modec": "211.1",
           "ant1_lat": "",
           "ant2_lat": "",
@@ -2721,9 +2712,6 @@ export const brevierData = {
           "button": "Kirchw",
           "hymn_1": 1150.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Mein Haus wird ein Haus des Gebetes sein für alle Völker.^HALLo",
           "ant2": "Gepriesen bist du, Herr, in deinem heiligen Tempel.^HALLo",
           "ant3": "Lobt den Herrn in der Gemeinde der Heiligen.^HALLo",
@@ -2915,9 +2903,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Gott verlieh ihnen ewigen Ruhm und einen unvergänglichen Namen.^HALLo",
           "ant2": "Preist den Herrn, ihr Knechte des Herrn, preist ihn in Ewigkeit.^HALLo",
           "ant3": "In festlichem Glanz frohlocken die Frommen, die Heiligen jubeln in Herrlichkeit.^HALLo",
@@ -3191,9 +3176,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Selig bist du, Maria: Aus dir ging hervor das Heil der Welt. Nun bist du beim Herrn in der Freude des Himmels. Glorreiche Jungfrau, bitte für uns bei deinem Sohn.^HALLo",
           "ant2": "Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes.^HALLo",
           "ant3": "Freue dich in Ewigkeit, Jungfrau Maria, du warst würdig, Christus zu tragen, den Heiland der Welt.^HALLo",
@@ -3438,9 +3420,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "In ihren Qualen schauten die Zeugen Christi zum Himmel auf und riefen: Herr, steh uns bei.^HALLo",
           "ant2": "Preist den Herrn, ihr Seelen der Gerechten, ihr Heiligen alle, lobpreiset ihn.^HALLo",
           "ant3": "Ihr Chöre der Märtyrer, lobet den Herrn in der Höhe.^HALLo",
@@ -3867,9 +3846,6 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Meine Lippen preisen dich, Herr; denn deine Huld ist besser als Leben.^HALLo",
           "ant2": "Preist den Herrn, ihr Märtyrer des Herrn, preist ihn in Ewigkeit.^HALLo",
           "ant3": "Wer siegt, den mache ich zu einer Säule im Tempel meines Gottes, und meinen Namen schreibe ich auf ihn.^HALLo",
@@ -4447,8 +4423,11 @@ export const brevierData = {
         },
         "ErsteV": {
           "anta": "Ich mache dich zum Licht für alle Völker: Trage mein Heil bis an die Enden der Erde.",
+          "modea": "VII",
           "antb": "Hier bin ich, Herr, du hast mich gerufen.",
+          "modeb": "II",
           "antc": "Wie der Bräutigam sich freut über die Braut, so freut sich über dich dein Gott.",
+          "modec": "VIII",
           "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV",
           "anta_lat": "Ecce Agnus Dei, ecce qui tollit peccátum mundi.^ALLxq",
           "antb_lat": "Audiérunt Ioánnem duo discípuli, et secúti sunt Iesum, dicéntes: Rabbi, ubi manes? Dicit eis: Veníte et vidéte.",
@@ -4457,16 +4436,22 @@ export const brevierData = {
         },
         "Laudes": {
           "anta": "Seht das Lamm Gottes, das hinwegnimmt die Sünde der Welt.",
+          "modea": "VIII",
           "antb": "Die beiden Jünger gingen mit Jesus und sahen, wo er wohnte, und sie blieben jenen Tag bei ihm.",
+          "modeb": "II",
           "antc": "Zu Kana fand eine Hochzeit statt, und die Mutter Jesu war dabei. Auch Jesus und seine Jünger waren zur Hochzeit geladen.",
+          "modec": "I",
           "anta_lat": "Hoc est testimónium quod perhíbuit Ioánnes: Post me venit vir, qui ante me factus est, quia prior me erat.",
           "antb_lat": "Venérunt discípuli et vidérunt ubi manéret Iesus, et apud eum mansérunt die illo.",
           "antc_lat": "Dicit mater Iesu minístris: Quodcúmque díxerit vobis, fácite. Et iussit Iesus impléri hýdrias aqua, qua in vinum convérsa est."
         },
         "Vesper": {
           "anta": "Ich habe gesehen und bezeuge: Dieser ist Gottes Sohn.",
+          "modea": "II",
           "antb": "Wir haben den Messias gefunden, den Gesalbten des Herrn.",
+          "modeb": "II",
           "antc": "Zu Kana in Galiläa tat Jesus sein erstes Zeichen und offenbarte seine Herrlichkeit.",
+          "modec": "III",
           "anta_lat": "Descéndit Spíritus quasi colúmba de cælo, et mansit super Iesum: Hic est qui baptízat in Spíritu Sancto.",
           "antb_lat": "Dixit Andréas Simóni fratri: Invénimus Messíam. Et addúxit eum ad Iesum.",
           "antc_lat": "Hoc fecit inítium signórum Iesus in Cana Galilǽæ, et manifestávit glóriam suam, et credidérunt in eum discípuli eius."
@@ -4487,8 +4472,11 @@ export const brevierData = {
         },
         "ErsteV": {
           "anta": "Das Volk inmitten der Völker sieht ein helles Licht; über denen, die in Finsternis wohnen, strahlt ein Licht auf.",
+          "modea": "IV",
           "antb": "Das Wort des Herrn erging an Jona. Und Jona machte sich auf den Weg, wie der Herr ihm befahl.",
+          "modeb": "I",
           "antc": "Esra schlug das Buch des Gesetzes auf und pries den Herrn, den großen Gott. Und das ganze Volk rief mit erhobenen Händen: Amen, amen!",
+          "modec": "VII",
           "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR",
           "anta_lat": "Dicit Dóminus: Pæniténtiam ágite: appropinquávit enim regnum cælórum.",
           "antb_lat": "Venit Iesus in Galilǽam prǽdicans Evangélium Dei, et dicens: Implétum est tempus et appropinquávit regnum Dei: pænitémini et crédite Evangélio.",
@@ -4497,16 +4485,22 @@ export const brevierData = {
         },
         "Laudes": {
           "anta": "Kehrt um! Denn das Himmelreich ist nahe.",
+          "modea": "II",
           "antb": "Die Zeit ist erfüllt, das Reich Gottes ist nahe. Bekehrt euch und glaubt an das Evangelium.",
+          "modeb": "III",
           "antc": "Der Geist des Herrn ruht auf mir; denn der Herr hat mich gesalbt. Er hat mich gesandt, den Armen die frohe Botschaft zu verkünden.",
+          "modec": "II",
           "anta_lat": "Ambulans iuxta mare Galilǽæ vidit duos fratres, mitténtes retes in mare, et vocávit eos. Illi autem contínuo, relíctis rétibus, secúti sunt eum.",
           "antb_lat": "Veníte post me, dicit Dóminus; fáciam vos fíeri piscatóres hóminum.",
           "antc_lat": "Spíritus Dómini super me, evangelizáre paupéribus misit me."
         },
         "Vesper": {
           "anta": "Jesus verkündete die Botschaft vom Reich und heilte im Volk Krankheit und Leiden.",
+          "modea": "III",
           "antb": "Kommt und folgt mir nach! Ich werde euch zu Menschenfischern machen.",
+          "modeb": "II",
           "antc": "Die Augen aller waren auf Jesus gerichtet. Und er sprach: Heute hat sich das Wort der Schrift erfüllt.",
+          "modec": "I",
           "anta_lat": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo.",
           "antb_lat": "Relíctis rétibus suis, secúti sunt Dóminum et Redemptórem.^ALLxq",
           "antc_lat": "Cum plicuísset librum, cœpit Iesus dícere ad illos: Hódie impléta est hæc Scriptúra in áuribus vestris."
@@ -4527,8 +4521,11 @@ export const brevierData = {
         },
         "ErsteV": {
           "anta": "Sucht Gerechtigkeit und Demut! Die Armen finden Zuflucht beim Namen des Herrn.",
+          "modea": "IV",
           "antb": "Einen Propheten will ich erwecken aus deinen Brüdern. Ich lege meine Worte in seinen Mund.",
+          "modeb": "I",
           "antc": "Tritt vor sie hin und verkünde, was ich dir sage! Fürchte dich nicht vor ihnen, denn ich bin mit dir.",
+          "modec": "II",
           "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV",
           "anta_lat": "Cum vidísset Iesus turbas, ascéndit in montem; et accessérunt ad eum discípuli eius; et apériens os suum docébat eos, dicens: Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum.",
           "antb_lat": "Stupébant omnes super doctrína Iesu; erat enim docens eos tamquam potestátem habens.",
@@ -4537,16 +4534,22 @@ export const brevierData = {
         },
         "Laudes": {
           "anta": "Als Jesus die vielen Menschen sah, stieg er auf einen Berg. Dann begann er zu reden und lehrte sie.",
+          "modea": "VIII",
           "antb": "Jesus von Nazaret, ich weiß, wer du bist: Du bist der Heilige Gottes.",
+          "modeb": "II",
           "antc": "Alle staunten über die Worte, die aus seinem Munde kamen.",
+          "modec": "I",
           "anta_lat": "Beáti mundo corde, quóniam ipsi Deum vidébunt, dicit Dóminus.",
           "antb_lat": "Conquirébant inter se dicéntes: Quidnam est hoc? Doctrína nova cum potestáte; et spirítibus immúndis ímperat et obœ́diunt ei.",
           "antc_lat": "Amen dico vobis: Nemo prophéta accéptus est in pátria sua."
         },
         "Vesper": {
           "anta": "Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich.",
+          "modea": "VIII",
           "antb": "Alle staunten über seine Lehre; denn er lehrte wie einer, der Macht hat.",
+          "modeb": "IV",
           "antc": "Die Leute von Nazaret trieben Jesus zur Stadt hinaus und zerrten ihn an den Abhang des Berges. Er aber schritt durch die Menge hindurch und ging weg.",
+          "modec": "II",
           "anta_lat": "Beáti pacífici, quóniam fílii Dei vocabúntur, dicit Dóminus.",
           "antb_lat": "Miráti sunt omnes, et procéssit rumor eius statim ubíque in omnem regiónem Galilǽæ.",
           "antc_lat": "Eiecérunt Iesum extra civitátem, ut præcipitárent eum. Ipse autem tránsiens per médium illórum ibat."
@@ -5793,9 +5796,6 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 3952.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "O wahre Sonne, Aufgang des neuen Lichts! Seht, unser König sitzt auf seinem Thron und herrscht. Frieden verkündet er den Völkern.",
           "ant2": "Bis an die Enden der Erde reicht sein Ruhm. Er wird der Friede sein.",
           "ant3": "Herrschaft, Würde und Königtum hat ihm der Herr gegeben; alle Völker, Stämme und Sprachen werden ihm dienen.",
@@ -8215,16 +8215,13 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "modeb": "211.0",
+          "modeb": "211",
           "modec": "211.1",
           "hymn_1_lat": 3412.1,
           "hymn_2_lat": 0.0
         },
         "Laudes": {
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Auferstanden ist Christus; er erleuchtet sein Volk, das er mit seinem Blut erlöst hat.^HALLo",
           "ant2": "Unser Erlöser ist aus dem Grab erstanden; singt unserem Herrn und Gott den Lobgesang.^HALLo",
           "ant3": "Halleluja. Auferstanden ist der Herr, wie er euch gesagt hat.^HALLo",
@@ -8372,9 +8369,6 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Auferstanden ist Christus; er erleuchtet sein Volk, das er mit seinem Blut erlöst hat.^HALLo",
           "ant2": "Unser Erlöser ist aus dem Grab erstanden; singt unserem Herrn und Gott den Lobgesang.^HALLo",
           "ant3": "Halleluja. Auferstanden ist der Herr, wie er euch gesagt hat.^HALLo",
@@ -8866,7 +8860,11 @@ export const brevierData = {
           "ant1": "Zu dir erhebe ich die Hände; Herr, nimm mein Abendopfer an.^HALLo",
           "ant2": "Ich preise deinen Namen, Herr: Du hast mich herausgeführt aus dem Kerker des Todes.^HALLo",
           "ant3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden und wurde für alle, die ihm gehorchen, zum Urheber des ewigen Heiles.^HALLo",
+          "mode1": "VIII",
+          "mode2": "VI",
+          "mode3": "IV",
           "antev": "Ich bin der Weg und die Wahrheit und das Leben; niemand kommt zum Vater außer durch mich.^HALLo",
+          "modeev": "VI",
           "ant1_lat": "Elevátio mánuum meárum ut sacrifícium vespertínum.^ALLo",
           "ant2_lat": "Eduxísti de custódia ánimam meam ad confiténdum nómini tuo.^ALLo",
           "ant3_lat": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ.^ALLo",
@@ -8879,7 +8877,11 @@ export const brevierData = {
           "ant1": "Wer dürstet, dem wird das Wasser des Lebens geschenkt.^HALLo",
           "ant2": "Fallt nieder vor dem Herrn, der alles erschaffen hat: Himmel und Erde und Meer und die Quellen der Wasser.^HALLo",
           "ant3": "In festlichem Glanz frohlocken die Frommen, die Heiligen jubeln in Herrlichkeit.^HALLo",
+          "mode1": "III",
+          "mode2": "III",
+          "mode3": "VII",
           "antev": "Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht.^HALLo",
+          "modeev": "VI",
           "ant1_lat": "Qui sitit accípiet aquam vitæ gratis.^ALLo",
           "ant2_lat": "Adoráte Dóminum, qui fecit cælum et terram, mare et fontes aquárum.^ALLo",
           "ant3_lat": "Exsultábunt sancti in glória.^ALLo",
@@ -8889,7 +8891,11 @@ export const brevierData = {
           "ant1": "Auferstanden ist der Herr und sitzt zur Rechten Gottes.^HALLo",
           "ant2": "Der Macht der Finsternis hat Gott uns entrissen und aufgenommen in das Reich seines Sohnes.^HALLo",
           "ant3": "Halleluja. Der Herr, unser Gott, ist König. Ihm sei Ehre und Herrlichkeit.^HALLo",
+          "mode1": "VIII",
+          "mode2": "IX",
+          "mode3": "VII",
           "antev": "Ein neues Gebot gebe ich euch: Liebt einander! Wie ich euch geliebt habe, so sollt auch ihr einander lieben.^HALLo",
+          "modeev": "VIII",
           "ant1_lat": "Surréxit Dóminus et sedet ad déxteram Dei.^ALLo",
           "ant2_lat": "Erípuit nos de potestáte tenebrárum et tránstulit in regnum Fílii sui.^ALLo",
           "ant3_lat": "Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei.^ALLo",
@@ -8903,10 +8909,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wer mich liebt, den wird mein Vater lieben, und auch ich werde ihn lieben und mich ihm offenbaren.^HALLo",
+          "modeev": "VI",
           "antev_lat": "Qui díligit me, diligétur a Patre meo; et ego díligam eum, et manifestábo ei meípsum.^ALLo"
         },
         "Vesper": {
           "antev": "Der Beistand, der Heilige Geist, den der Vater senden wird in meinem Namen, er wird euch alles lehren. An alles, was ich euch sagte, wird er euch erinnern.^HALLo",
+          "modeev": "IV",
           "antev_lat": "Paráclitus Spíritus Sanctus, quem mittet Pater in nómine meo, ille vos docébit et súggeret vobis ómnia quæcúmque díxero vobis.^ALLo"
         }
       },
@@ -8917,10 +8925,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Frieden hinterlasse ich euch, meinen Frieden gebe ich euch.^HALLo",
+          "modeev": "VIII",
           "antev_lat": "Pacem relínquo vobis, allelúia, pacem meam do vobis.^ALLo"
         },
         "Vesper": {
           "antev": "Wenn ihr mich liebt, müsst ihr euch freuen, dass ich zum Vater gehe.^HALLo",
+          "modeev": "III",
           "antev_lat": "Si diligerétis me, gauderétis útique, quia vado ad Patrem.^ALLo"
         }
       },
@@ -8931,10 +8941,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Ich bin der Weinstock, ihr seid die Reben.^HALLo",
+          "modeev": "VIII",
           "antev_lat": "Ego sum vitis vera, allelúia, et vos pálmites mei.^ALLo"
         },
         "Vesper": {
           "antev": "Wenn ihr in mir bleibt und wenn meine Worte in euch bleiben, dann bittet um alles, was ihr wollt: Ihr werdet es erhalten.^HALLo",
+          "modeev": "VIII",
           "antev_lat": "Si manséritis in me, et verba mea in vobis mánserint, quodcúmque petiéritis fiet vobis.^ALLo"
         }
       },
@@ -8945,10 +8957,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Haltet meine Gebote, dann bleibt ihr in meiner Liebe.^HALLo",
+          "modeev": "II",
           "antev_lat": "Si præcépta mea servavéritis, manébitis in dilectióne mea.^ALLo"
         },
         "Vesper": {
           "antev": "Dies alles habe ich zu euch gesagt, damit meine Freude in euch ist und eure Freude vollkommen wird.^HALLo",
+          "modeev": "III",
           "antev_lat": "Hæc locútus sum vobis, ut gáudium meum in vobis sit, et gáudium vestrum impleátur.^ALLo"
         }
       },
@@ -8959,10 +8973,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe!^HALLo",
+          "modeev": "VII",
           "antev_lat": "Hoc est præcéptum meum: ut diligátis ínvicem, sicut diléxi vos.^ALLo"
         },
         "Vesper": {
           "antev": "Größere Liebe hat niemand, als wer sein Leben hingibt für seine Freunde.^HALLo",
+          "modeev": "IV",
           "antev_lat": "Maiórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis.^ALLo"
         }
       },
@@ -8973,6 +8989,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Dafür ist Christus gestorben und zum Leben erstanden: um Herr zu sein über Lebende und Tote.^HALLo",
+          "modeev": "IV",
           "antev_lat": "In hoc Christus mórtuus est et resurréxit, ut et mortuórum et vivórum dominétur.^ALLo"
         }
       }
@@ -8987,7 +9004,11 @@ export const brevierData = {
           "ant1": "Wer die Wahrheit tut, der kommt zum Licht.^HALLo",
           "ant2": "Auferstanden ist der Herr, befreit von den Wehen des Todes.^HALLo",
           "ant3": "Musste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen?^HALLo",
+          "mode1": "IV",
+          "mode2": "VIII",
+          "mode3": "II",
           "antev": "Ich will den Vater bitten, und er wird euch einen anderen Beistand geben, der für immer bei euch bleibt.^HALLo",
+          "modeev": "III",
           "ant1_lat": "Qui facit veritátem, venit ad lucem.^ALLo",
           "ant2_lat": "Solútis dolóribus inférni, Dóminus surréxit.^ALLo",
           "ant3_lat": "Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam?^ALLo",
@@ -9000,7 +9021,11 @@ export const brevierData = {
           "ant1": "Dies ist der Tag, den der Herr gemacht hat.^HALLo",
           "ant2": "Gepriesen bist du am Gewölbe des Himmels, gerühmt und verherrlicht in Ewigkeit.^HALLo",
           "ant3": "Werft euch nieder vor Gott, der auf dem Thron sitzt. Mit lautem Rufen huldigt ihm: Amen.^HALLo",
+          "mode1": "VI",
+          "mode2": "VII",
+          "mode3": "VIII",
           "antev": "Wie mich der Vater geliebt hat, so habe auch ich euch geliebt. Bleibt in meiner Liebe!^HALLo",
+          "modeev": "VIII",
           "ant1_lat": "Hæc dies quam fecit Dóminus.^ALLo",
           "ant2_lat": "Benedíctus es in firmaménto cæli, et laudábilis in sǽcula, Deus noster.^ALLo",
           "ant3_lat": "Adoráte Deum sedéntem super thronum, dicéntes: Amen.^ALLo",
@@ -9011,7 +9036,11 @@ export const brevierData = {
           "ant1": "Gott hat Christus von den Toten erweckt und ihn in den Himmel erhoben auf den Platz zu seiner Rechten.^HALLo",
           "ant2": "Ihr habt euch von den Götzen bekehrt zum lebendigen Gott.^HALLo",
           "ant3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^HALLo",
+          "mode1": "VII",
+          "mode2": "II",
+          "mode3": "VII",
           "antev": "Wenn einer mich liebt, wird er mein Wort bewahren; mein Vater wird ihn lieben, und wir werden kommen und bei ihm Wohnung nehmen.^HALLo",
+          "modeev": "III",
           "ant1_lat": "Suscitávit Christum a mórtuis, et constítuit ad déxteram suam in cæléstibus.^ALLo",
           "ant2_lat": "A simulácris convérsi estis ad Deum vivum.^ALLo",
           "ant3_lat": "Allelúia, salus et glória et virtus Deo nostro.^ALLo",
@@ -9025,10 +9054,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Durch die Auferstehung Jesu Christi hat Gott uns neu geboren, damit wir eine lebendige Hoffnung haben und das unvergängliche Erbe empfangen.^HALLo",
+          "modeev": "II",
           "antev_lat": "Regenerávit nos Deus in spem vivam per resurrectiónem Iesu Christi ex mórtuis, in hereditátem incorruptíbilem.^ALLo"
         },
         "Vesper": {
           "antev": "Wenn der Geist der Wahrheit kommt, der vom Vater ausgeht, dann wird er Zeugnis geben für mich. Und auch ihr werdet Zeugen sein.",
+          "modeev": "III",
           "antev_lat": "Spíritus veritátis, qui a Patre procédit, testimónium perhibébit de me; et vos testimónium perhibébitis.^ALLo"
         }
       },
@@ -9039,10 +9070,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Noch eine kleine Weile, und die Welt sieht mich nicht mehr; ihr aber seht mich, denn ich lebe, und auch ihr werdet leben.^HALLo",
+          "modeev": "I",
           "antev_lat": "Adhuc módicum, et mundus me iam non videt; vos autem vidébitis me, quia ego vivo, et vos vivétis.^ALLo"
         },
         "Vesper": {
           "antev": "Ich sage euch die Wahrheit: Es ist gut für euch, dass ich fortgehe. Denn wenn ich nicht gehe, wird der Beistand nicht zu euch kommen.",
+          "modeev": "VI",
           "antev_lat": "Ego veritátem dico vobis: Expedit vobis ut ego vadam; si enim non abíero, Paráclitus non véniet.^ALLo"
         }
       },
@@ -9053,6 +9086,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Noch vieles habe ich euch zu sagen, aber ihr könnt es jetzt nicht tragen. Wenn aber jener kommt, der Geist der Wahrheit, wird er euch in die volle Wahrheit führen.^HALLo",
+          "modeev": "II",
           "antev_lat": "Adhuc multa hábeo vobis dícere, sed non potéstis portáre modo: cum autem vénerit ille Spíritus veritátis, docébit vos omnem veritátem.^ALLo"
         }
       },
@@ -9072,6 +9106,9 @@ export const brevierData = {
           "ant1": "Ich bin ausgegangen vom Vater und in die Welt gekommen. Ich verlasse nun wieder die Welt und gehe zum Vater.^HALLo",
           "ant2": "Als Jesus zu seinen Jüngern geredet hatte, wurde er in den Himmel aufgenommen und setzte sich zur Rechten Gottes.^HALLo",
           "ant3": "Niemand stieg je in den Himmel auf außer dem, der vom Himmel herabstieg: der Menschensohn, der im Himmel ist.^HALLo",
+          "mode1": "III",
+          "mode2": "VII",
+          "mode3": "II",
           "les_buch": "›Eph",
           "les_stelle": "2,4–6",
           "les_text": "Gott, der voll Erbarmen ist, hat uns, die wir durch unsere Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus auferweckt und uns zusammen mit ihm einen Platz im Himmel gegeben.",
@@ -9080,6 +9117,7 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Der Herr beim Schall der Posaunen.",
           "antev": "Vater, ich habe deinen Namen den Menschen offenbart, die du mir gegeben hast. Bewahre sie in deinem Namen; denn ich gehe zu dir.^HALLo",
+          "modeev": "II",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9126,6 +9164,9 @@ export const brevierData = {
           "ant1": "Ihr Männer von Galiläa, was schaut ihr auf zum Himmel? Wie dieser Jesus vor euren Augen zum Himmel emporstieg, so kommt er wieder.^HALLo",
           "ant2": "Preist den König der Könige. Singt das Lob unseres Gottes.^HALLo",
           "ant3": "Vor ihren Augen wurde Jesus erhoben. Eine Wolke nahm ihn auf und entzog ihn ihren Blicken.^HALLo",
+          "mode1": "VII",
+          "mode2": "V",
+          "mode3": "VII",
           "les_buch": "›Hebr",
           "les_stelle": "10,12–14",
           "les_text": "Jesus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
@@ -9134,6 +9175,7 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Gefangene hat er mitgeführt.",
           "antev": "Ich steige auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^HALLo",
+          "modeev": "VII",
           "bitten_e": "Gepriesen sei Jesus Christus, der von der Erde erhöht ist und alles an sich zieht. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, höre uns.",
           "bitten": "Du bist als Sieger emporgestiegen zur Rechten des Vaters;^qlenke unser Sinnen und Verlangen zum Himmel.^pDu bist unser Hoherpriester;^qtritt für uns ein beim Vater.^pDu bleibst bei uns alle Tage bis zum Ende der Welt;^qstärke unseren Glauben.^pDu hast heute die Apostel zu deinen Zeugen bestellt;^qgib auch unserem Zeugnis Kraft durch den Heiligen Geist.",
@@ -9167,6 +9209,7 @@ export const brevierData = {
         },
         "Sext": {
           "ant0": "Frohlockend wie ein Held vollendet er den Lauf, zum höchsten Himmel kehrt der Herr zurück.^HALLo",
+          "mode0": "IV",
           "les_buch": "›Hebr",
           "les_stelle": "8,1b–3a",
           "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
@@ -9202,6 +9245,9 @@ export const brevierData = {
           "ant1": "Der Herr ist aufgefahren zum Himmel und sitzt zur Rechten des Vaters.^HALLo",
           "ant2": "Gott stieg empor unter Jubel, der Herr beim Schall der Posaunen.^HALLo",
           "ant3": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm.^HALLo",
+          "mode1": "VII",
+          "mode2": "IX",
+          "mode3": "I",
           "les_buch": "›1°Petr",
           "les_stelle": "3,18.22",
           "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
@@ -9210,6 +9256,7 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Zu meinem Gott und zu eurem Gott.",
           "antev": "O König der Herrlichkeit und Herr der Scharen! Als Sieger steigst du heute empor über alle Himmel; lass uns nicht als Waisen zurück, sondern sende uns die Verheißung des Vaters: den Geist der Wahrheit.^HALLo",
+          "modeev": "II",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9235,6 +9282,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Mit Herrlichkeit und Ehre ist Jesus gekrönt um seines Todesleidens willen.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Gepriesen sei Jesus Christus, der in den Himmel aufgefahren ist und den Heiligen Geist auf die Apostel sandte. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sende den herab, den der Vater verheißen hat;^qstärke uns mit dem Geist aus der Höhe.^pSende uns den Geist der Wahrheit,^qdass er uns in alle Wahrheit einführe.^pHilf uns, nach dem Geist zu leben;^qüberwinde in uns die Macht der Sünde.^pSteh uns bei, wenn wir leiden müssen,^qdamit wir auch mit dir verherrlicht werden.",
@@ -9242,6 +9290,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Euer Vater im Himmel wird den guten Geist allen geben, die ihn darum bitten.^HALLo",
+          "modeev": "IV",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der mit dem Heiligen Geist gesalbt wurde:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sieh auf alle, die als Christen deinen Namen tragen;^qführe sie im Heiligen Geist zur Einheit zusammen.^pDu König der Welt, im Triumph bist du hinaufgestiegen in den Himmel;^qbreite deine Herrschaft aus über alle Völker.^pDu bist der wahre Weinstock;^qgib, dass alle Menschen Rebzweige an dir werden.^pSende dein Licht denen, die um deines Namens willen verfolgt werden,^qund gib ihnen ein, was sie ihren Verfolgern antworten sollen.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9255,6 +9304,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Amen, amen, ich sage euch: Was immer ihr vom Vater erbittet, er wird es euch geben in meinem Namen.^HALLo",
+          "modeev": "VI",
           "bitten_e": "Gepriesen sei Jesus Christus, der den Aposteln die Kraft des Heiligen Geistes verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sende uns dein Licht und deine Wahrheit,^qdamit wir von dir Zeugnis geben.^pLass uns erkennen, wohin der Geist uns führen will,^qdamit unser Leben Gott gefällt.^pDein Geist helfe unserer Schwachheit auf,^qdamit wir wissen, um was wir beten sollen.^pÖffne uns die Augen für die Not unserer Mitmenschen;^qmach uns bereit, einander zu trösten und zu stärken.",
@@ -9275,7 +9325,11 @@ export const brevierData = {
           "ant1": "Der Herr ist erhaben über alle Himmel, er hebt den Schwachen aus dem Staub empor.^HALLo",
           "ant2": "Du hast meine Fesseln gelöst, ein Opfer des Dankes will ich dir bringen.^HALLo",
           "ant3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden und wurde für alle, die ihm gehorchen, zum Urheber des ewigen Heiles.^HALLo",
+          "mode1": "VII",
+          "mode2": "III",
+          "mode3": "IV",
           "antev": "Ich lasse euch nicht als Waisen zurück: Ich gehe hin und komme wieder zu euch, und euer Herz wird sich freuen.^HALLo",
+          "modeev": "VI",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der in den Himmel aufgefahren ist:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sende herab die Kraft aus der Höhe^qund erneuere deine Kirche.^pSei mit denen, die sich auf das Sakrament der Firmung vorbereiten;^qfestige, was du in ihnen gewirkt hast.^pStärke alle, die gefirmt sind;^qhilf ihnen, als deine Jünger zu leben.^pSteh den Behinderten und Kranken bei^qund schenke ihnen den Trost des Heiligen Geistes.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9304,7 +9358,11 @@ export const brevierData = {
           "ant1": "Der Herr ist König, bekleidet mit Hoheit.^HALLo",
           "ant2": "Auch die Schöpfung wird befreit zur Freiheit und Herrlichkeit der Kinder Gottes.^HALLo",
           "ant3": "Der Name des Herrn ist erhaben. Seine Hoheit strahlt über Erde und Himmel.^HALLo",
+          "mode1": "VII",
+          "mode2": "I",
+          "mode3": "VIII",
           "antev": "Vater, ich habe dich auf Erden verherrlicht und das Werk vollendet, das du mir aufgetragen hast.^HALLo",
+          "modeev": "II",
           "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche heiligt durch den Heiligen Geist. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Gib, dass wir uns vom Geiste Gottes leiten lassen^qund allezeit als Kinder Gottes leben.^pDein Heiliger Geist leite uns an diesem Tag,^qdamit alles, was wir tun, zum Guten führt.^pLass nicht zu, dass wir den Geist auslöschen;^qhilf uns das Böse meiden.^pGewähre uns die Gabe der Erkenntnis Gottes^qund lehre uns die Furcht des Herrn.",
@@ -9320,7 +9378,11 @@ export const brevierData = {
           "ant1": "Christus, der Erbe des Alls, hat die Reinigung von den Sünden vollbracht. Dann setzte er sich zur Rechten der Herrlichkeit Gottes in der Höhe.^HALLo",
           "ant2": "Der Herr hat seinem Volk Erlösung gewährt.^HALLo",
           "ant3": "Halleluja. Der Herr, unser Gott, ist König. Ihm sei Ehre und Herrlichkeit.^HALLo",
+          "mode1": "VIII",
+          "mode2": "VIII",
+          "mode3": "VII",
           "antev": "Wenn der Beistand kommt, den ich euch vom Vater sende, der Geist der Wahrheit, der vom Vater ausgeht, dann legt er Zeugnis ab für mich.^HALLo",
+          "modeev": "II",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der uns den Geist der Zuversicht verheißen hat:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Höre die Stimme der Kirche, die im Heiligen Geist zu dir ruft;^qnimm ihr Singen und Beten an.^pDu Hirte deines Volkes, schenke den Hirten Weisheit und Rat,^qdamit sie dein Volk zum Heile führen.^pDu Sohn der Jungfrau, empfangen durch den Heiligen Geist,^qbewahre die gottgeweihten Jungfrauen in der Treue zu dir.^pDu sitzest zur Rechten des Vaters und bist reich an Erbarmen;^qgedenke der Armen und Leidenden.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9340,6 +9402,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "In der Welt seid ihr in Bedrängnis; aber habt Mut: Ich habe die Welt besiegt.^HALLo",
+          "modeev": "II",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Beistand des Heiligen Geistes verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Durch dich danken wir dem Vater im Heiligen Geist;^qgib, dass alles, was wir heute tun, in deinem Namen geschieht.^pGib, dass der Heilige Geist in uns wohne,^qdamit wir lebendige Glieder deines Leibes sind.^pGib, dass wir keinen Menschen richten oder verachten,^qdamit wir vor deinem Gericht bestehen können.^pErfülle uns durch den Glauben mit Freude und Frieden;^qmach unsere Hoffnung stark im Heiligen Geist.",
@@ -9354,6 +9417,7 @@ export const brevierData = {
           "les_text": "Alle, die sich vom Geist Gottes leiten lassen, sind Söhne Gottes. Denn ihr habt nicht einen Geist empfangen, der euch zu Sklaven macht, so dass ihr euch immer noch fürchten müsstet, sondern ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! So bezeugt der Geist selber unserem Geist, dass wir Kinder Gottes sind. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und sind Miterben Christi, wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden.",
           "les_text_neu": "Die sich vom Geist Gottes leiten lassen, sind Kinder Gottes. Denn ihr habt nicht einen Geist der Knechtschaft empfangen, sodass ihr immer noch Furcht haben müsstet, sondern ihr habt den Geist der Kindschaft empfangen, in dem wir rufen: Abba, Vater! Der Geist selber bezeugt unserem Geist, dass wir Kinder Gottes sind. Sind wir aber Kinder, dann auch Erben; Erben Gottes und Miterben Christi, wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden.",
           "antev": "Der Beistand, der Heilige Geist, wird bei euch bleiben und in euch wohnen.^HALLo",
+          "modeev": "III",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, dem Spender des Geistes:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Du Mittler zwischen Gott und den Menschen, du hast die Priester zu deinen Mitarbeitern erwählt,^qführe die Menschen durch sie zu Gott, unserem Vater.^pOffenbare dein Evangelium allen Völkern,^qdamit die ganze Menschheit zum Gehorsam des Glaubens gelange.^pSende deinen Geist, den Beistand und Tröster,^qdamit er die Tränen der Weinenden trockne.^pVor dir gibt es kein Ansehen der Person;^qverhilf den Armen und Unterdrückten zu ihrem Recht.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9371,6 +9435,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Der Herr ist von den Toten erstanden, wie er gesagt hat. Lasst uns frohlocken und jubeln; denn er ist König für immer und ewig.^HALLo",
+          "modeev": "I",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Gib, dass dein Geist in uns wohne;^qlass all unser Tun den Vater loben.^pDu hast uns zu deinen Brüdern und Schwestern gemacht;^qgib, dass wir allezeit im Heiligen Geist mit dir zum Vater rufen.^pMach uns weise im Handeln,^qdamit wir mit allen Menschen in Frieden leben.^pSchenke uns die Frucht des Geistes,^qdamit wir das Reich Gottes erben.",
@@ -9385,6 +9450,7 @@ export const brevierData = {
           "les_text": "Der Geist nimmt sich unserer Schwachheit an. Denn wir wissen nicht, worum wir in rechter Weise beten sollen; der Geist selber tritt jedoch für uns ein mit Seufzen, das wir nicht in Worte fassen können. Und Gott, der die Herzen erforscht, weiß, was die Absicht des Geistes ist: Er tritt so, wie Gott es will, für die Heiligen ein.",
           "les_text_neu": "Der Geist nimmt sich unserer Schwachheit an. Denn wir wissen nicht, was wir in rechter Weise beten sollen; der Geist selber tritt jedoch für uns ein mit unaussprechlichen Seufzern. Der die Herzen erforscht, weiß, was die Absicht des Geistes ist. Denn er tritt so, wie Gott es will, für die Heiligen ein.",
           "antev": "Ihr werdet die Kraft des Heiligen Geistes empfangen und meine Zeugen sein bis an die Grenzen der Erde.^HALLo",
+          "modeev": "VII",
           "bitten_e": "Lasst uns beten zu Christus, der allen Glaubenden seinen Heiligen Geist schenkt:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sende vom Vater her den Heiligen Geist über die ganze Kirche,^qdass er sie reinige und stärke und sie ausbreite über die Erde.^pErfülle die Ausspender deiner Geheimnisse mit Heiligem Geist,^qdamit sie allezeit treu erfunden werden in deinem Dienst.^pLenke durch deinen Geist das Denken und Tun der Regierenden,^qdamit sie deinen Willen vollziehen zum Wohle aller.^pSende uns deinen Geist, den Vater der Armen,^qdamit er allen, die Not leiden, Hilfe bringe.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9402,6 +9468,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Dank sei Gott! Er hat uns den Sieg geschenkt durch Jesus Christus, unseren Herrn.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Dein Heiliger Geist lehre uns beten;^qer lasse Herz und Stimme zusammenklingen.^pHilf uns, heute aufeinander Rücksicht zu nehmen,^qund mach uns bereit, einander zu verzeihen.^pGib, dass wir uns als Kinder Gottes vom Geiste Gottes leiten lassen;^qbewahre uns vor dem Geist der Welt.^pSchenk uns deine Liebe, wie du verheißen hast,^qund bleibe allezeit bei uns.",
@@ -9416,6 +9483,7 @@ export const brevierData = {
           "les_text": "Wir verkündigen, wie in der Schrift steht, was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben. Denn uns hat es Gott enthüllt durch den Geist. Der Geist ergründet nämlich alles, auch die Tiefen Gottes.",
           "les_text_neu": "Wir verkünden, wie es in der Schrift steht, was kein Auge gesehen und kein Ohr gehört hat, was in keines Menschen Herz gedrungen ist, was Gott denen bereitet hat, die ihn lieben. Uns aber hat es Gott enthüllt durch den Geist. Der Geist ergründet nämlich alles, auch die Tiefen Gottes.",
           "antev": "Christus wird euch taufen mit heiligem Geist und mit Feuer.^HALLo",
+          "modeev": "II",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der uns seinen Heiligen Geist verheißen hat:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Der Vater hat dich als seinen geliebten Sohn geoffenbart;^qgib, dass alle Menschen deine Stimme hören und gerettet werden.^pDu bist in die Herrlichkeit des Himmels erhoben worden;^qlass die Kirche deine bleibende Gegenwart erfahren.^pSende deinen Geist in die Herzen der Sünder,^qdamit er sie zur Umkehr bewege.^pKomm den Trauernden mit deinem Geist zu Hilfe;^qlass die Einsamen getröstet werden.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9433,6 +9501,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.^HALLo",
+          "modeev": "III",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Du hast dich vom Geiste Gottes leiten lassen;^qlass uns erkennen, was der Wille Gottes ist.^pVom Heiligen Geist erfüllt, hast du den Vater gepriesen;^qlehre uns beten im Geist und in der Wahrheit.^pDurch den Geist wirkst du in jedem von uns;^qlass uns die Gaben des Geistes gebrauchen zum Nutzen aller.^pDu heiligst uns durch deinen Geist;^qhilf uns, heute als Christen zu leben.",
@@ -9447,6 +9516,7 @@ export const brevierData = {
           "les_text": "Wisst ihr nicht, dass euer Leib ein Tempel des Heiligen Geistes ist, der in euch wohnt und den ihr von Gott habt? Ihr gehört nicht euch selbst; denn um einen teuren Preis seid ihr erkauft worden. Verherrlicht also°Gott in eurem Leib!",
           "les_text_neu": "",
           "antev": "Wenn der Geist der Wahrheit kommt, wird er euch in die volle Wahrheit führen und euch verkünden, was kommen wird.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der uns seinen Heiligen Geist verheißen hat:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Du hast Besessene von den Dämonen befreit;^qbefreie die Welt von allem Bösen, das sie bedrängt.^pSende deiner Kirche den Geist der Einheit,^qdamit er Spaltung und Streit von ihr fernhalte.^pGib, dass deine Priester sich vom Heiligen Geist leiten lassen^qund ihren Dienst mit ganzer Hingabe tun.^pDein Geist lenke die Gedanken der Mächtigen,^qdamit sie dem Wohl aller dienen.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9464,6 +9534,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Christus Jesus ist für uns gestorben und auferstanden. Er sitzt zur Rechten Gottes und tritt beim Vater für uns ein.^HALLo",
+          "modeev": "II",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Du bist der Gesalbte Gottes, der Erlöser deines Volkes;^qhilf uns, dir zu folgen in der Kraft des Geistes.^pDu bist das lebendige Wort Gottes;^qgib, dass wir dich aufnehmen in der Freude des Heiligen Geistes.^pErfülle uns mit dem Geist, der uns beten lehrt,^qdamit wir mit ganzem Herzen das Lob Gottes singen.^pLass nicht zu, dass wir den Heiligen Geist beleidigen;^qhilf uns sein Siegel bewahren für den Tag der Erlösung.",
@@ -9478,6 +9549,7 @@ export const brevierData = {
           "les_text": "Lasst euch vom Geist leiten, dann werdet ihr das Begehren des Fleisches nicht erfüllen. Die Frucht des Geistes ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut und Selbstbeherrschung. Wenn wir aus dem Geist leben, dann wollen wir dem Geist auch folgen.",
           "les_text_neu": "Wandelt im Geist, dann werdet ihr das Begehren des Fleisches nicht erfüllen! Die Frucht des Geistes ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut und Enthaltsamkeit. Wenn wir im Geist leben, lasst uns auch im Geist wandeln!",
           "antev": "Sie alle verharrten einmütig im Gebet, zusammen mit den Frauen und mit Maria, der Mutter Jesu.^HALLo",
+          "modeev": "IV",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der den Heiligen Geist über alle Völker ausgegossen hat:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Du bist das Licht der Welt;^qvereine die Menschen aller Rassen und Sprachen in deiner Kirche.^pDu bist der Gesalbte Gottes, der Heiland der Welt;^qlass alle Armen deine Wohltaten erfahren.^pSende deinen Geist, dass er die Herzen der Irrenden erleuchte^qund die Zweifelnden im Glauben stärke.^pSende deinen Geist, dass er den Mühseligen und Beladenen Ruhe schenke^qund die zerbrochenen Herzen heile.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
@@ -9495,6 +9567,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Du hast gewirkt in der Kraft des Geistes;^qmach uns stark im Heiligen Geist.^pDu hast uns die Gemeinschaft des Heiligen Geistes versprochen;^qsteh uns heute bei, dass wir miteinander in Frieden leben.^pGib, dass wir uns im Heiligen Geist als Gottes Diener erweisen,^qund lass nicht zu, dass wir deine Gnade vergebens empfangen.^pDu hast uns von deinem Geist gegeben;^qgib, dass wir in dir bleiben, und bleibe du in uns.",
@@ -9523,6 +9596,9 @@ export const brevierData = {
           "ant1": "Als die fünfzig Tage sich erfüllten, waren alle versammelt am gleichen Ort.^HALLo",
           "ant2": "Es erschienen Zungen wie von Feuer, die sich verteilten, und der Heilige Geist ließ sich auf jeden nieder.^HALLo",
           "ant3": "Der Geist, der vom Vater ausgeht, er wird mich verherrlichen.^HALLo",
+          "mode1": "III",
+          "mode2": "I",
+          "mode3": "VIII",
           "les_buch": "›Röm",
           "les_stelle": "8,11",
           "les_text": "Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.",
@@ -9531,6 +9607,7 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "An alles, was ich euch sagte, wird er euch erinnern.",
           "antev": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen und entzünde in ihnen das Feuer deiner Liebe, du, der über alle Grenzen der Sprachen hinweg die Völker in einem Glauben sammelt.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der am Pfingsttag die Apostel Christi mit Heiligem Geist erfüllt hat:",
           "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
           "bitten": "Du hast Himmel und Erde geschaffen und willst durch Christus im Heiligen Geist alles erneuern;^qschaffe neu das Angesicht der Erde und schenke ihr dein Heil.^pDem ersten Menschen hast du den Lebensatem eingehaucht;^qgieße deinen Geist aus über die Kirche, damit sie allezeit aus ihm lebt.^pLenke durch deinen Geist die Pläne der Mächtigen;^qgib, dass sie Gedanken des Friedens und der Versöhnung denken.^pErbarme dich aller, die unter Krieg, Aufruhr und Unterdrückung leiden;^qdein Heiliger Geist richte sie auf und tröste sie.^pDurch den Heiligen Geist führst du die Menschen zur Herrlichkeit des ewigen Lebens;^qgib, dass die Verstorbenen die Gemeinschaft der Heiligen erfahren.",
@@ -9582,12 +9659,12 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Wie gut und freundlich ist dein Geist in uns, o°Herr.^HALLo",
           "ant2": "Ihr Quellen und alles, was sich regt im Wasser, singt Gott ein Loblied.^HALLo",
           "ant3": "In vielen Sprachen verkünden die Apostel Gottes große Taten.^HALLo",
+          "mode1": "VII",
+          "mode2": "I",
+          "mode3": "V",
           "les_buch": "›Apg",
           "les_stelle": "5,30–32",
           "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.",
@@ -9596,6 +9673,7 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Sie redeten in fremden Zungen, wie der Geist es ihnen eingab.",
           "antev": "Empfangt den Heiligen Geist. Wem ihr die Sünden nachlasst, dem sind sie erlassen.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche im Heiligen Geist zusammenführt. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, schaffe alles neu.",
           "bitten": "Du hast am heutigen Tag vom Vater her deinen Jüngern den Heiligen Geist gesandt;^qerfülle auch uns mit dem Heiligen Geist.^pDu hast Ströme lebendigen Wassers verheißen einem jeden, der glaubt;^qerneuere unseren Glauben.^pDu hast uns den Geist der Wahrheit gesandt, der von dir Zeugnis gibt;^qmache uns zu treuen Zeugen.^pIm Heiligen Geist heiligst du deine Kirche;^qnimm hinweg, was böse ist in uns.",
@@ -9638,6 +9716,7 @@ export const brevierData = {
         },
         "Sext": {
           "ant0": "Mehre in uns den Glauben, o°Herr, und erleuchte uns allezeit mit dem Licht deines Geistes.^HALLo",
+          "mode0": "VI",
           "les_buch": "›Tit",
           "les_stelle": "3,5b–7",
           "les_text": "Gott hat uns gerettet durch das Bad der Wiedergeburt und der Erneuerung im Heiligen Geist. Ihn hat er in reichem Maß über uns ausgegossen durch Jesus Christus, unseren Retter, damit wir durch seine Gnade gerecht gemacht werden und das ewige Leben erben, das wir erhoffen.",
@@ -9677,6 +9756,9 @@ export const brevierData = {
           "ant1": "Der Geist des Herrn erfüllt den Erdkreis.^HALLo",
           "ant2": "Festige, Herr, was du in uns gewirkt hast, von deinem Tempel aus, hoch über Jerusalem.^HALLo",
           "ant3": "Alle wurden erfüllt vom Heiligen Geist, und sie begannen zu reden.^HALLo",
+          "mode1": "VII",
+          "mode2": "IX",
+          "mode3": "VIII",
           "les_buch": "›Eph",
           "les_stelle": "4,3–6",
           "les_text": "Bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch auch durch eure Berufung EIN gemeinsame Hoffnung gegeben ist: EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.",
@@ -9685,6 +9767,7 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Er, der das All umfängt, kennt jede Sprache.",
           "antev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja,°halleluja,°halleluja.",
+          "modeev": "I",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der durch Christus seine Kirche im Heiligen Geist zusammenführt:",
           "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
           "bitten": "Gott und Vater aller, du berufst deine Kinder aus allen Völkern und Rassen;^qerleuchte die Berufenen mit der Gnade des Heiligen Geistes.^pDu willst alle Menschen, die Christi Namen tragen, durch die eine Taufe vereinigen;^qgib, dass die Glaubenden ein Herz und eine Seele sind.^pDu hast den Heiligen Geist über den ganzen Erdkreis ausgegossen;^qstehe allen bei, die sich um den Frieden der Erde mühen.^pDu machst alles neu durch den Heiligen Geist;^qgib den Kranken und Betrübten neue Kraft.^pDurch den Heiligen Geist hast du deinen Sohn von den Toten auferweckt;^qerwecke die Verstorbenen zum ewigen Leben.",
@@ -17577,9 +17660,6 @@ export const brevierData = {
     "okt": {
       "each": {
         "Laudes": {
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
           "ant1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn.^HALLxq",
           "ant2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der°Welt.^HALLxq",
           "ant3": "Ein Kind ist uns heute geboren. „Starker°Gott“ ist sein Name.^HALLxq",

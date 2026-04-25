@@ -281,7 +281,7 @@ const HymnSelector = ({ texts, hour, season,
                         const alternativeHymnNumber = eigData[alternativeHymnField];
                         if (alternativeHymnNumber > 8000) {
                             // Erstelle eindeutige ID für diesen alternativen Hymnus
-                            const alternativeId = `eig_${alternativeHymnField}_fallback`;
+                            const alternativeId = `oblig_${alternativeHymnField}_fallback`;
 
                             // Bestimme Sprachkennzeichnung für das Label
                             let languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
