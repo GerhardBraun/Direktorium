@@ -372,7 +372,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
     // Cant-Modus: abstrakte Gesangsmarker in ^u/^b-Tags umwandeln
     // Muss vor der Haupttransformation laufen, da ^* und ^+ dort umgeschrieben werden.
     if (marker.startsWith('cant')) {
-        const cantMode = marker.replace('cant', '').trim() || 'IX';
+        const cantMode = marker.replace('cant', '').trim() || 'II';
         marker = '';
         provText = formatCantMarkers(provText, cantMode);
     }

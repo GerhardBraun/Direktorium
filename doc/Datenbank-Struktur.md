@@ -156,42 +156,42 @@ vgl. `LectureSelector.js`und `LectureAlternatives.ts`
 
 # Responsorium/Versikel/Antiphon
 ## Elemente
-Call0 (in der App: `resp1`)
-Call-Response-Paare: normalerweise 1 Paar (in der App: `resp3` und `resp2`), in einem Fall 3 Paare (1. Advent, Jahr II, Lesehore)
+Verse0 (in der App: `resp1`)
+Verse-Response-Paare: normalerweise 1 Paar (in der App: `resp3` und `resp2`), in einem Fall 3 Paare (1. Advent, Jahr II, Lesehore)
 Doxology (kann auch im UI implementiert werden, da Ordinarium ohne Sonderfall)
 Antiphon (Sonderfall für Gründonnerstag, Karfreitag, Karsamstag und Osteroktav)
 
 ## Darstellung
 ### Laudes/Vesper/Komplet
-*R* Call0 *\** Response1 *– R*
-*V* Call1 *\** Response1
+*R* Verse0 *\** Response1 *– R*
+*V* Verse1 *\** Response1
 Ehre sei dem Vater ...  *– R*
 
 ### Lesehore
-*R* Call0 *\** Response1
-*V* Call1 *\** Response1
+*R* Verse0 *\** Response1
+*V* Verse1 *\** Response1
 (keine Wiederholung von *R*, keine Doxology)
 
 ### Terz/Sext/Non
-*V* Call1
+*V* Verse1
 *R* Response1
 (wie das Versikel in der Lesehore)
 
 ### Sonderfälle
 #### Laudes/Vesper/Komplet in Triduum paschale und Osteroktav
-eine Antiphon statt dem Wechsel von Call und Response
+eine Antiphon statt dem Wechsel von Verse und Response
 
 #### Lesehore am 1. Adventssonntag, Jahr II
-Hier gibt es nicht nur 1, sondern 3 Call-Response-Paare sowie die Doxologie als letzten Call.
-*R* Call0 *\** Response1 *\** Response2 *\** Response3
-*V* Call1 *\** Response1
-*V* Call2 *\** Response2
-*V* Call3 *\** Response3
+Hier gibt es nicht nur 1, sondern 3 Verse-Response-Paare sowie die Doxologie als letzten Verse.
+*R* Verse0 *\** Response1 *\** Response2 *\** Response3
+*V* Verse1 *\** Response1
+*V* Verse2 *\** Response2
+*V* Verse3 *\** Response3
 *V* Ehre sei dem Vater ...
-*R* Call0 *\** Response1 *\** Response2 *\** Response3
+*R* Verse0 *\** Response1 *\** Response2 *\** Response3
 
 #### Commune-Texte in der Osterzeit
-Call0 und Response1 werden zusammengezogen und als Call0 angezeigt;
+Verse0 und Response1 werden zusammengezogen und als Verse0 angezeigt;
 als Response1 wird "Halleluja,°halleluja." bzw. "Allelúia,°allelúia." angezeigt.
 
 ## Asteriskus: Bedeutung und Darstellung
@@ -216,7 +216,7 @@ vgl. `LectureSelector.js`und `LectureAlternatives.ts`
 `°` geschützte Leerzeichen
 
 ## Fußnoten als Inline-Marker
-codiert mit {N#Text}
+codiert mit `{N#Text}`
 Die Fußnoten können inline angezeigt werden oder als echte Fußnoten mit Ziffern im Text und Zusammenstellung aller Fußnoten am Ende des Textes. `prefFootnotes` als State und im LocalStorage
 
 # Responsorium zur Zweiten Lesung (nur in der Lesehore)
@@ -227,18 +227,18 @@ Die Differenzierung für die anderen Horen wie beim 1. Responsorium ist hier nic
 Stattdessen könnte man hier for-each-Schleifen verwenden, um den Sonderfall einzubeziehen.
 
 ### Normalfall (wie beim 1. Responsorium zur Lesehore)
-*R* Call0 *\** Response1
-*V* Call1 *\** Response1
+*R* Verse0 *\** Response1
+*V* Verse1 *\** Response1
 (keine Doxologie, keine Wiederholung von *R*)
 
 ### Sonderfall: Lesehore am 1. Adventssonntag, Jahr II
-Hier gibt es nicht nur 1, sondern 3 Call-Response-Paare sowie die Doxologie als letzten Call.
-*R* Call0 *\** Response1 *\** Response2 *\** Response3
-*V* Call1 *\** Response1
-*V* Call2 *\** Response2
-*V* Call3 *\** Response3
+Hier gibt es nicht nur 1, sondern 3 Verse-Response-Paare sowie die Doxologie als letzten Verse.
+*R* Verse0 *\** Response1 *\** Response2 *\** Response3
+*V* Verse1 *\** Response1
+*V* Verse2 *\** Response2
+*V* Verse3 *\** Response3
 *V* Ehre sei dem Vater ...
-*R* Call0 *\** Response1 *\** Response2 *\** Response3
+*R* Verse0 *\** Response1 *\** Response2 *\** Response3
 
 
 # Vigil-Button (nur in der Lesehore)

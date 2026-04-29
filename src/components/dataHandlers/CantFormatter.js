@@ -72,7 +72,7 @@ export const PSALM_TONE_CADENCE = {
 // Wandelt die abstrakten Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um.
 // Wird als Subroutine in formatPrayerText aufgerufen wenn marker === 'cant'.
 export const formatCantMarkers = (text, mode) => {
-    const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['IX']; // Default auf IX, falls kein Psalmton angegeben
+    const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['II']; // Default auf II, falls kein Psalmton angegeben
     if (!cadence) return text;  // unbekannter Psalmton: Text unverändert lassen
 
     // Textanpassungen für den Gesang: [+…]/[-…] = Zeichenfolge hinzufügen/weglassen (Klammerform);
@@ -554,7 +554,7 @@ const buildTaggedText = (slots, tone) => {
 // Rechts: Auslaut-Konsonanten; bei schließendem Diphthong auch zweiter Vokal → außerhalb Klammer.
 // Wort-Trennzeichen (Leerzeichen, °) stoppen den Scan.
 const CANT_VOWEL_RE = /[aeiouäëïöüáéíóúàèìòùAEIOUÄÖÜÁÉÍÓÚÀÈÌÒÙ]/;
-const CANT_DIPHTHONGS = new Set(['ei', 'ai', 'au', 'eu', 'äu', 'ie', 'ae', 'oe']);
+const CANT_DIPHTHONGS = new Set(['aa', 'ee', 'oo', 'ei', 'ai', 'au', 'eu', 'äu', 'ie', 'ae', 'oe']);
 export const bracketTrim = (content) => {
     // Wenn der Inhalt ^-Tags enthält (z. B. ^ELL...^0ELL durch Elisionsersetzung):
     // zeichenweises Scan-Trimming ist nicht möglich → kein Trimming.
