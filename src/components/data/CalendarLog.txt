@@ -1,7 +1,6 @@
-Calendar Data Processing Log - 2026-04-29 05:46:25.341653
+Calendar Data Processing Log - 2026-05-01 05:49:44.347786
 ============================================================
 
-nur lateinischer Eintrag: AAA-5-1-n2-Invitatorium
 nur lateinischer Eintrag: AAA-12-24-oblig-Invitatorium
 nur lateinischer Eintrag: AAA-12-24-oblig-Lesehore
 nur lateinischer Eintrag: AAA-12-24-oblig-Laudes

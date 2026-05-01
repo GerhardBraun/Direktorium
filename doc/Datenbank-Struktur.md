@@ -66,8 +66,8 @@ Antiphon 1-3 bzw. Antiphon 0 (gemeinsame Antiphon für alle drei Psalmen, s.u.)
 ## Psalmen
 ### Elemente
 Content: in verschiedenen Sprachen/Übersetzungen:
-1. wie im Stundenbuch (Einheitsübersetzung von 1982) (Standard)
-2. lateinische wie in der Liturgia Horarum (Nova Vulgata)
+1. wie im Stundenbuch (Einheitsübersetzung von 1983) (Standard)
+2. lateinisch wie in der Liturgia Horarum (Nova Vulgata)
 3. Münsterschwarzacher Psalter/Benediktinisches Antiphonale
 4. neue Einheitsübersetzung von 2016/2017
 Verses: wenn nicht alle Verse ins Stundengebet übernommen werden oder der Psalm in mehrere Abschnitte aufgeteilt ist
@@ -113,7 +113,7 @@ Content: eigentlicher Text
 1. deutsch
 2. lateinisch
 Mode: zugeordneter Psalmton nach dem Antiphonale zum Stundenbuch
-??? ComplementHalleluja (anstelle der Inline-Marker `^Ö`, `^LÖ`): `false`, `true`, `onlyEaster`
+??? ComplementHalleluja (anstelle der Inline-Marker `^HALLxq`, `^ALLxq`, `^HALLo`, `^ALLo`): `false`, `true`, `onlyEaster`
 
 ### gemeinsame Antiphon für alle Psalmen: `ant0`
 in den Geprägten Zeiten (alle außer Jahreskreis: Advent, Weihnachtszeit, Fastenzeit, Osterzeit):
@@ -127,10 +127,9 @@ in der Karwoche: *Layer:* q-6-day
 in der Osterzeit: *Layer:* po-week-day
 an den Sonntagen der Geprägten Zeiten: *Layer:* season-week-0
 
-
 # Versikel (nur in der Lesehore)
 immer ein V- und ein R-Teil: `versikel0` und `versikel1`
-*wie nach der Kurzlesung in Terz/Sext/Non*
+*Darstellung wie beim Responsorium nach der Kurzlesung in Terz/Sext/Non*
 
 # Kurzlesung/Erste Lesung
 ## Elemente

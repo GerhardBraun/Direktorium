@@ -57,6 +57,15 @@ function getReferenceData(reference) {
     }
 }
 
+// Referenz auflösen (Laudes.referenz) und Referenzdaten mit Source-Daten mergen
+function resolveAndMergeSource(sourceData) {
+    const data = JSON.parse(JSON.stringify(sourceData));
+    const reference = data?.Laudes?.referenz || '';
+    let resolvedData = reference ? getReferenceData(reference) : {};
+    delete data.reference;
+    return deepMerge(resolvedData, data);
+}
+
 // Liest nur die Daten des betreffenden Tages aus dem Kalender –
 // statt den gesamten Kalender zu mergen (wie CalendarMerge.js es tat).
 // Logik: AAA-Daten als Basis; diözesane oblig-Source ersetzt alles;
@@ -65,22 +74,25 @@ function getDayCalendarData(calendarMonth, calendarDay) {
     const diocese = localStorage.getItem('diocese') || 'Fulda';
     const regionalCalendarData = calendarData?.AAA?.[calendarMonth]?.[calendarDay];
 
+    // Referenzen in regionalen AAA-Daten auflösen
+    const resolvedRegional = {};
+    if (regionalCalendarData) {
+        for (const source in regionalCalendarData) {
+            resolvedRegional[source] = resolveAndMergeSource(regionalCalendarData[source]);
+        }
+    }
+
     if (diocese === 'AAA' || !calendarData?.[diocese]) {
-        return regionalCalendarData ? JSON.parse(JSON.stringify(regionalCalendarData)) : undefined;
+        return Object.keys(resolvedRegional).length > 0 ? resolvedRegional : undefined;
     }
 
     const diocesanDayData = calendarData?.[diocese]?.[calendarMonth]?.[calendarDay];
-    const result = regionalCalendarData ? JSON.parse(JSON.stringify(regionalCalendarData)) : {};
+    const result = { ...resolvedRegional };
 
     if (diocesanDayData) {
         for (const source in diocesanDayData) {
-            const diocesanSourceData = JSON.parse(JSON.stringify(diocesanDayData[source]));
-
             // Referenz auflösen und diözesane Daten darüber mergen
-            const reference = diocesanSourceData?.Laudes?.referenz || '';
-            let resolvedData = reference ? getReferenceData(reference) : {};
-            delete diocesanSourceData.reference;
-            resolvedData = deepMerge(resolvedData, diocesanSourceData);
+            const resolvedData = resolveAndMergeSource(diocesanDayData[source]);
 
             if (source === 'oblig') {
                 // oblig ersetzt alle AAA-Daten für diesen Tag vollständig
@@ -819,7 +831,7 @@ export function processBrevierData(todayDate) {
         && !swdCombined.startsWith('q-6-')
         && dateCompare !== '11-02'
     ) || // Gedenktage mit Ps vom Fest
-        ['01-21', '05-01', '06-11', '08-29', '09-15',
+        ['01-21', '06-11', '08-29', '09-15',
             '10-02', '10-07', '11-11'].includes(dateCompare);
 
     finalData.rank.useAlternativePsalms = (swdCombined === 'q-0-3' || swdCombined === 'q-6-4');

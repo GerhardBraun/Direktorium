@@ -3199,8 +3199,13 @@ export const calendarData: CalendarData = {
             "ms_les_motto": "Das Blut Jesu reinigt uns von aller Sünde",
             "ms_les_text": "Schwestern und Brüder!^lDas ist die Botschaft,^l^EINZUGdie wir von Jesus Christus gehört haben und euch verkünden:^lGott ist Licht und keine Finsternis ist in ihm.^lWenn wir sagen, dass wir Gemeinschaft mit ihm haben^l^EINZUGund doch in der Finsternis wandeln,^l^EINZUGlügen wir und tun nicht die Wahrheit.^lWenn wir im Licht wandeln, wie er im Licht ist,^l^EINZUGhaben wir Gemeinschaft miteinander^lund das Blut seines Sohnes Jesus reinigt uns von aller Sünde.^pWenn wir sagen, dass wir keine Sünde haben,^l^EINZUGführen wir uns selbst in die Irre^lund die Wahrheit ist nicht in uns.^lWenn wir unsere Sünden bekennen,^l^EINZUGist er treu und gerecht;^ler vergibt uns die Sünden und reinigt uns von allem Unrecht.^lWenn wir sagen, dass wir nicht gesündigt haben,^l^EINZUGmachen wir ihn zum Lügner^lund sein Wort ist nicht in uns.^pMeine Kinder, ich schreibe euch dies, damit ihr nicht sündigt.^lWenn aber einer sündigt,^l^EINZUGhaben wir einen Beistand beim Vater:^lJesus Christus, den Gerechten.^lEr ist die Sühne für unsere Sünden,^laber nicht nur für unsere Sünden,^l^EINZUGsondern auch für die der ganzen Welt.",
             "ms_aps_stelle": "Ps 103,1-2.3-4.8-9.13-14.17-18a",
+            "ms_aps_kv": "Lobe den HERRN, meine Seele!",
+            "ms_aps_text": "Preise den HERRN, meine Seele,^*und alles in mir seinen heiligen Namen!^pPreise den HERRN, meine Seele,^*und vergiss nicht, was er dir Gutes getan hat!^KV^PDer dir all deine Schuld vergibt^*und all deine Gebrechen heilt,^pder dein Leben vor dem Untergang rettet^*und dich mit Huld und Erbarmen krönt.^KV^PDer HERR ist barmherzig und gnädig,^*langmütig und reich an Huld.^pEr wird nicht immer rechten^*und nicht ewig trägt er nach.^KV^PWie ein Vater sich seiner Kinder erbarmt,^*so erbarmt sich der HERR über alle, die ihn fürchten.^pDenn er weiß, was wir für Gebilde sind,^*er bedenkt, dass wir Staub sind.^KV^PDoch die Huld des HERRN währt immer und ewig^*für alle, die ihn fürchten.^pSeine Gerechtigkeit erfahren noch Kinder und Enkel,^*alle, die seinen Bund bewahren.",
+            "ms_ruf_text": "Mt 11,25",
             "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "11,25-30"
+            "ms_ev_stelle": "11,25-30",
+            "ms_ev_motto": "Du hast das vor den Weisen und Klugen verborgen und hast es den Unmündigen offenbart",
+            "ms_ev_text": "In jener Zeit sprach Jesus:^lIch preise dich, Vater, Herr des Himmels und der Erde,^lweil du das vor den Weisen und Klugen verborgen^l^EINZUGund es den Unmündigen offenbart hast.^lJa, Vater,^lso hat es dir gefallen.^pAlles ist mir von meinem Vater übergeben worden;^lniemand kennt den Sohn,^l^EINZUGnur der Vater,^lund niemand kennt den Vater,^l^EINZUGnur der Sohn^lund der, dem es der Sohn offenbaren will.^pKommt alle zu mir,^l^EINZUGdie ihr mühselig und beladen seid!^lIch will euch erquicken.^pNehmt mein Joch auf euch^l^EINZUGund lernt von mir;^ldenn ich bin gütig und von Herzen demütig;^lund ihr werdet Ruhe finden für eure Seele.^lDenn mein Joch ist sanft^l^EINZUGund meine Last ist leicht."
           }
         }
       },
@@ -3867,9 +3872,6 @@ export const calendarData: CalendarData = {
           }
         },
         "n2": {
-          "each": {
-            "oration_lat": "Rerum cónditor, Deus, qui legem labóris humáno géneri statuísti, concéde propítius, ut, sancti Ioseph exémplo et patrocínio, ópera perficiámus quæ prǽcipis, et prǽmia consequámur quæ promíttis.^ORlV"
-          },
           "Lesehore": {
             "psalm1": 21.0,
             "psalm2": 92.1,
@@ -3879,9 +3881,6 @@ export const calendarData: CalendarData = {
             "ant3": "Josef zog von Nazaret hinauf in die Stadt Davids, die Betlehem heißt, um sich eintragen zu lassen mit Maria, seiner Vermählten.^HALLo",
             "versikel0": "Der Gerechte gedeiht wie die Palme.^HALLo",
             "versikel1": "Gepflanzt im Hause des Herrn.^HALLo",
-            "hymn_1_lat": 8501.1,
-            "hymn_2_lat": 0.0,
-            "hymn_3_lat": 0.0,
             "ant1_lat": "Angelus Dómini appáruit Ioseph, dicens: Ioseph, fili David, noli timére accípere Maríam cóniugem tuam; páriet fílium, et vocábis nomen eius Iesum.^ALLo",
             "ant2_lat": "Exsúrgens Ioseph a somno, fecit sicut præcépit ei Angelus Dómini, et accépit Maríam cóniugem suam.^ALLo",
             "ant3_lat": "Ascéndit Ioseph a Názareth in civitátem David, quæ vocátur Béthlehem, ut profiterétur cum María.^ALLo",
@@ -3891,23 +3890,15 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "referenz": "AAA-5-1-n1",
             "button": "Hl. Josef (mit°Ant°und°Ps°vom°19.°März)",
+            "psalm1": 63.0,
+            "psalm2": 160.0,
+            "psalm3": 149.0,
             "ant1": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^HALLo",
             "ant2": "Josef und Maria, die Mutter Jesu, hörten voll Staunen, was man über Jesus sagte. Und Simeon segnete sie.^HALLo",
             "ant3": "Noch in der Nacht stand Josef auf, nahm das Kind und seine Mutter und floh nach Ägypten. Dort blieb er bis zum Tode des Herodes.^HALLo",
-            "hymn_1_lat": 8501.2,
-            "hymn_2_lat": 0.0,
-            "hymn_3_lat": 0.0,
             "ant1_lat": "Venérunt pastóres festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.^ALLo",
             "ant2_lat": "Erant Ioseph et María, mater Iesu, mirántes super iis quæ dicebántur de illo, et benedíxit illis Símeon.^ALLo",
-            "ant3_lat": "Consúrgens Ioseph accépit Púerum et matrem eius nocte, et secéssit in Ægýptum, et erat ibi usque ad óbitum Heródis.^ALLo",
-            "resp1_lat": "Constítuit eum",
-            "resp2_lat": "Dóminum domus suæ.",
-            "resp3_lat": "Et príncipem omnis possessiónis suæ.",
-            "antev_lat": "Artem fabri fidéliter exércens sanctus Ioseph, labóris mirábile refúlget exémplar.^ALLo",
-            "bitten_e_lat": "Dóminum, qui hómines éfficit iustos, súpplices precémur:",
-            "bitten_r_lat": "In iustítia tua vivífica nos, Dómine.",
-            "bitten_lat": "Dómine Deus, qui nostros in fide patres ipse vocásti, ut coram te perfécto corde ambulárent,^qfac ut, eórum sequéntes vestígia, simus sicut prǽcipis perfécti.^pQui Ioseph virum iustum elegísti, ut Fílium tuum púerum et adulescéntem enutríret,^qfac ut córpori Christi in nostris frátribus serviámus.^pQui terram homínibus commisísti, ut eam implérent sibíque subícerent,^qdoce nos in hoc sǽculo impénse operári, tuam iúgiter glóriam intendéntes.^pMeménto, Pater ómnium, óperis mánuum tuárum,^qet cunctis largíre in seréno labóre dignam vitæ condiciónem.",
-            "les_text_lat": "Dómine Deus, tu es Deus, et verba tua erunt vera: cum ergo locútus sis ad servum tuum bona hæc, dignáre ígitur benedícere dómui servi tui, ut sit in sempitérnum coram te, quia tu, Dómine Deus, locútus es, et benedictióne tua benedicétur domus servi tui in sempitérnum."
+            "ant3_lat": "Consúrgens Ioseph accépit Púerum et matrem eius nocte, et secéssit in Ægýptum, et erat ibi usque ad óbitum Heródis.^ALLo"
           },
           "Vesper": {
             "psalm1": 15.0,
@@ -3916,23 +3907,9 @@ export const calendarData: CalendarData = {
             "ant1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.^HALLo",
             "ant2": "Die Mutter Jesu sagte zu ihm: Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht.^HALLo",
             "ant3": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.^HALLo",
-            "hymn_1_lat": 8501.4,
-            "hymn_2_lat": 0.0,
-            "hymn_3_lat": 0.0,
             "ant1_lat": "Invenérunt Iesum paréntes eius in templo, sedéntem in médio doctórum, audiéntem et interrogántem eos.^ALLo",
             "ant2_lat": "Dixit mater Iesu ad illum: Fili, quid fecísti nobis sic? Ecce pater tuus et ego doléntes quærebámus te.^ALLo",
-            "ant3_lat": "Descéndit Iesus cum eis, et venit Názareth, et erat súbditus illis.^ALLo",
-            "resp1_lat": "Iustus germinábit",
-            "resp2_lat": "sicut lílium.",
-            "resp3_lat": "Et florébit in ætérnum ante Dóminum.",
-            "antev_lat": "Christus Dóminus fabri fílius putári dignátus est.^ALLo",
-            "bitten_e_lat": "Deum, ex quo omnis patérnitas in cælis et in terra nominátur, súpplices implorémus:",
-            "bitten_r_lat": "Pater noster, qui es in cælis, exáudi nos.",
-            "bitten_lat": "Pater sancte, qui Christi mystérium, tempóribus ætérnis abscónditum, beáto Ioseph aperuísti,^qpræsta ut Fílium tuum Deum et hóminem clárius agnoscámus.^pPater cæléstis, qui pascis volatília cæli et fenum agri vestis,^qcotidiánum et supersubstantiálem panem cunctis largíre homínibus.^pCreátor ómnium, qui opus tuum nostris mánibus credidísti,^qconcéde operáriis, ut frúctibus labóris sui digne fruántur.^pDeus omnis iustítiæ, qui vis hómines iustos fíeri,^qda nos, per beátum Ioseph, tibi placéntes in ómnibus ambuláre.^pMoriéntibus atque defúnctis benígne concéde, ut, per Fílium tuum, cum María matre eius et beáto Ioseph,^qtuam misericórdiam consequántur.",
-            "les_text_lat": "Quodcúmque fácitis, ex ánimo operámini sicut Dómino et non homínibus, sciéntes quod a Dómino accipiétis retributiónem hereditátis. Dómino Christo servíte."
-          },
-          "Invitatorium": {
-            "ant0_lat": "Christum Dóminum, qui putári dignátus est fabri fílius, veníte, adorémus.^ALLo"
+            "ant3_lat": "Descéndit Iesus cum eis, et venit Názareth, et erat súbditus illis.^ALLo"
           }
         }
       },
@@ -4919,10 +4896,11 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 19,2-5b.8",
             "ms_aps_kv": "HERR, lehre mich deine Gesetze!",
             "ms_aps_text": "Wie geht ein junger Mann seinen Pfad ohne Tadel?^*Wenn er dein Wort beachtet.^pIch suche dich mit ganzem Herzen.^*Lass mich nicht abirren von deinen Geboten!^KV^PIch barg deinen Spruch in meinem Herzen,^*damit ich gegen dich nicht sündige.^pGepriesen seist du, HERR!^*Lehre mich deine Gesetze!^KV^PMit meinen Lippen verkünde ich^*alle Entscheide deines Mundes.^pAm Weg deiner Zeugnisse habe ich Freude,^*wie an jeglichem Reichtum.",
+            "ms_ruf_text": "Mt 11,25",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "11,25-30",
-            "ms_ev_motto": "Jesus lehrte wie einer, der Vollmacht hat",
-            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lNicht jeder, der zu mir sagt: Herr! Herr!,^l^EINZUGwird in das Himmelreich kommen,^lsondern wer den Willen meines Vaters im Himmel tut.^pViele werden an jenem Tag zu mir sagen: Herr, Herr,^l^EINZUGsind wir nicht in deinem Namen als Propheten aufgetreten^l^EINZUGund haben wir nicht in deinem Namen Dämonen ausgetrieben^l^EINZUGund haben wir nicht in deinem Namen^l^EINZUGviele Machttaten gewirkt?^pDann werde ich ihnen antworten: Ich kenne euch nicht.^lWeg von mir, ihr Gesetzlosen!^pJeder, der diese meine Worte hört und danach handelt,^l^EINZUGist wie ein kluger Mann, der sein Haus auf Fels baute.^lAls ein Wolkenbruch kam^lund die Wassermassen heranfluteten,^lals die Stürme tobten und an dem Haus rüttelten,^lda stürzte es nicht ein;^ldenn es war auf Fels gebaut.^pUnd jeder, der diese meine Worte hört^l^EINZUGund nicht danach handelt,^l^EINZUGist ein Tor, der sein Haus auf Sand baute.^lAls ein Wolkenbruch kam^lund die Wassermassen heranfluteten,^lals die Stürme tobten und an dem Haus rüttelten,^lda stürzte es ein^lund wurde völlig zerstört.^pUnd es geschah, als Jesus diese Rede beendet hatte,^l^EINZUGwar die Menge voll Staunen über seine Lehre;^ldenn er lehrte sie wie einer, der Vollmacht hat,^lund nicht wie ihre Schriftgelehrten."
+            "ms_ev_motto": "Du hast das vor den Weisen und Klugen verborgen und hast es den Unmündigen offenbart",
+            "ms_ev_text": "In jener Zeit sprach Jesus:^lIch preise dich, Vater, Herr des Himmels und der Erde,^lweil du das vor den Weisen und Klugen verborgen^l^EINZUGund es den Unmündigen offenbart hast.^lJa, Vater,^lso hat es dir gefallen.^pAlles ist mir von meinem Vater übergeben worden;^lniemand kennt den Sohn,^l^EINZUGnur der Vater,^lund niemand kennt den Vater,^l^EINZUGnur der Sohn^lund der, dem es der Sohn offenbaren will.^pKommt alle zu mir,^l^EINZUGdie ihr mühselig und beladen seid!^lIch will euch erquicken.^pNehmt mein Joch auf euch^l^EINZUGund lernt von mir;^ldenn ich bin gütig und von Herzen demütig;^lund ihr werdet Ruhe finden für eure Seele.^lDenn mein Joch ist sanft^l^EINZUGund meine Last ist leicht."
           }
         },
         "n2": {
@@ -7997,8 +7975,9 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 117",
             "ms_aps_kv": "Herr, bewahre meine Seele in deinem Frieden!",
             "ms_aps_text": "HERR, mein Herz überhebt sich nicht,^*nicht hochmütig blicken meine Augen,^pich gehe nicht um mit großen Dingen,^*mit Dingen, die mir nicht begreiflich sind.^KV^PVielmehr habe ich besänftigt, habe zur Ruhe gebracht meine Seele.^+Wie ein gestilltes Kind bei seiner Mutter,^*wie das gestillte Kind, so ist meine Seele in mir.^pIsrael, warte auf den HERRN^*von nun an bis in Ewigkeit!",
+            "ms_ruf_text": "Mt 11,25",
             "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "9,35-10,1",
+            "ms_ev_stelle": "11,25-30",
             "ms_ev_motto": "Du hast das vor den Weisen und Klugen verborgen und hast es den Unmündigen offenbart",
             "ms_ev_text": "In jener Zeit sprach Jesus:^lIch preise dich, Vater, Herr des Himmels und der Erde,^lweil du das vor den Weisen und Klugen verborgen^l^EINZUGund es den Unmündigen offenbart hast.^lJa, Vater,^lso hat es dir gefallen.^pAlles ist mir von meinem Vater übergeben worden;^lniemand kennt den Sohn,^l^EINZUGnur der Vater,^lund niemand kennt den Vater,^l^EINZUGnur der Sohn^lund der, dem es der Sohn offenbaren will.^pKommt alle zu mir,^l^EINZUGdie ihr mühselig und beladen seid!^lIch will euch erquicken.^pNehmt mein Joch auf euch^l^EINZUGund lernt von mir;^ldenn ich bin gütig und von Herzen demütig;^lund ihr werdet Ruhe finden für eure Seele.^lDenn mein Joch ist sanft^l^EINZUGund meine Last ist leicht."
           }
@@ -9608,8 +9587,9 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 23",
             "ms_aps_kv": "Du, HERR, bist mein Anteil und Erbe.",
             "ms_aps_text": "Behüte mich, Gott, denn bei dir habe ich mich geborgen!^+Ich sagte zum HERRN: Mein Herr bist du,^*mein ganzes Glück bist du allein.^pDer HERR ist mein Erbteil, er reicht mir den Becher,^*du bist es, der mein Los hält.^KV^PIch preise den HERRN, der mir Rat gibt,^*auch in Nächten hat mich mein Innerstes gemahnt.^pIch habe mir den HERRN beständig vor Augen gestellt,^*weil er zu meiner Rechten ist, wanke ich nicht.^KV^PDarum freut sich mein Herz und jubelt meine Ehre,^*auch mein Fleisch wird wohnen in Sicherheit.^pDenn du überlässt mein Leben nicht der Totenwelt;^*du lässt deinen Frommen die Grube nicht schauen.",
-            "ms_ev_buch": "Joh",
-            "ms_ev_stelle": "10,11-16",
+            "ms_ruf_text": "Mt 11,25",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "11,25-30",
             "ms_ev_motto": "Du hast das vor den Weisen und Klugen verborgen und hast es den Unmündigen offenbart",
             "ms_ev_text": "In jener Zeit sprach Jesus:^lIch preise dich, Vater, Herr des Himmels und der Erde,^lweil du das vor den Weisen und Klugen verborgen^l^EINZUGund es den Unmündigen offenbart hast.^lJa, Vater,^lso hat es dir gefallen.^pAlles ist mir von meinem Vater übergeben worden;^lniemand kennt den Sohn,^l^EINZUGnur der Vater,^lund niemand kennt den Vater,^l^EINZUGnur der Sohn^lund der, dem es der Sohn offenbaren will.^pKommt alle zu mir,^l^EINZUGdie ihr mühselig und beladen seid!^lIch will euch erquicken.^pNehmt mein Joch auf euch^l^EINZUGund lernt von mir;^ldenn ich bin gütig und von Herzen demütig;^lund ihr werdet Ruhe finden für eure Seele.^lDenn mein Joch ist sanft^l^EINZUGund meine Last ist leicht."
           }
@@ -10345,10 +10325,11 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 16,1-2.5.7-9.11",
             "ms_aps_kv": "All meinen Ängsten hat mich der HERR entrissen.",
             "ms_aps_text": "Ich will den HERRN allezeit preisen;^*immer sei sein Lob in meinem Mund.^pMeine Seele rühme sich des HERRN;^*die Armen sollen es hören und sich freuen.^KV^PPreist mit mir die Größe des HERRN,^*lasst uns gemeinsam seinen Namen erheben!^pIch suchte den HERRN und er gab mir Antwort,^*er hat mich all meinen Ängsten entrissen.^KV^PDie auf ihn blickten, werden strahlen,^*nie soll ihr Angesicht vor Scham erröten.^pDa rief ein Armer und der HERR erhörte ihn^*und half ihm aus all seinen Nöten.^KV^PDer Engel des HERRN umschirmt, die ihn fürchten,^*und er befreit sie. ^pKostet und seht, wie gut der HERR ist!^*Selig der Mensch, der zu ihm sich flüchtet!",
+            "ms_ruf_text": "Mt 11,25",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "11,25-30",
-            "ms_ev_motto": "Wenn sie mich verfolgt haben, werden sie auch euch verfolgen",
-            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lWenn die Welt euch hasst,^l^EINZUGdann wisst, dass sie mich schon vor euch gehasst hat.^lWenn ihr von der Welt stammen würdet,^l^EINZUGwürde die Welt euch als ihr Eigentum lieben.^lAber weil ihr nicht von der Welt stammt,^l^EINZUGsondern weil ich euch aus der Welt erwählt habe,^l^EINZUGdarum hasst euch die Welt.^pDenkt an das Wort, das ich euch gesagt habe:^lDer Sklave ist nicht größer als sein Herr.^lWenn sie mich verfolgt haben,^l^EINZUGwerden sie auch euch verfolgen;^lwenn sie an meinem Wort festgehalten haben,^l^EINZUGwerden sie auch an eurem Wort festhalten.^lDoch dies alles werden sie euch um meines Namens willen antun;^ldenn sie kennen den nicht,^l^EINZUGder mich gesandt hat."
+            "ms_ev_motto": "Du hast das vor den Weisen und Klugen verborgen und hast es den Unmündigen offenbart",
+            "ms_ev_text": "In jener Zeit sprach Jesus:^lIch preise dich, Vater, Herr des Himmels und der Erde,^lweil du das vor den Weisen und Klugen verborgen^l^EINZUGund es den Unmündigen offenbart hast.^lJa, Vater,^lso hat es dir gefallen.^pAlles ist mir von meinem Vater übergeben worden;^lniemand kennt den Sohn,^l^EINZUGnur der Vater,^lund niemand kennt den Vater,^l^EINZUGnur der Sohn^lund der, dem es der Sohn offenbaren will.^pKommt alle zu mir,^l^EINZUGdie ihr mühselig und beladen seid!^lIch will euch erquicken.^pNehmt mein Joch auf euch^l^EINZUGund lernt von mir;^ldenn ich bin gütig und von Herzen demütig;^lund ihr werdet Ruhe finden für eure Seele.^lDenn mein Joch ist sanft^l^EINZUGund meine Last ist leicht."
           }
         }
       },
