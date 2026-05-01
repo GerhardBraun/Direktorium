@@ -830,12 +830,15 @@ export function processBrevierData(todayDate) {
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
         && dateCompare !== '11-02'
-    ) || // Gedenktage mit Ps vom Fest
-        ['01-21', '06-11', '08-29', '09-15',
-            '10-02', '10-07', '11-11'].includes(dateCompare);
+    ) || // Gedenktage mit Psalmen vom Fest:
+        // Barnabas, Enthauptung Johannes des Täufers, Schmerzen Mariens, Schutzengel, U.L.Fr. vom Rosenkranz, Martin
+        // für Agnes (21.1.) und Josef der Arbeiter (1.5.) in den Eigentexten eingetragen, da andere Optionen wählbar sind
+        ['06-11', '08-29', '09-15', '10-02', '10-07', '11-11'].includes(dateCompare);
 
+    // alternative Psalmen an Aschermittwoch (Laudes) und Gründonnerstag (Lesehore)
     finalData.rank.useAlternativePsalms = (swdCombined === 'q-0-3' || swdCombined === 'q-6-4');
 
+    // Anzeige im Hauptmenü: "Zweite Vesper" statt "Vesper"
     finalData.rank.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
 
