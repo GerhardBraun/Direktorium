@@ -3104,7 +3104,7 @@ export const psalmsData = {
         "title_lat": "Fraternæ concordiæ iucunditas",
         "text_lat": "Ecce quam bonum et quam iucúndum^*habitáre fratres in unum:^psicut unguéntum óptimum in cápite,^+quod descéndit in barbam, barbam Aaron,^*quod descéndit in oram vestiménti eius;^psicut ros Hermon,^*qui descéndit in montes Sion,^pquóniam illic mandávit Dóminus benedictiónem,^*vitam usque in sǽculum.",
         "text_ben": "Seht doch, wie gut es ist und wie schön,^*wenn Brüder beieinander wohnen in Eintracht!^pEs ist wie köstliches Öl auf dem Haupt,^+das niedertrieft auf den Bart, den Bart des Aaron,^*das niedertrieft auf den Saum seiner Gewänder.^pEs ist wie der Tau des Hermon,^*der niedertrieft auf die Höhen des Zion.^pDenn dorthin entbietet der HERR den Segen:^*„Leben bis in die Ewigkeit!“",
-        "text_cant": "Seht doch, wie 2|gut 1und ||schön ist es,^*wenn Brüder mitein3an2der 1in ||Ein0tracht woh0nen.^pDas ist wie köstliches Salböl,^+das vom Kopf hinabfließt auf den Bart, |auf°2Aa1rons°||Bart,^*das auf sein 3Ge2|wand 1hin||ab0fließt.^pDas ist wie der Tau des Hermon,^+der auf den Berg 2|Zi1on ||nie0der0fällt.^*Denn dort spendet der Herr Segen und 3|Le2ben 1in ||E0wig0keit.",
+        "text_cant": "Seht doch, wie 2|gut 1und ||schön ist es,^*wenn Brüder mitein3an2der 1in ||Ein0tracht |woh0nen.^pDas ist wie köstliches Salböl,^+das vom Kopf hinabfließt auf den Bart, |auf°2Aa1rons°||Bart,^*das auf sein 3Ge2|wand 1hin||ab0fließt.^pDas ist wie der Tau des Hermon,^+der auf den Berg 2|Zi1on ||nie0der0fällt.^*Denn dort spendet der Herr Segen und 3|Le2ben 1in ||E0wig0keit.",
         "text_mode": "VI"
       }
   },
