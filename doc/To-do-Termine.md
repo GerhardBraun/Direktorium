@@ -1,6 +1,7 @@
-**05-03** `lat. Commune-Orationen` für Mai: 4.,10.,16.,21., Juni: 16.,19.,21.,26.
-**05-17** `Lesungen der Lesehore` ab Di der 7. Osterwoche
+**05-05** `Psalmen zum Singen` für TSN der I. Woche: 17, 25, 26
+**05-24** `Lesungen der Lesehore` ab der 8. Woche i. Jkr. und rückwirkend 6. und 7. Woche
 **05-23** `Rufe vor dem Evangelium` ab 7. Woche i. Jkr.
-**05-31** `Calendar-Lesungen`: ab Juni und **2.4.-19.4.**
+**05-31** `lat. Commune-Orationen` für Juni: 16.,19.,21.,26.
+**05-31** `Calendar-Lesungen`: ab 5. Juni
 **ohne Frist** `Psalmen zum Singen` zur Lesehore
 **11-26** `BuM ABC`: Advent C, 3. Advent B, Fasten- und Osterzeit BC
