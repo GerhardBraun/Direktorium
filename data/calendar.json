@@ -6086,7 +6086,7 @@
         "n2": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum Christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben.^ORV",
+            "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben.^ORV",
             "oration_lat": "comm:"
           },
           "Lesehore": {
@@ -11393,7 +11393,7 @@
         "n2": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Gott, unser Retter, du hast den heiligen Bischof Pirmin gesandt, damit er unsere Väter im Glauben unterweise und Klöster gründe als Stätten des Gebetes und christlicher Bildung. Gib, dass das Wort der Frohen Botschaft nicht verstumme und dein Reich in uns Wachse bis zum Tag der Vollendung.^ORV",
+            "oration": "Gott, unser Retter, du hast den heiligen Bischof Pirmin gesandt, damit er unsere Väter im Glauben unterweise und Klöster gründe als Stätten des Gebetes und christlicher Bildung. Gib, dass das Wort der Frohen Botschaft nicht verstumme und dein Reich in uns wachse bis zum Tag der Vollendung.^ORV",
             "oration_lat": "comm:Deus, cuius ineffábili misericórdia beátus Pírmin evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
@@ -11463,7 +11463,7 @@
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Ord",
-            "oration": "Gütiger Gott, du hast den seligen Priester Rupert zu einem standhaften Bekenner des Glaubens und selbstlosen Helfer der Armen gemacht. Erwecke auf seine Fürsprache der Kirche neue, vorbildliche Verkünder des Glaubens und schenke uns allen ein offenes Herz für die Nöte der Menschen.^ORV",
+            "oration": "Gütiger Gott, du hast den seligen Priester Rupert Mayer zu einem standhaften Bekenner des Glaubens und selbstlosen Helfer der Armen gemacht. Erwecke auf seine Fürsprache der Kirche neue, vorbildliche Verkünder des Glaubens und schenke uns allen ein offenes Herz für die Nöte der Menschen.^ORV",
             "oration_lat": "comm:Concéde, quǽsumus, omnípotens Deus, ut ad meliórem vitam sanctórum tuórum exémpla nos próvocent, quátenus beáti Rupérti, cuius memóriam celebrámus, étiam actus incessánter imitémur.^ORlV"
           },
           "Laudes": {
@@ -12856,7 +12856,7 @@
           },
           "Lesehore": {
             "patr_autor": "Adolph Kolping (1813–1865)",
-            "patr_werk": "Aus einer Predigt zum Neujahrstag",
+            "patr_werk": "Aus einer Predigt zum Neujahrstag.",
             "patr_text": "^hDer Glaube an Gott und an die Menschen^pDie Menschen sind überhaupt nicht so schlecht, als man sie sich gern vormacht. Greift sie nur mal mit einer wahrhaft christlichen Hand an, ihr werdet von eurem Irrtum bald überzeugt sein. Wir haben das vielfach erfahren im Leben, erfahren es noch alle Tage, und während bei anderen Menschen der Glaube an die Menschen zu sinken scheint, sehen wir ihn, Gott sei Dank, wachsen.^pJa, wir glauben noch an die Menschen, besonders glauben wir noch an unsere arbeitende Jugend, trotz ihrer Fehler, trotz ihrer jeweiligen Verkommenheit, trotz der Verführung der Zeit. Und weil wir daran glauben, lässt es uns keine Ruhe, dafür zu wirken.^pWir glauben aber auch noch an mehr als an die Menschen, wir glauben auch an Gott, und weil wir daran glauben, weil wir das Christentum als tätiges Leben, als Wirken zum Heile verstehen, deshalb verlassen wir uns nicht auf uns, sondern auf die siegende Kraft des Christentums und halten es für eine Pflicht, dieser Gotteskraft dienstbar zu sein. Und weil so manches faul ist in dieser Welt, weil so vieles gebrochen und zerrissen ist im gesellschaftlichen Leben, deswegen wäre es für uns, die wir ans Christentum wirklich glauben, wahrlich Verrat an der Sache, wenn wir gerade jetzt nicht alle Kräfte anspannten, die eigenen und die gleichem Zwecke dienenden fremden, zu bessern und zu retten, was sich retten lässt.^pEs ist keine Zeit, zu feiern, zuzuschauen, gewähren zu lassen, bloß zu jammern und zu klagen, sondern es ist Zeit zu handeln, Zeit zu wirken, und zwar für jeden ohne Unterschied, wie es ihm nach Maßgabe seiner Kräfte und Mittel nur möglich ist. Da handelt es sich nicht darum, ob man alles kann, sondern ob man irgendetwas Ersprießliches zu leisten vermag, und kann man allein nichts, dann doch gewiss im Verein mit anderen.^pDas ist kein rechter Christ, der sich dieser gemeinsamen Tätigkeit entzieht, kein rechter Christ, der sich nicht gern und willig gemeinsamem Wirken anschließt und helfend schafft. Diejenigen, welche an Gott glauben, müssen dadurch auch an die Menschen glauben, und welche das Christentum lebendig glauben, müssen in seinem Geiste schaffen.",
             "patr_resp1": "Wohl dem Mann, der gütig und zum Helfen bereit ist.",
             "patr_resp2": "Er ordnet das Seine, wie es recht ist.",
@@ -15324,29 +15324,314 @@
             "les_text": "^hEr zeigte mir die heilige Stadt Jerusalem^pEs kam einer von den sieben Engeln, die die sieben Schalen mit den sieben letzten Plagen getragen hatten. Er sagte zu mir: Komm, ich will dir die Braut zeigen, die Frau des Lammes.^pDa entrückte er mich in der Verzückung auf einen großen, hohen Berg und zeigte mir die heilige Stadt Jerusalem, wie sie von Gott her aus dem Himmel herabkam, erfüllt von der Herrlichkeit Gottes. Sie glänzte wie ein kostbarer Edelstein, wie ein kristallklarer Jaspis. Die Stadt hat eine große und hohe Mauer mit zwölf Toren und zwölf Engeln darauf. Auf die Tore sind Namen geschrieben: die Namen der zwölf Stämme der Söhne Israels. Im Osten hat die Stadt drei Tore und im Norden drei Tore und im Süden drei Tore und im Westen drei Tore. Die Mauer der Stadt hat zwölf Grundsteine; auf ihnen stehen die zwölf Namen der zwölf Apostel des Lammes.^pUnd der Engel, der zu mir sprach, hatte einen goldenen Messstab, mit dem die Stadt, ihre Tore und ihre Mauer gemessen wurden. Die Stadt war viereckig angelegt und ebenso lang wie breit. Er maß die Stadt mit dem Messstab; ihre Länge, Breite und Höhe sind gleich: zwölftausend Stadien. Und er maß ihre Mauer; sie ist hundertvierundvierzig Ellen hoch nach Menschenmaß, das der Engel benutzt hatte. Ihre Mauer ist aus Jaspis gebaut und die Stadt ist aus reinem Gold, wie aus reinem Glas.^pDie Grundsteine der Stadtmauer sind mit edlen Steinen aller Art geschmückt; der erste Grundstein ist ein Jaspis, der zweite ein Saphir, der dritte ein Chalzedon, der vierte ein Smaragd, der fünfte ein Sardonyx, der sechste ein Sardion, der siebte ein Chrysolith, der achte ein Beryll, der neunte ein Topas, der zehnte ein Chrysopras, der elfte ein Hyazinth, der zwölfte ein Amethyst. Die zwölf Tore sind zwölf Perlen; jedes der Tore besteht aus einer einzigen Perle. Die Straße der Stadt ist aus reinem Gold, wie aus klarem Glas.^pEinen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Die Stadt braucht weder Sonne noch Mond, die ihr leuchten. Denn die Herrlichkeit Gottes erleuchtet sie, und ihre Leuchte ist das Lamm. Die Völker werden in diesem Licht einhergehen, und die Könige der Erde werden ihre Pracht in die Stadt bringen.^pIhre Tore werden den ganzen Tag nicht geschlossen – Nacht wird es dort nicht mehr geben. Und man wird die Pracht und die Kostbarkeiten der Völker in die Stadt bringen. Aber nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
             "resp1": "Deine Plätze, Jerusalem, sind aus reinem Gold; sie hallen wider von Lobgesängen.",
             "resp2": "Auf all deinen Straßen erschallt der Ruf: Halleluja.",
-            "resp3": "Als strahlendes Licht erleuchtest du alle Länder der Erde."
+            "resp3": "Als strahlendes Licht erleuchtest du alle Länder der Erde.",
+            "patr_autor": "^A:Speyer-10-05:Johannes Emil Gugumus († 1979)",
+            "patr_werk": "Aus einem Aufsatz anlässlich der 900^-Jahrfeier der Domweihe.",
+            "patr_text": "^hAbbild der höheren, übersinnlichen und übernatürlichen Welt^pWer ehrfürchtig das Heiligtum des Speyerer Domes betritt, der spürt, dass auch hier alles Irdische nur Bild und Gleichnis ist. Wie der mittelalterliche Mensch die Musik als Widerklang der himmlischen Sphärenmusik deutete, so haben auch die Erbauer des Domes in dem sakralen Bau ein Abbild der höheren, übersinnlichen und übernatürlichen Welt, in seinen Maßen und Proportionen einen Abglanz der himmlischen Ordnung gesehen. Bis in das Hochmittelalter hinein betrachtete man das Gotteshaus als Abbild der Kirche und des Reiches Gottes auf Erden. Hugo von St. Viktor (1097–1141) nennt das Gotteshaus Sinnbild der heiligen katholischen Kirche, die aus lebendigen Steinen erbaut ist. Ein weiterer Zeitgenosse, Bruno von Asti, bemerkt: „Die Kirche, die aus Holz oder Stein erbaut wird, zeichnet die Kirche nach, die aus lebenden Steinen erbaut ist, deren Steine nicht mit Kalk, sondern mit Liebe verbunden und zu einer Einheit zusammengeschlossen werden, deren Tore die Apostel sind, deren Säulen die Bischöfe sind und Gelehrten.“ So ist auch unser Dom mit seinen mächtigen Quadern Sinnbild der Kirche Gottes. Die Kirche ist aber in der Auffassung jener Zeit auch ein Abbild des himmlischen Jerusalem. Dies kam zum Ausdruck in den kostbaren, mächtigen Kronleuchtern. Die Krone Christi war das himmlische Jerusalem.^pDie Idee des Gotteshauses als Abbild der Kirche wurde in der romanischen Architektur ausgestaltet zur Himmelsburg des göttlichen Kaisers, zur Gottesburg der romanischen Dome. Dieser Burgcharakter zeigt sich auch am Speyerer Dom in seinem zum Teil bis sechs Meter dicken Mauerwerk und in der Sechszahl seiner Türme und Kuppeln. Wie ein Bollwerk ragt er empor, wie ein heiliges, zinnenbewehrtes Jerusalem, gegen das Satan und die höllischen Mächte vergebens anrennen, Zeichen der alles überwindenden Kraft des Glaubens und Ort der Geborgenheit für die Gläubigen. Nicht Askese und Weltflucht, sondern christliche Durchdringung der Welt, nicht schmerzvolle Resignation, sondern sieghafter Glaube prägen die steinerne Gottesstadt. Sie ist Abbild der göttlichen Weltordnung und ebenso Ausdruck der mittelalterlichen Gesellschaft, die streng in Stände gegliedert war und in der jeder seinen bestimmten Platz hatte. Wie jedes Bauglied eingeordnet ist in den Gesamtbau und von ihm seine Bestimmung erhält, so ist der Mensch einbezogen in die Ordnung der Schöpfung und in die Gnadenordnung der heiligen Kirche.^pDie Kirche war nach frühmittelalterlicher Auffassung die Civitas Dei, das Reich Gottes auf Erden, der Gottesstaat. Er wurde regiert von zwei Gewalten, von Kaisertum (Impedum) und Priestertum (Sacerdotium). Beide sind Gnadengaben Gottes und stammen aus demselben Ursprung, sind eine göttliche Institution. Noch auf dem Reichstag Christi 1188 in Mainz führte nicht Kaiser Friedrich Barbarossa den Vorsitz. Der Thronsessel in der Mitte des Chors war für Christus, den wahren Kaiser des Reiches, freigelassen; zu seinen Seiten saßen die Stellvertreter Christi auf Erden, der Kaiser und der päpstliche Legat. Diese Reichssymbolik spricht sich auch in unserem Dom aus. Die Apsis im Osten ist der Sitz des Bischofs, der die geistliche Gewalt im Reich Gottes repräsentiert. Das Westwerk ist Sinnbild der weltlichen Gewalt. Sacerdotium und Imperium spielten ineinander über. Gottes Reich auf Erden verkörpert sich hier.",
+            "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
+            "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!",
+            "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
           },
           "Laudes": {
             "bitten_e": "Gepriesen sei Jesus Christus, der jeden Ort heiligt, wo er wohnt, und dem die Mutterkirche unseres Bistums eine heilige Stätte ist. Zu ihm lasst uns beten:",
             "bitten_r": "Herr, gedenke deiner Kirche.",
-            "bitten": "Du hast gebetet, dass alle eins seien;^qerhalte die Kirche von Speyer unerschütterlich in der Einheit mit Petrus, dem Felsen.^pDie Kirche ist dein geheimnisvoller Leib;^qdurchströme alle Zellen dieses Leibes mit der Kraft deines Blutes und dem Feuer deiner Liebe.^pDie Mutterkirche unseres Bistums bezeugt machtvoll den Glauben unserer Vorfahren;^qstärke uns, damit auch wir in unserer Zeit standhaft den Glauben bewahren und bezeugen.^pDeine Kirche ist die lebendige Herberge in der Fremde der Welt;^qmach uns selber zu einem Ort der Geborgenheit, zur Heimat und Zuflucht für andere."
+            "bitten": "Du hast gebetet, dass alle eins seien;^qerhalte die Kirche von Speyer unerschütterlich in der Einheit mit Petrus, dem Felsen.^pDie Kirche ist dein geheimnisvoller Leib;^qdurchströme alle Zellen dieses Leibes mit der Kraft deines Blutes und dem Feuer deiner Liebe.^pDie Mutterkirche unseres Bistums bezeugt machtvoll den Glauben unserer Vorfahren;^qstärke uns, damit auch wir in unserer Zeit standhaft den Glauben bewahren und bezeugen.^pDeine Kirche ist die lebendige Herberge in der Fremde der Welt;^qmach uns selber zu einem Ort der Geborgenheit, zur Heimat und Zuflucht für andere.",
+            "button": "Jahrestag der Weihe des Domes zu Speyer"
           },
           "Vesper": {
             "bitten_e": "Am Fest der Weihe unseres Domes lasst uns zu Jesus Christus beten, dessen Freude es ist, bei uns Menschen zu wohnen.",
             "bitten_r": "O lass im Hause dein uns all geborgen sein.",
             "bitten": "Du bist der lebendige Grundstein;^qsegne das Bistum Speyer und erbaue es dir immer neu zu deiner lebendigen Kirche.^pAuf dem Grundriss des Kreuzes erhebt sich unser Dom;^qstärke uns, dass wir im Aufblick zu dir unsere Kreuze tragen und dass so unser Leben zu einem Haus des Geistes wird.^pAuf den Glauben haben die Stifter des Domes ihre staatliche Ordnung gegründet;^qschenke den Regierenden wahre Weisheit und gib, dass der Glaube auch heute das Fundament unserer staatlichen Ordnung sei.^pMaria, der Mutter der Kirche, sind Dom und Bistum geweiht;^qlass uns mit ihrem Beistand den guten Kampf kämpfen, bis wir für immer beim Vater geborgen sind.^pDeine Kirche ist Zeichen des himmlischen Jerusalem;^qöffne allen Heimgegangenen, besonders den Erbauern des Domes, den Hirten und Gläubigen des Bistums, die Tore zur Stadt des lebendigen Gottes."
+          },
+          "major": {
+            "comm_1": "Kirchw"
           }
         }
       }
     },
-    "99": {
+    "8": {
+      "15": {
+        "oblig": {
+          "Invitatorium": {
+            "ant0": "Heute wurde die Mutter Christi, Unsere Liebe Frau und Patronin, in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-08-15:Pius XII. († 1958)"
+          },
+          "Laudes": {
+            "referenz": "AAA-8-15-oblig",
+            "bitten_e": "Gepriesen sei Jesus Christus, der seine Mutter mit Leib und Seele in den Himmel erhoben hat. Ihr, der Königin im Himmelreich, ist unser Bistum geweiht. Am Fest ihrer Aufnahme in die ewige Herrlichkeit rufen wir zu ihrem Sohn:",
+            "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
+            "bitten": "Jesus, Gott von Gott, den Namen Gottes hat Maria „heilig“ genannt, und von der Sorge um seine Heiligung war ihr Leben erfüllt;^qgib, dass in der Kirche von Speyer der Name Gottes immer mehr geheiligt wird.^pJesus, als Sonne der Gerechtigkeit bist du aus Maria aufgestrahlt;^qstrahle auf in unserem Bistum und in deiner ganzen Kirche.^pJesus, Sohn des Ewigen Vaters und Sohn der Jungfrau Maria;^qschenke unserem Bistum gläubige Mütter, die ihre Kinder in selbstloser Liebe auf dich hin erziehen.^pJesus, König der Ewigkeit, deine Mutter hat stets gesucht, „was im Himmel ist“ (Kol 3, 1-3);^qgib in unserem Bistum allen den aufrichtigen Willen, hochherzig das Himmlische zu suchen und das Irdische maßvoll zu gebrauchen."
+          },
+          "Vesper": {
+            "bitten_e": "Am Fest Mariä Aufnahme in den Himmel schauen wir voll Vertrauen auf zur erhöhten Gottesmutter, der Schutzherrin unseres Bistums, die bei Gott für uns eintritt und beten zum Vater:",
+            "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
+            "bitten": "Du hast Maria die Fülle der Gnade geschenkt;^qgieße deine Gnade in Fülle aus über die Kirche von Speyer.^pDu hast Maria bei der Botschaft des Engels die Antwort ins Herz gelegt: Siehe, ich bin die Magd des Herrn;^qhilf den Getauften, dir in allen Lebenslagen, besonders in schweren Entscheidungen, zu antworten wie sie.^pDu hast Maria zur Hilfe der Christen bestellt;^qerhalte unserem Bistum immer ihren mütterlichen Schutz und erbarme dich aller Bedrängten, die im Namen Mariens zu dir flehen.^pDu hast Maria durch Kreuz und Leid mit Leib und Seele in die Verklärung geführt;^qführe auch uns durch die Leiden dieser Zeit mit Leib und Seele in die ewige Verklärung.^pDu hast Maria zur Königin voll Herrlichkeit gekrönt;^qschenke allen heimgegangenen Hirten und Gläubigen unseres Bistums und den Stiftern des Domes die Krone der Herrlichkeit."
+          }
+        }
+      },
       "1": {
         "d1": {
           "major": {
-            "oration": "Test Speyer"
+            "comm_1": "Mann_Ord",
+            "oration": "Allmächtiger Gott, du schenkst uns in deinen Heiligen ein Vorbild zu einem vollkommeneren Leben aus dem Glauben. Lehre uns, nach dem Beispiel des heiligen Petrus Faber dich über alles zu lieben und den Brüdern aufrichtig zu dienen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-08-01:Petrus Faber († 1546)",
+            "patr_werk": "Aus seinem Memoriale.",
+            "patr_text": "^hGedenken aller Wohltaten und aller hierzulande begangenen Sünden^pAn einem Tag dieses Monats Oktober (1542), als ich in einem Flecken und Städtchen bei einem Herrn aus Speyer war und mich um Mitternacht zum Gebet erhob, fand ich mich bald im Zwiegespräch mit Gott, der allerseligsten Jungfrau und den Heiligen. Ich flehte sie für dieses ganze Volk an, für Lebende und Verstorbene, mit großer Andacht und unter Tränen. Der Gebetsweg, auf dem ich da geführt wurde, war eine umfassende, dankbare Erkenntlichkeit für alle die Wohltaten, die ich diesem Volk geschenkt fand: Ich bat im Namen aller um Verzeihung, ich hielt bei jedem Punkt Danksagung und erbat verschiedene Gnaden. Ich beweinte die Sünden; ich wünschte, dass alles, was Gott unmittelbar oder durch seine Heiligen hier gewirkt hat und immer noch wirkt, dankbar anerkannt würde. So sprach ich denn: „Herr Jesu Christ, wer hat deine Güte dankbar erkannt, die dieser Gegend so viele Erdengüter geschenkt hat; die ihr das allerheiligste Sakrament und alle anderen Sakramente, Lehren und Feiern der christlichen Glaubensüberlieferung gelassen hat? Verzeih, Herr, dass man hier dessen nicht gedenkt, darum nicht bittet, nicht darauf achtet! Verzeih, dass man der Armen Seelen nicht gedenkt, wie sie es nötig hätten! Erhalte, Herr, diesem Volk all diese Güter; schau nicht auf ihren Unverstand und ihre Nachlässigkeit, nicht auf ihren Undank, sondern auf Christus, unseren Erlöser, auf die heiligen Engel und die Seelen der Heiligen, die dir für alles an unserer statt danksagen!“^pIn dieses Gedenken aller Wohltaten und aller hierzulande begangenen Sünden schloss ich die Ackerfrüchte ein, den zeitlichen Frieden, den katholischen Glauben, die Kirchen, die Heiligenbilder, die Diener der Sakramente und diese Sakramente selbst, das Weihwasser, die Reliquien der Heiligen, die Beinhäuser; dass sie eine so lange Reihe weltlicher Herren gehabt haben, die ihnen Frieden und Wohlstand sicherten, dass sie Priester, Bischöfe und Prediger haben. Ich wünschte ihnen viele gar gute Dinge: sie möchten sehend werden und alles das erkennen; sie möchten einsehen, was sie an ihrem Gott haben, an Jesus Christus, an seiner Menschwerdung, Geburt, Beschneidung, seinem Tod, an der allerseligsten Jungfrau Maria, an den Engeln und Heiligen, am Kirchengerät, den Verstorbenen im Fegefeuer, der Heiligen Schrift [...]",
+            "patr_resp1": "Dem Herrn will ich meine Gelübde erfüllen, offen vor seinem ganzen Volk.",
+            "patr_resp2": "In den Vorhöfen am Hause des Herrn, in deiner Mitte, Jerusalem.",
+            "patr_resp3": "Ein Opfer des Dankes will ich bringen und anrufen den Namen des Herrn."
           },
           "Laudes": {
-            "button": "Test Speyer"
+            "button": "Hl. Petrus Faber"
+          }
+        }
+      },
+      "9": {
+        "oblig": {
+          "each": {
+            "comm_1": "Märt_Jgfr",
+            "comm_2": "Frau_Ord",
+            "oration": "Gott unser Vater, du hast die heilige Märtyrin Teresia Benedicta vom Kreuz (Edith Stein) zur Erkenntnis deines gekreuzigten Sohnes geführt und in seine Nachfolge bis zum Tode gerufen. Auf ihre Fürsprache lass alle Menschen im Gekreuzigten den Erlöser erkennen und durch ihn zur ewigen Schau deiner Herrlichkeit gelangen. Darum bitten wir durch ihn, Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-08-09:Edith Stein († 1942)",
+            "patr_werk": "Aus dem Vortrag „Das Weihnachtsgeheimnis“ (1931 in Ludwigshafen/Rhein).",
+            "patr_text": "^hGotteskind sein heißt: an Gottes Hand gehen^pGotteskind sein heißt: an Gottes Hand gehen, Gottes Willen, nicht den eigenen Willen tun, alle Sorge und alle Hoffnung in Gottes Hand legen, nicht mehr um sich und seine Zukunft sorgen. Darauf beruht die Freiheit und Fröhlichkeit des Gotteskindes.^pWie wenige, auch von den wahrhaft Frommen, selbst heroisch Opferwilligen, besitzen sie! Sie gehen immer niedergebeugt unter der schweren Last ihrer Sorgen und Pflichten. Alle kennen das Gleichnis von den Vögeln unter dem Himmel und den Lilien auf dem Felde{1#Mt 6,26-30}. Aber wenn sie einem Menschen begegnen, der kein Vermögen, keine Pension und keine Versicherung hat und doch unbekümmert um seine Zukunft lebt, dann schütteln sie den Kopf wie über etwas Ungewöhnliches. Freilich, wer von dem Vater im Himmel erwartet, dass er ihm jederzeit für das Einkommen und die Lebensverhältnisse sorgen werde, die er für wünschenswert hält, der könnte sich schwer verrechnet haben. Nur dann wird das Gottvertrauen unerschüttert standhalten, wenn es die Bereitschaft einschließt, alles und jedes aus des Vaters Hand entgegenzunehmen. Er allein weiß ja, was uns guttut{2#vgl. Mt 6,32}. Und wenn einmal Not und Entbehrung angebrachter wären als behaglich gesichertes Auskommen, oder Misserfolg und Verdemütigung besser als Ehre und Ansehen, dann muss man sich auch dafür bereithalten. Tut man das, so kann man unbelastet durch die Zukunft der Gegenwart leben.^pDas „Dein Wille geschehe“{3#Mt 6,10} in seinem vollen Ausmaß muss die Richtschnur des Christenlebens sein. Es muss den Tageslauf vom Morgen bis zum Abend, den Gang des Jahres und das ganze Leben regeln. Es wird dann auch des Christen einzige Sorge sein. Alle anderen Sorgen nimmt der Herr auf sich{4#1 Petr 5,7}. Diese eine aber bleibt uns, solange wir leben. Es ist objektiv so, dass wir nicht endgültig versichert sind, immer auf Gottes Wegen zu bleiben. Wie die ersten Menschen aus der Gotteskindschaft in die Gottesferne fallen konnten, so steht jeder von uns immer auf des Messers Schneide zwischen dem Nichts und der Fülle des göttlichen Lebens. Und früher oder später wird uns das auch subjektiv fühlbar. In den Kindertagen des geistlichen Lebens, wenn wir eben angefangen haben, uns Gottes Führung zu überlassen, da fühlen wir die leitende Hand ganz stark und fest; sonnenhell hegt es vor uns, was wir zu tun und zu lassen haben. Aber das bleibt nicht immer so. Wer Christus angehört, der muss das ganze Christusleben durchleben. Er muss zum Mannesalter Christi heranreifen{5#vgl. Eph 4,13}, er muss einmal den Kreuzweg antreten{6#vgl. Mk 8,34}, nach Getsemani und Golgota. Und alle Leiden, die von außen kommen, sind nichts im Vergleich zu der dunklen Nacht der Seele, wenn das göttliche Licht nicht mehr leuchtet und die Stimme des Herrn nicht mehr spricht. Gott ist da, aber er ist verborgen und schweigt. Warum das so ist? Es sind Gottes Geheimnisse, von denen wir sprechen, und die lassen sich nicht restlos durchdringen. Aber ein wenig hineinschauen können wir schon. Gott ist Mensch geworden{7#vgl. Joh 1,14}, um uns auf‘s neue teilhaben zu lassen an seinem Leben. Damit beginnt es, und das ist das letzte Ziel.",
+            "patr_resp1": "Wie die Augen der Knechte auf die Hand ihres Herrn, wie die Augen der Magd auf die Hand ihrer Herrin,",
+            "patr_resp2": "so schauen unsre Augen auf den Herrn, unsern Gott.",
+            "patr_resp3": "Euer Vater weiß, was ihr braucht, noch ehe ihr ihn bittet."
+          },
+          "Laudes": {
+            "referenz": "AAA-8-9-oblig",
+            "button": "Hl. Teresia Benedicta vom Kreuz (Edith°Stein)",
+            "farbe": "r"
+          }
+        }
+      }
+    },
+    "1": {
+      "27": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gütiger Gott, du hast den seligen Priester Paul Josef in deiner Kirche zu einem selbstlosen Hirten und zu einem Vater der Armen gemacht; wir bitten dich: Lass uns nach seinem Beispiel und auf seine Fürsprache immer tiefer in dir verwurzelt werden und immer mehr wachsen in der Liebe zu unseren Nächsten.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-01-27:Paul Josef Nardini (1821–1862)",
+            "patr_werk": "Aus „Der christliche Pilger“ vom 27. Januar 1861",
+            "patr_text": "^hDas Gottvertrauen und der Segen des Allmächtigen hat dies alles gebaut^pAuf das hohe Weihnachtsfest im Jahre 1854 geschah es, dass bei der Krippe desjenigen, der gesagt hat: „Es ist der Wille meines Vaters, dass keines dieser Kleinen verloren gehe“, und der Kind geworden ist, um vor allem die Kinder zu erlösen und uns alle zu Kindern Gottes zu heiligen, der Entschluss gefasst wurde, zur Linderung der schreienden Not der Zeiten in gottgeweihten Jungfrauen den verwaisten und verlassenen Kindern, den Armen und Kranken, Mütter und Trösterinnen zu erziehen nach dem Vorbilde derjenigen, die wir als die unbefleckte Jungfrau und Mutter des Jesuskindes verehren, die wir Trösterin der Betrübten und Heil der Kranken nennen. Was an der Krippe mit Gott beschlossen wurde, das wurde nach mündlicher Unterredung mit dem Hochwürdigsten Herrn Bischof im Jahr 1855 auf den Tag der heiligen Agatha im Vertrauen auf Gott versuchsweise begonnen, und mehrere Jungfrauen unserer Diözese verließen Vater und Mutter, Bruder und Schwester, Häuser und Güter, und kamen nach Pirmasens, um sich selbst entsagen zu lernen und sich nach der III. Regel unseres heiligen Vaters Franziskus dem Dienst der armen Kinder, der Kranken und Elenden zu weihen und deren Mägde zu werden.^pDer Anfang geschah in einem gemieteten Häuschen, das sogleich überfüllt war von elenden, ausgehungerten, mit manchfachem Übel bedeckten Kindern, zu denen täglich über hundert Arme der Stadt kamen, welche die bitterste Not litten. Der Pestgeruch, welcher infolge der vielen Gebrechen und Unreinlichkeiten das Häuschen erfüllte, zeigte, was hier zu überwinden sei. Es war aber den gottbegeisterten Jungfrauen Wohlgeruch. Und derjenige, welcher in die Hände derer, die alles verlassen hatten, den Segen von allen Seiten zur Erhaltung ihrer Kinder und Armen strömen ließ, bewahrte sie auch vor der drohenden Ansteckung. In Ermangelung der Betten für die immer mehr wachsende Kinderzahl wurde Stroh bei der christlichen Barmherzigkeit gebettelt, und statt der Federn musste der Wald sein demütiges Moos hergeben zur Füllung der Oberbetten. Ihre aus der Welt mitgebrachten Kleider wurden zerschnitten, zurecht gerichtet, um die Blöße der Kinder und Armen zu bedecken. In welch fruchtbares Erdreich das Senfkörnlein gefallen, und wie wunderbar der Himmel es segnete, offenbarte sich immer mehr.^pGegenwärtig am Ende des Jahres 1860 beläuft sich die Anzahl der seit sechs Jahren eingekleideten Schwestern über zweihundert; elf hat bereits der himmlische Bräutigam in die Ewigkeit abgerufen.^pIn dem Mutterhause selbst befinden sich vier Schulen. Die Anzahl der Kinder des Armenkinderhauses ist bis Ende dieses Jahres auf zweihundertfünfzig angewachsen, darunter hundertvierzig Knaben. Die besonders befähigten der letzteren besuchen die hiesige Lateinschule. Unter diesen sind auch einige Kinder von besseren Familien, welche auf Bitten ihrer Eltern gegen ein entsprechendes Kostgeld in das Armenkinderhaus aufgenommen sind. Die übrigen Knaben werden nach genossenem Schulunterricht entweder für den Ackerbau weitererzogen oder lernen ein Handwerk. Im Hause selbst können sie Schuster, Schneider, Weber, Schreiner und Maurer werden. Auch sind Knaben einigen zuverlässigen Meistern in der Stadt Pirmasens zur Erlernung anderer Handwerke übergeben, in der Weise jedoch, dass sie stets Kost, Wohnung und Erziehung bei den Schwestern haben. Die heranreifenden Mädchen werden vor allem in den häuslichen Geschäften erzogen und sollen bei erlangter Zuverlässigkeit als Dienstboten verwendet werden. Die befähigteren von ihnen lernen feinere weibliche Arbeiten in der täglichen Arbeitsschule, welche nebstdem von vielen Mädchen der besseren Stände aus der Stadt besucht wird. Nebenbei sind auch sechzehn gebrechliche alte Leute aufgenommen und bilden gleichsam eine kleine Pfründneranstalt. Die ganze Familie des Mutterhauses dahier beläuft sich gegenwärtig auf dreihundertvierzig Personen.^pFragst du aber staunend: Wodurch ist dies alles geworden?, so kann dir nur darauf geantwortet werden: Das Gottvertrauen und der Segen des Allmächtigen hat dies alles gebaut. – Und das Rosenkranzgebet hat dies gebaut, denn so viele der Steinchen an diesen Gebäuden sind, so viel mal und noch öfters hat das Ave Maria aus dem Munde der Kinder und Jungfrauen die Mutter des Herrn gegrüßt. – Und der heilige Josef, der Besorger und das Haupt der heiligen Familie, hat bauen helfen und den Töchtern der heiligen Familie ihr Kloster gezimmert. – Und die Kinder alle, welche dem Verderben entrissen, seit sechs Jahren in den Armen der Schwestern des ewigen Schlafes entschlafen als reine Engel in die Gemeinschaft der Heiligen eingetreten sind, haben bauen helfen. – Und was vor allem nicht verschwiegen werden kann, sämtliche Glieder des Wittelsbacher Königshauses, angefangen von dem edlen und großmütigen König Ludwig, haben bauen helfen und Fundamentsteine beigebracht. – Und die Schwestern selbst haben gebaut durch das Opfer ihres Vermögens und ihres Schweißes.^pMöge auch hierfür der Segen, den unser Hochwürdigster Herr Bischof bei der letzten Visitation am 6. August 1859 den Armen Franziskanerinnen und ihren Kindern mit so väterlichem Herzen erteilte, sich immer wirksamer erweisen, sowohl in der inneren Begründung dieser religiösen Genossenschaft und ihrer Wohltätigkeitsanstalten im Mutterhause, als auch in ihrer opferfreudigen Wirksamkeit nach außen, zur größeren Ehre Gottes und zum Troste der verlassenen Kinder, der Armen und Kranken.",
+            "patr_resp1": "Wir sind arm und machen doch viele reich; wir haben nichts und haben doch alles.",
+            "patr_resp2": "Alles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen zur Verherrlichung Gottes.",
+            "patr_resp3": "Darum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert."
+          },
+          "Laudes": {
+            "button": "Sel. Paul Josef Nardini"
+          }
+        }
+      }
+    },
+    "5": {
+      "4": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "oration": "Herr, unser Gott, voll Freude begehen wir den Tag, an dem du der Kirche von Speyer den Leib des seligen Abtes Guido anvertraut hast. Seine Gegenwart in unserer Mitte sei uns Ansporn und Hilfe, dass wir nicht müde werden, uns selbst zu erneuern und dich über alles zu lieben.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-04-05:Guido von Arezzo († um 1050)",
+            "patr_werk": "Aus dem Brief an den Mönch Michael in Pomposa (um 1026).",
+            "patr_text": "^hAbt Guido – Liebling Gottes und bei den Menschen hochgeschätzt^pHart kommen uns die Zeiten an oder doch unverständlich die Prüfungen und Ratschlüsse Gottes, weil so oft Täuschung die Wahrheit und Missgunst die Liebe mit Füßen tritt. Beides ist auch unserem Orden durchaus nicht ferngeblieben. So geschieht unter uns das gleiche wie einst, als die Schar der Philister an Israel die Strafe für seine Verkommenheit vollzog. Dadurch wird verhindert, dass man allzu sehr auf sich selbst vertraut und so dem Verderben anheimfällt, was ja leicht vorkommen könnte, wenn alles so ganz nach unserem Willen geschähe. Alles, was wir tun, ist eben nur dann wahrhaft gut, wenn wir unser ganzes Können unserem Schöpfer zuschreiben.^pSo kommt es, dass du mich weit von meiner Heimat verbannt findest und dass du selbst unter dem Druck des Neides kaum atmen kannst. Weil dir nun deine Gefangenschaft kaum noch Hoffnung auf Freiheit lässt, will ich dir den Lauf der Dinge der Reihe nach brieflich darlegen.^pAls Johannes, der jetzt den Apostolischen Stuhl innehat und die Römische Kirche leitet, von unserer Schule reden hörte und erfuhr, wie mit Hilfe unserer Antiphonarien die Chorknaben bisher noch nicht gehörte Gesänge erlernten, staunte er sehr und ließ mich durch drei Abgesandte zu sich rufen. Ich reiste also nach Rom in Begleitung des hochwürdigsten Herrn Abtes Grunwald und des Herrn Propstes Petrus von Arezzo, eines nach den Verhältnissen unserer Zeit höchst gebildeten Mannes. Über meine Ankunft zeigte sich der Papst sehr erfreut; er unterhielt sich lange mit mir und erkundigte sich eingehend über dies und jenes. Er blätterte in unserem Antiphonar hin und her, als sei es ein Wunderwerk und murmelte die vorangestellten Regeln immer wieder vor sich hin. Er ließ nicht eher davon ab und erhob sich nicht von seinem Sitz, bis er selbst einen bis dahin nicht gehörten Vers seiner Wahl zu singen gelernt und so, was er bei anderen kaum für möglich gehalten, bei sich selbst in so kurzer Zeit als möglich erfahren hatte. Was wollte ich noch mehr?^pWenige Tage später besuchte ich euren und meinen Vater, den Herrn Abt Guido von Pomposa. Dieser Mann gilt ja ob seiner Tugend und Weisheit mit Recht als Liebling Gottes und ist bei den Menschen hochgeschätzt. Mir selbst ist er besonders ans Herz gewachsen, und so sehnte ich mich danach, ihn wiederzusehen. Kaum hatte dieser mit seinem scharfen, durchdringenden Geist Einblick genommen in unser Antiphonar, drückte er auch schon sofort seine Anerkennung und Wertschätzung dafür aus. Zugleich bedauerte er aufrichtig, dass er früher einmal unseren Gegnern beigepflichtet hatte.{1#@Guido von Arezzo, zuerst selbst Mönch in Pomposa, hatte um 1025  wegen des Widerstandes seiner Mitbrüder gegen seine neue Methode des Gesangsunterrichtes das Kloster Pomposa verlassen müssen.} Er lud mich dann ein, nach Pomposa zu kommen, wobei er mich davon zu überzeugen suchte, dass ich als Mönch die Klöster den Bischofsresidenzen vorziehen müsse, allen voran natürlich Pomposa. Denn dank der Gnade Gottes und des hochwürdigsten Herrn Guido Bemühung, befasst man sich dort erstmals in Italien ernsthaft mit meiner Methode. Den Bitten eines so geschätzten Vaters will ich mich beugen und seinen Weisungen gehorchen. Deshalb will ich mit Gottes Hilfe dieses einzigartige Kloster mit diesem unserem Werk verherrlichen und mich als rechter Mönch unter Mönchen erweisen.",
+            "patr_resp1": "Nie sollen Liebe und Treue dich verlassen; binde sie dir um den Hals, schreib sie auf die Tafel deines Herzens!",
+            "patr_resp2": "Dann erlangst du Gunst und Beifall bei Gott und den Menschen.^HALLo",
+            "patr_resp3": "Mein Sohn, vergiss meine Unterweisung nicht!"
+          },
+          "Laudes": {
+            "button": "Sel. Guido von Pomposa",
+            "antev": "Der gute Herrscher schenkte Speyer die Gebeine des Seligen zu würdiger Verehrung. Geht, ihr Gläubigen, lauft eilends, nehmt sie entgegen wie eine große Gnade!^HALLo"
+          },
+          "Vesper": {
+            "antev": "Heute ist Jahrestag der göttlichen Schenkung; gläubiges Speyer, gedenke seiner! Alles Erbetene wird dir der selige Guido gewähren.^HALLo"
+          }
+        }
+      },
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du hast deinem Diener, dem Priester Philipp, die Gnade geschenkt, den Glanz der Welt zu verachten, um dir in einsamer Zelle zu dienen und deine Geschöpfe zu lieben. Wir bitten dich: Gib, dass wir dir in deiner Schöpfung mit Ehrfurcht begegnen und dich selbst über alles lieben.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-05-05:Wilhelm von Saint Thierry († 1148)",
+            "patr_werk": "Aus dem „Goldenen Brief“.",
+            "patr_text": "^hDie Zelle als Heiligtum des Dieners Gottes^pDie Frömmigkeit ist eine beständige Erinnerung an Gott, eine ununterbrochene Aufmerksamkeit, um ihn zu erkennen, eine unermüdliche, liebende Hinwendung zu seiner Liebe, sodass kein Tag – was sage ich? – keine Stunde jemals den Diener Gottes antrifft, in der er sich nicht abmüht in geistlicher Übung und bestrebt ist, Fortschritte zu machen, oder in der ihm nicht die Süßigkeit der Erfahrung Gottes geschenkt wird und die Freude des Genusses. Wer immer von euch diese Frömmigkeit nicht in seinem Herzen besitzt, nicht in seinem Leben kundtut, nicht in seiner Zelle übt, sollte nicht Einsiedler genannt werden, sondern Einsamer. Die Zelle ist für ihn nicht Zelle, sondern Gefängnis und Kerker. Wirklich einsam ist der, mit dem Gott nicht ist. In Wahrheit ist jener ein Gefangener, der nicht in Gott frei ist. Denn Einsamkeit und Gefängnis sind Namen des Elends. Die Zelle aber darf in keiner Weise ein erzwungenes Gefängnis sein, sondern sie muss eine Wohnung des Friedens sein. Das verschlossene Tor soll nicht ein Versteck sein, sondern Abgeschiedenheit. Der nämlich, mit dem Gott ist, ist niemals weniger allein, als wenn er allein ist. Denn dann genießt er in Freiheit seine Freude. Dann gehört er sich selbst, um Gott in sich zu genießen und sich in Gott.^pDeswegen lebt ihr entsprechend eurer Berufung mehr im Himmel als in den Zellen. Ihr habt die Welt völlig von euch ausgeschlossen und habt euch ganz mit Gott eingeschlossen. Zelle und Himmel sind ja verwandte Wohnungen. Denn wie Himmel und Zelle (caelum – cella) irgendwie verwandte Worte zu sein scheinen, so sind sie auch in der Frömmigkeit verwandt. Von verbergen (celare) scheinen nämlich die Worte Himmel und Zelle abgeleitet zu sein. Was im Himmel verborgen ist, das ist auch in den Zellen verborgen. Was man im Himmel tut, das tut man auch in den Zellen. Worin besteht dieses Tun? Es ist ein Frei-Sein für Gott, ein Genießen Gottes. Wenn das nach der Regel in den Zellen fromm und treu gefeiert wird, wage ich zu sagen, dass die heiligen Engel Gottes in den Zellen wie im Himmel wohnen und sich in den Zellen in gleicher Weise wie im Himmel freuen.^pDie Zelle wärmt, ernährt und umarmt den Sohn der Gnade, die Frucht ihres Leibes, und führt ihn zur Fülle der Vollkommenheit, macht ihn würdig des Gespräches mit Gott. Einen Fremden aber oder unechten Sohn weist sie schnell von sich und verwirft ihn. Daher sagt der Herr zu Mose: „Löse die Sandalen von deinen Füßen. Denn der Ort, wo du stehst, ist heiliges Land.“ ^pDenn ein heiliger Ort oder ein heiliges Land kann nicht lange einen Leichnam von toten Gefühlen ertragen, oder einen Menschen, der im Herzen abgestorben ist.^pDie Zelle ist ein heiliges Land, ist ein heiliger Ort, in dem der Herr und sein Diener oft miteinander sprechen, wie ein Mann mit seinem Freund, wo sich die treue Seele oft mit dem Wort Gottes verbindet, sich die Braut mit dem Bräutigam vereint, das Himmlische mit dem Irdischen, das Göttliche mit dem Menschlichen. Wie der Tempel das Heiligtum Gottes ist, so ist die Zelle das Heiligtum des Dieners Gottes. Denn sowohl im Tempel als auch in der Zelle werden die göttlichen Geheimnisse gefeiert; öfter aber in der Zelle. Im Tempel werden sichtbar und zeichenhaft von Zeit zu Zeit die Sakramente des christlichen Glaubens gespendet. In den Zellen aber wird wie im Himmel in derselben Wahrheit und Ordnung, zwar noch nicht in der Majestät der Reinheit selbst und noch nicht in der Sicherheit der Ewigkeit die Wirklichkeit aller Sakramente unseres Glaubens ohne Unterbrechung gefeiert.",
+            "patr_resp1": "Ihr seid Licht im Herrn. Lebt als Kinder des Lichts!",
+            "patr_resp2": "Denn das Licht bringt lauter Güte, Gerechtigkeit und Wahrheit hervor.^HALLo",
+            "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
+          },
+          "Laudes": {
+            "button": "Hl. Philipp von Zell"
+          }
+        }
+      }
+    },
+    "6": {
+      "30": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-06-30:LEER",
+            "patr_werk": "Aus der Ebbo-Vita Ottos von Bamberg.",
+            "patr_text": "^hOtto verstand, den irdischen Herren so zu dienen, als diente er Gott^pIn jener Zeit erbaute der glorreiche Kaiser Heinrich jene große und bewundernswerte Speyerer Kirche zu Ehren der immerwährenden Jungfrau, die er besonders verehrte, mit königlicher Großzügigkeit. Aber die Werkmeister verbrauchten betrügerisch und ohne Gottesfurcht eine große Menge Geldes für die eigene Tasche, so dass oft das Geld zu dem so wunderbaren Bau ausging. Den Kaiser schmerzte dies sehr. Nachdem er die Sache bedacht und seinen vertrauten Ratgeber Otto hinzugezogen hatte, übertrug er diesem die Leitung des gesamten Werkes, da dessen oft erprobte Weisheit geeignet war, größere und schwierigere Aufgaben zu erledigen. Otto ging klug und umsichtig an das übertragene Werk – er verstand nämlich, gemäß dem apostolischen Gebot, den irdischen Herren so zu dienen, als diente er Gott{1#vgl. Eph 6, 5-7} –, kehrte häufig an den königlichen Hof zurück und erstattete das beim Bau erübrigte Geld getreulich. Darüber hinaus legte er als Zeichen seiner geistreichen Umsicht ein von ihm klug überlegtes Gleichmaß der Fenster der Kirche dem Kaiser zur Erwägung vor. Für dies fortdauernde aufrichtige Vertrauen erwies er sich nicht nur dem König, sondern auch allen Fürsten als Freund, so dass sie Gott für seine Bekanntschaft dankten. ",
+            "patr_resp1": "Er ist der Hohepriester, der am Haus Gottes gebaut und in seinen Tagen das Heiligtum gefestigt hat.",
+            "patr_resp2": "Er sorgte für sein Volk und rettete es vor dem Untergang.",
+            "patr_resp3": "Er machte weit den Zugang zum Heiligtum; wie die Sonne strahlt, so leuchtet er im Tempel seines Gottes."
+          },
+          "Laudes": {
+            "referenz": "AAA-6-30-n2",
+            "button": "Hl. Otto"
+          }
+        }
+      }
+    },
+    "7": {
+      "8": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "oration": "Herr, unser Gott, du hast den heiligen Disibod aus der Welt herausgerufen und ihn fähig gemacht zu einem Leben der Entsagung und des Gebetes. Mache auch uns bereit, deinen Willen zu tun an der Stelle, an die du uns gerufen hast.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-07-08:Hildegard von Bingen († 1179)",
+            "patr_werk": "Sequenz an den heiligen Disibod.",
+            "patr_text": "^hDie Welt gabst du preis für das leuchtende Leben^pO Lenker der wahren Stadt,^lim Tempel des Ecksteins^ldu stiegest zum Himmel empor,^lauf Erden warst du zu Boden geworfen^lum Gottes willen.^pDem irdischen Samen [der Heimat] entfremdet,^lhast du dich gesehnt, ein Verbannter zu sein^laus Liebe zu Christus.^pDu Berg des verschlossenen Sinnes,^lohne Unterlass hältst du°dein°strahlendes°Antlitz^ldem Spiegel der Taube offen entgegen.^pDu weiltest gar heimlich verborgen,^lberauscht von dem Dufte der Blumen,^lim Gehege der Heiligen leuchtend vor Gott.^pO Gipfel all derer, die öffnen den Himmel,^ldie Welt gabst du preis für°das°leuchtende°Leben.^lDen Kampf führst du immer, o°milder°Bekenner.^pDer lebendige Quell hat°im°strahlenden°Licht^ldie reinen Gewässer aus deinem Gemüt^ldurch den Heilsweg geführt.^pGewaltiger Turm vor°des°höchsten°Gottes°Altar,^lmit würzigem Rauche umwölkst du die^lSpitze des Turmes.^pO Disibod, durch dein strahlendes Beispiel ^lvon lauterem Klang hast du erbaut ^ldie Glieder von herrlichem Lobpreis ^lin zweiseitigem Chore^r¹^0r – ^ldurch den Menschensohn.^pDu stehst in der Höhe. Vor°Gott,°dem°lebendigen,^lerrötest du nicht, du°bedeckst°mit°belebendem°Tau,°^ldie mit ihrer Stimme das Gotteslob singen.^pO Leben so süß, o Beharrlichkeit selig,^lim heiligen Disibod hast du das°glorreiche°Licht^lfür immer entfacht im°himmlischen°Jerusalem.^pUnd nun sei Gott Lob!^lEr hat in Gestalt dieses herrlichen Mönches^lgar kraftvoll gewirkt.^lDie himmlischen Bürger mögen sich freuen^lall derer, die so ihnen folgen!^p^r¹^0r Anspielung auf das schöne, hochgelegene Disibodenberger Kloster.",
+            "patr_resp1": "O Lebenskraft aus Gottes Hand, mit der Gott eine Pflanzung setzte! Sie leuchtet in der Höhe auf wie eine Säule ragend hoch.",
+            "patr_resp2": "Ruhmgekrönt bist du, durch Gott gewirkt.",
+            "patr_resp3": "Und du, o Bergeshöhe, wirst niemals wanken, wenn Gott prüft. Und dennoch stehst du in der Ferne wie vereinsamt. Doch der Bewaffnete hat nicht die Macht, dich zu ergreifen."
+          },
+          "Laudes": {
+            "button": "Hl. Disibod",
+            "antev": "O staunenswertes Wunder! Ein Bild, das tief verborgen, leuchtet auf, ragt hoch empor in herrlicher Gestalt, wo die lebendige Gottheit Geheimnisvolles kündet. Darum wirst du, o Disibod, am Ende dich erheben, wenn du erst auferstanden bist in Kraft der Blüte aller Zweige dieser Welt."
+          },
+          "Vesper": {
+            "antev": "Disibod, du Auserwählter, selig deine Kindheit war, so von Gott erleuchtet, dass aus Gottes wunderbarer Kraft du später heilige Werke hast vollbracht, duftend süß wie Balsam."
+          }
+        }
+      },
+      "15": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "oration": "Allmächtiger Gott, du hast dem seligen Markgrafen Bernhard von Baden die Kraft gegeben, sich selbstlos für dein Volk einzusetzen. Gib, dass auch wir die Aufgaben der Zeit erkennen und für Gerechtigkeit, Freiheit und Frieden in der Welt eintreten.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-07-15:Johannes Trithemius († 1516)",
+            "patr_werk": "Aus den Annalen des Klosters Hirsau.",
+            "patr_text": "^hZu jeder Zeit und an jedem Ort in der Furcht des Herrn^pDem Markgrafen Jakob wurde ein fünfter Sohn geboren, man gab ihm den Namen Bernhard. Dieser blieb nach dem Zeugnis vieler Zeitgenossen aus Liebe zur ehelosen Keuschheit bis zu seinem Tode unverheiratet. Bernhard wurde von Kindheit an zur Gottesfurcht angehalten und bewahrte deshalb sein Leben in voller sittlicher Lauterkeit. Wenn er auch kraft seiner führenden Stellung Waffen trug, so hat er dennoch niemanden gekränkt, niemanden verletzt, niemandem Schmach oder Unrecht zugefügt. Lange Zeit hat er am Hofe Kaiser Friedrichs gedient, sich aber der Ausschweifungen höfischen Lebens enthalten. Seine gesamte Lebensführung war eher die eines Mönchs als die eines Soldaten. Den Armen zeigte er seine Zuneigung und nahm sich mit großer Umsicht der Bedürftigen an. Oft traf er bei seinem Gang durch den kaiserlichen Hof einen Mönch oder einen armen Kleriker oder Landarbeiter oder irgendeinen Menschen, der wegen seines niederen Standes oder wegen seiner Hilflosigkeit sich beim Kaiser oder dessen Beamten kein Gehör verschaffen konnte. Bernhard übernahm stets aus Liebe zu Gott die Aufgabe eines zuverlässigen Anwalts. Er trug das Anliegen des hilflosen Menschen bei Kaiser und Beamten mit Nachdruck vor und nahm von seinen energischen Bemühungen nicht eher Abstand, bis er den armen Bittsteller in seiner gerechten Sache wunschgemäß zufriedengestellt hatte. Sein pflichtbewusstes Mitgefühl mit den Armen war so groß, dass er alles, was er in seinen Besitz bringen konnte, ausschließlich zu ihrem Nutzen verwendete, wobei er keinen Unterschied machte im Ansehen der Person. Auf dem bloßen Leib trug Bernhard einen eisernen Büßergürtel oder ein härenes Hemd, das er klugerweise verbarg, da er in der Öffentlichkeit in gepflegteren Kleidern einherging, wie es sich für einen Adeligen geziemte. Im Gebet bewies Bernhard Beharrlichkeit, und oft geschah es, dass er, während andere fröhlich lachten, schweigend dasaß und in großer innerer Ergriffenheit dem Herrn unter Tränen seine Bitten vortrug. Seitdem Bernhard diesen heiligen Lebenswandel begonnen hatte, zog er sich erst dann zum Schlafen zurück, wenn er zuvor seine eventuellen täglichen Vernachlässigungen dem priesterlichen Hofkaplan, der ihm stets zur Verfügung stand, in aufrichtiger Reue gebeichtet hatte. Er sagte sich nämlich, dass für einen Christen nichts gefährlicher sei, als in der Verfassung schlafen zu gehen, in welcher er nicht zu sterben wage. Diese menschliche Situation hatte der Gott wohlgefällige Mann in Klugheit stets vor Augen und war so zu jeder Zeit und an jedem Ort in der Furcht des Herrn wachen Geistes auf den Tod gefasst, um eben nicht unvorbereitet vom Tod überrascht zu werden. Nachdem Bernhard sein Leben mit guten Werken erfüllt hatte, starb er schließlich im Mannesalter so, wie die Schrift sagt: „Er gefiel Gott und wurde von ihm geliebt; da er mitten unter Sündern lebte, wurde er entrückt. Er wurde weggenommen, damit nicht Schlechtigkeit seine Einsicht verkehrte und Arglist seine Seele täuschte.“{1#Weish 4,10-11} „Da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen.“{2#Weish 4,14} „Früh vollendet, hat der Gerechte doch ein volles Leben gehabt.“{3#Weish 4,13}",
+            "patr_resp1": "Früh vollendet, hat der selige Bernhard doch ein volles Leben gehabt.",
+            "patr_resp2": "Da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen.",
+            "patr_resp3": "Er hat die Königskrone der Herrlichkeit empfangen und das Diadem der Schönheit aus der Hand des Herrn."
+          },
+          "Laudes": {
+            "button": "Sel. Bernhard von Baden"
+          }
+        }
+      }
+    },
+    "9": {
+      "10": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "comm_2": "MärtSg",
+            "oration": "Allmächtiger Gott, du hast dem heiligen Theodard Starkmut und Tapferkeit geschenkt, so dass er sein Leben für Recht und Gerechtigkeit hingab. Gib auch uns die Bereitschaft, unser Leben in dieser Welt um Christi willen zu verlieren, damit wir es wiederfinden im Himmel.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-09-10:Cäsarius von Arles († 542)",
+            "patr_werk": "Aus den Reden an das Volk.",
+            "patr_text": "^hDurch Wort und Beispiel belehrt der Bischof das ihm anvertraute Volk^pViele Bezeichnungen werden mit Fug und Recht auf die Bischöfe angewandt. Man nennt uns nämlich Hirten, heißt uns Steuerleute und Wächter. Wenn wir wirklich Hirten sind, dann müssen wir für die geistliche Nahrung des Gottesvolkes sorgen. Sind wir Steuerleute, müssen wir mit Gottes Hilfe das Schiff der Kirche mutig und kraftvoll durch die Wogen dieser Zeit steuern, damit wir durch alle Stürme hindurch unbeirrt und geradlinig den Hafen des Paradieses anlaufen können.^pBischof bedeutet eigentlich oberster Wächter; weil wir eine erhobene Stellung einnehmen, müssen wir mit Gottes Hilfe dieses Amt mit größter Sorgfalt ausüben. Wir sollten immer um die Schafe des göttlichen Herrn besorgt sein und in Furcht bedenken, was der Herr in schreckenerregender Weise von den Bischöfen und Äbten verkündet: „Ich fordere meine Schafe aus der Hand der Hirten zurück; denn die verletzten verbindet ihr nicht, die verirrten holt ihr nicht zurück, die gesunden und starken dagegen richtet ihr zugrunde.“{1#vgl. Ez 34,10.4}^pDa wir vom Herrn eingesetzt wurden, um das Schiff der Kirche zu leiten, müssen wir es, gestützt auf Gott, mit dem zweifachen Steuer der beiden Testamente führen, und zwar so, dass wir weder zur rechten noch zur linken Seite durch irgendwelche Nachlässigkeit abweichen und inmitten der zahlreichen Gefahren dieser Welt den geraden Kurs auf das Leben einhalten können. Wie nämlich kein Schiff ohne viel Mühe irgendwelche irdischen Reichtümer herbeischaffen kann, so kann auch das Schiff der Kirche nicht ohne Drangsal den Schatz oder die Freude der ewigen Heimat erreichen. Wenn sich die Steuerleute auf Grund falscher Sicherheit allzu sehr dem Schlaf hingeben und die Seeleute nicht auf ihre Aufgaben und Pflichten aufmerksam machen, werden sie sehr bald Schiffbruch erleiden. Ebenso: wenn die Kirchenführer nicht mit größter Sorgfalt belehren, abschrecken, bisweilen sogar zwingen – einmal durch maßvolle Zurechtweisung, ein andermal durch strenges Drohen mit dem Tag des Gerichtes –, um den geraden Weg zum ewigen Leben vorzuschreiben, dann ist zu befürchten, dass ihnen zum Gericht wird, was ihnen hätte zum Heil dienen können. So viel es an uns liegt, wollen wir uns deshalb Mühe geben, auf Gottes Eingebung und Hilfe bauend, das uns anvertraute Volk durch Wort und Beispiel zu belehren, damit wir einmal vor dem Richterstuhl Gottes zuversichtlich sprechen können: „Siehe, Herr, hier bin ich und die Kinder, die du mir geschenkt hast.“{2#vgl. Jes 8,18}",
+            "patr_resp1": "Gebt acht auf die ganze Herde, in der euch der Heilige Geist zu Bischöfen bestellt hat.",
+            "patr_resp2": "Sorgt wie Hirten für die Kirche Gottes, die er sich durch das Blut seines eigenen Sohnes erworben hat.",
+            "patr_resp3": "Von Verwaltern verlangt man, dass sie sich treu erweisen."
+          },
+          "Laudes": {
+            "button": "Hl. Theodard",
+            "farbe": "r"
+          }
+        }
+      },
+      "17": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau_Ord",
+            "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-09-17:Hildegard von Bingen († 1179)",
+            "patr_werk": "Aus dem Buch „Scivias“ (Vorrede).",
+            "patr_text": "^hEin feuriges Licht kam vom offenen Himmel hernieder^pIm Jahre 1141 der Menschwerdung Jesu Christi, des Gottessohnes, als ich zweiundvierzig Jahre und sieben Monate alt war, kam ein feuriges Licht mit Blitzesleuchten vom offenen Himmel hernieder. Es durchströmte mein Gehirn und durchglühte mir Herz und Brust gleich einer Flamme, die jedoch nicht brannte, sondern wärmte, wie die Sonne den Gegenstand erwärmt, auf den sie ihre Strahlen legt. Nun erschloss sich mir plötzlich der Sinn der Schriften, des Psalters, des Evangeliums und der übrigen katholischen Bücher des Alten und Neuen Testamentes. Als ich die Mädchenjahre überschritten hatte und zu dem erwähnten gereiften Alter gekommen war, hörte ich eine Stimme vom Himmel sagen: „Ich bin das lebendige Licht, das alles Dunkel durchleuchtet. Den Menschen, den Ich erwählt{1#Hildegard} und den Ich, wie es Mir gefiel, machtvoll erschüttert habe, stellte Ich in große Wunder hinein, mehr noch als die Menschen der alten Zeiten, die viele Geheimnisse in Mir schauten. Doch warf Ich ihn zur Erde nieder, damit er sich nicht in Geistesaufgeblasenheit erhebe. Die Welt hatte keine Freude und kein Ergötzen an ihm und fand ihn ungeschickt für weltliche Geschäfte, denn Ich habe ihn von trotziger Verwegenheit befreit. Furcht erfüllt ihn, und er zittert in seinen Mühen. Er leidet Schmerzen in seinem Marke und in den Adern seines Fleisches. Sinn und Gefühl sind ihm beengt, und schweres Leiden duldet er in seinem Körper, so dass keine Sicherheit in ihm wohnt, er sich vielmehr in allem als schuldig erachtet. Die Ritzen seines Herzens habe Ich umzäunt, damit sein Geist sich nicht in Stolz und Ehrsucht erhebe, sondern aus all dem mehr Furcht und Schmerz als Freude und Lust schöpfe.“ All dieses sah und hörte ich, und dennoch – ich weigerte mich zu schreiben. Nicht aus Hartnäckigkeit, sondern aus dem Empfinden meiner Unfähigkeit, wegen der Zweifelssucht, des Achselzuckens und des mannigfachen Geredes der Menschen, bis Gottes Geißel mich auf das Krankenlager warf. Da endlich legte ich, bezwungen durch die vielen Leiden, Hand ans Schreiben.^pAls ich nun zu schreiben begann und alsbald, wie anfangs berichtet, die Gabe tiefsinnender Schriftauslegung in mir wirksam fühlte, kam ich wieder zu Kräften und stand von meiner Krankheit auf. Nur mit Mühe brachte ich in zehn Jahren dieses Werk zustande und vollendete es. In den Tagen des Erzbischofs Heinrich von Mainz, des Römischen Königs Konrad und des Abtes Kuno vom Disibodenberg, unter dem Papste Eugenius, sind diese Geschichten und Worte an mich ergangen. Und ich sagte und schrieb dies nicht nach der Erfindung meines Herzens oder irgendeines Menschen, sondern wie ich es in Himmelskundgebungen sah, hörte und empfing durch die verborgenen Geheimnisse Gottes.^pUnd wiederum hörte ich die Stimme vom Himmel. Sie sprach: „So rufe denn und schreibe also.“",
+            "patr_resp1": "Der Herr gibt den Weisen die Weisheit und den Verständigen den Verstand.",
+            "patr_resp2": "Tiefe und verborgene Dinge enthüllt er, bei ihm wohnt das Licht.",
+            "patr_resp3": "Das alles wirkt der eine und gleiche Geist; einem jeden teilt er seine besonderen Gaben zu, wie er will."
+          },
+          "Laudes": {
+            "referenz": "AAA-9-17-n1",
+            "button": "Hl. Hildegard von Bingen",
+            "antev": "O würdevolle Braut Christi! Als Licht der Weissagung leuchtete sie, apostolischer Eifer entflammte sie, die Krone der Jungfrauen schmückte sie, das Feuer der göttlichen Liebe verzehrte sie."
+          },
+          "Vesper": {
+            "antev": "Die Prophetin Hildegard, erleuchtet vom Heiligen Geist, wies uns die Wege des Herrn."
+          }
+        }
+      }
+    },
+    "11": {
+      "3": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Speyer-11-03:Pirmin († 753)",
+            "patr_werk": "Aus dem Pastoralbüchlein des heiligen Pirmin.",
+            "patr_text": "^hSeht, das ist der Vertrag und das Versprechen, das bei Gott gilt!^pGeliebte, wie der Heilige Geist sagt durch den Propheten: „Reines Wasser werde ich über euch ausgießen und ihr werdet rein werden von allen euren Sünden. Von allen euren Götzen werde ich euch reinigen. Ich werde euch ein neues Herz geben und meinen Geist in euer Inneres legen.“{1#Ez 36,25-26} Und im Evangelium: „Niemand geht ein in das Reich Gottes, der nicht wiedergeboren wird aus Wasser und dem Heiligen Geist“{2#Joh 3,5}, das heißt, der nicht glaubt und getauft worden ist. Deswegen, Brüder, erinnern wir euch, welchen Vertrag (pactum) wir in unserer Taufe mit Gott geschlossen haben. Als wir vom Priester nach unserem Namen gefragt wurden, da hast du geantwortet, wenn du schon antworten konntest, oder doch gewiss jener, der für dich den Glauben bekannt hat und dich vom Taufbrunnen aufnahm: Johannes soll er heißen oder einen anderen Namen. Der Priester aber fragt: Johannes, widersagst du dem Teufel, allen seinen Werken und all seinem Prunk? Du hast geantwortet: Ich widersage. Das heißt: ich verachte und verlasse alles schlechte und teuflische Tun. Nach dieser Absage an den Teufel und an alle seine Werke bist du vom Priester gefragt worden: Glaubst du an den allmächtigen Gott, den Vater, Schöpfer des Himmels und der Erde? Da hast du geantwortet: Ich glaube! Und weiter: Glaubst du an Jesus Christus, seinen eingeborenen Sohn, unseren Herrn, der empfangen ist vom Heiligen Geist, geboren aus Maria der Jungfrau, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben; abgestiegen zur Hölle, am dritten Tage auferstanden von den Toten, aufgefahren zum Himmel, sitzend zur Rechten Gottes, des allmächtigen Vaters, von dannen er kommen wird zu richten die Lebendigen und die Toten? Wiederum hast du geantwortet: Ich glaube! Und zum dritten Mal hat dich der Priester gefragt: Glaubst du an den Heiligen Geist, an die heilige katholische Kirche, an die Gemeinschaft der Heiligen, an die Vergebung der Sünden, Auferstehung des Fleisches und das ewige Leben? Da hast du oder dein Taufpate für dich geantwortet: Ich glaube! Seht, das ist der Vertrag und das Versprechen, das ist euer Bekenntnis, das bei Gott gilt! Als Glaubender bist du getauft worden im Namen des Vaters und des Sohnes und des Heiligen Geistes zur Vergebung aller Sünden, vom Priester bist du mit dem Chrisam des Heils zum ewigen Leben gesalbt worden, dein Leib hat das weiße Gewand angezogen, deine Seele aber mit Christus die himmlische Gnade. Dir zum Schutz ist ein heiliger Engel bestimmt worden. Du hast den Namen Christi angenommen und der katholischen Kirche zugezählt, bist du ein Glied Christi geworden, so wie der Apostel sagt: „Ihr seid der Leib Christi, einzeln aber seine Glieder“{3#1 Kor 12,27}, weil Christus unser Haupt ist, wir aber seine Glieder. Denn von Christus sind wir ja Christen genannt."
+          },
+          "Laudes": {
+            "referenz": "AAA-11-3-n2",
+            "button": "Hl. Pirmin",
+            "antev": "Er zog weg aus seinem Vaterhaus und aus seiner Verwandtschaft und kam in das Land, das Gott ihm gezeigt hatte."
+          },
+          "Vesper": {
+            "antev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen."
+          }
+        },
+        "d2": {
+          "Lesehore": {
+            "patr_autor": "Julius Kardinal Döpfner († 1976)",
+            "patr_werk": "Aus einer Predigt.",
+            "patr_text": "^hSelig, die das Wort Gottes hören und es befolgen^p„Selig, die hungern und dürsten nach der Gerechtigkeit; denn sie werden gesättigt werden.“^pWie passt dieses Wort auf P. Rupert Mayer! Gott war in Wahrheit seine Leidenschaft, die ihn unbeirrbar in eine Richtung führte, ja trieb. Ihn erfüllte eine tiefe, männliche Liebe zu Gott. In seinem Lieblingsgebet finden wir immer wieder den einen Refrain:^p„Herr, wie – wann – was – weil du willst ...“ Der Herr und sein Wille waren der Magnet dieses Lebens.^p„[...] denn sie werden gesättigt werden.“ Wir kennen das Sterben von P. Rupert Mayer. Er predigte im Anschluss an unser Evangelium über die Armen. Und dann sagte er mit letzter Stimme dreimal: „Der Herr – der Herr – der Herr.“ Das war für ihn die Erfüllung der Verheißung: „Sie werden gesättigt werden.“ Sein Leben lang fand er immer wieder Sättigung an der Begegnung mit Gott, nun aber erfuhr er die letzte Erfüllung gemäß dem Wort, das wir vorhin in der Lesung hörten. „Wir werden ihn sehen, wie er ist“{1#Joh 3,2}. „Selig, die barmherzig sind; denn sie werden Erbarmen finden.“^pWollte man das bei P. Rupert Mayer darstellen, man käme an kein Ende. Immer hatte er die Antennen seines großen Herzens für alle Not der Menschen ausgestellt. Er war immer empfangsbereit und sprungbereit, ausschauend, um sich auf den Weg zu machen. So war er als Kriegspfarrer, der immer dort war, wo es am heißesten herging. Erbarmende Liebe treibt den Großstadtseelsorger, er sieht die Not. Er sieht die Not der Strafentlassenen, der arbeitenden Schichten, der Familie. Er gründet die Gemeinschaft der Schwestern von der Heiligen Familie, er errichtet die Gottesdienste im Hauptbahnhof. Er spürt die geistige Verwirrung der Nachkriegsjahre, und so sieht man ihn in zahllosen Versammlungen, wo er sein klärendes Wort spricht. Der Beichtstuhl, die Sprechstunde beanspruchen einen großen Teil seines Tagewerkes. In diskreter, persönlicher Hilfe gibt er buchstäblich das Letzte weg. Er predigt, wo er gebraucht wird. Spricht zu seinen Männern der Kongregation und in den Pfarreien: immer aus tiefem Glauben, in schlichter, zeitnaher, zupackender Weise.^p„Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.“ Auch und gerade hier ist P. Rupert Mayers Weg vorbildhaft. Das Hinstehen um der gerechten Sache willen ist für ihn in allen Zeiten seines Lebens kennzeichnend. In der Nazizeit vollendet sich seine aufrechte Tapferkeit. Aber großartig ist dabei, wie er – genau im Geist der Bergpredigt – unterscheidet. Noch eines sollten wir nicht übersehen: Der Mann einer berstenden Aktivität trägt schwer daran, nicht mehr für die Menschen tätig sein zu dürfen. Da vollzieht sich in ihm eine Läuterung in die Tiefe hinein. In der Gefolgschaft seines gekreuzigten Herrn reift in ihm die noch größere Liebestat der Opferhingabe.",
+            "patr_resp1": "Ich bezeuge den Glauben an den Herrn Jesus Christus und fürchte nichts.",
+            "patr_resp2": "Ich schäme mich des Evangeliums nicht.",
+            "patr_resp3": "Ich will mein Leben geringschätzen, wenn nur das Wort verkündet wird."
+          },
+          "Laudes": {
+            "referenz": "AAA-11-3-n4",
+            "button": "Sel. Rupert Mayer"
+          }
+        }
+      }
+    },
+    "12": {
+      "4": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-12-4-n3",
+            "button": "Sel. Adolph Kolping"
           }
         }
       }
