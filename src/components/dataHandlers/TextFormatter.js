@@ -598,6 +598,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
                 const word = firstCapital(match);
                 return ['_neu', '_ben'].includes(localPrefLanguage) ? `^c${word}^0c` : word;
             })
+            .replace(/\$/g, '')
     }
 
     marker = ['commemoration', 'Aps'].includes(marker) ? '' : marker;
@@ -640,7 +641,6 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
-        .replace(/\$/g, '')
         .replace(/\^Ö|\^HALLo/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^ö|\^HALLxq/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^LÖ|\^ALLo/g, season === 'o' ? ' Allelúia.' : '')
