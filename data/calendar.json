@@ -15311,6 +15311,47 @@
       }
     }
   },
+  "Speyer": {
+    "10": {
+      "5": {
+        "oblig": {
+          "Invitatorium": {
+            "ant0": "Christus, den König der Könige, durch den die Herrscher herrschen – kommt, wir beten ihn an!"
+          },
+          "Lesehore": {
+            "les_buch": "Aus der Offenbarung des Johannes.",
+            "les_stelle": "21,9-27",
+            "les_text": "^hEr zeigte mir die heilige Stadt Jerusalem^pEs kam einer von den sieben Engeln, die die sieben Schalen mit den sieben letzten Plagen getragen hatten. Er sagte zu mir: Komm, ich will dir die Braut zeigen, die Frau des Lammes.^pDa entrückte er mich in der Verzückung auf einen großen, hohen Berg und zeigte mir die heilige Stadt Jerusalem, wie sie von Gott her aus dem Himmel herabkam, erfüllt von der Herrlichkeit Gottes. Sie glänzte wie ein kostbarer Edelstein, wie ein kristallklarer Jaspis. Die Stadt hat eine große und hohe Mauer mit zwölf Toren und zwölf Engeln darauf. Auf die Tore sind Namen geschrieben: die Namen der zwölf Stämme der Söhne Israels. Im Osten hat die Stadt drei Tore und im Norden drei Tore und im Süden drei Tore und im Westen drei Tore. Die Mauer der Stadt hat zwölf Grundsteine; auf ihnen stehen die zwölf Namen der zwölf Apostel des Lammes.^pUnd der Engel, der zu mir sprach, hatte einen goldenen Messstab, mit dem die Stadt, ihre Tore und ihre Mauer gemessen wurden. Die Stadt war viereckig angelegt und ebenso lang wie breit. Er maß die Stadt mit dem Messstab; ihre Länge, Breite und Höhe sind gleich: zwölftausend Stadien. Und er maß ihre Mauer; sie ist hundertvierundvierzig Ellen hoch nach Menschenmaß, das der Engel benutzt hatte. Ihre Mauer ist aus Jaspis gebaut und die Stadt ist aus reinem Gold, wie aus reinem Glas.^pDie Grundsteine der Stadtmauer sind mit edlen Steinen aller Art geschmückt; der erste Grundstein ist ein Jaspis, der zweite ein Saphir, der dritte ein Chalzedon, der vierte ein Smaragd, der fünfte ein Sardonyx, der sechste ein Sardion, der siebte ein Chrysolith, der achte ein Beryll, der neunte ein Topas, der zehnte ein Chrysopras, der elfte ein Hyazinth, der zwölfte ein Amethyst. Die zwölf Tore sind zwölf Perlen; jedes der Tore besteht aus einer einzigen Perle. Die Straße der Stadt ist aus reinem Gold, wie aus klarem Glas.^pEinen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Die Stadt braucht weder Sonne noch Mond, die ihr leuchten. Denn die Herrlichkeit Gottes erleuchtet sie, und ihre Leuchte ist das Lamm. Die Völker werden in diesem Licht einhergehen, und die Könige der Erde werden ihre Pracht in die Stadt bringen.^pIhre Tore werden den ganzen Tag nicht geschlossen – Nacht wird es dort nicht mehr geben. Und man wird die Pracht und die Kostbarkeiten der Völker in die Stadt bringen. Aber nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
+            "resp1": "Deine Plätze, Jerusalem, sind aus reinem Gold; sie hallen wider von Lobgesängen.",
+            "resp2": "Auf all deinen Straßen erschallt der Ruf: Halleluja.",
+            "resp3": "Als strahlendes Licht erleuchtest du alle Länder der Erde."
+          },
+          "Laudes": {
+            "bitten_e": "Gepriesen sei Jesus Christus, der jeden Ort heiligt, wo er wohnt, und dem die Mutterkirche unseres Bistums eine heilige Stätte ist. Zu ihm lasst uns beten:",
+            "bitten_r": "Herr, gedenke deiner Kirche.",
+            "bitten": "Du hast gebetet, dass alle eins seien;^qerhalte die Kirche von Speyer unerschütterlich in der Einheit mit Petrus, dem Felsen.^pDie Kirche ist dein geheimnisvoller Leib;^qdurchströme alle Zellen dieses Leibes mit der Kraft deines Blutes und dem Feuer deiner Liebe.^pDie Mutterkirche unseres Bistums bezeugt machtvoll den Glauben unserer Vorfahren;^qstärke uns, damit auch wir in unserer Zeit standhaft den Glauben bewahren und bezeugen.^pDeine Kirche ist die lebendige Herberge in der Fremde der Welt;^qmach uns selber zu einem Ort der Geborgenheit, zur Heimat und Zuflucht für andere."
+          },
+          "Vesper": {
+            "bitten_e": "Am Fest der Weihe unseres Domes lasst uns zu Jesus Christus beten, dessen Freude es ist, bei uns Menschen zu wohnen.",
+            "bitten_r": "O lass im Hause dein uns all geborgen sein.",
+            "bitten": "Du bist der lebendige Grundstein;^qsegne das Bistum Speyer und erbaue es dir immer neu zu deiner lebendigen Kirche.^pAuf dem Grundriss des Kreuzes erhebt sich unser Dom;^qstärke uns, dass wir im Aufblick zu dir unsere Kreuze tragen und dass so unser Leben zu einem Haus des Geistes wird.^pAuf den Glauben haben die Stifter des Domes ihre staatliche Ordnung gegründet;^qschenke den Regierenden wahre Weisheit und gib, dass der Glaube auch heute das Fundament unserer staatlichen Ordnung sei.^pMaria, der Mutter der Kirche, sind Dom und Bistum geweiht;^qlass uns mit ihrem Beistand den guten Kampf kämpfen, bis wir für immer beim Vater geborgen sind.^pDeine Kirche ist Zeichen des himmlischen Jerusalem;^qöffne allen Heimgegangenen, besonders den Erbauern des Domes, den Hirten und Gläubigen des Bistums, die Tore zur Stadt des lebendigen Gottes."
+          }
+        }
+      }
+    },
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Speyer"
+          },
+          "Laudes": {
+            "button": "Test Speyer"
+          }
+        }
+      }
+    }
+  },
   "Aachen": {
     "99": {
       "1": {
@@ -15810,20 +15851,6 @@
           },
           "Laudes": {
             "button": "Test Sitten"
-          }
-        }
-      }
-    }
-  },
-  "Speyer": {
-    "99": {
-      "1": {
-        "d1": {
-          "major": {
-            "oration": "Test Speyer"
-          },
-          "Laudes": {
-            "button": "Test Speyer"
           }
         }
       }
