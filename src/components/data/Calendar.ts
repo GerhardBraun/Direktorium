@@ -13425,7 +13425,21 @@ export const calendarData: CalendarData = {
       "3": {
         "d1": {
           "Lesehore": {
-            "hymn_1": 8203.1,
+            "hymn_1": 8203.1
+          },
+          "Laudes": {
+            "hymn_1": 8203.2
+          },
+          "Vesper": {
+            "hymn_1": 8203.2
+          }
+        },
+        "d11": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
+          },
+          "Lesehore": {
             "patr_autor": "Alojs Andricki (†°1943)",
             "patr_werk": "Aus einem Brief am 9. März 1941 aus dem Dresdener Polizeigefängnis.",
             "patr_text": "^h„Das ist der Wille Gottes, eure Heiligung“^pHeiligkeit ist ja die Übereinstimmung des Menschen in allem Denken und Tun mit Gott, dem allein Heiligen. Heiligkeit bedeutet die ganze Hingabe unseres Willens an den Willen Gottes.^pWir wissen, dass dies leichter gesagt wird als getan. Solange der eigene menschliche Wille vorherrscht, spürt man gar nicht die Schwierigkeiten. Aber da, wo der eigene Wille ausgeschaltet wird und man in Lagen und Umstände hineingeführt wird, die einem persönlich gar nicht erwünscht sind, da beginnt erst eigentlich so recht die Einfügung des eigenen Willens an einen höheren.^pAch, man kann gar nicht alles so aussprechen, was man in Gedanken erwägt. Aber bloße Einordnung, vielleicht noch mit Widerwillen erfüllt, ist nicht Heiligkeit. Zur Heiligkeit gehört der eigene freie und bejahende Wille, der dem Willen eines Höheren zugetan ist und das vor allem dann, wenn damit auch Leid und Entsagung verbunden ist.^pNun ist mir ja hier Gelegenheit geboten, diesen Weg der Heiligkeit zu gehen. Ich will ihn gehen so froh und freudig, als es mir möglich ist, denn es gilt ja, mit Gott eins zu werden.^pDieses Ziel hilft mir auch über alle menschlichen Schwächen, Wehmut – und ich brauch mich nicht zu schämen zu bekennen – über manche Augenblicke, da mir die Tränen über die Wangen rollen. Es gibt schon Stunden der tiefsten Verlassenheit, aber das muss ja sein, damit umso größer die Liebe und Freude Gottes in mir Raum gewinnen kann.^pUnerlässlich bei diesem Streben aber ist das Gebet, und ich danke Euch dafür mit meinem Gebet.^pNichts Schöneres gibt es, als hineinzuwachsen in die Gleichförmigkeit mit dem Willen Gottes, darin uns Seligkeit und Freude gegeben ist.",
@@ -13434,21 +13448,13 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen."
           },
           "Laudes": {
-            "hymn_1": 8203.2,
             "button": "Sel. Alojs Andritzki",
             "farbe": "r",
             "nominativ": "Der heilige Alojs",
             "genitiv": "des heiligen Alojs"
-          },
-          "Vesper": {
-            "hymn_1": 8203.2
-          },
-          "major": {
-            "comm_1": "MärtSg",
-            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
           }
         },
-        "d2": {
+        "d12": {
           "major": {
             "comm_1": "MärtSg",
             "oration": "Knježe, naš Božo, sy zbóžneho martrarja a měšnika Alojsa ze swojej lubosću napjelnił, tak zo je w času wulkeje ćěsnosće swoje žiwjenje kaž pšeńčne zorno za bratrow podał; spožč nam na jeho zastupnistwo, zo wšón čłowječi strach přewinjemy a so z hódnymi słužownikami wěrnosće stanjemy. Přez Chrystusa, našeho Knjeza."
@@ -13908,7 +13914,7 @@ export const calendarData: CalendarData = {
         }
       },
       "27": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gütiger Gott, im Vertrauen auf dich hat der heilige Heimerad weder Armut und Not noch den Spott der Menschen gescheut. Gewähre uns auf seine Fürsprache die Kraft, den mühsamen Weg unserer Pilgerschaft in Treue zu gehen und so zu dir zu gelangen.^ORV",
@@ -14990,7 +14996,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "In dem einen Geist wurden wir durch die Taufe alle zu einem einzigen Leib."
           },
           "Laudes": {
-            "button": "Hl. Kilian und Gefährten",
+            "referenz": "AAA-8-7-n1",
+            "button": "Hll. Kilian und Gefährten",
             "farbe": "r",
             "nominativ": "Der heilige Kilian und seine Gefährten",
             "genitiv": "des heiligen Kilian und seiner Gefährten"
@@ -15091,7 +15098,7 @@ export const calendarData: CalendarData = {
         }
       },
       "5": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Mann",
             "oration": "Allmächtiger, ewiger Gott, der heilige Diakon Meinolf hat mit all seiner Kraft für den Aufbau der Kirche von Paderborn gewirkt; schütze auch in unserer Zeit die Kirche dieses Landes, und festige ihre gemeinschaftliche Verbindung mit dem Nachfolger des heiligen Petrus und mit der Schwesterkirche von Le Mans.^ORV",
@@ -15213,7 +15220,7 @@ export const calendarData: CalendarData = {
     },
     "4": {
       "30": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Jgfr",
             "oration": "Allmächtiger Gott, du hast uns in der seligen Pauline von Mallinckrodt ein leuchtendes Zeichen deiner Güte gegeben. Entzünde auf ihre Fürsprache auch in uns das Feuer der Liebe, damit wir allezeit dich suchen und den Menschen deine Liebe bezeugen.^ORV",
@@ -15288,7 +15295,7 @@ export const calendarData: CalendarData = {
     },
     "8": {
       "7": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Verborgener Gott, durch das Wirken deines Geistes hast du die Bischöfe Hathumar, Badurad und Meinwerk zu Zeugen des Evangeliums erwählt. Als gute Hirten haben sie Sorge getragen für die Kirche von Paderborn. Lass uns in der Kraft des Geistes ihren Glauben nachahmen und Zeugen dieser Liebe werden.^ORV",
@@ -15332,7 +15339,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, in deiner unaussprechlichen Barmherzigkeit hat der heiligen Adalhard den unergründlichen Reichtum der Liebe Christi verkündet; lass uns auf seine Fürsprache in deiner Erkenntnis wachsen, Frucht bringen in guten Werken und in der Wahrheit des Evangeliums treu vor dir wandeln.^ORV",
@@ -15354,7 +15361,7 @@ export const calendarData: CalendarData = {
     },
     "11": {
       "7": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
@@ -15379,7 +15386,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, unser Vater, du Ursprung alles Guten, dem seligen Bischof Niels Stensen hast du die Gnade geschenkt, deine wunderbare Weisheit in der Schöpfung zu erkennen und von der Hingabe deines Sohnes am Kreuz ganz erfüllt zu werden. Hilf uns auf seine Fürsprache, dass wir in unserer irdischen Pilgerschaft Christus, unserem einzigen Hirten, folgen und in der ewigen Vollendung dein Angesicht schauen dürfen.^ORV",
@@ -15404,7 +15411,7 @@ export const calendarData: CalendarData = {
     },
     "12": {
       "4": {
-        "d": {
+        "d11": {
           "Laudes": {
             "referenz": "AAA-12-4-n3",
             "button": "Sel. Adolph Kolping"
@@ -15558,7 +15565,7 @@ export const calendarData: CalendarData = {
     },
     "5": {
       "4": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Herr, unser Gott, voll Freude begehen wir den Tag, an dem du der Kirche von Speyer den Leib des seligen Abtes Guido anvertraut hast. Seine Gegenwart in unserer Mitte sei uns Ansporn und Hilfe, dass wir nicht müde werden, uns selbst zu erneuern und dich über alles zu lieben.^ORV"
@@ -15581,7 +15588,7 @@ export const calendarData: CalendarData = {
         }
       },
       "5": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du hast deinem Diener, dem Priester Philipp, die Gnade geschenkt, den Glanz der Welt zu verachten, um dir in einsamer Zelle zu dienen und deine Geschöpfe zu lieben. Wir bitten dich: Gib, dass wir dir in deiner Schöpfung mit Ehrfurcht begegnen und dich selbst über alles lieben.^ORV"
@@ -15602,7 +15609,7 @@ export const calendarData: CalendarData = {
     },
     "6": {
       "30": {
-        "d1": {
+        "d11": {
           "major": {
             "comm_1": "Hirten"
           },
@@ -15750,7 +15757,7 @@ export const calendarData: CalendarData = {
     },
     "12": {
       "4": {
-        "d1": {
+        "d11": {
           "Laudes": {
             "referenz": "AAA-12-4-n3",
             "button": "Sel. Adolph Kolping"

@@ -1,4 +1,4 @@
-Calendar Data Processing Log - 2026-05-06 03:52:26.164590
+Calendar Data Processing Log - 2026-05-06 04:57:56.527130
 ============================================================
 
 nur lateinischer Eintrag: AAA-12-24-oblig-Invitatorium
@@ -7,15 +7,13 @@ nur lateinischer Eintrag: AAA-12-24-oblig-Laudes
 nur lateinischer Eintrag: AAA-12-24-oblig-Terz
 nur lateinischer Eintrag: AAA-12-24-oblig-Sext
 nur lateinischer Eintrag: AAA-12-24-oblig-Non
-ÜBERSCHNEIDUNG [Dresden-Meißen]: 02-03 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Speyer]: 10-05 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [Paderborn]: 10-25 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
 === ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
-Gesamt gefundene Überschneidungen: 5
-Dresden-Meißen: 1 Überschneidungen
+Gesamt gefundene Überschneidungen: 4
 Speyer: 1 Überschneidungen
 Paderborn: 1 Überschneidungen
 AAA: 2 Überschneidungen
@@ -24,6 +22,5 @@ Zur Unterdrückung von Warnungen können folgende Einträge
 dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
   'AAA-11-9-oblig',
   'AAA-12-13-oblig',
-  'Dresden-Meißen-2-3-d1',
   'Paderborn-10-25-d1',
   'Speyer-10-5-oblig',

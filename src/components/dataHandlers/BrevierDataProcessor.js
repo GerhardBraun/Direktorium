@@ -91,6 +91,22 @@ function getDayCalendarData(calendarMonth, calendarDay) {
 
     if (diocesanDayData) {
         for (const source in diocesanDayData) {
+            const reference = diocesanDayData[source]?.Laudes?.referenz || '';
+            if (reference) {
+                const parts = reference.split('-');
+                if (parts.length === 4) {
+                    const [refDiocese, refMonth, refDay, refSource] = parts;
+                    // Referenz auf denselben Tag, anderen Kalender, andere Source:
+                    // regionalen Eintrag löschen, damit kein Duplikat erscheint
+                    if (String(refMonth) === String(calendarMonth) &&
+                        String(refDay) === String(calendarDay) &&
+                        refDiocese !== diocese &&
+                        refSource !== source) {
+                        delete result[refSource];
+                    }
+                }
+            }
+
             // Referenz auflösen und diözesane Daten darüber mergen
             const resolvedData = resolveAndMergeSource(diocesanDayData[source]);
 
