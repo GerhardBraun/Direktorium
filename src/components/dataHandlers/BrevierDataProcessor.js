@@ -841,8 +841,8 @@ export function processBrevierData(todayDate) {
     finalData.dateCompare = dateCompare;
     finalData.rank.useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
-        // nicht am Sonntag, Aschermittwoch, Karwoche und Allerseelen
-        && dayOfWeek !== 0
+        // nicht am Sonntag (außer Hochfeste und Christusfeste), Aschermittwoch, Karwoche und Allerseelen
+        && !(dayOfWeek === 0 && rank_wt < 4)
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
         && dateCompare !== '11-02'

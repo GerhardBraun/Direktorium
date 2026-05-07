@@ -190,9 +190,13 @@ const SectionHeader = ({
 
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
+    // Standardmäßig kann für das Invitatorium aus folgenden vier Psalmen frei gewählt werden:
     let invPsalmsToShow = [95, 100, 67, 24];
     const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
     let todayInv = sequenceInv[texts.dayOfWeek];
+    // Wenn durch die Auswahl der Zuordnung gemäß Benediktinischem Antiphonale
+    // ein anderer Psalm an der Reihe ist (81, 29, 46, 8),
+    // wird dieser invPsalmsTo hinzugefügt, damit er auswählbar ist.
     if (!invPsalmsToShow.includes(todayInv)) invPsalmsToShow.push(todayInv);
 
 

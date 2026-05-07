@@ -11,12 +11,25 @@ Nutzt die künftige Anwendung auch den localStorage?
 # PreliminaryNotes
 
 # Eröffnung
-Ordinarium
-grundsätzlich in allen Horen gleicher Text
-*Ausnahme:*
-im Invitatorium: "Herr, öffne meine Lippen."-"Damit mein Mund dein Lob verkünde."
-Dieser Text wird auch in der Lesehore und in den Laudes angezeigt, aber nur, wenn diese als erste Hore des Tages aufgerufen wird.
-*Implementierung in der App:* `lastVisit`im localStorage
+## Ordinarium
+grundsätzlich in allen Horen gleicher Text:
+*V* O Gott, mir zu Hilfe.
+*R* Herr, eile, mir zu helfen.
+Ehre sei dem Vater ...
+
+## Ausnahme: erste Hore des Tages mit Invitatorium
+Vor der ersten Hore des Tages (das kann die Lesehore oder die Laudes sein),
+steht das **Invitatorium**:
+*V* Herr, öffne meine Lippen.
+*R* Damit mein Mund dein Lob verkünde.
+Das kann in dieser kurzen Form die Eröffnung von Lesehore oder Laudes ersetzen,
+oder es kann mit dem Invitatoriumspsalm erweitert gebetet werden;
+dafür wählt man die eigene Schaltfläche **Invitatorium** im Hauptmenü.
+
+## `lastVisit` im localStorage
+Anhand dieses Eintrages kann geprüft werden, ob am aktuellen Tag schon eine Hore gebetet wurde.
+Ist das nicht der Fall, wird in Lesehore bzw. Laudes *Herr, öffne meine Lippen ...* angezeigt anstelle von *O Gott, komm mir zu Hilfe ...*.
+*Steuerung durch einen useEffect* in Direktorium.js.
 
 # Schuldbekenntnis (nur in der Komplet)
 Ordinarium: täglich gleicher Text, keine Variationen
@@ -38,7 +51,7 @@ Grundsätzlich gibt es pro Source und Hore einen Hymnus.
 Es können aber bis zu drei Hymnen zur Auswahl stehen.
 
 ### Lesehore: In der Nacht oder am frühen Morgen
-zusätzliche Hymnus
+zusätzlicher Hymnus
 nur in der Zeit im Jahreskreis
 
 ### Kleines Stundenbuch: abweichende Laudes- und Vesperhymnen
@@ -56,12 +69,12 @@ Es gibt meistens für die letzten Tage der Jahreszeit (`season-last-day`) eigene
 Im Lateinischen gibt es gelegentlich eine Unterscheidung für Sonntag und Werktag.
 Es gibt mehr eigene Hymnen zu Heiligenfesten.
 
-
 # Psalmodie
 Grundmuster: drei Psalmen mit je eigener Antiphon, die vor und nach dem Psalm gebetet wird
 ## Elemente
 Psalm 1-3
 Antiphon 1-3 bzw. Antiphon 0 (gemeinsame Antiphon für alle drei Psalmen, s.u.)
+mode1-3 bzw. mode0 zu den Antiphonen (Vorauswahl des zugehörigen Psalmtons)
 
 ## Psalmen
 ### Elemente
