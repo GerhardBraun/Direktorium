@@ -487,33 +487,43 @@ const PrayerTextDisplay = ({
     });
   };
 
-  const formatPsalm = (psalm, num = 0, modeOverride = null) => {
-    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride);
+  const formatPsalm = (psalm, num = 0, modeOverride = null, antIsFirst = false) => {
+    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst);
   };
 
+  const ResponsorialDisplay = (role, text) => (
+    <div className="flex gap-0">
+      <Rubric>{role}&nbsp;&nbsp;</Rubric>
+      {formatPrayerText(text)}
+    </div>
+  );
+
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
-    if (resp2 && !resp2.includes('°')) resp2 = resp2.replace(/ /, '°');
+    // kein Zeilenumbruch innerhalb des Responsums, außer eine Wortgruppe ist schon durch ° gekennzeichnet
+    if (resp2 && !resp2.includes('°'))
+      resp2 = resp2.replace(/ /, '°');
 
     const doxology = resp3?.endsWith("_lat")
       ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
       : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'
 
-    const formatSecondResponse = (firstResp, secondResp) => {
-      if (!firstResp || !secondResp) return secondResp;
+    const adjustResp2 = (thirdResp, secondResp) => {
+      // Anpassung des Responsums für die Wiederholung: ggf. Großschreibung und Abschluss mit Punkt
+      if (!thirdResp || !secondResp) return secondResp;
 
-      firstResp = firstResp.trim()
+      thirdResp = thirdResp.trim()
         .replace(/_lat/g, '')
         .replace(/_neu/g, '');
 
       secondResp = secondResp.trim()
         .replace(/[,;]$/, '.');
 
-      return (/[.!?]$/.test(firstResp))
+      return (/[.!?]$/.test(thirdResp))
         ? firstCapital(secondResp)
         : secondResp;
     };
 
-    // Prüfung für Osterzeit: resp1 und resp2 kombinieren falls nötig
+    // in der Osterzeit: resp1 und resp2 ggf. kombinieren, doppeltes Halleluja als resp2
     let processedResp1 = resp1;
     let processedResp2 = resp2;
 
@@ -523,8 +533,7 @@ const PrayerTextDisplay = ({
         .replace(' ', '°')
         .replace('_lat', '')
         .replace('_neu', '')
-      if (testResp2 !== 'Halleluja,°halleluja.' &&
-        testResp2 !== 'Allelúia,°allelúia.') {
+      if (testResp2 !== 'Halleluja,°halleluja.' && testResp2 !== 'Allelúia,°allelúia.') {
         processedResp1 = `${resp1.trim()} ${resp2.trim()}`;
         processedResp2 = resp1.endsWith('_lat')
           ? 'Allelúia,°allelúia.'
@@ -534,23 +543,19 @@ const PrayerTextDisplay = ({
 
     return (
       <div className="mb-0 whitespace-pre-wrap">
-        {resp0 && resp1 && (
-          <div>
-            <div className="mb-0 flex gap-0">
-              <div>{formatPrayerText(resp0, "V°°")}</div>
-            </div>
-            <div className="mb-0 flex gap-0">
-              <div>{formatPrayerText(processedResp1, "R°°")}</div>
-            </div>
-          </div>
-        )}
+        {/* Versikel-Format in den Kleinen Horen */}
+        {resp0 && resp1 && (<>
+          {ResponsorialDisplay("V", resp0)}
+          {ResponsorialDisplay("R", processedResp1)}
+        </>)}
+        {/* Responsorium-Format in Lesehore, Laudes und Vesper */}
         {resp1 && resp2 && (
-          <div className="mb-0 flex gap-0">
+          <div className="flex gap-0">
             <Rubric>R&nbsp;&nbsp;</Rubric>
             <div>
               {formatPrayerText(processedResp1)}
-              <Rubric> *&nbsp;</Rubric>
-              {formatPrayerText(processedResp2)}
+              {formatPrayerText(processedResp2, " *°")}
+              {/* in der Lesehore keine Wiederholung des Responsums */}
               {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
             </div>
           </div>
@@ -562,41 +567,24 @@ const PrayerTextDisplay = ({
               <div>
                 {formatPrayerText(resp3)}
                 {(hour === "lesehore" || !localPrefLongform) && (
-                  <><Rubric> *&nbsp;</Rubric>
-                    {formatPrayerText(formatSecondResponse(resp3, processedResp2))}
-                  </>
+                  formatPrayerText(adjustResp2(resp3, processedResp2), " *°")
                 )}
               </div>
             </div>
             {hour !== "lesehore" && localPrefLongform && (
-              <div className="mb-0 flex gap-0">
-                <Rubric>R&nbsp;&nbsp;</Rubric>
-                <div>{formatPrayerText(formatSecondResponse(resp3, processedResp2))}</div>
-              </div>
+              ResponsorialDisplay("R", adjustResp2(resp3, processedResp2))
             )}
-            {hour !== "lesehore" && (
-              !localPrefLongform
-                ? <div>
-                  {doxology}
-                  <Rubric> –&#8288;&#160;R</Rubric>
-                </div>
-                : <>
-                  <div className="flex gap-0">
-                    <Rubric>V&nbsp;&nbsp;</Rubric>
-                    <div>
-                      {doxology}
-                    </div>
-                  </div>
-                  {resp1 && resp2 && (
-                    <div className="mb-0 flex gap-0">
-                      <Rubric>R&nbsp;&nbsp;</Rubric>
-                      <div>
-                        {formatPrayerText(processedResp1 + " ")}
-                        {formatPrayerText(processedResp2)}
-                      </div>
-                    </div>
-                  )}
-                </>
+            {hour !== "lesehore" && (!localPrefLongform
+              ? <div>
+                {doxology}
+                <Rubric> –&#8288;&#160;R</Rubric>
+              </div>
+              : <>
+                {ResponsorialDisplay("V", doxology)}
+                {resp1 && resp2 && (
+                  ResponsorialDisplay("R", processedResp1 + " " + processedResp2)
+                )}
+              </>
             )}
           </>
         )}
@@ -606,25 +594,31 @@ const PrayerTextDisplay = ({
 
   const PreliminaryNotes = () => {
     let note = ''
+    // Anmerkung zu Allerseelen, wenn es auf einen Sonntag fällt
     if (texts.dateCompare === '11-02' && texts.dayOfWeek === 0) {
+      // alle Horen außer Vigil und Komplet
       if (!['vigil', 'komplet'].includes(hour))
         note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird°die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
+      // zusätzliche Anmerkung in Laudes und Vesper
       if (['laudes', 'vesper'].includes(hour)) {
         note += "^lIn der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen°Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }
     }
     if (texts.dateCompare === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
       note = "Ein gesegnetes neues Jahr!"
+    // Vesper am Gründonnerstag
     if (texts.swdCombined === 'q-6-4' && hour === 'vesper') {
       localPrefLanguage === '_lat'
         ? note = "Vesperæ dicuntur tantum ab iis, qui Missæ vespertinæ in Cena Domini non intersunt."
         : note = "Die Vesper wird nur von denen gebetet, die nicht an der Abendmahlsmesse teilnehmen."
     }
+    // Vesper am Karfreitag
     if (texts.swdCombined === 'q-6-5' && hour === 'vesper') {
       localPrefLanguage === '_lat'
         ? note = "Vesperæ dicuntur tantum ab iis, qui Actioni liturgicæ postmeridianæ non intersunt."
         : note = "Die Vesper wird nur von denen gebetet, die nicht an der nachmittäglichen Feier vom Leiden und Sterben Christi teilnehmen."
     }
+    // Komplet am Karsamstag
     if (texts.swdCombined === 'q-6-6' && hour === 'komplet') {
       localPrefLanguage === '_lat'
         ? note = "Completorium dicitur tantum ab iis, qui Vigiliæ paschali non intersunt."
@@ -637,11 +631,13 @@ const PrayerTextDisplay = ({
   }
 
   const ordinariumTexts = ordinarium(texts, hour, localPrefLanguage, prefSollemnity, useCommemoration)
+  // erweitertes Responsorium nach der Zweiten Lesung der Lesehore am 1. Adventssonntag
+  // deutsch: nur im Jahr II (durch patr_resp1 = LEER ermittelt), lateinisch: in jedem Jahr
   const { advResp = '', advVers = '' } =
-    (texts?.swd.combined === 'a-1-0'
-      && hour === 'lesehore'
+    (texts?.swd.combined === 'a-1-0' && hour === 'lesehore'
       && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
       ? ordinarium('advent', hour, localPrefLanguage) : {};
+  // Große Fürbitten aus der Karfreitagsliturgie als Option für die Vesper am Karfreitag
   const goodFriday =
     (texts?.swd.combined === 'q-6-5' && hour === 'vesper' && localPrefLongform)
       ? ordinarium('goodFriday', hour, localPrefLanguage) : '';
@@ -703,28 +699,22 @@ const PrayerTextDisplay = ({
               title="ERÖFFNUNG"
               field="versikel0"
             />
-            <div>
-              {formatPrayerText(ordinariumTexts.opening[0], "V°°")}
-            </div>
-            <div>
-              {formatPrayerText(ordinariumTexts.opening[1], "R°°")}
-            </div>
+            {ResponsorialDisplay("V", ordinariumTexts.opening[0])}
+            {ResponsorialDisplay("R", ordinariumTexts.opening[1])}
           </div>
         )}
 
         {ordinariumTexts.opening[2] && showKomplet && (
-          <div className="mt-0 mb-0">
+          <div>
             <div className="mt-1">
               {formatPrayerText(ordinariumTexts.opening[2])}
             </div>
-            <div>
-              {formatPrayerText(ordinariumTexts.opening[3])}
-            </div>
+            {formatPrayerText(ordinariumTexts.opening[3])}
           </div>
         )}
 
         {ordinariumTexts.confiteor && showKomplet && (
-          <div className="mt-0 mb-0">
+          <div>
             <SectionHeader
               title="SCHULDBEKENNTNIS"
               field="versikel0"
@@ -737,13 +727,10 @@ const PrayerTextDisplay = ({
                 <SectionHeader
                   title="VERGEBUNGSBITTE"
                   field="versikel0" />
-                <div className="my-0 flex gap-0">
-                  <Rubric>V&nbsp;&nbsp;</Rubric>
-                  <div>{formatPrayerText(ordinariumTexts.confiteor_v)}</div>
-                </div>
+                {ResponsorialDisplay("V", ordinariumTexts.confiteor_v)}
                 <div className="-mt-3 flex gap-0">
                   <Rubric>R&nbsp;&nbsp;</Rubric>
-                  <div>{formatPrayerText("Amen.")}</div>
+                  Amen.
                 </div>
               </>)}
           </div>
@@ -793,6 +780,9 @@ const PrayerTextDisplay = ({
                 const ant = getValue(`ant${num}`);
                 if (!psalm && !ant) return null;
                 const mode = getValue(`mode${num}`) || getValue('mode0');
+                const ant0 = getValue(`ant0`);
+                const antIsFirst = ant0?.includes('^FIRST') || ant?.includes('^FIRST')
+                console.log(`Rendering Psalm ${num}:`, { psalm, ant, ant0, antIsFirst });
                 //   console.log(`Rendering Psalm ${num}:`, { psalm, mode });
 
                 return (
@@ -802,10 +792,8 @@ const PrayerTextDisplay = ({
                         {formatPrayerText(ant, `${num}. Ant.°°`)}
                       </div>
                     )}
-                    {psalm && hour !== 'vigil' &&
-                      formatPsalm(psalm, -1, mode)}
-                    {psalm && hour === 'vigil' &&
-                      formatPsalm(psalm, num, mode)}
+                    {psalm &&
+                      formatPsalm(psalm, hour === 'vigil' ? num : -1, mode, antIsFirst)}
                     {ant && (
                       <div >
                         {formatPrayerText(ant, `Ant.°°`)}
@@ -824,16 +812,8 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title="VERSIKEL"
               field="versikel0" />
-            {getValue("versikel0") && (
-              <div className="flex gap-0">
-                <div>{formatPrayerText(getValue("versikel0"), "V°°")}</div>
-              </div>
-            )}
-            {getValue("versikel1") && (
-              <div className="flex gap-0">
-                <div>{formatPrayerText(getValue("versikel1"), "R°°")}</div>
-              </div>
-            )}
+            {getValue("versikel0") && ResponsorialDisplay("V", getValue("versikel0"))}
+            {getValue("versikel1") && ResponsorialDisplay("R", getValue("versikel1"))}
           </div>
         )}
 
@@ -856,7 +836,7 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title="RESPONSORIUM"
               field="resp1" />
-            <div className="mb-0 flex gap-0">
+            <div className="flex gap-0">
               <Rubric>R&nbsp;&nbsp;</Rubric>
               <div>
                 {advResp.map((respPart, index) => (
@@ -875,13 +855,11 @@ const PrayerTextDisplay = ({
                 resp2={advResp[index + 1]}
               />
             ))}
-            {/* Letzter Vers ohne Response */}
-            {advVers[3] && (<div className="flex gap-0">
-              <Rubric>V&nbsp;&nbsp;</Rubric>
-              <div>{formatPrayerText(advVers[3])}</div>
-            </div>
-            )}            {/* Wiederholung der vier resp-Elemente */}
-            <div className="mb-0 flex gap-0">
+            {/* Letzter Vers (Doxologie) ohne Response */}
+            {advVers[3] && ResponsorialDisplay("V", advVers[3])}
+
+            {/* Wiederholung der vier resp-Elemente */}
+            <div className="flex gap-0">
               <Rubric>R&nbsp;&nbsp;</Rubric>
               <div>
                 {advResp.map((respPart, index) => (
@@ -925,7 +903,6 @@ const PrayerTextDisplay = ({
             )}
             <div className="mb-4">
               {formatPsalm(ordinariumTexts, 'BuM', getValue('modeev'))}
-              {/* {formatPrayerText(ordinariumTexts.cant, 'cantIX')} */}
             </div>
             {getValue("antev") && (
               <div className="mb-0">
@@ -946,8 +923,8 @@ const PrayerTextDisplay = ({
               </div>
             )}
             {getValue("bitten_r") && !goodFriday && (
-              <div className="mb-2 flex gap-0">
-                <div>{formatPrayerText(getValue("bitten_r"), "R°°")}</div>
+              <div className="mb-2">
+                {formatPrayerText(getValue("bitten_r"), "R°°")}
               </div>
             )}
             {getValue("bitten") && !goodFriday && (
@@ -976,8 +953,7 @@ const PrayerTextDisplay = ({
         )}
 
         {ordinariumTexts.closing.lesehore && (
-          <div className="mt-3 long-rubric"
-            aria-hidden="true">
+          <div className="mt-3 long-rubric" aria-hidden="true">
             {ordinariumTexts.closing.lesehore}
           </div>
         )}
@@ -1058,7 +1034,8 @@ const PrayerTextDisplay = ({
                       resp1={getValue("c_patr_resp1")}
                       resp2={getValue("c_patr_resp2")}
                       resp3={getValue("c_patr_resp3")}
-                    />                </div>
+                    />
+                  </div>
                 )}
 
                 {getValue("c_antev") && useCommemoration && (
@@ -1088,8 +1065,7 @@ const PrayerTextDisplay = ({
           )}
 
         {ordinariumTexts.closing.lhCommemoration && (
-          <div className="mt-3 long-rubric"
-            aria-hidden="true">
+          <div className="mt-3 long-rubric" aria-hidden="true">
             {ordinariumTexts.closing.lhCommemoration}
           </div>
         )}
@@ -1100,12 +1076,8 @@ const PrayerTextDisplay = ({
               title="ABSCHLUSS"
               field="versikel0"
             />
-            <div className="flex gap-0">
-              {formatPrayerText(ordinariumTexts.closing[0], "V°°")}
-            </div>
-            <div className="flex gap-0">
-              {formatPrayerText(ordinariumTexts.closing[1], "R°°")}
-            </div>
+            {ResponsorialDisplay("V", ordinariumTexts.closing[0])}
+            {ResponsorialDisplay("R", ordinariumTexts.closing[1])}
             <div className="mt-3 long-rubric" aria-hidden="true">
               {ordinariumTexts.closing[2]}
             </div>
@@ -1128,7 +1100,6 @@ const PrayerTextDisplay = ({
                 formatPrayerText={formatPrayerText}
                 noSelection={hour === 'vesper'}
               />
-
             </div>
           )}
       </div>
@@ -1178,18 +1149,9 @@ export default function Stundenbuch() {
   const [baseFontFamily, setBaseFontFamily] = useState(
     () => localStorage.getItem("baseFontFamily") || "cambria, georgia, serif"
   );
-  const [isReady, setIsReady] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("fontSize");
   const [isNarrowScreen, setIsNarrowScreen] = useState(false);
-  const entriesRef = useRef({});
-  const containerRef = useRef(null);
-  const [visibleRange, setVisibleRange] = useState({
-    startDate: null,
-    endDate: null,
-  });
-  const [isScrolling, setIsScrolling] = useState(false);
-  const scrollTimeoutRef = useRef(null);
 
   const [debugLog, setDebugLog] = useState([]);
 
@@ -1241,10 +1203,6 @@ export default function Stundenbuch() {
     };
   }, [window.innerWidth, baseFontSize]);
 
-
-  // Touch-Navigation Hook
-  //  - bis auf Weiteres deaktiviert, weil die Scroll-Funktionen beeinträchtigt werden
-  // useSwipeNavigation(handleSwipeLeft, handleSwipeRight, showDatePicker);
 
   // Aktiviere Wake Lock wenn die App im prayer oder prayerText Modus ist
   useEffect(() => {

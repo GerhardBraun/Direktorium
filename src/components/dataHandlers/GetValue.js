@@ -342,10 +342,10 @@ const dataKomplet = {
     "3": {
         "hymn_2": 2513.0,
         "psalm1": 31.4,
-        "psalm2": 130.101,
+        "psalm2": 130,
         "ant1": "Sei mir ein schützender Fels, eine feste Burg, die mich rettet.",
         "mode1": "II",
-        "ant2": "Aus der Tiefe rufe ich, Herr, zu dir.",
+        "ant2": "Aus der Tiefe rufe ich, Herr, zu dir.^FIRST",
         "mode2": "II",
         "les_buch": "Eph",
         "les_stelle": "4,26–27",
@@ -373,8 +373,8 @@ const dataKomplet = {
     },
     "5": {
         "hymn_2": 2515.0,
-        "psalm1": 88.101,
-        "ant0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
+        "psalm1": 88,
+        "ant0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.^FIRST",
         "mode0": "I",
         "les_buch": "Jer",
         "les_stelle": "14,9b",

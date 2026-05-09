@@ -141,7 +141,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
 };
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverride = null) => {
+export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverride = null, antIsFirst = false) => {
     // num=0 für Invitatorium: keine verses, title, quote;
     // num=1-3 für Vigil: Ordinalzahlen bei den Cantica
     // num=-1 bei regulären Psalmen
@@ -150,16 +150,17 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverr
 
     const isBuM = num === 'BuM'
     num = isBuM ? 0 : num;
-
+    console.log(psalmRef, antIsFirst)
     const psalm = isBuM ? '' : resolveReference(psalmRef);
     if (!isBuM && (!psalm || !psalm.text)) return null;
 
     const number = isBuM ? 0 : psalm[`number${localPrefLanguage}`] || psalm.number;
-    const text = isBuM ? psalmRef.cant : psalm[`text${localPrefLanguage}`] || psalm.text;
+    const provText = isBuM ? psalmRef.cant : psalm[`text${localPrefLanguage}`] || psalm.text;
     const verses = !num ? '' : psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
     const title = !num ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
     const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
+    const text = antIsFirst ? provText : provText.replace('^\(', '').replace('^\)', '');
     const doxology = getDoxology(localPrefLanguage, psalm, isBuM);
     const cantMode = localPrefLanguage !== '_cant' ? null :
         isBuM ? modeOverride || psalmRef.mode
@@ -612,8 +613,11 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
         .replace('AntiphonaDiei', OAntiphon.lat)
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
         .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
-        .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
-        .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
+        .replace(/\^HALLmk/g, '^r(R^0r°Halleluja.^)')
+        .replace(/\^HALLsk/g, '^rR^0r°Halleluja°^(Halleluja^)')
+        .replace(/\^ALLmk/g, '^r(R^0r°Allelúia.^)')
+        .replace(/\^ALLsk/g, '^rR^0r°Allelúia°^(Allelúia^)')
+        .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL|\^EINZUG|\^FIRST/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/(?<!\^)(?<!\^0)([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')

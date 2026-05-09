@@ -2663,10 +2663,10 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 1139.0,
           "psalm1": 24.0,
-          "psalm2": 84.101,
+          "psalm2": 84.0,
           "psalm3": 87.0,
           "ant1": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^HALLo",
-          "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^HALLo",
+          "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^HALLo^FIRST",
           "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^HALLo",
           "versikel0": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^HALLo",
           "versikel1": "Ich lobe deinen Namen, denn du bist gütig.^HALLo",
@@ -8847,15 +8847,11 @@ export const brevierData = {
           "ant3_lat": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ.^ALLo",
           "anta_lat": "Mane nobíscum, quóniam advesperáscit et inclináta est iam dies.^ALLo"
         },
-        "Lesehore": {
-          "psalm3": 145.3
-        },
         "Vigil": {
           "les_stelle": "^Q:Lk 24,1-12"
         },
         "Laudes": {
-          "psalm1": 93.101,
-          "ant1": "Der Herr ist König, bekleidet mit Hoheit.^HALLo",
+          "ant1": "Der Herr ist König, bekleidet mit Hoheit.^HALLo^FIRST",
           "ant2": "Auch die Schöpfung wird befreit zur Freiheit und Herrlichkeit der Kinder Gottes.^HALLo",
           "ant3": "Der Name des Herrn ist erhaben. Seine Hoheit strahlt über Erde und Himmel.^HALLo",
           "mode1": "VII",
@@ -8863,7 +8859,7 @@ export const brevierData = {
           "mode3": "VIII",
           "antev": "Christus musste leiden und am dritten Tag auferstehen von den Toten.^HALLo",
           "modeev": "IIc",
-          "ant1_lat": "Dóminus regnávit, decórem indútus est.^ALLo",
+          "ant1_lat": "Dóminus regnávit, decórem indútus est.^ALLo^FIRST",
           "ant2_lat": "Liberábitur creatúra in libertátem glóriæ filiórum Dei.^ALLo",
           "ant3_lat": "Exaltátum est nomen Dómini super cælum et terram.^ALLo",
           "anta_lat": "Oportébat Christum pati et resúrgere a mórtuis tértia die.^ALLo"
@@ -9302,10 +9298,10 @@ export const brevierData = {
           "anta_lat": "Non vos relínquam órphanos: vado et vénio ad vos, et gaudébit cor vestrum.^ALLo"
         },
         "Vesper": {
-          "psalm3": 150.101,
+          "psalm3": 157.0,
           "ant1": "Gott hat Christus von den Toten erweckt und ihn in den Himmel erhoben auf den Platz zu seiner Rechten.^HALLo",
           "ant2": "Ihr habt euch von den Götzen bekehrt zum lebendigen Gott.^HALLo",
-          "ant3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^HALLo",
+          "ant3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^HALLo^FIRST",
           "mode1": "VII",
           "mode2": "II",
           "mode3": "VII",
@@ -9413,13 +9409,13 @@ export const brevierData = {
         "Lesehore": {
           "psalm1": 68.1,
           "psalm2": 68.2,
-          "psalm3": 68.301,
+          "psalm3": 68.3,
           "ant1": "Singt für Gott, spielt seinem Namen; jubelt ihm zu, ihm, der auf den Wolken einherfährt.^HALLo",
           "ant2": "Du zogst hinauf zur Höhe, führtest Gefangene mit.^HALLo",
-          "ant3": "Gott, sie sahen deinen Einzug, den Einzug meines Gottes und Königs ins Heiligtum.^HALLo",
+          "ant3": "Gott, sie sahen deinen Einzug, den Einzug meines Gottes und Königs ins Heiligtum.^HALLo^FIRST",
           "ant1_lat": "Cantáte Deo, psalmum dícite nómini eius; iter fácite ei qui fertur super nubes.^ALLo",
           "ant2_lat": "Ascéndens in altum, captívam duxit captivitátem.^ALLo",
-          "ant3_lat": "Vidérunt ingréssus tuos, Deus, ingréssus Dei mei, regis mei in sancta.^ALLo"
+          "ant3_lat": "Vidérunt ingréssus tuos, Deus, ingréssus Dei mei, regis mei in sancta.^ALLo^FIRST"
         },
         "Vigil": {
           "psalm1": 199.117,
@@ -9612,7 +9608,6 @@ export const brevierData = {
           "bitten_lat": "Mitte, Dómine, quem missúrus es,^qut Ecclésia tua semper renovétur et iuvenéscat.^pOmnes gentes tibi regi et Deo psallant,^qet Israel fiat posséssio tua.^pQui dǽmones expulísti,^qaufer a fínibus nostris scándala et perversitátes.^pQui in Pentecóste dispersiónem Babélicam superásti,^qper Spíritum tuum unitátem éffice fideíque universalitátem.^pSpíritus tuus hábitet in nobis,^qut mortália córpora nostra vivíficet."
         },
         "Lesehore": {
-          "psalm3": 145.3,
           "ant1": "Halleluja. Gott hat Christus von den Toten auferweckt und ihm die Herrlichkeit gegeben.^HALLo",
           "ant2": "Halleluja. Du bist hoch erhoben, Herr, über alle Himmel.^HALLo",
           "ant3": "Halleluja. Mir ist alle Gewalt gegeben im Himmel und auf Erden.^HALLo",
@@ -11086,10 +11081,10 @@ export const brevierData = {
           "hymn_1": 2212.0,
           "psalm1": 24.0,
           "psalm2": 162.0,
-          "psalm3": 33.101,
+          "psalm3": 33.0,
           "ant1": "Wer reine Hände hat und ein lauteres Herz, darf hinaufziehen zum Berg des Herrn.",
           "ant2": "Preist den Herrn der Gerechtigkeit, rühmt den ewigen König.",
-          "ant3": "Ihr Gerechten, jubelt vor dem Herrn; für die Frommen ziemt es sich, Gott zu loben.",
+          "ant3": "Ihr Gerechten, jubelt vor dem Herrn; für die Frommen ziemt es sich, Gott zu loben.^FIRST",
           "mode1": "IV",
           "mode2": "VIII",
           "mode3": "V",
@@ -11206,15 +11201,15 @@ export const brevierData = {
       "3": {
         "Lesehore": {
           "hymn_1": 2113.0,
-          "psalm1": 18.101,
+          "psalm1": 18.1,
           "psalm2": 18.2,
           "psalm3": 18.3,
-          "ant1": "Ich will dich rühmen, Herr, meine Stärke.^HALLo",
+          "ant1": "Ich will dich rühmen, Herr, meine Stärke.^HALLo^FIRST",
           "ant2": "Der Herr befreite mich, denn er hatte an mir Gefallen.^HALLo",
           "ant3": "Herr, lass meine Leuchte erstrahlen, mach meine Finsternis hell.^HALLo",
           "versikel0": "Alle staunten über die Kraft seiner Rede.",
           "versikel1": "Über die Worte aus seinem Mund.",
-          "ant1_lat": "Díligam te, Dómine, virtus mea.^ALLo",
+          "ant1_lat": "Díligam te, Dómine, virtus mea.^ALLo^FIRST",
           "ant2_lat": "Salvum me fecit Dóminus, quóniam vóluit me.^ALLo",
           "ant3_lat": "Tu, Dómine, accénde lucérnam meam; illuminábis ténebras meas.^ALLo",
           "versikel0_lat": "Omnes mirabántur in verbis grátiæ.",
@@ -11305,10 +11300,10 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 2413.0,
-          "psalm1": 27.101,
+          "psalm1": 27.1,
           "psalm2": 27.2,
           "psalm3": 153.0,
-          "ant1": "Der Herr ist mein Licht und mein Heil: Vor wem sollte ich mich fürchten?",
+          "ant1": "Der Herr ist mein Licht und mein Heil: Vor wem sollte ich mich fürchten?^FIRST",
           "ant2": "Dein Angesicht, Herr, will ich suchen; verbirg nicht dein Gesicht vor mir.",
           "ant3": "Er ist der Erstgeborene der ganzen Schöpfung, in allem hat er den Vorrang.",
           "mode1": "VIII",
@@ -11363,10 +11358,10 @@ export const brevierData = {
           "hymn_1": 2214.0,
           "psalm1": 57.0,
           "psalm2": 164.0,
-          "psalm3": 48.101,
+          "psalm3": 48.0,
           "ant1": "Wacht auf, Harfe und Saitenspiel, ich will das Morgenrot wecken.",
           "ant2": "So spricht der Herr: Mein Volk wird satt an meinen Gaben.",
-          "ant3": "Groß ist der Herr und hoch zu preisen in der Stadt unseres Gottes.",
+          "ant3": "Groß ist der Herr und hoch zu preisen in der Stadt unseres Gottes.^FIRST",
           "mode1": "VII",
           "mode2": "VI",
           "mode3": "V",
@@ -11386,7 +11381,7 @@ export const brevierData = {
           "hymn_1_lat": 4143.0,
           "ant1_lat": "Exsúrge, psaltérium et cíthara: excitábo auróram.",
           "ant2_lat": "Pópulus meus, ait Dóminus, bonis meis adimplébitur.",
-          "ant3_lat": "Magnus Dóminus et laudábilis nimis, in civitáte Dei nostri.",
+          "ant3_lat": "Magnus Dóminus et laudábilis nimis, in civitáte Dei nostri.^FIRST",
           "resp1_lat": "Clamávi in toto corde meo:",
           "resp2_lat": "Exáudi me, Dómine.",
           "resp3_lat": "Iustificatiónes tuas servábo.",
@@ -12052,10 +12047,10 @@ export const brevierData = {
           "hymn_kl": 2111.0,
           "psalm1": 43.0,
           "psalm2": 172.0,
-          "psalm3": 65.101,
+          "psalm3": 65.0,
           "ant1": "Sende dein Licht und deine Wahrheit, dass sie mich führen zu deinem heiligen Berg.",
           "ant2": "Sei unsere Hilfe, Herr, alle Tage unseres Lebens.",
-          "ant3": "Dir gebührt Lobgesang, Gott, auf dem Zion, dir erfüllt man Gelübde.",
+          "ant3": "Dir gebührt Lobgesang, Gott, auf dem Zion, dir erfüllt man Gelübde.^FIRST",
           "mode1": "IVa",
           "mode2": "III",
           "mode3": "VII",
@@ -12190,10 +12185,10 @@ export const brevierData = {
           "hymn_kl": 2112.0,
           "psalm1": 77.0,
           "psalm2": 173.0,
-          "psalm3": 97.101,
+          "psalm3": 97.0,
           "ant1": "Gott, dein Weg ist heilig. Wo ist ein Gott, so groß wie unser Gott?",
           "ant2": "Mein Herz ist voll Freude über den Herrn; er erniedrigt, und er erhöht.",
-          "ant3": "Der Herr ist König. Die Erde frohlocke!",
+          "ant3": "Der Herr ist König. Die Erde frohlocke!^FIRST",
           "mode1": "II",
           "mode2": "VIII",
           "mode3": "VI",
@@ -12329,10 +12324,10 @@ export const brevierData = {
           "hymn_kl": 3112.0,
           "psalm1": 80.0,
           "psalm2": 174.0,
-          "psalm3": 81.101,
+          "psalm3": 81.0,
           "ant1": "Biete auf deine Macht und komm uns zu Hilfe, Herr, unser Gott.",
           "ant2": "Herrliche Taten hat Gott vollbracht; die ganze Erde soll es wissen.",
-          "ant3": "Jubelt Gott zu, er ist unsre Zuflucht.",
+          "ant3": "Jubelt Gott zu, er ist unsre Zuflucht.^FIRST",
           "mode1": "VIII",
           "mode2": "VI",
           "mode3": "VIIIa",
@@ -12469,10 +12464,10 @@ export const brevierData = {
           "hymn_kl": 2113.0,
           "psalm1": 51.0,
           "psalm2": 175.0,
-          "psalm3": 147.201,
+          "psalm3": 147.2,
           "ant1": "Ein zerbrochenes und zerschlagenes Herz wirst du, o°Gott, nicht verschmähen.",
           "ant2": "Auch wenn du zürnst, Herr, denk an dein Erbarmen.",
-          "ant3": "Jerusalem, preise den Herrn; Zion, lobsinge deinem Gott!",
+          "ant3": "Jerusalem, preise den Herrn; Zion, lobsinge deinem Gott!^FIRST",
           "mode1": "IVa",
           "mode2": "II",
           "mode3": "VII",
@@ -12729,15 +12724,15 @@ export const brevierData = {
           "hymn_1": 2110.0,
           "psalm1": 145.1,
           "psalm2": 145.2,
-          "psalm3": 145.301,
+          "psalm3": 145.3,
           "ant1": "Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig.^HALLxq",
           "ant2": "Dein Königtum, o°Herr, ist ein Königtum für ewige Zeiten.^HALLxq",
-          "ant3": "Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten.^HALLxq",
+          "ant3": "Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten.^HALLxq^FIRST",
           "versikel0": "Mein Sohn, achte auf meine Worte.",
           "versikel1": "Neige dein Ohr meiner Rede.",
           "ant1_lat": "Per síngulos dies benedícam te, Dómine.^ALLxq",
           "ant2_lat": "Regnum tuum, Dómine, regnum ómnium sæculórum.^ALLxq",
-          "ant3_lat": "Fidélis Dóminus in ómnibus verbis suis, et sanctus in ómnibus opéribus suis.^ALLxq",
+          "ant3_lat": "Fidélis Dóminus in ómnibus verbis suis, et sanctus in ómnibus opéribus suis.^ALLxq^FIRST",
           "versikel0_lat": "Ascúlta, fili mi, sermónes meos.",
           "versikel1_lat": "Et ad elóquia mea inclína aurem tuam."
         },
@@ -13004,10 +12999,10 @@ export const brevierData = {
       "2": {
         "Lesehore": {
           "hymn_1": 2112.0,
-          "psalm1": 68.101,
+          "psalm1": 68.1,
           "psalm2": 68.2,
           "psalm3": 68.3,
-          "ant1": "Gott steht auf; seine Feinde zerstieben; die ihn hassen, fliehen vor seinem Angesicht.^HALLo",
+          "ant1": "Gott steht auf; seine Feinde zerstieben; die ihn hassen, fliehen vor seinem Angesicht.^HALLo^FIRST",
           "ant2": "Gott ist ein Gott, der uns Rettung bringt; Gott, der Herr, führt uns heraus aus dem Tod.^HALLo",
           "ant3": "Ihr Königreiche der Erde, singt für Gott und spielt für den Herrn.^HALLo",
           "versikel0": "Ich will hören, was Gott redet.",
@@ -13143,10 +13138,10 @@ export const brevierData = {
       "3": {
         "Lesehore": {
           "hymn_1": 2113.0,
-          "psalm1": 89.101,
+          "psalm1": 89.1,
           "psalm2": 89.2,
           "psalm3": 89.3,
-          "ant1": "Von deiner Huld, o°Herr, will ich ewig singen, bis zum fernsten Geschlecht will ich laut deine Treue verkünden.^HALLo",
+          "ant1": "Von deiner Huld, o°Herr, will ich ewig singen, bis zum fernsten Geschlecht will ich laut deine Treue verkünden.^HALLo^FIRST",
           "ant2": "Der Sohn Gottes ist dem Fleische nach gekommen als Nachkomme Davids.^HALLo",
           "ant3": "Ich habe David, meinem Knecht, geschworen: Sein Geschlecht soll bleiben auf ewig.^HALLo",
           "versikel0": "Herr, deine Worte bringen Erleuchtung.",
@@ -13833,10 +13828,10 @@ export const brevierData = {
       "1": {
         "Lesehore": {
           "hymn_1": 2111.0,
-          "psalm1": 73.101,
+          "psalm1": 73.1,
           "psalm2": 73.2,
           "psalm3": 73.3,
-          "ant1": "Lauter Güte ist Gott für Israel, für alle Menschen mit reinem Herzen.^HALLo",
+          "ant1": "Lauter Güte ist Gott für Israel, für alle Menschen mit reinem Herzen.^HALLo^FIRST",
           "ant2": "Das Lachen der Sünder wird sich in Trauer verwandeln, ihre Freude in Betrübnis.^HALLo",
           "ant3": "Wer dir fern ist, Herr, geht zugrunde; ich aber – Gott nahe zu sein ist mein Glück.^HALLo",
           "versikel0": "Herr, wie köstlich ist deine Verheißung.",
@@ -13891,7 +13886,7 @@ export const brevierData = {
           "psalm3": 120.0,
           "ant1": "Festige meine Schritte, Herr, wie du es verheißen hast.",
           "ant2": "Nur einer ist Richter. Wer bist du, dass du über deinen Nächsten richtest?",
-          "ant3": "Ich rief zum Herrn in meiner Not, und er hat mich erhört.",
+          "ant3": "Ich rief zum Herrn in meiner Not, und er hat mich erhört.^FIRST",
           "mode1": "IVg",
           "mode2": "II",
           "mode3": "II",
@@ -14129,7 +14124,7 @@ export const brevierData = {
         "Laudes": {
           "hymn_1": 2213.0,
           "hymn_kl": 2114.0,
-          "psalm1": 108.101,
+          "psalm1": 108.0,
           "psalm2": 193.0,
           "psalm3": 146.0,
           "ant1": "Mein Herz ist bereit, o°Gott. Ich will dir singen und spielen.",
@@ -14152,7 +14147,7 @@ export const brevierData = {
           "bitten": "Du hast uns aus der Finsternis in dein wunderbares Licht gerufen;^qlenke heute unser Denken und Tun.^pDu hast den Blinden die Augen geöffnet;^qhilf unserem Unglauben.^pGib, dass wir im Unglück nicht verzagen^qund in den Tagen des Glücks dir danken.^pLass uns in deiner Liebe bleiben,^qdamit wir nie von dir getrennt werden.",
           "oration": "Herr, gedenke deines heiligen Bundes, den das Blut des Lammes neu besiegelt hat. Schenke deinem Volk die Vergebung der Sünden und mehre sein Heil Tag für Tag, bis zur Vollendung der Erlösung.^ORV",
           "hymn_1_lat": 4233.0,
-          "ant1_lat": "Parátum cor meum, Deus, parátum cor meum.",
+          "ant1_lat": "Parátum cor meum, Deus, parátum cor meum.^FIRST",
           "ant2_lat": "Induit me Dóminus induménto salútis et iustítiæ.",
           "ant3_lat": "Laudábo Deum meum in vita mea.",
           "resp1_lat": "Benedícam Dóminum",
@@ -14271,10 +14266,10 @@ export const brevierData = {
           "hymn_kl": 3942.0,
           "psalm1": 143.0,
           "psalm2": 194.0,
-          "psalm3": 147.101,
+          "psalm3": 147.1,
           "ant1": "Herr, lass mich deine Huld erfahren am frühen Morgen.",
           "ant2": "Wie einen Strom leitet der Herr den Frieden nach Jerusalem.",
-          "ant3": "Gut ist es, unserem Gott zu singen, schön ist es, ihn zu loben.",
+          "ant3": "Gut ist es, unserem Gott zu singen, schön ist es, ihn zu loben.^FIRST",
           "mode1": "IVg",
           "mode2": "Im",
           "mode3": "VII",
@@ -14633,15 +14628,6 @@ export const brevierData = {
       }
     }
   },
-  "pa": {
-    "4": {
-      "3": {
-        "Laudes": {
-          "psalm1": 108.0
-        }
-      }
-    }
-  },
   "pj": {
     "1": {
       "6": {
@@ -14674,11 +14660,6 @@ export const brevierData = {
       }
     },
     "4": {
-      "1": {
-        "Terz": {
-          "psalm3": 120.101
-        }
-      },
       "5": {
         "Lesehore": {
           "psalm1": 55.3,
@@ -14729,7 +14710,6 @@ export const brevierData = {
       },
       "2": {
         "Laudes": {
-          "psalm3": 33.0,
           "ant1": "Der herabstieg zur Erde, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^HALLo",
           "ant2": "Preist den Herrn, ihr seine Erwählten, feiert Tage der Freude, verkündet sein Lob.^HALLo",
           "ant3": "Die Erde ist erfüllt von der Huld des Herrn.^HALLo",
@@ -14756,7 +14736,6 @@ export const brevierData = {
           "ant3_lat": "Rex omnis terræ Deus, psállite sapiénter.^ALLo"
         },
         "Vesper": {
-          "psalm1": 27.1,
           "ant1": "Gott hat Jesus als Herrscher und Retter an seine rechte Seite erhoben.^HALLo",
           "ant2": "Darauf vertraue ich fest: Ich werde schauen Gottes Güte im Lande der Lebenden.^HALLo",
           "ant3": "In ihm und durch ihn und auf ihn hin ist alles; ihm sei die Ehre in alle Ewigkeit.^HALLo",
@@ -14767,7 +14746,6 @@ export const brevierData = {
       },
       "4": {
         "Laudes": {
-          "psalm3": 48.0,
           "ant1": "Erhebe dich über die Himmel, o°Gott.^HALLo",
           "ant2": "Der Herr hat sein Volk erlöst. Er hat es befreit aus der Hand seiner Feinde.^HALLo",
           "ant3": "Der Herr ist unser Gott für immer und ewig.^HALLo",
@@ -14786,9 +14764,8 @@ export const brevierData = {
       },
       "5": {
         "Laudes": {
-          "psalm2": 165.101,
           "ant1": "Gedenke meiner, Herr, du mein Gott, wenn du in dein Reich kommst.^HALLo",
-          "ant2": "Wahrhaftig, du bist ein verborgener Gott. Israels Gott ist der Retter.^HALLo",
+          "ant2": "Wahrhaftig, du bist ein verborgener Gott. Israels Gott ist der Retter.^HALLo^FIRST",
           "ant3": "Dient dem Herrn mit Freude.^HALLo",
           "ant1_lat": "Meménto mei, Dómine Deus, dum véneris in regnum tuum.^ALLo",
           "ant2_lat": "Vere tu es Deus abscónditus, Deus Israel, salvátor.^ALLo",
@@ -14817,8 +14794,7 @@ export const brevierData = {
     "2": {
       "1": {
         "Laudes": {
-          "psalm1": 42.101,
-          "ant1": "Wie der Hirsch lechzt nach frischem Wasser, so lechzt meine Seele, Gott, nach dir.^HALLo",
+          "ant1": "Wie der Hirsch lechzt nach frischem Wasser, so lechzt meine Seele, Gott, nach dir.^HALLo^FIRST",
           "ant2": "Erfülle dein Volk mit deinem Wort, damit es deine Wunder verkünde.^HALLo",
           "ant3": "Die Herrlichkeit des Herrn durchstrahlt die Gottesstadt, und ihre Leuchte ist das Lamm.^HALLo",
           "ant1_lat": "Sicut cervus ad fontes aquárum, desíderat ánima mea ad te, Deus.^ALLo",
@@ -14836,7 +14812,6 @@ export const brevierData = {
       },
       "2": {
         "Laudes": {
-          "psalm3": 65.0,
           "ant1": "Ihr seid hinzugetreten zum Berge Zion, zur Stadt des lebendigen Gottes.^HALLo",
           "ant2": "Herr, du hast mich bewahrt vor dem Abgrund des Todes.^HALLo",
           "ant3": "Herr, du hast für das Land gesorgt und es mit Reichtum überschüttet.^HALLo",
@@ -14855,7 +14830,6 @@ export const brevierData = {
       },
       "3": {
         "Laudes": {
-          "psalm3": 97.0,
           "ant1": "O°Gott, die Wasser sahen dich und bebten: Du führtest dein Volk durch das Meer.^HALLo",
           "ant2": "Der Herr gibt den Tod und das Leben, er führt zu den Toten hinab und führt auch herauf.^HALLo",
           "ant3": "Licht erstrahlt den Gerechten, Freude den Menschen mit redlichem Herzen.^HALLo",
@@ -14874,7 +14848,6 @@ export const brevierData = {
       },
       "4": {
         "Laudes": {
-          "psalm3": 81.0,
           "ant1": "Ich bin der Weinstock, ihr seid die Reben.^HALLo",
           "ant2": "Schöpfet voll Freude das Wasser aus den Quellen des Heils.^HALLo",
           "ant3": "Mit bestem Weizen nährt uns der Herr.^HALLo",
@@ -14893,7 +14866,6 @@ export const brevierData = {
       },
       "5": {
         "Laudes": {
-          "psalm3": 147.2,
           "ant1": "Hab Vertrauen, mein Sohn, deine Sünden sind dir vergeben.^HALLo",
           "ant2": "Herr, du zogst aus, dein Volk zu retten und deinem Gesalbten zu helfen.^HALLo",
           "ant3": "Lobsinge, Zion, deinem Gott. Er verschafft deinen Grenzen Frieden.^HALLo",
@@ -15062,7 +15034,6 @@ export const brevierData = {
       },
       "3": {
         "Laudes": {
-          "psalm1": 108.0,
           "ant1": "Erhebe dich über die Himmel, o°Gott! Deine Herrlichkeit erscheine über der ganzen Erde.^HALLo",
           "ant2": "Wie die Erde die Saat wachsen lässt, so bringt Gott die Rettung hervor.^HALLo",
           "ant3": "Der Herr ist König, er herrscht von Geschlecht zu Geschlecht.^HALLo",
@@ -15081,7 +15052,6 @@ export const brevierData = {
       },
       "4": {
         "Laudes": {
-          "psalm3": 147.1,
           "ant1": "Um deines Namens willen, Herr, erhältst du mich am Leben.^HALLo",
           "ant2": "Ich werde euch wiedersehen, und euer Herz wird sich freuen.^HALLo",
           "ant3": "Der Herr baut Jerusalem wieder auf. Er heilt die gebrochenen Herzen.^HALLo",
@@ -15714,8 +15684,7 @@ export const brevierData = {
           "oration_lat": "Deus, qui per Verbum tuum humáni géneris reconciliatiónem mirabíliter operáris, præsta, quǽsumus, ut pópulus christiánus prompta devotióne et álacri fide ad ventúra sollémnia váleat festináre.^ORlV"
         },
         "ErsteV": {
-          "psalm1": 122.101,
-          "ant1": "Ich freute mich, als man mir sagte: Zum Haus des Herrn wollen wir pilgern.",
+          "ant1": "Ich freute mich, als man mir sagte: Zum Haus des Herrn wollen wir pilgern.^FIRST",
           "ant2": "Wach auf, der du schläfst, steh auf von den Toten, und Christus wird dich erleuchten.",
           "ant3": "Als wir tot waren durch die Sünde, hat Gott uns mit Christus lebendig gemacht aus großer Liebe.",
           "mode1": "VIII",
@@ -15723,7 +15692,7 @@ export const brevierData = {
           "mode3": "VII",
           "antev": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab, damit alle, die an ihn glauben, nicht verlorengehen, sondern das ewige Leben haben.",
           "modeev": "VIII",
-          "ant1_lat": "In domum Dómini lætántes íbimus",
+          "ant1_lat": "In domum Dómini lætántes íbimus.",
           "ant2_lat": "Surge, qui dormis, et exsúrge a mórtuis, et illuminábit te Christus.",
           "ant3_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, cum essémus mórtui peccátis, convivificávit nos in Christo.",
           "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo.",
@@ -16637,9 +16606,8 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 3344.0,
-          "psalm2": 72.201,
           "ant1": "Christus, der Erstgeborene von den Toten und Herrscher über die Könige der Erde, hat uns zu einem Königreich gemacht für seinen Gott und Vater.",
-          "ant2": "Er rettet den Gebeugten, der um Hilfe schreit, den Armen und den, der keinen Helfer hat.",
+          "ant2": "Er rettet den Gebeugten, der um Hilfe schreit, den Armen und den, der keinen Helfer hat.^FIRST",
           "ant3": "Die Heiligen haben gesiegt durch das Blut des Lammes und durch ihr Wort und ihr Zeugnis.",
           "mode1": "VII",
           "mode2": "VIII",

@@ -224,22 +224,30 @@ function getOpeningTexts(hour, localPrefLanguage) {
         "", ""
     ];
 
+    // Prüfung anhand von localStorage/openMyLips, ob heute schon eine Hore gebetet wurde
     const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
     const openMyLips = () => localStorage.getItem("openMyLips", "l-ERROR") || '';
 
+    // beim Invitatorium wird immer opening_inv angezeigt und localStorage/openMyLips aktualisiert
     if (hour === 'invitatorium') {
         setLocalStorage("openMyLips", todayVisit())
         return opening_inv;
     }
+    // Wenn Lesehore oder Laudes als erste Hore des Tages aufgerufen werden,
+    // ohne dass vorher das Invitatorium gebetet wurde,
+    // wird in openMyLips die Bezeichnung dieser ersten Hore gespeichert,
+    // damit sie auch bei wiederholtem Aufruf mit opening_inv angezeigt wird.
+    // Die jeweils andere Hore bekommt hingegen die normale Eröffnung;
+    // mit deren Aufruf wird dann auch das aktuelle Datum in openMyLips eingetragen.
     if (['lesehore', 'laudes'].includes(hour)
         && openMyLips() !== todayVisit()) {
         if (!openMyLips().startsWith('l') || openMyLips() === hour) {
             setLocalStorage("openMyLips", hour)
             return opening_inv;
         } else setLocalStorage("openMyLips", todayVisit())
-
     }
 
+    // Eröffnung entfällt, wenn aus der Aufruf aus der Lesehore mit dem NavigationButton erfolgt ist
     if (localStorage.getItem('ommitOpening') === 'true'
         || hour === 'vigil') {
         return ["", "", "", ""];
@@ -273,6 +281,7 @@ function getClosingTexts(hour, localPrefLanguage, useCommemoration) {
         : ["Singet Lob und Preis.",
             "Dank sei Gott, dem Herrn."];
 
+    // zusätzlicher Hinweis in der Lesehore
     if (hour === 'lesehore') {
         closing.lesehore = useCommemoration ? "" : "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
         closing.lhCommemoration = useCommemoration ? "Wenn eine andere Hore unmittelbar angeschlossen wird, entfällt\u00a0hier der Abschluss; dann\u00a0folgt jetzt der Hymnus der anschließenden Hore." : "";
@@ -287,12 +296,16 @@ export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSollemn
         : localPrefLanguage === '_cant' ? "cant" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
 
+    // Sonderfälle, die mit einem Stichwort als texts-Parameter abgerufen werden:
+    // advent, goodFriday, matutin
+    // mit schnellem Return ohne openingTexts und closingTexts
     if (ordinariumData?.[texts]?.[languageToRead])
         return ordinariumData[texts][languageToRead]
 
     if (ordinariumData?.[texts]?.dt)
         return ordinariumData[texts].dt
 
+    // Normalfall: Abruf in Abhängigkeit von der Hore
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 
     // Te Deum
