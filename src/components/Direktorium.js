@@ -487,7 +487,7 @@ const PrayerTextDisplay = ({
     });
   };
 
-  const formatPsalm = (psalm, num = 0, modeOverride = null, antIsFirst = false) => {
+  const formatPsalm = (psalm, num = -1, modeOverride = null, antIsFirst = false) => {
     return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst);
   };
 
@@ -769,21 +769,19 @@ const PrayerTextDisplay = ({
               </div>
             )}
             {hour === "invitatorium" &&
-              texts?.invitatorium?.psalms?.includes(localPrefInv) && (
-                <div>
-                  {formatPsalm(localPrefInv, 0, getValue('mode0'))}
-                </div>
+              texts?.invitatorium?.psalms?.includes(localPrefInv) &&
+              formatPsalm(localPrefInv, 0, getValue('mode0')
               )}
             {hour !== "invitatorium" &&
               [1, 2, 3].map((num) => {
                 const psalm = getValue(`psalm${num}`);
                 const ant = getValue(`ant${num}`);
                 if (!psalm && !ant) return null;
+
                 const mode = getValue(`mode${num}`) || getValue('mode0');
                 const ant0 = getValue(`ant0`);
-                const antIsFirst = ant0?.includes('^FIRST') || ant?.includes('^FIRST')
-                console.log(`Rendering Psalm ${num}:`, { psalm, ant, ant0, antIsFirst });
-                //   console.log(`Rendering Psalm ${num}:`, { psalm, mode });
+                const antIsFirst = ant0 ? ant0.includes('^FIRST')
+                  : ant?.includes('^FIRST')
 
                 return (
                   <div key={num}>
@@ -792,19 +790,12 @@ const PrayerTextDisplay = ({
                         {formatPrayerText(ant, `${num}. Ant.°°`)}
                       </div>
                     )}
-                    {psalm &&
-                      formatPsalm(psalm, hour === 'vigil' ? num : -1, mode, antIsFirst)}
-                    {ant && (
-                      <div >
-                        {formatPrayerText(ant, `Ant.°°`)}
-                      </div>
-                    )}
+                    {psalm && formatPsalm(psalm, hour === 'vigil' ? num : -1, mode, antIsFirst)}
+                    {ant && formatPrayerText(ant, `Ant.°°`)}
                   </div>
                 );
               })}
-            {getValue("ant0") && (
-              <div>{formatPrayerText(getValue("ant0"), "Ant.°°")}</div>
-            )}
+            {getValue("ant0") && formatPrayerText(getValue("ant0"), "Ant.°°")}
           </div>
         )}
         {getValue("versikel0") && (

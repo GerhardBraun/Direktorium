@@ -10026,8 +10026,8 @@ export const brevierData = {
           "mode3": "VIII",
           "les_buch": "›Eph",
           "les_stelle": "4,3–6",
-          "les_text": "Bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch auch durch eure Berufung EIN gemeinsame Hoffnung gegeben ist: EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.",
-          "les_text_neu": "Bemüht euch, die Einheit des Geistes zu wahren durch das Band des Friedens! EIN Leib und EIN Geist, wie ihr auch berufen seid zu EINEM Hoffnung in eurer Berufung: EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist. ",
+          "les_text": "Bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch auch durch eure Berufung EINE gemeinsame Hoffnung gegeben ist: EIN Herr, EIN Glaube, EINE Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.",
+          "les_text_neu": "Bemüht euch, die Einheit des Geistes zu wahren durch das Band des Friedens! EIN Leib und EIN Geist, wie ihr auch berufen seid zu EINER Hoffnung in eurer Berufung: EIN Herr, EIN Glaube, EINE Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist. ",
           "resp1": "Der Geist des Herrn erfüllt den Erdkreis.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Er, der das All umfängt, kennt jede Sprache.",
@@ -10451,7 +10451,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›1°Kor",
           "les_stelle": "15,20–22",
-          "les_text": "Christus ist von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch EINEN Menschen der Tod gekommen ist, kommt durch EIN Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.",
+          "les_text": "Christus ist von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch EINEN Menschen der Tod gekommen ist, kommt durch EINEN Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.",
           "les_text_neu": "",
           "les_text_lat": "Christus resurréxit a mórtuis, primítiæ dormiéntium. Quóniam enim per hóminem mors, et per hóminem resurréctio mortuórum: sicut enim in Adam omnes moriúntur, ita et in Christo omnes vivificabúntur."
         },
