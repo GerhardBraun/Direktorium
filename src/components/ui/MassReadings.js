@@ -163,7 +163,7 @@ const MassReadings = ({
                     title={''}
                     onPrevDay={onPrevDay}
                     onNextDay={onNextDay}
-                    swdWritten={texts?.swd.written}
+                    swdWritten={texts?.swd?.written}
                     padding="pr-4"
                 />
                 <NavigationButtons

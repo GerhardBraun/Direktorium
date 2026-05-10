@@ -214,6 +214,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     } = getLiturgicalInfo(date);
     const { rank_date } = getLiturgicalInfo(calendarDate);
 
+    const passThrough = {}
+    if (isCommemoration) passThrough.isCommemoration = true;
+    if (hasVigil) passThrough.hasVigil = true;
+
     const calendarDay = calendarDate.getDate();
     const calendarMonth = calendarDate.getMonth() + 1;
     //Lesejahr ABC
@@ -386,18 +390,20 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         return {
             season, week, dayOfWeek,
-            swdCombined, swdWritten, swd,
-            rank_wt,
-            rank_date,
+            swd,
+            //swdCombined, swdWritten,
+            //rank_wt,
+            //rank_date,
             //isCommemoration,
             //shouldUseLast,
             //hasVigil,
             rank: {
                 wt: rank_wt,
                 date: rank_date,
-                isCommemoration,
+                ...passThrough,
+                //isCommemoration,
                 //shouldUseLast,
-                hasVigil,
+                //hasVigil,
                 //useDateAndLast,
             },
             prefComm: (rank_date > 2 || rank_wt > 2 || [41, 46].includes(afterPentecost)) ? 1 : 0,
@@ -662,7 +668,8 @@ function processKompletData(data, calendarDate) {
     // am Tag zur Auswahl stehen und welches davon die 1. Wahl ist.
     // Die Komplet-Daten selbst stehen in GetValue.js.
 
-    const { rank = { wt: 0, date: 0 }, dayOfWeek, swdCombined } = data
+    const { rank = { wt: 0, date: 0 }, dayOfWeek } = data
+    const swdCombined = data.swd?.combined;
     const kompletDay = calendarDate.getDate();
     const kompletMonth = calendarDate.getMonth() + 1;
 
@@ -801,7 +808,7 @@ export function processBrevierData(todayDate) {
             nextDate: rankNextDate,
         },
         //rankNextDate,
-        swdCombined: todayInfo.swdCombined
+        //swd: {            combined: todayInfo.swdCombined        }
     };
 
     // Sichere Vesper-Daten für etwaige Nutzung bei lokalem Hochfest
@@ -839,10 +846,12 @@ export function processBrevierData(todayDate) {
 
     const dateCompare = `${todayMonth.toString().padStart(2, '0')}-${todayDay.toString().padStart(2, '0')}`;
     finalData.dateCompare = dateCompare;
-    finalData.rank.useFeastPsalms = (
+
+    const useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
-        // nicht am Sonntag (außer Hochfeste und Christusfeste), Aschermittwoch, Karwoche und Allerseelen
-        && !(dayOfWeek === 0 && rank_wt < 4)
+        // nicht am Sonntag (außer Hochfeste der Heiligen und Christusfeste sowie Christkönig),
+        // Aschermittwoch, Karwoche und Allerseelen
+        && !(dayOfWeek === 0 && rank_date < 4 && swdCombined !== 'j-34-0')
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
         && dateCompare !== '11-02'
@@ -850,15 +859,20 @@ export function processBrevierData(todayDate) {
         // Barnabas, Enthauptung Johannes des Täufers, Schmerzen Mariens, Schutzengel, U.L.Fr. vom Rosenkranz, Martin
         // für Agnes (21.1.) und Josef der Arbeiter (1.5.) in den Eigentexten eingetragen, da andere Optionen wählbar sind
         ['06-11', '08-29', '09-15', '10-02', '10-07', '11-11'].includes(dateCompare);
+    if (useFeastPsalms) finalData.rank.useFeastPsalms = true;
 
     // alternative Psalmen an Aschermittwoch (Laudes) und Gründonnerstag (Lesehore)
-    finalData.rank.useAlternativePsalms = (swdCombined === 'q-0-3' || swdCombined === 'q-6-4');
+    if (swdCombined === 'q-0-3' || swdCombined === 'q-6-4')
+        finalData.rank.useAlternativePsalms = true;
 
     // Anzeige im Hauptmenü: "Zweite Vesper" statt "Vesper"
-    finalData.rank.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
-        && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
+    if (kompletSettings.prefKomplet === 'k2'
+        && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined))
+        finalData.rank.hasZweiteVesper = true;
 
-    const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
+    // Invitatorium: verfügbare Psalmen zur Auswahl und bevorzugter Psalm
+    const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv'))
+        || [95, 100, 24, 67, 67, 100, 24];
     let prefInv = sequenceInv[dayOfWeek];
     const invPsalms = processInvitatoriumPsalms(finalData, prefInv);
     if (!invPsalms.includes(prefInv)) prefInv = 95;

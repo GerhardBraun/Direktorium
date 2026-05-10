@@ -185,7 +185,7 @@ const SectionHeader = ({
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
-    const isGoodFriday = texts?.swdCombined === 'q-6-5' && hour === 'vesper';
+    const isGoodFriday = texts?.swd?.combined === 'q-6-5' && hour === 'vesper';
     const showAltPsalms = !!hasAltPsalms && isPsalmodie;
 
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')

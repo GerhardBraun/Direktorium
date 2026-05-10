@@ -84,7 +84,7 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
-        // 5. Feste nach Pfingsten
+        // Sonderfall: Feste nach Pfingsten
         if (afterPentecost > 2)
             return [41, 46].includes(afterPentecost) ? 2 : 5
 
