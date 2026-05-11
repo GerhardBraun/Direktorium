@@ -769,11 +769,13 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
-    const { season, dayOfWeek, swdCombined, rank_wt, rank_date }
-        = todayData;
-    const rankNextWt = tomorrowData.rank_wt;
-    const rankNextDate = tomorrowData.rank_date;
-    const nextSwdCombined = tomorrowData.swdCombined;
+    const { season, dayOfWeek } = todayData;
+    const rank_wt = todayData.rank.wt;
+    const rank_date = todayData.rank.date;
+    const swdCombined = todayData.swd.combined;
+    const rankNextWt = tomorrowData.rank.wt;
+    const rankNextDate = tomorrowData.rank.date;
+    const nextSwdCombined = tomorrowData.swd.combined;
 
     const hasErsteVesper_wt =
         // Sonderfall: Sa der Osteroktav hat 1. Vesper, obwohl selbst Hochfest
@@ -819,15 +821,14 @@ export function processBrevierData(todayDate) {
     if (hasErsteVesper_wt || hasErsteVesper_date) {
         finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
         finalData.vesper.prefComm = tomorrowData.prefComm;
-        //finalData.hasErsteVesper = true;
         finalData.rank.hasErsteVesper = true;
         if (tomorrowData.laudes?.oblig?.com1?.button)
             finalData.vesper.commButton = tomorrowData.laudes.oblig.com1.button;
         if (hasErsteVesper_wt)
             finalData.vesper.wt.swdWritten = tomorrowData?.swdWritten;
         if (hasErsteVesper_date) {
-            //finalData.vesper.oblig.button = tomorrowData.laudes?.oblig?.button
-            //finalData.vesper.oblig.farbe = tomorrowData.laudes?.oblig?.farbe || 'w'
+            finalData.vesper.oblig.button = tomorrowData.erstev?.oblig?.button
+            finalData.vesper.oblig.farbe = tomorrowData.laudes?.oblig?.farbe || 'w'
         };
     }
 

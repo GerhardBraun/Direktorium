@@ -2932,7 +2932,7 @@
           "bitten_r_lat": "Sancti simus, quia tu sanctus es.",
           "bitten_lat": "Pater sancte, qui voluísti ut fílii tui nominémur et simus,^qfac ut te per orbem terrárum sancta confiteátur Ecclésia.^pPater sancte, qui voluísti ut ambulémus digne tibi per ómnia placéntes,^qda, ut in ópere bono fructificémus.^pPater sancte, qui nos tibi reconciliásti per Christum,^qserva nos in nómine tuo, ut omnes unum simus.^pPater sancte, qui nos ad cæléste vocásti convívium,^qper panem, qui de cælo descéndit, præsta nobis, ut caritátem pleniórem cónsequi valeámus.^pPater sancte, ómnibus peccatóribus dimítte delícta,^qet súscipe defúnctos ad lumen vultus tui.",
           "les_text_lat": "Scimus quóniam diligéntibus Deum ómnia cooperántur in bonum, his, qui secúndum propósitum vocáti sunt. Nam, quos præscívit, et prædestinávit confórmes fíeri imáginis Fílii eius, ut sit ipse primogénitus in multis frátribus; quos autem prædestinávit, hos et vocávit; et quos vocávit, hos et iustificávit; quos autem iustificávit, illos et glorificávit.",
-          "oration_lat": "Deus, qui solus es sanctus, et sine quo nullus est bonus, intercessióne beáti N. iube nos tales fíeri, qui non debeámus tua glória privári. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum"
+          "oration_lat": "Deus, qui solus es sanctus, et sine quo nullus est bonus, intercessióne beáti N. iube nos tales fíeri, qui non debeámus tua glória privári.^ORlV"
         }
       },
       "Paar": {
@@ -6157,15 +6157,15 @@
         },
         "Terz": {
           "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen.^ORV",
-          "oration_lat": "Deus, Pater óptime, qui labórem homínibus ita dedísti, ut mútua semper arte ad altióra profícerent, præsta, quǽsumus, sic nos iúgiter operári, ut filiórum in te spíritu et fratérna in omnes caritáte vivámus. Per Christum Dóminum nostrum."
+          "oration_lat": "Deus, Pater óptime, qui labórem homínibus ita dedísti, ut mútua semper arte ad altióra profícerent, præsta, quǽsumus, sic nos iúgiter operári, ut filiórum in te spíritu et fratérna in omnes caritáte vivámus.^ORlV"
         },
         "Sext": {
           "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen.^ORV",
-          "oration_lat": "Deus, qui messis ac víneæ dóminus es et custos, quique offícia tríbuis et iusta stipéndia meritórum, fac nos diéi pondus ita portáre, ut nihil umquam de tuis plácitis conquerámur. Per Christum Dóminum nostrum."
+          "oration_lat": "Deus, qui messis ac víneæ dóminus es et custos, quique offícia tríbuis et iusta stipéndia meritórum, fac nos diéi pondus ita portáre, ut nihil umquam de tuis plácitis conquerámur.^ORlV"
         },
         "Non": {
           "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn.",
-          "oration_lat": "Deus, qui nos ádvocas illa hora, qua ad templum ascendébant Apóstoli, præsta, ut orátio, quam in nómine Iesu sincéra tibi mente persólvimus, ómnibus nomen illud invocántibus salútem eius váleat impetráre. Per Christum Dóminum nostrum."
+          "oration_lat": "Deus, qui nos ádvocas illa hora, qua ad templum ascendébant Apóstoli, præsta, ut orátio, quam in nómine Iesu sincéra tibi mente persólvimus, ómnibus nomen illud invocántibus salútem eius váleat impetráre.^ORlV"
         }
       },
       "2": {
@@ -6181,15 +6181,15 @@
         },
         "Terz": {
           "oration": "Allmächtiger, ewiger Gott, um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, qui Paráclitum Sanctum tuum hora tértia in Apóstolos effudísti, in nos quoque eúndem Spíritum caritátis emítte, ut fidéle tibi coram ómnibus homínibus testimónium præbeámus. Per Christum Dóminum nostrum."
+          "oration_lat": "Omnípotens sempitérne Deus, qui Paráclitum Sanctum tuum hora tértia in Apóstolos effudísti, in nos quoque eúndem Spíritum caritátis emítte, ut fidéle tibi coram ómnibus homínibus testimónium præbeámus.^ORlV"
         },
         "Sext": {
           "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient.^ORV",
-          "oration_lat": "Deus, qui Petro salvíficum tuum super gentes consílium revelásti, éffice benígnus, ut ópera nostra tibi grata reddántur, ac tuo dilectiónis salutísque propósito te donánte desérviant. Per Christum Dóminum nostrum."
+          "oration_lat": "Deus, qui Petro salvíficum tuum super gentes consílium revelásti, éffice benígnus, ut ópera nostra tibi grata reddántur, ac tuo dilectiónis salutísque propósito te donánte desérviant.^ORlV"
         },
         "Non": {
           "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen.^ORV",
-          "oration_lat": "Deus, qui Cornélio centurióni ángelum tuum misísti, ut viam ei salútis osténderet, da nobis, quǽsumus, in salvatiónem ómnium libéntius operári, ut una cum eis, in Ecclésia tua, ad te perveníre possímus. Per Christum Dóminum nostrum."
+          "oration_lat": "Deus, qui Cornélio centurióni ángelum tuum misísti, ut viam ei salútis osténderet, da nobis, quǽsumus, in salvatiónem ómnium libéntius operári, ut una cum eis, in Ecclésia tua, ad te perveníre possímus.^ORlV"
         }
       },
       "3": {
@@ -6205,15 +6205,15 @@
         },
         "Terz": {
           "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern.^ORV",
-          "oration_lat": "Dómine, Pater sancte, Deus fidélis, qui promíssum Spíritum misísti, ut hómines per peccátum dispérsos congregáres, fac nos in mundo unitátis pacísque múnera confovére. Per Christum Dóminum nostrum."
+          "oration_lat": "Dómine, Pater sancte, Deus fidélis, qui promíssum Spíritum misísti, ut hómines per peccátum dispérsos congregáres, fac nos in mundo unitátis pacísque múnera confovére.^ORlV"
         },
         "Sext": {
           "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, qui nos die média respiráre concédis, quos cœ́pimus propítius intuére labóres, et, sanans quæ delíquimus, fac eos ad finem tibi plácitum perveníre. Per Christum Dóminum nostrum."
+          "oration_lat": "Omnípotens et miséricors Deus, qui nos die média respiráre concédis, quos cœ́pimus propítius intuére labóres, et, sanans quæ delíquimus, fac eos ad finem tibi plácitum perveníre.^ORlV"
         },
         "Non": {
           "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS",
-          "oration_lat": "Dómine Iesu Christe, qui manus tuas in cruce ad salvándos hómines extendísti, concéde, ut actus nostri tibi reddántur accépti, et opus tuæ redemptiónis in mundo váleant declaráre. Qui vivis et regnas in sǽcula sæculórum."
+          "oration_lat": "Dómine Iesu Christe, qui manus tuas in cruce ad salvándos hómines extendísti, concéde, ut actus nostri tibi reddántur accépti, et opus tuæ redemptiónis in mundo váleant declaráre.^ORlS"
         }
       },
       "4": {
@@ -6229,15 +6229,15 @@
         },
         "Terz": {
           "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes.^ORV",
-          "oration_lat": "Te, Dómine, supplíciter exorámus, ut qui hora tértia Spíritum Sanctum orántibus Apóstolis tribuísti, nobis eiúsdem grátiæ participatiónem concédas benígnus. Per Christum Dóminum nostrum."
+          "oration_lat": "Te, Dómine, supplíciter exorámus, ut qui hora tértia Spíritum Sanctum orántibus Apóstolis tribuísti, nobis eiúsdem grátiæ participatiónem concédas benígnus.^ORlV"
         },
         "Sext": {
           "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, apud quem nihil est tenebrósum, nihil obscúrum, lucis tuæ in nos emítte splendórem, ut mandatórum tuórum lege percépta, in via tua dilatáto corde fidéliter ambulémus. Per Christum Dóminum nostrum."
+          "oration_lat": "Omnípotens sempitérne Deus, apud quem nihil est tenebrósum, nihil obscúrum, lucis tuæ in nos emítte splendórem, ut mandatórum tuórum lege percépta, in via tua dilatáto corde fidéliter ambulémus.^ORlV"
         },
         "Non": {
           "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen.^ORvR",
-          "oration_lat": "Da nobis orántibus, quǽsumus, Dómine, ut patiéntiæ Unigéniti tui sequámur exémpla, et advérsa patiéndi constántiam habeámus. Per Christum Dóminum nostrum."
+          "oration_lat": "Da nobis orántibus, quǽsumus, Dómine, ut patiéntiæ Unigéniti tui sequámur exémpla, et advérsa patiéndi constántiam habeámus.^ORlV"
         }
       },
       "5": {
@@ -6253,15 +6253,15 @@
         },
         "Terz": {
           "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS",
-          "oration_lat": "Dómine Iesu Christe, qui hora tértia ad crucis pœnam ductus es pro mundi salúte, te súpplices exorámus, ut et de prætéritis malis semper apud te véniam impetrémus, et de futúris iúgiter habeámus custódiam. Qui vivis et regnas in sǽcula sæculórum."
+          "oration_lat": "Dómine Iesu Christe, qui hora tértia ad crucis pœnam ductus es pro mundi salúte, te súpplices exorámus, ut et de prætéritis malis semper apud te véniam impetrémus, et de futúris iúgiter habeámus custódiam.^ORlS"
         },
         "Sext": {
           "oration": "Herr Jesus Christus, um die sechste Stunde kam Finsternis über die ganze Welt, als du unschuldig das Kreuz bestiegst, um uns von unserer Schuld zu erlösen. Erleuchte unsere Dunkelheit, damit wir zum ewigen Leben finden in deinem Licht.^ORS",
-          "oration_lat": "Dómine Iesu Christe, qui hora sexta, univérso mundo in ténebris constitúto, pro redemptióne nostra crucis lignum ínnocens ascendísti, illam nobis lucem semper concéde, per quam ad ætérnam vitam perveníre mereámur. Qui vivis et regnas in sǽcula sæculórum."
+          "oration_lat": "Dómine Iesu Christe, qui hora sexta, univérso mundo in ténebris constitúto, pro redemptióne nostra crucis lignum ínnocens ascendísti, illam nobis lucem semper concéde, per quam ad ætérnam vitam perveníre mereámur.^ORlS"
         },
         "Non": {
           "oration": "Herr Jesus Christus, um die neunte Stunde hast du dem reumütigen Schächer vom Marterpfahl des Kreuzes aus dein Reich versprochen. Wir bekennen dir, dass wir Sünder sind und bitten dich voll Vertrauen: Lass auch uns nach dem Tod bei dir im Paradiese sein.^ORS",
-          "oration_lat": "Dómine Iesu Christe, qui pæniténtem latrónem de patíbulo crucis in regnum tuum transíre fecísti, peccáta nostra confiténtes te cum fidúcia deprecámur, ut post mortem nos fácias paradísi portas introíre gaudéntes. Qui vivis et regnas in sǽcula sæculórum."
+          "oration_lat": "Dómine Iesu Christe, qui pæniténtem latrónem de patíbulo crucis in regnum tuum transíre fecísti, peccáta nostra confiténtes te cum fidúcia deprecámur, ut post mortem nos fácias paradísi portas introíre gaudéntes.^ORlS"
         }
       },
       "6": {
@@ -6277,15 +6277,15 @@
         },
         "Terz": {
           "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage.^ORV",
-          "oration_lat": "Dómine Deus, Pater omnípotens, nobis maiestáti tuæ subiéctis Sancti Spíritus lumen infúnde, ut ab omni hoste secúri, in tua iúgiter laude lætémur. Per Christum Dóminum nostrum."
+          "oration_lat": "Dómine Deus, Pater omnípotens, nobis maiestáti tuæ subiéctis Sancti Spíritus lumen infúnde, ut ab omni hoste secúri, in tua iúgiter laude lætémur.^ORlV"
         },
         "Sext": {
           "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder.^ORV",
-          "oration_lat": "Concéde nobis, Dómine, lux ardens caritátis ætérnæ, ut tua semper caritáte fervéntes, te super ómnia et fratres propter te uno diligámus amóre. Per Christum Dóminum nostrum."
+          "oration_lat": "Concéde nobis, Dómine, lux ardens caritátis ætérnæ, ut tua semper caritáte fervéntes, te super ómnia et fratres propter te uno diligámus amóre.^ORlV"
         },
         "Non": {
           "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen.^ORV",
-          "oration_lat": "Exáudi nos, Dómine, et præsta pacem, quam pétimus, consummátam, ut cunctis diébus vitæ nostræ tibi cum iucunditáte vacántes, beáta María Vírgine intercedénte, ad te secúri perveníre mereámur. Per Christum Dóminum nostrum."
+          "oration_lat": "Exáudi nos, Dómine, et præsta pacem, quam pétimus, consummátam, ut cunctis diébus vitæ nostræ tibi cum iucunditáte vacántes, beáta María Vírgine intercedénte, ad te secúri perveníre mereámur.^ORlV"
         }
       },
       "each": {
@@ -8857,7 +8857,7 @@
       "5": {
         "each": {
           "oration": "Allmächtiger Gott, wir glauben und bekennen, dass unser Herr Jesus Christus für uns gestorben und auferstanden ist. Erwecke auch uns durch die Kraft des Heiligen Geistes zum neuen Leben. Darum bitten wir durch ihn,^ORR",
-          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, qui grátiam domínicæ resurrectiónis cognóvimus, ipsi per amórem Spíritus in novitátem vitæ resurgámus."
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, qui grátiam domínicæ resurrectiónis cognóvimus, ipsi per amórem Spíritus in novitátem vitæ resurgámus.^ORlV"
         },
         "Laudes": {
           "antev": "Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir und ich in ihm.^HALLo",
@@ -8873,7 +8873,7 @@
       "6": {
         "each": {
           "oration": "Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren.^ORV",
-          "oration_lat": "Deus, qui credéntes in te fonte baptísmatis innovásti, hanc renátis in Christo concéde custódiam, ut, omni erróris incúrsu devícto, grátiam tuæ benedictiónis fidéliter servent."
+          "oration_lat": "Deus, qui credéntes in te fonte baptísmatis innovásti, hanc renátis in Christo concéde custódiam, ut, omni erróris incúrsu devícto, grátiam tuæ benedictiónis fidéliter servent.^ORlV"
         },
         "Laudes": {
           "antev": "Zu wem sollen wir gehen? Du, Herr, hast Worte des ewigen Lebens. Wir haben geglaubt und erkannt: Du bist der Heilige Gottes.^HALLo",
@@ -9175,7 +9175,7 @@
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, lass uns die österliche Zeit in herzlicher Freude begehen und die Auferstehung unseres Herrn preisen, damit das Ostergeheimnis, das wir in diesen fünfzig Tagen feiern, unser ganzes Leben prägt und verwandelt.^ORV",
-          "oration_lat": "Fac nos, omnípotens Deus, hos lætítiæ dies, quos in honórem Dómini resurgéntis exséquimur, afféctu sédulo celebráre, ut, quod recordatióne percúrrimus, semper in ópere teneámus."
+          "oration_lat": "Fac nos, omnípotens Deus, hos lætítiæ dies, quos in honórem Dómini resurgéntis exséquimur, afféctu sédulo celebráre, ut, quod recordatióne percúrrimus, semper in ópere teneámus.^ORlV"
         },
         "ErsteV": {
           "ant1": "Wer die Wahrheit tut, der kommt zum Licht.^HALLo",
@@ -9220,7 +9220,7 @@
           "modeev": "III",
           "ant1_lat": "Suscitávit Christum a mórtuis, et constítuit ad déxteram suam in cæléstibus.^ALLo",
           "ant2_lat": "A simulácris convérsi estis ad Deum vivum.^ALLo",
-          "ant3_lat": "Allelúia, salus et glória et virtus Deo nostro.^ALLo",
+          "ant3_lat": "Allelúia, salus et glória et virtus Deo nostro.^ALLo^FIRST",
           "anta_lat": "Qui díligit me, diligétur a Patre meo; et ego díligam eum, et manifestábo ei meípsum.^ALLo"
         }
       },
@@ -9607,7 +9607,7 @@
       "2": {
         "each": {
           "oration": "Allmächtiger und barmherziger Gott, sende den Heiligen Geist auf uns herab. Er wohne in uns und mache uns zum Tempel seiner Herrlichkeit.^ORV",
-          "oration_lat": "Præsta, quǽsumus, omnípotens et miséricors Deus, ut Spíritus Sanctus advéniens templum nos glóriæ suæ dignánter inhabitándo perfíciat."
+          "oration_lat": "Præsta, quǽsumus, omnípotens et miséricors Deus, ut Spíritus Sanctus advéniens templum nos glóriæ suæ dignánter inhabitándo perfíciat.^ORlV"
         },
         "Laudes": {
           "antev": "Der Herr ist von den Toten erstanden, wie er gesagt hat. Lasst uns frohlocken und jubeln; denn er ist König für immer und ewig.^HALLo",
@@ -9640,7 +9640,7 @@
       "3": {
         "each": {
           "oration": "Barmherziger Gott, du versammelst deine Kirche im Heiligen Geist. Gib, dass sie dir von ganzem Herzen dient und in aufrichtiger Liebe die Einheit bewahrt.^ORV",
-          "oration_lat": "Ecclésiæ tuæ, miséricors Deus, concéde propítius, ut, Sancto Spíritu congregáta, toto sit corde tibi devóta, et pura voluntáte concórdet."
+          "oration_lat": "Ecclésiæ tuæ, miséricors Deus, concéde propítius, ut, Sancto Spíritu congregáta, toto sit corde tibi devóta, et pura voluntáte concórdet.^ORlV"
         },
         "Laudes": {
           "antev": "Dank sei Gott! Er hat uns den Sieg geschenkt durch Jesus Christus, unseren Herrn.^HALLo",
@@ -9739,7 +9739,7 @@
       "6": {
         "each": {
           "oration": "Allmächtiger Gott, am Ende der heiligen fünfzig Tage bitten wir dich: Gib uns die Gnade, dass wir in einem Leben aus dem Glauben das Ostergeheimnis deines Sohnes bewahren,^ORR",
-          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus."
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus.^ORlV"
         },
         "Laudes": {
           "antev": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.^HALLo",
@@ -9758,7 +9758,7 @@
       "0": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, durch das Geheimnis des heutigen Tages heiligst du deine Kirche in allen Völkern und Nationen. Erfülle die ganze Welt mit den Gaben des Heiligen Geistes, und was deine Liebe am Anfang der Kirche gewirkt hat, das wirke sie auch heute in den Herzen aller, die an dich glauben.^ORV",
-          "oration_lat": "Deus, qui sacraménto festivitátis hodiérnæ univérsam Ecclésiam tuam in omni gente et natióne sanctíficas, in totam mundi latitúdinem Spíritus Sancti dona defúnde, et, quod inter ipsa evangélicæ prædicatiónis exórdia operáta est divína dignátio, nunc quoque per credéntium corda perfúnde. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, qui sacraménto festivitátis hodiérnæ univérsam Ecclésiam tuam in omni gente et natióne sanctíficas, in totam mundi latitúdinem Spíritus Sancti dona defúnde, et, quod inter ipsa evangélicæ prædicatiónis exórdia operáta est divína dignátio, nunc quoque per credéntium corda perfúnde.^ORlV"
         },
         "ErsteV": {
           "button": "1. Vesper zu Pfingsten",
@@ -10885,7 +10885,7 @@
           "bitten_r_lat": "Spíritum tuum da nobis, Dómine.",
           "bitten_lat": "Concéde nobis diem istum iucúndum, pacíficum et sine mácula,^qut, ad vésperam perdúcti, cum gáudio et mundo corde te collaudáre valeámus.^pSit hódie splendor tuus super nos,^qet opus mánuum nostrárum dírige.^pOsténde fáciem tuam super nos ad bonum in pace,^qut hódie manu tua válida contegámur.^pRéspice propítius omnes, qui oratiónibus nostris confídunt,^qeos adímple bonis ánimæ et córporis univérsis.",
           "les_text_lat": "Si quis non vult operári, nec mandúcet. Audímus enim inter vos quosdam ambuláre inordináte, nihil operántes sed curióse agéntes; his autem, qui eiúsmodi sunt, præcípimus et obsecrámus in Dómino Iesu Christo, ut cum quiéte operántes suum panem mandúcent. Vos autem, fratres, nolíte defícere benefaciéntes.",
-          "oration_lat": "Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni et adiuvándo proséquere, ut cuncta nostra operátio a te semper incípiat, et per te cœpta finiátur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni et adiuvándo proséquere, ut cuncta nostra operátio a te semper incípiat, et per te cœpta finiátur.^ORlV"
         },
         "Terz": {
           "psalm1": 19.2,
@@ -10968,7 +10968,7 @@
           "bitten_r_lat": "Bénefac pópulo tuo, Dómine.",
           "bitten_lat": "Salvum fac pópulum tuum, Dómine,^qet bénedic hereditáti tuæ.^pCóngrega in unum christiáno nómine decorátos,^qut credat mundus in Christum, quem misísti.^pGrátiam tuam ómnibus amícis nostris confer et notis,^qbonúmque Christi odórem fac ut ipsi diffúndant.^pAmórem tuum agonizántibus manifésta,^qda ut salútem tuam eórum óculi vídeant.^pErga defúnctos misericórditer age,^qággrega eos quiescéntibus in Christo.",
           "les_text_lat": "Impleámini agnitióne voluntátis eius in omni sapiéntia et intelléctu spiritáli, ut ambulétis digne Dómino per ómnia placéntes, in omni ópere bono fructificántes et crescéntes in sciéntia Dei, in omni virtúte confortáti secúndum poténtiam claritátis eius in omnem patiéntiam et longanimitátem, cum gáudio.",
-          "oration_lat": "Magníficet te, Dómine, hæc nostræ servitútis proféssio, ut qui propter nostram salútem humilitátem Maríæ Vírginis respexísti, ad plenitúdinem redemptiónis nos fácias exaltári. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Magníficet te, Dómine, hæc nostræ servitútis proféssio, ut qui propter nostram salútem humilitátem Maríæ Vírginis respexísti, ad plenitúdinem redemptiónis nos fácias exaltári.^ORlV"
         }
       },
       "2": {
@@ -11023,7 +11023,7 @@
           "bitten_r_lat": "Dómine Deus noster et salvátor noster.",
           "bitten_lat": "O Rex omnípotens, qui, per baptísmum, regále nobis sacerdótium contulísti,^qfac ut laudis tibi semper sacrifícium offerámus.^pDa nobis mandáta tua serváre,^qut per Sanctum Spíritum in te maneámus et tu in nobis.^pSapiéntiam tuam da nobis ætérnam,^qut nobíscum sit hódie et nobíscum operétur.^pConcéde nobis hódie néminem umquam contristáre,^qomnes autem, qui nobíscum sunt, lætificáre.",
           "les_text_lat": "Hora est iam vos de somno súrgere. Nox procéssit, dies autem appropiávit. Abiciámus ergo ópera tenebrárum et induámur arma lucis. Sicut in die honéste ambulémus.",
-          "oration_lat": "Matutína súpplicum vota, Dómine, propítius intuére, et occúlta cordis nostri remédio tuæ clarífica pietátis, ut desidéria tenebrósa non téneant, quos lux cæléstis grátiæ reparávit. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Matutína súpplicum vota, Dómine, propítius intuére, et occúlta cordis nostri remédio tuæ clarífica pietátis, ut desidéria tenebrósa non téneant, quos lux cæléstis grátiæ reparávit.^ORlV"
         },
         "Terz": {
           "psalm1": 119.001,
@@ -11106,7 +11106,7 @@
           "bitten_r_lat": "Ad laudem tuam exáudi nos, Dómine.",
           "bitten_lat": "Dómine, rex et dominátor géntium, adésto pópulis et ómnibus potestátem habéntibus,^qut commúne bonum iuxta legem tuam concórditer persequántur.^pTu, qui captívam duxísti nostram captivitátem,^qrestítue ad filiórum libertátem fratres, qui córpore vel spíritu captivitátem patiúntur.^pSemper irreprehensíbiles iúvenes nostri tibi sátagant inveníri,^qet tibi vocánti magnanímiter obsecúndent.^pFac ut exémplum tuum púeri imiténtur,^qatque sapiéntia et grátia semper profíciant.^pDefúncti in regnum suscipiántur ætérnum,^qubi nos tecum conregnatúros sperámus.",
           "les_text_lat": "Vidéte qualem caritátem dedit nobis Pater, ut fílii Dei nominémur, et sumus! Caríssimi, nunc fílii Dei sumus, et nondum manifestátum est quid érimus; scimus quóniam, cum ipse apparúerit, símiles ei érimus, quóniam vidébimus eum, sícuti est.",
-          "oration_lat": "Grátias tibi ágimus, Dómine Deus omnípotens, qui nos ad hanc horam vespertínam perveníre tribuísti, te supplíciter deprecántes, ut elevátio mánuum nostrárum sit in conspéctu tuo acceptábile sacrifícium. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Grátias tibi ágimus, Dómine Deus omnípotens, qui nos ad hanc horam vespertínam perveníre tribuísti, te supplíciter deprecántes, ut elevátio mánuum nostrárum sit in conspéctu tuo acceptábile sacrifícium.^ORlV"
         }
       },
       "3": {
@@ -11162,7 +11162,7 @@
           "bitten_r_lat": "Sanctífica fratres tuos, Dómine.",
           "bitten_lat": "Fac ut huius diéi inítia in honórem resurrectiónis tuæ puris tibi córdibus consecrémus,^qet diem totum tibi gratum sanctificatiónis opéribus faciámus.^pQui diem, amóris tui signum, ad salútem et lætítiam nobis renovásti,^qrénova nos cotídie ad glóriam tuam.^pDoce nos hódie te in ómnibus præséntem agnóscere,^qteque in mæréntibus præsértim et paupéribus inveníre.^pDa nos hódie cum ómnibus pacem habére,^qnémini vero malum réddere pro malo.",
           "les_text_lat": "Atténde tibi, fili, in ómnibus opéribus tuis et esto sápiens in ómnibus sermónibus tuis et, quod óderis, némini féceris. De pane tuo commúnica esuriénti et de vestiméntis tuis nudis; ex ómnibus, quæcúmque tibi abundáverint, fac eleemósynam. Omni témpore bénedic Dóminum et póstula ab illo, ut dirigántur viæ tuæ et omnes sémitæ tuæ et consília bene disponántur.",
-          "oration_lat": "Exáudi nos, Deus, salutáris noster, et nos pérfice sectatóres lucis et operários veritátis, ut qui ex te nati sumus lucis fílii, tui testes coram homínibus esse valeámus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Exáudi nos, Deus, salutáris noster, et nos pérfice sectatóres lucis et operários veritátis, ut qui ex te nati sumus lucis fílii, tui testes coram homínibus esse valeámus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.009,
@@ -11245,7 +11245,7 @@
           "bitten_r_lat": "Caritátem tuam, Dómine, demónstra.",
           "bitten_lat": "Recordáre, Dómine, Ecclésiæ tuæ,^qut eam serves ab omni malo et in dilectióne tua perfícias.^pFac ut gentes agnóscant te solum esse Deum,^qet Iesum Christum Fílium tuum, quem misísti.^pPróspera cuncta nostris concéde propínquis,^qtríbue illis benedictiónem et vitam usque in sǽculum.^pAffer solácium ópere et labóre onerátis,^qdignitátem víndica despectórum.^pExútis hódie córpore misericórdiæ tuæ portæ patéscant,^qeos in regnum tuum placátus admítte.",
           "les_text_lat": "Estóte factóres verbi et non auditóres tantum falléntes vosmetípsos. Qui autem perspéxerit in lege perfécta libertátis et permánserit, non audítor obliviósus factus sed factor óperis, hic beátus in facto suo erit.",
-          "oration_lat": "Adésto, Dómine, précibus nostris, et die noctúque nos prótege, ut vícibus témporum tua gubernatióne subiécti, tua semper incommutabilitáte firmémur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Adésto, Dómine, précibus nostris, et die noctúque nos prótege, ut vícibus témporum tua gubernatióne subiécti, tua semper incommutabilitáte firmémur.^ORlV"
         }
       },
       "4": {
@@ -11301,7 +11301,7 @@
           "bitten_r_lat": "Bénedic et sanctífica nos, Dómine.",
           "bitten_lat": "Qui te pro peccátis nostris hóstiam obtulísti,^qincépta et propósita suscípias hodiérna.^pQui óculos nostros lucis dono lætíficas novæ,^qlúcifer oriáris in córdibus nostris.^pTríbue hódie nos esse ómnibus longánimes,^qut imitatóres tui fíeri possímus.^pAudítam, Dómine, fac nobis mane misericórdiam tuam.^qSit hódie gáudium tuum fortitúdo nostra.",
           "les_text_lat": "Hæc dicit Dóminus: Cælum thronus meus, terra autem scabéllum pedum meórum. Quæ ista domus, quam ædificábitis mihi, et quis iste locus quiétis meæ? Omnia hæc manus mea fecit et mea sunt univérsa ista, dicit Dóminus. Ad hunc autem respíciam, ad paupérculum et contrítum spíritu et treméntem sermónes meos.",
-          "oration_lat": "Omnípotens sempitérne Deus, véspere, mane et merídie maiestátem tuam supplíciter deprecámur, ut, expúlsis de córdibus nostris peccatórum ténebris, ad veram lucem, quæ Christus est, nos fácias perveníre. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Omnípotens sempitérne Deus, véspere, mane et merídie maiestátem tuam supplíciter deprecámur, ut, expúlsis de córdibus nostris peccatórum ténebris, ad veram lucem, quæ Christus est, nos fácias perveníre.^ORlR"
         },
         "Terz": {
           "psalm1": 119.017,
@@ -11384,7 +11384,7 @@
           "bitten_r_lat": "Réspice fílios tuos, Dómine.",
           "bitten_lat": "Dómine Deus noster, qui cum pópulo tuo fœdus ætérnum pepigísti,^qfac ut semper tua magnália recolámus.^pUnivérsum órdinem sacerdotálem in tua pérfice caritáte,^qet fidéles tuos in unitáte spíritus per vínculum pacis semper consérva.^pCivitátem terrénam fac ut semper tecum exstruámus,^qne forte in vanum labórent qui ædíficant eam.^pMitte operários in messem tuam,^qut magnificétur nomen tuum in géntibus.^pPropínquos et benefactóres defúnctos sanctis tuis accénse,^qet nos beátis aliquándo consócia.",
           "les_text_lat": "Exsultátis, módicum nunc si opórtet contristáti in váriis tentatiónibus, ut probátio vestræ fídei pretiósior auro, quod perit, per ignem quidem probáto, inveniátur in laudem et glóriam et honórem in revelatióne Iesu Christi. Quem cum non vidéritis dilígitis, in quem nunc non vidéntes, credéntes autem, exsultátis lætítia inenarrábili et glorificáta, reportántes finem fídei vestræ salútem animárum.",
-          "oration_lat": "Deus, qui illúminas noctem et lumen facis post ténebras radiáre, concéde nobis, ut hanc noctem sine impediménto Sátanæ transeámus, atque matutínis horis ante conspéctum tuum tibi grátias referámus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, qui illúminas noctem et lumen facis post ténebras radiáre, concéde nobis, ut hanc noctem sine impediménto Sátanæ transeámus, atque matutínis horis ante conspéctum tuum tibi grátias referámus.^ORlV"
         }
       },
       "5": {
@@ -11440,7 +11440,7 @@
           "bitten_r_lat": "Misericórdiam tuam nobis largíre, Dómine.",
           "bitten_lat": "Christe, sol et dies noster, illúmina nos rádiis tuis,^qet omnes sensus malos iam mane compésce.^pCustódi cogitatiónes, sermónes et ópera nostra,^qut hódie in conspéctu tuo placére possímus.^pAvérte fáciem tuam a peccátis nostris,^qet omnes iniquitátes nostras dele.^pPer crucem et resurrectiónem tuam,^qreple nos consolatióne Spíritus Sancti.",
           "les_text_lat": "Omnis sermo malus ex ore vestro non procédat, sed si quis bonus ad ædificatiónem opportunitátis, ut det grátiam audiéntibus. Et nolíte contristáre Spíritum Sanctum Dei, in quo signáti estis in diem redemptiónis. Omnis amaritúdo et ira et indignátio et clamor et blasphémia tollátur a vobis cum omni malítia. Estóte autem ínvicem benígni, misericórdes, donántes ínvicem, sicut et Deus in Christo donávit vobis.",
-          "oration_lat": "Deus, qui ténebras ignorántiæ Verbi tui luce depéllis, auge in córdibus nostris virtútem fídei quam dedísti, ut ignis, quem grátia tua fecit accéndi, nullis tentatiónibus exstinguátur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, qui ténebras ignorántiæ Verbi tui luce depéllis, auge in córdibus nostris virtútem fídei quam dedísti, ut ignis, quem grátia tua fecit accéndi, nullis tentatiónibus exstinguátur.^ORlV"
         },
         "Terz": {
           "psalm1": 119.025,
@@ -11522,7 +11522,7 @@
           "bitten_r_lat": "Osténde nobis, Dómine, misericórdiam tuam.",
           "bitten_lat": "Dómine, Pater noster clementíssime, te rogámus pro doléntibus membris Ecclésiæ tuæ,^qquorum caput, in ligno crucis suspénsum, sacrifícium vespertínum consummávit.^pSolve compedítos, illúmina cæcos,^qpupíllos et víduas súscipe.^pTuam fidéles omnes índue armatúram,^qut advérsus insídias diáboli consístere possint.^pNobis, Dómine, miséricors adésto in hora éxitus nostri,^qut fidéles inveniámur et in tua pace ex hoc mundo transeámus.^pEduc defúnctos in lucem, quam inhábitas,^qut te conspíciant in ætérnum.",
           "les_text_lat": "Debémus nos firmióres imbecillitátes infirmórum sustinére, et non nobis placére. Unusquísque nostrum próximo pláceat in bonum ad ædificatiónem; étenim Christus non sibi plácuit, sed sicut scriptum est: Impropéria improperántium tibi cecidérunt super me.",
-          "oration_lat": "Concéde nobis, fámulis tuis, quǽsumus, Dómine, ut exémplis Fílii tui passiónis instrúcti ad iugum eius suáve portándum simus semper idónei. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Concéde nobis, fámulis tuis, quǽsumus, Dómine, ut exémplis Fílii tui passiónis instrúcti ad iugum eius suáve portándum simus semper idónei.^ORlR"
         }
       },
       "6": {
@@ -11578,7 +11578,7 @@
           "bitten_r_lat": "Dilectiónis tuæ thesáuros nobis largíre, Dómine.",
           "bitten_lat": "Sol iustítiæ, tibi dies noster consecrétur,^qqui in baptísmate nos illustrásti.^pPer síngulas horas huius diéi benedicémus tibi,^qet laudábimus nomen tuum in ómnibus.^pQui Maríam matrem habuísti, verbo tuo dócilem,^qdírige hódie gressus nostros secúndum elóquium tuum.^pDa nos, in rebus corruptibílibus peregrinántes, cæléstem incorruptiónem exspectáre,^qut per fidem, spem et caritátem iam nunc beatitúdinis tuæ gáudia prægustémus.",
           "les_text_lat": "Fratres, magis satágite, ut firmam vestram vocatiónem et electiónem faciátis. Hæc enim faciéntes non offendétis aliquándo; sic enim abundánter ministrábitur vobis intróitus in ætérnum regnum Dómini nostri et salvatóris Iesu Christi.",
-          "oration_lat": "Corda nostra, quǽsumus, Dómine, resurrectiónis splendor illústret, quo mortis ténebris carére valeámus, et ad claritátem perveniámus ætérnam. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Corda nostra, quǽsumus, Dómine, resurrectiónis splendor illústret, quo mortis ténebris carére valeámus, et ad claritátem perveniámus ætérnam.^ORlV"
         },
         "Terz": {
           "psalm1": 119.033,
@@ -11850,7 +11850,7 @@
           "bitten_r_lat": "Serva nos in tuo ministério, Dómine.",
           "bitten_lat": "Christe, sacérdos ætérne, qui sanctum pópulo tuo sacerdótium concessísti,^qconcéde, ut spiritáles hóstias Deo acceptábiles iúgiter offerámus.^pSpíritus tui fructus nobis largíre propítius,^qpatiéntiam, benignitátem et mansuetúdinem.^pDa nobis te amáre, ut te, qui es cáritas, possideámus,^qet bene ágere, ut per vitam étiam nostram te laudémus.^pQuæ frátribus nostris sunt utília, nos quǽrere concéde,^qut salútem facílius consequántur.",
           "les_text_lat": "Invénti sunt sermónes tui, et comédi eos, et factum est mihi verbum tuum in gáudium et in lætítiam cordis mei, quóniam invocátum est nomen tuum super me, Dómine Deus exercítuum.",
-          "oration_lat": "Dómine Deus omnípotens, qui ad princípium huius diéi nos perveníre fecísti, tua nos hódie salva virtúte, ut in hac die ad nullum declinémus peccátum, sed semper ad tuam iustítiam faciéndam, nostra procédant elóquia, dirigántur cogitatiónes et ópera. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Dómine Deus omnípotens, qui ad princípium huius diéi nos perveníre fecísti, tua nos hódie salva virtúte, ut in hac die ad nullum declinémus peccátum, sed semper ad tuam iustítiam faciéndam, nostra procédant elóquia, dirigántur cogitatiónes et ópera.^ORlV"
         },
         "Terz": {
           "psalm1": 119.041,
@@ -11933,7 +11933,7 @@
           "bitten_r_lat": "Adímple vota pópuli tui, Dómine.",
           "bitten_lat": "Dómine Iesu, fac ut omnes hómines salvi fiant,^qet ad agnitiónem véniant veritátis.^pCustódi Papam nostrum ^NakkP et Epíscopum ^NakkB,^qadiutórium illis tuæ virtútis impénde.^pCónsule iis, qui iustum sibi opus exóptant,^qut vitam læti tránsigant et secúri.^pFias, Dómine, refúgium páuperi,^qsis ei adiútor in tribulatióne.^pTibi commendámus quos, dum víverent, sacro ministério decorásti;^qin cælésti sede te célebrent sine fine.",
           "les_text_lat": "Grátias ágimus Deo sine intermissióne, quóniam cum accepissétis a nobis verbum audítus Dei, accepístis non ut verbum hóminum sed, sicut est vere, verbum Dei, quod et operátur in vobis, qui créditis.",
-          "oration_lat": "Deus omnípotens, qui hódie servos tuos inútiles in labóribus roborásti, hoc laudis súscipe, quod tibi offérimus, sacrifícium vespertínum, de suscéptis a te munéribus grátias referéntes. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus omnípotens, qui hódie servos tuos inútiles in labóribus roborásti, hoc laudis súscipe, quod tibi offérimus, sacrifícium vespertínum, de suscéptis a te munéribus grátias referéntes.^ORlV"
         }
       },
       "2": {
@@ -11990,7 +11990,7 @@
           "bitten_r_lat": "Serva nos, Dómine, in sémita tua.",
           "bitten_lat": "Resurrectiónem tuam, Dómine Iesu, oratióne cólimus matutína,^qspes glóriæ tuæ diem nostrum illúminet.^pSúscipe, Dómine, vota et propósita nostra,^qtamquam diéi nostri primítias.^pTríbue in dilectióne tua nos hódie profícere,^qut ómnia in nostrum omniúmque bonum cooperéntur.^pDa, Dómine, sic lucére lucem nostram coram homínibus,^qut vídeant ópera nostra bona et Patrem gloríficent.",
           "les_text_lat": "Vos, fratres, non estis in ténebris, ut vos dies ille tamquam fur comprehéndat; omnes enim vos fílii lucis estis et fílii diéi. Non sumus noctis neque tenebrárum.",
-          "oration_lat": "Dómine Iesu Christe, lux vera, qui omnes hómines illúminas ad salútem, nobis, quǽsumus, concéde virtútem, ut ante te vias pacis et iustítiæ præparémus. Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Dómine Iesu Christe, lux vera, qui omnes hómines illúminas ad salútem, nobis, quǽsumus, concéde virtútem, ut ante te vias pacis et iustítiæ præparémus.^ORlS"
         },
         "Terz": {
           "psalm1": 119.049,
@@ -12071,7 +12071,7 @@
           "bitten_r_lat": "Prótege pópulum tuum, Dómine.",
           "bitten_lat": "Prótege, Pastor ætérne, antístitem nostrum ^NakkB^qet cunctos Ecclésiæ tuæ pastóres.^pRéspice propítius eos, qui persecutiónem patiúntur,^qeósque festína ab ómnibus tribulatiónibus liberáre.^pMiserére, Dómine, ómnium egenórum,^qesuriéntibus escam largíre.^pIllúmina cœtus légibus feréndis deputátos,^qut in ómnibus sapiénti æquitáte decérnant.^pSuccúrre defúnctis, quos tuo sánguine redemísti,^qtecum ad núptias intráre mereántur.",
           "les_text_lat": "Omnes peccavérunt et egent glória Dei, iustificáti gratis per grátiam ipsíus per redemptiónem, quæ est in Christo Iesu; quem propósuit Deus propitiatórium per fidem in sánguine ipsíus ad ostensiónem iustítiæ suæ.",
-          "oration_lat": "Dómine Deus, cuius est dies et cuius est nox, concéde solem iustítiæ in nostris córdibus permanére, ut ad lucem, quam inhábitas, perveníre possímus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Dómine Deus, cuius est dies et cuius est nox, concéde solem iustítiæ in nostris córdibus permanére, ut ad lucem, quam inhábitas, perveníre possímus.^ORlV"
         }
       },
       "3": {
@@ -12128,7 +12128,7 @@
           "bitten_r_lat": "Mane nobíscum, Dómine.",
           "bitten_lat": "Mane nobíscum, Dómine, toto die,^qnumquam declínet a nobis sol grátiæ tuæ.^pHunc diem tibi tamquam oblatiónem consecrámus,^qdum nos nihil pravi factúros aut probatúros pollicémur.^pFac, Dómine, ut donum lucis hic totus dies evádat,^qut simus sal terræ et lux mundi.^pSpíritus Sancti tui cáritas dírigat corda et lábia nostra,^qut in tua iustítia semper et laude maneámus.",
           "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persécutio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos.",
-          "oration_lat": "Emítte, quǽsumus, Dómine, in corda nostra tui lúminis claritátem, ut in via mandatórum tuórum iúgiter ambulántes, nihil umquam patiámur erróris. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Emítte, quǽsumus, Dómine, in corda nostra tui lúminis claritátem, ut in via mandatórum tuórum iúgiter ambulántes, nihil umquam patiámur erróris.^ORlV"
         },
         "Terz": {
           "psalm1": 119.057,
@@ -12210,7 +12210,7 @@
           "bitten_r_lat": "Grátiam et pacem multíplica, Dómine.",
           "bitten_lat": "Ætérne Deus, cui mille anni sunt tamquam dies hestérna, quæ prætériit,^qesse vitam quasi florem mane germinántem, véspere autem arescéntem nos memoráre concéde.^pManna tuum pópulo largíre, ne esúriat,^qet aquam vivam, ne sítiat in ætérnum.^pFac ut fidéles tui quæ sursum sunt quærant et sápiant,^qétiam témpora óperis et ótii in tuam glóriam vertant.^pAerem nobis, Dómine, largíre propítium,^quo uberióres percipiámus fructus terræ.^pVisiónem vultus tui largíre defúnctis,^qet eius contemplatióne nos redde beátos.",
           "les_text_lat": "Omnes ínvicem humilitátem indúite, quia Deus supérbis resístit, humílibus autem dat grátiam. Humiliámini ígitur sub poténti manu Dei, ut vos exáltet in témpore, omnem sollicitúdinem vestram proiciéntes in eum, quóniam ipsi cura est de vobis.",
-          "oration_lat": "Deus, cuius sanctum est nomen et misericórdia a progénie in progénies celebrátur, pópulum tuum súscipe supplicántem, eíque tríbue perpétuo te magnificáre præcónio. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, cuius sanctum est nomen et misericórdia a progénie in progénies celebrátur, pópulum tuum súscipe supplicántem, eíque tríbue perpétuo te magnificáre præcónio.^ORlV"
         }
       },
       "4": {
@@ -12267,7 +12267,7 @@
           "bitten_r_lat": "Illúmina óculos nostros, Dómine.",
           "bitten_lat": "Grátias tibi, Dómine, quia per Fílium tuum nos illuminásti,^qeius luce per longitúdinem diéi nos satiári concéde.^pSapiéntia tua, Dómine, dedúcat nos hódie,^qut in novitáte vitæ ambulémus.^pPræsta nobis advérsa pro te fórtiter sustinére,^qut corde magno tibi iúgiter serviámus.^pDírige in nobis hódie cogitatiónes, sensus et ópera,^qut tibi providénti dóciles obsequámur.",
           "les_text_lat": "Non est regnum Dei esca et potus, sed iustítia et pax et gáudium in Spíritu Sancto; qui enim in hoc servit Christo, placet Deo et probátus est homínibus. Itaque, quæ pacis sunt, sectémur et quæ ædificatiónis sunt in ínvicem.",
-          "oration_lat": "Te lucem veram et lucis auctórem, Dómine, deprecámur, ut, quæ sancta sunt, fidéliter meditántes, in tua iúgiter claritáte vivámus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Te lucem veram et lucis auctórem, Dómine, deprecámur, ut, quæ sancta sunt, fidéliter meditántes, in tua iúgiter claritáte vivámus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.065,
@@ -12350,7 +12350,7 @@
           "bitten_r_lat": "Bénedic pópulum tuum, Dómine.",
           "bitten_lat": "Miséricors Deus, consérva Papam nostrum ^NakkP et Epíscopum nostrum ^NakkB,^qincólumes custódi eos Ecclésiæ tuæ.^pRegiónem nostram, Dómine, tuére benígnus,^qa malis nos líbera univérsis.^pVoca fílios in circúitum mensæ tuæ,^qqui préssius te vírginem, páuperem et obœdiéntem sequántur.^pAncíllas tuas custódi, propósitum virginitátis proféssas,^qut te, Agnum divínum, quocúmque íeris, sequántur.^pDefúncti in tua pace requiéscant ætérna,^qet eórum nobíscum coniúnctio, spiritálium bonórum communicatióne, roborétur.",
           "les_text_lat": "Animas vestras castificántes in obœdiéntia veritátis ad fraternitátis amórem non fictum, ex corde ínvicem dilígite atténtius, renáti non ex sémine corruptíbili sed incorruptíbili per verbum Dei vivum et pérmanens.",
-          "oration_lat": "Vespertínæ laudis offícia persolvéntes, cleméntiam tuam, Dómine, deprecámur, ut a meditatióne legis tuæ cor nostrum recédere non permíttas, et nobis lumen ætérnæ vitæ dones et prǽmium. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Vespertínæ laudis offícia persolvéntes, cleméntiam tuam, Dómine, deprecámur, ut a meditatióne legis tuæ cor nostrum recédere non permíttas, et nobis lumen ætérnæ vitæ dones et prǽmium.^ORlV"
         }
       },
       "5": {
@@ -12407,7 +12407,7 @@
           "bitten_r_lat": "In tua voluntáte pax nostra, Dómine.",
           "bitten_lat": "Diéi exórdium a tua benignitáte suscépimus,^qnobis páriter vitæ novæ concéde inítium.^pQui ómnia creásti providúsque consérvas,^qfac ut inspiciámus perénne tui vestígium in creátis.^pQui sánguine tuo novum et ætérnum testaméntum sanxísti,^qda ut, quæ prǽcipis faciéntes, tuo fidéles fœ́deri maneámus.^pQui, in cruce pendens, una cum sánguine aquam de látere effudísti,^qhoc salutári flúmine áblue peccáta nostra et civitátem Dei lætífica.",
           "les_text_lat": "Nunc in Christo Iesu vos, qui aliquándo erátis longe, facti estis prope in sánguine Christi. Ipse est enim pax nostra, qui fecit utráque unum et médium paríetem macériæ solvit, inimicítiam, in carne sua, legem mandatórum in decrétis evácuans, ut duos condat in semetípso in unum novum hóminem, fáciens pacem, et reconcíliet ambos in uno córpore Deo per crucem interfíciens inimicítiam in semetípso.",
-          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut laudes quas nunc tibi persólvimus, in ætérnum cum sanctis tuis ubérius decantáre valeámus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut laudes quas nunc tibi persólvimus, in ætérnum cum sanctis tuis ubérius decantáre valeámus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.073,
@@ -12489,7 +12489,7 @@
           "bitten_r_lat": "Miserére pópuli tui, Dómine.",
           "bitten_lat": "Christe Dómine, qui húmiles consoláris,^qpone lácrimas páuperum in conspéctu tuo.^pAudi, miséricors Deus, gémitus moriéntium,^qvísitet eos ángelus tuus atque confórtet.^pCognóscant éxsules cuncti providéntiam tuam,^qterréstri reddántur pátriæ et in cæléstem tandem intróeant.^pQui mísere in peccáto versántur, tuo cedant amóri,^qet tibi ac tuæ reconciliéntur Ecclésiæ.^pDefúnctos fratres salva propítius,^qut plenam sortiántur redemptiónem tuam.",
           "les_text_lat": "Lóquimur Dei sapiéntiam in mystério, quæ abscóndita est, quam prædestinávit Deus ante sǽcula in glóriam nostram, quam nemo príncipum huius sǽculi cognóvit; si enim cognovíssent, numquam Dóminum glóriæ crucifixíssent. Sed sicut scriptum est: Quod óculus non vidit, nec auris audívit, nec in cor hóminis ascéndit, quæ præparávit Deus his, qui díligunt illum. Nobis autem revelávit Deus per Spíritum.",
-          "oration_lat": "Deus, cuius ineffábilis sapiéntia in scándalo crucis mirabíliter declarátur, concéde nobis ita passiónis Fílii tui glóriam contuéri, ut in cruce ipsíus numquam cessémus fiduciáliter gloriári. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, cuius ineffábilis sapiéntia in scándalo crucis mirabíliter declarátur, concéde nobis ita passiónis Fílii tui glóriam contuéri, ut in cruce ipsíus numquam cessémus fiduciáliter gloriári.^ORlR"
         }
       },
       "6": {
@@ -12545,7 +12545,7 @@
           "bitten_r_lat": "Pérfice nos in caritáte, Dómine.",
           "bitten_lat": "Resurrectiónem tuam iam mane recólimus,^qet benefícia redemptiónis tuæ cunctis optámus.^pPræsta, Dómine, ut hódie testimónium de te perhibeámus,^qet hóstiam sanctam offerámus per te Patri placéntem.^pFac ut in ómnibus tuam agnoscámus imáginem,^qet tibi in eis ministrémus.^pChriste, vitis vera, cuius nos pálmites sumus,^qda nos in te manére, ut fructum multum afferámus et Deum Patrem glorificémus.",
           "les_text_lat": "Benedícite persequéntibus; benedícite et nolíte maledícere! Gaudére cum gaudéntibus, flere cum fléntibus. Idípsum ínvicem sentiéntes, non alta sapiéntes, sed humílibus consentiéntes.",
-          "oration_lat": "Laudent te, Dómine, ora nostra, laudet ánima, laudet et vita, et quia tui múneris est quod sumus, tuum sit omne quod vívimus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Laudent te, Dómine, ora nostra, laudet ánima, laudet et vita, et quia tui múneris est quod sumus, tuum sit omne quod vívimus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.081,
@@ -12820,7 +12820,7 @@
           "bitten_r_lat": "Fac nos te glorificáre, Dómine.",
           "bitten_lat": "Creátor universórum Deus, benedícimus tibi,^qqui nobis mundi bona dedísti vitámque nostram hucúsque servásti.^pRéspice nos, qui labórem cotidiánum suscípimus,^qet óperis tui partícipes nos tua voluntáti confórma.^pOpus nostrum hodiérnum sic redde nostris frátribus fructuósum,^qut cum eis et pro eis terrénam civitátem, quæ tibi pláceat ædificémus.^pNobis et ómnibus, quibus hódie occurrémus, adésto,^qgáudium largíre et pacem.",
           "les_text_lat": "Sic loquímini et sic fácite sicut per legem libertátis iudicándi. Iudícium enim sine misericórdia illi, qui non fecit misericórdiam; superexúltat misericórdia iudício.",
-          "oration_lat": "Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus, Rex cæli et terræ, hódie corda et córpora nostra, sensus, sermónes et actus nostros in lege tua et in opéribus mandatórum tuórum, ut hic et in ætérnum, te auxiliánte, salvi et líberi esse mereámur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus, Rex cæli et terræ, hódie corda et córpora nostra, sensus, sermónes et actus nostros in lege tua et in opéribus mandatórum tuórum, ut hic et in ætérnum, te auxiliánte, salvi et líberi esse mereámur.^ORlV"
         },
         "Terz": {
           "psalm1": 119.089,
@@ -12904,7 +12904,7 @@
           "bitten_r_lat": "Trahe ómnia ad te, Dómine.",
           "bitten_lat": "Benedíctus es, Dómine, qui redemísti nos per pretiósum sánguinem tuum a servitúte peccáti;^qlibertátem glóriæ nobis tríbue filiórum.^pGrátiam tuam concéde antístiti nostro ^NdatB et ómnibus Ecclésiæ epíscopis,^qut mystéria tua læto spíritus fervóre minístrent.^pDa ómnibus, qui veritátem investígant, ut eam quæréndo invéniant,^qet inveniéndo semper requírant.^pAdésto, Dómine, órphanis, víduis et ómnibus derelíctis,^qut propínquum te séntiant tibíque magis adhǽreant.^pDefúnctos fratres in cæléstem civitátem benígnus accípias,^qin qua cum Patre et Spíritu Sancto eris ómnia in ómnibus.",
           "les_text_lat": "Nolíte detráhere altérutrum, fratres; qui détrahit fratri aut qui iúdicat fratrem suum, détrahit legi et iúdicat legem; si autem iúdicas legem, non es factor legis sed iudex. Unus est legislátor et iudex, qui potest salváre et pérdere; tu autem quis es, qui iúdicas próximum?",
-          "oration_lat": "Deus, qui lumen indefíciens mérito prædicáris, nobis, ad hanc horam addúctis, et ténebras, quǽsumus, illumináre, et delícta dignáre propitiátus ignóscere. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, qui lumen indefíciens mérito prædicáris, nobis, ad hanc horam addúctis, et ténebras, quǽsumus, illumináre, et delícta dignáre propitiátus ignóscere.^ORlV"
         }
       },
       "2": {
@@ -12961,7 +12961,7 @@
           "bitten_r_lat": "Meménto pópuli tui, Dómine.",
           "bitten_lat": "Rex et Redémptor noster, audi Ecclésiam tuam, huius diéi inítio te laudántem,^qdoce eam sine intermissióne glorificáre maiestátem tuam.^pSpes et fírmitas nostra, in te confídimus,^qneque umquam confundémur.^pInfirmitátem nostram réspice et in adiutórium nostrum festína,^qquia sine te nihil póssumus fácere.^pPáuperum et derelictórum meménto, ne dies novus sit eis pondus,^qsed solámen et gáudium.",
           "les_text_lat": "Nos vídimus et testificámur quóniam Pater misit Fílium salvatórem mundi. Quisque conféssus fúerit: Iesus est Fílius Dei, Deus in ipso manet, et ipse in Deo.",
-          "oration_lat": "Deus omnípotens, cuius est bona rerum et speciósa creátio, da nobis hunc diem in nómine tuo lætánter incípere, et in operósa tui fratrúmque dilectióne complére. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus omnípotens, cuius est bona rerum et speciósa creátio, da nobis hunc diem in nómine tuo lætánter incípere, et in operósa tui fratrúmque dilectióne complére.^ORlV"
         },
         "Terz": {
           "psalm1": 119.097,
@@ -13043,7 +13043,7 @@
           "bitten_r_lat": "Tu es spes pópuli tui, Dómine.",
           "bitten_lat": "Grátias ágimus tibi, Dómine, quod per ómnia dívites in Christo facti sumus,^qin omni verbo et in omni sciéntia.^pDeus, in cuius manu sunt corda poténtium, rei públicæ moderatóribus régimen sapiéntia tua concéde,^qut haustis de tuo fonte consíliis, tibi corde et ópere pláceant.^pTu, qui artes coléntibus præstas ut splendórem tuum suo ingénio maniféstent,^qmundum per eórum ópera cum spe gaudióque illústra.^pQui non páteris nos tentári supra id quod póssumus,^qdébiles róbora, érige lapsos.^pQui per Fílium tuum promisísti hómines ad vitam in die novíssimo surrectúros,^qcórpore iam exútos ne obliviscáris in perpétuum.",
           "les_text_lat": "Diléctio sine simulatióne. Odiéntes malum, adhæréntes bono; caritáte fraternitátis ínvicem diligéntes, honóre ínvicem præveniéntes, sollicitúdine non pigri, spíritu fervéntes, Dómino serviéntes, spe gaudéntes, in tribulatióne patiéntes, oratióni instántes.",
-          "oration_lat": "Ascéndat ad cleméntiam tuam nostra, Dómine, orátio vespertína, et descéndat super nos benedíctio tua, ut hic et in ætérnum, te auxiliánte, salvi esse mereámur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Ascéndat ad cleméntiam tuam nostra, Dómine, orátio vespertína, et descéndat super nos benedíctio tua, ut hic et in ætérnum, te auxiliánte, salvi esse mereámur.^ORlV"
         }
       },
       "3": {
@@ -13099,7 +13099,7 @@
           "bitten_r_lat": "Réspice Ecclésiam tuam, Dómine.",
           "bitten_lat": "Pastor Ecclésiæ tuæ, benedíctus es, qui nobis hódie tríbuis lucem et vitam,^qnos gratos redde pro múnere tam iucúndo.^pGregem tuum misericórditer réspice, quem in tuo nómine congregásti,^qne quis péreat eórum, quos Pater dedit tibi.^pEcclésiam tuam duc in via mandatórum tuórum,^qfidélem tibi Spíritus Sanctus eam effíciat.^pEcclésiam ad mensam verbi tui panísque vivífica,^qut in fortitúdine huius cibi te læta sequátur.",
           "les_text_lat": "Nudus egréssus sum de útero matris meæ et nudus revértar illuc. Dóminus dedit, Dóminus ábstulit; sicut Dómino plácuit, ita factum est: sit nomen Dómini benedíctum. Si bona suscépimus de manu Dei, mala quare non suscipiámus?",
-          "oration_lat": "Sénsibus nostris, quǽsumus, Dómine, lumen sanctum tuum benígnus infúnde, ut tibi semper simus conversatióne devóti, cuius sapiéntia creáti sumus et providéntia gubernámur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Sénsibus nostris, quǽsumus, Dómine, lumen sanctum tuum benígnus infúnde, ut tibi semper simus conversatióne devóti, cuius sapiéntia creáti sumus et providéntia gubernámur.^ORlV"
         },
         "Terz": {
           "psalm1": 119.105,
@@ -13181,7 +13181,7 @@
           "bitten_r_lat": "Sit laus tua in pópulo tuo, Dómine.",
           "bitten_lat": "Grátias ágimus tibi, qui elegísti nos primítias in salútem,^qet vocásti nos in acquisitiónem glóriæ Dómini nostri Iesu Christi.^pFiant omnes, qui sanctum nomen tuum confiténtur, in verbi tui veritáte concórdes,^qet tua semper caritáte fervéntes.^pCreátor universórum, cuius Fílius inter hómines et cum homínibus mánibus suis vóluit operári,^qoperariórum meménto, qui in sudóre vultus sui victum quærunt.^pMeménto étiam eórum, qui fratérno se dévovent servítio,^qne infelíci éxitu vel aliórum neglegéntia a suo propósito removeántur.^pMisericórdiam tuam frátribus nostris concéde defúnctis,^qneque in potestátem malígni spíritus tradas eos.",
           "les_text_lat": "Deo, qui potens est supra ómnia fácere superabundánter quam pétimus aut intellégimus, secúndum virtútem, quæ operátur in nobis, ipsi glória in ecclésia et in Christo Iesu in omnes generatiónes sǽculi sæculórum. Amen.",
-          "oration_lat": "Vox clamántis Ecclésiæ ad aures, Dómine, quǽsumus, tuæ pietátis ascéndat, ut percépta vénia peccatórum, plebs tua te fiat operánte devóta, te protegénte secúra. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Vox clamántis Ecclésiæ ad aures, Dómine, quǽsumus, tuæ pietátis ascéndat, ut percépta vénia peccatórum, plebs tua te fiat operánte devóta, te protegénte secúra.^ORlV"
         }
       },
       "4": {
@@ -13237,7 +13237,7 @@
           "bitten_r_lat": "Glória tibi, Dómine, in sǽcula.",
           "bitten_lat": "Pater clementíssime, de tuo nos te laudámus amóre,^qquia nos mirabíliter condidísti et mirabílius reformásti.^pIn huius diéi princípio serviéndi tibi stúdium córdibus nostris infúnde,^qut cogitatiónes et actiónes nostræ te semper gloríficent.^pAb omni desidério malo corda nostra purífica,^qut tuæ voluntáti simus semper inténti.^pFratrum omniúmque necessitátibus corda résera nostra,^qne fratérna nostra dilectióne privéntur.",
           "les_text_lat": "Unusquísque, sicut accépit donatiónem, in altérutrum illam administrántes sicut boni dispensatóres multifórmis grátiæ Dei. Si quis lóquitur, quasi sermónes Dei; si quis minístrat, tamquam ex virtúte, quam largítur Deus, ut in ómnibus glorificétur Deus per Iesum Christum.",
-          "oration_lat": "Omnípotens ætérne Deus, pópulos, qui in umbra mortis sedent, lúmine tuæ claritátis illústra, qua visitávit nos Oriens ex alto, Iesus Christus Dóminus noster. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Omnípotens ætérne Deus, pópulos, qui in umbra mortis sedent, lúmine tuæ claritátis illústra, qua visitávit nos Oriens ex alto, Iesus Christus Dóminus noster.^ORlR"
         },
         "Terz": {
           "psalm1": 119.113,
@@ -13321,7 +13321,7 @@
           "bitten_r_lat": "Deus, refúgium nostrum, exáudi nos.",
           "bitten_lat": "Benedíctus es, Dómine, qui nos ad tuam sanctam Ecclésiam vocáre dignátus es:^qin ea iúgiter nos consérva.^pTu, qui sollicitúdinem ómnium ecclesiárum Papæ nostro ^NdatP tradidísti,^qfidem indeficiéntem, spem vivam, atténtam illi tríbue caritátem.^pDa peccatóribus conversiónem lapsísque virtútem:^qómnibus pæniténtiam et salútem concéde.^pTu, qui in regióne aliéna habitáre voluísti,^qmeménto illórum, qui procul a família et pátria degunt.^pOmnibus defúnctis, qui in te speravérunt,^qpacem tríbue sempitérnam.",
           "les_text_lat": "Omnes unánimes, compatiéntes, fraternitátis amatóres, misericórdes, húmiles, non reddéntes malum pro malo vel maledíctum pro maledícto, sed e contrário benedicéntes, quia in hoc vocáti estis, ut benedictiónem hereditáte accipiátis.",
-          "oration_lat": "Grátias tibi, Dómine, transácto diéi cursu deférimus, tuámque misericórdiam súpplices implorámus, ut, quæ per fragilitátem carnis contráximus, benígnus ignóscas. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Grátias tibi, Dómine, transácto diéi cursu deférimus, tuámque misericórdiam súpplices implorámus, ut, quæ per fragilitátem carnis contráximus, benígnus ignóscas.^ORlV"
         }
       },
       "5": {
@@ -13377,7 +13377,7 @@
           "bitten_r_lat": "Salva, Dómine, quos tuo sánguine redemísti.",
           "bitten_lat": "Benedíctus es, Iesu hóminum salvátor, qui passiónem et crucem pro nobis subíre non dubitásti,^qet sánguine tuo pretióso nos redemísti.^pQui promisísti te aquam esse datúrum saliéntem in vitam ætérnam,^qSpíritum tuum effúnde super omnes hómines.^pQui discípulos misísti ad Evangélium géntibus prædicándum,^qeos ádiuva, ut victóriam tuæ crucis exténdant.^pInfírmis et míseris quos cruci tuæ sociásti,^qvirtútem et patiéntiam concéde.",
           "les_text_lat": "Libentíssime gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi. Propter quod pláceo mihi in infirmitátibus, in contuméliis, in necessitátibus, in persecutiónibus et in angústiis, pro Christo: cum enim infírmor, tunc potens sum.",
-          "oration_lat": "Illábere sénsibus nostris, omnípotens Pater, ut in præceptórum tuórum lúmine gradiéntes, te ducem semper sequámur et príncipem. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Illábere sénsibus nostris, omnípotens Pater, ut in præceptórum tuórum lúmine gradiéntes, te ducem semper sequámur et príncipem.^ORlV"
         },
         "Terz": {
           "psalm1": 22.1,
@@ -13461,7 +13461,7 @@
           "bitten_r_lat": "Miserére pópuli tui, Dómine.",
           "bitten_lat": "Exáudi, quǽsumus, Dómine, súpplicum preces et confiténtium tibi parce peccátis,^qut páriter nobis indulgéntiam tríbuas benígnus et pacem.^pQui per Apóstolum dixísti: «Ubi abundávit peccátum, superabundávit grátia»,^qmulta débita nostra lárgiter dimítte.^pMultum quidem peccávimus, Dómine, sed tuam confitémur misericórdiam infinítam:^qconvérte nos et convertémur.^pSalvum fac pópulum tuum, Dómine, a peccátis eius,^qet beneplácitum tibi sit in ipso.^pQui latróni, te salvatórem confiténti, paradísum aperuísti,^qnoli defúnctis nostris cæli cláudere portas.",
           "les_text_lat": "Omne gáudium existimáte, fratres mei, cum in tentatiónibus váriis incidéritis, sciéntes quod probátio fídei vestræ patiéntiam operátur; patiéntia autem opus perféctum hábeat, ut sitis perfécti et íntegri, in nullo deficiéntes.",
-          "oration_lat": "Dómine, sancte Pater, qui Christum Fílium tuum nostræ salútis prétium fíeri voluísti, da nobis ita vívere, ut, per societátem passiónum ipsíus, virtútem resurrectiónis cónsequi valeámus. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Dómine, sancte Pater, qui Christum Fílium tuum nostræ salútis prétium fíeri voluísti, da nobis ita vívere, ut, per societátem passiónum ipsíus, virtútem resurrectiónis cónsequi valeámus.^ORlR"
         }
       },
       "6": {
@@ -13518,7 +13518,7 @@
           "bitten_r_lat": "Réspice Matrem Fílii tui et exáudi nos.",
           "bitten_lat": "Pater misericordiárum, grátias tibi reférimus quod nobis Maríam matrem et exémplum dedísti,^qper eius intercessiónem corda nostra sanctífica.^pQui Maríam tuo inténtam reddidísti verbo et ancíllam tuam fidélem effecísti,^qper eius intercessiónem fructus Sancti Spíritus nobis concéde.^pQui Maríam iuxta crucem stantem roborásti et in resurrectióne Fílii tui replésti lætítia,^qper eius intercessiónem tribulatiónes súbleva nostras spemque nostram confírma.",
           "les_text_lat": "Omnia fácite sine murmuratiónibus et hæsitatiónibus, ut efficiámini sine queréla et símplices, fílii Dei sine reprehensióne in médio generatiónis pravæ et pervérsæ, inter quos lucétis sicut luminária in mundo.",
-          "oration_lat": "Deus, nostræ fons et orígo salútis, ita nos fac semper vita nostra tuam glóriam profitéri, ut et in cælis a tua numquam laude cessémus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, nostræ fons et orígo salútis, ita nos fac semper vita nostra tuam glóriam profitéri, ut et in cælis a tua numquam laude cessémus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.121,
@@ -13789,7 +13789,7 @@
           "bitten_r_lat": "Te laudámus, in te sperámus, Dómine.",
           "bitten_lat": "Grátias ágimus tibi, qui dives es in misericórdia,^qpropter nímiam caritátem, qua dilexísti nos.^pQui omni témpore in mundo cum Patre operáris,^qnova fac ómnia per Spíritus Sancti virtútem.^pAperi óculos nostros et fratrum nostrórum,^qut videámus hódie mirabília tua.^pQui nos hódie ad tuum servítium vocas,^qnos erga fratres multifórmis grátiæ tuæ fac minístros.",
           "les_text_lat": "Grátias agámus Dómino Deo nostro, qui temptat nos sicut et patres nostros. Mémores estóte quanta fécerit cum Abraham et Isaac, et quanta facta sint Iacob. Quia non sicut illos combússit in inquisitiónem cordis illórum et in nos non ultus est, sed in monitiónem flagéllat Dóminus appropinquántes sibi.",
-          "oration_lat": "Deus, qui custodiéndam colendámque terram homínibus commisísti, ac solem fecísti eórum úsui deservíre, concéde nos hódie in tuam glóriam et proximórum bonum, te donánte, fidéliter operári. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Deus, qui custodiéndam colendámque terram homínibus commisísti, ac solem fecísti eórum úsui deservíre, concéde nos hódie in tuam glóriam et proximórum bonum, te donánte, fidéliter operári.^ORlV"
         },
         "Terz": {
           "psalm1": 119.129,
@@ -13872,7 +13872,7 @@
           "bitten_r_lat": "Deus noster, exáudi nos.",
           "bitten_lat": "Illuminátor noster, Christe Dómine, Ecclésiam tuam illústra lúmine tuo,^qut géntibus prǽdicet te, magnum pietátis sacraméntum, manifestátum in carne.^pSacerdótes et minístros Ecclésiæ tuæ serva,^qut, cum áliis prædicáverint, ipsi fidéles in tuo servítio inveniántur.^pQui pacem mundo præstitísti per sánguinem tuum,^qdiscórdiæ peccátum et belli flagéllum avérte.^pGrátiæ tuæ cópia coniugátis auxiliáre,^qquo perféctius signíficent Ecclésiæ tuæ mystérium.^pOmnibus concéde defúnctis véniam peccatórum,^qut per misericórdiam tuam inter sanctos respírent.",
           "les_text_lat": "Vos Dóminus abundáre et superabundáre fáciat caritáte in ínvicem et in omnes, quemádmodum et nos in vos, ad confirmánda corda vestra sine queréla in sanctitáte ante Deum et Patrem nostrum, in advéntu Dómini nostri Iesu cum ómnibus sanctis eius.",
-          "oration_lat": "Mane nobíscum, Dómine Iesu, quóniam advesperáscit, et nos cómitans in via, réfove corda, spem éxcita miserátus, ut te in Scriptúris et in fractióne panis cum nostris frátribus agnoscámus. Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Mane nobíscum, Dómine Iesu, quóniam advesperáscit, et nos cómitans in via, réfove corda, spem éxcita miserátus, ut te in Scriptúris et in fractióne panis cum nostris frátribus agnoscámus.^ORlS"
         }
       },
       "2": {
@@ -13929,7 +13929,7 @@
           "bitten_r_lat": "Ad glóriam nóminis tui, audi nos, Dómine.",
           "bitten_lat": "Grátias ágimus tibi, Deus et Pater Salvatóris nostri Iesu,^qpro cognitióne et immortalitáte, quas dedísti nobis per ipsum.^pConcéde humilitátem córdibus nostris,^qut subiécti simus ínvicem in timóre Christi.^pSpíritum tuum nobis fámulis tuis infúnde,^qut diléctio nostra fratérna sine simulatióne fiat.^pQui hómini labórem præcepísti in mundi dominatiónem,^qconcéde, ut labor noster te célebret fratrésque nostros sanctíficet.",
           "les_text_lat": "Omnes sitiéntes, veníte ad aquas; et, qui non habétis argéntum, properáte, émite et comédite, veníte, émite absque argénto et absque ulla commutatióne vinum et lac.",
-          "oration_lat": "Auge in nobis, quǽsumus, Dómine, fidem tuam, ut in ore nostro perfécta laus tua cæléstes iúgiter áfferat fructus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Auge in nobis, quǽsumus, Dómine, fidem tuam, ut in ore nostro perfécta laus tua cæléstes iúgiter áfferat fructus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.137,
@@ -14012,7 +14012,7 @@
           "bitten_r_lat": "Exáudi nos, Dómine, et te semper laudábimus.",
           "bitten_lat": "Christe, fortitúdo nostra, fidélibus tuis, quos ad tuam veritátem vocásti,^qfidem et constántiam tríbue miserátus.^pDírige secúndum cor tuum, Dómine, omnes, qui nos in potestáte regunt,^qeórum mentes dispóne, ut in pace nos ducant.^pQui turbas pánibus satiásti,^qdoce nos ópibus nostris esuriéntibus subveníre.^pFac ut regéntes non ad solam suam natiónem ánimos inténdant,^qsed cunctos revereántur ac de ómnibus sint sollíciti.^pFrátribus, qui dormiérunt, resurrectiónem vitámque beátam concéde,^qdum véneris glorificári in ómnibus, qui credidérunt.",
           "les_text_lat": "Verbum Christi hábitet in vobis abundánter, in omni sapiéntia docéntes et commonéntes vosmetípsos psalmis, hymnis, cánticis spiritálibus, in grátia cantántes in córdibus vestris Deo.",
-          "oration_lat": "Orántes in conspéctu tuo, Dómine, tuam cleméntiam implorámus, ut ea semper meditémur in córdibus, quæ tibi labiórum vócibus profitémur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Orántes in conspéctu tuo, Dómine, tuam cleméntiam implorámus, ut ea semper meditémur in córdibus, quæ tibi labiórum vócibus profitémur.^ORlV"
         }
       },
       "3": {
@@ -14069,7 +14069,7 @@
           "bitten_r_lat": "Exáudi nos, Rex ætérnæ glóriæ.",
           "bitten_lat": "Benedíctus es, auctor fídei nostræ et consummátor,^qqui de ténebris vocásti nos in admirábile lumen tuum.^pQui cæcórum óculos aperuísti, et surdos fecísti audíre,^qádiuva incredulitátem nostram.^pDómine, in dilectióne tua iúgiter maneámus,^qne ab ínvicem separémur.^pDa nobis in tentatióne resístere, in tribulatióne sustinére,^qet in prósperis grátias ágere.",
           "les_text_lat": "Scito hódie et cogitáto in corde tuo quod Dóminus ipse sit Deus in cælo sursum et in terra deórsum, et non sit álius. Custódi præcépta eius atque mandáta, quæ ego præcípio tibi hódie.",
-          "oration_lat": "Memoráre, Dómine, testaménti tui sancti, quod sanguis Agni novo fœ́dere consecrávit, ut pópulus tuus et remissiónem obtíneat peccatórum, et ad redemptiónis indesinénter profíciat increméntum. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Memoráre, Dómine, testaménti tui sancti, quod sanguis Agni novo fœ́dere consecrávit, ut pópulus tuus et remissiónem obtíneat peccatórum, et ad redemptiónis indesinénter profíciat increméntum.^ORlV"
         },
         "Terz": {
           "psalm1": 119.145,
@@ -14152,7 +14152,7 @@
           "bitten_r_lat": "Læténtur omnes, qui sperant in te, Dómine.",
           "bitten_lat": "Dómine, qui misísti Fílium tuum non ut iúdicet mundum, sed ut salvétur mundus per ipsum^qda ut mors eius gloriósa in nobis fructum suum áfferat copiósum.^pQui sacerdótes tuos minístros Christi et tuórum constituísti mysteriórum dispensatóres,^qipsis concéde cor fidéle, sciéntiam et caritátem.^pQuos vocásti ad castitátem propter regnum cælórum,^qfac ut intemeráta fidelitáte Fílium tuum sequántur.^pQui hóminem ab inítio másculum et féminam creásti,^qomnes serva famílias in amóre sincéro.^pQui, per Christi oblatiónem, hóminum peccáta abstulísti,^qómnibus defúnctis remissiónem tríbue peccatórum.",
           "les_text_lat": "In hoc cognóscimus quóniam nóvimus Christum: si mandáta eius servémus. Qui dicit: «Novi eum», et mandáta eius non servat, mendax est, et in isto véritas non est; qui autem servat verbum eius, vere in hoc cáritas Dei consummáta est. In hoc cognóscimus quóniam in ipso sumus. Qui dicit se in ipso manére, debet, sicut ille ambulávit, et ipse ambuláre.",
-          "oration_lat": "Recordáre, Dómine, misericórdiæ tuæ, ut qui esuriéntes bonis cæléstibus implére dignáris, indigéntiæ nostræ tríbuas tuis abundáre divítiis. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Recordáre, Dómine, misericórdiæ tuæ, ut qui esuriéntes bonis cæléstibus implére dignáris, indigéntiæ nostræ tríbuas tuis abundáre divítiis.^ORlV"
         }
       },
       "4": {
@@ -14209,7 +14209,7 @@
           "bitten_r_lat": "Tu es vita nostra, Dómine.",
           "bitten_lat": "Benedíctus es, Pater Dómini nostri Iesu Christi, qui secúndum misericórdiam tuam regenerásti nos in spem vivam,^qper resurrectiónem Iesu Christi ex mórtuis.^pQui hóminem, ad imáginem tuam creátum, in Christo renovásti,^qfac nos confórmes imágini Fílii tui.^pIn córdibus nostris invídia et ódio vulnerátis,^qcaritátem per Spíritum Sanctum datam effúnde.^pDa hódie operáriis labórem, esuriéntibus panem, mæréntibus gáudium,^qómnibus homínibus grátiam atque salútem.",
           "les_text_lat": "Non sunt condígnæ passiónes huius témporis ad futúram glóriam, quæ revelánda est in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat; vanitáti enim creatúra subiécta est, non volens sed propter eum, qui subiécit, in spem, quia et ipsa creatúra liberábitur a servitúte corruptiónis in libertátem glóriæ filiórum Dei.",
-          "oration_lat": "Sciéntiam salútis, Dómine, nobis concéde sincéram, ut sine timóre, de manu inimicórum nostrórum liberáti, ómnibus diébus nostris tibi fidéliter serviámus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Sciéntiam salútis, Dómine, nobis concéde sincéram, ut sine timóre, de manu inimicórum nostrórum liberáti, ómnibus diébus nostris tibi fidéliter serviámus.^ORlV"
         },
         "Terz": {
           "psalm1": 119.153,
@@ -14293,7 +14293,7 @@
           "bitten_r_lat": "Da lucem, pacem et salútem, Dómine.",
           "bitten_lat": "Lux indefíciens et Verbum Patris, qui ad omnes hómines salvándos venísti,^qdírige catechúmenos Ecclésiæ tuæ, ut in te illuminéntur.^pIniquitátes nostras, Dómine, ne consíderes,^qquia apud te propitiátio est.^pQui voluísti ut hómines ingénio suo secréta naturália investigárent ad mundum regéndum,^qda ut sciéntia et artes ad glóriam tuam et ómnium felicitátem dirigántur.^pEos tuére, qui servítio fratrum suórum in mundo sese mancipavérunt,^qut líbere et sine detriménto opus suum perfícere váleant.^pDómine, qui áperis et nemo claudit,^qeduc in lumen tuum defúnctos qui in spe resurrectiónis dormiérunt.",
           "les_text_lat": "Permanéte in fide fundáti et stábiles et immóbiles a spe evangélii, quod audístis, quod prædicátum est in univérsa creatúra, quæ sub cælo est.",
-          "oration_lat": "Nostris propitiáre, Dómine, supplicatiónibus vespertínis, et præsta, ut Fílii tui vestígia sequéntes, in patiéntia fructum bonórum óperum afferámus. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Nostris propitiáre, Dómine, supplicatiónibus vespertínis, et præsta, ut Fílii tui vestígia sequéntes, in patiéntia fructum bonórum óperum afferámus.^ORlV"
         }
       },
       "5": {
@@ -14350,7 +14350,7 @@
           "bitten_r_lat": "Confírma, quod operátus es in nobis, Dómine.",
           "bitten_lat": "Deus misericórdiæ, gressus nostros in sanctitáte cordis dírige,^qut, quæ sunt vera, iusta et amabília, cogitémus.^pNe derelínquas nos in perpétuum propter nomen tuum,^qne díssipes, Dómine, testaméntum tuum.^pIn ánimo contríto et spíritu humilitátis suscipiámur,^qquóniam non est confúsio confidéntibus in te.^pQui nos in Christo ad munus prophéticum vocásti,^qda nos tuas annuntiáre virtútes.",
           "les_text_lat": "Christo confíxus sum cruci: vivo autem iam non ego, vivit vero in me Christus; quod autem nunc vivo in carne, in fide vivo Fílii Dei, qui diléxit me et trádidit seípsum pro me.",
-          "oration_lat": "Grátiæ tuæ, quǽsumus, Dómine, supplícibus tuis tríbue largitátem, ut mandáta tua, te operánte, sectántes, consolatiónem vitæ præséntis accípiant, et futúra gáudia comprehéndant. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Grátiæ tuæ, quǽsumus, Dómine, supplícibus tuis tríbue largitátem, ut mandáta tua, te operánte, sectántes, consolatiónem vitæ præséntis accípiant, et futúra gáudia comprehéndant.^ORlV"
         },
         "Terz": {
           "psalm1": 119.161,
@@ -14433,7 +14433,7 @@
           "bitten_r_lat": "Kýrie, eléison.",
           "bitten_lat": "Da, Christe, ut humána fragílitas, quæ per se proclívis est ad lapsum,^qper te semper firmétur.^pQuæ per se prona est ad offénsam,^qper te semper reparétur ad véniam.^pQui culpa offénderis et pæniténtia placáris,^qflagélla tuæ iracúndiæ, quæ pro peccátis nostris merémur, avérte.^pQui mulíeris pæniténtis remisísti peccáta, et ovem errántem in úmeros tuos imposuísti,^qne avértas misericórdiam tuam a nobis.^pOmnes, qui in te, cum in terris dégerent, speravérunt,^qad cæli portas admítte, quas crucis tuæ mérito reserásti.",
           "les_text_lat": "Nihil nunc damnatiónis est his, qui sunt in Christo Iesu; lex enim Spíritus vitæ in Christo Iesu liberávit te a lege peccáti et mortis.",
-          "oration_lat": "Omnípotens et miséricors Deus, qui Christum tuum pati pro totíus mundi salúte voluísti, concéde plebi tuæ, ut in hóstiam vivam tibi conténdat offérri, et amóris tui váleat plenitúdine satiári. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Omnípotens et miséricors Deus, qui Christum tuum pati pro totíus mundi salúte voluísti, concéde plebi tuæ, ut in hóstiam vivam tibi conténdat offérri, et amóris tui váleat plenitúdine satiári.^ORlV"
         }
       },
       "6": {
@@ -14490,7 +14490,7 @@
           "bitten_r_lat": "Dómine, audi nos.",
           "bitten_lat": "Dómine, Pater ómnium, qui nos ad princípium huius diéi perveníre fecísti,^qad laudem glóriæ tuæ fac nos cum Christo vívere.^pFidem, spem et caritátem tuam, quæ córdibus nostris infudísti,^qin nobis semper manére concéde.^pAd te, semper, Dómine, óculi nostri levéntur,^qut tibi vocánti alácriter respondeámus.^pAb insídiis nos et illécebris iniquitátis avérte,^qet gressus nostros ab omni offensióne defénde.",
           "les_text_lat": "Novos cælos et terram novam secúndum promíssum Dómini exspectámus, in quibus iustítia hábitat. Propter quod, caríssimi, hæc exspectántes satágite immaculáti et invioláti ei inveníri in pace et Dómini nostri longanimitátem salútem arbitrámini.",
-          "oration_lat": "Omnípotens ætérne Deus, qui splendor es veri lúminis et dies perpétuus, te, matutíni témporis redeúnte círculo, deprecámur, ut nostras quoque mentes, vitiórum nocte discússa, advéntus tui fulgor illústret. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+          "oration_lat": "Omnípotens ætérne Deus, qui splendor es veri lúminis et dies perpétuus, te, matutíni témporis redeúnte círculo, deprecámur, ut nostras quoque mentes, vitiórum nocte discússa, advéntus tui fulgor illústret.^ORlV"
         },
         "Terz": {
           "psalm1": 119.169,
@@ -15844,7 +15844,7 @@
       "1": {
         "each": {
           "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird.^ORV",
-          "oration_lat": "Deus, per cuius ineffábilem grátiam omni benedictióne ditámur, præsta nobis ita in novitátem a vetustáte transíre, ut regni cæléstis glóriæ præparémur."
+          "oration_lat": "Deus, per cuius ineffábilem grátiam omni benedictióne ditámur, præsta nobis ita in novitátem a vetustáte transíre, ut regni cæléstis glóriæ præparémur.^ORlV"
         },
         "Laudes": {
           "les_buch": "›Jer",

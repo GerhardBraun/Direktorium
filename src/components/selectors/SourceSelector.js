@@ -166,11 +166,11 @@ const SourceSelector = ({
     disableButtons.sources = isErsteVesper && prefSollemnity !== 'soll';
     disableButtons.oblig = isErsteVesper === 'oblig' && prefSollemnity === 'soll';
 
-    let eigButton = {}
-    const eigEntry = texts?.vesper?.oblig?.button
-    if (eigEntry && isErsteVesper === 'oblig') {
-        eigButton = {
-            "button": formatText(eigEntry),
+    let obligButton = {}
+    const obligEntry = texts?.vesper?.oblig?.button
+    if (obligEntry && isErsteVesper === 'oblig') {
+        obligButton = {
+            "button": formatText(obligEntry),
             "farbe": texts?.vesper?.oblig?.farbe || 'w'
         }
     }
@@ -190,7 +190,7 @@ const SourceSelector = ({
                 </div>
             )}
             {/* Weekday Button */}
-            {showWt && !reduced && !eigButton.button && (<>
+            {showWt && !reduced && !obligButton.button && (<>
                 <button
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
@@ -207,16 +207,16 @@ const SourceSelector = ({
             </>
             )}
             {/* oblig-Button für die Erste Vesper*/}
-            {eigButton.button && (<>
+            {obligButton.button && (<>
                 <button
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
-                        ${eigButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
+                        ${obligButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
                         ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.oblig)
                             ? 'ring-2 ring-yellow-500' : ''}`}
                     disabled={disableButtons.oblig}
                 >
-                    {eigButton.button}
+                    {obligButton.button}
                 </button>
             </>
             )}

@@ -195,7 +195,7 @@ const PrayerMenu = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        swdWritten={texts?.swd.written}
+        swdWritten={texts?.swd?.written}
       />
       {/* Source Selector */}
       <SourceSelector
@@ -499,7 +499,8 @@ const PrayerTextDisplay = ({
   );
 
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
-    // kein Zeilenumbruch innerhalb des Responsums, außer eine Wortgruppe ist schon durch ° gekennzeichnet
+    // 1. Wort des Responsums soll nicht am Zeilenende allein stehen,
+    // außer eine Wortgruppe ist schon durch ° gekennzeichnet
     if (resp2 && !resp2.includes('°'))
       resp2 = resp2.replace(/ /, '°');
 
@@ -574,18 +575,19 @@ const PrayerTextDisplay = ({
             {hour !== "lesehore" && localPrefLongform && (
               ResponsorialDisplay("R", adjustResp2(resp3, processedResp2))
             )}
-            {hour !== "lesehore" && (!localPrefLongform
-              ? <div>
-                {doxology}
-                <Rubric> –&#8288;&#160;R</Rubric>
-              </div>
-              : <>
-                {ResponsorialDisplay("V", doxology)}
-                {resp1 && resp2 && (
-                  ResponsorialDisplay("R", processedResp1 + " " + processedResp2)
-                )}
-              </>
-            )}
+            {hour !== "lesehore"  // in der Lesehore keine Doxologie und keine Wiederholung des Responsums
+              && (!localPrefLongform
+                ? <div>
+                  {doxology}
+                  <Rubric> –&#8288;&#160;R</Rubric>
+                </div>
+                : <>
+                  {ResponsorialDisplay("V", doxology)}
+                  {resp1 && resp2 && (
+                    ResponsorialDisplay("R", processedResp1 + " " + processedResp2)
+                  )}
+                </>
+              )}
           </>
         )}
       </div>
@@ -651,8 +653,8 @@ const PrayerTextDisplay = ({
           onPrevDay={onPrevDay}
           onNextDay={onNextDay}
           swdWritten={hour === 'vesper'
-            ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swd.written
-            : texts?.swd.written}
+            ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swd?.written
+            : texts?.swd?.written}
           padding="pr-4"
         />
         <NavigationButtons

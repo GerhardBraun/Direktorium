@@ -247,7 +247,8 @@ function getOpeningTexts(hour, localPrefLanguage) {
         } else setLocalStorage("openMyLips", todayVisit())
     }
 
-    // Eröffnung entfällt, wenn aus der Aufruf aus der Lesehore mit dem NavigationButton erfolgt ist
+    // Eröffnung entfällt, wenn aus der Aufruf aus der Lesehore mit dem NavigationButton erfolgt ist;
+    // die Vigil wird immer ohne Eröffnung angezeigt, weil sie eine Erweiterung der Lesehore ist
     if (localStorage.getItem('ommitOpening') === 'true'
         || hour === 'vigil') {
         return ["", "", "", ""];
