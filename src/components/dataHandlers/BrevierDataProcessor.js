@@ -301,13 +301,13 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 const lecture1LayerData = lecture1Data?.[source]?.[week]?.[key];
                 const lectureLayerData = lectureData?.[source]?.[week]?.[key];
                 const lectureALayerData = lectureABCData?.[source]?.[week]?.[key]?.a;
-                const lectureABCLayerData = yearABC === 'a' ? null : lectureABCData?.[source]?.[week]?.[key]?.[yearABC];
+                const lectureBCLayerData = yearABC === 'a' ? null : lectureABCData?.[source]?.[week]?.[key]?.[yearABC];
                 mergeData(hours, layerData, 'wt');
                 mergeData(hours, personalLayerData, 'pers');
                 mergeData(hours, lecture1LayerData, 'wt');
                 mergeData(hours, lectureALayerData, 'wt');
                 if (lectureLayerData) mergeData(hours, lectureLayerData, 'wt');
-                if (lectureABCLayerData) mergeData(hours, lectureABCLayerData, 'wt');
+                if (lectureBCLayerData) mergeData(hours, lectureBCLayerData, 'wt');
             })
         }
         // Layer 1: Base layer from 4-week schema
@@ -351,10 +351,11 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             addLayer('kso', week, dayOfWeek);
         }
 
-        // Process Heiligenfeste only if rank is appropriate
+        // gebotene Gedenktage, Feste und Hochfeste, wenn der wt-Rang geringer ist
         if (rank_date > 1 && rank_date > rank_wt)
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay);
 
+        // Kommemoration: gebotene Gedenktage als nichtgebotene Gedenktage laden
         if (rank_date === 2 && isCommemoration)
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
 
@@ -366,22 +367,27 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // 1er-Stelle gibt den Wochentag an:
         // 40=So: Dreif., 41=Mo: Pfingstmontag/Mutter der Kirche,
         // 44=Do: Fronleichnam, 45=Fr: Herz-Jesu-Fest, 46=Sa: Unbefl. Herz Mariae
+        // In processCalendar wird replaceOblig='wt' für die gebotenen Gedenktage in 'oblig' geändert.
         if (afterPentecost > 2) {
             processCalendar(hours, yearABC, season, 5, afterPentecost, 'wt');
 
-            // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
+            // Sonderfall: Zusammentreffen von MaterEcclesiae bzw. Herz Mariae
+            // mit anderem gebotenen Gedenktag: letzterer wird als nichtgebotener Gedenktag geladen;
+            // nicht gebotene Gedenktage (rank_date=0) werden verdrängt und deshalb nicht geladen
             if (rank_date === 2)
                 processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
         }
-        // alternative Psalmen und Antiphonen an Aschermittwoch und Gründonnerstag
+        // alternative Psalmen und Antiphonen an Aschermittwoch (Laudes) und Gründonnerstag (Lesehore)
         // in den Datenbanken unter den fiktiven Daten 33. und 34. März gespeichert
         if (swdCombined === 'q-0-3' || swdCombined === 'q-6-4') {
-            console.log('Sonderfall: Aschermittwoch oder Gründonnerstag - alternative Psalmen und Antiphonen werden geladen', 3, 30 + dayOfWeek);
             processCalendar(hours, yearABC, season, 3, 30 + dayOfWeek, 'alt');
         }
         // Layer 9: nichtgebotene Gedenktage
-        else if (rank_wt < 3) {
-            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'skip');
+        // werden an Sonntagen sowie geboteenen Gedenktagen, Festen und Hochfesten des Kirchenjahres nicht geladen,
+        // können aber neben gebotenen Gedenktagen und Festen der Heiligen stehen
+        // (bei Überschneidungen der Kalenderebenen General-/Regional-/Diözesankalender)
+        else if (rank_wt < 3 && afterPentecost < 40) {
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay);
 
             // Maria am Samstag (mit fiktivem Datum 06.13.)
             if (rank_wt < 2 && rank_date < 2 && season === "j" && dayOfWeek === 6)
@@ -469,24 +475,25 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = 'oblig') {
+function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '') {
     const processData = getDayCalendarData(calendarMonth, calendarDay);
 
     if (processData) {
+
         if (replaceOblig === 'wt' && [41, 46].includes(calendarDay))
-            replaceOblig = 'oblig'
+            replaceOblig = ''
 
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
-            if (sourceKey !== 'oblig' || replaceOblig !== 'skip') {
-                const sourceData = processData[sourceKey];
-                const targetKey = sourceKey === 'oblig' ? replaceOblig : sourceKey;
+            const sourceData = processData[sourceKey];
+            const targetKey = (sourceKey === 'oblig' && replaceOblig) ? replaceOblig
+                : sourceKey;
 
-                if (sourceData) {
-                    mergeData(hours, sourceData, targetKey);
-                    processCommune(hours, season, targetKey);
-                }
+            if (sourceData) {
+                mergeData(hours, sourceData, targetKey);
+                processCommune(hours, season, targetKey);
             }
+
         });
     }
 
@@ -513,8 +520,8 @@ function processTerzPsalms(hours) {
     const psalmFields = [
         'psalm1', 'psalm2', 'psalm3',
         'ant1', 'ant2', 'ant3',
+        'mode1', 'mode2', 'mode3',
         'ant1_lat', 'ant2_lat', 'ant3_lat',
-        'patr_autor', 'patr_werk', 'patr_text'
     ];
 
     // Finde alle vorhandenen Sources durch Inspektion der Terz

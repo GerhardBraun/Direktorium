@@ -242,7 +242,7 @@ const SectionHeader = ({
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst')
         skipCommune = true
 
-    if (["ERÖFFNUNG", "SCHULDBEKENNTNIS", "HYMNUS", "ABSCHLUSS"].includes(title))
+    if (["ERÖFFNUNG", "SCHULDBEKENNTNIS", "HYMNUS", "RESPONSORIUM", "ABSCHLUSS"].includes(title))
         skipCommune = true;
 
     // einfacher Header ohne Buttons

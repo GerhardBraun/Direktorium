@@ -609,19 +609,19 @@ const PrayerTextDisplay = ({
     if (texts.dateCompare === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
       note = "Ein gesegnetes neues Jahr!"
     // Vesper am Gründonnerstag
-    if (texts?.swd?.Combined === 'q-6-4' && hour === 'vesper') {
+    if (texts?.swd?.combined === 'q-6-4' && hour === 'vesper') {
       localPrefLanguage === '_lat'
         ? note = "Vesperæ dicuntur tantum ab iis, qui Missæ vespertinæ in Cena Domini non intersunt."
         : note = "Die Vesper wird nur von denen gebetet, die nicht an der Abendmahlsmesse teilnehmen."
     }
     // Vesper am Karfreitag
-    if (texts?.swd?.Combined === 'q-6-5' && hour === 'vesper') {
+    if (texts?.swd?.combined === 'q-6-5' && hour === 'vesper') {
       localPrefLanguage === '_lat'
         ? note = "Vesperæ dicuntur tantum ab iis, qui Actioni liturgicæ postmeridianæ non intersunt."
         : note = "Die Vesper wird nur von denen gebetet, die nicht an der nachmittäglichen Feier vom Leiden und Sterben Christi teilnehmen."
     }
     // Komplet am Karsamstag
-    if (texts?.swd?.Combined === 'q-6-6' && hour === 'komplet') {
+    if (texts?.swd?.combined === 'q-6-6' && hour === 'komplet') {
       localPrefLanguage === '_lat'
         ? note = "Completorium dicitur tantum ab iis, qui Vigiliæ paschali non intersunt."
         : note = "Die Komplet wird nur von denen gebetet, die nicht an der Feier der Osternacht teilnehmen."
