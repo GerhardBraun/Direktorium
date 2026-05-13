@@ -695,6 +695,17 @@ const PrayerTextDisplay = ({
       </div>
       <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
         <PreliminaryNotes />
+        {ordinariumTexts.aperi && showKomplet && (
+          <div className="mt-0 mb-0">
+            <SectionHeader
+              title="VORBEREITUNGSGEBET"
+              field="versikel0"
+            />
+            <div> {ordinariumTexts.aperi}
+            </div>
+          </div>
+        )}
+
         {ordinariumTexts.opening[0] && showKomplet && (
           <div className="mt-0 mb-0">
             <SectionHeader
@@ -1932,50 +1943,51 @@ export default function Stundenbuch() {
             )}
             <div className="border-t dark:border-gray-700"></div>
 
-            {/* View Selection Section */}
-            {localStorage.getItem('diocese') === 'Fulda' && (<div
-              className={`px-3 py-2 cursor-pointer ${activeSection === "view" ? "bg-gray-100 dark:bg-gray-600" : ""
-                }`}
-              onClick={() => handleSectionChange(sections.indexOf("view"))}
-            >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
-                Verzeichnis
+            {/* View Selection Section
+            mittlerweile ins Hauptmenü verschoben
+            {localStorage.getItem('diocese') === 'Fulda' &&
+              (<div
+                className={`px-3 py-2 cursor-pointer ${activeSection === "view" ? "bg-gray-100 dark:bg-gray-600" : ""
+                  }`}
+                onClick={() => handleSectionChange(sections.indexOf("view"))}
+              >
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
+                  Verzeichnis
+                </div>
+                <div className="flex gap-1">
+                  <button
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setViewMode("directory");
+                      toggleMenu();
+                    }}
+                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === "directory"
+                      ? "bg-orange-100 dark:bg-yellow-400/60"
+                      : ""
+                      }`}
+                  >
+                    Direktorium
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setViewMode("deceased");
+                      toggleMenu();
+                    }}
+                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === "deceased"
+                      ? "bg-orange-100 dark:bg-yellow-400/60"
+                      : ""
+                      }`}
+                  >
+                    Totenverzeichnis
+                  </button>
+                </div>
               </div>
-              <div className="flex gap-1">
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setViewMode("directory");
-                    toggleMenu();
-                  }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === "directory"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  Direktorium
-                </button>
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setViewMode("deceased");
-                    toggleMenu();
-                  }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === "deceased"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  Totenverzeichnis
-                </button>
-              </div>
-            </div>
-            )}
-
+              )}
             <div className="border-t dark:border-gray-700"></div>
-
+*/}
             {/* Personal Settings Section */}
             <div className="px-3 py-1 border-t dark:border-gray-700">
               <button

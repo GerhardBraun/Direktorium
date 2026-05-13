@@ -9258,7 +9258,7 @@
       },
       "3": {
         "each": {
-          "oration": "Herr, unser Gott, sieh auf deine Gemeinde, die in dieser österlichen Zeit der Auferstehung Sohnes gedenkt. Gib, dass wir mit allen Heiligen die ewige Freude erlangen, wenn er in der Herrlichkeit wiederkommt,^ORR",
+          "oration": "Herr, unser Gott, sieh auf deine Gemeinde, die in dieser österlichen Zeit der Auferstehung deines Sohnes gedenkt. Gib, dass wir mit allen Heiligen die ewige Freude erlangen, wenn er in der Herrlichkeit wiederkommt,^ORR",
           "oration_lat": "Annue nobis, quǽsumus, Dómine, ut, quemádmodum mystério resurrectiónis Fílii tui sollémnia cólimus, ita et in advéntu eius gaudére cum sanctis ómnibus mereámur.^ORlV"
         },
         "Laudes": {
@@ -10190,7 +10190,7 @@
         "Terz": {
           "les_buch": "›vgl.°Röm",
           "les_stelle": "4,24b–25",
-          "les_text": "Wir glauben an den, der Jesus, unseren Herrn, von den Toten auferweckt hat. Wegen unserer Rechtfertigung wurde er hingegeben, wegen unserer Gerechtmachung wurde er auferweckt.",
+          "les_text": "Wir glauben an den, der Jesus, unseren Herrn, von den Toten auferweckt hat. Wegen unserer Verfehlungen wurde er hingegeben, wegen unserer Gerechtmachung wurde er auferweckt.",
           "les_text_neu": "",
           "les_text_lat": "Crédimus in eum, qui suscitávit Iesum Dóminum nostrum a mórtuis, qui tráditus est propter delícta nostra et suscitátus est propter iustificatiónem nostram."
         },
@@ -10198,7 +10198,7 @@
           "les_buch": "›1°Joh",
           "les_stelle": "5,5–6a",
           "les_text": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist? Dieser ist es, der durch Wasser und Blut gekommen ist: Jesus Christus.",
-          "les_text_neu": "Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist? Dieser ist es, der durch Wasser und Blut gekommen ist: Jesus Christus. ",
+          "les_text_neu": "",
           "les_text_lat": "Quis est qui vincit mundum, nisi qui credit quóniam Iesus est Fílius Dei? Hic est qui venit per aquam et sánguinem, Iesus Christus; non in aqua solum sed in aqua et in sánguine."
         },
         "Non": {
