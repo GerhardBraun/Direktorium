@@ -322,8 +322,6 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // Layer 4: Bi-weekly schema
         if (week % 2 === 0) addLayer(season, 'even', dayOfWeek);
 
-        addLayer(season, week, dayOfWeek);
-
         const processUseDateAndLast = () => {
             if (calendarMonth === 12 && calendarDay > 16) {
                 return calendarDay < 25 ? 'adventLast' : 'christmasOctave';
@@ -339,6 +337,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
         if (useDateAndLast.includes('Last'))
             addLayer(season, 'last', dayOfWeek);
+
+        addLayer(season, week, dayOfWeek);
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
         // easterLast: entsprechende Einträge existieren in 'k' und 'kso' nicht
