@@ -205,8 +205,7 @@ const SectionHeader = ({
 
     // Sprachwahl-Button anzeigen?
     let showLanguageToggle = !languages.includes('aus');
-    if (['VERGEBUNGSBITTE', 'RESPONSORIUM', 'VÄTERLESUNG'].includes(title)
-        || (title === 'SCHULDBEKENNTNIS' && ommitConfiteor)
+    if (['SCHULDBEKENNTNIS', 'VERGEBUNGSBITTE', 'RESPONSORIUM', 'VÄTERLESUNG'].includes(title)
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
         || (isTSN && title === 'ORATION')
