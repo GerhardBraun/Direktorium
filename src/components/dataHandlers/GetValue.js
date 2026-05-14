@@ -18,7 +18,7 @@ export const getValue = ({
     const swdCombined = texts?.swd?.combined || '';
     const languageField = field + localPrefLanguage
     const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben|_cant/g, '')
-    const allSouls = texts.dateCompare === '11-02'
+    const allSouls = texts.date.mmdd === '11-02'
 
     // Weihnachtsoktav: Vesper im Rang eines Festes
     const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
@@ -114,7 +114,7 @@ export const getValue = ({
 
     // Gedenktage mit Eigentexten für die Kleinen Horen:
     // Barnabas und Schutzengel
-    const memorialWithTSN = ['06-11', '10-02'].includes(texts.dateCompare)
+    const memorialWithTSN = ['06-11', '10-02'].includes(texts.date.mmdd)
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && texts?.rank?.hasErsteVesper)

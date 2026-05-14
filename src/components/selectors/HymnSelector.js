@@ -33,7 +33,7 @@ const HymnSelector = ({ texts, hour, season,
             if (['vesper', 'komplet'].includes(hour)) {
                 // Erste Vesper und Komplet zum 1. Advent und zu Weihnachten
                 if (texts?.swd.combined === 'j-34-6') return 'btn-violett';
-                if (texts?.dateCompare === '12-24') return 'btn-gold';
+                if (texts?.date?.mmdd === '12-24') return 'btn-gold';
             }
             if (texts?.laudes?.wt?.farbe === 'r' ||
                 (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {

@@ -20,7 +20,7 @@ const MassReadingsSelector = ({
 
     // Helper function for button colors
     const getButtonColor = (source) => {
-        if (texts.dateCompare === '11-02' && source === 'oblig')
+        if (texts.date.mmdd === '11-02' && source === 'oblig')
             return 'btn-violett';
         if (source === 'wt') {
             const season = texts?.season || 'j';
@@ -34,7 +34,7 @@ const MassReadingsSelector = ({
     };
 
     const getButtonName = (source) => {
-        if (texts.dateCompare === '11-02' && source === 'oblig')
+        if (texts.date.mmdd === '11-02' && source === 'oblig')
             return 'Allerseelen';
         if (source === 'wt')
             return texts?.dayOfWeek === 0 ? 'Vom Sonntag' : 'Vom Wochentag';
@@ -121,7 +121,7 @@ const MassReadings = ({
             resp = setOfResp[index]
         }
     }
-    if (texts?.dateCompare === '11-02')
+    if (texts?.date?.mmdd === '11-02')
         resp = setOfResp[2]
 
     if (!resp.startsWith('Halleluja'))

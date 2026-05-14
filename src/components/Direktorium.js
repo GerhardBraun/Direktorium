@@ -597,7 +597,7 @@ const PrayerTextDisplay = ({
   const PreliminaryNotes = () => {
     let note = ''
     // Anmerkung zu Allerseelen, wenn es auf einen Sonntag fällt
-    if (texts.dateCompare === '11-02' && texts.dayOfWeek === 0) {
+    if (texts.date.mmdd === '11-02' && texts.dayOfWeek === 0) {
       // alle Horen außer Vigil und Komplet
       if (!['vigil', 'komplet'].includes(hour))
         note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird°die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
@@ -606,7 +606,7 @@ const PrayerTextDisplay = ({
         note += "^lIn der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen°Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }
     }
-    if (texts.dateCompare === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
+    if (texts.date.mmdd === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
       note = "Ein gesegnetes neues Jahr!"
     // Vesper am Gründonnerstag
     if (texts?.swd?.combined === 'q-6-4' && hour === 'vesper') {
@@ -701,8 +701,7 @@ const PrayerTextDisplay = ({
               title="VORBEREITUNGSGEBET"
               field="versikel0"
             />
-            <div> {ordinariumTexts.aperi}
-            </div>
+            <div>{ordinariumTexts.aperi}</div>
           </div>
         )}
 

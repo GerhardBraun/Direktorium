@@ -82,6 +82,14 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
     const month = date.getMonth() + 1;
     const day = date.getDate();
 
+    const ordinalNumber = Math.ceil(day / 7);
+    const lastDayOfMonth = new Date(date.getFullYear(), month, 0).getDate();
+    const ordinalLastNumber = Math.ceil((lastDayOfMonth - day + 1) / 7);
+
+    const mmdd = `${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+    const ordinal = `${month}-${ordinalNumber}-${dayOfWeek}`;
+    const ordinalLast = `${month}-L${ordinalLastNumber}-${dayOfWeek}`;
+
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
         // Sonderfall: Feste nach Pfingsten
@@ -114,16 +122,17 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
     // Rank für Datum (rank_date) bestimmen
     function calculateRankDate() {
         const diocese = localStorage.getItem('diocese') || 'Fulda';
-        const dateCompare = `${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
 
         // Schleife durch die Ränge (von hoch zu niedrig)
         for (const rank of [6, 5, 4, 3, 2]) {
-            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare))
-                return rank;
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(mmdd)) return rank;
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(ordinal)) return rank;
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(ordinalLast)) return rank;
         }
         for (const rank of [6, 5, 4, 3, 2]) {
-            if (tableOfRanks?.[rank]?.includes(dateCompare))
-                return rank;
+            if (tableOfRanks?.[rank]?.includes(mmdd)) return rank;
+            if (tableOfRanks?.[rank]?.includes(ordinal)) return rank;
+            if (tableOfRanks?.[rank]?.includes(ordinalLast)) return rank;
         }
         return 0; // Kein spezieller Rang gefunden
     }
@@ -162,6 +171,7 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
         rank_wt: calculateRankWt(),
         rank_date: calculateRankDate(),
         hasVigil: calculateHasVigil(),
+        date: { mmdd, ordinal, ordinalLast }
     }
 }
 

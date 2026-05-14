@@ -210,7 +210,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         rank_wt,
         afterPentecost,
         isCommemoration,
-        hasVigil
+        hasVigil,
+        date: dateFormats,
     } = getLiturgicalInfo(date);
     const { rank_date } = getLiturgicalInfo(calendarDate);
 
@@ -346,16 +347,16 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         }
         else if (rank_date === 2 && isCommemoration)
             // Kommemoration: gebotene Gedenktage als nichtgebotene Gedenktage laden
-            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1', swdCombined, dateFormats);
         else if (rank_date > 1 && rank_date > rank_wt)
             // gebotene Gedenktage, Feste und Hochfeste, wenn der wt-Rang geringer ist
-            processCalendar(hours, yearABC, season, calendarMonth, calendarDay);
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
         else if (rank_wt < 2) {
             // nichtgebotene Gedenktage
             // werden an Sonntagen sowie gebotenen Gedenktagen, Festen und Hochfesten des Kirchenjahres nicht geladen,
             // können aber neben gebotenen Gedenktagen und Festen der Heiligen stehen
             // (bei Überschneidungen der Kalenderebenen General-/Regional-/Diözesankalender)
-            processCalendar(hours, yearABC, season, calendarMonth, calendarDay);
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
 
             // Maria am Samstag (mit fiktivem Datum 06.13.)
             if (rank_date < 2 && season === "j" && dayOfWeek === 6)
@@ -431,13 +432,16 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '') {
+function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '', swdCombined = '', dateFormats = {}) {
     const processData = getDayCalendarData(calendarMonth, calendarDay);
+    const swdData = getDayCalendarData('special', swdCombined);
+    const ordinalData = getDayCalendarData('special', dateFormats?.ordinal);
+    const ordinalLastData = getDayCalendarData('special', dateFormats?.ordinalLast);
+
+    if (replaceOblig === 'wt' && [41, 46].includes(calendarDay))
+        replaceOblig = ''
 
     if (processData) {
-
-        if (replaceOblig === 'wt' && [41, 46].includes(calendarDay))
-            replaceOblig = ''
 
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
@@ -727,7 +731,7 @@ export function processBrevierData(todayDate) {
         console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
     }
 
-    // Hole Stundendaten für den aktuellen Tag
+    // Hole Stundendaten für den aktuellen und den morgigen Tag
     const todayData = getPrayerTexts(brevierData, personalData, todayDate, calendarDate);
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
@@ -772,8 +776,6 @@ export function processBrevierData(todayDate) {
             nextWt: rankNextWt,
             nextDate: rankNextDate,
         },
-        //rankNextDate,
-        //swd: {            combined: todayInfo.swdCombined        }
     };
 
     // Sichere Vesper-Daten für etwaige Nutzung bei lokalem Hochfest
@@ -808,8 +810,8 @@ export function processBrevierData(todayDate) {
         ...kompletSettings
     }
 
-    const dateCompare = `${todayMonth.toString().padStart(2, '0')}-${todayDay.toString().padStart(2, '0')}`;
-    finalData.dateCompare = dateCompare;
+    finalData.date = todayInfo.date;
+    const { mmdd } = todayInfo.date;
 
     const useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
@@ -818,11 +820,11 @@ export function processBrevierData(todayDate) {
         && !(dayOfWeek === 0 && rank_date < 4 && swdCombined !== 'j-34-0')
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
-        && dateCompare !== '11-02'
+        && mmdd !== '11-02'
     ) || // Gedenktage mit Psalmen vom Fest:
         // Barnabas, Enthauptung Johannes des Täufers, Schmerzen Mariens, Schutzengel, U.L.Fr. vom Rosenkranz, Martin
         // für Agnes (21.1.) und Josef der Arbeiter (1.5.) in den Eigentexten eingetragen, da andere Optionen wählbar sind
-        ['06-11', '08-29', '09-15', '10-02', '10-07', '11-11'].includes(dateCompare);
+        ['06-11', '08-29', '09-15', '10-02', '10-07', '11-11'].includes(mmdd);
     if (useFeastPsalms) finalData.rank.useFeastPsalms = true;
 
     // alternative Psalmen an Aschermittwoch (Laudes) und Gründonnerstag (Lesehore)
