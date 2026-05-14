@@ -160,7 +160,10 @@ export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOver
     const title = !num ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
     const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
-    const text = antIsFirst ? provText : provText.replace('^\(', '').replace('^\)', '');
+    let text = antIsFirst ? provText : provText.replace('^\(', '').replace('^\)', '');
+    text = text
+        .replace(/\^INVANT/g, num ? '' : '^p^RUBR(Die Antiphon wird wiederholt.)^0RUBR')
+        .replace(/\^INVlANT/g, num ? '' : '^p^RUBR(Repetitur antiphona.)^0RUBR')
     const doxology = getDoxology(localPrefLanguage, psalm, isBuM);
     const cantMode = localPrefLanguage !== '_cant' ? null :
         isBuM ? modeOverride || psalmRef.mode
@@ -644,6 +647,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
+        .replace(/\^INVANT/g, hour === 'invitatorium' ? '^RUBR(Die Antiphon wird wiederholt.)^0RUBR' : '')
         .replace(/\^Ö|\^HALLo/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^ö|\^HALLxq/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^LÖ|\^ALLo/g, season === 'o' ? ' Allelúia.' : '')
