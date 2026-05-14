@@ -819,15 +819,21 @@ export const lectureAlternatives = {
             },
         ]
     },
-    "Speyer-": {
+    "Limburg-05-15": {
         second: [
             {
-                patr_autor: "",
-                patr_werk: "",
-                patr_text: "",
-                patr_resp1: "",
-                patr_resp2: "",
-                patr_resp3: ""
+                patr_autor: "Hildegard von Bingen († 1179)",
+                patr_werk: "Aus dem Leben des heiligen Rupert.",
+                patr_text: "^hEr folgte Christi Ruf^pFromme Männer erteilten dem heiligen Rupert den Rat, das Evangelium zu beachten, in welchem geschrieben steht: „Gehe und verkaufe alles, was du hast, teile es unter die Armen aus, und dann komm und folge mir“{1#Mt 19,21}, auf dass seine Pilgerfahrt gut und nützlich werde und der Reichtum seines Standes ihn nicht ins Verderben führe.^pRupert fügte sich ihrem Rate und beschloss in seinem Herzen, dass er also tun wolle. Er kehrte endlich zu seiner Mutter zurück, ließ auf seinen Ländereien, welche sehr ausgedehnt waren, Wohnstätten und Kirchen an Orten, wo sich solche noch nicht befanden, anlegen und verteilte dieselben an seine Mannen, auf dass dieselben darin Aufenthalt nehmen, und seiner Mutter, solange sie lebte, dienen, auch allen, welche dorthin kämen und sich in drückender Not befänden, ihre Hilfe angedeihen lassen möchten.^pEr selber aber sann darauf, wie er sein Herzogtum, seinen Hausstand, seine Besitzungen, kurz alles, was er hatte, verlassen und um des Namens Christi willen ein Fremdling werden könne.^pAls er zwanzig Jahre alt geworden war, suchten ihn viele seiner Anverwandten und Dienstmannen von seinem Weg zu Gott abzubringen. Diese wies er, der ganz in der Liebe Gottes entbrannt war, mit angemessenen und frommen Worten zurück, weil Gott, welcher alles Zukünftige, Vergangene und Gegenwärtige kennt, etwas ganz anderes mit ihm vorhatte.^pDer Selige glich einem mit Früchten beladenen Baume, von fruchtbarer und schöner Beschaffenheit; sein Herz hätte also durch seine großmütige Gesinnung und den Reichtum der Welt ins Gegenteil vom Guten verkehrt und der Heiligkeit verdorrend absterben können, wie schon oft es vielen Menschen begegnet ist, welche mit guten Werken begannen, in welchen sie nachher dürre zu werden anfingen. Gott zog ihn daher selbst zu sich. Er kam ihm zuvor und zog ihn, als er noch im Glanze der Unschuld strahlte, aus diesem Leben hinweg.",
+            },
+        ]
+    },
+    "Limburg-08-11": {
+        second: [
+            {
+                patr_autor: "Rüdiger Müller",
+                patr_werk: "Aus „Strom und Ufer“.",
+                patr_text: "^hDer Dom zu Limburg^pVieltürmig ward der Dom^laus schroffem Fels geboren^lin Zeiten deren Strom^lim Dunkel sich verloren.^pSein wohlgefügtes Maß^list Kraft und Trost geblieben.^lDein Wort das man vergaß^lhat sich in Stein geschrieben.^pDie Macht die uns bewahrt^llässt sich als Gleichnis künden^lvon Giebeln rings umschart^lkann ich den Domplatz finden.^pJäh wächst der Dom empor^lden Tag und Sturm berennen^lder Dohlen schriller Chor^lscheint irren Hohn zu kennen.^pDa steh’ ich klein und stumm^lund spür’ was mich zersplittert^lich wend’ mich schweigend um^lim Alltag eingegittert.^pVieltürmig ward der Dom^laus schroffem Fels geboren^lin Zeiten die mir fern^lim Dunkel sich verloren.",
             },
         ]
     },

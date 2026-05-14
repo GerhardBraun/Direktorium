@@ -201,8 +201,8 @@ function mergeData(hours, newData, source) {
     });
 }
 
-function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   // für verschobene Hochfeste kann deren calendarDate eigens angegeben werden
-    calendarDate = calendarDate ?? date
+function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // für verschobene Hochfeste kann deren dateToRead eigens angegeben werden
+    dateToRead = dateToRead ?? date
     const {
         season, week, dayOfWeek,
         swdCombined, swdWritten, swd,
@@ -213,14 +213,14 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         hasVigil,
         date: dateFormats,
     } = getLiturgicalInfo(date);
-    const { rank_date } = getLiturgicalInfo(calendarDate);
+    const { rank_date } = getLiturgicalInfo(dateToRead);
 
     const passThrough = {}
     if (isCommemoration) passThrough.isCommemoration = true;
     if (hasVigil) passThrough.hasVigil = true;
 
-    const calendarDay = calendarDate.getDate();
-    const calendarMonth = calendarDate.getMonth() + 1;
+    const calendarDay = dateToRead.getDate();
+    const calendarMonth = dateToRead.getMonth() + 1;
     //Lesejahr ABC
     const lectureYear = date.getFullYear() + (
         (season === 'a' || (calendarMonth === 12 && season !== 'j'))
@@ -630,15 +630,15 @@ function processEasterResponses(hours) {
     return hours;
 }
 
-function processKompletData(data, calendarDate) {
+function processKompletData(data, dateToRead) {
     // Hier wird zusammengestellt, welche Komplet-Formulare
     // am Tag zur Auswahl stehen und welches davon die 1. Wahl ist.
     // Die Komplet-Daten selbst stehen in GetValue.js.
 
     const { rank = { wt: 0, date: 0 }, dayOfWeek } = data
     const swdCombined = data.swd?.combined;
-    const kompletDay = calendarDate.getDate();
-    const kompletMonth = calendarDate.getMonth() + 1;
+    const kompletDay = dateToRead.getDate();
+    const kompletMonth = dateToRead.getMonth() + 1;
 
     let showKompletWt = true;
     let prefKomplet = 'wt'
@@ -688,7 +688,7 @@ export function processBrevierData(todayDate) {
     const isSacredHeart = [1, 2, 46].includes(todayInfo.afterPentecost)
         ? todayInfo.afterPentecost : 0;
 
-    const isSollemnity = diff => {
+    const upcomingSollemnity = diff => {
         const checkDate = new Date(todayDate);
         checkDate.setDate(todayDate.getDate() + diff);
         const checkInfo = getLiturgicalInfo(checkDate);
@@ -696,12 +696,12 @@ export function processBrevierData(todayDate) {
     }
 
     // Bestimme die tatsächlich zu verwendenden Tage basierend auf den Rängen
-    let calendarDate = todayDate;
-    let nextDate = tomorrowDate;
+    let dateToRead = todayDate;
+    let nextDateToRead = tomorrowDate;
 
     if (yesterdayInfo.rank_wt === 5 && yesterdayInfo.rank_date === 5
         && todayInfo.rank_wt < 5 && isSacredHeart !== 46) {
-        calendarDate = yesterdayDate;
+        dateToRead = yesterdayDate;
         console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
     }
 
@@ -710,7 +710,7 @@ export function processBrevierData(todayDate) {
         (todayMonth === 3 && todayDay < 19)) {
         // Erstelle ein neues Date-Objekt für den 19. März
         const josefDate = new Date(todayDate.getFullYear(), 2, 19); // Monat ist 0-basiert
-        calendarDate = josefDate;
+        dateToRead = josefDate;
         console.log('Verschiebung: Josef am Samstag vor Palmsonntag');
     }
 
@@ -718,22 +718,22 @@ export function processBrevierData(todayDate) {
     if (todayInfo.swdCombined === 'o-2-1' &&
         (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
         const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
-        calendarDate = verkuendigungDate;
+        dateToRead = verkuendigungDate;
         console.log('Verschiebung: Verkündigung des Herrn auf Montag nach der Osteroktav');
     }
 
-    if (isSacredHeart === 1 && isSollemnity(1)) {
-        calendarDate = isSollemnity(1);
+    if (isSacredHeart === 1 && upcomingSollemnity(1)) {
+        dateToRead = upcomingSollemnity(1);
         console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
     }
-    if (isSacredHeart === 2 && isSollemnity(2)) {
-        nextDate = isSollemnity(2);
+    if (isSacredHeart === 2 && upcomingSollemnity(2)) {
+        nextDateToRead = upcomingSollemnity(2);
         console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
     }
 
     // Hole Stundendaten für den aktuellen und den morgigen Tag
-    const todayData = getPrayerTexts(brevierData, personalData, todayDate, calendarDate);
-    const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
+    const todayData = getPrayerTexts(brevierData, personalData, todayDate, dateToRead);
+    const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDateToRead);
 
     // Prüfe, ob erste Vesper benötigt wird
     const { season, dayOfWeek } = todayData;
@@ -803,7 +803,7 @@ export function processBrevierData(todayDate) {
     if (todayInfo.season === 'o')
         processEasterResponses(finalData);
 
-    const kompletSettings = processKompletData(finalData, calendarDate);
+    const kompletSettings = processKompletData(finalData, dateToRead);
     finalData.komplet = {
         wt: finalData.komplet.wt,
         pers: finalData.komplet?.pers || {},
