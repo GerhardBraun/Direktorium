@@ -100,7 +100,7 @@ export const getValue = ({
             || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0]
             || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.[checkAnt0])
         )
-    const hasEigPs = field.startsWith('psalm')
+    const hasObligPs = field.startsWith('psalm')
         && (texts[hour][prefSrc]?.psalm1
             || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.psalm1
             //    || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
@@ -136,17 +136,20 @@ export const getValue = ({
 
     // Sonderfall Ergänzungspsalmodie
     if (isPsalmodie && !localPrefPsalmsWt
-        && (isSollemnity
+        && ((isSollemnity && rank.wt < 5)
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
             || (hour === 'laudes' && rank?.useFeastPsalms)
         )) {
-        if (!psalm51 && !hasAnt0 && !hasEigPs) {
+        if (!psalm51 && !hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
                 || sollemnitiesData.soll.each?.[hour]?.[languageField]
                 || sollemnitiesData.soll.each?.[hour]?.[field]
 
-            if (data) return replaceErgPs(data)
+            if (data) {
+                console.log('ErgPs: ', prefSrc, hour, field, data);
+                return replaceErgPs(data)
+            }
         }
     }
 
