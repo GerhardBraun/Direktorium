@@ -214,7 +214,7 @@ export const personalData = {
     "last": {
       "each": {
         "Laudes": {
-          "hymn_1": 0.0
+          "hymn_1": 0
         },
         "Lesehore": {
           "hymn_1": 0.0

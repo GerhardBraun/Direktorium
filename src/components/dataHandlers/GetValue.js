@@ -134,10 +134,10 @@ export const getValue = ({
     if (prefSollemnity && field.startsWith('oration'))
         return result(texts.laudes[prefSrc]);
 
-    // Sonderfall Ergänzungspsalmodie
+    // Sonderfall Ergänzungspsalmodie bzw. Laudes-Festpsalmen
     if (isPsalmodie && !localPrefPsalmsWt
-        && ((isSollemnity && rank.wt < 5)
-            || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
+        && ((isTSN && (rank?.useComplementaryPsalms || localPrefErgPs)
+            && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
             || (hour === 'laudes' && rank?.useFeastPsalms)
         )) {
         if (!psalm51 && !hasAnt0 && !hasObligPs) {
@@ -146,10 +146,7 @@ export const getValue = ({
                 || sollemnitiesData.soll.each?.[hour]?.[languageField]
                 || sollemnitiesData.soll.each?.[hour]?.[field]
 
-            if (data) {
-                console.log('ErgPs: ', prefSrc, hour, field, data);
-                return replaceErgPs(data)
-            }
+            if (data) return replaceErgPs(data)
         }
     }
 

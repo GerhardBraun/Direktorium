@@ -9407,6 +9407,9 @@ export const brevierData = {
           "ant0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus.^ALLo"
         },
         "Lesehore": {
+          "hymn_1": 3414.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "psalm1": 68.1,
           "psalm2": 68.2,
           "psalm3": 68.3,
@@ -9427,6 +9430,9 @@ export const brevierData = {
           "les_text_neu": ""
         },
         "Laudes": {
+          "hymn_1": 3424.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant1": "Ihr Männer von Galiläa, was schaut ihr auf zum Himmel? Wie dieser Jesus vor euren Augen zum Himmel emporstieg, so kommt er wieder.^HALLo",
           "ant2": "Preist den König der Könige. Singt das Lob unseres Gottes.^HALLo",
           "ant3": "Vor ihren Augen wurde Jesus erhoben. Eine Wolke nahm ihn auf und entzog ihn ihren Blicken.^HALLo",

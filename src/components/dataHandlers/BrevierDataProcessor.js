@@ -201,7 +201,11 @@ function mergeData(hours, newData, source) {
     });
 }
 
-function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // für verschobene Hochfeste kann deren dateToRead eigens angegeben werden
+function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
+    // date ist das gewählte aktuelle Datum;
+    // dafür werden die wt- und swd-Werte gelesen.
+    // dateToRead ist das ursprüngliche Datum eines evtl. verlegten Hochfestes;
+    // dafür wird rank_date und die oblig-Source gelesen
     dateToRead = dateToRead ?? date
     const {
         season, week, dayOfWeek,
@@ -210,10 +214,11 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // 
         rank_wt,
         afterPentecost,
         isCommemoration,
-        hasVigil,
-        date: dateFormats,
+        hasVigil
     } = getLiturgicalInfo(date);
-    const { rank_date } = getLiturgicalInfo(dateToRead);
+    const {
+        rank_date, date: dateFormats
+    } = getLiturgicalInfo(dateToRead);
 
     const passThrough = {}
     if (isCommemoration) passThrough.isCommemoration = true;
@@ -250,7 +255,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // 
         } else if (calendarMonth === 1 && calendarDay < 13 && season === 'w') {
             return calendarDay < 6 ? 'christmas' : 'christmasLast';
         } else if (season === 'o' &&
-            (week === 7 || (week === 6 && dayOfWeek > 3)))
+            (week === 7 || (week === 6 && dayOfWeek > 4)))
             return 'easterLast';
         else return '';
     }
@@ -259,6 +264,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // 
         ['each', dayOfWeek].forEach(key => {
             const layerData = brevierData?.[source]?.[week]?.[key];
             const personalLayerData = personalData?.[source]?.[week]?.[key];
+            if (week === 'last') console.log('Lade last layer:', source, key, personalLayerData);
             const lecture1LayerData = lecture1Data?.[source]?.[week]?.[key];
             const lectureLayerData = lectureData?.[source]?.[week]?.[key];
             const lectureALayerData = lectureABCData?.[source]?.[week]?.[key]?.a;
@@ -284,8 +290,8 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // 
             const ordSeasonData = dataPool?.wt?.[season];
             [ordData, ordEvenData, ordSeasonData].forEach(layer => {
                 if (layer) {
-                    if (layer.each) mergeData(hours, layer.each, mergeSource);
-                    if (layer[dayOfWeek]) mergeData(hours, layer[dayOfWeek], mergeSource);
+                    mergeData(hours, layer.each, mergeSource);
+                    mergeData(hours, layer[dayOfWeek], mergeSource);
                 }
             });
         });
@@ -304,12 +310,13 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {   // 
 
         const useDateAndLast = processUseDateAndLast();
 
-        // Layer 4: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
+        // Layer 4: Texte für den einzelnen Tag
+        addLayer(season, week, dayOfWeek);
+
+        // Layer 5: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
+        // (nach dem wochenbasierten Layer, damit spezifischere 'last'-Einträge Vorrang haben)
         if (useDateAndLast.includes('Last'))
             addLayer(season, 'last', dayOfWeek);
-
-        // Layer 5: Texte für den einzelnen Tag
-        addLayer(season, week, dayOfWeek);
 
         // Layer 6: 17. Dez. bis Taufe des Herrn (wt nach Kalendertag) mit Weihnachtsoktav
         // easterLast: entsprechende Einträge existieren in 'k' und 'kso' nicht
@@ -699,13 +706,18 @@ export function processBrevierData(todayDate) {
     let dateToRead = todayDate;
     let nextDateToRead = tomorrowDate;
 
+    // allgemeiner Fall: Gestern trafen zwei Hochfeste aufeinander,
+    // das Heiligen-Hochfest wird deshalb heute nachgefeiert,
+    // wenn nicht auch heute ein Hochfest des Kirchenjahres oder Herz Mariae ist
     if (yesterdayInfo.rank_wt === 5 && yesterdayInfo.rank_date === 5
         && todayInfo.rank_wt < 5 && isSacredHeart !== 46) {
         dateToRead = yesterdayDate;
         console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
     }
 
-    // Verschiebung Josef
+    // Josef: Hochfest wird auf den heutigen Samstag vor Palmsonntag vergezogen,
+    // wenn der 19. März in die Karwoche fällt,
+    // also heute spätestens der 18. März ist
     if (todayInfo.swdCombined === 'q-5-6' &&
         (todayMonth === 3 && todayDay < 19)) {
         // Erstelle ein neues Date-Objekt für den 19. März
@@ -714,7 +726,9 @@ export function processBrevierData(todayDate) {
         console.log('Verschiebung: Josef am Samstag vor Palmsonntag');
     }
 
-    // Verschiebung Verkündigung des Herrn
+    // Verkündigung des Herrn: Hochfest wird auf den heutigen Montag nach dem Weißen Sonntag verlegt,
+    // wenn der 25. März in die Karwoche oder die Osteroktav fällt,
+    // also der heute spätestens der 9. April ist
     if (todayInfo.swdCombined === 'o-2-1' &&
         (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
         const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
@@ -722,11 +736,20 @@ export function processBrevierData(todayDate) {
         console.log('Verschiebung: Verkündigung des Herrn auf Montag nach der Osteroktav');
     }
 
+    // ein Heiligen-Hochfest, das mit Herz Jesu zusammenfällt,
+    // wird nicht auf den nächsten Tag verlegt
+    // (s.o. allgemeiner Fall: isSacredHeart!==46),
+    // sondern vorgezogen
     if (isSacredHeart === 1 && upcomingSollemnity(1)) {
+        // Heute ist Donnerstag vor Herz-Jesu-Fest,
+        // morgen wäre ein Hochfest, das deshalb heute gefeiert wird
         dateToRead = upcomingSollemnity(1);
         console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
     }
     if (isSacredHeart === 2 && upcomingSollemnity(2)) {
+        // Heute ist Mittwoch vor Herz-Jesu-Fest,
+        // übermorgen wäre ein Hochfest, das deshalb morgen gefeiert wird
+        // und für das heute die 1. Vesper gebraucht wird
         nextDateToRead = upcomingSollemnity(2);
         console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
     }
@@ -826,6 +849,15 @@ export function processBrevierData(todayDate) {
         // für Agnes (21.1.) und Josef der Arbeiter (1.5.) in den Eigentexten eingetragen, da andere Optionen wählbar sind
         ['06-11', '08-29', '09-15', '10-02', '10-07', '11-11'].includes(mmdd);
     if (useFeastPsalms) finalData.rank.useFeastPsalms = true;
+
+    const useComplementaryPsalms =
+        // Hochfeste mit Ergänzungspsalmodie
+        [40, 44, 45].includes(todayInfo.afterPentecost) // Dreifaltigkeitssonntag, Fronleichnam, Herz-Jesu-Fest
+        || swdCombined === 'j-34-0' // Christkönigssonntag
+        // sonstige Hochfeste im Kirchenjahr (rank_wt=5) haben eigene Psalmen
+        || (rank_date === 5 && !['01-06', '12-25'].includes(mmdd)) // Hochfeste außer Weihnachten und Epiphanie
+        || (rank_date === 4 && dayOfWeek === 0) // Herrenfeste am Sonntag
+    if (useComplementaryPsalms) finalData.rank.useComplementaryPsalms = true;
 
     // alternative Psalmen an Aschermittwoch (Laudes) und Gründonnerstag (Lesehore)
     if (swdCombined === 'q-0-3' || swdCombined === 'q-6-4')

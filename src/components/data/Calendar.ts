@@ -16072,72 +16072,6 @@ export const calendarData: CalendarData = {
       }
     }
   },
-  "Trier": {
-    "5": {
-      "15": {
-        "d1": {
-          "major": {
-            "comm_1": "Mann",
-            "comm_2": "Mann_Ord",
-            "oration": "Gott, du bist die Liebe. Du hast die Kirche gelehrt, dass wir dein Gebot erfüllen, wenn wir dich und unseren Nächsten lieben. Hilf uns nach dem Vorbild des heiligen Rupert die Werke der Liebe zu tun, und nimm uns beim Gericht in die Schar deiner Auserwählten auf.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Hildegard von Bingen (†°1179)",
-            "patr_werk": "Nach einer Schrift  – übertragen von Jakob Köbel 1524.",
-            "patr_text": "^hVerkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach^pDer heilige Rupert war durch die Gnade Gottes sehr barmherzig gegen die Armen. Schon als Kind führte er arme Kinder zu seiner Mutter und sprach: „Sieh Mutter,das sind deine Kinder!“ Dies gefiel seiner Mutter und sie antwortete ihm: „Mein Sohn, das sind deine Brüder.“^pAls Rupert sieben Jahre alt war, sprach seine Mutter zu ihm: „Lieber Sohn, da wir so viel Gutes und Reichtum haben, wollen wir Gott zu Ehren und zu unserem Seelennutzen eine Kirche bauen.“ Auf diesen Vorschlag antwortete der heilige Rupert: „Nein, liebe Mutter, lass uns zuvor das tun, was uns die Heilige Schrift lehrt: Du sollst den Hungrigen dein Brot austeilen, die obdachlosen Armen ins Haus aufnehmen, einen Nackten bekleiden, dich deinen Verwandten nicht entziehen.“{1#Jes 58,7} Als dies die Mutter hörte, war sie sehr erfreut, dass ihr Sohn ihr einen solch guten Rat gab.^pDaher ließ sie mit ihrem Sohn an der Nahe etliche Wohnungen für die armen und einfachen Menschen erbauen, denen sie auch Nahrung und Kleidung durch zwei heiligmäßige Männer zuschickten. Einer davon war ein Priester mit Namen Wigbert, der andere war sonst einer von ihren Dienern.^pDer heilige Rupert vergaß aus Liebe zu Gott sein junges Alter und seine Adelsherkunft, so dass er oft den Armen die Füße wusch und ihnen Speise und Trank vorsetzte und ihnen ihr Bett machte. Das tat er treu bis zu seinem fünfzehnten Lebensjahr.^pMit Einwilligung seiner Mutter zog Rupert mit etlichen seiner Leute nach Rom, um die Apostelgräber der Heiligen Petrus und Paulus aufzusuchen.^pAls er sich eine Zeitlang in Rom aufhielt, fragten ihn einige Geistliche, aus welchem Land er käme und was sein Vorhaben sei. Rupert offenbarte ihnen die geheimen Wünsche seines Herzens. Da gaben sie ihm den Rat, er solle sich nach dem Evangelium richten, das da spricht: „Wenn du vollkommen sein willst, geh, verkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach.“{2#Mt 19,21}^pEr nahm sich ihren Rat zu Herzen. Als er wieder heimkam zu seiner Mutter, baute er in seinem Besitztum Kirchen und Häuser. Er teilte die Häuser unter sein Volk auf und verlieh ihnen die dazu notwendigen zeitlichen Güter. Als Gegenleistung erwartete er die Unterstützung für seine Mutter, solange sie leben würde.^pDesgleichen wünschte Rupert, dass diejenigen, die von ihm beschenkt worden waren, ihrerseits bedürftigen Menschen mit materieller Unterstützung zur Seite stehen.^pRupert selber wollte aus Liebe zu Gott Pilger werden und sein Herzogtum, Mutter, Hausgesinde und all sein Gut verlassen.^pNach Vollendung seines zwanzigsten Lebensjahres wurde Rupert von schwerem Fieber befallen. Im Traum erschien ihm des Nachts ein alter Mann, der ihm seinen nahe bevorstehenden Tod ankündigte. Nachdem Rupert diesen Traum seiner Mutter offenbart hatte, wurde sie sehr bekümmert.^pDreißig Tage lang währte die fieberhafte Erkrankung, dann nahm ihn Gott nach einem seligen Leben von dieser Welt, denn Gott wusste wohl, dass der frühe Tod für Rupert nützlicher war als ein langes Leben.^pNach seinem Tod wurde er in dem Gotteshaus begraben, das er und seine Mutter an der Nahe erbaut hatten.{3#@Rupertsberg (Bingerbrück)}",
-            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
-            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.^HALLo",
-            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
-          },
-          "Laudes": {
-            "button": "Hl. Rupert von Bingen",
-            "genitiv": "des heiligen Rupert"
-          }
-        }
-      },
-      "18": {
-        "d1": {
-          "major": {
-            "comm_1": "Jgfr_Ord",
-            "comm_2": "Frau_Erz",
-            "oration": "Allmächtiger und barmherziger Gott, du hast die selige ^(Schwester^) Blandine ^(Merten^) erwählt, als Lehrerin und Ordensfrau dir und den Menschen aus ganzem Herzen zu dienen. Höre auf ihre Fürsprache und gib, dass wir ihrem Beispiel der Demut und Liebe nacheifern und so allezeit deinen Willen erfüllen.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Blandine Merten (†1918)",
-            "patr_werk": "Auszüge aus ihren Aufzeichnungen und Briefen.",
-            "patr_text": "^hGlaube, Liebe und Wille Gottes^pDer Glaube ist eine übernatürliche Atmosphäre, die mich in allen Dingen und Geschöpfen Gott sehen lässt, die mir die unangenehmen und schmerzlichen Ereignisse, die Enttäuschungen, Demütigungen, Leiden aller Art als Beweis der Liebe einer allmächtigen Hand zeigt, die mich retten und heiligen will.^pDas gesammelte Herz ist immer bei Gott und versteht den Flüsterton seiner Liebe und seiner Wünsche. Nur wollen, was er will, und wünschen, dass sein heiliger Wille an mir und meiner Umgebung geschieht. Ein beständiges „Ja“ sein für alle Ereignisse seiner Vorsehung. Der Wille Gottes ist mir Nahrung, Erholung, Freude und Seligkeit; er ist mir auch Kampf, Läuterung und Heiligung. Heiliger Wille meines Gottes, über alles liebe ich dich! Lass mich dir allein vertrauen, du mein Gott, mein Alles!^pDer liebende Gott braucht nicht hohe außergewöhnliche Werke; er will nur Liebe. Die Liebe schöpft ihr Leben aus dem Glauben. Man muss allzeit glauben an die übergroßen Liebe, die im Gottesherzen für uns schlägt. Die Liebe wächst mit der Erkenntnis, und die Erkenntnis mit unserer Opferbereitschaft.^pWie herzlich danke ich Gott für alle Leiden, die er auf meinem Lebensweg gestreut hat! Leiden löst vom Irdischen; es hebt und stärkt die Seele und ist die beste Schule der Liebe. Leiden läutert und vereinigt aufs innigste mit Jesus.^pIch rüste mich jetzt auf die erste Begegnung mit dem lieben Heiland. Welch unsagbarer feierlicher Augenblick wird dies sein! Ich freue mich und sehne mich danach. Der Gedanke, dass sein Licht mir die Finsternis des Todes erhellen wird und dass seine Hand mich nicht fallen lässt, gibt mir Mut und Freudigkeit. Wie leicht ist der Tod, wenn man auf Erden nur den geliebt hat, der dann unser Richter sein soll!",
-            "patr_resp1": "Übergroß war die Gnade unseres Herrn, die mir in Christus Jesus den Glauben und die Liebe schenkte.",
-            "patr_resp2": "Die Liebe ist das Band, das alles zusammenhält und vollkommen macht.^HALLo",
-            "patr_resp3": "Die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns geschenkt wurde."
-          },
-          "Laudes": {
-            "button": "Sel. Blandine Merten",
-            "genitiv": "der seligen Schwester Blandine"
-          }
-        }
-      },
-      "29": {
-        "oblig": {
-          "major": {
-            "comm_1": "Hirten",
-            "oration": "Allmächtiger Gott, durch den Dienst des heiligen Bischofs Maximin hast du die Frohe Botschaft in unserem Land verbreitet und das Volk unserer Heimat aus der Finsternis in dein wunderbares Licht geführt. in Freude gedenken wir heute dieses Lehrers im rechten Glauben. Lass uns dankbar bewahren, was er uns gelehrt, und erlangen, was du uns verheißen hast.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "LEER",
-            "patr_werk": "Aus einer Lebensbeschreibung des Heiligen Maximin.",
-            "patr_text": "^hJesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott“^pBischof Maximin wurde in die Auseinandersetzungen hineingezogen, die damals die Kirche aufwühlten. Vereinfachend gesagt ging es dabei um die Person Christi. War er bloß ein von Gott besonders ausgezeichneter Mensch? Oder war er wahrer Gott und wahrer Mensch in einer Person, Gott, des ewigen Vaters, einziger, Mensch gewordener Sohn?^pBis heute bekennen wir den Christus-Glauben des ersten ökumenischen Konzils im Credo der Messe: Jesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott; gezeugt, nicht geschaffen, eines Wesens mit dem Vater“.^pDer konsequenteste Verfechter des Christusbekenntnisses von Nizäa war der hl. Athanasius .Er widersetzte sich auch dem Kaiser, als dieser einen Kompromiss mit den Arianern suchte. Daraufhin verbannte ihn Konstantin an das andere Ende des Reiches. Der Verbannungsort hieß Trier.^pIm Frühjahr 336 kam Athanasius in Trier an. Der heilige Hieronymus, der selbst einige Jahrzehnte später eine Zeitlang in Trier gelebt hat, schreibt: „Mit allen Ehren“ nahm der Bischof von Trier den verbannten Athanasius auf. Bischof Maximin ergriff auch theologisch für Athanasius Partei. Mit ihm stand er in der vordersten Reihe der Verteidiger der Gottheit Christi.^pDie mittelalterlichen Lebensbeschreibungen erzählen, dass Maximin vor seinem Tod noch einmal seine Familie habe sehen wollen. Er sei dann unerwarteterweise in der aquitanischen Heimat, in der Nähe von Silly im Bistum Poitiers, gestorben. Sein Nachfolger Paulinus habe die Gebeine Maximins nach Trier überführen lassen und sie in der Johanneskirche auf dem nördlichen Gräberfeld Triers, jenseits der Porta Nigra, beigesetzt.^pWo Maximin begraben wurde, erhob sich schon wenige Jahre nach seinem Tod eine Cömiterialbasilika von beachtlichen Ausmaßen. Etwa 100 m lang und 25 m breit war die Friedhofskirche. In ihrem Ostteil, also dort, wo der Altar stand, schloss sie die überwölbten Gräber der Bischöfe Agritius und Maximin mit ein.^pWelche Verehrung Maximin damals schon genoss, beweisen hunderte von Sarkophagen, die in mehreren Schichten übereinanderliegend sich dicht an die Gräber der Bischöfe Agritius und Maximin herandrängen. Unter dem Schutz dieser Freunde Gottes hoffte man, das Jüngste Gericht besser zu überstehen und im Gefolge der Heiligen direkt in den Himmel zu kommen.^pIm Mittelalter entstand die Einrichtung jährlicher Pflichtprozessionen zur Abtei St. Maximin in Trier. Etwa 50 Ortschaften, hauptsächlich aus dem heutigen Luxemburg, waren verpflichtet, Jahr für Jahr sich in Trier am Grab des hl. Maximin einzufinden.",
-            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
-            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.^HALLo",
-            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
-          },
-          "Laudes": {
-            "button": "Hl. Maximin",
-            "genitiv": "des heiligen Maximin"
-          }
-        }
-      }
-    }
-  },
   "Aachen": {
     "99": {
       "1": {
@@ -16651,6 +16585,72 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Straßburg"
+          }
+        }
+      }
+    }
+  },
+  "Trier": {
+    "5": {
+      "15": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "comm_2": "Mann_Ord",
+            "oration": "Gott, du bist die Liebe. Du hast die Kirche gelehrt, dass wir dein Gebot erfüllen, wenn wir dich und unseren Nächsten lieben. Hilf uns nach dem Vorbild des heiligen Rupert die Werke der Liebe zu tun, und nimm uns beim Gericht in die Schar deiner Auserwählten auf.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Hildegard von Bingen (†°1179)",
+            "patr_werk": "Nach einer Schrift  – übertragen von Jakob Köbel 1524.",
+            "patr_text": "^hVerkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach^pDer heilige Rupert war durch die Gnade Gottes sehr barmherzig gegen die Armen. Schon als Kind führte er arme Kinder zu seiner Mutter und sprach: „Sieh Mutter,das sind deine Kinder!“ Dies gefiel seiner Mutter und sie antwortete ihm: „Mein Sohn, das sind deine Brüder.“^pAls Rupert sieben Jahre alt war, sprach seine Mutter zu ihm: „Lieber Sohn, da wir so viel Gutes und Reichtum haben, wollen wir Gott zu Ehren und zu unserem Seelennutzen eine Kirche bauen.“ Auf diesen Vorschlag antwortete der heilige Rupert: „Nein, liebe Mutter, lass uns zuvor das tun, was uns die Heilige Schrift lehrt: Du sollst den Hungrigen dein Brot austeilen, die obdachlosen Armen ins Haus aufnehmen, einen Nackten bekleiden, dich deinen Verwandten nicht entziehen.“{1#Jes 58,7} Als dies die Mutter hörte, war sie sehr erfreut, dass ihr Sohn ihr einen solch guten Rat gab.^pDaher ließ sie mit ihrem Sohn an der Nahe etliche Wohnungen für die armen und einfachen Menschen erbauen, denen sie auch Nahrung und Kleidung durch zwei heiligmäßige Männer zuschickten. Einer davon war ein Priester mit Namen Wigbert, der andere war sonst einer von ihren Dienern.^pDer heilige Rupert vergaß aus Liebe zu Gott sein junges Alter und seine Adelsherkunft, so dass er oft den Armen die Füße wusch und ihnen Speise und Trank vorsetzte und ihnen ihr Bett machte. Das tat er treu bis zu seinem fünfzehnten Lebensjahr.^pMit Einwilligung seiner Mutter zog Rupert mit etlichen seiner Leute nach Rom, um die Apostelgräber der Heiligen Petrus und Paulus aufzusuchen.^pAls er sich eine Zeitlang in Rom aufhielt, fragten ihn einige Geistliche, aus welchem Land er käme und was sein Vorhaben sei. Rupert offenbarte ihnen die geheimen Wünsche seines Herzens. Da gaben sie ihm den Rat, er solle sich nach dem Evangelium richten, das da spricht: „Wenn du vollkommen sein willst, geh, verkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach.“{2#Mt 19,21}^pEr nahm sich ihren Rat zu Herzen. Als er wieder heimkam zu seiner Mutter, baute er in seinem Besitztum Kirchen und Häuser. Er teilte die Häuser unter sein Volk auf und verlieh ihnen die dazu notwendigen zeitlichen Güter. Als Gegenleistung erwartete er die Unterstützung für seine Mutter, solange sie leben würde.^pDesgleichen wünschte Rupert, dass diejenigen, die von ihm beschenkt worden waren, ihrerseits bedürftigen Menschen mit materieller Unterstützung zur Seite stehen.^pRupert selber wollte aus Liebe zu Gott Pilger werden und sein Herzogtum, Mutter, Hausgesinde und all sein Gut verlassen.^pNach Vollendung seines zwanzigsten Lebensjahres wurde Rupert von schwerem Fieber befallen. Im Traum erschien ihm des Nachts ein alter Mann, der ihm seinen nahe bevorstehenden Tod ankündigte. Nachdem Rupert diesen Traum seiner Mutter offenbart hatte, wurde sie sehr bekümmert.^pDreißig Tage lang währte die fieberhafte Erkrankung, dann nahm ihn Gott nach einem seligen Leben von dieser Welt, denn Gott wusste wohl, dass der frühe Tod für Rupert nützlicher war als ein langes Leben.^pNach seinem Tod wurde er in dem Gotteshaus begraben, das er und seine Mutter an der Nahe erbaut hatten.{3#@Rupertsberg (Bingerbrück)}",
+            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
+            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.^HALLo",
+            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
+          },
+          "Laudes": {
+            "button": "Hl. Rupert von Bingen",
+            "genitiv": "des heiligen Rupert"
+          }
+        }
+      },
+      "18": {
+        "d1": {
+          "major": {
+            "comm_1": "Jgfr_Ord",
+            "comm_2": "Frau_Erz",
+            "oration": "Allmächtiger und barmherziger Gott, du hast die selige ^(Schwester^) Blandine ^(Merten^) erwählt, als Lehrerin und Ordensfrau dir und den Menschen aus ganzem Herzen zu dienen. Höre auf ihre Fürsprache und gib, dass wir ihrem Beispiel der Demut und Liebe nacheifern und so allezeit deinen Willen erfüllen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Blandine Merten (†1918)",
+            "patr_werk": "Auszüge aus ihren Aufzeichnungen und Briefen.",
+            "patr_text": "^hGlaube, Liebe und Wille Gottes^pDer Glaube ist eine übernatürliche Atmosphäre, die mich in allen Dingen und Geschöpfen Gott sehen lässt, die mir die unangenehmen und schmerzlichen Ereignisse, die Enttäuschungen, Demütigungen, Leiden aller Art als Beweis der Liebe einer allmächtigen Hand zeigt, die mich retten und heiligen will.^pDas gesammelte Herz ist immer bei Gott und versteht den Flüsterton seiner Liebe und seiner Wünsche. Nur wollen, was er will, und wünschen, dass sein heiliger Wille an mir und meiner Umgebung geschieht. Ein beständiges „Ja“ sein für alle Ereignisse seiner Vorsehung. Der Wille Gottes ist mir Nahrung, Erholung, Freude und Seligkeit; er ist mir auch Kampf, Läuterung und Heiligung. Heiliger Wille meines Gottes, über alles liebe ich dich! Lass mich dir allein vertrauen, du mein Gott, mein Alles!^pDer liebende Gott braucht nicht hohe außergewöhnliche Werke; er will nur Liebe. Die Liebe schöpft ihr Leben aus dem Glauben. Man muss allzeit glauben an die übergroßen Liebe, die im Gottesherzen für uns schlägt. Die Liebe wächst mit der Erkenntnis, und die Erkenntnis mit unserer Opferbereitschaft.^pWie herzlich danke ich Gott für alle Leiden, die er auf meinem Lebensweg gestreut hat! Leiden löst vom Irdischen; es hebt und stärkt die Seele und ist die beste Schule der Liebe. Leiden läutert und vereinigt aufs innigste mit Jesus.^pIch rüste mich jetzt auf die erste Begegnung mit dem lieben Heiland. Welch unsagbarer feierlicher Augenblick wird dies sein! Ich freue mich und sehne mich danach. Der Gedanke, dass sein Licht mir die Finsternis des Todes erhellen wird und dass seine Hand mich nicht fallen lässt, gibt mir Mut und Freudigkeit. Wie leicht ist der Tod, wenn man auf Erden nur den geliebt hat, der dann unser Richter sein soll!",
+            "patr_resp1": "Übergroß war die Gnade unseres Herrn, die mir in Christus Jesus den Glauben und die Liebe schenkte.",
+            "patr_resp2": "Die Liebe ist das Band, das alles zusammenhält und vollkommen macht.^HALLo",
+            "patr_resp3": "Die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns geschenkt wurde."
+          },
+          "Laudes": {
+            "button": "Sel. Blandine Merten",
+            "genitiv": "der seligen Schwester Blandine"
+          }
+        }
+      },
+      "29": {
+        "oblig": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, durch den Dienst des heiligen Bischofs Maximin hast du die Frohe Botschaft in unserem Land verbreitet und das Volk unserer Heimat aus der Finsternis in dein wunderbares Licht geführt. in Freude gedenken wir heute dieses Lehrers im rechten Glauben. Lass uns dankbar bewahren, was er uns gelehrt, und erlangen, was du uns verheißen hast.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des Heiligen Maximin.",
+            "patr_text": "^hJesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott“^pBischof Maximin wurde in die Auseinandersetzungen hineingezogen, die damals die Kirche aufwühlten. Vereinfachend gesagt ging es dabei um die Person Christi. War er bloß ein von Gott besonders ausgezeichneter Mensch? Oder war er wahrer Gott und wahrer Mensch in einer Person, Gott, des ewigen Vaters, einziger, Mensch gewordener Sohn?^pBis heute bekennen wir den Christus-Glauben des ersten ökumenischen Konzils im Credo der Messe: Jesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott; gezeugt, nicht geschaffen, eines Wesens mit dem Vater“.^pDer konsequenteste Verfechter des Christusbekenntnisses von Nizäa war der hl. Athanasius .Er widersetzte sich auch dem Kaiser, als dieser einen Kompromiss mit den Arianern suchte. Daraufhin verbannte ihn Konstantin an das andere Ende des Reiches. Der Verbannungsort hieß Trier.^pIm Frühjahr 336 kam Athanasius in Trier an. Der heilige Hieronymus, der selbst einige Jahrzehnte später eine Zeitlang in Trier gelebt hat, schreibt: „Mit allen Ehren“ nahm der Bischof von Trier den verbannten Athanasius auf. Bischof Maximin ergriff auch theologisch für Athanasius Partei. Mit ihm stand er in der vordersten Reihe der Verteidiger der Gottheit Christi.^pDie mittelalterlichen Lebensbeschreibungen erzählen, dass Maximin vor seinem Tod noch einmal seine Familie habe sehen wollen. Er sei dann unerwarteterweise in der aquitanischen Heimat, in der Nähe von Silly im Bistum Poitiers, gestorben. Sein Nachfolger Paulinus habe die Gebeine Maximins nach Trier überführen lassen und sie in der Johanneskirche auf dem nördlichen Gräberfeld Triers, jenseits der Porta Nigra, beigesetzt.^pWo Maximin begraben wurde, erhob sich schon wenige Jahre nach seinem Tod eine Cömiterialbasilika von beachtlichen Ausmaßen. Etwa 100 m lang und 25 m breit war die Friedhofskirche. In ihrem Ostteil, also dort, wo der Altar stand, schloss sie die überwölbten Gräber der Bischöfe Agritius und Maximin mit ein.^pWelche Verehrung Maximin damals schon genoss, beweisen hunderte von Sarkophagen, die in mehreren Schichten übereinanderliegend sich dicht an die Gräber der Bischöfe Agritius und Maximin herandrängen. Unter dem Schutz dieser Freunde Gottes hoffte man, das Jüngste Gericht besser zu überstehen und im Gefolge der Heiligen direkt in den Himmel zu kommen.^pIm Mittelalter entstand die Einrichtung jährlicher Pflichtprozessionen zur Abtei St. Maximin in Trier. Etwa 50 Ortschaften, hauptsächlich aus dem heutigen Luxemburg, waren verpflichtet, Jahr für Jahr sich in Trier am Grab des hl. Maximin einzufinden.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.^HALLo",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Maximin",
+            "genitiv": "des heiligen Maximin"
           }
         }
       }
