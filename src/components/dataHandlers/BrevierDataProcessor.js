@@ -264,7 +264,6 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
         ['each', dayOfWeek].forEach(key => {
             const layerData = brevierData?.[source]?.[week]?.[key];
             const personalLayerData = personalData?.[source]?.[week]?.[key];
-            if (week === 'last') console.log('Lade last layer:', source, key, personalLayerData);
             const lecture1LayerData = lecture1Data?.[source]?.[week]?.[key];
             const lectureLayerData = lectureData?.[source]?.[week]?.[key];
             const lectureALayerData = lectureABCData?.[source]?.[week]?.[key]?.a;
@@ -737,18 +736,18 @@ export function processBrevierData(todayDate) {
     }
 
     // ein Heiligen-Hochfest, das mit Herz Jesu zusammenfällt,
-    // wird nicht auf den nächsten Tag verlegt
+    // wird nicht auf den nächsten Tag verlegt (wegen Herz Mariae)
     // (s.o. allgemeiner Fall: isSacredHeart!==46),
     // sondern vorgezogen
     if (isSacredHeart === 1 && upcomingSollemnity(1)) {
-        // Heute ist Donnerstag vor Herz-Jesu-Fest,
+        // Szenario: Heute ist Donnerstag vor Herz-Jesu-Fest,
         // morgen wäre ein Hochfest, das deshalb heute gefeiert wird
         dateToRead = upcomingSollemnity(1);
         console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
     }
     if (isSacredHeart === 2 && upcomingSollemnity(2)) {
-        // Heute ist Mittwoch vor Herz-Jesu-Fest,
-        // übermorgen wäre ein Hochfest, das deshalb morgen gefeiert wird
+        // Szenario: Heute ist Mittwoch vor Herz-Jesu-Fest,
+        // übermorgen wäre ein Hochfest, das deshalb schon morgen gefeiert wird
         // und für das heute die 1. Vesper gebraucht wird
         nextDateToRead = upcomingSollemnity(2);
         console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
