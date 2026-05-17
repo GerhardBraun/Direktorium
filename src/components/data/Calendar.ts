@@ -13546,63 +13546,6 @@ export const calendarData: CalendarData = {
       }
     }
   },
-  "Dresden-Meißen": {
-    "2": {
-      "3": {
-        "d1": {
-          "Lesehore": {
-            "hymn_1": 8203.1
-          },
-          "Laudes": {
-            "hymn_1": 8203.2
-          },
-          "Vesper": {
-            "hymn_1": 8203.2
-          }
-        },
-        "d11": {
-          "major": {
-            "comm_1": "MärtSg",
-            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Alojs Andricki (†°1943)",
-            "patr_werk": "Aus einem Brief am 9. März 1941 aus dem Dresdener Polizeigefängnis.",
-            "patr_text": "^h„Das ist der Wille Gottes, eure Heiligung“^pHeiligkeit ist ja die Übereinstimmung des Menschen in allem Denken und Tun mit Gott, dem allein Heiligen. Heiligkeit bedeutet die ganze Hingabe unseres Willens an den Willen Gottes.^pWir wissen, dass dies leichter gesagt wird als getan. Solange der eigene menschliche Wille vorherrscht, spürt man gar nicht die Schwierigkeiten. Aber da, wo der eigene Wille ausgeschaltet wird und man in Lagen und Umstände hineingeführt wird, die einem persönlich gar nicht erwünscht sind, da beginnt erst eigentlich so recht die Einfügung des eigenen Willens an einen höheren.^pAch, man kann gar nicht alles so aussprechen, was man in Gedanken erwägt. Aber bloße Einordnung, vielleicht noch mit Widerwillen erfüllt, ist nicht Heiligkeit. Zur Heiligkeit gehört der eigene freie und bejahende Wille, der dem Willen eines Höheren zugetan ist und das vor allem dann, wenn damit auch Leid und Entsagung verbunden ist.^pNun ist mir ja hier Gelegenheit geboten, diesen Weg der Heiligkeit zu gehen. Ich will ihn gehen so froh und freudig, als es mir möglich ist, denn es gilt ja, mit Gott eins zu werden.^pDieses Ziel hilft mir auch über alle menschlichen Schwächen, Wehmut – und ich brauch mich nicht zu schämen zu bekennen – über manche Augenblicke, da mir die Tränen über die Wangen rollen. Es gibt schon Stunden der tiefsten Verlassenheit, aber das muss ja sein, damit umso größer die Liebe und Freude Gottes in mir Raum gewinnen kann.^pUnerlässlich bei diesem Streben aber ist das Gebet, und ich danke Euch dafür mit meinem Gebet.^pNichts Schöneres gibt es, als hineinzuwachsen in die Gleichförmigkeit mit dem Willen Gottes, darin uns Seligkeit und Freude gegeben ist.",
-            "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
-            "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
-            "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen."
-          },
-          "Laudes": {
-            "button": "Sel. Alojs Andritzki",
-            "farbe": "r",
-            "nominativ": "Der heilige Alojs",
-            "genitiv": "des heiligen Alojs"
-          }
-        },
-        "d12": {
-          "major": {
-            "comm_1": "MärtSg",
-            "oration": "Knježe, naš Božo, sy zbóžneho martrarja a měšnika Alojsa ze swojej lubosću napjelnił, tak zo je w času wulkeje ćěsnosće swoje žiwjenje kaž pšeńčne zorno za bratrow podał; spožč nam na jeho zastupnistwo, zo wšón čłowječi strach přewinjemy a so z hódnymi słužownikami wěrnosće stanjemy. Přez Chrystusa, našeho Knjeza."
-          },
-          "Lesehore": {
-            "patr_autor": "Alojs Andricki (†°1943)",
-            "patr_werk": "Z lista 9. měrca 1941 z Drježdźanskeho policajskeho jastwa.",
-            "patr_text": "^h„To je wola Boža, waše swjatosćenje“^pSwjatosć je dźě přezjednosć čłowjeka we wšěm myslenju a jednanju z Bohom, jeničce swjatym. Swjatosć woznamjenja, swoju wolu dospołnje Božej woli podwolić.^pWěmy, zo je tole lóšo prajene hač sčinjene. Dołhož knježi swójska čłowječa wola, ćeže scyła njezačuješ. Ale tam, hdźež so swójska wola wuhasnje, a přińdźeš-li do połoženja a wobstejnosćow, kotrež sej wosobinsce scyła njepřeješ, tam započnješ poprawom hakle tak prawje swójsku wolu do wjetšeje zapołožić.^pAch, njemóžeš wšitko ani tak wuprajić, wo čimž w myslach rozwažuješ. Ale hdyž so jeničce zarjaduješ, a to traš samo hišće njelóštnje, njeje to swjatosć. K swjatosći słuša swójska swobodna a přihłosowaca wola, kotraž je woli wyšeho přichilena, a to předewšěm potom, hdyž maš ćerpjeć a něčeho so wzdać.^pNětko wšak mam tudy přiležnosć, tutón puć swjatosće kročić. Chcu po nim tak wjesele a radostnje hić, kaž je mi to móžno, přetož dźe wo to, zo so z Bohom zjednoćiš.^pTutón zaměr pomha mi přeze wšě čłowječe słabosće, stysknotu, a njetrjebam so hańbować ani wonych chwilow, w kotrychž su so mi sylzy wuronili. Přińdu wšak hodźiny najhłubšeje wopušćenosće, ale to drje dyrbi być, zo byštej so ćim bóle Boža lubosć a radosć we mni přisporjeć móhłoj.^pNjeparujomne w tymle prócowanju je modlenje, a dźakuju so Wam za Waš paćer, z tym zo so tež za Was modlu.^pNjeje ničo rjeńšeho, hač zo zrosćeš do přezjednosće z wolu Božej, w kotrejž nańdźeš zbóžnosć a radosć.",
-            "patr_resp1": "Derje sym wojował, sym doběhnył, wěru wobchował.",
-            "patr_resp2": "Za wěčnosć je mi přihotowana króna sprawnosće.",
-            "patr_resp3": "Mam wšo za škodu porno wyšemu póznaću Chrysta Jězusa, swojeho Knjeza. Chrystusa chcu spóznać a podźěl na jeho ćerpjenju měć, připodobnjeny jeho smjerći."
-          },
-          "Laudes": {
-            "button": "Zbóžny Alojs Andricki (sorbisch)",
-            "farbe": "r",
-            "nominativ": "Der heilige Alojs",
-            "genitiv": "des heiligen Alojs"
-          }
-        }
-      }
-    }
-  },
   "Fulda": {
     "2": {
       "4": {
@@ -14975,6 +14918,180 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Limburg": {
+    "5": {
+      "15": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Rupert!"
+          },
+          "Laudes": {
+            "les_buch": "Eph",
+            "les_stelle": "1,3-4",
+            "les_text": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns mit allem Segen seines Geistes gesegnet durch unsere Gemeinschaft mit Christus im Himmel. Denn in ihm hat er uns erwählt vor der Erschaffung der Welt, damit wir heilig und untadelig leben vor Gott.",
+            "les_text_neu": "",
+            "resp1": "Alles, was aus Gott geboren ist, besiegt die Welt.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
+            "referenz": "Trier-5-15-d1",
+            "button": "Hl. Rupert von Bingen",
+            "antev": "Niemand soll dich wegen deiner Jugend geringschätzen; sei den Gläubigen ein Vorbild in deinen Worten, im Leben, in der Liebe und im Glauben und lenke ihre Schritte auf den Weg des Friedens.^HALLo",
+            "hymn_1": 8515.1
+          },
+          "Vesper": {
+            "les_buch": "Weish",
+            "les_stelle": "4,13-16",
+            "les_text": "Früh vollendet, hat der Gerechte doch ein volles Leben gehabt; da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen. Die Leute sahen es, ohne es zu verstehen; sie nahmen es sich nicht zu Herzen, dass Gnade und Erbarmen seinen Auserwählten zuteil wird, Belohnung seinen Heiligen. Der Gerechte, der entschlafen ist, verurteilt die Frevler, die noch leben, die früh vollendete Jugend das hohe Alter des Ungerechten.",
+            "les_text_neu": "",
+            "resp1": "Ich betete, und es ward mir Weisheit gegeben.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Ich zog sie Zepter und Kronen vor und achtete Reichtum für nichts.",
+            "antev": "Wir verehren dich, heiliger Rupert, und preisen den mächtigen Gott, der Großes an dir getan und dich zur Heiligkeit geführt hat.^HALLo",
+            "hymn_1": 8515.1
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Limburg-05-15:Hildegard von Bingen (†°1179)",
+            "hymn_1": 1199.0
+          }
+        }
+      }
+    },
+    "6": {
+      "19": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag der heiligen Elisabeth!"
+          },
+          "Lesehore": {
+            "les_buch": "Aus dem Brief an die Philipper.",
+            "les_stelle": "3,7-4,1.4-9",
+            "les_text": "^hFreut euch im Herrn zu jeder Zeit^pWas mir damals ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen und in ihm zu sein. Nicht meine eigene Gerechtigkeit suche ich, die aus dem Gesetz hervorgeht, sondern jene, die durch den Glauben an Christus kommt, die Gerechtigkeit, die Gott aufgrund des Glaubens schenkt. Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen. So hoffe ich, auch zur Auferstehung von den Toten zu gelangen.^pNicht dass ich es schon erreicht hätte oder dass ich schon vollendet wäre. Aber ich strebe danach, es zu ergreifen, weil auch ich von Christus Jesus ergriffen worden bin. Brüder, ich bilde mir nicht ein, dass ich es schon ergriffen hätte. Eines aber tue ich: Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist. Das Ziel vor Augen, jage ich nach dem Siegespreis: der himmlischen Berufung, die Gott uns in Christus Jesus schenkt.^pDas wollen wir bedenken, wir Vollkommenen. Und wenn ihr anders über etwas denkt, wird Gott euch auch das offenbaren. Nur müssen wir festhalten, was wir erreicht haben. Ahmt auch ihr mich nach, Brüder, und achtet auf jene, die nach dem Vorbild leben, das ihr an uns habt. Denn viele – von denen ich oft zu euch gesprochen habe, doch jetzt unter Tränen spreche – leben als Feinde des Kreuzes Christi. Ihr Ende ist das Verderben, ihr Gott der Bauch, ihr Ruhm besteht in ihrer Schande; Irdisches haben sie im Sinn.^pUnsere Heimat aber ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.^pDarum, meine geliebten Brüder, nach denen ich mich sehne, meine Freude und mein Ehrenkranz, steht fest in der Gemeinschaft mit dem Herrn, liebe Brüder.^pFreut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in der Gemeinschaft mit Christus Jesus bewahren.^pSchließlich, Brüder: Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Was ihr gelernt und angenommen, gehört und an mir gesehen habt, das tut! Und der Gott des Friedens wird mit euch sein.",
+            "les_text_neu": "",
+            "resp1": "Die Welt und alle ihre Schönheit habe ich geringgeachtet aus Liebe zu Christus.",
+            "resp2": "Ihn habe ich gefunden, ihn liebe ich, an ihn habe ich geglaubt und mich ihm geweiht.",
+            "resp3": "Mein Herz fließt über von froher Kunde, ich weihe mein Lied dem König.",
+            "patr_autor": "Marianna Schrader OSB",
+            "patr_werk": "Aus dem Leben der hl. Elisabeth.",
+            "patr_text": "^hAuserwähltes Werkzeug Gottes^pZu den außergewöhnlich religiösen Menschen im Umkreis unserer Heimat gehört Elisabeth von Schönau. 1129 wurde sie geboren. Ihr Geburtsort und Familienname sind unbekannt geblieben. Doch lassen ihre verwandtschaftlichen Beziehungen erkennen, dass sie einem angesehenen Adelsgeschlecht entstammte.^pMit 12 Jahren wird sie, der Sitte ihrer Zeit entsprechend, von den Eltern dem noch jungen Kloster Schönau bei Nastätten (einst Diözese Trier, heute Diözese Limburg) zur Erziehung übergeben. In dieses Kloster trat sie dann selbst 1147 mit 18 Jahren ein.^pNichts deutete darauf hin, dass der jungen, immer etwas kränkelnden Nonne außergewöhnliche Erlebnisse bevorstehen sollten. Es ist bekannt, wie besonders ernst sie die übliche Askese des klösterlichen Lebens nahm, und dass ihre ältere mütterliche Freundin Hildegard von Bingen sie vor Übermaß warnte.^pDa Elisabeth eine ausgeprägte religiöse Natur besaß, fühlte sie sich, durchdrungen vom Bußgeist, verpflichtet, Gott mit harten Werken der Buße und Abtötung für die Sünden ihrer Zeit Sühne zu leisten. Aber ihr zarter, kränklicher Körper war diesen Kasteiungen nicht gewachsen.^pElisabeth war 23 Jahre alt, als sie nach einer schweren Krise die ersten Visionen hatte. In der Folgezeit wurden sie immer häufiger und erstreckten sich über 13 Jahre bis zu ihrem Tode. Ihre theologischen Visionen waren es, die ihren Ruf weithin verbreiteten. Viele Ratsuchenden haben sich mit ihren Problemen schriftlich an sie gewandt oder sind persönlich nach Schönau gekommen, um durch sie Hilfe und Auskunft zu erhalten.^pElisabeth hatte eine große Liebe zur Kirche. Im Bewusstsein ihrer besonderen Sendung richtete sie deshalb scharfe Mahnungen an Zeitgenossen, an Klerus und Volk.^pTrotz ihrer schwachen Gesundheit und häufigen Leiden wählte sie das Kloster 1157 zur Meisterin, ein Amt, das sie acht Jahre verwaltet.^pSie stirbt, erst 36 Jahre alt, am 18. Juni 1165. Ihre letzte Ruhestätte fand Elisabeth neben dem Hochaltar in der Abteikirche. Später wurden ihre sterblichen Überreste in eine eigens erbaute Elisabeth-Kapelle umgebettet.^pEine Plünderung durch schwedische Truppen zerstörte 1631 das Grab Elisabeths und zerstreute ihre Gebeine. Nur die Schädeldecke blieb erhalten und wird noch heute in der Kirche in einem neugotischen Reliquiar aus der Zeit der Jahrhundertwende zur Verehrung ausgesetzt. Diese Reliquie ist das letzte sichtbare Unterpfand, das von der Wirkungsstätte der Seherin, dem ehemaligen Benediktinerinnenkloster, und seiner einst hochberühmten Kirche erhalten blieb.^pDennoch ist Elisabeth nicht ganz vergessen, und das Zurücktreten in der allgemeinen Beachtung schmälert keineswegs ihre Bedeutung, die sie in ihrem Jahrhundert und für die Mitlebenden hatte.^pElisabeths Absicht war, den Ratsuchenden zu helfen, indem sie ihren Glauben auf den rechten Weg führen wollte. Dabei fühlte sie sich als auserwähltes Werkzeug Gottes, durch das er seinen Willen offenbarte.^pVon Schönau ausgehend setzte ihre kultische Verehrung ein, obwohl Elisabeth nie offiziell heiliggesprochen wurde. Dennoch hat das Martyrologium Romanum, das amtliche Verzeichnis der kirchlich anerkannten Heiligen, Elisabeth in der 1584 neu erarbeiteten Fassung als Heilige verzeichnet. Der Limburger Bischof Peter Josef Blum veranlasste die Aufnahme der Seherin in das Proprium Limburgense.",
+            "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
+            "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
+            "patr_resp3": "Nehmet euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun.",
+            "hymn_1": 8619.1
+          },
+          "major": {
+            "comm_1": "Frau_Ord",
+            "comm_2": "Frau",
+            "oration": "Gütiger Gott, mit deiner Hilfe ist die heilige Elisabeth Christus in seiner Armut und Demut nachgefolgt. Hilf uns, dass auch wir unserer Berufung treu bleiben und die Vollendung erreichen, zu der uns dein Sohn den Weg gezeigt hat,^ORR"
+          },
+          "Laudes": {
+            "button": "Hl. Elisabeth von Schönau",
+            "genitiv": "der heiligen Elisabeth",
+            "hymn_1": 8619.2
+          },
+          "Vesper": {
+            "antev": "Der Herr hat sie zu seiner Braut erwählt auf ewig, in Treue und Erbarmen.",
+            "hymn_1": 8619.1
+          }
+        }
+      }
+    },
+    "7": {
+      "6": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Goar!"
+          },
+          "Lesehore": {
+            "versikel0": "Der Herr führte den Gerechten auf geraden Wegen.",
+            "versikel1": "Und ließ in schauen das Gottesreich.",
+            "les_buch": "Aus dem ersten Brief an die Korinther.",
+            "les_stelle": "12,31b-13,13",
+            "les_text": "^hDas Hohelied der Liebe^pIch zeige euch jetzt noch einen anderen Weg, einen, der alles übersteigt:^pWenn ich in den Sprachen der Menschen und Engel redete,^lhätte aber die Liebe nicht,^lwäre ich dröhnendes Erz oder eine lärmende Pauke.^pUnd wenn ich prophetisch reden könnte^lund alle Geheimnisse wüsste^lund alle Erkenntnis hätte;^lwenn ich alle Glaubenskraft besäße^lund Berge damit versetzen könnte,^lhätte aber die Liebe nicht,^lwäre ich nichts.^pUnd wenn ich meine ganze Habe verschenkte^lund wenn ich meinen Leib dem Feuer übergäbe,^lhätte aber die Liebe nicht,^lnützte es mir nichts.^pDie Liebe ist langmütig,^ldie Liebe ist gütig.^lSie ereifert sich nicht,^lsie prahlt nicht,^lsie bläht sich nicht auf.^lSie handelt nicht ungehörig,^lsucht nicht ihren Vorteil,^llässt sich nicht zum Zorn reizen,^lträgt das Böse nicht nach.^lSie freut sich nicht über das Unrecht,^lsondern freut sich an der Wahrheit.^lSie erträgt alles,^lglaubt alles,^lhofft alles,^lhält allem stand.^lDie Liebe hört niemals auf.^pProphetisches Reden hat ein Ende,^lZungenrede verstummt,^lErkenntnis vergeht.^lDenn Stückwerk ist unser Erkennen,^lStückwerk unser prophetisches Reden;^lwenn aber das Vollendete kommt,^lvergeht alles Stückwerk.^pAls ich ein Kind war,^lredete ich wie ein Kind,^ldachte wie ein Kind^lund urteilte wie ein Kind.^lAls ich ein Mann wurde,^llegte ich ab, was Kind an mir war.^pJetzt schauen wir in einen Spiegel^lund sehen nur rätselhafte Umrisse,^ldann aber schauen wir von Angesicht zu Angesicht.^lJetzt erkenne ich unvollkommen,^ldann aber werde ich durch und durch erkennen,^lso wie ich auch durch und durch erkannt worden bin.^pFür jetzt bleiben Glaube, Hoffnung, Liebe,^ldiese drei;^ldoch am größten unter ihnen ist die Liebe.",
+            "resp1": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen.",
+            "resp2": "Wer in der Liebe bleibt, bleibt in Gott, und Gott bleibt in ihm.",
+            "resp3": "Wir wollen einander lieben; denn die Liebe ist aus Gott.",
+            "patr_autor": "LEER",
+            "patr_werk": "Nach der legendären Vita des heiligen Goar.",
+            "patr_text": "^hHerbergsvater der Müden und Hungrigen^pDie Gastlichkeit wurde dem Herbergsvater am Rhein Anlass einer Verleumdung beim Bischof von Trier. Goar führe ein ungeistliches Leben, sei unmäßig im Essen und Trinken.^pZwei Priester, die behaupteten, viel Böses von Goar zu wissen, schickte der Bischof zum Einsiedler, um die Anklage zu prüfen und Goar mit nach Trier zu bringen. Dort sollte er sich vor dem Bischof verantworten.^pWie all seinen Besuchern, setzte Goar auch den Abgesandten des Bischofs ein reichliches Mahl und Wein vor. Die beiden Priester lehnten jedoch die guten Gaben Gottes ab und empfahlen Goar Beherrschung und Maß im Essen und Trinken, die einem Priester besser anstünden als Schwelgerei. Goar antwortete, was ihnen aus Liebe angeboten würde, könnten sie unbedenklich auch mit Liebe annehmen.^pDie beiden Priester forderten dann Goar auf, unverzüglich mit ihnen nach Trier zum Bischof zu reisen. Die Reise nach Trier war ein mühseliger Weg, der über Berg und Tal führte. Während seine Begleiter bald erschöpft waren von Hitze, Hunger und Durst, schritt Goar weiter. Er hatte reichlichen Mundvorrat eingepackt.^pAls er nun sah, dass die beiden Priester vor Erschöpfung fast von ihren Pferden fielen, bot er ihnen eine Stärkung an. Diesmal widerstanden sie nicht.^pUnterwegs betete Goar, bis sie in Trier angelangt waren. Er begab sich sofort in eine Kirche, und die Priester suchten den Bischof auf. Der wunderte sich nun, dass statt der Gegner des Goar Bewunderer des Heiligen vor ihm standen.^pGoar konnte sich auch durch Wunder vor dem Bischof rechtfertigen. So wird erzählt, dass er im Audienzsaal des Bischofs seinen Habit an einen durchs Fenster einfallenden Sonnenstrahl aufgehängt habe.^pAn den Rhein zurückgekehrt, bat er den fränkischen König Sigisbert, ihm vor seinem Tod die Priester Agrippinus und Eusebius zu schicken. Drei Jahre darauf starb Goar in Gegenwart der beiden Priester in seiner Zelle am Rhein und wurde am Wocherbach begraben.",
+            "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos, und ihr habt mich aufgenommen.",
+            "patr_resp2": "Amen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
+            "patr_resp3": "Wer sich der Armen erbarmt, der liebt den Herrn.",
+            "hymn_1": 1199.0
+          },
+          "major": {
+            "comm_1": "Mann",
+            "oration": "Herr, unser Gott, in alter Zeit hast du den heiligen Goar gerufen, den Reisenden auf den Straßen am Rhein um Christi willen eine Herberge zu bereiten und in aller Not und Mühsal ihrer Reise beizustehen. Gib auch uns die Kraft, gut zu sein zu allen Menschen, die von uns Hilfe erhoffen.^ORV"
+          },
+          "Laudes": {
+            "button": "Hl. Goar",
+            "genitiv": "des heiligen Goar",
+            "antev": "Wohlan, du guter und getreuer Knecht. Weil du über weniges treu gewesen, will ich dich über vieles setzen; geh ein in die Freude deines Herrn."
+          },
+          "Vesper": {
+            "antev": "Dieser Mann hat die Welt und das Irdische verachtet; er hat triumphiert über sie und durch Wort und Tat sich Schätze gesammelt für den Himmel."
+          }
+        }
+      }
+    },
+    "8": {
+      "11": {
+        "oblig": {
+          "Vesper": {
+            "hymn_1": 8811.2,
+            "hymn_2": 8811.3
+          },
+          "ErsteV": {
+            "hymn_1": 8811.2,
+            "hymn_2": 8811.3
+          },
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIm Limburger Dom:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+            "oration_lat": "^RUBRIn Ecclesia cathedrali Limburgensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Limburg-08-11:Bischof Franz Rudolf Bornewasser (†°1951)",
+            "patr_werk": "Festpredigt zum Domjubiläum 1935",
+            "patr_text": "^hAller Geschichte letzter Sinn ist und bleibt die Ehre Gottes^pWie stehen wir oft so staunend und bewundernd vor den gewaltigen Domen des deutschen Mittelalters – Denkmälern des hochgespannten Selbstbewusstseins deutschen Bürgertums und deutscher Kaisermacht! Noch mehr Denkmäler der Hochblüte deutschen Kunstsinnes und Kunstschaffens, die das Märchen vom finsteren Mittelalter nur dort noch kümmerlich leben lässt, wo Nichtwissen und Übelwollen sich die Hand reichen.^pNoch mehr aber Denkmäler eines lebendigen Gottesbewusstseins in Bauherr, Künstler und Volk, die letzten Endes dem einen, ewigen, unendlichen, überweltlichen Gott aller Menschen, aller Völker und aller Zeiten Dome bauten, die weit hinausragten über die nüchternen Notwendigkeiten, die in unserer Zeit Norm und Richtschnur der Dinge sind und oft sein müssen.^pIhm dem Ewigen, wurden die Dome für Jahrtausende gebaut. Ihm, der da war, ehe denn die Berge wurden, aus denen die Steine auch für dieses Heiligtum gebrochen wurden. Ihm, der war, bevor die Wasser rauschten, die im Fluss drunten vorüberziehen. Ihm, der war, ehe die Sonne am Himmel stand, deren Strahlen sich brechen im leuchtenden Farbenglanz der Domfenster. Ihm, der noch sein wird, wenn einst in kommenden Jahrtausenden fremde Menschen im mit Moos überwachsenen Gestein die Formen des einstigen Georgsdomes suchen. Ihm, dem ewigen, unwandelbaren Gott, dem Ruhm und Ehre sei in Ewigkeit!^pDenn aller Geschichte letzter Sinn ist und bleibt die Ehre Gottes, eine Erkenntnis, die die gewaltigen Dome des deutschen Mittelalters uns künden, auch das zu Stein gewordene Gloria Dei des Limburger Domes.^pIn diesem Augenblick drängt sich uns allen wohl eine ernste Frage auf die Lippen. Die herrlichen Baudenkmale unserer Vorfahren, auch Limburgs Georgsdom, sind uns geblieben. Ist uns auch der Geist geblieben, in dem unsere Väter sie schufen? Ist die Gloria Dei, die Ehre Gottes, noch der treibende Gedanke im Denken und Wollen und Leben ihrer christlichen Nachfahren geblieben? Wer hätte den Mut, auf diese Frage ein klares Ja zu sagen?^pMöge Limburgs Dom auch für die kommenden Jahrhunderte das Symbol der Gloria Dei bleiben und Gotteswohnung, in der die Menschen der kommenden Zeit den Frieden für ihre Seele und Gottes Gnadenkraft für ihren Lebensweg finden! Möge er bleiben ein Zelt Gottes, Zelt des Friedens, der Kraft und des Mutes in der heutigen Zeit!",
+            "patr_resp1": "Herr, wenn dein Volk an dieser Stätte betet,",
+            "patr_resp2": "vergib ihm seine Sünden und zeige ihm den rechten Weg, auf dem es wandeln soll, und offenbare deine Herrlichkeit an dieser Stätte.",
+            "patr_resp3": "Der du Israel weidest, höre, der du Josephs Stamm wie eine Herde führst, der du über den Cherubim thronst,",
+            "hymn_1": 8811.1
+          },
+          "Laudes": {
+            "button": "Domkirchweihfest",
+            "hymn_1": 1139.0
+          },
+          "Messe": {
+            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
+            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
+            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
+            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+          }
+        }
+      }
+    }
+  },
+  "Köln": {
+    "5": {
+      "21": {
+        "oblig": {
+          "Laudes": {
+            "hymn_1": 8521.2,
+            "hymn_2": 1248.0,
+            "referenz": "AAA-5-21-n1",
+            "button": "Hl. Hermann Josef"
+          },
+          "Lesehore": {
+            "hymn_1": 8521.1
+          },
+          "Vesper": {
+            "hymn_1": 8521.1
+          }
+        }
+      }
+    }
+  },
   "Paderborn": {
     "7": {
       "23": {
@@ -15892,181 +16009,118 @@ export const calendarData: CalendarData = {
       }
     }
   },
-  "Limburg": {
-    "5": {
-      "15": {
-        "d1": {
-          "Invitatorium": {
-            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Rupert!"
-          },
-          "Lesehore": {
-            "hymn_1": 1199.0,
-            "les_buch": "Weish",
-            "les_stelle": "4,13-16",
-            "les_text": "Früh vollendet, hat der Gerechte doch ein volles Leben gehabt; da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen. Die Leute sahen es, ohne es zu verstehen; sie nahmen es sich nicht zu Herzen, dass Gnade und Erbarmen seinen Auserwählten zuteil wird, Belohnung seinen Heiligen. Der Gerechte, der entschlafen ist, verurteilt die Frevler, die noch leben, die früh vollendete Jugend das hohe Alter des Ungerechten.",
-            "les_text_neu": "",
-            "resp1": "Ich betete, und es ward mir Weisheit gegeben.",
-            "resp2": "Halleluja,°halleluja.",
-            "resp3": "Ich zog sie Zepter und Kronen vor und achtete Reichtum für nichts.",
-            "patr_autor": "^A:Limburg-05-15:Hildegard von Bingen (†°1179)"
-          },
-          "Laudes": {
-            "hymn_1": 8515.1,
-            "les_buch": "Eph",
-            "les_stelle": "1,3-4",
-            "les_text": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns mit allem Segen seines Geistes gesegnet durch unsere Gemeinschaft mit Christus im Himmel. Denn in ihm hat er uns erwählt vor der Erschaffung der Welt, damit wir heilig und untadelig leben vor Gott.",
-            "les_text_neu": "",
-            "resp1": "Alles, was aus Gott geboren ist, besiegt die Welt.",
-            "resp2": "Halleluja,°halleluja.",
-            "resp3": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
-            "referenz": "Trier-5-15-d1",
-            "button": "Hl. Rupert von Bingen",
-            "antev": "Niemand soll dich wegen deiner Jugend geringschätzen; sei den Gläubigen ein Vorbild in deinen Worten, im Leben, in der Liebe und im Glauben und lenke ihre Schritte auf den Weg des Friedens.^HALLo"
-          },
-          "Vesper": {
-            "hymn_1": 8515.1,
-            "les_buch": "Weish",
-            "les_stelle": "4,13-16",
-            "les_text": "Früh vollendet, hat der Gerechte doch ein volles Leben gehabt; da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen. Die Leute sahen es, ohne es zu verstehen; sie nahmen es sich nicht zu Herzen, dass Gnade und Erbarmen seinen Auserwählten zuteil wird, Belohnung seinen Heiligen. Der Gerechte, der entschlafen ist, verurteilt die Frevler, die noch leben, die früh vollendete Jugend das hohe Alter des Ungerechten.",
-            "les_text_neu": "",
-            "resp1": "Ich betete, und es ward mir Weisheit gegeben.",
-            "resp2": "Halleluja,°halleluja.",
-            "resp3": "Ich zog sie Zepter und Kronen vor und achtete Reichtum für nichts.",
-            "antev": "Wir verehren dich, heiliger Rupert, und preisen den mächtigen Gott, der Großes an dir getan und dich zur Heiligkeit geführt hat.^HALLo"
-          }
-        }
-      }
-    },
-    "6": {
-      "19": {
-        "d1": {
-          "Invitatorium": {
-            "ant0": "Lasst uns Gott loben am Gedenktag der heiligen Elisabeth!"
-          },
-          "Lesehore": {
-            "hymn_1": 8619.1,
-            "les_buch": "Aus dem Brief an die Philipper.",
-            "les_stelle": "3,7-4,1.4-9",
-            "les_text": "^hFreut euch im Herrn zu jeder Zeit^pWas mir damals ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen und in ihm zu sein. Nicht meine eigene Gerechtigkeit suche ich, die aus dem Gesetz hervorgeht, sondern jene, die durch den Glauben an Christus kommt, die Gerechtigkeit, die Gott aufgrund des Glaubens schenkt. Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen. So hoffe ich, auch zur Auferstehung von den Toten zu gelangen.^pNicht dass ich es schon erreicht hätte oder dass ich schon vollendet wäre. Aber ich strebe danach, es zu ergreifen, weil auch ich von Christus Jesus ergriffen worden bin. Brüder, ich bilde mir nicht ein, dass ich es schon ergriffen hätte. Eines aber tue ich: Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist. Das Ziel vor Augen, jage ich nach dem Siegespreis: der himmlischen Berufung, die Gott uns in Christus Jesus schenkt.^pDas wollen wir bedenken, wir Vollkommenen. Und wenn ihr anders über etwas denkt, wird Gott euch auch das offenbaren. Nur müssen wir festhalten, was wir erreicht haben. Ahmt auch ihr mich nach, Brüder, und achtet auf jene, die nach dem Vorbild leben, das ihr an uns habt. Denn viele – von denen ich oft zu euch gesprochen habe, doch jetzt unter Tränen spreche – leben als Feinde des Kreuzes Christi. Ihr Ende ist das Verderben, ihr Gott der Bauch, ihr Ruhm besteht in ihrer Schande; Irdisches haben sie im Sinn.^pUnsere Heimat aber ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.^pDarum, meine geliebten Brüder, nach denen ich mich sehne, meine Freude und mein Ehrenkranz, steht fest in der Gemeinschaft mit dem Herrn, liebe Brüder.^pFreut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in der Gemeinschaft mit Christus Jesus bewahren.^pSchließlich, Brüder: Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Was ihr gelernt und angenommen, gehört und an mir gesehen habt, das tut! Und der Gott des Friedens wird mit euch sein.",
-            "les_text_neu": "",
-            "resp1": "Die Welt und alle ihre Schönheit habe ich geringgeachtet aus Liebe zu Christus.",
-            "resp2": "Ihn habe ich gefunden, ihn liebe ich, an ihn habe ich geglaubt und mich ihm geweiht.",
-            "resp3": "Mein Herz fließt über von froher Kunde, ich weihe mein Lied dem König.",
-            "patr_autor": "Marianna Schrader OSB",
-            "patr_werk": "Aus dem Leben der hl. Elisabeth.",
-            "patr_text": "^hAuserwähltes Werkzeug Gottes^pZu den außergewöhnlich religiösen Menschen im Umkreis unserer Heimat gehört Elisabeth von Schönau. 1129 wurde sie geboren. Ihr Geburtsort und Familienname sind unbekannt geblieben. Doch lassen ihre verwandtschaftlichen Beziehungen erkennen, dass sie einem angesehenen Adelsgeschlecht entstammte.^pMit 12 Jahren wird sie, der Sitte ihrer Zeit entsprechend, von den Eltern dem noch jungen Kloster Schönau bei Nastätten (einst Diözese Trier, heute Diözese Limburg) zur Erziehung übergeben. In dieses Kloster trat sie dann selbst 1147 mit 18 Jahren ein.^pNichts deutete darauf hin, dass der jungen, immer etwas kränkelnden Nonne außergewöhnliche Erlebnisse bevorstehen sollten. Es ist bekannt, wie besonders ernst sie die übliche Askese des klösterlichen Lebens nahm, und dass ihre ältere mütterliche Freundin Hildegard von Bingen sie vor Übermaß warnte.^pDa Elisabeth eine ausgeprägte religiöse Natur besaß, fühlte sie sich, durchdrungen vom Bußgeist, verpflichtet, Gott mit harten Werken der Buße und Abtötung für die Sünden ihrer Zeit Sühne zu leisten. Aber ihr zarter, kränklicher Körper war diesen Kasteiungen nicht gewachsen.^pElisabeth war 23 Jahre alt, als sie nach einer schweren Krise die ersten Visionen hatte. In der Folgezeit wurden sie immer häufiger und erstreckten sich über 13 Jahre bis zu ihrem Tode. Ihre theologischen Visionen waren es, die ihren Ruf weithin verbreiteten. Viele Ratsuchenden haben sich mit ihren Problemen schriftlich an sie gewandt oder sind persönlich nach Schönau gekommen, um durch sie Hilfe und Auskunft zu erhalten.^pElisabeth hatte eine große Liebe zur Kirche. Im Bewusstsein ihrer besonderen Sendung richtete sie deshalb scharfe Mahnungen an Zeitgenossen, an Klerus und Volk.^pTrotz ihrer schwachen Gesundheit und häufigen Leiden wählte sie das Kloster 1157 zur Meisterin, ein Amt, das sie acht Jahre verwaltet.^pSie stirbt, erst 36 Jahre alt, am 18. Juni 1165. Ihre letzte Ruhestätte fand Elisabeth neben dem Hochaltar in der Abteikirche. Später wurden ihre sterblichen Überreste in eine eigens erbaute Elisabeth-Kapelle umgebettet.^pEine Plünderung durch schwedische Truppen zerstörte 1631 das Grab Elisabeths und zerstreute ihre Gebeine. Nur die Schädeldecke blieb erhalten und wird noch heute in der Kirche in einem neugotischen Reliquiar aus der Zeit der Jahrhundertwende zur Verehrung ausgesetzt. Diese Reliquie ist das letzte sichtbare Unterpfand, das von der Wirkungsstätte der Seherin, dem ehemaligen Benediktinerinnenkloster, und seiner einst hochberühmten Kirche erhalten blieb.^pDennoch ist Elisabeth nicht ganz vergessen, und das Zurücktreten in der allgemeinen Beachtung schmälert keineswegs ihre Bedeutung, die sie in ihrem Jahrhundert und für die Mitlebenden hatte.^pElisabeths Absicht war, den Ratsuchenden zu helfen, indem sie ihren Glauben auf den rechten Weg führen wollte. Dabei fühlte sie sich als auserwähltes Werkzeug Gottes, durch das er seinen Willen offenbarte.^pVon Schönau ausgehend setzte ihre kultische Verehrung ein, obwohl Elisabeth nie offiziell heiliggesprochen wurde. Dennoch hat das Martyrologium Romanum, das amtliche Verzeichnis der kirchlich anerkannten Heiligen, Elisabeth in der 1584 neu erarbeiteten Fassung als Heilige verzeichnet. Der Limburger Bischof Peter Josef Blum veranlasste die Aufnahme der Seherin in das Proprium Limburgense.",
-            "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
-            "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
-            "patr_resp3": "Nehmet euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun."
-          },
-          "Laudes": {
-            "hymn_1": 8619.2,
-            "button": "Hl. Elisabeth von Schönau",
-            "genitiv": "der heiligen Elisabeth"
-          },
-          "Vesper": {
-            "hymn_1": 8619.1,
-            "antev": "Der Herr hat sie zu seiner Braut erwählt auf ewig, in Treue und Erbarmen."
-          },
+  "Dresden-Meißen": {
+    "2": {
+      "3": {
+        "d11": {
           "major": {
-            "comm_1": "Frau_Ord",
-            "comm_2": "Frau",
-            "oration": "Gütiger Gott, mit deiner Hilfe ist die heilige Elisabeth Christus in seiner Armut und Demut nachgefolgt. Hilf uns, dass auch wir unserer Berufung treu bleiben und die Vollendung erreichen, zu der uns dein Sohn den Weg gezeigt hat,^ORR"
-          }
-        }
-      }
-    },
-    "7": {
-      "6": {
-        "d1": {
-          "Invitatorium": {
-            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Goar!"
+            "comm_1": "MärtSg",
+            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
           },
           "Lesehore": {
-            "hymn_1": 1199.0,
-            "versikel0": "Der Herr führte den Gerechten auf geraden Wegen.",
-            "versikel1": "Und ließ in schauen das Gottesreich.",
-            "les_buch": "Aus dem ersten Brief an die Korinther.",
-            "les_stelle": "12,31b-13,13",
-            "les_text": "^hDas Hohelied der Liebe^pIch zeige euch jetzt noch einen anderen Weg, einen, der alles übersteigt:^pWenn ich in den Sprachen der Menschen und Engel redete,^lhätte aber die Liebe nicht,^lwäre ich dröhnendes Erz oder eine lärmende Pauke.^pUnd wenn ich prophetisch reden könnte^lund alle Geheimnisse wüsste^lund alle Erkenntnis hätte;^lwenn ich alle Glaubenskraft besäße^lund Berge damit versetzen könnte,^lhätte aber die Liebe nicht,^lwäre ich nichts.^pUnd wenn ich meine ganze Habe verschenkte^lund wenn ich meinen Leib dem Feuer übergäbe,^lhätte aber die Liebe nicht,^lnützte es mir nichts.^pDie Liebe ist langmütig,^ldie Liebe ist gütig.^lSie ereifert sich nicht,^lsie prahlt nicht,^lsie bläht sich nicht auf.^lSie handelt nicht ungehörig,^lsucht nicht ihren Vorteil,^llässt sich nicht zum Zorn reizen,^lträgt das Böse nicht nach.^lSie freut sich nicht über das Unrecht,^lsondern freut sich an der Wahrheit.^lSie erträgt alles,^lglaubt alles,^lhofft alles,^lhält allem stand.^lDie Liebe hört niemals auf.^pProphetisches Reden hat ein Ende,^lZungenrede verstummt,^lErkenntnis vergeht.^lDenn Stückwerk ist unser Erkennen,^lStückwerk unser prophetisches Reden;^lwenn aber das Vollendete kommt,^lvergeht alles Stückwerk.^pAls ich ein Kind war,^lredete ich wie ein Kind,^ldachte wie ein Kind^lund urteilte wie ein Kind.^lAls ich ein Mann wurde,^llegte ich ab, was Kind an mir war.^pJetzt schauen wir in einen Spiegel^lund sehen nur rätselhafte Umrisse,^ldann aber schauen wir von Angesicht zu Angesicht.^lJetzt erkenne ich unvollkommen,^ldann aber werde ich durch und durch erkennen,^lso wie ich auch durch und durch erkannt worden bin.^pFür jetzt bleiben Glaube, Hoffnung, Liebe,^ldiese drei;^ldoch am größten unter ihnen ist die Liebe.",
-            "resp1": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen.",
-            "resp2": "Wer in der Liebe bleibt, bleibt in Gott, und Gott bleibt in ihm.",
-            "resp3": "Wir wollen einander lieben; denn die Liebe ist aus Gott.",
-            "patr_autor": "LEER",
-            "patr_werk": "Nach der legendären Vita des heiligen Goar.",
-            "patr_text": "^hHerbergsvater der Müden und Hungrigen^pDie Gastlichkeit wurde dem Herbergsvater am Rhein Anlass einer Verleumdung beim Bischof von Trier. Goar führe ein ungeistliches Leben, sei unmäßig im Essen und Trinken.^pZwei Priester, die behaupteten, viel Böses von Goar zu wissen, schickte der Bischof zum Einsiedler, um die Anklage zu prüfen und Goar mit nach Trier zu bringen. Dort sollte er sich vor dem Bischof verantworten.^pWie all seinen Besuchern, setzte Goar auch den Abgesandten des Bischofs ein reichliches Mahl und Wein vor. Die beiden Priester lehnten jedoch die guten Gaben Gottes ab und empfahlen Goar Beherrschung und Maß im Essen und Trinken, die einem Priester besser anstünden als Schwelgerei. Goar antwortete, was ihnen aus Liebe angeboten würde, könnten sie unbedenklich auch mit Liebe annehmen.^pDie beiden Priester forderten dann Goar auf, unverzüglich mit ihnen nach Trier zum Bischof zu reisen. Die Reise nach Trier war ein mühseliger Weg, der über Berg und Tal führte. Während seine Begleiter bald erschöpft waren von Hitze, Hunger und Durst, schritt Goar weiter. Er hatte reichlichen Mundvorrat eingepackt.^pAls er nun sah, dass die beiden Priester vor Erschöpfung fast von ihren Pferden fielen, bot er ihnen eine Stärkung an. Diesmal widerstanden sie nicht.^pUnterwegs betete Goar, bis sie in Trier angelangt waren. Er begab sich sofort in eine Kirche, und die Priester suchten den Bischof auf. Der wunderte sich nun, dass statt der Gegner des Goar Bewunderer des Heiligen vor ihm standen.^pGoar konnte sich auch durch Wunder vor dem Bischof rechtfertigen. So wird erzählt, dass er im Audienzsaal des Bischofs seinen Habit an einen durchs Fenster einfallenden Sonnenstrahl aufgehängt habe.^pAn den Rhein zurückgekehrt, bat er den fränkischen König Sigisbert, ihm vor seinem Tod die Priester Agrippinus und Eusebius zu schicken. Drei Jahre darauf starb Goar in Gegenwart der beiden Priester in seiner Zelle am Rhein und wurde am Wocherbach begraben.",
-            "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos, und ihr habt mich aufgenommen.",
-            "patr_resp2": "Amen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
-            "patr_resp3": "Wer sich der Armen erbarmt, der liebt den Herrn."
+            "patr_autor": "Alojs Andricki (†°1943)",
+            "patr_werk": "Aus einem Brief am 9. März 1941 aus dem Dresdener Polizeigefängnis.",
+            "patr_text": "^h„Das ist der Wille Gottes, eure Heiligung“^pHeiligkeit ist ja die Übereinstimmung des Menschen in allem Denken und Tun mit Gott, dem allein Heiligen. Heiligkeit bedeutet die ganze Hingabe unseres Willens an den Willen Gottes.^pWir wissen, dass dies leichter gesagt wird als getan. Solange der eigene menschliche Wille vorherrscht, spürt man gar nicht die Schwierigkeiten. Aber da, wo der eigene Wille ausgeschaltet wird und man in Lagen und Umstände hineingeführt wird, die einem persönlich gar nicht erwünscht sind, da beginnt erst eigentlich so recht die Einfügung des eigenen Willens an einen höheren.^pAch, man kann gar nicht alles so aussprechen, was man in Gedanken erwägt. Aber bloße Einordnung, vielleicht noch mit Widerwillen erfüllt, ist nicht Heiligkeit. Zur Heiligkeit gehört der eigene freie und bejahende Wille, der dem Willen eines Höheren zugetan ist und das vor allem dann, wenn damit auch Leid und Entsagung verbunden ist.^pNun ist mir ja hier Gelegenheit geboten, diesen Weg der Heiligkeit zu gehen. Ich will ihn gehen so froh und freudig, als es mir möglich ist, denn es gilt ja, mit Gott eins zu werden.^pDieses Ziel hilft mir auch über alle menschlichen Schwächen, Wehmut – und ich brauch mich nicht zu schämen zu bekennen – über manche Augenblicke, da mir die Tränen über die Wangen rollen. Es gibt schon Stunden der tiefsten Verlassenheit, aber das muss ja sein, damit umso größer die Liebe und Freude Gottes in mir Raum gewinnen kann.^pUnerlässlich bei diesem Streben aber ist das Gebet, und ich danke Euch dafür mit meinem Gebet.^pNichts Schöneres gibt es, als hineinzuwachsen in die Gleichförmigkeit mit dem Willen Gottes, darin uns Seligkeit und Freude gegeben ist.",
+            "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
+            "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
+            "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen.",
+            "hymn_1": 8203.1
           },
+          "Laudes": {
+            "button": "Sel. Alojs Andritzki",
+            "farbe": "r",
+            "nominativ": "Der heilige Alojs",
+            "genitiv": "des heiligen Alojs",
+            "hymn_1": 8203.2
+          },
+          "Vesper": {
+            "hymn_1": 8203.2
+          }
+        },
+        "d12": {
           "major": {
-            "comm_1": "Mann",
-            "oration": "Herr, unser Gott, in alter Zeit hast du den heiligen Goar gerufen, den Reisenden auf den Straßen am Rhein um Christi willen eine Herberge zu bereiten und in aller Not und Mühsal ihrer Reise beizustehen. Gib auch uns die Kraft, gut zu sein zu allen Menschen, die von uns Hilfe erhoffen.^ORV"
+            "comm_1": "MärtSg",
+            "oration": "Knježe, naš Božo, sy zbóžneho martrarja a měšnika Alojsa ze swojej lubosću napjelnił, tak zo je w času wulkeje ćěsnosće swoje žiwjenje kaž pšeńčne zorno za bratrow podał; spožč nam na jeho zastupnistwo, zo wšón čłowječi strach přewinjemy a so z hódnymi słužownikami wěrnosće stanjemy. Přez Chrystusa, našeho Knjeza."
           },
-          "Laudes": {
-            "button": "Hl. Goar",
-            "genitiv": "des heiligen Goar",
-            "antev": "Wohlan, du guter und getreuer Knecht. Weil du über weniges treu gewesen, will ich dich über vieles setzen; geh ein in die Freude deines Herrn."
-          },
-          "Vesper": {
-            "antev": "Dieser Mann hat die Welt und das Irdische verachtet; er hat triumphiert über sie und durch Wort und Tat sich Schätze gesammelt für den Himmel."
-          }
-        }
-      }
-    },
-    "8": {
-      "11": {
-        "oblig": {
           "Lesehore": {
-            "hymn_1": 8811.1,
-            "patr_autor": "^A:Limburg-08-11:Bischof Franz Rudolf Bornewasser (†°1951)",
-            "patr_werk": "Festpredigt zum Domjubiläum 1935",
-            "patr_text": "^hAller Geschichte letzter Sinn ist und bleibt die Ehre Gottes^pWie stehen wir oft so staunend und bewundernd vor den gewaltigen Domen des deutschen Mittelalters – Denkmälern des hochgespannten Selbstbewusstseins deutschen Bürgertums und deutscher Kaisermacht! Noch mehr Denkmäler der Hochblüte deutschen Kunstsinnes und Kunstschaffens, die das Märchen vom finsteren Mittelalter nur dort noch kümmerlich leben lässt, wo Nichtwissen und Übelwollen sich die Hand reichen.^pNoch mehr aber Denkmäler eines lebendigen Gottesbewusstseins in Bauherr, Künstler und Volk, die letzten Endes dem einen, ewigen, unendlichen, überweltlichen Gott aller Menschen, aller Völker und aller Zeiten Dome bauten, die weit hinausragten über die nüchternen Notwendigkeiten, die in unserer Zeit Norm und Richtschnur der Dinge sind und oft sein müssen.^pIhm dem Ewigen, wurden die Dome für Jahrtausende gebaut. Ihm, der da war, ehe denn die Berge wurden, aus denen die Steine auch für dieses Heiligtum gebrochen wurden. Ihm, der war, bevor die Wasser rauschten, die im Fluss drunten vorüberziehen. Ihm, der war, ehe die Sonne am Himmel stand, deren Strahlen sich brechen im leuchtenden Farbenglanz der Domfenster. Ihm, der noch sein wird, wenn einst in kommenden Jahrtausenden fremde Menschen im mit Moos überwachsenen Gestein die Formen des einstigen Georgsdomes suchen. Ihm, dem ewigen, unwandelbaren Gott, dem Ruhm und Ehre sei in Ewigkeit!^pDenn aller Geschichte letzter Sinn ist und bleibt die Ehre Gottes, eine Erkenntnis, die die gewaltigen Dome des deutschen Mittelalters uns künden, auch das zu Stein gewordene Gloria Dei des Limburger Domes.^pIn diesem Augenblick drängt sich uns allen wohl eine ernste Frage auf die Lippen. Die herrlichen Baudenkmale unserer Vorfahren, auch Limburgs Georgsdom, sind uns geblieben. Ist uns auch der Geist geblieben, in dem unsere Väter sie schufen? Ist die Gloria Dei, die Ehre Gottes, noch der treibende Gedanke im Denken und Wollen und Leben ihrer christlichen Nachfahren geblieben? Wer hätte den Mut, auf diese Frage ein klares Ja zu sagen?^pMöge Limburgs Dom auch für die kommenden Jahrhunderte das Symbol der Gloria Dei bleiben und Gotteswohnung, in der die Menschen der kommenden Zeit den Frieden für ihre Seele und Gottes Gnadenkraft für ihren Lebensweg finden! Möge er bleiben ein Zelt Gottes, Zelt des Friedens, der Kraft und des Mutes in der heutigen Zeit!",
-            "patr_resp1": "Herr, wenn dein Volk an dieser Stätte betet,",
-            "patr_resp2": "vergib ihm seine Sünden und zeige ihm den rechten Weg, auf dem es wandeln soll, und offenbare deine Herrlichkeit an dieser Stätte.",
-            "patr_resp3": "Der du Israel weidest, höre, der du Josephs Stamm wie eine Herde führst, der du über den Cherubim thronst,"
+            "patr_autor": "Alojs Andricki (†°1943)",
+            "patr_werk": "Z lista 9. měrca 1941 z Drježdźanskeho policajskeho jastwa.",
+            "patr_text": "^h„To je wola Boža, waše swjatosćenje“^pSwjatosć je dźě přezjednosć čłowjeka we wšěm myslenju a jednanju z Bohom, jeničce swjatym. Swjatosć woznamjenja, swoju wolu dospołnje Božej woli podwolić.^pWěmy, zo je tole lóšo prajene hač sčinjene. Dołhož knježi swójska čłowječa wola, ćeže scyła njezačuješ. Ale tam, hdźež so swójska wola wuhasnje, a přińdźeš-li do połoženja a wobstejnosćow, kotrež sej wosobinsce scyła njepřeješ, tam započnješ poprawom hakle tak prawje swójsku wolu do wjetšeje zapołožić.^pAch, njemóžeš wšitko ani tak wuprajić, wo čimž w myslach rozwažuješ. Ale hdyž so jeničce zarjaduješ, a to traš samo hišće njelóštnje, njeje to swjatosć. K swjatosći słuša swójska swobodna a přihłosowaca wola, kotraž je woli wyšeho přichilena, a to předewšěm potom, hdyž maš ćerpjeć a něčeho so wzdać.^pNětko wšak mam tudy přiležnosć, tutón puć swjatosće kročić. Chcu po nim tak wjesele a radostnje hić, kaž je mi to móžno, přetož dźe wo to, zo so z Bohom zjednoćiš.^pTutón zaměr pomha mi přeze wšě čłowječe słabosće, stysknotu, a njetrjebam so hańbować ani wonych chwilow, w kotrychž su so mi sylzy wuronili. Přińdu wšak hodźiny najhłubšeje wopušćenosće, ale to drje dyrbi być, zo byštej so ćim bóle Boža lubosć a radosć we mni přisporjeć móhłoj.^pNjeparujomne w tymle prócowanju je modlenje, a dźakuju so Wam za Waš paćer, z tym zo so tež za Was modlu.^pNjeje ničo rjeńšeho, hač zo zrosćeš do přezjednosće z wolu Božej, w kotrejž nańdźeš zbóžnosć a radosć.",
+            "patr_resp1": "Derje sym wojował, sym doběhnył, wěru wobchował.",
+            "patr_resp2": "Za wěčnosć je mi přihotowana króna sprawnosće.",
+            "patr_resp3": "Mam wšo za škodu porno wyšemu póznaću Chrysta Jězusa, swojeho Knjeza. Chrystusa chcu spóznać a podźěl na jeho ćerpjenju měć, připodobnjeny jeho smjerći."
           },
           "Laudes": {
-            "hymn_1": 1139.0,
-            "button": "Domkirchweihfest"
-          },
-          "Vesper": {
-            "hymn_1": 8811.2,
-            "hymn_2": 8811.3
-          },
-          "ErsteV": {
-            "hymn_1": 8811.2,
-            "hymn_2": 8811.3
-          },
-          "each": {
-            "comm_1": "Kirchw",
-            "oration": "^RUBRIm Limburger Dom:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
-            "oration_lat": "^RUBRIn Ecclesia cathedrali Limburgensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
-          },
-          "Messe": {
-            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
-            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
-            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
-            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+            "button": "Zbóžny Alojs Andricki (sorbisch)",
+            "farbe": "r",
+            "nominativ": "Der heilige Alojs",
+            "genitiv": "des heiligen Alojs"
           }
         }
       }
     }
   },
-  "Köln": {
+  "Trier": {
     "5": {
-      "21": {
-        "oblig": {
+      "15": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "comm_2": "Mann_Ord",
+            "oration": "Gott, du bist die Liebe. Du hast die Kirche gelehrt, dass wir dein Gebot erfüllen, wenn wir dich und unseren Nächsten lieben. Hilf uns nach dem Vorbild des heiligen Rupert die Werke der Liebe zu tun, und nimm uns beim Gericht in die Schar deiner Auserwählten auf.^ORV"
+          },
           "Lesehore": {
-            "hymn_1": 8521.1
+            "patr_autor": "Hildegard von Bingen (†°1179)",
+            "patr_werk": "Nach einer Schrift  – übertragen von Jakob Köbel 1524.",
+            "patr_text": "^hVerkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach^pDer heilige Rupert war durch die Gnade Gottes sehr barmherzig gegen die Armen. Schon als Kind führte er arme Kinder zu seiner Mutter und sprach: „Sieh Mutter,das sind deine Kinder!“ Dies gefiel seiner Mutter und sie antwortete ihm: „Mein Sohn, das sind deine Brüder.“^pAls Rupert sieben Jahre alt war, sprach seine Mutter zu ihm: „Lieber Sohn, da wir so viel Gutes und Reichtum haben, wollen wir Gott zu Ehren und zu unserem Seelennutzen eine Kirche bauen.“ Auf diesen Vorschlag antwortete der heilige Rupert: „Nein, liebe Mutter, lass uns zuvor das tun, was uns die Heilige Schrift lehrt: Du sollst den Hungrigen dein Brot austeilen, die obdachlosen Armen ins Haus aufnehmen, einen Nackten bekleiden, dich deinen Verwandten nicht entziehen.“{1#Jes 58,7} Als dies die Mutter hörte, war sie sehr erfreut, dass ihr Sohn ihr einen solch guten Rat gab.^pDaher ließ sie mit ihrem Sohn an der Nahe etliche Wohnungen für die armen und einfachen Menschen erbauen, denen sie auch Nahrung und Kleidung durch zwei heiligmäßige Männer zuschickten. Einer davon war ein Priester mit Namen Wigbert, der andere war sonst einer von ihren Dienern.^pDer heilige Rupert vergaß aus Liebe zu Gott sein junges Alter und seine Adelsherkunft, so dass er oft den Armen die Füße wusch und ihnen Speise und Trank vorsetzte und ihnen ihr Bett machte. Das tat er treu bis zu seinem fünfzehnten Lebensjahr.^pMit Einwilligung seiner Mutter zog Rupert mit etlichen seiner Leute nach Rom, um die Apostelgräber der Heiligen Petrus und Paulus aufzusuchen.^pAls er sich eine Zeitlang in Rom aufhielt, fragten ihn einige Geistliche, aus welchem Land er käme und was sein Vorhaben sei. Rupert offenbarte ihnen die geheimen Wünsche seines Herzens. Da gaben sie ihm den Rat, er solle sich nach dem Evangelium richten, das da spricht: „Wenn du vollkommen sein willst, geh, verkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach.“{2#Mt 19,21}^pEr nahm sich ihren Rat zu Herzen. Als er wieder heimkam zu seiner Mutter, baute er in seinem Besitztum Kirchen und Häuser. Er teilte die Häuser unter sein Volk auf und verlieh ihnen die dazu notwendigen zeitlichen Güter. Als Gegenleistung erwartete er die Unterstützung für seine Mutter, solange sie leben würde.^pDesgleichen wünschte Rupert, dass diejenigen, die von ihm beschenkt worden waren, ihrerseits bedürftigen Menschen mit materieller Unterstützung zur Seite stehen.^pRupert selber wollte aus Liebe zu Gott Pilger werden und sein Herzogtum, Mutter, Hausgesinde und all sein Gut verlassen.^pNach Vollendung seines zwanzigsten Lebensjahres wurde Rupert von schwerem Fieber befallen. Im Traum erschien ihm des Nachts ein alter Mann, der ihm seinen nahe bevorstehenden Tod ankündigte. Nachdem Rupert diesen Traum seiner Mutter offenbart hatte, wurde sie sehr bekümmert.^pDreißig Tage lang währte die fieberhafte Erkrankung, dann nahm ihn Gott nach einem seligen Leben von dieser Welt, denn Gott wusste wohl, dass der frühe Tod für Rupert nützlicher war als ein langes Leben.^pNach seinem Tod wurde er in dem Gotteshaus begraben, das er und seine Mutter an der Nahe erbaut hatten.{3#@Rupertsberg (Bingerbrück)}",
+            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
+            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.^HALLo",
+            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
           },
           "Laudes": {
-            "referenz": "AAA-5-21-n1",
-            "hymn_1": 8521.2,
-            "hymn_2": 1248.0
+            "button": "Hl. Rupert von Bingen",
+            "genitiv": "des heiligen Rupert"
+          }
+        }
+      },
+      "18": {
+        "d1": {
+          "major": {
+            "comm_1": "Jgfr_Ord",
+            "comm_2": "Frau_Erz",
+            "oration": "Allmächtiger und barmherziger Gott, du hast die selige ^(Schwester^) Blandine ^(Merten^) erwählt, als Lehrerin und Ordensfrau dir und den Menschen aus ganzem Herzen zu dienen. Höre auf ihre Fürsprache und gib, dass wir ihrem Beispiel der Demut und Liebe nacheifern und so allezeit deinen Willen erfüllen.^ORV"
           },
-          "Vesper": {
-            "hymn_1": 8521.1
+          "Lesehore": {
+            "patr_autor": "Blandine Merten (†1918)",
+            "patr_werk": "Auszüge aus ihren Aufzeichnungen und Briefen.",
+            "patr_text": "^hGlaube, Liebe und Wille Gottes^pDer Glaube ist eine übernatürliche Atmosphäre, die mich in allen Dingen und Geschöpfen Gott sehen lässt, die mir die unangenehmen und schmerzlichen Ereignisse, die Enttäuschungen, Demütigungen, Leiden aller Art als Beweis der Liebe einer allmächtigen Hand zeigt, die mich retten und heiligen will.^pDas gesammelte Herz ist immer bei Gott und versteht den Flüsterton seiner Liebe und seiner Wünsche. Nur wollen, was er will, und wünschen, dass sein heiliger Wille an mir und meiner Umgebung geschieht. Ein beständiges „Ja“ sein für alle Ereignisse seiner Vorsehung. Der Wille Gottes ist mir Nahrung, Erholung, Freude und Seligkeit; er ist mir auch Kampf, Läuterung und Heiligung. Heiliger Wille meines Gottes, über alles liebe ich dich! Lass mich dir allein vertrauen, du mein Gott, mein Alles!^pDer liebende Gott braucht nicht hohe außergewöhnliche Werke; er will nur Liebe. Die Liebe schöpft ihr Leben aus dem Glauben. Man muss allzeit glauben an die übergroßen Liebe, die im Gottesherzen für uns schlägt. Die Liebe wächst mit der Erkenntnis, und die Erkenntnis mit unserer Opferbereitschaft.^pWie herzlich danke ich Gott für alle Leiden, die er auf meinem Lebensweg gestreut hat! Leiden löst vom Irdischen; es hebt und stärkt die Seele und ist die beste Schule der Liebe. Leiden läutert und vereinigt aufs innigste mit Jesus.^pIch rüste mich jetzt auf die erste Begegnung mit dem lieben Heiland. Welch unsagbarer feierlicher Augenblick wird dies sein! Ich freue mich und sehne mich danach. Der Gedanke, dass sein Licht mir die Finsternis des Todes erhellen wird und dass seine Hand mich nicht fallen lässt, gibt mir Mut und Freudigkeit. Wie leicht ist der Tod, wenn man auf Erden nur den geliebt hat, der dann unser Richter sein soll!",
+            "patr_resp1": "Übergroß war die Gnade unseres Herrn, die mir in Christus Jesus den Glauben und die Liebe schenkte.",
+            "patr_resp2": "Die Liebe ist das Band, das alles zusammenhält und vollkommen macht.^HALLo",
+            "patr_resp3": "Die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns geschenkt wurde."
+          },
+          "Laudes": {
+            "button": "Sel. Blandine Merten",
+            "genitiv": "der seligen Schwester Blandine"
+          }
+        }
+      },
+      "29": {
+        "oblig": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, durch den Dienst des heiligen Bischofs Maximin hast du die Frohe Botschaft in unserem Land verbreitet und das Volk unserer Heimat aus der Finsternis in dein wunderbares Licht geführt. in Freude gedenken wir heute dieses Lehrers im rechten Glauben. Lass uns dankbar bewahren, was er uns gelehrt, und erlangen, was du uns verheißen hast.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des Heiligen Maximin.",
+            "patr_text": "^hJesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott“^pBischof Maximin wurde in die Auseinandersetzungen hineingezogen, die damals die Kirche aufwühlten. Vereinfachend gesagt ging es dabei um die Person Christi. War er bloß ein von Gott besonders ausgezeichneter Mensch? Oder war er wahrer Gott und wahrer Mensch in einer Person, Gott, des ewigen Vaters, einziger, Mensch gewordener Sohn?^pBis heute bekennen wir den Christus-Glauben des ersten ökumenischen Konzils im Credo der Messe: Jesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott; gezeugt, nicht geschaffen, eines Wesens mit dem Vater“.^pDer konsequenteste Verfechter des Christusbekenntnisses von Nizäa war der hl. Athanasius .Er widersetzte sich auch dem Kaiser, als dieser einen Kompromiss mit den Arianern suchte. Daraufhin verbannte ihn Konstantin an das andere Ende des Reiches. Der Verbannungsort hieß Trier.^pIm Frühjahr 336 kam Athanasius in Trier an. Der heilige Hieronymus, der selbst einige Jahrzehnte später eine Zeitlang in Trier gelebt hat, schreibt: „Mit allen Ehren“ nahm der Bischof von Trier den verbannten Athanasius auf. Bischof Maximin ergriff auch theologisch für Athanasius Partei. Mit ihm stand er in der vordersten Reihe der Verteidiger der Gottheit Christi.^pDie mittelalterlichen Lebensbeschreibungen erzählen, dass Maximin vor seinem Tod noch einmal seine Familie habe sehen wollen. Er sei dann unerwarteterweise in der aquitanischen Heimat, in der Nähe von Silly im Bistum Poitiers, gestorben. Sein Nachfolger Paulinus habe die Gebeine Maximins nach Trier überführen lassen und sie in der Johanneskirche auf dem nördlichen Gräberfeld Triers, jenseits der Porta Nigra, beigesetzt.^pWo Maximin begraben wurde, erhob sich schon wenige Jahre nach seinem Tod eine Cömiterialbasilika von beachtlichen Ausmaßen. Etwa 100 m lang und 25 m breit war die Friedhofskirche. In ihrem Ostteil, also dort, wo der Altar stand, schloss sie die überwölbten Gräber der Bischöfe Agritius und Maximin mit ein.^pWelche Verehrung Maximin damals schon genoss, beweisen hunderte von Sarkophagen, die in mehreren Schichten übereinanderliegend sich dicht an die Gräber der Bischöfe Agritius und Maximin herandrängen. Unter dem Schutz dieser Freunde Gottes hoffte man, das Jüngste Gericht besser zu überstehen und im Gefolge der Heiligen direkt in den Himmel zu kommen.^pIm Mittelalter entstand die Einrichtung jährlicher Pflichtprozessionen zur Abtei St. Maximin in Trier. Etwa 50 Ortschaften, hauptsächlich aus dem heutigen Luxemburg, waren verpflichtet, Jahr für Jahr sich in Trier am Grab des hl. Maximin einzufinden.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.^HALLo",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Maximin",
+            "genitiv": "des heiligen Maximin"
           }
         }
       }
@@ -16585,72 +16639,6 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Straßburg"
-          }
-        }
-      }
-    }
-  },
-  "Trier": {
-    "5": {
-      "15": {
-        "d1": {
-          "major": {
-            "comm_1": "Mann",
-            "comm_2": "Mann_Ord",
-            "oration": "Gott, du bist die Liebe. Du hast die Kirche gelehrt, dass wir dein Gebot erfüllen, wenn wir dich und unseren Nächsten lieben. Hilf uns nach dem Vorbild des heiligen Rupert die Werke der Liebe zu tun, und nimm uns beim Gericht in die Schar deiner Auserwählten auf.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Hildegard von Bingen (†°1179)",
-            "patr_werk": "Nach einer Schrift  – übertragen von Jakob Köbel 1524.",
-            "patr_text": "^hVerkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach^pDer heilige Rupert war durch die Gnade Gottes sehr barmherzig gegen die Armen. Schon als Kind führte er arme Kinder zu seiner Mutter und sprach: „Sieh Mutter,das sind deine Kinder!“ Dies gefiel seiner Mutter und sie antwortete ihm: „Mein Sohn, das sind deine Brüder.“^pAls Rupert sieben Jahre alt war, sprach seine Mutter zu ihm: „Lieber Sohn, da wir so viel Gutes und Reichtum haben, wollen wir Gott zu Ehren und zu unserem Seelennutzen eine Kirche bauen.“ Auf diesen Vorschlag antwortete der heilige Rupert: „Nein, liebe Mutter, lass uns zuvor das tun, was uns die Heilige Schrift lehrt: Du sollst den Hungrigen dein Brot austeilen, die obdachlosen Armen ins Haus aufnehmen, einen Nackten bekleiden, dich deinen Verwandten nicht entziehen.“{1#Jes 58,7} Als dies die Mutter hörte, war sie sehr erfreut, dass ihr Sohn ihr einen solch guten Rat gab.^pDaher ließ sie mit ihrem Sohn an der Nahe etliche Wohnungen für die armen und einfachen Menschen erbauen, denen sie auch Nahrung und Kleidung durch zwei heiligmäßige Männer zuschickten. Einer davon war ein Priester mit Namen Wigbert, der andere war sonst einer von ihren Dienern.^pDer heilige Rupert vergaß aus Liebe zu Gott sein junges Alter und seine Adelsherkunft, so dass er oft den Armen die Füße wusch und ihnen Speise und Trank vorsetzte und ihnen ihr Bett machte. Das tat er treu bis zu seinem fünfzehnten Lebensjahr.^pMit Einwilligung seiner Mutter zog Rupert mit etlichen seiner Leute nach Rom, um die Apostelgräber der Heiligen Petrus und Paulus aufzusuchen.^pAls er sich eine Zeitlang in Rom aufhielt, fragten ihn einige Geistliche, aus welchem Land er käme und was sein Vorhaben sei. Rupert offenbarte ihnen die geheimen Wünsche seines Herzens. Da gaben sie ihm den Rat, er solle sich nach dem Evangelium richten, das da spricht: „Wenn du vollkommen sein willst, geh, verkauf deinen Besitz und gib das Geld den Armen; dann komm und folge mir nach.“{2#Mt 19,21}^pEr nahm sich ihren Rat zu Herzen. Als er wieder heimkam zu seiner Mutter, baute er in seinem Besitztum Kirchen und Häuser. Er teilte die Häuser unter sein Volk auf und verlieh ihnen die dazu notwendigen zeitlichen Güter. Als Gegenleistung erwartete er die Unterstützung für seine Mutter, solange sie leben würde.^pDesgleichen wünschte Rupert, dass diejenigen, die von ihm beschenkt worden waren, ihrerseits bedürftigen Menschen mit materieller Unterstützung zur Seite stehen.^pRupert selber wollte aus Liebe zu Gott Pilger werden und sein Herzogtum, Mutter, Hausgesinde und all sein Gut verlassen.^pNach Vollendung seines zwanzigsten Lebensjahres wurde Rupert von schwerem Fieber befallen. Im Traum erschien ihm des Nachts ein alter Mann, der ihm seinen nahe bevorstehenden Tod ankündigte. Nachdem Rupert diesen Traum seiner Mutter offenbart hatte, wurde sie sehr bekümmert.^pDreißig Tage lang währte die fieberhafte Erkrankung, dann nahm ihn Gott nach einem seligen Leben von dieser Welt, denn Gott wusste wohl, dass der frühe Tod für Rupert nützlicher war als ein langes Leben.^pNach seinem Tod wurde er in dem Gotteshaus begraben, das er und seine Mutter an der Nahe erbaut hatten.{3#@Rupertsberg (Bingerbrück)}",
-            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
-            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.^HALLo",
-            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
-          },
-          "Laudes": {
-            "button": "Hl. Rupert von Bingen",
-            "genitiv": "des heiligen Rupert"
-          }
-        }
-      },
-      "18": {
-        "d1": {
-          "major": {
-            "comm_1": "Jgfr_Ord",
-            "comm_2": "Frau_Erz",
-            "oration": "Allmächtiger und barmherziger Gott, du hast die selige ^(Schwester^) Blandine ^(Merten^) erwählt, als Lehrerin und Ordensfrau dir und den Menschen aus ganzem Herzen zu dienen. Höre auf ihre Fürsprache und gib, dass wir ihrem Beispiel der Demut und Liebe nacheifern und so allezeit deinen Willen erfüllen.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Blandine Merten (†1918)",
-            "patr_werk": "Auszüge aus ihren Aufzeichnungen und Briefen.",
-            "patr_text": "^hGlaube, Liebe und Wille Gottes^pDer Glaube ist eine übernatürliche Atmosphäre, die mich in allen Dingen und Geschöpfen Gott sehen lässt, die mir die unangenehmen und schmerzlichen Ereignisse, die Enttäuschungen, Demütigungen, Leiden aller Art als Beweis der Liebe einer allmächtigen Hand zeigt, die mich retten und heiligen will.^pDas gesammelte Herz ist immer bei Gott und versteht den Flüsterton seiner Liebe und seiner Wünsche. Nur wollen, was er will, und wünschen, dass sein heiliger Wille an mir und meiner Umgebung geschieht. Ein beständiges „Ja“ sein für alle Ereignisse seiner Vorsehung. Der Wille Gottes ist mir Nahrung, Erholung, Freude und Seligkeit; er ist mir auch Kampf, Läuterung und Heiligung. Heiliger Wille meines Gottes, über alles liebe ich dich! Lass mich dir allein vertrauen, du mein Gott, mein Alles!^pDer liebende Gott braucht nicht hohe außergewöhnliche Werke; er will nur Liebe. Die Liebe schöpft ihr Leben aus dem Glauben. Man muss allzeit glauben an die übergroßen Liebe, die im Gottesherzen für uns schlägt. Die Liebe wächst mit der Erkenntnis, und die Erkenntnis mit unserer Opferbereitschaft.^pWie herzlich danke ich Gott für alle Leiden, die er auf meinem Lebensweg gestreut hat! Leiden löst vom Irdischen; es hebt und stärkt die Seele und ist die beste Schule der Liebe. Leiden läutert und vereinigt aufs innigste mit Jesus.^pIch rüste mich jetzt auf die erste Begegnung mit dem lieben Heiland. Welch unsagbarer feierlicher Augenblick wird dies sein! Ich freue mich und sehne mich danach. Der Gedanke, dass sein Licht mir die Finsternis des Todes erhellen wird und dass seine Hand mich nicht fallen lässt, gibt mir Mut und Freudigkeit. Wie leicht ist der Tod, wenn man auf Erden nur den geliebt hat, der dann unser Richter sein soll!",
-            "patr_resp1": "Übergroß war die Gnade unseres Herrn, die mir in Christus Jesus den Glauben und die Liebe schenkte.",
-            "patr_resp2": "Die Liebe ist das Band, das alles zusammenhält und vollkommen macht.^HALLo",
-            "patr_resp3": "Die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns geschenkt wurde."
-          },
-          "Laudes": {
-            "button": "Sel. Blandine Merten",
-            "genitiv": "der seligen Schwester Blandine"
-          }
-        }
-      },
-      "29": {
-        "oblig": {
-          "major": {
-            "comm_1": "Hirten",
-            "oration": "Allmächtiger Gott, durch den Dienst des heiligen Bischofs Maximin hast du die Frohe Botschaft in unserem Land verbreitet und das Volk unserer Heimat aus der Finsternis in dein wunderbares Licht geführt. in Freude gedenken wir heute dieses Lehrers im rechten Glauben. Lass uns dankbar bewahren, was er uns gelehrt, und erlangen, was du uns verheißen hast.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "LEER",
-            "patr_werk": "Aus einer Lebensbeschreibung des Heiligen Maximin.",
-            "patr_text": "^hJesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott“^pBischof Maximin wurde in die Auseinandersetzungen hineingezogen, die damals die Kirche aufwühlten. Vereinfachend gesagt ging es dabei um die Person Christi. War er bloß ein von Gott besonders ausgezeichneter Mensch? Oder war er wahrer Gott und wahrer Mensch in einer Person, Gott, des ewigen Vaters, einziger, Mensch gewordener Sohn?^pBis heute bekennen wir den Christus-Glauben des ersten ökumenischen Konzils im Credo der Messe: Jesus Christus ist „Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott; gezeugt, nicht geschaffen, eines Wesens mit dem Vater“.^pDer konsequenteste Verfechter des Christusbekenntnisses von Nizäa war der hl. Athanasius .Er widersetzte sich auch dem Kaiser, als dieser einen Kompromiss mit den Arianern suchte. Daraufhin verbannte ihn Konstantin an das andere Ende des Reiches. Der Verbannungsort hieß Trier.^pIm Frühjahr 336 kam Athanasius in Trier an. Der heilige Hieronymus, der selbst einige Jahrzehnte später eine Zeitlang in Trier gelebt hat, schreibt: „Mit allen Ehren“ nahm der Bischof von Trier den verbannten Athanasius auf. Bischof Maximin ergriff auch theologisch für Athanasius Partei. Mit ihm stand er in der vordersten Reihe der Verteidiger der Gottheit Christi.^pDie mittelalterlichen Lebensbeschreibungen erzählen, dass Maximin vor seinem Tod noch einmal seine Familie habe sehen wollen. Er sei dann unerwarteterweise in der aquitanischen Heimat, in der Nähe von Silly im Bistum Poitiers, gestorben. Sein Nachfolger Paulinus habe die Gebeine Maximins nach Trier überführen lassen und sie in der Johanneskirche auf dem nördlichen Gräberfeld Triers, jenseits der Porta Nigra, beigesetzt.^pWo Maximin begraben wurde, erhob sich schon wenige Jahre nach seinem Tod eine Cömiterialbasilika von beachtlichen Ausmaßen. Etwa 100 m lang und 25 m breit war die Friedhofskirche. In ihrem Ostteil, also dort, wo der Altar stand, schloss sie die überwölbten Gräber der Bischöfe Agritius und Maximin mit ein.^pWelche Verehrung Maximin damals schon genoss, beweisen hunderte von Sarkophagen, die in mehreren Schichten übereinanderliegend sich dicht an die Gräber der Bischöfe Agritius und Maximin herandrängen. Unter dem Schutz dieser Freunde Gottes hoffte man, das Jüngste Gericht besser zu überstehen und im Gefolge der Heiligen direkt in den Himmel zu kommen.^pIm Mittelalter entstand die Einrichtung jährlicher Pflichtprozessionen zur Abtei St. Maximin in Trier. Etwa 50 Ortschaften, hauptsächlich aus dem heutigen Luxemburg, waren verpflichtet, Jahr für Jahr sich in Trier am Grab des hl. Maximin einzufinden.",
-            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
-            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.^HALLo",
-            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
-          },
-          "Laudes": {
-            "button": "Hl. Maximin",
-            "genitiv": "des heiligen Maximin"
           }
         }
       }
