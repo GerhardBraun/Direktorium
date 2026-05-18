@@ -6,7 +6,7 @@
 // allgemeinere Teile durch speziellere überschrieben (addLayer und mergeData).
 //
 // Parallel zu den Texten nach Kirchenjahr
-// werden die Texte zu dein Heiligenfesten nach Kalenderjahr hinzugefügt,
+// werden die Texte zu den Heiligenfesten nach Kalenderjahr hinzugefügt,
 // zusammen mit den zugehörigen Commune-Texten.
 
 import { brevierData } from '../data/Brevier.ts';
@@ -206,9 +206,12 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
     // dafür werden die wt- und swd-Werte gelesen.
     // dateToRead ist das ursprüngliche Datum eines evtl. verlegten Hochfestes;
     // dafür wird rank_date und die oblig-Source gelesen
+    dateToRead = dateToRead ?? date
+
+    // State für etwaige Verlegung von Epiphanie, Christi Himmelfahrt und Fronleichnam
     const storedDelay = localStorage.getItem('delaySolemnity');
     const delaySolemnity = storedDelay ? JSON.parse(storedDelay) : { epiphany: false, ascension: 0, corpusXP: 0 };
-    dateToRead = dateToRead ?? date
+
     const {
         season, week, dayOfWeek,
         swdCombined, swdWritten, swd,
@@ -219,19 +222,28 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
         isCommemoration,
         hasVigil
     } = getLiturgicalInfo(date);
+    // Eigenschaften, bei denen eine etwaige Verlegung berücksichtigt werden muss
     const {
         rank_date, date: dateFormats
     } = getLiturgicalInfo(dateToRead);
 
+    // Eigenschaften, die nur ins texts-Objekt kommen, wenn sie true sind
     const passThrough = {}
     if (isCommemoration) passThrough.isCommemoration = true;
     if (hasVigil) passThrough.hasVigil = true;
 
+    // Variablen bezeichnen das ursprüngliche Datum einer Heiligenfeier,
+    // auch wenn sie verlegt wurde
     const calendarDay = dateToRead.getDate();
     const calendarMonth = dateToRead.getMonth() + 1;
-    //Lesejahr ABC
+
+    // Lesejahr ABC (für Sonn- und Feiertage)
+    // und lectureData zusätzlich zu lecture1Data im Lesejahr II für Lesehore und Werktage
     const lectureYear = date.getFullYear() + (
-        (season === 'a' || (calendarMonth === 12 && season !== 'j'))
+        // Am 1. Advent beginnt das neue Lesejahr,
+        // das nach der Jahreszahl des folgenden Jahres bestimmt wird:
+        // Tage im November und Dezember, die nicht im Jahreskreis liegen
+        (calendarMonth > 10 && season !== 'j')
             ? 1 : 0);
     const yearABC = ['c', 'a', 'b'][lectureYear % 3]
     const lectureData = lectureYear % 2 === 0 ? lecture2Data : null;
@@ -252,18 +264,22 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
         messe: { wt: {}, pers: {} },
     };
 
-    const processUseDateAndLast = () => {
+    const getUseDateAndLast = () => {
         if (calendarMonth === 12 && calendarDay > 16) {
             return calendarDay < 25 ? 'adventLast' : 'christmasOctave';
         } else if (delaySolemnity.epiphany && season === 'w') {
+            // bei Verlegung ist Epiphanie immer der 2. Sonntag nach Weihnachten,
+            // deshalb ist w-1 Weihnachtszeit, und w-2 'nach Epiphanie (christmasLast)
             return week === 1 ? 'christmas' : 'christmasLast';
         } else if (season === 'w' && calendarDay < 13) {
             return calendarDay < 6 ? 'christmas' : 'christmasLast';
         } else if (season === 'o' &&
-            (week === 7 || (delaySolemnity.ascension === 0 && week === 6 && dayOfWeek > 4))) {
+            (week === 7 ||
+                // ohne Verlegung von Christi Himmelfahrt:
+                // Freitag und Samstag der 6. Osterwoche gehören zur Zeit nach Himmelfahrt (easterLast)
+                (delaySolemnity.ascension === 0 && week === 6 && dayOfWeek > 4))) {
             return 'easterLast'
-        }
-        else return '';
+        } else return '';
     }
 
     function addLayer(source, week, dayOfWeek) {
@@ -271,20 +287,28 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             const layerData = brevierData?.[source]?.[week]?.[key];
             const personalLayerData = personalData?.[source]?.[week]?.[key];
             const lecture1LayerData = lecture1Data?.[source]?.[week]?.[key];
+            // im Lesehrjahr II zusätzlich lecture2Data für Lesehore und Werktage
             const lectureLayerData = lectureData?.[source]?.[week]?.[key];
             const lectureALayerData = lectureABCData?.[source]?.[week]?.[key]?.a;
+            // im Lesejahr B oder C zusätzlich lectureABCData für Sonntagslesungen
             const lectureBCLayerData = yearABC === 'a' ? null
                 : lectureABCData?.[source]?.[week]?.[key]?.[yearABC];
             mergeData(hours, layerData, 'wt');
             mergeData(hours, personalLayerData, 'pers');
-            mergeData(hours, lecture1LayerData, 'wt');
-            if (lectureLayerData) mergeData(hours, lectureLayerData, 'wt');
+            // Texte, die in den Lesejahren ABC bzw. in Lesejahr I und II gleich sind,
+            // sind nur bei Lesejahr A bzw. I hinterlegt,
+            // damit etwaige Korrekturen nur an einer Stelle vorgenommen werden müssen.
+            // Deshalb werden Lesejahr A und I immer geladen,
+            // Lesejahr B und C bzw. II überschreiben gegebenenfalls.
             mergeData(hours, lectureALayerData, 'wt');
-            if (lectureBCLayerData) mergeData(hours, lectureBCLayerData, 'wt');
+            mergeData(hours, lectureBCLayerData, 'wt');
+            mergeData(hours, lecture1LayerData, 'wt');
+            mergeData(hours, lectureLayerData, 'wt');
         })
     }
 
     try {
+        // ZUSAMMENSTELLUNG DER wt-SOURCE
         // Layer 0: wt- und pers-Source als Grundlage
         [
             [brevierData, 'wt'],
@@ -294,10 +318,8 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             const ordEvenData = week % 2 === 0 ? dataPool?.wt?.even : null;
             const ordSeasonData = dataPool?.wt?.[season];
             [ordData, ordEvenData, ordSeasonData].forEach(layer => {
-                if (layer) {
-                    mergeData(hours, layer.each, mergeSource);
-                    mergeData(hours, layer[dayOfWeek], mergeSource);
-                }
+                mergeData(hours, layer?.each, mergeSource);
+                mergeData(hours, layer?.[dayOfWeek], mergeSource);
             });
         });
         // Layer 1: Vierwochenpsalter mit jahreszeitlichen Anpassungen
@@ -310,14 +332,15 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
 
         // Layer 2: Weekly schema for the season
         addLayer(season, 'each', dayOfWeek);
+
         // Layer 3: Bi-weekly schema
         if (week % 2 === 0) addLayer(season, 'even', dayOfWeek);
 
         // Layer 4: Texte für den einzelnen Tag
         addLayer(season, week, dayOfWeek);
 
-        const useDateAndLast = processUseDateAndLast();
-        // Layer 5: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
+        const useDateAndLast = getUseDateAndLast();
+        // Layer 5: 'last' für letzte Adventstage, nach Erscheinung und nach Himmelfahrt
         // (nach dem wochenbasierten Layer, damit spezifischere 'last'-Einträge Vorrang haben)
         if (useDateAndLast.includes('Last'))
             addLayer(season, 'last', dayOfWeek);
@@ -331,76 +354,98 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             const dayToRead = !delaySolemnity.epiphany ? calendarDay
                 : (season === 'w' && week === 2 && dayOfWeek > 0) ? 6 + dayOfWeek : calendarDay;
             addLayer('k', calendarMonth, dayToRead);
-            // wiederholte Behandlung der Sonntage in diesem Zeitraum:
-            // 3. und 4. Advent, Hl. Familie, 2. Sonntag nach Weihnachten
+            // wiederholte Behandlung der Sonntage in diesem Zeitraum
+            // (3. und 4. Advent, Hl. Familie, 2. Sonntag nach Weihnachten):
+            // Texte für den Sonntag statt gemäß Kalendertag
             addLayer('kso', week, dayOfWeek);
         }
         // Ohne Verlegung von Christi Himmelfahrt auf den Sonntag:
         // eigene Bitten/Fürbitten und Orationen am Freitag und Samstag
+        // (als Woche o-6.5 gespeichert)
         if (delaySolemnity.ascension === 0 && season === 'o' && week === 6 && dayOfWeek > 4) {
             addLayer('o', 6.5, dayOfWeek);
         }
         // Bei Verlegung von Christi Himmelfahrt auf den Sonntag:
         // Lesehore Do bis Sa der 6. Osterwoche erhalten jeweils die Lesungen des liturgisch folgenden Tages,
         // der 7. Sonntag der Osterzeit die von Christi Himmelfahrt.
-        // Ebenso erhält die Taufe des Herrn (j-1-0 oder j-1-1) immer die Lesungen von j-1-0.
+        // Ebenso erhält das Fest Taufe des Herrn immer die Lesungen von j-1-0,
+        // auch bei Verlegung auf j-1-1 (Montag nach dem So, auf den Epiphanie verlegt wurde).
         if (delaySolemnity.ascension !== 0 || aroundEpiphany === 67) {
             const lesehoreShift = {
-                'j-1-0': ['j', 1, 0],
-                'j-1-1': ['j', 1, 0],
                 'o-6-4': ['o', 6, 5],
                 'o-6-5': ['o', 6, 6],
                 'o-6-6': ['o', 7, 0],
                 'o-7-0': ['o', 6, 4],
+                'j-1-0': ['j', 1, 0],
+                'j-1-1': ['j', 1, 0],
             };
             const shift = lesehoreShift[swdCombined];
             if (shift) {
                 const [repSeason, repWeek, repDay] = shift;
                 const lesehoreOnly = { lesehore: hours.lesehore };
                 const lecture1LayerData = lecture1Data?.[repSeason]?.[repWeek]?.[repDay];
+                // im Lesehrjahr II zusätzlich lecture2Data für Lesehore und Werktage
                 const lectureLayerData = lectureData?.[repSeason]?.[repWeek]?.[repDay];
                 mergeData(lesehoreOnly, lecture1LayerData, 'wt');
-                if (lectureLayerData) mergeData(lesehoreOnly, lectureLayerData, 'wt');
+                mergeData(lesehoreOnly, lectureLayerData, 'wt');
             }
         }
         // An Allerseelen auch am Sonntag die Messlesungen
         if (calendarMonth === 11 && calendarDay === 2 && dayOfWeek === 0)
             processReadings(hours, yearABC, calendarMonth, calendarDay);
 
+        // ZUSAMMENSTELLUNG DER oblig-, n- und d-SOURCES
+        // sowie alt (alternative Psalmen an Aschermittwoch und Gründonnerstag)
+        // und mar (Gedächtnis Mariens am Samstag)
         if (aroundEpiphany) {
             // Epiphanie: kann auf den Sonntag nach dem 1. Januar verlegt werden;
-            // Texte sind deshalb mit fiktivem Datum 66.1. in den Datenbanken hinterlegt
-            processCalendar(hours, yearABC, season, 1, aroundEpiphany, aroundEpiphany === 67 ? 'wt' : '');
+            // Texte sind deshalb mit fiktivem Datum '66. Januar' in den Datenbanken hinterlegt
+            processCalendar(hours, yearABC, season, 1, aroundEpiphany,
+                // Taufe des Herrn wird in die wt-Source geladen,
+                // Epiphanie hingegen in die oblig-Source
+                aroundEpiphany === 67 ? 'wt' : '');
         }
-        if (swdCombined === 'q-0-3' || swdCombined === 'q-6-4') {
+        else if (swdCombined === 'q-0-3' || swdCombined === 'q-6-4') {
             // alternative Psalmen und Antiphonen an Aschermittwoch (Laudes) und Gründonnerstag (Lesehore)
-            // in den Datenbanken unter den fiktiven Daten 33. und 34. März gespeichert (1er-Stelle entsprechend dem Wochentag)
+            // in den Datenbanken unter den fiktiven Daten '33. und 34. März' gespeichert (1er-Stelle entsprechend dem Wochentag)
             processCalendar(hours, yearABC, season, 3, 30 + dayOfWeek, 'alt');
         }
         else if (aroundPentecost > 2) {
             // Christi Himmelfahrt ist als '40. Mai' gespeichert,
             // Feste nach Pfingsten als '60. bis 66. Mai';
-            // 1er-Stelle gibt den Wochentag an (unabhängig von der tatsächlichen Reihenfolge):
+            // (1er-Stelle gibt den Wochentag an, unabhängig von der tatsächlichen Reihenfolge):
             // 60=So: Dreif., 61=Mo: Pfingstmontag/Mutter der Kirche,
             // 64=Do: Fronleichnam, 65=Fr: Herz-Jesu-Fest, 66=Sa: Unbefl. Herz Mariae
-            // In processCalendar wird replaceOblig='wt' für die gebotenen Gedenktage in 'oblig' geändert.
-            processCalendar(hours, yearABC, season, 5, aroundPentecost, 'wt');
+            processCalendar(hours, yearABC, season, 5, aroundPentecost,
+                // Mutter der Kirche und Herz Mariae werden als gebotene Gedenktage geladen,
+                // die Hochfeste hingegen in die wt-Source (replaceOblig='wt').
+                [61, 66].includes(aroundPentecost) ? '' : 'wt');
 
             // Sonderfall: Zusammentreffen von MaterEcclesiae bzw. Herz Mariae
-            // mit anderem gebotenen Gedenktag: letzterer wird als nichtgebotener Gedenktag geladen;
+            // mit anderem gebotenen Gedenktag:
+            // letzterer wird als nichtgebotener Gedenktag geladen (replaceOblig='n1'),;
             // nicht gebotene Gedenktage (rank_date=0) werden verdrängt und deshalb nicht geladen
             if (rank_date === 2)
                 processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
         }
-        else if (rank_date === 2 && isCommemoration)
-            // Kommemoration: gebotene Gedenktage als nichtgebotene Gedenktage laden
-            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1', swdCombined, dateFormats);
-        else if (rank_date > 1 && rank_date > rank_wt && !aroundEpiphany)
+        else if (rank_date === 2 && isCommemoration) {
+            // bei Kommemoration:
+            // gebotene Gedenktage werden als nichtgebotene Gedenktage geladen (replaceOblig='n1'),
+            // nichtgebotene Gedenktage behalten ihre Source (nur 'oblig' wird ersetzt)
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1',
+                // Ab hier werden auch Gedenktage berücksichtigt,
+                // die anderen Datumsformaten folgen (kommen in Diözesankalendern vor),
+                // z.B. Freitag der 2. Osterwoche (o-2-5),
+                // 2. Sonntag im August (8-2-0), vorletzter Sonntag im September (9-L2-0)
+                swdCombined, dateFormats);
+        }
+        else if (rank_date > 1 && rank_date > rank_wt) {
             // gebotene Gedenktage, Feste und Hochfeste, wenn der wt-Rang geringer ist
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
+        }
         else if (rank_wt < 2) {
-            // nichtgebotene Gedenktage
-            // werden an Sonntagen sowie gebotenen Gedenktagen, Festen und Hochfesten des Kirchenjahres nicht geladen,
+            // nichtgebotene Gedenktage werden an Sonntagen
+            // sowie gebotenen Gedenktagen, Festen und Hochfesten des Kirchenjahres nicht geladen,
             // können aber neben gebotenen Gedenktagen und Festen der Heiligen stehen
             // (bei Überschneidungen der Kalenderebenen General-/Regional-/Diözesankalender)
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
@@ -416,7 +461,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             rank: {
                 wt: rank_wt,
                 date: rank_date,
-                ...passThrough,
+                ...passThrough, // isCommemoration und hasVigil
             },
             prefComm: (rank_date > 2 || rank_wt > 2 || [61, 66].includes(aroundPentecost)) ? 1 : 0,
             ...cleanupZeroReferences(hours)
@@ -484,9 +529,6 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
     const swdData = getDayCalendarData('special', swdCombined);
     const ordinalData = getDayCalendarData('special', dateFormats?.ordinal);
     const ordinalLastData = getDayCalendarData('special', dateFormats?.ordinalLast);
-
-    if (replaceOblig === 'wt' && [61, 66].includes(calendarDay))
-        replaceOblig = ''
 
     if (processData) {
 

@@ -94,8 +94,7 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, aroundEpipha
     function calculateRankWt() {
         // Sonderfall: Christi Himmelfahrt und Feste nach Pfingsten
         if (aroundEpiphany === 67) return 4
-        if (aroundPentecost > 2)
-            return [61, 66].includes(aroundPentecost) ? 2 : 5
+        if ([40, 60, 64, 65].includes(aroundPentecost)) return 5
 
         // 1. Grundsätzlich sind alle Sonntage Rang 5
         if (dayOfWeek === 0) {
