@@ -183,10 +183,21 @@ const PrayerMenu = ({
   setPrefSollemnity,
   useCommemoration,
   setUseCommemoration,
+  prayedHours = [],
+  isViewingToday = false,
+  // onResetPrayedHours,
 }) => {
   const rank = texts?.rank || { wt: 0, date: 0 };
   const sollemnityErsteVesper = () =>
     ["soll", "kirchw"].includes(prefSollemnity);
+
+  const hourButtonClass = (hour, fullWidth = true) => {
+    const prayed = isViewingToday && prayedHours.includes(hour);
+    const widthClass = fullWidth ? "w-full" : "flex-1";
+    return prayed
+      ? `${widthClass} p-3 text-center rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-gray-100`
+      : `${widthClass} p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-900 dark:text-gray-100`;
+  };
 
   return (
     <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -226,9 +237,7 @@ const PrayerMenu = ({
                       onClick={() => {
                         onSelectHour(tsnHour, texts);
                       }}
-                      className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
-                                                hover:bg-gray-200 dark:hover:bg-gray-700
-                                                text-gray-900 dark:text-gray-100"
+                      className={hourButtonClass(tsnHour, false)}
                     >
                       {firstCapital(tsnHour)}
                     </button>
@@ -246,9 +255,7 @@ const PrayerMenu = ({
                   onClick={() => {
                     onSelectHour(hour, texts);
                   }}
-                  className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
-                                    hover:bg-gray-200 dark:hover:bg-gray-700
-                                    text-gray-900 dark:text-gray-100"
+                  className={hourButtonClass(hour)}
                 >
                   Erste Vesper
                 </button>
@@ -291,15 +298,25 @@ const PrayerMenu = ({
               onClick={() => {
                 onSelectHour(hour, texts);
               }}
-              className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
-                                hover:bg-gray-200 dark:hover:bg-gray-700
-                                text-gray-900 dark:text-gray-100"
+              className={hourButtonClass(hour)}
             >
               {formatDirectoryText(displayText)}
             </button>
           );
         })}
       </div>
+
+      {/* TEST: Gebetete Horen zurücksetzen (auskommentiert)
+      {isViewingToday && prayedHours.length > 0 && (
+        <button
+          onClick={onResetPrayedHours}
+          className="w-full p-2 text-center rounded-lg text-sm
+                     bg-red-100 dark:bg-red-900 hover:bg-red-200 dark:hover:bg-red-800
+                     text-red-800 dark:text-red-200"
+        >
+          [Test] Gebetete Horen zurücksetzen
+        </button>
+      )} */}
 
       {/* Mass */}
       <div className="pt-4 border-t dark:border-gray-700">
@@ -1160,6 +1177,15 @@ export default function Stundenbuch() {
   const [activeSection, setActiveSection] = useState("fontSize");
   const [isNarrowScreen, setIsNarrowScreen] = useState(false);
 
+  const horaTimerRef = useRef(null);
+  const getTodayString = () => new Date().toISOString().split("T")[0];
+  const isDateToday = (date) => date.toISOString().split("T")[0] === getTodayString();
+  const [prayedHours, setPrayedHours] = useState(() => {
+    const today = new Date().toISOString().split("T")[0];
+    const stored = localStorage.getItem(`prayedHours_${today}`);
+    return stored ? JSON.parse(stored) : [];
+  });
+
   const [debugLog, setDebugLog] = useState([]);
 
   const addDebugLog = (message) => {
@@ -1210,6 +1236,25 @@ export default function Stundenbuch() {
     };
   }, [window.innerWidth, baseFontSize]);
 
+
+  // Gebets-Timer: startet wenn eine Hore geöffnet wird, stoppt beim Verlassen oder Horenwechsel
+  useEffect(() => {
+    clearTimeout(horaTimerRef.current);
+    horaTimerRef.current = null;
+    if (viewMode === "prayerText" && isDateToday(selectedDate) && !prayedHours.includes(selectedHour)) {
+      const today = getTodayString();
+      const hour = selectedHour;
+      horaTimerRef.current = setTimeout(() => {
+        horaTimerRef.current = null;
+        setPrayedHours(prev => {
+          if (prev.includes(hour)) return prev;
+          const updated = [...prev, hour];
+          localStorage.setItem(`prayedHours_${today}`, JSON.stringify(updated));
+          return updated;
+        });
+      }, 15000);
+    }
+  }, [viewMode, selectedHour, selectedDate]);
 
   // Aktiviere Wake Lock wenn die App im prayer oder prayerText Modus ist
   useEffect(() => {
@@ -1265,7 +1310,7 @@ export default function Stundenbuch() {
       !processedData?.rank?.hasVigil) {
       setSelectedHour("lesehore")
     }
-  }, [selectedDate, prefSrc, diocese]);
+  }, [selectedDate, prefSrc, diocese, delaySolemnity]);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
@@ -2085,6 +2130,19 @@ export default function Stundenbuch() {
       setSelectedHour('vesper');
   }
 
+  // const handleResetPrayedHours = () => {
+  //   clearTimeout(horaTimerRef.current);
+  //   horaTimerRef.current = null;
+  //   localStorage.removeItem(`prayedHours_${getTodayString()}`);
+  //   setPrayedHours([]);
+  // };
+
+  const handleSelectHour = (hour, hourTexts) => {
+    setSelectedHour(hour);
+    setTexts(hourTexts);
+    setViewMode("prayerText");
+  };
+
   const formatPrayerText = (provText, marker = '') =>
     extFormatPrayerText({ provText, localPrefLanguage, marker });
 
@@ -2264,11 +2322,10 @@ export default function Stundenbuch() {
               setPrefSollemnity={setPrefSollemnity}
               useCommemoration={useCommemoration}
               setUseCommemoration={setUseCommemoration}
-              onSelectHour={(hour, texts) => {
-                setSelectedHour(hour);
-                setTexts(texts);
-                setViewMode("prayerText");
-              }}
+              onSelectHour={handleSelectHour}
+              prayedHours={prayedHours}
+              isViewingToday={isDateToday(selectedDate)}
+              // onResetPrayedHours={handleResetPrayedHours}
               setViewMode={setViewMode}
               onPrevDay={onPrevDay}
               onNextDay={onNextDay}
