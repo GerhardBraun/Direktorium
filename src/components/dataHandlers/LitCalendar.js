@@ -2,15 +2,15 @@ import { tableOfRanks } from '../data/TableOfRanks.js';
 
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 
-const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => {
+const writeOut = (season, week, dayOfWeek, swdCombined, day, aroundEpiphany, aroundPentecost) => {
 
     const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
     const dayName = days[dayOfWeek];
 
-    // Spezielle Festtage basierend auf swdCombined bzw. afterPentecost
+    // Spezielle Festtage basierend auf swdCombined bzw. aroundPentecost
     const specialFeastDays = {
         'w-1-0': 'Fest der Heiligen Familie',
-        'j-1-0': 'Fest der Taufe Jesu',
+        67: 'Fest der Taufe Jesu',
         'q-6-0': 'Palmsonntag',
         'q-6-4': 'Gründonnerstag',
         'q-6-5': 'Karfreitag',
@@ -18,17 +18,17 @@ const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => 
         'o-1-0': 'Ostersonntag',
         'o-1-1': 'Ostermontag',
         'o-2-0': 'Weißer Sonntag – Sonntag\u00a0der\u00a0Göttlichen\u00a0Barmherzigkeit',
-        'o-6-4': 'Christi Himmelfahrt',
+        40: 'Christi Himmelfahrt',
         'o-8-0': 'Pfingstsonntag',
         'o-8-1': 'Pfingstmontag',
-        40: 'Dreifaltigkeitssonntag',
-        44: 'Fronleichnam',
-        45: 'Herz-Jesu-Fest',
+        60: 'Dreifaltigkeitssonntag',
+        64: 'Fronleichnam',
+        65: 'Herz-Jesu-Fest',
         'j-34-0': 'Christkönigssonntag'
     };
 
     // Prüfe zuerst auf spezielle Festtage
-    const specialFeast = afterPentecost || swdCombined
+    const specialFeast = aroundEpiphany || aroundPentecost || swdCombined
     if (specialFeastDays[specialFeast]) {
         return specialFeastDays[specialFeast];
     }
@@ -77,7 +77,7 @@ const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => 
 };
 
 // Helper function to calculate rank for a specific date
-function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPentecost) {
+function calculateRanks(date, season, week, dayOfWeek, swdCombined, aroundEpiphany, aroundPentecost) {
 
     const month = date.getMonth() + 1;
     const day = date.getDate();
@@ -92,9 +92,10 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
-        // Sonderfall: Feste nach Pfingsten
-        if (afterPentecost > 2)
-            return [41, 46].includes(afterPentecost) ? 2 : 5
+        // Sonderfall: Christi Himmelfahrt und Feste nach Pfingsten
+        if (aroundEpiphany === 67) return 4
+        if (aroundPentecost > 2)
+            return [61, 66].includes(aroundPentecost) ? 2 : 5
 
         // 1. Grundsätzlich sind alle Sonntage Rang 5
         if (dayOfWeek === 0) {
@@ -108,8 +109,8 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
         if (swdCombined.startsWith('q-6-')) return 5;
         if (swdCombined.startsWith('o-1-')) return 5;
 
-        // 4. Aschermittwoch und Christi Himmelfahrt
-        if (['q-0-3', 'o-6-4'].includes(swdCombined)) return 5;
+        // 4. Aschermittwoch
+        if (swdCombined === 'q-0-3') return 5;
 
         // 6. Gebotene Gedenktage und Kommemoration
         if (season === 'q') return 2;           // Wochentage der Fastenzeit
@@ -122,6 +123,9 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
     // Rank für Datum (rank_date) bestimmen
     function calculateRankDate() {
         const diocese = localStorage.getItem('diocese') || 'Fulda';
+
+        // Sonderfall: Epiphanie (6. Januar) kann in manchen Diözesen auf den Sonntag nach dem 1. Januar verlegt werden
+        if (aroundEpiphany === 66) return 5; // 66 für Epiphanie, 67 für Taufe des Herrn
 
         // Schleife durch die Ränge (von hoch zu niedrig)
         for (const rank of [6, 5, 4, 3, 2]) {
@@ -213,11 +217,22 @@ const getLiturgicalInfo = (provDate) => {
     ));
 
     const year = date.getUTCFullYear();
+    const month = date.getUTCMonth() + 1;
+    const day = date.getUTCDate();
+    const dayOfWeek = date.getUTCDay();
 
     // Berechne Schlüsseldaten und normalisiere sie
+    const stored = localStorage.getItem('delaySolemnity');
+    const delaySolemnity = stored ? JSON.parse(stored) : { epiphany: false, ascension: 0, corpusXP: 0 };
+
     const christmas = new Date(Date.UTC(year - 1, 11, 25));
     const christmasSunday = getNextSunday(christmas);
-    const baptism = getNextSunday(new Date(Date.UTC(year, 0, 7)));
+    const epiphanyDate = delaySolemnity.epiphany
+        ? getNextSunday(new Date(Date.UTC(year, 0, 1)))
+        : new Date(Date.UTC(year, 0, 6));
+    const baptism = (delaySolemnity.epiphany && epiphanyDate.getUTCDate() >= 7)
+        ? new Date(Date.UTC(year, 0, epiphanyDate.getUTCDate() + 1))
+        : getNextSunday(epiphanyDate);
     const easter = calculateEaster(year);
     const lentSunday = new Date(easter.getTime() - daysToMilliseconds(42));
     const pentecost = new Date(easter.getTime() + daysToMilliseconds(49));
@@ -225,11 +240,19 @@ const getLiturgicalInfo = (provDate) => {
     advent.setUTCDate(advent.getUTCDate() - (advent.getUTCDay() || 7) - 21);
 
     const daysSinceEaster = Math.floor((date - easter) / daysToMilliseconds(1));
-    const afterPentecost = [50, 56, 60, 68, 69].includes(daysSinceEaster)
-        ? 40 + (daysSinceEaster % 7)
-        : [66, 67].includes(daysSinceEaster) // Offset für Mi und Do vor Herz-Jesu-Fest
-            ? 68 - daysSinceEaster
-            : null;
+
+    const aroundEpiphany =
+        date.getTime() === epiphanyDate.getTime() ? 66
+            : date.getTime() === baptism.getTime() ? 67
+                : null;
+
+    const aroundPentecost =
+        daysSinceEaster === 39 + delaySolemnity.ascension ? 40
+            : daysSinceEaster === 60 + delaySolemnity.corpusXP ? 64
+                : [50, 56, 68, 69].includes(daysSinceEaster) ? 60 + (daysSinceEaster % 7)
+                    : [66, 67].includes(daysSinceEaster) // Offset für Mi und Do vor Herz-Jesu-Fest
+                        ? 68 - daysSinceEaster
+                        : null;
 
     // Helper function for week calculation
     const weeksBetween = (start, current) =>
@@ -284,17 +307,13 @@ const getLiturgicalInfo = (provDate) => {
         }
     }
 
-    const dayOfWeek = date.getUTCDay();
-    const month = date.getUTCMonth() + 1;
-    const day = date.getUTCDate();
-
     if (season === 'a' && week === 4 && day > 24) {
         season = 'w'; week = 0;
     }
     const swdCombined = `${season}-${week}-${dayOfWeek}`;
-    const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day, afterPentecost);
+    const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day, aroundEpiphany, aroundPentecost);
     weekOfPsalter = weekOfPsalter ?? (week % 4 || 4)
-    const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPentecost);
+    const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, aroundEpiphany, aroundPentecost);
     const isCommemoration = ranks.rank_date < 3 &&
         (season === 'q' || (month === 12 && day > 16));
 
@@ -310,7 +329,8 @@ const getLiturgicalInfo = (provDate) => {
             written: swdWritten,
         },
         ...ranks,  // Fügt rank_wt und rank_date zum Return-Objekt hinzu
-        afterPentecost,
+        aroundEpiphany,
+        aroundPentecost,
         isCommemoration,
     };
 };

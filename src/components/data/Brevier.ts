@@ -4205,12 +4205,11 @@ export const brevierData = {
       }
     }
   },
-  "j": {
+  "xj": {
     "1": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
+          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^ORV"
         },
         "ErsteV": {
           "hymn_1": 3229.0,
@@ -4231,25 +4230,11 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag von Johannes im Jordan getauft wurde:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du bist der geliebte Sohn, an dem der Vater sein Wohlgefallen hat;^qschenke denen, die auf dich hören, deinen Geist.^pDu zerbrichst das geknickte Rohr nicht und löschst den glimmenden Docht nicht aus;^qerbarme dich aller, die fern sind von dir.^pDer Vater hat dich zum Licht der Heiden gemacht;^qschenke den Katechumenen die Freude des Glaubens.^pDer Vater hat dich mit dem Heiligen Geist gesalbt zum Dienst an den Menschen;^qführe alle, die an dich glauben zum Heil.^pDu bist die Hoffnung aller, die in Finsternis und Todesschatten sitzen;^qführe unsere Verstorbenen in dein ewiges Licht.",
-          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^ORV",
-          "hymn_1_lat": 3249.1,
-          "ant1_lat": "Fuit Ioánnes in desérto, baptízans et prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum.",
-          "ant2_lat": "Ego quidem aqua baptízo vos; ipse vos baptizábit Spíritu Sancto et igne.",
-          "ant3_lat": "Baptizátus Iesus conféstim ascéndit de aqua, et ecce apérti sunt ei cæli.",
-          "resp1_lat": "Dómine Deus,",
-          "resp2_lat": "audi°clamórem°pópuli.",
-          "resp3_lat": "Et áperi eis fontem aquæ vivæ.",
-          "antev_lat": "Véterem hóminem rénovans, Salvátor venit ad baptísmum, ut natúram, quæ corrúpta est, per aquam recuperáret, incorruptíbili veste circumíciens nos.",
-          "bitten_e_lat": "Redemptórem nostrum, qui baptísmum in Iordáne dignátus est a Ioánne suscípere, exorémus, dicéntes:",
-          "bitten_r_lat": "Mitte, Dómine, Spíritum tuum super nos.",
-          "bitten_lat": "Christe, serve Dei, quem Pater suscépit et in quo sibi complácuit,^qmitte super nos, Dómine, Spíritum tuum.^pChriste, elécte Dei, qui cálamum quassátum non contrivísti et linum fúmigans non exstinxísti,^qmiserére ómnium quæréntium te in veritáte.^pChriste, Fili Dei, quem Pater fœ́dere novo vocávit in lucem géntium,^qáperi óculos cæcórum in aqua baptísmatis.^pChriste, hóminum salvátor, quem Pater Spíritu Sancto unxit ad ministérium salútis,^qduc omnes ad te vidéndum et credéndum, ut vitam ætérnam hábeant.^pChriste, spes nostra, qui ducis sedéntes in ténebris ad lucem salútis,^qfratres nostros defúnctos in regnum tuum súscipe.",
-          "les_text_lat": "Vos scitis quod factum est verbum per univérsam Iudǽam incípiens a Galilǽa post baptísmum, quod prædicávit Ioánnes: Iesum a Názareth, quómodo unxit eum Deus Spíritu Sancto et virtúte, qui pertransívit benefaciéndo et sanándo omnes oppréssos a Diábolo, quóniam Deus erat cum illo.",
-          "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
+          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^ORV"
         },
         "Invitatorium": {
           "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt, wir beten ihn an!",
-          "mode0": "II",
-          "ant0_lat": "Christum, Fílium diléctum, in quo Pater sibi complácuit, veníte, adorémus."
+          "mode0": "II"
         },
         "Lesehore": {
           "hymn_1": 3219.0,
@@ -4260,14 +4245,7 @@ export const brevierData = {
           "ant2": "Alle Welt bete dich an, o°Herr, und freue sich; denn als das neue Licht bist du erschienen für alle Zeiten.",
           "ant3": "Gepriesen sei Gott: Er erhielt uns am Leben. Er hat uns in die Freiheit hinausgeführt.",
           "versikel0": "Dies ist mein geliebter Sohn.",
-          "versikel1": "Ihn sollt ihr hören.",
-          "hymn_1_lat": 3219.1,
-          "hymn_nacht_lat": 0.0,
-          "ant1_lat": "Vox Dómini super aquas, Deus maiestátis intónuit.",
-          "ant2_lat": "Omnis terra adóret te, Dómine, et lætétur, quia nova lux prodísti ómnium sæculórum.",
-          "ant3_lat": "Benedíctus Deus, qui pósuit ánimam meam ad vitam, et edúxit me in refrigérium.",
-          "versikel0_lat": "Hic est Fílius meus caríssimus.",
-          "versikel1_lat": "Audíte illum."
+          "versikel1": "Ihn sollt ihr hören."
         },
         "Vigil": {
           "psalm1": 182.0,
@@ -4277,8 +4255,7 @@ export const brevierData = {
           "les_buch": "^A:vigil-Taufe:",
           "les_stelle": "^Q:Mt 28,1-10.16-20",
           "les_text": "LEER",
-          "les_text_neu": "",
-          "ant0_lat": "Iordánis flúvius se retínuit, intránte Dómino, aqua contrémuit, nova creátio surxit de flúmine, quæ illúminat omne sæculum."
+          "les_text_neu": ""
         },
         "Laudes": {
           "hymn_1": 3229.0,
@@ -4296,19 +4273,7 @@ export const brevierData = {
           "antev": "Christus wird getauft, und die Welt wird geheiligt. Er schenkt uns Nachlass der Sünden; wir werden gereinigt durch Wasser und Geist.",
           "bitten_e": "Gepriesen sei Jesus Christus, der am heutigen Tag von Johannes im Jordan getauft wurde:",
           "bitten_r": "Kyrie, eleison.",
-          "bitten": "Bei der Taufe im Jordan wurde deine Herrlichkeit offenbar;^qlass sie aufstrahlen in unseren Herzen.^pVon deinem Knecht hast du dich taufen lassen;^qgib uns den Mut zum Dienst an den Menschen.^pDurch die Taufe im Jordan hast du die Schöpfung geheiligt;^qhilf uns, dass wir sie nicht missbrauchen.^pDurch das Sakrament der Taufe hast du alle Schuld von uns abgewaschen und uns zu Kindern Gottes gemacht;^qerneuere in uns den Geist der Gotteskindschaft.",
-          "hymn_1_lat": 3229.1,
-          "ant1_lat": "Baptízat miles Regem, servus Dóminum, Ioánnes Salvatórem; aqua Iordánis stúpuit, colúmba protestátur, patérna vox audíta est: Hic est Fílius meus.",
-          "ant2_lat": "Fontes aquárum sanctificáti sunt, Christo apparénte in glória orbi terrárum. Hauríte aquas de fóntibus Salvatóris; sanctificávit enim nunc omnem creatúram Christus Deus noster.",
-          "ant3_lat": "Te, qui in Spíritu et igne puríficas humána contágia, Deum et redemptórem omnes glorificámus.",
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére nobis.",
-          "resp3_lat": "Qui apparuísti hódie.",
-          "antev_lat": "Baptizátur Christus, et sanctificátur omnis mundus; et tríbuit nobis remissiónem peccatórum; aqua et Spíritu omnes purificémur.",
-          "bitten_e_lat": "Redemptórem nostrum, qui baptísmum in Iordáne dignátus est a Ioánne suscípere, exorémus dicéntes:",
-          "bitten_r_lat": "Kýrie, eléison.",
-          "bitten_lat": "Christe, qui per manifestatiónem tuam lumen super nos fecísti claréscere,^qlumen tuum concéde iis, quibus occurrémus hódie.^pQui te humiliásti ut baptísmum accíperes a servo tuo, ad viam humilitátis nobis demonstrándam,^qspíritum nobis concéde, quo homínibus humíliter ministrémus.^pQui per baptísmum tuum abluísti nos ab omni labe, et nos Patris fílios effecísti,^qconcéde spíritum adoptiónis ómnibus te quæréntibus.^pQui per baptísmum creatiónem tuam sanctificásti, et conversiónis iánuam baptizándis reserásti,^qnos Evangélii tui éffice minístros in mundo.^pQui nobis sanctíssimam revelásti in tuo baptísmate Trinitátem,^qrénova spíritum adoptiónis in regáli baptizatórum sacerdótio.",
-          "les_text_lat": "Spíritus Dómini Dei super me, eo quod únxerit Dóminus me; ad annuntiándum læta mansuétis misit me, ut medérer contrítis corde et prædicárem captívis liberatiónem et clausis apertiónem; ut prædicárem annum placábilem Dómino."
+          "bitten": "Bei der Taufe im Jordan wurde deine Herrlichkeit offenbar;^qlass sie aufstrahlen in unseren Herzen.^pVon deinem Knecht hast du dich taufen lassen;^qgib uns den Mut zum Dienst an den Menschen.^pDurch die Taufe im Jordan hast du die Schöpfung geheiligt;^qhilf uns, dass wir sie nicht missbrauchen.^pDurch das Sakrament der Taufe hast du alle Schuld von uns abgewaschen und uns zu Kindern Gottes gemacht;^qerneuere in uns den Geist der Gotteskindschaft."
         },
         "Terz": {
           "ant0": "Johannes weigerte sich, Jesus zu taufen: Ich bedarf deiner Taufe, und du kommst zu mir?",
@@ -4320,16 +4285,7 @@ export const brevierData = {
           "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
           "les_text_neu": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn ruht auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Furcht des HERRN.",
           "resp0": "Ich bin nicht der Messias, sondern nur sein Gesandter.",
-          "resp1": "Ich muss abnehmen, er aber muss wachsen.",
-          "hymn_1_lat": 4003.2,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Ioánnes prohibébat Iesum dicens: Ego a te débeo baptizári, et tu venis ad me?",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Illum opórtet créscere.",
-          "resp1_lat": "Me autem mínui.",
-          "les_text_lat": "Egrediétur virga de stirpe Iesse, et flos de radíce eius ascéndet; et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et timóris Dómini; et delíciæ eius in timóre Dómini."
+          "resp1": "Ich muss abnehmen, er aber muss wachsen."
         },
         "Sext": {
           "ant0": "Jesus sprach zu Johannes: Weigere dich nicht, mich zu taufen. Wir müssen den Willen Gottes erfüllen.",
@@ -4341,16 +4297,7 @@ export const brevierData = {
           "les_text": "Seht, das ist mein Knecht, den ich stütze; das ist mein Erwählter, an ihm finde ich Gefallen. Ich habe meinen Geist auf ihn gelegt, er bringt den Völkern das Recht.",
           "les_text_neu": "Siehe, das ist mein Knecht, den ich stütze; das ist mein Erwählter, an ihm finde ich Gefallen. Ich habe meinen Geist auf ihn gelegt, er bringt den Nationen das Recht.",
           "resp0": "Seht, das ist mein Knecht, ich halte ihn an der Hand.",
-          "resp1": "Mein Erwählter, an ihm finde ich Gefallen.",
-          "hymn_1_lat": 4006.2,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Respóndens autem Iesus dixit ei: Sine me modo; sic enim decet nos implére omnem iustítiam.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Ecce servus meus, suscípiam eum.",
-          "resp1_lat": "Eléctus meus, complácuit sibi in illo ánima mea.",
-          "les_text_lat": "Ecce servus meus, suscípiam eum; eléctus meus, cómplacet sibi in illo ánima mea; dedi spíritum meum super eum, iudícium géntibus próferet."
+          "resp1": "Mein Erwählter, an ihm finde ich Gefallen."
         },
         "Non": {
           "ant0": "Dies ist das Zeugnis des Johannes: Ich sah, dass der Geist vom Himmel herabkam wie eine Taube. Und er blieb auf ihm.",
@@ -4362,16 +4309,7 @@ export const brevierData = {
           "les_text": "Der Herr sagte zu mir: Es ist zu wenig, dass du mein Knecht bist, nur um die Stämme Jakobs wieder aufzurichten und die Verschonten Israels heimzuführen. Ich mache dich zum Licht für die Völker; damit mein Heil bis an das Ende der Erde reicht.",
           "les_text_neu": "Der HERR sagte zu mir: Es ist zu wenig, dass du mein Knecht bist, nur um die Stämme Jakobs wieder aufzurichten und die Verschonten Israels heimzuführen. Ich mache dich zum Licht der Nationen, damit mein Heil bis an das Ende der Erde reicht.",
           "resp0": "Auf ihn legte ich meinen Geist.",
-          "resp1": "Damit er den Völkern das Recht bringt.",
-          "hymn_1_lat": 4009.2,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Testimónium perhíbuit Ioánnes dicens: Quia vidi Spíritum descendéntem quasi colúmbam de cælo, et mansit super eum.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Ponam spíritum meum super eum.",
-          "resp1_lat": "Et iudícium géntibus nuntiábit.",
-          "les_text_lat": "Dixit mihi Dóminus: «Parum est ut sis mihi servus ad suscitándas tribus Iacob et relíquias Israel reducéndas: dabo te in lucem géntium, ut sit salus mea usque ad extrémum terræ»."
+          "resp1": "Damit er den Völkern das Recht bringt."
         },
         "Vesper": {
           "hymn_1": 3229.0,
@@ -4391,7 +4329,101 @@ export const brevierData = {
           "antev": "Christus hat uns geliebt und durch sein Blut von unseren Sünden erlöst. Er machte uns zu Königen und Priestern für Gott, seinen Vater. Ihm sei die Herrlichkeit und die Macht in alle Ewigkeit. Amen.",
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag von Johannes im Jordan getauft wurde:",
           "bitten_r": "Kyrie, eleison.",
-          "bitten": "Du bist der geliebte Sohn, an dem der Vater sein Wohlgefallen hat;^qschenke denen, die auf dich hören, deinen Geist.^pDu zerbrichst das geknickte Rohr nicht und löschst den glimmenden Docht nicht aus;^qerbarme dich aller, die fern sind von dir.^pDer Vater hat dich zum Licht der Heiden gemacht;^qschenke den Katechumenen die Freude des Glaubens.^pDer Vater hat dich mit dem Heiligen Geist gesalbt zum Dienst an den Menschen;^qführe alle, die an dich glauben, zum Heil.^pDu bist die Hoffnung aller, die in Finsternis und Todesschatten sitzen;^qführe unsere Verstorbenen in dein ewiges Licht.",
+          "bitten": "Du bist der geliebte Sohn, an dem der Vater sein Wohlgefallen hat;^qschenke denen, die auf dich hören, deinen Geist.^pDu zerbrichst das geknickte Rohr nicht und löschst den glimmenden Docht nicht aus;^qerbarme dich aller, die fern sind von dir.^pDer Vater hat dich zum Licht der Heiden gemacht;^qschenke den Katechumenen die Freude des Glaubens.^pDer Vater hat dich mit dem Heiligen Geist gesalbt zum Dienst an den Menschen;^qführe alle, die an dich glauben, zum Heil.^pDu bist die Hoffnung aller, die in Finsternis und Todesschatten sitzen;^qführe unsere Verstorbenen in dein ewiges Licht."
+        }
+      }
+    }
+  },
+  "j": {
+    "1": {
+      "each": {
+        "Lesehore": {
+          "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen.^ORV",
+          "oration_lat": "Vota, quǽsumus, Dómine, supplicántis pópuli cælésti pietáte proséquere, ut et quæ agénda sunt videant, et ad implénda quæ víderint convaléscant.^ORlV"
+        }
+      },
+      "0": {
+        "each": {
+          "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
+        },
+        "ErsteV": {
+          "hymn_1_lat": 3249.1,
+          "ant1_lat": "Fuit Ioánnes in desérto, baptízans et prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum.",
+          "ant2_lat": "Ego quidem aqua baptízo vos; ipse vos baptizábit Spíritu Sancto et igne.",
+          "ant3_lat": "Baptizátus Iesus conféstim ascéndit de aqua, et ecce apérti sunt ei cæli.",
+          "resp1_lat": "Dómine Deus,",
+          "resp2_lat": "audi°clamórem°pópuli.",
+          "resp3_lat": "Et áperi eis fontem aquæ vivæ.",
+          "antev_lat": "Véterem hóminem rénovans, Salvátor venit ad baptísmum, ut natúram, quæ corrúpta est, per aquam recuperáret, incorruptíbili veste circumíciens nos.",
+          "bitten_e_lat": "Redemptórem nostrum, qui baptísmum in Iordáne dignátus est a Ioánne suscípere, exorémus, dicéntes:",
+          "bitten_r_lat": "Mitte, Dómine, Spíritum tuum super nos.",
+          "bitten_lat": "Christe, serve Dei, quem Pater suscépit et in quo sibi complácuit,^qmitte super nos, Dómine, Spíritum tuum.^pChriste, elécte Dei, qui cálamum quassátum non contrivísti et linum fúmigans non exstinxísti,^qmiserére ómnium quæréntium te in veritáte.^pChriste, Fili Dei, quem Pater fœ́dere novo vocávit in lucem géntium,^qáperi óculos cæcórum in aqua baptísmatis.^pChriste, hóminum salvátor, quem Pater Spíritu Sancto unxit ad ministérium salútis,^qduc omnes ad te vidéndum et credéndum, ut vitam ætérnam hábeant.^pChriste, spes nostra, qui ducis sedéntes in ténebris ad lucem salútis,^qfratres nostros defúnctos in regnum tuum súscipe.",
+          "les_text_lat": "Vos scitis quod factum est verbum per univérsam Iudǽam incípiens a Galilǽa post baptísmum, quod prædicávit Ioánnes: Iesum a Názareth, quómodo unxit eum Deus Spíritu Sancto et virtúte, qui pertransívit benefaciéndo et sanándo omnes oppréssos a Diábolo, quóniam Deus erat cum illo.",
+          "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
+        },
+        "Invitatorium": {
+          "ant0_lat": "Christum, Fílium diléctum, in quo Pater sibi complácuit, veníte, adorémus."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 3219.1,
+          "hymn_nacht_lat": 0.0,
+          "ant1_lat": "Vox Dómini super aquas, Deus maiestátis intónuit.",
+          "ant2_lat": "Omnis terra adóret te, Dómine, et lætétur, quia nova lux prodísti ómnium sæculórum.",
+          "ant3_lat": "Benedíctus Deus, qui pósuit ánimam meam ad vitam, et edúxit me in refrigérium.",
+          "versikel0_lat": "Hic est Fílius meus caríssimus.",
+          "versikel1_lat": "Audíte illum."
+        },
+        "Vigil": {
+          "ant0_lat": "Iordánis flúvius se retínuit, intránte Dómino, aqua contrémuit, nova creátio surxit de flúmine, quæ illúminat omne sæculum."
+        },
+        "Laudes": {
+          "hymn_1_lat": 3229.1,
+          "ant1_lat": "Baptízat miles Regem, servus Dóminum, Ioánnes Salvatórem; aqua Iordánis stúpuit, colúmba protestátur, patérna vox audíta est: Hic est Fílius meus.",
+          "ant2_lat": "Fontes aquárum sanctificáti sunt, Christo apparénte in glória orbi terrárum. Hauríte aquas de fóntibus Salvatóris; sanctificávit enim nunc omnem creatúram Christus Deus noster.",
+          "ant3_lat": "Te, qui in Spíritu et igne puríficas humána contágia, Deum et redemptórem omnes glorificámus.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui apparuísti hódie.",
+          "antev_lat": "Baptizátur Christus, et sanctificátur omnis mundus; et tríbuit nobis remissiónem peccatórum; aqua et Spíritu omnes purificémur.",
+          "bitten_e_lat": "Redemptórem nostrum, qui baptísmum in Iordáne dignátus est a Ioánne suscípere, exorémus dicéntes:",
+          "bitten_r_lat": "Kýrie, eléison.",
+          "bitten_lat": "Christe, qui per manifestatiónem tuam lumen super nos fecísti claréscere,^qlumen tuum concéde iis, quibus occurrémus hódie.^pQui te humiliásti ut baptísmum accíperes a servo tuo, ad viam humilitátis nobis demonstrándam,^qspíritum nobis concéde, quo homínibus humíliter ministrémus.^pQui per baptísmum tuum abluísti nos ab omni labe, et nos Patris fílios effecísti,^qconcéde spíritum adoptiónis ómnibus te quæréntibus.^pQui per baptísmum creatiónem tuam sanctificásti, et conversiónis iánuam baptizándis reserásti,^qnos Evangélii tui éffice minístros in mundo.^pQui nobis sanctíssimam revelásti in tuo baptísmate Trinitátem,^qrénova spíritum adoptiónis in regáli baptizatórum sacerdótio.",
+          "les_text_lat": "Spíritus Dómini Dei super me, eo quod únxerit Dóminus me; ad annuntiándum læta mansuétis misit me, ut medérer contrítis corde et prædicárem captívis liberatiónem et clausis apertiónem; ut prædicárem annum placábilem Dómino."
+        },
+        "Terz": {
+          "hymn_1_lat": 4003.2,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Ioánnes prohibébat Iesum dicens: Ego a te débeo baptizári, et tu venis ad me?",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Illum opórtet créscere.",
+          "resp1_lat": "Me autem mínui.",
+          "les_text_lat": "Egrediétur virga de stirpe Iesse, et flos de radíce eius ascéndet; et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et timóris Dómini; et delíciæ eius in timóre Dómini."
+        },
+        "Sext": {
+          "hymn_1_lat": 4006.2,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Respóndens autem Iesus dixit ei: Sine me modo; sic enim decet nos implére omnem iustítiam.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Ecce servus meus, suscípiam eum.",
+          "resp1_lat": "Eléctus meus, complácuit sibi in illo ánima mea.",
+          "les_text_lat": "Ecce servus meus, suscípiam eum; eléctus meus, cómplacet sibi in illo ánima mea; dedi spíritum meum super eum, iudícium géntibus próferet."
+        },
+        "Non": {
+          "hymn_1_lat": 4009.2,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Testimónium perhíbuit Ioánnes dicens: Quia vidi Spíritum descendéntem quasi colúmbam de cælo, et mansit super eum.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Ponam spíritum meum super eum.",
+          "resp1_lat": "Et iudícium géntibus nuntiábit.",
+          "les_text_lat": "Dixit mihi Dóminus: «Parum est ut sis mihi servus ad suscitándas tribus Iacob et relíquias Israel reducéndas: dabo te in lucem géntium, ut sit salus mea usque ad extrémum terræ»."
+        },
+        "Vesper": {
           "hymn_1_lat": 3219.1,
           "ant1_lat": "Vox de cælis sónuit et vox Patris audíta est: Hic est Fílius meus, in quo mihi complácui, ipsum audíte.",
           "ant2_lat": "Caput dracónis Salvátor contéruit in Iordáne flúmine, ab eius potestáte omnes erípuit.",
@@ -4404,12 +4436,6 @@ export const brevierData = {
           "bitten_r_lat": "Mitte, Dómine, Spíritum tuum super nos.",
           "bitten_lat": "Christe, serve Dei, quem Pater suscépit et in quo sibi complácuit,^qmitte super nos, Dómine, Spíritum tuum.^pChriste, elécte Dei, qui cálamum quassátum non contrivísti et linum fúmigans non exstinxísti,^qmiserére ómnium quæréntium te in veritáte.^pChriste, Fili Dei, quem Pater fœ́dere novo vocávit in lucem géntium,^qáperi óculos cæcórum in aqua baptísmatis.^pChriste, hóminum salvátor, quem Pater Spíritu Sancto unxit ad ministérium salútis,^qduc omnes ad te vidéndum et credéndum, ut vitam ætérnam hábeant.^pChriste, spes nostra, qui ducis sedéntes in ténebris ad lucem salútis,^qfratres nostros defúnctos in regnum tuum súscipe.",
           "les_text_lat": "Vos scitis quod factum est verbum per univérsam Iudǽam incípiens a Galilǽa post baptísmum, quod prædicávit Ioánnes: Iesum a Názareth, quómodo unxit eum Deus Spíritu Sancto et virtúte, qui pertransívit benefaciéndo et sanándo omnes oppréssos a Diábolo, quóniam Deus erat cum illo."
-        }
-      },
-      "each": {
-        "Lesehore": {
-          "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen.^ORV",
-          "oration_lat": "Vota, quǽsumus, Dómine, supplicántis pópuli cælésti pietáte proséquere, ut et quæ agénda sunt videant, et ad implénda quæ víderint convaléscant.^ORlV"
         }
       }
     },
@@ -9354,211 +9380,73 @@ export const brevierData = {
           "antev": "Noch vieles habe ich euch zu sagen, aber ihr könnt es jetzt nicht tragen. Wenn aber jener kommt, der Geist der Wahrheit, wird er euch in die volle Wahrheit führen.^HALLo",
           "modeev": "II",
           "antev_lat": "Adhuc multa hábeo vobis dícere, sed non potéstis portáre modo: cum autem vénerit ille Spíritus veritátis, docébit vos omnem veritátem.^ALLo"
+        },
+        "Vesper": {
+          "antev": "Wenn jener kommt, der Geist der Wahrheit, dann wird er mich verherrlichen: Von dem, was mein ist, wird er nehmen und es euch verkünden.^HALLo",
+          "modeev": "VIII",
+          "antev_lat": "Spíritus me clarificábit, quia de meo accípiet, et annuntiábit vobis.^ALLo"
         }
       },
       "4": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist,^ORR",
-          "oration_lat": "Fac nos, omnípotens Deus, sanctis exsultáre gáudiis, et pia gratiárum actióne lætári, quia Christi Fílii tui ascénsio est nostra provéctio, et, quo procéssit glória cápitis, eo spes vocátur et córporis.^ORlV"
-        },
-        "ErsteV": {
-          "button": "1. Vesper zu Christi Himmelfahrt",
-          "hymn_1": 2904.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "psalm1": 113.0,
-          "psalm2": 117.0,
-          "psalm3": 154.0,
-          "ant1": "Ich bin ausgegangen vom Vater und in die Welt gekommen. Ich verlasse nun wieder die Welt und gehe zum Vater.^HALLo",
-          "ant2": "Als Jesus zu seinen Jüngern geredet hatte, wurde er in den Himmel aufgenommen und setzte sich zur Rechten Gottes.^HALLo",
-          "ant3": "Niemand stieg je in den Himmel auf außer dem, der vom Himmel herabstieg: der Menschensohn, der im Himmel ist.^HALLo",
-          "mode1": "III",
-          "mode2": "VII",
-          "mode3": "II",
-          "les_buch": "›Eph",
-          "les_stelle": "2,4–6",
-          "les_text": "Gott, der voll Erbarmen ist, hat uns, die wir durch unsere Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus auferweckt und uns zusammen mit ihm einen Platz im Himmel gegeben.",
-          "les_text_neu": "Gott, der reich ist an Erbarmen, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus Jesus auferweckt und uns zusammen mit ihm einen Platz in den himmlischen Bereichen gegeben.",
-          "resp1": "Gott steigt empor unter Jubel.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Der Herr beim Schall der Posaunen.",
-          "antev": "Vater, ich habe deinen Namen den Menschen offenbart, die du mir gegeben hast. Bewahre sie in deinem Namen; denn ich gehe zu dir.^HALLo",
-          "modeev": "II",
-          "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
-          "bitten_r": "Du König der Herrlichkeit, höre uns.",
-          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
-          "hymn_1_lat": 2904.1,
-          "hymn_2_lat": 0.0,
-          "ant1_lat": "Exívi a Patre et veni in mundum; íterum relínquo mundum et vado ad Patrem.^ALLo",
-          "ant2_lat": "Dóminus Iesus, postquam locútus est discípulis suis, ascéndit in cælum et sedet a dextris Dei.^ALLo",
-          "ant3_lat": "Nemo ascéndit in cælum, nisi qui de cælo descéndit, Fílius hóminis, qui est in cælo.^ALLo",
-          "resp1_lat": "",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "",
-          "antev_lat": "Pater, manifestávi nomen tuum homínibus, quos dedísti mihi; nunc autem pro eis rogo, non pro mundo, quia ad te vénio.^ALLo",
-          "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
-          "bitten_r_lat": "Tu rex glóriæ, Christe.",
-          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
-          "les_text_lat": "Deus, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo — grátia estis salváti — et conresuscitávit et consedére fecit in cæléstibus in Christo Iesu."
-        },
-        "Invitatorium": {
-          "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^HALLo",
-          "mode0": "VII",
-          "ant0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus.^ALLo"
-        },
-        "Lesehore": {
-          "hymn_1": 3414.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "psalm1": 68.1,
-          "psalm2": 68.2,
-          "psalm3": 68.3,
-          "ant1": "Singt für Gott, spielt seinem Namen; jubelt ihm zu, ihm, der auf den Wolken einherfährt.^HALLo",
-          "ant2": "Du zogst hinauf zur Höhe, führtest Gefangene mit.^HALLo",
-          "ant3": "Gott, sie sahen deinen Einzug, den Einzug meines Gottes und Königs ins Heiligtum.^HALLo^FIRST",
-          "ant1_lat": "Cantáte Deo, psalmum dícite nómini eius; iter fácite ei qui fertur super nubes.^ALLo",
-          "ant2_lat": "Ascéndens in altum, captívam duxit captivitátem.^ALLo",
-          "ant3_lat": "Vidérunt ingréssus tuos, Deus, ingréssus Dei mei, regis mei in sancta.^ALLo^FIRST"
-        },
-        "Vigil": {
-          "psalm1": 199.117,
-          "psalm2": 199.122,
-          "psalm3": 199.123,
-          "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^HALLo",
-          "les_buch": "^A:vigil-Himmelfahrt:",
-          "les_text": "LEER",
-          "les_text_neu": ""
+          "oration": "Herr, unser Gott, durch den Tod und die Auferstehung deines Sohnes sind wir dein Volk geworden. Lass die Freude über die Erlösung in uns mächtig werden, damit sie unser ganzes Leben bestimmt.^ORV",
+          "oration_lat": "Deus, qui pópulum tuum tuæ fecísti redemptiónis partícipem, concéde nobis, quǽsumus, ut de resurrecióne domínica perpétuo gratulémur.^ORlV"
         },
         "Laudes": {
-          "hymn_1": 3424.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "ant1": "Ihr Männer von Galiläa, was schaut ihr auf zum Himmel? Wie dieser Jesus vor euren Augen zum Himmel emporstieg, so kommt er wieder.^HALLo",
-          "ant2": "Preist den König der Könige. Singt das Lob unseres Gottes.^HALLo",
-          "ant3": "Vor ihren Augen wurde Jesus erhoben. Eine Wolke nahm ihn auf und entzog ihn ihren Blicken.^HALLo",
-          "mode1": "VII",
-          "mode2": "V",
-          "mode3": "VII",
-          "les_buch": "›Hebr",
-          "les_stelle": "10,12–14",
-          "les_text": "Jesus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
-          "les_text_neu": "",
-          "resp1": "Christus zog hinauf zur Höhe.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Gefangene hat er mitgeführt.",
-          "antev": "Ich steige auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^HALLo",
-          "modeev": "VII",
-          "bitten_e": "Gepriesen sei Jesus Christus, der von der Erde erhöht ist und alles an sich zieht. Zu ihm lasst uns beten:",
-          "bitten_r": "Christus, höre uns.",
-          "bitten": "Du bist als Sieger emporgestiegen zur Rechten des Vaters;^qlenke unser Sinnen und Verlangen zum Himmel.^pDu bist unser Hoherpriester;^qtritt für uns ein beim Vater.^pDu bleibst bei uns alle Tage bis zum Ende der Welt;^qstärke unseren Glauben.^pDu hast heute die Apostel zu deinen Zeugen bestellt;^qgib auch unserem Zeugnis Kraft durch den Heiligen Geist.",
-          "ant1_lat": "Viri Galilǽi, quid aspícitis in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet.^ALLo",
-          "ant2_lat": "Exaltáte regem regum, et hymnum dícite Deo.^ALLo",
-          "ant3_lat": "Vidéntibus illis, elevátus est, et nubes suscépit eum in cælo.^ALLo",
-          "resp1_lat": "Ascéndens Christus in altum,",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Captívam duxit captivitátem.",
-          "antev_lat": "Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum.^ALLo",
-          "bitten_e_lat": "Dóminum, exaltátum a terra et ómnia ad seípsum trahéntem, invocémus cum exsultatióne, acclamántes:",
-          "bitten_r_lat": "Tu rex glóriæ, Christe.",
-          "bitten_lat": "O rex glóriæ, Dómine Iesu, qui, semel oblátus ut hóstia pro peccátis, victor ad Patris déxteram ascendísti,^qin sempitérnum consúmma sanctificátos.^pSacérdos ætérne et novi miníster testaménti, semper vivens ad interpellándum pro nobis,^qsalva pópulum deprecántem.^pQui te præbuísti vivum post passiónem tuam et per dies quadragínta discípulis apparuísti,^qhódie fidem nostram confírma.^pQui hódie Spíritum Apóstolis promisísti, ut tibi testes fíerent usque ad últimum terræ,^qper virtútem Spíritus testimónium róbora nostrum.",
-          "les_text_lat": "Christus, una pro peccátis obláta hóstia, in sempitérnum consédit in déxtera Dei, de cétero exspéctans, donec ponántur inimíci eius scabéllum pedum eius; una enim oblatióne consummávit in sempitérnum eos, qui sanctificántur."
-        },
-        "Terz": {
-          "psalm1": 8.0,
-          "psalm2": 19.1,
-          "psalm3": 19.2,
-          "ant0": "Mit Herrlichkeit und Ehre hast du ihn gekrönt und ihn als Herrscher eingesetzt über das Werk deiner Hände.^HALLo",
-          "les_buch": "›Offb",
-          "les_stelle": "1,17c–18",
-          "les_text": "Ich, Johannes, sah den Menschensohn. Er sprach zu mir: Fürchte dich nicht! Ich bin der Erste und der Letzte und der Lebendige. Ich war tot, doch nun lebe ich in alle Ewigkeit, und ich habe die Schlüssel des Todes und der Unterwelt.",
-          "les_text_neu": "Ich, Johannes, sah den Menschensohn. Er sprach zu mir: Fürchte dich nicht! Ich bin der Erste und der Letzte und der Lebendige. Ich war tot, doch siehe, ich lebe in alle Ewigkeit, und ich habe die Schlüssel des Todes und der Unterwelt.",
-          "resp0": "Euer Herz sei ohne Angst.^HALLo",
-          "resp1": "Denn ich gehe zum Vater.^HALLo",
-          "ant0_lat": "Eleváta est magnificéntia tua super cælos, Deus.^ALLo",
-          "resp0_lat": "Non turbétur cor vestrum.^ALLo",
-          "resp1_lat": "Ego vado ad Patrem.^ALLo",
-          "les_text_lat": "Vidi Fílium hóminis, qui dixit mihi: Ego sum primus et novíssimus, et vivens et fui mórtuus et ecce sum vivens in sǽcula sæculórum et hábeo claves mortis et inférni."
-        },
-        "Sext": {
-          "ant0": "Frohlockend wie ein Held vollendet er den Lauf, zum höchsten Himmel kehrt der Herr zurück.^HALLo",
-          "mode0": "IV",
-          "les_buch": "›Hebr",
-          "les_stelle": "8,1b–3a",
-          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
-          "les_text_neu": "Wir haben einen solchen Hohepriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
-          "resp0": "Der Herr hat seinen Thron errichtet im Himmel.^HALLo",
-          "resp1": "Seine Königsmacht herrscht über das All.^HALLo",
-          "ant0_lat": "A summo cælo egréssio eius, et occúrsus eius usque ad summum eius.^ALLo",
-          "resp0_lat": "Dóminus in cælo.^ALLo",
-          "resp1_lat": "Parávit sedem suam.^ALLo",
-          "les_text_lat": "Talem habémus pontíficem, qui consédit in déxtera throni Maiestátis in cælis, sanctórum miníster et tabernáculi veri, quod fixit Dóminus, non homo. Omnis enim póntifex ad offerénda múnera et hóstias constitúitur."
-        },
-        "Non": {
-          "ant0": "Jesus erhob seine Hände und segnete die Jünger. Und während er sie segnete, wurde er zum Himmel erhoben.^HALLo",
-          "les_buch": "›Kol",
-          "les_stelle": "3,1–2",
-          "les_text": "Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische.",
-          "les_text_neu": "Seid ihr nun mit Christus auferweckt, so strebt nach dem, was oben ist, wo Christus zur Rechten Gottes sitzt! Richtet euren Sinn auf das, was oben ist, nicht auf das Irdische!",
-          "resp0": "Preist den König der Könige.^HALLo",
-          "resp1": "Singt das Lob unseres Gottes.^HALLo",
-          "ant0_lat": "Elevátis mánibus, benedíxit eis, et ferebátur in cælum.^ALLo",
-          "resp0_lat": "Exaltáte regem regum.^ALLo",
-          "resp1_lat": "Et hymnum dícite Deo.^ALLo",
-          "les_text_lat": "Si conresurrexístis Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens; quæ sursum sunt sápite, non quæ supra terram."
+          "antev": "Noch eine kleine Weile, und ihr seht mich nicht mehr. Und wieder eine kleine Weile, dann werdet ihr mich schauen; denn ich gehe zum Vater.^HALLo",
+          "modeev": "I",
+          "antev_lat": "Módicum, et non vidébitis me, dicit Dóminus; íterum módicum, et vidébitis me, quia vado ad Patrem.^ALLo"
         },
         "Vesper": {
-          "hymn_1": 2904.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "hymn_kl": 0.0,
-          "psalm1": 110.0,
-          "psalm2": 47.0,
-          "psalm3": 154.0,
-          "ant1": "Der Herr ist aufgefahren zum Himmel und sitzt zur Rechten des Vaters.^HALLo",
-          "ant2": "Gott stieg empor unter Jubel, der Herr beim Schall der Posaunen.^HALLo",
-          "ant3": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm.^HALLo",
-          "mode1": "VII",
-          "mode2": "IX",
-          "mode3": "I",
-          "les_buch": "›1°Petr",
-          "les_stelle": "3,18.22",
-          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
-          "les_text_neu": "Christus ist der Sünden wegen ein einziges Mal gestorben, ein Gerechter für Ungerechte, damit er euch zu Gott hinführe, nachdem er dem Fleisch nach zwar getötet, aber dem Geist nach lebendig gemacht wurde. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
-          "resp1": "Ich steige auf zu meinem Vater und zu eurem Vater.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Zu meinem Gott und zu eurem Gott.",
-          "antev": "O König der Herrlichkeit und Herr der Scharen! Als Sieger steigst du heute empor über alle Himmel; lass uns nicht als Waisen zurück, sondern sende uns die Verheißung des Vaters: den Geist der Wahrheit.^HALLo",
+          "antev": "Eure Trauer wird in Freude verwandelt, und eure Freude wird euch niemand nehmen.^HALLo",
           "modeev": "II",
-          "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
-          "bitten_r": "Du König der Herrlichkeit, höre uns.",
-          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
-          "hymn_1_lat": 2904.1,
-          "hymn_2_lat": 0.0,
-          "ant1_lat": "Ascéndit in cælos, sedet ad déxteram Patris.^ALLo",
-          "ant2_lat": "Ascéndit Deus in iubilatióne, et Dóminus in voce tubæ.^ALLo",
-          "ant3_lat": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo.^ALLo",
-          "resp1_lat": "Ascéndo ad Patrem meum et Patrem vestrum,",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Deum meum et Deum vestrum.",
-          "antev_lat": "O rex glóriæ, Dómine virtútum, qui triumphátor hódie super omnes cælos ascendísti, ne derelínquas nos órphanos; sed mitte promíssum Patris in nos, Spíritum veritátis.^ALLo",
-          "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
-          "bitten_r_lat": "Tu rex glóriæ, Christe.",
-          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
-          "les_text_lat": "Christus semel pro peccátis passus est, iustus pro iniústis, ut vos addúceret ad Deum, mortificátus quidem carne, vivificátus autem Spíritu. Et vos nunc salvos facit, non carnis deposítio sórdium sed consciéntiæ bonæ rogátio in Deum, per resurrectiónem Iesu Christi, qui est in déxtera Dei, proféctus in cælum, subiéctis sibi ángelis et potestátibus et virtútibus."
+          "antev_lat": "Tristítia vestra vertétur in gáudium, et gáudium vestrum nemo tollet a vobis.^ALLo"
         }
       },
+      "5": {
+        "each": {
+          "oration": "Allmächtiger Gott, dein Sohn hat sich für uns geheiligt und auch uns die Heiligung zugesagt. Erfülle diese Verheißung durch die Predigt des Evangeliums, damit deine Kinder auf der ganzen Erde die Heiligkeit erlangen, die uns Christus, der treue und wahrhaftige Zeuge, verheißen hat. Er,^ORR",
+          "oration_lat": "Exáudi, Dómine, preces nostras, ut, quod tui Verbi sanctificatióne promíssum est, evangélico ubíque compleátur efféctu, et plenitúdo adoptiónis obtíneat quod prædíxit testificátio veritátis.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Mit Herrlichkeit und Ehre ist Jesus gekrönt um seines Todesleidens willen. Halleluja,°halleluja.",
+          "modeev": "VIII",
+          "antev_lat": "Vidémus Iesum, propter passiónem mortis, glória et honóre coronátum.^ALLo"
+        },
+        "Vesper": {
+          "antev": "Euer Vater im Himmel wird den guten Geist allen geben, die ihn darum bitten.^HALLo",
+          "modeev": "IV",
+          "antev_lat": "Pater vester de cælo dabit Spíritum bonum peténtibus se.^ALLo"
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Gott, unser Heil, du hast uns im österlichen Geheimnis die Quelle der Gnade erschlossen. Hilf uns, im Guten voranzuschreiten, damit wir immer aus der Ostergnade leben.^ORV",
+          "oration_lat": "Mentes nostras, quǽsumus, Dómine, bonis opéribus semper infórma, ut, ad melióra iúgiter contendéntes, paschále mystérium studeámus habére perpétuum.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Amen, amen, ich sage euch: Was immer ihr vom Vater erbittet, er wird es euch geben in meinem Namen.^HALLo",
+          "modeev": "VI",
+          "antev_lat": "Amen, amen dico vobis: Si quid petiéritis Patrem in nómine meo, dabit vobis.^ALLo"
+        }
+      }
+    },
+    "6.5": {
       "5": {
         "each": {
           "oration": "Allmächtiger Gott, in der Auferstehung und Himmelfahrt deines Sohnes öffnest du uns das Tor zum ewigen Leben. Lenke unser Herz, dass wir auf ihn schauen, den Urheber unseres Heiles, der zu deiner Rechten thront, und schenke allen Getauften das unsterbliche Leben, wenn er in Herrlichkeit wiederkommt,^ORR",
           "oration_lat": "Deus, qui ad ætérnam vitam in Christi resurrectióne nos réparas, érige nos ad consedéntem in déxtera tua nostræ salútis auctórem, ut, cum in maiestáte sua Salvátor noster advénerit, quos fecísti baptísmo renásci, fácias beáta immortalitáte vestíri.^ORlV"
         },
         "Laudes": {
-          "antev": "Mit Herrlichkeit und Ehre ist Jesus gekrönt um seines Todesleidens willen.^HALLo",
+          "antev": "Mit Herrlichkeit und Ehre ist Jesus gekrönt um seines Todesleidens willen. Halleluja,°halleluja.",
           "modeev": "VIII",
           "bitten_e": "Gepriesen sei Jesus Christus, der in den Himmel aufgefahren ist und den Heiligen Geist auf die Apostel sandte. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sende den herab, den der Vater verheißen hat;^qstärke uns mit dem Geist aus der Höhe.^pSende uns den Geist der Wahrheit,^qdass er uns in alle Wahrheit einführe.^pHilf uns, nach dem Geist zu leben;^qüberwinde in uns die Macht der Sünde.^pSteh uns bei, wenn wir leiden müssen,^qdamit wir auch mit dir verherrlicht werden.",
-          "antev_lat": "Vidémus Iesum, propter passiónem mortis, glória et honóre coronátum.^ALLo"
+          "antev_lat": "Vidémus Iesum, propter passiónem mortis, glória et honóre coronátum.^ALLo",
+          "bitten_e_lat": "Christum simul magnificémus, qui in cælum ascéndit, missúrus Spíritum Sanctum in Apóstolos, eúmque deprecémur:",
+          "bitten_r_lat": "Emítte in nos Spíritum tuum.",
+          "bitten_lat": "Christe, qui in cælum ascendísti, mitte promíssum Patris in nos,^qut induámur virtúte ex alto.^pQui discípulos tuos prudéntes ut serpéntes et símplices ut colúmbas esse voluísti,^qper Spíritum tuum doce nos prudéntiam et simplicitátem.^pQui sedes ad déxteram Patris, ora pro nobis ut Sacérdos noster,^qora in nobis ut Caput nostrum.^pIn ærúmnis da nos cómpati tecum,^qut tecum et glorificémur."
         },
         "Vesper": {
           "antev": "Euer Vater im Himmel wird den guten Geist allen geben, die ihn darum bitten.^HALLo",
@@ -9566,7 +9454,10 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der mit dem Heiligen Geist gesalbt wurde:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Sieh auf alle, die als Christen deinen Namen tragen;^qführe sie im Heiligen Geist zur Einheit zusammen.^pDu König der Welt, im Triumph bist du hinaufgestiegen in den Himmel;^qbreite deine Herrschaft aus über alle Völker.^pDu bist der wahre Weinstock;^qgib, dass alle Menschen Rebzweige an dir werden.^pSende dein Licht denen, die um deines Namens willen verfolgt werden,^qund gib ihnen ein, was sie ihren Verfolgern antworten sollen.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
-          "antev_lat": "Pater vester de cælo dabit Spíritum bonum peténtibus se.^ALLo"
+          "antev_lat": "Pater vester de cælo dabit Spíritum bonum peténtibus se.^ALLo",
+          "bitten_e_lat": "Laudémus Christum, quem Spíritus Sanctus unxit, et orémus:",
+          "bitten_r_lat": "Qui sedes ad déxteram Patris, interpélla pro nobis.",
+          "bitten_lat": "Omnes, qui christiáno nómine vocántur, réspice, Dómine,^qut a Spíritu Sancto congregéntur in unum.^pMitte lucem tuam ómnibus, qui propter nomen tuum persecutiónem patiúntur,^qut sciant quid coram persecutóribus loquántur.^pOmnes te agnóscant, vitem veram,^qut fiant pálmites fructum Spíritus afferéntes.^pChriste, rex omnis terræ, qui in iubilatióne cælum ascendísti,^qregna super omnes gentes.^pQui mortis et resurrectiónis tuæ per baptísmum sunt facti partícipes,^qtecum per mortem tránseant ad vitam."
         }
       },
       "6": {
@@ -9673,7 +9564,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "In der Welt seid ihr in Bedrängnis; aber habt Mut: Ich habe die Welt besiegt.^HALLo",
-          "modeev": "II",
+          "modeev": "IIc",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns den Beistand des Heiligen Geistes verheißen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Durch dich danken wir dem Vater im Heiligen Geist;^qgib, dass alles, was wir heute tun, in deinem Namen geschieht.^pGib, dass der Heilige Geist in uns wohne,^qdamit wir lebendige Glieder deines Leibes sind.^pGib, dass wir keinen Menschen richten oder verachten,^qdamit wir vor deinem Gericht bestehen können.^pErfülle uns durch den Glauben mit Freude und Frieden;^qmach unsere Hoffnung stark im Heiligen Geist.",
@@ -17824,7 +17715,7 @@ export const brevierData = {
         "Invitatorium": {
           "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
           "mode0": "IV",
-          "ant0_lat": ""
+          "ant0_lat": "Christus appáruit nobis; veníte, adorémus."
         },
         "Lesehore": {
           "hymn_1": 3214.0,
@@ -17848,6 +17739,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "I",
           "resp0": "Er ist auf Erden erschienen.",
           "resp1": "Er hat mit den Menschen gelebt.",
           "hymn_1_lat": 4003.2,
@@ -17864,6 +17756,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "II",
           "resp0": "Die Völker schauen den Gerechten.",
           "resp1": "Alle Könige den Herrn der Herrlichkeit.",
           "hymn_1_lat": 4006.2,
@@ -17880,6 +17773,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "VII",
           "resp0": "Ihr Völker, preist unsern Gott.",
           "resp1": "Erhebt die Stimme zu seinem Lob.",
           "hymn_1_lat": 4009.2,
@@ -18002,6 +17896,201 @@ export const brevierData = {
         "ErsteV": {},
         "Laudes": {},
         "Vesper": {}
+      }
+    }
+  },
+  "xo": {
+    "6": {
+      "4": {
+        "each": {
+          "oration": "Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist,^ORR",
+          "oration_lat": "Fac nos, omnípotens Deus, sanctis exsultáre gáudiis, et pia gratiárum actióne lætári, quia Christi Fílii tui ascénsio est nostra provéctio, et, quo procéssit glória cápitis, eo spes vocátur et córporis.^ORlV"
+        },
+        "ErsteV": {
+          "button": "1. Vesper zu Christi Himmelfahrt",
+          "hymn_1": 2904.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "psalm1": 113.0,
+          "psalm2": 117.0,
+          "psalm3": 154.0,
+          "ant1": "Ich bin ausgegangen vom Vater und in die Welt gekommen. Ich verlasse nun wieder die Welt und gehe zum Vater.^HALLo",
+          "ant2": "Als Jesus zu seinen Jüngern geredet hatte, wurde er in den Himmel aufgenommen und setzte sich zur Rechten Gottes.^HALLo",
+          "ant3": "Niemand stieg je in den Himmel auf außer dem, der vom Himmel herabstieg: der Menschensohn, der im Himmel ist.^HALLo",
+          "mode1": "III",
+          "mode2": "VII",
+          "mode3": "II",
+          "les_buch": "›Eph",
+          "les_stelle": "2,4–6",
+          "les_text": "Gott, der voll Erbarmen ist, hat uns, die wir durch unsere Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus auferweckt und uns zusammen mit ihm einen Platz im Himmel gegeben.",
+          "les_text_neu": "Gott, der reich ist an Erbarmen, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus Jesus auferweckt und uns zusammen mit ihm einen Platz in den himmlischen Bereichen gegeben.",
+          "resp1": "Gott steigt empor unter Jubel.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Der Herr beim Schall der Posaunen.",
+          "antev": "Vater, ich habe deinen Namen den Menschen offenbart, die du mir gegeben hast. Bewahre sie in deinem Namen; denn ich gehe zu dir.^HALLo",
+          "modeev": "II",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
+          "bitten_r": "Du König der Herrlichkeit, höre uns.",
+          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
+          "hymn_1_lat": 2904.1,
+          "hymn_2_lat": 0.0,
+          "ant1_lat": "Exívi a Patre et veni in mundum; íterum relínquo mundum et vado ad Patrem.^ALLo",
+          "ant2_lat": "Dóminus Iesus, postquam locútus est discípulis suis, ascéndit in cælum et sedet a dextris Dei.^ALLo",
+          "ant3_lat": "Nemo ascéndit in cælum, nisi qui de cælo descéndit, Fílius hóminis, qui est in cælo.^ALLo",
+          "resp1_lat": "",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "",
+          "antev_lat": "Pater, manifestávi nomen tuum homínibus, quos dedísti mihi; nunc autem pro eis rogo, non pro mundo, quia ad te vénio.^ALLo",
+          "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
+          "bitten_r_lat": "Tu rex glóriæ, Christe.",
+          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
+          "les_text_lat": "Deus, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo — grátia estis salváti — et conresuscitávit et consedére fecit in cæléstibus in Christo Iesu."
+        },
+        "Invitatorium": {
+          "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^HALLo",
+          "mode0": "VII",
+          "ant0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus.^ALLo"
+        },
+        "Lesehore": {
+          "hymn_1": 3414.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "psalm1": 68.1,
+          "psalm2": 68.2,
+          "psalm3": 68.3,
+          "ant1": "Singt für Gott, spielt seinem Namen; jubelt ihm zu, ihm, der auf den Wolken einherfährt.^HALLo",
+          "ant2": "Du zogst hinauf zur Höhe, führtest Gefangene mit.^HALLo",
+          "ant3": "Gott, sie sahen deinen Einzug, den Einzug meines Gottes und Königs ins Heiligtum.^HALLo^FIRST",
+          "ant1_lat": "Cantáte Deo, psalmum dícite nómini eius; iter fácite ei qui fertur super nubes.^ALLo",
+          "ant2_lat": "Ascéndens in altum, captívam duxit captivitátem.^ALLo",
+          "ant3_lat": "Vidérunt ingréssus tuos, Deus, ingréssus Dei mei, regis mei in sancta.^ALLo^FIRST"
+        },
+        "Vigil": {
+          "psalm1": 199.117,
+          "psalm2": 199.122,
+          "psalm3": 199.123,
+          "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^HALLo",
+          "les_buch": "^A:vigil-Himmelfahrt:",
+          "les_text": "LEER",
+          "les_text_neu": ""
+        },
+        "Laudes": {
+          "hymn_1": 3424.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "ant1": "Ihr Männer von Galiläa, was schaut ihr auf zum Himmel? Wie dieser Jesus vor euren Augen zum Himmel emporstieg, so kommt er wieder.^HALLo",
+          "ant2": "Preist den König der Könige. Singt das Lob unseres Gottes.^HALLo",
+          "ant3": "Vor ihren Augen wurde Jesus erhoben. Eine Wolke nahm ihn auf und entzog ihn ihren Blicken.^HALLo",
+          "mode1": "VII",
+          "mode2": "V",
+          "mode3": "VII",
+          "les_buch": "›Hebr",
+          "les_stelle": "10,12–14",
+          "les_text": "Jesus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
+          "les_text_neu": "",
+          "resp1": "Christus zog hinauf zur Höhe.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Gefangene hat er mitgeführt.",
+          "antev": "Ich steige auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^HALLo",
+          "modeev": "VII",
+          "bitten_e": "Gepriesen sei Jesus Christus, der von der Erde erhöht ist und alles an sich zieht. Zu ihm lasst uns beten:",
+          "bitten_r": "Christus, höre uns.",
+          "bitten": "Du bist als Sieger emporgestiegen zur Rechten des Vaters;^qlenke unser Sinnen und Verlangen zum Himmel.^pDu bist unser Hoherpriester;^qtritt für uns ein beim Vater.^pDu bleibst bei uns alle Tage bis zum Ende der Welt;^qstärke unseren Glauben.^pDu hast heute die Apostel zu deinen Zeugen bestellt;^qgib auch unserem Zeugnis Kraft durch den Heiligen Geist.",
+          "ant1_lat": "Viri Galilǽi, quid aspícitis in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet.^ALLo",
+          "ant2_lat": "Exaltáte regem regum, et hymnum dícite Deo.^ALLo",
+          "ant3_lat": "Vidéntibus illis, elevátus est, et nubes suscépit eum in cælo.^ALLo",
+          "resp1_lat": "Ascéndens Christus in altum,",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Captívam duxit captivitátem.",
+          "antev_lat": "Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum.^ALLo",
+          "bitten_e_lat": "Dóminum, exaltátum a terra et ómnia ad seípsum trahéntem, invocémus cum exsultatióne, acclamántes:",
+          "bitten_r_lat": "Tu rex glóriæ, Christe.",
+          "bitten_lat": "O rex glóriæ, Dómine Iesu, qui, semel oblátus ut hóstia pro peccátis, victor ad Patris déxteram ascendísti,^qin sempitérnum consúmma sanctificátos.^pSacérdos ætérne et novi miníster testaménti, semper vivens ad interpellándum pro nobis,^qsalva pópulum deprecántem.^pQui te præbuísti vivum post passiónem tuam et per dies quadragínta discípulis apparuísti,^qhódie fidem nostram confírma.^pQui hódie Spíritum Apóstolis promisísti, ut tibi testes fíerent usque ad últimum terræ,^qper virtútem Spíritus testimónium róbora nostrum.",
+          "les_text_lat": "Christus, una pro peccátis obláta hóstia, in sempitérnum consédit in déxtera Dei, de cétero exspéctans, donec ponántur inimíci eius scabéllum pedum eius; una enim oblatióne consummávit in sempitérnum eos, qui sanctificántur."
+        },
+        "Terz": {
+          "psalm1": 8.0,
+          "psalm2": 19.1,
+          "psalm3": 19.2,
+          "ant0": "Mit Herrlichkeit und Ehre hast du ihn gekrönt und ihn als Herrscher eingesetzt über das Werk deiner Hände.^HALLo",
+          "les_buch": "›Offb",
+          "les_stelle": "1,17c–18",
+          "les_text": "Ich, Johannes, sah den Menschensohn. Er sprach zu mir: Fürchte dich nicht! Ich bin der Erste und der Letzte und der Lebendige. Ich war tot, doch nun lebe ich in alle Ewigkeit, und ich habe die Schlüssel des Todes und der Unterwelt.",
+          "les_text_neu": "Ich, Johannes, sah den Menschensohn. Er sprach zu mir: Fürchte dich nicht! Ich bin der Erste und der Letzte und der Lebendige. Ich war tot, doch siehe, ich lebe in alle Ewigkeit, und ich habe die Schlüssel des Todes und der Unterwelt.",
+          "resp0": "Euer Herz sei ohne Angst.^HALLo",
+          "resp1": "Denn ich gehe zum Vater.^HALLo",
+          "ant0_lat": "Eleváta est magnificéntia tua super cælos, Deus.^ALLo",
+          "resp0_lat": "Non turbétur cor vestrum.^ALLo",
+          "resp1_lat": "Ego vado ad Patrem.^ALLo",
+          "les_text_lat": "Vidi Fílium hóminis, qui dixit mihi: Ego sum primus et novíssimus, et vivens et fui mórtuus et ecce sum vivens in sǽcula sæculórum et hábeo claves mortis et inférni."
+        },
+        "Sext": {
+          "ant0": "Frohlockend wie ein Held vollendet er den Lauf, zum höchsten Himmel kehrt der Herr zurück.^HALLo",
+          "mode0": "IV",
+          "les_buch": "›Hebr",
+          "les_stelle": "8,1b–3a",
+          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
+          "les_text_neu": "Wir haben einen solchen Hohepriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
+          "resp0": "Der Herr hat seinen Thron errichtet im Himmel.^HALLo",
+          "resp1": "Seine Königsmacht herrscht über das All.^HALLo",
+          "ant0_lat": "A summo cælo egréssio eius, et occúrsus eius usque ad summum eius.^ALLo",
+          "resp0_lat": "Dóminus in cælo.^ALLo",
+          "resp1_lat": "Parávit sedem suam.^ALLo",
+          "les_text_lat": "Talem habémus pontíficem, qui consédit in déxtera throni Maiestátis in cælis, sanctórum miníster et tabernáculi veri, quod fixit Dóminus, non homo. Omnis enim póntifex ad offerénda múnera et hóstias constitúitur."
+        },
+        "Non": {
+          "ant0": "Jesus erhob seine Hände und segnete die Jünger. Und während er sie segnete, wurde er zum Himmel erhoben.^HALLo",
+          "les_buch": "›Kol",
+          "les_stelle": "3,1–2",
+          "les_text": "Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische.",
+          "les_text_neu": "Seid ihr nun mit Christus auferweckt, so strebt nach dem, was oben ist, wo Christus zur Rechten Gottes sitzt! Richtet euren Sinn auf das, was oben ist, nicht auf das Irdische!",
+          "resp0": "Preist den König der Könige.^HALLo",
+          "resp1": "Singt das Lob unseres Gottes.^HALLo",
+          "ant0_lat": "Elevátis mánibus, benedíxit eis, et ferebátur in cælum.^ALLo",
+          "resp0_lat": "Exaltáte regem regum.^ALLo",
+          "resp1_lat": "Et hymnum dícite Deo.^ALLo",
+          "les_text_lat": "Si conresurrexístis Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens; quæ sursum sunt sápite, non quæ supra terram."
+        },
+        "Vesper": {
+          "hymn_1": 2904.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "psalm1": 110.0,
+          "psalm2": 47.0,
+          "psalm3": 154.0,
+          "ant1": "Der Herr ist aufgefahren zum Himmel und sitzt zur Rechten des Vaters.^HALLo",
+          "ant2": "Gott stieg empor unter Jubel, der Herr beim Schall der Posaunen.^HALLo",
+          "ant3": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm.^HALLo",
+          "mode1": "VII",
+          "mode2": "IX",
+          "mode3": "I",
+          "les_buch": "›1°Petr",
+          "les_stelle": "3,18.22",
+          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
+          "les_text_neu": "Christus ist der Sünden wegen ein einziges Mal gestorben, ein Gerechter für Ungerechte, damit er euch zu Gott hinführe, nachdem er dem Fleisch nach zwar getötet, aber dem Geist nach lebendig gemacht wurde. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
+          "resp1": "Ich steige auf zu meinem Vater und zu eurem Vater.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Zu meinem Gott und zu eurem Gott.",
+          "antev": "O König der Herrlichkeit und Herr der Scharen! Als Sieger steigst du heute empor über alle Himmel; lass uns nicht als Waisen zurück, sondern sende uns die Verheißung des Vaters: den Geist der Wahrheit.^HALLo",
+          "modeev": "II",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
+          "bitten_r": "Du König der Herrlichkeit, höre uns.",
+          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
+          "hymn_1_lat": 2904.1,
+          "hymn_2_lat": 0.0,
+          "ant1_lat": "Ascéndit in cælos, sedet ad déxteram Patris.^ALLo",
+          "ant2_lat": "Ascéndit Deus in iubilatióne, et Dóminus in voce tubæ.^ALLo",
+          "ant3_lat": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo.^ALLo",
+          "resp1_lat": "Ascéndo ad Patrem meum et Patrem vestrum,",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Deum meum et Deum vestrum.",
+          "antev_lat": "O rex glóriæ, Dómine virtútum, qui triumphátor hódie super omnes cælos ascendísti, ne derelínquas nos órphanos; sed mitte promíssum Patris in nos, Spíritum veritátis.^ALLo",
+          "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
+          "bitten_r_lat": "Tu rex glóriæ, Christe.",
+          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
+          "les_text_lat": "Christus semel pro peccátis passus est, iustus pro iniústis, ut vos addúceret ad Deum, mortificátus quidem carne, vivificátus autem Spíritu. Et vos nunc salvos facit, non carnis deposítio sórdium sed consciéntiæ bonæ rogátio in Deum, per resurrectiónem Iesu Christi, qui est in déxtera Dei, proféctus in cælum, subiéctis sibi ángelis et potestátibus et virtútibus."
+        }
       }
     }
   }

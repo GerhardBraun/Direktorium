@@ -1140,6 +1140,10 @@ export default function Stundenbuch() {
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [prefFootnotes, setPrefFootnotes] = useState(() => localStorage.getItem("prefFootnotes") === "false" ? false : true);
   const [skipPersonal, setSkipPersonal] = useState(() => localStorage.getItem("skipPersonal") === "true");
+  const [delaySolemnity, setDelaySolemnity] = useState(() => {
+    const stored = localStorage.getItem('delaySolemnity');
+    return stored ? JSON.parse(stored) : { epiphany: false, ascension: 0, corpusXP: 0 };
+  });
   const [deceasedMode, setDeceasedMode] = useState(() => localStorage.getItem("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
   const [localPrefLatin, setLocalPrefLatin] = useState(() => localStorage.getItem("prefLanguage") === "_lat");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
@@ -2243,7 +2247,7 @@ export default function Stundenbuch() {
                 title="Einstellungen"
                 onBack={() => setViewMode("directory")}
               />
-              <PersonalSettings onDioceseChange={setDiocese} />
+              <PersonalSettings onDioceseChange={setDiocese} onDelaySolemnityChange={setDelaySolemnity} />
             </div>
           )}
           {/* Prayer Views */}

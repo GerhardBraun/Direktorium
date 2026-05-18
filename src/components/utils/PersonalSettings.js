@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { calendarData } from '../data/Calendar.ts';
 
 export function setLocalStorage(key, value) {
@@ -11,7 +11,7 @@ export function setLocalStorage(key, value) {
     }
 }
 
-const PersonalSettings = ({ onDioceseChange } = {}) => {
+const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
     // Konstanten
     const weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
     const availablePsalms = [95, 100, 67, 24];
@@ -57,6 +57,10 @@ const PersonalSettings = ({ onDioceseChange } = {}) => {
     );
     const [popeNameAccInput, setPopeNameAccInput] = useState('');
     const [bishopNameAccInput, setBishopNameAccInput] = useState('');
+    const [delaySolemnity, setDelaySolemnity] = useState(() => {
+        const stored = localStorage.getItem('delaySolemnity');
+        return stored ? JSON.parse(stored) : { epiphany: false, ascension: 0, corpusXP: 0 };
+    });
 
     // Optionen zum Benediktinischen Antiphonale
     const unlockBenedictine = localStorage.getItem('unlockBenedictine') === 'unlocked' ? true : false; // Immer freigeschaltet
@@ -108,6 +112,10 @@ const PersonalSettings = ({ onDioceseChange } = {}) => {
         const dativeForm = convertToDative(value);
         setter(dativeForm);
         inputSetter(convertToAccusative(dativeForm));
+    };
+
+    const setDelaySolemnityKey = (key, value) => {
+        setDelaySolemnity(prev => ({ ...prev, [key]: value }));
     };
 
     const getDioceseOptions = () => {
@@ -321,6 +329,11 @@ const PersonalSettings = ({ onDioceseChange } = {}) => {
         setLocalStorage('diocese', diocese);
         onDioceseChange?.(diocese);
     }, [diocese]);
+
+    useEffect(() => {
+        setLocalStorage('delaySolemnity', JSON.stringify(delaySolemnity));
+        onDelaySolemnityChange?.(delaySolemnity);
+    }, [delaySolemnity]);
 
     useEffect(() => {
         setLocalStorage('bishopTitle', bishopTitle);
@@ -592,6 +605,37 @@ const PersonalSettings = ({ onDioceseChange } = {}) => {
                         )}
                     </div>
                 </div>
+            </div>
+
+            {/* Verlegung von Hochfesten */}
+            <div className="px-3">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+                    Verlegung von Hochfesten
+                </div>
+                {[
+                    { key: 'epiphany', label: 'Erscheinung', fixedDay: '6. Januar' , offValue: false, onValue: true },
+                    { key: 'ascension', label: 'Himmelfahrt', fixedDay: 'Donnerstag' , offValue: 0, onValue: 3 },
+                    { key: 'corpusXP', label: 'Fronleichnam', fixedDay: 'Donnerstag' , offValue: 0, onValue: 3 },
+                ].map(({ key, label, fixedDay, offValue, onValue }) => (
+                    <div key={key} className="grid gap-2 items-center mb-1"
+                        style={{ gridTemplateColumns: '6rem 1fr 1fr' }}>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">{label}</div>
+                        <button
+                            onClick={() => setDelaySolemnityKey(key, offValue)}
+                            className={`px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                                ${!delaySolemnity[key] ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                        >
+                            {fixedDay}
+                        </button>
+                        <button
+                            onClick={() => setDelaySolemnityKey(key, onValue)}
+                            className={`px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                                ${delaySolemnity[key] ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                        >
+                            Sonntag
+                        </button>
+                    </div>
+                ))}
             </div>
 
             {/* Names Section */}
