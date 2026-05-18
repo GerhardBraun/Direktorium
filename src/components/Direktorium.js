@@ -1182,8 +1182,12 @@ export default function Stundenbuch() {
   const isDateToday = (date) => date.toISOString().split("T")[0] === getTodayString();
   const [prayedHours, setPrayedHours] = useState(() => {
     const today = new Date().toISOString().split("T")[0];
-    const stored = localStorage.getItem(`prayedHours_${today}`);
-    return stored ? JSON.parse(stored) : [];
+    const stored = localStorage.getItem("prayedHours");
+    if (stored) {
+      const parsed = JSON.parse(stored);
+      if (parsed.date === today) return parsed.hours;
+    }
+    return [];
   });
 
   const [debugLog, setDebugLog] = useState([]);
@@ -1249,7 +1253,7 @@ export default function Stundenbuch() {
         setPrayedHours(prev => {
           if (prev.includes(hour)) return prev;
           const updated = [...prev, hour];
-          localStorage.setItem(`prayedHours_${today}`, JSON.stringify(updated));
+          localStorage.setItem("prayedHours", JSON.stringify({ date: today, hours: updated }));
           return updated;
         });
       }, 15000);
@@ -2133,7 +2137,7 @@ export default function Stundenbuch() {
   // const handleResetPrayedHours = () => {
   //   clearTimeout(horaTimerRef.current);
   //   horaTimerRef.current = null;
-  //   localStorage.removeItem(`prayedHours_${getTodayString()}`);
+  //   localStorage.removeItem("prayedHours");
   //   setPrayedHours([]);
   // };
 
