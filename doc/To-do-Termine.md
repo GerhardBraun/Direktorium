@@ -1,13 +1,14 @@
-Referenzen bei Lesungen, Perikopen-Datenbank
-processHeiligenfeste: Umstellung der Datumsformate (auch bei Routine für Verlegung der Hochfeste)
-Verlegung von Epiphanie/Taufe, Himmelfahrt, Fronleichnam
+- Referenzen bei Lesungen, Perikopen-Datenbank
+- processHeiligenfeste: Umstellung der Datumsformate (auch bei Routine für Verlegung der Hochfeste)
 
 
-**05-24** `Lesungen der Lesehore` ab der 8. Woche i. Jkr. und rückwirkend 6. und 7. Woche
-**05-23** `Rufe vor dem Evangelium` ab 7. Woche i. Jkr.
-**05-31** `lat. Commune-Orationen` für Juni: 16.,19.,21.,26.
-**05-31** `Calendar-Lesungen`: ab 5. Juni
+**05-24** `Lesungen der Lesehore` ab Do der 8. Woche i. Jkr.
+**06-04** `Calendar-Lesungen`: ab 5. Juni
+**06-15** `lat. Commune-Orationen` für Juni: 16.,19.,21.,26.
 **07-08** Eigenfeiern Köln
+**07-11** `Rufe vor dem Evangelium` ab 15. Woche i. Jkr.
 **08-13** Eigenfeiern Limburg
+**ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.
 **ohne Frist** `Psalmen zum Singen` zur Lesehore
+**ohne Frist** ^INVANT in Psalmen des Benedikt. Antiphonale
 **11-26** `BuM ABC`: Advent C, 3. Advent B, Fasten- und Osterzeit BC

@@ -1179,15 +1179,21 @@ export default function Stundenbuch() {
 
   const horaTimerRef = useRef(null);
   const getTodayString = () => new Date().toISOString().split("T")[0];
+  const getTomorrowString = () => {
+    const d = new Date(); d.setDate(d.getDate() + 1); return d.toISOString().split("T")[0];
+  };
   const isDateToday = (date) => date.toISOString().split("T")[0] === getTodayString();
   const [prayedHours, setPrayedHours] = useState(() => {
-    const today = new Date().toISOString().split("T")[0];
+    const today = getTodayString();
+    const tomorrow = getTomorrowString();
     const stored = localStorage.getItem("prayedHours");
-    if (stored) {
-      const parsed = JSON.parse(stored);
-      if (parsed.date === today) return parsed.hours;
-    }
-    return [];
+    if (!stored) return {};
+    const parsed = JSON.parse(stored);
+    // Nur heute und morgen behalten, ältere Einträge verwerfen
+    const cleaned = {};
+    if (parsed[today]) cleaned[today] = parsed[today];
+    if (parsed[tomorrow]) cleaned[tomorrow] = parsed[tomorrow];
+    return cleaned;
   });
 
   const [debugLog, setDebugLog] = useState([]);
@@ -1245,15 +1251,27 @@ export default function Stundenbuch() {
   useEffect(() => {
     clearTimeout(horaTimerRef.current);
     horaTimerRef.current = null;
-    if (viewMode === "prayerText" && isDateToday(selectedDate) && !prayedHours.includes(selectedHour)) {
-      const today = getTodayString();
+    const todayStr = getTodayString();
+    const tomorrowStr = getTomorrowString();
+    const selectedDateStr = selectedDate.toISOString().split("T")[0];
+    const selectedDateHours = prayedHours[selectedDateStr] || [];
+    const isToday = selectedDateStr === todayStr;
+    // Antizipation der Lesehore: Lesehore des Folgetags gilt als gebetet,
+    // wenn heute bereits Vesper oder Komplet gebetet wurde
+    const todayHours = prayedHours[todayStr] || [];
+    const canAnticipate = selectedDateStr === tomorrowStr
+      && selectedHour === "lesehore"
+      && (todayHours.includes("vesper") || todayHours.includes("komplet"));
+    if (viewMode === "prayerText" && (isToday || canAnticipate) && !selectedDateHours.includes(selectedHour)) {
       const hour = selectedHour;
+      const dateStr = selectedDateStr;
       horaTimerRef.current = setTimeout(() => {
         horaTimerRef.current = null;
         setPrayedHours(prev => {
-          if (prev.includes(hour)) return prev;
-          const updated = [...prev, hour];
-          localStorage.setItem("prayedHours", JSON.stringify({ date: today, hours: updated }));
+          const prevHours = prev[dateStr] || [];
+          if (prevHours.includes(hour)) return prev;
+          const updated = { ...prev, [dateStr]: [...prevHours, hour] };
+          localStorage.setItem("prayedHours", JSON.stringify(updated));
           return updated;
         });
       }, 15000);
@@ -2138,7 +2156,7 @@ export default function Stundenbuch() {
   //   clearTimeout(horaTimerRef.current);
   //   horaTimerRef.current = null;
   //   localStorage.removeItem("prayedHours");
-  //   setPrayedHours([]);
+  //   setPrayedHours({});
   // };
 
   const handleSelectHour = (hour, hourTexts) => {
@@ -2327,8 +2345,8 @@ export default function Stundenbuch() {
               useCommemoration={useCommemoration}
               setUseCommemoration={setUseCommemoration}
               onSelectHour={handleSelectHour}
-              prayedHours={prayedHours}
-              isViewingToday={isDateToday(selectedDate)}
+              prayedHours={prayedHours[selectedDate.toISOString().split("T")[0]] || []}
+              isViewingToday={isDateToday(selectedDate) || selectedDate.toISOString().split("T")[0] === getTomorrowString()}
               // onResetPrayedHours={handleResetPrayedHours}
               setViewMode={setViewMode}
               onPrevDay={onPrevDay}
