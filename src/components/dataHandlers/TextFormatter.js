@@ -621,8 +621,9 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
         .replace(/\^ALLsk/g, '^rR^0r°Allelúia°^(Allelúia^)')
         .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL|\^EINZUG|\^FIRST/g, '')
         .replace(/°/g, '\u00A0')
-        .replace(/(?<!\^)(?<!\^0)([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
-        .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
+        .replace(/\^\*/g, '\u00A0^r*^0r\n')
+        .replace(/\^\+/g, '\u00A0^r†^0r\n')
+        // .replace(/(?<!\^)(?<!\^0)([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
             // Andernfalls Zeilenumbruch

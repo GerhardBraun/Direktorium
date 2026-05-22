@@ -3,6 +3,7 @@
 
 
 **05-24** `Lesungen der Lesehore` ab Do der 8. Woche i. Jkr.
+**06-01** Eigenfeiern Trier: 1., 8. Juni
 **06-04** `Calendar-Lesungen`: ab 5. Juni
 **06-15** `lat. Commune-Orationen` für Juni: 16.,19.,21.,26.
 **07-08** Eigenfeiern Köln
