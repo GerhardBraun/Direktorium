@@ -921,9 +921,13 @@ export function processBrevierData(todayDate) {
 
     const useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
-        // nicht am Sonntag (außer Hochfeste der Heiligen und Christusfeste sowie Christkönig),
+        // nicht am Sonntag
+        // (außer Hochfeste der Heiligen und Christusfeste
+        // sowie Pfingsten, Dreifaltigkeit, ggf. Fronleichnam und Christkönig),
         // Aschermittwoch, Karwoche und Allerseelen
-        && !(dayOfWeek === 0 && rank_date < 4 && swdCombined !== 'j-34-0')
+        && !(dayOfWeek === 0 && rank_date < 4
+            && !['o-8-0', 'j-34-0'].includes(swdCombined)
+            && !todayInfo.aroundPentecost)
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
         && mmdd !== '11-02'

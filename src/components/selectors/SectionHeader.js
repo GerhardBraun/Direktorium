@@ -168,7 +168,7 @@ const SectionHeader = ({
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
     const showPsalmsWt = hasWt && isPsalmodie
-        && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && texts?.laudes?.wt?.psalm1 !== 63))
+        && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1);
     const showContinuous = hasEig && hasWt && askContinuous
