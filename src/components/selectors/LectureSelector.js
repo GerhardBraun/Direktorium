@@ -373,7 +373,7 @@ const LectureSelector = ({
                 onClick={() => handleSelectionChange(button.index)}
                 className={`w-full text-sm text-left px-2 pt-2 pb-1 mt-1 rounded
             ${getButtonColor(button)}
-            ${currentSelection === button.index ? 'ring-2 ring-yellow-500' : ''}`}
+            ${currentSelection === button.index ? 'ring-2 ring-[#b6a03a]' : ''}`}
             >
                 <div className="flex items-baseline gap-0">
                     <div className="opacity-70 shrink-0 w-10">

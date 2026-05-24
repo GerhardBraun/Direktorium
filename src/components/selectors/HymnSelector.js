@@ -337,7 +337,7 @@ const HymnSelector = ({ texts, hour, season,
                     onClick={() => setSelectedHymn(hymn.id)}
                     className={`w-full text-sm text-left px-2 pt-2 pb-1 mt-1 rounded
                         ${getButtonColor(hymn.id.split('_')[0], hymn.source)}
-                        ${selectedHymn === hymn.id ? 'ring-2 ring-yellow-500' : ''}`}
+                        ${selectedHymn === hymn.id ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     aria-hidden="true">
                     {hymn.isNachtHymn ? (
                         <div className="flex flex-col gap-0">

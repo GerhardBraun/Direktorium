@@ -163,7 +163,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
                     className={`w-full text-sm text-left pl-3 pt-1 pb-0 mt-1 rounded
                     ${ant.color}
                     ${selectedAntSeason === ant.season
-                            ? 'ring-2 ring-yellow-500' : ''}`}                >
+                            ? 'ring-2 ring-[#b6a03a]' : ''}`}                >
                     <div className="flex items-baseline"
                         aria-hidden="true">
                         <div>

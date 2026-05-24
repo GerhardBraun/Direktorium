@@ -30,7 +30,7 @@ const KompletSelector = ({
             ${isDefault ? `text-rubric` : isDisabled ? 'text-gray-400 dark:text-gray-600' :
                 'text-gray-900 dark:text-gray-100'}
             bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700
-            ${isSelected ? 'ring-2 ring-yellow-500' : ''}`;
+            ${isSelected ? 'ring-2 ring-[#b6a03a]' : ''}`;
     };
 
     return (

@@ -170,7 +170,7 @@ export const NavigationButtons = ({
                                 }
                             }, 50);
                         }}
-                        className="text-left long-rubric mt-1 whitespace-nowrap"
+                        className="text-left long-rubric text-[#b6a03a] mt-1 whitespace-nowrap"
                     >
                         &nbsp;&nbsp;←&nbsp;&nbsp;zurück zur Lesehore
                     </button>
@@ -179,7 +179,7 @@ export const NavigationButtons = ({
                     </div>
                     <button
                         onClick={toggleDocked}
-                        className="text-right long-rubric mt-1"
+                        className="text-right long-rubric text-[#b6a03a] mt-1"
                     >
                         {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
                     </button>
@@ -191,7 +191,7 @@ export const NavigationButtons = ({
                         onClick={onBack}
                         className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
-                   text-rubric text-left text-sm"
+                   text-[#b6a03a] text-left text-sm"
                     >
                         ← Auswahl
                     </button>
@@ -202,7 +202,7 @@ export const NavigationButtons = ({
                         onClick={toggleDocked}
                         className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
-                   text-rubric text-sm"
+                   text-[#b6a03a] text-sm"
                     >
                         {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
                     </button>
@@ -216,7 +216,7 @@ export const NavigationButtons = ({
                 onClick={onBack}
                 className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
-                   text-rubric text-left text-sm"
+                   text-[#b6a03a] text-left text-sm"
                 aria-hidden="true">
                 ← zurück zur Stundengebetauswahl
             </button>
@@ -233,7 +233,7 @@ export const NavigationButtons = ({
                 onClick={onBack}
                 className="col-span-2 p-2 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
-                   text-rubric text-left text-sm"
+                   text-[#b6a03a] text-left text-sm"
             >
                 ← Auswahl
             </button>
@@ -243,7 +243,7 @@ export const NavigationButtons = ({
                     onClick={() => handleHourChange(alignment === 'right' ? nextHours[1] : nextHours[0])}
                     className={`col-span-4 p-2 rounded-sm text-sm
                         text-${alignment}
-                        bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric`}
+                        bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-[#b6a03a]`}
                 >
                     {singleButton}
                 </button>
@@ -258,7 +258,7 @@ export const NavigationButtons = ({
                             ${nextHour?.span ? nextHour.span : 'col-span-2'}
                             ${nextHour?.arrow ? 'text-left' : ''}
                             ${nextHour.name
-                                ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric'
+                                ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-[#b6a03a]'
                                 : 'bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600 cursor-default'}`}
                     >
                         {(nextHour.label

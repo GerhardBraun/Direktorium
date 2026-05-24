@@ -196,7 +196,7 @@ const SourceSelector = ({
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${getWeekdayButtonColor(season, disableButtons)}
                         ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.sources)
-                            ? 'ring-2 ring-yellow-500' : ''}`}
+                            ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.wt}
                 >
                     Vom Wochentag
@@ -213,7 +213,7 @@ const SourceSelector = ({
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${obligButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
                         ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.oblig)
-                            ? 'ring-2 ring-yellow-500' : ''}`}
+                            ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.oblig}
                 >
                     {obligButton.button}
@@ -237,7 +237,7 @@ const SourceSelector = ({
                         onClick={() => handleSourceSelect(source)}
                         className={`w-full p-1 pt-2 text-sm text-center rounded-sm
                                     ${getButtonColor(source, disableButtons)}
-                                    ${(doUnderline) ? 'ring-2 ring-yellow-500' : ''}`}
+                                    ${(doUnderline) ? 'ring-2 ring-[#b6a03a]' : ''}`}
                         disabled={disableButtons.sources}
                     >
                         {formatText(texts.laudes[source].button) || "ein Heiliger"}
@@ -252,7 +252,7 @@ const SourceSelector = ({
                             bg-gray-100 dark:bg-gray-900 text-xs
                             text-yellow-600 dark:text-yellow-500
                             hover:bg-gray-100 dark:hover:bg-gray-800
-                            ${prefSollemnity === 'kirchw' ? 'ring-2 ring-yellow-500' : ''}`}
+                            ${prefSollemnity === 'kirchw' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     >
                         Kirchweihe
                     </button>
@@ -264,7 +264,7 @@ const SourceSelector = ({
                                 bg-gray-100 dark:bg-gray-900 text-xs
                                 ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
                                 hover:bg-gray-100 dark:hover:bg-gray-800
-                                ${prefSollemnity === 'soll' ? 'ring-2 ring-yellow-500' : ''}`}
+                                ${prefSollemnity === 'soll' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                             disabled={!useToggle}
                         >
                             lokale Feier als Hochfest
@@ -277,7 +277,7 @@ const SourceSelector = ({
                             bg-gray-100 dark:bg-gray-900 text-xs
                             ${isErsteVesper !== 'erstev' ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
                             hover:bg-gray-100 dark:hover:bg-gray-800
-                            ${prefSollemnity === 'verst' ? 'ring-2 ring-yellow-500' : ''}`}
+                            ${prefSollemnity === 'verst' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                         disabled={isErsteVesper === 'erstev'}
                     >
                         Ged der Verst

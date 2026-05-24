@@ -54,7 +54,7 @@ const MassReadingsSelector = ({
                         onClick={() => setReadingSource(source)}
                         className={`w-full p-1 pt-2 text-sm text-center rounded-sm
                                   ${getButtonColor(source)}
-                                  ${readingSource === source ? 'ring-2 ring-yellow-500' : ''}`}
+                                  ${readingSource === source ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     >
                         {getButtonName(source)}
                     </button>
