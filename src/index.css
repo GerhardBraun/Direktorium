@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Rubrikenfarbe: Standard gold, hell/rot-Variante über HTML-Klasse */
+:root {
+  --color-rubric: #b6a03a;
+}
+html.rubric-red {
+  --color-rubric: #DC2626;
+}
+
 /* Psalmodie: Silbenklammer (⊔-Form) für ^b...^0b */
 .psalm-cant-bracket {
   display: inline-block;

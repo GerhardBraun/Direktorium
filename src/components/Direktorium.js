@@ -1148,6 +1148,12 @@ export default function Stundenbuch() {
   const scrollViewsRef = useRef(null);
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
+  const [rubricColor, setRubricColor] = useState(() => {
+    const stored = localStorage.getItem("rubricColor");
+    if (stored) return stored;
+    // Startwert: hell → rot, dunkel oder noch nicht gesetzt → gold
+    return (localStorage.getItem("theme") === "light") ? "red" : "gold";
+  });
   const [prefSrc, setPrefSrc] = useState("oblig");
   const [prefSollemnity, setPrefSollemnity] = useState("");
   const [useCommemoration, setUseCommemoration] = useState(false);
@@ -1343,6 +1349,11 @@ export default function Stundenbuch() {
     document.documentElement.style.overscrollBehavior = 'none';
     document.body.style.overscrollBehavior = 'none';
   }, [theme]);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("rubric-red", rubricColor === "red");
+    setLocalStorage("rubricColor", rubricColor);
+  }, [rubricColor]);
 
   useEffect(() => {
     document.documentElement.style.fontSize = baseFontSize;
@@ -1802,35 +1813,32 @@ export default function Stundenbuch() {
               onClick={() => handleSectionChange(sections.indexOf("theme"))}
             >
               <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
-                Design
+                Design und Rubrikenfarbe
               </div>
-              <div className="flex gap-1">
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setTheme("light");
-                  }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === "light"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
+              <div className="grid grid-cols-2 gap-1">
+                {[
+                  { themeVal: "light",  colorVal: "red",  label: "hell / rot" },
+                  { themeVal: "dark",   colorVal: "red",  label: "dunkel / rot" },
+                  { themeVal: "light",  colorVal: "gold", label: "hell / gold" },
+                  { themeVal: "dark",   colorVal: "gold", label: "dunkel / gold" },
+                ].map(({ themeVal, colorVal, label }) => (
+                  <button
+                    key={`${themeVal}-${colorVal}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setTheme(themeVal);
+                      setRubricColor(colorVal);
+                    }}
+                    className={`px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${
+                      theme === themeVal && rubricColor === colorVal
+                        ? "bg-orange-100 dark:bg-yellow-400/60"
+                        : ""
                     }`}
-                >
-                  hell
-                </button>
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setTheme("dark");
-                  }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === "dark"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  dunkel
-                </button>
+                  >
+                    {label}
+                  </button>
+                ))}
               </div>
             </div>
 
