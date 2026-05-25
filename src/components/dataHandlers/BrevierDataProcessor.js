@@ -919,6 +919,8 @@ export function processBrevierData(todayDate) {
     finalData.date = todayInfo.date;
     const { mmdd } = todayInfo.date;
 
+    if ([61, 66].includes(todayInfo?.aroundPentecost)) finalData.rank.aroundPentecost = 2
+
     const useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
         // nicht am Sonntag

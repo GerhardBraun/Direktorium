@@ -1184,14 +1184,15 @@ export default function Stundenbuch() {
   const [isNarrowScreen, setIsNarrowScreen] = useState(false);
 
   const horaTimerRef = useRef(null);
-  const getTodayString = () => new Date().toISOString().split("T")[0];
-  const getTomorrowString = () => {
-    const d = new Date(); d.setDate(d.getDate() + 1); return d.toISOString().split("T")[0];
+  const getDateString = (delay = 0) => {
+    const d = new Date();
+    d.setDate(d.getDate() + delay);
+    return d.toISOString().split("T")[0];
   };
-  const isDateToday = (date) => date.toISOString().split("T")[0] === getTodayString();
+  const isDateToday = (date) => date.toISOString().split("T")[0] === getDateString(0);
   const [prayedHours, setPrayedHours] = useState(() => {
-    const today = getTodayString();
-    const tomorrow = getTomorrowString();
+    const today = getDateString(0);
+    const tomorrow = getDateString(1);
     const stored = localStorage.getItem("prayedHours");
     if (!stored) return {};
     const parsed = JSON.parse(stored);
@@ -1257,8 +1258,8 @@ export default function Stundenbuch() {
   useEffect(() => {
     clearTimeout(horaTimerRef.current);
     horaTimerRef.current = null;
-    const todayStr = getTodayString();
-    const tomorrowStr = getTomorrowString();
+    const todayStr = getDateString(0);
+    const tomorrowStr = getDateString(1);
     const selectedDateStr = selectedDate.toISOString().split("T")[0];
     const selectedDateHours = prayedHours[selectedDateStr] || [];
     const isToday = selectedDateStr === todayStr;
@@ -1817,10 +1818,10 @@ export default function Stundenbuch() {
               </div>
               <div className="grid grid-cols-2 gap-1">
                 {[
-                  { themeVal: "light",  colorVal: "red",  label: "hell / rot" },
-                  { themeVal: "dark",   colorVal: "red",  label: "dunkel / rot" },
-                  { themeVal: "light",  colorVal: "gold", label: "hell / gold" },
-                  { themeVal: "dark",   colorVal: "gold", label: "dunkel / gold" },
+                  { themeVal: "light", colorVal: "red", label: "hell / rot" },
+                  { themeVal: "dark", colorVal: "red", label: "dunkel / rot" },
+                  { themeVal: "light", colorVal: "gold", label: "hell / gold" },
+                  { themeVal: "dark", colorVal: "gold", label: "dunkel / gold" },
                 ].map(({ themeVal, colorVal, label }) => (
                   <button
                     key={`${themeVal}-${colorVal}`}
@@ -1830,11 +1831,10 @@ export default function Stundenbuch() {
                       setTheme(themeVal);
                       setRubricColor(colorVal);
                     }}
-                    className={`px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${
-                      theme === themeVal && rubricColor === colorVal
-                        ? "bg-orange-100 dark:bg-yellow-400/60"
-                        : ""
-                    }`}
+                    className={`px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === themeVal && rubricColor === colorVal
+                      ? "bg-orange-100 dark:bg-yellow-400/60"
+                      : ""
+                      }`}
                   >
                     {label}
                   </button>
@@ -2354,7 +2354,8 @@ export default function Stundenbuch() {
               setUseCommemoration={setUseCommemoration}
               onSelectHour={handleSelectHour}
               prayedHours={prayedHours[selectedDate.toISOString().split("T")[0]] || []}
-              isViewingToday={isDateToday(selectedDate) || selectedDate.toISOString().split("T")[0] === getTomorrowString()}
+              isViewingToday={isDateToday(selectedDate) ||
+                selectedDate.toISOString().split("T")[0] === getDateString(1)}
               // onResetPrayedHours={handleResetPrayedHours}
               setViewMode={setViewMode}
               onPrevDay={onPrevDay}

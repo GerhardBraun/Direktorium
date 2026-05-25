@@ -1,4 +1,4 @@
-Calendar Data Processing Log - 2026-05-24 05:57:21.048197
+Calendar Data Processing Log - 2026-05-25 05:39:20.288131
 ============================================================
 
 nur lateinischer Eintrag: AAA-3-33-oblig-Laudes
@@ -14,15 +14,20 @@ nur lateinischer Eintrag: AAA-12-24-oblig-Non
 ÜBERSCHNEIDUNG [Limburg]: 06-19 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 07-06 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 08-11 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [Trier]: 08-18 d1 (bestehende Quellen: d1)
+ÜBERSCHNEIDUNG [Trier]: 10-03 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Speyer]: 10-05 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [Paderborn]: 10-25 d1 (bestehende Quellen: d1)
+ÜBERSCHNEIDUNG [Trier]: 11-07 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [Trier]: 12-07 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
 === ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
-Gesamt gefundene Überschneidungen: 9
+Gesamt gefundene Überschneidungen: 13
 Limburg: 4 Überschneidungen
 Köln: 1 Überschneidungen
+Trier: 4 Überschneidungen
 Speyer: 1 Überschneidungen
 Paderborn: 1 Überschneidungen
 AAA: 2 Überschneidungen
@@ -38,3 +43,7 @@ dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
   'Limburg-8-11-oblig',
   'Paderborn-10-25-d1',
   'Speyer-10-5-oblig',
+  'Trier-10-3-d1',
+  'Trier-11-7-d1',
+  'Trier-12-7-oblig',
+  'Trier-8-18-d1',

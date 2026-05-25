@@ -88,25 +88,32 @@ const HymnSelector = ({ texts, hour, season,
 
     const sourceOrder = useMemo(() => {
         // Prüfe die Ränge
-        const rank = texts?.rank || { wt: 0, date: 0 };
+        let rank_wt = texts?.rank?.wt || 0
+        // Weihnachtsoktav (rank_wt = 2.4): nur Vesper mit Vorrang vor Festen
+        rank_wt = hour === 'vesper' ? Math.ceil(rank_wt) : rank_wt
 
-        // Weihnachtsoktav: nur Vesper mit Vorrang vor Festen
-        const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
+        // Mutter der Kirche und Herz Mariae: rank.date ist zwar 0, aber rank.aroundPentecost=2
+        const aroundPentecost = texts?.rank?.aroundPentecost || 0
+
+        const rank_date = texts?.rank?.date || texts?.rank?.aroundPentecost || 0
+
         const compareRanks =
             isErsteVesper
-                ? (rank?.nextWt || 0) > (rank?.nextDate || 0)
-                : wtRankToCompare >= rank.date
+                ? (texts?.rank?.nextWt || 0) > (texts?.rank?.nextDate || 0)
+                : rank_wt >= rank_date
 
-        let useWt = (prefSollemnity
-            && !(['terz', 'sext', 'non'].includes(hour)))
+        let useWt = ((prefSollemnity || aroundPentecost)
+            && !['terz', 'sext', 'non'].includes(hour))
             ? '' : 'wt'
 
-        const isHighRank = rank.date > 2 || rank.wt > 2 ||
+        const isHighRank = rank_date > 2 || rank_wt > 2 || aroundPentecost ||
             (isErsteVesper && texts?.vesper?.prefComm);
 
         // Stelle die Basis-Quellen zusammen
         let sources = [prefSrc, 'pers'];
 
+        // Wenn der wt-Rang höher oder gleich ist, stehen die wt-Sources zuerst,
+        // sonst werden weiter unten die Commune-Sources vorangestellt
         if (isHighRank && compareRanks) {
             sources = ['wt', ...sources];
             useWt = ''
