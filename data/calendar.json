@@ -5597,7 +5597,7 @@
           },
           "Lesehore": {
             "patr_autor": "Paul VI. († 1978)",
-            "patr_werk": "Aus der Ansprache zum Abschluss der 3. Sitzungsperiode des II. Vatikanischen Konzils.",
+            "patr_werk": "Aus der Ansprache zum Abschluss der 3.°Sitzungsperiode des°II.°Vatikanischen°Konzils.",
             "patr_text": "^hMaria, Mutter der Kirche^pDa Wir die engen Beziehungen zwischen Maria und der Kirche erwägen …, erklären Wir denn zum Ruhme der heiligen Jungfrau und zu unserem Troste die heilige Maria zur Mutter der Kirche, das heißt des ganzen christlichen Volkes, der Gläubigen wie der Hirten, die sie ihre liebevolle Mutter nennen. Und Wir legen fest, dass mit diesem holden Namen von nun an das ganze christliche Volk die Gottesmutter noch mehr ehrt und anruft.^pEs handelt sich um eine Bezeichnung, Ehrwürdige Brüder, die der christlichen Frömmigkeit wohlvertraut ist. Ja mit gerade diesem Namen rufen die Christgläubigen und die ganze Kirche Maria besonders gerne an. Dieser Name gehört in der Tat zum ursprünglichen Kern marianischer Frömmigkeit, da er in eben jener Würde gründet, mit der Maria als Mutter des fleischgewordenen Gotteswortes ausgezeichnet ist.^pWie die Gottesmutterschaft der Grund ist für die einzigartigen Beziehungen zwischen Christus und Maria und sie im Wirken Jesu Christi für das menschliche Heil zugegen ist, so erwachsen gleichfalls aus der Gottesmutterschaft die besonderen Beziehungen zwischen Maria und der Kirche. Denn so wie Maria die Mutter Christi ist, der alsbald nach seiner Menschwerdung in ihrem jungfräulichen Schoße sich, dem Haupte, seinen Mystischen Leib, die Kirche, anschloss, so ist Maria als die Mutter Christi zugleich als die Mutter aller Gläubigen und Hirten, also der Kirche, zu betrachten.^pDarum wollen wir, obgleich unwürdig und schwach, dennoch im Vertrauen und kindlicher Liebe zu ihr die Augen erheben. Sie hat uns einst Jesus, den Quell der göttlichen Gnade, geschenkt; sie kann ihre mütterliche Hilfe der Kirche nicht verwehren, zumal nicht jetzt, da die Braut Christi mit frischem Eifer ihr Heilsamt auszufüllen strebt.^pDieses Vertrauen aber weiter zu nähren und zu stärken, raten uns die engen Bande zwischen unserer himmlischen Mutter und der Menschheit. Wenn sie auch von Gott mit reichen und herrlichen Gaben überhäuft worden ist, dass sie dem fleischgewordenen Wort eine würdige Mutter wäre, steht Maria uns Menschen dennoch überaus nahe. Wie wir ist auch sie ein Nachkomme Adams und darum unsere Schwester nach der gemeinsamen menschlichen Natur.^pSie war freilich auf die späteren Verdienste Christi hin unberührt von der Erbsünde, doch fügte sie zu den göttlichen Gaben das hohe Vorbild ihres vollendeten Glaubens, so dass sie das rühmende Wort des Evangeliums verdiente: „Selig, die du geglaubt hast.“^pIn diesem Erdenleben verwirklichte sie den reinen Inbegriff des Jüngers Christi, war sie ein Spiegel aller Tugenden, entfaltete in ihrem Wandel jene Seligpreisungen, die Christus verkündet hat.^pDarum nimmt die ganze Kirche in ihrem vielfältigen Wirken und ihrem tatkräftigen Eifer die jungfräuliche Gottesmutter zum vollkommenen Vorbild, das notwendig zur ganzen Nachfolge Christi führt.",
             "patr_resp1": "Der Heilige Geist kam auf Maria herab.",
             "patr_resp2": "Die Kraft des Höchsten überschattete sie.",
@@ -7230,7 +7230,7 @@
             "patr_resp3": "Durch ihn sind wir erlöst und befreit."
           },
           "Laudes": {
-            "button": "Hl. Willibald (Stundenbuch)",
+            "button": "Hl. Willibald",
             "genitiv": "des heiligen Willibald: Aus dem Stundenbuch",
             "genitiv_lat": "sancti Willibáldis"
           },
@@ -7268,6 +7268,7 @@
           "Laudes": {
             "button": "Hll. Kilian und Gefährten",
             "farbe": "r",
+            "nominativ": "Der heilige Kilian und seine Gefährten",
             "genitiv": "des heiligen Kilian und seiner Gefährten",
             "genitiv_lat": "sancti Kiliáni et sociórum eius"
           },
@@ -15336,18 +15337,14 @@
             "patr_autor": "LEER",
             "patr_werk": "Nach der legendären Vita des heiligen Goar.",
             "patr_text": "^hHerbergsvater der Müden und Hungrigen^pDie Gastlichkeit wurde dem Herbergsvater am Rhein Anlass einer Verleumdung beim Bischof von Trier. Goar führe ein ungeistliches Leben, sei unmäßig im Essen und Trinken.^pZwei Priester, die behaupteten, viel Böses von Goar zu wissen, schickte der Bischof zum Einsiedler, um die Anklage zu prüfen und Goar mit nach Trier zu bringen. Dort sollte er sich vor dem Bischof verantworten.^pWie all seinen Besuchern, setzte Goar auch den Abgesandten des Bischofs ein reichliches Mahl und Wein vor. Die beiden Priester lehnten jedoch die guten Gaben Gottes ab und empfahlen Goar Beherrschung und Maß im Essen und Trinken, die einem Priester besser anstünden als Schwelgerei. Goar antwortete, was ihnen aus Liebe angeboten würde, könnten sie unbedenklich auch mit Liebe annehmen.^pDie beiden Priester forderten dann Goar auf, unverzüglich mit ihnen nach Trier zum Bischof zu reisen. Die Reise nach Trier war ein mühseliger Weg, der über Berg und Tal führte. Während seine Begleiter bald erschöpft waren von Hitze, Hunger und Durst, schritt Goar weiter. Er hatte reichlichen Mundvorrat eingepackt.^pAls er nun sah, dass die beiden Priester vor Erschöpfung fast von ihren Pferden fielen, bot er ihnen eine Stärkung an. Diesmal widerstanden sie nicht.^pUnterwegs betete Goar, bis sie in Trier angelangt waren. Er begab sich sofort in eine Kirche, und die Priester suchten den Bischof auf. Der wunderte sich nun, dass statt der Gegner des Goar Bewunderer des Heiligen vor ihm standen.^pGoar konnte sich auch durch Wunder vor dem Bischof rechtfertigen. So wird erzählt, dass er im Audienzsaal des Bischofs seinen Habit an einen durchs Fenster einfallenden Sonnenstrahl aufgehängt habe.^pAn den Rhein zurückgekehrt, bat er den fränkischen König Sigisbert, ihm vor seinem Tod die Priester Agrippinus und Eusebius zu schicken. Drei Jahre darauf starb Goar in Gegenwart der beiden Priester in seiner Zelle am Rhein und wurde am Wocherbach begraben.",
-            "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos, und ihr habt mich aufgenommen.",
-            "patr_resp2": "Amen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
-            "patr_resp3": "Wer sich der Armen erbarmt, der liebt den Herrn.",
             "hymn_1": 1199.0
           },
           "major": {
-            "comm_1": "Mann",
-            "oration": "Herr, unser Gott, in alter Zeit hast du den heiligen Goar gerufen, den Reisenden auf den Straßen am Rhein um Christi willen eine Herberge zu bereiten und in aller Not und Mühsal ihrer Reise beizustehen. Gib auch uns die Kraft, gut zu sein zu allen Menschen, die von uns Hilfe erhoffen.^ORV"
+            "comm_2": "x"
           },
           "Laudes": {
+            "referenz": "Trier-7-6-d1",
             "button": "Hl. Goar",
-            "genitiv": "des heiligen Goar",
             "antev": "Wohlan, du guter und getreuer Knecht. Weil du über weniges treu gewesen, will ich dich über vieles setzen; geh ein in die Freude deines Herrn."
           },
           "Vesper": {
@@ -15549,8 +15546,6 @@
       "8": {
         "oblig": {
           "major": {
-            "comm_1": "MärtPl",
-            "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORrV",
             "oration_lat": "Omnípotens et miséricors Deus, qui beáti Kiliáni apostólico labóre christiánæ religiónis fundaménta in terra Francórum iácere dignátus es, fac, ut, eius intercessióne, in fídei stabilitáte firmémur.^ORlV"
           },
           "Lesehore": {
@@ -15564,9 +15559,7 @@
           "Laudes": {
             "referenz": "AAA-8-7-n1",
             "button": "Hll. Kilian und Gefährten",
-            "farbe": "r",
-            "nominativ": "Der heilige Kilian und seine Gefährten",
-            "genitiv": "des heiligen Kilian und seiner Gefährten"
+            "farbe": "r"
           }
         }
       },
@@ -16197,10 +16190,6 @@
     "7": {
       "8": {
         "d1": {
-          "major": {
-            "comm_1": "Mann_Ord",
-            "oration": "Herr, unser Gott, du hast den heiligen Disibod aus der Welt herausgerufen und ihn fähig gemacht zu einem Leben der Entsagung und des Gebetes. Mache auch uns bereit, deinen Willen zu tun an der Stelle, an die du uns gerufen hast.^ORV"
-          },
           "Lesehore": {
             "patr_autor": "^A:Speyer-07-08:Hildegard von Bingen († 1179)",
             "patr_werk": "Sequenz an den heiligen Disibod.",
@@ -16210,6 +16199,7 @@
             "patr_resp3": "Und du, o Bergeshöhe, wirst niemals wanken, wenn Gott prüft. Und dennoch stehst du in der Ferne wie vereinsamt. Doch der Bewaffnete hat nicht die Macht, dich zu ergreifen."
           },
           "Laudes": {
+            "referenz": "Trier-7-8-d1",
             "button": "Hl. Disibod",
             "antev": "O staunenswertes Wunder! Ein Bild, das tief verborgen, leuchtet auf, ragt hoch empor in herrlicher Gestalt, wo die lebendige Gottheit Geheimnisvolles kündet. Darum wirst du, o Disibod, am Ende dich erheben, wenn du erst auferstanden bist in Kraft der Blüte aller Zweige dieser Welt."
           },
@@ -16262,17 +16252,10 @@
       },
       "17": {
         "d1": {
-          "major": {
-            "comm_1": "Frau_Ord",
-            "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
-          },
           "Lesehore": {
             "patr_autor": "^A:Speyer-09-17:Hildegard von Bingen († 1179)",
             "patr_werk": "Aus dem Buch „Scivias“ (Vorrede).",
-            "patr_text": "^hEin feuriges Licht kam vom offenen Himmel hernieder^pIm Jahre 1141 der Menschwerdung Jesu Christi, des Gottessohnes, als ich zweiundvierzig Jahre und sieben Monate alt war, kam ein feuriges Licht mit Blitzesleuchten vom offenen Himmel hernieder. Es durchströmte mein Gehirn und durchglühte mir Herz und Brust gleich einer Flamme, die jedoch nicht brannte, sondern wärmte, wie die Sonne den Gegenstand erwärmt, auf den sie ihre Strahlen legt. Nun erschloss sich mir plötzlich der Sinn der Schriften, des Psalters, des Evangeliums und der übrigen katholischen Bücher des Alten und Neuen Testamentes. Als ich die Mädchenjahre überschritten hatte und zu dem erwähnten gereiften Alter gekommen war, hörte ich eine Stimme vom Himmel sagen: „Ich bin das lebendige Licht, das alles Dunkel durchleuchtet. Den Menschen, den Ich erwählt{1#Hildegard} und den Ich, wie es Mir gefiel, machtvoll erschüttert habe, stellte Ich in große Wunder hinein, mehr noch als die Menschen der alten Zeiten, die viele Geheimnisse in Mir schauten. Doch warf Ich ihn zur Erde nieder, damit er sich nicht in Geistesaufgeblasenheit erhebe. Die Welt hatte keine Freude und kein Ergötzen an ihm und fand ihn ungeschickt für weltliche Geschäfte, denn Ich habe ihn von trotziger Verwegenheit befreit. Furcht erfüllt ihn, und er zittert in seinen Mühen. Er leidet Schmerzen in seinem Marke und in den Adern seines Fleisches. Sinn und Gefühl sind ihm beengt, und schweres Leiden duldet er in seinem Körper, so dass keine Sicherheit in ihm wohnt, er sich vielmehr in allem als schuldig erachtet. Die Ritzen seines Herzens habe Ich umzäunt, damit sein Geist sich nicht in Stolz und Ehrsucht erhebe, sondern aus all dem mehr Furcht und Schmerz als Freude und Lust schöpfe.“ All dieses sah und hörte ich, und dennoch – ich weigerte mich zu schreiben. Nicht aus Hartnäckigkeit, sondern aus dem Empfinden meiner Unfähigkeit, wegen der Zweifelssucht, des Achselzuckens und des mannigfachen Geredes der Menschen, bis Gottes Geißel mich auf das Krankenlager warf. Da endlich legte ich, bezwungen durch die vielen Leiden, Hand ans Schreiben.^pAls ich nun zu schreiben begann und alsbald, wie anfangs berichtet, die Gabe tiefsinnender Schriftauslegung in mir wirksam fühlte, kam ich wieder zu Kräften und stand von meiner Krankheit auf. Nur mit Mühe brachte ich in zehn Jahren dieses Werk zustande und vollendete es. In den Tagen des Erzbischofs Heinrich von Mainz, des Römischen Königs Konrad und des Abtes Kuno vom Disibodenberg, unter dem Papste Eugenius, sind diese Geschichten und Worte an mich ergangen. Und ich sagte und schrieb dies nicht nach der Erfindung meines Herzens oder irgendeines Menschen, sondern wie ich es in Himmelskundgebungen sah, hörte und empfing durch die verborgenen Geheimnisse Gottes.^pUnd wiederum hörte ich die Stimme vom Himmel. Sie sprach: „So rufe denn und schreibe also.“",
-            "patr_resp1": "Der Herr gibt den Weisen die Weisheit und den Verständigen den Verstand.",
-            "patr_resp2": "Tiefe und verborgene Dinge enthüllt er, bei ihm wohnt das Licht.",
-            "patr_resp3": "Das alles wirkt der eine und gleiche Geist; einem jeden teilt er seine besonderen Gaben zu, wie er will."
+            "patr_text": "^hEin feuriges Licht kam vom offenen Himmel hernieder^pIm Jahre 1141 der Menschwerdung Jesu Christi, des Gottessohnes, als ich zweiundvierzig Jahre und sieben Monate alt war, kam ein feuriges Licht mit Blitzesleuchten vom offenen Himmel hernieder. Es durchströmte mein Gehirn und durchglühte mir Herz und Brust gleich einer Flamme, die jedoch nicht brannte, sondern wärmte, wie die Sonne den Gegenstand erwärmt, auf den sie ihre Strahlen legt. Nun erschloss sich mir plötzlich der Sinn der Schriften, des Psalters, des Evangeliums und der übrigen katholischen Bücher des Alten und Neuen Testamentes. Als ich die Mädchenjahre überschritten hatte und zu dem erwähnten gereiften Alter gekommen war, hörte ich eine Stimme vom Himmel sagen: „Ich bin das lebendige Licht, das alles Dunkel durchleuchtet. Den Menschen, den Ich erwählt{1#Hildegard} und den Ich, wie es Mir gefiel, machtvoll erschüttert habe, stellte Ich in große Wunder hinein, mehr noch als die Menschen der alten Zeiten, die viele Geheimnisse in Mir schauten. Doch warf Ich ihn zur Erde nieder, damit er sich nicht in Geistesaufgeblasenheit erhebe. Die Welt hatte keine Freude und kein Ergötzen an ihm und fand ihn ungeschickt für weltliche Geschäfte, denn Ich habe ihn von trotziger Verwegenheit befreit. Furcht erfüllt ihn, und er zittert in seinen Mühen. Er leidet Schmerzen in seinem Marke und in den Adern seines Fleisches. Sinn und Gefühl sind ihm beengt, und schweres Leiden duldet er in seinem Körper, so dass keine Sicherheit in ihm wohnt, er sich vielmehr in allem als schuldig erachtet. Die Ritzen seines Herzens habe Ich umzäunt, damit sein Geist sich nicht in Stolz und Ehrsucht erhebe, sondern aus all dem mehr Furcht und Schmerz als Freude und Lust schöpfe.“ All dieses sah und hörte ich, und dennoch – ich weigerte mich zu schreiben. Nicht aus Hartnäckigkeit, sondern aus dem Empfinden meiner Unfähigkeit, wegen der Zweifelssucht, des Achselzuckens und des mannigfachen Geredes der Menschen, bis Gottes Geißel mich auf das Krankenlager warf. Da endlich legte ich, bezwungen durch die vielen Leiden, Hand ans Schreiben.^pAls ich nun zu schreiben begann und alsbald, wie anfangs berichtet, die Gabe tiefsinnender Schriftauslegung in mir wirksam fühlte, kam ich wieder zu Kräften und stand von meiner Krankheit auf. Nur mit Mühe brachte ich in zehn Jahren dieses Werk zustande und vollendete es. In den Tagen des Erzbischofs Heinrich von Mainz, des Römischen Königs Konrad und des Abtes Kuno vom Disibodenberg, unter dem Papste Eugenius, sind diese Geschichten und Worte an mich ergangen. Und ich sagte und schrieb dies nicht nach der Erfindung meines Herzens oder irgendeines Menschen, sondern wie ich es in Himmelskundgebungen sah, hörte und empfing durch die verborgenen Geheimnisse Gottes.^pUnd wiederum hörte ich die Stimme vom Himmel. Sie sprach: „So rufe denn und schreibe also.“"
           },
           "Laudes": {
             "referenz": "AAA-9-17-n1",
@@ -16288,9 +16271,6 @@
     "11": {
       "3": {
         "d1": {
-          "major": {
-            "comm_1": "Hirten"
-          },
           "Lesehore": {
             "patr_autor": "^A:Speyer-11-03:Pirmin († 753)",
             "patr_werk": "Aus dem Pastoralbüchlein des heiligen Pirmin.",
@@ -16332,59 +16312,234 @@
       }
     }
   },
-  "Dresden-Meißen": {
-    "2": {
+  "Trier": {
+    "1": {
       "3": {
-        "d11": {
+        "d1": {
           "major": {
-            "comm_1": "MärtSg",
-            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
+            "comm_1": "Frau",
+            "comm_2": "Frau_Ord",
+            "oration": "Allmächtiger, ewiger Gott, auf deinen Antrieb hin hat die heilige Irmina Stätten des Gebetes gegründet und das apostolische Wirken des heiligen Willibrord gefördert. Gib auch unserer Zeit Männer und Frauen, die durch ihr Gebet und ihre Arbeit in unserem Volk den Glauben lebendig erhalten. Darum bitten wir durch Jesus Christus."
           },
           "Lesehore": {
-            "patr_autor": "Alojs Andricki (†°1943)",
-            "patr_werk": "Aus einem Brief am 9. März 1941 aus dem Dresdener Polizeigefängnis.",
-            "patr_text": "^h„Das ist der Wille Gottes, eure Heiligung“^pHeiligkeit ist ja die Übereinstimmung des Menschen in allem Denken und Tun mit Gott, dem allein Heiligen. Heiligkeit bedeutet die ganze Hingabe unseres Willens an den Willen Gottes.^pWir wissen, dass dies leichter gesagt wird als getan. Solange der eigene menschliche Wille vorherrscht, spürt man gar nicht die Schwierigkeiten. Aber da, wo der eigene Wille ausgeschaltet wird und man in Lagen und Umstände hineingeführt wird, die einem persönlich gar nicht erwünscht sind, da beginnt erst eigentlich so recht die Einfügung des eigenen Willens an einen höheren.^pAch, man kann gar nicht alles so aussprechen, was man in Gedanken erwägt. Aber bloße Einordnung, vielleicht noch mit Widerwillen erfüllt, ist nicht Heiligkeit. Zur Heiligkeit gehört der eigene freie und bejahende Wille, der dem Willen eines Höheren zugetan ist und das vor allem dann, wenn damit auch Leid und Entsagung verbunden ist.^pNun ist mir ja hier Gelegenheit geboten, diesen Weg der Heiligkeit zu gehen. Ich will ihn gehen so froh und freudig, als es mir möglich ist, denn es gilt ja, mit Gott eins zu werden.^pDieses Ziel hilft mir auch über alle menschlichen Schwächen, Wehmut – und ich brauch mich nicht zu schämen zu bekennen – über manche Augenblicke, da mir die Tränen über die Wangen rollen. Es gibt schon Stunden der tiefsten Verlassenheit, aber das muss ja sein, damit umso größer die Liebe und Freude Gottes in mir Raum gewinnen kann.^pUnerlässlich bei diesem Streben aber ist das Gebet, und ich danke Euch dafür mit meinem Gebet.^pNichts Schöneres gibt es, als hineinzuwachsen in die Gleichförmigkeit mit dem Willen Gottes, darin uns Seligkeit und Freude gegeben ist.",
-            "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
-            "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
-            "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen.",
-            "hymn_1": 8203.1
+            "patr_autor": "Thiofrid von Echternach († um 1110)",
+            "patr_werk": "Aus der Vita der heiligen Irmina.",
+            "patr_text": "^hIm Glauben Festigkeit, in der Hoffnung Sicherheit, in der Hingabe vollkommene Liebe^pIn Trier steht ein Kloster zu Ehren der Gottesmutter Maria, am Ort genannt Horreum (Oeren). Irmina schloss sich dort der Gemeinschaft der Klosterfrauen an, zu deren Äbtissin sie gewählt wurde. Ihr ganzes Leben weihte sie dem Lob des Herrn. Sie stattete das Kloster mit Grundbesitz, Landgütern und reichen Einkünften aus und unterstellte es sodann der Schutzgewalt des Königs. In diesem Kloster wollte die selige Irmina »vorstehen und fürsorgen«{1#Vgl. Regula Benedicti, Cap. 64.}, und zwar durch das Beispiel geistlichen Lebens und das Wort der Ermahnung. So nahm sie zu an Heiligkeit und an Verdiensten vor Gott und den Menschen. Wenn ihre große Liebe auch alle Menschen umfasste, so war sie geradezu verschwenderisch gegenüber denen, die sich durch besonderen Eifer in guten Werken auszeichneten.^pVor allem war sie dem Mann Gottes Willibrord zugetan. Dieser durch Heiligkeit und Pflichttreue hervorragende Bischof lenkte damals als erster die Geschicke der Kirche von Utrecht. Kurz zuvor war er von Pippin nach Rom gesandt und auf Weisung eines Engels von Papst Sergius zum Erzbischof geweiht worden. Mit einem unermesslichen Schatz heiliger Reliquien beschenkt, war er zurückgekommen. Täglich brachte er – wie Beda von ihm sagt – dem christlichen Glauben ebenso viel Zuwachs, wie er dem Teufel Schaden zufügte; Gott verherrlichte ihn durch Wunder und Tugenden. Diesem heiligen Mann schenkte Irmina die Hälfte ihres Besitzes in Echternach mit allem Zubehör. Willibrord erbaute an diesem Ort eine Kirche und holte dorthin Männer, die als Mönche leben sollten.^pMit vielen Weihegeschenken ehrte die heilige Irmina die Heiligen und ihre Kirchen, gern hörte sie das Wort ihrer Lehre und nährte so ihre Sehnsucht nach dem Himmel. Unermüdlich war ihre Sorge für die Armen, grenzenlos ihre Großzügigkeit in der Ausstattung der Kirchen. Sie war liebevoll gegen die Guten, streng, doch edelmütig gegen die Übeltäter. Ihre adelige Herkunft machte sie nicht überheblich. Das Verlangen nach Reichtum, Ehren und Vergnügen beherrschte sie nicht, vielmehr begleitete sie in allem die »Mutter aller Tugenden: die weise Maßhaltung«.{2#Ed.} Im Glauben hatte sie sichere Festigkeit, in der Hoffnung feste Sicherheit, in der Hingabe an Gott und im Dienst am Nächsten hatte sie die vollkommene Liebe, die Wurzel alles Guten, erreicht.^pDa sie so an ihrem heiligen Gelübde festhielt und sich mit aller Kraft nach dem himmlischen Bräutigam sehnte, wurde sie, als die Zeit ihres Lebenskampfes beendet war, aus der Mitte der Menschen zum Herrn abberufen, um die selige Umarmung dessen zu genießen, der in seiner Menschwerdung aus jungfräulichem Schoß hervorging. Als sie seine Stimme hörte, die ihr zurief: »Erhebe dich, meine Freundin, meine Braut, und komm«{3#Vgl. Hld 2,13.}!, da hauchte sie, gestärkt mit den göttlichen Sakramenten, ihre Seele in die Hände der Engel aus, als gerade der Tag der Geburt des Herrn anbrach.",
+            "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
+            "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
+            "patr_resp3": "Nehmt euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun."
           },
           "Laudes": {
-            "button": "Sel. Alojs Andritzki",
-            "farbe": "r",
-            "nominativ": "Der heilige Alojs",
-            "genitiv": "des heiligen Alojs",
-            "hymn_1": 8203.2
-          },
-          "Vesper": {
-            "hymn_1": 8203.2
+            "button": "Hl. Irmina von Trier"
           }
-        },
-        "d12": {
+        }
+      },
+      "19": {
+        "d1": {
           "major": {
-            "comm_1": "MärtSg",
-            "oration": "Knježe, naš Božo, sy zbóžneho martrarja a měšnika Alojsa ze swojej lubosću napjelnił, tak zo je w času wulkeje ćěsnosće swoje žiwjenje kaž pšeńčne zorno za bratrow podał; spožč nam na jeho zastupnistwo, zo wšón čłowječi strach přewinjemy a so z hódnymi słužownikami wěrnosće stanjemy. Přez Chrystusa, našeho Knjeza."
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger, ewiger Gott, der heilige Bischof Agritius hat zu deiner Ehre die Domkirche zu Trier gegründet und durch seine Predigt viele Menschen für deine Gemeinde gewonnen. Höre auf seine Fürsprache und lass uns fest stehen in der Gemeinschaft der Kirche, in die uns deine Liebe berufen hat. Darum bitten wir durch Jesus Christus."
           },
           "Lesehore": {
-            "patr_autor": "Alojs Andricki (†°1943)",
-            "patr_werk": "Z lista 9. měrca 1941 z Drježdźanskeho policajskeho jastwa.",
-            "patr_text": "^h„To je wola Boža, waše swjatosćenje“^pSwjatosć je dźě přezjednosć čłowjeka we wšěm myslenju a jednanju z Bohom, jeničce swjatym. Swjatosć woznamjenja, swoju wolu dospołnje Božej woli podwolić.^pWěmy, zo je tole lóšo prajene hač sčinjene. Dołhož knježi swójska čłowječa wola, ćeže scyła njezačuješ. Ale tam, hdźež so swójska wola wuhasnje, a přińdźeš-li do połoženja a wobstejnosćow, kotrež sej wosobinsce scyła njepřeješ, tam započnješ poprawom hakle tak prawje swójsku wolu do wjetšeje zapołožić.^pAch, njemóžeš wšitko ani tak wuprajić, wo čimž w myslach rozwažuješ. Ale hdyž so jeničce zarjaduješ, a to traš samo hišće njelóštnje, njeje to swjatosć. K swjatosći słuša swójska swobodna a přihłosowaca wola, kotraž je woli wyšeho přichilena, a to předewšěm potom, hdyž maš ćerpjeć a něčeho so wzdać.^pNětko wšak mam tudy přiležnosć, tutón puć swjatosće kročić. Chcu po nim tak wjesele a radostnje hić, kaž je mi to móžno, přetož dźe wo to, zo so z Bohom zjednoćiš.^pTutón zaměr pomha mi přeze wšě čłowječe słabosće, stysknotu, a njetrjebam so hańbować ani wonych chwilow, w kotrychž su so mi sylzy wuronili. Přińdu wšak hodźiny najhłubšeje wopušćenosće, ale to drje dyrbi być, zo byštej so ćim bóle Boža lubosć a radosć we mni přisporjeć móhłoj.^pNjeparujomne w tymle prócowanju je modlenje, a dźakuju so Wam za Waš paćer, z tym zo so tež za Was modlu.^pNjeje ničo rjeńšeho, hač zo zrosćeš do přezjednosće z wolu Božej, w kotrejž nańdźeš zbóžnosć a radosć.",
-            "patr_resp1": "Derje sym wojował, sym doběhnył, wěru wobchował.",
-            "patr_resp2": "Za wěčnosć je mi přihotowana króna sprawnosće.",
-            "patr_resp3": "Mam wšo za škodu porno wyšemu póznaću Chrysta Jězusa, swojeho Knjeza. Chrystusa chcu spóznać a podźěl na jeho ćerpjenju měć, připodobnjeny jeho smjerći."
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des Hl. Agritius.",
+            "patr_text": "^hLasst euch als lebendige Steine aufbauen zu einem geistigen Haus^pDer Name des Bischofs Agritius, des vierten in der Reihe der Trierer Bischöfe, steht unter den Akten eines Konzils. Es handelt sich um die Synode von Arles. Dort hatten sich im Jahre 314 auf Veranlassung Kaiser Konstantins des Großen (306–337) über 30 Bischöfe und zahlreiche weitere Geistliche versammelt. Sie kamen aus allen Regionen im Westen des Römischen Reiches. Papst Silvester I. (314–335) hatte aus Rom als seine Vertreter zwei Diakone geschickt. Der Exorzist Felix hatte den Bischof von Trier nach Arles begleitet. Nach dem Willen des Kaisers sollte die Bischofsversammlung eine gefährliche Kirchenspaltung überwinden helfen. Ein Schisma war in Karthago, dem kirchlichen Zentrum Nordafrikas, im Jahre 309 entstanden. Zwei Bischöfe und zwei Parteien standen sich unversöhnlich gegenüber. Die Gefolgsleute des schismatischen Bischofs Donatus († um 335), die sogenannten Donatisten, und die Katholiken exkommunizierten sich gegenseitig. Die in Arles versammelten Bischöfe wollten nicht polarisieren. Sie erkannten die Taufe und die Weihen der donatistischen Parallelkirche als gültig an. Wir haben im Konzil von Arles ein gutes Beispiel, wie die junge Kirche von Trier in der Person ihres Bischofs in kollegialer Mitverantwortung an der Lösung eines weltkirchlichen Problems mitgewirkt hat. Agritius war sozusagen der erste Trierer Konzilsbischof.^pDie Kirche zur Zeit des hl. Agritius stand in der Übergangsphase zwischen der Unterdrückung, die 313 mit dem Mailänder Toleranzedikt zu Ende ging, und dem Aufstieg des Christentums zur privilegierten Religion im Römerreich. Auch der Kirche von Trier werden die Probleme dieser Wendezeit nicht fremd gewesen sein. Zwar war in Gallien in der »Zeit der Märtyrer« unter Kaiser Diokletian (284–305) kein Christenblut geflossen. Der in Trier residierende Caesar Constantius Chlorus, der Vater Konstantins des Großen, ließ lediglich »die Versammlungshäuser (der Christen) – das heißt die Mauern, die sich wiederherstellen ließen – zerstören, den wahren Tempel Gottes aber, der in den Menschen ist, bewahrte er unversehrt.« (Laktanz, mort. pers. 15,7).^pSo wurde wahrscheinlich auch in Trier das Gebäude, wo sich die Gläubigen zum Gottesdienst versammelten, nach 303 (Verfolgungsedikt Diokletians) zerstört. Die Handschriften der biblischen Bücher und die liturgischen Gefäße wurden, soweit die Polizei ihrer habhaft werden konnte, beschlagnahmt. Es gab leider auch christliche Kollaborateure. Jedenfalls fasste das Konzil von Arles den Beschluss: Kleriker, die nachweislich die heiligen Bücher und die Gefäße für das Herrenmahl herausgegeben hatten, sollten ihres Amtes enthoben werden. Wer in der Verfolgungszeit einen Mitchristen denunziert hatte, sollte lebenslang vom Empfang der Eucharistie ausgeschlossen bleiben.^pDie Trierer Tradition sieht in Bischof Agritius auch den Erbauer der Bischofskirche. Sie soll über dem niedergelegten Stadtpalast der Kaiserin Helena errichtet worden sein. Dort, wo sich heute der Dom erhebt, entstand gegen Ende der Ära Konstantins eine Kirchenfamilie von imperialer Größe. Der hl. Athanasius sah während seines Trierer Exils (335–337) die Mauern dieses Kirchenzentrums, das vier Basiliken und ein dazwischen liegendes Baptisterium umfasste, emporwachsen.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Zbóžny Alojs Andricki (sorbisch)",
-            "farbe": "r",
-            "nominativ": "Der heilige Alojs",
-            "genitiv": "des heiligen Alojs"
+            "button": "Hl. Agritius"
+          }
+        }
+      },
+      "29": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Herr, unser Gott, du hast durch den heiligen Valerius die junge Kirche von Trier geführt und im Glauben gestärkt. Erwecke auch in uns einen lebendigen Glauben, der sich bewährt in der Liebe. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer liturgischen Lesung der Benediktinerabtei St. Matthias in Trier.",
+            "patr_text": "^hDies sind deine Väter und wahren Hirten^pAn zweiter Stelle in der Trierer Bischofsliste steht der heilige Valerius. Was sein Vorgänger, der heilige Eucharius, in der blühenden, heidnischen Trevererstadt des dritten Jahrhunderts für die Begründung des Christentums geleistet hat, das musste Valerius, der den Hirtenstab des ersten Bischofs übernahm, für seine Befestigung und Weiterführung tun. Der Erfolg dieses Werkes ist zu ermessen an der Bedeutung der Trierer Christengemeinde am Ende des dritten und zu Beginn des vierten Jahrhunderts. In dieser Gemeinde hatte Kaiser Konstantin in den Jahren seiner Trierer Residenz, die unmittelbar dem Ende der Christenverfolgungen (313) vorausgingen, täglich die Lebenskraft des Christenglaubens vor Augen.^pWas Valerius weitergeführt, ist auch für Triers Zukunft entscheidend geworden. Nicht der Glanz der römischen Kaiserresidenz verbürgte den Fortbestand der Stadt über die Völkerwanderungszeit, sondern die geduldige Hirtensorge ihrer Bischöfe. Was Leo der Große über Rom und die Apostelfürsten sagte, könnte man in ähnlicher Weise auf Trier und seine beiden ersten Bischöfe anwenden: »Diese, o Rom, sind deine Väter und wahren Hirten, die dich dem himmlischen Reiche einfügten und viel besser und viel glücklicher begründeten als jene, durch deren Eifer die ersten Fundamente deiner Mauern gelegt sind.«^pEs ist also fromm und recht, wenn um das Jahr 450 Bischof Cyrillus den Gründerbischöfen und Vätern unseres Glaubens in der neugebauten Grabkirche auf dem südlichen Gräberfeld einen Altar weihte, selbst dort bei seinen Vorgängern seine Grabstätte wählte und dies mit der Bauinschrift dokumentierte: »Wie schön vereint Gottes Macht, die einst Gefährten waren im Leben! Ehrenvoll birgt dieser Ort der beiden Priester Gebeine, tut kund des Eucharius und Valerius Namen. Freudig bettet Cyrill die zum Leben berufenen Leiber und weiht den Altar den seligen Brüdern zur Ehre. So schmückt für den eigenen Leib der Bauherr die künftige Ruhstatt.« Was die spätere Legende erzählt, kann uns zwar wenig an historisch sicheren Berichten über das Leben des heiligen Valerius bieten. Es bringt aber zum Ausdruck, was aus seinem Wirken geworden ist: Ein Bischofssitz und ein Bistum, die weithin Bedeutung hatten und missionarische Kraft besaßen und die sich ihrer Verbindung mit dem Nachfolger des heiligen Petrus bewusst waren.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Valerius"
+          }
+        }
+      },
+      "30": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau",
+            "comm_2": "Frau_Ord",
+            "oration": "Herr, unser Gott, du hast die heilige Adelgundis berufen, nach der vollkommenen Liebe zu streben und schon in dieser Welt dein Reich zu suchen. Gib uns auf ihre Fürsprache die Freude des Geistes und die Kraft, auf dem Weg der Liebe voranzuschreiten. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Hucbert († 930)",
+            "patr_werk": "Aus einer dem Mönch Hucbert zugeschriebenen Vita über die heilige Adelgundis.",
+            "patr_text": "^hDeine Barmherzigkeit steht mir vor Augen^pAls Adelgundis, einer klugen Jungfrau gleich, sich von weltlichem Gepränge zurückgezogen hatte und mit dem Habit der Klosterfrauen bekleidet worden war, erinnerte sie sich an das, was Bischof Amandus, der Mann Gottes, über die gänzliche Missachtung der zeitlichen Güter als den Gipfel der Vollkommenheit gesagt hatte. Sie hatte schon zuvor begonnen, dieses Ideal – wenigstens teilweise – zu verwirklichen. Jetzt aber entschloss sich Adelgundis, auf alles, was sie besaß, ganz und gar zu verzichten. Ihr Verlangen war, nichts auf Erden zu besitzen, um sich im Himmel einen Schatz zu erwerben. Sie ließ daher ein Verzeichnis über ihren Besitz anfertigen, über ihr Bargeld, über das, was sie an Gold, Silber und kostbaren Steinen besaß, über die Schmuckstücke, die sie von dem König, der Königin, den Fürsten, ihren Verwandten und Eltern zum Geschenk erhalten hatte. Adelgundis, der die Schönheit des Gotteshauses auch in seinem Äußeren sehr am Herzen lag, schenkte dies alles frommen Herzens zur Ausschmückung von Kirchen. Sie ließ Besitztümer von unschätzbarem Wert dem Lebensunterhalt derer zukommen, die an den Kirchen Christus, dem König, dienten. Alles Übrige kam den Armen zugute. Für sich behielt sie nichts zurück, außer einem ärmlichen Gewand, wie es Klosterfrauen zu tragen pflegen, und dem täglichen Essen, das sie zusammen mit den anderen Dienerinnen des Herrn gemeinschaftlich einnahm.^pAdelgundis dachte häufig nach über das Wort des Apostels: »Vielmehr züchtige und unterwerfe ich meinen Leib, damit ich nicht anderen predige und selbst verworfen werde.«{1#1 Kor 9,27} Sie schöpfte Mut aus dem Ausspruch des Apostels, der ferner sagt: »Wenn ich schwach bin, dann bin ich stark.«{2#2 Kor 12,10} Indem sie über diese und andere Worte der Heiligen Schrift nachsann, erwachte in ihr das Verlangen, an ihrem Leib zu leiden, damit sie die Herrlichkeit empfange an ihrer Seele. Sie bat in Demut um Leiden; von Gottes Barmherzigkeit hat sie es erlangt, in übergroßer Geduld hat sie es ertragen. Sie erkrankte nämlich an Brustkrebs. Bald litt sie unter den stärksten Schmerzen. Wenn eine Mitschwester, von Mitleid über ihre großen Schmerzen bewegt, an ihrem Krankenlager stehend, sie fragte: »Warum solches Leid?« sagte sie nur: »Schaut mich nicht an, denn mein Gesicht ist dunkel; die Sonnenglut hat mich verfärbt.«{3#vgl. Ijob} So sprach sie zu ihren Hausgenossen. Zu Gott aber, in ihrem Innersten, sagte sie: »Prüfe mich, Herr, und durchforsche mich; läutere mir Nieren und Herz. Denn diese Barmherzigkeit steht mir vor Augen und an deiner Wahrheit habe ich Gefallen.«{4#vgl. Ps 51} So hielt die christusgeweihte Frau aus in Ergebenheit und Geduld.",
+            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
+            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.",
+            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
+          },
+          "Laudes": {
+            "button": "Hl. Adelgundis"
           }
         }
       }
-    }
-  },
-  "Trier": {
+    },
+    "2": {
+      "13": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "comm_2": "Mann",
+            "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken des heiligen Kastor hast du deiner Kirche viele Menschen zugeführt. Gib uns auf seine Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des Heiligen Kastor.",
+            "patr_text": "^hDie Kirche hatte Frieden und wuchs durch die Hilfe des Heiligen Geistes^pDas Christentum hatte in Karden schon Wurzeln geschlagen, als der Priester Kastor sich dort niederließ. Kastor kam aus Trier. Er hatte dort zum Klerus des Bischofs gehört. Der damalige Bischof, Maximin, war einer der überragenden Kirchenmänner seiner Zeit. Wie der heilige Athanasius von Alexandrien, der als Verbannter von ihm mit allen Ehren aufgenommen worden war, war er ein unbeugsamer Bekenner des Christusbekenntnisses von Nizäa (325). Gegen die Irrlehre des Arianismus hatte dieses erste Ökumenische Konzil erklärt, dass Jesus Christus wirklich Gottes Sohn ist, »wahrer Gott vom wahren Gott, eines Wesens mit dem Vater«.^pKastor war kein gebürtiger Trierer. Er war aus Aquitanien im Südwesten des heutigen Frankreich seinem Lehrer Maximin nach Trier gefolgt. Dort hatte ihn dieser zum Diakon geweiht. Kastor sei die Freude der ganzen Gemeinde gewesen, lesen wir in der mittelalterlichen Vita. Durch die Priesterweihe wurde er Mitglied des Klerus an der Bischofskirche. Doch das weltliche Treiben in der damaligen Residenzstadt Trier, wo im Umkreis des nunmehr christlichen Kaiserhofs nicht unbedingt der Geist des Evangeliums tonangebend war, behagte Kastor nicht. Er wollte zu den Ernstmachern des Glaubens gehören. Kastor entschloss sich zu einem Leben unbedingter Christusnachfolge in der Einsamkeit. Er baute seine Zelle bei Karden im unteren Moseltal. Gleichgesinnte sammelten sich um ihn. Zu ihnen gehörte der heilige Potentinus mit seinen Söhnen Felicius und Simplicius. Sie waren Aquitanier wie Kastor. Ihre Reliquien wurden um 920 von Karden in das Kloster Steinfeld (Nordeifel) überführt.^pAls Missionar im modernen Sinn wirkte Kastor nicht. Aber er und seine Gefährten haben durch die Predigt ihres Lebens bei der noch überwiegend heidnischen Bevölkerung der Gegend gewiss Eindruck gemacht. Diese Gottesmänner waren anders. Das hat die Menschen, die mit ihnen in Kontakt kamen, nachdenklich gemacht und dem Christentum neue Sympathisanten zugeführt.^pAls Kastor im hohen Alter starb, begruben seine Gefährten ihn in der von ihm zu Ehren Christi und seiner Mutter erbauten Kapelle. Um sein Grab wurde es still. Erst der Trierer Bischof Weomad (753–791) erhob, veranlasst durch die mehrmalige Vision eines Priesters namens Marcius, die Gebeine. Er übertrug sie in die dem heiligen Paulinus geweihte Kirche im Ort. Das soll 781 geschehen sein. Diese Erhebung und Übertragung der Reliquien (Translatio) war nach der Auffassung der Zeit gleichbedeutend mit Kastors Heiligsprechung.^pDer heilige Kastor sollte in der Folgezeit auch in Koblenz zu Ehren kommen. Im Rahmen des Kirchenbauprogramms Kaiser Ludwigs des Frommen (814–840) wurde in Koblenz, einer Station an der wichtigen Route von Aachen in den Südosten des Frankenreiches und nach Italien, eine neue Kirche errichtet. Sie war 836 vollendet. Zu ihrer Weihe übertrug der Trierer Erzbischof Hetti (814–847) den größeren Teil der Gebeine des heiligen Kastor von Karden in das 38 km entfernte Koblenz. Es geschah dies am Martinstag (11. November) 836. Am folgenden Tag wurde der Altar der neuen Kirche geweiht, die fortan nach dem in ihr bestatteten Patron St. Kastor hieß. Nachdem Kastor in Koblenz zur Ehre eines Kirchenpatrons aufgestiegen war, trat er auch in seiner ursprünglichen Grabkirche in Karden an die Stelle des heiligen Paulinus als Kirchenpatron.",
+            "patr_resp1": "Ihr seid Licht geworden durch den Herrn. Lebt als Kinder des Lichts!",
+            "patr_resp2": "Das Licht bringt lauter Güte, Gerechtigkeit und Wahrheit hervor.",
+            "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
+          },
+          "Laudes": {
+            "button": "Hl. Kastor"
+          }
+        }
+      },
+      "17": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, wir feiern den Gedenktag des heiligen Bischofs Bonosus, der deinen Gläubigen Helfer und Vorbild war. Höre auf seine Fürsprache und schenke deinem Volk auch in unserer Zeit Hirten nach deinem Herzen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des Heiligen Bonosus.",
+            "patr_text": "^hDa ich freimütig zu euch rede, wie es meine Pflicht ist^pBonosus dürfte schon ein betagter Mann gewesen sein, als er nach dem Tod des im Exil verstorbenen Bischofs Paulinus († 358) zu dessen Nachfolger gewählt wurde. Es ist nicht mit letzter Sicherheit auszumachen, wann der durch die Verbannung des rechtmäßigen Bischofs 353 vakant gewordene Trierer Bischofsstuhl wieder besetzt wurde. Es ist anzunehmen, dass Klerus und Volk von Trier auf der Seite ihres Bischofs geblieben sind und so verfuhren wie die Römer in der gleichen Situation. Dort war Papst Liberius (352–366) wegen seines Bekenntnisses zur Gottheit Christi 355 vom Kaiser nach Beröa in Griechenland verbannt worden. Daraufhin schwor der Klerus von Rom, solange Liberius leben werde, keinen anderen Bischof anzunehmen. Wenn Kaiser Constantius II. nach der Verbannung von Bischof Paulinus eine Bischofswahl in Trier angesetzt haben sollte, bei der die Wahl auf Bonosus fiel, dürfte dieser aus Treue zu dem verbannten Bischof Paulinus sich geweigert haben, das Amt anzutreten. Das könnte der Grund gewesen sein, dass Bonosus ohne Gerichtsverfahren in Trier Jahre lang eingekerkert wurde.^pDas Bischofsamt könnte Bonosus nach dem Tod des hl. Paulinus im Jahre 358 übernommen haben.^pAls sein Todestag nimmt die Überlieferung den 17. Februar an. Sein Nachfolger Britto ist erstmals 374 als Teilnehmer des Konzils von Valence im Rhônetal bezeugt. Deshalb muss Bonosus spätestens im Jahr zuvor, also 373, verstorben sein.^pEr war in seinen letzten Amtsjahren Bischof einer kaiserlichen Residenzstadt. Denn Kaiser Valentinian I., der zunächst in Mailand residiert hatte, dann in Reims und Amiens nachzuweisen ist, wo er 367 seinen damals neunjährigen Sohn Gratian zum Augustus ausrief, wählte kurz danach Trier zu seinem Hauptresidenzort. Dort regierte er bis 375. Als Erzieher seines Sohnes Gratian berief er den berühmten Rhetor Ausonius aus Bordeaux an den kaiserlichen Hof. Ausonius hat Trier in seinem Lobgedicht auf die 20 bedeutendsten Städte des damaligen Römischen Reiches (Ordo urbium nobilium, entstanden nach 388) an 6. Stelle nach Rom, Konstantinopel, Karthago, Antiochien und Alexandrien genannt und trotz der nahen und immer wieder gefährdeten Rheingrenze als eine Oase des Friedens gefeiert. Um 370 schrieb Ausonius die »Mosella«, seine berühmte Moseldichtung in klassischen Versen. »Mit Valentinian zog nach langer Pause wieder der Kaiser in die Metropole Galliens und ließ die alte Residenzstadt zum zweiten Male eine von Barbareneinfällen nicht gestörte Ruhe genießen.« (Steinhausen). Auf Valentinian I. folgte als Augustus sein Sohn Gratian (375–383), der ebenfalls in Trier residierte.^pIn die Friedenszeit der Valentinianer fällt der Aufenthalt des hl. Hieronymus. Als frisch getaufter Student von etwa 20 Jahren kam er aus Rom nach Trier. Hier hatte Hieronymus sein Bekehrungserlebnis. Es war wohl weniger die Beschäftigung mit dem umfangreichen Werk »(Epistola) de synodis« des hl. Hilarius von Poitiers, das er in Trier abschrieb, sondern die Begegnung mit den strengen Asketen am Stadtrand der Kaiserstadt, die ihn dazu bewegten. Hieronymus traf dort Menschen, die sich als Ernstmacher des Christentums bewusst aus den Geschäften dieser Welt zurückgezogen hatten. Er entschloss sich, es ihnen gleich zu tun. Höchstwahrscheinlich ist Hieronymus auch dem greisen Bischof der Stadt begegnet. Möglicherweise hat er sogar von Bonosus selbst das Werk »Über die Synoden« von Hilarius zur Abschrift erhalten. Dieser hatte es in den Jahren 358/359 verfasst. In Trier glaubte man sogar zu wissen, dass Hilarius persönlich sein Werk dem mit ihm befreundeten Bischof Bonosus übersandt habe.^pBonosus war ein standhafter Bekenner der Gottheit Christi. Vor allem in Trier-St. Paulin, wohin die Reliquien des Bischofs nach der Zerstörung seiner ursprünglichen Grabeskirche St. Symphorian im Jahre 1047/1949 überführt worden waren, wurde seiner gedacht.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Bonosus"
+          }
+        }
+      },
+      "23": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du Herr der ganzen Schöpfung, du hast dem heiligen Willigis hohe Verantwortung für sein Volk und die Kirche anvertraut. Höre auf die Fürsprache dieses großen Bischofs und gewähre auch uns seine Hilfe, damit wir unsere Aufgaben in der Kirche und in der Welt erfüllen können. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Cäsarius von Arles († 542)",
+            "patr_werk": "Aus den Reden von Cäsarius von Arles an das Volk.",
+            "patr_text": "^hDurch Wort und Beispiel belehrt der Bischof das ihm anvertraute Volk^pViele Bezeichnungen werden mit Fug und Recht auf die Bischöfe angewandt. Man nennt uns nämlich Hirten, heißt uns Steuerleute und Wächter. Wenn wir wirklich Hirten sind, dann müssen wir für die geistliche Nahrung des Gottesvolkes sorgen. Sind wir Steuerleute, müssen wir mit Gottes Hilfe das Schiff der Kirche mutig und kraftvoll durch die Wogen dieser Zeit steuern, damit wir durch alle Stürme hindurch unbeirrt und geradlinig den Hafen des Paradieses anlaufen können. Bischof bedeutet eigentlich oberster Wächter; weil wir eine erhobene Stellung einnehmen, müssen wir mit Gottes Hilfe dieses Amt mit größter Sorgfalt ausüben. Wir sollten immer um die Schafe des göttlichen Herrn besorgt sein und in Furcht bedenken, was der Herr in schreckenerregender Weise von den Bischöfen und Äbten verkündet: »Ich fordere meine Schafe aus der Hand der Hirten zurück; denn die verletzten verbindet ihr nicht, die verirrten holt ihr nicht zurück, die gesunden und starken dagegen richtet ihr zugrunde.«{1#vgl. Ez 34, 10.4}^pDa wir vom Herrn eingesetzt wurden, um das Schiff der Kirche zu leiten, müssen wir es, gestützt auf Gott, mit dem zweifachen Steuer der beiden Testamente führen, und zwar so, dass wir weder zur rechten noch zur linken Seite durch irgendwelche Nachlässigkeit abweichen und inmitten der zahlreichen Gefahren dieser Welt den geraden Kurs auf das Leben einhalten können.^pWie nämlich kein Schiff ohne viel Mühe irgendwelche irdischen Reichtümer herbeischaffen kann, so kann auch das Schiff der Kirche nicht ohne Drangsal den Schatz oder die Freude der ewigen Heimat erreichen. Wenn sich die Steuerleute auf Grund falscher Sicherheit allzu sehr dem Schlaf hingeben und die Seeleute nicht auf ihre Aufgaben und Pflichten aufmerksam machen, werden sie sehr bald Schiffbruch erleiden. Ebenso: wenn die Kirchenführer nicht mit größter Sorgfalt belehren, abschrecken, bisweilen sogar zwingen – einmal durch maßvolle Zurechtweisung, ein andermal durch strenges Drohen mit dem Tag des Gerichtes –, um den geraden Weg zum ewigen Leben vorzuschreiben, dann ist zu befürchten, dass ihnen zum Gericht wird, was ihnen hätte zum Heil dienen können.^pSo viel es an uns liegt, wollen wir uns deshalb Mühe geben, auf Gottes Eingebung und Hilfe bauen, das uns anvertraute Volk durch Wort und Beispiel zu belehren, damit wir einmal vor dem Richterstuhl Gottes zuversichtlich sprechen können: »Siehe, Herr, hier bin ich und die Kinder, die du mir geschenkt hast.«{2#vgl. Jes 8,18}",
+            "patr_resp1": "Wir waren euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben;",
+            "patr_resp2": "denn ihr seid uns sehr lieb geworden.",
+            "patr_resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
+          },
+          "Laudes": {
+            "button": "Hl. Willigis"
+          }
+        }
+      }
+    },
+    "3": {
+      "6": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "comm_2": "Mann_Ord",
+            "oration": "Herr, unser Gott, sieh gnädig auf das Volk, das dir geweiht ist. Auf die Fürsprache des heiligen Quiriakus, dessen Gedenktag wir heute begehen, lass uns deinen Trost und deine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Gregor der Große († 604)",
+            "patr_werk": "Aus einer Auslegung zu den Evangelienperikopen.",
+            "patr_text": "^hIn der Welt, aber nicht von der Welt^pIch würde euch gerne auffordern, alles zu verlassen, aber ich wage es nicht. Wenn ihr also nicht alles Irdische verlassen könnt, so haltet es wenigstens nicht so fest, dass ihr durch das Irdische in der Welt festgehalten werdet.^pDas irdische Gut soll euer Besitz sein, aber nicht euch besitzen. Was ihr habt, soll unter der Herrschaft des Geistes stehen; denn wenn sich euer Geist von der Liebe zu den Gütern der Erde überwältigen lässt, dann besitzen diese Güter ihn selbst. Das Irdische sollt ihr gebrauchen, nach dem Ewigen verlangen. Das Irdische ist für die Reise, das Ewige für die Ankunft. Was auf der Welt geschieht, sollt ihr sozusagen von der Seite her betrachten. Doch geradeaus sollen sich die Augen des Geistes auf das Ewige richten, zu dem wir unterwegs sind.^pDas Böse soll mit der Wurzel ausgerottet werden, nicht nur aus dem Tun, sondern auch aus dem Denken. Keine Fleischeslust, keine Neugierde, kein heißes Geltungsbedürfnis soll uns vom Mahl des Herrn fernhalten. Sogar ehrbares Wirken in der Welt sollen wir nur nebenher betreiben, und das Irdische, das wir gern haben, soll unserem Leib so weit dienen, dass es kein Hindernis für das Herz bedeutet.^pMeine Brüder, ich wage es also nicht, euch zu sagen: Verlasst alles! Aber, wenn ihr es wirklich wollt, verlasst ihr alles, obwohl ihr es behaltet, indem ihr das Zeitliche so tut, dass ihr mit dem Geist auf das Ewige ausgerichtet seid. Der macht sich die Welt zunutze, als nütze er sie nicht{1#vgl. 1 Kor 7,31}, der alles, was er für sein äußeres Leben braucht, in Ordnung bringt, dabei aber nicht zulässt, dass die gleichen Dinge Herr über seinen Geist werden. Sie sind ihm untertan und lenken den Geist niemals von seiner Richtung ab, die nach oben strebt. Wer es damit so hält, für den sind alle irdischen Dinge nicht Gegenstand der Sehnsucht, sondern des Gebrauchs. Nichts soll das Sehnen eures Geistes hemmen, keine Freude am Irdischen euch umgarnen.^pBei aller Liebe zum Guten möge der Geist Freude am Besseren haben, das heißt am Himmlischen. Bei der Furcht vor den Übeln soll das Herz die ewigen Übel nicht aus dem Auge verlieren. Denn wenn es dort sieht, was der größeren Liebe und der größeren Furcht wert ist, möge es sich hier ganz und gar nicht festhängen.^pZu solchem Tun haben wir als Helfer den Mittler zwischen Gott und den Menschen, durch den wir schnell alles erreichen, wenn wir ihn in wahrer Liebe dringend bitten, der mit dem Vater und dem Heiligen Geist lebt und herrscht, Gott in Ewigkeit. Amen.",
+            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
+            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.",
+            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
+          },
+          "Laudes": {
+            "button": "Hl. Quiriakus"
+          }
+        }
+      },
+      "17": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-3-17-n1",
+            "button": "Hl. Gertrud von Nivelles"
+          }
+        }
+      }
+    },
+    "4": {
+      "19": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-4-19-n1",
+            "button": "Hl. Leo IX."
+          }
+        }
+      }
+    },
     "5": {
+      "2": {
+        "oblig": {
+          "Laudes": {
+            "referenz": "AAA-5-2-oblig",
+            "button": "Hl. Athanasius"
+          }
+        }
+      },
+      "6": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, du hast den heiligen Britto der Kirche von Trier zum Oberhirten gegeben, damit er dein Volk führe und deine Gemeinde aufbaue in Liebe. Lass auch uns im Glauben wachsen und einander in der Liebe verbunden bleiben. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Cyprian von Karthago († 258)",
+            "patr_werk": "Aus einem Brief an einige vom christlichen Glauben Abgefallene.",
+            "patr_text": "^hGründung der Kirche auf die Bischöfe^pUnser Herr, dessen Vorschriften wir zu fürchten und zu beobachten haben, ordnete die Würde des Bischofs und die Verhältnisse seiner Kirche, indem er im Evangelium zu Petrus sprach: »Du bist Petrus, und auf diesen Felsen werde ich meine Kirche bauen, und die Pforten der Hölle werden sie nicht überwältigen. Ich werde dir die Schlüssel des Himmelsreichs geben; was du auf Erden binden wirst, das wird auch im Himmel gebunden sein, und was du auf Erden lösen wirst, das wird auch im Himmel gelöst sein.«{1#vgl. Mt 16,18} Danach verläuft im Wechsel der Zeiten und der Nachfolge im Amt die Einsetzung der Bischöfe und die Ordnung der Kirche in der Weise dass die Kirche auf die Bischöfe gegründet und jede kirchliche Handlung durch eben diese Vorgesetzten geleitet wird. Nachdem dies durch göttliches Gesetz also bestimmt ist, muss ich mich darüber wundern, dass einige in Vermessenheit sich einfallen ließen, in einem Ton an mich zu schreiben, wie wenn sie im Namen der Kirche sprächen, obwohl doch die Kirche aus dem Bischof und dem Klerus und allen standhaft Gebliebenen besteht.^pDenn ferne sei es, und die Barmherzigkeit des Herrn und seine unüberwindliche Macht möge es nie zulassen, dass die Zahl der Abgefallenen sich als Kirche bezeichne, da geschrieben steht: »Er ist nicht der Gott der Toten, sondern der Lebenden.«{2#Mt 22,32} Ihnen allen wünschen wir, dass sie zu neuem Leben erweckt und dass sie wieder in ihren früheren Stand zurückversetzt werden, darum flehen wir seufzend in unseren Gebeten.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn. Halleluja.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Britto"
+          }
+        }
+      },
+      "12": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger, ewiger Gott, du hast durch den heiligen Bischof Modoald in unserem Land Gemeinschaften von Priestern und Ordensleuten ins Leben gerufen. Sei nahe allen, die du in deinen besonderen Dienst gerufen hast, und lass ihr Beten und Arbeiten zum Segen werden für dein Volk. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Hilarius von Poitiers († 367)",
+            "patr_werk": "Aus dem Buch über die Dreifaltigkeit.",
+            "patr_text": "^hDer Bischof soll ein makelloser Priester und Gottesgelehrter sein^pDer heilige Paulus hat das Vorbild eines Mannes gezeichnet, der als Bischof eingesetzt werden soll; er hat eine völlig neue Art eines kirchlich gesinnten Mannes durch seine Forderungen bestimmt. Denn er hat dies als das höchste an Tugenden gelehrt, was in ihm in vollendeter Form vorhanden sein solle: »Er muss ein Mann sein, der sich an das wahre Wort der Lehre hält; dann kann er mit der gesunden Lehre die Gemeinde ermahne und die Gegner widerlegen. Denn es gibt viele Ungehorsame, Schwätzer und Schwindler.«{1#Tit 1, 9–10} Er sagt, dass Lebenszucht und Gesittung in der Weise zu des Priesters Vorteil von Nutzen sein werden, wenn zum übrigen auch das nicht fehlt, was zur Lehre und zum Schutz des Glaubenswissens notwendig ist, weil es nicht ohne weiteres Kennzeichen für einen guten und nützlichen Priester ist, entweder nur ein makelloses Leben zu führen oder nur in gelehrter Form die Lehre zu verkündigen.^pDenn ein makelloser Priester hat für sich selbst nur dann Gewinn, wenn er auch geistig gebildet ist. Ein geistig Gebildeter aber bleibt mit seiner Lehre ohne Einfluss, es sei denn, dass er makellos ist.^pDas Wort des Apostels stellt durch die Forderung der Rechtschaffenheit und Ehrbarkeit den Mann nicht nur auf die Seite der Welt, um zum Leben hinzuführen; er setzt anderseits auch nicht um des Wissens der Lehre willen den Schriftgelehrten der Synagoge ein, um das Gesetz zu lehren. Den vollkommenen Kirchenvorsteher bestimmt er vielmehr als einen Mann mit den vollkommenen Gütern ganz hochstehenden Lebens, damit die Lehre Zier seines Lebens sei und das Leben Zier seiner Lehre. Endlich hat er Titus, an den der Brief gerichtet war, mit folgender Bestimmung über die Vollendung des Glaubens belehrt: »Gib selbst ein Beispiel durch gute Werke. Lehre die Wahrheit unverfälscht und mit Würde, mit gesunden, unanfechtbaren Worten; so wird der Gegner beschämt und kann nichts Schlechtes über uns sagen.«{2#Tit 2, 7–8}",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn. Halleluja.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Modoald"
+          }
+        }
+      },
       "15": {
         "d1": {
           "major": {
@@ -16444,6 +16599,584 @@
           "Laudes": {
             "button": "Hl. Maximin",
             "genitiv": "des heiligen Maximin"
+          }
+        }
+      }
+    },
+    "6": {
+      "2": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "comm_2": "Mann_Ord",
+            "oration": "Gütiger Gott, vom Verlangen getrieben, die Stätten des Lebens und Sterbens Christi zu sehen, hat der heilige Simeon das Heilige Land durchwandert. Um die Liebe Christi zu betrachten, die er auf diesem Weg erfahren hat, zog er sich aus der Welt zurück und lebte in strenger Abgeschiedenheit. Hilf uns, Herr, dass auch wir nach der Pilgerschaft unseres Lebens dorthin gelangen, wohin Christus uns vorausgegangen ist, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          },
+          "Lesehore": {
+            "patr_autor": "Abt Eberwin († 1040)",
+            "patr_werk": "Aus der Vita des heiligen Simeon.",
+            "patr_text": "^hPilger in Christi Namen^pAls Simeon eines Tages Kreuzfahrer aus unseren Gegenden, von unermüdlichem Eifer beseelt, zum Grab des Herrn ziehen sah, erfasste ihn das Verlangen, auch selber in Christi Namen Pilger zu werden. Haus, Heimat und Eltern ließ er zurück. Gepackt von der Sehnsucht, ohne Besitz dem armen Christus nachzufolgen, gelangte er nach Jerusalem. Sieben Jahre lang lebte er dort als Pilgerführer. Aber schon in dieser Zeit hatte er den Wunsch, allein nach Art der Einsiedler zu leben. Bei der häufigen Lektüre und beim Überdenken der Lebensbeschreibungen der Mönchs­väter begrif er jedoch, dass niemand imstande ist, sich selbst in der Einsamkeit Führer zu sein, der nicht vorher in einem Kloster gelernt hat, zu gehorchen.^pSimeon begab sich daher nach Betlehem, um als Mönch in das dortige Marienkloster einzutreten. Zwei Jahre später wechselte er in das am Fuß des Berges Sinai gelegene Katharinenkloster, an den Ort, wo Mose den brennenden Dornbusch gesehen hatte, der jedoch nicht verbrannte.^pGetrieben von tiefem, innerem Verlangen nach Einsamkeit, verließ Simeon eines Tages heimlich das Kloster und streifte durch die Wüste. Er suchte und überlegte, wo er allein, ohne eines Menschen Hilfe, leben könnte. Seine, in den weichen Sand eingedrückten Fußspuren verwischte er, so gut er konnte, damit niemand ihm folgen könnte. Er fand eine Quelle, dankte Gott und beschloss, dort zu bleiben. Seine Kostbarkeiten, die er bei sich hatte, waren der Psalter, das heilige Evangelium, ein Trinkgeschirr, Brot und Kohlsamen. Die ausgesäten Körner lieferten ihm dreißig Tage später seine ungekochten Mahlzeiten.^pGeraume Zeit später schickte Simeons Abt Brüder in die ganze Umgebung des Klosters, um Simeon ausfindig zu machen. Als sie Simeon aufgespürt hatten, übergaben sie ihm den Befehl, ins Kloster zurückzukehren. Dort war eine Aufforderung des Normannenherzogs Richard eingetroffen, man möge einen vertrauenswürdigen Bruder schicken, der eine Geldspende für das Kloster abholen sollte.^pNach gemeinsam gefasstem Beschluss wurde Simeon für diese Mission bestimmt. Nach vielen Bedrängnissen und Gefahren gelangte er über Rom ins Frankenreich und wurde mit dem Trierer Erzbischof Poppo bekannt. Eingedenk des Prophetenwortes über Christus: »Sein Grab wird glorreich sein«{1#vgl. Jes 11,10}, machte sich dieser tatkräftige Hirte der Trierischen Kirche gerade damals auf den Weg zu einer Jerusalemwallfahrt. Er nahm Simeon auf der Hin- und Rückreise als Begleiter und Weggenossen mit. Nach der Rückkehr bot er ihm an, sich an einem beliebigen Ort seines Erzbistums niederzulassen. Simeon, der Diener Christi, erbat sich in dem Turm, der vor Zeiten »Schwarzes Tor«{2#Die heutige Porta Nigra} hieß, eine kleine Zelle, wo er sich in Einsamkeit dem Gebet widmen konnte. Dort ließ ihn Bischof Poppo, in Anwesenheit von Klerus und Volk, am Fest des heiligen Andreas im Jahre 1028 einschließen. Als Rekluse hat dieser überaus heiligmäßige Mann unter Schweigen und Fasten seinen Leib in Zucht genommen. Dabei aß er bisweilen nur Brot, bisweilen auch eine Wassersuppe mit Hülsenfrüchten. Wegen des rauhen Klimas in unseren Breiten trank er zusätzlich mit Rücksicht auf seine Magenbeschwerden auch etwas Wein.^pAls der Gottesmann ahnte, dass die Auflösung seines Leibes nahe bevorstand, bestimmte er selbst den Ort seines Grabes in einem Winkel seiner Zelle. In der Pfingstoktav des Jahres 1035 erkrankte Simeon. Stephan, seinem Diener, trug er auf, ihn ein paar Tage in Ruhe zu lassen, damit er mehr als sonst sich ganz der Betrachtung hingeben könnte. Dieser ließ einen Tag verstreichen. Am Dienstagabend klopfte er und hängte den Brotkorb in das Zellenfenster. Am andern Morgen fand er ihn unberührt, so wie er ihn hingehängt hatte. In größter Angst stieg er zu Simeon hinauf. Der antwortete auf seine Frage nur: »Was willst du? Geh in Frieden!« Am achten Tag fand er Simeon im Sterben. Davon in Kenntnis gesetzt, bin ich (Eberwin) herbeigeeilt. Ich traf ihn noch lebend an, aber bereits in den letzten Zügen. Die Sterbegebete habe ich zusammen mit zwei Brüdern, Anselm und Robert, die mit mir gekommen waren, nach bestem Vermögen verrichtet.^pSo hat Simeon im Jahr des Herrn 1035, an einem Sonntagmorgen gegen neun Uhr, es war der erste Juni, seine Seele dem Schöpfer zurückgegeben, dem er zeitlebens gedient hatte.",
+            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
+            "patr_resp2": "Denn die Gestalt dieser Welt vergeht. (O: Halleluja.)",
+            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
+          },
+          "Laudes": {
+            "button": "Hl. Simeon"
+          }
+        }
+      },
+      "8": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gütiger Gott, der heilige Bischof Medard hat als guter Hirt dein Volk geführt. Höre auf seine Fürsprache und lass uns in der Gemeinschaft der Kirche zur ewigen Freude gelangen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Medard.",
+            "patr_text": "^hGott hat uns aus der Finsternis in sein wunderbares Licht gerufen^pMedard stammte aus einer fränkischen Adelsfamilie im Vermandois, einer Gegend im Nordosten des heutigen Frankreich. Sein altdeutscher Name »Medard« bedeutet »der mächtig Starke«. Als sein Geburtsort wird Salency bei Valenciennes genannt, wo er um 480 zur Welt kam. Es war die Zeit des Frankenkönigs Chlodwig I. Bischof Remigius von Reims († um 533) hatte diesen am Weihnachtsfest des Jahres 498 getauft. Mit dem König nahmen viele Krieger und Große seines Gefolges den christlichen Glauben in seiner katholischen Form an. Doch christlich waren Land und Volk durch diesen »Staatsakt« der Königstaufe nicht geworden. Die Christianisierung war ein langwieriger Prozess, der sich über Generationen hinzog.^pAls Medard Priester wurde, war seine Heimat noch weithin Heidenland. Zudem war die Gegend durch Barbareneinfälle und -raubzüge verwüstet. Als Volk und Klerus deshalb den schon in die Jahre gekommenen, aber offenbar hoch angesehenen Priester Medard zum Bischof von Vermand wählten, verlegte dieser den Bischofssitz in die besser befestigte Stadt Noyon. Der hl. Remigius von Reims erteilte ihm die Bischofsweihe. Chlodwigs Sohn, König Chlothar I. (511–561) übertrug Bischof Medard zusätzlich die Leitung des Bistums Tournai in der Grafschaft Flandern. Medard starb um die Mitte des 6. Jahrhunderts. Gregor von Tours († 594), der Geschichtsschreiber des Frankenreiches, berichtet über seinen Heimgang (Hist. 4,19): »Zur Zeit des Königs Chlothar starb der Heilige Gottes, Bischof Medard, nachdem er seinen Lauf segensreichen Wirkens (boni operis) vollendet hatte, satt an Jahren (plenus dierum), hervorragend in Heiligkeit. König Chlothar bestattete ihn mit höchster Ehre in der Stadt Soissons und begann über seinem Grab eine Basilika zu bauen, die sein Sohn Sigibert später vollendete und ausstattete.«^pMedard stand der Königsfamilie nahe. Als Königin Radegundis, die Königstochter aus Thüringen, die als Geisel aus ihrer Heimat verschleppt und mit König Chlothar I. verheiratet worden war, sich aus der Ehe mit diesem gewalttätigen Mann zurückzog, um als Nonne zu leben, gab Bischof Medard ihr den Segen. Er weihte sie zur »diacona«. Die hl. Radegundis gründete in Poitiers das Kloster Sainte-Croix. Dort wurde eine ihr aus Byzanz geschenkte Kreuzreliquie hoch verehrt. Zu ihrem Empfang dichtete Venantius Fortunatus den berühmten Hymnus »Vexilla regis prodeunt – Der König siegt, sein Banner glänzt«.^pDas Martyrologium Romanum erwähnt, dass Bischof Medard die ihm anvertrauten Menschen vom heidnischen Aberglauben zur Lehre Christi bekehrt habe. Vor allem in Flandern hat Medard missioniert. Er wird als »Apostel Belgiens« verehrt. Medard war einer der eifrigsten Kirchenmänner im Merowingerreich, der in einer rohen und oft noch sehr gewalttätigen Umgebung das Evangelium der Liebe und des Friedens einpflanzte. Die älteste Medard-Kirche im Trierer Raum stand im Trierer Stadtteil St. Medard. Die Pfarrei wurde 1803 mit St. Matthias verbunden. In der dortigen Basilika werden Reliquien des Heiligen aufbewahrt.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Medard"
+          }
+        }
+      },
+      "19": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau",
+            "comm_2": "Frau_Ord"
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Benedikt XVI.",
+            "patr_werk": "Aus der Enzyklika »Deus caritas est«.",
+            "patr_text": "^hDie Liebesgeschichte zwischen Gott und Mensch^pDie Liebesgeschichte zwischen Gott und Mensch besteht eben darin, dass diese Willensgemeinschaft in der Gemeinschaft des Denkens und Fühlens wächst und so unser Wollen und Gottes Wille immer mehr ineinander fallen: der Wille Gottes nicht mehr ein Fremdwille ist für mich, den mir Gebote von außen auferlegen, sondern mein eigener Wille aus der Erfahrung heraus, dass in der Tat Gott mir innerlicher ist als ich mir selbst (vgl. Hl. Augustinus). Dann wächst Hingabe an Gott. Dann wird Gott unser Glück (vgl. Ps 73 [72], 23–28). So wird Nächstenliebe in dem von der Bibel, von Jesus verkündigten Sinn möglich. Sie besteht ja darin, dass ich auch den Mitmenschen, den ich zunächst gar nicht mag oder nicht einmal kenne, von Gott her liebe. Das ist nur möglich aus der inneren Begegnung mit Gott heraus, die Willensgemeinschaft geworden ist und bis ins Gefühl hineinreicht. Dann lerne ich, diesen anderen nicht mehr bloß mit meinen Augen und Gefühlen anzusehen, sondern aus der Perspektive Jesu Christi heraus. Sein Freund ist mein Freund. Ich sehe durch das Äußere hindurch sein inneres Warten auf einen Gestus der Liebe – auf Zuwendung, die ich nicht nur über die dafür zuständigen Organisationen umleite und vielleicht als politische Notwendigkeit bejahe. Ich sehe mit Christus und kann dem anderen mehr geben als die äußerlich notwendigen Dinge: den Blick der Liebe, den er braucht.^pHier zeigt sich die notwendige Wechselwirkung zwischen Gottes- und Nächstenliebe, von der der Erste Johannesbrief so eindringlich spricht. Wenn die Berührung mit Gott in meinem Leben ganz fehlt, dann kann ich im anderen immer nur den anderen sehen und kann das göttliche Bild in ihm nicht erkennen. Wenn ich aber die Zuwendung zum Nächsten aus meinem Leben ganz weglasse und nur »fromm« sein möchte, nur meine »religiösen Pflichten« tun, dann verdorrt auch die Gottesbeziehung. Dann ist sie nur noch »korrekt«, aber ohne Liebe. Nur meine Bereitschaft, auf den Nächsten zuzugehen, ihm Liebe zu erweisen, macht mich auch fühlsam Gott gegenüber. Nur der Dienst am Nächsten öffnet mir die Augen dafür, was Gott für mich tut und wie er mich liebt.^pDie Heiligen – denken wir zum Beispiel an die sel. Theresa von Kalkutta – haben ihre Liebesfähigkeit dem Nächsten gegenüber immer neu aus ihrer Begegnung mit dem eucharistischen Herrn geschöpft, und umgekehrt hat diese Begegnung ihren Realismus und ihre Tiefe eben von ihrem Dienst an den Nächsten her gewonnen. Gottes- und Nächstenliebe sind untrennbar: Es ist nur ein Gebot. Beides aber lebt von der uns zuvorkommenden Liebe Gottes, der uns zuerst geliebt hat. So ist es nicht mehr »Gebot« von außen her, das uns Unmögliches vorschreibt, sondern geschenkte Erfahrung der Liebe von innen her, die ihrem Wesen nach sich weiter mitteilen muss. Liebe wächst durch Liebe. Sie ist »göttlich«, weil sie von Gott kommt und uns mit Gott eint, uns in diesem Einungsprozess zu einem Wir macht, das unsere Trennungen überwindet und uns eins werden lässt, so dass am Ende »Gott alles in allem« ist (vgl. 1 Kor 15, 28).",
+            "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
+            "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
+            "patr_resp3": "Nehmt euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun."
+          },
+          "Laudes": {
+            "button": "Sel. Maria Rosa (Margaretha) Flesch"
+          }
+        }
+      },
+      "23": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "oration": "Allmächtiger, gütiger Gott, aus Liebe zu dir hat der selige Bruder Peter Friedhofen armen, kranken und alten Menschen geholfen und ihnen Mut zugesprochen. Höre auf seine Fürsprache und erfülle auch uns mit dieser Liebe, damit wir allen Menschen deine reiche Barmherzigkeit kundtun und dem Kommen deines Reiches getreu dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          },
+          "Lesehore": {
+            "patr_autor": "Peter Friedhofen",
+            "patr_werk": "Aus einem Brief an Domvikar Anton Joseph Liehs vom 7. März 1850.",
+            "patr_text": "^hNeues Feuer – neuer Geist – neue Triebe^pWir werden alle von einem Geist geleitet, aber nicht alle einen Weg. Verschieden und mannigfach wirkt der Geist Gottes. Neues Feuer – neuer Geist – neue Triebe! Ich fühle mich zu vielem angetrieben. Bisher habe ich mich noch nicht gehörig ausgesprochen. Jetzt aber will ich es tun.^pErstens fühle ich mich angetrieben, so eng als es immer möglich ist, mich an Jesus anzuschließen, oft zu kommunizieren, ein ernsthaftes Bußleben zu führen und immer mehr in der Liebe Gottes zu wachsen.^pZweitens, mich zu bewerben um die Bekehrung verstockter Sünder, für deren Heil ich schon lange gebetet habe, mich auch schon in diesem Fach beflissen habe. Wie ich dieses schon vor einigen Tagen unternahm; einen tief Gesunkenen, der in acht Jahren seine Ostern nicht gehalten hat, zur Buße anzumahnen; ihn überzeugt, wenigstens überwiesen habe, dass Jesus im heiligsten Altarsakramente wesentlich gegenwärtig sei; dass unsere Priesterschaft eine ununterbrochene Reihe und Nachfolge der Apostel sei; dass dieselbe von Jesus Christus die Gewalt erhalten zu konsekrieren…, was hier alles mitzuteilen der Raum nicht zulässt. Denn dieser Mensch glaubte, die Gegenwart Christi im Heiligen Sakrament nicht. In solchen Sachen also fühle ich einen besonderen Eifer, weil mir dergleichen Sachen schon gelungen sind.^pDrittens fühle ich mich angetrieben, die Liebe und Verehrung Mariä so recht in die Herzen der Menschen einzupflanzen und mich dessen als Hauptmittel bedienen, Sünder zu bekehren und die Lauen zu wecken. Aus wahrer kindlicher Liebe zu Maria aber habe ich auch vor, Marienkapellchen zu bauen, die zerfallenen und erneuern, und das Lob der liebsten Mutter möglichst zu vermehren.^pViertens will ich aus christlicher Liebe die Kranken pflegen und dieses letztere als Mittel zu gebrauchen, die drei ersten Artikel gut üben zu können. Zu diesem Ziel und Ende baue ich denn ein Klösterchen, um Mitglieder aufzunehmen, die mir in diesen Liebeswerken zu Hilfe kommen. Diesem Hause fünftens einen Mariennamen mitzuteilen und uns möglichst in der heiligen Armut zu üben. Dieses ist mein Vorhaben, welches ich ins Werk setze mit der Gnade Gottes und mit dem vielvermögenden Beistand der seligsten Jungfrau Maria, meiner liebsten Mutter. Das Feuer, das ich in mir fühle, ist wie ich hoffe, die Gnade Gottes, die, wie ich hoffe, auch alles gut leitet.",
+            "patr_resp1": "Ihr seid Licht geworden durch den Herrn. Lebt als Kinder des Lichtes!",
+            "patr_resp2": "Das Licht bringt lauter Güte, Gerechtigkeit und Liebe hervor.",
+            "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
+          },
+          "Laudes": {
+            "button": "Sel. Peter Friedhofen"
+          }
+        }
+      }
+    },
+    "7": {
+      "6": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "comm_2": "Mann_Liebe",
+            "oration": "Herr, unser Gott, in alter Zeit hast du den heiligen Goar gerufen, den Reisenden auf den Straßen am Rhein um Christi willen eine Herberge zu bereiten und in aller Not und Mühsal ihrer Reise beizustehen. Gib auch uns die Kraft, gut zu sein zu allen Menschen, die von uns Hilfe erhoffen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Goar.",
+            "patr_text": "^hGastfreund und Helfer der Pilger und Reisenden^pDer heilige Goar, dessen westgotischer Name »Gau-Herr« bedeutet, stammte aus Aquitanien. Die Trierische Kirche hatte schon im 4. Jahrhundert Beziehungen zu Aquitanien. Die Bischöfe Maximin und Paulinus kamen von dort. Goar erbat sich vom damaligen Trierer Bischof Fibicius (um 510) die Erlaubnis, am Fuß des Hunsrücks auf der linken Rheinseite sich als Einsiedler niederlassen zu dürfen. Das geschah in der Nähe von Oberwesel, in den Uferfelsen gegenüber der Loreley. Dort erbaute Goar ein Kirchlein. Auf der Uferstraße durch das Rheintal herrschte reger Betrieb. Reisende und Pilger kamen vorbei. Der Strom wurde für Personen- und Warentransporte intensiv genutzt. Goars Zelle stand an einer Stelle, wo wegen der Stromschnellen und Riffe immer wieder Unfälle vorkamen. Der dort lebende Gottesmann war nicht nur ein Mann des Gebetes. Er war auch Helfer in der Not. Pilgern gewährte er Unterkunft, Kranke pflegte und heilte er, den Reisenden bot er Rast sowie Speis und Trank, die Ertrunkenen begrub er, den Heiden im Umland predigte er das Evangelium.^pGoar hatte auch Neider. Man verklagte ihn beim Bischof wegen angeblicher Unmäßigkeit und anderer Vergehen. Er musste sich in Trier verantworten. Dort erwies sich seine Unschuld. Sigibert, der damalige König des fränkischen Teilreichs Austrasien, wollte ihn sogar zum Bischof von Trier machen. Goar lehnte ab. Er kehrte an den Rhein zurück. Eine neuerliche Bitte des Königs schlug er abermals aus. Man sandte ihm aber, wie er es gewünscht hatte, die beiden Priester Agrippinus und Eusebius als Gehilfen. Sie blieben die letzten Jahre bei ihm.^pAls Goar drei Jahre und drei Monate später an einem 6. Juli starb, wurde er vor seiner Einsiedelei am Wocherbach beigesetzt. Der Begräbnisort wurde bald zum vielbesuchten Pilgerort. Manch einer, der auf der belebten Durchgangsstraße am Rhein unterwegs war, machte bei dem Heiligen, dessen Gastfreundschaft unvergessen war, Station. Wegen der Pilger gab es am Grab des Heiligen eine kleine Priestergemeinschaft. Sie besorgte die Seelsorge, aber vor allem standen die in der Regel sechs Geistlichen den zahlreichen Besuchern zur Verfügung. In Fortführung des Werks ihres Patrons unterhielten sie eine Herberge für Durchreisende, Arme und Kranke.^pSeit 765 war die »cella sancti Goaris« im Besitz der damaligen Abtei Prüm. In der Gruft der 781 von dem Mainzer Bischof Lullus konsekrierten Kirche erhielt der hl. Goar einen würdigen Ruheort. Die heutige gotische Kirche, in der die romanische Gruft erhalten blieb, wurde 1444–1469 erbaut. Die Reliquien des hl. Goar waren im 13. Jahrhundert sicherheitshalber in die Stiftskirche von Karden transferiert worden. Erzbischof Balduin von Luxemburg gab sie durch Anordnung vom 14. Mai 1320 wieder der Stadt St. Goar zurück. Als 1527 die Reformation dort eingeführt wurde, wurden die Reliquien entfernt und sind seitdem verschollen. Nur eine Armreliquie, die sich schon vor der Reformation in der St. Kastorbasilika von Koblenz befand, blieb erhalten.",
+            "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos, und ihr habt mich aufgenommen.",
+            "patr_resp2": "Amen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
+            "patr_resp3": "Wer sich der Armen erbarmt, der liebt den Herrn."
+          },
+          "Laudes": {
+            "button": "Hl. Goar",
+            "genitiv": "des heiligen Goar"
+          }
+        }
+      },
+      "8": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "comm_2": "Mann",
+            "oration": "Herr, unser Gott, du hast den heiligen Disibod aus der Welt herausgerufen und ihn fähig gemacht zu einem Leben der Entsagung und des Gebetes. Mache auch uns bereit, deinen Willen zu tun an der Stelle, an die du uns gerufen hast.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Disibod.",
+            "patr_text": "^h»Die Welt gabst du preis für das leuchtende Leben.« (Hildegard von Bingen)^pDisibod gehört zu den iro-schottischen Wandermönchen, von denen es in der Vita des heiligen Trierer Bischofs Magnerich heißt, sie hätten sich im Trierer Land niedergelassen. Das 6. Jahrhundert war die Zeit, in der fromme Asketen, Männer und Frauen, in großer Zahl von den britischen Inseln auf das europäische Festland herüberkamen. Sie hatten ihre Heimat für immer verlassen. In der Fremde wollten sie wie einst Jesus auf der Pilgerschaft dieses Lebens unterwegs sein. In der Einsamkeit wollten sie in Armut und ohne jeden Komfort Gott suchen. In strenger Askese besiegten sie die Mächte des Bösen in und um sich.^pEs ist erstaunlich, wie sehr sich die Erinnerung an diese Gottesmänner und -frauen im Volk erhalten hat. Sie zogen ja nicht als Missionare durch das Land. Sie lebten als Einsiedler in abgelegenen Waldgegenden. Aber die Menschen suchten sie auf, bestaunten ihre strenge Askese und die harten Bußübungen, die diese Fremden sich auferlegten. Sie waren beeindruckt von ihrer konsequenten Christusnachfolge. Städte und heilige Orte wurden nach ihnen benannt: St. Ingbert, St. Wendel, der Disibodenberg unweit von Bad Kreuznach und der Beatusberg in Koblenz.^pWas den heiligen Disibod betrifft, soll er aus Irland gekommen sein. Auch er hat sich danach gesehnt, »ein Verbannter zu sein aus Liebe zu Christus« (Hildegard von Bingen). Disibod ließ sich in dem damals dichten Waldgebiet am Osthang jenes Berges nieder, der später seinen Namen erhielt. Es ist die Gegend, wo das Flüsschen Glan in die Nahe mündet. Der große, als Heiliger verehrte Mainzer Bischof Willigis (975–1011) errichtete auf dem Disibodenberg anstelle eines Klosters ein Kanonikerstift. In der Nähe befand sich ein Frauenkloster. Die fromme Gräfin Jutta von Sponheim stand der Gemeinschaft vor. Die Eltern der heiligen Hildegard übergaben ihr Töchterchen als Oblatin der Äbtissin Jutta. Als diese starb, wurde Hildegard, die Papst Benedikt XVI (2005–2013) zur Kirchenlehrerin erhoben hat, zur Äbtissin gewählt. Sie verlegte das Frauenkloster vom Disibodenberg auf den Rupertsberg bei Bingen.^pAuf dem Disibodenberg gibt es nach der Reformation im 16. Jahrhundert kein klösterliches Leben mehr. Nur noch Ruinen erinnern daran. Der Einsiedler Disibod verstarb im hohen Alter. Er soll 81 Jahre alt geworden sein. Man begrub ihn in einer Kapelle auf der Höhe des Disibodenberges. Mit dem Kloster ist auch die Grabstätte des Heiligen untergegangen. Da die Gegend 1821 zur Diözese Trier kam, steht der heilige Disibod seit 1888 im Trierer Bistumskalender.",
+            "patr_resp1": "Der Heilige Geist erschaute in dir die eigene Wohnstatt.",
+            "patr_resp2": "Vom göttlichen Geiste wurdest du gekrönt.",
+            "patr_resp3": "Dem Vater sei Ehre, dem Sohn und dem Heiligen Geist!"
+          },
+          "Laudes": {
+            "button": "Hl. Disibod"
+          }
+        }
+      },
+      "27": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Großer Gott, du hast der Kirche von Trier den heiligen Bischof Magnerich als unerschrockenen Anwalt für Gerechtigkeit und Frieden gesandt. Lass auch uns die Not aller, die Unrecht leiden, zu Herzen gehen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Magnerich.",
+            "patr_text": "^h»Brot der Hungernden, Zuflucht der Fremden, Kleidung der Nackten« (Venantius Fortunatus)^pMagnerich stammte wohl aus der fränkischen Aristokratie. Der ostfränkische König Childebert II. (575–596) erwählte ihn zum Taufpaten seines Sohnes Theuderich. Aber Magnerich war nicht der Typ eines Hofbischofs. Er scheute sich nicht, den Machthabern ins Gewissen zu reden und gegen deren Gewalttaten zu protestieren. Das zeigte sich etwa, als König Guntramm von Burgund den ihm unbequemen Bischof Theodor von Marseille verbannte. Der Verbannungsort lag am Mittelrhein. Der Bischof wurde, von einer Militäreskorte bewacht, per Schiff moselabwärts transportiert. Jeder Kontakt mit dem Verbannten war untersagt. Das Schiff machte kurze Station in Trier. Sobald Bischof Magnerich davon erfuhr, suchte er den gefangenen Mitbruder auf. Er betet am Grab des hl. Maximin für ihn und intervenierte später beim König mit Erfolg für seine Freilassung.^pÜber Magnerichs eigentlich bischöfliche Tätigkeit erfahren wir kaum etwas. Fest steht, dass er ein großer Verehrer des hl. Martin war. Mindestens drei Martinskirchen gründete er: das Kloster St. Martin in Trier, wo er begraben wurde, eine Kirche im äußersten Westen des alten Erzbistums und eine weitere auf seinem Familienbesitz in Karden. In seiner Amtszeit hören wir von teilweise recht bizarren Formen des Einsiedler- und Mönchslebens im Trierer Land. Iro-schottische Wandermönche, die ihre Heimat »um Christi willen« verlassen hatten, lebten als strenge Asketen in abgelegenen Waldgegenden. Am auffälligsten war die Lebensweise eines langobardischen Diakons namens Wulfilaich. Er war »Säulensteher-Stylit«. Der Asket hielt sich auf einer hohen Plattform auf, die er auf einem Berg in der Nähe des heutigen Carignan, in den französischen Ardennen, errichtet hatte. Er predigte der noch weitgehend heidnischen Bevölkerung und drängte sie das dort verehrte Diana-Götzenbild zu zerstören. Gregor von Tours († 594), der Geschichtsschreiber der Franken, hat Wulfilaich aufgesucht und von ihm erfahren, dass Bischöfe (wohl vor allem der zuständige Trierer Bischof Magnerich) ihn ermahnt hätten, von seiner Säule herunterzusteigen. Das hiesige raue Klima verbiete diese Lebensweise. Wulfilaich gehorchte. Fortan stand er einer Mönchsgemeinschaft auf jenem Berge vor. Heute befindet sich dort, unweit von Sedan, das Pilgerzentrum St. Walfroy.^pDer große Hymnendichter Venantius Fortunatus kannte Bischof Magnerich persönlich. Er feierte ihn als »Zierde der Bischöfe«. Als er zum Bischof gewählt und geweiht wurde, gratulierte ihm Venantius Fortunatus mit einem Gedicht. In Anspielung auf den Namen Magnerich, der ähnlich klingt wie das lateinische Wort »magnus«, was »groß« bedeutet, schrieb er: »Magnerich ja du bist groß; du machst deinem Namen Ehre.« Und auf die Güte und Hilfsbereitschaft des Bischofs anspielend, nannte er ihn: »Brot der Hungernden, Zuflucht der Fremden, Kleidung der Nackten.«^pDas Grab des hl. Bischofs Magnerich befand sich im ehemaligen Martinskloster am Moselufer in Trier. Als das Kloster nach der Französischen Revolution aufgelöst und die Kirche abgerissen wurde, verschwand auch das Grab des heiligen Klostergründers.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Magnerich"
+          }
+        }
+      },
+      "28": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "comm_2": "Mann_Liebe",
+            "oration": "Gütiger Gott, in der Kraft deines Geistes haben die heiligen Priester Beatus und Bantus als Mitarbeiter ihres Bischofs in der Kirche von Trier gewirkt. Höre auf ihre Fürsprache, und stärke alle, denen heute dieser Dienst anvertraut ist. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Macarius dem Ägypter (4. Jh.) zugeschrieben",
+            "patr_werk": "Aus einer Homilie über das geistliche Leben.",
+            "patr_text": "^hGeschenke aus dem Reichtum des Heiligen Geistes^pVeranstaltet ein reicher Mann ein kostspieliges Gastmahl, so bestreitet er den Aufwand aus seinem eigenen Reichtum und Schatz und fürchtet nicht, es möchte ihm etwas abgehen, da er ja über großen Reichtum verfügt. Und so bewirtet er seine geladenen Gäste kostspielig und glänzend, lässt ihnen mannigfache und seltene Gerichte auftragen. Will aber ein Armer, der kein Vermögen hat, jemand ein Gastmahl geben, so entlehnt er alles, selbst die Tafelgeräte, Polsterdecken und anderes Zubehör. Danach aber, wenn die Geladenen gespeist sind, wie man eben beim Gastmahl eines Armen speist, gibt dieser jedem wieder zurück, was er geborgt hat: das Silbergeschirr, die Decken und andere Ausstattungsgegenstände. Ist jedem alles wieder zurückgegeben, so verbleibt er selbst arm und mittellos. Er besitzt ja keinen eigenen Reichtum, womit er sich wohl sein lassen könnte.^pDarum müssen wir zuerst in Herzensmühe und Glauben Gott bitten, er möge uns verleihen, dass wir seinen Reichtum, den wahren Schatz Christi, in unseren Herzen in Kraft und Wirksamkeit des Geistes finden. Haben wir so vorerst selbst Nutzen, Heil und ewiges Leben, das heißt den Herrn, gefunden, dann wollen wir auch anderen, soweit es möglich und erreichbar ist, nützen und aus dem Schatze Christi in unserem Innern alle guten, geistlichen Lehren schöpfen und himmlischen Geheimnisse erklären. Denn so hat es dem gütigen Willen des Vaters gefallen, in jedem, der glaubt und ihn bittet, Wohnung zu nehmen.",
+            "patr_resp1": "Ihr seid Licht geworden durch den Herrn. Lebt als Kinder des Lichts!",
+            "patr_resp2": "Das Licht bringt lauter Güte, Gerechtigkeit und Wahrheit hervor.",
+            "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
+          },
+          "Laudes": {
+            "button": "Hl. Beatus und hl. Bantus"
+          }
+        }
+      }
+    },
+    "8": {
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Emidius die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Augustinus († 430)",
+            "patr_werk": "Aus einer Predigt am Jahrestag seiner Weihe.",
+            "patr_text": "^hFür euch bin ich Bischof, mit euch bin ich Christ^pSeit mir diese Bürde, über die ich eine empfindliche Rechenschaft ablegen muss, auf die Schultern gelegt wurde, beunruhigt mich ständig die Sorge um meine Würdigkeit. Eure Gebete mögen mir helfen, dass Christus sich würdigt, seine Bürde mit mir zu tragen.^pWenn ihr betet, betet ihr auch für euch selbst. Diese Bürde, von der ich gerade spreche, ist nichts anderes als ihr. Ihr seid die Bürde. Betet ernstlich für mich, wie ich bete, dass ihr keine schwere Bürde seid.^pDenn der Herr Jesus würde seine Bürde nicht leicht nennen, wenn er sie (zusammen) mit dem Träger nicht tragen würde. Doch auch ihr ertragt mich, so dass wir nach dem Gebot des Apostels einander unsere Lasten tragen und so das Gesetz Christi erfüllen (vgl. Gal 6,2). Wenn er nicht mit uns trägt, fallen wir; wenn er uns nicht trägt, versinken wir. Wo mich schreckt, was ich für euch bin, tröstet mich, was ich mit euch bin. Für euch bin ich Bischof, mit euch bin ich Christ. Das eine ist der Name für den übernommenen Dienst, das andere der Name für die Gnade. Jenes ist der Name für Gefahr, dieses für Heil. Schließlich werden wir auf dem weiten Meer dieser Wirksamkeit vom Sturm hin und her geworfen. Doch wenn wir daran denken, durch wessen Blut wir erlöst worden sind, gelangen wir, beruhigt durch diesen Gedanken, sozusagen zum sicheren Hafen. Wenn es mich mehr freut, mit euch erkauft worden zu sein, als dass ich euer Vorgesetzter bin, dann werde ich, wie der Herr befiehlt, auf noch bessere Art euer Diener sein, damit ich den Preis nicht gering schätze, durch den ich gewürdigt wurde, euer Mitdiener zu sein.^pSo »ermahnen und bitten wir euch, dass ihr die Gnade Gottes nicht vergeblich empfangt.« (2 Kor 6,1). Macht unseren Dienst fruchtbar. »Ihr seid Gottes Acker.« (1 Kor 3,9). An der Außenseite werdet ihr bepflanzt und getränkt; im Inneren erfahrt ihr den, der das Wachstum gibt. Die Unruhigen sind zurechtzuweisen, die Kleinmütigen zu trösten, die Schwachen aufzunehmen, die Widerspenstigen zu widerlegen, die Hinterhältigen zu meiden, die Unwissenden zu belehren, die Untätigen aufzuscheuchen, die Streitsüchtigen in die Schranken zu weisen, die Überheblichen kleinzuhalten, die Streitenden zu versöhnen, den Armen zu helfen, die Bedrückten zu befreien, die Guten zu loben, die Bösen zu ertragen, alle zu lieben. Bei dieser so großen, so vielfältigen und verschiedenartigen Tätigkeit in unterschiedlichen Dingen helft uns, indem ihr betet und auf unsere Worte hört. So soll es uns nicht so sehr freuen, dass wir euch vorstehen, sondern eher, dass wir euch nützlich sind.",
+            "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
+            "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
+            "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen."
+          },
+          "Laudes": {
+            "button": "Hl. Emidius",
+            "farbe": "r"
+          }
+        }
+      },
+      "13": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau",
+            "comm_2": "Frau_Ord",
+            "oration": "Gütiger Gott, wir begehen in Freude den Gedenktag der seligen Gertrud. Gib uns die Kraft, nach ihrem Beispiel auch ein wahrhaft christliches Leben zu führen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Clemens V. († 1314)",
+            "patr_werk": "Aus einem Brief an den Konvent von Altenberg.",
+            "patr_text": "^hGertrud diente im Ruf der Heiligkeit ihrem Schöpfer^pClemens, Bischof, Diener der Diener Gottes, entbietet den in Christus geliebten Töchtern, der Meisterin und dem Konvent des Prämonstratenserinnenklosters Altenberg im Bistum Trier, Gruß und apostolischen Segen.^pDerjenige, dessen Gnade es zu danken ist, dass seine Gläubigen ihm würdig und ohne Tadel dienen, gewährt aus dem Übermaß seiner Güte denen, die ihm treu ergeben sind, weit mehr als sie selbst durch ihre Verdienste erlangen könnten. Doch wollen auch Wir das Unsere tun, um dem Herrn ein Volk zu bereiten, das ihm wohlgefällt. Deshalb laden Wir die Christgläubigen zu einem gottgefälligen Leben ein – auch durch anziehende Gnadenmittel wie die Förderung der Heiligenverehrung und die Gewährung von Ablässen. So sollen die Gläubigen empfänglicher werden für das Geschenk, das sie von Gottes Gnade erhalten.^pDementsprechend wünschen Wir, dass auch eure Kirche mit der Ehrerbietung, die ihr zusteht, von vielen besucht werde und glänzend dastehe; dies sowohl wegen der Ehre der seligen Jungfrau Maria, zu deren Ruhm, wie ihr versichert, sie errichtet worden ist, dann aber auch, weil in dieser Kirche jene selige Gertrud, eine Tochter der heiligen Elisabeth, der Landgräfin von Hessen, im Ruf hellstrahlender Heiligkeit ihrem Schöpfer gedient hatte. Dort befindet sich ihr Grab, und in dieser Kirche wird sie sehr verehrt.^pWir denken dabei auch an die Verehrung, die Unser liebster Sohn in Christus, Ludwig, der Römische König{1#Möglicherweise Ludwig IV. der Bayer, der aber erst 1314 zum Römischen König gewählt wurde}, und andere Adelige aus jenen Gegenden der seligen Gertrud, die einst eure Meisterin war, entgegenbringen. Euren und ihren Bitten möchten Wir entsprechen.^pWir erlauben also und wünschen, dass ihr jedes Jahr am Gedenktag des heiligen Hippolyt{2#13. August} den Sterbetag der seligen Gertrud mit öffentlichem Gottesdienst, mit Messfeier und dem Gesang des Stundengebets feierlich begeht. Außerdem gewähren Wir euch und allen, die am Vigiltag und am Gedenktag selbst sowie an den Marienfesten diese eure Kirche in frommer Absicht besuchen, im Vertrauen auf die Barmherzigkeit des allmächtigen Gottes und die Vollmacht seiner Apostel Petrus und Paulus vierzig Tage Ablass der ihnen auferlegten Buße. Dabei setzen wir voraus, dass die Gläubigen am Grab der seligen Gertrud fünf Vaterunser und fünf Ave Maria beten oder das Stundengebet von ihrem Gedenktag feiern, sofern sie ihre Sünden bereuen. Gegeben zu Avignon am 18. Dezember 1311, im siebten Jahr Unseres Pontifikates.",
+            "patr_resp1": "Wie schön bist du, Jungfrau Christi!",
+            "patr_resp2": "Du warst würdig, vom Herrn den Kranz zu empfangen, den Kranz der ewigen Jungfräulichkeit.",
+            "patr_resp3": "Niemand kann dir die Siegespalme nehmen, noch dich von der Liebe Christi trennen."
+          },
+          "Laudes": {
+            "button": "Sel. Gertrud von Altenberg"
+          }
+        }
+      },
+      "18": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau",
+            "oration": "Allmächtiger Gott, von der Liebe zu Christus bewegt, hat die heilige Kaiserin Helena die Botschaft vom siegreichen Kreuzestod des Erlösers in unserem Land verbreitet. Lass das Leiden deines Sohnes auch an uns fruchtbar werden, damit wir einst zum ewigen Leben auferstehen. Darum bitten wir durch ihn, Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Eusebius von Cäsarea († 339)",
+            "patr_werk": "Aus der Vita Constantini.",
+            "patr_text": "^hHelena, eine Frau voller Hochherzigkeit, Wohltätigkeit und Frömmigkeit^pHelena spendete von Stadt zu Stadt ganzen Gemeinden wie auch einzelnen, die sich an sie wandten, unzählige Wohltaten; unzählige Geschenke verteilte sie auch mit freigebiger Hand an die Heeresabteilungen und ungemein viel schenkte sie nackten und hilflosen Armen, denen sie teils Geldgeschenke, teils reichlich das zur Bedeckung ihres Leibes Notwendige zukommen ließ. Andere befreite sie, die in Gefängnissen und Bergwerken elend schmachten mussten; solche, die von Mächtigeren bedrückt wurden, erlöste sie und andere hinwiederum rief sie aus der Verbannung zurück.^pWährend sie sich durch solche edle Werke auszeichnet, vernachlässigte sie aber keineswegs die sonstigen Pflichten der Frömmigkeit gegen Gott; daher ließ sie sich durchweg fleißig in der Kirche Gottes sehen; mit herrlichen Kleinodien schmückte sie die Bethäuser und selbst die Tempel in den kleinsten Städten übersah sie dabei nicht. So konnte man oft sehen, wie die bewundernswerte Frau in ehrwürdiger und einfacher Kleidung sich mitten unter dem Volke zeigt und ihre Gottesverehrung durch lauter gottgefällige Werke an den Tag legte.^pAls sie aber schon am Ziele ihres reichlich zugemessenen Lebens angelangt, zu einem besseren Lose berufen werden sollte, da nahm sie, wohl an die achtzig Jahre alt, ihrem Ende schon nahe, Abschied und machte ihr Testament, worin sie zugunsten ihres einzigen Sohnes, des Kaisers, des alleinigen Beherrschers der Welt, und zugunsten seiner Söhne, der Cäsaren, ihrer Enkel, ihren letzten Willen festsetzte. Von ihren Enkeln wies sie einem jeden etwas von ihrem Privatvermögen an, soviel sie nur immer auf dem ganzen Erdkreis besaß. Und nachdem sie diese Verfügung getroffen hatte, beschloss sie ihr Leben in Gegenwart ihres großen Sohnes, der ihr zu Seite stand, sie pflegte und ihre Hände in den seinigen hielt.^pMit Recht scheint daher die Kaiserin allen, die verständig urteilen, nicht eigentlich gestorben zu sein, sondern in Wahrheit nur das irdische Leben mit dem himmlischen vertauscht zu haben. Ihre Seele ward aufgenommen zu ihrem Erlöser. Auch der Leiche der Seligen wurden mit ganz ungewöhnlichem Eifer Ehren erwiesen. Unter zahlreichem militärischem Ehrengeleite wurde sie in die Kaiserstadt gebracht und dort in den kaiserlichen Grabstätten beigesetzt.",
+            "patr_resp1": "Heute feiert die heilige Kirche den Gedenktag der ruhmvollen Kaiserin, die das siegreiche Holz des Kreuzes aufgefunden hat:",
+            "patr_resp2": "An dem der Urheber des Heiles durch eigenen Tod den Tod aller überwunden hat.",
+            "patr_resp3": "Helena, die Mutter Konstantins, hat mit Eifer das Kreuz gesucht, das mit vortrefflicher Zierde ausgezeichnet ist."
+          },
+          "Laudes": {
+            "button": "Hl. Helena"
+          }
+        }
+      },
+      "26": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Ewiger Gott, durch die Predigt des heiligen Gregor von Pfalzel hast du viele Menschen aus der Finsternis in das Licht der Wahrheit gerufen. Lass uns auf seine Fürsprache im Glauben treu bleiben und die Hoffnung bewahren, die uns das Evangelium gibt. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Liudger († 809)",
+            "patr_werk": "Aus der von Bischof Liudger verfassten Vita über Gregor von Pfalzel.",
+            "patr_text": "^hGregors Berufung^pDreizehn Jahre lang hatte der von Gott erwählte Märtyrer Bonifatius in Friesland die Glaubensbotschaft verkündet. Nach diesen dreizehn Jahren begab er sich auf Gottes Geheiß{1#Im Jahre 721} zu den Hessen und Thüringern in den östlichen Gebieten der Franken, um diese Völker für Gott zu gewinnen.^pUnterwegs kam er nach Pfalzel, einem Frauenkloster bei der Stadt Trier an der Mosel. Äbtissin war damals Adula, eine sehr fromme und gottesfürchtige Frau. Als nun Bonifatius – wie er es fast jeden Tag zu tun pflegte – die heilige Messe gefeiert hatte, setzten sie sich zu Tisch, er und die Dienerin Gottes Adula mit ihrer Klosterfamilie. Es wurde ein Vorleser gesucht. Nach Gottes Vorsehung fand sich der junge Gregor, der um diese Zeit gerade von der Palastschule zurückgekommen war. Er trug noch das Laienkleid und war etwa vierzehn oder fünfzehn Jahre alt. Nach Gottes Fügung kam er zu seiner Großmutter, der Mutter seines Vaters Alberich, der schon erwähnten gottesfürchtigen Äbtissin Adula. Ihm wurde nun das Buch gegeben. Er empfing den Segen und begann zu lesen. Er las für sein Alter gut vor. Als er die Lesung beendet und nach kirchlichem Brauch mit dem Gebet beschlossen hatte, lobte ihn Bonifatius, der den scharfen Geist und die gute Redegabe des Jungen erkannte, ein wenig und sagte: »Du liest gut, mein Sohn, wenn du verstehst, was du liest. Willst du, dass ich es dir erkläre?« »Ja«, antwortete Gregor. »Wiederhole«, sagte da der heilige Bonifatius, »deine Lesung von vorn und lies deutlich.« Er tat das. Dann erhob sich der heilige Lehrer und predigte mit lauter Stimme der Mutter Äbtissin und der ganzen Klosterfamilie.^pAus welcher Quelle diese Predigt kam, zeigte sich sofort deutlich in der Berufung des jungen, begabten und klugen Gregor. Denn nicht durch menschliche Beredsamkeit, die häufig für einige Zeit die Menschen zu täuschen vermag, sondern durch die Gnade des Heiligen Geistes floss sie – nach der Verheißung des Evangeliums{2#vgl. Joh 7, 38} – wie ein Strom lebendigen Wassers aus dem Herzen des Glaubenslehrers, sprudelnd ins ewige Leben, und durchdrang das kluge und gelehrige Herz des jungen Gregor mit solcher Kraft und so rasch, dass er auf die eine Mahnung und Predigt des ihm unbekannten Lehrers hin Eltern und Heimat vergaß. Von dem heiligen Lehrer wollte er sich nicht mehr trennen.^pIn derselben Stunde, als dieser seine Predigt beendet hatte, ging er zu seiner Großmutter, der genannten ehrwürdigen Äbtissin Adula, und erklärte ihr, er wolle mit dem Manne ziehen und sein Schüler werden. Adula aber, von irdischer Zuneigung befangen, wies ihn sofort zurück und widersprach ihm. Der junge Gregor beharrte jedoch auf seinem Plan und sagte zu seiner Großmutter Adula: »Wenn du mir kein Pferd geben willst, dass ich mit ihm reiten kann, werde ich ganz gewiss zu Fuß mit ihm ziehen.« Schließlich siegte die Liebe des von Gott berufenen jungen Gregor; wie es billig war, überwand er die irdische Liebe seiner Großmutter. Die Dienerin Gottes Adula sah – sie war eine kluge Frau – den unbeugsamen Sinn des jungen Gregor, gab ihm Diener und Pferde und ließ ihn mit dem heiligen Lehrer zu dem Werk ausziehen, das sie bis zum Märtyrertod des heiligen Bonifatius gemeinsam ausführen sollten.",
+            "patr_resp1": "Geht hinaus in die ganze Welt und verkündet das Evangelium allen Geschöpfen!",
+            "patr_resp2": "Wer glaubt und sich taufen lässt, wird gerettet.",
+            "patr_resp3": "Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen."
+          },
+          "Laudes": {
+            "button": "Hl. Gregor von Pfalzel"
+          }
+        }
+      },
+      "31": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-8-31-n1",
+            "button": "Hl. Paulinus"
+          }
+        }
+      }
+    },
+    "9": {
+      "11": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, du hast den heiligen Bischof Maternus berufen, den wahren Glauben zu verkünden und für die Einheit der Kirche zu wirken. Höre auf seine Fürsprache und gib, dass alle, die durch die eine Taufe miteinander verbunden sind, deine Heilstaten vor den Menschen bezeugen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Maternus.",
+            "patr_text": "^hDie drei Gründerbischöfe der Trierischen Kirche^pIn der Bischofsstadt an der Mosel verbindet man den Sieg des christlichen Glaubens mit den Namen der ersten Bischöfe Eucharius, Valerius und Maternus. Die seit dem 10. Jahrhundert erzählte Legende berichtet, der Apostel Petrus selbst habe die drei von Rom aus nach Germanien und Gallien gesandt. Sie sollten die Nachricht von Jesus Christus auch in die Römerstadt Trier bringen. Unterwegs, es war im Elsass, erkrankte Maternus und starb. Eucharius und Valerius kehrten zu Petrus zurück. Dieser gab ihnen seinen Stab mit. Den sollten sie dem toten Maternus auflegen. Eucharius berührte mit dem Petrusstab den Leichnam im geöffneten Grab und sprach: »Maternus, der Apostel gebietet dir in der Kraft Jesu Christi, vom Tod zum Leben aufzuerstehen.« Das Wunder geschah.^pIn Trier wollte die von den heidnischen Priestern aufgehetzte Menge die Glaubensboten steinigen. Doch jeder, der sich nach einem Stein bückte, blieb wie gelähmt stehen. Erst ein Gebet des Eucharius löste den Bann. Noch andere Wunderzeichen geschahen.^pDie Überlieferung weiß weiter zu erzählen, auf dem Sterbebett habe Eucharius den Valerius zu seinem Nachfolger als Bischof von Trier bestimmt und geweiht. Auf Valerius folgte Maternus. Er soll 40 Jahre lang die Trierische Kirche geleitet haben. Auf vielen Darstellungen sieht man diesen dritten Trierer Bischof mit zwei Mitren zu seinen Füßen abgebildet. Außer in Trier soll er auch Bischof in Tongern, im heutigen Belgien, gewesen sein. Köln betrachtet Maternus als ersten in der Reihe seiner Bischöfe. Ob der erste Bischof von Köln und Bischof Maternus von Trier allerdings ein und dieselbe Person waren, ist unter den Gelehrten umstritten. Wir wissen heute, dass man im 10. Jahrhundert, als diese Legende von Eucharius, Valerius und Maternus aufgezeichnet wurde, vor allem im Sinn hatte, die Kirche von Trier unmittelbar auf den Apostelfürsten Petrus zurückzuführen.^pÜber die wirklichen Vorgänge der Einpflanzung des Christentums im Trierer Land wussten die mittelalterlichen Schriftsteller nichts Sicheres. Die Gründerbischöfe wurden auf dem südlichen Gräberfeld des römischen Trier bestattet. Auf diesem Gelände erhebt sich heute die St. Matthias-Basilika. Sie trug bis ins 12. Jahrhundert den Namen des heiligen Eucharius. Neben der Euchariuskirche gab es auch eine besondere Grabeskirche des heiligen Maternus. Nach umfangreichen Um- und Neubauarbeiten am Trierer Dom ließ Erzbischof Poppo (1016–1047) am 23. Oktober 1037 die Gebeine des heiligen Maternus in den Dom übertragen, wo sie bis heute aufbewahrt werden. Die Maternuskirche neben St. Matthias wurde bei der Aufhebung des Klosters infolge der Französischen Revolution um 1800 abgerissen. Das Gedächtnis des heiligen Maternus begehen die Nachbarbistümer Köln und Trier gemeinsam am 11. September. Auch die Kölner Tochterbistümer Aachen und Essen haben den Gedenktag in ihre Diözesankalender aufgenommen. Das Bistum Limburg gedenkt am Maternustag gemeinsam aller drei Trierer Gründerbischöfe.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Maternus"
+          }
+        }
+      },
+      "17": {
+        "d1": {
+          "Lesehore": {
+            "patr_werk": "Aus einem Brief an Erzbischof Arnold von Trier.",
+            "patr_text": "^hDu bist der von Gott gesetzte Baum^pPaulus sagt: »Alle Gewalt ist von Gott.«{1#vgl. Röm 13,1} Da nach dem höchsten Meister alle Gewalt ihren Namen durch die Anrufung Seines Namens besitzt, darum zieht aus ihr der Baum die Lebenskraft Seines ehrenvollen Namens. Was ohne Gott ist und Böses wirkt, halte fern von dir, damit du nicht in die Krankheit des Hochmutes gerätst und mit dem ersten Engel, dem Satan, zu Fall kommst, der in Auflehnung gegen Gott dessen Ehre wie ein Dieb rauben wollte.{2#vgl. Jes 14,12 ff.} Viele möchten sie rauben, unbekümmert darum, auf was für eine Weise auch immer sie es erreichen. Das ist vor Gott ein Nichts, denn »ohne Ihn ist nichts gemacht«{3#vgl. Joh 1,3}, und so vernichtet Gott alles, was Ihn nicht berührt.^pSei also darum besorgt, durch die Gebote Gottes, die sich wie Blätter vervielfältigt haben, dem Volke Gottes, so sehr du es mit Seiner Gnade vermagst, Zeugnis zu geben. Denn viele Nöte deines Amtes, zum Beispiel Armut, legen dir Beschränkung auf. Reichtum und Geldfülle lieben das Himmlische nicht, deshalb entzieht Gott dem Menschen den Eigenwillen, damit er nach dem himmlischen Vaterland seufze. Darum ziemt es sich, dass der Arme den Armen liebt und der Reiche den Reichen prüft. Denn dem Armen gibt die Weisheit den Ring, dem Reichen verweigert sie das Ohrgehänge. Was dein Priesteramt angeht, so diene dir folgendes zur Weisung: »Deine Gerechtigkeit habe ich nicht in meinem Herzen verborgen, deine Wahrhaftigkeit und dein Heil habe ich gepriesen.«{4#vgl. Ps 39,11} Was heißt das? Die Gerechtigkeit Gottes verbirgt sich nicht, sondern sie weitet ihre Wege und scheut sich nicht, sie zu laufen. Auch verbirgt sie nicht die Wunden, indem sie das Böse vor das Gute schiebt wie die Ungerechtigkeit, die behauptet, es gebe zwar Leben (Himmel) und Hölle, aber für beides müsse man laufen. Mit solchem Trug plagt sich die Gerechtigkeit nicht ab, noch umarmt sie die Ungerechtigkeit mit allerlei Gerede, sondern sie tritt sie mit ihren Füßen nieder. Auch die Wahrheit lobt die Werke, die ohne Gott vollbracht werden, nicht, sondern rüstet sich wie ein tapferer Streiter zum Kampf, um sie zu widerlegenSchild sei dir die Gerechtigkeit Gottes, als Panzer lege an Seine Wahrhaftigkeit.{5#vgl. Eph 6,14–15} Dann wirst du wohlgerüstet vor Gottes Angesicht stehen und nicht als Fahnenflüchtiger in der Kameradschaft der Eitelkeit. Lerne dich zu nähren an der Brust der Gerechtigkeit. Lerne auch, die Wunden der Sünder richterlich und doch barmherzig zu heilen, wie der höchste Arzt euch das Beispiel des Heilens hinterließ zur Rettung des Volkes.{6#vgl. Spr 31,8 (Vg.)}^pDu stehst ja durch die Ausrüstung mit Seinem Namen in der Kraftfülle des seligen Mannes, der nicht auf den gottlosen Teufel hinstrebt und deshalb gottlos genannt wird, weil er das Gute nicht geliebt hat. Hüte dich, wegen der Schätze des Geldes dich zu rühmen. Dies endet in Trug, da das Geld ebenso gut nach einem Jahr wie nach dreißig Jahren verlorengehen kann. Juble vielmehr auf dem Berge Sion, wo der immerwährende Beistand des Allerhöchsten in Ewigkeit ist und »jedweder Geist den Herrn preist.«{7#vgl. Ps 150,6}"
+          },
+          "Laudes": {
+            "referenz": "AAA-9-17-n1",
+            "button": "Hl. Hildegard von Bingen",
+            "antev": "O würdevolle Braut Christi! Als Licht der Weissagung leuchtete sie, apostolischer Eifer entflammte sie, die Krone der Jungfrauen schmückte sie, das Feuer der göttlichen Liebe verzehrte sie."
+          },
+          "Vesper": {
+            "antev": "Die Prophetin Hildegard, erleuchtet vom Heiligen Geist, wies uns die Wege des Herrn."
+          }
+        }
+      },
+      "23": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, du hast deinem Volk die Heiligen Basin und Liutwin zum Bischof gegeben und in ihrem Leben deine Güte sichtbar gemacht. Sieh auf ihr heiliges Leben und schenke uns deine väterliche Liebe. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Liutwin.",
+            "patr_text": "^hLiutwin – Stifter der Abtei Mettlach^pDie ältesten Zeugnisse stimmen darin überein, dass Liutwin, der Stifter des ehemaligen Klosters Mettlach, aus einer der einflussreichsten Familien des fränkischen Adels stammte. Seine enge Verbindung zur karolingischen Reichsaristokratie dürfte entscheidend gewesen sein, dass er Bischof von Trier wurde.^pZunächst hatte Liutwin sicher kein kirchliches Amt im Auge. Er war standesgemäß verheiratet. Die Namen von zwei seiner Söhne sind uns sicher bezeugt: Milo und Wido.^pNach dem Tod seiner Gattin trat Liutwin in den Klerikerstand ein. Sein Onkel Basin, der damals Bischof von Trier war, weihte ihn zu seinem Mitbischof. Unter der am 1. November des Jahres 698 ausgefertigten Urkunde über die Schenkung von Ländereien in und um Echternach an den hl. Willibrord stehen die Namen der Bischöfe Basin und Liutwin. Onkel und Neffe haben eine Reihe von Jahren das Bistum Trier gemeinsam geleitet. Nach dem Tod Bischof Basins am 4. März 705 stand Liutwin allein an der Spitze der Trierischen Kirche. Das genaue Todesjahr Liutwins ist unbekannt, dürfte aber um 717 liegen. Als Todestag gibt die Überlieferung den 29. September an.^pDas für die Zukunft bedeutendste Werk Liutwins war die Gründung des Klosters Mettlach um 690. Die mittelalterliche Überlieferung erzählt, Liutwin – obwohl zu höchsten Ehren aufgestiegen – habe an weltlicher Macht, an Reichtum und Königsgunst keinen Gefallen gefunden. Sein Vermögen habe er freigebig kirchlichen Einrichtungen zugewendet. Der schon lange gehegte Wunsch, ein Kloster zu gründen und mit Familiengütern auszustatten, ging in Erfüllung, nachdem – so erzählt die Gründungslegende Mettlachs – der Himmel selbst dem Stifter den Ort für die zukünftige Klosteranlage gezeigt hatte.^pAls die Diözesen Reims und Laon ohne Bischof waren, soll Liutwin auch deren Leitung übernommen haben. Liutwin starb in Reims. Doch er fand in seiner Gründung Mettlach sein Grab. Die legendäre Überlieferung lässt den Heiligen selbst Mettlach als Begräbnisstätte bestimmen. Nach manchen Schwierigkeiten, so berichtet sie, gelang es Milo, Liutwins Sohn und Nachfolger im Bischofsamt von Reims und Trier, den ursprünglich in Reims beigesetzten Leichnam seines Vaters freizubekommen, um ihn in Trier zu bestatten. Die Trierer brachten die Überreste ihres früheren Bischofs in ihre Stadt. Doch wie sie sich auch anstrengten, sie vermochten Liutwin in Trier nicht unter die Erde zu bekommen. Schließlich stellte man die Lade auf ein Schiff, das, wie von unsichtbarer Hand gelenkt, moselaufwärts fuhr, bei Konz in die Saarmündung einbog und sich unter Begleitung des am Ufer mitziehenden Volkes flussaufwärts bewegte, bis es Mettlach erreicht hatte. Als sich das Schiff dem Kloster näherte, fingen alle Kirchenglocken von selbst an zu läuten. Die Mönche geleiteten den toten Leib des Stifters zur Begräbnisstätte in der Abtei. Dort wurde Liutwins Grab bald zu einer von vielen Hilfsbedürftigen aufgesuchten Wallfahrtsstätte. Ein sehr frühes Zeugnis für die Verehrung Liutwins besitzen wir in einer trierischen Sonderform der Allerheiligenlitanei aus der Zeit um die erste Jahrtausendwende: O Liutwin, des höchsten Gottes ehrwürdiger Priester, sei uns, deinen Dienern, jetzt nahe mit deiner Hilfe. An dieser Stätte erklingen dir stets einträchtige Gesänge, hier wird dein heilger Leib unablässig geehrt.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Basin und Hl. Liutwin"
+          }
+        }
+      },
+      "30": {
+        "oblig": {
+          "Lesehore": {
+            "patr_werk": "Aus einem Brief an seinen Freund Rufinus über seinen Landsmann und Trierer Studiengenossen Bonosus.",
+            "patr_text": "^hFreunde der Einsamkeit kraft eines in Trier gefassten Entschlusses^pDein oder besser mein und noch wichtiger unser Bonosus sät in Tränen, um in Frieden zu ernten. Ein junger Mann, der mit uns in all den Künsten, die in der Welt etwas gelten, unterrichtet worden war, außergewöhnlich reich, geachtet von seinen Altersgenossen, zieht weg von seiner Mutter, seinen Schwestern und dem sehr geliebten Bruder. Er lässt sich auf einer vom Meer umbrandeten, von den Seeleuten gefürchteten Insel nieder, auf der rauhes Gestein, kahle Felsen und Einsamkeit jedem eher Schrecken einjagen. Er kam sich dort vor wie ein Neuansiedler im Paradies. Kein Bauer, kein Mönch hat es in dieser Einöde als Begleiter an seiner Seite ausgehalten. Allein und auch wieder nicht allein, da ja Christus bei ihm ist, schaut er die Herrlichkeit Gottes, die auch die Apostel nur an einem einsamen Orte zu schauen bekamen. Zinnengekrönte Städte erblickt er nicht. Dafür trug er seinen Namen in die Bürgerliste einer neuen Stadt ein. Er genießt nicht die Anmut lieblicher Quellen, stattdessen trinkt er aus der Seite des Herrn vom Wasser des Lebens. Unbeirrt und furchtlos, einzig mit den Waffen ausgerüstet, von denen beim Apostel Paulus die Rede ist, lebt er auf seiner Insel. Bald hört er auf Gott, indem er meditiert, was in den göttlichen Schriften steht. Bald spricht er mit diesem Gott und fleht ihn an als seinen Herrn. Zwar wird der Satan feurige Pfeile gegen den Diener Gottes losschnellen, doch wird unser Freund sie mit dem Schilde des Glaubens auffangen. Kurzum: Der Satan wird ihn angreifen, aber Christus wird sein Schutz sein.^pDank sei Dir, Herr Jesus, dass ich am Gerichtstag jemanden habe, der für mich bei Dir eintreten kann. Du, dem jedes Herz offensteht, der Du die Geheimnisse in der Tiefe des Menschen erforschst, dessen Auge noch auf dem Propheten ruhte, der tief im Bauch des großen Fisches eingeschlossen war. Du weißt, wie Bonosus und ich vom zarten Kindesalter an bis zur Blüte der Jünglingsjahre gemeinsam herangewachsen sind, wie wir an der Brust der gleichen Ammen genährt und von den gleichen Wärtern auf den Armen getragen wurden. Du weißt, wie wir nach Beendigung unseres Studiums in Rom im noch halb barbarischen rheinischen Grenzland{1#In einem anderen Brief sagt Hieronymus ausdrücklich, dass diese seine zweite Studienstadt am Rand des Imperiums Trier war} Tisch und Wohnung teilten, und wie ich als erster den Entschluss zu Deinem Dienste fasste. Ich bitte Dich, o Herr, vergiss nicht, dass dieser Dein Kämpfer Bonosus einst mit mir zusammen als Rekrut gedient hat."
+          },
+          "Laudes": {
+            "referenz": "AAA-9-30-oblig",
+            "button": "Hl. Hieronymus"
+          }
+        }
+      }
+    },
+    "10": {
+      "1": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger und barmherziger Gott, durch die Predigt des heiligen Remigius hast du im Volk der Franken den Glauben ausgebreitet und es zur Würde der Christen berufen. Gib, dass wir diesen Glauben, den wir mit dem Mund bekennen, auch sichtbar machen durch die Tat. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Gregor von Tours († 594)",
+            "patr_werk": "Aus der Historia Francorum.",
+            "patr_text": "^hBeuge demütig dein Haupt, verbrenne, was du angebetet hast^pDer König erzählte der Königin Chlothilde, wie er auf Anrufung des Namens Christi den Sieg über die Alemannen davongetragen hatte. Daraufhin ließ die Königin insgeheim den heiligen Remigius, den Bischof der Stadt Reims, kommen und bat ihn, er möge dem König die Botschaft vom Heil auslegen. Der Bischof ließ seinerseits insgeheim den König kommen und begann darzulegen, dass er an den wahren Gott, den Schöpfer des Himmels und der Erde, glauben und die Götzen, die weder ihm noch anderen nützen könnten, aufgeben müsse. Aber der König antwortete: »Ich habe dir mit Freuden zugehört, heiliger Vater, aber es bleibt eine Schwierigkeit: Das Volk, das ich unter mir habe, will nicht von seinen Götzen lassen. Aber ich werde es gemäß deinem Wort unterrichten.«^pDer König begab sich also zu seinen Leuten, aber noch ehe er das Wort ergriffen hatte, stellte sich heraus, dass Gottes Allmacht ihm zuvorgekommen war; denn das ganze Volk rief wie aus einem Munde: »Die sterblichen Götter verwerfen wir, o König, und wir sind bereit, dem unsterblichen Gott zu folgen, den Remigius predigt.«^pDiese Nachricht brachte man dem Bischof, der in großer Freude das Taufbad bereiten ließ: Taufstätten unter farbigen Zelten, Kirchen mit weißen Vorhängen geziert, in denen man das Baptisterium gerichtet und die man mit kostbaren Düften erfüllt hatte; wohlriechende Kerzen leuchteten. Das ganze Taufgotteshaus strömte über von himmlischem Duft, und Gott erfüllte die Teilnehmer des Taufgottesdienstes mit solcher Gnade, dass sie sich vorkamen, als seien sie mitten in die Düfte des Paradieses versetzt.^pDer König begehrte als erster vom Bischof getauft zu werden. Wie ein neuer Konstantin tritt er zum Taufbecken, um von der Krankheit des alten Aussatzes geheilt zu werden und mit frischem Wasser die schmutzigen Flecken von einst abzuwaschen. Als er die Tauf-Piscina betreten hatte, rief ihm der Heilige Gottes mit beredter Stimme zu: »Beuge demütig dein Haupt, Sigambrer, bete an, was du verbrannt, verbrenne, was du angebetet hast!«^pDer heilige Remigius war ein Bischof mit bemerkenswertem Wissen, der vor allem ganz geprägt war vom Studium der Rhetorik, aber er hatte sich auch so in der Heiligkeit ausgezeichnet, dass er es an Wundertaten dem heiligen Silvester gleichtat. So wurde also der König, nachdem er den allmächtigen Gott in seiner Dreifaltigkeit bekannt hatte, im Namen des Vaters und des Sohnes und des Heiligen Geistes getauft und mit dem heiligen Chrisam im Zeichen des Kreuzes Christi gesalbt. Mehr als 3000 Männer aus seinem Heer wurden gleicherweise getauft.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Remigius"
+          }
+        }
+      },
+      "3": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Herr, unser Gott, du hast im heiligen Niketius der Kirche von Trier einen Bischof geschenkt, der mannhaft eintrat für Wahrheit und Recht. Gib auch uns die Kraft, jedem Unrecht zu wehren und dir mit aufrichtigem Herzen zu dienen. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Gregor von Tours († 594)",
+            "patr_werk": "Aus dem Buch »Über das Leben der Väter«.",
+            "patr_text": "^hGern sterbe ich für die Gerechtigkeit^pAls der Bischof der Stadt Trier gestorben war, befahl König Theoderich (Theuderich), Niketius als Nachfolger einzusetzen. Mit Zustimmung des Volkes und auf Grund königlichen Dekretes sollte Niketius daraufhin von Männern, die beim König in höchsten Ehren standen, zur Bischofsweihe eingeholt werden. Als die Beauftragten des Königs in der Nähe der Stadt, in der Niketius als Abt eines Klosters lebte, bei Sonnenuntergang ihre Zelte aufgeschlagen und sich eine Bleibe für die Nacht hergerichtet hatten, jagten sie die ausgeschirrten Pferde ohne große Umschweife in die Saatfelder der armen Leute.^pSobald der selige Niketius davon erfuhr, sagte er von Mitleid bewegt: »Treibt so schnell ihr könnt eure Pferde aus der Saat, sonst schließe ich euch von der Kirchengemeinschaft mit mir aus.« Jene antworteten verstimmt: »Was ist denn das für eine Rede, die du da führst? Noch hast du nicht den Bischofsstuhl bestiegen, und schon drohst du uns mit der Exkommunikation!« »So wahr ich lebe, sage ich euch«, gab Niketius ihnen zur Antwort, »der König hat zwar bestimmt, mich aus dem Kloster zu nehmen und auf seine Anordnung hin für die Bürde des Bischofsdienstes zu weihen. Es geschehe der Wille Gottes! Aber der Wille des Königs wird, soweit ich es verhindern kann, in schlechten Dingen nicht geschehen.« Dann lief er selbst hin und jagte die Pferde aus der Saat. So wurde er von jenen Männern voller Respekt zur Stadt Trier geführt.^pNiketius beugte sich nicht vor der Person eines Mächtigen, sondern er fürchtete allein Gott, der ins Herz schaut und die Tat eines jeden kennt. Nachdem er seinen bischöflichen Dienst angetreten hatte, zeigte er sich gegenüber allen, die Gottes Gebote nicht achteten, als drohender Mahner.^pFolgende Begebenheit trug sich an einem Sonntag zu: König Theudobert betrat mit seinen Gefolgsleuten die Kirche, obwohl Niketius einem Teil von ihnen auferlegt hatte, sich von der Eucharistiefeier fernzuhalten. Nachdem die Lesungen aus der Heiligen Schrift vorgetragen waren, wie es die althergebrachte Ordnung verlangte, und nachdem man die Opfergaben auf dem Altar bereitgestellt hatte, sagte Bischof Niketius: »Hier wird heute die Messe solange nicht weiter gefeiert, bis nicht die Exkommunizierten die Kirche verlassen haben.« Der König gab schließlich Anweisung, dass alle aus seinem Gefolge, die vom Bischof exkommuniziert worden waren, die Kirche verlassen sollten.^pBischof Niketius predigte regelmäßig vor dem Volk, nannte deutlich die Verfehlungen der einzelnen und betete beständig um Vergebung für diejenigen, die ihre Schuld bekannten. Von daher war er oft Hassausbrüchen ausgesetzt, wenn er die bösen Taten vieler wahrheitsgemäß aufdeckte. Sein Wahlspruch lautete: »Gern sterbe ich für die Gerechtigkeit!« Ferner übte sich Niketius in strengem Fasten. Oft, wenn die anderen beim Essen saßen, pilgerte er, einen Umhang über den Kopf geschlagen, um in der Öffentlichkeit nicht erkannt zu werden, in Begleitung eines Knaben zu den einzelnen Basiliken der Heiligen.^pAls er den Tag seines Hinübergangs herannahen fühlte, sagte er zu seinen Mitbrüdern: »Ich habe den heiligen Apostel Petrus und Johannes den Täufer gesehen, die mich zur ewigen Ruhe einladen.« Wenige Tage später gab er sein Leben in die Hände des Herrn zurück. Er wurde in der Basilika des heiligen Maximin begraben.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Niketius"
+          }
+        }
+      },
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Herr, unser Gott, wir freuen uns über die ruhmreiche Schar deiner Blutzeugen, die durch ihr Martyrium wahrhaft Brüder geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Franz Rudolf Bornewasser († 1951)",
+            "patr_werk": "Aus einer Predigt anlässlich der 1650jährigen Gedenkfeier der trierischen Märtyrer (1936).",
+            "patr_text": "^h»Die Gabe Gottes ist das ewige Leben in Christus Jesus, unserem Herrn.«^pVor dem Grabe der beiden jugendlichen Märtyrer Stephanus und Laurentius für meine Trierer Jugend betend, erlebte ich eine einfache, liebliche und doch eindrucksvolle Szene. Eine römische Mutter kam mit ihrem kleinen Knaben. Nach kurzem Gebet stieg sie mit diesem zu dem wenige Stufen tiefer stehenden Marmorsarg, küsste selbst in tiefer Ehrfurcht den Sarkophag, hob dann den Kleinen hoch, damit er dasselbe tue. Dann nahm sie ihn in ihre Arme, zeigte auf den Sarg der beiden Märtyrer und sagte in warmem, mütterlichem Tone: Werde wie sie!^pDas ist der tiefste Sinn der Märtyrerverehrung: Zu werden wie sie – auch im Martyrium, das ist eine Gnade Gottes, deren Geschenk allein von ihm abhängt. Aber unser aller Lebensaufgabe ist es, in dem zu werden wie sie, von dem Paulus sagt: »Das ist Gottes Gnadengeschenk: das Leben in Christus Jesus unserm Herrn.«{1#vgl. Röm 6, 23} Darin waren die Märtyrer Meister, und darin wollen wir ihre Schüler sein. Über unserm ganzen Leben muss als tiefernstes Leitmotiv das Wort aus dem Römerbrief stehen: »Wir werden einst alle vor dem Richterstuhle Gottes erscheinen. Denn es steht geschrieben: So wahr ich lebe, spricht der Herr, vor mir soll jedes Knie sich beugen und jede Zunge soll Gott preisen. Also wird ein jeder von uns Gott einst Rechenschaft ablegen.«{2#vgl. Röm 14, 10–12} Wer von diesem Worte sich leiten lässt in seinem Denken und Reden und Handeln, der darf das Wort aus dem Korintherbrief desselben Apostels für sich in Anspruch nehmen: »Jesus Christus wird euch Ausdauer bis ans Ende verleihen, auf dass ihr ohne Schuld dasteht am Tage, da unser Herr Jesus Christus wiederkommt.«{3#vgl. 1 Kor 1, 8}^pFreilich, wer so leben will, wer ein Leben in der Wahrheit, Gnade und Liebe führt, wer ein ernster, tiefrommer Christ sein will, der muss sich für dieses Erdenleben des Wortes Christi bewusst sein: »Der Schüler ist nicht über dem Meister.«{4#vgl. Mt 10, 24} Das heißt: Er muss darauf gefasst sein, dass er vielleicht verspottet, missachtet, verleumdet, gehasst wird, dass er um seines Glaubens und Lebens willen Not und Leid ertragen, ja dass er um Christi willen auch Schmach erleiden muss. Aber was tut's? Nach der Schmach des Kreuzes kommt die Herrlichkeit der Auferstehung, nach dem Dunkel des Karfreitags dieses Lebens die Ostersonne der Ewigkeit.^pDie Märtyrer Triers haben ihre Rechenschaft abgelegt. Sie haben bestanden vor ihrem ewigen Richter und stehen als Heilige am Throne Gottes. Warum? Weil sie lebten in Christus Jesus, für den sie den Martertod starben. Weil sie Gottes Gnadengeschenk verstanden: Zu leben in der Wahrheit, zu leben in der Gnade, zu leben in der Liebe, die sie mit ihrem Tode krönten.",
+            "patr_resp1": "Wir werden alle vor dem Richterstuhl Gottes stehen.",
+            "patr_resp2": "So wahr ich lebe, spricht der Herr, vor mir wird jedes Knie sich beugen, und jede Zunge wird Gott preisen.",
+            "patr_resp3": "Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden."
+          },
+          "Laudes": {
+            "button": "Gedenktag der Trierer Märtyrer",
+            "farbe": "r"
+          }
+        }
+      },
+      "13": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "oration": "Ewiger Gott, durch die Predigt des heiligen Lubentius hast du viele Menschen aus der Finsternis in das Licht der Wahrheit gerufen. Lass uns auf seine Fürsprache im Glauben treu bleiben und die Hoffnung bewahren, die uns das Evangelium gibt. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus einer Lebensbeschreibung des heiligen Lubentius.",
+            "patr_text": "^hVernachlässige die Gnade nicht, die dir durch Handauflegung verliehen wurde (vgl. 1 Tim 4,14)^pDer Priester Lubentius ist ein Heiliger aus der Frühzeit der Trierischen Kirche. Er soll mit einigen jungen Männern aus seiner Heimat Aquitanien im Südwesten des heutigen Frankreich nach Trier gekommen sein. Es war zur Zeit des Bischofs Agritius, der im Jahre 314 an der Synode von Arles teilnahm. Der Ruf dieses Bischofs in der aufstrebenden Römerstadt Trier hatte diese Aquitanier an die Mosel geführt. In der Schule von Bischof Agritius entschieden sie sich dauerhaft für den kirchlichen Dienst.^pZu diesem Kreis auswärtiger Kleriker aus Aquitanien zählt die Trierer Überlieferung außer Bischof Maximin auch die Priester Kastor, Lubentius und Quiriakus. Sie sieht die beiden zuerst Genannten als Seelsorger der schon teilweise christlich gewordenen Bevölkerung an der Untermosel; der Priester Kastor wirkte in Karden und Lubentius in Kobern. Es ist nicht unwahrscheinlich, dass es um die Mitte des 4. Jahrhunderts in diesen Moselorten schon kleine Christengemeinden gab. Das Moseltal war früh und am stärksten von der römischen Kultur geprägt. Unter den dort ansässigen Gallo-Romanen wird es auch bereits eine ansehnliche Zahl von Christen gegeben haben. Die Existenz einer spätrömischen Christengemeinde belegen in Karden und Kobern die dortigen Grabfunde.^pDer hl. Lubentius genoss das Vertrauen des Nachfolgers von Bischof Maximin, des Bekenner- und Märtyrerbischofs Paulinus († 358). Es wird berichtet, dass Paulinus, nachdem sein Vorgänger in der aquitanischen Heimat gestorben war, den Priester Lubentius an der Spitze einer Trierer Delegation dorthin geschickt habe, um den toten Bischof in seine Bischofsstadt zu überführen. Da die Aquitanier den Leib des hl. Maximin aber nicht hergeben wollten, gelang es Lubentius durch List und göttliche Hilfe der sterblichen Überreste des Bischofs habhaft zu werden. Die Rückführung gelang. Die Wirksamkeit von Lubentius an der Untermosel dürfte wohl erst unter Bischof Paulinus um die Mitte des 4. Jahrhunderts begonnen haben.^pEs ist gut denkbar, dass der Priester Lubentius von seinem christlichen Stützpunkt in Kobern aus gelegentlich Vorstöße bis zum Rhein und in das untere Lahntal unternommen hat. Bei solchen Erkundungsreisen in heidnische Gegenden wird Lubentius gewiss auch versucht haben, Menschen für das Evangelium zu gewinnen. Die Überlieferung lässt ihn das Lahntal hinauf bis Dietkirchen (bei Limburg) vordringen und dort um 350 den Heiden die Botschaft Christi verkündigen. Lubentius starb in Kobern und wurde dort begraben. In Dietkirchen wurde nachweislich im 8. Jahrhundert auf steilem Felsen über der Lahn eine kleine Kirche errichtet. Dorthin wurden in der 2. Hälfte des 8. Jahrhunderts, spätestens aber durch den Trierer Erzbischof Hetti (814–847), die Gebeine des hl. Lubentius aus Kobern überführt.^pAn der dortigen Kirche gab es nachweislich schon 841 eine Gemeinschaft von Priestern. Der jeweilige Propst des Kanonikerstifts Dietkirchen St. Lubentius war seit der Jahrtausendwende Archidiakon für den rechtsrheinischen Teil des Erzbistums Trier. Der Sarkophag, in dem die Gebeine des hl. Lubentius ruhen, stammt aus der Zeit der Translation. Da im hohen Mittelalter das fromme Verlangen der Gläubigen zunahm, die Reliquien der verehrten Heiligen zu sehen, hat man im 13. Jahrhundert dem Sarkophag das Haupt und einige Gebeinepartikel entnommen. Das damals angefertigte, noch vorhandene Kopfreliquiar entstand um 1270, wahrscheinlich in Mainz, als der 1289 zum Erzbischof von Mainz erhobene Gerhard von Eppstein Propst von Dietkirchen St. Lubentius war. Es wurde 1477 zu einem Büstenreliquiar erweitert.^pSterbejahr und Sterbetag des Heiligen sind unbekannt. Als Todestag wird der 6. Februar angenommen. Der 13. Oktober, an dem das Gedächtnis des hl. Lubentius liturgisch begangen wird, soll der Tag der Übertragung seiner Reliquien sein. Unbestritten ist die ursprüngliche Beisetzung in Kobern an der Untermosel. Eine von mehreren Heiligen erzählte Legende wird auch von Lubentius berichtet: Als sich die Gläubigen aus unterschiedlichen Orten nicht einigen konnten, wo der Leichnam seine endgültige Ruhestätte erhalten sollte, hätten sie den Sarg in Kobern auf ein Moselschiff gesetzt. Das Schiff sei daraufhin von selbst die Mosel abwärts gefahren, in Koblenz den Rhein hinauf bis zur Mündung der Lahn, dann über die untere Lahn bis Dietkirchen, wo es am Felsen, auf dem die Lubentius-Kirche heute steht, angelegt habe. Seit Erzbischof Balduin von Luxemburg dem Heiligen am 13. Oktober im Trierer Domordinarius von 1345 einen Platz gegeben hat, steht sein Gedenktag im Bistumskalender.",
+            "patr_resp1": "Geht hinaus in die ganze Welt und verkündet das Evangelium allen Geschöpfen!",
+            "patr_resp2": "Wer glaubt und sich taufen lässt, wird gerettet.",
+            "patr_resp3": "Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen."
+          },
+          "Laudes": {
+            "button": "Hl. Lubentius"
+          }
+        }
+      },
+      "20": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-10-20-n1",
+            "button": "Hl. Wendelin"
+          }
+        }
+      },
+      "31": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-10-31-n1",
+            "button": "Hl. Wolfgang"
+          }
+        }
+      }
+    },
+    "11": {
+      "6": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau",
+            "comm_2": "Frau_Ord",
+            "oration": "Herr, unser Gott, du hast die heilige Modesta berufen, nach der vollkommenen Liebe zustreben und schon in dieser Welt dein Reich zu suchen. Gib uns auf ihre Fürsprache die Freude des Geistes und die Kraft, auf dem Weg der Liebe voranzuschreiten. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "LEER",
+            "patr_werk": "Aus den in Nivelles niedergeschriebenen »Virtutes sanctae Gertrudis« (Ende 7. Jahrhundert).",
+            "patr_text": "^hGeistliche Freundschaft zweier Klosterfrauen^pIn einem Trierer Kloster lebte eine Äbtissin namens Modesta. Sie war genauso wie die heilige Gertrud von ihrer Kindheit an Gott geweiht. Beide waren durch das Band der Freundschaft in Gott innig miteinander verbunden, obwohl sie leiblich weit voneinander entfernt lebten und räumlich getrennt waren. Wenn es ihnen infolgedessen auch nicht vergönnt war, mit leiblichen Augen einander zu sehen, so waren sie doch im Geist und in der Liebe des Herzens einander immer nahe. Sie hatten nämlich denselben Dienst im geistlichen Leben angenommen und dienten gleichermaßen dem Herrn mit aufrichtigem Sinn und ohne Trug.^pEines Tages war die Dienerin Gottes Modesta in ihrem Kloster in die Kirche gegangen, um zu beten. Sie kniete vor dem Altar der seligen und immerwährenden Jungfrau Maria nieder zum Gebet. Als sie nach dem Gebet aufstand, hatte sie ein Gesicht. Sie sah auf der rechten Seite neben dem Altar die heilige Gertrud stehen, in ihrer natürlichen Gestalt und ihrem natürlichen Aussehen. Gertrud sagte zu ihr: »Schwester Modesta, halte diese Vision nicht für ein Trugbild, zweifle nicht, sondern wisse, dass ich heute, zu eben dieser Stunde die Herberge meines Leibes verlassen habe. Ich bin Gertrud, die du so sehr geliebt hast.«^pAm andern Tag kam Bischof Chlodulf von Metz{1#Chlodulf, Sohn Arnulfs von Metz, war seit 654/655 Bischof von Metz} als Gast in das Kloster der Dienerin Gottes Modesta. Da fragte die gottgeweihte Jungfrau den Bischof im Verlauf des Gesprächs nach der heiligen Gertrud, wie sie aussehe, wie ihre Art und von welcher Gestalt sie sei. Chlodulf beschrieb sogleich ganz genau ihr Aussehen und ihr anmutiges Wesen. Auf Grund der Schilderung, die sie von Bischof Chlodulf vernahm, erkannte die selige Modesta, dass es zutraf, was sie geschaut hatte. Sie sagte dem Bischof: »Ich will dir gestehen, was ich vorhin noch verheimlicht habe. Gestern um die Mittagszeit ist mir offenbart worden, dass Gertrud am gleichen Tag und zur gleichen Stunde aus dieser Welt hinübergegangen ist.« Bischof Chlodulf, der sich Tag und Stunde notiert hatte{2#17. 3. 659}, fand in der Tat später bestätigt, dass es sich so zugetragen hatte, wie es ihm die Äbtissin Modesta vorher erzählt hatte.",
+            "patr_resp1": "Die Zeit ist kurz. Daher soll, wer sich freut, so sein, als freue er sich nicht, wer sich die Welt zunutze macht, als nutze er sie nicht.",
+            "patr_resp2": "Denn die Gestalt dieser Welt vergeht.",
+            "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
+          },
+          "Laudes": {
+            "button": "Hl. Modesta"
+          }
+        }
+      },
+      "7": {
+        "d1": {
+          "Laudes": {
+            "referenz": "AAA-11-7-n1",
+            "button": "Hl. Willibrord"
+          },
+          "Lesehore": {
+            "patr_autor": "Beda Venerabilis († 735)",
+            "patr_werk": "Aus der Kirchengeschichte des englischen Volkes.",
+            "patr_text": "^hWillibrord predigte weit und breit bei den Friesen das Glaubenswort^pAls der Mönch und Bischof Egbert aus dem irischen Kloster Rathmelsigi sah, dass es ihm nicht vergönnt war, zur Mission bei den Germanenstämmen aufzubrechen, da er wegen eines anderen Dienstes für die Kirche in Anspruch genommen war, versuchte er, fromme und eifrige Männer für den Dienst am Wort Gottes auszusenden. Unter ihnen ragte der würde- und verdienstvolle Priester Willibrord hervor.^pBevor diese Männer – es waren ihrer zwölf – in ihr Missionsgebiet kamen, machten sie einen Umweg zu Pippin, dem Hausmeier der Franken. Dieser nahm sie bereitwillig auf. Da Pippin kurz zuvor Westfriesland erobert hatte, schickte er die zwölf Männer zur Missionierung in dieses Gebiet. Er selbst unterstützte sie mit der Autorität des Herrschers, damit niemand den Missionaren ein Leid zufügen könne. Er versprach denen, die den Glauben annehmen wollten, viele Vergünstigungen. Mit Hilfe der göttlichen Gnade konnten die Missionare in kurzer Zeit viele vom Götzendienst zum Glauben an Christus bekehren.^pWillibrord beeilte sich schon in der ersten Zeit nach der Ankunft in Friesland, die Verkündigung des Evangeliums dadurch sicherzustellen, dass er Papst Sergius in Rom aufsuchte, um mit dessen Erlaubnis und Segen das geplante Missionswerk bei den Stämmen der Friesen zu beginnen. Zugleich hoffte er, Reliquien der seligen Apostel und Märtyrer Christi vom Papst zu erhalten. Wenn er einem Stamm gepredigt und seine Götzenbilder zerstört hatte, sollten die Reliquien der Heiligen dazu dienen, neuerrichtete Kirchen auf ihren Namen zu weihen. Als Willibrord alle Wünsche für die Vorbereitung seines großes Werkes erfüllt sah, kehrte er in die Mission zurück.^pNachdem die Missionare jahrelang in Friesland gepredigt hatten, schickte Pippin Willibrord mit Zustimmung seiner Gefährten nach Rom. Papst Sergius sollte ihn zum Erzbischof des Stammes der Friesen weihen. Dies geschah, wie Pippin gewünscht, im Jahre 696 nach der Geburt des Herrn. Willibrord wurde in der Kirche der heiligen Märtyrerin Cäcilia an deren Todestag geweiht. Papst Sergius gab ihm den Namen Clemens und sandte ihn schon nach vierzehn Tagen nach Friesland zurück. Pippin wies Willibrord einen Bischofssitz in einem berühmten, befestigten Ort an, der in der gallischen Sprache Traiectum{1#Das heutige Utrecht} genannt wird.^pAls Willibrord dort eine Kirche gebaut hatte, predigte der Bischof weit und breit das Glaubenswort. Er brachte viele vom Irrglauben ab und errichtete in jenem Land weitere Kirchen und auch einige Klöster. Wenig später setzte er in diesen Gebieten Bischöfe in ihr Amt ein. Er nahm sie aus der Zahl der Brüder, die entweder mit ihm oder nach ihm zur Predigt dorthin ausgesandt worden waren. Mehrere von ihnen ruhen schon im Herrn. Willibrord selbst aber, mit Beinamen Clemens, ist noch am Leben. In ehrwürdigem Alter steht er inzwischen bereits im sechsunddreißigsten Bischofsjahr. Nach vielen Kämpfen im himmlischen Dienst sehnt er sich nun von ganzem Herzen nach der Auszeichnung des himmlischen Lohnes.",
+            "patr_resp1": "Ich diene der Kirche durch das Amt, das Gott mir übertragen hat.",
+            "patr_resp2": "Damit ich euch das Wort Gottes in seiner Fülle verkündige.",
+            "patr_resp3": "Ich stand zwischen dem Herrn und euch, um euch das Wort des Herrn weiterzugeben."
+          }
+        }
+      },
+      "12": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gütiger Gott, du hast den heiligen Bischof Kunibert erwählt, das religiöse Leben von Grund auf zu erneuern und Gemeinschaften tätiger Liebe zu gründen. Erneuere auch uns im Glauben und in der Liebe, und führe uns zusammen mit den Brüdern und Schwestern in dein ewiges Reich. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Albert der Große († 1280)",
+            "patr_werk": "Aus dem Kommentar zum Lukasevangelium.",
+            "patr_text": "^hDer Führende soll dem Dienenden gleich werden^pJesus sagte zu den Jüngern: »Wer unter euch allen der Kleinste ist, der ist groß«{1#Lk 9, 48}, als wollte er sagen: Anstatt über die Größe im Reich Gottes zu streiten, solltet ihr wetteifern, wer von euch der Demütigste ist. Denn wer in der Gesinnung der Demut in seinen Augen der Geringste ist, der ist groß im Reich Gottes, also in der kirchlichen und göttlichen Würde. Demgemäß ist ein von stolzer Überheblichkeit Aufgeblasener, selbst wenn er auf dem Thron Christi säße, ein Niemand im Reich Gottes: »Die Könige herrschen über ihre Völker, und die Mächtigen lassen sich Wohltäter nennen. Bei euch aber soll es nicht so sein, sondern der Größte unter euch soll werden wie der Kleinste, und der Führende soll werden wie der Dienende.«{2#Lk 22, 25–26}^pDenn dies ist der Maßstab Christi zur Erlangung der Gnade, zur Nachahmung Christi, für die Zulassung zu kirchlicher Weihe, zum Gewinn ewiger Ehre, für die Rangordnung der Heiligen. Gnade nämlich empfängt nur der Demütige, und größere Gnaden kann empfangen, wer demütiger ist: »Den Hochmütigen widersteht Gott, den Demütigen erweist er seine Gunst«{3#Spr 3, 34}; jener Frau aber, welche die Demütigste war, hat er die Fülle der Gnaden eingegossen: Der Jungfrau Maria, ähnlich wie die tieferen Schalen auch mehr Wasser aufnehmen. Darum sagt der Philosoph Ptolemäus: »Wer unter den Weisen der Demütigste ist, ist der Weiseste unter den Weisen, wie auch die tieferen Becken das meiste Wasser aufnehmen können.«^pDarin liegt ferner Nachahmung Christi: »Seid untereinander so gesinnt, wie es dem Leben in Christus Jesus entspricht: Er war Gott gleich, hielt aber nicht daran fest, wie Gott zu sein, sondern er entäußerte sich und wurde wie ein Sklave.«{4#Phil 2, 5–6} Das macht auch würdig, zum kirchlichen Amt erhoben zu werden: »Weil du gering von dir gedacht hast, bist du das Haupt der Stämme Israels geworden«{5#vgl. 1 Sam 15, 17}; »ich will tanzen und mich gering machen vor den Augen des Herrn, der mich erwählt hat mehr als das Haus deines Vaters«{6#vgl. 2 Sam 6, 21–22}, des überheblichen Saul. Das erhebt zu ewiger Ehre: »Setz dich auf den untersten Platz; dann wird der Gastgeber zu dir kommen und sagen: Mein Freund, rücke weiter hinauf! Das wird für dich eine Ehre sein vor allen anderen Gästen.«{7#Lk 14, 10} Das ist auch maßgebend für die Rangordnung der Heiligen: »Der Kleinste im Himmelreich ist größer als der, welcher der Größte war unter allen von einer Frau Geborenen.«{8#vgl. Mt 11, 11}",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen: ein treuer Verwalter gewesen, darum will ich dir eine große Aufgabe übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Kunibert"
+          }
+        }
+      }
+    },
+    "12": {
+      "7": {
+        "oblig": {
+          "Laudes": {
+            "referenz": "AAA-12-7-oblig",
+            "button": "Hl. Ambrosius"
+          },
+          "Lesehore": {
+            "patr_autor": "Paulinus († nach 422)",
+            "patr_werk": "Aus der Lebensbeschreibung des Diakons Paulinus über seinen Bischof Ambrosius.",
+            "patr_text": "^hEine Erzählung aus der frühesten Kindheit des Heiligen^pAmbrosius wurde geboren, als sein Vater, der den gleichen Namen trug, die Präfektur über die gallischen Provinzen{1#Sitz der Präfektur der gallischen Provinzen war zur Zeit der Geburt des heiligen Ambrosius Trier} innehatte. Eines Tages lag das Kind im Hof des Prätoriums in seiner Wiege und schlief mit offenem Mund. Da bedeckte plötzlich ein Bienenschwarm Gesicht und Mund des Kindes, und die Bienen flogen im Munde ein und aus. Der Vater, der mit der Mutter oder mit der Tochter in der Nähe auf und ab ging, verbot der Amme des Kindes, einer Magd des Hauses, den Bienenschwarm zu verscheuchen. Die Amme war nämlich besorgt, die Bienen könnten dem Kinde schaden. Mit väterlichem Interesse wartete er ab, welches Ende dieses Wunder nehmen würde. Die Bienen flogen aber nach einer Weile fort und erhoben sich in die Luft in solche Höhe, dass sie von Menschenaugen nicht mehr gesehen werden konnten. Der Vater war erschrocken und sprach: »Wenn dieses Kind am Leben bleibt, wird etwas Großes aus ihm werden.« Denn schon damals, in der Kindheit seines noch so jungen Dieners, war der Herr am Werk. Das Wort sollte sich nämlich an ihm erfüllen: »Freundliche Worte sind wie Wabenhonig.«{2#Spr 16,24} Der Bienenschwarm zeigte im Voraus die Honigwaben der Schriften an, in denen Ambrosius die himmlischen Gaben verkünden und die Herzen der Menschen von den irdischen Dingen zum Himmel lenken sollte.",
+            "patr_resp1": "Weise zurecht, tadle, ermahne in unermüdlicher und geduldiger Belehrung;",
+            "patr_resp2": "verkünde das Wort, tritt dafür ein zu gelegener und ungelegener Zeit.",
+            "patr_resp3": "Rühmen möge sich, wer dir gleichkommt, der du Könige zur Buße rufst."
+          }
+        }
+      },
+      "10": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, du hast den heiligen Petrus Fourier dazu berufen, die Kirche seiner Heimat zu erneuern und den Eifer vieler wieder zu wecken. Lass uns auf seine Fürsprache stets lebendige Glieder deines Volkes sein und nicht müde werden, Gutes zu tun. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Matthias Eberhard († 1876)",
+            "patr_werk": "Aus einer Predigt am Gedenktag des heiligen Petrus Fourier.",
+            "patr_text": "^hDie Huld des Herrn ist nicht erschöpft^pFourier wollte keine Auswahl der Kinder, dass etwa nur die durch Talent oder durch die Stellung der Eltern bevorzugten Kinder Unterricht und Erziehung erhalten sollten, nein, wie die Sonne am Himmel über Reiche und Arme scheint und allen Licht gibt, so sollte keine Seele vom Unterricht ausgeschlossen sein. Fourier schloss den Gedanken nicht aus, dass von den Priestern seines von ihm erneuerten Ordens auch die männliche Jugend unterrichtet und erzogen werden solle. Aber das eigentliche Gewicht seiner Sendung beruht in der Stiftung der Schulen für die weibliche Jugend. Ihm war es klar, dass die Mutter die Flamme der Gottesfurcht und Gottesliebe entzünden und nähren müsse, dass ohne fromme, gottesfürchtige Mütter an ein besser heranwachsendes Geschlecht nicht zu denken sei.^pEs gehört das Auge des Glaubens dazu, die Schönheit des Ebenbildes Gottes zu erkennen und zu lieben. Es gehört eine große Aufopferung dazu, ohne Lob, ohne Ermunterung, oft ohne sichtbaren Erfolg und in der Tat vielfach ohne allen Erfolg, nicht selten unter Widersprüchen und vielen Widerwärtigkeiten zu unterrichten und zu erziehen. Es ist aber auch eine besondere Gnade Gottes dazu notwendig, um mit dem Werke des Unterrichtes und der Erziehung die Seelen wirklich und erfolgreich in der Wahrheit zu erleuchten und zu heiligen. Fourier gründete seine Stiftung auf Hingebung und Aufopferung. Darum verband er seine geistigen Schützlinge in einer Kongregation und gab dieser die Regel des heiligen Augustinus.^pGott gab dem kleinen Unternehmen eine wunderbare Kraft und Fruchtbarkeit. Fourier sah noch zu seinen Lebzeiten zweiunddreißig Ordenshäuser emporblühen. Nachdem die ersten Häuser den Geburtsort, die Wiege der leiblichen Kindheit, und den Pfarrort, die Stätte des seelsorgerlichen Wirkens, geadelt, sollte Gott unsere Stadt{1#Trier} übersehen haben, die, geistig angeschaut, im Leben Fouriers auf dem Wege von seiner Wiege zum Pfarrort liegt, da er hier die priesterliche Weihe empfing{2#In der in der Porta Nigra eingebauten Simeonskirche in Trier}, das Ziel und die Sehnsucht seiner frommen Kindheit erreichte und mit dieser Weihe geschmückt in die Seelsorge eilte? Bei uns ist die Stätte, wo Gott ihn zu seinem hohen Berufe geweiht hat.",
+            "patr_resp1": "Wir waren euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben;",
+            "patr_resp2": "denn ihr seid uns sehr lieb geworden.",
+            "patr_resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
+          },
+          "Laudes": {
+            "button": "Hl. Petrus Fourier"
+          }
+        }
+      }
+    },
+    "13": {
+      "o-4-6": {
+        "d1": {
+          "major": {
+            "comm_1": "Maria",
+            "oration": "Vater des Erbarmens und Gott allen Trostes, dein Sohn hat am Kreuz die selige Jungfrau Maria, seine Mutter, auch uns zur Mutter gegeben. Höre auf die Fürsprache unserer Schutzpatronin und schenke uns in allen Nöten deinen Trost und deine Hilfe. Darum bitten wir durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Bernhard von Clairvaux († 1153)",
+            "patr_werk": "Aus einer Predigt zum Fest Mariä Aufnahme in den Himmel.",
+            "patr_text": "^hUnsere große Not flüchte sich eilends zu diesem Berg des Erbarmens^pWer sich erinnern könnte, selige Jungfrau, dich in seinen Nöten vergeblich angerufen zu haben, der rede nicht weiter von deiner Barmherzigkeit. Wir, deine Diener, preisen dich glücklich wegen all deiner Tugenden; wegen deiner Barmherzigkeit aber preisen wir uns selbst glücklich. Wir preisen deine Jungfräulichkeit, bewundern deine Demut; deine Barmherzigkeit ist aber dem Unglücklichen süßer, dem Herzen teurer. Sie kommt uns öfter in den Sinn, wir rufen sie häufiger an. Denn sie hat die Erneuerung der ganzen Welt erwirkt, hat allen das Heil gesichert.^pEs steht ja fest: Sorge um das ganze Menschengeschlecht hat dich erfüllt, als du angeredet wurdest: »Fürchte dich nicht, Maria, du hast Gnade gefunden.« Jene Gnade freilich, die du gesucht hast. Wer vermöchte also, du Gesegnete, die Länge und Breite, die Höhe und Tiefe deiner Barmherzigkeit auszuloten? Ihre Länge währt bis ans Ende der Tage und kommt allen zu Hilfe, die sie jemals anrufen. Ihre Breite erfüllt den Erdkreis, so dass auch die Welt deiner Barmherzigkeit voll ist. Ebenso reicht ihre Höhe bis zum Himmel und trifft dort auf die erneuerte himmlische Stadt. Und sie reicht so weit in die Tiefe, dass sie auch jenen Erlösung erwarb, die in Finsternis und Todesschatten sitzen. Denn durch dich war der Himmel gefüllt, das Reich des Todes entvölkert, das himmlische Jerusalem aus den Trümmern gehoben, den Verbannten das verlorene Leben neu geschenkt. So ist deine Liebe, deren Macht und Güte ohne Grenzen sind überreich an Mitgefühl wie an wirksamer Hilfe.^pSo eile denn unsere dürstende Seele zu dieser Quelle, und unsere große Not flüchte sich eilends zu diesem Berg des Erbarmens. Siehe, mit all unseren Wünschen geben wir dir das Geleite, da du zu deinem Sohne aufsteigst, und wir folgen dir wenigstens von ferne, o gesegnete Jungfrau. Welche Gnade du bei Gott gefunden hast, möge fortan deine Barmherzigkeit selbst der Welt kundtun: Deine heilige Fürsprache erwirke den Sündern Verzeihung, den Kranken Heilung, den Kleinmütigen Kraft, den Betrübten Trost, den Gefährdeten Hilfe und Freiheit. An diesem freudigen Festtag rufen auch wir, deine armen Diener, preisend deinen süßen Namen an. Erwirke, gnädige Königin, dass mit reichen Gnaden uns beschenke Jesus Christus, dein Sohn, unser Herr, Gott über alles, hochgelobt in Ewigkeit. Amen.",
+            "patr_resp1": "Selig bist du, heilige Jungfrau Maria, und allen Lobes würdig!",
+            "patr_resp2": "Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott und Heiland. Halleluja.",
+            "patr_resp3": "In großer Freude feiern wir dein Fest, heilige Jungfrau Maria, Trösterin der Betrübten."
+          },
+          "Laudes": {
+            "button": "Maria, Trösterin der Betrübten"
+          }
+        }
+      }
+    }
+  },
+  "Dresden-Meißen": {
+    "2": {
+      "3": {
+        "d11": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Alojs Andricki (†°1943)",
+            "patr_werk": "Aus einem Brief am 9. März 1941 aus dem Dresdener Polizeigefängnis.",
+            "patr_text": "^h„Das ist der Wille Gottes, eure Heiligung“^pHeiligkeit ist ja die Übereinstimmung des Menschen in allem Denken und Tun mit Gott, dem allein Heiligen. Heiligkeit bedeutet die ganze Hingabe unseres Willens an den Willen Gottes.^pWir wissen, dass dies leichter gesagt wird als getan. Solange der eigene menschliche Wille vorherrscht, spürt man gar nicht die Schwierigkeiten. Aber da, wo der eigene Wille ausgeschaltet wird und man in Lagen und Umstände hineingeführt wird, die einem persönlich gar nicht erwünscht sind, da beginnt erst eigentlich so recht die Einfügung des eigenen Willens an einen höheren.^pAch, man kann gar nicht alles so aussprechen, was man in Gedanken erwägt. Aber bloße Einordnung, vielleicht noch mit Widerwillen erfüllt, ist nicht Heiligkeit. Zur Heiligkeit gehört der eigene freie und bejahende Wille, der dem Willen eines Höheren zugetan ist und das vor allem dann, wenn damit auch Leid und Entsagung verbunden ist.^pNun ist mir ja hier Gelegenheit geboten, diesen Weg der Heiligkeit zu gehen. Ich will ihn gehen so froh und freudig, als es mir möglich ist, denn es gilt ja, mit Gott eins zu werden.^pDieses Ziel hilft mir auch über alle menschlichen Schwächen, Wehmut – und ich brauch mich nicht zu schämen zu bekennen – über manche Augenblicke, da mir die Tränen über die Wangen rollen. Es gibt schon Stunden der tiefsten Verlassenheit, aber das muss ja sein, damit umso größer die Liebe und Freude Gottes in mir Raum gewinnen kann.^pUnerlässlich bei diesem Streben aber ist das Gebet, und ich danke Euch dafür mit meinem Gebet.^pNichts Schöneres gibt es, als hineinzuwachsen in die Gleichförmigkeit mit dem Willen Gottes, darin uns Seligkeit und Freude gegeben ist.",
+            "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
+            "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
+            "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen.",
+            "hymn_1": 8203.1
+          },
+          "Laudes": {
+            "button": "Sel. Alojs Andritzki",
+            "farbe": "r",
+            "nominativ": "Der heilige Alojs",
+            "genitiv": "des heiligen Alojs",
+            "hymn_1": 8203.2
+          },
+          "Vesper": {
+            "hymn_1": 8203.2
+          }
+        },
+        "d12": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Knježe, naš Božo, sy zbóžneho martrarja a měšnika Alojsa ze swojej lubosću napjelnił, tak zo je w času wulkeje ćěsnosće swoje žiwjenje kaž pšeńčne zorno za bratrow podał; spožč nam na jeho zastupnistwo, zo wšón čłowječi strach přewinjemy a so z hódnymi słužownikami wěrnosće stanjemy. Přez Chrystusa, našeho Knjeza."
+          },
+          "Lesehore": {
+            "patr_autor": "Alojs Andricki (†°1943)",
+            "patr_werk": "Z lista 9. měrca 1941 z Drježdźanskeho policajskeho jastwa.",
+            "patr_text": "^h„To je wola Boža, waše swjatosćenje“^pSwjatosć je dźě přezjednosć čłowjeka we wšěm myslenju a jednanju z Bohom, jeničce swjatym. Swjatosć woznamjenja, swoju wolu dospołnje Božej woli podwolić.^pWěmy, zo je tole lóšo prajene hač sčinjene. Dołhož knježi swójska čłowječa wola, ćeže scyła njezačuješ. Ale tam, hdźež so swójska wola wuhasnje, a přińdźeš-li do połoženja a wobstejnosćow, kotrež sej wosobinsce scyła njepřeješ, tam započnješ poprawom hakle tak prawje swójsku wolu do wjetšeje zapołožić.^pAch, njemóžeš wšitko ani tak wuprajić, wo čimž w myslach rozwažuješ. Ale hdyž so jeničce zarjaduješ, a to traš samo hišće njelóštnje, njeje to swjatosć. K swjatosći słuša swójska swobodna a přihłosowaca wola, kotraž je woli wyšeho přichilena, a to předewšěm potom, hdyž maš ćerpjeć a něčeho so wzdać.^pNětko wšak mam tudy přiležnosć, tutón puć swjatosće kročić. Chcu po nim tak wjesele a radostnje hić, kaž je mi to móžno, přetož dźe wo to, zo so z Bohom zjednoćiš.^pTutón zaměr pomha mi přeze wšě čłowječe słabosće, stysknotu, a njetrjebam so hańbować ani wonych chwilow, w kotrychž su so mi sylzy wuronili. Přińdu wšak hodźiny najhłubšeje wopušćenosće, ale to drje dyrbi być, zo byštej so ćim bóle Boža lubosć a radosć we mni přisporjeć móhłoj.^pNjeparujomne w tymle prócowanju je modlenje, a dźakuju so Wam za Waš paćer, z tym zo so tež za Was modlu.^pNjeje ničo rjeńšeho, hač zo zrosćeš do přezjednosće z wolu Božej, w kotrejž nańdźeš zbóžnosć a radosć.",
+            "patr_resp1": "Derje sym wojował, sym doběhnył, wěru wobchował.",
+            "patr_resp2": "Za wěčnosć je mi přihotowana króna sprawnosće.",
+            "patr_resp3": "Mam wšo za škodu porno wyšemu póznaću Chrysta Jězusa, swojeho Knjeza. Chrystusa chcu spóznać a podźěl na jeho ćerpjenju měć, připodobnjeny jeho smjerći."
+          },
+          "Laudes": {
+            "button": "Zbóžny Alojs Andricki (sorbisch)",
+            "farbe": "r",
+            "nominativ": "Der heilige Alojs",
+            "genitiv": "des heiligen Alojs"
           }
         }
       }
