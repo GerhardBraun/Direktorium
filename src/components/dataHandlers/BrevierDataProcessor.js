@@ -526,15 +526,18 @@ function processCommune(hours, season, targetSource) {
 
 function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '', swdCombined = '', dateFormats = {}) {
     const processData = getDayCalendarData(calendarMonth, calendarDay);
-    const swdData = getDayCalendarData('special', swdCombined);
-    const ordinalData = getDayCalendarData('special', dateFormats?.ordinal);
-    const ordinalLastData = getDayCalendarData('special', dateFormats?.ordinalLast);
+    // Sonder-Datumsformate nur laden, wenn processData keine oblig-Source enthält:
+    // Ein beweglicher nichtgebotener Gedenktag entfällt, wenn derselbe Tag
+    // bereits einen gebotenen Gedenktag, ein Fest oder Hochfest trägt.
+    const hasOblig = !!processData?.oblig;
+    const swdData = hasOblig ? null : getDayCalendarData(13, swdCombined);
+    const ordinalData = hasOblig ? null : getDayCalendarData(13, dateFormats?.ordinal);
+    const ordinalLastData = hasOblig ? null : getDayCalendarData(13, dateFormats?.ordinalLast);
 
-    if (processData) {
-
-        // Map über alle Schlüssel
+    [processData, swdData, ordinalData, ordinalLastData].forEach(data => {
+        if (!data) return;
         sourceKeys.forEach(sourceKey => {
-            const sourceData = processData[sourceKey];
+            const sourceData = data[sourceKey];
             const targetKey = (sourceKey === 'oblig' && replaceOblig) ? replaceOblig
                 : sourceKey;
 
@@ -542,9 +545,8 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
                 mergeData(hours, sourceData, targetKey);
                 processCommune(hours, season, targetKey);
             }
-
         });
-    }
+    });
 
     processReadings(hours, yearABC, calendarMonth, calendarDay);
 }

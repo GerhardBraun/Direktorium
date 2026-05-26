@@ -10,7 +10,7 @@ const MassReadingsSelector = ({
 }) => {
     if (!texts) return null;
 
-    let sourceKeys = ['wt', 'oblig', 'd1', 'd2', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
+    let sourceKeys = ['wt', 'oblig', 'd1', 'd2', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
     if (texts?.rank?.date > 2) sourceKeys = ['oblig', 'wt'];
 
     // Helper function to check if a source has valid readings

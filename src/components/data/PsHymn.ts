@@ -5787,6 +5787,15 @@ export const psalmsData = {
   8224: {
     0.0: {
         "text_lat": "Matthía, sacratíssimo^lApostolórum cœ́tui^lquam miro tu consílio^lascríptus es divínitus!^pAbscésserat discípulus,^ltristi miser suspéndio^lmagni gradum fastígii^lChristíqu>e amórem dénegans.^pEn Christi te diléctio^lad eius transfert glóriam,^lPetri movénte lábia^lsortésque Sancto Spíritu.^pTanto dicátus múneri,^llucem revélas géntibus^lad mortem usque, strénuus^lIesum conféssus sánguine.^pDa nos, beát>e Apóstole,^llætis promptísque córdibus^lalmus quascúmque Spíritus^lvias demónstrat, pérsequi.^pSit Trinitáti glória,^lquæ nobis ad cæléstia^lper te concédat scándere^lhymnósqu>e ætérnos dícere. Amen."
+      },
+    1.0: {
+        "text": "Steht im Dunkel der Nacht^/freudig vom Schlafe auf,^lwachen Geistes stimmt an^/Hymnen zu Gottes Lob!^lIn die Finsternis bringt^/himmlische Helligkeit^lSankt Matthias, vom Licht verklärt.^pAls beim Anbruch der Nacht^/Christus beim Abendmahl^lden Aposteln im Saal^/mystische Speisen reicht,^ldeckt er, schmerzlich bewegt,^/den falschen Jünger auf,^lder ihn treulos verraten wird.^pRasch vom heiligen Mahl^/steht der Verräter auf,^lgeht hinaus in die Nacht,^/finster und hasserfüllt,^lgibt um schmählichen Lohn^/Christus, das Licht der Welt,^lseinen grimmigen Feinden preis.^pStürzt vom Himmel ein Stern,^/mindert sich nicht die Zahl,^ldie dort oben erstrahlt,^/schimmernd am Firmament:^lDenn ganz plötzlich erscheint^/blitzend ein neuer Stern,^lvon Gott selber vorherbestimmt.^pSchatten, weichet zurück!^/Aufstrahlt ein neues Licht:^lDenn Matthias tritt ein^/in die Apostelschar.^lEr erflehe auch uns,^/dass wir einst selig schaun^lGott im Glanz seiner Herrlichkeit.^pPreis dir, ewiger Gott,^/thronend im Reich des Lichts,^lin das Dunkel der Welt^/hast du den Sohn gesandt,^lder durch Boten des Heils^/uns aller Nacht entreißt^lund zu Kindern des Lichtes macht."
+      },
+    2.0: {
+        "text": "Gruß dir, Freund des Herrn, Matthias,^lLetzter der Apostelschar,^lden der Himmel durch ein Zeichen^lauserwählte wunderbar,^lder getreu dem hohen Rufe^lChristus machte offenbar.^pStark und aufrecht wie die Palme^lwarst für Judas du erwählt,^lund auch Joseph dem Gerechten^lhat dich Gott vorangestellt.^lDeine Worte und dein Leben^lkünden Christus aller Welt.^pPreis und Dank sei Gott dem Vater^lmit dem Sohn und Heilgen Geist,^lder durch der Apostel Wirken^lseine Liebe uns erweist^lund im Wort der Frohen Botschaft^lhöchste Seligkeit verheißt."
+      },
+    4.0: {
+        "text": "Freut euch, Bürger von Trier,^/jubelt Matthias zu,^lpreist den Jünger des Herrn,^/dem eure Liebe gilt:^lEr, unscheinbar zuerst,^/erntete reichen Ruhm^lals Verkünder der Frohbotschaft.^pAls den letzten der Zwölf,^/doch ihnen gleichgestellt,^lführt ein gütig Geschick^/ihn zur erwählten Schar;^lund vom Himmel ein Wink^/machte es offenbar:^lIhm gebührt das Apostelamt.^pFalsch und treulos verriet^/einer, der Jünger war,^lseinen Meister und Freund,^/schändend den Friedenskuss,^lging allein seinen Weg,^/brach aus der Ordnung aus^lund ließ leer seinen Platz zurück.^pNiemals bleibe verwaist^/eines Apostels Amt –^lsprach, vom Geiste erfüllt,^/Petrus zum Jüngerkreis. –^lWählt für Judas, der ging,^/jetzt einen andern aus,^lder statt seiner Apostel ist.^pAufgestellt werden zwei,^/die schon dem Herrn gefolgt;^lGottes Wille zeigt an,^/welchen er auserwählt.^lO glückseliges Los,^/das auf Matthias fiel:^lEr ergänzte die heilge Zahl.^pLob dir, ewiger Gott,^/der seine Kirche liebt:^lSend in unsere Zeit^/Hirten voll Geist und Kraft,^ldie das gläubige Volk^/führen mit sichrer Hand^laus der Zeit in die Ewigkeit."
       }
   },
   8319: {
@@ -5865,6 +5874,17 @@ export const psalmsData = {
     2.0: {
         "text": "Gaude, felix Agrippína,^lplaude, cohors Norbertína,^lDeo laudes dícite!^lViro Dei, sancto mystæ,^lIoseph sacer dies iste:^lsancte hunc tradúcite.^pHunc tu mundo genuísti^lordiníque transmisísti^lcándido, Colónia.^lEíffliam hic illustrávit^let Stein>eféldiam ornávit^lsua sanctimónia.^pCóluit devóte piam^lpuer ínnocens Maríam,^lábstinens a crímine;^ltota vita visitári,^ladiuvári, informári^lméruit a vírgine.^pSummus Pater hunc amávit^let virtútum exornávit^ltúnica polýmita.^lFuit simplex, rectus, castus,^lpius, mitis, osor fastus,^lcunctis reddens débita.^pTu exáudi preces, Christe,^ltuus quas amícus iste^lfundit pro cliéntibus,^lut et sérvuli nos tui^lcum eo possímus frui^lgáudiis cæléstibus. Amen.",
         "text_lat": "Gaude, felix Agrippína,^lplaude, cohors Norbertína,^lDeo laudes dícite!^lViro Dei, sancto mystæ,^lIoseph sacer dies iste:^lsancte hunc tradúcite.^pHunc tu mundo genuísti^lordiníque transmisísti^lcándido, Colónia.^lEíffliam hic illustrávit^let Stein>eféldiam ornávit^lsua sanctimónia.^pCóluit devóte piam^lpuer ínnocens Maríam,^lábstinens a crímine;^ltota vita visitári,^ladiuvári, informári^lméruit a vírgine.^pSummus Pater hunc amávit^let virtútum exornávit^ltúnica polýmita.^lFuit simplex, rectus, castus,^lpius, mitis, osor fastus,^lcunctis reddens débita.^pTu exáudi preces, Christe,^ltuus quas amícus iste^lfundit pro cliéntibus,^lut et sérvuli nos tui^lcum eo possímus frui^lgáudiis cæléstibus. Amen."
+      }
+  },
+  8599: {
+    1.0: {
+        "text": "Preist mit Freude und mit Jubel^lChristi würdiges Gewand,^ldas der Gottmensch einst getragen,^lals er zog durchs Heilge Land,^lfür ihn liebevoll bereitet^lvon Mariens Mutterhand.^pAls der Gottesmann Elias^lfeurig auf zum Himmel stieg,^lließ er den Prophetenmantel^lseinem Freund als Pfand zurück.^lSo mahnt des Erlösers Leibrock^luns an seinen Tod und Sieg.^pWir, getauft auf Christi Namen,^ltragen seiner Gnade Kleid,^ldas uns durch den Tod begleitet^lund Unsterblichkeit verleiht.^lDer durch Leiden uns erlöste,^lsei gelobt in Ewigkeit."
+      },
+    2.0: {
+        "text": "Was Christus einst für uns getan,^lbleibt ewig unsrer Liebe wert:^lAus seinen Wunden floss das Blut,^lder Trank, der unsre Seele nährt.^pSei, Leibrock Christi, uns gegrüßt,^lgetränkt vom Blut des Gottessohns:^lDeck zu, was menschlich wir gefehlt,^lmach würdig uns des ewgen Lohns.^pO Trier, uralte Christenstadt,^ldir ward ein hohes Glück zuteil:^lIn deine Obhut kam das Kleid,^ldas Christus trug zu unserm Heil.^pHerr Jesus Christus, sei gelobt:^lDein Leib, für uns dem Tod geweiht,^lerhob verklärt sich aus dem Grab^lim Kleide der Unsterblichkeit."
+      },
+    4.0: {
+        "text": "O ungeteiltes Kleid des Herrn,^ldas nahtlos wob der Jungfrau Hand:^lDu hülltest ein den heilgen Leib,^lin dem die Gottheit Wohnstatt fand.^pVon dir ging aus die Wunderkraft,^ldie kranker Menschen Leid geheilt;^ldir wurde auf des Tabors Höhn^lder Glanz der Gottheit mitgeteilt.^pDu strahltest vom Verklärungsschein^lwie helles Licht so leuchtend weiß;^ldich färbte rot der Striemen Blut,^ldich netzte Schweiß und Tränenfluss.^pDich trug am Kreuzweg Jesus Christus,^ldie Dornenkron' auf seinem Haupt;^ldich haben des Kreuzes Henker ihm^lmit Gotteslästerung geraubt.^pDoch als er auferstand vom Tod,^lhat er sein Kleid im Grab gelassen.^lHerr, leg uns an das Todeskleid,^ldamit wir ganz mit dir genesen.^pDir, Gott Vater, sei Ruhm und Preis,^ldir, Christus, der du für uns starb^lund auferstand. O Heilger Geist,^ldich beten wir jetzt an in Ehrfurcht."
       }
   },
   8605: {
@@ -6389,6 +6409,14 @@ export const psalmsData = {
       },
     104.0: {
         "text_lat": "Præclára custos vírginum^lDeíque mater ínnuba,^lcæléstis aulæ iánua,^lspes nostra, cæli gáudium;^pInter rubéta lílium,^lcolúmba formosíssima,^le stirpe virga gérminans^lnostro medélam vúlneri;^pTurris dracón>i impérvia,^lamíca stella náufragis,^ldefénde nos a fráudibus^ltuáque luce dírige.^pErróris umbras díscute,^lsyrtes dolósas ámove,^lfluctus tot inter, déviis^ltutam reclúde sémitam.^pQuæ labe nostr>æ oríginis^lintácta splendes única,^lserpéntis artes ǽmuli^lelúde vindex ínclita.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui sanctitátis únicæ^lte munerárunt grátia. Amen."
+      }
+  },
+  9209: {
+    1.0: {
+        "text": "Trier lag noch in Nacht^/und sein Volk im Dunkeln,^lda erstrahlt ein Licht^/für die blinden Augen,^lals Eucharius,^/erster Glaubensbote,^lChristus verkündet.^pVor dem neuen Gott,^/den die Menschen suchen,^lstürzen in den Staub^/alte Götzenbilder^lund in Trier erblüht,^/aus dem Bad der Taufe,^lchristliches Leben.^pDich, o heil’ger Mann,^/ehren wir als Vater,^lder das Wort des Heils^/unsren Ahnen brachte^lund als guter Hirt^/Christi junge Herde^lhegte und pflegte.^pBischof unsrer Stadt^/und Patron des Landes,^lhalte von uns fern,^/was dem Glauben schadet,^lund erflehe uns,^/wie in alten Zeiten,^lLiebe zu Christus.^pLob sei, Vater, dir^/mit dem Sohn und Geiste,^lder die Kirche schuf,^/Zeichen deiner Liebe;^lsie geleitet uns^/auf dem Weg des Heiles^lChristus entgegen."
+      },
+    2.0: {
+        "text": "Du kamst zu uns, Eucharius,^lein heilger Mann, an Gnaden reich,^lund riefst es aus im ganzen Land:^lKehrt um! Es naht das Gottesreich.^pVon Christus, unserm höchsten Herrn,^lwarst du bestellt als guter Hirt:^lNun zeig dem Gottesvolk von Trier^lden Weg, der uns zum Heile führt.^pBlick aus des Himmels hohem Haus^lherab auf unsre Bischofsstadt,^lruf auf die Priester und das Volk^lzu Glaubensmut und Liebestat.^pDu siehst, dass wir in dieser Welt^lim Kampf für Christi Sache stehn,^lhilf, dass wir fest und unbeirrt^ldem ewgen Ziel entgegengehn.^pVerleih uns, Vater, Sohn und Geist,^lGott, den die Kirche liebt und ehrt,^ldass Hirt und Herde, treu vereint,^lin deinem Dienste sich bewährt."
       }
   },
   9216: {
