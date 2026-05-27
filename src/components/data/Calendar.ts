@@ -15633,7 +15633,7 @@ export const calendarData: CalendarData = {
     },
     "13": {
       "o-2-5": {
-        "dmob": {
+        "dpar": {
           "major": {
             "oration": "Gott, du hast nicht zugelassen, dass das ungenähte Gewand unseres Erlösers zerteilt wurde, und hast es so zum Sinnbild für die Einheit deiner Kirche gemacht. Gib, dass alle, die in der Taufe Christus angezogen haben, in dem einen Glauben und in der Gemeinschaft der Liebe eins seien in ihm, Jesus Christus, deinem Sohn, unserem Herrn und Gott,^ORR"
           },

@@ -1,12 +1,10 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
-- processHeiligenfeste: Umstellung der Datumsformate (auch bei Routine für Verlegung der Hochfeste)
 
 
 **06-01** `Lesungen der Lesehore` ab Mo der 9. Woche i. Jkr.
 **06-01** Eigenfeiern Trier: 1., 8. Juni
 **06-04** `Calendar-Lesungen`: ab 5. Juni
 **06-15** `lat. Commune-Orationen` für Juni: 16.,19.,21.,26.
-**07-08** Eigenfeiern Köln: 23.7. Übertragung der Reliquien, 10.10. Gereon, Cassius und Florentinus, 21.10. Ursula
 **07-11** `Rufe vor dem Evangelium` ab 15. Woche i. Jkr.
 **08-13** Eigenfeiern Limburg
 **ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.

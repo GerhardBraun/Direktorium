@@ -70,7 +70,7 @@ function resolveAndMergeSource(sourceData) {
 // statt den gesamten Kalender zu mergen (wie CalendarMerge.js es tat).
 // Logik: AAA-Daten als Basis; diözesane oblig-Source ersetzt alles;
 // diözesane d-Sources werden neben den AAA-Daten eingefügt.
-function getDayCalendarData(calendarMonth, calendarDay) {
+function getDayCalendarData(calendarMonth, calendarDay, onlyPar = false) {
     const diocese = localStorage.getItem('diocese') || 'Fulda';
     const regionalCalendarData = calendarData?.AAA?.[calendarMonth]?.[calendarDay];
 
@@ -118,6 +118,12 @@ function getDayCalendarData(calendarMonth, calendarDay) {
         }
     }
 
+    // Mit onlyPar=true nur die dpar-Source zurückgeben:
+    // Ein beweglicher Gedenktag des Diözesankalenders, der auch neben einer oblig-Source
+    // stehen kann, wird selbst dann noch geladen, wenn processData bereits eine oblig-Source enthält.
+    if (onlyPar) {
+        return result.dpar ? { dpar: result.dpar } : undefined;
+    }
     return Object.keys(result).length > 0 ? result : undefined;
 }
 
@@ -524,19 +530,22 @@ function processCommune(hours, season, targetSource) {
 
 function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '', swdCombined = '', dateFormats = {}) {
     const processData = getDayCalendarData(calendarMonth, calendarDay);
-    // Sonder-Datumsformate nur laden, wenn processData keine oblig-Source enthält:
-    // Ein beweglicher nichtgebotener Gedenktag entfällt, wenn derselbe Tag
-    // bereits einen gebotenen Gedenktag, ein Fest oder Hochfest trägt.
+    // Sonder-Datumsformate: bei hasOblig=true nur die dpar-Source laden (onlyPar=true).
+    // Ein beweglicher nichtgebotener Gedenktag entfällt, wenn derselbe Tag bereits
+    // einen gebotenen Gedenktag, ein Fest oder Hochfest trägt – außer er ist als dpar
+    // eingetragen und darf neben einer oblig-Source stehen.
     const hasOblig = !!processData?.oblig;
-    const swdData = hasOblig ? null : getDayCalendarData(13, swdCombined);
-    const ordinalData = hasOblig ? null : getDayCalendarData(13, dateFormats?.ordinal);
-    const ordinalLastData = hasOblig ? null : getDayCalendarData(13, dateFormats?.ordinalLast);
+    const swdData = getDayCalendarData(13, swdCombined, hasOblig);
+    const ordinalData = getDayCalendarData(13, dateFormats?.ordinal, hasOblig);
+    const ordinalLastData = getDayCalendarData(13, dateFormats?.ordinalLast, hasOblig);
 
     [processData, swdData, ordinalData, ordinalLastData].forEach(data => {
         if (!data) return;
         sourceKeys.forEach(sourceKey => {
             const sourceData = data[sourceKey];
-            const targetKey = (sourceKey === 'oblig' && replaceOblig) ? replaceOblig
+            // dpar-Source immer als dmob einlesen (beweglicher Gedenktag des Diözesankalenders)
+            const targetKey = sourceKey === 'dpar' ? 'dmob'
+                : (sourceKey === 'oblig' && replaceOblig) ? replaceOblig
                 : sourceKey;
 
             if (sourceData) {
