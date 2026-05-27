@@ -34,6 +34,7 @@ import { ordinarium } from "./utils/ordinarium.js";
 import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
 import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
+import { sourceKeys } from './selectors/SourceSelector.js';
 
 const FONT_FAMILIES = [
   { key: "cambria", label: "Cambria", value: "cambria, georgia, serif" },
@@ -1007,10 +1008,7 @@ const PrayerTextDisplay = ({
           !prefSollemnity &&
           !(hour === "vesper" && texts?.rank?.hasErsteVesper) &&
           ["lesehore", "laudes", "vesper"].includes(hour) &&
-          (texts?.laudes?.oblig?.oration
-            || texts?.laudes?.n1?.oration
-            || texts?.laudes?.d1?.oration
-            || texts?.laudes?.d11?.oration) && (
+          sourceKeys.some(key => texts?.laudes?.[key]?.oration) && (
             <>
               <div >
                 <SourceSelector

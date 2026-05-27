@@ -8710,7 +8710,7 @@ export const calendarData: CalendarData = {
           "Lesehore": {
             "patr_autor": "Edith Stein († 1942)",
             "patr_werk": "Aus dem Buch „Kreuzeswissenschaft“.",
-            "patr_text": "^hGlaube an den Gekreuzigten – Weg zum Leben^pChristus hat das Joch des Gesetzes auf sich genommen, indem er es vollkommen erfüllte und für und durch das Gesetz starb. Eben damit hat er die vom Gesetz befreit, die von ihm das Leben empfangen wollen. ^pAber sie können es nur empfangen, wenn sie ihr eigenes Leben preisgeben. Denn die auf Christus getauft sind, sind auf seinen Tod getauft{1#vgl. Röm 6,9}. Sie tauchen unter in sein Leben, um Glieder seines Leibes zu werden und als solche mit ihm zu leiden und mit ihm zu sterben, aber auch mit ihm aufzuerstehen zum ewigen, göttlichen Leben. ^pDieses Leben wird in seiner Fülle für uns erst kommen am Tage der Herrlichkeit. Wir haben aber jetzt schon – „im Fleisch“ – Anteil daran, indem wir glauben: glauben, dass Christus für uns gestorben ist, um uns das Leben zu geben. Dieser Glaube ist es, der uns mit ihm eins werden lässt wie die Glieder mit dem Haupt und uns öffnet für das Zuströmen seines Lebens. ^pSo ist der Glaube an den Gekreuzigten – der lebendige Glaube, der mit liebender Hingabe gepaart ist – für uns der Zugang zum Leben und der Anfang der künftigen Herrlichkeit; darum ist das Kreuz unser einziger Ruhmestitel: „Ferne sei es von mir, mich zu rühmen, außer im Kreuz unseres Herrn Jesus Christus, durch den mir die Welt gekreuzigt ist und ich der Welt“{2#Gal 6,14}. ^pWer sich für Christus entschieden hat, der ist für die Welt tot, und sie für ihn. Er trägt die Wundmale des Herrn an seinem Leibe{3#vgl. Gal 6,17}, ist schwach und verachtet vor den Menschen, aber gerade darum stark, weil in den Schwachen Gottes Kraft mächtig ist{4#vgl. 2 Kor 22,9}. ^pIn dieser Erkenntnis nimmt der Jünger Jesu nicht nur das Kreuz an, das auf ihn gelegt ist, sondern kreuzigt sich selbst: „Die Christus angehören, haben ihr Fleisch gekreuzigt mit seinen Lastern und Begierden“{5#Gal 5,24}. Sie haben einen unerbittlichen Kampf geführt gegen ihre Natur, damit das Leben der Sünde in ihnen ersterbe und Raum werde für das Leben des Geistes. ^pAuf das letzte kommt es an. Das Kreuz ist nicht Selbstzweck. Es ragt empor und weist nach oben. Doch es ist nicht nur Zeichen – es ist die starke Waffe Christi; der Hirtenstab, mit dem der göttliche David gegen den höllischen Goliat auszieht; womit er machtvoll an das Himmelstor pocht und es aufstößt. Dann fluten die Ströme des göttlichen Lichtes heraus und umfangen alle, die im Gefolge des Gekreuzigten sind.",
+            "patr_text": "^hGlaube an den Gekreuzigten – Weg zum Leben^pChristus hat das Joch des Gesetzes auf sich genommen, indem er es vollkommen erfüllte und für und durch das Gesetz starb. Eben damit hat er die vom Gesetz befreit, die von ihm das Leben empfangen wollen. ^pAber sie können es nur empfangen, wenn sie ihr eigenes Leben preisgeben. Denn die auf Christus getauft sind, sind auf seinen Tod getauft{1#vgl. Röm 6,3}. Sie tauchen unter in sein Leben, um Glieder seines Leibes zu werden und als solche mit ihm zu leiden und mit ihm zu sterben, aber auch mit ihm aufzuerstehen zum ewigen, göttlichen Leben. ^pDieses Leben wird in seiner Fülle für uns erst kommen am Tage der Herrlichkeit. Wir haben aber jetzt schon – „im Fleisch“ – Anteil daran, indem wir glauben: glauben, dass Christus für uns gestorben ist, um uns das Leben zu geben. Dieser Glaube ist es, der uns mit ihm eins werden lässt wie die Glieder mit dem Haupt und uns öffnet für das Zuströmen seines Lebens. ^pSo ist der Glaube an den Gekreuzigten – der lebendige Glaube, der mit liebender Hingabe gepaart ist – für uns der Zugang zum Leben und der Anfang der künftigen Herrlichkeit; darum ist das Kreuz unser einziger Ruhmestitel: „Ferne sei es von mir, mich zu rühmen, außer im Kreuz unseres Herrn Jesus Christus, durch den mir die Welt gekreuzigt ist und ich der Welt“{2#Gal 6,14}. ^pWer sich für Christus entschieden hat, der ist für die Welt tot, und sie für ihn. Er trägt die Wundmale des Herrn an seinem Leibe{3#vgl. Gal 6,17}, ist schwach und verachtet vor den Menschen, aber gerade darum stark, weil in den Schwachen Gottes Kraft mächtig ist{4#vgl. 2 Kor 12,9}. ^pIn dieser Erkenntnis nimmt der Jünger Jesu nicht nur das Kreuz an, das auf ihn gelegt ist, sondern kreuzigt sich selbst: „Die Christus angehören, haben ihr Fleisch gekreuzigt mit seinen Lastern und Begierden“{5#Gal 5,24}. Sie haben einen unerbittlichen Kampf geführt gegen ihre Natur, damit das Leben der Sünde in ihnen ersterbe und Raum werde für das Leben des Geistes. ^pAuf das letzte kommt es an. Das Kreuz ist nicht Selbstzweck. Es ragt empor und weist nach oben. Doch es ist nicht nur Zeichen – es ist die starke Waffe Christi; der Hirtenstab, mit dem der göttliche David gegen den höllischen Goliat auszieht; womit er machtvoll an das Himmelstor pocht und es aufstößt. Dann fluten die Ströme des göttlichen Lichtes heraus und umfangen alle, die im Gefolge des Gekreuzigten sind.",
             "patr_resp1": "Ich bin mit Christus gekreuzigt worden; nicht mehr ich lebe, sondern Christus lebt in mir,",
             "patr_resp2": "der mich geliebt und sich für mich hingegeben hat.",
             "patr_resp3": "Soweit ich aber jetzt noch in dieser Welt lebe, lebe ich im Glauben an den Sohn Gottes,"
@@ -15503,12 +15503,12 @@ export const calendarData: CalendarData = {
     "12": {
       "9": {
         "oblig": {
-          "Invitatorium": {
-            "ant0": "Christus den Herrn, den Hirten der Hirten – kommt, wir beten ihn an!"
-          },
           "each": {
             "comm_1": "Hirten",
             "oration": "Herr, unser Gott, blicke auf dein Volk, dem der heilige Bischof Eucharius das Evangelium verkündet und die Sakramente des Heils gebracht hat. Durch seinen Dienst hast du unsere Vorfahren zum Glauben geführt, bewahre uns auf seine Fürbitte in diesem Glauben.^ORV"
+          },
+          "Invitatorium": {
+            "ant0": "Christus den Herrn, den Hirten der Hirten – kommt, wir beten ihn an!"
           },
           "Lesehore": {
             "hymn_1": 9209.1,
@@ -15633,12 +15633,12 @@ export const calendarData: CalendarData = {
     },
     "13": {
       "o-2-5": {
-        "d2": {
-          "Invitatorium": {
-            "ant0": "Christus, mit Herrlichkeit umkleidet kommt, wir beten ihn an!^HALLo"
-          },
+        "dmob": {
           "major": {
             "oration": "Gott, du hast nicht zugelassen, dass das ungenähte Gewand unseres Erlösers zerteilt wurde, und hast es so zum Sinnbild für die Einheit deiner Kirche gemacht. Gib, dass alle, die in der Taufe Christus angezogen haben, in dem einen Glauben und in der Gemeinschaft der Liebe eins seien in ihm, Jesus Christus, deinem Sohn, unserem Herrn und Gott,^ORR"
+          },
+          "Invitatorium": {
+            "ant0": "Christus, mit Herrlichkeit umkleidet kommt, wir beten ihn an!^HALLo"
           },
           "Lesehore": {
             "hymn_1": 8599.1,
@@ -15650,7 +15650,7 @@ export const calendarData: CalendarData = {
             "ant3": "Ihr alle, die ihr auf Christus getauft seid, habt Christus als Gewand angelegt. Halleluja.",
             "versikel0": "Sie verteilten meine Kleider unter sich.^HALLo",
             "versikel1": "Und warfen das Los um mein Gewand.^HALLo",
-            "les_buch": "Jes",
+            "les_buch": "Aus dem Buch Jesaja.",
             "les_stelle": "53,1–12",
             "les_text": "^hWer hat geglaubt, was wir gehört haben?^pWer hat geglaubt, was wir gehört haben? Der Arm des HERRN – wem wurde er offenbar? Vor seinen Augen wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, sodass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht. Aber er hat unsere Krankheit getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Vergehen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Züchtigung auf ihm, durch seine Wunden sind wir geheilt. Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der HERR ließ auf ihn treffen die Schuld von uns allen. Er wurde bedrängt und misshandelt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf vor seinen Scherern verstummt, so tat auch er seinen Mund nicht auf. Durch Haft und Gericht wurde er dahingerafft, doch wen kümmerte sein Geschick? Er wurde vom Land der Lebenden abgeschnitten und wegen der Vergehen meines Volkes zu Tode getroffen. Bei den Frevlern gab man ihm sein Grab und bei den Reichen seine Ruhestätte, obwohl er kein Unrecht getan hat und kein trügerisches Wort in seinem Mund war.^pDoch der HERR hat Gefallen an dem von Krankheit Zermalmten. Wenn du, Gott, sein Leben als Schuldopfer einsetzt, wird er Nachkommen sehen und lange leben. Was dem HERRN gefällt, wird durch seine Hand gelingen. Nachdem er vieles ertrug, erblickt er das Licht. Er sättigt sich an Erkenntnis. Mein Knecht, der gerechte, macht die Vielen gerecht; er lädt ihre Schuld auf sich. Deshalb gebe ich ihm Anteil unter den Großen und mit Mächtigen teilt er die Beute, weil er sein Leben dem Tod preisgab und sich unter die Abtrünnigen rechnen ließ. Er hob die Sünden der Vielen auf und trat für die Abtrünnigen ein.",
             "resp1": "Jerusalem, erhebe dich und bekleide dich mit deiner Stärke; lege an die Kleidung deiner Herrlichkeit,",
@@ -15867,6 +15867,34 @@ export const calendarData: CalendarData = {
       }
     },
     "5": {
+      "1": {
+        "oblig": {
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIm Dom zu Trier:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
+            "oration_lat": "^RUBRIn Ecclesia cathedrali Limburgensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Paul VI. († 1978)",
+            "patr_werk": "Aus der Grußbotschaft an Bischof Bernhard Stein zum Domfest 1974.",
+            "patr_text": "^hAlle, die diesen Tempel betreten, sollen erkennen, dass sie berufen sind, selber »Tempel Gottes« zu sein^pDer Trierer Dom ist eines der ehrwürdigsten Gotteshäuser der Christenheit, die älteste Kirche auf deutschem Boden. Sie führt den Titel des heiligen Petrus und ist in einzigartiger Weise mit den konstantinischen Basiliken des Heiligen Landes und der Stadt Rom durch enge Verwandtschaft verbunden.^pIn dieser Kirche haben Bischöfe von hervorragender Heiligkeit, wie Agritius, Maximinus, der Märtyrer Paulinus und Niketius, zusammen mit dem gläubigen Volk »Gaben und Gebete Gott dargebracht«. Auch andere Männer von großem Namen haben in diesem »Haus des Gebetes« geweilt: darunter die Leuchte der orientalischen Kirche, der heilige Bischof Athanasius von Alexandrien, der, wegen seiner furchtlosen Verteidigung des katholischen Glaubens von seinem Bischofssitz vertrieben, die Zeit seiner Verbannung in Trier verbracht hat; der heilige Bischof Ambrosius von Mailand, der seine Vaterstadt Trier wieder aufsuchte, um dort am Hof des Kaisers in Angelegenheiten seines hohen kirchlichen Amtes Verhandlungen zu führen; der heilige Hieronymus, der als junger Mann in Trier seine akademischen Studien begann; der heilige Bischof Martin von Tours, der in Trier, gedrängt von seiner leidenschaftlichen Liebe zu den Hilfsbedürftigen, den Kaiser bestürmte, die Todesurteile aufzuheben, die dieser über Christen aus Spanien verhängt hatte.^pMit Freuden haben Wir vernommen, dass der ehrwürdige Dom zu Trier, der infolge seines Alters und vor allem auf Grund der Kriegsschäden vom Zusammenbruch bedroht war, durch Deine und des Domkapitels Bemühungen im Verlauf von zehnjähriger angestrengter Arbeit erneuert und zugleich für die Feier der Liturgie nach den Vorschriften des Zweiten Vatikanischen Konzils hergerichtet wurde. Besondere Erwähnung verdient die Sorge um die Heiltumskammer des Domes. In Ehrfurcht wird in dieser Kapelle der Heilige Rock aufbewahrt. Wie die Überlieferung sagt, ist er die Tunika unseres Herrn Jesus Christus, ein Symbol der Einheit der ganzen Christenheit.^pWir bitten Gott inständig, dass er den Trierer Dom, diese bedeutsame Stätte der Gottesverehrung, vor allem Unglück bewahre und gnädig gewähre, dass ihm an diesem Ort allezeit in dem Frieden, der aus gerechter Ordnung kommt, gedient werden kann. Zu jeder Zeit soll dieser Dom gleichsam eine Burg des Heiles sein. Hier sollen die Menschen, die vom Streit und Lärm der Welt zerbrochen sind, eine Stätte finden, an der sie ihr Herz zu Gott erheben und sich mit ihm und den Menschen versöhnen können. Hier sollen sie im Gebet und in der liturgischen Feier Gott den Dienst der Anbetung, des Lobes und der Fürbitte darbringen. Dieser Dienst ist die erste und vorzüglichste Aufgabe der geistbegabten Kreatur.",
+            "patr_resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
+            "patr_resp2": "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.^HALLo",
+            "patr_resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben.",
+            "hymn_1": 8811.1
+          },
+          "Laudes": {
+            "button": "Jahrestag der Weihe des Domes",
+            "hymn_1": 1139.0
+          },
+          "Messe": {
+            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
+            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
+            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
+            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+          }
+        }
+      },
       "2": {
         "oblig": {
           "Laudes": {
@@ -15972,34 +16000,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Maximin",
             "genitiv": "des heiligen Maximin"
-          }
-        }
-      },
-      "1": {
-        "oblig": {
-          "each": {
-            "comm_1": "Kirchw",
-            "oration": "^RUBRIm Dom zu Trier:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
-            "oration_lat": "^RUBRIn Ecclesia cathedrali Limburgensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
-          },
-          "Lesehore": {
-            "patr_autor": "Papst Paul VI. († 1978)",
-            "patr_werk": "Aus der Grußbotschaft an Bischof Bernhard Stein zum Domfest 1974.",
-            "patr_text": "^hAlle, die diesen Tempel betreten, sollen erkennen, dass sie berufen sind, selber »Tempel Gottes« zu sein^pDer Trierer Dom ist eines der ehrwürdigsten Gotteshäuser der Christenheit, die älteste Kirche auf deutschem Boden. Sie führt den Titel des heiligen Petrus und ist in einzigartiger Weise mit den konstantinischen Basiliken des Heiligen Landes und der Stadt Rom durch enge Verwandtschaft verbunden.^pIn dieser Kirche haben Bischöfe von hervorragender Heiligkeit, wie Agritius, Maximinus, der Märtyrer Paulinus und Niketius, zusammen mit dem gläubigen Volk »Gaben und Gebete Gott dargebracht«. Auch andere Männer von großem Namen haben in diesem »Haus des Gebetes« geweilt: darunter die Leuchte der orientalischen Kirche, der heilige Bischof Athanasius von Alexandrien, der, wegen seiner furchtlosen Verteidigung des katholischen Glaubens von seinem Bischofssitz vertrieben, die Zeit seiner Verbannung in Trier verbracht hat; der heilige Bischof Ambrosius von Mailand, der seine Vaterstadt Trier wieder aufsuchte, um dort am Hof des Kaisers in Angelegenheiten seines hohen kirchlichen Amtes Verhandlungen zu führen; der heilige Hieronymus, der als junger Mann in Trier seine akademischen Studien begann; der heilige Bischof Martin von Tours, der in Trier, gedrängt von seiner leidenschaftlichen Liebe zu den Hilfsbedürftigen, den Kaiser bestürmte, die Todesurteile aufzuheben, die dieser über Christen aus Spanien verhängt hatte.^pMit Freuden haben Wir vernommen, dass der ehrwürdige Dom zu Trier, der infolge seines Alters und vor allem auf Grund der Kriegsschäden vom Zusammenbruch bedroht war, durch Deine und des Domkapitels Bemühungen im Verlauf von zehnjähriger angestrengter Arbeit erneuert und zugleich für die Feier der Liturgie nach den Vorschriften des Zweiten Vatikanischen Konzils hergerichtet wurde. Besondere Erwähnung verdient die Sorge um die Heiltumskammer des Domes. In Ehrfurcht wird in dieser Kapelle der Heilige Rock aufbewahrt. Wie die Überlieferung sagt, ist er die Tunika unseres Herrn Jesus Christus, ein Symbol der Einheit der ganzen Christenheit.^pWir bitten Gott inständig, dass er den Trierer Dom, diese bedeutsame Stätte der Gottesverehrung, vor allem Unglück bewahre und gnädig gewähre, dass ihm an diesem Ort allezeit in dem Frieden, der aus gerechter Ordnung kommt, gedient werden kann. Zu jeder Zeit soll dieser Dom gleichsam eine Burg des Heiles sein. Hier sollen die Menschen, die vom Streit und Lärm der Welt zerbrochen sind, eine Stätte finden, an der sie ihr Herz zu Gott erheben und sich mit ihm und den Menschen versöhnen können. Hier sollen sie im Gebet und in der liturgischen Feier Gott den Dienst der Anbetung, des Lobes und der Fürbitte darbringen. Dieser Dienst ist die erste und vorzüglichste Aufgabe der geistbegabten Kreatur.",
-            "patr_resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
-            "patr_resp2": "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.^HALLo",
-            "patr_resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben.",
-            "hymn_1": 8811.1
-          },
-          "Laudes": {
-            "button": "Jahrestag der Weihe des Domes",
-            "hymn_1": 1139.0
-          },
-          "Messe": {
-            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
-            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
-            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
-            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
           }
         }
       }
@@ -16583,11 +16583,11 @@ export const calendarData: CalendarData = {
     "8": {
       "11": {
         "oblig": {
-          "Vesper": {
+          "ErsteV": {
             "hymn_1": 8811.2,
             "hymn_2": 8811.3
           },
-          "ErsteV": {
+          "Vesper": {
             "hymn_1": 8811.2,
             "hymn_2": 8811.3
           },
@@ -16616,6 +16616,18 @@ export const calendarData: CalendarData = {
             "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
           }
         }
+      },
+      "13": {
+        "d1": {
+          "major": {
+            "comm_1": "Jgfr",
+            "comm_2": "Jgfr_Ord"
+          },
+          "Laudes": {
+            "referenz": "Trier-8-13-d1",
+            "button": "Sel. Gertrud von Altenberg"
+          }
+        }
       }
     }
   },
@@ -16634,6 +16646,588 @@ export const calendarData: CalendarData = {
           },
           "Vesper": {
             "hymn_1": 8521.1
+          }
+        }
+      }
+    },
+    "7": {
+      "23": {
+        "d1": {
+          "major": {
+            "oration": "Gott, du Licht aller Völker, du hast den Weisen aus dem Morgenland auf ihrem Weg zu deinem Sohn dein Licht aufleuchten lassen. Gib auch uns die Fülle dieses Lichtes und allen Völkern das Glück deines Friedens.^ORV"
+          },
+          "Invitatorium": {
+            "ant0": "Den Herrn, den König der Könige, kommt, wir beten ihn an!"
+          },
+          "Lesehore": {
+            "hymn_1": 3244.1,
+            "patr_autor": "Leo der Große",
+            "patr_werk": "Aus einer Predigt am Fest der Erscheinung des Herrn.",
+            "patr_text": "^hDer Glaube der Weisen erleuchtet unseren Glauben^pGeliebte! Als die Weisen, geführt von dem voranziehenden Stern, nach Bethlehem kamen, „wurden sie von sehr großer Freude erfüllt“, wie der Evangelist erzählt. „Sie gingen in das Haus und sahen das Kind und Maria, seine Mutter; da fielen sie nieder und huldigten ihm. Dann holten sie ihre Schätze hervor und brachten ihm Gold, Weihrauch und Myrrhe als Gaben dar“ {1#Mt 2,10-11}.^pAußer dem Glanz des Sterns, der den Blick ihrer leiblichen Augen auf sich zog, erleuchtete der noch strahlendere Glanz der Wahrheit ihr Herz. So erkannten sie schon, ehe sie ihre mühevolle Wanderung begannen, durch dieses Zeichen jenen, den das Gold als König ehren sollte, der Weihrauch als Gott anbeten und die Myrrhe als sterblichen Menschen bekennen. Diese Überzeugung, diese Erkenntnis hätte schon genügt, um in ihnen das Licht des Glaubens zu entzünden. Sie brauchten also nicht erst mit leiblichem Auge das zu suchen, in was ihr Geist bereits einen so tiefen Einblick gewonnen hatte. Aber in ihrem Pflichteifer und Scharfsinn ruhten sie nicht eher, bis sie den Knaben wirklich gesehen hatten. Dadurch stellten sie sich in den Dienst der künftigen Völker und der jetzt lebenden Menschen.^pWie es für uns alle von Nutzen war, dass die Hand des Apostels Thomas nach der Auferstehung des Herrn die Wundmale an seinem Leib erkundete, so sollte es für uns auch von Vorteil sein, wenn durch das, was die Magier gesehen hatten, die Kindheit des Herrn bestätigt würde. So sahen denn die Weisen den aus dem Stamm Juda hervorgegangenen Knaben und huldigten ihm, „der dem Fleisch nach geboren ist als Nachkomme Davids“ {2#Röm 1,3}, „geboren von einer Frau und dem Gesetz unterstellt“ {3#Gal 4,4}, das er durch seine Ankunft nicht aufheben, sondern erfüllen wollte {4#vgl. Mt 5,17}. Sie sahen und verehrten den Knaben, der noch klein und fremder Hilfe bedürftig war, der noch nicht sprechen konnte und sich in nichts von der Kindesnatur, wie sie allen Menschen eigen ist, unterschied.^pGenau so wie jene Zeugnisse zuverlässig waren, die in ihm die Majestät der unsichtbaren Gottheit bestätigen sollten, so musste es auch ganz sicher sein, dass das Wort Fleisch geworden war {5#vgl. Joh 1,14}, dass die ewige Wesenheit des Gottessohnes die wahre menschliche Natur angenommen hatte.",
+            "patr_resp1": "Drei kostbare Geschenke bringen die Weisen dem Herrn am heutigen Tag; sie haben eine geheimnisvolle, heilige Bedeutung:",
+            "patr_resp2": "Im Gold wird uns die Macht des Königs dargestellt, im Weihrauch erkenne den Hohenpriester, in der Myrrhe aber das Begräbnis des Herrn.",
+            "patr_resp3": "Die Könige von Tarschisch und von den Inseln bringen Geschenke, die Könige von Saba und Seba kommen mit Gaben."
+          },
+          "Laudes": {
+            "button": "Übertragung der Reliquien der°Heiligen°Drei°Könige",
+            "hymn_1": 8723.502,
+            "psalm1": 63.0,
+            "psalm2": 160.0,
+            "psalm3": 149.0,
+            "ant1": "Drei Geschenke brachten die Weisen dem Herrn, dem Sohne Gottes, dem großen König: Gold, Weihrauch, Myrrhe.",
+            "ant2": "Mit großer Freude schauten die Weisen den Stern. Sie traten in das Haus und taten ihre Schätze auf: Gold, Weihrauch und Myrrhe.",
+            "ant3": "Dieser Stern leuchtet auf wie loderndes Feuer. Er zeigt Gott an, den König der Könige. Die Weisen sahen den Stern und brachten dem König ihre Gaben dar.",
+            "les_buch": "Jes",
+            "les_stelle": "65,1",
+            "les_text": "Ich war zu erreichen für die, die nicht nach mir fragten; ich war zu finden für die, die nicht nach mir suchten. Ich sagte: Hier bin ich, hier bin ich! zu einem Volk, das meinen Namen nicht anrief.",
+            "resp1": "Die Könige von Tarschisch und von den Inseln,",
+            "resp2": "sie bringen Geschenke.",
+            "resp3": "Die Könige von Saba und Seba kommen mit Gaben.",
+            "antev": "Die Weisen aus dem Morgenland kamen nach Betlehem, um dem Herrn zu huldigen. Sie taten ihre Schätze auf und brachten ihm ihre Gaben dar: Gold dem König, Weihrauch dem wahren Gott und Myrrhe für sein Begräbnis.",
+            "bitten_e": "Lasset uns beten zu unserem Erlöser, den die Weisen angebetet haben:",
+            "bitten_r": "Du Licht vom Licht, erhelle unseren Tag.",
+            "bitten": "Christus, geoffenbart im Fleisch,^qheilige die Welt durch dein Wort.^pChristus, gerechtfertigt im Geist,^qschenke uns deinen Heiligen Geist.^pChristus, geschaut von den Engeln,^qlass uns die Freuden des Himmels erfahren.^pChristus, verkündet unter den Heiden,^qöffne die Herzen der Menschen für dein Wort.^pChristus, geglaubt in der Welt,^qerneuere den Glauben in allen, die sich zu dir bekennen.^pChristus, aufgenommen in die Herrlichkeit,^qentzünde in uns die Sehnsucht nach deinem Reich."
+          },
+          "Vesper": {
+            "comm_1": "Mann",
+            "hymn_1": 8723.504,
+            "ant1": "Drei Geschenke brachten die Weisen dem Herrn, dem Sohne Gottes, dem großen König: Gold, Weihrauch, Myrrhe.",
+            "ant2": "Mit großer Freude schauten die Weisen den Stern. Sie traten in das Haus und taten ihre Schätze auf: Gold, Weihrauch und Myrrhe",
+            "ant3": "Dieser Stern leuchtet auf wie loderndes Feuer. Er zeigt Gott an, den König der Könige. Die Weisen sahen den Stern und brachten dem König ihre Gaben dar.",
+            "les_buch": "Jes",
+            "les_stelle": "2,2-3",
+            "les_text": "Am Ende der Tage wird es geschehen: Der Berg mit dem Haus des Herrn steht fest gegründet als höchster der Berge; er überragt alle Hügel. Zu ihm strömen alle Völker. Viele Nationen machen sich auf den Weg; sie sagen: Kommt, wir ziehen hinauf zum Berg des Herrn und zum Haus des Gottes Jakobs. Er zeigt uns seine Wege, auf seinen Pfaden wollen wir gehen. Denn von Zion kommt die Weisung des Herrn, aus Jerusalem sein Wort.",
+            "resp1": "Die Könige von Tarschisch und von den Inseln,",
+            "resp2": "sie bringen Geschenke.",
+            "resp3": "Die Könige von Saba und Seba kommen mit Gaben.",
+            "antev": "Wir haben seinen Stern im Osten gesehen und sind mit Geschenken gekommen, um dem Herrn zu huldigen.",
+            "bitten_e": "Lasset uns beten zu unserem Erlöser, dem die Weisen gehuldigt haben:",
+            "bitten_r": "Rette, o Herr, alle, die an dich glauben.",
+            "bitten": "König der Völker, du hast die Weisen als Erstlinge aus den Heiden berufen, dich anzubeten;^qschenke uns den Geist der Anbetung.^pKönig des Friedens, du richtest dein Volk in Gerechtigkeit;^qgib der Welt den Frieden.^pKönig der Ewigkeit, dein Reich überdauert alle Geschlechter;^qlass dein Wort unser Herz durchdringen, wie der Regen in die Erde dringt.^pKönig der Gerechtigkeit, du befreist den Armen, der keinen Helfer hat;^qerbarme dich der Entrechteten und Unterdrückten.^pKönig des Lebens, dein Name sei gepriesen auf ewig;^qführe die Verstorbenen zur ewigen Vollendung."
+          }
+        },
+        "d2": {
+          "major": {
+            "comm_1": "MärtSg",
+            "comm_2": "Hirten",
+            "oration": "Gütiger Gott, du belohnst die Treue deiner Diener. Du hast den heutigen Tag durch das Blutzeugnis des heiligen Apollinaris geheiligt; auf seine Fürsprache schenke uns bei dieser Feier deine versöhnende Liebe. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Hippolyt",
+            "patr_werk": "Aus der Apostolischen Tradition des heiligen Hippolyt (31,1-2: G. Dix, The Apostolic Tradition of St. Hippolythus, London 1937, 2-6.)",
+            "patr_text": "^hAltchristliche Bischofsweihe^pZum Bischof soll geweiht werden, wer vom ganzen Volk erwählt ist. Wenn er ernannt ist und allen gefallen hat, soll sich das Volk mit dem Presbyterium und den anwesenden Bischöfen am Herrentag versammeln. Unter Zustimmung aller sollen die Bischöfe ihm die Hände auflegen, während das Presbyterium ruhig dabeistehe. Alle mögen still für sich um die Herabkunft des Heiligen Geistes beten. Einer der anwesenden Bischöfe soll dann, von allen darum gebeten, dem, der zum Bischof geweiht wird, die Hände auflegen und beten:^p„Gott, du Vater unseres Herrn Jesus Christus, du Vater der Barmherzigkeit und Gott allen Trostes, du wohnst in der Höhe und schaust herab auf das Niedrige, du weißt alles, ehe es geschieht. Du hast der Kirche Ordnungen gesetzt durch das Wort deiner Gnade, hast das von Anbeginn bestehende Geschlecht der Gerechten seit Abraham vorherbestimmt, hast Vorsteher und Priester eingesetzt und dein Heiligtum nicht ohne Dienst gelassen; du hast seit Grundlegung der Welt Gefallen daran gehabt, von denen, die du erwählt hast, gepriesen zu werden. So gieße nun aus die Kraft, die von dir stammt: den Geist des Vorsteheramtes, den du durch deinen geliebten Sohn Jesus Christus deinen heiligen Aposteln geschenkt hast, welche die Kirche an den einzelnen Orten deines Heiligtums begründet haben zum Preis und unaufhörlichen Lob deines Namens. Gib, aller Herzen kundiger, diesem deinem Diener, den du zum Bischofsamt erwählt hast, die Kraft deine heilige Herde zu weiden, dir Hohenpriesterdienst zu leisten, tadellos bei Tag und Nacht, unaufhörlich dein Antlitz zu versöhnen, die Opfergaben deiner heiligen Kirche darzubringen, im hohenpriesterlichen Geist die Gewalt der Sündenvergebung gemäß deinem Gebot auszuüben, Stellen zu vergeben nach deinem Befehl, jedes Band zu lösen nach der Vollmacht, die du den Aposteln verliehen hast. Er soll dir wohlgefällig sein in Sanftmut und mit reinem Herzen, indem er dir lieblichen Wohlgeruch darbringt. Durch deinen Knecht Jesus Christus, unseren Herrn, durch den dir Ruhm und Macht und Ehre ist mit dem Heiligen Geist – jetzt, immerdar und in alle Ewigkeit. Amen.\" Dann geben alle dem Neugeweihten den Friedensgruß und grüßen ihn, der nun würdig geworden ist.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir eine große Aufgabe übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Apollinaris",
+            "farbe": "r"
+          }
+        }
+      },
+      "8": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Herr, unser Gott, du hast uns in den heiligen Blutzeugen Johannes und seinen Gefährten ein strahlendes Vorbild des Glaubens und der Tapferkeit geschenkt. Lass uns durch ihre Predigt und ihr Beispiel den Anfechtungen der Welt mutig widerstehen und den wahren Glauben unerschütterlich bekennen. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Origines",
+            "patr_werk": "Aus der Schrift „Aufforderung zum Blutzeugnis“.",
+            "patr_text": "^hWer am Leiden Christi teilhat, der hat auch teil am Trost^pWir wissen, dass wir aus dem Tod in das Leben hinübergegangen sind{1#1 Joh 3,14}, dadurch, dass wir vom Unglauben zum Glauben gekommen sind. Darum dürfen wir uns nicht wundern, dass die Welt uns hasst.{2#vgl. 1 Joh 3,1} Denn keiner, der den Übergang vom Tod zum Leben nicht vollzogen hat, sondern im Tod verharrt, kann die Menschen lieben, die sozusagen vom finsteren Haus des Todes zum Palast des Lichtes und des Lebens gegangen sind, der aus lebendigen Steinen gefertigt ist.^pJesus „hat sein Leben für uns hingegeben\"{3#vgl. 1 Joh 3,16}. So wollen auch wir es geben, ich will nicht einmal sagen: für ihn, sondern: für uns, ich denke für die, welche durch unser Zeugnis erbaut werden sollen.^pDie Zeit ist gekommen, da die Christen sich rühmen dürfen. Es heißt: „Mehr noch, wir rühmen uns ebenso unserer Bedrängnis; denn wir wissen, Bedrängnis bewirkt Geduld, Geduld aber Bewährung, die Bewährung Hoffnung. Die Hoffnung aber lässt nicht zugrunde gehen; denn die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns gegeben ist\"{4#Röm 5,3-5}…^p„Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.\"{5#2 Kor 1,7} Wenn wir so die Leiden Christi mit höchster Bereitwilligkeit annehmen, sollen sie uns überreich zuteil werden, wenn wir nach überreichem Trost verlangen, mit dem alle Leidenden getröstet werden, vielleicht nicht in gleichem Maß; denn wenn der Trost gleich groß wäre, dann hieße es in der heiligen Schrift nicht: „Wie uns die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil\". In dem Maß, in dem uns die Leiden Christi zuteil werden, in demselben Maß wird uns auch der Trost zuteil. Das lernt von dem, der in voller Zuversicht gesagt hat: „Wir sind sicher, dass ihr mit uns nicht nur an den Leiden teilhabt, sondern auch am Trost.\"{6#2 Kor 1,7}^pDurch den Propheten sagt Gott: „Zur Zeit der Gnade will ich dich erhören, am Tag der Rettung dir helfen.\"{7#Jes 49,8; 2 Kor 6,2} Welche Zeit ist aber mehr 'Zeit der Gnade' als diese, da wir um unserer christlichen Gottesliebe willen unter Bewachung im Triumphzug dieser Welt mitziehen müssen, dabei aber selber eher triumphieren als im Triumphzug der Welt gefangen geführt werden? Die Märtyrer in Christus berauben mit Christus die Herrschaften und Mächte, mit Christus triumphieren sie über sie; denn wie die Märtyrer an den Leiden teilhatten, so auch an der Tapferkeit des Leidens. Welcher Tag ist also so sehr Tag des Heils wie der, an dem wir aus diesem Leben scheiden?^pDoch ich ermahne euch: Gebt niemand den geringsten Anstoß, „damit unser Dienst nicht getadelt werden kann\"{8#2 Kor 6,3}, sondern erweist euch in allem als Gottes Diener durch große Standhaftigkeit und sprecht: „Und nun, Herr, worauf soll ich hoffen? Auf dich allein will ich harren.\"{9#Ps 39,8}",
+            "patr_resp1": "Wir haben nicht gegen Menschen von Fleisch und Blut zu kämpfen, sondern gegen die Fürsten und Gewalten.",
+            "patr_resp2": "Seid standhaft, gürtet euch mit der Wahrheit.",
+            "patr_resp3": "Darum legt die Rüstung Gottes an, damit ihr am Tag des Unheils bestehen könnt."
+          },
+          "Laudes": {
+            "button": "Hl. Johannes von Köln",
+            "farbe": "r"
+          }
+        }
+      },
+      "9": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du Hirt deiner Gläubigen, du hast den heiligen Agilolf zum Bischof in der Kirche bestellt, dass er deiner Herde die frohe Botschaft künde und die Priester durch eigenes Beispiel in der Treue festige. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er verkündet hat, und dem Weg der Liebe zu folgen, den er vorangegangen ist. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Zacharias († 752)",
+            "patr_werk": "Aus einem Brief Papst Zacharias an die Bischöfe des fränkischen Reiches (748) (MGH Epistolae selectae, 1,183-184)",
+            "patr_text": "^hEinheit der Ortskirchen mit dem Stuhl Petri^pIch danke Gott, dem allmächtigen Vater, seinem Sohn, dem Herrn Jesus Christus, und dem Heiligen Geist, der über euch seine Gnade ausgegossen und euer Herz entflammt hat, damit ihr euren Weg geht in der Einheit des Glaubens und im Band des Friedens. Meine Lieben, der Lichtglanz des Herrn, unseres Gottes, sei über euch und die Gnadenfülle des Friedens und der Liebe, damit ihr seid der eine Leib eurer geistlichen Mutter, der heiligen, katholischen und apostolischen Kirche Gottes, der wir nach seinem Willen vorstehen.^pErfüllt so das prophetische Wort: „Seht doch, wie gut und schön es ist, wenn Brüder miteinander in Eintracht leben!\" (Ps 133/132,1). Obwohl wir wegen der weiten Entfernung leiblich abwesend sind, so weilen wir doch im Geist der Liebe immer unter euch, haben euch ins Herz geschlossen und beten unablässig für euch, dass unser Gott und Herr Jesus Christus euer Herz noch mehr stärke und festige für die Verkündigung des Evangeliums in dem Amt, das ihr ausübt; so soll das euch anvertraute Volk durch eure gläubige Predigt mit Gottes Hilfe frei werden von allem Satansbetrug und sein Heil finden, ihr aber sollt für seine Seelen am Tag Christi den Lohn erhalten. Denn es steht geschrieben: „Die Söhne der Weisheit bilden die Gemeinde der Gerechten; Gehorsam und Liebe sind ihre Kinder\" (Sir 3,1 Vg). Ich bitte euch also, Geliebte, ein Leben zu führen, das des Rufes würdig ist, der an euch erging, wie es sich für Heilige geziemt: Seid geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden und die Liebe (vgl. Eph 4,1-3), denn das Ziel der Unterweisung ist Liebe aus reinem Herzen, gutem Gewissen und ungeheucheltem Glauben (1 Tim 1,5).^pIch freue mich über euch, ihr Lieben, weil eure Treue zu uns und eure Einheit mit uns kostbar sind und offenkundig nicht nur vor Gott, sondern auch vor allen Menschen, seit ihr euch eurem gottgesetzten Gönner und Lehrer, dem Apostelfürsten Petrus, wohlwollend zugewandt habt. Löblich sind euer Glaube und euer guter Ruf, weil ihr das erkannt habt, was man erkennen soll. Jetzt ist dank Gottes Werk eure Heiligkeit unserer Gemeinschaft in der einen Herde zugestellt, und wir haben den einen Hirten, der von dem Hirten aller Hirten, dem Herrn, unserem Gott und Erlöser, als erster der Apostel und als unser Lehrer eingesetzt worden ist. An unserer Stelle habt ihr den heiligsten und ehrwürdigen Erzbischof Bonifatius, Legat des Apostolischen Stuhls und unseren persönlichen Vertreter, der euch in der Liebe stärkt und mit euch arbeitet bei der Verkündigung des Evangeliums Christi.^pSeid also standhaft gegen alle Anfechtungen durch jene, die Feindliches sinnen und nicht das, was von Gott kommt. Dann wird eure Standhaftigkeit fester sein als Felsen, wie geschrieben steht: „Erschreckt nicht und fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können\" (vgl. Mt 10,28).^pUnser Gott und Herr Jesus Christus schenke euch Frieden und Gnade in reichem Maße! Als wären wir anwesend, umarmen und küssen wir euch, ihr Lieben, in der Einheit des Geistes, im Band des Friedens und der Liebe Christi. Gott behüte euch, Geliebte!",
+            "patr_resp1": "Wir waren euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben;",
+            "patr_resp2": "denn ihr wart uns sehr lieb geworden.",
+            "patr_resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
+          },
+          "Laudes": {
+            "button": "Hl. Agilolf"
+          }
+        }
+      }
+    },
+    "10": {
+      "10": {
+        "d1": {
+          "Laudes": {
+            "referenz": "Köln-10-10-oblig",
+            "button": "Hl. Gereon und Gefährten (in°der°Stadt°Köln)",
+            "ant2": "Das heilige Köln ist geweiht durch das Blut der Märtyrer, zum Heil für das heutige, zum Schutz für das kommende Geschlecht.",
+            "ant3": "Freu dich, glückliches Köln, und lobe Gott: Er hat dir so viele Heilige gegeben als Bollwerk gegen die Feinde."
+          },
+          "Vesper": {
+            "ant2": "Das heilige Köln ist geweiht durch das Blut der Märtyrer, zum Heil für das heutige, zum Schutz für das kommende Geschlecht.",
+            "ant3": "Freu dich, glückliches Köln, und lobe Gott: Er hat dir so viele Heilige gegeben als Bollwerk gegen die Feinde."
+          }
+        },
+        "d2": {
+          "each": {
+            "comm_1": "MärtPl",
+            "oration": "Gott, du hast den Grund zur Festfreude des heutigen Tages geschenkt, an dem wir das Blutzeugnis der heiligen Cassius und Florentius feiern. Du hast sie durch den Sieg des Martyriums zur ewigen Freude geführt, so schenke auch uns ewigen Lohn bei dir.^ORV"
+          },
+          "major": {
+            "oration": "Gott, du hast den Grund zur Festfreude des heutigen Tages geschenkt, an dem wir das Blutzeugnis der heiligen Cassius und Florentius feiern. Du hast sie durch den Sieg des Martyriums zur ewigen Freude geführt, so schenke auch uns ewigen Lohn bei dir.^ORV"
+          },
+          "ErsteV": {
+            "hymn_1": 9010.1,
+            "ant1": "Der Herr Jesus Christus, siegreich in seinem Leiden, hat die thebäische Legion erwählt, seinen Namen zu verherrlichen.",
+            "ant2": "Diese Männer, berühmt durch Tapferkeit, berühmter noch durch Glaubenskraft, befolgen auch als Soldaten des Evangeliums Gebote.",
+            "ant3": "Die Schar der Heiligen war entschlossen, lieber zu sterben als Christus zu verlassen und dem heilbringenden Glauben zu entsagen.",
+            "les_buch": "1 Petr",
+            "les_stelle": "4,13-14",
+            "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr selig zu preisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+            "resp1": "Freut euch im Herrn",
+            "resp2": "und jauchzet, ihr Gerechten.",
+            "resp3": "Jubelt alle, ihr Menschen mit redlichem Herzen.",
+            "antev": "Selig die Leiber der Märtyrer: Für Christus wurden sie niedergeworfen, nun ruhen sie hier. Ihre Seelen siegten mit ihm; er hat sie aufgenommen zu sich, nun herrschen sie im Himmel mit den Engeln."
+          },
+          "Laudes": {
+            "referenz": "Köln-10-10-oblig",
+            "button": "Hl. Cassius und hl.°Florentinus (Hochfest°in°Bonn)"
+          },
+          "Terz": {
+            "ant0": "Der Herr Jesus Christus, siegreich in seinem Leiden, hat die thebäische Legion erwählt, seinen Namen zu verherrlichen.",
+            "les_buch": "Weish",
+            "les_stelle": "3,5-6",
+            "les_text": "Gott hat sie geprüft und fand sie seiner würdig. Wie Gold im Schmelzofen hat er sie erprobt und sie angenommen als ein vollgültiges Opfer.",
+            "resp0": "Freut euch im Herrn und jauchzet, ihr Gerechten.",
+            "resp1": "Jubelt alle, ihr Menschen mit redlichem Herzen."
+          },
+          "Sext": {
+            "ant0": "Diese Männer, berühmt durch Tapferkeit, berühmter noch durch Glaubenskraft, befolgen auch als Soldaten des Evangeliums Gebote.",
+            "les_buch": "Weish",
+            "les_stelle": "10,17",
+            "les_text": "Gott gab den Heiligen den Lohn ihrer Mühen und geleitete sie auf wunderbarem Weg. Er wurde ihnen am Tag zum Schutz und in der Nacht zum Sternenlicht.",
+            "resp0": "Die Gerechten leben in Ewigkeit.",
+            "resp1": "Für immer wird der Herr ihr Lohn sein."
+          },
+          "Non": {
+            "ant0": "Die Schar der Heiligen war entschlossen, lieber zu sterben als Christus zu verlassen und dem heilbringenden Glauben zu entsagen.",
+            "les_buch": "Weish",
+            "les_stelle": "3,7-8",
+            "les_text": "Beim Endgericht werden sie aufleuchten, als ob Funken durch ein Stoppelfeld sprühen. Sie werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit.",
+            "resp0": "In festlichem Glanz frohlocken die Heiligen.",
+            "resp1": "Sie freuen sich an der Stätte ihrer Ruhe."
+          }
+        },
+        "oblig": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Gott, du hast den Grund zur Festfreude des heutigen Tages geschenkt, an dem wir das Blutzeugnis des heiligen Gereon und seiner Gefährten feiern. Du hast sie durch den Sieg des Martyriums zur ewigen Freude geführt, so schenke auch uns ewigen Lohn bei dir.^ORV"
+          },
+          "Invitatorium": {
+            "ant0": "Den Herrn, den König der Märtyrer, kommt, wir beten ihn an!"
+          },
+          "Lesehore": {
+            "hymn_1": 9010.1,
+            "resp1": "Dir, dem König der Könige, huldigen wir, denn du wirkst Wunder in deinen Heiligen. Dich, Christus, loben wir, denn du vollbringst machtvolle Taten.",
+            "resp2": "Von dir her strömt wie aus frischer Quelle der Ruhm deiner Heiligen.",
+            "resp3": "Dein Volk ehrt und preist dich, denn von dir kommt all seine Kraft.",
+            "patr_autor": "Helinand († nach 1229)",
+            "patr_werk": "Prolog zur Passio der thebäischen Märtyrer.",
+            "patr_text": "^p^hFröhlich in der Hoffnung, geduldig in der Bedrängnis^pDieser Tag lädt uns ein, die heilige Legion der thebäischen Märtyrer festlich zu preisen, der Tag, an dem wir die kostbaren Vertreter dieser Gemeinschaft, Gereon, Victor, Cassius, Florentius und ihre Gefährten verehren. Denn in der Freude des ewigen Lohnes sind sie vereint, die gemeinsam standhaft geblieben sind in ihrem siegreichen Leiden. Denn obgleich sie nicht an dem selben Tag und an dem selben Ort die Herrlichkeit des Märtyrertodes erlangten, hatten sie doch nach dem Wort des Apostels den einen Herrn, den einen Glauben, die eine Taufe, den einen Gott und Vater aller {1#vgl. Eph 4,5 f}, den Gott, der in Ewigkeit gepriesen wird. Ihm dienten sie alle mit gleicher Absicht, gleicher Hingabe und fruchtbarer Ausdauer; so erfüllten sie das Wort des Psalmensängers: „Gott nahe zu sein ist mein Glück; ich setze auf Gott, den Herrn, mein Vertrauen“ {2#Ps 73,28}. Standhaft und einmütig bedachten sie die höchste Liebe, die Gott ist, mit dem Herzen glaubend zur Gerechtigkeit, mit dem Mund bekennend zum Heil {3#vgl. Röm 10,10}, und bereiteten sich mit Willen und Tat vor auf die unerschrockene Haltung des Apostels: „Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert?“ {4#Röm 8,35}. Sie fügten auch den Grund ihres sicheren Vertrauens hinzu: „Doch all das überwinden wir durch den, der uns geliebt hat“ {5#Röm 8,37}.^pEs soll sich niemand daran stören, dass wir in dieser unserer Aufzählung die Taten der einzelnen thebäischen Märtyrer und ihren heiligen Kampf für den Christusglauben nicht vollständig nach Art der Historiker darlegen.^pDenn mit dieser Rede haben wir uns vorgenommen, die Herzen der Zuhörer mit uns zusammen zur geistlichen Freude hinzuführen; sie sollen durch die Sehnsucht nach himmlischen Dingen entflammt werden und so mehr danach streben, durch aufbauende Liebe auf dem Weg zur Gemeinschaft mit den Märtyrern vorwärts zu kommen, als durch aufgeblasenes Wissen den Genuss der ewigen Freude zu verlieren.^pNach dem siegreichen Leiden des seligen Mauritius (Wallis) hat die wunderbare Vorsehung des allmächtigen Gottes diese berühmten Sieger noch eine Weile aufbewahrt – fröhlich in der Hoffnung, geduldig in der Bedrängnis. So weit es menschlichem Forschen gegeben ist, können wir vermuten, dass sie umso glücklicher die Frucht der ewigen Freude ernten sollten, je mehr sie in Tränen gesät hatten {6#vgl. Ps 127,5}. Und je länger sie das Beispiel der um Christi Namen willen übernommenen Mühe ausdehnen, umso mehr sollten sie zur Nachahmung ihrer Standhaftigkeit und Großherzigkeit anspornen, da sie selbst doch endlich, die Herzen zum Himmel erhoben, in jenem Wunsch des Apostels erglühten: „Ich sehne mich danach, aufzubrechen und bei Christus zu sein – um wie viel besser wäre das!“ {7#Phil 1,23}. Tatsächlich blieben schon kurze Zeit nach ihrem Martyrium in der Provinz, in der sie gelitten hatten, nur noch wenige zurück, die nicht glühend dasselbe wünschen, was ihnen früher Schrecken eingeflößt hätte, so als ob der enge Weg vorher nicht begehbar gewesen wäre, der nun durch die Fußspuren so vieler Vorangehender gebahnt war.",
+            "patr_resp1": "Dem Kaiser geben wir, was dem Kaiser gehört, und Gott, was Gott gehört. Christus verehren wir, keinem anderen Gott können wir dienen als ihm allein.",
+            "patr_resp2": "Denn er ist Gott, gepriesen in Ewigkeit.",
+            "patr_resp3": "Die heilige Schar wollte ihr Haupt nicht beugen vor Göttern, sie betete Christus an."
+          },
+          "Laudes": {
+            "button": "Hl. Gereon und Gefährten",
+            "farbe": "r",
+            "hymn_1": 9010.2,
+            "hymn_2": 9010.1,
+            "psalm1": 63.0,
+            "psalm2": 160.0,
+            "psalm3": 149.0,
+            "ant1": "Der Herr Jesus Christus, siegreich in seinem Leiden, hat die thebäische Legion erwählt, seinen Namen zu verherrlichen.",
+            "ant2": "Diese Männer, berühmt durch Tapferkeit, berühmter noch durch Glaubenskraft, befolgen auch als Soldaten des Evangeliums Gebote.",
+            "ant3": "Die Schar der Heiligen war entschlossen, lieber zu sterben als Christus zu verlassen und dem heilbringenden Glauben zu entsagen.",
+            "les_buch": "2 Kor",
+            "les_stelle": "1,3-5",
+            "les_text": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in aller Not, damit auch wir die Kraft haben, alle zu trösten, die in Not leben, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
+            "resp1": "Die Gerechten leben in Ewigkeit,",
+            "resp2": "für immer wird der Herr ihr Lohn sein.",
+            "resp3": "Sie empfangen das Reich der Herrlichkeit und die Krone der Schönheit.",
+            "antev": "Das Himmelreich gehört den Zeugen Christi, die ihre Kleider wuschen im Blut des Lammes. Das Leben dieser Welt verschmähten sie und gewannen als Preis das ewige Leben."
+          },
+          "Vesper": {
+            "hymn_1": 9010.1,
+            "ant1": "Der Herr Jesus Christus, siegreich in seinem Leiden, hat die thebäische Legion erwählt, seinen Namen zu verherrlichen.",
+            "ant2": "Diese Männer, berühmt durch Tapferkeit, berühmter noch durch Glaubenskraft, befolgen auch als Soldaten des Evangeliums Gebote.",
+            "ant3": "Die Schar der Heiligen war entschlossen, lieber zu sterben als Christus zu verlassen und dem heilbringenden Glauben zu entsagen.",
+            "les_buch": "1 Petr",
+            "les_stelle": "4,13-14",
+            "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr selig zu preisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+            "resp1": "Freut euch im Herrn",
+            "resp2": "und jauchzet, ihr Gerechten.",
+            "resp3": "Jubelt alle, ihr Menschen mit redlichem Herzen.",
+            "antev": "Selig die Leiber der Märtyrer: Für Christus wurden sie niedergeworfen, nun ruhen sie hier. Ihre Seelen siegten mit ihm; er hat sie aufgenommen zu sich, nun herrschen sie im Himmel mit den Engeln."
+          }
+        }
+      },
+      "21": {
+        "oblig": {
+          "major": {
+            "comm_1": "Jgfr",
+            "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Wir bitten dich für die Gläubigen der Kirche von Köln, wo die Jungfrauen ihr Leben für Christus geopfert haben, und für alle Christen: Stärke ihr Hoffnung auf die Auferstehung und gib ihnen ewige Gemeinschaft mit den Heiligen.^ORV"
+          },
+          "ErsteV": {
+            "hymn_1": 9021.4,
+            "ant1": "Die heilige Ursula und ihre Gefährtinnen gelobten Gott unversehrte Jungfräulichkeit.",
+            "ant2": "Die heilige Jungfrau Ursula führte ihre ganze Schar zur himmlischen Siegeskrone.",
+            "ant3": "Lieber wollten sie sterben, als von Christus, ihrem Bräutigam, getrennt zu werden.",
+            "les_buch": "Offb",
+            "les_stelle": "12,11-12",
+            "les_text": "Sie haben gesiegt durch das Blut des Lammes und durch das Wort ihres Zeugnisses. Sie hielten ihr Leben nicht fest, bis hinein in den Tod. Darum jubelt, ihr Himmel, und alle, die in ihm wohnen!",
+            "resp1": "Mein Anteil ist der Herr,",
+            "resp2": "auf ihm ruht mein Vertrauen.",
+            "resp3": "Der Herr ist gütig zur Seele, die ihn sucht.",
+            "antev": "Selig die Leiber der Jungfrauen: Für Christus wurden sie niedergeworfen, nun ruhen sie hier. Ihre Seelen siegten mit ihm; er hat sie aufgenommen zu sich, nun herrschen sie im Himmel mit den Engeln.",
+            "bitten_e": "Lasst uns beten zu Jesus Christus, denn er ist die Freude und die Hoffnung der Menschen, die jungfräulich leben um des Himmelreiches willen:",
+            "bitten_r": "Christus, du König der Jungfrauen, erhöre uns.",
+            "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat deine Braut, die Kirche, dir die Treue gehalten;^qgib allen Christen die Gnade, den Glauben unverfälscht zu bewahren.^pDu schenkst der Kölner Kirche die Freude, das Fest der heiligen Ursula und ihrer Gefährtinnen zu feiern;^qlass uns Hilfe und Trost finden durch ihr fürbittendes Gebet.^pDir gingen die heiligen Jungfrauen mit brennenden Lampen entgegen;^qgib, dass die Ordensfrauen in deinem Dienst ausharren.^pDu hast die heiligen Jungfrauen aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
+          },
+          "Invitatorium": {
+            "ant0": "Den König der Könige, den Herrn, kommt, wir beten ihn an: denn er ist die Krone der heiligen Jungfrauen."
+          },
+          "Lesehore": {
+            "hymn_1": 9021.1,
+            "ant1": "Sie gaben ihren Leib hin in den Tod; nun dürfen sie ewige Kronen tragen.",
+            "ant2": "Die Schar der heiligen Jungfrauen blieb nach Gottes Willen ihrem Stand treu bis in den blutigen Tod.",
+            "ant3": "Erhaben ist die Jungfräulichkeit: Sie strahlt in den Märtyrern, sie selbst bringt Märtyrer hervor.",
+            "versikel0": "Du zeigst mir den Pfad zum Leben.",
+            "versikel1": "Vor deinem Angesicht herrscht Freude in Fülle.",
+            "les_buch": "Aus dem zweiten Korintherbrief.",
+            "les_stelle": "4,6-18",
+            "les_text": "^hLeidensgemeinschaft mit Christus^pGott, der sprach: Aus Finsternis soll Licht aufleuchten, er ist in unseren Herzen aufgeleuchtet, damit wir erleuchtet werden zur Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi. Diesen Schatz tragen wir in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt. Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum; wir wissen weder aus noch ein und verzweifeln dennoch nicht; wir werden gehetzt und sind doch nicht verlassen; wir werden niedergestreckt und doch nicht vernichtet. Wohin wir auch kommen, immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.^pSo erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben, darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch vor sein Angesicht stellen wird.^pAlles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen, Gott zur Ehre.^pDarum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.",
+            "resp1": "Wir sind Erben Gottes und Miterben Christi,",
+            "resp2": "wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden.",
+            "resp3": "Die Leiden der gegenwärtigen Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll.",
+            "patr_autor": "^A:Köln-10-21:Joseph Teusch († 1976)",
+            "patr_werk": "Aus einer Predigt von Joseph Teusch († 1976)",
+            "patr_text": "^hDas Blut der Märtyrer ist der Same neuer Christen^pIm letzten Buch der Heiligen Schrift, der Geheimen Offenbarung, schreibt Johannes: „Dann schaute ich auf, und siehe da: eine große Schar, die niemand zu zählen vermochte, aus allen Völkern und Stämmen und Zungen und Sprachen. Sie trugen weiße Gewänder und Palmen in den Händen. Sie standen vor dem Thron und dem Lamm“ (Offb 7,9). Jetzt erlebt Johannes einen Gottesdienst im Himmel: „Die mit den weißen Gewändern rufen mit gewaltiger Stimme: Heil unserem Gott, der auf dem Thron sitzt, und dem Lamm“ (ebd. 7,10).^pDie mit den weißen Gewändern sind die Märtyrer aus allen Völkern und Jahrhunderten. Jetzt ist die irdische Not vergangen, Verfolgte und Verfolger sind nicht mehr auf der Erde zu finden, und für die Verfolgten beginnt das neue Leben mit Gott und in Gott.^pNun erheben wir unsere Augen und schauen mitten hinein in die Vision des Johannes. Da sehen wir Bekannte, Jungfrauen aus Köln: Ursula und ihre Schar. Sie steht da mit den vielen Tausenden, die Opfer der Verfolgung des Römischen Reiches geworden sind.^pWenn wir aber die große Schar schauen, die niemand zu zählen vermag, dann erkennen wir, dass die Märtyrer aus unserem Jahrhundert zahlreicher sind als die Märtyrer aus den übrigen Jahrhunderten zusammengenommen. Wir sind eine Kirche der Märtyrer und eine Kirche der Bekenner.^pNach dem Vorbild und dem Auftrag Christi verbreitet sich der Glaube durch die Verkündigung. Der Verkündiger wird glaubhaft durch die Werke der Liebe: „Seht, wie sie einander lieben“, und: „Der Herr führte ihnen täglich Neue zu“ (Apg 2,47). Die Verkündigung wird aber auch glaubhaft durch das Martyrium. Wenn jemand Freiheit und Leben, Besitz und Einkommen, ja das Wohl der eigenen Familie aufs Spiel setzt, dann muss es ihm doch wohl ernst sein mit dem, was er verkündet. So hat sich schon früh in der Christenheit das Wort gebildet: „Das Blut der Märtyrer ist Same neuer Christen“.^pBis zum Jahr 313 von Geschlecht zu Geschlecht, unaufhörlich, ohne dass ein Ende abzusehen ist, Verfolgung über Verfolgung. Wenn dann 313 die äußere Freiheit kommt, hat das Römische Reich eine christliche Bürgerschaft, besonders in den Städten. Die heidnischen Restbestände werden weggegelebt. Die neu eintretenden Völker der Germanen und Slawen werden Christen. So sind die Grundlagen gelegt für das christliche Mittelalter, für das christliche Abendland. Wir verneigen uns vor Ursula und ihrer Schar und vor all den Märtyrern des Römischen Reiches.^pGläubige kann man töten, den Glauben nicht. Im Gegenteil: Das Blut der Märtyrer ist der Same neuer Christen.^pWenn wir jetzt das Fest zu Ehren der heiligen Ursula und ihrer Schar begehen, dann sind wir einbezogen in diesen großen Gottesdienst, den im Himmel die Chöre der Märtyrer und aller Heiligen und die Chöre der Engel feiern und zu dem hier Erde und Meer und alles, was darin ist, ihr Echo geben. Wir danken Gott dem Herrn, dass er die Chöre der Engel geschaffen und durch seinen Geist die Chöre der Märtyrer und der Heiligen aufgebaut hat; wir bitten ihn, dass derselbe Geist als Geist der mutigen Verkündigung, als Geist der tätigen Liebe, als Geist zumindest der Bereitschaft zu allem in uns lebendig bleibe.",
+            "patr_resp1": "Das sind jene, die für den Bund mit Gott ihren Leib hingegeben haben.",
+            "patr_resp2": "Ihre Gewänder haben sie gewaschen und im Blut des Lammes weiß gemacht.",
+            "patr_resp3": "Sie gaben ihren Leib den Marterqualen hin um Gottes willen, als Lohn erhielten sie ewige Kronen."
+          },
+          "Laudes": {
+            "button": "Hl. Ursula und Gefährtinnen",
+            "farbe": "r",
+            "hymn_1": 9021.2,
+            "hymn_2": 9021.1,
+            "hymn_3": 9021.4,
+            "psalm1": 63.0,
+            "psalm2": 160.0,
+            "psalm3": 149.0,
+            "ant1": "Die heilige Ursula und ihre Gefährtinnen gelobten Gott unversehrte Jungfräulichkeit.",
+            "ant2": "Die heilige Ursula führte ihre ganze Schar zur himmlischen Siegeskrone.",
+            "ant3": "Lieber wollten sie sterben, als von Christus, ihrem Bräutigam, getrennt zu werden.",
+            "les_buch": "Röm",
+            "les_stelle": "8,38-39",
+            "les_text": "Ich bin gewiss: Weder Tod noch Leben, weder Engel noch Mächte, weder Gegenwärtiges noch Zukünftiges, weder Gewalten der Höhe oder Tiefe noch irgendeine andere Kreatur können uns scheiden von der Liebe Gottes, die offenbart ist in Christus Jesus, unserem Herrn.",
+            "resp1": "Mein Herz denkt an dein Wort:",
+            "resp2": "„Suchet mein Antlitz!“",
+            "resp3": "Dein Angesicht, Herr, will ich suchen.",
+            "antev": "Ihr Chöre der Märtyrer, lobt den Herrn im Himmel.",
+            "bitten_e": "Lasst uns beten zu Jesus Christus, denn er ist der Ruhm und die Krone der Jungfrauen:",
+            "bitten_r": "Christus, du Krone der heiligen Jungfrauen, erhöre uns.",
+            "bitten": "Dir, ihrem Bräutigam, haben sich die heiligen Jungfrauen geweiht;^qgib, dass auch uns nichts von deiner Liebe trenne.^pDu hast Maria, deine Mutter, zur Königin der Jungfrauen erhoben;^qauf ihre Fürsprache hin schenke uns die Reinheit des Herzens.^pDie heiligen Jungfrauen haben dir mit ungeteiltem Herzen gedient;^qgib, dass auch uns nichts in dieser vergänglichen Welt hindere auf dem Weg zu dir.^pDu bist der Bräutigam, auf dessen Ankunft die klugen Jungfrauen gewartet haben;^qgib, dass wir stets wachsam deine Wiederkunft erwarten.^pDu hast den heiligen Jungfrauen Ursula und ihren Gefährtinnen Weisheit und Klugheit geschenkt;^qschenke auch uns auf ihre Fürsprache Weisheit und reines Leben."
+          },
+          "Terz": {
+            "ant0": "Die heilige Ursula und ihre Gefährtinnen gelobten Gott unversehrte Jungfräulichkeit.",
+            "les_buch": "1 Petr",
+            "les_stelle": "5,10-11",
+            "les_text": "Der Gott aller Gnade, der euch durch Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+            "resp0": "Herr, du hast sie gekrönt mit Herrlichkeit und Ehre.",
+            "resp1": "Du hast sie eingesetzt als Herrscher über das Werk deiner Hände."
+          },
+          "Sext": {
+            "ant0": "Die heilige Jungfrau Ursula führte ihre ganze Schar zur himmlischen Siegeskrone.",
+            "les_buch": "Offb",
+            "les_stelle": "7,14",
+            "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht.",
+            "resp0": "Judas Töchter freuen sich.",
+            "resp1": "Weil du ihnen Gerechtigkeit schenkst, o Herr."
+          },
+          "Non": {
+            "ant0": "Lieber wollten sie sterben, als von Christus, ihrem Bräutigam, getrennt zu werden.",
+            "les_buch": "Weish",
+            "les_stelle": "4,1",
+            "les_text": "Wie schön ist ein keusches Geschlecht voll Tugend! Unsterblich ist sein Ruhm; es steht in Ehren bei Gott und bei den Menschen.",
+            "resp0": "Der Herr hat sie erwählt, vor allen hat er sie erkoren.",
+            "resp1": "In seinem Zelt lässt er sie wohnen."
+          },
+          "Vesper": {
+            "hymn_1": 9021.4,
+            "ant1": "Die heilige Ursula und ihre Gefährtinnen gelobten Gott unversehrte Jungfräulichkeit.",
+            "ant2": "Die heilige Jungfrau Ursula führte ihre ganze Schar zur himmlischen Siegeskrone.",
+            "ant3": "Lieber wollten sie sterben, als von Christus, ihrem Bräutigam, getrennt zu werden.",
+            "les_buch": "Offb",
+            "les_stelle": "12,11-12",
+            "les_text": "Sie haben gesiegt durch das Blut des Lammes und durch das Wort ihres Zeugnisses. Sie hielten ihr Leben nicht fest, bis hinein in den Tod. Darum jubelt, ihr Himmel, und alle, die in ihm wohnen!",
+            "resp1": "Mein Anteil ist der Herr,",
+            "resp2": "auf ihm ruht mein Vertrauen.",
+            "resp3": "Der Herr ist gütig zur Seele, die ihn sucht.",
+            "antev": "Selig die Leiber der Jungfrauen: Für Christus wurden sie niedergeworfen, nun ruhen sie hier. Ihre Seelen siegten mit ihm; er hat sie aufgenommen zu sich, nun herrschen sie im Himmel mit den Engeln.",
+            "bitten_e": "Lasst uns beten zu Jesus Christus, denn er ist die Freude und die Hoffnung der Menschen, die jungfräulich leben um des Himmelreiches willen:",
+            "bitten_r": "Christus, du König der Jungfrauen, erhöre uns.",
+            "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat deine Braut, die Kirche, dir die Treue gehalten;^qgib allen Christen die Gnade, den Glauben unverfälscht zu bewahren.^pDu schenkst der Kölner Kirche die Freude, das Fest der heiligen Ursula und ihrer Gefährtinnen zu feiern;^qlass uns Hilfe und Trost finden durch ihr fürbittendes Gebet.^pDir gingen die heiligen Jungfrauen mit brennenden Lampen entgegen;^qgib, dass die Ordensfrauen in deinem Dienst ausharren.^pDu hast die heiligen Jungfrauen aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
+          }
+        }
+      },
+      "3": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Herr und Gott, du hast die heiligen Brüder Ewald als Zeugen deines Wortes zu den Sachsen gesandt. Durch ihr Martyrium und auf ihre Fürsprache bewege auch uns, im Leben zu bezeugen, was wir im Glauben bekennen. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Paul VI.",
+            "patr_werk": "Aus dem Apostolischen Schreiben »Evangelii nuntiandi«.",
+            "patr_text": "^hMission in der Kraft des Heiligen Geistes^pOhne das Wirken des Heiligen Geistes wird die Evangelisierung niemals möglich sein. Auf Jesus von Nazaret kommt der Heilige Geist bei der Taufe herab, als die Stimme des Vaters mit den Worten: „Das ist mein geliebter Sohn, an dem ich Gefallen gefunden habe\" (Mt 3,17), vernehmbar seine Auswählung und Mission offenbart. „Vom Geist geführt\" (Mt 4,1), durchlebt er in der Wüste die entscheidende Auseinandersetzung und letzte Prüfung vor Beginn dieser Sendung. „Erfüllt von der Kraft des Geistes kehrte er nach Galiläa zurück\" (Lk 4,14) und setzt in Nazaret den Anfang seiner Predigt, indem er auf sich selbst die Jesaja-Stelle anwendet: „Der Geist des Herrn ruht auf mir\" (Jes 61,1). „Heute\", so verkündet er, „hat sich das Schriftwort, das ihr eben gehört habt, erfüllt\" (Lk 4,21). Bei der Sendung der Jünger hauchte er sie an und sprach: „Empfangt den Heiligen Geist\" (Joh 20,22).^pErst nachdem der Heilige Geist am Pfingstfest auf sie herabgekommen war, brachen die Apostel zu den Grenzen der Erde auf, um mit dem großen Evangelisierungswerk der Kirche zu beginnen. Petrus deutet dieses Ereignis als die Verwirklichung der Weissagung des Joël: „Ich werde von meinem Geist ausgießen\" (Apg 2,17; Joël 3,1). Petrus ist vom Heiligen Geist erfüllt, um vor dem Volk von Jesus, dem Sohne Gottes, zu sprechen (vgl. Apg 4,8). Auch Paulus wird vom Heiligen Geist erfüllt, ehe er sich dem apostolischen Dienst hingibt (vgl. Apg 9,17); ebenso Stephanus, als er für das Diakonat erwählt wird und später zum Blutzeugnis (vgl. Apg 6,5.10; 7,55). Der Geist, der Petrus, Paulus und die Zwölf sprechen lässt und ihnen die Worte eingibt, die sie verkünden sollen, kommt auch „auf alle herab, die das Wort hören\" (Apg 10,44).^pIm Trost des Heiligen Geistes geschieht es, dass die Kirche sich auferbaut (vgl. Apg 9,31). Der Heilige Geist ist die Seele dieser Kirche. Er ist es, der den Gläubigen den tiefen Sinn der Lehre Jesu und seiner Geheimnisse erklärt. Er ist derjenige, der heute wie in den Anfängen der Kirche in jedem Verkünder handelt, der sich von ihm ergreifen und führen lässt; er legt ihm die Worte in den Mund, die er allein niemals finden könnte, und disponiert zugleich die Seele des Hörers, dass er offen sei und die Frohbotschaft und das ausgerufene Gottesreich annehme.^pMan könnte sagen, der Heilige Geist ist der Erstbeweger der Evangelisierung, er ist es, der jeden antreibt, das Evangelium zu verkünden, und er ist es auch, der die Heilsbotschaft in den Tiefen des Bewusstseins annehmen und verstehen lässt. Doch könnte man ebenso gut sagen, er sei das Ziel der Evangelisierung: er allein bewirkt die Neuschöpfung, die neue Menschheit, zu der die Evangelisierung führen soll.",
+            "patr_resp1": "Geht hinaus in die ganze Welt und verkündet das Evangelium allen Geschöpfen!",
+            "patr_resp2": "Wer glaubt und sich taufen lässt, wird gerettet.",
+            "patr_resp3": "Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen."
+          },
+          "Laudes": {
+            "button": "Die heiligen Brüder Ewald",
+            "farbe": "r"
+          }
+        }
+      },
+      "11": {
+        "oblig": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du Licht deiner Heiligen, du hast den heiligen Bischof Bruno als Boten des Friedens in Staat und Kirche gesandt. Auf seine Fürsprache gib, dass alle, die in Eintracht leben, den Frieden bewahren, und alle, die entzweit sind, durch deine friedensstiftende Liebe versöhnt werden. Durch Jesus Christus, deinen Sohn."
+          },
+          "Lesehore": {
+            "patr_autor": "Bruno von Köln",
+            "patr_werk": "Abschiedsworte des heiligen Bruno vor seinem Tod in Reims (Ruotger, Lebensbeschreibung des heiligen Erzbischofs Bruno von Köln, übers. v. Irene Schmale-Ott, Münster – Köln 1954, 79-81)",
+            "patr_text": "^hDreifaches Bekenntnis^pDrei Arten von Bekenntnis scheint es mir zu geben, durch die sich das Herz des Menschen für seinen Herrn und Gott öffnet, der die Herzen und heimlichen Gedanken kennt und durchforscht (vgl. Weish 1,6); nicht um es ihm, dem Allwissenden, klarer zu offenbaren, sondern damit jener, der sich allzu wenig kennt, sich selbst wahrhaftiger erkennt und entweder Gott wegen seiner Wohltaten lobt oder sich seiner eigenen Missetaten wegen anklagt.^pWenn man dies auch immer tun soll – so wird uns nämlich geboten zu wachen, damit der Dieb nicht komme zu einer Stunde, da er sich einschleichen und Schaden stiften kann, weil wir nicht wachsam sind –, so ist es doch dann, wenn der Herr des Hauses anklopft durch beschwerliche Krankheit, notwendig, dass der Geist sich mit aller Kraft aufrichte, sich mit ganzer Bereitwilligkeit zu seinem nahenden Richter erhebe, alle irdischen Wünsche in sich ertöte und in der Hoffnung auf das Überirdische entbrenne, an den ewigen Gütern, auch wenn er sie nicht verdient hat, keineswegs verzweifle, sich selbst misstraue, dem Herrn aber vertraue.^pSeht, geliebte Brüder, wie ihr erkennt, klopft es an der Pforte meines Herzens, ich werde gerufen, um über mein Werk Rechenschaft abzulegen. Wenn ihr etwas vermögt, so bitte ich euch: leiht mir euren Beistand, reicht mir die Hand eures Gebetes. Unsicher schwanke ich zwischen Furcht und Hoffnung, und ich muss darauf achten, mich nach keiner Seite allzu bereitwillig zu neigen. Aber was für Kräfte habe ich denn? Ich harre auf das Heilmittel der Barmherzigkeit, ich bin in der Hand meines Schöpfers, ich erwarte, dass mit mir geschehe, was ihm gefällt.^pWie schön ist es, den Herrn zu preisen (vgl. Ps 92/91,2); er waltet in Hoheit und Pracht (vgl. Ps 111/110,3). Denn nichts Gutes kann getan werden, ohne dass er es wirkt.^pEs gibt aber eine Art des Bekenntnisses, das nicht die Sünden beweint, dennoch aber das Erbarmen anfleht; von ihm sagt Gott in der Person des Psalmisten: „Wer Opfer des Lobes bringt, ehrt mich; wer rechtschaffen lebt, dem zeig ich mein Heil\" (Ps 50/4,23). Dieses Heil, das heißt den Herrn Jesus, bekenne ich mit dem Munde, und an ihn glaube ich mit dem Herzen (vgl. Röm 10,10), weil Gott ihn von den Toten erweckte. Ich erkenne an, dass hier alle Schätze der Weisheit und Erkenntnis verborgen sind (vgl. Kol 2,3). Ihn kann niemand den Herrn Jesus nennen, wenn er nicht aus dem Heiligen Geist redet (vgl. 1 Kor 12,3).^pVor ihm liegt all mein Sehnen offen, mein Seufzen ist ihm nicht verborgen (vgl. Ps 38/37,5). Ich sagte, ich will dem Herrn mein Unrecht bekennen (vgl. Ps 32/31,5); das ist die zweite Art des Bekenntnisses, zu klagen über seine Sünden.^pDie dritte Art des Bekenntnisses, die der heilige Apostel Jakobus empfiehlt, wenn er sagt: „Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet\" (Jak 5,16), die will ich mit euch zusammen, meine Herren und Brüder, vollziehen; um dieses bitte ich angsterfüllt. Ich hoffe aber, dass wir einen Beistand haben beim Vater, Jesus Christus, den Gerechten, und dass er selbst die Sühne für unsere Sünden ist (vgl. 1 Joh 2,1-2).",
+            "patr_resp1": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet.",
+            "patr_resp2": "Viel vermag das inständige Gebet eines Gerechten.",
+            "patr_resp3": "Christus Jesus ist unser Friede; er versöhnte uns durch das Kreuz mit Gott, er hat in seiner Person die Feindschaft getötet."
+          },
+          "Laudes": {
+            "button": "Hl. Bruno"
+          }
+        }
+      },
+      "23": {
+        "oblig": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Starker Gott, der heilige Bischof Severin hat in den Wirren seiner Zeit seine Herde nicht verlassen und die Heiden zum Glauben bekehrt. Im Vertrauen auf seine Fürsprache bitten wir dich für alle Diener deiner Kirche: Lass sie durch keinerlei Verwirrung des Geistes je von dir getrennt werden, sondern in Treue dir verbunden bleiben. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Hilarius von Poitiers",
+            "patr_werk": "Aus den Büchern des hl. Hilarius über die Dreieinigkeit (Lib. VIII, 1: PL 10,236-237)",
+            "patr_text": "^hDie Lehre sei Zier seines Lebens und das Leben Zier seiner Lehre^pDer heilige Paulus hat das Bild eines Mannes gezeichnet, der zum Bischof eingesetzt werden soll; er hat damit eine neue Art eines kirchlich gesinnten Mannes durch seine Weisungen aufgezeigt. Denn dies hat er als die wichtigsten Tugenden genannt, die ein Bischof besitzen soll: „Er muss ein Mann sein, der sich an das wahre Wort der Lehre hält; dann kann er mit der gesunden Lehre die Gemeinde ermahnen und die Gegner widerlegen. Denn es gibt viele Ungehorsame, Schwätzer und Schwindler\" (Tit 1,9-10). Damit deutet er an, dass Lebenszucht und Gesittung dem Priester dann zum Nutzen sein werden, wenn auch das nicht fehlt, was zum Lehren und zum Schutz der Glaubenserkenntnis notwendig ist. Denn es ist nicht ohne weiteres Kennzeichen für einen guten und tüchtigen Priester, entweder nur ein tadelloses Leben zu führen oder nur in gelehrter Weise den Glauben zu verkünden. Denn ein rechtschaffener Priester hat für sich selbst nur dann Gewinn, wenn er auch ein geistig Gebildeter ist; ein Hochgebildeter aber bleibt mit seiner Lehre ohne Einfluss, wenn er nicht auch rechtschaffen lebt.^pDas Apostelwort stellt mit seinen Forderungen nach Rechtschaffenheit und Ehrbarkeit den Mann nicht nur auf die Seite der Welt, um zum Leben hinzuführen; er setzt anderseits auch nicht um des gelehrten Wissens willen die Schriftgelehrten der Synagoge ein, um das Gesetz zu lehren. Den vollkommenen Vorsteher der Kirche bestimmt er vielmehr als einen Mann mit den Gütern eines ganz hoch stehenden Lebens, damit die Lehre Zier seines Lebens sei und das Leben Zier seiner Lehre.^pEndlich hat er den Titus, an den der Brief gerichtet war, mit folgender Anordnung über die vollkommene Religion belehrt: „Gib selbst ein Beispiel durch gute Werke. Lehre die Wahrheit unverfälscht und mit Würde, mit gesunden, unanfechtbaren Worten; so wird der Gegner beschämt und kann nichts Schlechtes über uns sagen\" (Tit 2,7-8). Der Völkerapostel und erwählte Lehrmeister der Kirche erkannte hier aus dem Bewusstsein, dass Christus in ihm sprach und wohnte, sehr wohl, dass die Seuche kranker Lehre um sich fressen würde; dass wider die gesunde Lehre der Gläubigen die Verderbnis todbringender Lehre wüten würde, die das Gift ihrer ungläubigen Auslegung sogar bis in die Tiefen der Seele hinabträufeln und mit böser Krankheit schleichend durchdringen würde. Daher sagt er: „Ihre Lehre wird um sich fressen wie ein Krebsgeschwür\" (2 Tim 2,17), das mit versteckter und unheimlich wuchernder Ansteckung die Gesundheit des Geistes anfrisst, in den es eingedrungen ist. Deshalb fordert er, dass der Bischof die Lehre gesunden Wortes besitzt, Wissen um den Glauben, Verständnis zur Aufmunterung, das sich gegen die ungläubigen, lügnerischen und wahnwitzigen Widersprüche behauptet. Denn viele gibt es, die Glauben vortäuschen, sich aber dem Glauben nicht unterwerfen; die eher sich selbst den Glauben zusammenstellen als ihn anzunehmen, aufgeblasen in der Denkweise menschlicher Hoheit, indem sie nur das für ihr Denken annehmen, was sie selbst wollen, nicht aber das annehmen wollen, was wahr ist. Denn dies ist doch erst die wahre Weisheit, zuweilen auch das im Denken hinzunehmen, was man nicht will. Die Folge solcher Weisheit des eigenen Willens sind aber törichte Worte, denn törichtes Denken wird notwendig auch zu törichter Lehre.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir eine große Aufgabe übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Severin"
+          }
+        }
+      },
+      "24": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du hast den heiligen Bischof Evergislus berufen, das religiöse Leben zu erneuern und den kirchlichen Frieden zu festigen. Auf seine Fürsprache belebe in uns Glaube und Liebe und mach uns bereit, die Einigkeit in der Kirche zu fördern. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Ignatius von Antiochien",
+            "patr_werk": "Aus dem Brief des hl. Ignatius an die Gemeinde von Ephesus (III-IV: F.X. Funk, Opera patrum apostolicorum Vol. I., Tubingae 1881, 175-179.)",
+            "patr_text": "^hEinheit mit dem Bischof – Einheit mit Gott^pDie Liebe lässt mich um euretwillen nicht schweigen. Darum habe ich mir vorgenommen, euch zuzureden, dass ihr mit Gottes Willen einig geht. Denn auch Jesus Christus, unser unvergängliches Leben, ist die Stimme des Vaters, wie auch die Bischöfe, die bis in die fernsten Länder eingesetzt sind, mit dem Willen Jesu Christi übereinstimmen. Deshalb ziemt es sich für euch, mit dem Willen des Bischofs übereinstimmen, was ihr ja auch tut. Denn euer Presbyterium, das Gottes würdig ist und seinen Namen mit Recht trägt, ist so mit dem Bischof verbunden wie die Saiten mit der Zither. Deshalb erklingt Jesu Christi Lied in eurer Eintracht und einmütigen Liebe. Auch jeder von euch soll zum Chor beitragen, damit ihr einmütig zusammen klingt, die Melodie Gottes in Einheit aufnehmt und einstimmig durch Jesus Christus dem Vater lobsingt, damit er euch höre und an eurem Tun als Glieder seines Sohnes erkenne. Es ist also gut, wenn ihr in vollkommener Einheit verbleibt, damit ihr auch an Gott allzeit Anteil habt.^pDenn wenn ich mit eurem Bischof schon in so kurzer Zeit in so enge – menschliche und auch geistliche – Beziehung eingetreten bin, um wie viel mehr muss ich euch glücklich preisen, die ihr so fest mit ihm verbunden seid wie die Kirche mit Jesus Christus und wie Jesus Christus mit dem Vater, damit alles in Einheit zusammenklinge. Niemand lasse sich täuschen: Wer nicht innerhalb des Altarraumes bleibt, verliert die Teilhabe am Brot Gottes. Denn wenn schon das Gebet eines einzelnen oder zweier Menschen eine solche Kraft hat, wie viel mehr das Gebet des Bischofs mit der ganzen Kirche!^pWer also nicht zur Versammlung kommt, der ist hochmütig und hat sich damit bereits das Urteil gesprochen. Denn es steht geschrieben: „Den Hochmütigen widersteht Gott\" (Spr 3,34). Hüten wir uns also davor, uns mit dem Bischof zu entzweien, damit wir Gott unterstellt bleiben. Und je mehr einer den Bischof schweigen sieht, umso größere Ehrfurcht soll er vor ihm haben. Gilt es doch, den der Herr des Hauses zur Verwaltung seines Hauswesens schickt, so aufzunehmen wie den, der ihn gesandt hat. Es ist also offenbar, dass wir den Bischof ehren müssen wie den Herrn selbst.",
+            "patr_resp1": "Kommt zum Herrn, dem lebendigen Stein.",
+            "patr_resp2": "Lasst euch als lebendige Steine aufbauen zu einem geistigen Haus, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen.",
+            "patr_resp3": "Dies ist der Stein, der zum Eckstein geworden ist."
+          },
+          "Laudes": {
+            "button": "Hl. Evergislus"
+          }
+        }
+      }
+    },
+    "1": {
+      "23": {
+        "d1": {
+          "Laudes": {
+            "referenz": "Paderborn-1-23-d1",
+            "button": "Sel. Nikolaus Groß"
+          }
+        }
+      }
+    },
+    "2": {
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau_Liebe",
+            "oration": "Barmherziger Gott, in der heiligen Äbtissin Adelheid hast du uns ein leuchtendes Beispiel der Liebe gegeben und durch sie das Ordensleben zu neuer Blüte gebracht. Hilf uns auf ihre Fürsprache, die Werke der Liebe zu vollbringen, und reiche uns ein unter die Gesegneten in deinem Reich. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Johannes Chrysostomus",
+            "patr_werk": "Aus den Predigten des hl. Johannes Chrysostomus über den Römerbrief (21,1-2: PG 60,603-604)",
+            "patr_text": "^hGib deine Gabe mit Freudigkeit^pEs genügt nicht, Werke der Barmherzigkeit zu tun, man muss es auch freigebig und ohne Traurigkeit tun, ja noch mehr: nicht nur ohne Traurigkeit, sondern geradezu mit Heiterkeit und Freude. Denn sich freuen ist mehr als nicht traurig sein.^pDiesen Gedanken führt der Apostel im Brief an die Korinther sehr sorgfältig aus. Um zur Freigebigkeit anzuspornen, sagt er dort: „Wer kärglich sät, wird auch kärglich ernten; wer reichlich sät, wird reichlich ernten\" (2 Kor 9,6). Um die Absicht beim Geben richtig zu lenken, fügt er hinzu: „Nicht in Traurigkeit und nicht unter Zwang\" (ebd. 9,7). Beides soll bei einem Werk der Barmherzigkeit vereint sein: Freigebigkeit und Freudigkeit.^pWarum machst du ein weinerliches Gesicht beim Almosengeben? Was bist du betrübt bei Werken der Barmherzigkeit und bringst dich so um den Lohn des guten Werkes? Wenn du dabei betrübt bist, tust du kein Werk der Barmherzigkeit, sondern bist roh und gefühllos; denn wenn du betrübt bist, wie kannst du dann jemanden, der in Trauer ist, aufmuntern? Man kann ja nur wünschen, dass ein Beschenkter, auch wenn ihm die Gabe freudig gegeben worden ist, nicht trotzdem Böses vermutet; denn weil dem Menschen nichts so unangenehm ist, als von anderen empfangen zu müssen, so wirst du den Empfänger deiner Gabe eher niederdrücken als aufrichten, wenn du nicht durch sehr große Freundlichkeit seinen Verdacht beseitigst und dich mehr als Empfänger denn als Geber zeigst. Darum heißt es: „Wer Barmherzigkeit übt, der tue es freudig\" (Röm 12,8).^pHalte dir nicht die Geldausgabe vor, sondern den Gewinn, den du durch die Ausgabe erzielst! Denn wenn ein Bauer, der Samen ausstreut, sich freut, obwohl er doch ohne Gewissheit auf Erfolg sät, dann muss sich umso mehr freuen, wer das Ackerfeld des Himmels bebaut. Wenn du mit Freudigkeit nur wenig gibst, gibst du dennoch viel; anderseits wenn du mit grämlicher Miene gibst, auch das Viele, das du gibst, zu einem Wenig. So hat die arme Witwe durch ihre zwei kleinen Münzen viele Talente aufgewogen, denn sie war freigebig ihrer inneren Absicht nach.^pWie kann aber jemand, so fragst du, der selbst in äußerster Armut lebt und alles hingeben soll, dies auch noch mit Bereitwilligkeit tun? Frage nur die arme Witwe, und du wirst hören; du wirst erfahren, dass Armut nicht notwendig die Engherzigkeit nach sich zieht, sondern dass es der freie Wille ist, der diese oder auch ihr Gegenteil schafft. Man kann auch in Armut großmütig und im Reichtum engherzig sein. Darum fordert der Apostel Einfalt beim Spenden, Freudigkeit bei den Werken der Barmherzigkeit und Eifer beim Vorsteheramt. Er will, dass wir den Bedürftigen nicht nur mit Geld unter die Arme greifen, sondern auch durch Wort und Tat, durch körperliche Hilfeleistungen und auf alle möglichen Weisen.",
+            "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos, und ihr habt mich aufgenommen.",
+            "patr_resp2": "Amen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
+            "patr_resp3": "Wer sich des Armen erbarmt, der liebt den Herrn."
+          },
+          "Laudes": {
+            "button": "Hl. Adelheid von Vilich"
+          }
+        }
+      }
+    },
+    "8": {
+      "30": {
+        "oblig": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Heiliger Gott, dich finden wir, wenn wir Gutes tun, dich erkennen wir, wenn wir in Stille beten. So hat der heilige Bischof Heribert politische Aufgaben erfüllt und Klöster als Stätten des Gebetes gegründet. Hilf uns auf seine Fürsprache, dass wir der Menschheit mit Hingabe dienen und dir im Gebet allzeit verbunden bleiben. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Rupert von Deutz",
+            "patr_werk": "Aus der Lebensbeschreibung des heiligen Heribert.",
+            "patr_text": "^hDenkt an die Armen!^pAls Heribert, ermüdet durch seinen langen Pilgerweg auf Erden, voll Sehnsucht Ausschau hielt nach der ewigen Bleibe im himmlischen Vaterland, wurde er vom Fieber befallen. Und siehe, der Diener Gottes, immer wachsam in dieser Erwartung, glaubte, der Herr komme bereits und klopfe an. Er weilte damals in einem Gut seiner Diözese in Neuss. Als er durch heftige und wachsende Beschwerden geplagt wurde, sandte er einen Eilboten nach Köln und ließ Abt Elias herbeirufen. Nach dessen Ankunft empfing er gemäß der Weisung des Apostels die heilige Salbung im Namen des Herrn. Dann trug man ihn auf ein Schiff, um ihn nach Köln zu bringen. Auf seine Anordnung hin trug man ihn in die Kirche des Apostelfürsten und legte ihn vor dem Kreuzaltar in deren Mitte nieder. Lange betete er und hielt dabei Haupt, Augen und Hände zum Himmel erhoben, soweit seine Kräfte das zuließen.^pAls die Krankheit sich verschlimmerte und sein Tod schon sicher war, stimmten seine Brüder auf seinen Wunsch hin die Sterbepsalmen an. Er selbst, mühsam atmend, strengte seine Stimme an, so gut er es noch vermochte, und sang den Psalm mit: „Zum Hause Gottes will ich ziehen in festlicher Schar, mit Jubel und Dank in feiernder Menge\" (Ps 42/41,5). Inzwischen bemerkte er in der Schar der Trauernden den Armenpfleger, dem er selbst dieses Amt anvertraut hatte, ganz nah bei sich stehen und fragte ihn:^p„Was werden jetzt meine Brüder machen? Fehlt irgendetwas für den Dienst an ihnen?\" Er meinte die Armen, denn in seiner Demut war er gewohnt, sie als seine Brüder ja sogar als seine Herren und Fürsprecher bei Gott anzusehen. Als jener antwortete, er habe alles verteilt, was er erhalten habe, nichts sei mehr übrig geblieben, rief Heribert sofort den Dompropst und den Stadtvogt zu sich und sagte ihnen: „Ihr habt es gehört, Geliebte, und ihr müsst sehr wachsam auf die Schrift hören, die sagt: ‚Wer Erbarmen hat mit dem Armen, leiht dem Herrn' (Spr 19,17), und: ‚Wie Wasser loderndes Feuer löscht, so sühnt Mildtätigkeit Sünde' (Sir 3,30). Wenn ich euch diesen Worten gemäß ein wenig an gutem Beispiel gegeben habe, wenn ich einiges bei den Armen gesät habe, so wird jetzt bald der zurückgelegte Gewinn aufgerechnet und die Ernte, die ich erworben habe, eingeholt, wie auch geschrieben steht: ‚Wer kärglich sät, wird kärglich ernten; wer reichlich sät, wird reichlich ernten' (1 Kor 9,6). Denn ich werde nicht mehr lange unter euch sein hier, wo noch gesät wird. Euch also, geliebte Söhne, spreche ich mit diesem letzten Zeugnis an, ich, der Vater, der in den letzten Atemzügen liegt und bald sterben wird: Denkt an die Armen, gebt meiner Seele diesen Trost, dass bis zur Wahl eines neuen Bischofs den Armen die von mir verfügten Gaben durch eure helfenden Hände nicht fehlen.\"^pAls sie dies hörten, waren sie tief betroffen und gelobten, diesen Auftrag sehr gern auszuführen. Sie betrauerten den Dahinscheidenden umso mehr, als sie bedachten, wie sehr diese seine letzten Worte seinen früheren Taten entsprachen, als ihnen aufging, wer er war, wie er gelebt hatte, wie oft und eifrig er sie mit Gnadenerweisen überhäuft hatte. So sahen sie die Notwendigkeit und das Ziel der bevorstehenden Stunde, in der alles Lob gesungen wird, wie er es weise vorausgeschaut hatte.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir eine große Aufgabe übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "button": "Hl. Heribert"
+          }
+        }
+      }
+    },
+    "9": {
+      "4": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Ewiger Gott, durch die Predigt des heiligen Bischofs Swidbert hast du viele Menschen aus der Finsternis in das Licht der Wahrheit gerufen. Lass uns auf seine Fürsprache im Glauben treu bleiben und die Hoffnung bewahren, die uns das Evangelium gibt. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Radbod",
+            "patr_werk": "Aus einer Predigt.",
+            "patr_text": "^hFür alles, was er lehrte, gab er zuvor persönliches Beispiel^pLiebe Brüder! Mit großer Freude beginnen wir den Tag, an dem wir das Andenken an unseren heiligen Patron Swidbert feiern. Da ziemt es sich, bereit zu sein zu jedem guten Werk und sich auch innerlich zu bereiten, auf Gottes heiliges Gesetz zu hören, das Gehörte dann in die Tat umzusetzen, so weit wir es vermögen, und schließlich auch andere zu belehren. So hat es auch unser Herr Jesus Christus getan, von dem geschrieben steht: Jesus vollbrachte Werke und lehrte (vgl. Apg 1,1). Lasst uns also den Spuren unseres Erlösers folgen, unser Ohr willig allem Guten öffnen und das, was wir hören, durch entsprechendes Tun erfüllen; lasst uns dann zu den Nächsten hingehen, sie zu unterweisen, ihnen im Guten durch Wort und Beispiel. Damit dies ohne Zögern geschehen kann, soll uns das Lebenswerk unseres Vaters, den wir eben genannt haben, in Erinnerung gerufen werden. Von ihm gilt, dass er seinen Hörern für alle seine Lehren zuvor das eigene gute Beispiel gab; nie hat er in der Kirche eine Forderung gestellt, in deren Ausführung er nicht vorangegangen wäre.^pZur Zeit des heiligen Willibrord, des Bischofs von Utrecht, wählten die Friesenmissionare aus ihrer Mitte einen bescheidenen und friedliebenden Mann, Swidbert, der für sie zum Bischof geweiht werden sollte. Sie schickten ihn nach Britannien; auf ihre Bitte hin weihte ihn dort der hochwürdigste Bischof Wilfried (York), der damals aus seinem Land vertrieben war und sich in der Gegend der Mercier aufhielt. Denn Kent hatte zu dieser Zeit nach dem Tod von Theodor keinen Bischof; dessen Nachfolger Bertwald, der über das Meer gereist war zur Bischofsweihe, war zu seinem Sitz noch nicht zurückgekehrt. Swidbert empfing die Bischofsweihe, kehrte aus Britannien zurück und ging wenig später zum Stamm der Brukterer. Durch seine Predigt führte er viele Menschen auf den Weg der Wahrheit. Aber nach einiger Zeit wurden die Brukterer im Kampf durch die Sachsen bezwungen, und alle, die das Wort empfangen hatten, wurden zerstreut. Der Bischof und einige Begleiter wandten sich an Pippin. Dieser gab ihm auf Drängen seiner Frau Plektrud eine Bleibe auf einer Rheininsel, die in der dortigen Sprache „Am Ufer\" genannt wird. Hier erbaute er ein Kloster, das seine Erben heute noch besitzen, und vollendete seine Tage.^pWir können nicht bezweifeln, dass dieser Mann eine umfassende Ausbildung in der christlichen Religion erhalten hat, er der unter den Leuchten der Kirche Gottes, die damals bei den Angeln und Galliern wunderbar strahlten, als Hirt der Schafe Christi von so heiligen Männern geweiht zu werden verdiente. Denn wäre er nicht im pastoralen Dienst gut geschult gewesen, hätte man seiner Wachsamkeit nicht eine so große Herde Christi anvertraut.^pSo lasst uns also dem allmächtigen Gott Dank sagen am Fest dieses heiligen Bischofs und beten, dass wir, die wir auf Erden sein ruhmreiches Leben verkünden, im Himmel seine Fürbitte erfahren dürfen.",
+            "patr_resp1": "Geht hinaus in die ganze Welt und verkündet das Evangelium allen Geschöpfen!",
+            "patr_resp2": "Wer glaubt und sich taufen lässt, wird gerettet.",
+            "patr_resp3": "Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen."
+          },
+          "Laudes": {
+            "button": "Hl. Swidbert"
+          }
+        }
+      },
+      "11": {
+        "oblig": {
+          "each": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, du hast den heiligen Bischof Maternus berufen, den wahren Glauben zu verkünden und für die Einheit der Kirche zu wirken. Höre auf seine Fürsprache und gib, dass alle, die durch die eine Taufe miteinander verbunden sind, deine Heilstaten den Völkern bezeugen. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Eusebius von Cäsarea",
+            "patr_werk": "Aus der Kirchengeschichte.",
+            "patr_text": "^hAlle sollen eins sein^pAbschrift des Briefes, durch den der Kaiser eine Bischofsversammlung in Rom anordnet, um die Einheit und Eintracht der Kirchen wieder herzustellen: „Kaiser Konstantin an Miltiades, den Bischof der Römer, und an Markus. Von Anylinus, dem erlauchten Prokonsul Afrikas, sind mir mehrere Schriftstücke zugesandt worden; aus ihnen geht hervor, dass Cäcilianus, Bischof von Karthago, von einigen seiner Amtsgenossen in Afrika vieler Dinge beschuldigt wird.^pEs erscheint mir als eine sehr wichtige Angelegenheit, dass in diesen stark bevölkerten Provinzen, welche die göttliche Vorsehung meiner Ergebenheit ohne mein Zutun anvertraut hat, das Volk gespalten ist und sich auf schlimmem Weg befindet, dass vor allem die Bischöfe unter sich uneins sind. Deshalb hielt ich es für gut, dass Cäcilianus persönlich mit zehn Bischöfen aus den Reihen seiner Ankläger und zehn anderen, die er seinem eigenen Urteil als für seine Verteidigung nötig erachtet, sich per Schiff nach Rom begebe. Dort soll er vor euch sowie vor euren Amtsbrüdern Reticius (Autun), Maternus (Köln) und Marinus (Arles), denen ich Befehl erteilte, zu diesem Zweck eilends nach Rom zu reisen, verhört werden.^pIhr sollt genauen Einblick gewinnen, um dem ehrwürdigsten Gesetz entsprechen zu können. Damit ihr euch aber über die ganze hier vorliegende Frage gut unterrichten könnt, habe ich meinem Brief Abschriften der mir von Anylinus zugeschickten Schriftstücke beigefügt und sie auch an eure oben genannten Amtsbrüder abgesandt. Wenn ihr sie in aller Strenge lest, werdet ihr genau überlegen, auf welche Weise die erwähnte Streitsache gewissenhaft zu untersuchen und nach Gerechtigkeit beizulegen ist. Denn eurer Sorgfalt ist es ja nicht verborgen, welch große Ehrfurcht ich der anerkannten katholischen Kirche entgegenbringe, und dass ich daher nicht will, dass auch nur eine Spur von Spaltung oder Uneinigkeit an irgendeinem Ort durch euch belassen werde.^pDie Göttlichkeit des großen Gottes möge euch, Hochgeehrter, erhalten auf viele Jahre!\"",
+            "patr_resp1": "Bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält.",
+            "patr_resp2": "Ein Leib und ein Geist, wie euch auch durch eure Berufung eine gemeinsame Hoffnung gegeben ist.",
+            "patr_resp3": "Ein Herr, ein Glaube, eine Taufe, ein Gott und Vater aller, der über allem und durch alles und in allem ist."
+          },
+          "Laudes": {
+            "button": "Hl. Maternus"
+          }
+        }
+      },
+      "27": {
+        "oblig": {
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIm Kölner Dom:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Köln-09-27:Emmanuel Célestin Kardinal Suhard",
+            "patr_werk": "Aus der Predigt des Emmanuel Célestin Kardinal Suhard bei der 700-Jahr-Feier der Grundsteinlegung des Domes (Kölner Domjubiläum 1948, hrsg. v. Kölner Domkapitel, Düsseldorf 1950, 97f.)",
+            "patr_text": "^hDer Dom aus Steinen – ein Bild der lebendigen Kirche^pDombau! Hier wird die Vergangenheit lebendig, hier wird die Zukunft bereits Wirklichkeit, die Zukunft, die sich uns Christen als erste Aufgabe stellt. Unser Denken und Handeln findet sich hier programmatisch vorgezeichnet: Wir müssen im Reich der Menschen eine geistige Kirche errichten, die in allem unserem Gotteshaus aus Stein ähnlich ist.^pGehen wir in den Dom hinein! Was sehen wir? Zunächst als Mittelpunkt, auf den der ganze Bau hinzustrebt: den Altar. Der Altar, d.h. der Tisch aus Stein, auf dem unaufhörlich das Opfer Christi dargebracht wird, der Stein, mit den Reliquien von Märtyrern, über dem Gottes Zelt errichtet ist. Wir wollen das Bild ausdeuten: Einen Altar neu bauen heißt in einer Zeit, die nur Vernunft und Materie gelten lässt, das Heilige wieder zur Geltung zu bringen. Wir werden den Menschen nicht durch die Menschen allein retten. Jeder Fortschritt der Menschheit, der unterwegs Halt machen möchte und sich nicht zum Himmel empor tragen lassen will in dem Ganzopfer, das Christus in ihr seinem Vater darbringt, wird vergeblich sein.^pUnsere Kirchen haben überdies ein Querschiff, jenes geheimnisvolle Bild des Kreuzes, das unsere Vorfahren erdachten, um ständig auf das Kreuz Christi hinzuweisen. Auch diese Lehre lasst uns nicht vergessen! Wenn unsere Zeit einen Humanismus nötig hat – und wir zögern nicht, daran zu glauben –, soll es ein Humanismus sein, der das Kreuz zum Mittelpunkt hat. Wehe einer Kultur, die sich für fähig hielte, aus eigener Kraft zum Ziele zu kommen, anstatt im Kreuzesholz von Kalvaria die Grundlage eines höheren Lebens zu suchen.^pVor dem Altar und auf ihn hingerichtet eine einzige Bewegung: das mächtige Hauptschiff mit seinen riesigen Pfeilern; steht dieses zum Himmel flehende Gewölbe, das sich über das betende Volk Gottes ausspannt, um es zu bergen! Seht das Kirchenschiff, das die vielgestaltige Menge der Gläubigen aus allen Himmelsrichtungen in sich sammelt! Wunde der Einheit! Rassen, Völker, Reich und Arm finden sich, ohne etwas von ihrem eigenen Wesen aufzugeben, vereint in einer einzigen geheimnisvollen Gemeinschaft, in der die Lebenden und Toten zusammen einen einzigen Leib bilden, den mystischen Leib Christi. In einem Jahrhundert, das von brudermörderischen Kämpfen zerrissen wird, eine unvergessliche Mahnung! Inmitten einer solchen Zeit und gegen sie haben die Christen ihre Aufgabe, unermüdlich alles zu versuchen, um über die Grenzen und Ozeane hinweg diese Annäherung der Menschen untereinander zu verwirklichen; und sie wird nicht möglich sein, wenn ihr nicht die grundlegende Einheit der Christen vorangeht und wenn sie nicht von ihr verklärt wird. Mehr als sonstwo muss man hier jede Selbsttäuschung ausschalten; der Friede, der die Frucht der Gerechtigkeit ist, ist ebenso sehr und in gleichem Maße die Frucht der Liebe.^pSeht schließlich den Eingang zum Gotteshaus; seht die drei Hauptportale, durch die die Menschen zu Gott kommen und durch die Gott zu den Menschen kommt! Der mystische Dom, den wir anstreben, wird immer seine Tore haben müssen; Tore, die bisweilen geschlossen sind, um im Sturm der Zeiten die zu schützen, die der Herr sich durch sein Blut erkauft hat. Wenn die Kirche für alle Menschen weit offen steht, sie prüft die Ideen und verschließt sich, wenn es an der Zeit ist, den Lehren des Stolzes, des Fleisches, des Mammons, die selbst jene in Fesseln schlagen, die von ihnen zu befreien behaupten. Die Tore der Kirche sind weit offen für alle Menschen, die guten Willens sind. Heute wie gestern sind diese Hallen, die sich über die Welt eröffnen, ein Bild und ein Programm für unser Handeln. Der Bau, den man von uns erwartet, ist nicht eine kleine Kapelle, in der man nur die eigenen Privilegien hütet. Er ist die allen zugängliche und alle aufnehmende Wohnung, wo jedes Leid eine Zuflucht, wo jede Bemühung um die Wahrheit ein Echo findet; denn, wenn die Kirche das Haus Gottes ist, ist sie auch das Haus der Menschen. Sie warten auf sie, um sie mit ihren besonderen Begabungen und ihren echten Errungenschaften aufzunehmen. Die römische Kirche verschließt sich nicht gegenüber der modernen Welt. Sie öffnet sich ihr, um sie zu taufen. Wenn sie also ihre Kinder zusammenruft, dann nur, um sie hinauszuschicken als bessere Menschen und als eifrigere Apostel zu den unzähligen Menschen, die nur auf diese Liebe warten, um zu leben und um sich zu lieben.^pDer Altar, das Kreuz, das Schiff, das Portal: das ist der Dom, den wir zu bauen haben. Was wir getrennt nicht bringen, wird die Anstrengung aller erreichen. Verlieren wir nicht das Vertrauen! Die Generationen vergehen, die Kulturepochen lösen einander ab. Aber über den Ruinen, höher als Häuser und Monumente, steht beherrschend der Dom. Wenn alles einstürzt, wenn alles in Vergessenheit gerät, die Kirche bleibt!",
+            "patr_resp1": "Fest gegründet steht das Haus des Herrn auf dem höchsten der Berge, es ragt empor über alle Hügel.",
+            "patr_resp2": "Alle Völker strömen zu ihm hin und rufen: Ehr sei dir, o Herr!",
+            "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
+          },
+          "Laudes": {
+            "button": "Weihefest der Kölner Domkirche"
+          }
+        }
+      }
+    },
+    "11": {
+      "7": {
+        "oblig": {
+          "major": {
+            "comm_1": "Hirten",
+            "comm_2": "MärtSg",
+            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren. Durch Jesus Christus."
+          },
+          "Lesehore": {
+            "patr_autor": "Augustinus",
+            "patr_werk": "Aus dem Psalmenkommentar des hl. Augustinus (In Ps 126,2-3: PL 36,1668-1669)",
+            "patr_text": "^hUnsere Mühe ist vergeblich, wenn er nicht wacht^p„Der Herr baut sein Haus\": Der Herr Jesus Christus baut sein Haus. Viele mühen sich bei diesem Bauen ab, aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut\" (Ps 127/126,1). Wer sind jene, die unter Mühen bauen? Es sind alle, die in der Kirche das Wort Gottes verkünden, die Diener der Geheimnisse Gottes. Wir also reden außen, er baut innen. Wir merken, wie ihr zuhört; aber was ihr denkt, weiß er allein, der eure Gedanken sieht. Er ist es, der baut, der ermahnt, der aufschreckt, der die Einsicht auftut, der euer Verständnis dem Glauben anpasst. Und doch arbeiten auch wir wie Werkleute; aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut.\"^pWie die Kirche ihre Bauleute hat, so hat sie auch ihre Wächter. Dazu sind die Bischöfe da. Und darum ist der Platz der Bischöfe erhöht, damit sie einen Überblick haben und gleichsam über dem Volke wachen. Denn das griechische Wort „Episkopos\" bedeutet in unserer Sprache „Aufseher\". Und über diesen erhöhten Platz wird eine gefährliche Rechenschaft gefordert, wenn wir nicht mit solchem Herzen hier stehen, dass wir in Demut euch zu Füßen sind und für euch beten, dass er, der eure Seelen kennt, selbst die Wache übernehme. Denn wir können euch nur herein- und hinausgehen sehen, aber was ihr in eurem Herzen denkt, das wissen wir so wenig, wie wir auch nicht sehen können, was ihr in euren Häusern tut. Wie also halten wir Wache? Nach Art von Menschen: so gut wie wir es können und so weit wir es empfangen haben.^pDa wir also nur auf Menschenweise Aufsicht halten, vollkommene Wache aber nicht halten können – bleibt ihr deshalb ohne Aufsicht? Keineswegs! Denn wo ist der, von dem es heißt: „Wenn nicht der Herr die Stadt bewacht, wacht der Wächter umsonst\" (Ps 127/126,1)? Wir bemühen uns, Aufsicht zu halten, aber unser Bemühen ist umsonst, wenn nicht er die Aufsicht führt, der eure Gedanken kennt. Er hält Wache, wenn ihr wach seid; er hält auch Wache, wenn ihr schlaft. Wir wachen über euch gemäß unserem Amt der Ausspendung; aber wir möchten mit euch zusammen behütet werden. Wir sind eure Hirten, aber unter jenem Hirten sind wir mit euch zusammen Schafe. Wir sind für euch von diesem Platz der Lehrer, aber unter dem einen Lehrer sind wir in dieser Schule mit euch zusammen Schüler.",
+            "patr_resp1": "Kommt zum Herrn, dem lebendigen Stein.",
+            "patr_resp2": "Lasst euch als lebendige Steine aufbauen zu einem geistigen Haus, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen.",
+            "patr_resp3": "Dies ist der Stein, der zum Eckstein geworden ist."
+          },
+          "Laudes": {
+            "button": "Hl. Engelbert"
+          }
+        }
+      },
+      "8": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Herr, unser Gott, Quelle aller Weisheit, du hast uns den seligen Johannes Duns Scotus, einen unermüdlichen Verteidiger der unbefleckten Empfängnis Mariens, zum Lehrer des Lebens und der Erkenntnis gegeben. Lass uns, durch sein Beispiel und durch seine Lehre genährt, Christus in Treue nachfolgen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          },
+          "Lesehore": {
+            "patr_autor": "Johannes Duns Scotus",
+            "patr_werk": "Aus dem Traktat „Ordinatio\" des seligen Johannes Duns Scotus (Lib. III, d. 28 q. un. n. 2-3; Opera omnia, ed. Vivès XV 378b-379b)",
+            "patr_text": "^hÜber das Wesen und die Einzigartigkeit der göttlichen Liebe (Caritas)^pDie Tugend der göttlichen Liebe ist ein Verhalten, durch das Gott geliebt wird. Gott könnte mit einer ausschließenden Liebe geliebt werden, bei der der Liebende keinen Partner haben möchte (wie Eifersüchtige ihre Frauen lieben). Aber diese Haltung wäre ungeordnet und unvollkommen.^pSie ist ungeordnet, weil Gott das Gut aller ist und nicht will, dass ein Einzelner sich dieses als privates Gut aneignet. Nach rechtem Verständnis darf sich niemand dieses Gut, das für alle da ist, aneignen wollen. Jene Liebe also, die dieses Gut als Eigentum erstrebt, das kein anderer mitlieben und mitbesitzen darf, wäre ungeordnet.^pSie wäre auch unvollkommen, weil die vollkommene Liebe wünscht, dass der Geliebte geliebt wird. Gott, der der Seele den Wunsch eingießt, in einer geordneten und vollkommenen Weise zu ihm zu streben, schenkt uns also eine Haltung, durch die er geliebt wird als einer, der auch von anderen geliebt werden soll.^pWie jene Haltung den Menschen bewegt, Gott in einer geordneten und vollkommenen Weise zu lieben, so weckt sie in ihm den Wunsch, dass Gott nicht nur von ihm selbst, sondern auch von jedem anderen Menschen, mit dem er freundschaftlich verbunden ist, geliebt wird.^pSo wird deutlich, dass die Tugend der göttlichen Liebe etwas Einzigartiges ist. Denn sie richtet ihr Begehren erstens nicht auf mehrere Gegenstände, sondern ihr erstes Ziel ist Gott allein, der in sich das erste Gute ist. Dann will sie, dass er von jedem geliebt und durch die Liebe zu Eigen wird, wie er in sich ist. Denn dies ist die vollkommene und geordnete Liebe. Wer so liebt, liebt sich und den Nächsten mit der Tugend der göttlichen Liebe, indem er für sich und den anderen Gott, wie er in sich ist, erstrebt und durch Liebe besitzen will.^pEs ist somit offensichtlich dasselbe Verhalten, das mich Gott lieben lässt und den Wunsch in mir weckt, dass er von dir geliebt wird. Diese Liebe entspringt der Tugend der göttlichen Liebe; denn auf Grund dieser Liebe wünsche ich für dich das Gute, das dir rechtmäßig zusteht.^pUnd aus diesem Grund darf man den Nächsten nicht als zweites Ziel der Liebe betrachten, sondern als ein Ziel, das ganz und gar mitbezogen ist, nämlich als einen, der fähig ist, den Geliebten vollkommen und in der rechten Weise mit mir mitzulieben. Ich liebe ihn deshalb, dass er mitliebt. Ich liebe ihn gleichsam als einen, der miteinbezogen ist, d.h. nicht um seiner selbst willen, sondern wegen des Gegenstandes meiner Liebe, den er mit mir mitlieben soll. Da ich wünsche, dass dieser von ihm geliebt wird, wünsche ich ihm zugleich das Gute, das ihm rechtmäßig zukommt.",
+            "patr_resp1": "Gott hat uns zuerst geliebt und seinen Sohn als Sühne für unsere Sünden gesandt.",
+            "patr_resp2": "Wenn Gott uns so geliebt hat, müssen auch wir einander lieben.",
+            "patr_resp3": "Wir haben die Liebe erkannt und an die Liebe geglaubt, die Gott zu uns hat."
+          },
+          "Laudes": {
+            "button": "Sel. Johannes Duns Scotus"
+          }
+        }
+      },
+      "12": {
+        "oblig": {
+          "Laudes": {
+            "referenz": "Trier-11-12-d1",
+            "button": "Hl. Kunibert"
           }
         }
       }
@@ -17271,9 +17865,7 @@ export const calendarData: CalendarData = {
       "9": {
         "oblig": {
           "each": {
-            "comm_1": "Märt_Jgfr",
-            "comm_2": "Frau_Ord",
-            "oration": "Gott unser Vater, du hast die heilige Märtyrin Teresia Benedicta vom Kreuz (Edith Stein) zur Erkenntnis deines gekreuzigten Sohnes geführt und in seine Nachfolge bis zum Tode gerufen. Auf ihre Fürsprache lass alle Menschen im Gekreuzigten den Erlöser erkennen und durch ihn zur ewigen Schau deiner Herrlichkeit gelangen. Darum bitten wir durch ihn, Jesus Christus."
+            "oration": "Lebendiger Gott, du Gott Abrahams, Isaaks und Jakobs, du hast die heilige Märtyrin Edith Stein ^(Theresia Benedicta a Cruce^) zur Erkenntnis deines gekreuzigten Sohnes geführt und in seine Nachfolge bis zum Tode gerufen. Auf ihre Fürsprache lass alle Menschen im Gekreuzigten den Erlöser erkennen und durch ihn zur Schau deiner Herrlichkeit gelangen.^ORvR"
           },
           "Lesehore": {
             "patr_autor": "^A:Speyer-08-09:Edith Stein († 1942)",
@@ -17322,8 +17914,9 @@ export const calendarData: CalendarData = {
             "bitten_r": "O lass im Hause dein uns all geborgen sein.",
             "bitten": "Du bist der lebendige Grundstein;^qsegne das Bistum Speyer und erbaue es dir immer neu zu deiner lebendigen Kirche.^pAuf dem Grundriss des Kreuzes erhebt sich unser Dom;^qstärke uns, dass wir im Aufblick zu dir unsere Kreuze tragen und dass so unser Leben zu einem Haus des Geistes wird.^pAuf den Glauben haben die Stifter des Domes ihre staatliche Ordnung gegründet;^qschenke den Regierenden wahre Weisheit und gib, dass der Glaube auch heute das Fundament unserer staatlichen Ordnung sei.^pMaria, der Mutter der Kirche, sind Dom und Bistum geweiht;^qlass uns mit ihrem Beistand den guten Kampf kämpfen, bis wir für immer beim Vater geborgen sind.^pDeine Kirche ist Zeichen des himmlischen Jerusalem;^qöffne allen Heimgegangenen, besonders den Erbauern des Domes, den Hirten und Gläubigen des Bistums, die Tore zur Stadt des lebendigen Gottes."
           },
-          "major": {
-            "comm_1": "Kirchw"
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIm Dom zu Speyer:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV"
           }
         }
       }

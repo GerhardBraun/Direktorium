@@ -87,7 +87,12 @@ function getDayCalendarData(calendarMonth, calendarDay) {
     }
 
     const diocesanDayData = calendarData?.[diocese]?.[calendarMonth]?.[calendarDay];
-    const result = { ...resolvedRegional };
+
+    // Enthält der Diözesankalender eine oblig-Source, ersetzt sie alle AAA-Daten vollständig;
+    // d-Sources aus demselben Diözesaneintrag müssen aber dennoch übernommen werden.
+    // Deshalb wird die Prüfung vorab durchgeführt und result ggf. leer gestartet.
+    const diocesanHasOblig = diocesanDayData && 'oblig' in diocesanDayData;
+    const result = diocesanHasOblig ? {} : { ...resolvedRegional };
 
     if (diocesanDayData) {
         for (const source in diocesanDayData) {
@@ -107,16 +112,9 @@ function getDayCalendarData(calendarMonth, calendarDay) {
                 }
             }
 
-            // Referenz auflösen und diözesane Daten darüber mergen
-            const resolvedData = resolveAndMergeSource(diocesanDayData[source]);
-
-            if (source === 'oblig') {
-                // oblig ersetzt alle AAA-Daten für diesen Tag vollständig
-                return { 'oblig': resolvedData };
-            } else {
-                // d-Sources werden neben den AAA-Daten eingefügt
-                result[source] = resolvedData;
-            }
+            // Referenz auflösen und diözesane Daten darüber mergen;
+            // alle Sources (oblig, d1, d2, …) werden in result eingetragen
+            result[source] = resolveAndMergeSource(diocesanDayData[source]);
         }
     }
 

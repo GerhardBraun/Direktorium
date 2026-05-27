@@ -5,7 +5,7 @@ import { useMemo, useEffect, useState } from "react";
 // Mit d1, d2 können Eigenfeiern VOR den denen des Regionalkalenders sortiert werden,
 // mit d11, d12 NACH denen des Regionalkalenders
 // mar ist nur für das Gedächtnis Mariens am Samstag
-export const sourceKeys = ['oblig', 'd1', 'd2', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
+export const sourceKeys = ['oblig', 'd1', 'd2', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'd13', 'd1mob', 'mar'];
 
 // Hilfsfunktion zum Prüfen, ob eine Quelle gültige Daten hat
 const formatText = (text) => {

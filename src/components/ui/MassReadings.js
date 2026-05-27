@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 import rufvdevData from "../data/RufvdEv.ts";
+import { sourceKeys } from '../selectors/SourceSelector.js';
 
 const MassReadingsSelector = ({
     texts,
@@ -10,7 +11,6 @@ const MassReadingsSelector = ({
 }) => {
     if (!texts) return null;
 
-    let sourceKeys = ['wt', 'oblig', 'd1', 'd2', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
     if (texts?.rank?.date > 2) sourceKeys = ['oblig', 'wt'];
 
     // Helper function to check if a source has valid readings
