@@ -178,8 +178,8 @@ const PrayerMenu = ({
   onPrevDay,
   onNextDay,
   selectedDate,
-  prefSrc,
-  setPrefSrc,
+  prefSource,
+  setPrefSource,
   prefSollemnity,
   setPrefSollemnity,
   useCommemoration,
@@ -212,10 +212,10 @@ const PrayerMenu = ({
       {/* Source Selector */}
       <SourceSelector
         texts={texts}
-        prefSrc={prefSrc}
+        prefSource={prefSource}
         prefSollemnity={prefSollemnity}
         useCommemoration={useCommemoration}
-        setPrefSrc={setPrefSrc}
+        setPrefSource={setPrefSource}
         setPrefSollemnity={setPrefSollemnity}
         setUseCommemoration={setUseCommemoration}
         onSelectHour={onSelectHour}
@@ -371,8 +371,8 @@ const PrayerTextDisplay = ({
   onBack,
   viewMode,
   onUpdateTexts,
-  prefSrc,
-  setPrefSrc,
+  prefSource,
+  setPrefSource,
   prefSollemnity,
   setPrefSollemnity,
   useCommemoration,
@@ -432,12 +432,12 @@ const PrayerTextDisplay = ({
 
   const rank = texts?.rank || { wt: 0, date: 0 };
 
-  // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
+  // Get value from sources in priority order: prefSource -> com1/com2 -> wt
   const getValue = (field) => {
     return extGetValue({
       hour,
       season,
-      prefSrc,
+      prefSource,
       prefSollemnity,
       localPrefKomplet,
       localPrefComm,
@@ -462,7 +462,7 @@ const PrayerTextDisplay = ({
         texts={texts}
         hour={hour}
         addDebugLog={addDebugLog}
-        prefSrc={prefSrc}
+        prefSource={prefSource}
         prefSollemnity={prefSollemnity}
         localPrefComm={localPrefComm}
         localPrefPsalmsWt={localPrefPsalmsWt}
@@ -501,7 +501,7 @@ const PrayerTextDisplay = ({
   const formatPrayerText = (provText, marker = "") => {
     return extFormatPrayerText({
       provText, localPrefLanguage, localPrefLatin, marker, hour, texts,
-      prefSrc, widthForHymns
+      prefSource, widthForHymns
     });
   };
 
@@ -650,7 +650,7 @@ const PrayerTextDisplay = ({
       </div>)
   }
 
-  const ordinariumTexts = ordinarium(texts, hour, localPrefLanguage, prefSollemnity, useCommemoration)
+  const ordinariumTexts = ordinarium(texts, hour, localPrefLanguage, prefSource, prefSollemnity, useCommemoration)
   // erweitertes Responsorium nach der Zweiten Lesung der Lesehore am 1. Adventssonntag
   // deutsch: nur im Jahr II (durch patr_resp1 = LEER ermittelt), lateinisch: in jedem Jahr
   const { advResp = '', advVers = '' } =
@@ -696,10 +696,10 @@ const PrayerTextDisplay = ({
           ) : (
             <SourceSelector
               texts={texts}
-              prefSrc={prefSrc}
+              prefSource={prefSource}
               prefSollemnity={prefSollemnity}
               useCommemoration={useCommemoration}
-              setPrefSrc={setPrefSrc}
+              setPrefSource={setPrefSource}
               setPrefSollemnity={setPrefSollemnity}
               setUseCommemoration={setUseCommemoration}
               onSelectHour={onSelectHour}
@@ -778,7 +778,7 @@ const PrayerTextDisplay = ({
               texts={texts}
               hour={hour}
               season={season}
-              prefSrc={prefSrc}
+              prefSource={prefSource}
               prefSollemnity={prefSollemnity}
               localPrefKomplet={localPrefKomplet}
               localPrefLanguage={localPrefLanguage}
@@ -841,7 +841,7 @@ const PrayerTextDisplay = ({
         <LectureSelector
           texts={texts}
           hour={hour}
-          prefSrc={prefSrc}
+          prefSource={prefSource}
           prefSollemnity={prefSollemnity}
           localPrefLanguage={localPrefLanguage}
           formatPrayerText={formatPrayerText}
@@ -1013,10 +1013,10 @@ const PrayerTextDisplay = ({
               <div >
                 <SourceSelector
                   texts={texts}
-                  prefSrc={prefSrc}
+                  prefSource={prefSource}
                   prefSollemnity={prefSollemnity}
                   useCommemoration={useCommemoration}
-                  setPrefSrc={setPrefSrc}
+                  setPrefSource={setPrefSource}
                   setPrefSollemnity={setPrefSollemnity}
                   setUseCommemoration={setUseCommemoration}
                   onSelectHour={onSelectHour}
@@ -1152,7 +1152,7 @@ export default function Stundenbuch() {
     // Startwert: hell → rot, dunkel oder noch nicht gesetzt → gold
     return (localStorage.getItem("theme") === "light") ? "red" : "gold";
   });
-  const [prefSrc, setPrefSrc] = useState("oblig");
+  const [prefSource, setPrefSource] = useState("oblig");
   const [prefSollemnity, setPrefSollemnity] = useState("");
   const [useCommemoration, setUseCommemoration] = useState(false);
   const [selectedHour, setSelectedHour] = useState(null);
@@ -1322,7 +1322,7 @@ export default function Stundenbuch() {
     setLocalStorage("selectedDate", newSelectedDate);
 
     if (savedDate !== currentDateFormatted) {
-      setPrefSrc("oblig");
+      setPrefSource("oblig");
       setPrefSollemnity("");
       setUseCommemoration(false);
     }
@@ -1337,7 +1337,7 @@ export default function Stundenbuch() {
       !processedData?.rank?.hasVigil) {
       setSelectedHour("lesehore")
     }
-  }, [selectedDate, prefSrc, diocese, delaySolemnity]);
+  }, [selectedDate, prefSource, diocese, delaySolemnity]);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
@@ -2344,8 +2344,8 @@ export default function Stundenbuch() {
               season={texts?.season}
               selectedDate={selectedDate}
               texts={texts}
-              prefSrc={prefSrc}
-              setPrefSrc={setPrefSrc}
+              prefSource={prefSource}
+              setPrefSource={setPrefSource}
               prefSollemnity={prefSollemnity}
               setPrefSollemnity={setPrefSollemnity}
               useCommemoration={useCommemoration}
@@ -2372,8 +2372,8 @@ export default function Stundenbuch() {
                 selectedDate={selectedDate}
                 title={formatDate(selectedDate)}
                 viewMode={viewMode}
-                prefSrc={prefSrc}
-                setPrefSrc={setPrefSrc}
+                prefSource={prefSource}
+                setPrefSource={setPrefSource}
                 prefSollemnity={prefSollemnity}
                 setPrefSollemnity={setPrefSollemnity}
                 useCommemoration={useCommemoration}
@@ -2404,8 +2404,8 @@ export default function Stundenbuch() {
                 title={formatDate(selectedDate)}
                 viewMode={viewMode}
                 season={texts?.season}
-                prefSrc={prefSrc}
-                setPrefSrc={setPrefSrc}
+                prefSource={prefSource}
+                setPrefSource={setPrefSource}
                 prefSollemnity={prefSollemnity}
                 setPrefSollemnity={setPrefSollemnity}
                 useCommemoration={useCommemoration}
@@ -2441,8 +2441,8 @@ export default function Stundenbuch() {
               selectedDate={selectedDate}
               title={formatDate(selectedDate)}
               viewMode={viewMode}
-              prefSrc={prefSrc}
-              setPrefSrc={setPrefSrc}
+              prefSource={prefSource}
+              setPrefSource={setPrefSource}
               prefSollemnity={prefSollemnity}
               setPrefSollemnity={setPrefSollemnity}
               useCommemoration={useCommemoration}

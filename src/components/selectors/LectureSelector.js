@@ -6,7 +6,7 @@ import { perikopen } from '../data/Perikopen.ts';
 const LectureSelector = ({
     texts,
     hour,
-    prefSrc,
+    prefSource,
     prefSollemnity,
     localPrefLanguage = '',
     formatPrayerText,

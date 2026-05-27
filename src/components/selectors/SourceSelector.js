@@ -14,7 +14,7 @@ const formatText = (text) => {
 
 const SourceSelector = ({
     texts,
-    prefSrc, setPrefSrc,
+    prefSource, setPrefSource,
     prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration,
     onSelectHour,
@@ -51,15 +51,15 @@ const SourceSelector = ({
     };
 
     useEffect(() => {
-        if (!prefSrc) {
+        if (!prefSource) {
             if (!['kirchw', 'verst'].includes(prefSollemnity)) {
-                setPrefSrc(hasValidSource('oblig') ? 'oblig' : hasValidSource('any') ? 'any' : '')
+                setPrefSource(hasValidSource('oblig') ? 'oblig' : hasValidSource('any') ? 'any' : '')
             }
         }
-        else if (!hasValidSource(prefSrc)) {
-            setPrefSrc('oblig')
+        else if (!hasValidSource(prefSource)) {
+            setPrefSource('oblig')
         };
-    }, [prefSrc, texts]);
+    }, [prefSource, texts]);
 
     if (!texts) return null;
 
@@ -116,7 +116,7 @@ const SourceSelector = ({
                     newPrefSollemnity = 'soll';
                     blockToggle = false
                 } else {
-                    setStoredPrefSrc(prefSrc);
+                    setStoredPrefSrc(prefSource);
                     blockToggle = false
                 }
             };
@@ -124,7 +124,7 @@ const SourceSelector = ({
             ) { blockToggle = false };
             if (source === 'wt') {
                 onSelectHour('vesper', texts);
-                setPrefSrc('oblig');
+                setPrefSource('oblig');
                 setPrefSollemnity('');
                 setStoredPrefSrc('');
             }
@@ -137,14 +137,14 @@ const SourceSelector = ({
                     newPrefSrc = storedPrefSrc;
                     setStoredPrefSrc('');
                 } else {
-                    newPrefSrc = prefSrc;
-                    if (prefSrc === 'oblig' && !hasOblig) newPrefSrc = hasAdLib
-                    if (!prefSrc) newPrefSrc = hasOblig ? 'oblig' : hasAdLib
+                    newPrefSrc = prefSource;
+                    if (prefSource === 'oblig' && !hasOblig) newPrefSrc = hasAdLib
+                    if (!prefSource) newPrefSrc = hasOblig ? 'oblig' : hasAdLib
                     if (!newPrefSrc) newPrefSollemnity = ''
                 }
             };
             if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'oblig' };
-            setPrefSrc(newPrefSrc);
+            setPrefSource(newPrefSrc);
             setPrefSollemnity(newPrefSollemnity);
             if (source === 'wt') { setUseCommemoration(false) }
             else { setUseCommemoration(isCommemoration) }
@@ -176,7 +176,7 @@ const SourceSelector = ({
     }
 
     // Anzeige des Buttons für lokales Hochfest
-    let useToggle = (!(showWt && prefSrc === 'oblig') || useCommemoration) &&
+    let useToggle = (!(showWt && prefSource === 'oblig') || useCommemoration) &&
         ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
     if (isErsteVesper) useToggle = true
 
@@ -195,7 +195,7 @@ const SourceSelector = ({
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${getWeekdayButtonColor(season, disableButtons)}
-                        ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.sources)
+                        ${(prefSource === 'oblig' && !useCommemoration && !disableButtons.sources)
                             ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.wt}
                 >
@@ -212,7 +212,7 @@ const SourceSelector = ({
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${obligButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
-                        ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.oblig)
+                        ${(prefSource === 'oblig' && !useCommemoration && !disableButtons.oblig)
                             ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.oblig}
                 >
@@ -228,7 +228,7 @@ const SourceSelector = ({
             {/* Saint Selection Buttons */}
             {sourceKeys.map(source => {
                 if (!hasValidSource(source)) return null;
-                const doUnderline = prefSrc === source
+                const doUnderline = prefSource === source
                     && (!isCommemoration || (isCommemoration && useCommemoration))
                     && !disableButtons.sources;
                 return (

@@ -3,7 +3,7 @@ import { sollemnitiesData } from "../data/Sollemnities.ts";
 
 export const getValue = ({
     season, hour, texts, field,
-    prefSrc, prefSollemnity,
+    prefSource, prefSollemnity,
     localPrefKomplet, localPrefComm,
     localPrefPsalmsWt, localPrefErgPs,
     localPrefContinuous, localPrefLanguage = '',
@@ -50,10 +50,10 @@ export const getValue = ({
         if (![121, 122, 126, 127].includes(data)) return data;
 
         // Bestimme, ob Commune-Texte geprüft werden sollen
-        const textsEig = texts.vesper?.[prefSrc] || {};
+        const textsEig = texts.vesper?.[prefSource] || {};
         const textsCommune = (((prefSollemnity || (rank.date > 2 || rank.wt > 2))
             && localPrefComm > 0) &&
-            texts.vesper?.[prefSrc]?.[`com${localPrefComm}`])
+            texts.vesper?.[prefSource]?.[`com${localPrefComm}`])
             || {};
 
         // Prüfe in der Vesper auf Konflikte mit Eigenpsalmen oder Commune-Psalmen
@@ -96,14 +96,14 @@ export const getValue = ({
 
     const checkAnt0 = `ant0${isForeignLanguage}`
     const hasAnt0 = field.startsWith('ant') &&
-        (texts[hour][prefSrc]?.[checkAnt0]
-            || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0]
-            || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.[checkAnt0])
+        (texts[hour][prefSource]?.[checkAnt0]
+            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.[checkAnt0]
+            || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.[checkAnt0])
         )
     const hasObligPs = field.startsWith('psalm')
-        && (texts[hour][prefSrc]?.psalm1
-            || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.psalm1
-            //    || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
+        && (texts[hour][prefSource]?.psalm1
+            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.psalm1
+            //    || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
         )
 
     const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
@@ -132,7 +132,7 @@ export const getValue = ({
 
     // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
     if (prefSollemnity && field.startsWith('oration'))
-        return result(texts.laudes[prefSrc]);
+        return result(texts.laudes[prefSource]);
 
     // Sonderfall Ergänzungspsalmodie bzw. Laudes-Festpsalmen
     if (isPsalmodie && !localPrefPsalmsWt
@@ -152,7 +152,7 @@ export const getValue = ({
 
     // Abruf der Werte für die Kommemoration
     if (field.startsWith('c_')) {
-        const data = texts[hour][prefSrc]
+        const data = texts[hour][prefSource]
         if (result(data)) return result(data);
         const antKomm = languageField === `c_antev${localPrefLanguage}`
             && data?.[`ant_komm${localPrefLanguage}`]
@@ -184,7 +184,7 @@ export const getValue = ({
         //console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
     }
 
-    const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
+    const prefTexts = texts[hour]?.[prefSource] || texts[hour]?.pers
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
@@ -221,7 +221,7 @@ export const getValue = ({
             (prefTexts?.[`ant0${isForeignLanguage}`] || prefCommTexts?.[`ant0${isForeignLanguage}`])
         ) return null
 
-        // 1. Prüfe zuerst prefSrc
+        // 1. Prüfe zuerst prefSource
         // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
         if (result(prefTexts) || result(prefCommTexts))
             return result(prefTexts) || result(prefCommTexts)

@@ -369,7 +369,7 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLatin = false,
     marker = '', hour = '', texts = {},
-    prefSrc = '', widthForHymns = false }) => {
+    prefSource = '', widthForHymns = false }) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
 
     // Cant-Modus: abstrakte Gesangsmarker in ^u/^b-Tags umwandeln
@@ -382,7 +382,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
 
     const season = texts?.season || '';
     const swdCombined = texts?.swd?.combined || '';
-    const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
+    const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSource] || {};
 
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
     const useCommemoration = marker === 'commemoration'

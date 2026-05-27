@@ -11,7 +11,7 @@ const SectionHeader = ({
     texts,
     hour,
     addDebugLog,
-    prefSrc,
+    prefSource,
     prefSollemnity,
     localPrefComm,
     localPrefPsalmsWt,
@@ -47,7 +47,7 @@ const SectionHeader = ({
                 hour, field,
                 season: texts?.season,
                 texts,
-                prefSrc,
+                prefSource,
                 prefSollemnity,
                 localPrefKomplet: 'wt', // nicht relevant für TSN
                 localPrefComm,
@@ -67,7 +67,7 @@ const SectionHeader = ({
                 return false;
         }
         return true;
-    }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
+    }, [hour, title, texts, prefSource, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
 
     //  VERSIKEL-Header ohne Buttons
@@ -76,16 +76,16 @@ const SectionHeader = ({
         return <h2 className="prayer-heading" aria-hidden="true">VERSIKEL</h2>;
 
     const checkSources = (field) => {
-        const hasEig = texts[hour][prefSrc]?.[field];
+        const hasEig = texts[hour][prefSource]?.[field];
         const hasWt = texts[hour].wt?.[field];
         const hasAltPsalms = texts[hour].alt?.[field];
-        const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
-        const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
+        const hasComm1 = texts[hour][prefSource]?.com1?.[field];
+        const hasComm2 = texts[hour][prefSource]?.com2?.[field];
         const nameComm1 =
             (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.commButton)
                 ? texts.vesper.commButton
-                : texts.laudes[prefSrc]?.com1?.button || '1';
-        const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
+                : texts.laudes[prefSource]?.com1?.button || '1';
+        const nameComm2 = texts.laudes[prefSource]?.com2?.button || '2';
 
         const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
         const showSources = wtRankToCompare === 0 || rank.date > wtRankToCompare;
@@ -170,7 +170,7 @@ const SectionHeader = ({
     const showPsalmsWt = hasWt && isPsalmodie
         && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
     const showInclAnt = isPsalmodie &&
-        !(texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1);
+        !(texts[hour][prefSource]?.ant0 || texts[hour][prefSource]?.ant1);
     const showContinuous = hasEig && hasWt && askContinuous
         && hour === 'lesehore' && !isCommemoration;
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';

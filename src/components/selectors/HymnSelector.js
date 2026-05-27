@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { psalmsData } from '../data/PsHymn.ts'; // Import hinzufügen
 
 const HymnSelector = ({ texts, hour, season,
-    prefSrc, prefSollemnity,
+    prefSource, prefSollemnity,
     localPrefKomplet, localPrefLanguage = '',
     formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
@@ -45,7 +45,7 @@ const HymnSelector = ({ texts, hour, season,
             else return 'btn-gold';
         };
 
-        // Prüfe auf rote Farbe im prefSrc
+        // Prüfe auf rote Farbe im prefSource
         const pathParts = sourcePath.split('_')[0].split('.');
         let currentLevel = texts.laudes;
         if (isErsteVesper)
@@ -110,7 +110,7 @@ const HymnSelector = ({ texts, hour, season,
             (isErsteVesper && texts?.vesper?.prefComm);
 
         // Stelle die Basis-Quellen zusammen
-        let sources = [prefSrc, 'pers'];
+        let sources = [prefSource, 'pers'];
 
         // Wenn der wt-Rang höher oder gleich ist, stehen die wt-Sources zuerst,
         // sonst werden weiter unten die Commune-Sources vorangestellt
@@ -122,14 +122,14 @@ const HymnSelector = ({ texts, hour, season,
         // Ermittle Commune-Sources nur wenn nötig
         const communeSources = (
             (!texts?.rank?.isCommemoration || prefSollemnity === 'soll') &&
-            !hasEigenHymn(texts[hour]?.[prefSrc])
+            !hasEigenHymn(texts[hour]?.[prefSource])
         )
             ? ['com1', 'com2']
                 .filter(com =>
-                    texts[hour]?.[prefSrc]?.[com]?.hymn_1 || // Geändert
-                    texts[hour]?.[prefSrc]?.[com]?.hymn_2    // Geändert
+                    texts[hour]?.[prefSource]?.[com]?.hymn_1 || // Geändert
+                    texts[hour]?.[prefSource]?.[com]?.hymn_2    // Geändert
                 )
-                .map(com => `${prefSrc}.${com}`)
+                .map(com => `${prefSource}.${com}`)
             : [];
 
         // Füge die Sources in der richtigen Reihenfolge hinzu
@@ -142,7 +142,7 @@ const HymnSelector = ({ texts, hour, season,
         if (hour === 'komplet') { sources = ['pers', 'wt'] }
 
         return sources;
-    }, [texts, hour, prefSrc, prefSollemnity]);
+    }, [texts, hour, prefSource, prefSollemnity]);
 
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
@@ -226,7 +226,7 @@ const HymnSelector = ({ texts, hour, season,
                         const hymnNumber = currentLevel[hymnType];
 
                         let sourceLabel;
-                        if (sourcePath === prefSrc) {
+                        if (sourcePath === prefSource) {
                             sourceLabel = 'eigen:';
                         } else if (sourcePath === prefSollemnity) {
                             sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
@@ -270,7 +270,7 @@ const HymnSelector = ({ texts, hour, season,
             }
 
             // NEUER SUCHLAUF: Prüfe nach eigenen Hymnen in anderen Sprachen
-            // Nur wenn prefSrc === 'oblig' und für das Feld hymn_1
+            // Nur wenn prefSource === 'oblig' und für das Feld hymn_1
             if (texts[hour]?.oblig) {
                 const eigData = texts[hour].oblig;
 
@@ -317,7 +317,7 @@ const HymnSelector = ({ texts, hour, season,
         // Fallback: Standard-Sprache (nur wenn erster Durchlauf leer war)
         return collectHymns('');
 
-    }, [texts, hour, prefSrc, sourceOrder, localPrefLanguage, localPrefKomplet]);
+    }, [texts, hour, prefSource, sourceOrder, localPrefLanguage, localPrefKomplet]);
 
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {
