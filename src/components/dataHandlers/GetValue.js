@@ -98,7 +98,7 @@ export const getValue = ({
     const hasAnt0 = field.startsWith('ant') &&
         (texts[hour][prefSource]?.[checkAnt0]
             || texts[hour][prefSource]?.[`com${localPrefComm}`]?.[checkAnt0]
-            || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.[checkAnt0])
+            || (prefSource === 'oblig' && texts[hour].wt?.[checkAnt0])
         )
     const hasObligPs = field.startsWith('psalm')
         && (texts[hour][prefSource]?.psalm1
@@ -134,11 +134,28 @@ export const getValue = ({
     if (prefSollemnity && field.startsWith('oration'))
         return result(texts.laudes[prefSource]);
 
-    // Sonderfall Ergänzungspsalmodie bzw. Laudes-Festpsalmen
+    // Sonderfall Ergänzungspsalmodie über localPrefErgPs:
+    // auch am Sonntag werden die Ergänzungspsalmen genommen
+    // -> in const data entfällt der Vorzug von dayOfWeek vor each
     if (isPsalmodie && !localPrefPsalmsWt
-        && ((isTSN && (rank?.useComplementaryPsalms || localPrefErgPs)
-            && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-            || (hour === 'laudes' && rank?.useFeastPsalms)
+        && isTSN && localPrefErgPs
+        && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
+    ) {
+        if (!hasAnt0 && !hasObligPs) {
+            const data = sollemnitiesData.soll.each?.[hour]?.[languageField]
+                || sollemnitiesData.soll.each?.[hour]?.[field]
+
+            if (data) return replaceErgPs(data)
+        }
+    }
+
+    // Laudes-Festpsalmen und Ergänzungspsalmodie über rank:
+    // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
+    if (isPsalmodie && !localPrefPsalmsWt
+        && ((hour === 'laudes' && rank?.useFeastPsalms) ||
+            (isTSN && (rank?.useComplementaryPsalms && !localPrefErgPs)
+                && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
+            )
         )) {
         if (!psalm51 && !hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
