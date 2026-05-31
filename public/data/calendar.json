@@ -4377,6 +4377,7 @@
           "Vigil": {
             "ant0": "Ruhm und Ehre in Ewigkeit sei dem dreieinigen Gott: dem Vater und dem Sohn und dem Heiligen Geist.^HALLxq",
             "les_buch": "^A:vigil-Dreifaltigkeit:",
+            "les_stelle": "",
             "les_text": "LEER",
             "ant0_lat": "Laus et perénnis glória Deo Patri et Fílio, sancto simul Paráclito, in sǽcula sæculórum."
           },
@@ -4625,6 +4626,7 @@
             "psalm3": 199.105,
             "ant0": "Mein Fleisch ist wahrhaft eine Speise, und mein Blut ist wahrhaft ein Trank. Wer mein Fleisch isst und mein Blut trinkt, der hat das ewige Leben.^HALLxq",
             "les_buch": "^A:vigil-Fronleichnam:",
+            "les_stelle": "",
             "les_text": "LEER",
             "hymn_1_lat": 3942.1,
             "ant0_lat": "Caro mea vere est cibus, et sanguis meus vere est potus. Qui mandúcat carnem meam et bibit sánguinem meum, habet vitam ætérnam, dicit Dóminus."
@@ -4856,6 +4858,7 @@
             "psalm3": 173.2,
             "ant0": "Siehe, Gott ist mein Retter, ihm vertraue ich. Er wurde mir zum Heil.^HALLxq",
             "les_buch": "^A:vigil-HerzJesu:",
+            "les_stelle": "",
             "les_text": "LEER",
             "ant0_lat": "Ecce Deus salvátor meus; fiduciáliter agam, quia factus est mihi in salútem.^ALLxq"
           },
