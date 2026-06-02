@@ -4839,6 +4839,14 @@ export const deceasedData =  {
         "birth": "25.°April°1892°in°Zettlitz (Sedlec°u°Radonic,°CZ¥-431°55)",
         "grave": "Friedhof°Bad°Blankenburg",
         "age": 68
+      },
+      {
+        "year": 2026,
+        "birthdate": "2240-03-31",
+        "name": "Gerhard°Bug, Pfr.i.R., GR, Hünfeld",
+        "birth": "31.°März°1940°in°Traisbach",
+        "grave": "Alter°Friedhof°Hünfeld",
+        "age": 86
       }
     ],
     "30": [

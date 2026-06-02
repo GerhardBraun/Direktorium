@@ -20,7 +20,7 @@ export const getValue = ({
     const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben|_cant/g, '')
     const allSouls = texts.date.mmdd === '11-02'
 
-    // Weihnachtsoktav: Vesper im Rang eines Festes
+    // Weihnachtsoktav: Vesper im Rang eines Festes (rank.wt=2.4)
     const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
@@ -108,10 +108,6 @@ export const getValue = ({
 
     const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
 
-    //Aschermittwoch und Allerseelen: trotz Hochfest keine Fest-Psalmodie in den Laudes
-    const psalm51 = hour === 'laudes' &&
-        (swdCombined === 'q-0-3' || allSouls)
-
     // Gedenktage mit Eigentexten für die Kleinen Horen:
     // Barnabas und Schutzengel
     const memorialWithTSN = ['06-11', '10-02'].includes(texts.date.mmdd)
@@ -134,17 +130,16 @@ export const getValue = ({
     if (prefSollemnity && field.startsWith('oration'))
         return result(texts.laudes[prefSource]);
 
-    // Sonderfall Ergänzungspsalmodie über localPrefErgPs:
+    // Ergänzungspsalmodie über localPrefErgPs:
     // auch am Sonntag werden die Ergänzungspsalmen genommen
     // -> in const data entfällt der Vorzug von dayOfWeek vor each
-    if (isPsalmodie && !localPrefPsalmsWt
-        && isTSN && localPrefErgPs
+    if (localPrefErgPs && isTSN && isPsalmodie
+        && !localPrefPsalmsWt
         && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
     ) {
         if (!hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll.each?.[hour]?.[languageField]
                 || sollemnitiesData.soll.each?.[hour]?.[field]
-
             if (data) return replaceErgPs(data)
         }
     }
@@ -153,11 +148,9 @@ export const getValue = ({
     // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
     if (isPsalmodie && !localPrefPsalmsWt
         && ((hour === 'laudes' && rank?.useFeastPsalms) ||
-            (isTSN && (rank?.useComplementaryPsalms && !localPrefErgPs)
-                && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
-            )
+            (isTSN && rank?.useComplementaryPsalms)
         )) {
-        if (!psalm51 && !hasAnt0 && !hasObligPs) {
+        if (!hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
                 || sollemnitiesData.soll.each?.[hour]?.[languageField]

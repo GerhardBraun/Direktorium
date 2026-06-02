@@ -546,7 +546,7 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
             // dpar-Source immer als dmob einlesen (beweglicher Gedenktag des Diözesankalenders)
             const targetKey = sourceKey === 'dpar' ? 'dmob'
                 : (sourceKey === 'oblig' && replaceOblig) ? replaceOblig
-                : sourceKey;
+                    : sourceKey;
 
             if (sourceData) {
                 mergeData(hours, sourceData, targetKey);
@@ -934,11 +934,11 @@ export function processBrevierData(todayDate) {
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
         // nicht am Sonntag
         // (außer Hochfeste der Heiligen und Christusfeste
-        // sowie Pfingsten, Dreifaltigkeit, ggf. Fronleichnam und Christkönig),
-        // Aschermittwoch, Karwoche und Allerseelen
+        // sowie Pfingsten, Dreifaltigkeit, Fronleichnam und Christkönig),
         && !(dayOfWeek === 0 && rank_date < 4
             && !['o-8-0', 'j-34-0'].includes(swdCombined)
             && !todayInfo.aroundPentecost)
+        // nicht an Aschermittwoch, Karwoche und Allerseelen
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
         && mmdd !== '11-02'
