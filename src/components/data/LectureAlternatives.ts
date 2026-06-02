@@ -819,6 +819,24 @@ export const lectureAlternatives = {
             },
         ]
     },
+    "Limburg-02-14": {
+        second: [
+            {
+                patr_autor: "Augustinus (†°430)",
+                patr_werk: "Aus einer Predigt zum Fest des hl. Valentin.",
+                patr_text: "^h^pDer Triumphzug des seligen Blutzeugen Valentin kehrt heute in der jährlichen Festesfeier wieder. Die Kirche freut sich über seine Verherrlichung; gleichzeitig stellt sie uns sein Beispiel zur Nachahmung vor Augen. Denn wenn wir mit ihm leiden, werden wir auch mit ihm verherrlicht werden.^pBei diesem ruhmvollen Kampf müssen wir vorzüglich auf zwei Dinge achten, auf die harte Grausamkeit des Henkers und auf die unbeugsame Standhaftigkeit des Blutzeugen, um sie nachzuahmen.^pVernimm, was der Psalmist solcher Bosheit gegenüber ausruft: „Beneide nicht die Übeltäter! Denn sie verwelken rasch wie Gras.“^pDass wir den Bösen gegenüber Standhaftigkeit zeigen müssen, darüber höre den Apostel! Er mahnt uns: „Standhaftigkeit tut euch not, um die Verheißungen zu erlangen.“",
+            },
+        ]
+    },
+    "Limburg-04-23": {
+        second: [
+            {
+                patr_autor: "Theodor Schnitzler",
+                patr_werk: "Aus dem Buch „Die Heiligen im Jahr des Herrn“.",
+                patr_text: "^hSankt Georg als Persönlichkeitstyp^pEr hat gelebt. Die Legende hat ihn umrankt. Gesichert sind Existenz und Martyrium des heiligen Georg. Schon im 4. Jahrhundert wurde ihm eine Basilika zu Lydda-Diospolis, bekannt aus der Apostelgeschichte, geweiht. Die Jerusalempilger besuchten dieses Heiligtum mit Vorliebe. 1191 wurde die Georgsbasilika von Sultan Saladin zerstört.^pDiese historische Gegebenheit nimmt sich gegenüber den Ausweitungen der Legende armselig aus. Die Patrozinien Sankt Georgs umfassen eine Welt. Die Merowinger sahen ihn als Stammvater ihres Königshauses an. Russland, Genua, England, die Bauern und die Harnischmacher, die mittelalterlichen Ritter und die modernen Pfadfinder, die trierische Stiftskirche und das neuzeitliche Bistum Limburg wählten ihn als Patron. Auf der Insel Zypern zählte man 60 Georgskirchen, in England deren 160. Die Dardanellen trugen den Namen Meerenge des heiligen Georg. Das orthodoxe ökumenische Patriarchat von Konstantinopel hat seinen Sitz bei der Georgskirche. Man könnte diese Aufzählungen fortsetzen.^pSie zeigen, dass Georg, ähnlich wie Christophorus, nicht in erster Linie als Persönlichkeit, sondern als Persönlichkeitstyp gesehen wird: der ritterliche, soldatische Mensch, der dienstbewusst gegen das Böse und gegen die Bösen kämpft, getreu bis in den Tod! Sankt Georg ist eher ein Kapitel christlicher Moral und Aszese als ein Kapitel christlicher Geschichte. Wenn man in der Verehrung eine konkrete geschichtliche Person sucht, kommt man bei St. Georg nicht auf seine Rechnung. Sucht man aber ein christliches Ideal, dann erhebt sich eine jähe Höhe. Man kann zum heiligen Georg schwer ein „Du“ finden. Aber er redet uns mit „Du“ an: Du sollst dieser Mensch sein!",
+            },
+        ]
+    },
     "Limburg-05-15": {
         second: [
             {
@@ -837,7 +855,16 @@ export const lectureAlternatives = {
             },
         ]
     },
-    "Trier-08-13": {
+    "Limburg-09-11": {
+        second: [
+            {
+                patr_autor: "LEER",
+                patr_werk: "Aus einer liturgischen Lesung der Benediktinerabtei St. Matthias in Trier.",
+                patr_text: "^hDies sind deine Väter und wahren Hirten.^pAn zweiter Stelle in der Trierer Bischofsliste steht der heilige Valerius. Was sein Vorgänger, der heilige Eucharius, in der blühenden, heidnischen Trevererstadt des dritten Jahrhunderts für die Begründung des Christentums geleistet hat, das musste Valerius, der den Hirtenstab des ersten Bischofs übernahm, für seine Befestigung und Weiterführung tun. Der Erfolg dieses Werkes ist zu ermessen an der Bedeutung der Trierer Christengemeinde am Ende des dritten und zu Beginn des vierten Jahrhunderts. In dieser Gemeinde hatte Kaiser Konstantin in den Jahren seiner Trierer Residenz, die unmittelbar dem Ende der Christenverfolgungen (313) vorausgingen, täglich die Lebenskraft des Christenglaubens vor Augen. Was Valerius weitergeführt, ist auch für Triers Zukunft entscheidend geworden. Nicht der Glanz der römischen Kaiserresidenz verbürgte den Fortbestand der Stadt über die Völkerwanderungszeit, sondern die geduldige Hirtensorge ihrer Bischöfe. Was Leo der Große über Rom und die Apostelfürsten sagte, könnte man in ähnlicher Weise auf Trier und seine beiden ersten Bischöfe anwenden: „Diese, o Rom, sind deine Väter und wahren Hirten, die dich dem himmlischen Reiche einfügten und viel besser und viel glücklicher begründeten als jene, durch deren Eifer die ersten Fundamente deiner Mauern gelegt sind.“^pEs ist also fromm und recht, wenn um das Jahr 450 Bischof Cyrillus den Gründerbischöfen und Vätern unseres Glaubens in der neugebauten Grabkirche auf dem südlichen Gräberfeld einen Altar weihte, selbst dort bei seinen Vorgängern seine Grabstätte wählte und dies mit der Bauinschrift dokumentierte: „Wie schön vereint Gottes Macht, die einst Gefährten waren im Leben! Ehrenvoll birgt dieser Ort der beiden Priester Gebeine, tut kund des Eucharius und Valerius Namen. Freudig bettet Cyrill die zum Leben berufenen Leiber und weiht den Altar den seligen Brüdern zur Ehre. So schmückt für den eigenen Leib der Bauherr die künftige Ruhstatt.“^pWas die spätere Legende erzählt, kann uns zwar wenig an historisch sicheren Berichten über das Leben des heiligen Valerius bieten. Es bringt aber zum Ausdruck, was aus seinem Wirken geworden ist: Ein Bischofssitz und ein Bistum, die weithin Bedeutung hatten und missionarische Kraft besaßen und die sich ihrer Verbindung mit dem Nachfolger des heiligen Petrus bewusst waren.",
+            },
+        ]
+    },
+    "Trier-08-18": {
         second: [
             {
                 patr_autor: "Eusebius von Cäsarea († 339)",

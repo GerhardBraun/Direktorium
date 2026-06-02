@@ -13870,6 +13870,566 @@
       }
     }
   },
+  "Limburg": {
+    "1": {
+      "5": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Johannes Neumann!"
+          },
+          "Lesehore": {
+            "hymn_1": 8105.1,
+            "les_buch": "Aus dem zweiten Korintherbrief.",
+            "les_stelle": "11,16.23b-31",
+            "les_text": "Noch einmal sage ich: Keiner soll mich für einen Narren halten. Tut ihr es aber doch, dann lasst mich auch als Narren gewähren, damit auch ich ein wenig prahlen kann.^pIch ertrug mehr Mühsal, war häufiger im Gefängnis, wurde mehr geschlagen, war oft in Todesgefahr. Fünfmal erhielt ich von Juden die neunundreißig Hiebe; dreimal wurde ich ausgepeitscht, einmal gesteinigt, dreimal erlitt ich Schiffbruch, eine Nacht und einen Tag trieb ich auf hoher See. Ich war oft auf Reisen, gefährdet durch Flüsse, gefährdet durch Räuber, gefährdet durch das eigene Volk, gefährdet durch Heiden, gefährdet in der Stadt, gefährdet in der Wüste, gefährdet auf dem Meer, gefährdet durch falsche Brüder. Ich erduldete Mühsal und Plage, durchwachte viele Nächte, ertrug Hunger und Durst, häufiges Fasten, Kälte und Blöße. Um von allem anderen zu schweigen, weise ich noch auf den täglichen Andrang zu mir und die Sorge für alle Gemeinden hin. Wer leidet unter seiner Schwachheit, ohne dass ich mit ihm leide? Wer kommt zu Fall, ohne dass ich von Sorge verzehrt werde? Wenn schon geprahlt sein muss, will ich mit meiner Schwachheit prahlen. Gott, der Vater Jesu, des Herrn, er, der gepriesen ist in Ewigkeit, weiß, dass ich nicht lüge.",
+            "resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
+            "resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
+            "resp3": "Ich habe alles als Verlust erkannt, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen.",
+            "patr_autor": "Johannes Nepomuk Neumann († 1860)",
+            "patr_werk": "Aus einem Brief an einen priesterlichen Freund.",
+            "patr_text": "(Um) die Mühseligkeiten eines Missionars in Amerika nicht zu vergessen, muss ich sagen, dass sie vielfach und bedeutend sind; aber eben darum wird dieser Stand einem jeden erwünscht sein, der, wie ich, Gelegenheit sucht, die göttliche Gerechtigkeit wegen der begangenen Sünden zu versöhnen. Die Gewalt, die sich der Missionar antun muss, ist ihm ein tröstliches Unterpfand des Himmelreiches. Die Mission unter den eingewanderten Deutschen, Franzosen und Irländern hat wohl nicht so viel Anziehendes, fast möchte ich sagen Abenteuerliches, wie die Indianer – sie ist aber auch nicht so mühsam, und der Gedanke, dass man die Glieder des Leibes Christi pflege und nach dem Willen des göttlichen Meisters für die verlorenen Schafe des Hauses Israel sorge, lehrt unwillkürlich Demut und Liebe Gottes und seiner heiligen Kirche. Es geschieht wohl gewöhnlich, dass jene Congregationen (Missionsstationen) die undankbarsten sind, die vorher am dringendsten um einen Seelenhirten flehten: in diesem schwierigen Falle muss es sich der Missionar zur Ehre machen, dass er dem lange und sehnlichst erwarteten Messias, der auch so übel aufgenommen wurde, in geduldiger Ergebung nachfolge.^pEin jeder, der sein Vaterland verlässt, um unserer heiligen Kirche in diesem Teil der Welt zu dienen, muss entschlossen sein, sein Leben so teuer wie möglich zu verkaufen: sein Wahlspruch muss sein: Aut pati aut mori (leiden oder sterben).",
+            "patr_resp1": "Nehmt mein Joch auf euch, spricht der Herr, und lernt von mir; ich bin gütig und von Herzen demütig",
+            "patr_resp2": "mein Joch drückt nicht und meine Last ist leicht.",
+            "patr_resp3": "So werdet ihr Ruhe finden für eure Seelen."
+          },
+          "Laudes": {
+            "hymn_1": 8105.2,
+            "hymn_2": 1210.0,
+            "les_buch": "1°Thess",
+            "les_stelle": "2,13",
+            "les_text": "Wir danken Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Wort Gottes angenommen habt; und jetzt ist es in euch, den Gläubigen, wirksam.",
+            "resp1": "Ihr habt Christus Jesus als Herrn angenommen;",
+            "resp2": "er ist die Hoffnung auf Herrlichkeit.",
+            "resp3": "Bleibt in ihm verwurzelt und auf ihn gegründet.",
+            "button": "Hl. Johannes Nepomuk Neumann",
+            "antev": "Dem Bischof Johannes wurden Gnade und Kraft zuteil durch unseren Herrn Jesus Christus, damit er ihm vorangehe und ihm den Weg bereite in den Herzen der Menschen."
+          },
+          "Vesper": {
+            "hymn_1": 8105.2,
+            "hymn_2": 1151.0,
+            "les_buch": "1°Petr",
+            "les_stelle": "5,2-4",
+            "les_text": "Sorgt als Hirten für die euch anvertraute Herde Gottes, nicht aus Zwang, sondern freiwillig, wie Gott es will; auch nicht aus Gewinnsucht, sondern aus Neigung; seid nicht Beherrscher eurer Gemeinden, sondern Vorbilder für die Herde! Wenn dann der oberste Hirt erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen.",
+            "resp1": "Wer mit dem Herzen glaubt und mit dem Mund bekennt,",
+            "resp2": "wird Gerechtigkeit und Heil erlangen.",
+            "resp3": "Wer den Namen des Herrn anruft,",
+            "antev": "Bischof Johannes hat den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten. Jetzt liegt für ihn der Kranz der Gerechtigkeit bereit."
+          },
+          "major": {
+            "oration": "Gott, unser Vater, du hast den heiligen Johannes Nepomuk Neumann zum Bischof berufen und ihn befähigt, deinem Volk in den Gemeinden Amerikas mit großer Liebe zu dienen. Höre auf seine Fürsprache und mache uns durch das Beispiel seiner brüderlichen Liebe bereit, stets die Gemeinschaft deiner Kirche zu stärken und wie er die jungen Menschen zu überzeugten Christen zu erziehen.^ORV"
+          }
+        }
+      }
+    },
+    "2": {
+      "14": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Valentin!"
+          },
+          "Lesehore": {
+            "hymn_1": 1123.0,
+            "versikel0": "Der Gerechte blüht wie die Palme,",
+            "versikel1": "wie die Zeder des Libanon wächst er empor.",
+            "les_buch": "Aus dem zweiten Korintherbrief.",
+            "les_stelle": "4,7-5,8",
+            "les_text": "^h^pWir tragen den Schatz (unseres Glaubens) in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt. Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum; wir wissen weder aus noch ein und verzweifeln dennoch nicht; wir werden gehetzt und sind doch nicht verlassen; wir werden niedergestreckt und doch nicht vernichtet. Wohin wir auch kommen, immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird.^pDenn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.^pSo erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben, und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch (vor sein Angesicht) stellen wird. Alles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen, Gott zur Ehre.^pDarum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde. Gott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben.^pWir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.",
+            "resp1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt,",
+            "resp2": "euer Lohn wird groß sein im Himmel.",
+            "resp3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
+            "patr_autor": "^A:Limburg-02-14:Alfred Delp († 1945)",
+            "patr_werk": "Aus seinem Tagebuch „Im Angesicht des Todes\".",
+            "patr_text": "^hIch muss mich innerlich loslassen und mich hergeben^pBis jetzt hat mir der Hergott sehr herrlich und herzlich geholfen. Ich bin noch nicht erschrocken und noch nicht zusammengebrochen. Jetzt bin ich ja erst Mensch geworden, innerlich frei und viel echter, wahrhafter und wirklicher als früher ... Ja, ganz ehrlich gesagt, ich glaube noch nicht an den Galgen. Ich weiß nicht, was das ist. Vielleicht eine große Gnade und Hilfe des väterlichen Gottes, der mich so in der Wüste bestehen lässt, ohne in ihr verdursten zu müssen. Während der ganzen Verhandlung, auch als ich merkte, das „Wunder\" bleibt aus, war ich weit oben darüber und unberührbar durch all die Vorgänge und Aussichten. Ist das das Wunder, oder was ist das? Ich bin Gott gegenüber wirklich in einiger Verlegenheit und muss mir darüber klar werden.^pDiese ganzen bitteren Monate der Reife und des Unglücks stehen unter einem ganz eigenartigen Gesetz. Von der ersten Minute an war ich innerlich sicher, es würde alles gutgehen. Gott hat mich in dieser Sicherheit immer wieder bestärkt. Ich habe in diesen letzten Tagen gezweifelt und überlegt, ob ich Selbsttäuschungen zum Opfer gefallen bin, ob sich mein Lebenswille in religiöse Einbildungen sublimiert hat ... Aber diese vielen spürbaren Erhebungen mitten im Unglück, diese Sicherheit und Unberührtheit in allen Schlägen ... diese Tröstungen beim Gebet und beim Opfer; diese Gnadenstunden vor dem Tabernakel; diese erbetenen und immer wieder gegebenen Zeichen: ich weiß nicht, ob ich das alles jetzt wegtun darf ... Will der Herrgott das Opfer, das ich ihm nicht versagen will, oder will er die Bewährung des Glaubens und Vertrauens bis zum äußersten Punkt der Möglichkeit? ...^pEs ging (aber) alles schief, was ich unternahm, um mir zu helfen. Ja, nicht nur schief, es war eigentlich immer zum Unheil. So auch jetzt bei der Verhandlung ... Die Dinge, die wir für unsere Verteidigung vorbereitet hatten, wurden uns in neue Belastungen umgedeutet. Der ganze äußere Verlauf war Scheitern und Schiffbruch und Ohnmacht über Ohnmacht ...^pWas will der Herrgott mit alledem? Ist es Erziehung zur ganzen Freiheit und vollen Hingabe? Will er den ganzen Kelch bis zum letzten Tropfen, und gehören dazu diese Stunden des Wartens ...? Oder will er die Glaubensprobe?^pWas soll ich jetzt tun, ohne untreu zu werden? Soll ich weiterhoffen, trotz der Aussichtslosigkeit? Ist es Untreue, wenn ich davon ablasse? Soll ich mich ganz loslassen und die Abschiede vollziehen und mich ganz auf den Galgen einstellen? Ist es Feigheit oder Trägheit, dies nicht zu tun und noch zu hoffen? Soll ich einfach in der Freiheit zur Verfügung bleiben und in der Bereitschaft? Ich kenne mich noch nicht recht aus und bete dauernd um Erleuchtung und Führung ...^pAuf jeden Fall muss ich mich innerlich gehörig loslassen und mich hergeben. Es ist die Zeit der Aussaat, nicht der Ernte. Gott sät, einmal wird er auch wieder ernten. Um das eine will ich mich mühen: wenigstens als fruchtbares und gesundes Saatkorn in die Erde zu fallen. Und in des Herrgotts Hand. Und mich gegen den Schmerz und die Wehmut wehren, die mich manchmal anfallen wollen. Wenn der Herrgott diesen Weg will – und alles Sichtbare deutet darauf hin –, dann muss ich ihn freiwillig und ohne Erbitterung gehen ...^pIch bitte auch die Freunde, nicht zu trauern, sondern für mich zu beten und mir zu helfen, solange ich der Hilfe bedarf. Und sich nachher darauf zu verlassen, dass ich geopfert wurde, nicht erschlagen. Ich hatte nicht daran gedacht, dass dies mein Weg sein könnte ... Ehrlich und gerade: Ich würde gern noch weiterleben und gern und jetzt erst recht noch weiterschaffen und viele neue Worte und Werte verkünden, die ich jetzt erst entdeckt habe. Es ist anders gekommen. Gott halte mich in der Kraft, ihm und seiner Fügung und Zulassung gewachsen zu sein ... Ich aber will hier ehrlich warten auf des Herrgotts Fügung und Führung. Ich werde auf ihn vertrauen, bis ich abgeholt werde.",
+            "patr_resp1": "Es ist die Zeit der Aussaat, nicht der Ernte. Ich muss mich innerlich loslassen und mich hergeben. Gern würde ich noch weiterleben und verkünden, was mir aufgegangen ist.",
+            "patr_resp2": "Aber nicht mein, sondern dein Wille soll geschehen.",
+            "patr_resp3": "Vater, wenn du willst, nimm diesen Kelch von mir."
+          },
+          "Laudes": {
+            "hymn_1": 8105.2,
+            "hymn_2": 1210.0,
+            "les_buch": "Jak",
+            "les_stelle": "1,2-4",
+            "les_text": "Seid voll Freude, meine Brüder, wenn ihr in mancherlei Versuchungen geratet. Ihr wisst, dass die Prüfung eures Glaubens Ausdauer bewirkt. Die Ausdauer aber soll zu einem vollendeten Werk führen; denn so werdet ihr vollendet und untadelig sein, es wird euch nichts mehr fehlen.",
+            "resp1": "Kraft und Stärke verleiht Gott seinem Volk,",
+            "resp2": "er ist wunderbar in seinen Heiligen.",
+            "resp3": "Bei denen, die ihn lieben, führt Gott alles zum Guten,",
+            "button": "Hl. Valentin",
+            "antev": "Heiliger Valentin, den Glauben an Christus, das aufstrahlende Licht aus der Höhe, hast du bekannt bis in den Tod hinein."
+          },
+          "Vesper": {
+            "hymn_1": 8105.2,
+            "hymn_2": 1151.0,
+            "les_buch": "Offb",
+            "les_stelle": "3,7a.10-11",
+            "les_text": "So spricht der Heilige, der Wahrhaftige: Du hast dich an mein Gebot gehalten, standhaft zu bleiben: daher werde ich auch zu dir halten und dich bewahren vor der Stunde der Versuchung, die über die ganze Erde kommen soll, um die Bewohner der Erde auf die Probe zu stellen. Ich komme bald. Halte fest, was du hast, damit kein anderer deinen Kranz bekommt.",
+            "resp1": "Ich will dich loben, du Gott meines Heiles,",
+            "resp2": "du hast mich vom Tod errettet.",
+            "resp3": "In deiner großen Huld hast du mich befreit aus der Hand der Feinde.",
+            "antev": "Der Herr hat Großes an ihm getan und ihm das ewige Leben geschenkt, das denen verheißen ist, die Gott lieben."
+          },
+          "major": {
+            "oration": "Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Valentin die Qualen des Martyriums ausgehalten. Hilf uns, dich mit ungeteiltem Herzen zu suchen und so alle Krankheit und Last zu ertragen.^ORV"
+          }
+        }
+      },
+      "1": {
+        "oblig": {
+          "major": {
+            "oration": "Allmächtiger Gott, du hast der seligen Katharina Kasper die Größe eines armen und verborgenen Lebens in deinem Dienst gezeigt und ihre Gemeinschaft zu einer Zufluchtsstätte der Kinder, der Armen und der Kranken gemacht; höre auf ihre Fürsprache und gib, daß auch wir deinen Willen über alles stellen und aus der Kraft des Glaubens Werke der Liebe tun.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Maria Katharina Kasper († 1898)",
+            "patr_werk": "Aus ihren Briefen.",
+            "patr_text": "Die heilige Fastenzeit hat schon ihren Anfang genommen. Welche Gnadenzeit für uns. Benutzen wir diese heilige Zeit gut, machen wir uns der Gnaden recht würdig, indem wir treu dem Herzen Jesu dienen. Wir wollen nicht stehen bleiben beim Betrachten des Leidens Jesu, nein, wir wollen das Beispiel Jesu tatkräftig nachahmen und das Kreuz täglich auf uns nehmen und unserem göttlichen Heiland nachfolgen.^pDie jetzigen Zeiten sind ja besonders geeignet dazu. Wirken wir allezeit treu mit der Gnade mit; die der Herr besonders liebte, führte er in die Kreuzesschule.^pWir wollen ein gläubiges Leben führen in Gott. Wir dürfen uns nicht leiten lassen durch das natürliche Gefühl, durch unsere verkehrten Neigungen, sondern durch die Vernunft und nach der Lehre der Kirche. Wir müssen einen tiefen, lebendigen Glauben in uns tragen.^pDazu muß uns ein großes und festes Vertrauen auf Gott beseelen, wodurch wir alles von Gott hoffen und in allem auf den Herrn vertrauen. Die inbrünstige Liebe Gottes muß uns beseelen.^pDazu müssen wir das Kreuz tragen, wozu wir täglich Gelegenheit haben. Schlagen wir ja diese Kreuzesübung nicht gering an. Unser göttlicher Heiland hat es getragen für uns sein ganzes Leben, von der Krippe an bis auf Golgotha, wo er am Kreuze für uns gestorben ist. Diese Kreuzesliebe ahmen wir nach! Sein Leben war aus Gott, und so erfüllte er nur in allem den heiligen Willen Gottes und besann sich keinen Augenblick, etwas anderes zu wollen noch zu tun. Unser Leben und Wirken muß ebenfalls ein Gnadenleben, ein Tugendleben sein, welches wir beständig schöpfen sollen aus Jesus. Das Herz Jesu soll uns beleben, beseelen und beglücken. Täglich müssen wir eifrig im Gebet den lieben Gott bitten, um dieses Gnadenleben zu führen.^pWir leben auf dieser Welt in der streitenden Kirche. Alle Tugenden müssen unter Mühen und Anstrengungen geübt werden, lehrt schon der Katechismus. Jedoch ist es ein großer Unterschied, wie man die Mühen, Beschwerden, Prüfungen, Schwächen und Gebrechen körperlicher und geistiger Art, alles, was uns begegnet, annimmt und trägt. Nehmen wir sie im Glauben als vom lieben Gott geschickt oder zugelassen an, tragen und dulden wir sie aus Liebe zu Gott und üben die entgegengesetzten Tugenden wieder im Glauben und aus dem Glauben, so wird dies Opferleben süß; denn es läutert unsere Seelen und führt uns Gott näher. Es bringt Ruhe, Frieden und Trost in unsere Seelen. Anders aber ist es mit dem Opferleben, wenn man alles schwere Kreuz, Leiden, körperlich oder geistig, innerlich oder äußerlich, nur immer betrachtet nach seinem Gefühl und menschlichen Verstand, als von den Menschen verursacht: so sucht man nur zu tragen mit seinen menschlichen Kräften und menschlichem Geist und nach Neigung und Gefühl, und so werden die Opfer zu Essig, also sauer und bitter, machen unzufrieden und verwirrt. Dieses Opferleben führt von Gott ab.^pJe älter wir werden, desto mehr Mut und Vertrauen müssen wir haben, für Gott leben und wirken zu wollen. Die Liebe ermüdet nicht und ist in und mit uns wirksam, auch in kranken und unseren alten Tagen; denn so lange wir leben, können wir das Gute üben. Möge der rechte Eifer, der von Gott kommt, uns verzehren. Der Herr ist stark in den Schwachen.",
+            "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos und ihr habt mich aufgenommen.",
+            "patr_resp2": "Amen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
+            "patr_resp3": "Wer sich des Armen erbarmt, der liebt den Herrn."
+          },
+          "Laudes": {
+            "button": "Sel. Maria Katharina Kasper"
+          }
+        }
+      }
+    },
+    "4": {
+      "23": {
+        "oblig": {
+          "each": {
+            "comm_1": "MärtSg",
+            "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen.^ORV"
+          },
+          "ErsteV": {
+            "button": "1. Vesper zum Hochfest des hl. Georg",
+            "farbe": "r",
+            "hymn_1": 8423.4,
+            "ant1": "Heiliger Georg, du Zeuge für Christus, lass uns mit dir Gott loben und preisen.^HALLo",
+            "ant2": "Wer sich zu mir vor den Menschen bekennt, zu dem werde ich mich auch vor meinem Vater bekennen.^HALLo",
+            "ant3": "Der heilige Georg ist für Christus gestorben, nun lebt er in Ewigkeit.^HALLo",
+            "les_buch": "2°Tim",
+            "les_stelle": "2,8-10",
+            "les_text": "Denk daran, dass Jesus Christus, der Nachkomme Davids, von den Toten auferstanden ist; so lautet mein Evangelium, für das ich zu leiden habe und sogar wie ein Verbrecher gefesselt bin; aber das Wort Gottes ist nicht gefesselt. Das alles erdulde ich um der Auserwählten willen, damit auch sie das Heil in Christus Jesus und die ewige Herrlichkeit erlangen.",
+            "resp1": "Ihr Heiligen freut euch im Herrn.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Gott hat sich euch zum Erbe erwählt.",
+            "antev": "Auf festen Fels gegründet, kämpfte Georg bis zum Tod für den Glauben an Christus. Nun liegt der Kranz der Gerechtigkeit für ihn bereit.^HALLo",
+            "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, er ist der wahre Weinstock und erfüllt alle mit Leben, die mit ihm verbunden bleiben.",
+            "bitten_r": "Auf die Fürsprache des heiligen Georg erhöre uns.",
+            "bitten": "Erneuere das religiöse Leben in unserem Bistum^qund lass das Wirken seiner Amtsträger Frucht bringen.^pFühre zurück, die sich von Deiner Kirche getrennt haben^qund lass alle Glieder der Kirche die Früchte des Geistes: Liebe, Freude und Geduld unter den Menschen verbreiten.^pSei mit Deinem Heiligen Geist bei den politischen Gesprächen und Begegnungen,^qdamit sie Frieden und Gerechtigkeit wirken.^pHilf allen, die in Zweifel geraten, vom Unglück heimgesucht und von Krankheit gezeichnet sind,^qdamit sie die Verbindung zu Dir, dem Weinstock, nicht aufgeben.^pErbarme dich der verstorbenen Bischöfe, Priester und Diakone unseres Bistums^qund nimm sie in deine ewige Liebe auf."
+          },
+          "Invitatorium": {
+            "ant0": "Kommt, lasst uns den Herrn anbeten und am Hochfest des heiligen Georg ihn preisen.^HALLo"
+          },
+          "Lesehore": {
+            "hymn_1": 8423.1,
+            "ant1": "Um meines Namens willen werden alle euch hassen. Wer aber standhaft bleibt bis zum Ende, der wird gerettet.^HALLo",
+            "ant2": "Wer rechtschaffen lebt, darf Gottes Angesicht schauen.^HALLo",
+            "ant3": "Ich ruf’ dich an, Herr Gott, erhöre mich.^HALLo",
+            "versikel0": "Voll Vertrauen schritt Georg zum Kampf.^HALLo",
+            "versikel1": "Des Heiligen Geistes Waffenrüstung zog er an.^HALLo",
+            "les_buch": "Aus dem zweiten Timotheusbrief.",
+            "les_stelle": "2,1-15",
+            "les_text": "Du, mein Sohn, sei stark in der Gnade, die dir in Christus Jesus geschenkt ist. Was du vor vielen Zeugen von mir gehört hast, das vertrau zuverlässigen Menschen an, die fähig sind, auch andere zu lehren.^pLeide mit mir als guter Soldat Christi Jesu. Keiner, der in den Krieg zieht, lässt sich in Alltagsgeschäfte verwickeln, denn er will, dass sein Heerführer mit ihm zufrieden ist. Und wer an einem Wettkampf teilnimmt, erhält den Siegeskranz nur, wenn er nach den Regeln kämpft. Der Bauer, der die ganze Arbeit tut, soll als erster seinen Teil von der Ernte erhalten.^pÜberleg dir, was ich sage. Dann wird der Herr dir in allem das rechte Verständnis geben.^pDenk daran, dass Jesus Christus, der Nachkomme Davids, von den Toten auferstanden ist; so lautet mein Evangelium, für das ich zu leiden habe und sogar wie ein Verbrecher gefesselt bin; aber das Wort Gottes ist nicht gefesselt. Das alles erdulde ich um der Auserwählten willen, damit auch sie das Heil in Christus Jesus und die ewige Herrlichkeit erlangen.^pDas Wort ist glaubwürdig: Wenn wir mit Christus gestorben sind, werden wir auch mit ihm leben; wenn wir standhaft bleiben, werden wir auch mit ihm herrschen; wenn wir ihn verleugnen, wird auch er uns verleugnen. Wenn wir untreu sind, bleibt er doch treu, denn er kann sich selbst nicht verleugnen.^pRuf ihnen das ins Gedächtnis und beschwöre sie bei Gott, sich nicht um Worte zu streiten; das ist unnütz und führt die Zuhörer nur ins Verderben. Bemüh dich darum, dich vor Gott zu bewähren als ein Arbeiter, der sich nicht zu schämen braucht, als ein Mann, der offen und klar die wahre Lehre vertritt.",
+            "resp1": "Bis zum Tod setze dich ein für das Recht, dann wird der Herr für dich kämpfen.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Wer siegt, dem kann der zweite Tod nichts anhaben, er wird den Kranz des Lebens erhalten.",
+            "patr_autor": "^A:Limburg-04-23:Petrus Damniani († 1072)"
+          },
+          "Laudes": {
+            "referenz": "AAA-4-23-n2",
+            "hymn_1": 9029.1,
+            "hymn_2": 8423.2,
+            "ant1": "Meine Lippen preisen dich, Herr; denn deine Huld ist besser als Leben.^HALLo",
+            "ant2": "Preist den Herrn, ihr Märtyrer des Herrn, preist ihn in Ewigkeit.^HALLo",
+            "ant3": "Wer siegt, den mache ich zu einer Säule im Tempel meines Gottes, und meinen Namen schreibe ich auf ihn.^HALLo",
+            "les_buch": "1°Joh",
+            "les_stelle": "5,3-5",
+            "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat, unser Glaube. Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
+            "resp1": "Er stritt bis zum Tod für das Gesetz seines Gottes und fürchtete sich nicht vor den Worten der Gottlosen;",
+            "resp2": "denn er war auf einen festen Felsen gegründet.^HALLo",
+            "resp3": "Er hat das Leben der Welt geringgeachtet und ist zum Reich des Himmels gelangt.",
+            "antev": "Wenn man euch um des Namens Christi willen beschimpft, seid ihr seligzupreisen; denn der Geist Gottes ruht auf euch.",
+            "bitten_e": "Gepriesen sei Jesus Christus, der den heiligen Georg durch das Martyrium ausgezeichnet hat:",
+            "bitten_r": "Erhöre uns, Christus.",
+            "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen:^qschenke uns die Freiheit von aller Versklavung und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod:^qhilf uns in allen Anfechtungen des Glaubens.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt:^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gesetzt:^qlass nicht zu, dass wir den Verführungen der Welt erliegen."
+          },
+          "Terz": {
+            "hymn_1": 8423.2,
+            "hymn_2": 8423.4,
+            "ant0": "Gott verlieh ihm den Siegespreis, und Georg erkannte, dass Gottes Weisheit mächtiger ist als alles andere.^HALLo",
+            "les_buch": "Offb",
+            "les_stelle": "2,10-11",
+            "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben. Wer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
+            "resp0": "Voll Vertrauen schritt Georg zum Kampf.^HALLo",
+            "resp1": "Des Heiligen Geistes Waffenrüstung zog er an.^HALLo"
+          },
+          "Sext": {
+            "hymn_1": 8423.2,
+            "hymn_2": 8423.4,
+            "ant0": "Tapfer beugte Georg sein Haupt, und so verdiente er sich um Christi willen die Krone des Martyriums.^HALLo",
+            "les_buch": "2°Tim",
+            "les_stelle": "2,10-11",
+            "les_text": "Das alles erdulde ich um der Auserwählten willen, damit auch sie das Heil in Christus Jesus und die ewige Herrlichkeit erlangen. Das Wort ist glaubwürdig: Wenn wir mit Christus gestorben sind, werden wir auch mit ihm leben.",
+            "resp0": "Ewiges Licht wird deinen Heiligen leuchten, Herr.^HALLo",
+            "resp1": "Und unvergängliches Leben.^HALLo"
+          },
+          "Non": {
+            "hymn_1": 8423.2,
+            "hymn_2": 8423.4,
+            "ant0": "Unter dem Schutz des hl. Georg wollen wir bleiben und seiner Fürbitte uns erfreuen.^HALLo",
+            "les_buch": "2°Tim",
+            "les_stelle": "2,12-13",
+            "les_text": "Wenn wir standhaft bleiben, werden wir auch mit ihm herrschen; wenn wir ihn verleugnen, wird auch er uns verleugnen. Wenn wir untreu sind, bleibt er doch treu, denn er kann sich selbst nicht verleugnen.",
+            "resp0": "Kostbar ist in den Augen des Herrn.^HALLo",
+            "resp1": "Der Tod seiner Heiligen.^HALLo"
+          },
+          "Vesper": {
+            "hymn_1": 8423.4,
+            "ant1": "Heiliger Georg, du Zeuge für Christus, lass uns mit dir Gott loben und preisen.^HALLo",
+            "ant2": "Wer sich zu mir vor den Menschen bekennt, zu dem werde ich mich auch vor meinem Vater bekennen.^HALLo",
+            "ant3": "Der heilige Georg ist für Christus gestorben, nun lebt er in Ewigkeit.^HALLo",
+            "les_buch": "Offb",
+            "les_stelle": "7,14b-17",
+            "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden, und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
+            "resp1": "Ihr Heiligen freut euch im Herrn.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Gott hat sich euch zum Erbe erwählt.",
+            "antev": "Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht; denn ohne mich könnt ihr nichts vollbringen.^HALLo",
+            "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, er ist der wahre Weinstock und erfüllt alle mit Leben, die mit ihm verbunden bleiben.",
+            "bitten_r": "Auf die Fürsprache des heiligen Georg erhöre uns.",
+            "bitten": "Erneuere das religiöse Leben in unserem Bistum^qund lass das Wirken seiner Amtsträger Frucht bringen.^pFühre zurück, die sich von Deiner Kirche getrennt haben^qund lass alle Glieder der Kirche die Früchte des Geistes: Liebe, Freude und Geduld unter den Menschen verbreiten.^pSei mit Deinem Heiligen Geist bei den politischen Gesprächen und Begegnungen,^qdamit sie Frieden und Gerechtigkeit wirken.^pHilf allen, die in Zweifel geraten, vom Unglück heimgesucht und von Krankheit gezeichnet sind,^qdamit sie die Verbindung zu Dir, dem Weinstock, nicht aufgeben.^pErbarme dich der verstorbenen Bischöfe, Priester und Diakone unseres Bistums^qund nimm sie in deine ewige Liebe auf."
+          }
+        }
+      }
+    },
+    "5": {
+      "15": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Rupert!"
+          },
+          "Laudes": {
+            "les_buch": "Eph",
+            "les_stelle": "1,3-4",
+            "les_text": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns mit allem Segen seines Geistes gesegnet durch unsere Gemeinschaft mit Christus im Himmel. Denn in ihm hat er uns erwählt vor der Erschaffung der Welt, damit wir heilig und untadelig leben vor Gott.",
+            "les_text_neu": "",
+            "resp1": "Alles, was aus Gott geboren ist, besiegt die Welt.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
+            "referenz": "Trier-5-15-d1",
+            "button": "Hl. Rupert von Bingen",
+            "antev": "Niemand soll dich wegen deiner Jugend geringschätzen; sei den Gläubigen ein Vorbild in deinen Worten, im Leben, in der Liebe und im Glauben und lenke ihre Schritte auf den Weg des Friedens.^HALLo",
+            "hymn_1": 8515.1
+          },
+          "Vesper": {
+            "les_buch": "Weish",
+            "les_stelle": "4,13-16",
+            "les_text": "Früh vollendet, hat der Gerechte doch ein volles Leben gehabt; da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen. Die Leute sahen es, ohne es zu verstehen; sie nahmen es sich nicht zu Herzen, dass Gnade und Erbarmen seinen Auserwählten zuteil wird, Belohnung seinen Heiligen. Der Gerechte, der entschlafen ist, verurteilt die Frevler, die noch leben, die früh vollendete Jugend das hohe Alter des Ungerechten.",
+            "les_text_neu": "",
+            "resp1": "Ich betete, und es ward mir Weisheit gegeben.",
+            "resp2": "Halleluja,°halleluja.",
+            "resp3": "Ich zog sie Zepter und Kronen vor und achtete Reichtum für nichts.",
+            "antev": "Wir verehren dich, heiliger Rupert, und preisen den mächtigen Gott, der Großes an dir getan und dich zur Heiligkeit geführt hat.^HALLo",
+            "hymn_1": 8515.1
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Limburg-05-15:Hildegard von Bingen (†°1179)",
+            "hymn_1": 1199.0
+          }
+        }
+      }
+    },
+    "6": {
+      "19": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag der heiligen Elisabeth!"
+          },
+          "Lesehore": {
+            "les_buch": "Aus dem Brief an die Philipper.",
+            "les_stelle": "3,7-4,1.4-9",
+            "les_text": "^hFreut euch im Herrn zu jeder Zeit^pWas mir damals ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen und in ihm zu sein. Nicht meine eigene Gerechtigkeit suche ich, die aus dem Gesetz hervorgeht, sondern jene, die durch den Glauben an Christus kommt, die Gerechtigkeit, die Gott aufgrund des Glaubens schenkt. Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen. So hoffe ich, auch zur Auferstehung von den Toten zu gelangen.^pNicht dass ich es schon erreicht hätte oder dass ich schon vollendet wäre. Aber ich strebe danach, es zu ergreifen, weil auch ich von Christus Jesus ergriffen worden bin. Brüder, ich bilde mir nicht ein, dass ich es schon ergriffen hätte. Eines aber tue ich: Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist. Das Ziel vor Augen, jage ich nach dem Siegespreis: der himmlischen Berufung, die Gott uns in Christus Jesus schenkt.^pDas wollen wir bedenken, wir Vollkommenen. Und wenn ihr anders über etwas denkt, wird Gott euch auch das offenbaren. Nur müssen wir festhalten, was wir erreicht haben. Ahmt auch ihr mich nach, Brüder, und achtet auf jene, die nach dem Vorbild leben, das ihr an uns habt. Denn viele – von denen ich oft zu euch gesprochen habe, doch jetzt unter Tränen spreche – leben als Feinde des Kreuzes Christi. Ihr Ende ist das Verderben, ihr Gott der Bauch, ihr Ruhm besteht in ihrer Schande; Irdisches haben sie im Sinn.^pUnsere Heimat aber ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.^pDarum, meine geliebten Brüder, nach denen ich mich sehne, meine Freude und mein Ehrenkranz, steht fest in der Gemeinschaft mit dem Herrn, liebe Brüder.^pFreut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in der Gemeinschaft mit Christus Jesus bewahren.^pSchließlich, Brüder: Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Was ihr gelernt und angenommen, gehört und an mir gesehen habt, das tut! Und der Gott des Friedens wird mit euch sein.",
+            "les_text_neu": "",
+            "resp1": "Die Welt und alle ihre Schönheit habe ich geringgeachtet aus Liebe zu Christus.",
+            "resp2": "Ihn habe ich gefunden, ihn liebe ich, an ihn habe ich geglaubt und mich ihm geweiht.",
+            "resp3": "Mein Herz fließt über von froher Kunde, ich weihe mein Lied dem König.",
+            "patr_autor": "Marianna Schrader OSB",
+            "patr_werk": "Aus dem Leben der hl. Elisabeth.",
+            "patr_text": "^hAuserwähltes Werkzeug Gottes^pZu den außergewöhnlich religiösen Menschen im Umkreis unserer Heimat gehört Elisabeth von Schönau. 1129 wurde sie geboren. Ihr Geburtsort und Familienname sind unbekannt geblieben. Doch lassen ihre verwandtschaftlichen Beziehungen erkennen, dass sie einem angesehenen Adelsgeschlecht entstammte.^pMit 12 Jahren wird sie, der Sitte ihrer Zeit entsprechend, von den Eltern dem noch jungen Kloster Schönau bei Nastätten{1#@einst Diözese Trier, heute Diözese Limburg} zur Erziehung übergeben. In dieses Kloster trat sie dann selbst 1147 mit 18 Jahren ein.^pNichts deutete darauf hin, dass der jungen, immer etwas kränkelnden Nonne außergewöhnliche Erlebnisse bevorstehen sollten. Es ist bekannt, wie besonders ernst sie die übliche Askese des klösterlichen Lebens nahm, und dass ihre ältere mütterliche Freundin Hildegard von Bingen sie vor Übermaß warnte.^pDa Elisabeth eine ausgeprägte religiöse Natur besaß, fühlte sie sich, durchdrungen vom Bußgeist, verpflichtet, Gott mit harten Werken der Buße und Abtötung für die Sünden ihrer Zeit Sühne zu leisten. Aber ihr zarter, kränklicher Körper war diesen Kasteiungen nicht gewachsen.^pElisabeth war 23 Jahre alt, als sie nach einer schweren Krise die ersten Visionen hatte. In der Folgezeit wurden sie immer häufiger und erstreckten sich über 13 Jahre bis zu ihrem Tode. Ihre theologischen Visionen waren es, die ihren Ruf weithin verbreiteten. Viele Ratsuchenden haben sich mit ihren Problemen schriftlich an sie gewandt oder sind persönlich nach Schönau gekommen, um durch sie Hilfe und Auskunft zu erhalten.^pElisabeth hatte eine große Liebe zur Kirche. Im Bewusstsein ihrer besonderen Sendung richtete sie deshalb scharfe Mahnungen an Zeitgenossen, an Klerus und Volk.^pTrotz ihrer schwachen Gesundheit und häufigen Leiden wählte sie das Kloster 1157 zur Meisterin, ein Amt, das sie acht Jahre verwaltet.^pSie stirbt, erst 36 Jahre alt, am 18. Juni 1165. Ihre letzte Ruhestätte fand Elisabeth neben dem Hochaltar in der Abteikirche. Später wurden ihre sterblichen Überreste in eine eigens erbaute Elisabeth-Kapelle umgebettet.^pEine Plünderung durch schwedische Truppen zerstörte 1631 das Grab Elisabeths und zerstreute ihre Gebeine. Nur die Schädeldecke blieb erhalten und wird noch heute in der Kirche in einem neugotischen Reliquiar aus der Zeit der Jahrhundertwende zur Verehrung ausgesetzt. Diese Reliquie ist das letzte sichtbare Unterpfand, das von der Wirkungsstätte der Seherin, dem ehemaligen Benediktinerinnenkloster, und seiner einst hochberühmten Kirche erhalten blieb.^pDennoch ist Elisabeth nicht ganz vergessen, und das Zurücktreten in der allgemeinen Beachtung schmälert keineswegs ihre Bedeutung, die sie in ihrem Jahrhundert und für die Mitlebenden hatte.^pElisabeths Absicht war, den Ratsuchenden zu helfen, indem sie ihren Glauben auf den rechten Weg führen wollte. Dabei fühlte sie sich als auserwähltes Werkzeug Gottes, durch das er seinen Willen offenbarte.^pVon Schönau ausgehend setzte ihre kultische Verehrung ein, obwohl Elisabeth nie offiziell heiliggesprochen wurde. Dennoch hat das Martyrologium Romanum, das amtliche Verzeichnis der kirchlich anerkannten Heiligen, Elisabeth in der 1584 neu erarbeiteten Fassung als Heilige verzeichnet. Der Limburger Bischof Peter Josef Blum veranlasste die Aufnahme der Seherin in das Proprium Limburgense.",
+            "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
+            "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
+            "patr_resp3": "Nehmet euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun.",
+            "hymn_1": 8619.1
+          },
+          "major": {
+            "comm_1": "Frau_Ord",
+            "comm_2": "Frau",
+            "oration": "Gütiger Gott, mit deiner Hilfe ist die heilige Elisabeth Christus in seiner Armut und Demut nachgefolgt. Hilf uns, dass auch wir unserer Berufung treu bleiben und die Vollendung erreichen, zu der uns dein Sohn den Weg gezeigt hat,^ORR"
+          },
+          "Laudes": {
+            "button": "Hl. Elisabeth von Schönau",
+            "genitiv": "der heiligen Elisabeth",
+            "hymn_1": 8619.2
+          },
+          "Vesper": {
+            "antev": "Der Herr hat sie zu seiner Braut erwählt auf ewig, in Treue und Erbarmen.",
+            "hymn_1": 8619.1
+          }
+        }
+      }
+    },
+    "7": {
+      "6": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Goar!"
+          },
+          "Lesehore": {
+            "versikel0": "Der Herr führte den Gerechten auf geraden Wegen.",
+            "versikel1": "Und ließ in schauen das Gottesreich.",
+            "les_buch": "Aus dem ersten Brief an die Korinther.",
+            "les_stelle": "12,31b-13,13",
+            "les_text": "^hDas Hohelied der Liebe^pIch zeige euch jetzt noch einen anderen Weg, einen, der alles übersteigt:^pWenn ich in den Sprachen der Menschen und Engel redete,^lhätte aber die Liebe nicht,^lwäre ich dröhnendes Erz oder eine lärmende Pauke.^pUnd wenn ich prophetisch reden könnte^lund alle Geheimnisse wüsste^lund alle Erkenntnis hätte;^lwenn ich alle Glaubenskraft besäße^lund Berge damit versetzen könnte,^lhätte aber die Liebe nicht,^lwäre ich nichts.^pUnd wenn ich meine ganze Habe verschenkte^lund wenn ich meinen Leib dem Feuer übergäbe,^lhätte aber die Liebe nicht,^lnützte es mir nichts.^pDie Liebe ist langmütig,^ldie Liebe ist gütig.^lSie ereifert sich nicht,^lsie prahlt nicht,^lsie bläht sich nicht auf.^lSie handelt nicht ungehörig,^lsucht nicht ihren Vorteil,^llässt sich nicht zum Zorn reizen,^lträgt das Böse nicht nach.^lSie freut sich nicht über das Unrecht,^lsondern freut sich an der Wahrheit.^lSie erträgt alles,^lglaubt alles,^lhofft alles,^lhält allem stand.^lDie Liebe hört niemals auf.^pProphetisches Reden hat ein Ende,^lZungenrede verstummt,^lErkenntnis vergeht.^lDenn Stückwerk ist unser Erkennen,^lStückwerk unser prophetisches Reden;^lwenn aber das Vollendete kommt,^lvergeht alles Stückwerk.^pAls ich ein Kind war,^lredete ich wie ein Kind,^ldachte wie ein Kind^lund urteilte wie ein Kind.^lAls ich ein Mann wurde,^llegte ich ab, was Kind an mir war.^pJetzt schauen wir in einen Spiegel^lund sehen nur rätselhafte Umrisse,^ldann aber schauen wir von Angesicht zu Angesicht.^lJetzt erkenne ich unvollkommen,^ldann aber werde ich durch und durch erkennen,^lso wie ich auch durch und durch erkannt worden bin.^pFür jetzt bleiben Glaube, Hoffnung, Liebe,^ldiese drei;^ldoch am größten unter ihnen ist die Liebe.",
+            "resp1": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen.",
+            "resp2": "Wer in der Liebe bleibt, bleibt in Gott, und Gott bleibt in ihm.",
+            "resp3": "Wir wollen einander lieben; denn die Liebe ist aus Gott.",
+            "patr_autor": "LEER",
+            "patr_werk": "Nach der legendären Vita des heiligen Goar.",
+            "patr_text": "^hHerbergsvater der Müden und Hungrigen^pDie Gastlichkeit wurde dem Herbergsvater am Rhein Anlass einer Verleumdung beim Bischof von Trier. Goar führe ein ungeistliches Leben, sei unmäßig im Essen und Trinken.^pZwei Priester, die behaupteten, viel Böses von Goar zu wissen, schickte der Bischof zum Einsiedler, um die Anklage zu prüfen und Goar mit nach Trier zu bringen. Dort sollte er sich vor dem Bischof verantworten.^pWie all seinen Besuchern, setzte Goar auch den Abgesandten des Bischofs ein reichliches Mahl und Wein vor. Die beiden Priester lehnten jedoch die guten Gaben Gottes ab und empfahlen Goar Beherrschung und Maß im Essen und Trinken, die einem Priester besser anstünden als Schwelgerei. Goar antwortete, was ihnen aus Liebe angeboten würde, könnten sie unbedenklich auch mit Liebe annehmen.^pDie beiden Priester forderten dann Goar auf, unverzüglich mit ihnen nach Trier zum Bischof zu reisen. Die Reise nach Trier war ein mühseliger Weg, der über Berg und Tal führte. Während seine Begleiter bald erschöpft waren von Hitze, Hunger und Durst, schritt Goar weiter. Er hatte reichlichen Mundvorrat eingepackt.^pAls er nun sah, dass die beiden Priester vor Erschöpfung fast von ihren Pferden fielen, bot er ihnen eine Stärkung an. Diesmal widerstanden sie nicht.^pUnterwegs betete Goar, bis sie in Trier angelangt waren. Er begab sich sofort in eine Kirche, und die Priester suchten den Bischof auf. Der wunderte sich nun, dass statt der Gegner des Goar Bewunderer des Heiligen vor ihm standen.^pGoar konnte sich auch durch Wunder vor dem Bischof rechtfertigen. So wird erzählt, dass er im Audienzsaal des Bischofs seinen Habit an einen durchs Fenster einfallenden Sonnenstrahl aufgehängt habe.^pAn den Rhein zurückgekehrt, bat er den fränkischen König Sigisbert, ihm vor seinem Tod die Priester Agrippinus und Eusebius zu schicken. Drei Jahre darauf starb Goar in Gegenwart der beiden Priester in seiner Zelle am Rhein und wurde am Wocherbach begraben.",
+            "hymn_1": 1199.0
+          },
+          "major": {
+            "comm_2": "x"
+          },
+          "Laudes": {
+            "referenz": "Trier-7-6-d1",
+            "button": "Hl. Goar",
+            "antev": "Wohlan, du guter und getreuer Knecht. Weil du über weniges treu gewesen, will ich dich über vieles setzen; geh ein in die Freude deines Herrn."
+          },
+          "Vesper": {
+            "antev": "Dieser Mann hat die Welt und das Irdische verachtet; er hat triumphiert über sie und durch Wort und Tat sich Schätze gesammelt für den Himmel."
+          }
+        }
+      }
+    },
+    "8": {
+      "11": {
+        "oblig": {
+          "ErsteV": {
+            "hymn_1": 8811.2,
+            "hymn_2": 8811.3
+          },
+          "Vesper": {
+            "hymn_1": 8811.2,
+            "hymn_2": 8811.3
+          },
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIm Limburger Dom:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+            "oration_lat": "^RUBRIn Ecclesia cathedrali Limburgensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "^A:Limburg-08-11:Bischof Franz Rudolf Bornewasser (†°1951)",
+            "patr_werk": "Festpredigt zum Domjubiläum 1935",
+            "patr_text": "^hAller Geschichte letzter Sinn ist und bleibt die Ehre Gottes^pWie stehen wir oft so staunend und bewundernd vor den gewaltigen Domen des deutschen Mittelalters – Denkmälern des hochgespannten Selbstbewusstseins deutschen Bürgertums und deutscher Kaisermacht! Noch mehr Denkmäler der Hochblüte deutschen Kunstsinnes und Kunstschaffens, die das Märchen vom finsteren Mittelalter nur dort noch kümmerlich leben lässt, wo Nichtwissen und Übelwollen sich die Hand reichen.^pNoch mehr aber Denkmäler eines lebendigen Gottesbewusstseins in Bauherr, Künstler und Volk, die letzten Endes dem einen, ewigen, unendlichen, überweltlichen Gott aller Menschen, aller Völker und aller Zeiten Dome bauten, die weit hinausragten über die nüchternen Notwendigkeiten, die in unserer Zeit Norm und Richtschnur der Dinge sind und oft sein müssen.^pIhm dem Ewigen, wurden die Dome für Jahrtausende gebaut. Ihm, der da war, ehe denn die Berge wurden, aus denen die Steine auch für dieses Heiligtum gebrochen wurden. Ihm, der war, bevor die Wasser rauschten, die im Fluss drunten vorüberziehen. Ihm, der war, ehe die Sonne am Himmel stand, deren Strahlen sich brechen im leuchtenden Farbenglanz der Domfenster. Ihm, der noch sein wird, wenn einst in kommenden Jahrtausenden fremde Menschen im mit Moos überwachsenen Gestein die Formen des einstigen Georgsdomes suchen. Ihm, dem ewigen, unwandelbaren Gott, dem Ruhm und Ehre sei in Ewigkeit!^pDenn aller Geschichte letzter Sinn ist und bleibt die Ehre Gottes, eine Erkenntnis, die die gewaltigen Dome des deutschen Mittelalters uns künden, auch das zu Stein gewordene Gloria Dei des Limburger Domes.^pIn diesem Augenblick drängt sich uns allen wohl eine ernste Frage auf die Lippen. Die herrlichen Baudenkmale unserer Vorfahren, auch Limburgs Georgsdom, sind uns geblieben. Ist uns auch der Geist geblieben, in dem unsere Väter sie schufen? Ist die Gloria Dei, die Ehre Gottes, noch der treibende Gedanke im Denken und Wollen und Leben ihrer christlichen Nachfahren geblieben? Wer hätte den Mut, auf diese Frage ein klares Ja zu sagen?^pMöge Limburgs Dom auch für die kommenden Jahrhunderte das Symbol der Gloria Dei bleiben und Gotteswohnung, in der die Menschen der kommenden Zeit den Frieden für ihre Seele und Gottes Gnadenkraft für ihren Lebensweg finden! Möge er bleiben ein Zelt Gottes, Zelt des Friedens, der Kraft und des Mutes in der heutigen Zeit!",
+            "patr_resp1": "Herr, wenn dein Volk an dieser Stätte betet,",
+            "patr_resp2": "vergib ihm seine Sünden und zeige ihm den rechten Weg, auf dem es wandeln soll, und offenbare deine Herrlichkeit an dieser Stätte.",
+            "patr_resp3": "Der du Israel weidest, höre, der du Josephs Stamm wie eine Herde führst, der du über den Cherubim thronst,",
+            "hymn_1": 8811.1
+          },
+          "Laudes": {
+            "button": "Domkirchweihfest",
+            "hymn_1": 1139.0
+          },
+          "Messe": {
+            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
+            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
+            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
+            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+          }
+        }
+      },
+      "18": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag der heiligen Helena!"
+          },
+          "Lesehore": {
+            "hymn_1": 3323.0,
+            "hymn_2": 8818.1,
+            "les_buch": "Aus dem Buch der Sprichwörter.",
+            "les_stelle": "31,10-31",
+            "les_text": "^h^pEine tüchtige Frau, wer findet sie? Sie übertrifft alle Perlen an Wert. Das Herz ihres Mannes vertraut auf sie, und es fehlt ihm nicht an Gewinn. Sie tut ihm Gutes und nichts Böses alle Tage ihres Lebens. Sie sorgt für Wolle und Flachs und schafft mit emsigen Händen. Sie gleicht den Schiffen des Kaufmanns: Aus der Ferne holt sie ihre Nahrung. Noch bei Nacht steht sie auf, um ihrem Haus Speise zu geben [und den Mägden, was ihnen zusteht]. Sie überlegt es und kauft einen Acker, vom Ertrag ihrer Hände pflanzt sie einen Weinberg. Sie gürtet ihre Hüften mit Kraft und macht ihre Arme stark. Sie spürt den Erfolg ihrer Arbeit, auch des Nachts erlischt ihre Lampe nicht. Nach dem Spinnrocken greift ihre Hand, ihre Finger fassen die Spindel. Sie öffnet ihre Hand für den Bedürftigen und reicht ihre Hände dem Armen. Ihr bangt nicht für ihr Haus vor dem Schnee; denn ihr ganzes Haus hat wollene Kleider. Sie hat sich Decken gefertigt, Leinen und Purpur sind ihr Gewand.^pIhr Mann ist in den Torhallen geachtet, wenn er zu Rat sitzt mit den Ältesten des Landes. Sie webt Tücher und verkauft sie, Gürtel liefert sie dem Händler. Kraft und Würde sind ihr Gewand, sie spottet der drohenden Zukunft. Öffnet sie ihren Mund, dann redet sie klug, und gütige Lehre ist auf ihrer Zunge.^pSie achtet auf das, was vorgeht im Haus, und isst nicht träge ihr Brot. Ihre Söhne stehen auf und preisen sie glücklich, auch ihr Mann erhebt sich und rühmt sie:^pViele Frauen erwiesen sich tüchtig, doch du übertriffst sie alle. Trügerisch ist Anmut, vergänglich die Schönheit, nur eine gottesfürchtige Frau verdient Lob. Preist sie für den Ertrag ihrer Hände, ihre Werke soll man am Stadttor loben.",
+            "resp1": "Sie gürtet ihre Hüften mit Kraft und macht ihre Arme stark.",
+            "resp2": "Ihre Lampe erlischt nicht auf ewig.",
+            "resp3": "Gott ist in ihrer Mitte, darum wird sie niemals wanken."
+          },
+          "Laudes": {
+            "les_buch": "Hebr",
+            "les_stelle": "2,9b.10",
+            "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; es war nämlich Gottes gnädiger Wille, dass er für alle den Tod erlitt. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
+            "resp1": "Wir beten dich an, Herr Jesus Christus,",
+            "resp2": "wir preisen dein heiliges Leiden.",
+            "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
+            "referenz": "Trier-8-18-d1",
+            "button": "Hl. Helena",
+            "antev": "Dein Kreuz, o Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir: Denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
+            "hymn_1": 8818.2
+          },
+          "major": {
+            "comm_1": "Frau"
+          },
+          "Vesper": {
+            "antev": "Die heilige Helena hat den Ruhm irdischer Herrschaft verachtet, aber des höchsten Königs Herrschertum in der Enthüllung des Kreuzes der Welt offenbart.",
+            "hymn_1": 8818.4
+          }
+        }
+      },
+      "13": {
+        "d1": {
+          "major": {
+            "comm_1": "Jgfr",
+            "comm_2": "Jgfr_Ord"
+          },
+          "Laudes": {
+            "referenz": "Trier-8-13-d1",
+            "button": "Sel. Gertrud von Altenberg"
+          }
+        }
+      }
+    },
+    "9": {
+      "11": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Christus den Herrn, den Hirten der Hirten – kommt wir beten ihn an."
+          },
+          "Lesehore": {
+            "hymn_1": 8911.1,
+            "hymn_2": 2112.0,
+            "les_buch": "Aus dem ersten Thessalonicherbrief.",
+            "les_stelle": "2,1-13.19-20",
+            "les_text": "^h^pIhr wisst selbst, Brüder, dass wir nicht vergebens zu euch gekommen sind.^pWir hatten vorher in Philippi viel zu leiden und wurden misshandelt, wie ihr wisst; dennoch haben wir im Vertrauen auf unseren Gott das Evangelium Gottes trotz harter Kämpfe freimütig und furchtlos bei euch verkündet. Denn wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft. Nie haben wir mit unseren Worten schmeicheln versucht, das wisst ihr, und nie haben wir aus versteckter Habgier gehandelt, dafür ist Gott Zeuge.^pWir haben auch keine Ehre bei den Menschen gesucht, weder bei euch noch bei anderen, obwohl wir als Apostel Christi unser Ansehen hätten geltend machen können. Im Gegenteil, wir sind euch freundlich begegnet: Wie eine Mutter für ihre Kinder sorgt, so waren wir euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben; denn ihr wart uns sehr lieb geworden.^pIhr erinnert euch, Brüder, wie wir uns gemüht und geplagt haben. Bei Tag und Nacht haben wir gearbeitet, um keinem von euch zur Last zu fallen, und haben euch so das Evangelium Gottes verkündet. Ihr seid Zeugen, und auch Gott ist Zeuge, wie gottgefällig, gerecht und untadelig wir uns euch, den Gläubigen, gegenüber verhalten haben. Ihr wisst auch, dass wir, wie ein Vater seine Kinder, jeden einzelnen von euch ermahnt, ermutigt und beschworen haben zu leben, wie es Gottes würdig ist, der euch zu seinem Reich und zu seiner Herrlichkeit beruft.^pDarum danken wir Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Gottes Wort angenommen habt; und jetzt ist es in euch, den Gläubigen, wirksam.^pDenn, Brüder, ihr seid den Gemeinden Gottes in Judäa gleich geworden, die sich zu Christus Jesus bekennen. Ihr habt von euren Mitbürgern das gleiche erlitten wie jene von den Juden. Diese haben sogar Jesus, den Herrn, und die Propheten getötet; auch uns haben sie verfolgt. Sie missfallen Gott und sind Feinde aller Menschen; sie hindern uns daran, den Heiden das Evangelium zu verkünden und ihnen so das Heil zu bringen. Dadurch machen sie unablässig das Maß ihrer Sünden voll. Aber der ganze Zorn ist schon über sie gekommen.^pFür kurze Zeit, Brüder, sind wir verwaist, weil ihr uns fern seid, den Augen fern, nicht dem Herzen; deshalb haben wir uns in größter Sehnsucht umso eifriger bemüht, euch wiederzusehen. Ja, wir hatten uns fest vorgenommen, zu euch zu kommen, und das wollte ich, Paulus, schon einige Male; aber der Satan hat uns daran gehindert.^pDenn wer ist unsere Hoffnung, unsere Freude, der Kranz unseres Ruhmes vor Jesus, unserem Herrn, wenn er kommen wird? Nicht etwa auch ihr? Ja, ihr seid unsere Ehre und Freude.",
+            "resp1": "Gebt acht auf die ganze Herde, in der euch der Heilige Geist zu Bischöfen bestellt hat;",
+            "resp2": "sorgt wie Hirten für die Kirche Gottes, die er sich durch das Blut seines eigenen Sohnes erworben hat.",
+            "resp3": "Von Verwaltern verlangt man, dass sie sich treu erweisen.",
+            "patr_autor": "^A:Limburg-09-11:LEER",
+            "patr_werk": "Aus der Gründungslegende des Bistums Trier",
+            "patr_text": "^hDie drei Gründerbischöfe^pNachdem der Apostel Petrus nach Rom gekommen war und sich dort niedergelassen hatte, richtete er seinen Blick auch auf die Völker in Gallien und Germanien, um sie für Christus zu gewinnen. Für das Trierer Gebiet wählte er seine Schüler Eucharius, Valerius und Maternus als Missionare aus. Er weihte den Eucharius zum Bischof, den Valerius zum Diakon und den Maternus zum Subdiakon und sandte sie aus. Auf ihrer Reise kamen sie über die Schweiz nach dem Elsass, wo Maternus an Fieber erkrankte und starb. Entmutigt kehrten Eucharius und Valerius nach Rom zurück und berichteten dem Apostel über ihr Missgeschick. Petrus aber sandte sie zurück und gab ihnen seinen Bischofsstab mit, und zwar mit der Weisung, ihn dem toten Maternus aufzulegen und ihm im Namen Gottes zu befehlen, wieder ins Leben zurückzukehren. Die beiden reisten ab und kamen nach vierzig Tagen beim Grab des Maternus an, öffneten es und taten, wie ihnen geheißen.^pDie Legende lässt den Eucharius sprechen: „Maternus, du Apostel Christi, ich gebiete dir in der Kraft Jesu Christi, vom Tod zum Leben aufzuerstehen.“^pIn Trier angekommen, predigten die drei Missionare auf Straßen und Plätzen. Die Priester der heidnischen Götter aber traten ihnen entgegen und forderten das Volk auf, die Sendboten des neuen Glaubens zu steinigen. Als aber die Leute nach den Steinen griffen, standen sie plötzlich gelähmt da. Eucharius betete für sie, und sie wurden geheilt, doch ließen sich zunächst nur wenige taufen. Größeren Erfolg hatten die Missionare erst, nachdem Eucharius den verstorbenen Sohn der Witwe Albana wieder zum Leben erweckt hatte. Albana ließ sich mit ihrer ganzen Familie taufen und stellte bald darauf, als auch ein Trierer Senator sich dem Eucharius angeschlossen hatte und viele Menschen dem Schritt des Senators gefolgt waren, ihr Haus zur Einrichtung einer Kirche zur Verfügung.^pEucharius wirkte 23 Jahre als Bischof von Trier. Auf dem Sterbebett bestimmte er den Valerius zu seinem Nachfolger. Dieser verwaltete das Bischofsamt 15 Jahre lang. Während seiner Zeit wurde die Zahl der Christen bereits größer als die der Heiden. Valerius setzte den Maternus zum Nachfolger ein, der durch 40 Jahre die trierische Gemeinde leitete. Nach seinem Tod wurde er in der Nähe der gemeinsamen Grabstätte von Eucharius und Valerius beigesetzt. Seine Grabkirche ist neben der Kirche St. Eucharius im Jahr 978 in einer Urkunde bezeugt.",
+            "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+            "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
+            "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+          },
+          "Laudes": {
+            "hymn_1": 8911.1,
+            "hymn_2": 8911.2,
+            "les_buch": "Hebr",
+            "les_stelle": "2,9b.10",
+            "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; es war nämlich Gottes gnädiger Wille, dass er für alle den Tod erlitt. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
+            "resp1": "Wir beten dich an, Herr Jesus Christus,",
+            "resp2": "wir preisen dein heiliges Leiden.",
+            "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
+            "button": "Hll. Eucharius, Valerius und Maternus",
+            "antev": "Schaut euch um, wachet und betet, denn ihr wisst nicht, wann der Herr des Hauses kommt."
+          },
+          "Vesper": {
+            "hymn_1": 8911.1,
+            "hymn_2": 8911.2,
+            "antev": "Die weise waren, werden wie der Glanz des Firmamentes leuchten; die viele in Gerechtigkeit unterwiesen, werden wie die Sterne in Ewigkeit strahlen."
+          },
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, du hast die heiligen Bischöfe Eucharius, Valerius und Maternus berufen, den wahren Glauben zu verkünden und für die Einheit der Kirche zu wirken. Höre auf ihre Fürsprache und gib, dass alle, die durch die eine Taufe miteinander verbunden sind, deine Heilstaten vor den Menschen bezeugen.^ORV"
+          }
+        }
+      },
+      "17": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag der heiligen Hildegard!"
+          }
+        }
+      }
+    },
+    "10": {
+      "13": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Lubentius!"
+          },
+          "Lesehore": {
+            "hymn_1": 8911.1,
+            "hymn_2": 9013.1,
+            "les_buch": "Aus dem ersten Petrusbrief.",
+            "les_stelle": "5,1-11",
+            "les_text": "^hHirt und Herde^pEure Ältesten ermahne ich, da ich ein Ältester bin wie sie und ein Zeuge der Leiden Christi und auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird:^pSorgt als Hirten für die euch anvertraute Herde Gottes, nicht aus Zwang, sondern freiwillig, wie Gott es will; auch nicht aus Gewinnsucht, sondern aus Neigung; seid nicht Beherrscher eurer Gemeinden, sondern Vorbilder für die Herde!^pWenn dann der oberste Hirt erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen.^pSodann, ihr Jüngeren: ordnet euch den Ältesten unter! Alle aber begegnet einander in Demut! Denn Gott tritt den Stolzen entgegen, den Demütigen aber schenkt er seine Gnade. Beugt euch also in Demut unter die mächtige Hand Gottes, damit er euch erhöht, wenn die Zeit gekommen ist. Werft alle eure Sorge auf ihn, denn er kümmert sich um euch. Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann.^pLeistet ihm Widerstand in der Kraft des Glaubens! Wisst, dass eure Brüder in der ganzen Welt die gleichen Leiden ertragen müssen! Der Gott aller Gnade aber, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wiederaufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+            "resp1": "Als Diener Christi soll man uns betrachten und als Verwalter von Geheimnissen Gottes.",
+            "resp2": "Von Verwaltern verlangt man, dass sie sich treu erweisen.",
+            "resp3": "Viele Menschen rühmen sich ihrer Güte, aber wer findet einen, auf den Verlass ist?",
+            "patr_autor": "Bischof Wilhelm Kempf († 1982)",
+            "patr_werk": "Aus dem Brief „Treue zum Evangelium“.",
+            "patr_text": "^hDas Evangelium verkünden^pDas Evangelium ist der Kirche anvertraut zu treuer Bewahrung und zu missionarischer Weitergabe. Nach dem Willen Christi muss es in die jeweilige Zeit hinein verkündet und ausgelegt werden. Es muss daher übersetzt und mit den Fragen, Denkweisen, Erkenntnissen und Anliegen der jeweiligen Zeit konfrontiert werden. Dabei kann und soll es zu einem immer tieferen Verständnis des Evangeliums kommen; denn das „Wort Gottes\" ist so reich, dass kein einzelner Mensch und keine Zeit seinen ganzen Reichtum ermessen und ausschöpfen kann. In den verschiedenen Situationen der Menschheitsgeschichte gilt es, die Antworten und Weisungen des Evangeliums zu suchen und zu finden.^pBei der Verkündigung des Evangeliums hat die Kirche unter dem Wirken des Heiligen Geistes in den verschiedenen Epochen ihrer Geschichte den Reichtum des Wortes Gottes in jeweils neuer Weise verbindlich ausgesagt. Schon in den Schriften des Neuen Testamentes begegnet uns das Wort Gottes in unterschiedlicher Weise und in großer Vielfalt. Diese Vielfalt geht zurück auf den Geist Gottes, der uns darin die eine und selbe Wahrheit kundtut: die Botschaft von Jesus, dem Sohn Gottes und Erlöser der Welt. Um den Reichtum dieser Botschaft zu entfalten und vor Substanzverlust und Entstellungen zu schützen, hat die Kirche auch letztverbindliche Aussagen geprägt.^pSolche Aussagen nennt man Dogmen. Evangelium und Dogmen stehen in einem inneren Zusammenhang.^pDer Inhalt des Evangeliums ist der Kirche bei ihrer Verkündigung vorgegeben. Sie kann über diesen Inhalt nicht verfügen. Zugleich aber hat sie die Frohbotschaft den Menschen in ganz verschiedenen zeitgeschichtlichen und kulturellen Situationen zu vermitteln und verständlich zu machen. Beides miteinander zu verbinden, ist keine leichte Aufgabe.^pDabei ist mit einer doppelten Gefahr zu rechnen: Entweder übersieht man, dass das Evangelium situationsbezogen verkündet werden muss, oder der Verkündiger beachtet nicht, dass er den Inhalt des Evangeliums nicht antasten darf. Die Treue zu dem gleichbleibenden und zugleich immer wieder neu darzulegenden Evangelium ist allen Gliedern der Kirche aufgetragen.",
+            "patr_resp1": "Geht hinaus in die ganze Welt und verkündet das Evangelium allen Geschöpfen!",
+            "patr_resp2": "Wer glaubt und sich taufen lässt, wird gerettet.",
+            "patr_resp3": "Wenn jemand nicht aus dem Wasser und dem Geist geboren wird, kann er nicht in das Reich Gottes kommen."
+          },
+          "major": {
+            "oration": "Ewiger Gott, durch die Predigt des heiligen Lubentius hast du viele Menschen aus der Finsternis in das Licht der Wahrheit gerufen. Lass uns auf seine Fürsprache im Glauben treu bleiben und die Hoffnung bewahren, die uns das Evangelium gibt.^ORV"
+          },
+          "Laudes": {
+            "button": "Hl. Lubentius"
+          }
+        }
+      },
+      "29": {
+        "d1": {
+          "Invitatorium": {
+            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Ferrutius!"
+          },
+          "Lesehore": {
+            "hymn_1": 9029.1,
+            "les_buch": "Aus dem zweiten Korintherbrief.",
+            "les_stelle": "4,7-5,8",
+            "les_text": "^hLeidensgemeinschaft mit Christus^pDiesen Schatz tragen wir in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt. Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum; wir wissen weder aus noch ein und verzweifeln dennoch nicht; wir werden gehetzt und sind doch nicht verlassen; wir werden niedergestreckt und doch nicht vernichtet. Wohin wir auch kommen, immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird.^pDenn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.^pSo erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben, und darum reden wir.^pDenn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch (vor sein Angesicht) stellen wird. Alles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen, Gott zur Ehre.^pDarum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde. Gott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben.^pWir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.",
+            "resp1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt,",
+            "resp2": "euer Lohn wird groß sein im Himmel.",
+            "resp3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
+            "patr_autor": "Maximus (5. Jh.)",
+            "patr_werk": "Aus einer Auslegung zum Lukasevangelium (14,26–33).",
+            "patr_text": "^hDas Beispiel des Märtyrers stärkt unseren Glauben^pBrüder, wenn wir den Geburtstag aller heiligen Blutzeugen ganz fromm feiern sollen, so muss doch ganz besonders das Fest derjenigen ehrfürchtig begangen werden, die in unserer Heimat ihr eigenes Blut vergossen haben. Gewiss sind alle Heiligen überall da und sind ein Segen für alle; gleichwohl legen ganz besonders diejenigen Fürbitte für uns ein, die dazu noch Marterqualen für uns erduldet haben.^pDenn wenn ein Blutzeuge leidet, so leidet er nicht nur für seine Person, sondern auch für seine Mitbürger. Für sich leidet er zur Belohnung, für seine Mitbürger als Vorbild. Für sich leidet er, um zur ewigen Ruhe einzugehen, für seine Mitbürger, damit sie zum Heile gelangen. Denn durch ihr Beispiel haben wir gelernt, an Christus zu glauben, haben wir gelernt, bei allen Unbilden das ewige Leben zu suchen, haben wir gelernt, den Tod nicht zu fürchten. Seht also, was wir den Blutzeugen schulden: Der eine ist gefoltert worden, damit der andere gerettet würde; der eine erduldete den Henker, damit der andere Christus anerkenne; der eine ist dem Tode geweiht worden, damit der andere das ewige Leben erlange. Und schließlich ist der Heilige getötet worden, damit der Sünder heil davonkomme.^pDie Blutzeugen haben also nicht für sich selbst gelebt, noch sind sie für sich selbst gestorben.{1#vgl. Röm 14,7} Sie haben uns durch ihr frommes Leben ein Beispiel des Lebenswandels hinterlassen, ein Beispiel des Leidens durch ihr tapferes Ertragen.^pDeshalb nämlich wollte der Herr, dass die Blutzeugen auf der ganzen Welt und an verschiedenen Orten leiden sollten, um uns gewissermaßen durch das augenblickliche Glaubensbeispiel ihres Zeugnisses gleichsam als die berechtigten Zeugen anzutreiben. So soll die menschliche Schwachheit, die bei längerem Zuhören der Predigt über den Herrn nur eben kaum glauben will, nunmehr durch das Martyrium der Seligen zum Glauben kommen, wenn sie deren Zeugnis wirklich vor Augen sieht. Alle Blutzeugen also sollen wir ganz ehrfürchtig ehren. Darum lasst uns, Brüder, in dieser Welt diejenigen verehren, die wir später als Verteidiger haben können.^pWir wollen uns mit ihnen in der Nachahmung ihres Glaubens verbinden. Dies möge gnädig verleihen, der da lebt und als König herrscht von Ewigkeit zu Ewigkeit.",
+            "patr_resp1": "Weil ihr nicht aus der Welt seid, sondern weil ich euch aus der Welt erwählt habe, hasst euch die Welt.",
+            "patr_resp2": "Der Knecht ist nicht größer als sein Herr, denn wenn sie mich verfolgt haben, werden sie auch euch verfolgen.",
+            "patr_resp3": "Das alles werden sie euch antun um meines Namens willen!"
+          },
+          "Laudes": {
+            "hymn_1": 9029.2,
+            "hymn_2": 1118.0,
+            "les_buch": "1°Petr",
+            "les_stelle": "4,1-2",
+            "les_text": "Da Christus im Fleisch gelitten hat, wappnet auch ihr euch mit diesem Gedanken: Wer im Fleisch gelitten hat, für den hat die Sünde ein Ende. Darum richtet euch, solange ihr noch auf Erden lebt, nicht mehr nach den menschlichen Begierden, sondern nach dem Willen Gottes!",
+            "resp1": "Dich, Gott, loben wir, dich, Herr, preisen wir!",
+            "resp2": "Dich preist der Märtyrer leuchtendes Heer.",
+            "resp3": "Dich preist über das Erdenrund die heilige Kirche!",
+            "button": "Hl. Ferrutius",
+            "antev": "Um Christi willen müssen wir Freunde und Feinde lieben, wie es der heilige Ferrutius getan hat."
+          },
+          "Vesper": {
+            "hymn_1": 9029.2,
+            "hymn_2": 1123.0,
+            "les_buch": "1°Petr",
+            "les_stelle": "3,13-15a",
+            "les_text": "Wer wird euch Böses zufügen, wenn ihr euch voll Eifer um das Gute bemüht? Aber auch wenn ihr um der Gerechtigkeit willen leiden müsst, seid ihr seligzupreisen. Fürchtet euch nicht vor ihnen und lasst euch nicht erschrecken, sondern haltet in eurem Herzen Christus, den Herrn, heilig!",
+            "resp1": "Alle, die auf den Herrn vertrauen, werden die Wahrheit erkennen,",
+            "resp2": "die Treuen werden in Liebe bei ihm bleiben.",
+            "resp3": "Die Seelen der Gerechten sind in Gottes Hand und haben nie mehr Qualen zu erdulden.",
+            "antev": "Der heilige Märtyrer Ferrutius wurde im Sterben geboren. Man hat ihn getötet, aber er lebt. Auf Erden glaubte man ihn erloschen, er aber leuchtet im Himmel."
+          },
+          "major": {
+            "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Ferrutius die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV"
+          }
+        }
+      }
+    }
+  },
   "Fulda": {
     "2": {
       "4": {
@@ -16096,7 +16656,7 @@
             "oration": "Allmächtiger Gott, von der Liebe zu Christus bewegt, hat die heilige Kaiserin Helena die Botschaft vom siegreichen Kreuzestod des Erlösers in unserem Land verbreitet. Lass das Leiden deines Sohnes auch an uns fruchtbar werden, damit wir einst zum ewigen Leben auferstehen.^ORvR"
           },
           "Lesehore": {
-            "patr_autor": "^A:Trier-08-13:Ambrosius († 397)",
+            "patr_autor": "^A:Trier-08-18:Ambrosius († 397)",
             "patr_werk": "Aus der Trauerrede auf Kaiser Theodosius.",
             "patr_text": "^hEs öffne sich die Erde, dass das Heil aufleuchte!^pÄngstlich besorgt für ihren Sohn Konstantin, dem die Herrschaft über das römische Weltreich zugefallen war, eilte Helena nach Jerusalem und erforschte die Stelle, wo der Herr gelitten hatte. Sie begab sich auf Golgotha und sprach: „Sieh, der Ort des Kampfes! Wo ist der Sieg? Ich suche das Panier des Kreuzes, aber ich finde es nicht. Ich auf dem Throne, und das Kreuz des Herrn im Staube? Ich in Gold, und Christi Triumph im Schutt? Dieser noch begraben und vergraben die Siegespalme des ewigen Lebens? Wie soll ich an meine Erlösung glauben, wenn die Erlösung selbst sich dem Auge entzieht? Weg also mit dem Schutt, auf dass das Leben erscheine! Es öffne sich die Erde, dass das Heil aufleuchte!“^pHelena lässt nun den Boden aufgraben, das Erdreich wegnehmen. Da stößt sie auf drei durcheinanderliegende Marterhölzer, die der Schutt bedeckt, der Feind versteckt hatte. Doch Christi Triumph konnte nicht in Nacht vergraben bleiben. Der Heilige Geist gibt ihr einen sicheren Fingerzeig; sie findet das mittlere Kreuz mit der Aufschrift: Jesus von Nazareth, König der Juden.{1#vgl. Joh 19,19} Hieraus konnte der wahre Sachverhalt erschlossen werden: Aus der Aufschrift ward das Kreuz des Heiles offenbar. Sie fand also die Aufschrift und betete den König, nicht das Holz an, denn das wäre gottloser Aberglaube. Sie betete vielmehr den an, der am Holz gehangen, dessen Name auf der Überschrift gestanden; der für seine Verfolger laut zum Vater um Verzeihung ihrer Sünden flehte.{2#vgl. Lk 23,34} Voll Verlangen trachtete die Frau, das Heilmittel der Unsterblichkeit zu berühren, scheute sich aber, das Geheimnis des Heils mit dem Fuße zu treten. So gelangte sie hin zur Liegestelle der Wahrheit: Das Holz leuchtete auf, die Gnade erstrahlte.^pHelena suchte ebenfalls die Nägel, mit denen der Herr ans Kreuz geheftet wurde, und fand sie. Den einen verwandte sie zur Schmucksache, den anderen zum Weihegegenstand. Maria ward heimgesucht zur Erlösung der Eva, Helena ward heimgesucht zur Erlösung der Kaiser. Sie sandte ihrem Sohn Konstantin das Diadem, mit Edelsteinen geschmückt, die dem Eisen des Nagels eingefügt waren und das den noch kostbareren Edelstein des Kreuzes der göttlichen Erlösung zusammenhielt.{3#@Wie aus dem Zusammenhang zu entnehmen ist, wurde der Nagel in Kreuzesform in das Diadem verarbeitet.} Weise handelte Helena, da sie das Kreuz auf dem Haupte der Könige aufpflanzte. Es sollte das Kreuz Christi an den Königen verehrt werden. Ein Gut ist dieser Nagel im Zügel der römischen Herrschaft. Er beherrscht den ganzen Erdkreis und schmückt die Stirn der Kaiser, so dass sie jetzt Prediger sind, die so oft die Verfolger waren.",
             "patr_resp1": "Heute feiert die heilige Kirche den Gedenktag der ruhmvollen Kaiserin, die das siegreiche Holz des Kreuzes aufgefunden hat:",
@@ -16349,168 +16909,6 @@
           },
           "Laudes": {
             "button": "Hl. Kunibert"
-          }
-        }
-      }
-    }
-  },
-  "Limburg": {
-    "5": {
-      "15": {
-        "d1": {
-          "Invitatorium": {
-            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Rupert!"
-          },
-          "Laudes": {
-            "les_buch": "Eph",
-            "les_stelle": "1,3-4",
-            "les_text": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns mit allem Segen seines Geistes gesegnet durch unsere Gemeinschaft mit Christus im Himmel. Denn in ihm hat er uns erwählt vor der Erschaffung der Welt, damit wir heilig und untadelig leben vor Gott.",
-            "les_text_neu": "",
-            "resp1": "Alles, was aus Gott geboren ist, besiegt die Welt.",
-            "resp2": "Halleluja,°halleluja.",
-            "resp3": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
-            "referenz": "Trier-5-15-d1",
-            "button": "Hl. Rupert von Bingen",
-            "antev": "Niemand soll dich wegen deiner Jugend geringschätzen; sei den Gläubigen ein Vorbild in deinen Worten, im Leben, in der Liebe und im Glauben und lenke ihre Schritte auf den Weg des Friedens.^HALLo",
-            "hymn_1": 8515.1
-          },
-          "Vesper": {
-            "les_buch": "Weish",
-            "les_stelle": "4,13-16",
-            "les_text": "Früh vollendet, hat der Gerechte doch ein volles Leben gehabt; da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen. Die Leute sahen es, ohne es zu verstehen; sie nahmen es sich nicht zu Herzen, dass Gnade und Erbarmen seinen Auserwählten zuteil wird, Belohnung seinen Heiligen. Der Gerechte, der entschlafen ist, verurteilt die Frevler, die noch leben, die früh vollendete Jugend das hohe Alter des Ungerechten.",
-            "les_text_neu": "",
-            "resp1": "Ich betete, und es ward mir Weisheit gegeben.",
-            "resp2": "Halleluja,°halleluja.",
-            "resp3": "Ich zog sie Zepter und Kronen vor und achtete Reichtum für nichts.",
-            "antev": "Wir verehren dich, heiliger Rupert, und preisen den mächtigen Gott, der Großes an dir getan und dich zur Heiligkeit geführt hat.^HALLo",
-            "hymn_1": 8515.1
-          },
-          "Lesehore": {
-            "patr_autor": "^A:Limburg-05-15:Hildegard von Bingen (†°1179)",
-            "hymn_1": 1199.0
-          }
-        }
-      }
-    },
-    "6": {
-      "19": {
-        "d1": {
-          "Invitatorium": {
-            "ant0": "Lasst uns Gott loben am Gedenktag der heiligen Elisabeth!"
-          },
-          "Lesehore": {
-            "les_buch": "Aus dem Brief an die Philipper.",
-            "les_stelle": "3,7-4,1.4-9",
-            "les_text": "^hFreut euch im Herrn zu jeder Zeit^pWas mir damals ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen und in ihm zu sein. Nicht meine eigene Gerechtigkeit suche ich, die aus dem Gesetz hervorgeht, sondern jene, die durch den Glauben an Christus kommt, die Gerechtigkeit, die Gott aufgrund des Glaubens schenkt. Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen. So hoffe ich, auch zur Auferstehung von den Toten zu gelangen.^pNicht dass ich es schon erreicht hätte oder dass ich schon vollendet wäre. Aber ich strebe danach, es zu ergreifen, weil auch ich von Christus Jesus ergriffen worden bin. Brüder, ich bilde mir nicht ein, dass ich es schon ergriffen hätte. Eines aber tue ich: Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist. Das Ziel vor Augen, jage ich nach dem Siegespreis: der himmlischen Berufung, die Gott uns in Christus Jesus schenkt.^pDas wollen wir bedenken, wir Vollkommenen. Und wenn ihr anders über etwas denkt, wird Gott euch auch das offenbaren. Nur müssen wir festhalten, was wir erreicht haben. Ahmt auch ihr mich nach, Brüder, und achtet auf jene, die nach dem Vorbild leben, das ihr an uns habt. Denn viele – von denen ich oft zu euch gesprochen habe, doch jetzt unter Tränen spreche – leben als Feinde des Kreuzes Christi. Ihr Ende ist das Verderben, ihr Gott der Bauch, ihr Ruhm besteht in ihrer Schande; Irdisches haben sie im Sinn.^pUnsere Heimat aber ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.^pDarum, meine geliebten Brüder, nach denen ich mich sehne, meine Freude und mein Ehrenkranz, steht fest in der Gemeinschaft mit dem Herrn, liebe Brüder.^pFreut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in der Gemeinschaft mit Christus Jesus bewahren.^pSchließlich, Brüder: Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Was ihr gelernt und angenommen, gehört und an mir gesehen habt, das tut! Und der Gott des Friedens wird mit euch sein.",
-            "les_text_neu": "",
-            "resp1": "Die Welt und alle ihre Schönheit habe ich geringgeachtet aus Liebe zu Christus.",
-            "resp2": "Ihn habe ich gefunden, ihn liebe ich, an ihn habe ich geglaubt und mich ihm geweiht.",
-            "resp3": "Mein Herz fließt über von froher Kunde, ich weihe mein Lied dem König.",
-            "patr_autor": "Marianna Schrader OSB",
-            "patr_werk": "Aus dem Leben der hl. Elisabeth.",
-            "patr_text": "^hAuserwähltes Werkzeug Gottes^pZu den außergewöhnlich religiösen Menschen im Umkreis unserer Heimat gehört Elisabeth von Schönau. 1129 wurde sie geboren. Ihr Geburtsort und Familienname sind unbekannt geblieben. Doch lassen ihre verwandtschaftlichen Beziehungen erkennen, dass sie einem angesehenen Adelsgeschlecht entstammte.^pMit 12 Jahren wird sie, der Sitte ihrer Zeit entsprechend, von den Eltern dem noch jungen Kloster Schönau bei Nastätten{1#@einst Diözese Trier, heute Diözese Limburg} zur Erziehung übergeben. In dieses Kloster trat sie dann selbst 1147 mit 18 Jahren ein.^pNichts deutete darauf hin, dass der jungen, immer etwas kränkelnden Nonne außergewöhnliche Erlebnisse bevorstehen sollten. Es ist bekannt, wie besonders ernst sie die übliche Askese des klösterlichen Lebens nahm, und dass ihre ältere mütterliche Freundin Hildegard von Bingen sie vor Übermaß warnte.^pDa Elisabeth eine ausgeprägte religiöse Natur besaß, fühlte sie sich, durchdrungen vom Bußgeist, verpflichtet, Gott mit harten Werken der Buße und Abtötung für die Sünden ihrer Zeit Sühne zu leisten. Aber ihr zarter, kränklicher Körper war diesen Kasteiungen nicht gewachsen.^pElisabeth war 23 Jahre alt, als sie nach einer schweren Krise die ersten Visionen hatte. In der Folgezeit wurden sie immer häufiger und erstreckten sich über 13 Jahre bis zu ihrem Tode. Ihre theologischen Visionen waren es, die ihren Ruf weithin verbreiteten. Viele Ratsuchenden haben sich mit ihren Problemen schriftlich an sie gewandt oder sind persönlich nach Schönau gekommen, um durch sie Hilfe und Auskunft zu erhalten.^pElisabeth hatte eine große Liebe zur Kirche. Im Bewusstsein ihrer besonderen Sendung richtete sie deshalb scharfe Mahnungen an Zeitgenossen, an Klerus und Volk.^pTrotz ihrer schwachen Gesundheit und häufigen Leiden wählte sie das Kloster 1157 zur Meisterin, ein Amt, das sie acht Jahre verwaltet.^pSie stirbt, erst 36 Jahre alt, am 18. Juni 1165. Ihre letzte Ruhestätte fand Elisabeth neben dem Hochaltar in der Abteikirche. Später wurden ihre sterblichen Überreste in eine eigens erbaute Elisabeth-Kapelle umgebettet.^pEine Plünderung durch schwedische Truppen zerstörte 1631 das Grab Elisabeths und zerstreute ihre Gebeine. Nur die Schädeldecke blieb erhalten und wird noch heute in der Kirche in einem neugotischen Reliquiar aus der Zeit der Jahrhundertwende zur Verehrung ausgesetzt. Diese Reliquie ist das letzte sichtbare Unterpfand, das von der Wirkungsstätte der Seherin, dem ehemaligen Benediktinerinnenkloster, und seiner einst hochberühmten Kirche erhalten blieb.^pDennoch ist Elisabeth nicht ganz vergessen, und das Zurücktreten in der allgemeinen Beachtung schmälert keineswegs ihre Bedeutung, die sie in ihrem Jahrhundert und für die Mitlebenden hatte.^pElisabeths Absicht war, den Ratsuchenden zu helfen, indem sie ihren Glauben auf den rechten Weg führen wollte. Dabei fühlte sie sich als auserwähltes Werkzeug Gottes, durch das er seinen Willen offenbarte.^pVon Schönau ausgehend setzte ihre kultische Verehrung ein, obwohl Elisabeth nie offiziell heiliggesprochen wurde. Dennoch hat das Martyrologium Romanum, das amtliche Verzeichnis der kirchlich anerkannten Heiligen, Elisabeth in der 1584 neu erarbeiteten Fassung als Heilige verzeichnet. Der Limburger Bischof Peter Josef Blum veranlasste die Aufnahme der Seherin in das Proprium Limburgense.",
-            "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
-            "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
-            "patr_resp3": "Nehmet euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun.",
-            "hymn_1": 8619.1
-          },
-          "major": {
-            "comm_1": "Frau_Ord",
-            "comm_2": "Frau",
-            "oration": "Gütiger Gott, mit deiner Hilfe ist die heilige Elisabeth Christus in seiner Armut und Demut nachgefolgt. Hilf uns, dass auch wir unserer Berufung treu bleiben und die Vollendung erreichen, zu der uns dein Sohn den Weg gezeigt hat,^ORR"
-          },
-          "Laudes": {
-            "button": "Hl. Elisabeth von Schönau",
-            "genitiv": "der heiligen Elisabeth",
-            "hymn_1": 8619.2
-          },
-          "Vesper": {
-            "antev": "Der Herr hat sie zu seiner Braut erwählt auf ewig, in Treue und Erbarmen.",
-            "hymn_1": 8619.1
-          }
-        }
-      }
-    },
-    "7": {
-      "6": {
-        "d1": {
-          "Invitatorium": {
-            "ant0": "Lasst uns Gott loben am Gedenktag des heiligen Goar!"
-          },
-          "Lesehore": {
-            "versikel0": "Der Herr führte den Gerechten auf geraden Wegen.",
-            "versikel1": "Und ließ in schauen das Gottesreich.",
-            "les_buch": "Aus dem ersten Brief an die Korinther.",
-            "les_stelle": "12,31b-13,13",
-            "les_text": "^hDas Hohelied der Liebe^pIch zeige euch jetzt noch einen anderen Weg, einen, der alles übersteigt:^pWenn ich in den Sprachen der Menschen und Engel redete,^lhätte aber die Liebe nicht,^lwäre ich dröhnendes Erz oder eine lärmende Pauke.^pUnd wenn ich prophetisch reden könnte^lund alle Geheimnisse wüsste^lund alle Erkenntnis hätte;^lwenn ich alle Glaubenskraft besäße^lund Berge damit versetzen könnte,^lhätte aber die Liebe nicht,^lwäre ich nichts.^pUnd wenn ich meine ganze Habe verschenkte^lund wenn ich meinen Leib dem Feuer übergäbe,^lhätte aber die Liebe nicht,^lnützte es mir nichts.^pDie Liebe ist langmütig,^ldie Liebe ist gütig.^lSie ereifert sich nicht,^lsie prahlt nicht,^lsie bläht sich nicht auf.^lSie handelt nicht ungehörig,^lsucht nicht ihren Vorteil,^llässt sich nicht zum Zorn reizen,^lträgt das Böse nicht nach.^lSie freut sich nicht über das Unrecht,^lsondern freut sich an der Wahrheit.^lSie erträgt alles,^lglaubt alles,^lhofft alles,^lhält allem stand.^lDie Liebe hört niemals auf.^pProphetisches Reden hat ein Ende,^lZungenrede verstummt,^lErkenntnis vergeht.^lDenn Stückwerk ist unser Erkennen,^lStückwerk unser prophetisches Reden;^lwenn aber das Vollendete kommt,^lvergeht alles Stückwerk.^pAls ich ein Kind war,^lredete ich wie ein Kind,^ldachte wie ein Kind^lund urteilte wie ein Kind.^lAls ich ein Mann wurde,^llegte ich ab, was Kind an mir war.^pJetzt schauen wir in einen Spiegel^lund sehen nur rätselhafte Umrisse,^ldann aber schauen wir von Angesicht zu Angesicht.^lJetzt erkenne ich unvollkommen,^ldann aber werde ich durch und durch erkennen,^lso wie ich auch durch und durch erkannt worden bin.^pFür jetzt bleiben Glaube, Hoffnung, Liebe,^ldiese drei;^ldoch am größten unter ihnen ist die Liebe.",
-            "resp1": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen.",
-            "resp2": "Wer in der Liebe bleibt, bleibt in Gott, und Gott bleibt in ihm.",
-            "resp3": "Wir wollen einander lieben; denn die Liebe ist aus Gott.",
-            "patr_autor": "LEER",
-            "patr_werk": "Nach der legendären Vita des heiligen Goar.",
-            "patr_text": "^hHerbergsvater der Müden und Hungrigen^pDie Gastlichkeit wurde dem Herbergsvater am Rhein Anlass einer Verleumdung beim Bischof von Trier. Goar führe ein ungeistliches Leben, sei unmäßig im Essen und Trinken.^pZwei Priester, die behaupteten, viel Böses von Goar zu wissen, schickte der Bischof zum Einsiedler, um die Anklage zu prüfen und Goar mit nach Trier zu bringen. Dort sollte er sich vor dem Bischof verantworten.^pWie all seinen Besuchern, setzte Goar auch den Abgesandten des Bischofs ein reichliches Mahl und Wein vor. Die beiden Priester lehnten jedoch die guten Gaben Gottes ab und empfahlen Goar Beherrschung und Maß im Essen und Trinken, die einem Priester besser anstünden als Schwelgerei. Goar antwortete, was ihnen aus Liebe angeboten würde, könnten sie unbedenklich auch mit Liebe annehmen.^pDie beiden Priester forderten dann Goar auf, unverzüglich mit ihnen nach Trier zum Bischof zu reisen. Die Reise nach Trier war ein mühseliger Weg, der über Berg und Tal führte. Während seine Begleiter bald erschöpft waren von Hitze, Hunger und Durst, schritt Goar weiter. Er hatte reichlichen Mundvorrat eingepackt.^pAls er nun sah, dass die beiden Priester vor Erschöpfung fast von ihren Pferden fielen, bot er ihnen eine Stärkung an. Diesmal widerstanden sie nicht.^pUnterwegs betete Goar, bis sie in Trier angelangt waren. Er begab sich sofort in eine Kirche, und die Priester suchten den Bischof auf. Der wunderte sich nun, dass statt der Gegner des Goar Bewunderer des Heiligen vor ihm standen.^pGoar konnte sich auch durch Wunder vor dem Bischof rechtfertigen. So wird erzählt, dass er im Audienzsaal des Bischofs seinen Habit an einen durchs Fenster einfallenden Sonnenstrahl aufgehängt habe.^pAn den Rhein zurückgekehrt, bat er den fränkischen König Sigisbert, ihm vor seinem Tod die Priester Agrippinus und Eusebius zu schicken. Drei Jahre darauf starb Goar in Gegenwart der beiden Priester in seiner Zelle am Rhein und wurde am Wocherbach begraben.",
-            "hymn_1": 1199.0
-          },
-          "major": {
-            "comm_2": "x"
-          },
-          "Laudes": {
-            "referenz": "Trier-7-6-d1",
-            "button": "Hl. Goar",
-            "antev": "Wohlan, du guter und getreuer Knecht. Weil du über weniges treu gewesen, will ich dich über vieles setzen; geh ein in die Freude deines Herrn."
-          },
-          "Vesper": {
-            "antev": "Dieser Mann hat die Welt und das Irdische verachtet; er hat triumphiert über sie und durch Wort und Tat sich Schätze gesammelt für den Himmel."
-          }
-        }
-      }
-    },
-    "8": {
-      "11": {
-        "oblig": {
-          "ErsteV": {
-            "hymn_1": 8811.2,
-            "hymn_2": 8811.3
-          },
-          "Vesper": {
-            "hymn_1": 8811.2,
-            "hymn_2": 8811.3
-          },
-          "each": {
-            "comm_1": "Kirchw",
-            "oration": "^RUBRIm Limburger Dom:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
-            "oration_lat": "^RUBRIn Ecclesia cathedrali Limburgensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
-          },
-          "Lesehore": {
-            "patr_autor": "^A:Limburg-08-11:Bischof Franz Rudolf Bornewasser (†°1951)",
-            "patr_werk": "Festpredigt zum Domjubiläum 1935",
-            "patr_text": "^hAller Geschichte letzter Sinn ist und bleibt die Ehre Gottes^pWie stehen wir oft so staunend und bewundernd vor den gewaltigen Domen des deutschen Mittelalters – Denkmälern des hochgespannten Selbstbewusstseins deutschen Bürgertums und deutscher Kaisermacht! Noch mehr Denkmäler der Hochblüte deutschen Kunstsinnes und Kunstschaffens, die das Märchen vom finsteren Mittelalter nur dort noch kümmerlich leben lässt, wo Nichtwissen und Übelwollen sich die Hand reichen.^pNoch mehr aber Denkmäler eines lebendigen Gottesbewusstseins in Bauherr, Künstler und Volk, die letzten Endes dem einen, ewigen, unendlichen, überweltlichen Gott aller Menschen, aller Völker und aller Zeiten Dome bauten, die weit hinausragten über die nüchternen Notwendigkeiten, die in unserer Zeit Norm und Richtschnur der Dinge sind und oft sein müssen.^pIhm dem Ewigen, wurden die Dome für Jahrtausende gebaut. Ihm, der da war, ehe denn die Berge wurden, aus denen die Steine auch für dieses Heiligtum gebrochen wurden. Ihm, der war, bevor die Wasser rauschten, die im Fluss drunten vorüberziehen. Ihm, der war, ehe die Sonne am Himmel stand, deren Strahlen sich brechen im leuchtenden Farbenglanz der Domfenster. Ihm, der noch sein wird, wenn einst in kommenden Jahrtausenden fremde Menschen im mit Moos überwachsenen Gestein die Formen des einstigen Georgsdomes suchen. Ihm, dem ewigen, unwandelbaren Gott, dem Ruhm und Ehre sei in Ewigkeit!^pDenn aller Geschichte letzter Sinn ist und bleibt die Ehre Gottes, eine Erkenntnis, die die gewaltigen Dome des deutschen Mittelalters uns künden, auch das zu Stein gewordene Gloria Dei des Limburger Domes.^pIn diesem Augenblick drängt sich uns allen wohl eine ernste Frage auf die Lippen. Die herrlichen Baudenkmale unserer Vorfahren, auch Limburgs Georgsdom, sind uns geblieben. Ist uns auch der Geist geblieben, in dem unsere Väter sie schufen? Ist die Gloria Dei, die Ehre Gottes, noch der treibende Gedanke im Denken und Wollen und Leben ihrer christlichen Nachfahren geblieben? Wer hätte den Mut, auf diese Frage ein klares Ja zu sagen?^pMöge Limburgs Dom auch für die kommenden Jahrhunderte das Symbol der Gloria Dei bleiben und Gotteswohnung, in der die Menschen der kommenden Zeit den Frieden für ihre Seele und Gottes Gnadenkraft für ihren Lebensweg finden! Möge er bleiben ein Zelt Gottes, Zelt des Friedens, der Kraft und des Mutes in der heutigen Zeit!",
-            "patr_resp1": "Herr, wenn dein Volk an dieser Stätte betet,",
-            "patr_resp2": "vergib ihm seine Sünden und zeige ihm den rechten Weg, auf dem es wandeln soll, und offenbare deine Herrlichkeit an dieser Stätte.",
-            "patr_resp3": "Der du Israel weidest, höre, der du Josephs Stamm wie eine Herde führst, der du über den Cherubim thronst,",
-            "hymn_1": 8811.1
-          },
-          "Laudes": {
-            "button": "Domkirchweihfest",
-            "hymn_1": 1139.0
-          },
-          "Messe": {
-            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
-            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
-            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
-            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
-          }
-        }
-      },
-      "13": {
-        "d1": {
-          "major": {
-            "comm_1": "Jgfr",
-            "comm_2": "Jgfr_Ord"
-          },
-          "Laudes": {
-            "referenz": "Trier-8-13-d1",
-            "button": "Sel. Gertrud von Altenberg"
           }
         }
       }
@@ -17319,8 +17717,6 @@
             "les_buch": "Aus dem zweiten Brief des Apostels Paulus an die Gemeinde in Korinth.",
             "les_stelle": "3,4–4,6",
             "les_text": "^hWir verkündigen nicht uns, sondern Jesus Christus^pWir haben durch Christus so großes Vertrauen zu Gott. Doch sind wir dazu nicht von uns aus fähig, als ob wir uns selbst etwas zuschreiben könnten; unsere Befähigung stammt vielmehr von Gott. Er hat uns fähig gemacht, Diener des Neuen Bundes zu sein, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tötet, der Geist aber macht lebendig. ^pWenn aber schon der Dienst des Todes, dessen Buchstaben in Stein gemeißelt waren, so herrlich war, dass die Israeliten das Gesicht des Mose nicht anschauen konnten, weil es eine Herrlichkeit ausstrahlte, die doch vergänglich war, wie sollte da der Dienst des Geistes nicht viel herrlicher sein?^pDenn wenn schon der Dienst der Verurteilung herrlich war, so ist der Dienst der Gerechtigkeit noch viel herrlicher. Eigentlich ist das Verherrlichte nämlich in diesem Fall gar nicht verherrlicht angesichts der überragenden Herrlichkeit. Wenn nämlich schon das Vergängliche in Herrlichkeit erschien: Die Herrlichkeit des Bleibenden wird es überstrahlen.^pWeil wir also eine solche Hoffnung haben, treten wir mit großem Freimut auf, nicht wie Mose, der über sein Gesicht eine Hülle legte, damit die Israeliten das Ende des Vergänglichen nicht sahen.^pDoch ihr Denken wurde verhärtet. Denn bis zum heutigen Tag liegt die gleiche Hülle auf dem Alten Bund, wenn daraus vorgelesen wird; sie wird nicht aufgedeckt, weil sie in Christus beseitigt wird. Bis heute liegt die Hülle auf ihrem Herzen, wenn Mose vorgelesen wird.^pSobald er aber zum Herrn zurückkehrt, wird die Hülle entfernt. Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit. Wir alle aber schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.^pDaher erlahmt unser Eifer nicht in dem Dienst, der uns durch Gottes Erbarmen übertragen wurde. Wir haben uns von aller schimpflichen Arglist losgesagt; wir verhalten uns nicht hinterhältig und verfälschen das Wort Gottes nicht, sondern machen die Wahrheit offenbar. So empfehlen wir uns vor dem Angesicht Gottes jedem menschlichen Gewissen.^pWenn unser Evangelium dennoch verhüllt ist, ist es nur denen verhüllt, die verloren gehen; denn der Gott dieser Weltzeit hat das Denken der Ungläubigen verblendet. So strahlt ihnen der Glanz des Evangeliums von der Herrlichkeit Christi, der Gottes Bild ist, nicht auf.^pWir verkünden nämlich nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: Aus Finsternis soll Licht aufleuchten!, er ist in unseren Herzen aufgeleuchtet, damit aufstrahlt die Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi.",
-            "les_text_neu": "Wir predigen, weil Gott uns geprüft und uns das Evangelium anvertraut hat.",
-            "resp0": "Nicht um den Menschen zu gefallen, sondern Gott.",
             "resp1": "Wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen.",
             "patr_autor": "Lorenz Kardinal Jaeger (1892–1975)",
             "patr_werk": "Aus einer Predigt zum Liborifest 1956.",
