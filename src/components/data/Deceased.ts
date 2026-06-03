@@ -4842,6 +4842,14 @@ export const deceasedData =  {
       },
       {
         "year": 2026,
+        "birthdate": "2216-02-26",
+        "name": "Bruno°Kant, Pfr.i.R., GR, Eichenzell¥-Löschenrod",
+        "birth": "26.°Februar°1916°in°Werblin (Werblinia,°PL¥-84¥-107)",
+        "grave": "Friedhof°Löschenrod",
+        "age": 110
+      },
+      {
+        "year": 2026,
         "birthdate": "2240-03-31",
         "name": "Gerhard°Bug, Pfr.i.R., GR, Hünfeld",
         "birth": "31.°März°1940°in°Traisbach",

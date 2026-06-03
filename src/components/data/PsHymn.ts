@@ -3429,7 +3429,7 @@ export const psalmsData = {
         "text_neu": "Stimmt ein Lied an für meinen Gott unter Paukenschall,^*singt für den Herrn unter Zimbelklang!^pPreist ihn und singt sein Lob,^+rühmt seinen Namen und ruft ihn an!^*Denn der Herr ist ein Gott, der den Kriegen ein Ende setzt.^pIch singe meinem Gott ein neues Lied;^*Herr, du bist groß und voll Herrlichkeit.^pWunderbar bist du in deiner Stärke,^*keiner kann dich übertreffen.^pDienen muss dir deine ganze Schöpfung.^*Denn du hast gesprochen und alles entstand.^pDu sandtest deinen Geist, um den Bau zu vollenden.^*Kein Mensch kann deinem Wort widerstehen.^pMeere und Berge erbeben in ihrem Grund,^+vor dir zerschmelzen die Felsen wie Wachs.^*Doch wer dich fürchtet, der erfährt deine Gnade.",
         "title_lat": "Dominus, creator mundi, populum suum protegit",
         "text_lat": "Incípite Deo meo in týmpanis,^*cantáte Dómino meo in cýmbalis,^pmodulámini illi psalmum novum,^+exaltáte et invocáte nomen ipsíus.^*Tu es Deus cónterens bella.^pCantábo Deo meo hymnum novum:^+Dómine, magnus es tu et clarus,^*mirábilis in virtúte et insuperábilis.^pTibi sérviat omnis creatúra tua,^*quóniam dixísti, et facta sunt,^pmisísti spíritum tuum, et ædificáta sunt,^*et non est qui resístat voci tuæ.^pMontes enim a fundaméntis agitabúntur cum áquis,^*petræ autem a fácie tua tamquam cera liquéscent.^pIllis autem, qui timent te,^*",
-        "text_cant": "Stimmt ein Lied an für meinen |Gott 2un1ter°||Pau0ken0schall,^*singt für den 3|Herrn 2un1ter ||Zim0bel0klang!^pPreist ihn und singt sein |Lob,^+rühmt seinen |Namen und 2|ruft 1ihn ||an!^*Denn der Herr ist ein Gott, der den 3|Krie2gen 1ein ||En0de setzt.^pIch singe meinem |Gott ein 2|neu1es ||Lied;^*Herr, du bist 3|groß 2und 1voll ||Herr0lich0keit.^pWunderbar bist du in 2|dei1ner ||Stär0ke,^*keiner kann 3dich 2|ü1ber||tref0fen.^pDienen muss dir deine°2|gan1ze°||Schöp0fung.^*Denn du hast gesprochen, 4und 3|al2les 1ent||stand.^pDu sandtest deinen Geist, um°den°|Bau°2zu°1voll||en0den.^*Kein Mensch kann deinem 3|Wort 2wi1der||ste0hen.^pMeere und Berge erbeben°in°ih0rem°|Grund,^+vor dir zerschmelzen die |Fel2sen 1wie°||Wachs.^*Doch wer dich fürchtet, der er3|fährt 2dei1ne ||Gna0de.",
+        "text_cant": "Stimmt ein Lied an für meinen |Gott 2un1ter°||Pau0ken0schall,^*singt für den 3|Herrn 2un1ter ||Zim0bel0klang!^pPreist ihn und singt sein |Lob,^+rühmt seinen |Na0men und 2|ruft 1ihn ||an!^*Denn der Herr ist ein Gott, der den 3|Krie2gen 1ein ||En0de setzt.^pIch singe meinem |Gott ein 2|neu1es ||Lied;^*Herr, du bist 3|groß 2und 1voll ||Herr0lich0keit.^pWunderbar bist du in 2|dei1ner ||Stär0ke,^*keiner kann 3dich 2|ü1ber||tref0fen.^pDienen muss dir deine°2|gan1ze°||Schöp0fung.^*Denn du hast gesprochen, 4und 3|al2les 1ent||stand.^pDu sandtest deinen Geist, um°den°|Bau°2zu°1voll||en0den.^*Kein Mensch kann deinem 3|Wort 2wi1der||ste0hen.^pMeere und Berge erbeben°in°ih0rem°|Grund,^+vor dir zerschmelzen die |Fel2sen 1wie°||Wachs.^*Doch wer dich fürchtet, der er3|fährt 2dei1ne ||Gna0de.",
         "text_mode": "V"
       }
   },
@@ -4958,7 +4958,7 @@ export const psalmsData = {
         "text": "Geheimnis seiner Herrlichkeit^lversenkt sich ein^/in Brot und Wein.^lDas höchste Gut^/hat Leib und Blut^lfür unser Heil dem Tod geweiht.^lKommt, lasset uns anbeten.^pGeheimnis seiner Gegenwart^lseit jener Nacht^/uns übermacht,^lda er sich bot^/als Wein und Brot^lund sich als Gott uns offenbart.^lKommt, lasset uns anbeten.^pGeheimnis der Dreifaltigkeit,^ldas einverleibt^/in uns verbleibt^lund Leben heißt^/und Glut und Geist^lund Auferstehung uns verleiht.^lKommt, lasset uns anbeten."
       },
     1.0: {
-        "text_lat": "Sacris sollémniis iuncta sint gáudia,^let ex præcórdiis sonent præcónia;^lrecédant vétera, nova sint ómnia,^lcorda, voces et ópera.^pNoctis recólitur cena novíssima,^lqua Christus créditur agnum et ázyma^ldedísse frátribus iuxta legítima^lpriscis indúlta pátribus.^pDedit fragílibus córporis férculum,^ldedit et trístibus sánguinis póculum,^ldicens: «Accípite quod trado vásculum;^lomnes ex eo bíbite».^pSic sacrifícium istud instítuit,^lcuius offícium commítti vóluit^lsolis presbýteris, quibus sic cóngruit,^lut sumant et dent céteris.^pPanis angélicus fit panis hóminum;^ldat panis cǽlicus figúris términum.^lO res mirábilis: mandúcat Dóminum^lservus pauper et húmilis.^pTe, trina Déitas únaque, póscimus;^lsic nos tu vísitas sicut te cólimus:^lper tuas sémitas duc nos quo téndimus^lad lucem quam inhábitas."
+        "text_lat": "Sacris sollémniis^/iuncta sint gáudia,^let ex præcórdiis^/sonent præcónia;^lrecédant vétera,^/nova sint ómnia,^lcorda, voces et ópera.^pNoctis recólitur^/cena novíssima,^lqua Christus créditur^/agnum et ázyma^ldedísse frátribus^/iuxta legítima^lpriscis indúlta pátribus.^pDedit fragílibus^/córporis férculum,^ldedit et trístibus^/sánguinis póculum,^ldicens: «Accípite^/quod trado vásculum;^lomnes ex eo bíbite».^pSic sacrifícium^/istud instítuit,^lcuius offícium^/commítti vóluit^lsolis presbýteris,^/quibus sic cóngruit,^lut sumant et dent céteris.^pPanis angélicus^/fit panis hóminum;^ldat panis cǽlicus^/figúris términum.^lO res mirábilis:^/mandúcat Dóminum^lservus pauper et húmilis.^pTe, trina Déitas^/únaque, póscimus;^lsic nos tu vísitas^/sicut te cólimus:^lper tuas sémitas^/duc nos quo téndimus^lad lucem quam inhábitas."
       }
   },
   3942: {
@@ -5448,6 +5448,9 @@ export const psalmsData = {
     0.0: {
         "title_lat": "O Christe, flos convállium"
       }
+  },
+  5540: {
+    0.0: {}
   },
   5545: {
     0.0: {

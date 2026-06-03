@@ -285,7 +285,7 @@
           }
         }
       },
-      "6": {
+      "66": {
         "a": {
           "Messe": {
             "ms_les_buch": "Jes",
@@ -320,6 +320,67 @@
             "ms_ev_stelle": "16,15-18",
             "ms_ev_motto": "Geht hinaus in die ganze Welt und verkündet das Evangelium!",
             "ms_ev_text": "In jener Zeit erschien Jesus den Elf^lund sprach zu ihnen:^l^EINZUGGeht hinaus in die ganze Welt^l^EINZUGund verkündet das Evangelium der ganzen Schöpfung!^lWer glaubt und sich taufen lässt,^l^EINZUGwird gerettet;^lwer aber nicht glaubt,^l^EINZUGwird verurteilt werden.^pUnd durch die, die zum Glauben gekommen sind,^l^EINZUGwerden folgende Zeichen geschehen:^lIn meinem Namen werden sie Dämonen austreiben;^lsie werden in neuen Sprachen reden;^lwenn sie Schlangen anfassen oder tödliches Gift trinken,^l^EINZUGwird es ihnen nicht schaden;^lund die Kranken, denen sie die Hände auflegen,^l^EINZUGwerden gesund werden.^p"
+          }
+        }
+      },
+      "67": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Jes",
+            "ms_les_stelle": "42,5a.1-4.6-7",
+            "ms_les_motto": "Siehe, das ist mein Knecht, an ihm finde ich Gefallen",
+            "ms_les_text": "So spricht Gott, der HERR:^lSiehe, das ist mein Knecht, den ich stütze;^ldas ist mein Erwählter, an ihm finde ich Gefallen.^lIch habe meinen Geist auf ihn gelegt,^ler bringt den Nationen das Recht.^lEr schreit nicht und lärmt nicht^l^EINZUGund lässt seine Stimme nicht auf der Gasse erschallen.^lDas geknickte Rohr zerbricht er nicht^l^EINZUGund den glimmenden Docht löscht er nicht aus;^lja, er bringt wirklich das Recht.^lEr verglimmt nicht und wird nicht geknickt,^l^EINZUGbis er auf der Erde das Recht begründet hat.^lAuf seine Weisung warten die Inseln.^pIch, der HERR, habe dich aus Gerechtigkeit gerufen,^lich fasse dich an der Hand.^lIch schaffe und mache dich^l^EINZUGzum Bund mit dem Volk,^l^EINZUGzum Licht der Nationen,^lum blinde Augen zu öffnen,^l^EINZUGGefangene aus dem Kerker zu holen^l^EINZUGund die im Dunkel sitzen, aus der Haft.",
+            "ms_aps_stelle": "Ps 29,1-2.3ac-4.3b.9b-10",
+            "ms_aps_kv": "Der HERR schenkt seinem Volk den Frieden.",
+            "ms_aps_text": "Bringt dar dem HERRN, ihr Himmlischen,^*bringt dar dem HERRN Ehre und Macht!^pBringt dar dem HERRN die Ehre seines Namens,^*werft euch nieder vor dem HERRN in heiliger Majestät!^KV^PDie Stimme des HERRN über den Wassern:^*der HERR über gewaltigen Wassern.^pDie Stimme des HERRN voller Kraft,^*die Stimme des HERRN voll Majestät.^KV^PDer Gott der Ehre hat gedonnert.^*In seinem Palast ruft alles: Ehre!^pDer HERR thront über der Flut,^*der HERR thront als König in Ewigkeit.",
+            "ms_les2_buch": "Apg",
+            "ms_les2_stelle": "10,34-38",
+            "ms_les2_motto": "Gott hat Jesus gesalbt mit dem Heiligen Geist",
+            "ms_les2_text": "In jenen Tagen^l^EINZUGbegann Petrus zu reden^lund sagte:^l^EINZUGWahrhaftig, jetzt begreife ich,^l^EINZUGdass Gott nicht auf die Person sieht,^lsondern dass ihm in jedem Volk willkommen ist,^l^EINZUGwer ihn fürchtet^l^EINZUGund tut, was recht ist.^pEr hat das Wort den Israeliten gesandt,^l^EINZUGindem er den Frieden verkündete durch Jesus Christus:^lDieser ist der Herr aller.^pIhr wisst, was im ganzen Land der Juden geschehen ist,^langefangen in Galiläa,^lnach der Taufe, die Johannes verkündet hat:^pwie Gott Jesus von Nazaret gesalbt hat^l^EINZUGmit dem Heiligen Geist und mit Kraft,^lwie dieser umherzog,^lGutes tat^lund alle heilte, die in der Gewalt des Teufels waren;^ldenn Gott war mit ihm.",
+            "ms_ruf_text": "Mt 3,16",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "3,13-17",
+            "ms_ev_motto": "Als Jesus getauft war, sah er den Geist Gottes wie eine Taube auf sich herabkommen",
+            "ms_ev_text": "In jener Zeit^l^EINZUGkam Jesus von Galiläa an den Jordan zu Johannes,^l^EINZUGum sich von ihm taufen zu lassen.^lJohannes aber wollte es nicht zulassen^lund sagte zu ihm: Ich müsste von dir getauft werden^lund du kommst zu mir?^pJesus antwortete ihm: Lass es nur zu!^lDenn so können wir die Gerechtigkeit ganz erfüllen.^lDa gab Johannes nach.^pAls Jesus getauft war, stieg er sogleich aus dem Wasser herauf.^lUnd siehe, da öffnete sich der Himmel^lund er sah den Geist Gottes wie eine Taube auf sich herabkommen.^lUnd siehe, eine Stimme aus dem Himmel sprach:^l^EINZUGDieser ist mein geliebter Sohn,^l^EINZUGan dem ich Wohlgefallen gefunden habe."
+          }
+        },
+        "b": {
+          "Messe": {
+            "ms_les_buch": "Jes",
+            "ms_les_stelle": "55,1-11",
+            "ms_les_motto": "Kommt zum Wasser; hört und ihr werdet aufleben!",
+            "ms_les_text": "So spricht der Herr:^lAuf, alle Durstigen, kommt zum Wasser!^lDie ihr kein Geld habt, kommt,^lkauft Getreide und esst, kommt und kauft ohne Geld^lund ohne Bezahlung Wein und Milch!^lWarum bezahlt ihr mit Geld, was euch nicht nährt,^lund mit dem Lohn eurer Mühen, was euch nicht satt macht?^lHört auf mich,^l^EINZUGdann bekommt ihr das Beste zu essen^lund könnt euch laben an fetten Speisen!^lNeigt euer Ohr und kommt zu mir,^lhört und ihr werdet aufleben!^lIch schließe mit euch einen ewigen Bund:^lDie Erweise der Huld für David sind beständig.^pSiehe, ich habe ihn zum Zeugen für die Völker gemacht,^lzum Fürsten und Gebieter der Nationen.^lSiehe, eine Nation, die du nicht kennst, wirst du rufen^lund eine Nation, die dich nicht kannte, eilt zu dir,^lum des HERRN, deines Gottes, des Heiligen Israels willen,^lweil er dich herrlich gemacht hat.^pSucht den HERRN, er lässt sich finden,^lruft ihn an, er ist nah!^lDer Frevler soll seinen Weg verlassen,^l^EINZUGder Übeltäter seine Pläne.^lEr kehre um zum HERRN,^l^EINZUGdamit er Erbarmen hat mit ihm,^lund zu unserem Gott;^l^EINZUGdenn er ist groß im Verzeihen.^lMeine Gedanken sind nicht eure Gedanken^l^EINZUGund eure Wege sind nicht meine Wege – Spruch des HERRN.^lSo hoch der Himmel über der Erde ist,^l^EINZUGso hoch erhaben sind meine Wege über eure Wege^l^EINZUGund meine Gedanken über eure Gedanken.^pDenn wie der Regen und der Schnee vom Himmel fällt^l^EINZUGund nicht dorthin zurückkehrt,^l^EINZUGohne die Erde zu tränken^l^EINZUGund sie zum Keimen und Sprossen zu bringen,^ldass sie dem Sämann Samen gibt und Brot zum Essen,^lso ist es auch mit dem Wort, das meinen Mund verlässt:^lEs kehrt nicht leer zu mir zurück,^l^EINZUGohne zu bewirken, was ich will,^lund das zu erreichen, wozu ich es ausgesandt habe.",
+            "ms_aps_stelle": "Jes 12,2.3+4bcd.5-6",
+            "ms_aps_kv": "Ihr werdet Wasser freudig schöpfen^laus den Quellen des Heils.",
+            "ms_aps_text": "Siehe, Gott ist mein Heil;^*ich vertraue und erschrecke nicht.^pDenn meine Stärke und mein Lied ist Gott, der HERR.^*Er wurde mir zum Heil.^KV^PIhr werdet Wasser freudig schöpfen^*aus den Quellen des Heiles.^pDankt dem HERRN! Ruft seinen Namen an!^+Macht unter den Völkern seine Taten bekannt,^*verkündet: Sein Name ist erhaben!^KV^PSinget dem HERRN, denn Überragendes hat er vollbracht;^*bekannt gemacht sei dies auf der ganzen Erde.^pJauchzt und jubelt, ihr Bewohner Zions;^*denn groß ist in eurer Mitte der Heilige Israels.",
+            "ms_les2_buch": "1°Joh",
+            "ms_les2_stelle": "5,1-9",
+            "ms_les2_motto": "Drei sind es, die Zeugnis geben: der Geist, das Wasser und das Blut",
+            "ms_les2_text": "Schwestern und Brüder!^lJeder, der glaubt, dass Jesus der Christus ist,^l^EINZUGist aus Gott gezeugt^lund jeder, der den Vater liebt,^l^EINZUGliebt auch den, der aus ihm gezeugt ist.^lDaran erkennen wir, dass wir die Kinder Gottes lieben:^l^EINZUGwenn wir Gott lieben und seine Gebote erfüllen.^pDenn darin besteht die Liebe zu Gott,^l^EINZUGdass wir seine Gebote halten;^lund seine Gebote sind nicht schwer.^lDenn alles, was aus Gott gezeugt ist, besiegt die Welt.^lUnd das ist der Sieg, der die Welt besiegt hat:^l^EINZUGunser Glaube.^lWer sonst besiegt die Welt^l^EINZUGaußer dem, der glaubt, dass Jesus der Sohn Gottes ist?^pDieser ist es, der durch Wasser und Blut gekommen ist:^l^EINZUGJesus Christus.^lEr ist nicht nur im Wasser gekommen,^l^EINZUGsondern im Wasser und im Blut.^lUnd der Geist ist es, der Zeugnis ablegt;^ldenn der Geist ist die Wahrheit.^lDenn drei sind es, die Zeugnis ablegen:^lder Geist,^l^EINZUGdas Wasser^l^EINZUGund das Blut;^lund diese drei sind eins.^pWenn wir von Menschen ein Zeugnis annehmen,^l^EINZUGso ist das Zeugnis Gottes größer;^ldenn das ist das Zeugnis Gottes:^lEr hat Zeugnis abgelegt von seinem Sohn.",
+            "ms_ev_buch": "Mk",
+            "ms_ev_stelle": "1,7-11",
+            "ms_ev_motto": "Du bist mein geliebter Sohn, an dir habe ich Wohlgefallen gefunden",
+            "ms_ev_text": "In jener Zeit^l^EINZUGtrat Johannes in der Wüste auf^lund verkündete:^l^EINZUGNach mir kommt einer,^l^EINZUGder ist stärker als ich;^lich bin es nicht wert,^l^EINZUGmich zu bücken und ihm die Riemen der Sandalen zu lösen.^lIch habe euch mit Wasser getauft,^l^EINZUGer aber wird euch mit dem Heiligen Geist taufen.^pIn jenen Tagen kam Jesus aus Nazaret in Galiläa^l^EINZUGund ließ sich von Johannes im Jordan taufen.^lUnd sogleich, als er aus dem Wasser stieg,^l^EINZUGsah er, dass der Himmel aufriss^l^EINZUGund der Geist wie eine Taube auf ihn herabkam.^lUnd eine Stimme aus dem Himmel sprach:^l^EINZUGDu bist mein geliebter Sohn,^lan dir habe ich Wohlgefallen gefunden."
+          }
+        },
+        "c": {
+          "Messe": {
+            "ms_les_buch": "Jes",
+            "ms_les_stelle": "42,5a.1-4.6-7 (oder: Jes 40,1-5.9-11)",
+            "ms_les_motto": "Siehe, das ist mein Knecht, an ihm finde ich Gefallen",
+            "ms_les_text": "So spricht Gott, der HERR:^lSiehe, das ist mein Knecht, den ich stütze;^ldas ist mein Erwählter, an ihm finde ich Gefallen.^lIch habe meinen Geist auf ihn gelegt,^ler bringt den Nationen das Recht.^lEr schreit nicht und lärmt nicht^l^EINZUGund lässt seine Stimme nicht auf der Gasse erschallen.^lDas geknickte Rohr zerbricht er nicht^l^EINZUGund den glimmenden Docht löscht er nicht aus;^lja, er bringt wirklich das Recht.^lEr verglimmt nicht und wird nicht geknickt,^l^EINZUGbis er auf der Erde das Recht begründet hat.^lAuf seine Weisung warten die Inseln.^pIch, der HERR, habe dich aus Gerechtigkeit gerufen,^lich fasse dich an der Hand.^lIch schaffe und mache dich^l^EINZUGzum Bund mit dem Volk,^l^EINZUGzum Licht der Nationen,^lum blinde Augen zu öffnen,^l^EINZUGGefangene aus dem Kerker zu holen^l^EINZUGund die im Dunkel sitzen, aus der Haft.",
+            "ms_aps_stelle": "Ps 29,1-2.3ac-4.3b+9b-10 (oder: Ps 104,1-2.3-4.24-25.27-28.29-30)",
+            "ms_aps_kv": "Der HERR schenkt seinem Volk den Frieden.",
+            "ms_aps_text": "Bringt dar dem HERRN, ihr Himmlischen,^*bringt dar dem HERRN Ehre und Macht!^pBringt dar dem HERRN die Ehre seines Namens,^*werft euch nieder vor dem HERRN in heiliger Majestät!^KV^PDie Stimme des HERRN über den Wassern:^*der HERR über gewaltigen Wassern.^pDie Stimme des HERRN voller Kraft,^*die Stimme des HERRN voll Majestät.^KV^PDer Gott der Ehre hat gedonnert.^*In seinem Palast ruft alles: Ehre!^pDer HERR thront über der Flut,^*der HERR thront als König in Ewigkeit.",
+            "ms_les2_buch": "Apg",
+            "ms_les2_stelle": "10,34-38 (oder: Tit 2,11-14;3,4-7)",
+            "ms_les2_motto": "Gott hat Jesus gesalbt mit dem Heiligen Geist",
+            "ms_les2_text": "In jenen Tagen^l^EINZUGbegann Petrus zu reden^lund sagte:^l^EINZUGWahrhaftig, jetzt begreife ich,^l^EINZUGdass Gott nicht auf die Person sieht,^lsondern dass ihm in jedem Volk willkommen ist,^l^EINZUGwer ihn fürchtet^l^EINZUGund tut, was recht ist.^pEr hat das Wort den Israeliten gesandt,^l^EINZUGindem er den Frieden verkündete durch Jesus Christus:^lDieser ist der Herr aller.^pIhr wisst, was im ganzen Land der Juden geschehen ist,^langefangen in Galiläa,^lnach der Taufe, die Johannes verkündet hat:^pwie Gott Jesus von Nazaret gesalbt hat^l^EINZUGmit dem Heiligen Geist und mit Kraft,^lwie dieser umherzog,^lGutes tat^lund alle heilte, die in der Gewalt des Teufels waren;^ldenn Gott war mit ihm.",
+            "ms_ruf_text": "Johannes sagte: Es kommt einer, der stärker ist als ich. Mit dem Heiligen Geist und mit dem Feuer wird er euch taufen.",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "3,15-16.21-22",
+            "ms_ev_motto": "Jesus ließ sich taufen; und während er betete, öffnete sich der Himmel",
+            "ms_ev_text": "In jener Zeit^l^EINZUGwar das Volk voll Erwartung^lund alle überlegten im Herzen,^l^EINZUGob Johannes nicht vielleicht selbst der Christus sei.^pDoch Johannes gab ihnen allen zur Antwort:^l^EINZUGIch taufe euch mit Wasser.^lEs kommt aber einer, der stärker ist als ich,^lund ich bin es nicht wert, ihm die Riemen der Sandalen zu lösen.^lEr wird euch mit dem Heiligen Geist und mit Feuer taufen.^pEs geschah aber,^l^EINZUGdass sich zusammen mit dem ganzen Volk^l^EINZUGauch Jesus taufen ließ.^lUnd während er betete,^l^EINZUGöffnete sich der Himmel^lund der Heilige Geist^l^EINZUGkam sichtbar in Gestalt einer Taube auf ihn herab^lund eine Stimme aus dem Himmel sprach:^l^EINZUGDu bist mein geliebter Sohn,^lan dir habe ich Wohlgefallen gefunden."
           }
         }
       }
@@ -443,7 +504,7 @@
           }
         }
       },
-      "40": {
+      "60": {
         "a": {
           "Messe": {
             "ms_les_buch": "Ex",
@@ -504,7 +565,7 @@
           }
         }
       },
-      "41": {
+      "61": {
         "a": {
           "Messe": {
             "ms_les_buch": "Apg",
@@ -567,7 +628,7 @@
           }
         }
       },
-      "44": {
+      "64": {
         "a": {
           "Messe": {
             "ms_les_buch": "Dtn",
@@ -629,7 +690,7 @@
           }
         }
       },
-      "45": {
+      "65": {
         "a": {
           "Messe": {
             "ms_les_buch": "Dtn",
@@ -688,6 +749,57 @@
             "ms_ev_stelle": "15,3-7",
             "ms_ev_motto": "Freut euch mit mir, denn ich habe mein Schaf wiedergefunden, das verloren war",
             "ms_ev_text": "In jener Zeit^l^EINZUGerzählte Jesus^l^EINZUGden Pharisäern und Schriftgelehrten dieses Gleichnis^lund sagte:^lWenn einer von euch hundert Schafe hat^l^EINZUGund eins davon verliert,^l^EINZUGlässt er dann nicht die neunundneunzig in der Wüste zurück^l^EINZUGund geht dem verlorenen nach, bis er es findet?^pUnd wenn er es gefunden hat,^l^EINZUGnimmt er es voll Freude auf die Schultern,^lund wenn er nach Hause kommt,^l^EINZUGruft er die Freunde und Nachbarn zusammen^lund sagt zu ihnen: Freut euch mit mir,^ldenn ich habe mein Schaf wiedergefunden, das verloren war!^pIch sage euch:^lEbenso wird im Himmel^l^EINZUGmehr Freude herrschen^l^EINZUGüber einen einzigen Sünder, der umkehrt,^l^EINZUGals über neunundneunzig Gerechte,^l^EINZUGdie keine Umkehr nötig haben."
+          }
+        }
+      },
+      "40": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Apg",
+            "ms_les_stelle": "1,1-11",
+            "ms_les_motto": "Dieser Jesus, der in den Himmel aufgenommen wurde, wird ebenso wiederkommen, wie ihr ihn habt zum Himmel hingehen sehen",
+            "ms_les_text": "Im ersten Buch, lieber Theophilus,^l^EINZUGhabe ich über alles berichtet,^l^EINZUGwas Jesus von Anfang an getan und gelehrt hat,^lbis zu dem Tag, an dem er in den Himmel aufgenommen wurde.^lVorher hat er den Aposteln,^l^EINZUGdie er sich durch den Heiligen Geist erwählt hatte,^l^EINZUGWeisung gegeben.^lIhnen hat er nach seinem Leiden^l^EINZUGdurch viele Beweise gezeigt, dass er lebt;^lvierzig Tage hindurch ist er ihnen erschienen^lund hat vom Reich Gottes gesprochen.^pBeim gemeinsamen Mahl gebot er ihnen:^lGeht nicht weg von Jerusalem,^lsondern wartet auf die Verheißung des Vaters,^l^EINZUGdie ihr von mir vernommen habt!^lDenn Johannes hat mit Wasser getauft,^lihr aber^l^EINZUGwerdet schon in wenigen Tagen^l^EINZUGmit dem Heiligen Geist getauft werden.^pAls sie nun beisammen waren, fragten sie ihn:^l^EINZUGHerr, stellst du in dieser Zeit^l^EINZUGdas Reich für Israel wieder her?^lEr sagte zu ihnen:^l^EINZUGEuch steht es nicht zu, Zeiten und Fristen zu erfahren,^l^EINZUGdie der Vater in seiner Macht festgesetzt hat.^lAber ihr werdet Kraft empfangen,^l^EINZUGwenn der Heilige Geist auf euch herabkommen wird;^lund ihr werdet meine Zeugen sein^lin Jerusalem und in ganz Judäa und Samarien^l^EINZUGund bis an die Grenzen der Erde.^pAls er das gesagt hatte,^l^EINZUGwurde er vor ihren Augen emporgehoben^lund eine Wolke nahm ihn auf und entzog ihn ihren Blicken.^pWährend sie unverwandt ihm nach zum Himmel emporschauten,^l^EINZUGsiehe, da standen zwei Männer in weißen Gewändern bei ihnen^lund sagten: Ihr Männer von Galiläa,^lwas steht ihr da und schaut zum Himmel empor?^lDieser Jesus, der von euch fort^l^EINZUGin den Himmel aufgenommen wurde,^l^EINZUGwird ebenso wiederkommen,^l^EINZUGwie ihr ihn habt zum Himmel hingehen sehen.",
+            "ms_aps_stelle": "Ps 47,2-3.6-7.8-9",
+            "ms_aps_kv": "Gott steigt empor unter Jubel,^lder HERR beim Schall der Posaunen.^APSHALL^l",
+            "ms_aps_text": "Ihr Völker alle, klatscht in die Hände;^*jauchzt Gott zu mit lautem Jubel!^pDenn Furcht gebietend ist der HERR, der Höchste,^*ein großer König über die ganze Erde.^KV^PGott stieg empor unter Jubel,^*der HERR beim Schall der Hörner.^pSingt unserm Gott, ja singt ihm!^*Singt unserm König, singt ihm!^KV^PDenn König der ganzen Erde ist Gott.^*Singt ihm ein Weisheitslied!^pGott wurde König über die Völker,^*Gott hat sich auf seinen heiligen Thron gesetzt.",
+            "ms_les2_buch": "Eph",
+            "ms_les2_stelle": "1,17-23",
+            "ms_les2_motto": "Gott hat Christus auf den Platz zu seiner Rechten erhoben",
+            "ms_les2_text": "Schwestern und Brüder!^lDer Gott Jesu Christi, unseres Herrn,^l^EINZUGder Vater der Herrlichkeit,^l^EINZUGgebe euch den Geist der Weisheit und Offenbarung,^l^EINZUGdamit ihr ihn erkennt.^lEr erleuchte die Augen eures Herzens,^l^EINZUGdamit ihr versteht,^l^EINZUGzu welcher Hoffnung ihr durch ihn berufen seid,^lwelchen Reichtum^l^EINZUGdie Herrlichkeit seines Erbes den Heiligen schenkt^lund wie überragend groß^l^EINZUGseine Macht sich an uns, den Gläubigen, erweist^ldurch das Wirken seiner Kraft und Stärke.^pEr ließ sie wirksam werden in Christus,^l^EINZUGden er von den Toten auferweckt^l^EINZUGund im Himmel auf den Platz zu seiner Rechten erhoben hat,^lhoch über jegliche Hoheit und Gewalt,^lMacht und Herrschaft^lund über jeden Namen, der nicht nur in dieser Weltzeit,^l^EINZUGsondern auch in der künftigen genannt wird.^pAlles hat er ihm zu Füßen gelegt^lund ihn, der als Haupt alles überragt,^l^EINZUGüber die Kirche gesetzt.^lSie ist sein Leib,^l^EINZUGdie Fülle dessen, der das All in allem erfüllt.",
+            "ms_ruf_stelle": "Mt 28,19a.20b",
+            "ms_ruf_text": "^SPRICHTGeht zu allen Völkern, und macht alle Menschen zu meinen Jüngern. Ich bin bei euch alle Tage bis zum Ende der Welt.",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "28,16-20",
+            "ms_ev_motto": "Mir ist alle Vollmacht gegeben im Himmel und auf der Erde",
+            "ms_ev_text": "In jener Zeit^l^EINZUGgingen die elf Jünger nach Galiläa^l^EINZUGauf den Berg, den Jesus ihnen genannt hatte.^lUnd als sie Jesus sahen,^l^EINZUGfielen sie vor ihm nieder,^leinige aber hatten Zweifel.^pDa trat Jesus auf sie zu^lund sagte zu ihnen:^l^EINZUGMir ist alle Vollmacht gegeben im Himmel und auf der Erde.^pDarum geht^l^EINZUGund macht alle Völker zu meinen Jüngern;^ltauft sie^l^EINZUGauf den Namen des Vaters und des Sohnes^l^EINZUGund des Heiligen Geistes^lund lehrt sie,^l^EINZUGalles zu befolgen, was ich euch geboten habe.^pUnd siehe,^lich bin mit euch alle Tage bis zum Ende der Welt."
+          }
+        },
+        "b": {
+          "Messe": {
+            "ms_les2_buch": "Eph",
+            "ms_les2_stelle": "4,1-13",
+            "ms_les2_motto": "Der Fülle Christi entsprechen",
+            "ms_les2_text": "Schwestern und Brüder!^lIch, der Gefangene im Herrn,^l^EINZUGermahne euch, ein Leben zu führen,^l^EINZUGdas des Rufes würdig ist, der an euch erging.^pSeid demütig,^lfriedfertig und geduldig,^lertragt einander in Liebe^lund bemüht euch, die Einheit des Geistes zu wahren^l^EINZUGdurch das Band des Friedens!^lEIN Leib und EIN Geist,^l^EINZUGwie ihr auch berufen seid^l^EINZUGzu EINER Hoffnung in eurer Berufung:^lEIN Herr,^lEIN Glaube,^lEINE Taufe,^lEIN Gott und Vater aller,^l^EINZUGder über allem und durch alles und in allem ist.^pAber jeder von uns empfing die Gnade^l^EINZUGin dem Maß, wie Christus sie ihm geschenkt hat.^lDeshalb heißt es: Er stieg hinauf zur Höhe^l^EINZUGund erbeutete Gefangene,^ler gab den Menschen Geschenke.^lWenn es heißt: Er stieg aber hinauf,^l^EINZUGwas bedeutet dies anderes,^l^EINZUGals dass er auch zur Erde herabstieg?^lDerselbe, der herabstieg,^l^EINZUGist auch hinaufgestiegen über alle Himmel,^l^EINZUGum das All zu erfüllen.^pUnd er setzte die einen als Apostel ein,^landere als Propheten,^landere als Evangelisten,^landere als Hirten und Lehrer,^lum die Heiligen für die Erfüllung ihres Dienstes zuzurüsten,^l^EINZUGfür den Aufbau des Leibes Christi,^lbis wir alle^l^EINZUGzur Einheit im Glauben^l^EINZUGund der Erkenntnis des Sohnes Gottes gelangen,^lzum vollkommenen Menschen,^l^EINZUGzur vollen Größe, die der Fülle Christi entspricht.",
+            "ms_ruf_stelle": "Mt 28,19a.20b",
+            "ms_ruf_text": "^SPRICHTGeht zu allen Völkern, und macht alle Menschen zu meinen Jüngern. Ich bin bei euch alle Tage bis zum Ende der Welt.",
+            "ms_ev_buch": "Mk",
+            "ms_ev_stelle": "16,15-20",
+            "ms_ev_motto": "Er wurde in den Himmel aufgenommen und setzte sich zur Rechten Gottes",
+            "ms_ev_text": "In jener Zeit erschien Jesus den Elf^lund sprach zu ihnen:^l^EINZUGGeht hinaus in die ganze Welt^l^EINZUGund verkündet das Evangelium der ganzen Schöpfung!^lWer glaubt und sich taufen lässt,^l^EINZUGwird gerettet;^lwer aber nicht glaubt,^l^EINZUGwird verurteilt werden.^pUnd durch die, die zum Glauben gekommen sind,^l^EINZUGwerden folgende Zeichen geschehen:^lIn meinem Namen werden sie Dämonen austreiben;^lsie werden in neuen Sprachen reden;^lwenn sie Schlangen anfassen oder tödliches Gift trinken,^l^EINZUGwird es ihnen nicht schaden;^lund die Kranken, denen sie die Hände auflegen,^l^EINZUGwerden gesund werden.^pNachdem Jesus, der Herr, dies zu ihnen gesagt hatte,^l^EINZUGwurde er in den Himmel aufgenommen^l^EINZUGund setzte sich zur Rechten Gottes.^pSie aber zogen aus und verkündeten überall.^lDer Herr stand ihnen bei^lund bekräftigte das Wort^l^EINZUGdurch die Zeichen, die es begleiteten."
+          }
+        },
+        "c": {
+          "Messe": {
+            "ms_les2_buch": "Hebr",
+            "ms_les2_stelle": "9,24-28;10,19-23",
+            "ms_les2_motto": "Christus ist in den Himmel selbst hineingegangen",
+            "ms_les2_text": "Christus ist nicht^l^EINZUGin ein von Menschenhand gemachtes Heiligtum hineingegangen,^l^EINZUGin ein Abbild des wirklichen,^l^EINZUGsondern in den Himmel selbst,^lum jetzt vor Gottes Angesicht zu erscheinen für uns;^lauch nicht, um sich selbst viele Male zu opfern,^lwie der Hohepriester^l^EINZUGjedes Jahr mit fremdem Blut in das Heiligtum hineingeht;^lsonst hätte er viele Male seit der Erschaffung der Welt^l^EINZUGleiden müssen.^lJetzt aber ist er am Ende der Zeiten ein einziges Mal erschienen,^l^EINZUGum durch sein Opfer die Sünde zu tilgen.^pUnd wie es dem Menschen bestimmt ist,^l^EINZUGein einziges Mal zu sterben,^l^EINZUGworauf dann das Gericht folgt,^l^EINZUGso wurde auch Christus ein einziges Mal geopfert,^l^EINZUGum die Sünden vieler hinwegzunehmen;^lbeim zweiten Mal wird er nicht wegen der Sünde erscheinen,^l^EINZUGsondern um die zu retten, die ihn erwarten.^pSo haben wir die Zuversicht, Brüder und Schwestern,^l^EINZUGdurch das Blut Jesu in das Heiligtum einzutreten.^lEr hat uns den neuen und lebendigen Weg erschlossen^l^EINZUGdurch den Vorhang hindurch,^ldas heißt durch sein Fleisch.^pUnd da wir einen Hohepriester haben,^l^EINZUGder über das Haus Gottes gestellt ist,^l^EINZUGlasst uns mit aufrichtigem Herzen^l^EINZUGund in voller Gewissheit des Glaubens hinzutreten,^ldie Herzen^l^EINZUGdurch Besprengung gereinigt vom schlechten Gewissen^lund den Leib gewaschen mit reinem Wasser!^pLasst uns^l^EINZUGan dem unwandelbaren Bekenntnis der Hoffnung festhalten,^ldenn er, der die Verheißung gegeben hat, ist treu!",
+            "ms_ruf_stelle": "Mt 28,19a.20b",
+            "ms_ruf_text": "^SPRICHTGeht und macht alle Völker zu meinen Jüngern. Ich bin mit euch alle Tage bis zum Ende der Welt.",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "24,46-53",
+            "ms_ev_motto": "Während er sie segnete, wurde er zum Himmel emporgehoben",
+            "ms_ev_text": "In jener Zeit^l^EINZUGsprach Jesus zu seinen Jüngern:^lSo steht es geschrieben:^lDer Christus wird leiden^l^EINZUGund am dritten Tag von den Toten auferstehen^lund in seinem Namen^l^EINZUGwird man allen Völkern Umkehr verkünden,^l^EINZUGdamit ihre Sünden vergeben werden.^lAngefangen in Jerusalem.^lIhr seid Zeugen dafür.^lUnd siehe, ich werde die Verheißung meines Vaters^l^EINZUGauf euch herabsenden.^lIhr aber bleibt in der Stadt,^l^EINZUGbis ihr mit der Kraft aus der Höhe erfüllt werdet!^pDann führte er sie hinaus in die Nähe von Betanien.^lDort erhob er seine Hände und segnete sie.^lUnd es geschah:^lWährend er sie segnete,^l^EINZUGverließ er sie und wurde zum Himmel emporgehoben.^pSie aber fielen vor ihm nieder.^lDann kehrten sie in großer Freude nach Jerusalem zurück.^lUnd sie waren immer im Tempel^l^EINZUGund priesen Gott."
           }
         }
       }
@@ -1171,69 +1283,6 @@
     }
   },
   "j": {
-    "1": {
-      "0": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Jes",
-            "ms_les_stelle": "42,5a.1-4.6-7",
-            "ms_les_motto": "Siehe, das ist mein Knecht, an ihm finde ich Gefallen",
-            "ms_les_text": "So spricht Gott, der HERR:^lSiehe, das ist mein Knecht, den ich stütze;^ldas ist mein Erwählter, an ihm finde ich Gefallen.^lIch habe meinen Geist auf ihn gelegt,^ler bringt den Nationen das Recht.^lEr schreit nicht und lärmt nicht^l^EINZUGund lässt seine Stimme nicht auf der Gasse erschallen.^lDas geknickte Rohr zerbricht er nicht^l^EINZUGund den glimmenden Docht löscht er nicht aus;^lja, er bringt wirklich das Recht.^lEr verglimmt nicht und wird nicht geknickt,^l^EINZUGbis er auf der Erde das Recht begründet hat.^lAuf seine Weisung warten die Inseln.^pIch, der HERR, habe dich aus Gerechtigkeit gerufen,^lich fasse dich an der Hand.^lIch schaffe und mache dich^l^EINZUGzum Bund mit dem Volk,^l^EINZUGzum Licht der Nationen,^lum blinde Augen zu öffnen,^l^EINZUGGefangene aus dem Kerker zu holen^l^EINZUGund die im Dunkel sitzen, aus der Haft.",
-            "ms_aps_stelle": "Ps 29,1-2.3ac-4.3b.9b-10",
-            "ms_aps_kv": "Der HERR schenkt seinem Volk den Frieden.",
-            "ms_aps_text": "Bringt dar dem HERRN, ihr Himmlischen,^*bringt dar dem HERRN Ehre und Macht!^pBringt dar dem HERRN die Ehre seines Namens,^*werft euch nieder vor dem HERRN in heiliger Majestät!^KV^PDie Stimme des HERRN über den Wassern:^*der HERR über gewaltigen Wassern.^pDie Stimme des HERRN voller Kraft,^*die Stimme des HERRN voll Majestät.^KV^PDer Gott der Ehre hat gedonnert.^*In seinem Palast ruft alles: Ehre!^pDer HERR thront über der Flut,^*der HERR thront als König in Ewigkeit.",
-            "ms_les2_buch": "Apg",
-            "ms_les2_stelle": "10,34-38",
-            "ms_les2_motto": "Gott hat Jesus gesalbt mit dem Heiligen Geist",
-            "ms_les2_text": "In jenen Tagen^l^EINZUGbegann Petrus zu reden^lund sagte:^l^EINZUGWahrhaftig, jetzt begreife ich,^l^EINZUGdass Gott nicht auf die Person sieht,^lsondern dass ihm in jedem Volk willkommen ist,^l^EINZUGwer ihn fürchtet^l^EINZUGund tut, was recht ist.^pEr hat das Wort den Israeliten gesandt,^l^EINZUGindem er den Frieden verkündete durch Jesus Christus:^lDieser ist der Herr aller.^pIhr wisst, was im ganzen Land der Juden geschehen ist,^langefangen in Galiläa,^lnach der Taufe, die Johannes verkündet hat:^pwie Gott Jesus von Nazaret gesalbt hat^l^EINZUGmit dem Heiligen Geist und mit Kraft,^lwie dieser umherzog,^lGutes tat^lund alle heilte, die in der Gewalt des Teufels waren;^ldenn Gott war mit ihm.",
-            "ms_ruf_text": "Mt 3,16",
-            "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "3,13-17",
-            "ms_ev_motto": "Als Jesus getauft war, sah er den Geist Gottes wie eine Taube auf sich herabkommen",
-            "ms_ev_text": "In jener Zeit^l^EINZUGkam Jesus von Galiläa an den Jordan zu Johannes,^l^EINZUGum sich von ihm taufen zu lassen.^lJohannes aber wollte es nicht zulassen^lund sagte zu ihm: Ich müsste von dir getauft werden^lund du kommst zu mir?^pJesus antwortete ihm: Lass es nur zu!^lDenn so können wir die Gerechtigkeit ganz erfüllen.^lDa gab Johannes nach.^pAls Jesus getauft war, stieg er sogleich aus dem Wasser herauf.^lUnd siehe, da öffnete sich der Himmel^lund er sah den Geist Gottes wie eine Taube auf sich herabkommen.^lUnd siehe, eine Stimme aus dem Himmel sprach:^l^EINZUGDieser ist mein geliebter Sohn,^l^EINZUGan dem ich Wohlgefallen gefunden habe."
-          }
-        },
-        "b": {
-          "Messe": {
-            "ms_les_buch": "Jes",
-            "ms_les_stelle": "55,1-11",
-            "ms_les_motto": "Kommt zum Wasser; hört und ihr werdet aufleben!",
-            "ms_les_text": "So spricht der Herr:^lAuf, alle Durstigen, kommt zum Wasser!^lDie ihr kein Geld habt, kommt,^lkauft Getreide und esst, kommt und kauft ohne Geld^lund ohne Bezahlung Wein und Milch!^lWarum bezahlt ihr mit Geld, was euch nicht nährt,^lund mit dem Lohn eurer Mühen, was euch nicht satt macht?^lHört auf mich,^l^EINZUGdann bekommt ihr das Beste zu essen^lund könnt euch laben an fetten Speisen!^lNeigt euer Ohr und kommt zu mir,^lhört und ihr werdet aufleben!^lIch schließe mit euch einen ewigen Bund:^lDie Erweise der Huld für David sind beständig.^pSiehe, ich habe ihn zum Zeugen für die Völker gemacht,^lzum Fürsten und Gebieter der Nationen.^lSiehe, eine Nation, die du nicht kennst, wirst du rufen^lund eine Nation, die dich nicht kannte, eilt zu dir,^lum des HERRN, deines Gottes, des Heiligen Israels willen,^lweil er dich herrlich gemacht hat.^pSucht den HERRN, er lässt sich finden,^lruft ihn an, er ist nah!^lDer Frevler soll seinen Weg verlassen,^l^EINZUGder Übeltäter seine Pläne.^lEr kehre um zum HERRN,^l^EINZUGdamit er Erbarmen hat mit ihm,^lund zu unserem Gott;^l^EINZUGdenn er ist groß im Verzeihen.^lMeine Gedanken sind nicht eure Gedanken^l^EINZUGund eure Wege sind nicht meine Wege – Spruch des HERRN.^lSo hoch der Himmel über der Erde ist,^l^EINZUGso hoch erhaben sind meine Wege über eure Wege^l^EINZUGund meine Gedanken über eure Gedanken.^pDenn wie der Regen und der Schnee vom Himmel fällt^l^EINZUGund nicht dorthin zurückkehrt,^l^EINZUGohne die Erde zu tränken^l^EINZUGund sie zum Keimen und Sprossen zu bringen,^ldass sie dem Sämann Samen gibt und Brot zum Essen,^lso ist es auch mit dem Wort, das meinen Mund verlässt:^lEs kehrt nicht leer zu mir zurück,^l^EINZUGohne zu bewirken, was ich will,^lund das zu erreichen, wozu ich es ausgesandt habe.",
-            "ms_aps_stelle": "Jes 12,2.3+4bcd.5-6",
-            "ms_aps_kv": "Ihr werdet Wasser freudig schöpfen^laus den Quellen des Heils.",
-            "ms_aps_text": "Siehe, Gott ist mein Heil;^*ich vertraue und erschrecke nicht.^pDenn meine Stärke und mein Lied ist Gott, der HERR.^*Er wurde mir zum Heil.^KV^PIhr werdet Wasser freudig schöpfen^*aus den Quellen des Heiles.^pDankt dem HERRN! Ruft seinen Namen an!^+Macht unter den Völkern seine Taten bekannt,^*verkündet: Sein Name ist erhaben!^KV^PSinget dem HERRN, denn Überragendes hat er vollbracht;^*bekannt gemacht sei dies auf der ganzen Erde.^pJauchzt und jubelt, ihr Bewohner Zions;^*denn groß ist in eurer Mitte der Heilige Israels.",
-            "ms_les2_buch": "1°Joh",
-            "ms_les2_stelle": "5,1-9",
-            "ms_les2_motto": "Drei sind es, die Zeugnis geben: der Geist, das Wasser und das Blut",
-            "ms_les2_text": "Schwestern und Brüder!^lJeder, der glaubt, dass Jesus der Christus ist,^l^EINZUGist aus Gott gezeugt^lund jeder, der den Vater liebt,^l^EINZUGliebt auch den, der aus ihm gezeugt ist.^lDaran erkennen wir, dass wir die Kinder Gottes lieben:^l^EINZUGwenn wir Gott lieben und seine Gebote erfüllen.^pDenn darin besteht die Liebe zu Gott,^l^EINZUGdass wir seine Gebote halten;^lund seine Gebote sind nicht schwer.^lDenn alles, was aus Gott gezeugt ist, besiegt die Welt.^lUnd das ist der Sieg, der die Welt besiegt hat:^l^EINZUGunser Glaube.^lWer sonst besiegt die Welt^l^EINZUGaußer dem, der glaubt, dass Jesus der Sohn Gottes ist?^pDieser ist es, der durch Wasser und Blut gekommen ist:^l^EINZUGJesus Christus.^lEr ist nicht nur im Wasser gekommen,^l^EINZUGsondern im Wasser und im Blut.^lUnd der Geist ist es, der Zeugnis ablegt;^ldenn der Geist ist die Wahrheit.^lDenn drei sind es, die Zeugnis ablegen:^lder Geist,^l^EINZUGdas Wasser^l^EINZUGund das Blut;^lund diese drei sind eins.^pWenn wir von Menschen ein Zeugnis annehmen,^l^EINZUGso ist das Zeugnis Gottes größer;^ldenn das ist das Zeugnis Gottes:^lEr hat Zeugnis abgelegt von seinem Sohn.",
-            "ms_ev_buch": "Mk",
-            "ms_ev_stelle": "1,7-11",
-            "ms_ev_motto": "Du bist mein geliebter Sohn, an dir habe ich Wohlgefallen gefunden",
-            "ms_ev_text": "In jener Zeit^l^EINZUGtrat Johannes in der Wüste auf^lund verkündete:^l^EINZUGNach mir kommt einer,^l^EINZUGder ist stärker als ich;^lich bin es nicht wert,^l^EINZUGmich zu bücken und ihm die Riemen der Sandalen zu lösen.^lIch habe euch mit Wasser getauft,^l^EINZUGer aber wird euch mit dem Heiligen Geist taufen.^pIn jenen Tagen kam Jesus aus Nazaret in Galiläa^l^EINZUGund ließ sich von Johannes im Jordan taufen.^lUnd sogleich, als er aus dem Wasser stieg,^l^EINZUGsah er, dass der Himmel aufriss^l^EINZUGund der Geist wie eine Taube auf ihn herabkam.^lUnd eine Stimme aus dem Himmel sprach:^l^EINZUGDu bist mein geliebter Sohn,^lan dir habe ich Wohlgefallen gefunden."
-          }
-        },
-        "c": {
-          "Messe": {
-            "ms_les_buch": "Jes",
-            "ms_les_stelle": "42,5a.1-4.6-7 (oder: Jes 40,1-5.9-11)",
-            "ms_les_motto": "Siehe, das ist mein Knecht, an ihm finde ich Gefallen",
-            "ms_les_text": "So spricht Gott, der HERR:^lSiehe, das ist mein Knecht, den ich stütze;^ldas ist mein Erwählter, an ihm finde ich Gefallen.^lIch habe meinen Geist auf ihn gelegt,^ler bringt den Nationen das Recht.^lEr schreit nicht und lärmt nicht^l^EINZUGund lässt seine Stimme nicht auf der Gasse erschallen.^lDas geknickte Rohr zerbricht er nicht^l^EINZUGund den glimmenden Docht löscht er nicht aus;^lja, er bringt wirklich das Recht.^lEr verglimmt nicht und wird nicht geknickt,^l^EINZUGbis er auf der Erde das Recht begründet hat.^lAuf seine Weisung warten die Inseln.^pIch, der HERR, habe dich aus Gerechtigkeit gerufen,^lich fasse dich an der Hand.^lIch schaffe und mache dich^l^EINZUGzum Bund mit dem Volk,^l^EINZUGzum Licht der Nationen,^lum blinde Augen zu öffnen,^l^EINZUGGefangene aus dem Kerker zu holen^l^EINZUGund die im Dunkel sitzen, aus der Haft.",
-            "ms_aps_stelle": "Ps 29,1-2.3ac-4.3b+9b-10 (oder: Ps 104,1-2.3-4.24-25.27-28.29-30)",
-            "ms_aps_kv": "Der HERR schenkt seinem Volk den Frieden.",
-            "ms_aps_text": "Bringt dar dem HERRN, ihr Himmlischen,^*bringt dar dem HERRN Ehre und Macht!^pBringt dar dem HERRN die Ehre seines Namens,^*werft euch nieder vor dem HERRN in heiliger Majestät!^KV^PDie Stimme des HERRN über den Wassern:^*der HERR über gewaltigen Wassern.^pDie Stimme des HERRN voller Kraft,^*die Stimme des HERRN voll Majestät.^KV^PDer Gott der Ehre hat gedonnert.^*In seinem Palast ruft alles: Ehre!^pDer HERR thront über der Flut,^*der HERR thront als König in Ewigkeit.",
-            "ms_les2_buch": "Apg",
-            "ms_les2_stelle": "10,34-38 (oder: Tit 2,11-14;3,4-7)",
-            "ms_les2_motto": "Gott hat Jesus gesalbt mit dem Heiligen Geist",
-            "ms_les2_text": "In jenen Tagen^l^EINZUGbegann Petrus zu reden^lund sagte:^l^EINZUGWahrhaftig, jetzt begreife ich,^l^EINZUGdass Gott nicht auf die Person sieht,^lsondern dass ihm in jedem Volk willkommen ist,^l^EINZUGwer ihn fürchtet^l^EINZUGund tut, was recht ist.^pEr hat das Wort den Israeliten gesandt,^l^EINZUGindem er den Frieden verkündete durch Jesus Christus:^lDieser ist der Herr aller.^pIhr wisst, was im ganzen Land der Juden geschehen ist,^langefangen in Galiläa,^lnach der Taufe, die Johannes verkündet hat:^pwie Gott Jesus von Nazaret gesalbt hat^l^EINZUGmit dem Heiligen Geist und mit Kraft,^lwie dieser umherzog,^lGutes tat^lund alle heilte, die in der Gewalt des Teufels waren;^ldenn Gott war mit ihm.",
-            "ms_ruf_text": "Johannes sagte: Es kommt einer, der stärker ist als ich. Mit dem Heiligen Geist und mit dem Feuer wird er euch taufen.",
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "3,15-16.21-22",
-            "ms_ev_motto": "Jesus ließ sich taufen; und während er betete, öffnete sich der Himmel",
-            "ms_ev_text": "In jener Zeit^l^EINZUGwar das Volk voll Erwartung^lund alle überlegten im Herzen,^l^EINZUGob Johannes nicht vielleicht selbst der Christus sei.^pDoch Johannes gab ihnen allen zur Antwort:^l^EINZUGIch taufe euch mit Wasser.^lEs kommt aber einer, der stärker ist als ich,^lund ich bin es nicht wert, ihm die Riemen der Sandalen zu lösen.^lEr wird euch mit dem Heiligen Geist und mit Feuer taufen.^pEs geschah aber,^l^EINZUGdass sich zusammen mit dem ganzen Volk^l^EINZUGauch Jesus taufen ließ.^lUnd während er betete,^l^EINZUGöffnete sich der Himmel^lund der Heilige Geist^l^EINZUGkam sichtbar in Gestalt einer Taube auf ihn herab^lund eine Stimme aus dem Himmel sprach:^l^EINZUGDu bist mein geliebter Sohn,^lan dir habe ich Wohlgefallen gefunden."
-          }
-        }
-      }
-    },
     "2": {
       "0": {
         "a": {
@@ -3731,57 +3780,6 @@
             "ms_ev_stelle": "14,23-29",
             "ms_ev_motto": "Der Heilige Geist wird euch an alles erinnern, was ich euch gesagt habe",
             "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lWenn jemand mich liebt,^l^EINZUGwird er mein Wort halten;^lmein Vater wird ihn lieben^l^EINZUGund wir werden zu ihm kommen^l^EINZUGund bei ihm Wohnung nehmen.^pWer mich nicht liebt, hält meine Worte nicht.^lUnd das Wort, das ihr hört, stammt nicht von mir,^l^EINZUGsondern vom Vater, der mich gesandt hat.^pDas habe ich zu euch gesagt, während ich noch bei euch bin.^lDer Beistand aber, der Heilige Geist,^l^EINZUGden der Vater in meinem Namen senden wird,^l^EINZUGder wird euch alles lehren^lund euch an alles erinnern, was ich euch gesagt habe.^pFrieden hinterlasse ich euch,^lmeinen Frieden gebe ich euch;^lnicht, wie die Welt ihn gibt, gebe ich ihn euch.^pEuer Herz beunruhige sich nicht und verzage nicht.^lIhr habt gehört,^l^EINZUGdass ich zu euch sagte:^l^EINZUGIch gehe fort und komme wieder zu euch.^lWenn ihr mich liebtet,^l^EINZUGwürdet ihr euch freuen, dass ich zum Vater gehe;^ldenn der Vater ist größer als ich.^pJetzt schon habe ich es euch gesagt, bevor es geschieht,^ldamit ihr, wenn es geschieht,^l^EINZUGzum Glauben kommt."
-          }
-        }
-      },
-      "4": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Apg",
-            "ms_les_stelle": "1,1-11",
-            "ms_les_motto": "Dieser Jesus, der in den Himmel aufgenommen wurde, wird ebenso wiederkommen, wie ihr ihn habt zum Himmel hingehen sehen",
-            "ms_les_text": "Im ersten Buch, lieber Theophilus,^l^EINZUGhabe ich über alles berichtet,^l^EINZUGwas Jesus von Anfang an getan und gelehrt hat,^lbis zu dem Tag, an dem er in den Himmel aufgenommen wurde.^lVorher hat er den Aposteln,^l^EINZUGdie er sich durch den Heiligen Geist erwählt hatte,^l^EINZUGWeisung gegeben.^lIhnen hat er nach seinem Leiden^l^EINZUGdurch viele Beweise gezeigt, dass er lebt;^lvierzig Tage hindurch ist er ihnen erschienen^lund hat vom Reich Gottes gesprochen.^pBeim gemeinsamen Mahl gebot er ihnen:^lGeht nicht weg von Jerusalem,^lsondern wartet auf die Verheißung des Vaters,^l^EINZUGdie ihr von mir vernommen habt!^lDenn Johannes hat mit Wasser getauft,^lihr aber^l^EINZUGwerdet schon in wenigen Tagen^l^EINZUGmit dem Heiligen Geist getauft werden.^pAls sie nun beisammen waren, fragten sie ihn:^l^EINZUGHerr, stellst du in dieser Zeit^l^EINZUGdas Reich für Israel wieder her?^lEr sagte zu ihnen:^l^EINZUGEuch steht es nicht zu, Zeiten und Fristen zu erfahren,^l^EINZUGdie der Vater in seiner Macht festgesetzt hat.^lAber ihr werdet Kraft empfangen,^l^EINZUGwenn der Heilige Geist auf euch herabkommen wird;^lund ihr werdet meine Zeugen sein^lin Jerusalem und in ganz Judäa und Samarien^l^EINZUGund bis an die Grenzen der Erde.^pAls er das gesagt hatte,^l^EINZUGwurde er vor ihren Augen emporgehoben^lund eine Wolke nahm ihn auf und entzog ihn ihren Blicken.^pWährend sie unverwandt ihm nach zum Himmel emporschauten,^l^EINZUGsiehe, da standen zwei Männer in weißen Gewändern bei ihnen^lund sagten: Ihr Männer von Galiläa,^lwas steht ihr da und schaut zum Himmel empor?^lDieser Jesus, der von euch fort^l^EINZUGin den Himmel aufgenommen wurde,^l^EINZUGwird ebenso wiederkommen,^l^EINZUGwie ihr ihn habt zum Himmel hingehen sehen.",
-            "ms_aps_stelle": "Ps 47,2-3.6-7.8-9",
-            "ms_aps_kv": "Gott steigt empor unter Jubel,^lder HERR beim Schall der Posaunen.^APSHALL^l",
-            "ms_aps_text": "Ihr Völker alle, klatscht in die Hände;^*jauchzt Gott zu mit lautem Jubel!^pDenn Furcht gebietend ist der HERR, der Höchste,^*ein großer König über die ganze Erde.^KV^PGott stieg empor unter Jubel,^*der HERR beim Schall der Hörner.^pSingt unserm Gott, ja singt ihm!^*Singt unserm König, singt ihm!^KV^PDenn König der ganzen Erde ist Gott.^*Singt ihm ein Weisheitslied!^pGott wurde König über die Völker,^*Gott hat sich auf seinen heiligen Thron gesetzt.",
-            "ms_les2_buch": "Eph",
-            "ms_les2_stelle": "1,17-23",
-            "ms_les2_motto": "Gott hat Christus auf den Platz zu seiner Rechten erhoben",
-            "ms_les2_text": "Schwestern und Brüder!^lDer Gott Jesu Christi, unseres Herrn,^l^EINZUGder Vater der Herrlichkeit,^l^EINZUGgebe euch den Geist der Weisheit und Offenbarung,^l^EINZUGdamit ihr ihn erkennt.^lEr erleuchte die Augen eures Herzens,^l^EINZUGdamit ihr versteht,^l^EINZUGzu welcher Hoffnung ihr durch ihn berufen seid,^lwelchen Reichtum^l^EINZUGdie Herrlichkeit seines Erbes den Heiligen schenkt^lund wie überragend groß^l^EINZUGseine Macht sich an uns, den Gläubigen, erweist^ldurch das Wirken seiner Kraft und Stärke.^pEr ließ sie wirksam werden in Christus,^l^EINZUGden er von den Toten auferweckt^l^EINZUGund im Himmel auf den Platz zu seiner Rechten erhoben hat,^lhoch über jegliche Hoheit und Gewalt,^lMacht und Herrschaft^lund über jeden Namen, der nicht nur in dieser Weltzeit,^l^EINZUGsondern auch in der künftigen genannt wird.^pAlles hat er ihm zu Füßen gelegt^lund ihn, der als Haupt alles überragt,^l^EINZUGüber die Kirche gesetzt.^lSie ist sein Leib,^l^EINZUGdie Fülle dessen, der das All in allem erfüllt.",
-            "ms_ruf_stelle": "Mt 28,19a.20b",
-            "ms_ruf_text": "^SPRICHTGeht zu allen Völkern, und macht alle Menschen zu meinen Jüngern. Ich bin bei euch alle Tage bis zum Ende der Welt.",
-            "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "28,16-20",
-            "ms_ev_motto": "Mir ist alle Vollmacht gegeben im Himmel und auf der Erde",
-            "ms_ev_text": "In jener Zeit^l^EINZUGgingen die elf Jünger nach Galiläa^l^EINZUGauf den Berg, den Jesus ihnen genannt hatte.^lUnd als sie Jesus sahen,^l^EINZUGfielen sie vor ihm nieder,^leinige aber hatten Zweifel.^pDa trat Jesus auf sie zu^lund sagte zu ihnen:^l^EINZUGMir ist alle Vollmacht gegeben im Himmel und auf der Erde.^pDarum geht^l^EINZUGund macht alle Völker zu meinen Jüngern;^ltauft sie^l^EINZUGauf den Namen des Vaters und des Sohnes^l^EINZUGund des Heiligen Geistes^lund lehrt sie,^l^EINZUGalles zu befolgen, was ich euch geboten habe.^pUnd siehe,^lich bin mit euch alle Tage bis zum Ende der Welt."
-          }
-        },
-        "b": {
-          "Messe": {
-            "ms_les2_buch": "Eph",
-            "ms_les2_stelle": "4,1-13",
-            "ms_les2_motto": "Der Fülle Christi entsprechen",
-            "ms_les2_text": "Schwestern und Brüder!^lIch, der Gefangene im Herrn,^l^EINZUGermahne euch, ein Leben zu führen,^l^EINZUGdas des Rufes würdig ist, der an euch erging.^pSeid demütig,^lfriedfertig und geduldig,^lertragt einander in Liebe^lund bemüht euch, die Einheit des Geistes zu wahren^l^EINZUGdurch das Band des Friedens!^lEIN Leib und EIN Geist,^l^EINZUGwie ihr auch berufen seid^l^EINZUGzu EINER Hoffnung in eurer Berufung:^lEIN Herr,^lEIN Glaube,^lEINE Taufe,^lEIN Gott und Vater aller,^l^EINZUGder über allem und durch alles und in allem ist.^pAber jeder von uns empfing die Gnade^l^EINZUGin dem Maß, wie Christus sie ihm geschenkt hat.^lDeshalb heißt es: Er stieg hinauf zur Höhe^l^EINZUGund erbeutete Gefangene,^ler gab den Menschen Geschenke.^lWenn es heißt: Er stieg aber hinauf,^l^EINZUGwas bedeutet dies anderes,^l^EINZUGals dass er auch zur Erde herabstieg?^lDerselbe, der herabstieg,^l^EINZUGist auch hinaufgestiegen über alle Himmel,^l^EINZUGum das All zu erfüllen.^pUnd er setzte die einen als Apostel ein,^landere als Propheten,^landere als Evangelisten,^landere als Hirten und Lehrer,^lum die Heiligen für die Erfüllung ihres Dienstes zuzurüsten,^l^EINZUGfür den Aufbau des Leibes Christi,^lbis wir alle^l^EINZUGzur Einheit im Glauben^l^EINZUGund der Erkenntnis des Sohnes Gottes gelangen,^lzum vollkommenen Menschen,^l^EINZUGzur vollen Größe, die der Fülle Christi entspricht.",
-            "ms_ruf_stelle": "Mt 28,19a.20b",
-            "ms_ruf_text": "^SPRICHTGeht zu allen Völkern, und macht alle Menschen zu meinen Jüngern. Ich bin bei euch alle Tage bis zum Ende der Welt.",
-            "ms_ev_buch": "Mk",
-            "ms_ev_stelle": "16,15-20",
-            "ms_ev_motto": "Er wurde in den Himmel aufgenommen und setzte sich zur Rechten Gottes",
-            "ms_ev_text": "In jener Zeit erschien Jesus den Elf^lund sprach zu ihnen:^l^EINZUGGeht hinaus in die ganze Welt^l^EINZUGund verkündet das Evangelium der ganzen Schöpfung!^lWer glaubt und sich taufen lässt,^l^EINZUGwird gerettet;^lwer aber nicht glaubt,^l^EINZUGwird verurteilt werden.^pUnd durch die, die zum Glauben gekommen sind,^l^EINZUGwerden folgende Zeichen geschehen:^lIn meinem Namen werden sie Dämonen austreiben;^lsie werden in neuen Sprachen reden;^lwenn sie Schlangen anfassen oder tödliches Gift trinken,^l^EINZUGwird es ihnen nicht schaden;^lund die Kranken, denen sie die Hände auflegen,^l^EINZUGwerden gesund werden.^pNachdem Jesus, der Herr, dies zu ihnen gesagt hatte,^l^EINZUGwurde er in den Himmel aufgenommen^l^EINZUGund setzte sich zur Rechten Gottes.^pSie aber zogen aus und verkündeten überall.^lDer Herr stand ihnen bei^lund bekräftigte das Wort^l^EINZUGdurch die Zeichen, die es begleiteten."
-          }
-        },
-        "c": {
-          "Messe": {
-            "ms_les2_buch": "Hebr",
-            "ms_les2_stelle": "9,24-28;10,19-23",
-            "ms_les2_motto": "Christus ist in den Himmel selbst hineingegangen",
-            "ms_les2_text": "Christus ist nicht^l^EINZUGin ein von Menschenhand gemachtes Heiligtum hineingegangen,^l^EINZUGin ein Abbild des wirklichen,^l^EINZUGsondern in den Himmel selbst,^lum jetzt vor Gottes Angesicht zu erscheinen für uns;^lauch nicht, um sich selbst viele Male zu opfern,^lwie der Hohepriester^l^EINZUGjedes Jahr mit fremdem Blut in das Heiligtum hineingeht;^lsonst hätte er viele Male seit der Erschaffung der Welt^l^EINZUGleiden müssen.^lJetzt aber ist er am Ende der Zeiten ein einziges Mal erschienen,^l^EINZUGum durch sein Opfer die Sünde zu tilgen.^pUnd wie es dem Menschen bestimmt ist,^l^EINZUGein einziges Mal zu sterben,^l^EINZUGworauf dann das Gericht folgt,^l^EINZUGso wurde auch Christus ein einziges Mal geopfert,^l^EINZUGum die Sünden vieler hinwegzunehmen;^lbeim zweiten Mal wird er nicht wegen der Sünde erscheinen,^l^EINZUGsondern um die zu retten, die ihn erwarten.^pSo haben wir die Zuversicht, Brüder und Schwestern,^l^EINZUGdurch das Blut Jesu in das Heiligtum einzutreten.^lEr hat uns den neuen und lebendigen Weg erschlossen^l^EINZUGdurch den Vorhang hindurch,^ldas heißt durch sein Fleisch.^pUnd da wir einen Hohepriester haben,^l^EINZUGder über das Haus Gottes gestellt ist,^l^EINZUGlasst uns mit aufrichtigem Herzen^l^EINZUGund in voller Gewissheit des Glaubens hinzutreten,^ldie Herzen^l^EINZUGdurch Besprengung gereinigt vom schlechten Gewissen^lund den Leib gewaschen mit reinem Wasser!^pLasst uns^l^EINZUGan dem unwandelbaren Bekenntnis der Hoffnung festhalten,^ldenn er, der die Verheißung gegeben hat, ist treu!",
-            "ms_ruf_stelle": "Mt 28,19a.20b",
-            "ms_ruf_text": "^SPRICHTGeht und macht alle Völker zu meinen Jüngern. Ich bin mit euch alle Tage bis zum Ende der Welt.",
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "24,46-53",
-            "ms_ev_motto": "Während er sie segnete, wurde er zum Himmel emporgehoben",
-            "ms_ev_text": "In jener Zeit^l^EINZUGsprach Jesus zu seinen Jüngern:^lSo steht es geschrieben:^lDer Christus wird leiden^l^EINZUGund am dritten Tag von den Toten auferstehen^lund in seinem Namen^l^EINZUGwird man allen Völkern Umkehr verkünden,^l^EINZUGdamit ihre Sünden vergeben werden.^lAngefangen in Jerusalem.^lIhr seid Zeugen dafür.^lUnd siehe, ich werde die Verheißung meines Vaters^l^EINZUGauf euch herabsenden.^lIhr aber bleibt in der Stadt,^l^EINZUGbis ihr mit der Kraft aus der Höhe erfüllt werdet!^pDann führte er sie hinaus in die Nähe von Betanien.^lDort erhob er seine Hände und segnete sie.^lUnd es geschah:^lWährend er sie segnete,^l^EINZUGverließ er sie und wurde zum Himmel emporgehoben.^pSie aber fielen vor ihm nieder.^lDann kehrten sie in großer Freude nach Jerusalem zurück.^lUnd sie waren immer im Tempel^l^EINZUGund priesen Gott."
           }
         }
       }

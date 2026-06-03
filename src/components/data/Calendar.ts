@@ -4736,6 +4736,7 @@ export const calendarData: CalendarData = {
             "patr_resp2": "Nehmt und esst den Leib Christi! Nehmt und trinkt das Blut Christi!",
             "patr_resp3": "Der Herr stiftete dieses Sakrament als Denkmal seines Leidens, als Erfüllung der alten Zeichen, als größtes der von ihm gewirkten Wunder.",
             "hymn_1_lat": 3941.1,
+            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Dícite invitátis: Ecce prándium meum parávi, veníte ad núptias.^ALLxq",
             "ant2_lat": "Si quis sitit, véniat ad me et bibat fontem ætérnum.",
             "ant3_lat": "Cibávit nos Dóminus ex ádipe fruménti, et de petra melle saturávit nos.",
@@ -4750,7 +4751,6 @@ export const calendarData: CalendarData = {
             "les_buch": "^A:vigil-Fronleichnam:",
             "les_stelle": "",
             "les_text": "LEER",
-            "hymn_1_lat": 3942.1,
             "ant0_lat": "Caro mea vere est cibus, et sanguis meus vere est potus. Qui mandúcat carnem meam et bibit sánguinem meum, habet vitam ætérnam, dicit Dóminus."
           },
           "Laudes": {
@@ -4776,6 +4776,7 @@ export const calendarData: CalendarData = {
             "bitten_e": "Gepriesen sei Jesus Christus, das Brot des Lebens. Zu ihm lasst uns beten:",
             "bitten_r": "Selig, wer zu deinem Mahl geladen ist.",
             "bitten": "Christus, du ewiger Hoherpriester, du hast dem Vater das vollkommene Opfer dargebracht;^qschenk uns Gemeinschaft an deinem Opfer.^pChristus, du Priester des Neuen Bundes, du hast Brot und Wein zu heiligen Zeichen deiner Hingabe gemacht;^qmache auch uns zu einer Opfergabe mit dir.^pChristus, du Brot vom Himmel, du nährst die Kirche mit deinem Leib und deinem Blut;^qin dieser Speise gib uns Kraft für unseren Weg.^pChristus, du unser unsichtbarer Gast, du stehst an der Tür und klopfst an;^qtritt bei uns ein, dass wir Mahl halten mit dir.",
+            "hymn_1_lat": 3942.1,
             "ant1_lat": "Angelórum esca nutrivísti pópulum tuum, et panem de cælo præstitísti eis.^ALLxq",
             "ant2_lat": "Sacerdótes sancti incénsum et panes ófferunt Deo.^ALLxq",
             "ant3_lat": "Vincénti dabo manna abscónditum et nomen novum.^ALLxq",
@@ -16613,7 +16614,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Frau",
             "comm_2": "Frau_Ord",
-            "oration": "Herr, unser Gott, du hast die selige Maria Rosa berufen, nach der vollkommenen Liebe zu streben und schon in dieser Welt dein Reich zu suchen. Gib uns auf ihre Fürsprache die Freude des Geistes und die Kraft, auf dem Weg der Liebe voranzuschreiten.^ORV"
+            "oration": "Vater des Erbarmens und Gott allen Trostes, du hast der seligen Mutter Rosa große Geduld gegeben und die Kraft, in einzigartiger Weise barmherzig zu sein zu den Armen und Kranken. Gewähre uns auf ihre Fürsprache, dass wir nicht müde werden, Gutes zu tun im Dienst derer, die unserer Hilfe bedürfen.^ORV"
           },
           "Lesehore": {
             "patr_autor": "Papst Benedikt XVI.",

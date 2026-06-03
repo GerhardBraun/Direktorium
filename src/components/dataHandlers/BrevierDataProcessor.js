@@ -555,18 +555,19 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
         });
     });
 
-    processReadings(hours, yearABC, calendarMonth, calendarDay);
+    processReadings(hours, yearABC, calendarMonth, calendarDay, replaceOblig);
 }
 
-function processReadings(hours, yearABC, calendarMonth, calendarDay) {
+function processReadings(hours, yearABC, calendarMonth, calendarDay, replaceOblig = '') {
     const diocese = localStorage.getItem('diocese') || 'Fulda';
     const readingsAData = lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.a;
     const readingsBCData = yearABC === 'a' ? null : lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.[yearABC];
     const diocesanReadingsData = diocese !== 'AAA' ? lectureABCData?.[diocese]?.[calendarMonth]?.[calendarDay]?.a : null;
 
-    if (readingsAData) mergeData(hours, readingsAData, 'oblig');
-    if (readingsBCData) mergeData(hours, readingsBCData, 'oblig');
-    if (diocesanReadingsData) mergeData(hours, diocesanReadingsData, 'oblig');
+    const targetSource = replaceOblig || 'oblig';
+    if (readingsAData) mergeData(hours, readingsAData, targetSource);
+    if (readingsBCData) mergeData(hours, readingsBCData, targetSource);
+    if (diocesanReadingsData) mergeData(hours, diocesanReadingsData, targetSource);
 }
 
 function processTerzPsalms(hours) {
@@ -805,40 +806,58 @@ export function processBrevierData(todayDate) {
         && todayInfo.rank_wt < 5 && isSacredHeart !== 46) {
         dateToRead = yesterdayDate;
         console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
-    }
 
-    // Josef: Hochfest wird auf den heutigen Samstag vor Palmsonntag vergezogen,
+    // Josef: Hochfest wird auf den heutigen Samstag vor Palmsonntag vorgezogen,
     // wenn der 19. März in die Karwoche fällt,
     // also heute spätestens der 18. März ist
-    if (todayInfo.swdCombined === 'q-5-6' &&
+    } else if (todayInfo.swdCombined === 'q-5-6' &&
         (todayMonth === 3 && todayDay < 19)) {
-        // Erstelle ein neues Date-Objekt für den 19. März
         const josefDate = new Date(todayDate.getFullYear(), 2, 19); // Monat ist 0-basiert
         dateToRead = josefDate;
         console.log('Verschiebung: Josef am Samstag vor Palmsonntag');
-    }
 
-    // Verkündigung des Herrn: Hochfest wird auf den heutigen Montag nach dem Weißen Sonntag verlegt,
-    // wenn der 25. März in die Karwoche oder die Osteroktav fällt,
-    // also der heute spätestens der 9. April ist
-    if (todayInfo.swdCombined === 'o-2-1' &&
-        (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
-        const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
-        dateToRead = verkuendigungDate;
-        console.log('Verschiebung: Verkündigung des Herrn auf Montag nach der Osteroktav');
-    }
+    // Hochfest, das in die Zeit von Palmsonntag bis Weißem Sonntag fällt
+    // (z.B. Verkündigung des Herrn am 25.03., oder diözesane Hochfeste),
+    // wird auf den heutigen Montag nach dem Weißen Sonntag verlegt.
+    } else if (todayInfo.swdCombined === 'o-2-1') {
+        for (let diff = -15; diff <= -1; diff++) {
+            const feast = upcomingSollemnity(diff);
+            // 19.03. (Josef) ausschließen: wird ggf. bereits auf q-5-6 vorgezogen
+            if (feast && (feast.getMonth() > 2 || feast.getDate() > 19)) {
+                dateToRead = feast;
+                console.log('Verschiebung: Hochfest auf Montag nach der Osteroktav verlegt');
+                break;
+            }
+        }
+
+    // Wenn zwei Hochfeste in die Zeit von Palmsonntag bis Weißem Sonntag fielen
+    // (z.B. Verkündigung 25.03. + Liudger 26.03. in Münster),
+    // wird das zweite auf den heutigen Dienstag nach dem Weißen Sonntag verlegt.
+    } else if (todayInfo.swdCombined === 'o-2-2') {
+        let feastCount = 0;
+        for (let diff = -16; diff <= -2; diff++) {
+            const feast = upcomingSollemnity(diff);
+            if (feast && (feast.getMonth() > 2 || feast.getDate() > 19)) {
+                feastCount++;
+                if (feastCount === 2) {
+                    dateToRead = feast;
+                    console.log('Verschiebung: Zweites Hochfest auf Dienstag nach der Osteroktav verlegt');
+                    break;
+                }
+            }
+        }
 
     // ein Heiligen-Hochfest, das mit Herz Jesu zusammenfällt,
     // wird nicht auf den nächsten Tag verlegt (wegen Herz Mariae)
     // (s.o. allgemeiner Fall: isSacredHeart!==46),
     // sondern vorgezogen
-    if (isSacredHeart === 1 && upcomingSollemnity(1)) {
+    } else if (isSacredHeart === 1 && upcomingSollemnity(1)) {
         // Szenario: Heute ist Donnerstag vor Herz-Jesu-Fest,
         // morgen wäre ein Hochfest, das deshalb heute gefeiert wird
         dateToRead = upcomingSollemnity(1);
         console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
-    }
-    if (isSacredHeart === 2 && upcomingSollemnity(2)) {
+
+    } else if (isSacredHeart === 2 && upcomingSollemnity(2)) {
         // Szenario: Heute ist Mittwoch vor Herz-Jesu-Fest,
         // übermorgen wäre ein Hochfest, das deshalb schon morgen gefeiert wird
         // und für das heute die 1. Vesper gebraucht wird
