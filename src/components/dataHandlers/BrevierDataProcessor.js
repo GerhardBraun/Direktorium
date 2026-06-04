@@ -529,6 +529,12 @@ function processCommune(hours, season, targetSource) {
 }
 
 function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '', swdCombined = '', dateFormats = {}) {
+    // Fortlaufende Lesungen der Lesehore sichern, bevor die wt-Source durch ein Hochfest überschrieben wird;
+    // die gesicherten Texte stehen dann unter der source 'continuous' zur Auswahl.
+    if (replaceOblig === 'wt' && hours.lesehore?.wt) {
+        hours.lesehore.continuous = { ...hours.lesehore.wt };
+    }
+
     const processData = getDayCalendarData(calendarMonth, calendarDay);
     // Sonder-Datumsformate: bei hasOblig=true nur die dpar-Source laden (onlyPar=true).
     // Ein beweglicher nichtgebotener Gedenktag entfällt, wenn derselbe Tag bereits

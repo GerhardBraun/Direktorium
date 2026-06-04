@@ -217,9 +217,8 @@ export const getValue = ({
         //Sonderfall Bahnlesung
         if (localPrefContinuous && hour === 'lesehore') {
             if (/^(patr_)/.test(field) ||
-                (/^(les_|resp)/.test(field) // && (!localPrefComm || hasObligFirstReading)
-                ))
-                return result(texts[hour]?.wt)
+                /^(les_|resp)/.test(field))
+                return result(texts[hour]?.continuous ?? texts[hour]?.wt)
         }
 
         //Sonderfall Antiphonen: entweder ant0 oder ant1-3
