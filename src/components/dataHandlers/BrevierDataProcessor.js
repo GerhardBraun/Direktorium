@@ -454,7 +454,10 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             // (bei Überschneidungen der Kalenderebenen General-/Regional-/Diözesankalender)
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
 
-            // Maria am Samstag (mit fiktivem Datum 06.13.)
+            // Maria am Samstag
+            // (mit fiktivem Datum: 6 für Samstag, 13. Monat: vom Monat unabhängig,
+            // als zusätzliche 'mar'-Source geladen)
+            // an jedem Samstag im Jahreskreis, wenn nichtgebotene Gedenktage möglich sind
             if (rank_date < 2 && season === "j" && dayOfWeek === 6)
                 processCalendar(hours, yearABC, season, 13, 6)
         }
@@ -813,18 +816,18 @@ export function processBrevierData(todayDate) {
         dateToRead = yesterdayDate;
         console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
 
-    // Josef: Hochfest wird auf den heutigen Samstag vor Palmsonntag vorgezogen,
-    // wenn der 19. März in die Karwoche fällt,
-    // also heute spätestens der 18. März ist
+        // Josef: Hochfest wird auf den heutigen Samstag vor Palmsonntag vorgezogen,
+        // wenn der 19. März in die Karwoche fällt,
+        // also heute spätestens der 18. März ist
     } else if (todayInfo.swdCombined === 'q-5-6' &&
         (todayMonth === 3 && todayDay < 19)) {
         const josefDate = new Date(todayDate.getFullYear(), 2, 19); // Monat ist 0-basiert
         dateToRead = josefDate;
         console.log('Verschiebung: Josef am Samstag vor Palmsonntag');
 
-    // Hochfest, das in die Zeit von Palmsonntag bis Weißem Sonntag fällt
-    // (z.B. Verkündigung des Herrn am 25.03., oder diözesane Hochfeste),
-    // wird auf den heutigen Montag nach dem Weißen Sonntag verlegt.
+        // Hochfest, das in die Zeit von Palmsonntag bis Weißem Sonntag fällt
+        // (z.B. Verkündigung des Herrn am 25.03., oder diözesane Hochfeste),
+        // wird auf den heutigen Montag nach dem Weißen Sonntag verlegt.
     } else if (todayInfo.swdCombined === 'o-2-1') {
         for (let diff = -15; diff <= -1; diff++) {
             const feast = upcomingSollemnity(diff);
@@ -836,9 +839,9 @@ export function processBrevierData(todayDate) {
             }
         }
 
-    // Wenn zwei Hochfeste in die Zeit von Palmsonntag bis Weißem Sonntag fielen
-    // (z.B. Verkündigung 25.03. + Liudger 26.03. in Münster),
-    // wird das zweite auf den heutigen Dienstag nach dem Weißen Sonntag verlegt.
+        // Wenn zwei Hochfeste in die Zeit von Palmsonntag bis Weißem Sonntag fielen
+        // (z.B. Verkündigung 25.03. + Liudger 26.03. in Münster),
+        // wird das zweite auf den heutigen Dienstag nach dem Weißen Sonntag verlegt.
     } else if (todayInfo.swdCombined === 'o-2-2') {
         let feastCount = 0;
         for (let diff = -16; diff <= -2; diff++) {
@@ -853,10 +856,10 @@ export function processBrevierData(todayDate) {
             }
         }
 
-    // ein Heiligen-Hochfest, das mit Herz Jesu zusammenfällt,
-    // wird nicht auf den nächsten Tag verlegt (wegen Herz Mariae)
-    // (s.o. allgemeiner Fall: isSacredHeart!==46),
-    // sondern vorgezogen
+        // ein Heiligen-Hochfest, das mit Herz Jesu zusammenfällt,
+        // wird nicht auf den nächsten Tag verlegt (wegen Herz Mariae)
+        // (s.o. allgemeiner Fall: isSacredHeart!==46),
+        // sondern vorgezogen
     } else if (isSacredHeart === 1 && upcomingSollemnity(1)) {
         // Szenario: Heute ist Donnerstag vor Herz-Jesu-Fest,
         // morgen wäre ein Hochfest, das deshalb heute gefeiert wird
