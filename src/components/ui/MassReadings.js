@@ -11,7 +11,7 @@ const MassReadingsSelector = ({
 }) => {
     if (!texts) return null;
 
-    if (texts?.rank?.date > 2) sourceKeys = ['oblig', 'wt'];
+    const keys = texts?.rank?.date > 2 ? ['oblig', 'wt'] : sourceKeys;
 
     // Helper function to check if a source has valid readings
     const hasValidReadings = (source) => {
@@ -45,7 +45,7 @@ const MassReadingsSelector = ({
     return (
         <div className={`space-y-1 ${className}`}>
             {/* Source Selection Buttons */}
-            {sourceKeys.map(source => {
+            {keys.map(source => {
                 if (!hasValidReadings(source)) return null;
 
                 return (

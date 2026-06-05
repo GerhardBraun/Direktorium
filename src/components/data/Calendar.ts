@@ -6324,6 +6324,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 117,1.2",
             "ms_aps_kv": "Selig der Mensch, der den Herrn fürchtet und ehrt!^l^l(Oder: Halleluja.)",
             "ms_aps_text": "Wohl dem Mann, der den Herrn fürchtet und ehrt^*und sich herzlich freut an seinen Geboten.^pSeine Nachkommen werden mächtig im Land,^*das Geschlecht der Redlichen wird gesegnet.^KV^PWohlstand und Reichtum füllen sein Haus,^*sein Heil hat Bestand für immer.^pDen Redlichen erstrahlt im Finstern ein Licht:^*der Gnädige, Barmherzige und Gerechte.^KV^PWohl dem Mann, der gütig und zum Helfen bereit ist,^*der das Seine ordnet, wie es recht ist.^pNiemals gerät er ins Wanken;^*ewig denkt man an den Gerechten.^KV^PEr fürchtet sich nicht vor Verleumdung;^*sein Herz ist fest, er vertraut auf den Herrn.^pReichlich gibt er den Armen, +^psein Heil hat Bestand für immer;^*er ist mächtig und hoch geehrt.",
+            "ms_ruf_text": "Joh 10,14",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "15,14-16a.18-20",
             "ms_ev_motto": "Wenn sie mich verfolgt haben, werden sie auch euch verfolgen",
