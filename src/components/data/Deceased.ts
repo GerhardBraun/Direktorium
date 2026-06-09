@@ -5103,6 +5103,14 @@ export const deceasedData =  {
         "birth": "17.°März°1905°in°Göggelsbuch (D¥-90584°Allersberg)",
         "grave": "",
         "age": 62
+      },
+      {
+        "year": 2026,
+        "birthdate": "2234-09-09",
+        "name": "Gerhard°Arnold, Pfr.i.R., Msgr., GR, Geisa",
+        "birth": "9.°September°1934°in°Zella/Rhön",
+        "grave": "",
+        "age": 91
       }
     ],
     "10": [
