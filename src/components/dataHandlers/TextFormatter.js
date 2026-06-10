@@ -664,11 +664,14 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
     const footnoteNumbers = new Map();
     const allFootnotes = [];
 
-    // VERBESSERTE FUSSNOTENVERARBEITUNG: Satzzeichen erfassen
-    text = text.replace(/\s*\{(\d{1,2})#(.*?)\}([,.;?!]?)/g, (match, number, content, punctuation) => {
+    // {n#Text}: Fußnote mit Druckvorlagen-Nummer n (n nur zur Referenz, wird nicht angezeigt)
+    // {#Text}:  zusätzliche digitale Fußnote ohne Druckvorlagen-Nummer
+    // Angezeigte Nummer ist immer footnoteCounter+1 (sequentiell ab 1).
+    text = text.replace(/\s*\{(\d{1,2})?#(.*?)\}([,.;?!]?)/g, (match, _number, content, punctuation) => {
+        const displayNumber = String(footnoteCounter + 1);
         const marker = `§FN${footnoteCounter}§`;
         footnoteMap.set(marker, content);
-        footnoteNumbers.set(marker, number);
+        footnoteNumbers.set(marker, displayNumber);
 
         // Satzzeichen separat speichern, falls vorhanden
         const punctuationMarker = punctuation ? `§PUNCT${footnoteCounter}§` : '';
@@ -677,7 +680,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
         }
 
         allFootnotes.push({
-            number: number,
+            number: displayNumber,
             content: content,
             punctuation: punctuation || ''
         });
