@@ -470,7 +470,9 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
                 date: rank_date,
                 ...passThrough, // isCommemoration und hasVigil
             },
-            prefComm: (rank_date > 2 || rank_wt > 2 || [61, 66].includes(aroundPentecost)) ? 1 : 0,
+            prefComm: (rank_date > 2 || rank_wt > 2
+                || [61, 66].includes(aroundPentecost)
+                || calendarDay === 11 && calendarMonth === 6) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
     } catch (error) {
