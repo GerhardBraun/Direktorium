@@ -147,8 +147,9 @@ export const getValue = ({
     // Laudes-Festpsalmen und Ergänzungspsalmodie über rank:
     // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
     if (isPsalmodie && !localPrefPsalmsWt
-        && ((hour === 'laudes' && rank?.useFeastPsalms) ||
-            (isTSN && rank?.useComplementaryPsalms)
+        && ((hour === 'laudes' && rank?.useFeastPsalms)
+            || (isTSN && rank?.useComplementaryPsalms)
+            || prefSollemnity
         )) {
         if (!hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]

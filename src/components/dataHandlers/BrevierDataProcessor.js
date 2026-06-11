@@ -493,8 +493,8 @@ function processCommune(hours, season, targetSource) {
         if (foundLaudesComm) {
             Object.keys(hours).forEach(hour => {
                 const foundComm = hours?.[hour]?.[targetSource]?.[commField] || foundLaudesComm;
-                const [readComm, addComm] = foundComm.includes('_') ?
-                    foundComm.split('_') : [foundComm, null];
+                const commSep = foundComm.includes('#') ? '#' : foundComm.includes('_') ? '_' : null;
+                const [readComm, addComm] = commSep ? foundComm.split(commSep) : [foundComm, null];
 
                 const targetKey = `com${commNumber}`;
                 const readingHour = (hour === 'erstev') ? 'ErsteV'
@@ -508,13 +508,16 @@ function processCommune(hours, season, targetSource) {
                     hours[hour][targetSource][targetKey] = {};
                 }
 
-                function addLayer(layerComm, layerSeason) {
+                const mergeLastToParent = foundComm.includes('#');
+                console.log(`Processing commune for hour: ${hour}, targetSource: ${targetSource}, readComm: ${readComm}, addComm: ${addComm}, mergeLastToParent: ${mergeLastToParent}`);
+
+                function addLayer(layerComm, layerSeason, mergeToParent = false) {
                     const communeData = ['Kirchw', 'Verst'].includes(layerComm)
                         ? sollemnitiesData?.[layerComm.toLowerCase()]?.[layerSeason?.toLowerCase()]?.[readingHour?.toLowerCase()]
                         : brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
                     if (communeData) {
                         Object.assign(
-                            hours[hour][targetSource][targetKey],
+                            mergeToParent ? hours[hour][targetSource] : hours[hour][targetSource][targetKey],
                             communeData
                         );
                     }
@@ -523,8 +526,8 @@ function processCommune(hours, season, targetSource) {
                 addLayer('each', 'each');
                 addLayer(readComm, 'each');
                 addLayer(readComm, season);
-                addLayer('each', addComm);
-                addLayer(readComm, addComm);
+                addLayer('each', addComm, mergeLastToParent);
+                addLayer(readComm, addComm, mergeLastToParent);
 
                 // Remove the comm_1/2 field after processing
                 delete hours[hour][targetSource][commField];
