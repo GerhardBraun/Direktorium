@@ -5781,7 +5781,7 @@ export const calendarData: CalendarData = {
             "mode0": "II",
             "ant0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus.^ALLo"
           },
-          "major": {
+          "each": {
             "comm_1": "Apostel_Evang",
             "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden,^ORR",
             "oration_lat": "Deus, qui beátum Bárnabam, plenum fide et Spíritu Sancto, ad géntium conversiónem segregáre præcepísti, concéde, ut Evangélium Christi, quod strénue prædicávit, ore et ópere fidéliter nuntiétur.^ORlV"
