@@ -181,7 +181,7 @@ export const getValue = ({
     if (rank.date < 3  // an Gedenktagen
         && ((hour === 'lesehore' && field !== 'oration') // Lesehore: nur Hymnus und Oration ggf. Commune
             || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie
-            || isTSN) // Kleine Horen: ganz vom Wt
+            || (isTSN && !memorialWithTSN)) // Kleine Horen: ganz vom Wt
     ) skipCommune = true
     if (rank.date < 5 && isTSN && isPsalmodie) // an Festen: Ant und Ps in Kleinen Horen vom Wt
         skipCommune = true
