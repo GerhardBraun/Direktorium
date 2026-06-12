@@ -470,9 +470,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
                 date: rank_date,
                 ...passThrough, // isCommemoration und hasVigil
             },
-            prefComm: (rank_date > 2 || rank_wt > 2
-                || [61, 66].includes(aroundPentecost)
-                || calendarDay === 11 && calendarMonth === 6) ? 1 : 0,
+            prefComm: (rank_date > 2 || rank_wt > 2 || [61, 66].includes(aroundPentecost)) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
     } catch (error) {
@@ -509,7 +507,6 @@ function processCommune(hours, season, targetSource) {
                 }
 
                 const mergeLastToParent = foundComm.includes('#');
-                console.log(`Processing commune for hour: ${hour}, targetSource: ${targetSource}, readComm: ${readComm}, addComm: ${addComm}, mergeLastToParent: ${mergeLastToParent}`);
 
                 function addLayer(layerComm, layerSeason, mergeToParent = false) {
                     const communeData = ['Kirchw', 'Verst'].includes(layerComm)
@@ -743,6 +740,25 @@ function processEasterResponses(hours) {
     return hours;
 }
 
+// Sonderregel für den 11. Juni (Barnabas): Commune-Texte aus oblig.com1 als Eigentexte in oblig übernehmen.
+// Ant und Psalmen werden nur bei Osterzeit übertragen (da Barnabas kein eigenes Psalterium hat).
+function processBarnabas(data, isEasterSeason) {
+    const psalmAntFields = [
+        'ant0', 'ant1', 'ant2', 'ant3',
+        'psalm1', 'psalm2', 'psalm3',
+        'ant0_lat', 'ant1_lat', 'ant2_lat', 'ant3_lat',
+        'psalm1_lat', 'psalm2_lat', 'psalm3_lat'
+    ];
+    Object.keys(data).forEach(hour => {
+        const com1 = data[hour]?.oblig?.com1;
+        if (!com1) return;
+        Object.entries(com1).forEach(([key, value]) => {
+            if (!isEasterSeason && psalmAntFields.includes(key)) return;
+            if (!(key in data[hour].oblig)) data[hour].oblig[key] = value;
+        });
+    });
+}
+
 function processKompletData(data, dateToRead) {
     // Hier wird zusammengestellt, welche Komplet-Formulare
     // am Tag zur Auswahl stehen und welches davon die 1. Wahl ist.
@@ -817,7 +833,7 @@ export function processBrevierData(todayDate) {
     // das Heiligen-Hochfest wird deshalb heute nachgefeiert,
     // wenn nicht auch heute ein Hochfest des Kirchenjahres oder Herz Mariae ist
     if (yesterdayInfo.rank_wt === 5 && yesterdayInfo.rank_date === 5
-        && todayInfo.rank_wt < 5 && isSacredHeart !== 46) {
+        && todayInfo.rank_wt < 5 && isSacredHeart !== 66) {
         dateToRead = yesterdayDate;
         console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
 
@@ -863,7 +879,7 @@ export function processBrevierData(todayDate) {
 
         // ein Heiligen-Hochfest, das mit Herz Jesu zusammenfällt,
         // wird nicht auf den nächsten Tag verlegt (wegen Herz Mariae)
-        // (s.o. allgemeiner Fall: isSacredHeart!==46),
+        // (s.o. allgemeiner Fall: isSacredHeart!==66),
         // sondern vorgezogen
     } else if (isSacredHeart === 1 && upcomingSollemnity(1)) {
         // Szenario: Heute ist Donnerstag vor Herz-Jesu-Fest,
@@ -960,6 +976,8 @@ export function processBrevierData(todayDate) {
 
     finalData.date = todayInfo.date;
     const { mmdd } = todayInfo.date;
+
+    if (mmdd === '06-11') processBarnabas(finalData, todayInfo.season === 'o');
 
     if ([61, 66].includes(todayInfo?.aroundPentecost)) finalData.rank.aroundPentecost = 2
 
