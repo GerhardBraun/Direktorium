@@ -4804,6 +4804,7 @@
             "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Erlöser, der uns den Frieden schenkt:",
             "bitten_r": "Jesus, Heiland und Erlöser, erbarme dich.",
             "bitten": "Jesus, aus deiner geöffneten Seite wurde die Kirche geboren;^qreinige sie von allem Makel und heilige sie.^pJesus, du König und Mitte aller Herzen;^qnimm alle Menschen auf in den Neuen Bund.^pJesus, unser Leben und unsere Auferstehung;^qsei den Sündern gnädig und ziehe sie an dich.^pJesus, unser Friede und unsere Versöhnung;^qversöhne miteinander, die sich entzweit haben.^pJesus, du bist die Quelle des Lebens;^qgib ewiges Leben denen, die in deinem Frieden entschlafen sind.",
+            "hymn_1_lat": 3954.1,
             "ant1_lat": "In caritáte perpétua diléxit nos Deus, ídeo, exaltátus a terra, attráxit nos ad cor suum, míserans.",
             "ant2_lat": "Díscite a me, quia mitis sum et húmilis corde, et inveniétis réquiem animábus vestris.",
             "ant3_lat": "Ego sum pastor bonus, qui pasco oves meas, et pro óvibus meis pono ánimam meam.",
@@ -4847,6 +4848,7 @@
             "patr_resp2": "der dein Leben vor dem Untergang rettet und dich mit Huld und Erbarmen krönt.",
             "patr_resp3": "Kostet und seht, wie gütig der Herr ist.",
             "hymn_1_lat": 3951.1,
+            "hymn_nacht_lat": 0,
             "ant1_lat": "Apud te est fons vitæ; torrénte voluptátis tuæ potábis nos.",
             "ant2_lat": "Dum anxiarétur cor meum, in petra exaltásti me.",
             "ant3_lat": "Vidérunt omnes términi terræ salutáre Dei nostri.",
@@ -4989,7 +4991,7 @@
             "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Erlöser, der uns den Frieden schenkt:",
             "bitten_r": "Jesus, Heiland und Erlöser, erbarme dich.",
             "bitten": "Jesus, aus deiner geöffneten Seite wurde die Kirche geboren;^qreinige sie von allem Makel und heilige sie.^pJesus, du König und Mitte aller Herzen;^qnimm alle Menschen auf in den Neuen Bund.^pJesus, unser Leben und unsere Auferstehung;^qsei den Sündern gnädig und ziehe sie an dich.^pJesus, unser Friede und unsere Versöhnung;^qversöhne miteinander, die sich entzweit haben.^pJesus, du bist die Quelle des Lebens;^qgib ewiges Leben denen, die in deinem Frieden entschlafen sind.",
-            "hymn_1_lat": 3952.4,
+            "hymn_1_lat": 3954.1,
             "ant1_lat": "Suávi iugo tuo domináre, Dómine, in médio inimicórum tuórum.",
             "ant2_lat": "Miséricors et miserátor Dóminus: escam dedit timéntibus se.",
             "ant3_lat": "Ecce Agnus Dei, ecce qui tollit peccáta mundi.",
@@ -5001,6 +5003,38 @@
             "bitten_r_lat": "Rex amantíssime, miserére.",
             "bitten_lat": "Iesu, cuius cor láncea est perforátum, sánguinem et aquam effúndens, ut sponsa tibi nascerétur Ecclésia,^qeam sanctam fac et immaculátam.^pIesu, templum Dei sanctum, ab homínibus solútum et a Patre íterum excitátum,^qEcclésiam fac tabernáculum Altíssimi.^pIesu, rex et centrum ómnium córdium, in caritáte perpétua nos díligens et áttrahens míserans,^qfœdus novum cum ómnibus rénova.^pIesu, pax et reconciliátio nostra, in unum novum hóminem omnes pace compónens, et per crucem interfíciens inimicítias,^qaccéssum tríbue ad Patrem.^pIesu, vita et resurréctio nostra, oneratórum reféctio et réquies animárum,^qpeccatóres ad te áttrahe.^pIesu, factus obœ́diens usque ad mortem crucis propter nímiam tuam caritátem,^qomnes in tua pace dormiéntes resúscita.",
             "les_text_lat": "Deus, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo et conresuscitávit et consedére fecit in cæléstibus in Christo Iesu, ut osténderet in sǽculis superveniéntibus abundántes divítias grátiæ suæ in bonitáte super nos in Christo Iesu."
+          }
+        }
+      },
+      "66": {
+        "oblig": {
+          "Lesehore": {
+            "les_buch": "^A:MariaCommLh:",
+            "les_stelle": "",
+            "les_text": "LEER",
+            "patr_autor": "Laurentius Justiniani (†°1455)",
+            "patr_werk": "Aus einer Predigt am Fest der Darstellung des Herrn.",
+            "patr_text": "^hMaria bewahrte alles, was geschehen war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt.^pEs ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk.^pSei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt.^pDas nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
+            "patr_resp1": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
+            "patr_resp2": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
+            "patr_resp3": "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
+          },
+          "major": {
+            "comm_1": "Maria",
+            "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempel deiner Herrlichkeit.^ORV",
+            "oration_lat": "Deus, qui in corde beátæ Maríæ Vírginis dignum Sancti Spíritus habitáculum præparásti, concéde propítius, ut, eiúsdem Vírginis intercessióne, tuæ glóriæ templum inveníri mereámur.^ORlV"
+          },
+          "Laudes": {
+            "button": "Unbeflecktes Herz Mariens",
+            "farbe": "m",
+            "antev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
+            "antev_lat": "Cor meum et caro mea exsultavérunt in Deum vivum."
+          },
+          "Messe": {
+            "ms_aps_kv": "Der HERR ist mein Hirt,^lnichts wird mir fehlen.",
+            "ms_aps_text": "Der HERR ist mein Hirt, nichts wird mir fehlen.^+Er lässt mich lagern auf grünen Auen^*und führt mich zum Ruheplatz am Wasser.^pMeine Lebenskraft bringt er zurück.^*Er führt mich auf Pfaden der Gerechtigkeit, getreu seinem Namen.^KV^PAuch wenn ich gehe im finsteren Tal,^*ich fürchte kein Unheil;^pdenn du bist bei mir,^*dein Stock und dein Stab, sie trösten mich.^KV^PDu deckst mir den Tisch^*vor den Augen meiner Feinde.^pDu hast mein Haupt mit Öl gesalbt,^*übervoll ist mein Becher.^KV^PJa, Güte und Huld^*werden mir folgen mein Leben lang^pund heimkehren werde ich ins Haus des HERRN^*für lange Zeiten.",
+            "ms_ev_motto": "Keiner von euch kann mein Jünger sein, wenn er nicht auf seinen ganzen Besitz verzichtet",
+            "ms_ev_text": "In jener Zeit^l^EINZUGbegleiteten viele Menschen Jesus;^lda wandte er sich an sie^lund sagte: Wenn jemand zu mir kommt^l^EINZUGund nicht Vater und Mutter,^l^EINZUGFrau und Kinder, Brüder und Schwestern,^l^EINZUGja sogar sein Leben gering achtet,^l^EINZUGdann kann er nicht mein Jünger sein.^pWer nicht sein Kreuz trägt und hinter mir hergeht,^l^EINZUGder kann nicht mein Jünger sein.^lDenn wenn einer von euch einen Turm bauen will,^l^EINZUGsetzt er sich dann nicht zuerst hin^l^EINZUGund berechnet die Kosten,^l^EINZUGob seine Mittel für das ganze Vorhaben ausreichen?^lSonst könnte es geschehen,^l^EINZUGdass er das Fundament gelegt hat,^l^EINZUGdann aber den Bau nicht fertigstellen kann.^lUnd alle, die es sehen, würden ihn verspotten^lund sagen: Der da hat einen Bau begonnen^l^EINZUGund konnte ihn nicht zu Ende führen.^pOder wenn ein König gegen einen anderen in den Krieg zieht,^l^EINZUGsetzt er sich dann nicht zuerst hin^l^EINZUGund überlegt, ob er sich mit seinen zehntausend Mann^l^EINZUGdem entgegenstellen kann,^l^EINZUGder mit zwanzigtausend gegen ihn anrückt?^lKann er es nicht,^l^EINZUGdann schickt er eine Gesandtschaft,^l^EINZUGsolange der andere noch weit weg ist,^l^EINZUGund bittet um Frieden.^pEbenso kann keiner von euch mein Jünger sein,^l^EINZUGwenn er nicht auf seinen ganzen Besitz verzichtet."
           }
         }
       },
@@ -5618,35 +5652,6 @@
             "ms_aps_text": "Lobet den HERRN, alle Völker,^*rühmt ihn, alle Nationen!^KV^PDenn mächtig waltet über uns seine Huld,^*die Treue des HERRN währt in Ewigkeit.",
             "ms_ev_motto": "Ich habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt",
             "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lIhr seid meine Freunde,^l^EINZUGwenn ihr tut, was ich euch auftrage.^lIch nenne euch nicht mehr Knechte;^ldenn der Knecht weiß nicht, was sein Herr tut.^lVielmehr habe ich euch Freunde genannt;^ldenn ich habe euch alles mitgeteilt,^l^EINZUGwas ich von meinem Vater gehört habe.^pNicht ihr habt mich erwählt,^l^EINZUGsondern ich habe euch erwählt^l^EINZUGund dazu bestimmt, dass ihr euch aufmacht und Frucht bringt^lund dass eure Frucht bleibt.^pWenn die Welt euch hasst,^l^EINZUGdann wisst, dass sie mich schon vor euch gehasst hat.^lWenn ihr von der Welt stammen würdet,^l^EINZUGwürde die Welt euch als ihr Eigentum lieben.^lAber weil ihr nicht von der Welt stammt,^l^EINZUGsondern weil ich euch aus der Welt erwählt habe,^l^EINZUGdarum hasst euch die Welt.^pDenkt an das Wort, das ich euch gesagt habe:^lDer Sklave ist nicht größer als sein Herr.^lWenn sie mich verfolgt haben,^l^EINZUGwerden sie auch euch verfolgen;^lwenn sie an meinem Wort festgehalten haben,^l^EINZUGwerden sie auch an eurem Wort festhalten."
-          }
-        }
-      },
-      "66": {
-        "oblig": {
-          "major": {
-            "comm_1": "Maria",
-            "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempel deiner Herrlichkeit.^ORV",
-            "oration_lat": "Deus, qui in corde beátæ Maríæ Vírginis dignum Sancti Spíritus habitáculum præparásti, concéde propítius, ut, eiúsdem Vírginis intercessióne, tuæ glóriæ templum inveníri mereámur.^ORlV"
-          },
-          "Lesehore": {
-            "patr_autor": "Laurentius Justiniani (†°1455)",
-            "patr_werk": "Aus einer Predigt am Fest der Darstellung des Herrn.",
-            "patr_text": "^hMaria bewahrte alles, was geschehen war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt.^pEs ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk.^pSei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt.^pDas nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
-            "patr_resp1": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
-            "patr_resp2": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
-            "patr_resp3": "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
-          },
-          "Laudes": {
-            "button": "Unbeflecktes Herz Mariens",
-            "farbe": "m",
-            "antev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
-            "antev_lat": "Cor meum et caro mea exsultavérunt in Deum vivum."
-          },
-          "Messe": {
-            "ms_aps_kv": "Der HERR ist mein Hirt,^lnichts wird mir fehlen.",
-            "ms_aps_text": "Der HERR ist mein Hirt, nichts wird mir fehlen.^+Er lässt mich lagern auf grünen Auen^*und führt mich zum Ruheplatz am Wasser.^pMeine Lebenskraft bringt er zurück.^*Er führt mich auf Pfaden der Gerechtigkeit, getreu seinem Namen.^KV^PAuch wenn ich gehe im finsteren Tal,^*ich fürchte kein Unheil;^pdenn du bist bei mir,^*dein Stock und dein Stab, sie trösten mich.^KV^PDu deckst mir den Tisch^*vor den Augen meiner Feinde.^pDu hast mein Haupt mit Öl gesalbt,^*übervoll ist mein Becher.^KV^PJa, Güte und Huld^*werden mir folgen mein Leben lang^pund heimkehren werde ich ins Haus des HERRN^*für lange Zeiten.",
-            "ms_ev_motto": "Keiner von euch kann mein Jünger sein, wenn er nicht auf seinen ganzen Besitz verzichtet",
-            "ms_ev_text": "In jener Zeit^l^EINZUGbegleiteten viele Menschen Jesus;^lda wandte er sich an sie^lund sagte: Wenn jemand zu mir kommt^l^EINZUGund nicht Vater und Mutter,^l^EINZUGFrau und Kinder, Brüder und Schwestern,^l^EINZUGja sogar sein Leben gering achtet,^l^EINZUGdann kann er nicht mein Jünger sein.^pWer nicht sein Kreuz trägt und hinter mir hergeht,^l^EINZUGder kann nicht mein Jünger sein.^lDenn wenn einer von euch einen Turm bauen will,^l^EINZUGsetzt er sich dann nicht zuerst hin^l^EINZUGund berechnet die Kosten,^l^EINZUGob seine Mittel für das ganze Vorhaben ausreichen?^lSonst könnte es geschehen,^l^EINZUGdass er das Fundament gelegt hat,^l^EINZUGdann aber den Bau nicht fertigstellen kann.^lUnd alle, die es sehen, würden ihn verspotten^lund sagen: Der da hat einen Bau begonnen^l^EINZUGund konnte ihn nicht zu Ende führen.^pOder wenn ein König gegen einen anderen in den Krieg zieht,^l^EINZUGsetzt er sich dann nicht zuerst hin^l^EINZUGund überlegt, ob er sich mit seinen zehntausend Mann^l^EINZUGdem entgegenstellen kann,^l^EINZUGder mit zwanzigtausend gegen ihn anrückt?^lKann er es nicht,^l^EINZUGdann schickt er eine Gesandtschaft,^l^EINZUGsolange der andere noch weit weg ist,^l^EINZUGund bittet um Frieden.^pEbenso kann keiner von euch mein Jünger sein,^l^EINZUGwenn er nicht auf seinen ganzen Besitz verzichtet."
           }
         }
       }

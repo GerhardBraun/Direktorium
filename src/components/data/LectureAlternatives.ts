@@ -375,6 +375,32 @@ export const lectureAlternatives = {
             },
         ],
     },
+    "MariaCommLh": {
+        first: [
+            {
+                les_buch: "Aus dem Buch Jesaja.",
+                les_stelle: "7,10-14;11,1-9",
+                les_text: "^hDas Zeichen des Immanuel^pDer Herr sprach zu Ahas; er sagte: Erbitte dir vom Herrn, deinem Gott, ein Zeichen, sei es von unten, aus der Unterwelt, oder von oben, aus der Höhe.^pAhas antwortete: Ich will um nichts bitten und den Herrn nicht auf die Probe stellen.^pDa sagte Jesaja: Hört her, ihr vom Haus David! Genügt es euch nicht, Menschen zu belästigen? Müsst ihr auch noch meinen Gott belästigen?^pDarum wird euch der Herr von sich aus ein Zeichen geben: Seht, die Jungfrau wird ein Kind empfangen, sie wird einen Sohn gebären und sie wird ihm den Namen Immanuel – Gott mit uns – geben.^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.^pEr richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist.^pEr schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange.^pMan tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist.",
+                resp1: "Siehe, die Jungfrau wird empfangen und einen Sohn gebären,",
+                resp2: "sein Name wird sein: Wunderbarer Ratgeber, Starker Gott.",
+                resp3: "Auf dem Thron Davids herrscht er über sein Reich für alle Zeiten.",
+                resp1_lat: "Ecce, virgo concípiet et páriet fílium;",
+                resp2_lat: "et vocábitur nomen eius Admirábilis, Deus, Fortis.",
+                resp3_lat: "Super sólium David et super regnum eius sedébit in ætérnum._lat"
+            },
+            {
+                les_buch: "Aus dem Brief an die Galater.",
+                les_stelle: "3,22-4,7",
+                les_text: "^hAls die Zeit erfüllt war, sandte Gott seinen Sohn, geboren°von°einer°Frau^pDie Schrift hat alles der Sünde unterworfen, damit durch den Glauben an Jesus Christus die Verheißung sich an denen erfüllt, die glauben.^pEhe der Glaube kam, waren wir im Gefängnis des Gesetzes, festgehalten bis zu der Zeit, da der Glaube offenbart werden sollte. So hat das Gesetz uns in Zucht gehalten bis zum Kommen Christi, damit wir durch den Glauben gerecht gemacht werden. Nachdem aber der Glaube gekommen ist, stehen wir nicht mehr unter dieser Aufsicht.^hGlaube und Gottessohnschaft^pIhr seid alle durch den Glauben Söhne Gottes in Christus Jesus. Denn ihr alle, die ihr auf Christus getauft seid, habt Christus (als Gewand) angelegt. Es gibt nicht mehr Juden und Griechen, nicht Sklaven und Freie, nicht Mann und Frau; denn ihr alle seid „einer“ in Christus Jesus.^pWenn ihr aber zu Christus gehört, dann seid ihr Abrahams Nachkommen, Erben kraft der Verheißung.^pIch will damit sagen: Solange der Erbe unmündig ist, unterscheidet er sich in keiner Hinsicht von einem Sklaven, obwohl er Herr ist über alles; er steht unter Vormundschaft, und sein Erbe wird verwaltet bis zu der Zeit, die sein Vater festgesetzt hat. So waren auch wir, solange wir unmündig waren, Sklaven der Elementarmächte dieser Welt.^pAls aber die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.^pWeil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unser Herz, den Geist, der ruft: Abba, Vater. Daher bist du nicht mehr Sklave, sondern Sohn; bist du aber Sohn, dann auch Erbe, Erbe durch Gott.",
+                resp1: "Als aber die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt,",
+                resp2: "damit er die freikaufte, die unter dem Gesetz standen.",
+                resp3: "In seiner großen Liebe, mit der er uns geliebt hat, sandte Gott seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht.",
+                resp1_lat: "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras, natum de Vírgine, factum sub lege;",
+                resp2_lat: "ut eos, qui sub lege erant, redímeret.",
+                resp3_lat: "Propter nímiam caritátem suam, qua diléxit nos Deus, Fílium suum misit in similitúdinem carnis peccáti._lat"
+            },
+        ],
+    },
     "vigil-So-8": {
         first: [
             { les_stelle: "^Q:Joh 21,1-14", },
