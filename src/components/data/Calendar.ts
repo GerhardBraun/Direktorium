@@ -974,7 +974,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, du hast den heiligen Valentin befähigt, als Missionar und Bischof den Menschen seiner Zeit ein treuer Helfer zu sein. Wecke in uns das Bewusstsein, dass wir füreinander verantwortlich sind, und hilf uns, einander im Glauben zu stützen.^ORV",
-            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui beátum epíscopum Valentínum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
+            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui sanctum epíscopum Valentínum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -1029,7 +1029,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind.^ORV",
-            "oration_lat": "comm:Deus, qui in Ecclésia tua beátum Severínum suscitásti, ut próximis viam salútis et pacis monstráret, da nobis, eius exémplo, Christum magístrum ita sequi, ut ad te cum frátribus nostris perveníre valeámus.^ORlV"
+            "oration_lat": "comm:Deus, qui in Ecclésia tua sanctum Severínum suscitásti, ut próximis viam salútis et pacis monstráret, da nobis, eius exémplo, Christum magístrum ita sequi, ut ad te cum frátribus nostris perveníre valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Eugippius (†°nach 533)",
@@ -1228,7 +1228,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Hirten",
             "comm_2": "Mann_Ord",
             "oration": "Gott, du hast deiner Kirche im heiligen Vinzenz Pallotti einen Priester erweckt, der sich ganz dafür einsetzte, dass der Glaube und die Liebe in ihr lebendig sei. Lass uns nach seinem Vorbild deine Wahrheit vor den Menschen zum Leuchten bringen und allen in geschwisterlicher Liebe begegnen.^ORV",
-            "oration_lat": "comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut beáti Vincéntii exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut sancti Vincéntii exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Vinzenz Pallotti",
@@ -2861,7 +2861,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Mann_Ord",
             "comm_2": "Hirten",
             "oration": "Herr, unser Gott, du hast den heiligen Fridolin als Glaubensboten in das Gebiet der Alemannen gesandt. Wir bitten dich: Erhalte das Werk, das er begonnen hat, und vollende es am Tag unseres Herrn Jesus Christus,^ORR",
-            "oration_lat": "comm:Deus, cuius ineffábili misericórdia beátus Fridolínus evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
+            "oration_lat": "comm:Deus, cuius ineffábili misericórdia sanctus Fridolínus evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Balther (†°10. Jh.)",
@@ -2984,7 +2984,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
             "oration": "Herr, unser Gott, dein heiliger Märtyrer und Bischof Bruno hat für die Ausbreitung des Evangeliums sein Leben eingesetzt. Erhalte uns treu im Glauben, damit wir nicht verlieren, was du uns durch deine Boten geschenkt hast.^ORV",
-            "oration_lat": "comm:Deus, qui beátum Brunónem epíscopum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui sanctum Brunónem epíscopum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Bruno von Querfurt (†°1009)",
@@ -3095,7 +3095,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
-            "oration_lat": "comm:Deus, qui beátum Cleméntem Maríam divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui sanctum Cleméntem Maríam divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Klemens Maria Hofbauer (†°1820)",
@@ -3284,7 +3284,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Hirten",
             "comm_2": "MärtSg",
             "oration": "Gott, du hast dem heiligen Bischof Oscar Romero die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV",
-            "oration_lat": "comm:Omnípotens sempitérne Deus, qui beáto Ansgári usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Ansgári usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Oscar Arnulfo Romero",
@@ -3311,7 +3311,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat.^ORV",
-            "oration_lat": "comm:Deus, cuius ineffábili misericórdia beátus Ludgérius evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
+            "oration_lat": "comm:Deus, cuius ineffábili misericórdia sanctus Ludgérius evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Liudger (†°809)",
@@ -3704,7 +3704,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Ewiger und treuer Gott, du hast deinem Volk im heiligen Papst Leo einen Hirten gegeben, der von tiefem Glauben erfüllt war und sein Leben ganz im Dienst für die Kirche einsetzte. Auf seine Fürsprache gib deinem Volk die Gnade, sich zu erneuern. Hilf uns, Spaltung und Trennung zu überwinden, damit alle, die sich Christen nennen, im Glauben und in der Liebe eins werden.^ORV"
+            "oration": "Ewiger und treuer Gott, du hast deinem Volk im heiligen Papst Leo einen Hirten gegeben, der von tiefem Glauben erfüllt war und sein Leben ganz im Dienst für die Kirche einsetzte. Auf seine Fürsprache gib deinem Volk die Gnade, sich zu erneuern. Hilf uns, Spaltung und Trennung zu überwinden, damit alle, die sich Christen nennen, im Glauben und in der Liebe eins werden.^ORV",
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sanctum Leónem cuncto pópulo tuo præésse ac verbo et exémplo prodésse voluísti, eódem intercedénte, pastóres Ecclésiæ tuæ cum grégibus sibi commíssis custódi et dírige in viam salútis ætérnæ.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Leo der Große (†°461)",
@@ -3736,7 +3737,8 @@ export const calendarData: CalendarData = {
         "n2": {
           "major": {
             "comm_1": "MärtSg",
-            "oration": "Herr, unser Gott, du hast dem seligen Märtyrer Marcel Callo brennenden Eifer gegeben: Bis zu seinem grausamen Tod hat er sich unermüdlich unter den jungen Arbeitern für dein Reich eingesetzt. Auf seine Fürsprache stärke uns, den christlichen Glauben in unserer Zeit mit der gleichen Begeisterung und Kühnheit zu bezeugen.^ORV"
+            "oration": "Herr, unser Gott, du hast dem seligen Märtyrer Marcel Callo brennenden Eifer gegeben: Bis zu seinem grausamen Tod hat er sich unermüdlich unter den jungen Arbeitern für dein Reich eingesetzt. Auf seine Fürsprache stärke uns, den christlichen Glauben in unserer Zeit mit der gleichen Begeisterung und Kühnheit zu bezeugen.^ORV",
+            "oration_lat": "comm:Deus, qui ad illustrándam Ecclésiam tuam beátum Marcéllum martýrii victória decoráre dignátus es, concéde propítius, ut, sicut ipse domínicæ passiónis imitátor fuit, ita nos, per eius vestígia gradiéntes, ad gáudia sempitérna pervenire mereámur.^ORlV"
           },
           "Laudes": {
             "button": "Sel. Marcel Callo",
@@ -3749,7 +3751,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Mann_Ord",
-            "oration": "Gott, du hast den heiligen Bruder Konrad zum Dienst an den Wallfahrern und Notleidenden berufen. Mache auch uns bereit, in Geduld und Güte denen zu begegnen, die auf unsere Hilfe warten.^ORV"
+            "oration": "Gott, du hast den heiligen Bruder Konrad zum Dienst an den Wallfahrern und Notleidenden berufen. Mache auch uns bereit, in Geduld und Güte denen zu begegnen, die auf unsere Hilfe warten.^ORV",
+            "oration_lat": "comm:comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut sancti Conrádi exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Pius XII. (†°1958)",
@@ -5203,7 +5206,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen.^ORV",
-            "oration_lat": "comm:Magnificántes, Dómine, poténtiam tuam, súpplices exorámus, ut, sicut beátus Floriánus et sócii eius domínicæ passiónis imitátores, ita sint fragilitátis nostræ prompti adiutóres.^ORlV"
+            "oration_lat": "comm:Magnificántes, Dómine, poténtiam tuam, súpplices exorámus, ut, sicut sanctus Floriánus et sócii eius domínicæ passiónis imitátores, ita sint fragilitátis nostræ prompti adiutóres.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "LEER",
@@ -6450,7 +6453,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtSg",
             "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Vito pro Christo pati donásti, nostra quoque fragilitáti divínum præténde subsídium, ut, sicut ille pro te mori non dubitávit, ita nos fortes in tua confessióne vívere valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "LEER",
@@ -6485,7 +6488,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Treuer Gott, du hast dem heiligen Bischof Benno den Mut gegeben, in den Wirren seiner Zeit unbeirrt den Weg des Glaubens zu gehen. Zeige auch uns deine Wege und stärke unser Vertrauen auf deine Hilfe.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui sanctum Bennónem divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Gregor der Große (†°604)",
@@ -6645,7 +6648,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du hast in deiner Kirche den heiligen Priester Josefmaria erwählt, die allgemeine Berufung zur Heiligkeit und zum Apostolat zu verkünden. Gewähre uns auf seine Fürsprache und nach seinem Vorbild, dass wir durch unsere tägliche Arbeit Jesus, deinem Sohn, ähnlich werden und dem Werk der Erlösung mit glühender Liebe dienen.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui sanctum Ioseph Maríam pastórem in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Josefmaria Escrivá de Balaguer",
@@ -6658,8 +6661,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Frau",
-            "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun.^ORV",
-            "oration_lat": "comm:"
+            "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma ^(als Landesmutter von Kärnten^) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun.^ORV",
+            "oration_lat": "comm:Deus, qui nos ánnua sanctæ Emmæ festivitáte lætíficas, da, quǽsumus, ut, quam venerámur offício, étiam piæ conversatiónis sequámur exémplo.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Augustinus (†°430)",
@@ -6787,7 +6790,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui sanctum Ottónem epíscopum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -7216,7 +7219,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du bist reich an Erbarmen. Du hast deinem Volk in einer Zeit schwerer Not den heiligen Ulrich als tatkräftigen Bischof geschenkt. Seine Fürbitte helfe uns, die Gefahren unserer Zeit in der Kraft des Glaubens zu bestehen.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui sanctum Uldrícem divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "LEER",
@@ -7311,7 +7314,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
             "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "Deus, qui nos hódie beátæ Maríæ Gorétti ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Pius XII. (†°1958)",
@@ -7348,7 +7351,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, cuius ineffábili misericórdia sanctus Wíllibald evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Hugeburc (8. Jh.)",
@@ -7437,7 +7440,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Herr, unser Gott, höre auf die Fürsprache der heiligen Könige Knud, Erich und Olaf, die in ihren Ländern die Botschaft von Christus verbreitet haben. Gib, dass wir mit den Völkern des Nordens im Glauben an Christus verbunden bleiben, und stärke in uns allen die Bereitschaft zur Einheit, wie du sie willst.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui solus es sanctus, et sine quo nullus est bonus, intercessióne sanctórum regum Cnuti, Eríci et Olávi iube nos tales fíeri, qui non debeámus tua glória privári.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Ambrosius (†°397)",
@@ -7641,7 +7644,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
             "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV",
-            "oration_lat": "comm:Deus, qui nos hódie beátæ Margaretæ ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
+            "oration_lat": "comm:Deus, qui nos hódie sanctæ Margaretæ ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Laktanz (4. Jh.)",
@@ -9277,7 +9280,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, du hast dem heiligen Paulinus von Trier im Kampf gegen die arianische Irrlehre unerschrockenen Mut gegeben, so dass er auch die Verbannung nicht scheute. Lehre uns, das Wahre vom Falschen zu unterscheiden, und hilf uns, ohne Furcht für die Wahrheit einzutreten.^ORV",
-            "oration_lat": "comm:Deus, qui beátum Paulínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui sanctum Paulínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Basilius der Große (†°379)",
@@ -10145,7 +10148,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
             "oration": "Gott, von dem alles Gute kommt, aus Liebe zu dir hat der heilige Bischof und Märtyrer Lambert Besitz und Leben geringgeachtet. Gib uns auf seine Fürsprache die Freiheit des Geistes, damit wir uns ohne Zögern deiner Führung überlassen.^ORV",
-            "oration_lat": "comm:Deus, qui beátum epíscopum et mártyrem Lambertum ad pascéndum pópulum tuum spíritu veritátis et dilectiónis implevísti, præsta, ut, cuius festivitátem venerándo ágimus, eius imitatióne proficiámus et intercessióne sublevémur.^ORlV"
+            "oration_lat": "comm:Deus, qui sanctum epíscopum et mártyrem Lambértum ad pascéndum pópulum tuum spíritu veritátis et dilectiónis implevísti, præsta, ut, cuius festivitátem venerándo ágimus, eius imitatióne proficiámus et intercessióne sublevémur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Petrus Kanisius (†°1597)",
@@ -10241,7 +10244,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen.^ORV",
-            "oration_lat": "comm:Omnípotens sempitérne Deus, qui beáto Maurítio et eius sóciis usque ad mortem pro iustítia certáre tribuísti, fac nos, eórum intercessione, pro amóre tuo ómnia advérsa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Maurítio et eius sóciis usque ad mortem pro iustítia certáre tribuísti, fac nos, eórum intercessione, pro amóre tuo ómnia advérsa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Eucherius von Lyon (†°um 450)",
@@ -10334,7 +10337,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann",
             "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV",
-            "oration_lat": "comm:Deus, qui in Ecclésia tua beátum Nicoláum suscitásti, ut próximis viam salútis ^[et pacis^] monstráret, da nobis, eius exémplo, Christum magístrum ita sequi, ut ad te cum frátribus nostris perveníre valeámus.^ORlV"
+            "oration_lat": "comm:Deus, qui in Ecclésia tua sanctum Nicoláum suscitásti, ut próximis viam salútis ^[et pacis^] monstráret, da nobis, eius exémplo, Christum magístrum ita sequi, ut ad te cum frátribus nostris perveníre valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Niklaus von Flüe (†°1487)",
@@ -10478,7 +10481,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtSg",
             "oration": "Gott, du König der ewigen Herrlichkeit, du hast den heiligen Märtyrer Wenzel gelehrt, das himmlische Reich höher zu schätzen als die irdische Herrschaft. Auf seine Fürsprache hin gib uns die Kraft, eher auf Erfolg und Ansehen zu verzichten, als dich zu verlieren.^ORlV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui solus es sanctus, et sine quo nullus est bonus, intercessióne sancti príncipis et mártyris Wenceslái iube nos tales fíeri, qui non debeámus tua glória privári.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "LEER",
@@ -10504,7 +10507,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Schenke uns, o Herr, die gleiche Opferbereitschaft, mit der deine heiligen Märtyrer Lorenzo und Gefährten dir und dem Nächsten treu gedient haben, da diejenigen selig sind in deinem Reich, die um der Gerechtigkeit willen verfolgt werden.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Lauréntio et sóciis eius usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Lorenzo Ruiz und Gefährten",
@@ -11199,7 +11202,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Mann",
             "comm_2": "Mann_Ord",
             "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus,^ORR",
-            "oration_lat": "comm:Deus, qui beáti Galli prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlR"
+            "oration_lat": "comm:Deus, qui sancti Galli prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlR"
           },
           "Lesehore": {
             "patr_autor": "Wetti (†°824)",
@@ -11340,7 +11343,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann",
             "oration": "Gott, unser Ursprung und Ziel, du hast deinen Knecht, den heiligen Einsiedler Wendelin, auf dem Weg der evangelischen Armut zur Freiheit des Geistes geführt und ihn zu unserem Fürsprecher bestellt. Hilf uns, dass wir in allen Sorgen dieses Lebens stets das eine Notwendige suchen.^ORV",
-            "oration_lat": "comm:Concéde, quǽsumus, omnípotens Deus, ut ad meliórem vitam sanctórum tuórum exémpla nos próvocent, quátenus beáti Wendelini, cuius memóriam celebrámus, étiam actus incessánter imitémur.^ORlV"
+            "oration_lat": "comm:Concéde, quǽsumus, omnípotens Deus, ut ad meliórem vitam sanctórum tuórum exémpla nos próvocent, quátenus sancti Wendelíni, cuius memóriam celebrámus, étiam actus incessánter imitémur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Augustinus (†°430)",
@@ -11378,7 +11381,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtPl_Jgfr",
             "comm_2": "Jgfr_Märt",
             "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen.^ORV",
-            "oration_lat": "comm:Deus, qui nos hódie beátæ Ursulæ eiúsque sociárum ánnua commemoratióne lætíficas, concéde propítius, ut eárum adiuvémur méritis, quarum castitátis et fortitúdinis irradiámur exémplis.^ORlV"
+            "oration_lat": "comm:Deus, qui nos hódie sanctæ Ursulæ eiúsque sociárum ánnua commemoratióne lætíficas, concéde propítius, ut eárum adiuvémur méritis, quarum castitátis et fortitúdinis irradiámur exémplis.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "^A:Ursula:Joseph Teusch (†°1976)",
@@ -11550,7 +11553,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du hast uns im heiligen Wolfgang einen Mann des Geistes und der Tat geschenkt und ihn berufen, als Mönch und Bischof auf vielfache Weise deinem Volk zu dienen. Gib auch der Kirche unserer Zeit die Weite seines Geistes und die Kraft seiner Liebe.^ORV",
-            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui beátum Wolfgang epíscopum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
+            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui sanctum Wolfgang epíscopum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Hieronymus (†°419/420)",
@@ -12062,7 +12065,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du Licht der Gläubigen, du hast den heiligen Bischof Hubert dazu berufen, der Kirche durch sein Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
-            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui beátum Hubértum epíscopum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
+            "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui sanctum Hubértum epíscopum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Gregor von Nazianz (†°390)",
@@ -12096,7 +12099,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, unser Retter, du hast den heiligen Bischof Pirmin gesandt, damit er unsere Väter im Glauben unterweise und Klöster gründe als Stätten des Gebetes und christlicher Bildung. Gib, dass das Wort der Frohen Botschaft nicht verstumme und dein Reich in uns wachse bis zum Tag der Vollendung.^ORV",
-            "oration_lat": "comm:Deus, cuius ineffábili misericórdia beátus Pírmin evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
+            "oration_lat": "comm:Deus, cuius ineffábili misericórdia sanctus Pírmin evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Pirmin (†°753)",
@@ -12219,7 +12222,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Barmherziger Gott, du hast den heiligen Einsiedler Leonhard berufen, Gefangene zu befreien und Sünder auf den rechten Weg zu führen. Löse uns aus den Fesseln der Sünde und erhalte uns in der Freiheit, zu der du uns berufen hast.^ORV",
-            "oration_lat": "comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut beáti Leonárdi exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut sancti Leonárdi exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Basilius der Große (†°379)",
@@ -12256,7 +12259,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse.^ORV",
-            "oration_lat": "comm:Deus, qui beátum Willibrórdem divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui sanctum Willibrórdem divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Alkuin von Tours (†°804)",
@@ -12414,7 +12417,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann",
             "oration": "Allherrschender Gott, du hast dem heiligen Markgrafen Leopold für die Ausübung seines Amtes die Gaben deines Geistes geschenkt. Hilf uns, unsere Pflichten treu zu erfüllen, und nimm uns einst auf in dein himmlisches Reich.^ORV",
-            "oration_lat": "comm:Deus, qui solus es sanctus, et sine quo nullus est bonus, intercessióne beáti Leopóldis iube nos tales fíeri, qui non debeámus tua glória privári.^ORlV"
+            "oration_lat": "comm:Deus, qui solus es sanctus, et sine quo nullus est bonus, intercessióne sancti Leopóldis iube nos tales fíeri, qui non debeámus tua glória privári.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Innozenz VIII. (†°1492)",
@@ -12804,7 +12807,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Gott, du hast die heiligen Bischöfe Konrad und Gebhard mit dem Geist der Wahrheit und der Liebe erfüllt und ihnen die Sorge für dein Volk anvertraut. Lass uns aus ihrem Geist leben und ihre Hilfe erfahren.^ORV"
+            "oration": "Gott, du hast die heiligen Bischöfe Konrad und Gebhard mit dem Geist der Wahrheit und der Liebe erfüllt und ihnen die Sorge für dein Volk anvertraut. Lass uns aus ihrem Geist leben und ihre Hilfe erfahren.^ORV",
+            "oration_lat": "comm:Deus, qui sanctos epíscopos Conrádem et Gebhárdem ad pascéndum pópulum tuum spíritu veritátis et dilectiónis implevísti, præsta, ut, cuius festivitátem venerándo ágimus, eius imitatióne proficiámus et intercessióne sublevémur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Paul VI. (†°1978)",
@@ -13415,7 +13419,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Mann_Ord",
-            "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV"
+            "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV",
+            "oration_lat": "comm:Deus, cuius múnere sanctus Carólus Christum páuperem et húmilem perseverávit imitári, concéde nobis, ipso intercedénte, ut, in vocatióne nostra fidéliter ambulántes, ad eam perfectiónem, quam nobis in Fílio tuo proposuísti, pervenire valeámus.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Charles de Foucauld",
@@ -13429,7 +13434,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "MärtSg",
-            "oration": "Gott, du Licht unseres Glaubens, du hast den heiligen Bischof Luzius berufen, der Kirche von Chur durch Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV"
+            "oration": "Gott, du Licht unseres Glaubens, du hast den heiligen Bischof Luzius berufen, der Kirche von Chur durch Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
+            "oration_lat": "comm:Deus, qui sanctum Lúcium epíscopum et mártyrem divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": " II. Vatikanisches Konzil (1962–1965)",
@@ -13491,7 +13497,8 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
-            "oration": "Allmächtiger Gott, du hast der heiligen Märtyrin Barbara die Kraft gegeben, bis in den Tod dir treu zu bleiben. Im Vertrauen auf ihre Fürsprache bitten wir dich: Steh uns bei in jeder Not und Gefahr und stärke uns in der Todesstunde mit dem Leib und Blut deines Sohnes, unseres Herrn Jesus Christus,^ORR"
+            "oration": "Allmächtiger Gott, du hast der heiligen Märtyrin Barbara die Kraft gegeben, bis in den Tod dir treu zu bleiben. Im Vertrauen auf ihre Fürsprache bitten wir dich: Steh uns bei in jeder Not und Gefahr und stärke uns in der Todesstunde mit dem Leib und Blut deines Sohnes, unseres Herrn Jesus Christus,^ORR",
+            "oration_lat": "comm:Deus, qui nos hódie sanctæ Bárbaræ vírginis et mártyris ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Johannes von Damaskus (†°um 750)",
@@ -13586,7 +13593,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren.^ORV"
+            "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren.^ORV",
+            "oration_lat": "comm:Deus, qui sanctum Annónem divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Augustinus (†°430)",
@@ -13772,7 +13780,8 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Frau_Ord",
-            "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht.^ORV"
+            "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht.^ORV",
+            "oration_lat": "comm:Effúnde super nos, Dómine, lumen agnitiónis et spíritum dilectiónis tuæ, quo ancíllam tuam Odíliam implevísti, ut, sédula eius imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Gregor der Große (†°604)",

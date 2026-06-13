@@ -5107,9 +5107,9 @@ export const deceasedData =  {
       {
         "year": 2026,
         "birthdate": "2234-09-09",
-        "name": "Gerhard°Arnold, Pfr.i.R., Msgr., GR, Geisa",
+        "name": "Gerhard°Arnold, Pfr.i.R., Msgr., GR, Schleid¥-Kranlucken",
         "birth": "9.°September°1934°in°Zella/Rhön",
-        "grave": "",
+        "grave": "Friedhof°Kranlucken",
         "age": 91
       }
     ],
