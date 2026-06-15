@@ -12721,7 +12721,7 @@ export const brevierData = {
           "psalm1": 110.0,
           "psalm2": 111.0,
           "psalm3": 157.0,
-          "ant1": "So spricht der Herr zu meinem Herrn: Setze dich mir zur Rechten.^HALLxq",
+          "ant1": "So spricht der Herr zu meinem Herrn: Setze dich mir zur Rechten.^HALLxq^FIRST",
           "ant2": "Ein Gedächtnis seiner Wunder hat der Herr gestiftet.^HALLxq",
           "ant3": "Der Herr, unser Gott, ist König, er, der Herrscher über das All.^HALLxq",
           "mode1": "II",
