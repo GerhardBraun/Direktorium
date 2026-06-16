@@ -11,12 +11,14 @@ const MassReadingsSelector = ({
 }) => {
     if (!texts) return null;
 
-    const keys = texts?.rank?.date > 2 ? ['oblig', 'wt'] : ['wt', ...sourceKeys];
-
     // Helper function to check if a source has valid readings
     const hasValidReadings = (source) => {
         return !!(texts?.messe?.[source]?.ms_les_text || texts?.messe?.[source]?.ms_ev_text);
     };
+
+    const hasOtherValidSources = sourceKeys.some(hasValidReadings);
+    const keys = texts?.rank?.date > 2 ? ['oblig', 'wt']
+        : hasOtherValidSources ? ['wt', ...sourceKeys] : sourceKeys;
 
     // Helper function for button colors
     const getButtonColor = (source) => {

@@ -1279,7 +1279,7 @@ export default function Stundenbuch() {
           localStorage.setItem("prayedHours", JSON.stringify(updated));
           return updated;
         });
-      }, 15000);
+      }, 50000);
     }
   }, [viewMode, selectedHour, selectedDate]);
 
