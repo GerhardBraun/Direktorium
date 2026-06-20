@@ -535,7 +535,7 @@ const PrayerTextDisplay = ({
         .replace(/_neu/g, '');
 
       secondResp = secondResp.trim()
-        .replace(/[,;]$/, '.');
+        .replace(/[,;:]$/, '.');
 
       return (/[.!?]$/.test(thirdResp))
         ? firstCapital(secondResp)
