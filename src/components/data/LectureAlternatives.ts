@@ -477,8 +477,8 @@ export const lectureAlternatives = {
     },
     "vigil-Johannes": {
         first: [
-            { les_stelle: "^Q:Joh 3,22-30", },
             { les_stelle: "^Q:Joh 1,29-34", },
+            { les_stelle: "^Q:Joh 3,22-30", },
         ],
     },
     "vigil-PeterPaul": {
