@@ -178,9 +178,11 @@ const SectionHeader = ({
     const isLesung = field.includes('_text') && hour === 'lesehore';
     const isContinuous = isLesung && localPrefContinuous;
     const isTSN = ["terz", "sext", "non"].includes(hour);
-    const showErgPs = isTSN
-        && isPsalmodie
+    const showErgPs = isTSN && isPsalmodie
+        && !texts?.rank?.useComplementaryPsalms
         && !(prefSollemnity || rank.date === 5);
+    const showErgPsWt = isTSN && isPsalmodie
+        && texts?.rank?.useComplementaryPsalms;
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
         && !(isPsalmodie && isIdenticalTerzSext && !localPrefErgPs);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
@@ -247,7 +249,7 @@ const SectionHeader = ({
 
     // einfacher Header ohne Buttons
     if (!invPsalms && !showSources && !showLanguageToggle && !showLongformToggle
-        && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs && !showAltPsalms
+        && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs && !showErgPsWt && !showAltPsalms
         && !["SCHULDBEKENNTNIS"].includes(title)
     ) return <h2
         className="prayer-heading"
@@ -494,6 +496,23 @@ const SectionHeader = ({
                             </React.Fragment>
                         );
                     })}
+                </ButtonGroup>
+            )}
+            {showErgPsWt && (
+                <ButtonGroup>
+                    <button
+                        onClick={() => setLocalPrefPsalmsWt(false)}
+                        className={!localPrefPsalmsWt ? 'underline' : ''}
+                    >
+                        ErgPs
+                    </button>
+                    {" | "}
+                    <button
+                        onClick={() => setLocalPrefPsalmsWt(true)}
+                        className={localPrefPsalmsWt ? 'underline' : ''}
+                    >
+                        Wt
+                    </button>
                 </ButtonGroup>
             )}
             {showAltPsalms && (
