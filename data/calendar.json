@@ -5720,6 +5720,9 @@
             "ant1": "Elisabeth gebar dem Zacharias einen Sohn: Johannes, den Täufer, den großen Mann, den Wegbereiter des Herrn.",
             "ant2": "Der Schoß der Kinderlosen wird fruchtbar, die Greisin gebiert einen Sohn: Johannes, den Wegbereiter des Herrn.",
             "ant3": "Unter allen vom Weibe Geborenen trat kein Größerer auf als Johannes der Täufer.",
+            "mode1": "I",
+            "mode2": "I",
+            "mode3": "II",
             "les_buch": "Apg",
             "les_stelle": "13,23–25",
             "les_text": "Aus Davids Geschlecht hat Gott dem Volk Israel, der Verheißung gemäß, Jesus als Retter geschickt. Vor dessen Auftreten hat Johannes dem ganzen Volk Israel eine Taufe der Umkehr verkündet. Als Johannes aber seinen Lauf vollendet hatte, sagte er: Ich bin nicht der, für den ihr mich haltet; aber seht, nach mir kommt einer, dem die Sandalen von den Füßen zu lösen ich nicht wert bin.",
@@ -5728,6 +5731,7 @@
             "resp2": "ebnet°ihm°die°Straßen.",
             "resp3": "Der nach mir kommt, ist mir voraus, denn er war eher als ich.",
             "antev": "Als Zacharias den Tempel betrat, erschien ihm Gabriel, der Engel des Herrn, zur Rechten des Altars.",
+            "modeev": "VIII",
             "bitten_e": "Lasst uns zu Jesus Christus beten, der Johannes als seinen Vorläufer vor sich her gesandt hat:",
             "bitten_r": "Lamm Gottes, erbarme dich unser.",
             "bitten": "Durch die Botschaft des Johannes wurde dein Kommen angekündigt;^qsende Verkündiger deines Reiches in die ganze Welt.^pDurch die Predigt des Johannes hast du zur Buße aufgerufen;^qwende die Herzen der Sünder hin zu den Geboten Gottes.^pDu hast Johannes gepriesen, der für Gottes Gesetz einen schmählichen Tod auf sich genommen hat;^qsei denen nahe, die um deines Namens willen in Verlassenheit sterben.^pDu bist das Lamm Gottes, auf das Johannes hingewiesen hat;^qlass niemand verloren gehen, für den du dein Blut vergossen hast.^pGedenke aller, die aus dieser Welt geschieden sind,^qund nimm sie auf in deinen Frieden.",
@@ -5744,7 +5748,7 @@
             "bitten_r_lat": "Dírige, Dómine, pedes nostros in viam pacis.",
             "bitten_lat": "Tu, qui Ioánnem a ventre matris eius vocásti ad præparándas vias Fílii tui,^qvoca nos ad Dóminum ita sequéndum, sicut eum ipse præcéssit.^pSicut dedísti Baptístæ Agnum Dei agnóscere, fac ut ipsum Ecclésia tua demónstret,^qet hómines huius témporis agnóscant.^pTu, qui disposuísti prophétam tuum mínui et Christum créscere,^qdoce nos áliis cédere, ut manifestéris.^pTu, qui per martýrium Ioánnis iustítiam vindicáre voluísti,^qfac nos veritátem tuam indeficiénter testificári.^pMeménto ómnium, qui ex hoc sǽculo transiérunt,^qillos constítue in regióne lucis et pacis.",
             "les_text_lat": "Deus ex sémine David secúndum promissiónem edúxit Israel salvatórem Iesum, prædicánte Ioánne ante advéntum eius baptísmum pæniténtiæ omni pópulo Israel. Cum impléret autem Ioánnes cursum suum, dicébat: Quid me arbitrámini esse? Non sum ego; sed ecce venit post me, cuius non sum dignus calceaménta pedum sólvere.",
-            "oration_lat": "Deus, qui beátum Ioánnem Baptístam suscitásti, ut perféctam plebem Christo Dómino præparáret, da pópulis tuis spiritálium grátiam gaudiórum, et ómnium fidélium mentes dírige in viam salútis et pacis. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
+            "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut família tua per viam salútis incédat, et, beáti Ioánnis Præcursóris hortaménta sectándo, ad eum quem prædíxit, secúra pervéniat, Dóminum nostrum Iesum Christum,^ORlR"
           },
           "Invitatorium": {
             "ant0": "Das Lamm Gottes, das Johannes voll Freude bezeugte – kommt, wir beten es an!",
@@ -5765,17 +5769,19 @@
             "resp2": "Zum Propheten für die Völker habe ich dich bestimmt.",
             "resp3": "Hiermit lege ich meine Worte in deinen Mund und setze dich über Völker und Reiche.",
             "patr_autor": "Augustinus (†°430)",
-            "patr_werk": "Aus einer Predigt über den hl. Johannes den Täufer.",
+            "patr_werk": "Aus einer Predigt über°den°hl.°Johannes°den°Täufer.",
             "patr_text": "^hDie Stimme des Rufenden in der Wüste^pDie Kirche feiert die Geburt des Johannes gleichsam wie eine geheiligte Geburt. Unter den Vätern ist keiner sonst, dessen Geburtsfest wir feierlich begehen; wir feiern nur die Geburt des Johannes und die Geburt Christi. Das kann nicht bedeutungslos sein.^pJohannes wird geboren von einer unfruchtbaren Greisin, Christus von einer Jungfrau im Jugendalter. Der Vater glaubt nicht an die Geburt des Johannes und wird stumm. Maria glaubt an Christus und empfängt ihn im Glauben. Was untersucht und erörtert werden soll, ist damit gesagt.^pJohannes scheint so etwas wie eine Grenzlinie zwischen den beiden Testamenten, dem Alten und dem Neuen, zu sein. Der Herr selbst bezeugt, dass Johannes gleichsam eine Grenze ist; denn er sagt: „Das Gesetz und alle Propheten, bis hin zu Johannes dem Täufer“ {1#vgl.°Mt 11,13}.^pJohannes stellt in seiner Person das Alte dar und verkündet doch das Neue. Weil er das Alte darstellen sollte, wurde er von einer Greisin geboren; weil er das Neue vertritt, wird er noch im Schoß der Mutter zum Propheten erklärt.^pAls er noch nicht geboren war, jubelte er im Mutterschoß bei der Ankunft Marias. Schon dort hatte er seine Bestimmung, eine Bestimmung vor der Geburt; wessen Vorläufer er sein sollte, wurde angezeigt, bevor er von ihm gesehen wurde. Diese Zusammenhänge sind heilig, sie sprengen das Maß menschlicher Gebrechlichkeit.^pSchließlich kommt Johannes zur Welt, erhält den Namen, und die Zunge des Vaters wird gelöst. Bedenke, was alles geschehen ist, weil es im Bild die wahre Wirklichkeit darstellte.^pZacharias schweigt und verliert die Stimme, bis Johannes, der Vorläufer des Herrn, geboren ist und ihm die Stimme wiedergibt.^pWas ist das Schweigen des Zacharias anderes als eine verborgene Weissagung, die gleichsam geheim und verschlossen war, bevor der Herr verkündigt wurde? Sie wird aufgeschlossen bei der Ankunft des Johannes, sie wird deutlich, wenn der kommt, der durch Weissagung angekündigt ist.^pDass bei der Geburt des Johannes die Stimme des Zacharias freigegeben wird, bedeutete das gleiche wie das Zerreißen des Vorhangs, als Christus am Kreuz hing.^pVerkündete Johannes sich selbst, könnte er den Mund des Zacharias nicht öffnen. Die Zunge wird gelöst, weil die Stimme geboren ist. Denn als Johannes den Herrn vorausverkündigte, wurde er gefragt: „Wer bist du?“ Er antwortete: „Ich bin die Stimme eines Rufers in der Wüste.“ {2#Joh 1,21.23} Johannes ist die Stimme, der Herr aber ist „im Anfang das Wort“ {3#Joh 1,1}. Johannes ist Stimme auf Zeit, Christus im Anfang das ewige Wort.",
-            "patr_resp1": "Du, Kind, wirst Prophet des Höchsten heißen,",
+            "patr_resp1": "Du, Kind, wirst Prophet des Höchsten heißen;",
             "patr_resp2": "du wirst dem Herrn vorangehen und ihm den Weg bereiten.",
             "patr_resp3": "Gott wird sein Volk mit der Erfahrung des Heils beschenken in der Vergebung der Sünden.",
+            "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lAllmächtiger Gott, führe deine Kirche auf dem Weg des Heiles und gib uns die Gnade, den Weisungen Johannes des Täufers zu folgen, damit wir zu dem gelangen, den er vorausverkündet hat, zu unserem Herrn Jesus Christus, deinem Sohn,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lGott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegenzuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV",
             "hymn_1_lat": 8624.1,
             "ant1_lat": "Dóminus ab útero vocávit me, de ventre matris meæ recordátus est nóminis mei.",
             "ant2_lat": "Pósuit os meum Dóminus quasi gládium acútum, sub umbra manus suæ protéxit me.",
             "ant3_lat": "Hoc est testimónium quod perhíbuit Ioánnes: Qui post me venit, ante me factus est.",
             "versikel0_lat": "Hic venit ut testimónium perhibéret de lúmine.",
-            "versikel1_lat": "Ut omnes créderent per illum."
+            "versikel1_lat": "Ut omnes créderent per illum.",
+            "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lPræsta, quǽsumus, omnípotens Deus, ut família tua per viam salútis incédat, et, beáti Ioánnis Præcursóris hortaménta sectándo, ad eum quem prædíxit, secúra pervéniat, Dóminum nostrum Iesum Christum,^ORlR^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui beátum Ioánnem Baptístam suscitásti, ut perféctam plebem Christo Dómino præparáret, da pópulis tuis spiritálium grátiam gaudiórum, et ómnium fidélium mentes dírige in viam salútis et pacis.^ORlV"
           },
           "Vigil": {
             "psalm1": 199.119,
@@ -5785,7 +5791,9 @@
             "les_buch": "^A:vigil-Johannes:",
             "les_stelle": "^Q:Lk 1,5-17",
             "les_text": "LEER",
-            "ant0_lat": "Reges vidébunt et consúrgent príncipes, et adorábunt Dominum Deum tuum, qui elégit te."
+            "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lAllmächtiger Gott, führe deine Kirche auf dem Weg des Heiles und gib uns die Gnade, den Weisungen Johannes des Täufers zu folgen, damit wir zu dem gelangen, den er vorausverkündet hat, zu unserem Herrn Jesus Christus, deinem Sohn,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lGott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegenzuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV",
+            "ant0_lat": "Reges vidébunt et consúrgent príncipes, et adorábunt Dominum Deum tuum, qui elégit te.",
+            "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lPræsta, quǽsumus, omnípotens Deus, ut família tua per viam salútis incédat, et, beáti Ioánnis Præcursóris hortaménta sectándo, ad eum quem prædíxit, secúra pervéniat, Dóminum nostrum Iesum Christum,^ORlR^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui beátum Ioánnem Baptístam suscitásti, ut perféctam plebem Christo Dómino præparáret, da pópulis tuis spiritálium grátiam gaudiórum, et ómnium fidélium mentes dírige in viam salútis et pacis.^ORlV"
           },
           "Laudes": {
             "button": "Geburt des hl. Johannes des Täufers",
@@ -5793,6 +5801,9 @@
             "ant1": "Johannes soll sein Name sein; viele werden sich freuen über seine Geburt.",
             "ant2": "Er wird dem Herrn vorausgehen mit dem Geist und der Kraft des Elija und wird das Volk bereitmachen für den Herrn.",
             "ant3": "Prophet des Höchsten wird er heißen, denn er wird dem Herrn vorausgehen und ihm den Weg bereiten.",
+            "mode1": "VIII",
+            "mode2": "VII",
+            "mode3": "V",
             "les_buch": "Mal",
             "les_stelle": "3,23–24",
             "les_text": "Bevor der Tag des Herrn kommt, der große und furchtbare Tag, seht, da sende ich zu euch den Propheten Elija. Er wird das Herz der Väter wieder den Söhnen zuwenden und das Herz der Söhne ihren Vätern, damit ich nicht kommen und das Land dem Untergang weihen muss.",
@@ -5801,6 +5812,7 @@
             "resp2": "er wird erfüllt sein vom Heiligen Geiste.",
             "resp3": "Er wird dem Herrn vorangehen, das Volk für ihn zu bereiten.",
             "antev": "Der Mund des Zacharias wurde wieder geöffnet, und seine Zunge löste sich. Er begann prophetisch zu reden und sprach: Gepriesen sei der Herr, der Gott Israels.",
+            "modeev": "VIII",
             "bitten_e": "Gepriesen sei Gott, der Johannes den Täufer zum Vorläufer seines Sohnes bestellt hat. Zu ihm lasst uns beten:",
             "bitten_r": "Herr, lenke unsere Schritte auf den Weg des Friedens.",
             "bitten": "Vom Mutterschoß an hast du Johannes berufen, deinem Sohn den Weg zu bereiten;^qwie er dem Herrn vorausging, so lass uns Christus nachfolgen.^pDu wolltest, dass Johannes abnehme, Christus aber wachse;^qlehre uns Christus dienen.^pIm Martyrium des Johannes hast du die Treue deines Propheten offenbar gemacht;^qgib, dass wir ohne Menschenfurcht für deine Wahrheit Zeugnis ablegen.^pBei der Taufe im Jordan hast du Jesus deinen geliebten Sohn genannt;^qhilf uns, auf ihn zu hören.",
@@ -5831,6 +5843,7 @@
           },
           "Sext": {
             "ant0": "Als der Klang deines Grußes an mein Ohr drang, da regte sich vor Freude das Kind in meinem Schoß.^HALLxq",
+            "mode0": "VIII",
             "les_buch": "vgl.°Jes",
             "les_stelle": "49,5a.6b",
             "les_text": "Der Herr hat gesprochen, der mich schon im Mutterleib zu seinem Knecht gemacht hat. Er sagte: Ich mache dich zum Licht der Völker, damit mein Heil bis an das Ende der Erde reicht.",
@@ -5844,6 +5857,9 @@
           },
           "Non": {
             "ant0": "Dieses Kind wird groß sein vor dem Herrn; denn seine Hand ist mit ihm.",
+            "mode1": "I",
+            "mode2": "II",
+            "mode3": "VI",
             "les_buch": "Jes",
             "les_stelle": "49,7b",
             "les_text": "Könige werden es sehen und sich erheben, Fürsten werfen sich nieder um des HERRN willen, der treu ist, um des Heiligen Israels willen, der dich erwählt hat.",
@@ -5867,6 +5883,7 @@
             "resp2": "ebnet°ihm°die°Straßen.",
             "resp3": "Der nach mir kommt, ist mir voraus, denn er war eher als ich.",
             "antev": "Das Kind, das uns geboren ist, ist mehr als ein Prophet. Von ihm sagt der Erlöser: Unter allen vom Weibe Geborenen trat kein Größerer auf als Johannes der Täufer.",
+            "modeev": "I",
             "bitten_e": "Lasst uns zu Jesus Christus beten, der Johannes als seinen Vorläufer vor sich her gesandt hat:",
             "bitten_r": "Lamm Gottes, erbarme dich unser.",
             "bitten": "Durch die Botschaft des Johannes wurde dein Kommen angekündigt;^qsende Verkündiger deines Reiches in die ganze Welt.^pDurch die Predigt des Johannes hast du zur Buße aufgerufen;^qwende die Herzen der Sünder hin zu den Geboten Gottes.^pDu hast Johannes gepriesen, der für Gottes Gesetz einen schmählichen Tod auf sich genommen hat;^qsei denen nahe, die um deines Namens willen in Verlassenheit sterben.^pDu bist das Lamm Gottes, auf das Johannes hingewiesen hat;^qlass niemand verloren gehen, für den du dein Blut vergossen hast.^pGedenke aller, die aus dieser Welt geschieden sind,^qund nimm sie auf in deinen Frieden.",
@@ -5903,6 +5920,9 @@
             "ant1": "Petrus bekannte und sagte: Du bist der Messias, der Sohn des lebendigen Gottes. Jesus sprach zu ihm: Selig bist du, Simon Petrus.",
             "ant2": "Du bist Petrus, und auf diesen Felsen will ich meine Kirche bauen. Und die Mächte der Unterwelt werden sie nicht überwältigen.",
             "ant3": "Heiliger Apostel Paulus, auserwähltes Werkzeug des Herrn, Verkünder der Wahrheit in der ganzen Welt!",
+            "mode1": "II",
+            "mode2": "VII",
+            "mode3": "VII",
             "les_buch": "Röm",
             "les_stelle": "1,1–2.7",
             "les_text": "Paulus, Knecht Christi Jesu, berufen zum Apostel, auserwählt, das Evangelium Gottes zu verkündigen, das er durch seine Propheten im Voraus verheißen hat in den heiligen Schriften, an alle in Rom, die von Gott geliebt sind, die berufenen Heiligen: Gnade sei mit euch und Friede von Gott, unserem Vater, und dem Herrn Jesus Christus.",
@@ -5911,6 +5931,7 @@
             "resp2": "und reiche Gnade ruhte auf ihnen.",
             "resp3": "Vom Geiste erfüllt, verkündeten sie mit Freimut die Taten des Herrn.",
             "antev": "Petrus und Paulus, einander zugetan im Leben, empfingen im Tod gemeinsam die Krone der Herrlichkeit.",
+            "modeev": "VIII",
             "bitten_e": "Lasst uns beten zu Christus, der seine Kirche auf das Fundament der Apostel gegründet hat:",
             "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
             "bitten": "Du hast Simon Petrus in deine Nachfolge berufen und ihm aufgetragen, die Brüder zu stärken;^qsei mit Papst ^NP, der in der Kirche das Amt des Petrus verwaltet.^pDu hast dem Sturm geboten, damit das Schiff der Jünger nicht unterging;^qbewahre deine Kirche vor jeder Verwirrung.^pNach deiner Auferstehung hast du die versprengte Herde um Petrus gesammelt;^qführe dein Volk zur Einheit zusammen.^pDu hast den Apostel Paulus gesandt, die Heiden zu deinen Jüngern zu machen;^qgib, dass das Wort vom Heil allen Geschöpfen verkündet wird.^pDu hast am heutigen Tag Petrus und Paulus die Krone des Lebens verliehen;^qgib ewiges Leben allen, die im Glauben deiner Apostel gestorben sind.",
@@ -5927,7 +5948,7 @@
             "bitten_r_lat": "Pópulo tuo, Dómine, súbveni.",
             "bitten_lat": "Tu, qui Simónem piscatórem vocásti ut piscátor hóminum fíeret,^qoperários elígere ne désinas, ut multitúdo géntium salvétur.^pTu, qui tempestáti maris imperásti, ne discipulórum navis mergerétur,^qEcclésiam tuam ab omni perturbatióne defénde et domnum apostólicum róbora.^pTu, qui post resurrectiónem gregem tuum dispérsum circa Petrum collegísti,^qunivérsam plebem tuam, bone Pastor, in unum cóngrega ovíle.^pTu, qui Paulum apóstolum misísti ad gentes evangelizándas,^qfac ut verbum salútis omni creatúræ prædicétur.^pTu, qui claves regni cælórum Ecclésiæ tuæ commisísti,^qáperi portas cæli ómnibus qui, in vita sua, misericórdiæ tuæ confísi sunt.",
             "les_text_lat": "Paulus servus Christi Iesu, vocátus apóstolus, segregátus in evangélium Dei, quod ante promíserat per prophétas suos in Scriptúris sanctis de Fílio suo: ómnibus, qui sunt Romæ diléctis Dei, vocátis sanctis: grátia vobis et pax a Deo Patre nostro et Dómino Iesu Christo.",
-            "oration_lat": "Deus, qui huius diéi venerándam sanctámque lætítiam in apostolórum Petri et Pauli sollemnitáte tribuísti, da Ecclésiæ tuæ eórum in ómnibus sequi præcéptum, per quos religiónis sumpsit exórdium.^ORlV"
+            "oration_lat": "Da nobis, quǽsumus, Dómine Deus noster, beatórum apostolórum Petri et Pauli intercessiónibus sublevári, ut per quos Ecclésiæ tuæ supérni múneris rudiménta donásti, per eos subsídia perpétuæ salútis impéndas.^ORlV"
           },
           "Lesehore": {
             "comm_1": "Apostel",
@@ -5949,13 +5970,14 @@
             "patr_resp1": "Heiliger Apostel Paulus, Verkünder der Wahrheit, Lehrer der Völker,",
             "patr_resp2": "wahrhaftig,°dir°gebührt°Lobpreis.",
             "patr_resp3": "Durch dich haben alle Völker die Gnade Gottes erkannt.",
-            "oration": "Herr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott,^ORR^ODERHerr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
+            "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lHerr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lHerr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
             "hymn_1_lat": 8629.1,
             "ant1_lat": "Si díligis me, Simon Petre, pasce oves meas.",
             "ant2_lat": "Mihi vívere Christus est, et mori lucrum: gloriári me opórtet in cruce Dómini nostri Iesu Christi.",
             "ant3_lat": "Dómine, si tu es, iube me veníre ad te super aquas.",
             "versikel0_lat": "Verbum Dómini manet in ætérnum.",
-            "versikel1_lat": "Hoc est quod evangelizátum est in vos."
+            "versikel1_lat": "Hoc est quod evangelizátum est in vos.",
+            "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lDa nobis, quǽsumus, Dómine Deus noster, beatórum apostolórum Petri et Pauli intercessiónibus sublevári, ut per quos Ecclésiæ tuæ supérni múneris rudiménta donásti, per eos subsídia perpétuæ salútis impéndas.^ORlV^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui huius diéi venerándam sanctámque lætítiam in apostolórum Petri et Pauli sollemnitáte tribuísti, da Ecclésiæ tuæ eórum in ómnibus sequi præcéptum, per quos religiónis sumpsit exórdium.^ORlV"
           },
           "Vigil": {
             "psalm1": 199.116,
@@ -5965,7 +5987,9 @@
             "les_buch": "^A:vigil-PeterPaul:",
             "les_stelle": "^Q:Joh 21,1.15-19",
             "les_text": "LEER",
-            "ant0_lat": "Inseparábilis fides passióque germána laudábiles eos perpétuam transmísit ad vitam, quóniam doctrίnam suam morte fortίssima consecrarúnt."
+            "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lHerr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lHerr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
+            "ant0_lat": "Inseparábilis fides passióque germána laudábiles eos perpétuam transmísit ad vitam, quóniam doctrίnam suam morte fortίssima consecrarúnt.",
+            "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lDa nobis, quǽsumus, Dómine Deus noster, beatórum apostolórum Petri et Pauli intercessiónibus sublevári, ut per quos Ecclésiæ tuæ supérni múneris rudiménta donásti, per eos subsídia perpétuæ salútis impéndas.^ORlV^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui huius diéi venerándam sanctámque lætítiam in apostolórum Petri et Pauli sollemnitáte tribuísti, da Ecclésiæ tuæ eórum in ómnibus sequi præcéptum, per quos religiónis sumpsit exórdium.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Petrus und hl. Paulus",
@@ -5975,6 +5999,9 @@
             "ant1": "Ich weiß, wem ich glaube, und ich bin sicher: er, mein gerechter Richter, hat die Macht, das mir anvertraute Gut zu bewahren bis zu seinem Tag.",
             "ant2": "Durch die Gnade Gottes bin ich, was ich bin. Sein gnädiges Handeln an mir blieb nicht ohne Wirkung.",
             "ant3": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, den Glauben bewahrt.",
+            "mode1": "I",
+            "mode2": "VIII",
+            "mode3": "IV",
             "les_buch": "1°Petr",
             "les_stelle": "4,13–14",
             "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
@@ -5982,6 +6009,7 @@
             "resp2": "für den Namen unseres Herrn Jesus Christus.",
             "resp3": "Es machte sie froh, dass Gott sie für wert hielt, Schmach zu erleiden",
             "antev": "Zu wem sollen wir gehen? Du, Herr, hast Worte des ewigen Lebens. Wir haben geglaubt und erkannt: Du bist der Heilige Gottes.",
+            "modeev": "IIc",
             "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche auf das Fundament der Apostel gegründet hat. Zu ihm lasst uns beten:",
             "bitten_r": "Christus, höre uns.",
             "bitten": "Du hast für Petrus gebetet, dass sein Glaube nicht wanke;^qstärke unseren Glauben.^pNach deiner Auferstehung bist du dem Petrus erschienen und hast dich dem Saulus geoffenbart;^qlass uns erkennen und bekennen, dass du lebst.^pDu hast dem Petrus verziehen, dass er dich verleugnet hat;^qvergib auch uns unsere Schuld.^pDu hast den Apostel Paulus erwählt, den Heiden deinen Namen zu verkünden;^qgib, dass wir deinen Namen durch unser Leben bezeugen.",
@@ -6013,6 +6041,7 @@
           "Sext": {
             "comm_1": "Apostel",
             "ant0": "Um die sechste Stunde stieg Petrus hinauf, um zu beten.",
+            "mode0": "II",
             "les_buch": "Gal",
             "les_stelle": "1,15–16a.17b–18a",
             "les_text": "Als Gott, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, mir in seiner Güte seinen Sohn offenbarte, damit ich ihn unter den Heiden verkündige, da zog ich nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich hinauf nach Jerusalem, um Kephas kennenzulernen.",
@@ -6040,6 +6069,9 @@
             "ant1": "Simon, ich habe für dich gebetet, dass dein Glaube nicht wanke. Du aber stärke deine Brüder.",
             "ant2": "Mit Freuden rühme ich mich meiner Schwachheit, dass Christi Kraft in mir wohne.",
             "ant3": "Du bist der Hirt der Herde, der Erste der Apostel, dir wurden die Schlüssel des Himmelreiches übergeben.",
+            "mode1": "I",
+            "mode2": "I",
+            "mode3": "VIII",
             "les_buch": "1°Kor",
             "les_stelle": "15,3–5.8a",
             "les_text": "Vor allem habe ich euch überliefert, was auch ich empfangen habe: Christus ist für unsere Sünden gestorben, gemäß der Schrift, und ist begraben worden. Er ist am dritten Tag auferweckt worden, gemäß der Schrift, und erschien dem Kephas, dann den Zwölf. Als Letztem von allen erschien er auch mir.",
@@ -6048,6 +6080,7 @@
             "resp2": "und reiche Gnade ruhte auf ihnen.",
             "resp3": "Vom Geiste erfüllt, verkündeten sie mit Freimut die Taten des Herrn.",
             "antev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr.",
+            "modeev": "IIc",
             "bitten_e": "Lasst uns beten zu Christus, der seine Kirche auf das Fundament der Apostel gegründet hat:",
             "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
             "bitten": "Du hast Simon Petrus in deine Nachfolge berufen und ihm aufgetragen, die Brüder zu stärken;^qsei mit Papst ^NP, der in der Kirche das Amt des Petrus verwaltet.^pDu hast dem Sturm geboten, damit das Schiff der Jünger nicht unterging;^qbewahre deine Kirche vor jeder Verwirrung.^pNach deiner Auferstehung hast du die versprengte Herde um Petrus gesammelt;^qführe dein Volk zur Einheit zusammen.^pDu hast den Apostel Paulus gesandt, die Heiden zu deinen Jüngern zu machen;^qgib, dass das Wort vom Heil allen Geschöpfen verkündet wird.^pDu hast am heutigen Tag Petrus und Paulus die Krone des Lebens verliehen;^qgib ewiges Leben allen, die im Glauben deiner Apostel gestorben sind.",
