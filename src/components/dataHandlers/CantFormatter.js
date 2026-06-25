@@ -224,8 +224,14 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
 
     if (dblBarIdx < 0) return hv; // kein ||: Text unverändert
 
-    // Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versschluss)
-    const sonderfall1 = (b === 1) && sglBarIdxs.some(idx => idx > dblBarIdx);
+    // noUnstressed (sk): kein Ton nach ||; Koda-Silben werden mit || geklammert.
+    // noMasculineShift (sk): bei männlichem Versschluss fällt die letzte Note weg → kein vEff=v+1.
+    const noUnstressed = cadenceType === 'sk' && cadence.sk.includes('noUnstressed');
+    const noMasculineShift = cadenceType === 'sk' && cadence.sk.includes('noMasculineShift');
+    // Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versschluss).
+    // Gilt nicht bei noUnstressed: dort ist | nach || keine eigene Melodiestelle, sondern
+    // eine Silbengrenze innerhalb der Koda-Klammer.
+    const sonderfall1 = (b === 1) && !noUnstressed && sglBarIdxs.some(idx => idx > dblBarIdx);
     // Verkürzte Kadenz: Marker 4 und 3 auf demselben Slot (Vers zu kurz für separaten 3er-Slot)
     const has43Combined = b === 1 && !sonderfall1 &&
         countdownIdxs['4'] !== undefined &&
@@ -237,10 +243,6 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         countdownIdxs['3'] === countdownIdxs['2'];
     // Sonderfall 3 (b=1): 4-Marker vorhanden (aber nicht wenn 4+3 kombiniert auf einem Slot)
     const has4 = !has43Combined && ('4' in countdownIdxs);
-    // noUnstressed (sk): kein Ton nach ||; Koda-Silben werden mit || geklammert.
-    // noMasculineShift (sk): bei männlichem Versschluss fällt die letzte Note weg → kein vEff=v+1.
-    const noUnstressed = cadenceType === 'sk' && cadence.sk.includes('noUnstressed');
-    const noMasculineShift = cadenceType === 'sk' && cadence.sk.includes('noMasculineShift');
     const v_eff = (b === 1 && has4 && !noUnstressed && !noMasculineShift) ? v + 1 : v;
 
     // Kadenzanfang (Slot-Index)
