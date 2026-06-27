@@ -105,8 +105,8 @@ const MassReadings = ({
 
     let ruf_stelle = ms_ruf_stelle || '',
         ruf_text = ms_ruf_text || '';
-    const rufData = rufvdevData?.[ms_ruf_text]
 
+    const rufData = rufvdevData?.[ms_ruf_text]
     if (rufData) {
         ruf_stelle = rufData.Stelle;
         ruf_text = rufData.Text;

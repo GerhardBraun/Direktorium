@@ -1,4 +1,4 @@
-export const perikopen = {
+export const evangelien = {
     "Mt 1,1-16.18-23": {
         button: "Stammbaum°und°Geburt°Jesu",
         les_buch: "Aus dem heiligen Evangelium nach Matthäus.",

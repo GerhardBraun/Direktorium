@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 import { lectureAlternatives, namesOfBooks } from '../data/LectureAlternatives.ts';
-import { perikopen } from '../data/Perikopen.ts';
+import { evangelien } from '../data/Evangelien.ts';
 
 const LectureSelector = ({
     texts,
@@ -41,7 +41,7 @@ const LectureSelector = ({
         return alternatives.map(alt => {
             if (alt?.les_stelle?.startsWith('^Q:')) {
                 const perikopenKey = alt.les_stelle.substring(3); // Entferne '^Q:'
-                const perikopenData = perikopen[perikopenKey];
+                const perikopenData = evangelien[perikopenKey];
                 if (perikopenData) {
                     // Überschreibe Felder mit Perikopen-Daten
                     return {
@@ -112,7 +112,7 @@ const LectureSelector = ({
         ['les_stelle', 'patr_werk'].forEach(field => {
             if (result[field]?.startsWith('^Q:')) {
                 const perikopenKey = result[field].substring(3);
-                const perikopenData = perikopen[perikopenKey];
+                const perikopenData = evangelien[perikopenKey];
                 if (perikopenData) {
                     result = { ...result, ...perikopenData };
                 }
