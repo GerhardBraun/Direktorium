@@ -156,10 +156,7 @@ const SourceSelector = ({
     const hasOblig = hasValidSource('oblig') // G, F oder H
     const hasAdLib = hasValidSource('any')
 
-    const showWt = rank.wt < 3 && (
-        (hasAdLib && !hasOblig) ||   // nur nichtgebotener Gedenktag
-        (isCommemoration && (hasOblig || hasAdLib)) // bei Kommemoration auch G
-    )
+    const showWt = hasAdLib && !hasOblig   // nur nichtgebotener Gedenktag
 
     const disableButtons = {}
     disableButtons.wt = isErsteVesper && !prefSollemnity;

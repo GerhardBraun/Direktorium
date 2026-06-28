@@ -447,7 +447,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             // gebotene Gedenktage, Feste und Hochfeste, wenn der wt-Rang geringer ist
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
         }
-        else if (rank_wt < 2) {
+        else if (rank_wt < 2 || (rank_wt === 2 && isCommemoration)) {
             // nichtgebotene Gedenktage werden an Sonntagen
             // sowie gebotenen Gedenktagen, Festen und Hochfesten des Kirchenjahres nicht geladen,
             // können aber neben gebotenen Gedenktagen und Festen der Heiligen stehen
