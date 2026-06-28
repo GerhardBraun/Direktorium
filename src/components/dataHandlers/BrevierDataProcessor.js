@@ -791,7 +791,7 @@ function processKompletData(data, dateToRead) {
         showKompletWt = false; prefKomplet = 'k1'
     }
     // an Sonntagen
-    if (dayOfWeek === 0) {
+    else if (dayOfWeek === 0) {
         showKompletWt = false; prefKomplet = 'k2'
     }
     return {
