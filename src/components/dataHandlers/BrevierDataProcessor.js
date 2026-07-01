@@ -782,15 +782,15 @@ function processKompletData(data, dateToRead) {
         || (swdCombined.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
-    // an Hochfesten
+    // an Hochfesten: nach der 2. Vesper
     else if (rank.date > 4 || rank.wt === 5) {
         showKompletWt = false; prefKomplet = 'k2'
     }
     // nach der 1. Vesper
-    if (rank?.hasErsteVesper) {
+    else if (rank?.hasErsteVesper) {
         showKompletWt = false; prefKomplet = 'k1'
     }
-    // an Sonntagen
+    // an Sonntagen: nach der 2. Vesper
     else if (dayOfWeek === 0) {
         showKompletWt = false; prefKomplet = 'k2'
     }
