@@ -1185,9 +1185,11 @@ export default function Stundenbuch() {
   const getDateString = (delay = 0) => {
     const d = new Date();
     d.setDate(d.getDate() + delay);
-    return d.toISOString().split("T")[0];
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   };
-  const isDateToday = (date) => date.toISOString().split("T")[0] === getDateString(0);
+  const toLocalDateString = (date) =>
+    `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+  const isDateToday = (date) => toLocalDateString(date) === getDateString(0);
   const [prayedHours, setPrayedHours] = useState(() => {
     const today = getDateString(0);
     const tomorrow = getDateString(1);
@@ -1258,7 +1260,7 @@ export default function Stundenbuch() {
     horaTimerRef.current = null;
     const todayStr = getDateString(0);
     const tomorrowStr = getDateString(1);
-    const selectedDateStr = selectedDate.toISOString().split("T")[0];
+    const selectedDateStr = toLocalDateString(selectedDate);
     const selectedDateHours = prayedHours[selectedDateStr] || [];
     const isToday = selectedDateStr === todayStr;
     // Antizipation der Lesehore: Lesehore des Folgetags gilt als gebetet,
@@ -2351,9 +2353,9 @@ export default function Stundenbuch() {
               useCommemoration={useCommemoration}
               setUseCommemoration={setUseCommemoration}
               onSelectHour={handleSelectHour}
-              prayedHours={prayedHours[selectedDate.toISOString().split("T")[0]] || []}
+              prayedHours={prayedHours[toLocalDateString(selectedDate)] || []}
               isViewingToday={isDateToday(selectedDate) ||
-                selectedDate.toISOString().split("T")[0] === getDateString(1)}
+                toLocalDateString(selectedDate) === getDateString(1)}
               // onResetPrayedHours={handleResetPrayedHours}
               setViewMode={setViewMode}
               onPrevDay={onPrevDay}
