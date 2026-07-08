@@ -1,4 +1,4 @@
-Calendar Data Processing Log - 2026-07-07 05:08:37.891020
+Calendar Data Processing Log - 2026-07-08 05:13:43.174856
 ============================================================
 
 nur lateinischer Eintrag: AAA-3-33-oblig-Laudes
@@ -9,34 +9,36 @@ nur lateinischer Eintrag: AAA-12-24-oblig-Laudes
 nur lateinischer Eintrag: AAA-12-24-oblig-Terz
 nur lateinischer Eintrag: AAA-12-24-oblig-Sext
 nur lateinischer Eintrag: AAA-12-24-oblig-Non
+ÜBERSCHNEIDUNG [Limburg]: 01-05 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 02-14 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 05-15 d1 (bestehende Quellen: d1)
+ÜBERSCHNEIDUNG [Köln]: 05-21 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [AAA]: 05-66 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [Limburg]: 06-19 d1 (bestehende Quellen: d1)
+ÜBERSCHNEIDUNG [Limburg]: 07-06 d1 (bestehende Quellen: d1)
+ÜBERSCHNEIDUNG [Speyer]: 08-09 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [Limburg]: 08-11 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [Limburg]: 08-18 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 09-11 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Speyer]: 10-05 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [Limburg]: 10-13 d1 (bestehende Quellen: d1)
-ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
-ÜBERSCHNEIDUNG [Limburg]: 01-05 d1 (bestehende Quellen: d1)
-ÜBERSCHNEIDUNG [AAA]: 05-66 oblig (bestehende Quellen: oblig)
-ÜBERSCHNEIDUNG [Limburg]: 07-06 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Paderborn]: 10-25 d1 (bestehende Quellen: d1)
-ÜBERSCHNEIDUNG [Limburg]: 06-19 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 10-29 d1 (bestehende Quellen: d1)
-ÜBERSCHNEIDUNG [Köln]: 05-21 oblig (bestehende Quellen: oblig)
-ÜBERSCHNEIDUNG [Speyer]: 08-09 oblig (bestehende Quellen: oblig)
-ÜBERSCHNEIDUNG [Limburg]: 08-18 d1 (bestehende Quellen: d1)
+ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
 === ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
-Gesamt gefundene Überschneidungen: 16
+Gesamt gefundene Überschneidungen: 17
 Limburg: 10 Überschneidungen
-Speyer: 2 Überschneidungen
-AAA: 2 Überschneidungen
-Paderborn: 1 Überschneidungen
 Köln: 1 Überschneidungen
+AAA: 3 Überschneidungen
+Speyer: 2 Überschneidungen
+Paderborn: 1 Überschneidungen
 
 Zur Unterdrückung von Warnungen können folgende Einträge
 dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
   'AAA-11-9-oblig',
+  'AAA-12-13-oblig',
   'AAA-5-66-oblig',
   'Köln-5-21-oblig',
   'Limburg-1-5-d1',
