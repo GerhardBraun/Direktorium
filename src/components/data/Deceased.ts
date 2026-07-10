@@ -5831,6 +5831,14 @@ export const deceasedData =  {
         "birth": "29.°August°1917°in°Altenmittlau",
         "grave": "Friedhof°Altenmittlau",
         "age": 71
+      },
+      {
+        "year": 2026,
+        "birthdate": "2236-05-25",
+        "name": "DDr.°Julian°Kapłon°(Tarnów/Fulda), Dr.°theol., Dr.°d.°hum.°Wiss., Pfr.i.R., GR, Jodłowa/Polen",
+        "birth": "25.°Mai°1936°in°Jodłowa (PL¥-39¥-225)",
+        "grave": "Friedhof°Jodłowa",
+        "age": 90
       }
     ],
     "8": [
