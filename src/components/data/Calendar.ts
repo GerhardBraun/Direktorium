@@ -7049,6 +7049,11 @@ export const calendarData: CalendarData = {
             "hymn_1_lat": 8711.4,
             "antev_lat": "Hic accépit benedictiónem a Dómino et misericórdiam a Deo salutári suo; quia hæc est generátio quæréntium Dóminum."
           }
+        },
+        "vetus": {
+          "Laudes": {
+            "button": "Comm. S. Pii I Papæ et Mart."
+          }
         }
       },
       "22": {
@@ -7539,6 +7544,11 @@ export const calendarData: CalendarData = {
             "genitiv": "der Heiligen Louis und Marie Zelie Martin",
             "genitiv_lat": "sanctórum Ludovíci et Cæcíliæ"
           }
+        },
+        "vetus": {
+          "Laudes": {
+            "button": "S. Ioannis Gualberti Abb.^lComm. Ss. Naboris et Felicis Mm."
+          }
         }
       },
       "13": {
@@ -7613,6 +7623,11 @@ export const calendarData: CalendarData = {
             "ms_ev_motto": "Wovon das Herz überfließt, davon spricht sein Mund",
             "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lEs gibt keinen guten Baum,^l^EINZUGder schlechte Früchte bringt,^lnoch einen schlechten Baum,^l^EINZUGder gute Früchte bringt.^lDenn jeden Baum erkennt man an seinen Früchten:^lVon den Disteln pflückt man keine Feigen^l^EINZUGund vom Dornstrauch erntet man keine Trauben.^pDer gute Mensch bringt^l^EINZUGaus dem guten Schatz seines Herzens das Gute hervor^lund der böse Mensch bringt^l^EINZUGaus dem bösen das Böse hervor.^lDenn wovon das Herz überfließt,^l^EINZUGdavon spricht sein Mund."
           }
+        },
+        "vetus": {
+          "Laudes": {
+            "button": "S. Bonaventuræ Ep., Conf. et Eccl.Doct."
+          }
         }
       },
       "15": {
@@ -7650,6 +7665,11 @@ export const calendarData: CalendarData = {
             "ms_ev_stelle": "23,8-12",
             "ms_ev_motto": "Keiner von euch kann mein Jünger sein, wenn er nicht auf seinen ganzen Besitz verzichtet",
             "ms_ev_text": "In jener Zeit^l^EINZUGbegleiteten viele Menschen Jesus;^lda wandte er sich an sie^lund sagte: Wenn jemand zu mir kommt^l^EINZUGund nicht Vater und Mutter,^l^EINZUGFrau und Kinder, Brüder und Schwestern,^l^EINZUGja sogar sein Leben gering achtet,^l^EINZUGdann kann er nicht mein Jünger sein.^pWer nicht sein Kreuz trägt und hinter mir hergeht,^l^EINZUGder kann nicht mein Jünger sein.^lDenn wenn einer von euch einen Turm bauen will,^l^EINZUGsetzt er sich dann nicht zuerst hin^l^EINZUGund berechnet die Kosten,^l^EINZUGob seine Mittel für das ganze Vorhaben ausreichen?^lSonst könnte es geschehen,^l^EINZUGdass er das Fundament gelegt hat,^l^EINZUGdann aber den Bau nicht fertigstellen kann.^lUnd alle, die es sehen, würden ihn verspotten^lund sagen: Der da hat einen Bau begonnen^l^EINZUGund konnte ihn nicht zu Ende führen.^pOder wenn ein König gegen einen anderen in den Krieg zieht,^l^EINZUGsetzt er sich dann nicht zuerst hin^l^EINZUGund überlegt, ob er sich mit seinen zehntausend Mann^l^EINZUGdem entgegenstellen kann,^l^EINZUGder mit zwanzigtausend gegen ihn anrückt?^lKann er es nicht,^l^EINZUGdann schickt er eine Gesandtschaft,^l^EINZUGsolange der andere noch weit weg ist,^l^EINZUGund bittet um Frieden.^pEbenso kann keiner von euch mein Jünger sein,^l^EINZUGwenn er nicht auf seinen ganzen Besitz verzichtet."
+          }
+        },
+        "vetus": {
+          "Laudes": {
+            "button": "S. Henrici Imperatoris, Conf."
           }
         }
       },
@@ -7690,6 +7710,20 @@ export const calendarData: CalendarData = {
             "ms_ev_stelle": "12,46-50",
             "ms_ev_motto": "Ihr seid das Licht der Welt",
             "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lIhr seid das Salz der Erde.^lWenn das Salz seinen Geschmack verliert,^l^EINZUGwomit kann man es wieder salzig machen?^lEs taugt zu nichts mehr,^l^EINZUGaußer weggeworfen und von den Leuten zertreten zu werden.^pIhr seid das Licht der Welt.^lEine Stadt, die auf einem Berg liegt,^l^EINZUGkann nicht verborgen bleiben.^lMan zündet auch nicht eine Leuchte an^l^EINZUGund stellt sie unter den Scheffel,^l^EINZUGsondern auf den Leuchter;^ldann leuchtet sie allen im Haus.^lSo soll euer Licht vor den Menschen leuchten,^l^EINZUGdamit sie eure guten Taten sehen^l^EINZUGund euren Vater im Himmel preisen.^pDenkt nicht,^l^EINZUGich sei gekommen,^l^EINZUGum das Gesetz und die Propheten aufzuheben!^lIch bin nicht gekommen, um aufzuheben,^l^EINZUGsondern um zu erfüllen.^lAmen, ich sage euch:^lBis Himmel und Erde vergehen,^l^EINZUGwird kein Jota und kein Häkchen des Gesetzes vergehen,^l^EINZUGbevor nicht alles geschehen ist.^pWer auch nur eines von den kleinsten Geboten aufhebt^l^EINZUGund die Menschen entsprechend lehrt,^l^EINZUGder wird im Himmelreich der Kleinste sein.^lWer sie aber hält und halten lehrt,^l^EINZUGder wird groß sein im Himmelreich."
+          }
+        }
+      },
+      "17": {
+        "vetus": {
+          "Laudes": {
+            "button": "S. Alexii Conf."
+          }
+        }
+      },
+      "18": {
+        "vetus": {
+          "Laudes": {
+            "button": "S. Camilli de Lellis Conf.\\nSs. Symphorosae et septem filiorum eius Mm."
           }
         }
       },

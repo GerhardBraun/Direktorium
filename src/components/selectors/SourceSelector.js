@@ -241,6 +241,11 @@ const SourceSelector = ({
                     </button>
                 );
             })}
+            {texts.laudes?.vetus?.button && (
+                <div className="w-full p-1 pt-2 text-sm text-center text-gray-600 dark:text-gray-400 whitespace-pre-line">
+                    {formatText(texts.laudes.vetus.button)}
+                </div>
+            )}
             {!reduced && hour !== 'vigil' && (
                 <div className="flex gap-1">
                     <button

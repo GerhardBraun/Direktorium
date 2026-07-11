@@ -550,9 +550,13 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
     const ordinalData = getDayCalendarData(13, dateFormats?.ordinal, hasOblig);
     const ordinalLastData = getDayCalendarData(13, dateFormats?.ordinalLast, hasOblig);
 
+    const activeSourceKeys = localStorage.getItem('showOldCalendar') === 'true'
+        ? [...sourceKeys, 'vetus']
+        : sourceKeys;
+
     [processData, swdData, ordinalData, ordinalLastData].forEach(data => {
         if (!data) return;
-        sourceKeys.forEach(sourceKey => {
+        activeSourceKeys.forEach(sourceKey => {
             const sourceData = data[sourceKey];
             // dpar-Source immer als dmob einlesen (beweglicher Gedenktag des Diözesankalenders)
             const targetKey = sourceKey === 'dpar' ? 'dmob'

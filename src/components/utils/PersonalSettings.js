@@ -61,6 +61,9 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
         const stored = localStorage.getItem('delaySolemnity');
         return stored ? JSON.parse(stored) : { epiphany: false, ascension: 0, corpusXP: 0 };
     });
+    const [showOldCalendar, setShowOldCalendar] = useState(() =>
+        localStorage.getItem('showOldCalendar') === 'true'
+    );
 
     // Optionen zum Benediktinischen Antiphonale
     const unlockBenedictine = localStorage.getItem('unlockBenedictine') === 'unlocked' ? true : false; // Immer freigeschaltet
@@ -334,6 +337,10 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
         setLocalStorage('delaySolemnity', JSON.stringify(delaySolemnity));
         onDelaySolemnityChange?.(delaySolemnity);
     }, [delaySolemnity]);
+
+    useEffect(() => {
+        setLocalStorage('showOldCalendar', showOldCalendar);
+    }, [showOldCalendar]);
 
     useEffect(() => {
         setLocalStorage('bishopTitle', bishopTitle);
@@ -829,6 +836,29 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            {/* Alter Römischer Kalender */}
+            <div className="px-3">
+                <label className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 cursor-pointer">
+                    <button
+                        type="button"
+                        role="checkbox"
+                        aria-checked={showOldCalendar}
+                        onClick={() => setShowOldCalendar(!showOldCalendar)}
+                        className={`w-5 h-5 rounded shrink-0 flex items-center justify-center
+                            border dark:border-gray-600
+                            ${showOldCalendar ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        {showOldCalendar && (
+                            <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 text-gray-700 dark:text-gray-900" fill="none">
+                                <path d="M3 8.5L6.5 12L13 4.5" stroke="currentColor" strokeWidth="2"
+                                    strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        )}
+                    </button>
+                    Heiligenfeiern nach dem alten Römischen Kalender anzeigen
+                </label>
             </div>
 
             {/* Import/Export Section */}
