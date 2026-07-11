@@ -1,9 +1,9 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
 
-**07-10** `Lesungen der Lesehore` ab 15. Woche i. Jkr.
-**07-11** `Rufe vor dem Evangelium` ab 15. Woche i. Jkr.
-**07-12** `Calendar-Lesungen`: ab 14. Juli
+**07-14** `Lesungen der Lesehore` ab Mi der 15. Woche i. Jkr.
+**07-21** `Calendar-Lesungen`: ab 22. Juli
+**08-01** `Rufe vor dem Evangelium` ab 18. Woche i. Jkr.
 **ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.
 **ohne Frist** `Psalmen zum Singen` zur Lesehore
 **ohne Frist** ^INVANT in Psalmen des Benedikt. Antiphonale
