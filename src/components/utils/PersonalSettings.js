@@ -61,9 +61,18 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
         const stored = localStorage.getItem('delaySolemnity');
         return stored ? JSON.parse(stored) : { epiphany: false, ascension: 0, corpusXP: 0 };
     });
-    const [showOldCalendar, setShowOldCalendar] = useState(() =>
-        localStorage.getItem('showOldCalendar') === 'true'
-    );
+    const [showCalendar1962, setShowCalendar1962] = useState(() => {
+        // Übergangsweise Migration des früheren Schlüssels 'showOldCalendar'
+        if (localStorage.getItem('showCalendar1962') === null) {
+            const legacyValue = localStorage.getItem('showOldCalendar');
+            if (legacyValue !== null) {
+                setLocalStorage('showCalendar1962', legacyValue);
+                localStorage.removeItem('showOldCalendar');
+                return legacyValue === 'true';
+            }
+        }
+        return localStorage.getItem('showCalendar1962') === 'true';
+    });
 
     // Optionen zum Benediktinischen Antiphonale
     const unlockBenedictine = localStorage.getItem('unlockBenedictine') === 'unlocked' ? true : false; // Immer freigeschaltet
@@ -339,8 +348,8 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
     }, [delaySolemnity]);
 
     useEffect(() => {
-        setLocalStorage('showOldCalendar', showOldCalendar);
-    }, [showOldCalendar]);
+        setLocalStorage('showCalendar1962', showCalendar1962);
+    }, [showCalendar1962]);
 
     useEffect(() => {
         setLocalStorage('bishopTitle', bishopTitle);
@@ -620,9 +629,9 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
                     Verlegung von Hochfesten
                 </div>
                 {[
-                    { key: 'epiphany', label: 'Erscheinung', fixedDay: '6. Januar' , offValue: false, onValue: true },
-                    { key: 'ascension', label: 'Himmelfahrt', fixedDay: 'Donnerstag' , offValue: 0, onValue: 3 },
-                    { key: 'corpusXP', label: 'Fronleichnam', fixedDay: 'Donnerstag' , offValue: 0, onValue: 3 },
+                    { key: 'epiphany', label: 'Erscheinung', fixedDay: '6. Januar', offValue: false, onValue: true },
+                    { key: 'ascension', label: 'Himmelfahrt', fixedDay: 'Donnerstag', offValue: 0, onValue: 3 },
+                    { key: 'corpusXP', label: 'Fronleichnam', fixedDay: 'Donnerstag', offValue: 0, onValue: 3 },
                 ].map(({ key, label, fixedDay, offValue, onValue }) => (
                     <div key={key} className="grid gap-2 items-center mb-1"
                         style={{ gridTemplateColumns: '6rem 1fr 1fr' }}>
@@ -844,20 +853,20 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
                     <button
                         type="button"
                         role="checkbox"
-                        aria-checked={showOldCalendar}
-                        onClick={() => setShowOldCalendar(!showOldCalendar)}
+                        aria-checked={showCalendar1962}
+                        onClick={() => setShowCalendar1962(!showCalendar1962)}
                         className={`w-5 h-5 rounded shrink-0 flex items-center justify-center
                             border dark:border-gray-600
-                            ${showOldCalendar ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                            ${showCalendar1962 ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
-                        {showOldCalendar && (
+                        {showCalendar1962 && (
                             <svg viewBox="0 0 16 16" className="w-3.5 h-3.5 text-gray-700 dark:text-gray-900" fill="none">
                                 <path d="M3 8.5L6.5 12L13 4.5" stroke="currentColor" strokeWidth="2"
                                     strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         )}
                     </button>
-                    Heiligenfeiern nach dem alten Römischen Kalender anzeigen
+                    Heiligenfeiern nach dem Römischen Kalender von 1962 anzeigen
                 </label>
             </div>
 

@@ -17,6 +17,7 @@ import { sollemnitiesData } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
 import { calendarData } from '../data/Calendar.ts';
+import { calendar1962Data } from '../data/Calendar1962.ts';
 
 const personalData = (() => {
     try {
@@ -462,6 +463,9 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
                 processCalendar(hours, yearABC, season, 13, 6)
         }
 
+        // Finale Verarbeitungsschritte
+        const calendar1962 = processCalendar1962(calendarMonth, calendarDay, swdCombined, dateFormats);
+
         return {
             season, week, dayOfWeek,
             swd,
@@ -471,6 +475,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
                 ...passThrough, // isCommemoration und hasVigil
             },
             prefComm: (rank_date > 2 || rank_wt > 2 || [61, 66].includes(aroundPentecost)) ? 1 : 0,
+            ...(calendar1962 ? { calendar1962 } : {}),
             ...cleanupZeroReferences(hours)
         };
     } catch (error) {
@@ -550,13 +555,9 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
     const ordinalData = getDayCalendarData(13, dateFormats?.ordinal, hasOblig);
     const ordinalLastData = getDayCalendarData(13, dateFormats?.ordinalLast, hasOblig);
 
-    const activeSourceKeys = localStorage.getItem('showOldCalendar') === 'true'
-        ? [...sourceKeys, 'vetus']
-        : sourceKeys;
-
     [processData, swdData, ordinalData, ordinalLastData].forEach(data => {
         if (!data) return;
-        activeSourceKeys.forEach(sourceKey => {
+        sourceKeys.forEach(sourceKey => {
             const sourceData = data[sourceKey];
             // dpar-Source immer als dmob einlesen (beweglicher Gedenktag des Diözesankalenders)
             const targetKey = sourceKey === 'dpar' ? 'dmob'
@@ -571,6 +572,21 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
     });
 
     processReadings(hours, yearABC, calendarMonth, calendarDay, replaceOblig);
+}
+
+// Heiligenfeiern nach dem alten Römischen Kalender (1962), rein informativ;
+// wird nur erstellt, wenn der Nutzer dies in den Einstellungen aktiviert hat.
+function processCalendar1962(calendarMonth, calendarDay, swdCombined, dateFormats = {}) {
+    if (localStorage.getItem('showCalendar1962') !== 'true') return undefined;
+
+    const entries = [
+        calendar1962Data?.[13]?.[swdCombined],
+        calendar1962Data?.[13]?.[dateFormats?.ordinal],
+        calendar1962Data?.[13]?.[dateFormats?.ordinalLast],
+        calendar1962Data?.[calendarMonth]?.[calendarDay],
+    ].filter(Boolean).flat();
+
+    return entries.length > 0 ? entries : undefined;
 }
 
 function processReadings(hours, yearABC, calendarMonth, calendarDay, replaceOblig = '') {

@@ -37,6 +37,7 @@
     "psalms": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 5",
     "lesungen1": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 11",
     "lesungen2": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 12",
+    "calendar1962": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 16",
     "marker": "python C:/AppProjekte/excel-liturgical-converter/psalms-marker.py",
     "marker-korrektur": "python C:/AppProjekte/excel-liturgical-converter/fix-dual1.py",
     "upgrade": "node update-version.js",

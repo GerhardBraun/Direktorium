@@ -241,9 +241,11 @@ const SourceSelector = ({
                     </button>
                 );
             })}
-            {texts.laudes?.vetus?.button && (
-                <div className="w-full p-1 pt-2 text-sm text-center text-gray-600 dark:text-gray-400 whitespace-pre-line">
-                    {formatText(texts.laudes.vetus.button)}
+            {texts.calendar1962?.length > 0 && (
+                <div className="w-full p-1 pt-2 text-sm text-center text-gray-600 dark:text-gray-400">
+                    {texts.calendar1962.map((entry, index) => (
+                        <div key={index}>{formatText(entry)}</div>
+                    ))}
                 </div>
             )}
             {!reduced && hour !== 'vigil' && (

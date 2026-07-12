@@ -7626,7 +7626,7 @@ export const calendarData: CalendarData = {
         },
         "vetus": {
           "Laudes": {
-            "button": "S. Bonaventuræ Ep., Conf. et Eccl.Doct."
+            "button": "S. Bonaventuræ Ep.,°Conf.°et°Eccl.°Doct. (15.07.)"
           }
         }
       },
@@ -7669,7 +7669,7 @@ export const calendarData: CalendarData = {
         },
         "vetus": {
           "Laudes": {
-            "button": "S. Henrici Imperatoris, Conf."
+            "button": "S. Henrici Imperatoris, Conf. (13.07.)"
           }
         }
       },
@@ -7723,7 +7723,7 @@ export const calendarData: CalendarData = {
       "18": {
         "vetus": {
           "Laudes": {
-            "button": "S. Camilli de Lellis Conf.\\nSs. Symphorosae et septem filiorum eius Mm."
+            "button": "S. Camilli de Lellis Conf. (14.07.)\\nSs. Symphorosae et septem filiorum eius Mm."
           }
         }
       },
