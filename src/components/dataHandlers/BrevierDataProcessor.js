@@ -577,6 +577,15 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
 // Heiligenfeiern nach dem alten Römischen Kalender (1962), rein informativ;
 // wird nur erstellt, wenn der Nutzer dies in den Einstellungen aktiviert hat.
 function processCalendar1962(calendarMonth, calendarDay, swdCombined, dateFormats = {}) {
+    // Übergangsweise Migration des früheren Schlüssels 'showOldCalendar'
+    if (localStorage.getItem('showCalendar1962') === null) {
+        const legacyValue = localStorage.getItem('showOldCalendar');
+        if (legacyValue !== null) {
+            localStorage.setItem('showCalendar1962', legacyValue);
+            localStorage.removeItem('showOldCalendar');
+        }
+    }
+
     if (localStorage.getItem('showCalendar1962') !== 'true') return undefined;
 
     const entries = [
