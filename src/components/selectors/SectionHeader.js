@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 import { setLocalStorage } from '../utils/PersonalSettings.js';
+import { resolveReference } from '../dataHandlers/TextFormatter.js';
 
 const SectionHeader = ({
     title,
@@ -13,6 +14,7 @@ const SectionHeader = ({
     addDebugLog,
     prefSource,
     prefSollemnity,
+    localPrefKomplet,
     localPrefComm,
     localPrefPsalmsWt,
     localPrefErgPs,
@@ -22,8 +24,10 @@ const SectionHeader = ({
     localPrefLanguage,
     localPrefLongform,
     ommitConfiteor,
+    showCantMarkers,
     setLocalPrefLatin,
     setLocalPrefLanguage,
+    setShowCantMarkers,
     setLocalPrefInv,
     setLocalPrefPsalmsWt,
     setLocalPrefErgPs,
@@ -69,6 +73,39 @@ const SectionHeader = ({
         return true;
     }, [hour, title, texts, prefSource, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
+
+    // Prüft, ob mindestens einer der für diese Psalmodie vorgesehenen Psalmen (normalerweise 3,
+    // in Invitatorium und Komplet 1 bzw. ggf. 2) Cant-Marker enthält; nur dann lohnt sich der
+    // cant-Schnellschalter (s. showCantToggle unten).
+    const hasAnnotatedPsalm = useMemo(() => {
+        if (title !== 'PSALMODIE') return true;
+
+        // Prüft dieselbe sprachspezifisch aufgelöste Textvariante, die formatPsalm auch tatsächlich
+        // anzeigt (psalm[text+localPrefLanguage] || psalm.text) – nicht immer nur den deutschen Text.
+        const psalmHasMarkers = (ref) => {
+            const psalm = resolveReference(ref);
+            return !!(psalm?.[`text${localPrefLanguage}`] || psalm?.text)?.includes('|');
+        };
+
+        if (hour === 'invitatorium') {
+            if (!texts?.invitatorium?.psalms?.includes(localPrefInv)) return false;
+            return psalmHasMarkers(localPrefInv);
+        }
+
+        const getValuePs = (field) => getValue({
+            hour, field,
+            season: texts?.season,
+            texts, prefSource, prefSollemnity, localPrefKomplet,
+            localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous,
+            localPrefLanguage: ''
+        });
+
+        return [1, 2, 3].some(num => {
+            const psalmRef = getValuePs(`psalm${num}`);
+            return psalmRef && psalmHasMarkers(psalmRef);
+        });
+    }, [title, hour, texts, prefSource, prefSollemnity, localPrefKomplet,
+        localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous, localPrefInv, localPrefLanguage]);
 
     //  VERSIKEL-Header ohne Buttons
     if (title === 'VERSIKEL' ||
@@ -166,6 +203,12 @@ const SectionHeader = ({
         showSources, showBothComm } = checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
+    // cant-Schnellschalter: bei jeder Psalmodie-Überschrift (auch Invitatorium/Komplet, anders als isPsalmodie
+    // oben, das dort wegen anderer, nicht zutreffender Buttons bewusst ausschließt) sowie den drei
+    // singbaren Canticum-Überschriften – bei Psalmodie nur, wenn wenigstens einer der vorgesehenen
+    // Psalmen tatsächlich Cant-Marker enthält (s. hasAnnotatedPsalm oben)
+    const showCantToggle = (title === 'PSALMODIE' && hasAnnotatedPsalm)
+        || ['BENEDICTUS', 'MAGNIFICAT', 'NUNC DIMITTIS'].includes(title);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
     const showPsalmsWt = hasWt && isPsalmodie
         && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
@@ -250,6 +293,7 @@ const SectionHeader = ({
     // einfacher Header ohne Buttons
     if (!invPsalms && !showSources && !showLanguageToggle && !showLongformToggle
         && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs && !showErgPsWt && !showAltPsalms
+        && !showCantToggle
         && !["SCHULDBEKENNTNIS"].includes(title)
     ) return <h2
         className="prayer-heading"
@@ -269,7 +313,7 @@ const SectionHeader = ({
 
     // Bestimme die Anzeigetexte für die Sprachen
     const label = (key) => {
-        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben', '_cant': 'cant' };
+        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben' };
         // Sonderfall für Stb/Latein: (dt./lat.)
         if (!key && !languages[0] && languages[1] === '_lat')
             return 'dt.'
@@ -291,32 +335,45 @@ const SectionHeader = ({
                         {ommitConfiteor ? '(anzeigen)' : '(verbergen)'}
                     </button>
                 </ButtonGroup>)}
-            {showLanguageToggle && (
+            {(showLanguageToggle || showCantToggle) && (
                 <ButtonGroup>
                     {"("}
-                    {!localPrefLanguage && languages[0] && (
+                    {showLanguageToggle && (
                         <>
-                            <span className={'underline'}>
-                                {"Stb"}
-                            </span>
-                            {"/"}
+                            {!localPrefLanguage && languages[0] && (
+                                <>
+                                    <span className={'underline'}>
+                                        {"Stb"}
+                                    </span>
+                                    {"/"}
+                                </>
+                            )}
+                            <button
+                                {...pressHandlers}
+                                className={doUnderline(0)}
+                            >
+                                {label(0)}
+                            </button>
+                            <button {...pressHandlers}>
+                                {"/"}
+                            </button>
+                            <button
+                                {...pressHandlers}
+                                className={doUnderline(1)}
+                            >
+                                {label(1)}
+                            </button>
                         </>
                     )}
-                    <button
-                        {...pressHandlers}
-                        className={doUnderline(0)}
-                    >
-                        {label(0)}
-                    </button>
-                    <button {...pressHandlers}>
-                        {"/"}
-                    </button>
-                    <button
-                        {...pressHandlers}
-                        className={doUnderline(1)}
-                    >
-                        {label(1)}
-                    </button>
+                    {showLanguageToggle && showCantToggle && " | "}
+                    {showCantToggle && (
+                        <button
+                            onClick={() => setShowCantMarkers(!showCantMarkers)}
+                            className={showCantMarkers ? 'underline' : 'line-through'}
+                        >
+                            cant
+                        </button>
+                    )}
                     {")"}
                 </ButtonGroup>
             )}

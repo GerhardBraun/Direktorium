@@ -6,6 +6,7 @@ import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 const MatutinDisplay = ({
     texts,
     localPrefLanguage = '',
+    showCantMarkers = false,
     formatPrayerText,
     TitleBar,
     NavigationButtons,
@@ -73,7 +74,7 @@ const MatutinDisplay = ({
                                             {formatPrayerText(matAnt[index], 'Ant.°°')}
                                         </div>
                                     )}
-                                    {formatPsalm(matPsalm[index], -1, localPrefLanguage)}
+                                    {formatPsalm(matPsalm[index], -1, localPrefLanguage, null, false, showCantMarkers)}
                                     {matAnt[index] && (
                                         <div className="mb-0">
                                             {formatPrayerText(matAnt[index], 'Ant.°°')}

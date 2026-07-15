@@ -381,6 +381,8 @@ const PrayerTextDisplay = ({
   localPrefLatin,
   setLocalPrefLatin,
   setLocalPrefLanguage,
+  showCantMarkers,
+  setShowCantMarkers,
   onSelectHour,
   onPrevDay,
   onNextDay,
@@ -464,6 +466,7 @@ const PrayerTextDisplay = ({
         addDebugLog={addDebugLog}
         prefSource={prefSource}
         prefSollemnity={prefSollemnity}
+        localPrefKomplet={localPrefKomplet}
         localPrefComm={localPrefComm}
         localPrefPsalmsWt={localPrefPsalmsWt}
         localPrefErgPs={localPrefErgPs}
@@ -474,8 +477,10 @@ const PrayerTextDisplay = ({
         localPrefLongform={localPrefLongform}
         ommitConfiteor={ommitConfiteor}
         alternativePsalms={alternativePsalms}
+        showCantMarkers={showCantMarkers}
         setLocalPrefLatin={setLocalPrefLatin}
         setLocalPrefLanguage={setLocalPrefLanguage}
+        setShowCantMarkers={setShowCantMarkers}
         setLocalPrefInv={setLocalPrefInv}
         setLocalPrefPsalmsWt={setLocalPrefPsalmsWt}
         setLocalPrefErgPs={setLocalPrefErgPs}
@@ -506,7 +511,7 @@ const PrayerTextDisplay = ({
   };
 
   const formatPsalm = (psalm, num = -1, modeOverride = null, antIsFirst = false) => {
-    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst);
+    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst, showCantMarkers);
   };
 
   const ResponsorialDisplay = (role, text) => (
@@ -1140,6 +1145,21 @@ export { PrayerMenu, PrayerTextDisplay, PrayerHours, TextSources };
 
 export default function Stundenbuch() {
   setLocalStorage('unlockBenedictine', 'unlocked'); // Always unlock Benedictine option
+
+  // One-Time-Migration: prefLanguage/languages "_cant" (frühere Sprachvariante) -> showCantMarker-State.
+  // Muss vor den useState-Initialisierungen unten laufen, die aus dem LocalStorage lesen.
+  if (localStorage.getItem('prefLanguage') === '_cant') {
+    setLocalStorage('prefLanguage', '');
+    setLocalStorage('showCantMarker', 'true');
+  }
+  const storedLanguages = JSON.parse(localStorage.getItem('languages') || 'null');
+  if (storedLanguages && storedLanguages.includes('_cant')) {
+    const migratedLanguages = storedLanguages.map(l => l === '_cant' ? '' : l);
+    setLocalStorage('languages', JSON.stringify(
+      migratedLanguages[0] === migratedLanguages[1] ? ['aus', 'aus'] : migratedLanguages
+    ));
+  }
+
   const wakeLock = useWakeLock();
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [entryDate, setEntryDate] = useState(new Date());
@@ -1167,6 +1187,7 @@ export default function Stundenbuch() {
   });
   const [deceasedMode, setDeceasedMode] = useState(() => localStorage.getItem("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
   const [localPrefLatin, setLocalPrefLatin] = useState(() => localStorage.getItem("prefLanguage") === "_lat");
+  const [showCantMarkers, setShowCantMarkers] = useState(() => localStorage.getItem("showCantMarker") === "true");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
     8,
@@ -1562,10 +1583,9 @@ export default function Stundenbuch() {
   const ThemeMenu = () => {
     const [tempFontSize, setTempFontSize] = useState(baseFontSize);
     const menuRef = useRef(null);
-    const longPressTimeoutRef = useRef(null);
-    const [isLongPressing, setIsLongPressing] = useState(false);
     const sections = ["fontSize", "theme", "language", "footnotes", "personalData", "deceased", "view"];
-    const storedPrefLanguage = localStorage.getItem("prefLanguage") || "";
+    const [storedPrefLanguage, setStoredPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
+    const [storedShowCantMarkers, setStoredShowCantMarkers] = useState(() => localStorage.getItem("showCantMarker") === "true");
     const unlockBenedictine = localStorage.getItem("unlockBenedictine") === "unlocked" ? true : false;
 
     const toggleMenu = () => {
@@ -1579,24 +1599,13 @@ export default function Stundenbuch() {
       setActiveSection(sections[sectionIndex]);
     };
 
-    // Funktion für langes Drücken
-    const handleLanguageLongPress = (value) => {
-      setIsLongPressing(true);
-      longPressTimeoutRef.current = setTimeout(() => {
-        // Speichere die Grundeinstellung im LocalStorage
-        setLocalStorage("prefLanguage", value);
-        // Aktualisiere auch die lokale Einstellung
-        setLocalPrefLanguage(value);
-        setIsLongPressing(false);
-      }, 800); // 800ms für langes Drücken
-    };
-
-    const clearLongPressTimeout = () => {
-      if (longPressTimeoutRef.current) {
-        clearTimeout(longPressTimeoutRef.current);
-        longPressTimeoutRef.current = null;
-      }
-      setIsLongPressing(false);
+    // Speichert die aktuelle Sprach-/Gesangs-Einstellung als Voreinstellung für den Programmstart
+    // (ersetzt die frühere LongPress-Funktion auf den Sprachwahl-Buttons)
+    const handleSaveLanguageDefault = () => {
+      setLocalStorage("prefLanguage", localPrefLanguage);
+      setLocalStorage("showCantMarker", String(showCantMarkers));
+      setStoredPrefLanguage(localPrefLanguage);
+      setStoredShowCantMarkers(showCantMarkers);
     };
 
     const handleFontSizeChange = (increase) => {
@@ -1664,15 +1673,6 @@ export default function Stundenbuch() {
         document.removeEventListener("mousedown", handleClickOutside);
     }, []);
 
-    // Cleanup longpress timeout bei Unmount
-    useEffect(() => {
-      return () => {
-        if (longPressTimeoutRef.current) {
-          clearTimeout(longPressTimeoutRef.current);
-        }
-      };
-    }, []);
-
     // Hilfsfunktion zur Anzeige des Sprachnamens
     const getLanguageName = (code) => {
       switch (code) {
@@ -1680,7 +1680,6 @@ export default function Stundenbuch() {
         case "_lat": return "Latein";
         case "_neu": return "neue EÜ";
         case "_ben": return "Münsterschwarzacher\u00a0Psalter";
-        case "_cant": return "Psalmen zum Singen eingerichtet";
         default: return "Unbekannt";
       }
     };
@@ -1689,20 +1688,7 @@ export default function Stundenbuch() {
     const LanguageButton = (value, label, className = "col-span-1") => {
       return (
         <button
-          onMouseDown={() => handleLanguageLongPress(value)}
-          onMouseUp={clearLongPressTimeout}
-          onMouseLeave={clearLongPressTimeout}
-          onTouchStart={() => handleLanguageLongPress(value)}
-          onTouchEnd={clearLongPressTimeout}
-          onTouchCancel={clearLongPressTimeout}
-          onContextMenu={(e) => e.preventDefault()}
-          onClick={(e) => {
-            if (!isLongPressing) {
-              e.preventDefault();
-              e.stopPropagation();
-              setLocalPrefLanguage(value);
-            }
-          }}
+          onClick={() => setLocalPrefLanguage(value)}
           className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
             }`}
         >
@@ -1861,19 +1847,30 @@ export default function Stundenbuch() {
                 {renderDescriptionItem("lat.:", "Nova Vulgata")}
                 {unlockBenedictine && renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016")}
-                {renderDescriptionItem("cant:", "Psalmen zum Singen eingerichtet")}
+                <div className="mt-1.5">
+                  {renderDescriptionItem("cant:", "Psalmen zum Singen eingerichtet")}
+                </div>
               </div>
-              <div className={`grid ${unlockBenedictine ? 'grid-cols-5' : 'grid-cols-4'} gap-0`}>
-                {LanguageButton("", "StB")}
-                {LanguageButton("_lat", "lat.")}
-                {unlockBenedictine && LanguageButton("_ben", "Ben")}
-                {LanguageButton("_neu", "neu")}
-                {LanguageButton("_cant", "cant")}
+              <div className="flex gap-0 items-stretch">
+                <div className={`grid ${unlockBenedictine ? 'grid-cols-4' : 'grid-cols-3'} gap-0 flex-1`}>
+                  {LanguageButton("", "StB")}
+                  {LanguageButton("_lat", "lat.")}
+                  {unlockBenedictine && LanguageButton("_ben", "Ben")}
+                  {LanguageButton("_neu", "neu")}
+                </div>
+                <button
+                  onClick={() => setShowCantMarkers(!showCantMarkers)}
+                  className={`ml-2 pl-2 border-2 border-gray-300 dark:border-gray-500 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none ${showCantMarkers ? "bg-orange-100 dark:bg-yellow-400/60" : ""}`}
+                >
+                  cant
+                </button>
               </div>
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Voreinstellung beim Programmstart:</b></p>
-                <p>{getLanguageName(storedPrefLanguage)}</p>
-                <p className="text-xs italic">(lange drücken zum Speichern als Grundeinstellung)</p>
+                <p>{getLanguageName(storedPrefLanguage)} – {storedShowCantMarkers ? "Psalmen zum Singen eingerichtet" : "keine Gesangsmarkierungen"}</p>
+                <button onClick={handleSaveLanguageDefault} className="text-xs italic underline">
+                  aktuelle Einstellung als Voreinstellung speichern
+                </button>
               </div>
             </div>
 
@@ -2384,6 +2381,7 @@ export default function Stundenbuch() {
                 localPrefLanguage={localPrefLanguage}
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
+                showCantMarkers={showCantMarkers}
                 widthForHymns={widthForHymns}
                 onBack={() => {
                   setViewMode("prayer");
@@ -2417,6 +2415,8 @@ export default function Stundenbuch() {
                 localPrefLatin={localPrefLatin}
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
+                showCantMarkers={showCantMarkers}
+                setShowCantMarkers={setShowCantMarkers}
                 widthForHymns={widthForHymns}
                 addDebugLog={addDebugLog}
                 skipPersonal={skipPersonal}

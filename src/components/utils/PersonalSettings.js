@@ -470,10 +470,6 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
                                     '-_ben': 'Stb/Ben',
                                     '-_neu': 'Stb/neu',
                                     '_ben-_neu': 'Ben/neu',
-                                    '-_cant': 'Stb/cant',
-                                    '_cant-_lat': 'cant/lat.',
-                                    '_cant-_ben': 'cant/Ben',
-                                    '_cant-_neu': 'cant/neu'
                                 };
                                 return options[langKey] || 'Stb/lat.';
                             })()}
@@ -483,7 +479,7 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
                         {showLanguageDropdown && (
                             <div className="absolute top-full -left-[50px] right-0 mt-1 bg-white dark:bg-gray-800
                     border dark:border-gray-600 rounded shadow-lg z-50">
-                                <div className="grid" style={{ gridTemplateColumns: unlockBenedictine ? '50px 80px 80px 80px' : '50px 80px 80px' }}>
+                                <div className="grid" style={{ gridTemplateColumns: unlockBenedictine ? '50px 80px 80px' : '50px 80px' }}>
                                     <div className="border-r dark:border-gray-600">
                                         <button
                                             key={'aus'}
@@ -546,34 +542,6 @@ const PersonalSettings = ({ onDioceseChange, onDelaySolemnityChange } = {}) => {
                                             })}
                                         </div>
                                     )}
-
-                                    <div>
-                                        {[
-                                            [['', '_cant'], 'Stb/cant'],
-                                            [['_cant', '_lat'], 'cant/lat.'],
-                                            ...(unlockBenedictine ? [
-                                                [['_cant', '_ben'], 'cant/Ben']
-                                            ] : []),
-                                            [['_cant', '_neu'], 'cant/neu'],
-                                        ].map(([langPair, label]) => {
-                                            const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
-                                                (languages[0] === langPair[1] && languages[1] === langPair[0]);
-                                            return (
-                                                <button
-                                                    key={label}
-                                                    onClick={() => {
-                                                        setLanguages(langPair);
-                                                        setShowLanguageDropdown(false);
-                                                    }}
-                                                    className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
-                                text-gray-900 dark:text-gray-100
-                                ${isSelected ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
-                                                >
-                                                    {label}
-                                                </button>
-                                            );
-                                        })}
-                                    </div>
                                 </div>
                             </div>
                         )}

@@ -4,15 +4,6 @@ const ordinariumData = {
     'laudes': {
         'dt': {
             "titel": "BENEDICTUS",
-            "cant": "Gepriesen^r\u2009+\u2009^0rsei der Herr, der°Gott°Israels!^*Denn er hat sein Volk besucht und ihm Erlösung geschaffen;^per hat uns einen°starken°Retter°erweckt^*im Hause seines Knechtes David.^pSo hat er verheißen von alters her^*durch den Mund seiner heiligen Propheten.^pEr hat uns errettet vor°unsern°Feinden^*und aus der Hand aller, die uns hassen;^per hat das Erbarmen mit den Vätern an°uns°vollendet^+und an seinen heiligen Bund gedacht,^*an den Eid, den er unserm Vater Abraham geschworen hat;^per hat uns geschenkt, dass wir, aus°Feindeshand°befreit,^+ihm furchtlos dienen in°Heiligkeit°und°Gerechtigkeit^*vor seinem Angesicht all unsre Tage.^pUnd du, Kind, wirst°Prophet°des°Höchsten°heißen;^+denn du wirst dem Herrn vorangehn^*und ihm den Weg bereiten.^pDu wirst sein Volk mit der Erfahrung°des°Heils beschenken^*in der Vergebung der Sünden.^pDurch die barmherzige Liebe unseres°Gottes^*wird uns besuchen das aufstrahlende Licht aus der Höhe,^pum allen zu leuchten, die in Finsternis sitzen und°im°Schatten°des°Todes,^*und unsre Schritte zu lenken auf den Weg des Friedens.",
-            "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
-            "closing": [
-                "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
-                "Amen."
-            ]
-        },
-        'cant': {
-            "titel": "BENEDICTUS",
             "cant": "Gepriesen^r\u2009+\u2009^0rsei der |Herr, 2der°1Gott°||Is0ra0els!^*Denn er hat sein Volk besucht und ihm Er3|lö2sung 1ge||schaf0fen;^per hat uns einen°starken°|Ret2ter°1er||weckt^*im Hause sei3nes 2|Knech1tes ||Da0vid.^pSo hat er ver|hei2ßen 1von ||al0ters her^*durch den Mund seiner |hei3li2gen 1Pro||phe0ten.^pEr hat uns errettet vor°2|un1sern°||Fein0den^*und aus der Hand |al3ler, 2die 1uns ||has0sen;^per hat das Erbarmen mit den Vätern an°uns°vollendet^+und an seinen |hei2li1gen ||Bund ge0dacht,^*an den Eid, den er unserm Vater |Ab3ra2ham 1ge||schwo0ren hat;^per hat uns geschenkt, dass wir, aus°Feindeshand°be|freit,^+ihm furchtlos dienen in°|Hei0lig0keit°2und°1Ge||rech0tig0keit^*vor seinem Angesicht |3all 2uns1re ||Ta0ge.^pUnd du, Kind, wirst°Prophet°des°Höchsten°hei~ßen;^+denn du wirst dem |2Herrn 1vor||an0gehn^*und ihm 3den 2|Weg 1be||rei0ten.^pDu wirst sein Volk mit der Erfah2rung°1des°||Heils be|schen0ken^*in der Ver3|ge2bung 1der ||Sün0den.^pDurch die barmherzige Liebe |un2se1res°||Got0tes^*wird uns besuchen das aufstrahlende 3|Licht 2aus 1der ||Hö0he,^pum allen zu leuchten, die in Finsternis sitzen und°im°|Schat2ten°1des°||To0des,^*und unsre Schritte zu lenken auf 3den 2|Weg 1des ||Frie0dens.^p",
             "mode": "VIII",
             "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
@@ -23,7 +14,7 @@ const ordinariumData = {
         },
         'lat': {
             "titel": "BENEDICTUS",
-            "cant": "Benedictus^r\u2009+\u2009^0rDóminus Deus Israel,^*quia visitávit et fecit redemptiónem plebi suæ;^pet eréxit cornu salútis nobis,^*in domo David púeri sui,^psicut locútus est per os sanctórum,^*qui a sǽculo sunt, prophetárum eius,^psalútem ex inimícis nostris^*et de manu ómnium, qui odérunt nos;^pad faciéndam misericórdiam cum°pátribus°nostris^*et memorári testaménti sui sancti;^piusiurándum, quod iurávit ad°Abraham°patrem°nostrum,^*datúrum se nobis,^put sine timóre, de manu inimicórum°nostrórum liberáti,^*serviámus illi,^pin sanctitáte et iustítia coram ipso^*ómnibus diébus nostris.^pEt tu, puer, prophéta°Altíssimi°vocáberis:^*præíbis enim ante fáciem Dómini paráre vias eius,^pad dandam sciéntiam salútis plebi°eius,^*in remissiónem peccatórum eórum,^pper víscera misericórdiæ Dei nostri,^*in quibus visitávit nos óriens ex alto:^pillumináre his, qui in ténebris et°in°umbra°mortis°sedent,^*ad dirigéndos pedes nostros in viam pacis.",
+            "cant": "Benedictus^r\u2009+\u2009^0rDóminus 2|De1us ||Is0ra0el,^*quia visitávit et fecit redemptió3nem 2|ple1bi ||su0æ;^pet eréxit cornu sa2|lú1tis ||no0bis,^*in domo David 3|pú2e1ri ||su0i,^psicut locútus est per 2|os 1sanc||tó0rum,^*qui a sǽculo sunt, pro3phe2|tá1rum ||e0ius,^psalútem ex ini2|mí1cis ||no0stris^*et de manu ómni3um, 2|qui 1o||dér0unt nos;^pad faciéndam misericórdiam cum°|pá2tri1bus°||no0stris^*et memorári testamén3ti 2|su1i ||sanc0ti;^piusiurándum, quod iurávit ad°Abraham°2|pa1trem°||no0strum,^*da3|tú2rum 1se ||no0bis,^put sine timóre, de manu inimicórum°nostrórum 2|li1be||rá0ti,^*ser3vi2|á1mus ||il0li,^pin sanctitáte et iustítia 2|co1ram ||ip0so^*ómnibus 3di2|é1bus ||no0stris.^pEt tu, puer, prophéta°Al|tís0si2mi°1vo||cá0be0ris:^*præíbis enim ante fáciem Dómini pará3re 2|vi1as ||e0ius,^pad dandam sciéntiam salútis 2|ple1bi°||e0ius,^*in remissiónem pecca3|tó2rum 1e||ó0rum,^pper víscera misericórdiæ 2|De1i ||no0stri,^*in quibus visitávit nos |ó3ri2ens 1ex ||al0to:^pillumináre his, qui in ténebris et°in°2um1bra°||mor0tis°|se0dent,^*ad dirigéndos pedes nostros 3in 2|vi1am ||pa0cis.",
             "vu": "Pater noster, qui es in cælis:^lsanctificétur nomen tuum;^ladvéniat regnum tuum;^lfiat volúntas tua, sicut°in°cælo°et°in°terra.^lPanem nostrum cotidiánum da°nobis°hódie;^let dimítte nobis débita nostra,^lsicut et nos dimíttimus debitóribus°nostris;^let ne nos indúcas in tentatiónem;^lsed líbera nos a malo.",
             "closing": [
                 "Dóminus nos benedícat, et°ab°omni°malo°deféndat, et°ad°vitam°perdúcat°ætérnam.",
@@ -33,16 +24,6 @@ const ordinariumData = {
     },
     'vesper': {
         'dt': {
-            "titel": "MAGNIFICAT",
-            "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°Größe°des°Herrn,^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat°er°geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter!^pDenn der Mächtige hat°Großes°an°mir°getan,^*und sein Name ist heilig.^pEr erbarmt sich von°Geschlecht°zu°Geschlecht^*über alle, die ihn fürchten.^pEr vollbringt mit seinem Arm machtvolle°Taten;^*er zerstreut, die im Herzen voll Hochmut sind;^per stürzt die Mächtigen vom Thron^*und erhöht die Niedrigen.^pDie Hungernden beschenkt°er°mit°seinen°Gaben^*und lässt die Reichen leer ausgehn.^pEr nimmt sich seines°Knechtes°Israel°an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig.",
-            "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
-            "closing": [
-                "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
-                "Amen.",
-                "Wenn die Vesper in Gemeinschaft gefeiert wird, die Komplet jedoch nicht, empfiehlt es sich, statt der Komplet die Vesper mit der Marianischen Antiphon abzuschließen.",
-            ]
-        },
-        'cant': {
             "titel": "MAGNIFICAT",
             "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°|Grö2ße°1des°||Herrn,^*und mein Geist jubelt über 3|Gott, 2mei1nen ||Ret0ter.^pDenn auf die Niedrigkeit seiner |Magd hat°2er°1ge||schaut.^*Siehe, von nun an preisen mich selig 3|al2le 1Ge||schlech0ter!^pDenn der Mächtige hat°|Gro0ßes°an°2|mir°1ge||tan,^*und sein 3|Na2me 1ist ||hei0lig.^pEr erbarmt sich von°Ge|schlecht°2zu°1Ge||schlecht^*über al3le, 2|die 1ihn ||fürch0ten.^pEr vollbringt mit seinem Arm |macht2vol1le°||Ta0ten;^*er zerstreut, die im 3|Her2zen 1voll ||Hoch0mut sind;^per stürzt die |Mäch0ti2gen 1vom ||Thron^*und 3er2|höht 1die ||Nie0dri0gen.^pDie Hungernden beschenkt°er°mit°2|sei1nen°||Ga0ben^*und lässt 3die 2|Rei1chen ||leer aus0gehn.^pEr nimmt sich seines°Knechtes°|Is2ra1el°||an^*und denkt 3an 2|sein 1Er||bar0men,^pdas er unsern |Vä2tern 1ver||hei0ßen hat,^*Abraham und seinen |Nach3kom2men 1auf ||e0wig.",
             "mode": "IX",
@@ -55,7 +36,7 @@ const ordinariumData = {
         },
         'lat': {
             "titel": "MAGNIFICAT",
-            "cant": "Magníficat^r\u2009+^0r^*ánima mea Dóminum,^pet exsultávit spíritus meus^*in Deo salvatóre meo;^pquia respéxit humilitátem°ancíllæ°suæ.^*Ecce enim ex hoc beátam me dicent omnes generatiónes,^pquia fecit mihi magna, qui°potens°est:^*et sanctum nomen eius,^pet misericórdia eius in°progénies°et°progénies^*timéntibus eum.^pFecit poténtiam in brácchio suo,^*dispérsit supérbos mente cordis sui,^pdepósuit poténtes de sede,^*et exaltávit húmiles,^pesuriéntes implévit bonis,^*et dívites dimísit inánes.^pSuscépit Israel púerum suum,^*recordátus misericórdiæ,^psicut locútus est ad patres nostros,^*Abraham et sémini eius in sǽcula.",
+            "cant": "Magníficat^r\u2009+^0r^*áni3ma 2|me1a ||Dó0mi0num,^pet exsultávit |spí2ri1tus ||me0us^*in Deo sal3va2|tó1re ||me0o;^pquia respéxit humilitátem°an2|cíl1læ°||su0æ.^*Ecce enim ex hoc beátam me dicent omnes 3|ge2ne1ra||tió0nes,^pquia fecit mihi |ma2gna, 1qui°||po0tens°est:^*et sanc3tum 2|no1men ||e0ius,^pet misericórdia eius in°progénies°2|et°1pro||gé0ni0es^*ti3|mén2ti1bus ||e0um.^pFecit poténtiam in |brác2chi0o ||su0o,^*dispérsit supérbos men3te 2|cor1dis ||su0i,^pdepósuit po|tén2tes 1de ||se0de,^*et ex3al2|tá1vit ||hú0mi0les,^pesuriéntes im2|plé1vit ||bo0nis,^*et dívites di3|mí2sit 1in||á0nes.^pSuscépit Israel |pú2e1rum ||su0um,^*recordátus 3|mi2se1ri||cór0di0æ,^psicut locútus est ad 2|pa1tres ||no0stros,^*Abraham et sémini 3|e2ius 1in ||sǽ0cu0la.",
             "vu": "Pater noster, qui es in cælis:^lsanctificétur nomen tuum;^ladvéniat regnum tuum;^lfiat volúntas tua, sicut°in°cælo°et°in°terra.^lPanem nostrum cotidiánum da°nobis°hódie;^let dimítte nobis débita nostra,^lsicut et nos dimíttimus debitóribus°nostris;^let ne nos indúcas in tentatiónem;^lsed líbera nos a malo.",
             "closing": [
                 "Dóminus nos benedícat, et°ab°omni°malo°deféndat, et°ad°vitam°perdúcat°ætérnam.",
@@ -66,16 +47,6 @@ const ordinariumData = {
     },
     'komplet': {
         'dt': {
-            "confiteor": "Ich bekenne Gott, dem Allmächtigen, und allen Brüdern und Schwestern, dass ich Gutes unterlassen und Böses getan habe – ich habe gesündigt in Gedanken, Worten und Werken – ^r[alle°schlagen an die Brust]^0r durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige Jungfrau Maria, alle Engel und Heiligen und euch, Brüder und Schwestern, für mich zu beten bei Gott, unserem Herrn.",
-            "confiteor_v": "Der allmächtige Gott erbarme sich unser,^ler lasse uns die Sünden nach^lund führe uns zum ewigen Leben.",
-            "titel": "NUNC DIMITTIS",
-            "cant": "Nun^r\u2009+\u2009^0rlässt du, Herr, deinen Knecht,^*wie du gesagt hast, in Frieden scheiden.^pDenn meine Augen haben°das°Heil°gesehen,^*das du vor allen Völkern bereitet hast,^pein Licht, das die Heiden erleuchtet,^*und Herrlichkeit für dein Volk Israel.",
-            "closing": [
-                "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.",
-                "Amen."
-            ]
-        },
-        'cant': {
             "confiteor": "Ich bekenne Gott, dem Allmächtigen, und allen Brüdern und Schwestern, dass ich Gutes unterlassen und Böses getan habe – ich habe gesündigt in Gedanken, Worten und Werken – ^r[alle°schlagen an die Brust]^0r durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige Jungfrau Maria, alle Engel und Heiligen und euch, Brüder und Schwestern, für mich zu beten bei Gott, unserem Herrn.",
             "confiteor_v": "Der allmächtige Gott erbarme sich unser,^ler lasse uns die Sünden nach^lund führe uns zum ewigen Leben.",
             "titel": "NUNC DIMITTIS",
@@ -90,7 +61,7 @@ const ordinariumData = {
             "confiteor": "Confíteor Deo omnipoténti et vobis, fratres, quia peccávi nimis cogitatióne, verbo, opere et omissióne: mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, omnes Ángelos et Sanctos, et vos, fratres, oráre pro me ad Dóminum Deum nostrum.",
             "confiteor_v": "Misereátur nostri omnípotens Deus^let, dimíssis peccátis nostris,^lperdúcat nos ad vitam aetérnam.",
             "titel": "NUNC DIMITTIS",
-            "cant": "Nunc dimíttis^r\u2009+\u2009^0rservum tuum, Dómine,^*secúndum verbum tuum in pace;^pquia vidérunt óculi mei^*salutáre tuum,^pquod parásti^*ante fáciem ómnium populórum:^plumen ad revelatiónem géntium^*et glóriam plebis tuæ Israel.",
+            "cant": "Nunc dimíttis^r\u2009+\u2009^0rservum 2|tu1um, ||Dó0mi0ne,^*secúndum verbum 3|tu2um 1in ||pa0ce;^pquia vidérunt |ó2cu1li ||me0i^*sa3lu2|tá1re ||tu0um,^p2|quod 1pa||rá0sti^*ante fáciem ómni3um 2|po1pu||ló0rum:^plumen ad revelati2|ó1nem ||gén0ti0um^*et glóriam ple3bis 2|tu1æ ||Is0ra0el.",
             "closing": [
                 "Noctem quiétam et finem perféctum concédat°Dóminus°omnípotens.",
                 "Amen."
@@ -296,8 +267,7 @@ function getClosingTexts(hour, localPrefLanguage, useCommemoration) {
 }
 export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSource = '', prefSollemnity = false, useCommemoration = false) => {
 
-    const languageToRead = localPrefLanguage === '_lat' ? "lat"
-        : localPrefLanguage === '_cant' ? "cant" : "dt";
+    const languageToRead = localPrefLanguage === '_lat' ? "lat" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
 
     // Sonderfälle, die mit einem Stichwort als texts-Parameter abgerufen werden:

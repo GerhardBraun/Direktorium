@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useRef, useEffect } from 'react';
 import formatBibleRef from './BibleRefFormatter.js';
 import { psalmsData } from '../data/PsHymn.ts';
-import { formatCantMarkers, bracketTrim } from './CantFormatter.js';
+import { formatCantMarkers, stripCantMarkers, bracketTrim } from './CantFormatter.js';
 
 export const firstCapital = (word) => {
     if (!word || typeof word !== 'string') { return word }
@@ -10,7 +10,7 @@ export const firstCapital = (word) => {
         : word[0].toUpperCase() + word.slice(1).toLowerCase()
 }
 
-const resolveReference = (ref) => {
+export const resolveReference = (ref) => {
     if (!ref) return null;
 
     const wholePart = Math.floor(ref);
@@ -123,25 +123,19 @@ const psalmToneImageSrc = (mode) => `${process.env.PUBLIC_URL}/images/psalmtones
 
 const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
     if (localPrefLanguage === "_lat" && (isBuM || psalm.text_lat)) {
-        return "Glória Patri et Fílio^*"
-            + "et Spirítui Sancto.^p"
-            + "Sicut erat in princípio, et°nunc°et°semper,^*"
-            + "et in sǽcula sæculórum. Amen.";
+        return "Glória |Pa2tri 1et ||Fí0li0o^*"
+            + "et Spir3|í2tu1i ||Sanc0to.^p"
+            + "Sicut erat in princípio, et°2|nunc°1et°||sem0per,^*"
+            + "et in sǽcula sæ3cu2|ló1rum. ||A0men.";
     }
-    if (localPrefLanguage === "_cant" && (isBuM || psalm.text_cant)) {
-        return "Ehre sei dem |Va0ter 2und 1dem ||Sohn^*"
-            + "und 4dem 3|Hei2li1gen ||Geist,^p"
-            + "wie im Anfang, so°auch°2|jetzt°1und°||al0le°Zeit^*"
-            + "und in 3|E2wig1keit. ||A0men.";
-    }
-    return "Ehre sei dem Vater und dem Sohn^*"
-        + "und dem Heiligen Geist,^p"
-        + "wie im Anfang, so°auch°jetzt°und°alle°Zeit^*"
-        + "und in Ewigkeit. Amen.";
+    return "Ehre sei dem |Va0ter 2und 1dem ||Sohn^*"
+        + "und 4dem 3|Hei2li1gen ||Geist,^p"
+        + "wie im Anfang, so°auch°2|jetzt°1und°||al0le°Zeit^*"
+        + "und in 3|E2wig1keit. ||A0men.";
 };
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOverride = null, antIsFirst = false) => {
+export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOverride = null, antIsFirst = false, showCantMarkers = false) => {
     // num=0 für Invitatorium: keine verses, title, quote;
     // num=1-3 für Vigil: Ordinalzahlen bei den Cantica
     // num=-1 bei regulären Psalmen
@@ -164,12 +158,24 @@ export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOver
     text = text
         .replace(/\^INVANT/g, num ? '' : '^p^RUBR(Die Antiphon wird wiederholt.)^0RUBR')
         .replace(/\^INVlANT/g, num ? '' : '^p^RUBR(Repetitur antiphona.)^0RUBR')
-    const doxology = getDoxology(localPrefLanguage, psalm, isBuM);
-    const cantMode = localPrefLanguage !== '_cant' ? null :
-        isBuM ? modeOverride || psalmRef.mode
-            : psalm.text_cant
-                ? (modeOverride || psalm.text_mode) : null;
+    let doxology = getDoxology(localPrefLanguage, psalm, isBuM);
 
+    // Cant-Fähigkeit sprachunabhängig aus dem bereits aufgelösten Text ablesen (statt aus einem
+    // eigenen text_cant-Feld) — sobald künftig auch andere Sprachvarianten Marker erhalten,
+    // funktioniert das automatisch mit.
+    const isAnnotated = isBuM ? psalmRef.cant.includes('|') : text.includes('|');
+    const cantMode = showCantMarkers && isAnnotated
+        ? (isBuM ? (modeOverride || psalmRef.mode) : (modeOverride || psalm.text_mode))
+        : null;
+
+    // Ohne cantMode (showCantMarkers aus, oder dieser Text noch nicht annotiert) werden eventuell
+    // vorhandene Marker aus text UND doxology entfernt — unabhängig voneinander, damit z.B. eine
+    // bereits annotierte Doxologie sauber angezeigt wird, auch wenn der Psalmtext selbst noch nicht
+    // annotiert ist (oder umgekehrt).
+    if (!cantMode) {
+        text = stripCantMarkers(text);
+        doxology = stripCantMarkers(doxology);
+    }
 
     const ordinal = ['', 'Erstes ', 'Zweites ', 'Drittes ']
 
@@ -268,7 +274,7 @@ export const formatDirectoryText = (text) => {
     return formattedText;
 };
 
-// Komponente für den _cant-Modus: Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
+// Komponente für die gesungene Darstellung (showCantMarkers): Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
 const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonicalMode }) => {
     const [selectedMode, setSelectedMode] = useState(canonicalMode);
     const [showSelector, setShowSelector] = useState(false);
@@ -354,12 +360,12 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
             </div>
             {text && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText({ provText: text, localPrefLanguage: '_cant', marker: 'cant' + selectedMode })}
+                    {formatPrayerText({ provText: text, localPrefLanguage, marker: 'cant' + selectedMode })}
                 </div>
             )}
             {showDoxology && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText({ provText: doxology, localPrefLanguage: '_cant', marker: 'cant' + selectedMode })}
+                    {formatPrayerText({ provText: doxology, localPrefLanguage, marker: 'cant' + selectedMode })}
                 </div>
             )}
         </>
@@ -694,14 +700,18 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
         text = text
             .replace(/\^l/g, '\n')
 
-        // Verarbeitet ^ELL-Tags innerhalb eines Strings (für Verwendung in ^u/^b-Inhalten).
-        const renderWithEll = (s, keyPrefix) => {
-            if (!s.includes('^ELL')) return s;
-            return s.split(/(\^ELL.*?\^0ELL)/g).map((part, j) =>
-                part.startsWith('^ELL')
-                    ? <span key={`${keyPrefix}-ell-${j}`} className='italic' aria-hidden="true">{part.slice(4, -5)}</span>
-                    : part
-            );
+        // Verarbeitet ^ELL- und ^c-Tags innerhalb eines Strings (für Verwendung in ^u/^b-Inhalten),
+        // die formatCantMarkers dort verschachtelt haben kann (Elision bzw. Gottesname in Kapitälchen
+        // mitten in einer Kadenz-Silbengruppe).
+        const renderNestedTags = (s, keyPrefix) => {
+            if (!s.includes('^ELL') && !s.includes('^c')) return s;
+            return s.split(/(\^ELL.*?\^0ELL|\^c.*?\^0c)/g).map((part, j) => {
+                if (part.startsWith('^ELL'))
+                    return <span key={`${keyPrefix}-ell-${j}`} className='italic' aria-hidden="true">{part.slice(4, -5)}</span>;
+                if (part.startsWith('^c'))
+                    return <span key={`${keyPrefix}-c-${j}`} style={{ fontVariant: 'small-caps' }}>{part.slice(2, -3)}</span>;
+                return part;
+            });
         };
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
@@ -768,15 +778,15 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
                 return s || null;
             } else if (s.startsWith('^u')) {
                 const content = s.substring(2, s.length - 3);
-                return <span key={`underline-${mi}`} style={{ textDecoration: 'underline' }}>{renderWithEll(content, `u-${mi}`)}</span>;
+                return <span key={`underline-${mi}`} style={{ textDecoration: 'underline' }}>{renderNestedTags(content, `u-${mi}`)}</span>;
             } else if (s.startsWith('^b')) {
                 const content = s.substring(2, s.length - 3);
                 const { left, inner, right } = bracketTrim(content);
                 return (
                     <React.Fragment key={`cant-bracket-${mi}`}>
-                        {renderWithEll(left, `bl-${mi}`)}
-                        <span className="psalm-cant-bracket">{renderWithEll(inner || content, `bi-${mi}`)}</span>
-                        {'\u2060'}{renderWithEll(right, `br-${mi}`)}
+                        {renderNestedTags(left, `bl-${mi}`)}
+                        <span className="psalm-cant-bracket">{renderNestedTags(inner || content, `bi-${mi}`)}</span>
+                        {'\u2060'}{renderNestedTags(right, `br-${mi}`)}
                     </React.Fragment>
                 );
             } else if (s.startsWith('^d')) {

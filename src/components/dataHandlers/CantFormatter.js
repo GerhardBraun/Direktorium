@@ -1,6 +1,6 @@
-// Psalmodieberechnung für den _cant-Modus:
-// Wandelt abstrakte Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um.
-// Exportiert: formatCantMarkers, bracketTrim
+// Psalmodieberechnung für die gesungene Darstellung (showCantMarkers):
+// Wandelt abstrakte Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um (und umgekehrt für die Lesefassung).
+// Exportiert: formatCantMarkers, stripCantMarkers, bracketTrim
 
 // Psalmodie-Kadenzstruktur je Psalmton: { Mittelkadenz: [v, b], Schlusskadenz: [v, b] }
 // b: Anzahl der betonten Silben in der Kadenz (1 oder 2)
@@ -68,6 +68,20 @@ export const PSALM_TONE_CADENCE = {
     'VIIIF’': { mk: [0, 1], sk: [2, 1, 'noMasculineShift'] },
 
 };
+
+// Entfernt die abstrakten Gesangsmarker wieder aus dem Text (Gegenstück zu formatCantMarkers,
+// für die normale Lese-Darstellung wenn showCantMarkers=false bzw. der Psalm noch nicht
+// für den Gesang annotiert ist). Löst dieselben Text-/Buchstaben-Anpassungen auf, nur umgekehrt.
+// 0 wird nur entfernt, wenn sie nicht Teil eines schließenden Inline-Tags ist (^0r, ^0u, ^0RUBR usw.).
+export const stripCantMarkers = (text) => text
+    .replace(/\[([+-])([^\]]+)\]/g, (_, sign, content) => sign === '-' ? content : '')
+    .replace(/(?<!\^)\+e/g, '')
+    .replace(/(?<!\^)-e/g, 'e')
+    .replace(/(?<!\^)'e/g, 'e')
+    .replace(/\|{1,2}/g, '')
+    .replace(/[1-4]/g, '')
+    .replace(/~/g, '')
+    .replace(/(?<!\^)0/g, '');
 
 // Wandelt die abstrakten Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um.
 // Wird als Subroutine in formatPrayerText aufgerufen wenn marker === 'cant'.
@@ -555,7 +569,7 @@ const buildTaggedText = (slots, tone) => {
 // Links:  Anlaut-Konsonanten; bei öffnendem Diphthong auch erster Vokal → außerhalb Klammer.
 // Rechts: Auslaut-Konsonanten; bei schließendem Diphthong auch zweiter Vokal → außerhalb Klammer.
 // Wort-Trennzeichen (Leerzeichen, °) stoppen den Scan.
-const CANT_VOWEL_RE = /[aeiouäëïöüáéíóúàèìòùAEIOUÄÖÜÁÉÍÓÚÀÈÌÒÙ]/;
+const CANT_VOWEL_RE = /[aeiouæœäëïöüáéíóúǽœ́àèìòùAEIOUÄÖÜÁÉÍÓÚÀÈÌÒÙ]/;
 const CANT_DIPHTHONGS = new Set(['aa', 'ee', 'oo', 'ei', 'ai', 'au', 'eu', 'äu', 'ie', 'ae', 'oe']);
 export const bracketTrim = (content) => {
     // Wenn der Inhalt ^-Tags enthält (z. B. ^ELL...^0ELL durch Elisionsersetzung):
