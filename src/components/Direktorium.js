@@ -1857,7 +1857,7 @@ export default function Stundenbuch() {
                 <LanguageProgress />
               </div>
               <div className="mb-1 text-xs text-gray-500 dark:text-gray-400">
-                {renderDescriptionItem("StB:", "Stundenbuch: Einheitsübersetzung von 1983", false)}
+                {renderDescriptionItem("StB:", "Stundenbuch: Einheitsübersetzung von 1983")}
                 {renderDescriptionItem("lat.:", "Nova Vulgata")}
                 {unlockBenedictine && renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016")}
@@ -1871,7 +1871,8 @@ export default function Stundenbuch() {
                 {LanguageButton("_cant", "cant")}
               </div>
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">
-                <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
+                <p><b>Voreinstellung beim Programmstart:</b></p>
+                <p>{getLanguageName(storedPrefLanguage)}</p>
                 <p className="text-xs italic">(lange drücken zum Speichern als Grundeinstellung)</p>
               </div>
             </div>

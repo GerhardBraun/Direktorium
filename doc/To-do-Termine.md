@@ -1,7 +1,7 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
 
-**07-14** `Lesungen der Lesehore` ab Mi der 15. Woche i. Jkr.
+**07-18** `Lesungen der Lesehore` ab 16. Woche i. Jkr.
 **07-21** `Calendar-Lesungen`: ab 22. Juli
 **08-01** `Rufe vor dem Evangelium` ab 18. Woche i. Jkr.
 **ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.

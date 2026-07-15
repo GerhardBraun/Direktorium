@@ -12880,7 +12880,7 @@ export const brevierData = {
           "les_text": "Eure Liebe sei ohne Heuchelei. Verabscheut das Böse, haltet fest am Guten. Seid einander in brüderlicher Liebe zugetan, übertrefft euch in gegenseitiger Achtung. Lasst nicht nach in eurem Eifer, lasst euch vom Geist entflammen und dient dem Herrn. Seid fröhlich in der Hoffnung, geduldig in der Bedrängnis, beharrlich im Gebet.",
           "les_text_neu": "Die Liebe sei ohne Heuchelei. Verabscheut das Böse, haltet fest am Guten. Seid einander in brüderlicher Liebe zugetan, übertrefft euch in gegenseitiger Achtung. Lasst nicht nach in eurem Eifer, lasst euch vom Geist entflammen und dient dem Herrn. Freut euch in der Hoffnung, seid geduldig in der Bedrängnis, beharrlich im Gebet.",
           "resp1": "Fest wie der Himmel steht dein Wort,",
-          "resp2": "dein Wort, o°Herr, bleibt ewig.",
+          "resp2": "dein°Wort, o°Herr, bleibt°ewig.",
           "resp3": "Deine Treue währt durch alle Geschlechter,",
           "antev": "Mein Geist jubelt über Gott, meinen Herrn und meinen Retter.",
           "modeev": "VIII",
