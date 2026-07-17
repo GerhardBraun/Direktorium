@@ -288,9 +288,7 @@ export const lectureAlternatives = {
                 patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
                 patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes."
             },
-            {
-                group: "Lesungen von Mariengedenktagen zur°Auswahl°…",
-            },
+            { group: "Lesungen von Mariengedenktagen zur°Auswahl°…", },
             {
                 patr_autor: "Laurentius Justiniani (†°1455)",
                 patr_werk: "Aus einer Predigt am Fest der Darstellung des Herrn.",
@@ -1312,9 +1310,7 @@ export const lectureAlternatives_swd = {
                 patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
                 patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes."
             },
-            {
-                group: "Lesungen von Mariengedenktagen zur°Auswahl°…",
-            },
+            { group: "Lesungen von Mariengedenktagen zur°Auswahl°…", },
             {
                 patr_autor: "Laurentius Justiniani (†°1455)",
                 patr_werk: "Aus einer Predigt am Fest der Darstellung des Herrn.",
