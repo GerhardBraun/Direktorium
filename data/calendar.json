@@ -65,6 +65,7 @@
             "resp1": "Gesegnet bist du, Jungfrau Maria; denn du hast den Herrn getragen, den Schöpfer der Welt.",
             "resp2": "Du hast den geboren, der dich erschaffen hat, und bleibst Jungfrau für immer,",
             "resp3": "Sei gegrüßt, Maria, du Begnadete, der Herr ist mit dir.",
+            "patr_autor": "Athanasius († 373)",
             "patr_werk": "Aus dem Brief an Epiktet.",
             "patr_text": "^hDem ganzen Menschen ist Heil widerfahren^pDer Apostel sagt, das Wort habe sich der Nachkommenschaft Abrahams angenommen. Es musste darum in allem seinen Brüdern gleich sein {1#vgl.°Hebr°2,16–17} und einen uns ähnlichen Leib annehmen. Eben dafür war Maria erwählt: Von ihr sollte er ihn nehmen und als seinen eigenen für uns opfern.^pDie Schrift erwähnt die Geburt und sagt: „Sie wickelte ihn in Windeln“{2#vgl.°Lk 2,7}; die Brust, die ihn stillte, wird seliggepriesen{3#vgl.°Lk 11,27}, weil er der Erstgeborene war{4#vgl.°Lk 2,7}, wird für ihn das Opfer dargebracht.^pGabriel übermittelte ihr zurückhaltend die Botschaft{5#vgl.°Lk 1,14}. Er sagte nicht einfach: „Was in dir wird“, damit man nicht meint, der Leib werde von außen in sie hineingebracht. Er sagt vielmehr: „aus dir“; denn dies sollte der Glaube sein: „Was da gezeugt wird, hat seinen Ursprung^w aus ^0wihr.“^pDas war die Absicht: Das Wort nahm das Unsrige an und brachte es als Opfer dar und nahm es damit gänzlich hinweg. Als er uns dann mit dem Seinigen bekleidete, konnte der Apostel schreiben: „Dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit.“{6#vgl.°1 Kor 15,53}^pDas ist keine erdichtete Annahme, wie einige gemeint haben. Keineswegs! Als vielmehr der Erlöser wahrhaft Mensch wurde, erlangte der ganze Mensch das Heil. Unser Heil ist wahrhaft keine erdichtete Sache, und es geht nicht bloß den Leib, sondern den ganzen Menschen an: Leib und Seele ist im Wort Heil widerfahren.^pWas aus Maria gemäß der Schrift hervorging, war seinem Wesen nach ein wirklicher Mensch, und es war der wahre Leib des Herrn. Wirklich: ein wahrer Leib war es, weil er dem unsern gleich war. Denn Maria ist unsere Schwester, weil wir alle von Adam abstammen.^pWenn es bei Johannes heißt: „Das Wort ist Fleisch geworden“{7#Joh 1,14}, so ist damit dasselbe gemeint, wie wenn Paulus sagt: „Christus hat für uns den Fluch auf sich genommen.“{8#vgl.°Gal 3,13} Dem menschlichen Leib ist aus der Gemeinschaft mit dem Wort größerer Reichtum zugewachsen: denn aus dem sterblichen Leib wurde ein unsterblicher; er war ein irdischer Leib und wurde ein überirdischer{9#vgl.°1 Kor 15,44}; er war aus Erde gemacht und durfte dennoch das Tor des Himmels durchschreiten.^pDie Dreieinigkeit blieb immer Dreieinigkeit, auch nachdem das Wort aus Maria Fleisch angenommen hat, und sie erfuhr weder Zuwachs noch Minderung; sie ist vielmehr immer vollendet, und in der Dreieinigkeit wird der eine Gott erkannt. So wird von der Kirche verkündet: ein Gott, der Vater des Wortes!",
             "patr_resp1": "Heilige und unbefleckte Jungfrau, ich weiß nicht, mit welchem Lob ich dich preisen soll:",
@@ -501,8 +502,7 @@
           },
           "Vigil": {
             "ant0": "Heute ist der Gott des Himmels aller Welt erschienen, geboren von einer Frau. Die Weisen kommen mit Gaben und beten ihn an. So beugen auch wir die Knie vor ihm, der uns erlöst.^HALLxq",
-            "les_buch": "^A:vigil-Erscheinung:",
-            "les_text": "LEER",
+            "les_text": "vigil-Erscheinung",
             "hymn_1_lat": 3221.3,
             "ant0_lat": "Hódie in mundum nobis génuit puérpera Deum cæli, quem adórant magi, cui munus obtulérunt; omnes genu incurvémus et, qui redémit nos."
           },
@@ -662,9 +662,7 @@
             "psalm2": 199.114,
             "psalm3": 194.0,
             "ant0": "Jesus steigt in den Jordan hinab, die Wasser erbeben und weichen zurück. Und den Fluten entsteigt die neue Schöpfung.^HALLxq",
-            "les_buch": "^A:vigil-Taufe:",
-            "les_stelle": "^Q:Mt 28,1-10.16-20",
-            "les_text": "LEER",
+            "les_text": "vigil-Taufe",
             "les_text_neu": "",
             "ant0_lat": "Iordánis flúvius se retínuit, intránte Dómino, aqua contrémuit, nova creátio surxit de flúmine, quæ illúminat omne sæculum."
           },
@@ -1428,9 +1426,7 @@
             "psalm2": 182.0,
             "psalm3": 194.0,
             "ant0": "Freue dich und juble, Tochter Zion; denn siehe, ich komme und wohne in deiner Mitte – Spruch des Herrn.^HALLxq",
-            "les_buch": "^A:vigil-Darstellung:",
-            "les_stelle": "LEER",
-            "les_text": "LEER",
+            "les_text": "vigil-Darstellung",
             "ant0_lat": "Lauda et lætáre, fília Sion, quia ecce ego vénio et habitábo in médio tui, ait Dóminus."
           },
           "Laudes": {
@@ -2311,8 +2307,7 @@
             "psalm2": 199.106,
             "psalm3": 199.107,
             "ant0": "Wer treu ist, wird reich gesegnet, wer über seinen Herrn wacht, empfängt Ehre und Lob.^HALLo",
-            "les_buch": "^A:vigil-Josef:",
-            "les_text": "LEER",
+            "les_text": "vigil-Josef",
             "ant0_lat": "Vir fidélis multum laudábitur, et qui custos est Dómini sui glorificábitur.^ALLo"
           },
           "Laudes": {
@@ -2525,7 +2520,7 @@
             "psalm2": 182.0,
             "psalm3": 194.0,
             "ant0": "Freue dich und juble, Tochter Zion; denn siehe, ich komme und wohne in deiner Mitte – Spruch des Herrn.^HALLxq",
-            "les_stelle": "^Q:Mt 1,18-24",
+            "les_text": "Mt 1,18-24",
             "ant0_lat": "Lauda et lætáre, fília Sion, quia ecce ego vénio et habitábo in médio tui, ait Dóminus.^ALLo"
           },
           "Laudes": {
@@ -4151,20 +4146,7 @@
             "psalm2": 199.122,
             "psalm3": 199.123,
             "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^HALLo",
-            "les_buch": "^A:vigil-Himmelfahrt:Aus dem Brief an die Epheser.",
-            "les_stelle": "4,1-24",
-            "les_text": "^hEr stieg hinauf zur Höhe und°gab°den°Menschen°Geschenke^hAufruf zur Einheit^pIch, der ich um des Herrn willen im Gefängnis bin, ermahne euch, ein Leben zu führen, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch durch eure Berufung auch EINE gemeinsame Hoffnung gegeben ist; EIN Herr, EIN Glaube, EINE Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.^hDie Gnadengaben zum°Aufbau°der°Kirche^pAber jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat. Deshalb heißt es: Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. Wenn er aber hinaufstieg, was bedeutet dies anderes, als dass er auch zur Erde herabstieg? Derselbe, der herabstieg, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^pUnd er gab den einen das Apostelamt, andere setzte er als Propheten ein, andere als Evangelisten, andere als Hirten und Lehrer, um die Heiligen für die Erfüllung ihres Dienstes zu rüsten, für den Aufbau des Leibes Christi. So sollen wir alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir zum vollkommenen Menschen werden und Christus in seiner vollendeten Gestalt darstellen.^pWir sollen nicht mehr unmündige Kinder sein, ein Spiel der Wellen, hin und her getrieben von jedem Widerstreit der Meinungen, dem Betrug der Menschen ausgeliefert, der Verschlagenheit, die in die Irre führt. Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben.^pEr, Christus, ist das Haupt. Durch ihn wird der ganze Leib zusammengefügt und gefestigt in jedem einzelnen Gelenk. Jedes trägt mit der Kraft, die ihm zugemessen ist. So wächst der Leib und wird in Liebe aufgebaut.^hDer alte und der neue Mensch^pIch sage es euch und beschwöre euch im Herrn: Lebt nicht mehr wie die Heiden in ihrem nichtigen Denken! Ihr Sinn ist verfinstert. Sie sind dem Leben, das Gott schenkt, entfremdet durch die Unwissenheit, in der sie befangen sind, und durch die Verhärtung ihres Herzens. Haltlos wie sie sind, geben sie sich der Ausschweifung hin, um voll Gier jede Art von Gemeinheit zu begehen.^pDas aber entspricht nicht dem, was ihr von Christus gelernt habt. Ihr habt doch von ihm gehört und seid unterrichtet worden in der Wahrheit, die Jesus ist.^pLegt den alten Menschen ab, der in Verblendung und Begierde zugrunde geht, ändert euer früheres Leben und erneuert euren Geist und Sinn! Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist in wahrer Gerechtigkeit und Heiligkeit.",
-            "les_text_neu": "Christus ist hinaufgestiegen zur Höhe und hat Gefangene mitgeführt.",
-            "resp0": "Er hat den Menschen Gaben gespendet. Halleluja,°halleluja.",
-            "resp1": "Christus ist hinaufgestiegen zur Höhe und hat Gefangene mitgeführt.",
-            "resp2": "Er hat den Menschen Gaben gespendet. Halleluja,°halleluja.",
-            "resp3": "Gott stieg empor unter Jubel, der Herr beim Schall der Hörner.",
-            "patr_autor": "Augustinus (†°430)",
-            "patr_werk": "Aus einer Predigt auf Christi Himmelfahrt.",
-            "patr_text": "^hNiemand ist zum Himmel hinaufgestiegen außer°dem, der vom Himmel herabgestiegen ist^pHeute ist unser Herr Jesus Christus in den Himmel aufgestiegen. Mit ihm steige auch unser Herz empor.^pLasst uns den Apostel hören, der sagt: „Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische.“{1#Kol 3,1-2} Er ist aufgestiegen, aber nicht von uns gegangen. So sind auch wir mit ihm schon dort, wenn unser Leib auch noch nicht erfahren hat, was uns verheißen ist.^pEr ist schon über die Himmel erhoben. Dennoch leidet er noch auf Erden alle Mühen und Plagen, die wir, seine Glieder, empfinden. Das bezeugte er von oben, als er rief: „Saul, Saul, warum verfolgst du mich?“{2#Apg 9,4} und: „Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war fremd und obdachlos, und ihr habt mich aufgenommen.“{3#Mt 25,35}^pWarum mühen nicht auch wir uns so auf der Erde, dass wir durch Glauben, Hoffnung und Liebe, die uns mit ihm verbinden, schon jetzt mit ihm im Himmelreich ausruhen? Obwohl er dort ist, ist er bei uns, und obwohl wir noch hier sind, sind wir auch bei ihm. Das gilt bei ihm für seine Gottheit, seine Macht und seine Liebe. Wir vermögen es nicht wie er durch die Gottheit, aber wir vermögen es mit der Liebe, mit der Liebe zu ihm.^pEr verließ den Himmel nicht, als er von dort zu uns herabstieg. Auch ist er von uns nicht fortgegangen, als er wieder zum Himmel zurückkehrte. Dass er dort war, als er hier weilte, hat er mit den Worten bestätigt: „Niemand ist in den Himmel hinaufgestiegen außer dem, der vom Himmel herabgestiegen ist: der Menschensohn.“{4#Joh 3,13}^pDas ist wegen der Einheit gesagt, weil er unser Haupt ist und wir sein Leib sind. Denn der Apostel sagt: „Wie der Leib eine Einheit ist, doch viele Glieder hat, alle Glieder des Leibes aber, obgleich es viele sind, einen einzigen Leib bilden: so ist es auch mit Christus.“{5#1°Kor°12,12} Er sagt nicht: So ist es mit Christus, sondern: So ist es^w auch^0w mit Christus. Christus hat also zwar viele Glieder, aber nur EIN Leib.^pEr stieg vom Himmel herab aus Erbarmen. Niemand ist hinaufgestiegen als er, da auch wir nur in ihm hinaufgestiegen sind durch die Gnade. So ist niemand herabgestiegen außer Christus, und niemand ist hinaufgestiegen außer ihm.",
-            "patr_resp1": "Nach seinem Leiden erschien er ihnen vierzig Tage und sprach mit ihnen vom Reiche Gottes.",
-            "patr_resp2": "Er wurde vor ihren Augen erhoben. Halleluja.",
-            "patr_resp3": "Beim Mahl gebot er: Geht nicht weg von Jerusalem, sondern wartet auf die Verheißung des Vaters."
+            "les_text": "vigil-Himmelfahrt"
           },
           "Laudes": {
             "hymn_1": 3424.0,
@@ -4379,9 +4361,7 @@
           },
           "Vigil": {
             "ant0": "Ruhm und Ehre in Ewigkeit sei dem dreieinigen Gott: dem Vater und dem Sohn und dem Heiligen Geist.^HALLxq",
-            "les_buch": "^A:vigil-Dreifaltigkeit:",
-            "les_stelle": "",
-            "les_text": "LEER",
+            "les_text": "vigil-Dreifaltigkeit",
             "ant0_lat": "Laus et perénnis glória Deo Patri et Fílio, sancto simul Paráclito, in sǽcula sæculórum."
           },
           "Laudes": {
@@ -4629,9 +4609,7 @@
             "psalm2": 164.0,
             "psalm3": 199.105,
             "ant0": "Mein Fleisch ist wahrhaft eine Speise, und mein Blut ist wahrhaft ein Trank. Wer mein Fleisch isst und mein Blut trinkt, der hat das ewige Leben.^HALLxq",
-            "les_buch": "^A:vigil-Fronleichnam:",
-            "les_stelle": "",
-            "les_text": "LEER",
+            "les_text": "vigil-Fronleichnam",
             "ant0_lat": "Caro mea vere est cibus, et sanguis meus vere est potus. Qui mandúcat carnem meam et bibit sánguinem meum, habet vitam ætérnam, dicit Dóminus."
           },
           "Laudes": {
@@ -4863,9 +4841,7 @@
             "psalm2": 173.1,
             "psalm3": 173.2,
             "ant0": "Siehe, Gott ist mein Retter, ihm vertraue ich. Er wurde mir zum Heil.^HALLxq",
-            "les_buch": "^A:vigil-HerzJesu:",
-            "les_stelle": "",
-            "les_text": "LEER",
+            "les_text": "vigil-HerzJesu",
             "ant0_lat": "Ecce Deus salvátor meus; fiduciáliter agam, quia factus est mihi in salútem.^ALLxq"
           },
           "Laudes": {
@@ -5788,9 +5764,7 @@
             "psalm2": 199.106,
             "psalm3": 199.107,
             "ant0": "Könige werden es sehen und Fürsten sich erheben; sie werden niederfallen vor dem Herrn, deinem Gott, der dich erwählt hat.^HALLxq",
-            "les_buch": "^A:vigil-Johannes:",
-            "les_stelle": "^Q:Lk 1,5-17",
-            "les_text": "LEER",
+            "les_text": "vigil-Johannes",
             "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lAllmächtiger Gott, führe deine Kirche auf dem Weg des Heiles und gib uns die Gnade, den Weisungen Johannes des Täufers zu folgen, damit wir zu dem gelangen, den er vorausverkündet hat, zu unserem Herrn Jesus Christus, deinem Sohn,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lGott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegenzuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV",
             "ant0_lat": "Reges vidébunt et consúrgent príncipes, et adorábunt Dominum Deum tuum, qui elégit te.",
             "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lPræsta, quǽsumus, omnípotens Deus, ut família tua per viam salútis incédat, et, beáti Ioánnis Præcursóris hortaménta sectándo, ad eum quem prædíxit, secúra pervéniat, Dóminum nostrum Iesum Christum,^ORlR^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui beátum Ioánnem Baptístam suscitásti, ut perféctam plebem Christo Dómino præparáret, da pópulis tuis spiritálium grátiam gaudiórum, et ómnium fidélium mentes dírige in viam salútis et pacis.^ORlV"
@@ -5984,9 +5958,7 @@
             "psalm2": 199.103,
             "psalm3": 199.104,
             "ant0": "Vereint im Glauben und im Leiden, besiegelten sie ihre Predigt durch einen heldenhaften Tod und empfingen die Krone des ewigen Lebens.^HALLxq",
-            "les_buch": "^A:vigil-PeterPaul:",
-            "les_stelle": "^Q:Joh 21,1.15-19",
-            "les_text": "LEER",
+            "les_text": "vigil-PeterPaul",
             "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lHerr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lHerr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
             "ant0_lat": "Inseparábilis fides passióque germána laudábiles eos perpétuam transmísit ad vitam, quóniam doctrίnam suam morte fortίssima consecrarúnt.",
             "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lDa nobis, quǽsumus, Dómine Deus noster, beatórum apostolórum Petri et Pauli intercessiónibus sublevári, ut per quos Ecclésiæ tuæ supérni múneris rudiménta donásti, per eos subsídia perpétuæ salútis impéndas.^ORlV^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui huius diéi venerándam sanctámque lætítiam in apostolórum Petri et Pauli sollemnitáte tribuísti, da Ecclésiæ tuæ eórum in ómnibus sequi præcéptum, per quos religiónis sumpsit exórdium.^ORlV"
@@ -7942,9 +7914,7 @@
             "psalm2": 174.0,
             "psalm3": 193.0,
             "ant0": "Als die Jünger die Stimme aus der Wolke hörten, fielen sie auf ihr Angesicht nieder und fürchteten sich sehr. Da trat Jesus zu ihnen, rührte sie an und sprach: Steht auf und seid ohne Furcht.^HALLxq",
-            "les_buch": "^A:vigil-Verklärung:",
-            "les_stelle": "LEER",
-            "les_text": "LEER",
+            "les_text": "vigil-Verklärung",
             "ant0_lat": "Accéssit Iesus, et divíne vocis pavóre prostrátos tétigit discípulos suos dicens: Súrgite et nolíte timére."
           },
           "Laudes": {
@@ -8178,7 +8148,7 @@
             "psalm2": 193.2,
             "psalm3": 199.109,
             "ant0": "Maria, die Mutter des Herrn, wurde mit Seele und Leib in die Herrlichkeit des Himmels erhoben.^HALLxq",
-            "les_stelle": "^Q:Lk 11,27-28",
+            "les_text": "Lk 11,27-28",
             "ant0_lat": "Augústa Dei Mater, devícta morte, córpore et ánima ad supérnam cæli glóriam evécta est.^ALLxq"
           },
           "Laudes": {
@@ -9446,9 +9416,7 @@
             "psalm2": 174.0,
             "psalm3": 193.0,
             "ant0": "Heiliges Kreuz, erhabenes Zeichen des Sieges, gib uns in der Herrlichkeit des Himmels Anteil an deinem Triumph.^HALLxq",
-            "les_buch": "^A:vigil-Kreuzerhöhung:",
-            "les_stelle": "^Q:Joh 12,31-36a",
-            "les_text": "LEER",
+            "les_text": "vigil-Kreuzerhöhung",
             "ant0_lat": "O crux gloriósa, o°crux adoránda, o°lignum pretiósum et admirábile signum, per quod et diábolus est victus et mundus Christi sánguine redémptus.^ALLxq"
           },
           "Laudes": {
@@ -9728,7 +9696,7 @@
             "psalm2": 195.1,
             "psalm3": 195.2,
             "ant0": "Ihr seid hinzugetreten zum Berg Zion, zur Stadt des lebendigen Gottes, zum himmlischen Jerusalem und zu Tausenden von Engeln.^HALLxq",
-            "les_stelle": "^Q:Lk 1,26-38",
+            "les_text": "Lk 1,26-38",
             "ant0_lat": "Accessístis ad Sion montem et civitátem Dei vivéntis, Ierúsalem cæléstem, et multórum mílium angelórum frequéntiam."
           },
           "Laudes": {
@@ -11743,8 +11711,7 @@
             "psalm2": 195.1,
             "psalm3": 195.2,
             "ant0": "Preist den Herrn, ihr seine Heiligen alle, feiert Tage der Freude und singt sein Lob.^HALLxq",
-            "les_buch": "^A:vigil-Allerheiligen:",
-            "les_text": "LEER",
+            "les_text": "vigil-Allerheiligen",
             "ant0_lat": "Benedícite Dóminum, omnes elécti eius; ágite dies lætítiæ et confitémini illi."
           },
           "Laudes": {
@@ -12884,6 +12851,7 @@
             "psalm2": 193.2,
             "psalm3": 199.109,
             "ant0": "Sei gegrüßt, du Rose des Paradieses, erblüht durch Gottes Wohlgefallen. Sei gegrüßt, du Braut in goldenem Geschmeide. Dich hat der Herr über die Engel geliebt.^HALLxq",
+            "les_text": "LEER",
             "ant0_lat": "Ave, rosa paradísi, frondens in grátiam Dei; ave, sponsa áureis monílibu ornáta; ave, placens Deo super angélico iucunditátis gáudio."
           },
           "Laudes": {
@@ -13054,7 +13022,7 @@
           },
           "Vigil": {
             "ant0": "Immanuel wird sein Name sein: Gott mit uns.^HALLxq",
-            "les_stelle": "^Q:Mt 1,1-25",
+            "les_text": "Mt 1,1-25",
             "ant0_lat": "Vocábitur nomen eius Emmánuel, quod interpretátur „Nobíscum-Deus“."
           },
           "Laudes": {
