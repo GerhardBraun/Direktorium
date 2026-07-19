@@ -1,10 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
-import { lectureAlternatives, namesOfBooks } from '../data/LectureAlternatives.ts';
-import { evangelien } from '../data/Evangelien.ts';
+import { namesOfBooks } from '../data/NamesOfBooks.ts';
 
 const LectureSelector = ({
-    texts,
     hour,
     prefSource,
     prefSollemnity,
@@ -29,31 +27,6 @@ const LectureSelector = ({
         second: new Set()
     });
 
-    // Hilfsfunktionen für das folgende useMemo
-    const extractKeyword = (field) => {
-        const text = getValue(field)
-        if (!text || !text.startsWith('^A:')) return null;
-        const match = text.match(/^\^A:([^:]+):/);
-        return match ? match[1] : null;
-    };
-
-    const resolvePerikopen = (alternatives) => {
-        return alternatives.map(alt => {
-            if (alt?.les_stelle?.startsWith('^Q:')) {
-                const perikopenKey = alt.les_stelle.substring(3); // Entferne '^Q:'
-                const perikopenData = evangelien[perikopenKey];
-                if (perikopenData) {
-                    // Überschreibe Felder mit Perikopen-Daten
-                    return {
-                        ...alt,
-                        ...perikopenData
-                    };
-                }
-            }
-            return alt;
-        });
-    };
-
     const abbreviate = (text) => {
         if (!text) return text;
 
@@ -75,21 +48,18 @@ const LectureSelector = ({
         return extractedTitle;
     };
 
-    const checkLanguageField = (field, alternativeData, titleField = null) => {
-        if (!field || !alternativeData) return null;
+    // bareField: präfixloser Feldname im Array-Eintrag (z.B. 'text', 'werk', 'resp1')
+    const checkLanguageField = (bareField, altData, titleField = null) => {
+        if (!bareField || !altData) return null;
 
-        const languageField = field + localPrefLanguage;
-        let result;
-
-        if (getValue(field)?.endsWith(localPrefLanguage)) {
-            result = alternativeData[languageField] || alternativeData[field] || null;
-        } else {
-            result = alternativeData[field] || '';
-        }
+        const languageField = bareField + localPrefLanguage;
+        const result = localPrefLanguage
+            ? (altData[languageField] || altData[bareField] || null)
+            : (altData[bareField] || '');
 
         // Wenn ein titleField angegeben ist, versuche eine Überschrift zu extrahieren
-        if (titleField && alternativeData[titleField]) {
-            const titleText = alternativeData[titleField + localPrefLanguage] || alternativeData[titleField];
+        if (titleField && altData[titleField]) {
+            const titleText = altData[titleField + localPrefLanguage] || altData[titleField];
             const extractedTitle = extractTitle(titleText);
             if (extractedTitle) {
                 return extractedTitle;
@@ -99,87 +69,62 @@ const LectureSelector = ({
         return result;
     };
 
-    const standard = useMemo(() => {
-        let result = {};
-
-        // Alle Felder durchlaufen und Werte sammeln
-        ['les_buch', 'les_stelle', 'les_text', 'resp1',
-            'patr_autor', 'patr_werk', 'patr_text', 'patr_resp1'
-        ].forEach(field => {
-            result[field] = getValue(field) || '';
-        });
-        // Perikopen-Verarbeitung mit Querverweisen
-        ['les_stelle', 'patr_werk'].forEach(field => {
-            if (result[field]?.startsWith('^Q:')) {
-                const perikopenKey = result[field].substring(3);
-                const perikopenData = evangelien[perikopenKey];
-                if (perikopenData) {
-                    result = { ...result, ...perikopenData };
-                }
-            }
-        });
-        return result;
-    }, [getValue]);
+    // les_selector/patr_selector sind bereits vollständig aufgelöste Arrays
+    // (Alternativen- und Perikopen-Abgleich sowie ExcludeYear-Filterung erfolgen
+    // im BrevierDataProcessor); ohne Alternativen liefert getValue hier null.
+    const lesSelector = getValue('les_selector');
+    const patrSelector = getValue('patr_selector');
 
     // Prüfe verfügbare Alternativen
     const availableAlternatives = useMemo(() => {
-        const firstKeyword = extractKeyword('les_buch');
-        const secondKeyword = extractKeyword('patr_autor');
-
-        const provFirstAlternatives = lectureAlternatives[firstKeyword]?.first || [];
-        const provSecondAlternatives = lectureAlternatives[secondKeyword]?.second || [];
-
-        const firstAlternatives = resolvePerikopen(provFirstAlternatives);
-        const secondAlternatives = resolvePerikopen(provSecondAlternatives);
-
-
-        // Funktion zum Verarbeiten der Alternativen mit Gruppen
-        const processAlternatives = (alternatives, lectureType, keyword) => {
+        // Verarbeitet ein Selector-Array (les_selector/patr_selector) inkl. Gruppen
+        const processSelectorArray = (selectorArray, lectureType) => {
             const processedAlternatives = [];
             const groups = new Map(); // Map für Gruppen: groupName -> groupData
 
-            const fieldAutor = lectureType === 'first' ? 'les_buch' : 'patr_autor'
-            const fieldWerk = lectureType === 'first' ? 'les_stelle' : 'patr_werk'
-            const fieldText = lectureType === 'first' ? 'les_text' : 'patr_text'
-            const fieldResp1 = lectureType === 'first' ? 'resp1' : 'patr_resp1'
+            if (!selectorArray) {
+                return {
+                    alternatives: processedAlternatives, groups,
+                    hasAlternatives: false, hasAlternativeText: false,
+                    onlyAlternativeResp: false, defaultIndex: 0
+                };
+            }
+
+            const fieldAutor = lectureType === 'first' ? 'buch' : 'autor'
+            const fieldWerk = lectureType === 'first' ? 'stelle' : 'werk'
+            const fieldText = 'text'
+            const fieldResp1 = 'resp1'
 
             const longBookname = (altData) => {
                 if (lectureType !== 'first' || !altData) return '';
-                const bookname = altData?.les_buch || ''
+                const bookname = altData?.[fieldAutor] || ''
                 return (bookname.startsWith('Lesung aus')
                     || bookname.startsWith('Aus de'))
                     ? bookname : ''
             }
 
-            const getButtonText = (buttonType, altData) => {
-                if (!buttonType || !altData) return '';
-                if (altData?.button) return formatPrayerText(altData.button)
+            const getButtonText = (altData) => {
+                if (!altData) return '';
+                if (altData.button) return formatPrayerText(altData.button)
 
                 if (longBookname(altData)) {
                     const title = extractTitle(checkLanguageField(fieldText, altData))
                     if (title) return formatPrayerText(title)
                 }
-                let connector = lectureType !== 'first' ? ':' : ''
+                const connector = lectureType !== 'first' ? ':' : ''
 
-                let text1 = standard?.[fieldAutor]
-                let text2 = extractTitle(standard?.[fieldText])
-                    || standard?.[fieldWerk]
-
-                if (buttonType !== 'standard') {
-                    text1 = checkLanguageField(fieldAutor, altData)
-                    text2 = lectureType === 'first'
-                        ? checkLanguageField(fieldWerk, altData)
-                        : checkLanguageField(fieldWerk, altData, fieldText)
-                }
+                let text1 = checkLanguageField(fieldAutor, altData)
+                let text2 = lectureType === 'first'
+                    ? checkLanguageField(fieldWerk, altData)
+                    : checkLanguageField(fieldWerk, altData, fieldText)
 
                 text1 = (!text1 || text1?.startsWith('LEER'))
                     ? '' : text1.replace(/ \(.*$/, '').trim();
                 text2 = (!text2 || text2?.startsWith('LEER'))
                     ? '' : text2;
-                connector = text1 && text2 ? connector + ' ' : '';
+                const conn = text1 && text2 ? connector + ' ' : '';
 
-                return formatPrayerText(text1 + connector + text2)
-
+                return formatPrayerText(text1 + conn + text2)
             };
 
             const getBezug = (altData, excludeYear = '') => {
@@ -199,72 +144,42 @@ const LectureSelector = ({
                     }
                     if (evAbbr !== "LEER") {
                         resultExclusion = resultExclusion ? resultExclusion + ': ' : ''
-                        return formatBibleRef(resultExclusion + evAbbr + ' ' + altData.les_stelle, true)
+                        return formatBibleRef(resultExclusion + evAbbr + ' ' + altData[fieldWerk], true)
                     }
                 }
                 return (resultExclusion) ? '(' + resultExclusion + ')' : null
             }
 
-            // Standard-Button (immer Index 0)
-            if (keyword && alternatives.length > 0) {
-                processedAlternatives.push({
-                    index: 0,
-                    hide: standard?.[fieldText] === 'LEER',
-                    marian: keyword.includes('Maria'),
-                    buttonText: getButtonText('standard', standard),
-                    buttonResp: abbreviate(standard?.[fieldResp1]),
-                    bezug: getBezug(standard),
-                    hasText: !!standard?.[fieldText] && standard?.[fieldText] !== 'LEER',
-                    onlyResp: !standard?.[fieldText] && !!standard?.[fieldResp1],
-                });
-            }
-
-            // Verarbeite Alternativen und erkenne Gruppen
             let currentGroup = null;
 
-            alternatives.forEach((altData, index) => {
+            selectorArray.forEach((altData, index) => {
                 if (!altData) return;
 
-                // Prüfe excludeYear-Bedingung
-                const excludeYear = altData?.excludeYear || ''
-                if (excludeYear === texts.yearABC ||
-                    (excludeYear === '!so' && texts.dayOfWeek > 0)
-                ) {
-                    return; // Überspringe diese Alternative
-                }
-
-                const actualIndex = index + 1; // +1 wegen Standard bei Index 0
-
-                // Prüfe ob dies ein Gruppen-Eintrag ist
+                // Gruppen-Header: reiner Marker, alle folgenden Einträge gehören dazu
                 if (altData.group) {
                     currentGroup = altData.group;
                     groups.set(currentGroup, []);
-                    return; // Gruppen-Eintrag wird nicht als normale Alternative hinzugefügt
+                    return;
                 }
 
-                // Erstelle Alternative
                 const alternative = {
-                    index: actualIndex,
-                    marian: keyword.includes('Maria'),
-                    buttonText: getButtonText('alternative', altData),
+                    index,
+                    hide: altData[fieldText] === 'LEER',
+                    buttonText: getButtonText(altData),
                     buttonResp: abbreviate(checkLanguageField(fieldResp1, altData)),
-                    bezug: getBezug(altData, excludeYear),
-                    hasText: !!altData[fieldText],
+                    bezug: getBezug(altData, altData.excludeYear || ''),
+                    hasText: !!altData[fieldText] && altData[fieldText] !== 'LEER',
                     onlyResp: !altData[fieldText] && !!altData[fieldResp1],
-                    // content und groupName entfernt - werden direkt in selected() behandelt
-                    content: altData // Nur die Rohdaten für selected()
+                    content: altData // Rohdaten für selected()
                 };
 
                 if (currentGroup) {
-                    // Zur aktuellen Gruppe hinzufügen
                     groups.get(currentGroup).push(alternative);
                 } else {
-                    // Normale Alternative ohne Gruppe
                     processedAlternatives.push(alternative);
                 }
             });
 
-            // Rest der Funktion bleibt unverändert...
             const hasAlternatives = processedAlternatives.filter(alt => !alt.hide).length > 1 ||
                 Array.from(groups.values()).some(groupItems =>
                     groupItems.filter(item => !item.hide).length > 0);
@@ -293,41 +208,34 @@ const LectureSelector = ({
             };
         };
         return {
-            first: processAlternatives(firstAlternatives, 'first', firstKeyword),
-            second: processAlternatives(secondAlternatives, 'second', secondKeyword)
+            first: processSelectorArray(lesSelector, 'first'),
+            second: processSelectorArray(patrSelector, 'second')
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [getValue, localPrefLanguage, formatPrayerText, texts.yearABC]);
+    }, [lesSelector, patrSelector, localPrefLanguage, formatPrayerText]);
 
     // Funktion für die Auswahl der anzuzeigenden Daten
     const selected = (field) => {
         const lectureType = field.startsWith('patr_') ? 'second' : 'first';
+        const selectorArray = lectureType === 'first' ? lesSelector : patrSelector;
+
+        // Kein Selector vorhanden: einfache Anzeige direkt aus getValue (wie bei Tagen ohne Alternativen)
+        if (!selectorArray) return getValue(field);
+
+        const bareField = field.replace(/^(les_|patr_)/, '');
+        const languageField = bareField + localPrefLanguage;
         const selectedIndex = selectedLecture[lectureType];
-        const languageField = field + localPrefLanguage;
-        const standardValue = standard[languageField] || standard[field] || getValue(field);
+        const entry = selectorArray[selectedIndex] || selectorArray[0];
 
-        // Wenn Index 0 (Standard) oder keine Alternativen, verwende Standard-Werte
-        if (selectedIndex === 0 || !availableAlternatives[lectureType].hasAlternatives) {
-            return standardValue;
+        let value = entry?.[languageField] || entry?.[bareField];
+        // Fehlt ein Feld im gewählten Eintrag (z.B. Lesungstext bei einer reinen
+        // Responsorium-Alternative), auf Index 0 zurückfallen - wie zuvor der
+        // generische Fallback auf den Standardwert.
+        if (!value && selectedIndex !== 0) {
+            const first = selectorArray[0];
+            value = first?.[languageField] || first?.[bareField];
         }
-
-        // Suche in normalen Alternativen
-        let alternative = availableAlternatives[lectureType].alternatives
-            .find(alt => alt.index === selectedIndex);
-
-        // Wenn nicht gefunden, suche in Gruppen
-        if (!alternative) {
-            for (const groupItems of availableAlternatives[lectureType].groups.values()) {
-                alternative = groupItems.find(item => item.index === selectedIndex);
-                if (alternative) break;
-            }
-        }
-
-        if (!alternative?.content) return standardValue;
-
-        return alternative.content[languageField]
-            || alternative.content[field]
-            || standardValue;
+        return value || null;
     };
 
     // Toggle Funktion für Gruppen
@@ -360,11 +268,7 @@ const LectureSelector = ({
         };
 
         const getButtonColor = (button) => {
-            const { index, marian } = button
-            if (index === 0) { // Standard
-                return marian ? 'btn-blue' : 'btn-default';
-            }
-            return marian ? 'btn-blue' : 'btn-brown';
+            return button.index === 0 ? 'btn-default' : 'btn-brown';
         };
 
         const renderButton = (button, showGroupLabel = false, isFirstVisible = false) => (
@@ -485,8 +389,8 @@ const LectureSelector = ({
     }, [availableAlternatives]);
 
     // Prüfe ob überhaupt Lesungen vorhanden sind
-    const hasFirstLecture = standard?.['les_text'];
-    const hasSecondLecture = standard?.['patr_text'];
+    const hasFirstLecture = !!selected('les_text');
+    const hasSecondLecture = !!selected('patr_text');
 
     if (!hasFirstLecture && !hasSecondLecture) {
         return null;

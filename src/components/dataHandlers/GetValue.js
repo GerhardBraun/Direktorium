@@ -80,8 +80,11 @@ export const getValue = ({
                 + add
                 + localPrefLanguage;
         }
-        else if (languageResult)
-            return languageResult + localPrefLanguage;
+        else if (languageResult) {
+            return typeof languageResult === 'string'
+                ? languageResult + localPrefLanguage
+                : languageResult;
+        }
         return standardResult;
     }
 

@@ -58,11 +58,11 @@ Wenn die ^A- und ^Q-Tags nicht mehr verwendet werden, kann deren Löschung durch
 3. Aufgabenteilung LectureSelector ↔ BrevierDataProcessor:
    - **BrevierDataProcessor**: löst ^A/^Q auf, baut les_selector/patr_selector-Arrays, wertet excludeYear aus (Einträge werden dort schon gefiltert, nicht erst beim Rendern).
    - **LectureSelector**: bleibt reine Darstellungslogik ohne Datenbankzugriff – Buttons rendern, Auswahl-State verwalten, `bezug`-Text anzeigen (falls vorhanden), `button`-Text ableiten (siehe Punkt 4).
-4. `bezug` ist ein einfaches Textfeld, das im LectureSelector gerendert wird, falls vorhanden.
+4. `bezug` ist primär ein einfaches Textfeld, das im LectureSelector gerendert wird, falls vorhanden. Ist es leer, berechnet `getBezug()` im LectureSelector ersatzweise eine Bibelstellen-Angabe (nur für les-Alternativen mit Perikopen-Buchtext, via `namesOfBooks`) bzw. einen Lesejahr-Hinweis aus `excludeYear` (siehe Punkt 6) – wie im alten Code.
 5. `button`-Ableitung: Kommt kein `button`-Feld aus der Datenbank mit ins texts-Objekt, ermittelt der LectureSelector den Button-Text aus dem Textanfang zwischen `^h` und `^p` (entspricht der bereits vorhandenen `extractTitle()`-Logik).
 
-6. **`namesOfBooks` entfällt ganz.** Es gibt keine Perikope, die je nach Hore mal die lange Buchbezeichnung (Lesehore), mal die Abkürzung (Kurzlesungen) braucht – die Funktion war praktisch nie nötig.
-   - Damit entfallen auch die verwandten, nie fertig angebundenen Ansätze **`bibleBooks`/`replaceBibleRef`** (Fuzzy-Matching-Normalisierung von Bibelbuchnamen, LectureAlternatives.ts ab Z. 1823) – hingen mit derselben Idee wie `namesOfBooks` zusammen, werden nirgendwo im Code importiert.
+6. **`namesOfBooks` bleibt erhalten** (Korrektur einer früheren Entscheidung in dieser Runde: zunächst als entbehrlich eingestuft, dann aber vermisst, weil ohne diese Zuordnung die Bibelstellen-Angabe unter den Auswahl-Buttons der Vigil-Perikopen fehlte). Wohnt jetzt in einer eigenständigen Datei `NamesOfBooks.ts`, damit sie bei der Excel-Regenerierung von `LectureAlternatives.ts` nicht überschrieben wird. `getBezug()` in LectureSelector.js bleibt dafür bestehen (unverändert aus dem alten Code übernommen, nur auf präfixlose Feldnamen umgestellt).
+   - Die verwandten, nie fertig angebundenen Ansätze **`bibleBooks`/`replaceBibleRef`** (Fuzzy-Matching-Normalisierung von Bibelbuchnamen, LectureAlternatives.ts ab Z. 1823) bleiben trotzdem entfernt – die hingen nur lose mit derselben Idee wie `namesOfBooks` zusammen, wurden nirgendwo im Code importiert und leisteten nichts, was `getBezug()` bräuchte.
    - Ebenfalls zu entfernen: **`lectureAlternatives_swd`** (LectureAlternatives.ts Z. 1030-1703) – ein verworfener Alternativ-Ansatz, Alternativen über Datum (swd-/mmdd-Format) statt über Lookup-Keys aufzulösen; nirgendwo im Code verwendet.
 7. **`group`-Semantik bleibt wie bisher**: ein Array-Eintrag mit `group: "Name"` ist ein reiner Header, alle nachfolgenden Einträge gehören zur Gruppe, kein „Schließen" zugunsten wieder ungruppierter Einträge danach.
 8. **Sonderfall „first UND second" ist unproblematisch**: Dasselbe Keyword steht sowohl in les_text als auch in patr_text. Für les_text wird unter dem Stichwort der les_selector-Eintrag (bisher first) gelesen, für patr_text unabhängig davon der patr_selector-Eintrag (bisher second). Keine zusätzliche Logik nötig.
@@ -76,13 +76,20 @@ Wenn die ^A- und ^Q-Tags nicht mehr verwendet werden, kann deren Löschung durch
     - Nebeneffekt: bereinigt die bisherige Inkonsistenz, dass `second`-Einträge in LectureAlternatives.ts bislang `patr_resp1` (mit Präfix) hießen, `first`-Einträge aber schon `resp1` (ohne Präfix) – künftig einheitlich `resp1` in beiden Arrays.
     - Die **Top-Level-Feldnamen im texts-Objekt** (`les_buch`, `les_text`, `patr_resp1` usw., für Fälle ohne Alternativen) bleiben unverändert – keine Umbenennung dort, um Fehlerquellen zu vermeiden.
 11. **Sonderfall: diözesane Referenz + Alternative (z.B. Trier 7.11., Willibrord/Alkuin)**. Bisher: `resolveAndMergeSource` (BrevierDataProcessor.js Z. 61-68) löst `Laudes.referenz` (z.B. `AAA-11-7-n1`) auf und mergt die diözesane Override-Ebene (`data`) über die referenzierten Realdaten (`resolvedData`) via `deepMerge(resolvedData, data)`. Bisher stand der `^A`-Tag nur in `patr_autor`, so dass `patr_text` unangetastet blieb und die ererbte Alkuin-Lesung aus AAA als Standard erhalten blieb.
-    - **Problem beim Umbau**: Künftig steht der Lookup-Key direkt in `patr_text` (z.B. `"Trier-11-07"`). Würde `data.patr_text` unverändert in den Merge gehen, überschriebe der bloße Key beim `deepMerge` den ererbten Alkuin-Realtext aus `resolvedData` – der Standard ginge verloren.
-    - **Lösung**: `resolveAndMergeSource` bekommt eine minimale Ergänzung, die nur das Clobbering verhindert (Array-Logik bleibt zentral in der allgemeinen Auflösungsfunktion):
+    - **`REF&`-Präfix als Weiche**: Nicht jeder Lookup-Key an einem referenzierten Tag soll den ererbten Realtext als Standard übernehmen. Ob das gewünscht ist, wird explizit über ein Präfix `REF&` im Key markiert:
+      - **Mit `REF&`** (Beispiel Limburg 15.5., Keyword `REF&Limburg-05-15`, Referenz `Trier-5-15-d1`): Die ererbte Trierer Eigenfeier-Lesung wird als Index-0-Standard übernommen, ergänzt um die Limburger Alternative(n) aus `LectureAlternatives.ts["Limburg-05-15"]`.
+      - **Ohne `REF&`** (Beispiel Speyer 30.6., Keyword `Speyer-06-30`, Referenz `AAA-6-30-d1`): Die Referenz gilt zwar für andere Felder (Psalmen, Orationen etc.), aber **nicht** für die Lesung. Hier ist **keine Sonderbehandlung nötig**: `data.patr_text` enthält einfach den bloßen Key `"Speyer-06-30"` (ohne Präfix), und `deepMerge(resolvedData, data)` überschreibt damit ganz normal den ererbten AAA-Text – wie es sein soll, denn `data` liegt beim Merge über `resolvedData`. Die allgemeine Auflösungsfunktion sieht in `patr_text` danach nur noch den bloßen Key und baut das Array wie im Normalfall komplett statisch aus `LectureAlternatives.ts["Speyer-06-30"]` (drei Alternativen inkl. eigenem Index-0-Standard).
+    - **Problem beim `REF&`-Fall**: Würde `data.patr_text = "REF&Limburg-05-15"` unverändert in den Merge gehen, überschriebe der Key beim `deepMerge` den ererbten Trierer Realtext aus `resolvedData` – der Standard ginge verloren.
+    - **Lösung**: `resolveAndMergeSource` bekommt eine minimale Ergänzung, die nur im `REF&`-Fall greift und nur das Clobbering verhindert (Array-Logik bleibt zentral in der allgemeinen Auflösungsfunktion):
       ```js
       ['les_text', 'patr_text'].forEach(field => {
-          if (reference && data[field] && lectureAlternatives[data[field]]) {
-              data[`${field}_selectorKeyword`] = data[field];
-              delete data[field];
+          const raw = data[field];
+          if (reference && typeof raw === 'string' && raw.startsWith('REF&')) {
+              const keyword = raw.slice(4);
+              if (lectureAlternatives[keyword]) {
+                  data[`${field}_selectorKeyword`] = keyword; // ohne REF&-Präfix gespeichert
+                  delete data[field]; // deepMerge reicht den ererbten Realtext unverändert durch
+              }
           }
       });
       ```

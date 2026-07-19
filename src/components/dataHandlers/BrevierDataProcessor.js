@@ -18,6 +18,8 @@ import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
 import { calendarData } from '../data/Calendar.ts';
 import { calendar1962Data } from '../data/Calendar1962.ts';
+import { perikopen } from '../data/Perikopen.ts';
+import { lectureAlternatives } from '../data/LectureAlternatives.ts';
 
 const personalData = (() => {
     try {
@@ -64,6 +66,31 @@ function resolveAndMergeSource(sourceData) {
     const reference = data?.Laudes?.referenz || '';
     let resolvedData = reference ? getReferenceData(reference) : {};
     delete data.reference;
+
+    // REF&-Präfix: der ererbte Realtext aus der Referenz soll als Index-0-Standard
+    // im Selector landen (siehe resolveLectureSelectors). Der bloße Lookup-Key muss
+    // dafür vor dem Merge aus dem Textfeld genommen werden, sonst überschriebe er
+    // beim deepMerge den ererbten Text. Ohne REF&-Präfix ist keine Sonderbehandlung
+    // nötig: der Key bleibt im Textfeld und überschreibt die Referenz ganz normal.
+    // data enthält alle Horen dieser Source (Lesehore, Laudes, …) als Unterobjekte,
+    // les_text/patr_text stecken also z.B. in data.Lesehore.les_text, nicht in data.les_text.
+    if (reference) {
+        Object.keys(data).forEach(hourKey => {
+            const hourData = data[hourKey];
+            if (!hourData || typeof hourData !== 'object') return;
+            ['les_text', 'patr_text'].forEach(field => {
+                const raw = hourData[field];
+                if (typeof raw === 'string' && raw.startsWith('REF&')) {
+                    const keyword = raw.slice(4);
+                    if (lectureAlternatives[keyword]) {
+                        hourData[`${field}_selectorKeyword`] = keyword;
+                        delete hourData[field];
+                    }
+                }
+            });
+        });
+    }
+
     return deepMerge(resolvedData, data);
 }
 
@@ -774,6 +801,113 @@ function processEasterResponses(hours) {
     return hours;
 }
 
+// Feldzuordnung für die Synthese des Index-0-Standards (REF&-Fall) bzw. für den
+// Perikopen-Abgleich: präfixloser Array-Feldname -> präfixierter Feldname im texts-Objekt.
+const LES_FIELD_MAP = {
+    buch: 'les_buch', stelle: 'les_stelle', text: 'les_text',
+    text_neu: 'les_text_neu', text_lat: 'les_text_lat',
+    resp0: 'resp0', resp1: 'resp1', resp2: 'resp2', resp3: 'resp3',
+    resp0_lat: 'resp0_lat', resp1_lat: 'resp1_lat', resp2_lat: 'resp2_lat', resp3_lat: 'resp3_lat',
+    button: 'button',
+};
+const PATR_FIELD_MAP = {
+    autor: 'patr_autor', werk: 'patr_werk', text: 'patr_text',
+    text_neu: 'patr_text_neu', text_lat: 'patr_text_lat',
+    resp1: 'patr_resp1', resp2: 'patr_resp2', resp3: 'patr_resp3',
+    resp1_lat: 'patr_resp1_lat', resp2_lat: 'patr_resp2_lat', resp3_lat: 'patr_resp3_lat',
+    button: 'button',
+};
+
+// Baut aus den aktuellen (bereits gemergten) les_*/patr_*-Feldern eines Source-Objekts
+// einen Array-Eintrag mit präfixlosen Feldnamen (für den synthetisierten Index-0-Standard
+// im REF&-Fall, siehe resolveAndMergeSource).
+function synthesizeStandardEntry(data, fieldMap) {
+    const entry = {};
+    Object.entries(fieldMap).forEach(([bareKey, sourceKey]) => {
+        if (data[sourceKey]) entry[bareKey] = data[sourceKey];
+    });
+    return entry;
+}
+
+// Perikopen-Abgleich: überschreibt text immer, buch/stelle/text_neu/text_lat nur wenn leer.
+// target: entweder ein Array-Element (präfixlose Felder) oder das Source-Objekt selbst (mit fieldMap).
+function applyPerikope(target, fieldMap) {
+    const key = target[fieldMap.text];
+    if (typeof key !== 'string' || !perikopen[key]) return;
+    const p = perikopen[key];
+    target[fieldMap.text] = p.les_text;
+    if (!target[fieldMap.buch] && p.les_buch) target[fieldMap.buch] = p.les_buch;
+    if (!target[fieldMap.stelle] && p.les_stelle) target[fieldMap.stelle] = p.les_stelle;
+    if (!target[fieldMap.text_neu] && p.les_text_neu) target[fieldMap.text_neu] = p.les_text_neu;
+    if (!target[fieldMap.text_lat] && p.les_text_lat) target[fieldMap.text_lat] = p.les_text_lat;
+}
+
+const BARE_LES_FIELD_MAP = Object.fromEntries(Object.keys(LES_FIELD_MAP).map(k => [k, k]));
+
+// Löst in einem einzelnen Source-Objekt (z.B. hours.lesehore.oblig) die Lesungsalternativen
+// (LectureAlternatives.ts) und anschließend die Perikopen-Verweise (Perikopen.ts) auf.
+// Reihenfolge: erst Alternativen, danach Perikopen (siehe doc/Verweise und Alternativen.md).
+function resolveLectureSelectorsForSource(data, yearABC, dayOfWeek) {
+    if (!data || typeof data !== 'object') return;
+
+    [
+        { field: 'les_text', selectorKey: 'les_selector', fieldMap: LES_FIELD_MAP },
+        { field: 'patr_text', selectorKey: 'patr_selector', fieldMap: PATR_FIELD_MAP },
+    ].forEach(({ field, selectorKey, fieldMap }) => {
+        const markerKey = `${field}_selectorKeyword`;
+        const marker = data[markerKey];
+
+        if (marker) {
+            // REF&-Fall: ererbter Realtext wird zu Index 0, LectureAlternatives.ts liefert nur die Zusatz-Alternativen
+            const standardEntry = synthesizeStandardEntry(data, fieldMap);
+            const alternatives = lectureAlternatives[marker]?.[selectorKey] || [];
+            data[selectorKey] = [standardEntry, ...JSON.parse(JSON.stringify(alternatives))];
+            delete data[markerKey];
+        } else if (typeof data[field] === 'string' && data[field] && lectureAlternatives[data[field]]?.[selectorKey]) {
+            // Normalfall: das Textfeld selbst ist der Lookup-Key, Array kommt komplett aus LectureAlternatives.ts
+            const cloned = JSON.parse(JSON.stringify(lectureAlternatives[data[field]][selectorKey]));
+            data[selectorKey] = cloned.filter(entry => {
+                if (!entry.excludeYear) return true;
+                if (entry.excludeYear === yearABC) return false;
+                if (entry.excludeYear === '!so' && dayOfWeek > 0) return false;
+                return true;
+            });
+        }
+    });
+
+    // Perikopen-Abgleich (nur les_text/les_selector; patr_text ist nie eine Bibelstelle)
+    if (Array.isArray(data.les_selector)) {
+        data.les_selector.forEach(entry => applyPerikope(entry, BARE_LES_FIELD_MAP));
+    } else {
+        applyPerikope(data, LES_FIELD_MAP);
+    }
+}
+
+// Wendet resolveLectureSelectorsForSource auf alle Stunden und alle darin vorkommenden
+// Sources an (wt, pers, oblig, n1-n5, d1-d5, dmob, dpar, mar, kirchw, alt, continuous, …
+// sowie com1/com2), da prefSource erst zur Laufzeit interaktiv gewählt wird (GetValue.js).
+function resolveLectureSelectors(finalData) {
+    const hourNames = [
+        'erstev', 'invitatorium', 'lesehore', 'vigil', 'laudes',
+        'terz', 'sext', 'non', 'vesper', 'prefsollemnity', 'komplet', 'messe',
+    ];
+    hourNames.forEach(hour => {
+        const hourData = finalData[hour];
+        if (!hourData) return;
+        Object.keys(hourData).forEach(source => {
+            const sourceData = hourData[source];
+            if (!sourceData || typeof sourceData !== 'object') return;
+            resolveLectureSelectorsForSource(sourceData, finalData.yearABC, finalData.dayOfWeek);
+            ['com1', 'com2'].forEach(commune => {
+                if (sourceData[commune]) {
+                    resolveLectureSelectorsForSource(sourceData[commune], finalData.yearABC, finalData.dayOfWeek);
+                }
+            });
+        });
+    });
+    return finalData;
+}
+
 // Sonderregel für den 11. Juni (Barnabas): Commune-Texte aus oblig.com1 als Eigentexte in oblig übernehmen.
 // Ant und Psalmen werden nur bei Osterzeit übertragen (da Barnabas kein eigenes Psalterium hat).
 function processBarnabas(data, isEasterSeason) {
@@ -1000,6 +1134,7 @@ export function processBrevierData(todayDate) {
     processAntABC(finalData, yearABC, swdCombined);
     if (todayInfo.season === 'o')
         processEasterResponses(finalData);
+    resolveLectureSelectors(finalData);
 
     const kompletSettings = processKompletData(finalData, dateToRead);
     finalData.komplet = {

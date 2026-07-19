@@ -1,2069 +1,1798 @@
 export const lectureAlternatives = {
-    // Lesejahr I
-    "q-4-0": {
-        second: [{
-            patr_autor: "Augustinus († 430)",
-            patr_werk: "Zum Johannesevangelium.",
-            patr_text: "^hDie°Heilung°des°Blindgeborenen^pÜber den Blindgeborenen, den der Herr Jesus sehend gemacht hat, ist eine lange Lesung vorgetragen worden. In aller Kürze gebe ich das Mysterium dieses sehend gewordenen Blinden zu überlegen.^pWas unser Herr Jesus Christus da getan hat, ist erschreckend und wunderbar. Es sind Werke, und es sind Worte; Werke, weil es getan wurde, Worte, weil es Zeichen sind.^pWenn wir also darüber nachdenken, was der Vorgang eigentlich bedeutet, so kommen wir zu dem Ergebnis: der Blinde ist das Menschengeschlecht. Zu dieser Blindheit kam es beim ersten Menschen durch die Sünde; von ihm kommen wir alle her, von ihm haben wir nicht nur den Tod, sondern auch die Sünde.^pWenn die Blindheit der Unglaube ist und das Sehendwerden der Glaube, wen hat Christus glaubend vorgefunden, als er kam? Der Apostel, der doch aus dem Geschlecht der Propheten stammt, sagt: „Auch wir waren von Natur aus Kinder des Zorns wie die anderen“.{1#Eph 2,3} Waren wir aber Kinder des Zorns, dann waren wir auch der Rache, der Strafe, der Hölle verfallen.^pWieso ‚von Natur aus‘? Weil der erste Mensch gesündigt hat, nistete das Böse sich in die Natur ein. Wenn sich das Böse in die Natur einnistet, dann ist dem Sinn nach jeder Mensch blind geboren. Sieht er nämlich, dann braucht er keinen Führer und keinen, der ihn sehend macht. Braucht er aber einen Blindenführer und einen, der ihn sehend macht, dann ist er blind von Geburt an.^pDer Herr kam! Was tat er? Er schenkte uns ein großes Mysterium. „Er spie auf die Erde“ und machte mit seinem Speichel einen Teig; denn das Wort ist Fleisch geworden. Er salbte die Augen des Blinden. Nun war er gesalbt, sah aber noch nicht.^pEr schickte ihn zum Teich Schiloach. Es ist eine Erklärung des Evangelisten, wenn da steht: „das heißt übersetzt ‚der Gesandte‘“. Ihr wisst, wer der Gesandte ist. Wäre er nicht gesandt, dann wäre keiner von uns aus der Schuld entlassen. Er wusch also die Augen in dem Teich, der ‚Gesandter‘ heißt: Er wurde getauft in Christus! Als Christus ihn in sich taufte, da machte er ihn sehend. Vielleicht machte er ihn zum Katechumenen, als er ihn salbte.",
-            patr_resp1: "Jesus sprach zum Blinden: Geh, wasche dich im Teiche Schiloach.",
-            patr_resp2: "Der Blinde wusch sich und konnte sehen.",
-            patr_resp3: "Erschreckend und wunderbar ist, was unser Herr getan hat!"
-        }]
-    },
-    "j-11-2": {
-        first: [{
-            les_buch: "Aus dem Buch der Richter.",
-            les_stelle: "5,1-21",
-            les_text: "^hDas°Debora^-Lied^pDebora und Barak, der Sohn Abinoams, sangen an jenem Tag dieses Lied:^pDass Führer Israel führten^lund das Volk sich bereit zeigte,^ldafür preist den Herrn!^lHört, ihr Könige, horcht auf, ihr Fürsten!^lIch will dem Herrn zu Ehren singen,^lich will zu Ehren des Herrn,^ldes Gottes Israels, spielen.^pHerr, als du auszogst aus Seir,^lals du vom Grünland Edoms heranschrittest,^lda bebte die Erde, die°Himmel°ergossen°sich,^lja, aus den Wolken ergoss sich das Wasser.^lDie Berge wankten vor°dem°Blick°des°Herrn,^lvor dem Blick des Herrn, des Gottes Israels.^pIn den Tagen Schamgars, des°Sohnes°des°Anat,^lin den Tagen Jaëls lagen°die°Wege°verlassen°da;^lwer unterwegs war, musste°Umwege°machen.^lBewohner des offenen Landes gab°es°nicht°mehr,^les gab sie nicht mehr in Israel,^lbis du dich erhobst, Debora,^lbis du dich erhobst, Mutter in Israel.^pMan hatte sich neue Götter erwählt.^lEs gab kein Brot an den Toren.^lSchild und Speer waren°nicht°mehr°zu°sehen^lbei den Vierzigtausend in Israel.^pMein Herz gehört Israels Führern.^lIhr, die ihr bereit seid im Volk,^lpreist den Herrn!^lIhr, die ihr auf weißen Eselinnen reitet,^ldie ihr auf Teppichen sitzt,^ldie ihr auf der Straße dahinzieht,^lsingt!^pHorch, sie jubeln zwischen den Tränken,^ldort besingt man die°rettenden°Taten°des°Herrn,^lseine hilfreiche Tat an den Bauern in Israel.^lDamals zog das Volk des Herrn hinab°zu°den°Toren.^pAuf, auf, Debora!^lAuf, auf, sing ein Lied!^lErheb dich, Barak,^lführ deine Gefangenen heim, Sohn°Abinoams!^lDann stieg herab,^lwas übrig ist unter°den°Herrlichen°des°Volkes.^lDer Herr steige herab mit°mir°unter°den°Helden.^pAus Efraim zogen sie hinunter ins Tal,^lhinter ihnen Benjamin mit seinen Scharen;^lvon Machir stiegen die Führer hinab,^lvon Sebulon die, die das Zepter tragen.^lDie Fürsten Issachars zusammen°mit°Debora^lund wie Issachar so auch Barak,^lins Tal getragen von seinen Füßen.^pIn Rubens Bezirken überlegte°man°lange.^lGilead bleibt jenseits des Jordan.^lWarum verweilt Dan bei den Schiffen?^lAscher sitzt am Ufer des Meeres,^lbleibt ruhig an seinen Buchten.^lSebulon ist ein Volk, das°sein°Leben°aufs°Spiel°setzt,^lauch Naftali auf den Höhen des Feldes.^pKönige kamen und kämpften,^ldamals kämpften Kanaans Könige^lin Taanach, an den Wassern Megiddos,^ldoch Beute an Silber machten sie nicht.^lVom Himmel her kämpften die Sterne,^lvon ihren Bahnen aus kämpften°sie°gegen°Sisera.^lDer Bach Kischon schwemmte sie fort,^lder altberühmte Bach, der Bach Kischon.^pMeine Seele soll auftreten mit Macht.^lDamals stampften die Hufe der Pferde^lim Jagen, im Dahinjagen der Hengste.^lIhr sollt Meros verfluchen,^lspricht der Engel des Herrn.^lMit Flüchen flucht seinen Bewohnern;^ldenn sie kamen dem Herrn nicht zu Hilfe,^lzu Hilfe dem Herrn unter den Helden.^pGepriesen sei Jaël unter den Frauen,^ldie Frau des Keniters Heber,^lgepriesen unter den Frauen im Zelt.^lEr hatte Wasser verlangt, sie°gab°ihm°Milch,^lin einer prächtigen Schale reichte sie Sahne.^lIhre Hand streckte sie aus nach dem Pflock,^lihre Rechte nach°dem°Hammer°des°Schmieds.^lSie erschlug Sisera, zermalmte sein Haupt,^lzerschlug, durchbohrte seine Schläfe.^lZu ihren Füßen brach er zusammen,^lfiel nieder, lag da,^lzu ihren Füßen brach er zusammen, fiel°nieder.^lWo er zusammenbrach, da lag er vernichtet.^pAus ihrem Fenster blickt Siseras Mutter^lund klagt durch das Gitter:^lWarum säumt sein Wagen zu kommen,^lwarum zögert der°Hufschlag°seiner°Gespanne?^lEine Kluge aus ihren Fürstinnen antwortet°ihr,^lund sie selbst wiederholt deren Worte:^lSicher machen und teilen sie Beute,^lein, zwei Frauen für jeden Mann,^lBeute an Kleidern für Sisera,^lBeute an Kleidern,^lfür meinen Hals als°Beute°ein,°zwei°bunte°Tücher.^pSo gehen all deine Feinde zugrunde, Herr.^lDoch die, die ihn lieben, sind°wie°die°Sonne,^lwenn sie aufgeht in ihrer Kraft.^pDann hatte das Land vierzig Jahre lang Ruhe.",
-            resp1: "Hört, ihr Könige, horcht auf, ihr Fürsten!",
-            resp2: "Ich will jubeln vor dem Gott Israels.",
-            resp3: "Wer dich liebt, ist wie der prachtvolle Aufgang der Sonne."
-        }]
-    },
-    "j-34-0": {
-        second: [{
-            patr_autor: "Romano Guardini († 1968)",
-            patr_werk: "Aus dem Buch „Der Herr“.",
-            patr_text: "^hGottes°Trost°in°der°Bedrängnis^pDie Geheime Offenbarung ist ein Buch des Trostes. Keine Theologie der Geschichte oder der letzten Dinge, sondern ein Trost, den Gott beim Ausgang der Apostelzeit seiner Kirche in die Hand gegeben hat. Dieses Trostes bedurfte sie, denn sie war sehr bedrängt.^pWie tröstet aber Gott? Nicht so, dass er sagte: „Die Not sei im Grunde nicht so schlimm“; sie ist schlimm und wird auch schlimm gesehen. Gott verheißt auch keine wunderbaren Eingriffe. Die Geschichte hat ihre Zeit und ihre Macht, auch wo sie sich wider Gott richtet, und die werden nicht aufgehoben.^pDoch über der irdischen Wirklichkeit wird die himmlische gezeigt. Über den bedrängenden Mächten der Geschichte erscheint, schweigend und wartend, der, den sie angreifen, Christus. Ihm gehört die Ewigkeit. Er sieht alles, wägt alles, vom innersten Beginn im Herzen bis zur letzten Auswirkung im Gang der Ereignisse, und schreibt alles in „das Buch“ seines unfehlbaren Wissens.^pUnd einmal schlägt die Stunde, da alle Dinge ihre Zeit gehabt haben. Dann vergehen sie, Christus aber lebt. Alles wird vor Ihn kommen, und Er wird das Wort sprechen, das jedes Menschenwerk enthüllt, jedem seinen genauen Wert gibt und ewig währt.^pDas ist der Trost. Ein Trost des Glaubens, der voraussetzt, dass der Hörende die Überwindung des Glaubens vollbringe. Und er ist nicht auf morgen und das nächste Jahr bezogen, überhaupt nicht auf dieses Leben, sondern über den Tod hinweg auf die Ewigkeit, und hilft soviel, als den Hörenden Gott und Christus und Ewigkeit wirklich sind.",
-        }]
-    },
-    //Lesejahr II
-    "q-6-4": {
-        second: [{
-            patr_autor: "Romano Guardini († 1968)",
-            patr_werk: "Aus dem Buch „Der Herr“.",
-            patr_text: "^hGetsemane^pIn der Stunde von Getsemane erreicht das immerwährende Leiden des Herrn seine bitterste Schärfe.^pDas Leben Gottes hat keine Zeit und keine Veränderung; es steht in unendlicher und einfacher Gegenwart. Das Leben des Menschen geht in Zeiten, steigt und fällt. Im Herrn war beides, die ewige Gegenwart und der Wandel in der Zeit; so wird auch jenes innere Leiden seine Zeiten gehabt haben – des Umfangs, der Dringlichkeit, der Schärfe. Nun war die Stunde, da „alles vollbracht“ werden sollte.^pWer will wissen, wie Gott, der Vater, ihm damals entgegentrat? Immer war er sein Vater, und immer ging vom Vater zum Sohne die unendliche Liebe, welche der Geist ist; dennoch ist einmal der Augenblick gekommen, den das Wort ausdrückt: „Mein Gott, mein Gott, warum hast du mich verlassen?“{1#vgl. Mt 27,46}^pWenn wir vor diesem Wort nicht lieber schweigen wollen, dann werden wir sagen müssen, der Vater habe sich Jesus so zu erfahren gegeben, als wäre er der von Gott wegverlorene und verworfene Mensch. Jesus habe in jener Stunde die Einheit mit uns bis ins Geheimnis hinein ausgekostet.^pDas hat aber doch wohl nicht erst in jenem letzten Augenblick am Kreuze eingesetzt, sondern schon vorher. Wohl schon vorher ist ihm der Vater als jener entgegengetreten, der er dem Sünder gegenüber ist – dem Sünder, dessen Dasein Christus ja als das seine an sich genommen hatte.^pVielleicht dürfen wir sagen, dass in der Stunde von Getsemane jenes Wissen um die Menschenschuld und Menschenverlorenheit sich vor dem Angesicht des Vaters, der ihn zu „verlassen“ begann, in seiner letzten Schärfe aufgerichtet hat. Da hat jenes Wissen und Leiden eine Furchtbarkeit angenommen, von der Jesu sichtbares Sich-Ängsten und Zurückschaudern, das „gewaltigere Beten“, und der Schweiß, der „wie Tropfen Blutes wurde, die zur Erde niederrannen“{2#vgl. Lk 22,44}, das letzte an uns gelangende Zeichen waren – so wie ein Wirbel an der Oberfläche des Meeres das äußerste Anzeichen einer Katastrophe sein mag, die auf dessen Grunde vor sich geht und deren Ausmaße unsere Vorstellungskraft übersteigen.^pDas war die Stunde von Getsemane: dass Jesu Menschenherz und ^-geist in die letzte Erfahrung dessen eintrat, was die Sünde vor dem richtenden und rächenden Antlitz Gottes bedeutet. Dass sein Vater von ihm forderte, er solle diese Sünde als die seine aufnehmen. Und dass er, wenn man so sagen darf, den Zorn des Vaters wider die Sünde gegen sich, der sie auf sich genommen, gerichtet sah und die Abwendung des ihn „verlassenden“ heiligen Gottes erfuhr.^pDa ist alles durchgekämpft worden. Was nachher kam, war der Vollzug dieser Stunde. In ihr wurde alles vorweggenommen; was nachher kam, war nur das Vollbringen.",
-        }]
-    },
-    "q-6-6": {
-        second: [{
-            patr_autor: "Leo der Große († 461)",
-            patr_werk: "Aus einer Predigt über die Passion des Herrn.",
-            patr_text: "^hWer sein Kreuz nicht auf sich nimmt und°mir°nicht°nachfolgt, der°ist°meiner°nicht°wert^pMit allen Kräften unseres Geistes und unseres Leibes müssen wir danach trachten, unzertrennlich mit dem Geheimnis des Leidens Christi verbunden zu bleiben; denn der Herr sagt: „Wer nicht sein Kreuz auf sich nimmt und mir nachfolgt, ist meiner nicht würdig.“{1#Mt 10,38} Und der Apostel spricht: „Wenn wir mit ihm leiden, werden wir auch mit ihm verherrlicht werden.“{2#vgl. Röm 8,17}^pWer anders erweist also nach diesen Worten dem wahrhaft leidenden, sterbenden und auferstehenden Christus seine Verehrung, als wer mit ihm leidet, stirbt und aufersteht?^pDiese Teilnahme an dem Leiden des Herrn hat bei allen Kindern der Kirche schon mit ihrer wunderbaren Wiedergeburt begonnen: Durch die Tilgung der Sünde ersteht hier der Mensch zu neuem Leben, und durch das dreimalige Untertauchen wird der dreitägige Tod des Herrn versinnbildet. Bei der Taufe wird gleichsam die Erddecke von einem Grabe entfernt. Mit unserem alten Menschen steigen wir in den Taufquell hinab, und neugeboren kommen wir aus ihm hervor.^pWas aber durch dieses Sakrament mit uns begonnen wurde, das müssen wir durch Taten vollenden. Die ganze Lebenszeit, die den im Heiligen Geiste Wiedergeborenen noch übrig bleibt, muss ein beständiges Tragen des Kreuzes sein. Obgleich nämlich durch die Macht des Leidens Christi dem starken und grausamen Feinde (unseres Geschlechtes) die „Gefäße der alten Erbeutung“ entrissen wurden und „der Herrscher dieser Welt“{3#Joh 12,31} über die Herzen der Erlösten keine Gewalt mehr hat, verfolgt er doch die Menschen selbst nach ihrer Rechtfertigung immer noch mit seiner alten Bosheit.^pAuf mancherlei Art greift er die an, in denen er nicht mehr herrscht, um nachlässige und sorglose Seelen aufs neue mit noch grausameren Banden an sich zu ketten, um sie aus dem Paradies der Kirche zu vertreiben und sie zu Genossen seiner Verdammnis zu machen. Wenn darum jemand merkt, dass er die Grenzen der christlichen Gebote überschreitet und dass seine Begierden auf Dinge gerichtet sind, die ihn vom rechten Wege abbringen könnten, so nehme er seine Zuflucht zum Kreuze des Herrn und kreuzige sein sündhaftes Wollen und Wünschen auf dem Baume des Lebens.",
-        }]
-    },
-    "j-1-0": {
-        second: [{
-            patr_autor: "Hugo Rahner († 1968)",
-            patr_werk: "Aus dem Buch „Maria und die Kirche“.",
-            patr_text: "^hHochzeit von Kana^pDas hochzeitliche Mysterium der Menschwerdung, mit welchem die Erlösung begann, wird von neuem offenbar im Beginn der messianischen Tätigkeit des Herrn, im ersten seiner die Gottheit bezeugenden Wunder; bei der Hochzeit von Kana.^pJohannes will, wo er davon in seinem Evangelium berichtet, keineswegs nur eben die vordergründige Begebenheit der bescheidenen Landhochzeit von Kana berichten, sondern bei ihm, dem tiefsten Evangelisten der messianischen Typologie, ist auch dies nur gleichsam der Schleier, hinter dem sich die Mysterien des Heils verbergen.^pDass das Wunder der Wandlung von Wasser in Wein auf die Bitte Marias hin geschieht, dass der Herr sie zunächst abzuweisen scheint mit dem Hinweis auf seine „Stunde“, die noch nicht gekommen sei, gibt uns einen Einblick in das, was geoffenbart werden sollte: Maria, die der Herr hier feierlich mit dem auf die Uroffenbarung am Rand des verlorenen Paradieses rückweisenden Wort „Frau“ anspricht, ist diejenige, die dann, wenn die „Stunde“ gekommen ist, das heißt, wenn der Herr sein erlösendes Leiden vollendet hat, ihr Amt als fürbittende Mutter aller Gläubigen antreten wird. Dann wird sie für immer die „Frau“ sein, die in Wahrheit die Mutter aller Lebendigen sein soll, die Eva des neuen Geschlechtes, die Gebärerin des Christusleibes, der den Sieg über den Bösen davonträgt.^pWenn es also von dieser Hochzeit in Kana heißt: „Und die Mutter Jesu war dabei“{1#vgl. Joh 2,2}, so will dies in den Tiefen der göttlich gemeinten letzten Bedeutung sagen: In der hochzeitlichen Gemeinschaft, für die der Gottmensch das Wasser der Menschennatur in den Wein der göttlichen Begnadigung umwandelt, in der Tischgemeinschaft Jesu durch alle Zeiten, also in der heiligen Kirche, ist Maria die Mutter. In ihr setzt sich das Mysterium der Menschwerdung fort, auf die mütterliche Bitte der Jungfrau Maria werden die Berufenen zu göttlich umgewandelten Tischgenossen Jesu.^pDer Syrer Ephräm singt darum einmal in einem seiner Hymnen auf die Mysterien des Herrn: „Kana soll dich loben. Denn du hast dieses Gastmahl froh gemacht. In der Braut hast du versinnbildlicht die heilige Kirche. In den Tischgenossen hast du deine Berufenen gemeint. Und in dem Triumph (dieses Wunders) hast du im voraus abgebildet deinen herrlichen Advent.“{2#@vgl. Ephräm°der°Syrer, Hymnus°de°mysteriis°Domini°34,1}"
-        }]
-    },
-    "j-12-0": {
-        second: [{
-            patr_autor: "Meister Eckehart († vor 1328)",
-            patr_werk: "Aus den Reden der Unterweisung.",
-            patr_text: "^hWesen°und°Werk°der°Liebe^pZwei Dinge musst du beachten, die sich in der Liebe finden: Das eine ist das Wesen der Liebe, das andere ist ein Werk oder ein Ausdruck des Wesens der Liebe.^pDie Stätte der Liebe ist allein im Willen; wer mehr Willen hat, der hat auch mehr Liebe. Aber wer davon mehr hat, das weiß niemand vom andern; das liegt verborgen in der Seele, während Gott im Grunde der Seele liegt.^pNun gibt’s aber noch ein Zweites: das ist ein Ausdruck oder ein Werk der Liebe. Das tritt uns recht in die Augen, wie zum Beispiel Innigkeit und Andacht und Jubilieren, und ist dennoch allwegs nicht das Beste. Denn es stammt mitunter gar nicht von der Liebe her, sondern es kommt bisweilen aus der Natur, dass man solches Wohlgefühl und süßes Empfinden hat, oder es mag des Himmels Einfluss oder auch durch die Sinne eingetragen sein.^pDie dergleichen öfter erfahren, das sind nicht allwegs die Allerbesten. Denn, sei’s auch, dass es wirklich von Gott stamme, so gibt unser Herr das solchen Menschen, um sie zu locken oder zu reizen, auf dass man dadurch von anderen Menschen recht ferngehalten wird. Wenn aber diese gleichen Menschen hernach an Liebe zunehmen, so mögen sie nicht mehr soviel Gefühle und Empfindungen haben, und daran erst wird ganz deutlich, dass sie Liebe haben: wenn sie auch ohne solchen Rückhalt Gott ganz und fest Treue bewahren.^pMan soll nämlich von solchem Jubilus bisweilen ablassen um eines Besseren aus Liebe willen und um zuweilen ein Liebeswerk zu wirken, wo es dessen not tut, sei’s geistlich oder weltlich oder leiblich. Wie ich auch sonst schon gesagt habe: Wäre der Mensch so in Verzückung, wie’s Sankt Paulus war, und wüsste einen kranken Menschen, der eines Süppleins von ihm bedürfte, ich erachtete es für weit besser, du ließest aus Liebe von der Verzückung ab und dientest dem Bedürftigen in größerer Liebe.^pNicht soll der Mensch wähnen, dass er dabei Gnaden versäume; denn was der Mensch aus Liebe willig lässt, das wird ihm um vieles herrlicher zuteil, wie Christus sprach: „Wer etwas lässt um meinetwillen, der wird hundertmal soviel zurückerhalten.“{1#vgl. Mk 10,29f}",
-        }]
-    },
-    "j-14-6": {
-        second: [{
-            patr_autor: "Gemeinsame Synode der Bistümer in der Bundesrepublik Deutschland (1971–1975)",
-            patr_werk: "Aus dem Synodenbeschluss „Ehe und Familie“.",
-            patr_text: "^hEhe im Verständnis christlichen Glaubens^pDie christliche Ehe lebt aus dem Glauben an Gott, der sich in Jesus Christus der Welt selbst vorbehaltlos mitgeteilt hat. Diese seine Liebe ist jedem einzelnen und der gesamten Menschheit so zugewandt, dass wir für unser eigenes Leben und für die ganze menschliche Geschichte Hoffnung auf eine Vollendung und Erfüllung haben dürfen, welche alles Vorstellen übersteigt.^pDie lebendige Gegenwart der in Jesus Christus geschenkten Liebe Gottes zu bezeugen und die in ihr für alle Menschen begründete Hoffnung zu verkünden, ist die eine, alles umgreifende Sendung der Kirche. An ihr hat die Ehe ihren Anteil; denn christliche Ehepartner bezeugen in ihrem gemeinsamen Leben die Liebe Gottes, indem sie durch ihre eigene Liebe und Treue die Liebe Gottes sichtbar machen.^p„In ihrer Aufgabe, menschliches Leben weiterzugeben“, einer Sendung, die nur ihnen zukommt, sind sie „Interpreten“ der schöpferischen Liebe Gottes. Indem sie in hochherziger menschlicher und christlicher Verantwortung Kindern das Leben schenken, erfüllen sie einen wesentlichen Auftrag der Ehe{1#@Gaudium et spes 50,2}. Die Ehe behält jedoch als Lebensgemeinschaft in gegenseitiger Liebe ihren Wert, auch wenn sie kinderlos bleibt.^pChristliche Ehepartner leben ihre auf Glaube, Hoffnung und Liebe begründete Ehe in der Kirche als dem konkreten Ort der Erlösung. Sie werden dort mit der Heilkraft Jesu Christi beschenkt. So dienen sie zugleich dem Aufbau und Auftrag der Kirche; denn sie leben „nicht sich selbst“, sondern „für den Herrn“{2#Röm 14,7f}.^pDas Leben in und mit der christlichen Gemeinde kann zum Gelingen der Ehe beitragen; es soll die Ehepartner zu vertiefter Begegnung befähigen und zu unverbrüchlicher Treue führen. Aber auch die christliche Gemeinde muss durch ihre Solidarität mit den Ehepaaren dazu beitragen, deren Belastungen und Konflikte leichter zu bewältigen.^p^hAnthropologische Voraussetzungen^pDie unbedingte Annahme des anderen Menschen wird existentielle Wirklichkeit in der Treue. Durch sie ist der innerste Wille der Liebe dem Wechsel der Gefühle und der Willkür entzogen. In der Treue gewinnt die Liebe Dauer. Die unbedingte Treue der Gatten wird verlangt durch ihr gegenseitiges Sichschenken in Liebe sowie durch das Wohl ihrer Kinder, die von ihren Eltern ein Leben lang angenommen sein wollen.^pDiese Liebe in Treue ist vor allem dem möglich, der in der Tiefe seiner Person hoffen kann, dass er selbst wie auch der andere nicht im Tod dem Nichts anheimfallen. Darum lebt solche Liebe immer – selbst wenn sie es nicht weiß – aus der Hoffnung auf Gott. Treue ist eine Frucht der Hoffnung und bringt auch in das Dasein des anderen Menschen die Möglichkeit zur Hoffnung.^pFür Christen heißt das: In der Bindung bis in den Tod bringt ein Ehegatte die Liebe Christi, von der nichts scheiden kann{3#Röm 8,35}, in die alltägliche Nähe des Ehepartners. In solcher ein ganzes Leben umspannender Treue zeigt sich die Fülle christlicher Existenz: der Glaube an den Auferstandenen, welcher den Glauben an die Auferweckung des Ehepartners einschließt; die Hoffnung, welche für den anderen hofft, indem sie auf Christus setzt; die Liebe, die am anderen festhält, weil sie ihn in Christi Liebe zu bejahen vermag.^pVor diesem Hintergrund wird verständlich, warum Ehescheidung für Christen unmöglich ist. Jesus sagt: „Wer seine Frau entlässt und eine andere heiratet, begeht Ehebruch gegen sie. Und wenn sie ihren Mann entlässt und einen anderen heiratet, begeht sie Ehebruch.“{4#Mk 10,11f}",
-        },]
-    },
-    "j-22-3": {
-        second: [{
-            patr_autor: "Joseph Pascher († 1979)",
-            patr_werk: "Aus dem Buch „Sinngerechtes Brevierbeten“",
-            patr_text: "^hBrevier, Privatgebet, Arbeit und Erholung^pEs gehört zu den gesicherten Erkenntnissen über jedes geistliche Leben, dass das liturgische Beten nicht genügt, um den Geist des Christen auf der Höhe des göttlichen Lebens zu halten. Im Blick über die Kirche als ganze hat sich immer gezeigt, dass neben dem liturgischen Gebet eine ganz umfangreiche fruchtbare Privatfrömmigkeit liegt. Das ist nicht nur deswegen so, weil das Volk der Kulturhöhe des römischen Breviers nicht gewachsen ist, sondern auch, weil das Brevier nicht alle Möglichkeiten und Notwendigkeiten des geistlichen Lebens erschöpft.^pEs wäre wahrlich eine untragbare Verarmung, wollte man die religiöse Wirklichkeit der Kirche des Reichtums berauben, der täglich aus den Seelen frei und privat emporsteigt, ohne dass er jemals seinen Niederschlag in fester und in die Überlieferung eingehender Form findet. Hätte man die Möglichkeit, alle Christen im Breviergebet zu vereinigen, was natürlich ein vollkommener Irrealismus ist, aber hätte man wirklich die Möglichkeit, es wäre unmöglich, auf das andere zu verzichten. Ja, wenn beides unvereinbar wäre, müsste man lieber das Brevier oder einen Teil davon aufgeben.^pGroße Teile der privaten Frömmigkeit finden dauernd ihre feste Form und gehen heutzutage durch Drucklegung in die Frömmigkeitsüberlieferung ein. Es ist wahr, nicht alles steht nach Inhalt und Form so hoch, dass es die Tradierung verdient. Aber eine Auslese dauert und trägt immer wieder zum geistlichen Reichtum der Kirche bei, und auch das übrige tut seine Dienste für die Förderung des religiösen Lebens, während nur weniges das Wachstum der Frömmigkeit stört.^pImmer wieder erfährt die Liturgie selbst Förderung von seiten der privaten Frömmigkeit. Diese ist der unerschöpfliche Quellgrund für das Wachstum und Blühen des liturgischen Lebens. Hier ist der gesunde Quell für die Liturgie.",
-        },]
-    },
-    "j-29-0": {
-        second: [{
-            patr_autor: "Augustinus († 430)",
-            patr_werk: "Aus einer Auslegung zu Psalm 86 (85).",
-            patr_text: "^hDu bist ein guter und freundlicher Gott^pDu, o Gott, bist ein guter und freundlicher Gott. Was heißt das: ein freundlicher Gott? Du trägst mich, bis ich in deinen Händen reif geworden bin. Es ist wahr, meine Brüder – lasst mich als Menschen unter Menschen reden, als einen aus den Menschen –: ein jeder von euch nehme sein Herz in die Hand und schaue sich an ohne Schmeicheln, ohne Streicheln. Es gibt nichts Dümmeres, als wenn jemand sich selber streichelt und so in die Irre führt. Ein jeder schaue hin und sehe, was alles in solch einem Menschenherzen vorgeht: wie selbst die meisten Gebete von müssigen Gedanken behindert werden, so dass das Herz kaum stillzustehen vermag vor seinem Gott, und es möchte sich festhalten, um stehen bleiben zu können, und dann flieht es gleichsam von sich fort und findet keine Schranken, die es einschlössen, und keinen Riegel, der es zurückhielte von seinem Fortfliegen und von seiner schweifenden Unruhe, dass es endlich einmal stillhalte, um sich bescheiden zu lassen von seinem Gott. Kaum je gelingt das einem unter unseren vielen Gebeten. Jeder ist geneigt zu glauben, es erginge nur ihm so und den anderen nicht; aber da finden wir irgendwo in der Schrift, wie David betet: „Ich habe mein Herz gefunden o Herr, um zu dir zu beten.“ Er sagt, er habe sein Herz gefunden, als ob dieses Herz die Gewohnheit hätte, von ihm wegzulaufen, und er müsste ihm nachsetzen wie einem Flüchtenden und könne es nicht erreichen, und so ruft er zu Gott: „Mein Herz hat mich verlassen.“^pWenn ich also hier finde, meine Brüder, dass er sagt: „Du bist ein guter und freundlicher Gott“, so glaube ich zu sehen, was er mit ‚freundlich' meint. „Erquicke die Seele deines Knechtes, denn zu dir habe ich meine Seele erhoben; denn du bist ein guter und freundlicher Gott.“ Ich glaube, ich sehe, warum er Gott freundlich nennt, weil er das alles an uns erträgt und doch erwartet, dass wir beten, damit er uns zur Reife bringen kann. Und wenn wir unser Gebet vor ihn bringen, nimmt er es bereitwillig auf und erhört es und denkt nicht mehr an die vielen wirren Gebete, die wir gesprochen haben, und nimmt das eine an, das uns nur mit Mühe gelang.^pWeil es so etwas gibt wie Hoffnung auf Gott, weil seine Barmherzigkeit groß ist, wollen wir zu ihm sprechen: „Erquicke die Seele deines Knechtes; denn zu dir habe ich meine Seele erhoben.“ Wie habe ich sie erhoben können? Soweit ich konnte, soweit du die Kraft dazu gabst, soweit ich die Fliehende festzuhalten vermochte. „Und dann ist sie dir wieder entwischt“, sagt Gott, „denn sobald du vor mir standest, hast du an alle möglichen, nichtigen und überflüssigen Dinge gedacht, und kaum je hast du ein klares, festumrissenes Gebet vor mir zustande gebracht.“^pDu bist ein guter und freundlicher Gott. Weil du freundlich bist, erträgst du mich. Weil ich krank bin, zerfließe ich nach allen Seiten; heile du mich, und ich halte still vor dir; festige du mich, und ich werde fest. Bis dahin aber erträgst du mich; denn du bist ein guter und freundlicher Gott.",
-            patr_resp1: "Erquicke die Seele deines Knechtes,",
-            patr_resp2: "denn zu dir habe ich meine Seele erhoben.",
-            patr_resp3: "Ich habe mein Herz gefunden, o Herr, um zu dir zu beten."
-        }]
-    },
-    "Dez22": {
-        second: [{
-            button: "Aus den „Sprüchen der Sibylle“: Kommen°wird°ein°heiliger°Fürst",
-            patr_autor: "LEER",
-            patr_werk: "Aus „Sprüche der Sibylle“ (1.–3. Jh.)",
-            patr_text: "^hKommen°wird°ein°heiliger°Fürst^hI^pWenn auch Ägypten einst^ßvon Rom besiegt und beherrscht wird,^leine Grenze sie eint,^ßja dann wird endlich erscheinen^lunter Menschen^ßdas größte Reich unsterblichen Königs:^lKommen wird ein heiliger Fürst^ßund schwingen das Zepter^lüber die Länder der Welt hinfort^ßbis in ewige Zeiten.^hII^pNicht in Herrlichkeit, er kommt^ßals Mensch in die Schöpfung,^lelend, niedrig und arm:^ßElenden Hoffnung zu bringen^lgibt dem morschen Fleische Gestalt^ßund himmlischen Glauben^lGlaubenslosen, und neu gestaltet er^ßwieder den Menschen,^lwie er einst erstand^ßaus Gottes heiligen Händen.^hIII^pWenn er die Arme breitet,^ßdas All umspannt, auf dem Haupte^ldorngeflochtene Krone trägt^ßund wenn ihm die Seite^lnach dem Gesetz der Speer durchstößt,^ßwird schauriges Dunkel,^lwird drei Stunden die Nacht sich senken^ßmitten am Tage,^lund ein großes Zeichen geschieht^ßvor den Augen der Menschen^lim Salomonischen Tempel,^ßwenn er zum Hause des Hades^lniedersteigt und Auffahrt ruft^ßdem Volke der Toten.^hIV^pUnd erstanden gesellt zuerst^ßden Seinen der Herr sich^lwieder im Fleisch, wie er vordem war,^ßdoch an Händen und Füßen^lzeigt er der Schar vier Male,^ßdie ihm die Glieder durchbohrten,^lAufgang nämlich und Untergang^ßund Mittag und Mitternacht:^lSoviel Königreiche der Welt^ßbegehen in Zukunft^lfrevelhafte niedrige Tat^ßam Vorbild der Menschen."
-        }]
-    },
-    "Dez23": {
-        second: [{
-            patr_autor: "Heinrich Schlier († 1978)",
-            patr_werk: "Aus dem Buch „Der Herr ist nahe – Adventsbetrachtungen“.",
-            patr_text: "^hDes°Herrn°Nähe^pIn welcher Weise können wir denn „in Ihm“ sein und also „in Ihm“ uns freuen? Ist er denn nicht in die äußerste Ferne gerückt, sei es, dass er als der am Kreuz einmal Gestorbene irdisch vergangen ist, wie wir alle einmal vergehen als Menschen, sei es, dass er als der von den Toten Erweckte im Jenseits, im Himmel, bei Gott ist, und wir sind heute hier auf Erden, und morgen holt uns der Tod zu sich? Wie können wir uns seiner freuen, nein, zur Freude „in Ihm“ gelangen, wenn er als der Gekreuzigte und Auferstandene und Erhöhte nicht gegenwärtig ist, gegenwärtig in der Gegenwart unserer Welt und Zeit?^pDarauf gibt der Apostel mit seiner Formulierung Antwort: „Der Herr ist nahe!“{1#Phil 4,5} „Im Herrn“ können und sollen wir uns freuen, weil der Herr „nahe“ ist.^pUnd dieses „Nahesein“ meint nicht nur und nicht zuerst und zuletzt ein Nahesein im zeitlichen Sinn. Es meint eine sachliche Nähe, ein Nahegekommen und in der Nähe, ein in das Erreichbare und das Erreichen Gerücktsein. Und es meint dies auch in der zeitlichen Nähe. Es meint mit anderen Worten, dass seine Ankunft in Kreuz und Auferstehung und Erhöhung zu Gott zugleich ein Ankommen in die Nähe zu uns ist. Er ist uns nahegekommen und ist in unserer Nähe. Ja man kann sagen: Er ist unsere Nähe.^pAdvent hat sich erfüllt in seinem Nahesein. Er ist der, der da kommen soll. Und Er ist in den Horizont der Welt und unseres Lebens eingetreten, der uns von allen Seiten umgibt und angeht.^pUnd als solcher ist er der Grund jener Freude, die über alle Freude und noch Freude im Leid ist. Seine Ankunft in die Nähe erweckt die Freude, die Adventsfreude seiner Nähe.^pEr ist ja so nahe, dass wir sein Wort hören. Er ist – und das ist nicht metaphorisch gemeint – nahe in seinem Wort, im Wort seines Weges, im Wort seines Wirkens, im Wort seiner Person. Dies Wort ist mit ihm und seinem Leben laut geworden und hat sich im Wort des Evangeliums zur Sprache gebracht. Dieses Wort des Herrn in Menschenwort stellt die Welt und unser Leben in das Licht der Wahrheit und erleuchtet unseren Weg.^pSo nahe ist der Herr, dass er über alle Zeiten hinweg, ja dass er über die Grenze zwischen Himmel und Erde hinweg uns mit seinem Wort erreicht und sich uns glaub-würdig macht, dass wir ihn und sein Heil im Glauben erkennen und erfahren können.^pAber die nächste Nähe des Herrn erfahren wir, wenn er sich uns unter den einfachen Zeichen von Brot und Wein auf die Lippen legt und so uns selbst sich mitteilt und mit sich sein ganzes Heil. So nahe ist er, dass wir nur im Glauben unseren Mund zu öffnen brauchen, und wir werden von ihm gespeist."
-        }]
-    },
-    "Dez24": {
-        second: [{
-            patr_autor: "Franz von Sales († 1622)",
-            patr_werk: "Aus einer Predigt zur Vigil von Weihnachten.",
-            patr_text: "^hMorgen°werdet°ihr seine°Herrlichkeit°sehen^pDie heilige Kirche ist gewohnt, uns am Vorabend der großen Feste vorzubereiten, damit wir begierig sind, die großen Gnadenerweise zu erkennen, die wir in ihnen von Gott empfangen haben. Wenn die Christen der Urkirche unserem Herrn gewissermaßen Genugtuung leisten wollten für sein Blut, das er bei seinem Tod am Kreuz so freigebig vergossen hat, dann waren sie sorgsam bedacht, die Zeit der Feste recht zu nutzen und sie möglichst ganz zu feiern.^pDie heilige Kirche will also, dass wir uns in der Vigil des heiligen Weihnachtsfestes vorbereiten, und als ganz liebenswürdige Mutter will sie nicht, dass wir von einem so großen Geheimnis unvorbereitet überrascht werden; deshalb sagt sie uns die Worte: „Heute sollt ihr wissen, dass unser Herr morgen kommt.“ Das heißt soviel wie: Morgen wird er geboren, und ihr werdet ihn als ganz kleines Kind in einer Krippe liegend sehen{1#vgl. Lk 2,12}. Dabei hat sie keine andere Absicht, als zu erreichen, dass wir unseren Verstand in die Betrachtung der Größe des Geheimnisses der hochheiligen Geburt unseres Herrn versenken.^pUm das möglichst gut zu machen, werden wir vor allem unseren Verstand demütigen und anerkennen, dass er in keiner Weise fähig ist, auf den Grund dieses großen Geheimnisses vorzudringen, das ein wahrhaft christliches Mysterium ist.^pIch sage „christlich“, weil nur die Christen jemals begreifen konnten, dass Gott Mensch und der Mensch vergöttlicht wurde. Es ist ja ein Geheimnis, das verborgen ist im Dunkel und in der Finsternis der Nacht; nicht als ob das Geheimnis dunkel in sich selbst wäre, denn Gott ist nur Licht{2#vgl. Joh 1,5.9}.^pMan weiß ja, dass unsere Augen nicht fähig sind, das Licht oder die Klarheit der Sonne zu betrachten, ohne zu erblinden (wenn wir es unternehmen wollten, dieses Licht zu betrachten, sind wir gezwungen, die Augen zu schließen, und sind einige Zeit unfähig, etwas zu sehen). Ebenso liegt das, was uns daran hindert, das Geheimnis der hochheiligen Geburt unseres Herrn zu begreifen, nicht daran, dass es in sich dunkel wäre, sondern daran, dass es nichts als helles Licht ist.^pUnser Verstand, der das Auge unserer Seele ist, kann es nicht lange betrachten, ohne sich zu trüben, und muss demütig bekennen, dass er dieses Geheimnis nicht ergründen kann, um zu begreifen, wie Gott im jungfräulichen Schoß der allerseligsten Jungfrau Fleisch angenommen hat und Mensch geworden ist gleich uns, um uns Gott ähnlich zu machen."
-        }]
-    },
-    "Dez25": {
-        first: [{
-            resp1: "Vom Himmel stieg herab der wahre Gott^SLICE, vom Vater geboren. Er scheute nicht den Schoß der Jungfrau und nahm an das Fleisch des Menschen, in dem Adam geschaffen war,",
-            resp2: "und ist uns sichtbar erschienen, Gott und Mensch, Licht und Leben, Schöpfer der Welt.",
-            resp3: "Durch ihn ist alles geschaffen, für uns Menschen und um unseres Heiles willen stieg er vom Himmel herab"
-        }],
-        second: [{
-            patr_resp1: "Das Wort ist Fleisch geworden und hat unter uns gewohnt,",
-            patr_resp2: "und wir haben seine Herrlichkeit gesehen, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit.",
-            patr_resp3: "Er erschien auf der Erde und verkehrte unter den Menschen,"
-        }]
-    },
-    "Dez31": {
-        second: [{
-            patr_autor: "Hugo Rahner († 1968)",
-            patr_werk: "Aus dem Buch „Maria und die Kirche“.",
-            patr_text: "^hMaria°ist°Mutter der°Glieder°Christi^pDer Urbeginn unserer Erlösung liegt in dem unbegreiflichen Ratschluss des ewigen Vaters, seinen eingeborenen Sohn uns als Menschen zu schenken.^pIn diesem göttlichen Gnadenentschluss ist aber auch mitgegeben der von eben dieser Gnade angerührte und ermöglichte freie Entschluss jenes Menschenkindes, das auserwählt ward, Mutter des Menschensohnes zu werden. In dem freien Ja der Jungfrau Maria ist gleichsam alles schon eingeschlossen, was je im Lauf der Erlösungsgeschichte an Gnade und Gottesliebe sich in das Geschlecht des Adam ergießen wird.^pDas Jawort der Jungfrau ist in einem wahren Sinn der Anfang der Kirche. Augustinus hat dies in einem berühmten Wort ausgesprochen: „Wahrlich, Maria ist auch die Mutter der Christusglieder, die wir selber sind. Denn sie hat mitgewirkt in Liebe, dass Glaubende in der Kirche geboren werden, Glaubende, die da sind die Glieder jenes Hauptes, dessen Mutter sie leiblich wurde.“{1#@Augustinus, De sancta virginitate 6} Diese „liebende Mitwirkung“ ist zunächst einmal ihr Jawort, das den Einstrom der göttlichen Begnadigung in das ganze Menschengeschlecht durch die Menschwerdung Gottes ermöglicht hat.^pIm jungfräulichen Schoß Marias beginnt also, wie die Väter so oft sagen, in Wahrheit die Existenz der Kirche. Denn durch die hochzeitliche Vereinigung von Gottheit und Menschheit in der einen Person Christi ist der weltgestaltende Heilsschluss des Vaters festgelegt und begonnen: alles, was nun folgt, vom erlösenden Kreuz dieses aus Maria für den Vater geborenen Menschenkindes bis zur Vollendung in der herrlichen Wiederkunft des Gottmenschen, also die ganze Geschichte der Kirche, ist Entfaltung des Geheimnisses, das sich am Herzen Marias vollzog.^pEs ist das eigentliche Mysterium der Kirche – so wie es einmal in einem wundervollen Hymnus des achten Jahrhunderts heißt: „Das Mysterium der Kirche wollen wir besingen in einem Hymnus auf Christus, den die mütterliche Frau geboren hat, das Wort des Vaters. Groß nämlich ist das Mysterium, das Maria anvertraut ward.“{2#@vgl.°Analecta Hymnica 51} Jenes „große Mysterium“, von dem Paulus in Bezug auf die Kirche spricht, beginnt schon in Marias Schoß.^pIn der klassischen Diktion seiner Theologie hat uns dieses Geheimnis der Kirche der heilige Papst Leo in einer seiner Weihnachtspredigten verkündet: „Indem wir die Menschwerdung unseres Erlösers anbeten, feiern wir offenbar auch den Beginn unseres eigenen Lebens. Ist doch die Zeugung Christi der Ursprung des christlichen Volkes. Der Geburtstag des Hauptes ist zugleich der Geburtstag des Leibes. Mag auch jeder einzelne von den Berufenen seinen besonderen Stand haben, mögen auch alle Kinder der Kirche durch die Folge der Zeiten voneinander getrennt sein: die Gesamtheit aller Gläubigen, die aus dem Taufquell hervorgingen, ist mit Christus in seiner Geburt geboren worden.“{3#@Leo der Große, Sermo 26,2}^pWeihnacht ist für die alte Kirche ein Fest der Kirche, Maria der Inbegriff aller Mysterien, die sich in unserer Wiedergeburt an uns selbst vollziehen."
-        }]
-    },
-    "Jan1": {
-        second: [{
-            patr_autor: "Walther von der Vogelweide († um 1230) zugeschrieben",
-            patr_werk: "An°Maria.",
-            patr_text: "^h^pMaria klar,^ßviel hochgelobte Herrin, süße,^lHilf mir durch deines Kindes Ehr,^ßdass ich die Sünde büße.^lDu flutige Flut der Tugend,^ßErbarmung, aller Güte,^lDer süße Gottesgeist^ßaus deinem edlen Herzen blühte:^lEr ist dein Kind,^ßdein Vater und dein Schöpfer. ^pWohl uns, dass du^ßihn durftest einst gebären!^lDen Höhe, Tiefe, Breite, Länge^ßnie umgreifen ging,^lDein kleiner Leib^ßmit süßer Keusche ihn umfing,^lKein Wunder gleicht^ßdem wunderbaren Ding:^lDer Engel Königin,^ßdu trugst ihn ohne alle Schweren."
-        }]
-    },
-    "Jan3": {
-        second: [{
-            patr_autor: "Theresia vom Kinde Jesus (†°1897)",
-            patr_werk: "Aus einem Brief an Schwester Marie du Sacré-Cœur.",
-            patr_text: "^hMeine°Berufung°ist°die°Liebe^pAls beim Gebet meine Begierden mich ein wahres Martyrium erleiden ließen, schlug ich die Briefe des heiligen Paulus auf, um irgendeine Antwort zu suchen. Das 12. und 13.°Kapitel des ersten Korintherbriefes fiel mir in die Hände. Ich las im ersten, dass nicht alle zugleich Apostel, Propheten, Lehrer usw. sein können, dass die Kirche sich aus verschiedenen Gliedern zusammensetzt und dass das Auge nicht zugleich Hand sein kann {1#vgl.°1 Kor 12,29.12.21}.^pDie Antwort war klar, stillte aber mein Sehnen nicht und brachte mir keinen Frieden. Wie Magdalena sich immer wieder über das leere Grab beugte und schließlich fand, was sie suchte, so erniedrigte ich mich bis in die Tiefen meines Nichts, und da erhob ich mich so hoch, dass ich mein Ziel erreichte {2#@Hl. Johannes vom Kreuz, Gedichte, Zweiter Gesang über eine Ekstase}. Ohne mich entmutigen zu lassen, setzte ich meine Lesung fort und fand Trost in folgendem Satz: „Strebt eifrig nach den vollkommensten Gaben, aber ich will euch einen noch vorzüglicheren Weg zeigen.“ {3#1 Kor 12,31} Und der Apostel erklärt, wie die vollkommenen Gaben nichts sind ohne die Liebe. Dass die Liebe {4#@‚charité‘ – die christliche Gottes- und Nächstenliebe} der vortreffliche Weg ist, der mit Sicherheit zu Gott führt.^pEndlich hatte ich Ruhe gefunden. Den mystischen Leib der Kirche betrachtend, hatte ich mich in keinem der vom heiligen Paulus geschilderten Glieder wiedererkannt, oder vielmehr, ich wollte mich in allen wiedererkennen. Die Liebe gab mir den Schlüssel meiner Berufung. Ich begriff, dass wenn die Kirche einen aus verschiedenen Gliedern bestehenden Leib hat, ihr auch das notwendigste, das edelste von allen nicht fehlt; ich begriff, dass die Kirche ein Herz hat und dass dieses Herz von Liebe brennt. Ich erkannte, dass die Liebe allein die Glieder der Kirche in Tätigkeit setzt, und würde die Liebe erlöschen, so würden die Apostel das Evangelium nicht mehr verkünden, die Märtyrer sich weigern, ihr Blut zu vergießen. Ich begriff, dass die Liebe alle Berufungen in sich schließt, dass die Liebe alles ist, dass sie alle Zeiten und Orte umspannt. Mit einem Wort: dass sie ewig ist!^pDa rief ich im Übermaß meiner überschäumenden Freude: O Jesus, meine Liebe, endlich habe ich meine Berufung gefunden: Meine Berufung ist die Liebe!^pJa, ich habe meinen Platz in der Kirche gefunden, und diesen Platz, mein Gott, den hast du mir geschenkt: Im Herzen der Kirche, meiner Mutter, werde ich die Liebe sein; so werde ich alles sein."
-        }]
-    },
-    "Jan4": {
-        second: [{
-            patr_autor: "Reginald Garrigou-Lagrange (†°1964)",
-            patr_werk: "Aus dem Buch „Mystik und christliche Vollendung“.",
-            patr_text: "^hDie°vollkommene°Liebe^pNach dem heiligen Johannes vom Kreuz findet sich die wahre, auf Erden noch mögliche Vollkommenheit nur in der umbildenden Vereinigung oder geistigen Vermählung {1#@Geistl.°Gesang, III.°Teil, 22.°Strophe}. Es erfüllt sich da, was im Hohenliede geschrieben steht: „Schon ist der Winter vorüber, der Regen hat aufgehört und ist vergangen, schon erscheinen die Blumen in unserem Lande.“ {2#vgl.°Hld°2,11}^pDas ist die volle Entfaltung der Liebe. Die vollkommene Liebe nimmt Gottes wegen jedes Werk oder jedes Opfer auf sich, sie findet darin sogar eine heilige Freude {3#@a.a.O.,°24.°Strophe}. Sie schreckt vor dem Tode nicht zurück, sondern wünscht ihn herbei; nichts schreibt sie sich selbst zu, sondern bezieht alles auf Gott. In ihn bildet sie sich gewissermaßen um nach dem Wort des heiligen Paulus: „Wer aber dem Herrn anhängt, ist EIN Geist mit ihm.“ {4#vgl.°1°Kor°6,17}^p„Gott selbst ist es, der sich ihr in wunderbarer Herrlichkeit mitteilt und sie umgestaltet. In diesem Stande werden beide eins wie das Glas und der Sonnenstrahl, wie die Kohle und das Feuer, wie das Licht der Sterne und das Sonnenlicht, wenn auch diese Vereinigung noch nicht so wesenhaft und so vollkommen ist wie im anderen Leben.“ {5#@a.a.O.,°26.°Strophe}"
-        }]
-    },
-    "Jan5": {
-        second: [{
-            patr_autor: "Ernest Hello (†°1885)",
-            patr_werk: "Aus dem Buch „Der Mensch“.",
-            patr_text: "^hDie°christliche°Liebe^pMan sollte sich doch darüber klar sein: Je schöner ein Wort ist, um so gefährlicher ist es. Es lässt sich gar nicht sagen, welch ungeheure Bedeutung die Sprache hat. Worte sind Brot oder Gift, und die allgemeine Verwirrung ist eines der Kennzeichen unserer Zeit.^pDurch ihre Nachgiebigkeit werden die Zeichen, die der Sprache zur Verfügung stehen, zu furchtbaren Werkzeugen. Jeden beliebigen Missbrauch kann man mit ihnen treiben, sie widersprechen nicht. Sie lassen sich ruhig entehren, und die Entstellung der Worte offenbart sich lediglich durch die gründliche Unordnung, die sie in der Wirklichkeit anrichtet.^pEs gibt ein Wort des heiligen Paulus, dessen Tiefe unbekannt ist: Der Heidenapostel erklärt, wenn er durch seinen Glauben Berge versetzte und hätte die Liebe nicht, so wäre er nichts. Dies Wort hat einen Umfang, den nur wenige kennen. Der es gesprochen, wusste um seltsame Geheimnisse.^p„Der Teufel ist der, der nicht liebt“, hat die heilige Theresia gesagt, und die heilige Brigitte hat dies schreckliche Geständnis aus dem Munde des Verfluchten selbst vernommen. Da der Teufel zu Jesus spricht, sagt er ihm die Worte: „Richter, ich bin die Kälte.“^p„Wer nicht liebt, ist nichts“, sagt der heilige Paulus. Wie verhält sich das Nichts zur Sünde?^pWelchen Namen trüge die Liebe in einer Sprache, die höher stünde als die unsere? Wäre es nicht ein und derselbe Name?^pWie tiefe Geheimnisse auch die fleischliche Liebe hüten mag, in der sittlichen Ordnung ist die Liebe jedenfalls das Gesetz des Lebens. Sie ist der Urgrund selber der Tätigkeit. Hätten die Menschen nicht gar soviel Geschäfte am Halse, so könnten sie vielleicht einen Augenblick über diese Dinge nachdenken. Sie ist zu alltäglich, um bemerkt, zu tief, um verstanden zu werden.^pAber eben deshalb, weil die Liebe^w das ^0werhabene Ding und^w die ^0wWirklichkeit in des Wortes verwegenster Bedeutung, dazu das Knochenmark der Schöpfung ist, gerade deswegen muss es ganz besonders gefährlich sein, wenn die Liebe missbraucht und ihr Name falsch angewendet wird. Das Beste wird, wenn es verdorben wird, zum Allerschlechtesten. Je schöner der Name Liebe, um so schrecklicher ist er! Und wenn er sich nun mit der Macht bewaffnet, die er für das Leben empfing und sie gegen die Wahrheit kehrt, so wird er dem Tode jeden Dienst leisten.^pImmer dann, wenn man sich mit dem Irrtum unter dem Vorwand, die Menschen zu schonen, verträgt, statt ihn auszurotten, richtet man den Namen der Liebe wider das Licht. Und so schafft man sich womöglich den Vorwand, sich das Schlechte in der eigenen Seele, das Schlechte, das man so gerne hätschelt, zu verzeihen.^pDer Mensch wird gegenüber der Schwäche, die Besitz von ihm ergreifen will, weichlich, sobald es ihm erst einmal zur Gewohnheit geworden ist, die völlige Anpassung an jedwede Schwäche Liebe zu nennen."
-        }]
-    },
-    // beide Lesejahre
-    "Fronleichnam": {
-        second: [{
-            patr_autor: "Thomas von Aquin († 1274)",
-            patr_werk: "Sequenz°zum°Fronleichnamsfest",
-            patr_text: "^h^pLauda, Sion, Salvatórem,^llauda ducem et pastórem^lin hymnis et cánticis.^lQuantum potes, tantum aude,^lquia maior omni laude,^lnec laudáre súfficis.^pLaudis thema speciális,^lpanis vivus et vitális^lhódie propónitur.^lQuem in sacræ mensa cœnæ^lturbæ fratrum duodénæ^ldatum non ambígitur.^pSit laus plena, sit sonóra;^lsit iucúnda, sit decóra^lmentis iubilátio.^lDies enim solémnis ágitur^lin qua mensæ prima recólitur^lhuius institútio.^pIn hac mensa novi Regis^lnovum Pascha novæ legis^lphase vetus términat.^lVetustátem nóvitas,^lumbram fugat véritas,^lnoctem lux elíminat.^pQuod in cœna Christus gessit,^lfaciéndum hoc expréssit^lin sui memóriam:^lDocti sacris institútis^lpanem, vinum in salútis^lconsecrámus hóstiam.^pDogma datur Christiánis,^lquod in carnem transit panis^let vinum in sánguinem.^lQuod non capis, quod non vides,^lanimósa firmat fides^lpræter rerum órdinem.^pSub divérsis speciébus,^lsignis tantum et non rebus,^llatent res exímiæ:^lCaro cibus, sanguis potus,^lmanet tamen Christus totus^lsub utráque spécie.^pA suménte non concísus,^lnon confráctus, non divísus^línteger accípitur.^lSumit unus, sumunt mille,^lquantum isti, tantum ille,^lnec sumptus consúmitur.^pSumunt boni, sumunt mali,^lsorte tamen inæquáli,^lvitæ vel intéritus:^lMors est malis, vita bonis,^lvide paris sumptiónis^lquam sit dispar éxitus.^pFracto demum sacraménto,^lne vacilles, sed meménto^ltantum esse sub fragménto,^lquantum toto tégitur.^pNulla rei fit scissúra,^lsigni tantum fit fractúra,^lqua nec status nec statúra^lsignáti minúitur^pEcce panis Angelórum,^lfactus cibus viatórum,^lvere panis filiórum,^lnon mitténdus cánibus!^pIn figúris præsignátur,^lcum Isaac immolátur,^lagnus Paschæ deputátur,^ldatur manna pátribus.^pBone pastor, panis vere,^lJesu, nostri miserére,^ltu nos pasce, nos tuére,^ltu nos bona fac vidére^lin terra vivéntium.^pTu qui cuncta scis et vales,^lqui nos pascis hic mortáles,^ltuos ibi commensáles,^lcohærédes et sodáles^lfac sanctórum cívium.^lAmen. Allelúja."
-        }]
-    },
-    "Sept16": {
-        second: [{
-            button: "Aus den Akten über das Martyrium des°heiligen°Cyprian.",
-            patr_autor: "LEER",
-            patr_werk: "Aus den Akten über das Martyrium des°heiligen°Cyprian.",
-            patr_text: "^hCyprian°starb unter°der Königsherrschaft°Jesu°Christi^pAm 18. Tag vor den Kalenden des Monats Oktober (14.°September) kam auf Befehl des Prokonsuls Galerius Maximus viel Volk morgens früh zum Ager Sexti. Der Prokonsul saß an diesem Tag im Atrium Sauciolum zu Gericht und ließ den Cyprian vor sich bringen. Als er vorgeführt war, sagte der Prokonsul Galerius Maximus zum Bischof Cyprian: „Du bist Thascius Cyprianus?“ Der Bischof Cyprian antwortete: „Ich bin es.“ Der Prokonsul Galerius Maximus sagte: „Du hast dich gottlos gesinnten Menschen als Papst zur Verfügung gestellt.“ Der Bischof Cyprian antwortete: „Ja, ich habe es getan!“ Der Prokonsul Galerius Maximus sagte: „Die heiligen Kaiser haben dir befohlen zu opfern.“ Der Bischof Cyprian erwiderte: „Das tue ich nicht!“ Galerius Maximus sagte: „Überlege es dir!“ Der Bischof Cyprian antwortete: „Tu, was dir befohlen ist; in einer so gerechten Sache gibt es nichts zu überlegen.“^pGalerius Maximus besprach sich mit seinen Räten und gab dann widerwillig das Urteil ab mit den Worten: „Du hast lange in einem ruchlosen Geist gelebt, viele Menschen in einer ruchlosen Verschwörung um dich versammelt und dich zum Feind der römischen Götter und der heiligen Bräuche gemacht. Die frommen und heiligen Fürsten, die Kaiser Valerianus und Gallienus und der erlauchte Unterkaiser Valerianus konnten dich nicht zur Gemeinschaft ihrer heiligen Riten zurückrufen. Da du also als Urheber und Rädelsführer schlimmer Verbrechen erfasst bist, soll – für diese, die du für deinen Frevel gewonnen hast, zum warnenden Beispiel – die heilige Ordnung mit deinem Blut bestätigt werden.“ Nach diesen Worten verlas er aus der Tabelle das Urteil: „Thascius Cyprianus soll mit dem Schwert hingerichtet werden.“ Der Bischof Cyprian sprach: „Dank sei Gott!“^pNach diesem Urteilsspruch sagte die Schar der Brüder: „Auch wir wollen mit ihm enthauptet werden.“ Darum gab es laute Unruhe unter den Brüdern, und eine große Menge folgte ihm. So wurde Cyprian zum Ager Sexti geführt. Dort legte er den roten Mantel ab, kniete nieder und warf sich zu Boden, um zum Herrn zu beten. Dann zog er die Dalmatik aus und reichte sie den Diakonen. Nun stand er im Linnengewand da und wartete auf den Scharfrichter. Als dieser kam, gebot Cyprian den Seinen, ihm 25 Goldstücke zu reichen. Leintücher und Handbinden wurden ihm von den Brüdern hingehalten. Dann verband sich Cyprian mit eigener Hand die Augen. Da er sich die Streifen für die Hände nicht selbst binden konnte, banden sie ihm der Presbyter Julian und der Subdiakon Julian.^pSo litt der heilige Cyprian. Wegen der Neugierde der Heiden wurde der Leib in der Nähe beigesetzt. Von dort holte man ihn bei Nacht mit Kerzen und Fackeln ab und brachte ihn unter Gebet in großem Triumphzug zur Grabstätte des Prokurators Macrobius Candidus, die an der Straße nach Mappalia bei den Fischteichen liegt. Der Prokonsul Galerius Maximus starb wenige Tage später.^pDer heilige Märtyrer Cyprian starb am 18.°Tag vor den Kalenden des Oktobers (14.°September) unter den Kaisern Valerian und Gallienus, unter der Königsherrschaft Jesu Christi, dem Ehre und Herrlichkeit ist in Ewigkeit. Amen."
-        }]
-    },
-    "Ursula": {
-        second: [{
-            patr_autor: "Breviarium Coloniense (1521)",
-            patr_werk: "LEER",
-            patr_text: "^hDient°untadelig°eurem°himmlischen°König^pDie heilige Ursula setzte ihr Vertrauen auf das Wort der göttlichen Verheißung. Dennoch war sie auch bemüht um die menschliche Gebrechlichkeit. Sie hatte ihre Mitjungfrauen schon mit Worten und durch das christliche Beispiel belehrt. Doch nun ermahnte sie alle: In eurer bedrängten Lage müsst ihr um so entschlossener an der Tür des göttlichen Erbarmens pochen! Den Gürtel der Keuschheit dürft ihr niemals verlieren! Er ist ja das Zeichen, unter dem ihr eurem himmlischen König untadelig dient.^pMit diesen Worten „gab sie einen Sporn denen, die schon liefen“! Die gottverlobten Jungfrauen brachen in Tränen aus. Von ganzem Herzen und in der Glut des Geistes begannen sie die göttliche Hilfe anzurufen: Gott möge jeder einzelnen, besonders aber der Königin, die Jungfräulichkeit erhalten!^pDer gütige Gott ist allzeit denen nahe, die ihn in der Wahrheit anrufen. Darum wies er ein so frommes Gebet nicht ab. Aus seinen Schatzkammern holte er den Wind hervor. Von ihm wurden die Schiffe so angetrieben, dass sie in einem Tag und einer Nacht in glücklicher Fahrt zum Hafen gelangten, der Tyele heißt. Die Zahl der Schiffe und die Schar der Mädchen erlitt unterdessen keinen Schaden.^pSie gingen ans Ufer, das ihr Ziel war. Die Frau, die ihre Anführerin war, wurde Maria der Prophetin ähnlicher, als sie das Rote Meer vor den Heeren des Pharao durchschritten hatte. Sie sang dem himmlischen Bräutigam das hochzeitliche Lob, das sie ihm schuldete. Die Gemeinschaft der Mädchen stimmte darin ein, nicht mit lautem Rufen, sondern in der Harmonie des Gesanges. Sie sangen das frohe Lied der Schwester des Mose. Es klang empor zum Ohr Gott Zebaots wie lieblicher Klang.^pDort machten sie zur Nacht Station. Am folgenden Tag kauften sie, was sie notwendig hatten. Es war dort Markt. Dann gingen sie zu den Schiffen zurück und lichteten die Anker. Gegen die Strömung des Flusses ruderten sie. So kamen sie zu jener berühmten Stadt Köln, wo heute noch ihre Leiber in Frieden ruhen.^pSie gingen an Land. Nach dem Abendbrot überwältigte der Schlaf die von gottgefälliger Arbeit Übermüdeten. Die heilige Jungfrau Ursula hatte Gottes Wohlgefallen gefunden durch das Bekenntnis zur engelgleichen Keuschheit. Darum sah sie im Traum eine Engelsgestalt voll Licht und Hoheit. Er sagte ihr: Wisse, Tochter, was du so sehr ersehnt hast, wirst du unter dem himmlischen Schutz Gottes mit dieser lieben Gemeinschaft deiner Schwestern erlangen. Du wirst nach Rom gelangen. Die Zahl deiner Gefährtinnen wird keine Minderung erfahren. Die Gelöbnisse werden unvermindert erhalten. Gott hat euch hier die Ruhe in Ewigkeit bestimmt. Hier werdet ihr in Frieden ruhen.",
-        }]
-    },
-    "Allerheiligen": {
-        second: [{
-            patr_autor: "Romano Guardini († 1968)",
-            patr_werk: "Aus der „Vorschule des Betens“.",
-            patr_text: "^hIn°den°Heiligen strahlt die°Freiheit°und°Herrlichkeit der°Kinder°Gottes^pDie im Namen Christi sterben, gehen nicht ins Wesenlose, sondern in die Fülle heiliger Wirklichkeit ein.^pDas unwillkürliche Gefühl meint, die Toten würden schattenhaft, wendet sich von ihnen ab und sucht das warme Licht der irdischen Sonne oder es glaubt, sie bekämen eine unheimliche, zerstörende Macht, und sucht sich davor zu schützen.^pDiese Empfindungen werden aber im Glauben überwunden. Er sagt uns, dass die in der Gnade Heimgegangenen zur „Herrlichkeit der Kinder Gottes“ und zur reinen Vollendung ihres Wesens im ewigen Lichte gelangen.^pLiegt es da nicht nahe, jene Menschen, die schon auf Erden Zeugen göttlicher Liebe und Macht gewesen sind, auch in ihrer Erfüllung aufzusuchen? So ist es denn auch geschehen, und wir finden von den frühesten christlichen Zeiten an eine lebendige Beziehung der Gläubigen zu jenen, die sich auf Erden in besonderer Weise als Freunde Gottes erwiesen haben, den Heiligen. Und zwar ist diese Beziehung sehr mannigfaltig.^pAuf den ersten Blick scheint sie ganz in der Bitte um Hilfe zu bestehen, und diese Bitte hat recht, denn die Not des Daseins ist groß. In ihr aber zu denen zu rufen, die ganz in Gottes Gemeinschaft eingegangen, mit seinem Willen eins und seiner Gnade voll sind, bedeutet nichts anderes als die Verbundenheit des gläubigen Daseins.^pNeben der Bitte tritt aber auch das Lob hervor: die Freude an dem frommen und edlen Leben der Heiligen; an der göttlichen Führung, die darin deutlich wird; an ihren Überwindungen und Taten. Sie sind Zeugen der Erlösung. Die neue Schöpfung, die immerfort aus Christi Tat hervorgeht, ist verhüllt; alles widerspricht ihr, und der Glaube hat Mühe, sich der einstigen Vollendung gewiss zu halten. In den Heiligen strahlt „die Freiheit und Herrlichkeit der Kinder Gottes“{1#Röm 8,21} auf und hilft der Hoffnung.^pDie Heiligen können auch eine besondere Bedeutung für die Weise erhalten, wie der einzelne sein Leben führt. Sie öffnen den Reichtum Christi. Dieser ist „das Licht“, einfach und alleinbegreifend zugleich; die Heiligen aber sind wie Prismen, welche seine Unbegreiflichkeit aufbrechen und bald diese, bald jene Farbe daraus erstrahlen lassen. So können sie dem Glaubenden helfen, sich selber besser aus Christus heraus zu verstehen und den Weg zu finden, den er gehen soll.^pWas aber im Tiefsten zu den Heiligen treibt, ist doch wohl einfach der Wunsch, bei ihnen zu sein, mit ihnen umzugehen, Anteil an ihnen zu haben. Es ist die Liebe, welche die Gemeinschaft derer sucht, die ganz in der Liebe gelebt haben und nun in ihr vollendet sind.",
-            patr_resp1: "Preist unsern Gott, all seine Knechte und alle, die ihn fürchten, klein und groß.",
-            patr_resp2: "Der°Herr°ist König geworden, Gott, der Herrscher des Alls.",
-            patr_resp3: "Jubelt dem Herrn, ihr Gerechten, den Frommen kommt es zu, Gott zu loben.",
-        }]
-    },
-    "Allerseelen": {
-        second: [{
-            patr_autor: "LEER",
-            patr_werk: "Sequenz°„Dies°irae“",
-            patr_text: "^pDies iræ, dies illa,^lsolvet sæclum in favílla,^lteste David cum Sibýlla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pQuid sum miser tunc dictúrus,^lquem patrónum rogatúrus,^lcum vix iustus sit secúrus?^pRex treméndæ maiestátis,^lqui salvándos salvas gratis,^lsalva me, fons pietátis.^pRecordáre, Iesu pie,^lquod sum causa tuæ viæ,^lne me perdas illa die.^pQuærens me sedísti lassus,^lredemísti crucem passus;^ltantus labor non sit cassus.^pIuste iudex ultiónis,^ldonum fac remissiónis^lante diem ratiónis.^pIngemísco tamquam reus,^lculpa rubet vultus meus;^lsupplicánti parce, Deus.^pQui Maríam absolvísti^let latrónem exaudísti,^lmihi quoque spem dedísti.^pPreces meæ non sunt dignæ,^lsed tu, bonus, fac benígne,^lne perénni cremer igne.^pInter oves locum præsta^let ab hædis me sequéstra^lstátuens in parte dextra.^pConfutátis maledíctis,^lflammis ácribus addíctis,^lvoca me cum benedíctis.^pOro supplex et aclínis,^lcor contrítum quasi cinis,^lgere curam mei finis.^pLacrimósa dies illa,^lqua resúrget ex favílla^liudicándus homo reus:^lhuic ergo parce, Deus!^pPie Iesu, Dómine,^ldona eis réquiem. Amen."
-        }]
-    },
-    "Kirchweihe": {
-        second: [{
-            patr_autor: "Augustinus († 430)",
-            patr_werk: "Aus einer Predigt zur Weihe einer Kirche. (Sermo°336^v,1.6^0v)",
-            patr_text: "^hDer°Aufbau°und°die°Weihe des°Hauses°Gottes°in°uns^pWir sind hier versammelt, um ein Haus des Gebets feierlich zu weihen. Dies hier ist also ein Haus für unser Beten; Haus Gottes dagegen sind wir selbst. Wenn wir selbst Haus Gottes sind, werden wir in dieser Welt aufgebaut, um am Ende der Zeiten geweiht zu werden. Das Bauwerk, vor allem das Bauen, bringt Mühsal, die Weihe Jubel.^pWas hier geschah, als diese Mauern erstanden, ereignet sich nun, da die Christusgläubigen sich versammeln. Im Glauben werden sozusagen in den Wäldern die Hölzer gefällt und in den Bergen die Steine gebrochen. Werden aber die Glaubenden unterrichtet, getauft und herangebildet, ist es, als würden sie von den Händen der Zimmerleute und Steinmetzen behauen, gerichtet und geglättet.^pAber sie werden nicht zum Haus des Herrn, wenn sie nicht durch die Liebe verbunden werden. Wenn diese Hölzer und Steine nicht nach einem bestimmten Bauplan miteinander zusammenhingen, wenn sie nicht friedlich ineinandergefügt wären, wenn sie einander nicht gewissermaßen lieb hätten, niemand würde hier eintreten. Wenn du jedoch siehst, dass in einem Gebäude Hölzer und Steine gut miteinander zusammenhängen, trittst du unbesorgt ein und fürchtest keinen Einsturz.^pAls darum Christus der Herr eintreten und in uns wohnen wollte, sagte er gewissermaßen als Baumeister: „Ein neues Gebot gebe ich euch: Liebet einander“ {1#Joh 13, 34}. Ich gebe euch ein Gebot, sagt er: Ihr wart alt, bautet mir noch kein Haus, lagt in Trümmern. Nun liebt einander, damit ihr aus eurer alten Trümmerstätte herauskommt.^pDenkt also daran, meine Lieben, dass dieses Haus auf der ganzen Erde gebaut wird; so ist es vorausgesagt und versprochen. Denn als der Tempel nach der Gefangenschaft erbaut wurde, hieß es, wie in einem andern Psalm steht: „Singt dem Herrn ein neues Lied, singt dem Herrn, alle Lande“ {2#Ps 96, 1}.^pWas dort hieß „neues Lied“, hieß beim Herrn „neues Gebot“. Denn was soll „neues Lied“, wenn nicht „neue Liebe“?! Wer liebt, muss singen. Dieses Sängers Stimme ist das Feuer heiliger Liebe.^pWas wir in diesen Wänden leiblich vollbracht sehen, geschehe geistig in den Herzen, und was wir hier vollendet sehen in Stein und Holz, möge, erbaut von Gottes Gnade, in eurem Leib vollendet werden.^pIn erster Linie wollen wir also dem Herrn, unserem Gott, danken, von dem jede gute Gabe und jedes vollkommene Geschenk kommt {3#Jak 1, 17}. Seine Güte wollen wir mit der ganzen Freudigkeit des Herzens loben, weil er für den Bau dieses Hauses des Gebets den Geist seiner Gläubigen besucht, ihr Herz angespornt, ihre Mühen hilfreich mitgetragen hat.^pAls sie noch nicht wollten, hat er sie zum Wollen erweckt. Die Regungen ihres guten Wollens hat er unterstützt zum Vollbringen. So hat Gott, der in den Seinen „das Wollen und das Vollbringen nach seinem Wohlgefallen wirkt“ {4#Phil 2,13 Vg}, dies alles selbst begonnen und selbst vollendet {5#vgl. Phil 1,6}.",
-            patr_resp1: "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!",
-            patr_resp2: "Meine Seele verlangt und sehnt sich nach den Vorhöfen des Herrn.^Ö",
-            patr_resp3: "Selig, die in deinem Hause wohnen, die dich allezeit loben.",
-        }]
-    },
-    "VerstLesehore": {
-        first: [
-            {
-                les_buch: "Aus dem ersten Brief an die Korinther.",
-                les_stelle: "15,35-57",
-                les_text: "^hDie°Auferstehung°der°Toten und°das°Kommen°des°Herrn^pEs könnte einer fragen: Wie werden die Toten auferweckt, was für einen Leib werden sie haben? Was für eine törichte Frage! Auch das, was du säst, wird nicht lebendig, wenn es nicht stirbt. Und was du säst, hat noch nicht die Gestalt, die entstehen wird; es ist nur ein nacktes Samenkorn, zum Beispiel ein Weizenkorn oder ein anderes. Gott gibt ihm die Gestalt, die er vorgesehen hat, jedem Samen eine andere.^pAuch die Lebewesen haben nicht alle die gleiche Gestalt. Die Gestalt der Menschen ist anders als die der Haustiere, die Gestalt der Vögel anders als die der Fische.^pAuch gibt es Himmelskörper und irdische Körper. Die Schönheit der Himmelskörper ist anders als die der irdischen Körper. Der Glanz der Sonne ist anders als der Glanz des Mondes, anders als der Glanz der Sterne; denn auch die Gestirne unterscheiden sich durch ihren Glanz.^pSo ist es auch mit der Auferstehung der Toten. Was gesät wird, ist verweslich, was auferweckt wird, unverweslich. Was gesät wird, ist armselig, was auferweckt wird, herrlich. Was gesät wird, ist schwach, was auferweckt wird, ist stark. Gesät wird ein irdischer Leib, auferweckt ein überirdischer Leib.^pWenn es einen irdischen Leib gibt, gibt es auch einen überirdischen. So steht es auch in der Schrift: Adam, der Erste Mensch, wurde ein irdisches Lebewesen. Der Letzte Adam wurde lebendig machender Geist. Aber zuerst kommt nicht das Überirdische; zuerst kommt das Irdische, dann das Überirdische.^pDer Erste Mensch stammt von der Erde und ist Erde; der Zweite Mensch stammt vom Himmel. Wie der von der Erde irdisch war, so sind es auch seine Nachfahren. Und wie der vom Himmel himmlisch ist, so sind es auch seine Nachfahren. Wie wir nach dem Bild des Irdischen gestaltet wurden, so werden wir auch nach dem Bild des Himmlischen gestaltet werden.^pDamit will ich sagen, Brüder: Fleisch und Blut können das Reich Gottes nicht erben; das Vergängliche erbt nicht das Unvergängliche.^pSeht, ich enthülle euch ein Geheimnis: Wir werden nicht alle entschlafen, aber wir werden alle verwandelt werden – plötzlich, in einem Augenblick, beim letzten Posaunenschall. Die Posaune wird erschallen, die Toten werden zur Unvergänglichkeit auferweckt, wir aber werden verwandelt werden. Denn dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit. Wenn sich aber dieses Vergängliche mit Unvergänglichkeit bekleidet und dieses Sterbliche mit Unsterblichkeit, dann erfüllt sich das Wort der Schrift:^pVerschlungen ist der Tod vom Sieg.^lTod, wo ist dein Sieg?^lTod, wo ist dein Stachel?^pDer Stachel des Todes aber ist die Sünde,^ldie Kraft der Sünde ist das Gesetz.^lGott aber sei Dank, der°uns°den°Sieg°geschenkt°hat^ldurch Jesus Christus, unseren Herrn.",
-                resp1: "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
-                resp2: "Der letzte Feind, der vernichtet wird, ist der Tod.",
-                resp3: "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und der Tod und die Totenwelt werden in den Feuersee geworfen.",
-            },
-            {
-                les_buch: "Aus dem zweiten Brief an die Korinther.",
-                les_stelle: "4,16b – 5,10",
-                les_text: "^hWenn°unser°irdisches°Zelt abgebrochen°wird, dann°haben°wir ein°ewiges°Haus°im°Himmel^pWenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde.^pGott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben. Wir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.^pDeswegen suchen wir unsere Ehre darin, ihm zu gefallen, ob wir daheim oder in der Fremde sind. Denn wir alle müssen vor dem Richterstuhl Christi offenbar werden, damit jeder seinen Lohn empfängt für das Gute oder Böse, das er im irdischen Leben getan hat.",
-                resp1: "Herr, richte mich nicht nach meinem Tun, denn meine Taten können vor dir nicht bestehen. Darum flehe ich zur dir:",
-                resp2: "Herr, tilge all meine Frevel.",
-                resp3: "Gott, wasche meine Schuld von mir ab und mache mich rein von meiner Sünde.",
-            }
-        ],
-        second: [{
-            patr_autor: "Braulio von Saragossa († um 651)",
-            patr_werk: "Aus einem Brief.",
-            patr_text: "^hDer°auferstandene°Christus ist°die°Hoffnung°aller°Gläubigen^pChristus ist die Hoffnung aller Gläubigen. Er nennt alle, die aus der Welt scheiden, Schlafende, nicht Tote. Denn er sagt: „Lazarus, unser Freund, schläft“ {1#Joh 11,11}.^pAuch der Apostel will nicht, dass wir über die Entschlafenen trauern {2#1 Thess 4,13}.^pWenn wir glauben, dass alle Christgläubigen nach dem Evangelium „in Ewigkeit nicht sterben“ {3#Joh 11,26}, dann wissen wir das durch den Glauben, dass Christus nicht gestorben ist und dass auch wir nicht sterben.^p„Der Herr selbst wird vom Himmel herabkommen, wenn der Befehl ergeht, der Erzengel ruft und die Fanfare Gottes erschallt; und die Toten, die in Christus sind, werden auferstehen“ {4#1 Thess 4,16}.^pDie Hoffnung, dass wir auferstehen, soll uns Mut machen; denn was wir hier verlieren, werden wir dort wiedersehen. So wichtig ist es, fest an Gott zu glauben und seine Gebote zu halten, da er doch alle Kraft besitzt und leichter einen Toten erweckt, als wir einen Schlafenden.^pSo sagen wir. Und doch werden wir im Widerspruch dazu von einer Gemütsbewegung zu Tränen übermannt, und die Sehnsucht des Gemüts bricht die Kraft des gläubigen Geistes. Ach, wie elend ist der Mensch! Ohne Christus ist unser ganzes Leben sinnlos.^pO Tod, du trennst, was verbunden ist, und grausam reißt du auseinander, was in Freundschaft vereint ist! Aber deine Kraft ist schon gebrochen. Zerbrochen ist dein unheilvolles Joch durch ihn, der dir bereits durch Hosea drohte: „O Tod, ich werde dein Tod sein!“ {5#Hos 13,14 Vg} Darum verspotten wir ihn mit dem Apostel: „Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“ {6#1 Kor 15,50}^pEr, der dich besiegt hat, hat uns erlöst. Er gab seinen Herzensliebiling in die Hand der Gottlosen {7#vgl. Jer 12,7}, um aus den Gottlosen Freunde zu machen. In langer Aufzählung wäre vieles aus der Heiligen Schrift zum allgemeinen Trost heranzuziehen. Uns genüge die Hoffnung, dass wir auferstehen, und die Herrlichkeit des Erlösers, auf die sich unser Auge richtet. Wie wir glauben, sind wir in ihm schon auferstanden, da der Apostel sagt: „Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden“ {8#Röm 6,8}.^pDenn wir gehören uns nicht selbst, sondern ihm, der uns erlöst hat, von dessen Willen unser Wille stets abhängig sein muss; deswegen sagen wir im Gebet: „Dein Wille geschehe!“ {9#Mt 6,10} Darum müssen wir beim Begräbnis mit Ijob sprechen: „Der Herr hat gegeben, der Herr hat genommen; gelobt sei der Name des Herrn!“ {10#Ijob 1,21} So wollen wir hier mit Ijob sprechen, damit sich dort zeigt, wie ähnlich wir ihm in unserer gegenwärtigen Lage sind.",
-            patr_resp1: "Über die Verstorbenen sollt ihr nicht trauern wie die anderen, die keine Hoffnung haben.",
-            patr_resp2: "Wenn Jesus – und das ist unser Glaube – gestorben und auferstanden ist, dann wird Gott durch Jesus auch die Verstorbenen zusammen mit ihm zur Herrlichkeit führen.",
-            patr_resp3: "Weint nicht um den Toten und beklagt ihn nicht."
-        }]
-    },
-    "VerstVesper": {
-        first: [{
-            resp1: "Herr, in deinem Erbarmen",
-            resp2: "gib ihnen ewige Ruhe.",
-            resp3: "Du wirst kommen in Herrlichkeit, zu richten die Lebenden und die Toten,",
-            resp1_lat: "In misericórdia tua, Dómine,",
-            resp2_lat: "dona eis réquiem.",
-            resp3_lat: "Qui ventúrus es iudicáre vivos et mórtuos,"
-        }]
-    },
-    "MariaSaLh": {
-        second: [
-            {
-                patr_autor: "Guerricus (Werricho von Igny) († 1157)",
-                patr_werk: "Aus einer Predigt zu Mariä Aufnahme in den Himmel.",
-                patr_text: "^hMaria,°die°Mutter°Christi und°die°Mutter°der°Christen^pEinen einzigen Sohn hat Maria geboren. Wie dieser im Himmel der einzige Sohn des Vaters ist, so ist er auf Erden der einzige Sohn seiner Mutter. Sie, die einzige Jungfrau-Mutter, die sich rühmen darf, des Vaters einzigen Sohn geboren zu haben, umfängt diesen, ihren einzigen Sohn, in all seinen Gliedern. Sie scheut sich nicht, Mutter all derer genannt zu werden, in denen sie erkennt, dass ihr Christus schon Gestalt angenommen hat oder annimmt.^pDie Urmutter Eva war weniger eine Mutter als eine Stiefmutter: Sie gab ihre Kinder dem Tode preis, noch bevor diese das Licht des Tages erblickten. Sie heißt zwar „Mutter aller Lebenden“{1#Gen 3,20}, doch in Wirklichkeit ist sie die Mörderin der Lebenden oder die Gebärerin der Sterbenden, denn ihr Gebären ist nichts anderes als ein Gebären zum Tod.^pWeil Eva ihren Namen nicht wahrzumachen vermochte, hat Maria den geheimnisvollen Sinn dieses Namens verwirklicht. Denn wie die Kirche, deren Vorbild sie ist, ist sie die Mutter aller, die zum Leben wiedergeboren werden. Sie ist in Wahrheit die Mutter derer, die das Leben haben, denn indem sie das Leben selber gebar, hat sie in gewisser Weise allen, die von diesem Leben leben sollten, das neue Leben geschenkt.^pAufgrund dieses Geheimnisses erkennt sich die selige Mutter Christi als die Mutter der Christen; sie erweist sich auch als deren Mutter durch ihre Fürsorge und ihre liebevolle Zuneigung. Sie ist niemals hart gegenüber ihren Kindern, so als wären sie nicht ihr eigen. Denn ihr Schoß, der zwar nur einmal ein Kind getragen hat, blieb auch nachher nicht ohne Frucht, niemals hörte er auf, Früchte des Erbarmens zu gebären.^pWenn schon Paulus, der Knecht Christi, immer wieder neuen Kindern das Leben schenkt, erfüllt vom brennenden Verlangen, dass Christus in ihnen Gestalt gewinne{2#vgl. Gal 4,19}, um wie viel mehr Maria, die Mutter Christi. Paulus schenkte ihnen das Leben, indem er ihnen das Wort der Wahrheit verkündete, durch das sie wiedergeboren wurden. Maria aber schenkte ihnen das Leben auf eine Gott ähnlichere und weit heiligere Weise, indem sie das göttliche Wort selber gebar. An Paulus lobe ich den Dienst der Verkündigung, an Maria aber bewundere und verehre ich das Geheimnis ihrer Mutterschaft.^pBedenkt nun, ob nicht auch die Kinder ihrerseits ganz offensichtlich ihre Mutter erkennen: Getrieben von einem gleichsam angeborenen Vertrauen, rufen sie in allen möglichen Gefahren zuerst und ganz besonders ihren Namen an und flüchten sich zu ihr wie die Kleinen in die Arme ihrer Mutter. Deshalb halte ich es nicht für abwegig, dass auf diese Kinder angewandt werden kann, was durch den Propheten verheißen ist: „Deine Kinder werden in dir wohnen“, ohne zu übersehen, dass diese Verheißung in erster Linie von der Kirche gilt.^pDenn schon jetzt wohnen wir im Schutz der Mutter des Allerhöchsten, wir sind unter ihrer Obhut geboren, gleichsam „im Schatten ihrer Flügel“. Dereinst werden wir durch die Teilhabe an ihrer Herrlichkeit Ruhe finden in ihren Armen. Dann werden alle sich freuen und wie aus einem Munde ihrer Mutter zurufen: Wir alle freuen uns, denn „unsere Wohnstatt ist in dir“, heilige Mutter Gottes.",
-                patr_resp1: "Das Kind, das Maria erwartet, ist vom Heiligen Geist; sie wird einen Sohn gebären.",
-                patr_resp2: "Er wird sein Volk von seinen Sünden erlösen.",
-                patr_resp3: "Seine Macht wird reichen bis an die Grenzen der Erde, und er wird der Friede sein."
-            },
-            {
-                patr_autor: "Johannes Chrysostomus († 407)",
-                patr_werk: "Aus einer Homilie zum Karfreitag.",
-                patr_text: "^hAdam°und°Christus, Eva°und°Maria^pHast du den staunenswerten Sieg gesehen? Hast du die herrlichen Tage des Kreuzes gesehen? Soll ich dir sagen, was noch wunderbarer ist? Achte auf die Art und Weise, wie der Sieg errungen wurde, und du wirst noch mehr staunen. Das nämlich, wodurch der Teufel einst gesiegt hat, genau dadurch hat Christus über ihn gesiegt. Mit seinen eigenen Waffen hat er ihn geschlagen. Höre, wie das geschah:^pEine Jungfrau, ein Holz und der Tod, das waren die Symbole der Niederlage. Die Jungfrau war Eva, denn noch hatte sie keinen Mann erkannt; das Holz war ein Baum; der Tod war die Strafe, die über Adam verhängt war.^pDoch siehe, die Jungfrau, das Holz und der Tod, diese Symbole der Niederlage, sind zu Zeichen des Sieges geworden. An die Stelle Evas trat Maria, an die Stelle des Holzes der Erkenntnis von Gut und Böse trat das Holz des Kreuzes; an die Stelle des Todes Adams ist Christi Tod getreten.^pSiehst du, dass der Teufel mit den gleichen Waffen besiegt wurde, mit denen er gesiegt hatte? Unter dem Baum hat der Teufel den Adam zu Fall gebracht; am Kreuz hat Christus den Teufel bezwungen. Jenes Holz schickte zur Unterwelt; dieses aber führte sogar die aus der Unterwelt zurück, die dorthin bereits hinabgestiegen waren.^pDer eine Baum versteckte den gefallenen Menschen, der sich seiner Nacktheit schämte{1#vgl. Gen 3,8}; der andere Baum hat vor aller Augen einen nackten Menschen als Sieger erhöht.^pJener Tod verdammte alle, die nach ihm geboren wurden, dieser aber erweckte von den Toten, sogar jene, die vor ihm geboren waren.^p„Wer wird die Großtaten des Herrn verkünden?“{2#Ps 106,2} Sein Sterben hat uns unsterblich gemacht: Das sind die wunderbaren Werke des Kreuzes. Begreifst du diesen Sieg! Begreifst du, wie er zustande kam?^pHöre nun, wie dieser Sieg ohne unsere Mühen und unseren Schweiß errungen wurde. Wir haben keine Waffen mit Blut gerötet, wir haben in keiner Schlachtreihe gestanden, uns wurden keine Wunden geschlagen, wir haben keinen Krieg gesehen und doch den Sieg davongetragen. Des Herrn war der Kampf, unser ist die Krone.^pDa dieser Sieg auch unser Sieg ist, so lasst uns, den Kriegern gleich, heute mit freudiger Stimme Siegeslieder singen; lasst uns den Herrn preisen, indem wir rufen: „Verschlungen ist der Tod im Sieg. Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“{#1 Kor 15,55}^pDas sind die herrlichen Werke, die das Kreuz vollbracht hat zu unserem Heil; das Kreuz ist das Siegeszeichen, aufgerichtet gegen die Dämonen; es ist das gegen die Sünde gezückte Schwert, das Schwert, mit dem Christus die Schlange durchbohrt hat. Das Kreuz ist der Wille des Vaters, der Ruhm des Eingeborenen, die Freude des Heiligen Geistes, die Zierde der Engel, die Sicherheit der Kirche, der Stolz des Paulus{#vgl. Gal 6,14}, das Bollwerk der Heiligen, ein Licht für die ganze Welt.",
-                patr_resp1: "Der Herr überhäuft mit Ehren, wen er will,",
-                patr_resp2: "damit die Tugend die Sünde zudeckt, die Gnade die Schuld.",
-                patr_resp3: "Vom Dornbusch kommt die Rose, von Eva kam Maria."
-            },
-            {
-                patr_autor: "II. Vatikanisches Konzil (1962–1965)",
-                patr_werk: "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
-                patr_text: "^hDie°selige°Jungfrau°und°die°Kirche^pDie selige Jungfrau ist durch das Geschenk und die Aufgabe der göttlichen Mutterschaft, durch die sie mit ihrem Sohn und Erlöser vereint ist, und durch ihre einzigartigen Gnaden und Gaben auch mit der Kirche auf das innigste verbunden. Die Gottesmutter ist, wie schon der heilige Ambrosius lehrte, der Typus der Kirche unter der Rücksicht des Glaubens, der Liebe und der vollkommenen Einheit mit Christus.^pIm Geheimnis der Kirche, die ja auch selbst mit Recht Mutter und Jungfrau genannt wird, ist die selige Jungfrau Maria vorangegangen, da sie in hervorragender und einzigartiger Weise das Urbild sowohl der Jungfrau wie der Mutter darstellt. Im Glauben und Gehorsam gebar sie den Sohn des Vaters auf Erden, und zwar ohne einen Mann zu erkennen, vom Heiligen Geist überschattet, als neue Eva, die nicht der alten Schlange, sondern dem Boten Gottes einen von keinem Zweifel verfälschten Glauben schenkte. Sie gebar aber einen Sohn, den Gott gesetzt hat zum Erstgeborenen unter vielen Brüdern {1#Röm 8,29}. Mit mütterlicher Liebe wirkt sie mit bei deren Geburt und Erziehung in mütterlicher Liebe mit.^pNun aber wird die Kirche, indem sie Marias geheimnisvoll Heiligkeit betrachtet, ihre Liebe nachahmt und den Willen des Vaters getreu erfüllt, durch die gläubige Annahme des Wortes Gottes auch selbst Mutter: Durch Predigt und Taufe nämlich gebiert sie die vom Heiligen Geist empfangenen und aus Gott geborenen Kinder zum neuen und unsterblichen Leben. Auch sie ist Jungfrau, da sie das Treuewort, das sie dem Bräutigam gegeben hat, unversehrt und rein bewahrt und in Nachahmung der Mutter ihres Herrn in der Kraft des Heiligen Geistes jungfräulich einen unversehrten Glauben, eine feste Hoffnung und eine aufrichtige Liebe bewahrt.^pWährend aber die Kirche in der seligsten Jungfrau schon zur Vollkommenheit gelangt ist, in der sie ohne Makel und Runzel ist {2#vgl. Eph 5,27}, bemühen sich die Christgläubigen noch, die Sünde zu besiegen und in der Heiligkeit zu wachsen. Daher richten sie ihre Augen auf Maria, die der ganzen Gemeinschaft der Auserwählten als Urbild der Tugenden voranleuchtet. Indem die Kirche über Maria in frommer Erwägung nachdenkt und sie im Licht des menschgewordenen Wortes betrachtet, dringt sie verehrend in das erhabene Geheimnis der Menschwerdung tiefer ein und wird ihrem Bräutigam mehr und mehr gleichgestaltet.^pDenn Maria vereinigt, da sie zuinnerst in die Heilsgeschichte eingegangen ist, gewissermaßen die größten Glaubensgeheimnisse in sich und strahlt sie wider. Daher ruft ihre Verkündigung und Verehrung die Gläubigen hin zu ihrem Sohn und seinem Opfer und zur Liebe des Vaters.^pDie Kirche aber wird, um die Ehre Christi zu mehren, ihrem erhabenen Typus ähnlicher durch dauerndes Wachstum in Glaube, Hoffnung und Liebe und durch das Suchen und Befolgen des Willens Gottes in allem.^pDaher blickt die Kirche auch in ihrem apostolischen Wirken mit Recht zu ihr auf, die Christus geboren hat, der dazu vom Heiligen Geist empfangen und von der Jungfrau geboren wurde, dass er durch die Kirche auch in den Herzen der Gläubigen geboren werde und wachse. Diese Jungfrau war in ihrem Leben das Beispiel jener mütterlichen Liebe, von der alle beseelt sein müssen, die in der apostolischen Sendung der Kirche zur Wiedergeburt der Menschen mitwirken.",
-                patr_resp1: "Durch Maria, die Jungfrau, ist allen, die glauben, das Heil der Welt erschienen.",
-                patr_resp2: "Ihr ruhmreiches Leben erleuchtet die ganze Kirche.",
-                patr_resp3: "Lasst uns voll Ehrfurcht das Gedächtnis der seligen Jungfrau Maria feiern."
-            },
-            { group: "Lesungen aus den Commune-Texten zur°Auswahl°…", },
-            {
-                patr_autor: "Sophronius von Jerusalem († 638)",
-                patr_werk: "Aus einer Rede über die Verkündigung des Herrn.",
-                patr_text: "^hDurch°Maria°ist°den°Menschen der°Segen°des°Vaters°aufgeleuchtet^p„Sei gegrüßt, du Begnadete, der Herr ist mit dir“ {1#Lk 1,28}. Jungfrau Mutter, welche Freude könnte für dich größer sein als diese? Welche Gnade großartiger als die, welche allein dir von Gott zuerkannt wurde? Oder was ließe sich Beglückenderes und Leuchtenderes erdenken? Alles ist weit entfernt von dem Wunder, das wir in dir schauen; alles liegt unter deiner Begnadung. Ihr steht alles andere nach, auch das Höchstgeschätzte; von diesem Glanz wird alles weit überstrahlt.^p„Der Herr ist mit dir“: Wer könnte dir da den Rang streitig machen wollen? Gott aus dir: Wer wird vor dir nicht zur Seite treten und dir mit freudem Vortritt und Vorrang lassen?^pIch sehe deinen Vorrang über alle Geschöpfe und rufe dir mit höchstem Lobpreis zu: „Sei gegrüßt, du Begnadete, der Herr ist mit dir.“ Denn nicht nur den Menschen ist aus dir Freude zuteil geworden; auch die überirdischen Mächte haben sie empfangen.^pWahrhaft „gesegnet bist du unter den Frauen“ {2#Lk 1,42}; denn du hast den Fluch über Eva in Segen verwandelt, hast erwirkt, dass Adam durch dich gesegnet wurde, der zuvor, vom Fluch getroffen, dahingestreckt lag.^pWahrhaft „gesegnet bist du unter den Frauen“; denn durch dich ist über den Menschen der Segen des Vaters aufgeleuchtet und hat sie vom alten Fluch befreit.^pWahrhaft „gesegnet bist du unter den Frauen“; denn durch dich finden deine Ahnen das Heil; du wirst ja den Retter gebären, der ihnen das göttliche Heil bereitet.^pWahrhaft „gesegnet bist du unter den Frauen“; denn ohne Samen hast du jene Frucht gebracht, die dem Erdkreis Segen spendet und ihn von dem Fluch erlöst, der Dornen sprossen ließ.^pWahrhaft „gesegnet bist du unter den Frauen“; denn du, von Natur eine irdische Frau, wirst wahrhaft Gottesmutter sein. Und wenn der, der aus dir geboren wird, in Wahrheit menschgewordener Gott ist, dann nennt man dich mit Fug und Recht Gottesgebärerin, weil du wirklich Gott gebierst.^pDu beherbergst im Gemach deines Schoßes Gott selbst, ihn, der als Mensch in dir wohnt und aus dir hervorgeht wie ein Bräutigam, der allen Freude bereitet und dem All göttliches Licht spendet.^pDenn in dir, Jungfrau, hat Gott wie im reinsten, strahlenden Himmel sein Zelt errichtet. Er wird aus dir hervorgehen wie der Bräutigam aus dem Brautgemach. Einem Giganten gleich wird er im Leben seinen Weg laufen, der für alle Lebenden zum Heil führt und sich vom höchsten Himmel zum höchsten Himmel spannt, um alles mit göttlicher Glut und lebenspendendem Glanz zu erfüllen.",
-                patr_resp1: "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
-                patr_resp2: "Durch dich leuchtet der Segen des Vaters den Menschen auf.",
-                patr_resp3: "Deine Stammväter haben durch dich das Heil gefunden."
-            },
-            {
-                patr_autor: "Aelred von Rievaulx († 1167)",
-                patr_werk: "Aus einer Predigt zu Mariae Geburt.",
-                patr_text: "^hMaria,°unsere°Mutter^pLasst uns hintreten zur Braut Christi, hintreten zu seiner Mutter, hintreten zu seiner besten Magd. All das ist die selige Maria.^pAber was sollen wir ihr tun? Was für Gaben ihr bringen? Könnten wir ihr wenigstens geben, worauf sie von Rechts wegen Anspruch hat? Wir schulden ihr Ehre, schulden ihr Dienst, schulden ihr Liebe, schulden ihr Lob.^pWir schulden ihr Ehre, weil sie die Mutter unseres Herrn ist. Denn wer die Mutter nicht ehrt, versagt ohne Zweifel die Ehre dem Sohn. In der Schrift steht ja: „Ehre deinen Vater und deine Mutter“ {1#Ex 20,1-2}. Was sollen wir da sagen? Ist sie nicht unsere Mutter? Ganz gewiss, Brüder: Sie ist wirklich unsere Mutter. Durch sie sind wir geboren, nicht für die Welt, sondern für Gott. Ihr glaubt und wisst es: Wir waren alle im Tod, im Alter, in Finsternis, im Elend, im Tod, denn wir hatten Gott verloren; im Alter, weil im Zerfall, in der Finsternis, denn wir hatten das Licht der Weisheit verloren und so waren wir ganz und gar untergegangen.^pAber durch die selige Maria sind wir weit besser geboren worden als durch Eva, weil von Maria Christus geboren worden ist. Anstelle des Alters haben wir die Neuheit gewonnen, anstelle des Zerfalls die Unvergänglichkeit, anstelle der Finsternis das Licht.^pUnsere Mutter ist sie, Mutter unseres Lebens, Mutter unserer Unvergänglichkeit, Mutter unseres Lichts. Der Apostel sagt vom Herrn: „Er wurde für uns Weisheit von Gott und Gerechtigkeit und Heiligung und Erlösung“ {2#1 Kor 1,30}. Sie, die Mutter Christi, ist die Mutter unserer Weisheit, Mutter unserer Gerechtigkeit, Mutter unserer Heiligung, Mutter unserer Erlösung. Darum ist sie uns mehr Mutter als unsere leibliche Mutter. Unsere Geburt aus ihr hat höheren Rang; denn aus ihr stammt unsere Heiligkeit, unsere Weisheit, unsere Gerechtigkeit, unsere Heiligung, unsere Erlösung.^pIn der Schrift steht: „Lobt den Herrn in seinen Heiligen“ {3#Ps 150,1 Vg}. Wenn man Gott in jenen Heiligen loben soll, durch die er Machttaten und Wunder schafft, wie sehr muss man ihn dann loben in der Frau, in der er sich selbst geschaffen hat, er, der über alle Wunder wunderbar ist.",
-                patr_resp1: "Selig bist du, heilige Jungfrau Maria, und allen Lobes würdig.",
-                patr_resp2: "Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott und Heiland.",
-                patr_resp3: "In großer Freude feiern wir dein Fest, heilige Jungfrau Maria."
-            },
-            {
-                patr_autor: "II. Vatikanisches Konzil (1962–1965)",
-                patr_werk: "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
-                patr_text: "^hDie°Mutterschaft°Marias in°der°Ordnung°der°Gnade^pDie selige Jungfrau, die von Ewigkeit her zusammen mit der Menschwerdung des göttlichen Wortes als Mutter Gottes vorherbestimmt wurde, war nach dem Ratschluss der göttlichen Vorsehung hier auf Erden die erhabene Mutter des göttlichen Erlösers, in einzigartiger Weise vor anderen seine großmütige Gefährtin und die demütige Magd des Herrn. Indem sie Christus empfing, gebar und nährte, im Tempel dem Vater darstellte und mit ihrem am Kreuz sterbenden Sohn litt, hat sie beim Werk des Erlösers in durchaus einzigartiger Weise in Gehorsam, Glaube, Hoffnung und brennender Liebe mitgewirkt zur Wiederherstellung des übernatürlichen Lebens der Seelen. Deshalb ist sie uns in der Ordnung der Gnade Mutter.^pDiese Mutterschaft Marias in der Gnadenordnung dauert unaufhörlich fort, von der Zustimmung an, die sie bei der Verkündigung gläubig gab und unter dem Kreuz ohne Zögern festhielt, bis zur ewigen Vollendung aller Auserwählten. In den Himmel aufgenommen, hat sie diesen heilbringenden Auftrag nicht aufgegeben, sondern fährt durch ihre vielfältige Fürbitte fort, uns die Gaben des ewigen Heils zu erwirken. In ihrer mütterlichen Liebe trägt sie Sorge für die Brüder ihres Sohnes, die noch auf der Pilgerfahrt sind und in Gefahren und Bedrängnissen weilen, bis sie zur ewigen Heimat gelangen. Deshalb wird die selige Jungfrau in der Kirche unter dem Titel der Fürsprecherin, der Helferin, des Beistandes und der Mittlerin angerufen.^pDas ist so zu verstehen, dass es der Würde und Wirksamkeit Christi, des einzigen Mittlers, nichts abträgt und nichts hinzufügt. Kein Geschöpf nämlich kann mit dem menschgewordenen Wort und Erlöser jemals in einer Reihe aufgezählt werden.^pAm Priestertum Christi nehmen, wenn auch in verschiedener Weise, sowohl die Amtspriester als auch das gläubige Volk teil. Überhaupt ist die eine Gutheit Gottes auf die Geschöpfe in verschiedener Weise ausgegossen. So ist auch Christus zwar der eine und einzige Mittler, aber das schließt nicht aus, dass es im geschöpflichen Bereich eine vielfache und unterschiedliche Teilnahme an dieser einzigen Quelle (dem einzigen Erlöser und Mittler) gibt. Gerade dadurch wird eine so reiche Mitwirkung möglich.^pEine solche untergeordnete Aufgabe Marias zu bekennen, zögert die Kirche nicht, sie erfährt sie auch ständig und legt sie den Gläubigen ans Herz, damit sie unter diesem mütterlichen Schutz dem Mittler und Erlöser inniger anhangen.",
-                patr_resp1: "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
-                patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
-                patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes."
-            },
-            { group: "Lesungen von Mariengedenktagen zur°Auswahl°…", },
-            {
-                patr_autor: "Laurentius Justiniani (†°1455)",
-                patr_werk: "Aus einer Predigt am Fest der Darstellung des Herrn.",
-                bezug: "(vom°Gedenktag°Herz°Mariae)",
-                patr_text: "^hMaria°bewahrte°alles, was°geschehen°war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
-                patr_resp1: "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
-                patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
-                patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
-            },
-            {
-                patr_autor: "Leo der Große (†°461)",
-                patr_werk: "Aus einer Weihnachtspredigt.",
-                bezug: "(vom Gedenktag U.L.Fr.°vom°Berge°Karmel)",
-                patr_text: "^hMaria°empfing°in°ihrem°Geist, bevor°sie°in°ihrem°Leib°empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘{1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘{2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen.^pMit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“{3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
-                patr_resp1: "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
-                patr_resp2: "Heilig ist sein Name.",
-                patr_resp3: "Von Geschlecht zu Geschlecht währt sein Erbarmen über jenen, welche ihn fürchten."
-            },
-            {
-                patr_autor: "Amadeus von Lausanne († 1159)",
-                patr_werk: "Aus einer Homilie über Maria.",
-                bezug: "(vom Gedenktag Maria°Königin)",
-                patr_text: "^hKönigin°der°Welt und Königin°des°Friedens^pSchon vor der Aufnahme Marias in den Himmel erstrahlte ihr Name auf der ganzen Erde, ihr erhabener Ruf verbreitete sich überall, noch bevor ihre Hoheit über die Himmel erhoben wurde{1#vgl.°Ps 8,2 Vg.}. So war es angemessen: um der Ehre ihres Sohnes willen musste die jungfräuliche Mutter zunächst auf der Erde herrschen, dann erst durfte sie den Himmel empfangen; ihr Ruf musste sich zunächst hier unten verbreiten, um dann in heiliger Fülle in die überirdischen Reiche Eingang zu finden; wie sie in dieser Welt getragen wurde von stets wachsender Kraft{2#vgl.°Ps 84,8}, so musste sie auch in der anderen Welt durch den Geist des Herrn getragen werden von Herrlichkeit zu Herrlichkeit.^pAls sie noch im Irdischen lebte, kostete sie bereits die Erstlingsgaben des kommenden Reiches: Bald preist sie die unaussprechliche Hoheit Gottes; bald lässt sie sich in unsagbarer Liebe zu den Mitmenschen herab. Bald dienen ihr die Engel, bald betet sie Gott an durch den Dienst an den Menschen. Gabriel diente ihr mit den Engeln. Johannes freut sich, dass ihm die jungfräuliche Mutter unter dem Kreuz anvertraut wird, und er dient ihr mit den Aposteln. Die einen freuen sich, ihre Königin zu schauen, die anderen, ihre Herrin zu sehen. Alle dienen ihr mit liebender Hingabe.^pJetzt thront sie in der hohen Burg des Himmels. Ein Meer göttlicher Gaben strömt von ihr aus, und sie selber gießt über das dürstende Volk der Gläubigen in verschwenderischer Fülle jene Gnade aus, durch die sie alle überragt. Sie schenkt dem Leib Gesundheit, der Seele Salbung; sie hat die Macht, vom Tod des Leibes und der Seele zu erwecken. Wer ist jemals von ihr gegangen, krank oder traurig, ohne der himmlischen Geheimnisse innezuwerden? Wer kam nicht nach Hause, froh und glücklich, von der Mutter des Herrn erlangt zu haben, was er erbat?^pDie Braut, die Mutter des einzigen Bräutigams, ist überreich an hohem Gut. Gütig und liebenswert ist sie in ihrer Seligkeit, Quelle im Garten des Lebens, Brunnen lebendigen und lebenspendenden Wassers, das machtvoll vom göttlichen Libanon herabfließt. Vom Berg Zion kommt es, bis es draußen alle Völker umfließt: Ströme des Friedens und Bäche der Gnaden, die vom Himmel kommen.^pAls die Jungfrau der Jungfrauen von Gott und ihrem Sohn, dem König der Könige, entrückt wurde, jubelten die Engel, freuten sich die Erzengel, der Himmel brach in Lobrufe aus, und die Weissagung des Psalmisten kam in Erfüllung: „Die Braut steht dir zur Rechten, ihr Gewand ist durchwirkt mit Gold und Perlen.“{3#Ps 45,10.14}",
-                patr_resp1: "Ein großes Zeichen erschien im Himmel; eine Frau mit der Sonne bekleidet, der Mond zu ihren Füßen,",
-                patr_resp2: "auf ihrem Haupt eine Krone von zwölf Sternen.",
-                patr_resp3: "Die Königin steht dir zur Rechten im golddurchwirkten Gewand."
-            },
-            {
-                patr_autor: "Bernhard von Clairvaux († 1153)",
-                patr_werk: "Aus einer Rede über Mariä Namen.",
-                bezug: "(vom Gedenktag Mariae Namen)",
-                patr_text: "^hUnd°der°Name°der°Jungfrau°war°Maria: Stern°des°Meeres^p„Der Name der Jungfrau“, sagt der Evangelist, „war Maria“{1#Lk 1,27}. Wir wollen ein wenig über diesen Namen sprechen. Er heißt übersetzt: Stern des Meeres und eignet sich sehr wohl für die Jungfrau-Mutter. Sehr zutreffend nämlich ist sie einem Stern vergleichbar.^pWie der Stern ohne Einbuße seiner selbst seinen Strahl aussendet, so hat sie als Jungfrau den Sohn geboren, ohne dass ihre Jungfräulichkeit gemindert wurde. Der Strahl mindert nicht des Sternes Helligkeit, so auch nicht der Sohn die Unversehrtheit der Jungfrau.^pSie ist jener hehre Stern, aufgegangen aus Jakob, dessen Strahl die ganze Welt erleuchtet, dessen Glanz die Himmel überstrahlt, die Tiefen durchdringt und alle Lande erhellt. Er erwärmt mehr den Geist als den Körper, lässt die Tugenden reifen und verbrennt die Laster. Sie ist, sage ich, jener herrliche, auserlesene Stern, unendlich erhoben über das weite Meer, strahlend durch Verdienste, leuchtend als Vorbild.^pWenn du erfährst, dass dieses Erdenleben mehr ein Dahintreiben in Wellen, Wind und Wetter ist als ein Dahinschreiten auf festem Land: Wende deine Augen nicht ab vom Licht dieses Sternes, damit du nicht untergehst in den Stürmen.^lWenn die Sturmwinde der Versuchungen daherbrausen, wenn du zwischen die Klippen der Drangsale verschlagen wirst, blick auf zum Stern, ruf zu Maria!^lWenn dich emporschleudern Wogen des Stolzes, des Ehrgeizes, der Verleumdung, der Eifersucht – blick auf zum Stern, ruf zu Maria!^lWenn Zorn, Habsucht oder die Begierde des Eleisches deine Seele erschüttern – blick auf zu Maria!^lWenn dich die Last der Sünden drückt und die Schmach des Gewissens beschämt, wenn dich die Strenge des Gerichtes schreckt, wenn du drohst von abgrundtiefer Traurigkeit und Verzweiflung verschlungen zu werden – denk an Maria!^pIn Gefahren, in Ängsten, in Zweifeln – denk an Maria, ruf zu Maria! Ihr Name weiche nicht aus deinem Munde, weiche nicht aus deinem Herzen!^pDamit du aber ihre Hilfe und Fürbitte erlangest, vergiss nicht das Vorbild ihres Wandels!^lFolge ihr, und du wirst nicht vom Wege weichen.^lBitte sie, und niemals bist du hoffnungslos.^lDenk an sie, dann irrst du nicht.^lHält sie dich fest, wirst du nicht fallen.^lSchützt sie dich, dann fürchte nichts.^lFührt sie dich, wirst du nicht müde.^pIst sie dir gnädig, dann kommst du ans Ziel und wirst selbst erfahren, wie richtig es heißt: Und der Name der Jungfrau war Maria – Stern des Meeres.",
-                patr_resp1: "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
-                patr_resp2: "Durch dich leuchtet die Huld des Vaters den Menschen auf.",
-                patr_resp3: "Die vor dir waren, haben durch dich das Heil gefunden."
-            },
-            {
-                patr_autor: "Bernhard von Clairvaux († 1153)",
-                patr_werk: "Aus einer Predigt über den Aquädukt.",
-                bezug: "(vom Gedenktag U.L.Fr.°vom°Rosenkranz)",
-                patr_text: "^hWir sollen die Geheimnisse des Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}. Der Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 Vg.} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten{11#vgl.°Ps 88,6 röm.} in der Welt des Todes sich als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt  {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
-                patr_resp1: "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
-                patr_resp2: "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
-                patr_resp3: "Sei gegrüßt, du Gnadenvolle, der Herr ist mit dir."
-            },
-            {
-                patr_autor: "Augustinus († 430)",
-                patr_werk: "Aus einer Predigt über Maria als°Vorbild°christlichen°Glaubens.",
-                bezug: "(vom Gedenktag U.L.Fr.°von°Jerusalem)",
-                patr_text: "^hIm°Glauben°vertraute°sie, im°Glauben°empfing°sie^pAchtet darauf, was Christus der Herr gesagt hat: „Er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50}^pHandelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie, die im Glauben vertraute und im Glauben empfing; sie, die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie, die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde?^pJa, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28}^pAuch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte.^pChristus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria ein Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch ein Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied. Der Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
-                patr_resp1: "Der Herr hat mich bekleidet mit dem Gewand des Heiles, das Kleid der Freude hat er mir angelegt.",
-                patr_resp2: "Er hat mich mit einer Krone geschmückt wie eine Braut.",
-                patr_resp3: "Mit einem Gewand, aus Gold gewoben, hat der Herr mich bekleidet, mit unschätzbarem Geschmeide hat er mich geziert."
-            },
-        ]
-    },
-    "MariaSaLd": {
-        first: [
-            {
-                les_buch: "Jes",
-                les_stelle: "61,10ab",
-                les_text: "Von Herzen will ich mich freuen über den Herrn. Meine Seele soll jubeln über meinen Gott. Denn er kleidet mich in Gewänder des Heils, er hüllt mich in den Mantel der Gerechtigkeit.",
-                resp1: "Von Anbeginn hat der Herr sie erwählt,",
-                resp2: "vor allen hat er sie erkoren.",
-                resp3: "In seinem Zelt lässt er sie wohnen.",
-                les_text_lat: "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me, quasi sponsam ornátam monílibus suis.",
-                resp1_lat: "Elégit eam Dóminus,",
-                resp2_lat: "et°præelégit°eam.",
-                resp3_lat: "In tabernáculo suo habitáre facit eam._lat"
-            },
-            {
-                les_buch: "Offb",
-                les_stelle: "12,1",
-                les_text: "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond war unter ihren Füßen und ein Kranz von zwölf Sternen auf ihrem Haupt.",
-                resp1: "Gegrüßet seist du, Maria,",
-                resp2: "du bist voll der Gnade.",
-                resp3: "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
-                les_text_lat: "Signum magnum appáruit in cælo: múlier amícta sole, et luna sub pédibus eius, et super caput eius coróna stellárum duódecim.",
-                resp1_lat: "Ave, María, grátia plena;",
-                resp2_lat: "Dóminus°tecum.",
-                resp3_lat: "Benedícta tu in muliéribus, et benedíctus fructus ventris tui._lat"
-            },
-        ],
-    },
-    "MariaCommLh": {
-        first: [
-            {
-                les_buch: "Aus dem Buch Jesaja.",
-                les_stelle: "7,10-14;11,1-9",
-                les_text: "^hDas Zeichen des Immanuel^pDer Herr sprach zu Ahas; er sagte: Erbitte dir vom Herrn, deinem Gott, ein Zeichen, sei es von unten, aus der Unterwelt, oder von oben, aus der Höhe.^pAhas antwortete: Ich will um nichts bitten und den Herrn nicht auf die Probe stellen.^pDa sagte Jesaja: Hört her, ihr vom Haus David! Genügt es euch nicht, Menschen zu belästigen? Müsst ihr auch noch meinen Gott belästigen?^pDarum wird euch der Herr von sich aus ein Zeichen geben: Seht, die Jungfrau wird ein Kind empfangen, sie wird einen Sohn gebären und sie wird ihm den Namen Immanuel – Gott mit uns – geben.^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.^pEr richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist.^pEr schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange.^pMan tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist.",
-                resp1: "Siehe, die Jungfrau wird empfangen und einen Sohn gebären,",
-                resp2: "sein Name wird sein: Wunderbarer Ratgeber, Starker Gott.",
-                resp3: "Auf dem Thron Davids herrscht er über sein Reich für alle Zeiten.",
-                resp1_lat: "Ecce, virgo concípiet et páriet fílium;",
-                resp2_lat: "et vocábitur nomen eius Admirábilis, Deus, Fortis.",
-                resp3_lat: "Super sólium David et super regnum eius sedébit in ætérnum._lat"
-            },
-            {
-                les_buch: "Aus dem Brief an die Galater.",
-                les_stelle: "3,22-4,7",
-                les_text: "^hAls die Zeit erfüllt war, sandte Gott seinen Sohn, geboren°von°einer°Frau^pDie Schrift hat alles der Sünde unterworfen, damit durch den Glauben an Jesus Christus die Verheißung sich an denen erfüllt, die glauben.^pEhe der Glaube kam, waren wir im Gefängnis des Gesetzes, festgehalten bis zu der Zeit, da der Glaube offenbart werden sollte. So hat das Gesetz uns in Zucht gehalten bis zum Kommen Christi, damit wir durch den Glauben gerecht gemacht werden. Nachdem aber der Glaube gekommen ist, stehen wir nicht mehr unter dieser Aufsicht.^hGlaube und Gottessohnschaft^pIhr seid alle durch den Glauben Söhne Gottes in Christus Jesus. Denn ihr alle, die ihr auf Christus getauft seid, habt Christus (als Gewand) angelegt. Es gibt nicht mehr Juden und Griechen, nicht Sklaven und Freie, nicht Mann und Frau; denn ihr alle seid „einer“ in Christus Jesus.^pWenn ihr aber zu Christus gehört, dann seid ihr Abrahams Nachkommen, Erben kraft der Verheißung.^pIch will damit sagen: Solange der Erbe unmündig ist, unterscheidet er sich in keiner Hinsicht von einem Sklaven, obwohl er Herr ist über alles; er steht unter Vormundschaft, und sein Erbe wird verwaltet bis zu der Zeit, die sein Vater festgesetzt hat. So waren auch wir, solange wir unmündig waren, Sklaven der Elementarmächte dieser Welt.^pAls aber die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.^pWeil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unser Herz, den Geist, der ruft: Abba, Vater. Daher bist du nicht mehr Sklave, sondern Sohn; bist du aber Sohn, dann auch Erbe, Erbe durch Gott.",
-                resp1: "Als aber die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt,",
-                resp2: "damit er die freikaufte, die unter dem Gesetz standen.",
-                resp3: "In seiner großen Liebe, mit der er uns geliebt hat, sandte Gott seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht.",
-                resp1_lat: "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras, natum de Vírgine, factum sub lege;",
-                resp2_lat: "ut eos, qui sub lege erant, redímeret.",
-                resp3_lat: "Propter nímiam caritátem suam, qua diléxit nos Deus, Fílium suum misit in similitúdinem carnis peccáti._lat"
-            },
-        ],
-    },
-    "vigil-So-8": {
-        first: [
-            { les_stelle: "^Q:Joh 21,1-14", },
-        ],
-    },
-    "vigil-HlFamilie": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 2,13-15.19-23", },
-            { excludeYear: "b", les_stelle: "^Q:Lk 2,22-40", },
-            { excludeYear: "b", les_stelle: "^Q:Lk 2,22.39-40", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 2,41-52", },
-        ],
-    },
-    "vigil-Taufe": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 3,13-17", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 1,7-11", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 3,15-16.21-22", },
-        ],
-    },
-    "vigil-Dreifaltigkeit": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 3,16-18", },
-            { excludeYear: "b", les_stelle: "^Q:Mt 28,16-20", },
-            { excludeYear: "c", les_stelle: "^Q:Joh 16,12-15", },
-        ],
-    },
-    "vigil-Fronleichnam": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 6,51-58", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 14,12-16.22-26", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 9,11b-17", },
-        ],
-    },
-    "vigil-HerzJesu": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 11,25-30", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 19,31-37", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 15,3-7", },
-        ],
-    },
-    "vigil-Himmelfahrt": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 28,16-20", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 16,15-20", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 24,46-53", },
-        ],
-    },
-    "vigil-Christkönig": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 25,31-46", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 18,33b-37", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 23,35b-43", },
-        ],
-    },
-    "vigil-Erscheinung": {
-        first: [
-            { les_stelle: "^Q:Joh 1,1-18", },
-            { les_stelle: "^Q:Joh 2,1-11", },
-        ],
-    },
-    "vigil-Darstellung": {
-        first: [
-            { les_stelle: "^Q:Joh 1,1-18", },
-            { les_stelle: "^Q:Joh 3,16-21", },
-            { excludeYear: "!so", les_stelle: "^Q:Lk 24,13-35", },
-        ],
-    },
-    "vigil-Josef": {
-        first: [
-            { les_stelle: "^Q:Mt 1,16.18-21.24a", },
-            { les_stelle: "^Q:Lk 2,41-51a", },
-        ],
-    },
-    "vigil-Johannes": {
-        first: [
-            { les_stelle: "^Q:Joh 1,29-34", },
-            { les_stelle: "^Q:Joh 3,22-30", },
-        ],
-    },
-    "vigil-PeterPaul": {
-        first: [
-            { les_stelle: "^Q:Lk 5,1-11", },
-            { les_stelle: "^Q:Joh 6,60-70", },
-        ],
-    },
-    "vigil-Verklärung": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 9,2-10", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 9,28b-36", },
-            { excludeYear: "!so", les_buch: "^Q:Mk 16,1-20", },
-        ],
-    },
-    "vigil-Kreuzerhöhung": {
-        first: [
-            { excludeYear: "!so", les_stelle: "^Q:Joh 21,1-14" },
-        ],
-    },
-    "vigil-Allerheiligen": {
-        first: [
-            { les_stelle: "^Q:Mt 5,13-16", },
-            { les_stelle: "^Q:Joh 15,1-8", },
-            { les_stelle: "^Q:Joh 15,9-17", },
-        ],
-    },
-    "vigil-q-1": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 4,1-11", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 1,12-15", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 4,1-13", },
-        ],
-    },
-    "vigil-q-2": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 9,2-10", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 9,28b-36", },
-        ],
-    },
-    "vigil-q-3": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 4,5-42", },
-            { excludeYear: "a", les_stelle: "^Q:Joh 4,5-42k", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 2,13-25", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 13,1-9", },
-        ],
-    },
-    "vigil-q-4": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 9,1-41", },
-            { excludeYear: "a", les_stelle: "^Q:Joh 9,1-41k", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 3,14-21", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 15,1-3.11-32", },
-        ],
-    },
-    "vigil-q-5": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 11,1-45", },
-            { excludeYear: "a", les_stelle: "^Q:Joh 11,1-45k", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 12,20-33", },
-            { excludeYear: "c", les_stelle: "^Q:Joh 8,1-11", },
-        ],
-    },
-    "vigil-Karfreitag": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 27,1-2.11-56", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 15,1-41", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 23,1-49", },
-        ],
-    },
-    "vigil-Karsamstag": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 27,57-66", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 15,42-47", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 23,50-56", },
-        ],
-    },
-    "vigil-Kirchweihe": {
-        first: [
-            { les_stelle: "^Q:Mt 16,13-19", },
-            { les_stelle: "^Q:Lk 19,1-10", },
-            { les_stelle: "^Q:Joh 2,13-22", },
-            { les_stelle: "^Q:Joh 4,19-24", },
-        ],
-    },
-    "vigil-Maria": {
-        first: [
-            { les_stelle: "^Q:Lk 1,26-38", },
-            { les_stelle: "^Q:Lk 1,39-47", },
-            { les_stelle: "^Q:Joh 19,25-27", },
-            { group: "weitere Evangelien zur Auswahl ..." },
-            { les_stelle: "^Q:Mt 1,1-16.18-23", },
-            { les_stelle: "^Q:Mt 2,13-15.19-23", },
-            { les_stelle: "^Q:Mt 12,46-50", },
-            { les_stelle: "^Q:Lk 2,1-14", },
-            { les_stelle: "^Q:Lk 2,15b-19", },
-            { les_stelle: "^Q:Lk 2,27-35", },
-            { les_stelle: "^Q:Lk 2,41-52", },
-            { les_stelle: "^Q:Lk 11,27-28", },
-            { les_stelle: "^Q:Joh 2,1-11", },
-        ],
-    },
-    "vigil-Märtyrer": {
-        first: [
-            { les_stelle: "^Q:Mt 10,17-22", },
-            { les_stelle: "^Q:Mt 10,28-33", },
-            { les_stelle: "^Q:Mt 10,34-39", },
-            { les_stelle: "^Q:Lk 9,23-26", },
-            { les_stelle: "^Q:Joh 12,24-26", },
-            { les_stelle: "^Q:Joh 15,18-21", },
-            { les_stelle: "^Q:Joh 17,6a.11b-19", },
-        ],
-    },
-    "vigil-Hirten": {
-        first: [
-            { les_stelle: "^Q:Mt 9,35-38", },
-            { les_stelle: "^Q:Mt 16,13-19", bezug: "[Für einen Papst]", },
-            { les_stelle: "^Q:Mt 23,8-12", },
-            { les_stelle: "^Q:Mt 28,16-20", bezug: "[Für Glaubensboten]", },
-            { les_stelle: "^Q:Mk 1,14-20", },
-            { les_stelle: "^Q:Mk 16,15-20", bezug: "[Für Glaubensboten]", },
-            { les_stelle: "^Q:Lk 5,1-11", bezug: "[Für Glaubensboten]", },
-            { les_stelle: "^Q:Lk 10,1-9", },
-            { les_stelle: "^Q:Lk 22,24-30", },
-            { les_stelle: "^Q:Joh 10,11-16", },
-            { les_stelle: "^Q:Joh 15,9-17", },
-            { les_stelle: "^Q:Joh 21,1.15-17", bezug: "[Für einen Papst]", },
-        ],
-    },
-    "vigil-Heilige": {
-        first: [
-            { les_stelle: "^Q:Mt 5,1-12a", },
-            { les_stelle: "^Q:Mt 5,13-16", },
-            { les_stelle: "^Q:Mt 7,21-27", },
-            { les_stelle: "^Q:Mt 11,25-30", },
-            { les_stelle: "^Q:Mt 13,44-46", },
-            { les_stelle: "^Q:Mt 16,24-27", },
-            { les_stelle: "^Q:Mt 18,1-5", },
-            { les_stelle: "^Q:Mt 19,3-12", },
-            { les_stelle: "^Q:Mt 19,27-29", },
-            { les_stelle: "^Q:Mt 22,34-40", },
-            { les_stelle: "^Q:Mt 25,1-13", },
-            { les_stelle: "^Q:Mt 25,14-30", },
-            { les_stelle: "^Q:Mt 25,31-46", },
-            { les_stelle: "^Q:Mk 3,31-35", },
-            { les_stelle: "^Q:Mk 10,13-16", },
-            { les_stelle: "^Q:Mk 10,17-30", },
-            { les_stelle: "^Q:Lk 6,27-38", },
-            { les_stelle: "^Q:Lk 9,57-62", },
-            { les_stelle: "^Q:Lk 10,38-42", },
-            { les_stelle: "^Q:Lk 12,32-34", },
-            { les_stelle: "^Q:Lk 12,35-40", },
-            { les_stelle: "^Q:Lk 14,25-33", },
-            { les_stelle: "^Q:Joh 15,1-8", },
-            { les_stelle: "^Q:Joh 15,9-17", },
-            { les_stelle: "^Q:Joh 17,20-26", },
-        ],
-    },
-    "vigil-Kirchenlehrer": {
-        first: [
-            { les_stelle: "^Q:Mt 5,13-16", },
-            { les_stelle: "^Q:Mt 7,21-29", },
-            { les_stelle: "^Q:Mt 13,47-52", },
-            { les_stelle: "^Q:Mt 23,8-12", },
-            { les_stelle: "^Q:Mk 4,1-10.13-20", },
-            { les_stelle: "^Q:Lk 6,43-45", },
-        ],
-    },
-    "vigil-Jgfr": {
-        first: [
-            { les_stelle: "^Q:Mt 19,3-12", },
-            { les_stelle: "^Q:Mt 25,1-13", },
-            { les_stelle: "^Q:Lk 10,38-42", },
-        ],
-    },
-    "Speyer-01-27": {
-        second: [
-            {
-                patr_autor: "Paul Josef Nardini (1821–1862)",
-                patr_werk: "Aus einer Predigt vom 11. September 1853.",
-                patr_text: "^hLiebe ist unser Leben, Liebe°ist°unsere°Bestimmung^p„Wer Vater oder Mutter mehr liebt als mich, der ist meiner nicht wert. Und wer Bruder oder Schwester mehr liebt als mich, ist meiner nicht wert. Und wer um meinetwillen nicht alles verlassen kann, der ist meiner nicht wert“, sagt der Meister.^pIn seinem Geiste dürfen wir fortfahren und sagen: Wer sein Amt, seine Wissenschaft, seine Kunst, seinen Handel, sein Gewerbe, seinen Acker, mehr liebt als Gott, der ist seiner nicht wert.^pDer Christ kennt nur ein Höchstes – Gott. Alles Übrige ist diesem einen untergeordnet und erhält erst Wert durch seine Beziehung zu diesem Einen.^pWas teilt das Herz so oft zwischen Gott und der Welt, zwischen dem Ewigen und dem Zeitlichen, zwischen Himmel und Erde? Einzig die Sünde, welche der heilige Augustin die Unterordnung der Liebe nennt. Denn wir sind vor Gott nicht eher strafbar, als wenn wir lieben, was wir nicht lieben sollen. Und alle unsere Laster sind nichts anderes als Ausartungen unserer Liebe.^pLiebt, wie die Schrift fordert, Gott von ganzem Herzen, dann vermag die Sünde nichts mehr wider euch. Eitle Lockungen werden sich noch immer zeigen, aber die Liebe mäßigt den Reiz und stärkt die Kraft zum Widerstande. An Aufforderungen, Pflicht, Recht, Wahrheit zu verleugnen, wird es noch immer nicht fehlen, aber die Liebe ist der Schutzgeist, der euch warnt, der Schild, der euch deckt, das Schwert, welches abwehrt alle Pfeile der Hölle.^pIhr werdet, solange ihr wandelt in dieser Zeit der Unvollkommenheit, nicht aufhören zu fühlen, dass ihr sündhafte Menschen seid. Aber je reiner die Flamme der Liebe in euch brennt, umso freier werdet ihr sein von Versuchungen, umso höher euch erheben über das Böse, umso näher treten euerem Gott. Ihr entwindet euch immer mehr dem Gesetze des Fleisches und erkennt immer mehr das Gesetz des Geistes, das zur vollkommenen Freiheit der Kinder Gottes führt.^pWer liebt die Menschen wahrer, reiner, aufopfernder als der Christ? Und warum? Weil er sie nicht liebt um ihrer selbst willen, sondern um Gottes willen. Er sieht in seinen Mitmenschen Geschöpfe, die aus Gottes Hand hervorgegangen sind wie er, für die Ewigkeit berufen wie er, und er weiß, dass ihnen der Vater das höchste Zeugnis ihrer Würde und den höchsten Beweis seiner Liebe dadurch gegeben hat, dass er seinen eingeborenen Sohn hingab, damit alle, die an ihn glauben, nicht verloren gehen, sondern das ewige Leben haben. Er weiß, was er dem Geringsten von seinen Brüdern tut, das tut er Gott. Darum liebt er sie alle, darum kann er in seiner Liebe sich nicht nur genug tun und des schönen Werkes, zu segnen und wohl zu tun nach seinen Kräften, kein Ende finden. Seht, wohin sein Herz mit seiner Liebe sich wendet, in Gott hat sie ihren Quell und in Gott ihr Ziel. Das aber heißt: Gott lieben aus seinem ganzen Herzen.^pLiebe ist unser Leben, Liebe ist unsere Bestimmung. Liebe ist das Einzige, was Gott von uns fordert, denn die Erfüllung aller Pflicht fließt aus ihr.",
-                patr_resp1: "Der HERR ist gut zu allen, sein Erbarmen waltet über all seinen Werken.",
-                patr_resp2: "Da wirst du schauen und strahlen, dein Herz wird erbeben und sich weiten.",
-                patr_resp3: "Nahe ist der HERR allen, die ihn rufen, allen die ihn aufrichtig rufen."
-            },
-        ]
-    },
-    "Speyer-04-05": {
-        second: [
-            {
-                patr_autor: "Petrus Damiani († 1072)",
-                patr_werk: "Brief an die Mönche von Pomposa (um 1044).",
-                patr_text: "^hIch beschwöre euch, ohne Unterlass für mich zu beten^pPetrus entbietet allen gottesfürchtigen und heiligen Männern, die im Kloster von Komposita ein gottgeweihtes Leben führen, seine ergebensten Grüße.^pGeliebte Väter und Herren, ich habe nicht die Absicht, davon zu schreiben, wie mein Herz erglüht in treuer Zuneigung zu euch oder von welch flammender Liebe es erfüllt ist zu allem, was in irgendeinem Bezug steht zum Kloster von Pomposa, denn ich könnte ja gar leicht den Anschein erwecken, als wollte ich mich in Schmeicheleien ergehen. Für die Ehrlichkeit meiner Zuneigung ist ja mein Gewissen selbst ein guter Zeuge. Auch kann die Wahrheit meiner Worte jenen Menschen nicht verborgen bleiben, die häufig mit mir Gespräche führen. Und ihr, vielgeliebte Brüder, dürft mich nicht als Außenstehenden ansehen, mag ich auch dem Leibe nach von euch getrennt sein. Erachtet mich bitte nicht wie irgendeinen Freund oder beliebigen Weggenossen, sondern betrachtet mich und meine ganze Klostergemeinschaft ohne Bedenken als euren ureigensten Besitz. Gebt uns Weisungen nach eurem Belieben und zwar ohne zu zögern, als ob wir eure Untergebenen und Hausgenossen wären. Daher beschwöre ich euch, geliebte Brüder, unter Tränen und werfe mich flehentlich euch zu Füßen: Betet ohne Unterlass für mich, euren Diener, besonders nach meinem Tode. Was immer ihr tut im Hinblick auf ein Mitglied eurer Ordensgemeinschaft, das tut – darum bitte ich euch – auch im Hinblick auf mich Armen.^pNun bitte ich euch, ehrwürdige Herren, nehmt den bescheidenen Segensgruß aus der Hand eures Dieners wohlwollend an. Lenkt eure Aufmerksamkeit weniger auf die Gabe und mehr auf den Geber. Achtet nicht so sehr darauf, wie gering die Gabe ist, sondern bedenkt, dass sie aus ganzem Herzen kommt.",
-                patr_resp1: "Ich bitte euch, meine Brüder und Schwestern, bei unserem Herrn Jesu Christi:",
-                patr_resp2: "Kämpft mit mir in den Gebeten für mich vor Gott.^HALLo",
-                patr_resp3: "Unablässig denke ich an euch in allen meinen Gebeten."
-            },
-        ]
-    },
-    "Speyer-05-05": {
-        second: [
-            {
-                patr_autor: "Edith Stein (1891–1942)",
-                patr_werk: "Aus der Schrift „Verborgenes Leben und Epiphanie“.",
-                patr_text: "^h^pJe tiefer eine Seele mit Gott verbunden ist, je restloser der Gnade hingegeben, desto stärker wird ihr Einfluss auf die Gestaltung der Kirche sein. Umgekehrt: je mehr eine Zeit in der Nacht der Sünde und Gottesferne versunken ist, desto mehr bedarf sie der gottverbundenen Seelen. Gott lässt es auch daran nicht fehlen. Aus der dunkelsten Nacht treten die größten Propheten – Heiligengestalten – hervor. Aber zum großen Teil bleibt der gestaltende Strom des mystischen Lebens unsichtbar. Sicherlich werden die entscheidenden Wendungen in der Weltgeschichte wesentlich mitbestimmt durch Seelen, von denen kein Geschichtsbuch etwas meldet. Und welchen Seelen wir die entscheidenden Wendungen unseres persönlichen Lebens verdanken, das werden wir auch erst an dem Tage erfahren, an dem alles Verborgene offenbar wird.^pWeil die verborgenen Seelen nicht abgesondert leben, sondern in lebendigem Zusammenhang und in einer großen göttlichen Ordnung stehen, darum sprechen wir von einer unsichtbaren Kirche. Ihre Wirksamkeit und ihr Zusammenhang können ihnen selbst und anderen während ihres ganzen Erdenlebens verborgen bleiben. Es ist aber auch möglich, dass etwas davon in der äußeren Ordnung sichtbar wird. So war es bei den Personen und Ereignissen, die in das Geheimnis der Menschwerdung verflochten sind. Maria und Josef, Zacharias und Elisabeth, die Hirten und die Könige, Simeon und Anna – sie alle hatten ein einsames Leben mit Gott hinter sich und waren für ihre besondere Aufgabe vorbereitet, ehe sie sich in jenen wunderbaren Begegnungen und Begebenheiten zusammenfanden und ihren bisherigen Weg rückschauend als Hinführung zu den Höhepunkten verstanden. In den überlieferten Lobgesängen kommt ihre staunende Anbetung vor den göttlichen Großtaten zum Ausdruck.^pWir leben heute wieder in einer Zeit, die der Erneuerung aus den verborgenen Quellen gottverbundener Seelen dringend bedarf. Es setzen auch viele heute ihre letzte Hoffnung auf diese verborgenen Quellen des Heils. Das ist ein ernster Mahnruf: rückhaltlose Hingabe an den Herrn, der uns gerufen hat, das wird von uns verlangt, damit das Angesicht der Erde erneuert werden könne. In gläubigem Vertrauen müssen wir unsere Seelen dem Walten des Heiligen Geistes überlassen. Es ist nicht nötig, dass wir die „Epiphanie“ unseres Lebens erfahren. Wir dürfen in der Glaubensgewissheit leben, dass das, was der Geist Gottes verborgen in uns wirkt, seine Früchte trägt im Reich Gottes. Wir werden sie schauen in der Ewigkeit.",
-                patr_resp1: "Dieser ist es, der vor Gott viel Gutes tat und den Herrn pries von ganzem Herzen.",
-                patr_resp2: "Er möge eintreten für die Sünden der Menschen.^HALLo",
-                patr_resp3: "Seht den Mann, der niemals murrte, der Gott verehrte mit ungeteiltem Herzen, der sich allem bösen Tuns enthielt und sich frei von Schuld bewahrte."
-            },
-        ]
-    },
-    "Speyer-06-30": {
-        second: [
-            {
-                patr_autor: "Bernhard von Clairvaux († 1153)",
-                patr_werk: "Aus dem Traktat über das Leben und das Amt des Bischofs.",
-                patr_text: "^hDer Bischof soll die Ehre Gottes und das°Heil°der°Nächsten°suchen^pDie Reinheit des Herzens besteht in zwei Dingen: im Suchen der Ehre Gottes und des Nutzens für den Nächsten. So soll der Bischof in all seinen Taten und Worten gar nicht seine Ehre, sondern nur die Ehre Gottes oder das Heil der Nächsten oder beides suchen.^pWenn er so handelt, hat er nicht nur die Pflicht eines Oberhirten (pontifex = Brückenbauer) erfüllt, sondern auch die sprachliche Ableitung seines Namens verwirklicht: Er macht sich so zur Brücke (pontem) zwischen Gott und dem Nächsten. Diese Brücke reicht bis zu Gott, begründet in seinem Vertrauen, wodurch er nicht seine, sondern Gottes Ehre sucht; sie reicht bis zum Nächsten, begründet in jener gütigen Gesinnung, aufgrund deren er nicht sich selbst zu nützen bestrebt ist.^pEr bringt als guter Mittler die Bitten und Gaben des Volkes Gott dar und übermittelt dem Volk Gottes Segen und Gnade.^pFlehentlich bittet er Gottes Majestät um Vergebung für die Ausschweifungen der Sünder und ahndet das Unrecht, das die Sünder Gott antun. Den Undankbaren macht er die Wohltaten der Güte Gottes zum Vorwurf; den Verächtern bringt er die Strenge seiner Macht bei.^pDoch müht er sich nichtsdestoweniger, den Zorn, den Gott in seinem Unwillen über beide hat, zu besänftigen, indem er auf der einen Seite den Menschen ihre Schwäche vorhält, auf der anderen Seite die Größe der göttlichen Güte betont.^pMag er schließlich überschäumen, er tut es für Gott; mag er maßvoll sein, er tut es für uns. Es drängt ihn, entweder immer Gott zu gefallen, wo er nur kann, oder uns zu helfen. Nicht seinen Nutzen sucht er, sondern den von vielen.^pTreu wird der Bischof erfunden, der alle Güter, die durch seine Hände fließen, seien es göttliche Wohltaten an die Menschen, seien es die Gaben der Menschen an Gott, mit dem Auge einer Taube überwacht und für sich nichts von allem zurückbehält. Er sucht nicht ein Geschenk seitens des Volkes, sondern dessen Nutzen, und maßt sich nicht Gottes Ehre an.^pDas empfangene Talent vergräbt er nicht im Schweißtuch, sondern verteilt es durch Wechsler, von denen er auch Zinsen nimmt, doch nicht für sich, sondern für den Herrn{1#vgl. Mt 25,14-30}.",
-                patr_resp1: "Komm, du tüchtiger und treuer Diener, über Weniges warst du treu, über vieles werde ich dich setzen.",
-                patr_resp2: "Komm, nimm teil am Freudenfest deines Herrn!",
-                patr_resp3: "Herr, fünf Talente hast du mir gegeben; sieh her, ich habe noch fünf dazugewonnen."
-            },
-            {
-                patr_autor: "Johannes Paul II. († 2005)",
-                patr_werk: "Aus der Predigt in Speyer am 4. Mai 1987.",
-                patr_text: "^hGott will keinen erzwungenen, sondern°einen°freiwilligen°Dienst^pLiebe Brüder und Schwestern!^lDer letzte große Baumeister am Dom von Speyer war der hl. Otto, der spätere Bischof von Bamberg. Von ihm ist bekannt, dass er in Gnesen den Frieden vermittelte zwischen Polen und den Mecklenburgern und Pommern. Zugleich führte er diese beiden Stämme in wenigen Jahren zum Christentum, wobei er dem Grundsatz folgte, keine Missionierung mit Zwang und Gewalt durchzuführen. Von ihm stammt das großartige Wort: „Gott will keinen erzwungenen, sondern einen freiwilligen Dienst.“{1#Phlm 14}^pWie aktuell ist doch dieses Wort über die Zeiten hinweg für Europa und die Welt von heute! Wie ein Leuchtturm sei es über die Probleme der Gegenwart gestellt, über die Konflikte und harten Fronten innerhalb einzelner Staaten.^pNicht Polizei- oder Militärmacht, nicht diktatorische Maßnahmen vermögen die grundsätzlichen Fragen zu beantworten, die Klagen zu beheben, eine gerechte Ordnung des Gemeinschaftslebens herbeizuführen. Auf weite Sicht gesehen sind Wege in eine bessere Zukunft, in eine befriedete Welt, zu fruchtbarer Zusammenarbeit aller Gesellschaftsschichten nur möglich unter diesem allgemein anzuerkennenden Leitwort: „Gott will keinen erzwungenen, sondern einen freiwilligen Dienst.“^pUnter dieser Idee allein werden auch die bedrohlichen internationalen Gegensätze zwischen den Staaten und Machtblöcken überwunden werden können, kann ein neues, geeintes Europa vom Atlantik bis zum Ural geschaffen werden.^pBei gewissenhafter Beachtung dieses Grundsatzes werden vor allem die Grundrechte des Menschen in der Gesellschaft und gegenüber der staatlichen Gewalt am besten gesichert sein. Eines der höchsten und heiligsten von diesen ist die Freiheit, Gott verehren und die eigene Religion ohne Zwang oder Behinderung ausüben zu dürfen.^pDieser Dom hat es erlebt, wie blinder Hass gegen Gott und den christlichen Glauben ihn entweihte, den Gottesdienst verbot und seine Heiligtümer den Flammen preisgab. Darum erheben wir gerade von hier aus unsere Stimme, um alle Verantwortlichen in den einzelnen Ländern zu bitten, dahin zu wirken, dass in Gesamteuropa die Einschränkung und Unterdrückung der freien Religionsausübung für Personen und Gemeinschaften sowie für das Wirken der Kirchen endlich ein Ende finden.^pZusammen mit dem Recht auf Religionsfreiheit muss die Achtung aller Grundrechte der Einzelpersonen sowie aller Grundwerte für ein menschenwürdiges Zusammenleben das unabdingbare Fundament für die Zukunft Europas sein.",
-                patr_resp1: "Lasst euch verwandeln durch die Erneuerung des Denkens,",
-                patr_resp2: "damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: das Gute, Wohlgefällige und Vollkommene!",
-                patr_resp3: "Lasst euch erneuern durch den Geist in eurem Denken! Zieht den neuen Menschen an,"
-            },
-        ]
-    },
-    "Speyer-07-08": {
-        second: [
-            {
-                patr_autor: "Basilius der Große († 379)",
-                patr_werk: "Aus dem Brief an seinen Schüler Chilo.",
-                patr_text: "^hHier ist Christus, der°Freund°der°Einsamkeit^pWenn dir Gedanken der Versuchung kommen: Wann nützt es mir, an diesem einsamen Ort zu leben, welcher Gewinn erwächst mir aus der Absonderung von der menschlichen Gesellschaft?, dann halte es so: Will diese schlimme Vorstellung mit vielen und verschiedenen wohlklingenden Scheingründen dich zu Fall bringen, so stelle ihr in frommer Erwägung die praktische Erfahrung gegenüber und sprich: Du sagst mir, die Dinge dieser Welt seien gut; aber gerade deshalb bin ich hierher übergesiedelt, weil ich mich der Güter der Welt für unwürdig hielt.^pMit den Gütern der Welt sind aber auch Übel vermischt, und die Übel überwiegen bei weitem. Deshalb ziehe ich mich wie ein Sperling auf die Berge zurück.^pIch lebe in dieser Einöde, wo der Herr verweilt hat. Hier ist die Eiche Mamre, hier die Leiter, die zum Himmel führt; hier sind die Engelscharen, die Jakob sah.^lHier ist die Wüste, in der das gereinigte Volk das Gesetz erhielt und so ins Gelobte Land einzog und Gott schaute.^lHier ist der Berg Karmel, auf dem Elija hauste, Gott zum Wohlgefallen.^lHier ist die Ebene, in die Esra sich zurückzog, um alle göttlich inspirierten Bücher im Auftrag Gottes zu erforschen.^lHier ist die Wüste, wo der heilige Johannes Heuschrecken aß und den Menschen Buße predigte.^lHier ist der Ölberg, den Christus erstieg, um zu beten und uns beten zu lehren.^pHier ist Christus, der Freund der Einsamkeit; denn er sagt ja: „Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen.“{1#Mt 18,20}^lHier ist „der enge und schmale Weg, der zum Leben führt“{2#Mt 7,14}.^lHier sind die Lehrer und Propheten, die „in Wüsten und Gebirgen, in den Höhlen und Schluchten des Landes umherirren“{3#vgl. Hebr 11,38}.^lHier findet man die Apostel und Evangelisten und das stadtferne Leben der Mönche.^pDas habe ich freiwillig übernommen, um zu erlangen, was den Blutzeugen Christi und allen anderen Heiligen verheißen ist, und um in Wahrheit sagen zu können: „Ich habe den Herrn beständig vor Augen.“{4#Ps 16,8}.",
-                patr_resp1: "O glückliche Seele, du hast auf dem Pilgerweg dieser Welt gesiegt über deinen der Erde entstammenden Leib.",
-                patr_resp2: "Vom göttlichen Geiste – der dich zu seinem Spiegel gemacht – wurdest du darob gekrönt.",
-                patr_resp3: "Der Heilige Geist erschaute in dir die eigene Wohnstatt."
-            },
-        ]
-    },
-    "Speyer-07-15": {
-        second: [
-            {
-                patr_autor: "Thomas von Kempen († 1471)",
-                patr_werk: "Aus dem Buch „Nachfolge Christi“.",
-                patr_text: "^hVon dem guten Gewissen^p1. Der Ruhm des guten Menschen ist°das°Zeugnis°seines°guten°Gewissens{1#2 Kor 1,12}.^pHabe immer ein gutes Gewissen, und°du°wirst°immer°Freude°haben.^pEin gutes Gewissen kann viele Lasten tragen und kann auch mitten in Trübsalen heiter sein.^lAber ein böses Gewissen ist immer voll Furcht und Unruhe.^pNie wird es dir an einem sanften Ruhekissen fehlen, wenn dich dein Herz nicht straft.^pSuche keine Freude außer im Rechttun, kein Wohlsein außer im Gutsein.^pDenn die Bösen haben keine wahre Freude und genießen nichts von dem inneren Frieden. Kein Friede den Gottlosen {2#Jes 57,21}, spricht der Herr.^pUnd wenn sie es noch so oft sagen: O ja, wir haben Frieden, über uns kommt kein Übel, wer sollte es wagen dürfen, uns wehe zu tun? {3#Jer 6,12}, so glaube du ihnen nicht.^pDenn siehe! Schnell bricht der Zorn des Herrn herein, und zu nichts wird all das Tun der Gottlosen, und verloren auf immer sind alle ihre Anschläge.^p2. Wer die Liebe hat, wird es nicht schwer finden, sich sogar seiner Trübsal zu rühmen.^lDenn das heißt eigentlich, seinen Ruhm im Kreuze Christi suchen.^pFlüchtig und unstet ist alle Ehre, die Menschen von einander nehmen und Menschen einander geben. Die Ehre der Welt hat immer Angst und Traurigkeit in ihrem Gefolge.^pDie Guten haben ihre Ehre in sich, in ihrem Gewissen, nicht außer sich in dem Munde der Menschen.^lDie Gerechten freuen sich nur in Gott und um ihres Gottes wegen; sie haben ihre Herzenslust an der Wahrheit.^pWer die wahre, die unvergängliche Ehre sucht, der bekümmert sich nicht viel um die vergängliche.^pUnd wer noch vergängliche Ehre sucht oder sie noch nicht von ganzem Herzen verschmäht, der beweist eben dadurch, dass ihm die unvergängliche Ehre noch nicht über alles lieb und teuer ist.^pGroße Seelenruhe hat der, welcher sich weder die Lobsprüche noch die Schmähworte nahe ans Herz gehen lässt.^p3. Wer ein reines Gewissen hat, der ist mit wenigem zufrieden und leicht zu begnügen.^pDu bist nicht besser, wenn man dich lobt, und nicht schlechter, wenn man dich lästert.^lWas du bist, das bist du, und alle Worte der Menschen können dich nicht größer reden, als du in dem Urteil Gottes wirklich bist.^pWenn du nur darauf siehst, was du im Innern wirklich bist, so wird es dich nicht sonderlich kränken, was die Menschen von außen gern aus dir machten.^pDer Mensch sieht auf das Gesicht, Gott in das Herz {4#1 Kön 16,7}. Der Mensch legt nur auf die Waage, was die Menschen tun; Gott hat eine Waage für die Absicht, welche die Menschen treibt, das zu tun, was sie wirklich tun.^pImmer recht tun vor Gottes Auge und doch gering in seinem eigenen sein, das ist der rechte Probstein einer demütigen Seele.^pWenn du dir keinen Trost mehr von den Geschöpfen holen magst, so ist es ein sicheres Zeichen, dass dein Herz große Lauterkeit in sich hat.^p4. Wer kein Zeugnis von außen für sich aufsucht, der gibt zu verstehen, dass er sich ganz in die Hand Gottes gelegt hat.^pDenn nicht der ist ein bewährter Mann, der von sich selbst gut spricht, sondern der, für den sein Gott gut spricht, der ist wahrhaftig gut, wie der hl. Paulus lehrt {5#2 Kor 10,18}.^pIm Innern mit Gott freien Umgang haben und in diesem freien Umgang sich durch keine Neigung nach außen stören lassen, darin besteht das Leben des innerlichen Menschen.",
-                patr_resp1: "Weil ich lauter bin, Herr, nimmst du mich auf.",
-                patr_resp2: "Du stellst mich vor dein Antlitz für immer.",
-                patr_resp3: "Lieber an der Schwelle stehen im Haus meines Gottes, als wohnen in den Zelten der Frevler."
-            },
-        ]
-    },
-    "Speyer-08-01": {
-        second: [
-            {
-                patr_autor: "Petrus Faber († 1546)",
-                patr_werk: "Aus seinem Brief an Ignatius von Loyola vom 7. November 1542.",
-                patr_text: "^hWir hatten eine offene Tür zu einer reichen Ernte gefunden^pMein letzter Brief war vom Oktober. Der Bischof (von Speyer) war schon entschlossen, mich eine theologische Vorlesung halten zu lassen; der Klerus war für uns sehr aufgeschlossen und ebenso die angesehensten Laienpersönlichkeiten, nicht nur aus der Reichskammer (gemeint: dem Reichskammergericht), sondern auch die führenden Leute der Stadt. Es war uns gelungen, ein paar wichtige Versöhnungen zustande zu bringen, und wir hatten eine offene Tür zu einer reichen Ernte gefunden – doch der Kardinal von Mainz hatte dringendst nach mir verlangt, und es hatte sich mir eine gute Gelegenheit geboten, mich mit meinen Gefährten von Speyer zu verabschieden. So langte ich hier in Mainz an, von wo aus mich Seine Eminenz mit einigen seiner Theologen zum Konzil schicken will (obwohl ich ja gezeigt habe, wie unfähig ich zu Aufgaben solchen Gewichts bin), und er hat mich geheißen, mich zur Reise bereitzumachen [...] Gott weiß, was ich in Speyer ausgestanden habe, wo ich gegen die Verzweiflung am Wohle Deutschlands zu kämpfen hatte. Schließlich bin ich zum Schluss doch zu recht froher Zuversicht gekommen; ja ich sehe sogar ganz gewiss, dass der Herr uns dort noch viele Seelen bereithält, die bereit wären, sich durch die Exerzitien schulen zu lassen. Allerdings lässt er mich die bereitstehende Frucht nicht genießen, bis ich wieder vom Konzil zurückgekehrt bin. Der Herr weiß, warum er mir nie die Gnade gibt, lange an einem Ort bleiben zu können; warum man mich immer dann abberuft, wenn die Sachen gut zu gehen beginnen und die Erntezeit beginnt. Bisher hat das immer zum besten ausgeschlagen. Das sehe ich wohl; und so möchte ich um nichts in der Welt Rom nicht verlassen haben, um nach Parma zu ziehen; Parma, um nach Deutschland zu kommen; noch werde ich je den Ruf bereuen, der mich von Deutschland nach Spanien holte und noch viel weniger den anderen, der mich von Spanien hierher nach Speyer und von Speyer nach Mainz geführt hat [...] Ich schließe, indem ich den allergütigsten Herrn bitte, uns nach seinem allerheiligsten Willen immer weiter vorankommen zu lassen [...]",
-                patr_resp1: "Wir waren euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben.",
-                patr_resp2: "Denn ihr seid uns sehr lieb geworden.",
-                patr_resp3: "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
-            },
-        ]
-    },
-    "Speyer-08-09": {
-        second: [
-            {
-                patr_autor: "Edith Stein († 1942)",
-                patr_werk: "Aus den Ausführungen über das Gebet.",
-                patr_text: "^hDas Gebet der Kirche als Liturgie und Eucharistie^pAus den evangelischen Berichten wissen wir, dass Christus gebetet hat, wie ein gläubiger und gesetzestreuer Jude betete. Wie von Kindheit an mit seinen Eltern, so ist er später mit seinen Jüngern zu den vorgeschriebenen Zeiten nach Jerusalem gepilgert, um die Hochfeste im Tempel mitzufeiern. Gewiss hat er mit den Seinen in heiliger Begeisterung die Jubellieder gesungen, in denen die Vorfreude der Wallfahrer ausströmte: „Ich freute mich, da man mir sagte: Wir wollen zum Hause des Herrn gehen“{1#Ps 122,1}. Dass er die alten Segenssprüche betete, wie sie noch heute über Brot, Wein und Feldfrüchte gebetet werden{2#@„Gepriesen seist du. Ewiger, unser Gott, König der Weit, der du aus der Erde Brot hervorbringst, […] der du die Frucht des Weinstocks schufst.“}, bezeugt uns die Erzählung von seinem letzten Zusammensein mit seinen Jüngern, das der Erfüllung einer der heiligsten religiösen Pflichten gewidmet war: dem feierlichen Ostermahl, dem Gedächtnis an die Errettung aus der Knechtschaft Ägyptens. Und vielleicht gibt uns gerade dies Zusammensein den tiefsten Einblick in das Beten Christi und den Schlüssel zum Verständnis des Gebetes der Kirche.^p„Während sie aber speisten, nahm Jesus das Brot, segnete und brach es, gab es seinen Jüngern und sprach: Nehmet hin und esset, dies ist mein Leib! Und er nahm den Kelch, dankte und gab ihnen denselben mit den Worten: Trinket alle daraus, denn dieses ist das Blut des Neuen Testamentes, das für viele vergossen werden wird zur Vergebung der Sünden.“{3#Mt 26,26-28}^pSegnung und Verteilung von Brot und Wein gehörten zum Ritus des Ostermahls. Aber beides bekommt hier einen völlig neuen Sinn. Damit nimmt das Leben der Kirche seinen Anfang. Wohl wird sie erst am Pfingstfest als geisterfüllte und sichtbare Gemeinschaft öffentlich hervortreten. Aber hier beim Ostermahl erfolgt das Einsenken der Reben in den Weinstock, das die Geistausgießung möglich macht. Die alten Segenssprüche sind im Munde Christi lebenschaffendes Wort geworden. Die Früchte der Erde sind sein Fleisch und Blut geworden, von seinem Leben erfüllt. Die sichtbare Schöpfung, in die er sich schon durch die Menschwerdung hineinbegab, ist nun auf eine neue, geheimnisvolle Weise mit ihm verbunden. Die Stoffe, die dem Aufbau des menschlichen Leibes dienen, sind von Grund auf umgewandelt, und durch ihren gläubigen Genuss werden auch die Menschen umgewandelt: in die Lebenseinheit mit Christus einbezogen und von seinem göttlichen Leben erfüllt. Die lebensschaffende Kraft des Wortes ist an das Opfer gebunden. Das Wort ist Fleisch geworden, um das Leben, das es annahm, hinzugeben; um sich selbst und die durch seine Selbsthingabe entsühnte Schöpfung dem Schöpfer als Lobopfer darzubringen. Durch das letzte Abendmahl des Herrn ist das Ostermahl des Alten Bundes übergeführt in das Ostermahl des Neuen Bundes: in das Kreuzesopfer von Golgota und jene Freudenmahle der Zeit zwischen Ostern und Himmelfahrt, bei denen die Jünger den Herrn am Brotbrechen erkannten und in das Messopfer mit der heiligen Kommunion.",
-                patr_resp1: "Erkennt im Brot den Herrn, der am Kreuze hing, im Kelch das Blut, das aus seiner Seite strömte.",
-                patr_resp2: "Nehmt und esst den Leib Christi! Nehmt und trinkt das Blut Christi!",
-                patr_resp3: "Der Herr stiftete dieses Sakrament als Denkmal seines Leidens, als Erfüllung der alten Zeichen, als größtes der von ihm gewirkten Wunder."
-            },
-            {
-                patr_autor: "Johannes Paul II. († 2005)",
-                patr_werk: "Aus der Predigt zur Seligsprechung Edith Steins am 1. Mai 1987.",
-                patr_text: "^hGeprägt von einer unermüdlichen Suche  nach der Wahrheit^p„Selig sind, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht“{1#Offb 7,14}. Unter diesen seligen Männern und Frauen grüßen wir heute in tiefer Verehrung und mit heiliger Freude eine Tochter des jüdischen Volkes, reich an Weisheit und Tapferkeit. Aufgewachsen in der strengen Schule der Tradition Israels, ausgezeichnet durch ein Leben der Tugend und Entsagung im Orden, bewies sie eine heldenhafte Gesinnung auf dem Weg ins Vernichtungslager. Vereint mit dem gekreuzigten Herrn, gab sie ihr Leben dahin „für den wahren Frieden“ und „für das Volk“{2#@Kölner Selig- und Heiligsprechungsprozess}: Edith Stein, Jüdin, Philosophin, Ordensfrau, Märtyrin. Der ganze Lebensweg von Edith Stein ist geprägt von einer unermüdlichen Suche nach der Wahrheit und erhellt vom Segen des Kreuzes Christi. Entsprechend ihrer hohen geistigen Begabung wollte sie nichts ungeprüft hinnehmen, nicht einmal den Glauben ihrer Väter. Sie will den Dingen selber auf den Grund gehen. Darum sucht sie unermüdlich nach der Wahrheit. Im späteren Rückblick auf diese Zeit geistiger Unruhe erkennt sie doch darin eine wichtige Stufe ihres inneren Reifungsprozesses, indem sie feststellt: „Meine Suche nach der Wahrheit war ein einziges Gebet“{3#@Teresia Renata de Spiritu Sancto, Edith Stein, S. 55} – ein herrliches Wort des Trostes für alle, die sich mit dem Gottesglauben schwertun! Schon die Suche nach Wahrheit ist zutiefst ein Suchen nach Gott. Das lange Ringen um ihre persönliche Entscheidung für den Glauben an Jesus Christus fand erst 1921 ein Ende, als sie bei einer Freundin{4#@Hedwig Conrad-Martius in Bergzabern} das autobiographische „Leben der heiligen Teresa von Avila“ zu lesen begann. Sie war sofort gefangen und hörte nicht mehr auf bis zum Ende: „Als ich das Buch schloss, sagte ich mir: Das ist die Wahrheit!“{5#@Teresia Renata de Spiritu Sancto, Edith Stein, S. 55} Die ganze Nacht hindurch hatte sie gelesen, bis zum Aufgang der Sonne. In dieser Nacht hat sie die Wahrheit gefunden, nicht die Wahrheit der Philosophie, sondern die Wahrheit in Person, das liebende Du Gottes. Edith Stein hatte die Wahrheit gesucht und Gott gefunden. Sie ließ sich unverzüglich taufen und in die katholische Kirche aufnehmen{6#@am 1.1.1922 in Bergzabern}. Obwohl seit der Begegnung mit den Schriften der heiligen Teresa von Avila der Karmel das Ziel Edith Steins geworden war, musste sie noch über ein Jahrzehnt warten, bis Christus ihr im Gebet den Weg zum Eintritt zeigte. In ihrer Tätigkeit als Lehrerin und Dozentin in der Schul- und Bildungsarbeit, meist in Speyer, zuletzt auch in Münster, bemühte sie sich fortan, Wissenschaft und Glauben miteinander zu verbinden und gemeinsam weiterzuvermitteln. Dabei will sie nur „ein Werkzeug des Herrn“{7#@Brief Nr. 76 vom 19.12.1930} sein. „Wer zu mir kommt, den möchte ich zu ihm führen.“{8#ebd.} Zugleich lebt sie in dieser Zeit schon wie eine Klosterfrau, legt privat die drei Gelübde ab und wird zur großen, begnadeten Beterin. Aus ihrem intensiven Studium des heiligen Thomas von Aquin lernt sie, dass es möglich ist, „Wissenschaft als Gottesdienst zu betreiben ... Nur daraufhin habe ich mich entschließen können, wieder ernstlich (nach der Konversion) an wissenschaftliche Arbeit heranzugehen.“{9#@Brief Nr. 45 vom 12.2.1928} Bei aller Hochschätzung der Wissenschaft erkennt Edith Stein immer deutlicher, dass das Herz des Christseins nicht Wissenschaft, sondern Liebe ist. Wir verneigen uns tief vor dem Zeugnis des Lebens und Sterbens von Edith Stein, der herausragenden Tochter Israels und zugleich Tochter des Karmels, Schwester Teresia Benedicta vom Kreuz, eine Persönlichkeit, die eine dramatische Synthese unseres Jahrhunderts in ihrem reichen Leben vereint. Die Synthese einer Geschichte voller tiefer Wunden, die noch immer schmerzen, für deren Heilung sich aber verantwortungsbewusste Männer und Frauen bis in unsere Tage immer wieder einsetzen; und zugleich die Synthese der vollen Wahrheit über den Menschen, in einem Herzen, das so lange unruhig und unerfüllt blieb, „bis es schließlich Ruhe fand in Gott“{10#@Augustinus, Bekenntnisse I, 1. Vgl. Brief Nr. 38a vom 13.9.1925}.",
-                patr_resp1: "Meine Seele dürstet nach Gott, nach dem lebendigen Gott",
-                patr_resp2: "Wann darf ich kommen und Gottes Antlitz schauen?",
-                patr_resp3: "Ich wählte den Weg der Wahrheit; nach deinen Urteilen hab’ ich Verlangen."
-            },
-            {
-                patr_autor: "Edith Stein († 1942)",
-                patr_werk: "Aus dem Buch „Kreuzeswissenschaft“.",
-                patr_text: "^hGlaube an den Gekreuzigten – Weg zum Leben^pChristus hat das Joch des Gesetzes auf sich genommen, indem er es vollkommen erfüllte und für und durch das Gesetz starb. Eben damit hat er die vom Gesetz befreit, die von ihm das Leben empfangen wollen. Aber sie können es nur empfangen, wenn sie ihr eigenes Leben preisgeben. Denn die auf Christus getauft sind, sind auf seinen Tod getauft{1#vgl. Röm 6,3}. Sie tauchen unter in sein Leben, um Glieder seines Leibes zu werden und als solche mit ihm zu leiden und mit ihm zu sterben, aber auch mit ihm aufzuerstehen zum ewigen, göttlichen Leben. Dieses Leben wird in seiner Fülle für uns erst kommen am Tage der Herrlichkeit. Wir haben aber jetzt schon – „im Fleisch“ – Anteil daran, indem wir glauben: glauben, dass Christus für uns gestorben ist, um uns das Leben zu geben. Dieser Glaube ist es, der uns mit ihm eins werden lässt wie die Glieder mit dem Haupt und uns öffnet für das Zuströmen seines Lebens. So ist der Glaube an den Gekreuzigten – der lebendige Glaube, der mit liebender Hingabe gepaart ist – für uns der Zugang zum Leben und der Anfang der künftigen Herrlichkeit; darum das Kreuz unser einziger Ruhmestitel: „Ferne sei es von mir, mich zu rühmen, außer im Kreuz unseres Herrn Jesus Christus, durch den mir die Welt gekreuzigt ist und ich der Welt“{2#Gal 6,14}. Wer sich für Christus entschieden hat, der ist für die Welt tot und sie für ihn. Er trägt die Wundmale des Herrn an seinem Leibe{3#vgl. Gal 6,17}, ist schwach und verachtet vor den Menschen, aber gerade darum stark, weil in den Schwachen Gottes Kraft mächtig ist{4#vgl. 2 Kor 12,9}. In dieser Erkenntnis nimmt der Jünger Jesu nicht nur das Kreuz an, das auf ihn gelegt ist, sondern kreuzigt sich selbst: „Die Christus angehören, haben ihr Fleisch gekreuzigt mit seinen Lastern und Begierden.“{5#Gal 5,24} Sie haben einen unerbittlichen Kampf geführt gegen ihre Natur, damit das Leben der Sünde in ihnen ersterbe und Raum werde für das Leben des Geistes. Auf das letzte kommt es an. Das Kreuz ist nicht Selbstzweck. Es ragt empor und weist nach oben. Doch es ist nicht nur Zeichen – es ist die starke Waffe Christi, der Hirtenstab, mit dem der göttliche David gegen den höllischen Goliat auszieht, womit er machtvoll an das Himmelstor pocht und es aufstößt. Dann fluten die Ströme des göttlichen Lichtes heraus und umfangen alle, die im Gefolge des Gekreuzigten sind.",
-                patr_resp1: "Ich bin mit Christus gekreuzigt worden; nicht mehr ich lebe, sondern Christus lebt in mir.",
-                patr_resp2: "Der mich geliebt und sich für mich hingegeben hat.",
-                patr_resp3: "Soweit ich aber jetzt noch in dieser Welt lebe, lebe ich im Glauben an den Sohn Gottes."
-            },
-        ]
-    },
-    "Speyer-08-15": {
-        second: [
-            {
-                patr_autor: "Nikolaus von Weis († 1869)",
-                patr_werk: "Aus seinen Hirtenbriefen vom 29. September 1853 und vom 2. Februar 1855 über den Dom in Speyer.",
-                patr_text: "^hDie Mutterkirche des Bistums – dem Andenken der glorreich in den Himmel Aufgenommenen geweiht^pDer Kaiserdom in Speyer ist die Mutterkirche des ganzen Bistums, geweiht dem Andenken der allerseligsten Jungfrau und Gottesmutter Maria, der glorreich in den Himmel Aufgenommenen, zu der aus der Nähe und Ferne an festlichen Tagen viele herbeiströmen, um Heil zu suchen bei dem Heil der Kranken, um Zuflucht zu finden bei der Zuflucht der Sünder, um Trost zu erlangen bei der Trösterin der Betrübten, um Hilfe zu erflehen bei der Hilfe der Christen.^pBeim Eintritt in den Dom zu Speyer stellen sich den Blicken in den Schöpfungen der Kunst die großen Taten Gottes dar, die er gewirkt in der Verheißung und Vollendung der Erlösung des Menschengeschlechtes. Sie führen uns durch die Sehnsucht des Alten Bundes in die Gnadenfülle des Neuen Bundes und bis in die selige Vollendung im Himmel. Der Name aber, welcher diese frommen Bilder zu einem Ganzen verbindet, ist der süße Name Maria, der allerseligsten Jungfrau und Gottesmutter, der Patronin dieses erhabenen Gotteshauses, der Schutzherrin des ganzen Bistums.^pDie heilige Überlieferung der Kirche hat uns einen besonderen Vorzug der wunderbaren Jungfrau und Mutter aufbewahrt, welcher darin besteht, dass auch ihr Leib, welcher die Wohnstätte des Sohnes Gottes gewesen, alsbald in den Himmel aufgenommen und dort mit der hochbeglückten Seele wieder vereinigt worden. [...] Da Maria nie mit einer Sünde behaftet gewesen, so hatte sie auch nicht die Schuld der Sünde zu büßen, dass nach dem gerechten Urteil Gottes ihr Leib in den Staub zurückkehrte, aus dem er genommen. Dies wird uns noch fasslicher werden, wenn wir die großen Vorzüge beherzigen, welche Maria beim Erlösungswerk zukommen. Der heilige Bernhard wendet sich lobpreisend zu Maria und ruft ihr zu: „Durch dich ward der Himmel mit neuen Mitbürgern erfüllt; durch dich ward der Hölle ihre Beute entrissen; durch dich ward dem himmlischen Jerusalem sein Verlust ersetzt; durch dich ward das verlorene Leben den armen Erdenpilgern wieder geschenkt.“ Wir haben die frohe Verheißung, dass der Leib, welcher im Grab verwest, dereinst verklärt auferstehen werde, da in ihn durch die Erlösung und durch die Speisung mit dem Leib und Blut Jesu Christi ein himmlisches Samenkorn gelegt ist, das dem ewigen Leben den sterblichen Leib entgegenreifen macht; warum sollten wir Bedenken haben, ob der jungfräuliche Leib der allerseligsten Jungfrau bald nach dem Tode und ohne der Verwesung verfallen zu sein, in den Himmel aufgenommen und mit der Seele wieder vereinigt worden sei? Sollte nicht auch darin, wie in so vielem anderen, die Mutter eine Ähnlichkeit mit ihrem göttlichen Sohne haben, dass auch ihr Leib nicht der Verwesung verfallen ist? Von der Unverweslichkeit, die der Heilige, der Sohn Gottes und Maria, nicht sehen durfte, hat auch Maria den Vorzug erlangt, dass ihr Leib nicht im Grab geblieben, nicht in die Verwesung übergegangen ist, wie sie auch durch die Erlösungsgnade des Sohnes von aller Sünde bewahrt worden ist. Sollte nicht Maria auch im Tode Christo ähnlich werden, den der Apostel als den Erstandenen von den Toten den Erstling der Entschlafenen nennt (1 Kor 15, 20)? Maria ist sonach unter den Menschen, die am Jüngsten Tage auferstehen, ein Erstling der Entschlafenen, da ihr Leib aus dem Todesschlaf erweckt und mit der Seele im Himmel wieder vereinigt wurde. Dadurch hat die Mutter des Herrn den verdienten Vorzug vor allen anderen Auserwählten, deren Leiber erst am Jüngsten Tag auferweckt und mit der Seele zur ewigen Wonne im Himmel vereinigt werden [...]",
-                patr_resp1: "Selig bist du, Jungfrau Maria, Mutter Gottes; du hast dem Herrn geglaubt; an dir hat sich erfüllt, was dir gesagt worden war. Nun wirst du über die Chöre der Engel erhöht.",
-                patr_resp2: "Bitte für uns beim Herrn, unserm Gott.",
-                patr_resp3: "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir."
-            },
-        ]
-    },
-    "Speyer-09-10": {
-        second: [
-            {
-                patr_autor: "Maximus von Turin († wahrsch. um 420)",
-                patr_werk: "Aus einer Predigt am Gedenktag Turiner Märtyrer.",
-                patr_text: "^hBesondere Verehrung derer, die hierzulande ihr Blut vergossen haben^pBrüder, wenn wir den Geburtstag aller heiligen Blutzeugen ganz fromm feiern sollen, so muss doch ganz besonders das Fest derjenigen ehrfürchtig begangen werden, die in unserer Heimat ihr eigenes Blut vergossen haben. Gewiss sind alle Heiligen überall da und sind ein Segen für alle; gleichwohl legen ganz besonders diejenigen Fürbitte für uns ein, die dazu noch Marterqualen für uns erduldet haben. Denn wenn ein Blutzeuge leidet, so leidet er nicht nur für seine Person, sondern auch für seine Mitbürger. Für sich leidet er zur Belohnung, für seine Mitbürger als Vorbild. Für sich leidet er, um zur ewigen Ruhe einzugehen, für seine Mitbürger, damit sie zum Heile gelangen. Denn durch ihr Beispiel haben wir gelernt, an Christus zu glauben, haben wir gelernt, bei allen Unbilden das ewige Leben zu suchen, haben wir gelernt, den Tod nicht zu fürchten. Seht also, was wir den Blutzeugen schulden: Der eine ist gefoltert worden, damit der andere gerettet würde; der eine erduldete den Henker, damit der andere Christus anerkenne; der eine ist dem Tode geweiht worden, damit der andere das ewige Leben erlange. Und schließlich ist der Heilige getötet worden, damit der Sünder heil davonkomme. Die Blutzeugen haben also nicht für sich selbst gelebt, noch sind sie für sich selbst gestorben.{1#vgl. Rom 14,7} Denn sie haben uns durch ihr frommes Leben ein Beispiel des Lebenswandels hinterlassen, ein Beispiel des Leidens durch ihr tapferes Ertragen. Deshalb nämlich wollte der Herr, dass die Blutzeugen auf der ganzen Welt und an verschiedenen Orten leiden sollten, um uns gewissermaßen durch das augenblickliche Glaubensbeispiel ihres Zeugnisses gleichsam als die berechtigten Zeugen anzutreiben. In ihrer Schwachheit tun sich die Menschen ja schwer, auf die Botschaft des Herrn hin zu glauben, da die Kunde davon bereits weiter zurückliegt. Um so mehr soll ihr Glaube gefestigt werden durch das Blutzeugnis der Seligen, deren Martyrium ihnen an dieser Stätte ständig vor Augen steht. Darum lasst uns, Brüder, in dieser Welt diejenigen feiern, die wir später als Verteidiger haben können. Wir wollen uns mit ihnen in der Nachahmung ihres Glaubens verbinden.",
-                patr_resp1: "Weil ihr nicht aus der Welt seid, sondern weil ich euch aus der Welt erwählt habe, hasst euch die Welt.",
-                patr_resp2: "Der Knecht ist nicht größer als sein Herr, denn wenn sie mich verfolgt haben, werden sie auch euch verfolgen.",
-                patr_resp3: "Das alles werden sie euch antun um meines Namens willen!"
-            },
-        ]
-    },
-    "Speyer-09-17": {
-        second: [
-            {
-                patr_autor: "Hildegard von Bingen († 1179)",
-                patr_werk: "Aus einem Brief an Bischof Günther von Speyer (1146–1161).",
-                patr_text: "^hHöre: Weise die Ermahnung Gottes nicht von dir^pDas Licht der höchsten Einhauchung sagt zu dir, o Mensch: Weise die Ermahnung des Heiligen Geistes, die in dir aufsteigt, nicht durch gewohnheitsmäßige schlechte Werke von dir. Denn Gott hält Suche nach dir, weil er von jeher darauf bedacht ist, das verirrte Schaf zurückzuführen. Als er die Missetaten der Menschen abwusch, wurde der alte Betrüger zuschanden, da der stärkste Streiter ihn überwand.^pGott blickt durch Fenster auf dich, denn er ist gütig und barmherzig. Dessen spotte kein Mensch irgendwie durch ein Wahngebilde seines Willens. Höre: Weise die Ermahnung Gottes nicht von dir, damit er dich nicht züchtige mit seiner Geißel. Denn Gott will in seinem Eifer solch feindlichen Handel niedertreten, weil dessen Verfechter mitsamt ihren Genossen durch ihre Großtuerei seiner spotten. Darum spannt er den Bogen seiner Mahnung und beweist, dass ihm niemand widerstehen kann. O Mensch, in vielfache Schwärze gehüllt, steh schnell auf nach dem Sturz und baue im Himmlischen. So werden die Schwarzen und Schmutzigen sich schämen ob deiner Erhöhung. Schau wie durch ein Bild{1#vgl. 1 Kor 13,12} zum himmlischen Leben auf. Wie lichtes Morgenrot leuchtet dann das gute Wollen in dir.^pHöre, o Mensch: Ein Mann besaß ein Land, das sich als sehr fruchtbar erwies. Wenn der Pflug die Erde geschaufelt hatte, trieb sie in kräftigem Keimen jedwede in sie gesäte Frucht. Da gefiel es dem Mann, aus diesem Land einen Gewürzgarten zu machen. Gewürzkräuter von lieblichstem Duft sollten darin wachsen, Heilmittel gegen Wunden und Verletzungen. Und das Land wurde besser als früher. Nun also, o Mensch, wähle von beidem, was für dich von größerem Nutzen ist.^pDas Fundament des himmlischen Jerusalems wurde zuerst mit Steinen gelegt, die durch große Stürze gespalten und durch die Risse ihrer Laster verunstaltet waren, aber hernach ihre Missetaten in Reue untergehen ließen. Dieses erste Fundament hat der Baumeister der Welt mit rauen und ungeglätteten Steinen gelegt, und diese Steine tragen die Stadt Gottes. Fliehe daher die Ausgelassenheit der schiffbrüchigen, in Unreinheit liegenden Welt, und sei dem Sardis gleich und dem Topas, und schnell wie der Hirsch, um mit der Zunge aus dem reinsten Quell zu schöpfen. Und du wirst leben in Ewigkeit.",
-                patr_resp1: "Der Böse verlasse seinen Weg und der sündige Mann seine Gedanken. Er kehre zurück zum Herrn. Dann wird er sich seiner erbarmen.",
-                patr_resp2: "Denn er ist gütig und barmherzig.",
-                patr_resp3: "Der Herr will nicht den Tod des Sünders, sondern dass er sich bekehre und lebe."
-            },
-        ]
-    },
-    "Speyer-10-05": {
-        second: [
-            {
-                patr_autor: "Nikolaus von Weis († 1869)",
-                patr_werk: "Aus einem Hirtenwort anlässlich der 800-Jahrfeier der Domkirchweihe.",
-                patr_text: "^hDieses Gotteshaus ist die Kathedralkirche unseres Bistums^pDass wir die Weihe unseres Gotteshauses mit solcher Feier begehen, hat seine noch größere Berechtigung in der Würde und Bedeutung, welche dieser geheiligten Stätte zukommt, weil dieses Gotteshaus die Kathedralkirche unseres Bistums ist. Sie wird es dadurch, dass, wie auch ihr Name es sagt, in ihr der Stuhl (Cathedra) des Bischofs steht; sie wird es dadurch, dass sie das Heiligtum Gottes unter einem rechtmäßigen Nachfolger der Apostel ist und so der Mittelpunkt der Einheit für alle Gläubigen, welche in dem Sprengel Gott dienen und dem einen Hirtenstab des Oberhirten in freiem Gehorsam folgen. Von diesem Lehrstuhl aus wird für die Verkündigung des lauteren Evangeliums gesorgt, wie es nicht Menschensatzung und Menschendünkel gemacht, sondern wie es der Herr selber in der Kirche niedergelegt hat. Mit diesem Hirtenstab wird die ganze Herde geführt auf gesunde Weide, wird die rechte Zucht gewahrt, die kirchliche Ordnung aufrechterhalten und das ganze christliche Leben gepflegt. Von diesem Mittelpunkt, wie aus einem unversiegbaren Gnadenbrunnen, strömen die Segnungen der Einheit und der Ordnung in die einzelnen kirchlichen Gemeinden der Diözese. So wird die Kirche, wo der Stuhl des Bischofs steht, zur Mutterkirche aller Tochterkirchen des Sprengels, die ihr Gehorsam und Ehrerbietung schulden, wie die Mutterkirche ihnen wiederum Schuldnerin ist in allen schweren Pflichten des Oberhirtenamtes. Denn wenn überall, so wird vor allem in der Kirche die Pflicht dessen, der gehorcht, überboten durch die schwere Pflicht dessen, der befiehlt. Wo aber der Gebietende gebietet aus Gehorsam gegen Gott und der Gehorchende gehorcht, nicht weil es ein Mensch, sondern weil es Gott gebietet, da ist der Geist, da ist der Friede, da ist die Gnade unseres Herrn Jesu Christi. [...]^pIm Bischof, dessen Stuhl in der Mutterkirche steht, hat demnach jedes Bistum seinen Mittelpunkt für das Lehramt, für das Richteramt und für die Weihegewalt in der Kirche. Mit ihm teilt Würde und Bürde sein Klerus, der teils mit ihm vereint ist in der Mutterkirche, teils mit dem Hirtenamt in den einzelnen Gemeinden des Sprengels nach kirchlicher Ordnung betraut ist. Wie entfernt auch die einzelnen Herden, wie mannigfach auch die Bedürfnisse, unzertrennlich ist die Gemeinschaft, festbegründet ist die Einheit. Wie aber die einzelnen Pfarrsprengel mit ihren Seelsorgern nicht für sich ohne die von Christus in der Kirche bestimmte Unterordnung zum Bischof und zur Mutterkirche bestehen können, so bestehen auch die Bischöfe und die Bistümer nicht ohne Unterordnung und die Verbindung mit dem einen, von Christus gesetzten Mittelpunkt für die ganze Kirche in Petrus, auf den er die Kirche gebaut hat [...] So wird also durch den Vorsteher der Mutterkirche, durch den mit dem Nachfolger Petri geeinten Bischof, die rechtmäßige und beglaubigte apostolische Sendung und Nachfolge in den ihm anvertrauten Gemeinden fortgeführt und stets darin erhalten.",
-                patr_resp1: "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
-                patr_resp2: "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.",
-                patr_resp3: "Selig, die in deinem Hause wohnen, die dich allezeit loben."
-            },
-            {
-                patr_autor: "Caesarius von Heisterbach († 1240)",
-                patr_werk: "Aus den wunderbaren und denkwürdigen Geschichten.",
-                patr_text: "^hSeine Freude galt nicht vergänglichen Gebäuden, sondern dem Bau des himmlischen Jerusalem^pEs ergab sich einmal, dass einige Äbte unseres Ordens zu Kaiser Heinrich, dem Sohne Friedrichs, reisen mussten, um in den Angelegenheiten unseres Ordens vorzusprechen. An der Spitze dieser Abordnung stand Abt Petrus der Einäugige von Clairvaux{1#@O.Cist., sel., † 1186}. Er genoss sowohl wegen seines heiligmäßigen Lebens als auch wegen seiner Verdienste hohes Ansehen. Weil der Abt von Citeaux nicht persönlich kommen konnte, sandte er an seiner statt seinen Prior. Die Äbte kamen auch nach Speyer. Sie beteten in der Kirche der seligen Gottesmutter, einem Bauwerk von bewundernswerter Größe. Während nun die übrigen Mitglieder dieser Gesandtschaft sich allzu schnell vom Gebet erhoben und umhergingen, um die Baulichkeiten eben dieser Kirche zu besichtigen, verharrte der bereits erwähnte Abt Petrus weiterhin im Gebet. Seine Gedanken und seine Freude galten nicht vergänglichen Gebäuden, sondern dem Bau des himmlischen Jerusalem. Schließlich verließen alle die Kirche und wurden in der Vorhalle von den Chorherren ehrenvoll begrüßt und mit großer Herzlichkeit zum Essen eingeladen. Ein Abt fragte, zu welches Heiligen Ehre die Kirche geweiht worden sei. Die Chorherren antworteten: „Zu Ehren Unserer Lieben Frau“. Da entschlüpfte dem Abt von Clairvaux die Äußerung: „Das habe ich schon gewusst“. Der Prior von Citeaux hörte dies, schwieg aber zunächst. Nachdem die Abordnung der Äbte bald darauf die Stadt verlassen hatte, erinnerte sich der Prior an die Bemerkung des Abtes von Clairvaux und wandte sich an diesen mit den Worten: „Herr Abt, sagen Sie mir: Woher wussten Sie, dass die Bischofskirche in Speyer Unserer Lieben Frau geweiht ist?“ Der Abt bedauerte seine spontane Äußerung und antwortete: „Mir schien es nur recht und billig, dass zur Patronin eines so wunderbaren Bauwerkes die Mutter Gottes und Königin der Himmel gewählt worden sei“. Der Prior kannte den frommen Sinn dieses Mannes. Auf Grund seiner Antwort vermutete er, dass ihm in der Kirche etwas offenbart worden war und sagte deshalb zu dem Abt: „Auf dieser Reise vertrete ich den Herrn Abt von Citeaux. In der Vollmacht dieses Abtes trage ich Euch auf, mir die volle Wahrheit zu sagen.“ Abt Petrus nun, im Gehorsam verpflichtet, erwiderte mit Ehrerbietung: „Als ich vor dem Altare kniefällig für meine Sünden und für die Verfehlungen auf unserem Weg inständig betete, erschien mir die selige Jungfrau Maria selbst. Sie sprach den Segen, den unser Orden nach guter Gewohnheit den heimkehrenden Mitbrüdern zukommen lässt, über mich und gebrauchte dabei folgende Worte: ,Allmächtiger, ewiger Gott, erbarme dich deines Dieners.^pWas immer sich auf der Reise durch Sehen von Bösem oder durch Anhören von unnützem Gerede in seine Seele eingeschlichen hat, das alles verzeihe ihm gnädig in deiner unaussprechlichen Liebe, durch Christus, unseren Herrn‘.“ Dieses Erlebnis des Abtes Petrus ist mir von einem gottesfürchtigen Abt unseres Ordens berichtet worden, den eben dieser Petrus des Öfteren in seinem Hause besucht hat. Auf Grund des oben erwähnten Segens kam der Abt Petrus zu der Erkenntnis, dass die Jungfrau Maria die Schutzpatronin eben jener Kirche ist. Ein Novize rief aus: „O glückliches Gebet, durch das man sich den Segen der so mächtigen Jungfrau verdient!“ Ein Mönch antwortete: „Die Jungfrau pflegt nicht nur diejenigen mit ihrem Segen zu trösten, die still für sich beten, sondern auch jene, die im Chor gemeinsam den Psalmengesang verrichten.“",
-                patr_resp1: "Deine Mauern sind aus edlem Stein.",
-                patr_resp2: "Aus Perlen sind Jerusalems Türme erbaut.",
-                patr_resp3: "Die Tore sind aus Saphir und Smaragd, aus kostbaren Steinen die Mauern rings um die Stadt."
-            },
-        ]
-    },
-    "Speyer-11-03": {
-        second: [
-            {
-                patr_autor: "Ursmar Engelmann OSB († 1986)",
-                patr_werk: "Aus der Einführung in das Pastoralbüchlein des heiligen Pirmin.",
-                patr_text: "^hFahrend in fremdes Land hat°er°den°Himmel verdient^pHrabanus Maurus, Abt und Lehrer von Fulda, später Erzbischof von Mainz († 856), hat dem heiligen Pirmin die folgende Grabinschrift gewidmet:^pPerminius præsul Christi confessor et ipse.^lHanc ædem inhabitat, consecrat atque locum.^lQui propter Christum præsentia gaudia mundi^lSpernens, pauperiem elegit atque sibi.^lDeseruit patriam, gentem simul atque propinquos^lAc peregrina petens æthera promeruit.^lGentem hic Francorum quæsivit dogmate claro,^lPlurima construxit et loca sancta deo.^lhic quoque nunc pausat deponens corporis artus.^lAtque anima sursum regna beata tenet.^lAdiuvat et quosque, qui digne cælestia quærunt,^lRiteque conservat ipse suos famulos.^pPirminius, Bischof und Christi Bekenner zugleich,^lwohnt in diesem Haus und heiligt den Ort.^lDie Freuden dieser Welt hat er um Christi willen verschmäht^lund sich die Armut erwählt.^lDie Heimat, das Volk und die Sippe hat er verlassen,^lfahrend in fremdes Land hat er den Himmel verdient.^lHier hat er das Volk der Franken mit der Lehre des Glaubens gesucht,^lviele heilige Stätten Gott gegründet.^lHier nun ruht er mit den Gliedern des Leibes,^ldoch die Seele wohnt droben im seligen Reich.^lAllen hilft er, die würdig den Himmel erstreben,^lgetreu behütet er selbst seine Diener.{1#@Hrabani Mauri carmina LXVIII (MGH Poctac latini II, 224 f.)}^p„Peregrini monachi“ ist der oft wiederholte Terminus für die Mönche. Pilgerschaft, Fremdlingschaft und die damit verbundene Heimatlosigkeit sind biblisch begründet. Schon den Mönchsvätern ist die Heimatlosigkeit eine vertraute Vorstellung. Basilius d. Gr. berichtet in einem Brief aus dem Jahre 357 von seiner Klosterreise, auf der er Menschen angetroffen hat, die das Evangelium leben, und meint, dass diese beweisen, „Fremdlinge hienieden zu sein, und was es heißt, seinen Wandel im Himmel zu haben.“{2#@Migne PG°32,°823–824} Pirmin und seine Mönche nannten sich „peregrini“, also Fremdlinge, Pilger. Sie nannten sich nicht deswegen so, weil sie zum Teil wirklich Landfremde waren, sondern sie wussten sich als Landfremde, als Pilger, weil sie das Leben der Ewigkeit mehr ersehnten als das in der Zeit, weil sie die Gefährdung des Christen in der Zeit erkannten, und weil das Reich Gottes ihr Reich, ihre Heimat war, und weil sie deshalb Heimatlose hier auf Erden geworden waren. Aus dieser Glaubensgewissheit hat Pirmin seine Klöster im 8. Jahrhundert gegründet.",
-                patr_resp1: "Sie alle haben das Verheißene nur von ferne geschaut und gegrüßt.",
-                patr_resp2: "Sie haben bekannt, dass sie Fremde und Gäste sind auf Erden.",
-                patr_resp3: "Nun aber streben sie nach einer besseren Heimat, nämlich der himmlischen."
-            },
-        ]
-    },
-    "Limburg-02-14": {
-        second: [
-            {
-                patr_autor: "Augustinus (†°430)",
-                patr_werk: "Aus einer Predigt zum Fest des hl. Valentin.",
-                patr_text: "^h^pDer Triumphzug des seligen Blutzeugen Valentin kehrt heute in der jährlichen Festesfeier wieder. Die Kirche freut sich über seine Verherrlichung; gleichzeitig stellt sie uns sein Beispiel zur Nachahmung vor Augen. Denn wenn wir mit ihm leiden, werden wir auch mit ihm verherrlicht werden.^pBei diesem ruhmvollen Kampf müssen wir vorzüglich auf zwei Dinge achten, auf die harte Grausamkeit des Henkers und auf die unbeugsame Standhaftigkeit des Blutzeugen, um sie nachzuahmen.^pVernimm, was der Psalmist solcher Bosheit gegenüber ausruft: „Beneide nicht die Übeltäter! Denn sie verwelken rasch wie Gras.“^pDass wir den Bösen gegenüber Standhaftigkeit zeigen müssen, darüber höre den Apostel! Er mahnt uns: „Standhaftigkeit tut euch not, um die Verheißungen zu erlangen.“",
-            },
-        ]
-    },
-    "Limburg-04-23": {
-        second: [
-            {
-                patr_autor: "Theodor Schnitzler",
-                patr_werk: "Aus dem Buch „Die Heiligen im Jahr des Herrn“.",
-                patr_text: "^hSankt Georg als Persönlichkeitstyp^pEr hat gelebt. Die Legende hat ihn umrankt. Gesichert sind Existenz und Martyrium des heiligen Georg. Schon im 4. Jahrhundert wurde ihm eine Basilika zu Lydda-Diospolis, bekannt aus der Apostelgeschichte, geweiht. Die Jerusalempilger besuchten dieses Heiligtum mit Vorliebe. 1191 wurde die Georgsbasilika von Sultan Saladin zerstört.^pDiese historische Gegebenheit nimmt sich gegenüber den Ausweitungen der Legende armselig aus. Die Patrozinien Sankt Georgs umfassen eine Welt. Die Merowinger sahen ihn als Stammvater ihres Königshauses an. Russland, Genua, England, die Bauern und die Harnischmacher, die mittelalterlichen Ritter und die modernen Pfadfinder, die trierische Stiftskirche und das neuzeitliche Bistum Limburg wählten ihn als Patron. Auf der Insel Zypern zählte man 60 Georgskirchen, in England deren 160. Die Dardanellen trugen den Namen Meerenge des heiligen Georg. Das orthodoxe ökumenische Patriarchat von Konstantinopel hat seinen Sitz bei der Georgskirche. Man könnte diese Aufzählungen fortsetzen.^pSie zeigen, dass Georg, ähnlich wie Christophorus, nicht in erster Linie als Persönlichkeit, sondern als Persönlichkeitstyp gesehen wird: der ritterliche, soldatische Mensch, der dienstbewusst gegen das Böse und gegen die Bösen kämpft, getreu bis in den Tod! Sankt Georg ist eher ein Kapitel christlicher Moral und Aszese als ein Kapitel christlicher Geschichte. Wenn man in der Verehrung eine konkrete geschichtliche Person sucht, kommt man bei St. Georg nicht auf seine Rechnung. Sucht man aber ein christliches Ideal, dann erhebt sich eine jähe Höhe. Man kann zum heiligen Georg schwer ein „Du“ finden. Aber er redet uns mit „Du“ an: Du sollst dieser Mensch sein!",
-            },
-        ]
-    },
-    "Limburg-05-15": {
-        second: [
-            {
-                patr_autor: "Hildegard von Bingen († 1179)",
-                patr_werk: "Aus dem Leben des heiligen Rupert.",
-                patr_text: "^hEr folgte Christi Ruf^pFromme Männer erteilten dem heiligen Rupert den Rat, das Evangelium zu beachten, in welchem geschrieben steht: „Gehe und verkaufe alles, was du hast, teile es unter die Armen aus, und dann komm und folge mir“{1#Mt 19,21}, auf dass seine Pilgerfahrt gut und nützlich werde und der Reichtum seines Standes ihn nicht ins Verderben führe.^pRupert fügte sich ihrem Rate und beschloss in seinem Herzen, dass er also tun wolle. Er kehrte endlich zu seiner Mutter zurück, ließ auf seinen Ländereien, welche sehr ausgedehnt waren, Wohnstätten und Kirchen an Orten, wo sich solche noch nicht befanden, anlegen und verteilte dieselben an seine Mannen, auf dass dieselben darin Aufenthalt nehmen, und seiner Mutter, solange sie lebte, dienen, auch allen, welche dorthin kämen und sich in drückender Not befänden, ihre Hilfe angedeihen lassen möchten.^pEr selber aber sann darauf, wie er sein Herzogtum, seinen Hausstand, seine Besitzungen, kurz alles, was er hatte, verlassen und um des Namens Christi willen ein Fremdling werden könne.^pAls er zwanzig Jahre alt geworden war, suchten ihn viele seiner Anverwandten und Dienstmannen von seinem Weg zu Gott abzubringen. Diese wies er, der ganz in der Liebe Gottes entbrannt war, mit angemessenen und frommen Worten zurück, weil Gott, welcher alles Zukünftige, Vergangene und Gegenwärtige kennt, etwas ganz anderes mit ihm vorhatte.^pDer Selige glich einem mit Früchten beladenen Baume, von fruchtbarer und schöner Beschaffenheit; sein Herz hätte also durch seine großmütige Gesinnung und den Reichtum der Welt ins Gegenteil vom Guten verkehrt und der Heiligkeit verdorrend absterben können, wie schon oft es vielen Menschen begegnet ist, welche mit guten Werken begannen, in welchen sie nachher dürre zu werden anfingen. Gott zog ihn daher selbst zu sich. Er kam ihm zuvor und zog ihn, als er noch im Glanze der Unschuld strahlte, aus diesem Leben hinweg.",
-            },
-        ]
-    },
-    "Limburg-08-11": {
-        second: [
-            {
-                patr_autor: "Rüdiger Müller",
-                patr_werk: "Aus „Strom und Ufer“.",
-                patr_text: "^hDer Dom zu Limburg^pVieltürmig ward der Dom^laus schroffem Fels geboren^lin Zeiten deren Strom^lim Dunkel sich verloren.^pSein wohlgefügtes Maß^list Kraft und Trost geblieben.^lDein Wort das man vergaß^lhat sich in Stein geschrieben.^pDie Macht die uns bewahrt^llässt sich als Gleichnis künden^lvon Giebeln rings umschart^lkann ich den Domplatz finden.^pJäh wächst der Dom empor^lden Tag und Sturm berennen^lder Dohlen schriller Chor^lscheint irren Hohn zu kennen.^pDa steh’ ich klein und stumm^lund spür’ was mich zersplittert^lich wend’ mich schweigend um^lim Alltag eingegittert.^pVieltürmig ward der Dom^laus schroffem Fels geboren^lin Zeiten die mir fern^lim Dunkel sich verloren.",
-            },
-        ]
-    },
-    "Limburg-09-11": {
-        second: [
-            {
-                patr_autor: "LEER",
-                patr_werk: "Aus einer liturgischen Lesung der Benediktinerabtei St. Matthias in Trier.",
-                patr_text: "^hDies sind deine Väter und wahren Hirten.^pAn zweiter Stelle in der Trierer Bischofsliste steht der heilige Valerius. Was sein Vorgänger, der heilige Eucharius, in der blühenden, heidnischen Trevererstadt des dritten Jahrhunderts für die Begründung des Christentums geleistet hat, das musste Valerius, der den Hirtenstab des ersten Bischofs übernahm, für seine Befestigung und Weiterführung tun. Der Erfolg dieses Werkes ist zu ermessen an der Bedeutung der Trierer Christengemeinde am Ende des dritten und zu Beginn des vierten Jahrhunderts. In dieser Gemeinde hatte Kaiser Konstantin in den Jahren seiner Trierer Residenz, die unmittelbar dem Ende der Christenverfolgungen (313) vorausgingen, täglich die Lebenskraft des Christenglaubens vor Augen. Was Valerius weitergeführt, ist auch für Triers Zukunft entscheidend geworden. Nicht der Glanz der römischen Kaiserresidenz verbürgte den Fortbestand der Stadt über die Völkerwanderungszeit, sondern die geduldige Hirtensorge ihrer Bischöfe. Was Leo der Große über Rom und die Apostelfürsten sagte, könnte man in ähnlicher Weise auf Trier und seine beiden ersten Bischöfe anwenden: „Diese, o Rom, sind deine Väter und wahren Hirten, die dich dem himmlischen Reiche einfügten und viel besser und viel glücklicher begründeten als jene, durch deren Eifer die ersten Fundamente deiner Mauern gelegt sind.“^pEs ist also fromm und recht, wenn um das Jahr 450 Bischof Cyrillus den Gründerbischöfen und Vätern unseres Glaubens in der neugebauten Grabkirche auf dem südlichen Gräberfeld einen Altar weihte, selbst dort bei seinen Vorgängern seine Grabstätte wählte und dies mit der Bauinschrift dokumentierte: „Wie schön vereint Gottes Macht, die einst Gefährten waren im Leben! Ehrenvoll birgt dieser Ort der beiden Priester Gebeine, tut kund des Eucharius und Valerius Namen. Freudig bettet Cyrill die zum Leben berufenen Leiber und weiht den Altar den seligen Brüdern zur Ehre. So schmückt für den eigenen Leib der Bauherr die künftige Ruhstatt.“^pWas die spätere Legende erzählt, kann uns zwar wenig an historisch sicheren Berichten über das Leben des heiligen Valerius bieten. Es bringt aber zum Ausdruck, was aus seinem Wirken geworden ist: Ein Bischofssitz und ein Bistum, die weithin Bedeutung hatten und missionarische Kraft besaßen und die sich ihrer Verbindung mit dem Nachfolger des heiligen Petrus bewusst waren.",
-            },
-        ]
-    },
-    "Trier-08-18": {
-        second: [
-            {
-                patr_autor: "Eusebius von Cäsarea († 339)",
-                patr_werk: "Aus der Vita Constantini.",
-                patr_text: "^hHelena, eine Frau voller Hochherzigkeit, Wohltätigkeit und Frömmigkeit^pHelena spendete von Stadt zu Stadt ganzen Gemeinden wie auch einzelnen, die sich an sie wandten, unzählige Wohltaten; unzählige Geschenke verteilte sie auch mit freigebiger Hand an die Heeresabteilungen und ungemein viel schenkte sie nackten und hilflosen Armen, denen sie teils Geldgeschenke, teils reichlich das zur Bedeckung ihres Leibes Notwendige zukommen ließ. Andere befreite sie, die in Gefängnissen und Bergwerken elend schmachten mussten; solche, die von Mächtigeren bedrückt wurden, erlöste sie und andere hinwiederum rief sie aus der Verbannung zurück.^pWährend sie sich durch solche edle Werke auszeichnet, vernachlässigte sie aber keineswegs die sonstigen Pflichten der Frömmigkeit gegen Gott; daher ließ sie sich durchweg fleißig in der Kirche Gottes sehen; mit herrlichen Kleinodien schmückte sie die Bethäuser und selbst die Tempel in den kleinsten Städten übersah sie dabei nicht. So konnte man oft sehen, wie die bewundernswerte Frau in ehrwürdiger und einfacher Kleidung sich mitten unter dem Volke zeigt und ihre Gottesverehrung durch lauter gottgefällige Werke an den Tag legte.^pAls sie aber schon am Ziele ihres reichlich zugemessenen Lebens angelangt, zu einem besseren Lose berufen werden sollte, da nahm sie, wohl an die achtzig Jahre alt, ihrem Ende schon nahe, Abschied und machte ihr Testament, worin sie zugunsten ihres einzigen Sohnes, des Kaisers, des alleinigen Beherrschers der Welt, und zugunsten seiner Söhne, der Cäsaren, ihrer Enkel, ihren letzten Willen festsetzte. Von ihren Enkeln wies sie einem jeden etwas von ihrem Privatvermögen an, soviel sie nur immer auf dem ganzen Erdkreis besaß. Und nachdem sie diese Verfügung getroffen hatte, beschloss sie ihr Leben in Gegenwart ihres großen Sohnes, der ihr zu Seite stand, sie pflegte und ihre Hände in den seinigen hielt.^pMit Recht scheint daher die Kaiserin allen, die verständig urteilen, nicht eigentlich gestorben zu sein, sondern in Wahrheit nur das irdische Leben mit dem himmlischen vertauscht zu haben. Ihre Seele ward aufgenommen zu ihrem Erlöser. Auch der Leiche der Seligen wurden mit ganz ungewöhnlichem Eifer Ehren erwiesen. Unter zahlreichem militärischem Ehrengeleite wurde sie in die Kaiserstadt gebracht und dort in den kaiserlichen Grabstätten beigesetzt.",
-            },
-        ]
-    },
-    "Trier-10-03": {
-        second: [
-            {
-                patr_autor: "Gregor von Tours († 594)",
-                patr_werk: "Aus dem Buch „Über das Leben der Väter“.",
-                patr_text: "^hGern sterbe ich für die Gerechtigkeit^pAls der Bischof der Stadt Trier gestorben war, befahl König Theoderich (Theuderich), Niketius als Nachfolger einzusetzen. Mit Zustimmung des Volkes und auf Grund königlichen Dekretes sollte Niketius daraufhin von Männern, die beim König in höchsten Ehren standen, zur Bischofsweihe eingeholt werden. Als die Beauftragten des Königs in der Nähe der Stadt, in der Niketius als Abt eines Klosters lebte, bei Sonnenuntergang ihre Zelte aufgeschlagen und sich eine Bleibe für die Nacht hergerichtet hatten, jagten sie die ausgeschirrten Pferde ohne große Umschweife in die Saatfelder der armen Leute.^pSobald der selige Niketius davon erfuhr, sagte er von Mitleid bewegt: „Treibt so schnell ihr könnt eure Pferde aus der Saat, sonst schließe ich euch von der Kirchengemeinschaft mit mir aus.“ Jene antworteten verstimmt: „Was ist denn das für eine Rede, die du da führst? Noch hast du nicht den Bischofsstuhl bestiegen, und schon drohst du uns mit der Exkommunikation!“ „So wahr ich lebe, sage ich euch“, gab Niketius ihnen zur Antwort, „der König hat zwar bestimmt, mich aus dem Kloster zu nehmen und auf seine Anordnung hin für die Bürde des Bischofsdienstes zu weihen. Es geschehe der Wille Gottes! Aber der Wille des Königs wird, soweit ich es verhindern kann, in schlechten Dingen nicht geschehen.“ Dann lief er selbst hin und jagte die Pferde aus der Saat. So wurde er von jenen Männern voller Respekt zur Stadt Trier geführt.^pNiketius beugte sich nicht vor der Person eines Mächtigen, sondern er fürchtete allein Gott, der ins Herz schaut und die Tat eines jeden kennt. Nachdem er seinen bischöflichen Dienst angetreten hatte, zeigte er sich gegenüber allen, die Gottes Gebote nicht achteten, als drohender Mahner.^pFolgende Begebenheit trug sich an einem Sonntag zu: König Theudobert betrat mit seinen Gefolgsleuten die Kirche, obwohl Niketius einem Teil von ihnen auferlegt hatte, sich von der Eucharistiefeier fernzuhalten. Nachdem die Lesungen aus der Heiligen Schrift vorgetragen waren, wie es die althergebrachte Ordnung verlangte, und nachdem man die Opfergaben auf dem Altar bereitgestellt hatte, sagte Bischof Niketius: „Hier wird heute die Messe solange nicht weiter gefeiert, bis nicht die Exkommunizierten die Kirche verlassen haben.“ Der König gab schließlich Anweisung, dass alle aus seinem Gefolge, die vom Bischof exkommuniziert worden waren, die Kirche verlassen sollten.^pBischof Niketius predigte regelmäßig vor dem Volk, nannte deutlich die Verfehlungen der einzelnen und betete beständig um Vergebung für diejenigen, die ihre Schuld bekannten. Von daher war er oft Hassausbrüchen ausgesetzt, wenn er die bösen Taten vieler wahrheitsgemäß aufdeckte. Sein Wahlspruch lautete: „Gern sterbe ich für die Gerechtigkeit!“ Ferner übte sich Niketius in strengem Fasten. Oft, wenn die anderen beim Essen saßen, pilgerte er, einen Umhang über den Kopf geschlagen, um in der Öffentlichkeit nicht erkannt zu werden, in Begleitung eines Knaben zu den einzelnen Basiliken der Heiligen.^pAls er den Tag seines Hinübergangs herannahen fühlte, sagte er zu seinen Mitbrüdern: „Ich habe den heiligen Apostel Petrus und Johannes den Täufer gesehen, die mich zur ewigen Ruhe einladen.“ Wenige Tage später gab er sein Leben in die Hände des Herrn zurück. Er wurde in der Basilika des heiligen Maximin begraben.",
-                patr_resp1: "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
-                patr_resp2: "Komm, nimm teil an der Freude deines Herrn.",
-                patr_resp3: "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
-            },
-        ]
-    },
-    "Trier-11-07": {
-        second: [
-            {
-                patr_autor: "Beda Venerabilis († 735)",
-                patr_werk: "Aus der Kirchengeschichte des englischen Volkes.",
-                patr_text: "^hWillibrord predigte weit und breit bei den Friesen das Glaubenswort^pAls der Mönch und Bischof Egbert aus dem irischen Kloster Rathmelsigi sah, dass es ihm nicht vergönnt war, zur Mission bei den Germanenstämmen aufzubrechen, da er wegen eines anderen Dienstes für die Kirche in Anspruch genommen war, versuchte er, fromme und eifrige Männer für den Dienst am Wort Gottes auszusenden. Unter ihnen ragte der würde- und verdienstvolle Priester Willibrord hervor.^pBevor diese Männer – es waren ihrer zwölf – in ihr Missionsgebiet kamen, machten sie einen Umweg zu Pippin, dem Hausmeier der Franken. Dieser nahm sie bereitwillig auf. Da Pippin kurz zuvor Westfriesland erobert hatte, schickte er die zwölf Männer zur Missionierung in dieses Gebiet. Er selbst unterstützte sie mit der Autorität des Herrschers, damit niemand den Missionaren ein Leid zufügen könne. Er versprach denen, die den Glauben annehmen wollten, viele Vergünstigungen. Mit Hilfe der göttlichen Gnade konnten die Missionare in kurzer Zeit viele vom Götzendienst zum Glauben an Christus bekehren.^pWillibrord beeilte sich schon in der ersten Zeit nach der Ankunft in Friesland, die Verkündigung des Evangeliums dadurch sicherzustellen, dass er Papst Sergius in Rom aufsuchte, um mit dessen Erlaubnis und Segen das geplante Missionswerk bei den Stämmen der Friesen zu beginnen. Zugleich hoffte er, Reliquien der seligen Apostel und Märtyrer Christi vom Papst zu erhalten. Wenn er einem Stamm gepredigt und seine Götzenbilder zerstört hatte, sollten die Reliquien der Heiligen dazu dienen, neuerrichtete Kirchen auf ihren Namen zu weihen. Als Willibrord alle Wünsche für die Vorbereitung seines großes Werkes erfüllt sah, kehrte er in die Mission zurück.^pNachdem die Missionare jahrelang in Friesland gepredigt hatten, schickte Pippin Willibrord mit Zustimmung seiner Gefährten nach Rom. Papst Sergius sollte ihn zum Erzbischof des Stammes der Friesen weihen. Dies geschah, wie Pippin gewünscht, im Jahre 696 nach der Geburt des Herrn. Willibrord wurde in der Kirche der heiligen Märtyrerin Cäcilia an deren Todestag geweiht. Papst Sergius gab ihm den Namen Clemens und sandte ihn schon nach vierzehn Tagen nach Friesland zurück. Pippin wies Willibrord einen Bischofssitz in einem berühmten, befestigten Ort an, der in der gallischen Sprache Traiectum{1#@das heutige Utrecht} genannt wird.^pAls Willibrord dort eine Kirche gebaut hatte, predigte der Bischof weit und breit das Glaubenswort. Er brachte viele vom Irrglauben ab und errichtete in jenem Land weitere Kirchen und auch einige Klöster. Wenig später setzte er in diesen Gebieten Bischöfe in ihr Amt ein. Er nahm sie aus der Zahl der Brüder, die entweder mit ihm oder nach ihm zur Predigt dorthin ausgesandt worden waren. Mehrere von ihnen ruhen schon im Herrn. Willibrord selbst aber, mit Beinamen Clemens, ist noch am Leben. In ehrwürdigem Alter steht er inzwischen bereits im sechsunddreißigsten Bischofsjahr. Nach vielen Kämpfen im himmlischen Dienst sehnt er sich nun von ganzem Herzen nach der Auszeichnung des himmlischen Lohnes.",
-                patr_resp1: "Ich diene der Kirche durch das Amt, das Gott mir übertragen hat.",
-                patr_resp2: "Damit ich euch das Wort Gottes in seiner Fülle verkündige.",
-                patr_resp3: "Ich stand zwischen dem Herrn und euch, um euch das Wort des Herrn weiterzugeben."
-            },
-        ]
-    },
-    "Trier-12-07": {
-        second: [
-            {
-                patr_autor: "Paulinus († nach 422)",
-                patr_werk: "Aus der Lebensbeschreibung des Diakons Paulinus über seinen Bischof Ambrosius.",
-                patr_text: "^hEine Erzählung aus der frühesten Kindheit des Heiligen^pAmbrosius wurde geboren, als sein Vater, der den gleichen Namen trug, die Präfektur über die gallischen Provinzen{1#@Sitz der Präfektur der gallischen Provinzen war zur Zeit der Geburt des heiligen Ambrosius Trier.} innehatte. Eines Tages lag das Kind im Hof des Prätoriums in seiner Wiege und schlief mit offenem Mund. Da bedeckte plötzlich ein Bienenschwarm Gesicht und Mund des Kindes, und die Bienen flogen im Munde ein und aus. Der Vater, der mit der Mutter oder mit der Tochter in der Nähe auf und ab ging, verbot der Amme des Kindes, einer Magd des Hauses, den Bienenschwarm zu verscheuchen. Die Amme war nämlich besorgt, die Bienen könnten dem Kinde schaden. Mit väterlichem Interesse wartete er ab, welches Ende dieses Wunder nehmen würde. Die Bienen flogen aber nach einer Weile fort und erhoben sich in die Luft in solche Höhe, dass sie von Menschenaugen nicht mehr gesehen werden konnten. Der Vater war erschrocken und sprach: „Wenn dieses Kind am Leben bleibt, wird etwas Großes aus ihm werden.“ Denn schon damals, in der Kindheit seines noch so jungen Dieners, war der Herr am Werk. Das Wort sollte sich nämlich an ihm erfüllen: „Freundliche Worte sind wie Wabenhonig.“{2#Spr 16,24} Der Bienenschwarm zeigte im Voraus die Honigwaben der Schriften an, in denen Ambrosius die himmlischen Gaben verkünden und die Herzen der Menschen von den irdischen Dingen zum Himmel lenken sollte.",
-            },
-        ]
-    },
-    "Trier-12-08": {
-        second: [
-            {
-                patr_autor: "Franz Rudolf Bornewasser (†1951)",
-                patr_werk: "Aus einem Hirtenwort zur Weihe des Bistums Trier an Maria, die Unbefleckt Empfangene.",
-                patr_text: "^hSiehe, von nun an werden mich selig preisen alle Geschlechter^pDer Trierer Erzbischof und Kurfürst Karl Kaspar von der Leyen (†°1676) hat die allerseligste Jungfrau Maria unter dem Titel der „Unbefleckten Empfängnis“ zur Patronin des Trierer Landes gewählt. Seit dieser Zeit wird Maria, die Unbefleckt Empfangene, in den Trierer Landen als „Patrona patriæ“ verehrt, während der heilige Apostel Matthias seit alter Zeit Patron der Diözese ist.^pKarl Kaspar von der Leyen, ein ebenso guter Landesvater des Kurstaates Trier wie seeleneifriger Bischof seiner Diözese, wollte in den schweren Zeiten seiner vierundzwanzigjährigen Regierung Land und Bistum unter den besonderen Schutz der lieben Gottesmutter unter dem Titel der „Unbefleckten Empfängnis“ stellen.^pAuch unsere Zeiten sind ernst und schwer. Auch wir bedürfen heute des besonderen Schutzes unseres Herrn und Gottes. Es vergeht ja auch kein Tag, ohne dass wir betend und flehend unsere Hände zu Gott erheben.^pAber eine soll uns beten und flehen helfen um den Schutz des himmlischen Vaters: jene, die wir jeden Tag mit dem Ave Maria des Erzengels Gabriel begrüßen, die liebe Gottesmutter, die wir als die allerseligste Jungfrau unter dem Titel der Unbefleckten Empfängnis besonders verehren. Ihr wollen wir an ihrem Feste unsere ganze Diözese weihen, damit sie uns Fürsprecherin sei an dem Throne Gottes, der uns behüten und der ganzen Welt segensreichen Frieden schenken möge.^pDie ragende Säule auf dem Markusberg bei Trier, von der das Standbild der Unbefleckten seit dem Jahre 1866 hineinleuchtet ins Trierer Land, erinnert uns immer wieder an den 8. Dezember 1854, an dem der oberste Lehrer der Kirche das Dogma von der Unbefleckten Empfängnis der allerseligsten Jungfrau Maria verkündet hat. In alle Welt drang der Glaubensruf: „Maria, ohne Makel der Erbsünde empfangen.“^pMutter Jesu! Wie ist Dein prophetisches Wort in Erfüllung gegangen: „Siehe, von nun an werden mich selig preisen alle Geschlechter.“{1#vgl. Lk 1,48}. Auch wir preisen Dich selig, Dich, die Hochgebenedeite, Dich, die Unbefleckt Empfangene, Dich, die Mutter unseres Herrn, Dich, die Du auch unsere Mutter bist. Wie unsere Vorfahren Dir unser Trierer Land geweiht, so wollen wir in diesen ernsten Tagen Dir unsere Diözese weihen, damit Du uns Schutzherrin bist und bleibst.",
-            },
-        ]
-    },
-    "Trier-02-24": {
-        second: [
-            {
-                patr_autor: "John Henry Kardinal Newman († 1890)",
-                patr_werk: "Aus einer Predigt am Festtag des heiligen Matthias.",
-                patr_text: "^hViele aber, die jetzt die Ersten sind, werden dann die Letzten sein^pHeute ist der einzige Heiligenfesttag, der mit den Gefühlen der Freude und Trauer zugleich gefeiert werden sollte. Er erinnert uns sowohl an den Fall, wie an die Erwählung eines Apostels: Der heilige Matthias wurde an Stelle des Verräters Judas erwählt.^pDer Gedanke, der bei der Betrachtung der Wahl des heiligen Matthias im Geist aufsteigt, ist folgender: Wie leicht kann Gott sein Ziel ohne uns erreichen und andere an unsere Stelle setzen, wenn wir gegen ihn ungehorsam sind. Es geschieht oft, dass jene, die lange in seiner Gunst gestanden sind, selbstsicher und vermessen werden. Sie betrachten sich als persönlich verknüpft mit den Absichten seiner in der Kirche geoffenbarten Barmherzigkeit und als so wichtig in seinem Plan, dass sie glauben, sein Wort ginge fehl, wenn sie fielen. Sie hätten, denken sie, mehr als andere einen besonderen Anspruch auf seine Verheißungen. Schon die Annahme, sie könnten fallen, beleidigt sie.^pNicht lange vor dem Fall und Verrat des Judas versprach Christus, wie es schien, eine Segnung aller Apostel einschließlich des Verräters. »Ihr, die ihr mir nachgefolgt seid, werdet beim Neubeginn, wenn der Menschensohn auf dem Thron seiner Herrlichkeit sitzen wird, ebenfalls auf zwölf Thronen sitzen und die zwölf Stämme Israels richten.«{1#vgl. Mt 19,28} Wer hätte nicht gedacht, dass Judas des ewigen Lebens sicher wäre, eben auf diese Verheißung hin? Es ist wahr, dass er hinzufügte, gleichsam als Anspielung auf ihn: »Viele, die die Ersten sind, werden die Letzten sein.«{2#vgl. Mt 19,30} Doch er sagte nichts, um die aufzuklären, die es ablehnten, das Grundgesetz seiner Vorsehung zu berücksichtigen und auf sich selbst anzuwenden. Alle seine zwölf Apostel schienen nach dem Buchstaben zum Leben vorherbestimmt zu sein. Nichtsdestoweniger hatte Matthias in wenigen Monaten Thron und Krone des einen von ihnen inne.^pEs liegt etwas Auffallendes in dem Umstand selbst, dass unser Herr sie bis zu der vollen Zwölfzahl ergänzt haben wollte, nachdem einer gefallen war. Warum anders geschieht das, als um uns zu zeigen, dass er nicht auf uns als bloße Individuen schaut, sondern als auf eine Gemeinschaft, als auf ein gewisses, bestimmtes Ganzes, dessen Teile sich ändern können in dem Vorgang, der sie aus der sündigen Welt erlöst. Welche Fülle feierlicher, überwältigender Gedanken muss den heiligen Matthias überfallen haben, als er von den elf Aposteln begrüßt wurde und seinen Sitz unter ihnen einnahm als ihr Bruder. Gerade seine Erwählung war ein Zeugnis gegen ihn selbst, falls er ihr nicht nachkommen sollte. Das gleiche gilt auch für uns. Wir nehmen, wie Matthias, den Platz anderer ein, die uns vorausgegangen sind. Viele sind berufen, wenige auserwählt; die Kirche verliert alte Zweige und setzt neue an. Wie lange uns das Evangelium anvertraut sein wird, wissen wir nicht. Wir sind in der Gegenwart Zeugen der Wahrheit und gerade unser Ruhm ist unsere Warnung. Wegen des abergläubischen Wesens, der Unehrerbietigkeit, der Gleichgültigkeit und des Unglaubens der sogenannten christlichen Welt ist es unsere Pflicht, demütig zu sein, während wir predigen; zu zittern, wenn wir uns freuen.^pWie kommt es, dass der eine ausharrt, der andere fällt? Das sind feingewebte Fragen. Sicher wissen wir, dass wir aus uns selbst nichts tun können und doch das Heil in unseren Händen liegt; denn wie tief verzweigt auch immer die Wurzel des Bösen in uns ist, so ist doch Gottes Gnade ausreichend für unsere Not.",
-                patr_resp2: "auf dass er die Stelle dieses Apostelamtes erhalte.",
-            },
-        ]
-    },
-    "Köln-09-27": {
-        second: [
-            {
-                patr_autor: "LEER",
-                patr_werk: "Aus der Kölner Königschronik.",
-                patr_text: "^hDie Grundsteinlegung des Domes^pIm Jahr des Herrn 1248 war das Domkapitel mit Zustimmung des Erzbischofs und der hohen Geistlichen der Stadt übereingekommen, die alte Domkirche vollständig abzutragen und durch eine neue, großartigere zu ersetzen.^pDie Baumeister gingen mit großer Eile daran, den östlichen Teil der Kirchenmauern zu unterhöhlen und die Höhlungen mit Holzstämmen abzustützen; dann zündeten sie die Stämme an, so dass die darüber stehende Baulast bald zusammenstürzte.^pAber sie gingen dabei unvorsichtig zu Werke: Sie legten nämlich zu große Feuerstellen an, und so breitete sich – auch durch den Wind, der hereinschlug – das Feuer aus und verzehrte das ehrwürdige, wenn auch alte Bauwerk der Kirche bis auf die Außenmauern völlig. Dabei wurden auch die beiden vergoldeten Kronleuchter vernichtet, die im Innenraum der Kirche hingen.^pAber Gottes Fügung zeigte sich offensichtlich darin, dass man vor dem Anlegen des Feuers den Dreikönigsschrein von seinem Platz mitten in der Kirche zum Domportal gebracht hatte, und zwar nicht, weil man wegen des Feuers in Sorge war, sondern wegen des Einsturzes von Mauern. So konnte man, als dann die Kirche voller Rauch war, den Schrein, wenn auch nur mit großer Mühe, noch hinausschaffen, und er blieb ohne die geringste Beschädigung erhalten.^pZur Grundsteinlegung der neuen Domkirche lud dann Erzbischof Konrad die geistlichen Prälaten sowie die weltlichen Adeligen und Ministerialen ein; und auch eine kaum zählbare Volksmenge kam, durch die Prediger dazu ermuntert, zusammen.^pNach dem feierlichen Hochamt am Fest der Aufnahme der seligen Jungfrau Maria in den Himmel legte der Erzbischof den Grundstein in der Vollmacht des Herrn Papstes wie auch seiner eigenen und der des päpstlichen Legaten.^pAlle Suffragane der Kirche von Köln aber förderten den Bau in einer der Gläubigen bislang unerhörten Großzügigkeit. Selbst brachten sie ihre Spenden oder schickten sie zum Baufonds der erwähnten Kirche.^pSeit dieser Zeit begann man unter großem Aufwand mit dem Bau des Fundaments der neuen Basilika des heiligen Petrus, der Hauptkirche Kölns, eines Fundaments, über dessen Mächtigkeit und Tiefe man staunen musste.",
-            },
-        ]
-    },
-    "Köln-10-21": {
-        second: [
-            {
-                patr_autor: "LEER",
-                patr_werk: "Aus einer mittelalterlichen Predigt am Todestag der heiligen Jungfrauen.",
-                patr_text: "^hDas Martyrium der Jungfrauen – eine Ehre für Köln^pDie heiligen Jungfrauenscharen von Köln sind für uns am heutigen Tag ebenso der Bewunderung wie der Verehrung würdig. An ihrem Festtag, den wir allzeit feierlich begehen, wissen wir nicht, welches ihrer Verdienste wir zuerst, welches zuletzt nennen sollen; denn wir kennen nur überaus große.^pWer in aller Welt kann sich darüber wundern, dass die Taten und Kämpfe dieser himmlischen Schar nicht gleich von Anfang an aufgezeichnet worden sind, um sie der Nachwelt rein und klar zu überliefern, da doch die allgemeine Drangsal der Völker, herbeigeführt durch tobende Barbaren gerade in dieser Gegend, dieses Versäumnis genügend erklärt?^pSo kam es auch dazu, dass das Andenken an diese heiligen Jungfrauen allmählich aus dem Leben des kurz vorher bekehrten Volkes schwand – zunächst aus dem Mund, dann auch aus dem Herzen –, nachdem die Hüterin der heiligen Leiber, nämlich die Kirche der heiligen Jungfrauen, abgebrannt war. Ja, die Verehrung der heiligen Stätten mit so kostbarem Schatz war bei den Unsrigen so sehr vergessen worden, dass aus weit entlegener Gegend im Osten ein gewisser Mann namens Clematius nach Köln kommen musste, ein berühmter, frommer Mann, durch Ruf und Stellung wohl geeignet, um die Verehrung und Verherrlichung der Grabstätten der heiligen Jungfrauen wieder zu beleben, wie es uns der Erfolg zeigt. Er kam, angeregt durch häufige Zeichen, Schreckbilder und Mahnungen, und vollendete das, was er in seiner Heimat anfangs aus Furcht gelobt hatte, hier frommen Sinnes, indem er die Kirche der heiligen Jungfrauen wieder aufbaute. Eine Denkschrift darüber, in Stein gehauen, wird dort aufbewahrt; ich hielt es für notwendig, sie wörtlich in diese Rede aufzunehmen: „Durch gottgesandte Flammenvisionen öfters gemahnt und durch die gewaltige Majestät des Martyriums der himmlischen Jungfrauen, die ihm erschienen, aus der östlichen Reichshälfte herbeigeholt, hat auf Grund eines Gelübdes Clematius aus senatorischer Familie auf eigene Kosten und auf eigenem Gelände diese Basilika von Grund auf wiederhergestellt, wie er es seinem Gelübde schuldig war.“^pWie scharf die Klugheit der Jungfrauen, wie gelassen ihre Gerechtigkeit, wie echt ihre Selbstüberwindung, wie beherzt ihre Tapferkeit gewesen ist, als sie im Begriff waren, für ihren Herrn zu streiten und mit klarem Blick ihr Herz und ihren Sinn auf die wahre Weisheit zu richten, das können nur jene treffend und vernünftig erkennen, die in der glücklichen Bereitschaft sind, ihnen im Leben nachzufolgen. Übrigens freuen wir uns nicht nur am heutigen Tag, sondern rühmen uns der heiligen Jungfrauen allzeit mit Stolz. Als ihnen die unmenschlichen Henker entgegenkamen, begrüßten sie den Boden der Agrippina Colonia nicht nur flüchtig wie Gäste, sondern blieben hier und empfingen die Märtyrerkrone, sie verherrlichen die Stadt als ihre eigene durch Vergießen ihres Blutes. Mit ihren heiligen Leibern brachten sie uns so viel Schutz, als sie mit ihrer tausendfältigen Fürbittstimme denen, die sie würdig anrufen, am Thron der Barmherzigkeit unseres Erlösers, des eingeborenen Sohnes des Vaters, erlangen können. In seiner Güte gibt er den Scharen der heiligen Jungfrauen, die ihm folgen, wohin er geht, die Liebe, für uns zu beten, und verleiht in seiner Huld das Erbetene, er, der mit Gott, seinem Vater, und dem Heiligen Geist, der Liebe beider, als allmächtiger Gott lebt und herrscht in alle Ewigkeit. Amen.",
-                patr_resp1: "Die Heiligen vergossen ihr Blut für den Herrn, sie liebten Christus in ihrem Leben und folgten ihm nach bis in den Tod.",
-                patr_resp2: "Darum schenkte ihnen der Herr den Siegeskranz.",
-                patr_resp3: "Ein Geist und ein Glaube war in ihnen."
-            },
-        ]
-    },
-    "MUSTERsecond": {
-        second: [
-            {
-                patr_autor: "",
-                patr_werk: "",
-                patr_text: "",
-                patr_resp1: "",
-                patr_resp2: "",
-                patr_resp3: ""
-            },
-        ]
-    },
-    "MUSTERresp": {
-        // Wenn nur resp eingetragen ist,
-        // wird der Selector unter der Überschrift RESPONSORIUM angezeigt.
-        // Mit dem ^SLICE-Tag kann der Teil von resp1 abgegrenzt werden,
-        // der im Button angezeigt wird.
-        first: [
-            {
-                resp1: "^SLICE",
-                resp2: "",
-                resp3: ""
-            },
-        ],
-        second: [
-            {
-                patr_resp1: "^SLICE",
-                patr_resp2: "",
-                patr_resp3: ""
-            },
-        ]
-    },
-    "MUSTER": {
-        first: [
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                resp1: "",
-                resp2: "",
-                resp3: ""
-            }, // Eine weitere alternative Erste Lesung kann hier ergänzt werden
-        ],
-        second: [
-            {
-                patr_autor: "",
-                patr_werk: "",
-                patr_text: "",
-                patr_resp1: "",
-                patr_resp2: "",
-                patr_resp3: ""
-            }, // Eine weitere alternative Zweite Lesung kann hier ergänzt werden
-        ]
-    },
-    // Weitere Stichwörter können hier ergänzt werden
+  "AAA-09-16": {
+    "patr_selector": [
+      {
+        "autor": "Cyprian von Karthago (†°258)",
+        "werk": "Aus°einem°Brief°an°Papst°Kornelius.",
+        "text": "^h^SLICEEntschlossener°und°fester°Glaube^pTeurer Bruder, wir kennen das leuchtende Beispiel eures Glaubens und eurer Tugend. Mit Jubel haben wir Kunde von eurem ehrenvollen Bekenntnis erhalten, so dass auch wir zu denen gehören möchten, die an euren Verdiensten und an eurem Lob freundschaftlich teilhaben.^pDa wir eine einzige Kirche sind und uns Einheit des Geistes und unzertrennliche Eintracht verbinden, welcher Priester sollte sich da nicht zum Lob des Mitpriesters beglückwünschen, als wäre es sein eigener Ruhm, oder wer sollte sich nicht überall über das Glück des Bruders freuen?^pIch kann es nicht oft genug sagen, wie groß hier der Jubel und die Freude waren, als wir von eurem Glück und eurer Stärke hörten: Du warst beim Bekenntnis an der Spitze der Brüder. Aber das Bekenntnis dessen, der die Brüder führte, wuchs noch an deren Bekenntnis. Indem du zur Herrlichkeit voranschreitest, machst du viele zu Gefährten deines Ruhmes, und du gewinnst das Volk dafür, ein Volk von Bekennern zu werden, indem du als erster zum Bekenntnis für alle bereit bist.^pWir wissen nicht, was wir zuerst preisen sollen, deinen entschlossenen und festen Glauben oder die unzertrennliche Liebe der Brüder. Da wurde die Kraft des voranschreitenden Bischofs erwiesen und die Einheit der ihm folgenden Brüder offenbar. Da es bei euch nur EIN Herz und EINE Stimme gibt, so hat die ganze Kirche von Rom Bekenntnis abgelegt.^pLieber Bruder, der Glaube, den der heilige Apostel an euch gepriesen hat, ist aufgeleuchtet. Er sah schon damals im Geist dieses Lob der Tugend und die kraftvolle Festigkeit voraus, und indem er im Hinweis auf die Zukunft eure Heiligkeit pries, lobte er die Eltern und forderte die Kinder heraus. Da ihr so einmütig und tapfer seid, gabt ihr auch den übrigen Brüdern ein großes Beispiel der Einmütigkeit und Tapferkeit.^pTeurer Bruder, sosehr wir können, wollen wir uns in der gegenseitigen Liebe, mit der wir aneinander hängen, Mut machen. Die Vorsehung des Herrn redet uns zu und gibt uns Weisung. Die heilbringenden Ratschlüsse der göttlichen Barmherzigkeit mahnen uns, dass der Tag unseres Streites und Wettkampfes herannaht und dass wir nicht aufhören dürfen, mit dem ganzen Volk in Fasten, Nachtwachen und Gebeten zu verharren. Denn das sind unsere himmlischen Waffen, die uns Kraft geben, festzustehen und tapfer auszuhalten. Das ist der geistige Schutzwall, das sind die göttlichen Pfeile, die uns schützen.^pWir wollen einträchtig und einmütig aneinander denken. Hier wie dort wollen wir immer füreinander beten und uns Bedrängnis und Not durch gegenseitige Liebe leichter machen.",
+        "resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
+        "resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen!",
+        "resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
+      },
+      {
+        "button": "Aus den Akten über das Martyrium des°heiligen°Cyprian.",
+        "autor": "LEER",
+        "werk": "Aus den Akten über das Martyrium des°heiligen°Cyprian.",
+        "text": "^hCyprian°starb unter°der Königsherrschaft°Jesu°Christi^pAm 18. Tag vor den Kalenden des Monats Oktober (14.°September) kam auf Befehl des Prokonsuls Galerius Maximus viel Volk morgens früh zum Ager Sexti. Der Prokonsul saß an diesem Tag im Atrium Sauciolum zu Gericht und ließ den Cyprian vor sich bringen. Als er vorgeführt war, sagte der Prokonsul Galerius Maximus zum Bischof Cyprian: „Du bist Thascius Cyprianus?“ Der Bischof Cyprian antwortete: „Ich bin es.“ Der Prokonsul Galerius Maximus sagte: „Du hast dich gottlos gesinnten Menschen als Papst zur Verfügung gestellt.“ Der Bischof Cyprian antwortete: „Ja, ich habe es getan!“ Der Prokonsul Galerius Maximus sagte: „Die heiligen Kaiser haben dir befohlen zu opfern.“ Der Bischof Cyprian erwiderte: „Das tue ich nicht!“ Galerius Maximus sagte: „Überlege es dir!“ Der Bischof Cyprian antwortete: „Tu, was dir befohlen ist; in einer so gerechten Sache gibt es nichts zu überlegen.“^pGalerius Maximus besprach sich mit seinen Räten und gab dann widerwillig das Urteil ab mit den Worten: „Du hast lange in einem ruchlosen Geist gelebt, viele Menschen in einer ruchlosen Verschwörung um dich versammelt und dich zum Feind der römischen Götter und der heiligen Bräuche gemacht. Die frommen und heiligen Fürsten, die Kaiser Valerianus und Gallienus und der erlauchte Unterkaiser Valerianus konnten dich nicht zur Gemeinschaft ihrer heiligen Riten zurückrufen. Da du also als Urheber und Rädelsführer schlimmer Verbrechen erfasst bist, soll – für diese, die du für deinen Frevel gewonnen hast, zum warnenden Beispiel – die heilige Ordnung mit deinem Blut bestätigt werden.“ Nach diesen Worten verlas er aus der Tabelle das Urteil: „Thascius Cyprianus soll mit dem Schwert hingerichtet werden.“ Der Bischof Cyprian sprach: „Dank sei Gott!“^pNach diesem Urteilsspruch sagte die Schar der Brüder: „Auch wir wollen mit ihm enthauptet werden.“ Darum gab es laute Unruhe unter den Brüdern, und eine große Menge folgte ihm. So wurde Cyprian zum Ager Sexti geführt. Dort legte er den roten Mantel ab, kniete nieder und warf sich zu Boden, um zum Herrn zu beten. Dann zog er die Dalmatik aus und reichte sie den Diakonen. Nun stand er im Linnengewand da und wartete auf den Scharfrichter. Als dieser kam, gebot Cyprian den Seinen, ihm 25 Goldstücke zu reichen. Leintücher und Handbinden wurden ihm von den Brüdern hingehalten. Dann verband sich Cyprian mit eigener Hand die Augen. Da er sich die Streifen für die Hände nicht selbst binden konnte, banden sie ihm der Presbyter Julian und der Subdiakon Julian.^pSo litt der heilige Cyprian. Wegen der Neugierde der Heiden wurde der Leib in der Nähe beigesetzt. Von dort holte man ihn bei Nacht mit Kerzen und Fackeln ab und brachte ihn unter Gebet in großem Triumphzug zur Grabstätte des Prokurators Macrobius Candidus, die an der Straße nach Mappalia bei den Fischteichen liegt. Der Prokonsul Galerius Maximus starb wenige Tage später.^pDer heilige Märtyrer Cyprian starb am 18.°Tag vor den Kalenden des Oktobers (14.°September) unter den Kaisern Valerian und Gallienus, unter der Königsherrschaft Jesu Christi, dem Ehre und Herrlichkeit ist in Ewigkeit. Amen."
+      }
+    ]
+  },
+  "AAA-10-21": {
+    "patr_selector": [
+      {
+        "autor": "Joseph Teusch (†°1976)",
+        "werk": "Aus einer Predigt am Gedenktag der heiligen Ursula.",
+        "text": "^hDas Blut der Märtyrer ist Same neuer Christen^pIm letzten Buch der Heiligen Schrift, der Geheimen Offenbarung, schreibt Johannes: ,Dann schaute ich auf, und siehe da: eine große Schar, die niemand zu zählen vermochte, aus allen Völkern und Stämmen und Zungen und Sprachen. Sie trugen weiße Gewänder und Palmen in den Händen. Sie standen vor dem Throne und dem Lamm‘{1#vgl.°Offb 7,9–10}.^pDie mit den weißen Gewändern sind die Märtyrer aus allen Völkern und Jahrhunderten. Wenn wir aber die große Schar schauen, die niemand zu zählen vermag, dann erkennen wir, dass die Märtyrer aus unserem Jahrhundert zahlreicher sind als die Märtyrer aus den übrigen Jahrhunderten zusammengenommen. Wir sind eine Kirche der Märtyrer und eine Kirche der Bekenner.^pNach dem Vorbild und Auftrag Christi verbreitet sich der Glaube durch die Verkündigung. Der Verkündiger wird glaubhaft durch die Werke der Liebe: „Seht., wie sie einander lieben“, und: „Der Herr führte ihnen täglich Neue zu“{2#vgl.°Apg 2,47}.^pDie Verkündigung wird aber auch glaubhaft durch das Martyrium. Wenn jemand Freiheit und Leben, Besitz und Einkommen, ja das Wohl der eigenen Familie aufs Spiel setzt, dann muss es ihm doch wohl ernst sein mit dem, was er verkündigt. So hat sich schon früh in der Christenheit das Wort gebildet: „Das Blut der Märtyrer ist Same neuer Christen.“^pBis zum Jahr 313 von Geschlecht zu Geschlecht, unaufhörlich, ohne dass ein Ende abzusehen ist, Verfolgung über Verfolgung. Wenn dann 313 die äußere Freiheit kommt, hat das Römische Reich eine christliche Bürgerschaft, besonders in den Städten. Die neu eintretenden Völker der Germanen und Slawen werden Christen. So sind die Grundlagen gelegt für das christliche Mittelalter, für das christliche Abendland. Wir verneigen uns vor all den Märtyrern des Römischen Reiches.^pGläubige kann man töten, den Glauben nicht. Im Gegenteil: Das Blut der Märtyrer ist Same neuer Christen.^pWenn wir jetzt die Feier zu Ehren der heiligen Ursula und ihrer Schar begehen, dann sind wir einbezogen in diesen großen Gottesdienst, den im Himmel die Chöre der Märtyrer und aller Heiligen und die Chöre der Engel feiern und zu dem hier Erde und Meer und alles, was darin ist, ihr Echo geben. Wir danken Gott, dem Herrn, dass er die Chöre der Engel geschaffen und durch seinen Geist die Chöre der Märtyrer und der Heiligen aufgebaut hat; wir bitten ihn, dass derselbe Geist als Geist der mutigen Verkündigung, als Geist der tätigen Liebe, als Geist zumindest der Bereitschaft zu allem in uns lebendig bleibe.",
+        "resp1": "Das sind jene, die aus der großen Drangsal kommen,",
+        "resp2": "sie haben ihre Kleider im Blute des Lammes rein gewaschen.",
+        "resp3": "Deshalb stehen sie vor dem Throne Gottes und dienen ihm in seinem Tempel Tag und Nacht."
+      },
+      {
+        "autor": "Breviarium Coloniense (1521)",
+        "werk": "LEER",
+        "text": "^hDient°untadelig°eurem°himmlischen°König^pDie heilige Ursula setzte ihr Vertrauen auf das Wort der göttlichen Verheißung. Dennoch war sie auch bemüht um die menschliche Gebrechlichkeit. Sie hatte ihre Mitjungfrauen schon mit Worten und durch das christliche Beispiel belehrt. Doch nun ermahnte sie alle: In eurer bedrängten Lage müsst ihr um so entschlossener an der Tür des göttlichen Erbarmens pochen! Den Gürtel der Keuschheit dürft ihr niemals verlieren! Er ist ja das Zeichen, unter dem ihr eurem himmlischen König untadelig dient.^pMit diesen Worten „gab sie einen Sporn denen, die schon liefen“! Die gottverlobten Jungfrauen brachen in Tränen aus. Von ganzem Herzen und in der Glut des Geistes begannen sie die göttliche Hilfe anzurufen: Gott möge jeder einzelnen, besonders aber der Königin, die Jungfräulichkeit erhalten!^pDer gütige Gott ist allzeit denen nahe, die ihn in der Wahrheit anrufen. Darum wies er ein so frommes Gebet nicht ab. Aus seinen Schatzkammern holte er den Wind hervor. Von ihm wurden die Schiffe so angetrieben, dass sie in einem Tag und einer Nacht in glücklicher Fahrt zum Hafen gelangten, der Tyele heißt. Die Zahl der Schiffe und die Schar der Mädchen erlitt unterdessen keinen Schaden.^pSie gingen ans Ufer, das ihr Ziel war. Die Frau, die ihre Anführerin war, wurde Maria der Prophetin ähnlicher, als sie das Rote Meer vor den Heeren des Pharao durchschritten hatte. Sie sang dem himmlischen Bräutigam das hochzeitliche Lob, das sie ihm schuldete. Die Gemeinschaft der Mädchen stimmte darin ein, nicht mit lautem Rufen, sondern in der Harmonie des Gesanges. Sie sangen das frohe Lied der Schwester des Mose. Es klang empor zum Ohr Gott Zebaots wie lieblicher Klang.^pDort machten sie zur Nacht Station. Am folgenden Tag kauften sie, was sie notwendig hatten. Es war dort Markt. Dann gingen sie zu den Schiffen zurück und lichteten die Anker. Gegen die Strömung des Flusses ruderten sie. So kamen sie zu jener berühmten Stadt Köln, wo heute noch ihre Leiber in Frieden ruhen.^pSie gingen an Land. Nach dem Abendbrot überwältigte der Schlaf die von gottgefälliger Arbeit Übermüdeten. Die heilige Jungfrau Ursula hatte Gottes Wohlgefallen gefunden durch das Bekenntnis zur engelgleichen Keuschheit. Darum sah sie im Traum eine Engelsgestalt voll Licht und Hoheit. Er sagte ihr: Wisse, Tochter, was du so sehr ersehnt hast, wirst du unter dem himmlischen Schutz Gottes mit dieser lieben Gemeinschaft deiner Schwestern erlangen. Du wirst nach Rom gelangen. Die Zahl deiner Gefährtinnen wird keine Minderung erfahren. Die Gelöbnisse werden unvermindert erhalten. Gott hat euch hier die Ruhe in Ewigkeit bestimmt. Hier werdet ihr in Frieden ruhen."
+      }
+    ]
+  },
+  "AAA-11-02": {
+    "patr_selector": [
+      {
+        "autor": "Ambrosius († 397)",
+        "werk": "Aus dem Buch „über den Tod seines Bruders Satyrus“.",
+        "text": "^hLasst uns mit Christus sterben, um mit ihm aufzuerstehen^pPaulus sagt: „Für mich ist Christus das Leben, und Sterben Gewinn.“ {1#Phil 1,21} Was bedeutet Christus, wenn nicht Tod des Leibes und Geist des Lebens? Darum lasst uns mit ihm sterben, um mit ihm zu leben! Täglich sei uns das Leben Umgang mit dem Tod und Liebe zu ihm. Durch diese Loslösung lerne unsere Seele, sich aus den leiblichen Begierden zurückzuziehen, als wäre sie auf eine Höhe versetzt, wohin irdische Gelüste nicht gelangen und an ihr haften können.^pDurch den Tod des einen ist die Welt erlöst. Christus brauchte nicht zu sterben, wenn er nicht gewollt hätte. Auch gedachte er den Tod nicht zu verjagen, als tauge er nichts, longer hätte er uns nicht retten können als durch sein Sterben. So ist sein Tod das Leben aller. Von seinem Tod sind wir geprägt, seinen Tod verkünden wir im Gebet, ihn predigen wir beim Opfer; sein Tod ist Sieg, sein Tod ist Mysterium und das (Neu-)Jahresfest der Welt.^pWas sollen wir sonst noch von seinem Tod sagen, da uns das göttliche Beispiel beweist, dass der Tod nur die Unsterblichkeit gesucht hat und dass er sich selbst losgekauft hat. Daher sollen wir den Tod nicht beklagen, da er doch die Ursache des allgemeinen Heils ist. Wir sollen den Tod nicht fliehen, denn der Sohn Gottes hat ihn nicht verschmäht und geflohen.^pDer Tod sitzt nicht in der Natur, sondern ist über die Natur gekommen. Gott hat den Tod nicht von Anfang an eingeführt, sondern ihn als Heilmittel gegeben. Denn wegen der Übertretungen verurteilt, begann das Leben der Menschen in täglicher Arbeit und unerträglichem Stöhnen unglücklich zu werden. Die Leiden mussten beendet werden, und der Tod musste wiederherstellen, was das Leben verloren hatte. Die Unsterblichkeit ist eher eine Last als ein Vorzug, wenn die Gnade nicht weht.^pDer Geist hat die Möglichkeit, sich aus diesen Winden und dem Wirrwarr des Lebens und dem Wirrwarr des Leibes zu lösen und der Versammlung im Himmel entgegenzueilen, wenn auch nur Heilige dahin gelangen können. Der Geist hat die Möglichkeit, Gott zu loben, wie jene Zitherspieler, von denen wir aus der prophetischen Lesung erfahren: „Groß und wunderbar sind deine Taten, Herr, Gott und Herrscher über die ganze Schöpfung. Gerecht und zuverlässig sind deine Wege, du König der Völker. Wer wird dich nicht fürchten, Herr, wer wird deinen Namen nicht preisen? Denn du allein bist heilig: Alle Völker kommen und beten dich an.“ {2#Offb 15,3.4} Der Geist wird deine Hochzeit schauen dürfen, Jesus, wenn die Braut unter den Freudengesängen aller Geschöpfe von der Erde zum Himmel geleitet wird – „alle Menschen kommen zu dir“ {3#Ps 65,3} – sie ist nicht mehr der Welt verhaftet, sondern dem Geist vermählt.",
+        "resp1": "Ich weiß, dass mein Erlöser lebt, ",
+        "resp2": "meine Augen werden ihn schauen.",
+        "resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz."
+      },
+      {
+        "autor": "LEER",
+        "werk": "Sequenz°„Dies°irae“",
+        "text": "^pDies iræ, dies illa,^lsolvet sæclum in favílla,^lteste David cum Sibýlla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pQuid sum miser tunc dictúrus,^lquem patrónum rogatúrus,^lcum vix iustus sit secúrus?^pRex treméndæ maiestátis,^lqui salvándos salvas gratis,^lsalva me, fons pietátis.^pRecordáre, Iesu pie,^lquod sum causa tuæ viæ,^lne me perdas illa die.^pQuærens me sedísti lassus,^lredemísti crucem passus;^ltantus labor non sit cassus.^pIuste iudex ultiónis,^ldonum fac remissiónis^lante diem ratiónis.^pIngemísco tamquam reus,^lculpa rubet vultus meus;^lsupplicánti parce, Deus.^pQui Maríam absolvísti^let latrónem exaudísti,^lmihi quoque spem dedísti.^pPreces meæ non sunt dignæ,^lsed tu, bonus, fac benígne,^lne perénni cremer igne.^pInter oves locum præsta^let ab hædis me sequéstra^lstátuens in parte dextra.^pConfutátis maledíctis,^lflammis ácribus addíctis,^lvoca me cum benedíctis.^pOro supplex et aclínis,^lcor contrítum quasi cinis,^lgere curam mei finis.^pLacrimósa dies illa,^lqua resúrget ex favílla^liudicándus homo reus:^lhuic ergo parce, Deus!^pPie Iesu, Dómine,^ldona eis réquiem. Amen."
+      }
+    ]
+  },
+  "AAA-11-01": {
+    "patr_selector": [
+      {
+        "autor": "Bernhard von Clairvaux († 1153)",
+        "werk": "Aus einer Predigt zum Fest Allerheiligen.",
+        "text": "^hLasst uns hineilen zu den Brüdern, die uns erwarten^pWozu dient den Heiligen unser Lob, wozu unsere Verherrlichung, wozu dieses ganze Hochfest? Was sollen ihnen irdische Ehren, da doch der Vater im Himmel sie ehrt, wie der wahrhaftige Sohn versprochen hat? Was soll ihnen unser Lobpreis? Die Heiligen brauchen unsere Ehren nicht. Unsere Frömmigkeit gibt ihnen nichts. Offenbar steht es in unserem, nicht in ihrem Interesse, dass wir ihrer gedenken und sie ehren. Ich gestehe, dass mich starkes Verlangen erfasst, wenn ich das bedenke.^pDas aber ist das erste Verlangen, das die Gedächtnisfeier der Heiligen in uns erweckt oder verstärkt: dass wir ihre ersehnte Gemeinschaft erlangen und Mitbürger und Zeltgenossen der seligen Geister sein dürfen, dass wir uns unter die Schar der Urväter, die Reihe der Propheten, die Ratsversammlung der Apostel, das große Heer der Märtyrer, die Schar der Bekenner und die Chöre der Jungfrauen mischen dürfen, dass wir, mit allen Heiligen versammelt, an ihrer Freude Anteil gewinnen. Jene Gemeinde der Erstgeborenen {1#vgl.°Hebr 12,23} erwartet uns, und wir denken nicht daran. Die Heiligen verlangen nach uns, aber wir unterschätzen es. Die Gerechten warten auf uns, und wir beachten es nicht.^pBrüder, wir wollen endlich aufwachen und aufstehen mit Christus, suchen, was droben ist, und den Sinn darauf richten {2#vgl.°Kol 3,1.2}. Wir wollen nach denen verlangen, die Sehnsucht nach uns haben. Wir wollen hineilen zu denen, die uns erwarten, mit den Wünschen des Herzens wollen wir ihnen entgegeneilen, die nach uns ausschauen. Nicht nur die Gemeinschaft der Heiligen wollen wir uns wünschen, sondern auch ihr Glück. Wir verlangen nach ihrer Gegenwart, wir wollen uns auch mit glühendem Eifer um ihre Herrlichkeit bemühen. Denn das ist kein verderblicher Ehrgeiz, und es ist keineswegs gefährlich, wenn die Herrlichkeit uns bewegt.^pDas zweite Verlangen, das durch das Gedächtnis der Heiligen in uns entfacht wird, ist dieses: Wie ihnen, so möge auch uns Christus, unser Leben, erscheinen und wir mit ihm in Herrlichkeit {3#vgl.°Kol 3,4}. Bis dahin wird unser Haupt uns nicht so vor Augen gestellt, wie es ist, sondern wie es für uns geworden ist, nicht mit Herrlichkeit, sondern mit den Dornen unserer Sünden bekränzt. Das Glied des dornenbekrönten Hauptes schäme sich, üppig zu leben. Denn für dieses Glied ist der Purpur nicht Ehre, sondern Spott. Wenn der Herr kommt und sein Tod nicht mehr verkündigt wird {4#vgl.°1°Kor°11,26}, dann werden wir uns bewusst, dass auch wir gestorben sind und dass unser Leben mit ihm in Gott verborgen ist {5#vgl.°Kol 3,3}. Das Haupt wird in Herrlichkeit erscheinen, und mit ihm verherrlicht, werden die Glieder leuchten, wenn er nämlich unseren armseligen Leib verwandelt in die Gestalt des verherrlichten Hauptes, das er selbst ist {6#vgl.°Phil°3,21}.^pNach dieser Herrlichkeit wollen wir mit vollem und zuversichtlichem Eifer streben. Damit es uns gestattet sei, auf sie zu hoffen und nach einer so großen Seligkeit auszuschauen, müssen wir uns auch sehr dringend die Fürsprache der Heiligen wünschen; denn auf ihre Fürbitte wird uns geschenkt werden, was unsere eigene Kraft nicht zu erlangen vermag.",
+        "resp1": "Ihr, meine Heiligen, musstet auf der Erde kämpfen.",
+        "resp2": "Ich will euch den Lohn geben für euer Mühen.",
+        "resp3": "Kommt, ihr Gesegneten meines Vaters, und empfanget das Reich."
+      },
+      {
+        "autor": "Romano Guardini († 1968)",
+        "werk": "Aus der „Vorschule des Betens“.",
+        "text": "^hIn°den°Heiligen strahlt die°Freiheit°und°Herrlichkeit der°Kinder°Gottes^pDie im Namen Christi sterben, gehen nicht ins Wesenlose, sondern in die Fülle heiliger Wirklichkeit ein.^pDas unwillkürliche Gefühl meint, die Toten würden schattenhaft, wendet sich von ihnen ab und sucht das warme Licht der irdischen Sonne oder es glaubt, sie bekämen eine unheimliche, zerstörende Macht, und sucht sich davor zu schützen.^pDiese Empfindungen werden aber im Glauben überwunden. Er sagt uns, dass die in der Gnade Heimgegangenen zur „Herrlichkeit der Kinder Gottes“ und zur reinen Vollendung ihres Wesens im ewigen Lichte gelangen.^pLiegt es da nicht nahe, jene Menschen, die schon auf Erden Zeugen göttlicher Liebe und Macht gewesen sind, auch in ihrer Erfüllung aufzusuchen? So ist es denn auch geschehen, und wir finden von den frühesten christlichen Zeiten an eine lebendige Beziehung der Gläubigen zu jenen, die sich auf Erden in besonderer Weise als Freunde Gottes erwiesen haben, den Heiligen. Und zwar ist diese Beziehung sehr mannigfaltig.^pAuf den ersten Blick scheint sie ganz in der Bitte um Hilfe zu bestehen, und diese Bitte hat recht, denn die Not des Daseins ist groß. In ihr aber zu denen zu rufen, die ganz in Gottes Gemeinschaft eingegangen, mit seinem Willen eins und seiner Gnade voll sind, bedeutet nichts anderes als die Verbundenheit des gläubigen Daseins.^pNeben der Bitte tritt aber auch das Lob hervor: die Freude an dem frommen und edlen Leben der Heiligen; an der göttlichen Führung, die darin deutlich wird; an ihren Überwindungen und Taten. Sie sind Zeugen der Erlösung. Die neue Schöpfung, die immerfort aus Christi Tat hervorgeht, ist verhüllt; alles widerspricht ihr, und der Glaube hat Mühe, sich der einstigen Vollendung gewiss zu halten. In den Heiligen strahlt „die Freiheit und Herrlichkeit der Kinder Gottes“{1#Röm 8,21} auf und hilft der Hoffnung.^pDie Heiligen können auch eine besondere Bedeutung für die Weise erhalten, wie der einzelne sein Leben führt. Sie öffnen den Reichtum Christi. Dieser ist „das Licht“, einfach und alleinbegreifend zugleich; die Heiligen aber sind wie Prismen, welche seine Unbegreiflichkeit aufbrechen und bald diese, bald jene Farbe daraus erstrahlen lassen. So können sie dem Glaubenden helfen, sich selber besser aus Christus heraus zu verstehen und den Weg zu finden, den er gehen soll.^pWas aber im Tiefsten zu den Heiligen treibt, ist doch wohl einfach der Wunsch, bei ihnen zu sein, mit ihnen umzugehen, Anteil an ihnen zu haben. Es ist die Liebe, welche die Gemeinschaft derer sucht, die ganz in der Liebe gelebt haben und nun in ihr vollendet sind.",
+        "resp1": "Preist unsern Gott, all seine Knechte und alle, die ihn fürchten, klein und groß.",
+        "resp2": "Der°Herr°ist König geworden, Gott, der Herrscher des Alls.",
+        "resp3": "Jubelt dem Herrn, ihr Gerechten, den Frommen kommt es zu, Gott zu loben."
+      }
+    ]
+  },
+  "Fronleichnam": {
+    "patr_selector": [
+      {
+        "autor": "Thomas von Aquin († 1274)",
+        "werk": "Aus dem Opusculum über das Fest des Leibes Christi.",
+        "text": "^hDu kostbares, staunenswertes Gastmahl!^pWeil uns der einziggeborene Sohn Gottes Anteil an seiner Gottheit geben wollte, nahm er unsere Natur an, wurde Mensch, um die Menschen göttlich zu machen.^pMehr als das: Was er von dem Unsrigen annahm, gab er ganz hin für unser Heil. Denn er brachte seinen Leib auf dem Altar des Kreuzes zu unserer Versöhnung Gott, dem Vater, als Opfergabe dar. Er vergoss sein Blut für uns als Lösepreis und Bad zugleich. So sollten wir von elender Knechtschaft erlöst und von aller Sünde gereinigt werden.^pDamit uns aber ein Gedächtnis dieser so großen Liebe bleibe, hinterließ er den Gläubigen seinen Leib zur Speise und sein Blut zum Trank unter der Gestalt von Brot und Wein.^pWelch ein kostbares und staunenswertes Gastmahl, heilbringend und voll Wohlgeschmack! Denn was kann kostbarer sein als dieses Gastmahl? In ihm wird uns nicht das Fleisch von Kälbern und Böcken zur Speise gegeben wie einst unter dem Gesetz, sondern Christus, der wahre Gott. Gibt es etwas Bewunderungswürdigeres als dieses Sakrament?^pKein Sakrament hat eine heilsamere Wirkung als dieses: Es reinigt von Sünden, es mehrt die Tugenden und erfüllt den Geist mit dem Reichtum aller geistlichen Gaben. Es wird in der Kirche für die Lebenden und die Toten dargebracht, damit allen zugute komme, was zum Heil aller eingesetzt ist.^pNiemand kann schließlich die Wonnen dieses Sakraments hinreichend ausdrücken, da in ihm die Süße des Geistes in ihrem Quell genossen und in ihm das Gedächtnis jener unübertrefflichen Liebe begangen wird, die Christus in seiner Passion bewiesen hat.^pUm also die Unermesslichkeit seiner Liebe den Herzen der Gläubigen tiefer einzuprägen, stiftete er beim Letzten Abendmahl dieses Sakrament, nachdem er das Pascha mit seinen Jüngern gefeiert hatte und als er aus dieser Welt zum Vater hingehen sollte. Er stiftete es als immerwährendes Gedächtnis seiner Passion, als Erfüllung der alten Zeichen, als größtes seiner Wunder und als einzigartigen Trost für jene, die seine Abwesenheit mit Trauer erfüllt.",
+        "resp1": "Erkennt im Brot den Herrn, der am Kreuze hing, im Kelch das Blut, das aus seiner Seite strömte.",
+        "resp2": "Nehmt und esst den Leib Christi! Nehmt und trinkt das Blut Christi!",
+        "resp3": "Der Herr stiftete dieses Sakrament als Denkmal seines Leidens, als Erfüllung der alten Zeichen, als größtes der von ihm gewirkten Wunder."
+      },
+      {
+        "autor": "Thomas von Aquin († 1274)",
+        "werk": "Sequenz°zum°Fronleichnamsfest",
+        "text": "^h^pLauda, Sion, Salvatórem,^llauda ducem et pastórem^lin hymnis et cánticis.^lQuantum potes, tantum aude,^lquia maior omni laude,^lnec laudáre súfficis.^pLaudis thema speciális,^lpanis vivus et vitális^lhódie propónitur.^lQuem in sacræ mensa cœnæ^lturbæ fratrum duodénæ^ldatum non ambígitur.^pSit laus plena, sit sonóra;^lsit iucúnda, sit decóra^lmentis iubilátio.^lDies enim solémnis ágitur^lin qua mensæ prima recólitur^lhuius institútio.^pIn hac mensa novi Regis^lnovum Pascha novæ legis^lphase vetus términat.^lVetustátem nóvitas,^lumbram fugat véritas,^lnoctem lux elíminat.^pQuod in cœna Christus gessit,^lfaciéndum hoc expréssit^lin sui memóriam:^lDocti sacris institútis^lpanem, vinum in salútis^lconsecrámus hóstiam.^pDogma datur Christiánis,^lquod in carnem transit panis^let vinum in sánguinem.^lQuod non capis, quod non vides,^lanimósa firmat fides^lpræter rerum órdinem.^pSub divérsis speciébus,^lsignis tantum et non rebus,^llatent res exímiæ:^lCaro cibus, sanguis potus,^lmanet tamen Christus totus^lsub utráque spécie.^pA suménte non concísus,^lnon confráctus, non divísus^línteger accípitur.^lSumit unus, sumunt mille,^lquantum isti, tantum ille,^lnec sumptus consúmitur.^pSumunt boni, sumunt mali,^lsorte tamen inæquáli,^lvitæ vel intéritus:^lMors est malis, vita bonis,^lvide paris sumptiónis^lquam sit dispar éxitus.^pFracto demum sacraménto,^lne vacilles, sed meménto^ltantum esse sub fragménto,^lquantum toto tégitur.^pNulla rei fit scissúra,^lsigni tantum fit fractúra,^lqua nec status nec statúra^lsignáti minúitur^pEcce panis Angelórum,^lfactus cibus viatórum,^lvere panis filiórum,^lnon mitténdus cánibus!^pIn figúris præsignátur,^lcum Isaac immolátur,^lagnus Paschæ deputátur,^ldatur manna pátribus.^pBone pastor, panis vere,^lJesu, nostri miserére,^ltu nos pasce, nos tuére,^ltu nos bona fac vidére^lin terra vivéntium.^pTu qui cuncta scis et vales,^lqui nos pascis hic mortáles,^ltuos ibi commensáles,^lcohærédes et sodáles^lfac sanctórum cívium.^lAmen. Allelúja."
+      }
+    ]
+  },
+  "j-1-0": {
+    "patr_selector": [
+      {
+        "autor": "Romano Guardini (†°1968)",
+        "werk": "Aus dem Buch „Der Herr“.",
+        "text": "^hDie°Fülle°des°Geistes°kommt°über°Jesus^pWie Jesus zum Jordan kommt, liegt hinter ihm das tiefe Erfahren der Kindheit und der langen Jahre des „Zunehmens an Alter, Weisheit und Gnade“{1#vgl. Lk 2,52}. Das Bewusstsein der ungeheuren Aufgabe und aus unergründlichen Tiefen aufsteigende Kräfte leben in ihm – die erste Gebärde aber, die wir von ihm sehen, und das erste Wort, das er spricht, sind Demut. Nirgendwo der Anspruch der Ungewöhnlichkeit, der sagt: „Das gilt für andere, nicht für mich!“^pEr kommt zu Johannes und verlangt die Taufe. Sie verlangen heißt das Wort des Täufers annehmen und sich als Sünder bekennen; Buße tun und sich dem öffnen, was von Gott her kommen will. So verstehen wir, wie Johannes erschrocken abwehrt. Jesus aber tritt in die Reihe. Er beansprucht keine Ausnahme, sondern stellt sich unter die „Gerechtigkeit“, die für alle gilt.^pAuf dieses Hinabsteigen in die Menschentiefe antwortet der Ausbruch aus der Höhe. Die Himmel öffnen sich. Die Schranke, die den allgegenwärtigen Gott in seinem Himmel, seinem seligen Bei-sich-Sein von uns absperrt – nämlich der Mensch selbst in seiner gefallenen Geschöpflichkeit, und dass er die Welt mit sich gerissen hat, und sie nun „der Vergänglichkeit unterworfen ist“{2#vgl. Röm 8,20} –, diese Schranke tut sich auf. Ein unendliches Begegnen geschieht. Dem Menschenherzen Jesu strömt die offene Fülle des Vaters entgegen.^p„Während er betet“, geschieht es, sagt Lukas, und scheint damit anzudeuten, dass es ein innerer Vorgang ist{3#vgl. Lk 3,21}. Wohl wirklich; wirklicher als alle greifbaren Dinge ringsumher; aber innerlich, „im Geiste“.^pDer Heilige Geist hebt den Menschen über sich selbst hinaus, dass er Gott, den Heiligen, erfährt und seiner Liebe inne wird. Die Fülle dieses Geistes kommt über Jesus.^pDer Vater ist „allezeit bei ihm“; ja „in ihm, so wie er im Vater ist“{4#vgl. Joh 14,10-12}. Was er tut, ist ein Handeln aus dem Walten des Vaters heraus; dieses Walten liegt offen vor ihm, er „sieht“ es. Zugleich wird aber auch gesagt, dass er vom Vater her in die Zeit „kommt“ und wieder zu ihm „zurückkehrt“{5#vgl. Joh 3,13; Joh 16,28} – bis zu dem undurchdringlichen Wort am Kreuz vom Verlassenwerden durch Gott{6#vgl. Mt 27,46}.^pSo ist auch der Geist immer in ihm, denn der Geist ist ja die Liebe, kraft deren er und der Vater einander inne sind, und die Macht, durch welche er Mensch geworden ist. Trotzdem „kommt“ hier der Geist über ihn, so wie er ihn einst vom Vater her über die Seinen „senden“ wird.^pHier versagt unser Denken – obwohl es die Wirklichkeit über aller Wirklichkeit und die Wahrheit über aller Wahrheit ahnt. Dadurch darf es sich aber nicht in ein Scheinbegreifen, in Gefühle und Worte führen lassen, hinter denen kein Kern steht. Das alles ist Geheimnis, das Geheimnis des dreieinigen Gottes in seiner Beziehung zum Mensch gewordenen Gottessohn. Wir können es nicht durchdringen, und das Bekenntnis dieser Ohnmacht muss über allem stehen, was vom Dasein Jesu gesagt werden mag.^pDie Macht des Geistes kommt über Jesus, und in das überschwengliche Begegnen, in die Gottesfülle des Augenblicks tönt das Wort der väterlichen Liebe, das bei Lukas in der Form der Anrede steht: „Du bist mein geliebter Sohn; an dir habe ich mein Wohlgefallen.“{7#vgl. Lk 3,22}",
+        "resp1": "Heute hat sich der Himmel aufgetan, die Wasser des Meeres sind süß geworden, die Erde jubelt, Berge und Hügel freuen sich.",
+        "resp2": "Johannes hat Christus im Jordan getauft.",
+        "resp3": "Was ist mit dir, du Meer, dass du fliehst, mit dir, Jordan, dass du zurückweichst?"
+      },
+      {
+        "autor": "Hugo Rahner († 1968)",
+        "werk": "Aus dem Buch „Maria und die Kirche“.",
+        "text": "^hHochzeit von Kana^pDas hochzeitliche Mysterium der Menschwerdung, mit welchem die Erlösung begann, wird von neuem offenbar im Beginn der messianischen Tätigkeit des Herrn, im ersten seiner die Gottheit bezeugenden Wunder; bei der Hochzeit von Kana.^pJohannes will, wo er davon in seinem Evangelium berichtet, keineswegs nur eben die vordergründige Begebenheit der bescheidenen Landhochzeit von Kana berichten, sondern bei ihm, dem tiefsten Evangelisten der messianischen Typologie, ist auch dies nur gleichsam der Schleier, hinter dem sich die Mysterien des Heils verbergen.^pDass das Wunder der Wandlung von Wasser in Wein auf die Bitte Marias hin geschieht, dass der Herr sie zunächst abzuweisen scheint mit dem Hinweis auf seine „Stunde“, die noch nicht gekommen sei, gibt uns einen Einblick in das, was geoffenbart werden sollte: Maria, die der Herr hier feierlich mit dem auf die Uroffenbarung am Rand des verlorenen Paradieses rückweisenden Wort „Frau“ anspricht, ist diejenige, die dann, wenn die „Stunde“ gekommen ist, das heißt, wenn der Herr sein erlösendes Leiden vollendet hat, ihr Amt als fürbittende Mutter aller Gläubigen antreten wird. Dann wird sie für immer die „Frau“ sein, die in Wahrheit die Mutter aller Lebendigen sein soll, die Eva des neuen Geschlechtes, die Gebärerin des Christusleibes, der den Sieg über den Bösen davonträgt.^pWenn es also von dieser Hochzeit in Kana heißt: „Und die Mutter Jesu war dabei“{1#vgl. Joh 2,2}, so will dies in den Tiefen der göttlich gemeinten letzten Bedeutung sagen: In der hochzeitlichen Gemeinschaft, für die der Gottmensch das Wasser der Menschennatur in den Wein der göttlichen Begnadigung umwandelt, in der Tischgemeinschaft Jesu durch alle Zeiten, also in der heiligen Kirche, ist Maria die Mutter. In ihr setzt sich das Mysterium der Menschwerdung fort, auf die mütterliche Bitte der Jungfrau Maria werden die Berufenen zu göttlich umgewandelten Tischgenossen Jesu.^pDer Syrer Ephräm singt darum einmal in einem seiner Hymnen auf die Mysterien des Herrn: „Kana soll dich loben. Denn du hast dieses Gastmahl froh gemacht. In der Braut hast du versinnbildlicht die heilige Kirche. In den Tischgenossen hast du deine Berufenen gemeint. Und in dem Triumph (dieses Wunders) hast du im voraus abgebildet deinen herrlichen Advent.“{2#@vgl. Ephräm°der°Syrer, Hymnus°de°mysteriis°Domini°34,1}"
+      }
+    ]
+  },
+  "j-11-2": {
+    "les_selector": [
+      {
+        "buch": "Aus dem Buch der Richter.",
+        "stelle": "4,1-24",
+        "text": "^hDer Sieg über Sisera^pAls Ehud gestorben war, taten die Israeliten wieder, was dem Herrn missfiel. Darum lieferte sie der Herr der Gewalt Jabins, des Königs von Kanaan, aus, der in Hazor herrschte. Sein Heerführer war Sisera, der in Haroschet-Gojim wohnte. Da schrien die Israeliten zum Herrn; denn Sisera besaß neunhundert eiserne Kampfwagen und hatte die Israeliten zwanzig Jahre lang grausam unterdrückt.^pDamals war Debora, eine Prophetin, die Frau des Lappidot, Richterin in Israel. Sie hatte ihren Sitz unter der Debora-Palme zwischen Rama und Bet-El im Gebirge Efraim, und die Israeliten kamen zu ihr hinauf, um sich Recht sprechen zu lassen. Sie schickte Boten zu Barak, dem Sohn Abinoams aus Kedesch-Naftali, ließ ihn rufen und sagte zu ihm: Der Herr, der Gott Israels, befiehlt: Geh hin, zieh auf den Berg Tabor und nimm zehntausend Naftaliter und Sebuloniter mit dir! Ich aber werde Sisera, den Heerführer Jabins, mit seinen Wagen und seiner Streitmacht zu dir an den Bach Kischon lenken und ihn in deine Hand geben.^pBarak sagte zu ihr: Wenn du mit mir gehst, werde ich gehen; wenn du aber nicht mit mir gehst, werde ich nicht gehen. Sie sagte: Ja, ich gehe mit dir; aber der Ruhm bei dem Unternehmen, zu dem du ausziehst, wird dann nicht dir zuteil; denn der Herr wird Sisera der Hand einer Frau ausliefern.^pUnd Debora machte sich auf und ging zusammen mit Barak nach Kedesch. Barak rief Sebulon und Naftali in Kedesch zusammen, und zehntausend Mann folgten ihm (auf den Tabor) hinauf. Auch Debora ging mit ihm.^pDer Keniter Heber aber, der sich von Kain, von den Söhnen Hobabs, des Schwiegervaters des Mose, getrennt hatte, hatte sein Zelt an der Eiche von Zaanannim bei Kedesch aufgeschlagen. Als man nun Sisera meldete, dass Barak, der Sohn Abinoams, auf den Berg Tabor gezogen sei, beorderte Sisera alle seine Wagen – neunhundert eiserne Kampfwagen – und das ganze Kriegsvolk, das er bei sich hatte, von Haroschet-Gojim an den Bach Kischon.^pDa sagte Debora zu Barak: Auf! Denn das ist der Tag, an dem der Herr den Sisera in deine Gewalt gegeben hat. Ja, der Herr zieht selbst vor dir her.^pBarak zog also vom Berg Tabor herab, und die zehntausend Mann folgten ihm. Und der Herr brachte Sisera, alle seine Wagen und seine ganze Streitmacht vor den Augen Baraks in große Verwirrung. Sisera sprang vom Wagen und floh zu Fuß, Barak verfolgte die Wagen und das Heer bis nach Haroschet-Gojim. Das ganze Heer Siseras fiel unter dem scharfen Schwert; nicht ein einziger Mann blieb übrig.^hJaël ermordet Sisera^pSisera war zu Fuß zum Zelt der Jaël, der Frau des Keniters Heber, geflohen; denn zwischen Jabin, dem König von Hazor, und der Familie des Keniters Heber herrschte Frieden. Jaël ging Sisera entgegen und sagte zu ihm: Kehr ein, Herr, kehr ein bei mir, hab keine Angst! Da begab er sich zu ihr ins Zelt, und sie deckte ihn mit einem Teppich zu. Er sagte zu ihr: Gib mir doch etwas Wasser zu trinken, ich habe Durst. Sie öffnete einen Schlauch mit Milch und gab ihm zu trinken; dann deckte sie ihn wieder zu. Er sagte zu ihr: Stell dich an den Zelteingang, und wenn einer kommt und dich fragt: Ist jemand hier?, dann antworte: Nein.^pDoch Jaël, die Frau Hebers, holte einen Zeltpflock, nahm einen Hammer in die Hand, ging leise zu Sisera hin und schlug ihm den Zeltpflock durch die Schläfe, sodass er noch in den Boden drang. So fand Sisera, der vor Erschöpfung eingeschlafen war, den Tod.^pDa erschien gerade Barak, der Sisera verfolgte. Jaël ging ihm entgegen und sagte: Komm, ich zeige dir den Mann, den du suchst. Er ging mit ihr hinein; da sah er Sisera tot am Boden liegen, mit dem Pflock in seiner Schläfe.^pSo demütigte Gott an diesem Tag Jabin, den König von Kanaan, vor den Israeliten, und die Faust der Israeliten lag immer schwerer auf Jabin, dem König von Kanaan, bis sie Jabin, den König von Kanaan, ganz vernichtet hatten.",
+        "resp1": "Das Schwache der Welt hat Gott erwählt, um das Starke zu beschämen, damit vor ihm kein Mensch sich rühmt;",
+        "resp2": "denn die Gnade erweist ihre Kraft in der Schwachheit.",
+        "resp3": "Das, was nichts ist, hat Gott erwählt, um das, was etwas ist, zu vernichten."
+      },
+      {
+        "buch": "Aus dem Buch der Richter.",
+        "stelle": "5,1-21",
+        "text": "^hDas°Debora^-Lied^pDebora und Barak, der Sohn Abinoams, sangen an jenem Tag dieses Lied:^pDass Führer Israel führten^lund das Volk sich bereit zeigte,^ldafür preist den Herrn!^lHört, ihr Könige, horcht auf, ihr Fürsten!^lIch will dem Herrn zu Ehren singen,^lich will zu Ehren des Herrn,^ldes Gottes Israels, spielen.^pHerr, als du auszogst aus Seir,^lals du vom Grünland Edoms heranschrittest,^lda bebte die Erde, die°Himmel°ergossen°sich,^lja, aus den Wolken ergoss sich das Wasser.^lDie Berge wankten vor°dem°Blick°des°Herrn,^lvor dem Blick des Herrn, des Gottes Israels.^pIn den Tagen Schamgars, des°Sohnes°des°Anat,^lin den Tagen Jaëls lagen°die°Wege°verlassen°da;^lwer unterwegs war, musste°Umwege°machen.^lBewohner des offenen Landes gab°es°nicht°mehr,^les gab sie nicht mehr in Israel,^lbis du dich erhobst, Debora,^lbis du dich erhobst, Mutter in Israel.^pMan hatte sich neue Götter erwählt.^lEs gab kein Brot an den Toren.^lSchild und Speer waren°nicht°mehr°zu°sehen^lbei den Vierzigtausend in Israel.^pMein Herz gehört Israels Führern.^lIhr, die ihr bereit seid im Volk,^lpreist den Herrn!^lIhr, die ihr auf weißen Eselinnen reitet,^ldie ihr auf Teppichen sitzt,^ldie ihr auf der Straße dahinzieht,^lsingt!^pHorch, sie jubeln zwischen den Tränken,^ldort besingt man die°rettenden°Taten°des°Herrn,^lseine hilfreiche Tat an den Bauern in Israel.^lDamals zog das Volk des Herrn hinab°zu°den°Toren.^pAuf, auf, Debora!^lAuf, auf, sing ein Lied!^lErheb dich, Barak,^lführ deine Gefangenen heim, Sohn°Abinoams!^lDann stieg herab,^lwas übrig ist unter°den°Herrlichen°des°Volkes.^lDer Herr steige herab mit°mir°unter°den°Helden.^pAus Efraim zogen sie hinunter ins Tal,^lhinter ihnen Benjamin mit seinen Scharen;^lvon Machir stiegen die Führer hinab,^lvon Sebulon die, die das Zepter tragen.^lDie Fürsten Issachars zusammen°mit°Debora^lund wie Issachar so auch Barak,^lins Tal getragen von seinen Füßen.^pIn Rubens Bezirken überlegte°man°lange.^lGilead bleibt jenseits des Jordan.^lWarum verweilt Dan bei den Schiffen?^lAscher sitzt am Ufer des Meeres,^lbleibt ruhig an seinen Buchten.^lSebulon ist ein Volk, das°sein°Leben°aufs°Spiel°setzt,^lauch Naftali auf den Höhen des Feldes.^pKönige kamen und kämpften,^ldamals kämpften Kanaans Könige^lin Taanach, an den Wassern Megiddos,^ldoch Beute an Silber machten sie nicht.^lVom Himmel her kämpften die Sterne,^lvon ihren Bahnen aus kämpften°sie°gegen°Sisera.^lDer Bach Kischon schwemmte sie fort,^lder altberühmte Bach, der Bach Kischon.^pMeine Seele soll auftreten mit Macht.^lDamals stampften die Hufe der Pferde^lim Jagen, im Dahinjagen der Hengste.^lIhr sollt Meros verfluchen,^lspricht der Engel des Herrn.^lMit Flüchen flucht seinen Bewohnern;^ldenn sie kamen dem Herrn nicht zu Hilfe,^lzu Hilfe dem Herrn unter den Helden.^pGepriesen sei Jaël unter den Frauen,^ldie Frau des Keniters Heber,^lgepriesen unter den Frauen im Zelt.^lEr hatte Wasser verlangt, sie°gab°ihm°Milch,^lin einer prächtigen Schale reichte sie Sahne.^lIhre Hand streckte sie aus nach dem Pflock,^lihre Rechte nach°dem°Hammer°des°Schmieds.^lSie erschlug Sisera, zermalmte sein Haupt,^lzerschlug, durchbohrte seine Schläfe.^lZu ihren Füßen brach er zusammen,^lfiel nieder, lag da,^lzu ihren Füßen brach er zusammen, fiel°nieder.^lWo er zusammenbrach, da lag er vernichtet.^pAus ihrem Fenster blickt Siseras Mutter^lund klagt durch das Gitter:^lWarum säumt sein Wagen zu kommen,^lwarum zögert der°Hufschlag°seiner°Gespanne?^lEine Kluge aus ihren Fürstinnen antwortet°ihr,^lund sie selbst wiederholt deren Worte:^lSicher machen und teilen sie Beute,^lein, zwei Frauen für jeden Mann,^lBeute an Kleidern für Sisera,^lBeute an Kleidern,^lfür meinen Hals als°Beute°ein,°zwei°bunte°Tücher.^pSo gehen all deine Feinde zugrunde, Herr.^lDoch die, die ihn lieben, sind°wie°die°Sonne,^lwenn sie aufgeht in ihrer Kraft.^pDann hatte das Land vierzig Jahre lang Ruhe.",
+        "resp1": "Hört, ihr Könige, horcht auf, ihr Fürsten!",
+        "resp2": "Ich will jubeln vor dem Gott Israels.",
+        "resp3": "Wer dich liebt, ist wie der prachtvolle Aufgang der Sonne."
+      }
+    ]
+  },
+  "j-12-0": {
+    "patr_selector": [
+      {
+        "autor": "Maximus Confessor (†662)",
+        "werk": "Aus den Schrifterklärungen an Thalassius.",
+        "text": "^hDas Licht, das jeden Menschen erleuchtet^pDie Lampe, die unter uns aufgestellt wird, bedeutet das Licht des Vaters, das wahre Licht, „das jeden Menschen erleuchtet, der in die Welt kommt“{1#Joh 1,9 Vg}: unser Herr Jesus Christus. Er nahm unser Fleisch an, wurde als Licht geboren und als Licht verkündigt, das heißt als Weisheit des Vaters und Wort Gottes von Natur aus.^pEr leuchtet allen, die im Hause, das heißt: in dieser Welt, sind. So sagt Gott, das Wort, an einer anderen Stelle: „Man zündet nicht eine Lampe an und stellt sie unter den Scheffel, sondern auf den Leuchter; dann leuchtet sie allen im Haus.“{2#Mt 5,15}^pSolange das Wort im Buchstaben des Gesetzes wie unter dem Scheffel gefangen war, mussten alle Menschen das ewige Licht entbehren. Auch wenn sie sich bemühten, emporzutauchen aus der rein sinnlichen Wahrnehmung, die doch trügt und nur für Trug empfänglich und nur fähig ist, das Körperliche mit seiner Vergänglichkeit zu erfassen, gab das Wort ihnen nicht die geistliche Schau. Es gibt sie erst, wenn es auf den Leuchter, das heißt die Kirche, gestellt ist, das heißt auf den „Gottesdienst im Geist“{3#Röm 12,1}.^pWenn der Buchstabe nicht geistlich verstanden wird, hat er nur das sinnlich Wahrnehmbare zum Inhalt, das durch den Wortlaut umschrieben ist. Er besitzt nicht die Kraft, bis zum Sinn des Gesprochenen vorzudringen.^pWenn wir also im Gottesdienst durch Betrachtung und Tat die Leuchte, das heißt das lichte Wort der Erkenntnis, aufstellen, wollen wir sie nicht unter den Scheffel stellen, damit wir uns nicht schuldig machen, die unfassbare Macht der Weisheit durch den Buchstaben verhüllt zu haben.^pWir wollen die Lampe vielmehr auf den Leuchter stellen, das heißt auf die heilige Kirche, die auf der Höhe der wahren Beschauung allen das Licht der göttlichen Lehren entzündet.",
+        "resp1": "Geht euren Weg, solange ihr das Licht habt, damit euch die Finsternis nicht überrascht.",
+        "resp2": "Solange ihr das Licht bei euch habt, glaubt an das Licht, damit ihr Söhne des Lichtes werdet.",
+        "resp3": "Um zu richten, bin ich in die Welt gekommen: damit die Blinden sehend und die Sehenden blind werden."
+      },
+      {
+        "autor": "Meister Eckehart († vor 1328)",
+        "werk": "Aus den Reden der Unterweisung.",
+        "text": "^hWesen°und°Werk°der°Liebe^pZwei Dinge musst du beachten, die sich in der Liebe finden: Das eine ist das Wesen der Liebe, das andere ist ein Werk oder ein Ausdruck des Wesens der Liebe.^pDie Stätte der Liebe ist allein im Willen; wer mehr Willen hat, der hat auch mehr Liebe. Aber wer davon mehr hat, das weiß niemand vom andern; das liegt verborgen in der Seele, während Gott im Grunde der Seele liegt.^pNun gibt’s aber noch ein Zweites: das ist ein Ausdruck oder ein Werk der Liebe. Das tritt uns recht in die Augen, wie zum Beispiel Innigkeit und Andacht und Jubilieren, und ist dennoch allwegs nicht das Beste. Denn es stammt mitunter gar nicht von der Liebe her, sondern es kommt bisweilen aus der Natur, dass man solches Wohlgefühl und süßes Empfinden hat, oder es mag des Himmels Einfluss oder auch durch die Sinne eingetragen sein.^pDie dergleichen öfter erfahren, das sind nicht allwegs die Allerbesten. Denn, sei’s auch, dass es wirklich von Gott stamme, so gibt unser Herr das solchen Menschen, um sie zu locken oder zu reizen, auf dass man dadurch von anderen Menschen recht ferngehalten wird. Wenn aber diese gleichen Menschen hernach an Liebe zunehmen, so mögen sie nicht mehr soviel Gefühle und Empfindungen haben, und daran erst wird ganz deutlich, dass sie Liebe haben: wenn sie auch ohne solchen Rückhalt Gott ganz und fest Treue bewahren.^pMan soll nämlich von solchem Jubilus bisweilen ablassen um eines Besseren aus Liebe willen und um zuweilen ein Liebeswerk zu wirken, wo es dessen not tut, sei’s geistlich oder weltlich oder leiblich. Wie ich auch sonst schon gesagt habe: Wäre der Mensch so in Verzückung, wie’s Sankt Paulus war, und wüsste einen kranken Menschen, der eines Süppleins von ihm bedürfte, ich erachtete es für weit besser, du ließest aus Liebe von der Verzückung ab und dientest dem Bedürftigen in größerer Liebe.^pNicht soll der Mensch wähnen, dass er dabei Gnaden versäume; denn was der Mensch aus Liebe willig lässt, das wird ihm um vieles herrlicher zuteil, wie Christus sprach: „Wer etwas lässt um meinetwillen, der wird hundertmal soviel zurückerhalten.“{1#vgl. Mk 10,29f}"
+      }
+    ]
+  },
+  "j-14-6": {
+    "patr_selector": [
+      {
+        "autor": "Paul VI. (†°1978)",
+        "werk": "Aus der Enzyklika „Humanae Vitae“.",
+        "text": "^hDie eheliche Liebe^pDie eheliche Liebe zeigt sich uns in ihrem wahren Wesen und Adel, wenn wir sie von ihrem Quellgrund her sehen: von Gott, der „Liebe ist“{1#vgl. 1 Joh 4, 8}, von ihm, dem Vater, „nach dem alle Vaterschaft im Himmel und auf Erden ihren Namen trägt“{2#vgl. Eph 3, 15}.^pWeit davon entfernt, das bloße Produkt des Zufalls oder Ergebnis des blinden Ablaufs von Naturkräften zu sein, ist die Ehe in Wirklichkeit vom Schöpfergott in weiser Voraussicht so eingerichtet, dass sie in den Menschen seinen Liebesplan verwirklicht. Darum streben Mann und Frau durch ihre gegenseitige Hingabe, die ihnen in der Ehe eigen und ausschließlich ist, nach jener personalen Gemeinschaft, in der sie sich gegenseitig vollenden, um mit Gott zusammenzuwirken bei der Weckung und Erziehung neuen menschlichen Lebens.^pDarüber hinaus hat für die Getauften die Ehe die hohe Würde eines sakramentalen Gnadenzeichens und bringt die Verbundenheit Christi mit seiner Kirche zum Ausdruck.^pIn diesem Licht wird die besondere Eigenart und Forderung der ehelichen Liebe deutlich. Es kommt sehr darauf an, dass man davon die rechte Vorstellung hat.^pAn erster Stelle müssen wir sie als vollmenschliche Liebe sehen; das heißt als sinnenhaft und geistig zugleich. Sie entspringt darum nicht nur Trieb und Leidenschaft, sondern auch und vor allem einem Entscheid des freien Willens, der darauf hindrängt, in Freud und Leid des Alltags durchzuhalten, ja dadurch stärker zu werden; so werden dann die Gatten ein Herz und eine Seele und kommen gemeinsam zu ihrer menschlichen Vollendung.^pWeiterhin ist es Liebe, die aufs Ganze geht; jene besondere Form personaler Freundschaft, in der die Gatten alles großherzig miteinander teilen, weder unberechtigte Vorbehalte machen noch ihren eigenen Vorteil suchen. Wer seinen Gatten wirklich liebt, liebt ihn um seiner selbst willen, nicht nur wegen dessen, was er von ihm empfängt. Und es ist seine Freude, dass er durch seine Ganzhingabe bereichern darf.^pDie Liebe der Gatten ist zudem treu und ausschließlich bis zum Ende des Lebens; so wie sie Braut und Bräutigam am jenem Tag verstanden, da sie sich frei und klar bewusst durch das gegenseitige eheliche Jawort aneinandergebunden haben. Niemand kann behaupten, dass die Treue der Gatten – mag sie auch bisweilen schwer werden – unmöglich sei. Im Gegenteil. Zu allen Zeiten hatte sie ihren Adel und reiche Verdienste. Beispiele sehr vieler Ehepaare im Lauf der Jahrhunderte sind der Beweis dafür: Treue entspricht nicht nur dem Wesen der Ehe, sie ist darüber hinaus eine Quelle innigen, dauernden Glücks.^pDiese Liebe ist schließlich fruchtbar, da sie nicht ganz in der ehelichen Vereinigung aufgeht, sondern darüber hinaus fortzudauern strebt und neues Leben wecken will.",
+        "resp1": "Wir haben an die Liebe geglaubt, die Gott zu uns hat.",
+        "resp2": "Wer in der Liebe bleibt, bleibt in Gott, und Gott bleibt in ihm.",
+        "resp3": "Lasst uns einander lieben, denn die Liebe ist aus Gott."
+      },
+      {
+        "autor": "Gemeinsame Synode der Bistümer in der Bundesrepublik Deutschland (1971–1975)",
+        "werk": "Aus dem Synodenbeschluss „Ehe und Familie“.",
+        "text": "^hEhe im Verständnis christlichen Glaubens^pDie christliche Ehe lebt aus dem Glauben an Gott, der sich in Jesus Christus der Welt selbst vorbehaltlos mitgeteilt hat. Diese seine Liebe ist jedem einzelnen und der gesamten Menschheit so zugewandt, dass wir für unser eigenes Leben und für die ganze menschliche Geschichte Hoffnung auf eine Vollendung und Erfüllung haben dürfen, welche alles Vorstellen übersteigt.^pDie lebendige Gegenwart der in Jesus Christus geschenkten Liebe Gottes zu bezeugen und die in ihr für alle Menschen begründete Hoffnung zu verkünden, ist die eine, alles umgreifende Sendung der Kirche. An ihr hat die Ehe ihren Anteil; denn christliche Ehepartner bezeugen in ihrem gemeinsamen Leben die Liebe Gottes, indem sie durch ihre eigene Liebe und Treue die Liebe Gottes sichtbar machen.^p„In ihrer Aufgabe, menschliches Leben weiterzugeben“, einer Sendung, die nur ihnen zukommt, sind sie „Interpreten“ der schöpferischen Liebe Gottes. Indem sie in hochherziger menschlicher und christlicher Verantwortung Kindern das Leben schenken, erfüllen sie einen wesentlichen Auftrag der Ehe{1#@Gaudium et spes 50,2}. Die Ehe behält jedoch als Lebensgemeinschaft in gegenseitiger Liebe ihren Wert, auch wenn sie kinderlos bleibt.^pChristliche Ehepartner leben ihre auf Glaube, Hoffnung und Liebe begründete Ehe in der Kirche als dem konkreten Ort der Erlösung. Sie werden dort mit der Heilkraft Jesu Christi beschenkt. So dienen sie zugleich dem Aufbau und Auftrag der Kirche; denn sie leben „nicht sich selbst“, sondern „für den Herrn“{2#Röm 14,7f}.^pDas Leben in und mit der christlichen Gemeinde kann zum Gelingen der Ehe beitragen; es soll die Ehepartner zu vertiefter Begegnung befähigen und zu unverbrüchlicher Treue führen. Aber auch die christliche Gemeinde muss durch ihre Solidarität mit den Ehepaaren dazu beitragen, deren Belastungen und Konflikte leichter zu bewältigen.^p^hAnthropologische Voraussetzungen^pDie unbedingte Annahme des anderen Menschen wird existentielle Wirklichkeit in der Treue. Durch sie ist der innerste Wille der Liebe dem Wechsel der Gefühle und der Willkür entzogen. In der Treue gewinnt die Liebe Dauer. Die unbedingte Treue der Gatten wird verlangt durch ihr gegenseitiges Sichschenken in Liebe sowie durch das Wohl ihrer Kinder, die von ihren Eltern ein Leben lang angenommen sein wollen.^pDiese Liebe in Treue ist vor allem dem möglich, der in der Tiefe seiner Person hoffen kann, dass er selbst wie auch der andere nicht im Tod dem Nichts anheimfallen. Darum lebt solche Liebe immer – selbst wenn sie es nicht weiß – aus der Hoffnung auf Gott. Treue ist eine Frucht der Hoffnung und bringt auch in das Dasein des anderen Menschen die Möglichkeit zur Hoffnung.^pFür Christen heißt das: In der Bindung bis in den Tod bringt ein Ehegatte die Liebe Christi, von der nichts scheiden kann{3#Röm 8,35}, in die alltägliche Nähe des Ehepartners. In solcher ein ganzes Leben umspannender Treue zeigt sich die Fülle christlicher Existenz: der Glaube an den Auferstandenen, welcher den Glauben an die Auferweckung des Ehepartners einschließt; die Hoffnung, welche für den anderen hofft, indem sie auf Christus setzt; die Liebe, die am anderen festhält, weil sie ihn in Christi Liebe zu bejahen vermag.^pVor diesem Hintergrund wird verständlich, warum Ehescheidung für Christen unmöglich ist. Jesus sagt: „Wer seine Frau entlässt und eine andere heiratet, begeht Ehebruch gegen sie. Und wenn sie ihren Mann entlässt und einen anderen heiratet, begeht sie Ehebruch.“{4#Mk 10,11f}"
+      }
+    ]
+  },
+  "j-22-3": {
+    "patr_selector": [
+      {
+        "autor": "Hildegard von Bingen (†°1179)",
+        "werk": "Aus dem Brief an Erzbischof Arnold von Trier.",
+        "text": "^hWer sich rühmt, rühme sich im Herrn^pDiener Gottes, der du in vertrauter Freundschaft mit Gott lebst: Gib acht auf den Tag, der in der ersten Morgenröte klar beginnt und bis zum Abend strahlend bleibt ohne Umwölkung durch Wirbelwind oder Sturm. Wenn er klar anhebt und später durch Stürme drohend wird, lobt man ihn nicht wegen seines Anfangs, sondern nennt ihn beschwerlich. Hüte dich, das Gute – im Geist oder Werk – so zu tun als stamme es von dir. Schreibe es vielmehr Gott zu, von dem alle Kräfte ausgehen wie die Funken vom Feuer. Denk auch daran, dass du Staub bist und zum Staub zurückkehren wirst und erweise Gott die schuldige Ehre ob seiner Gaben, die du in dir erkennst. Wer nämlich das Gute, das er in sich erkennt, sich selbst zuschreibt, gleicht einem ungläubigen Menschen, der das Werk seiner Hände anbetet und verehrt. Daher, geliebter Sohn Gottes, umgürte dich mit wahrer Demut, wirf ab von dir den eitlen Ruhm und du gleichst dem leuchtenden Tag, der von keiner Wetterwolke verdunkelt wird. Dann wird der gute Anfang auch durch ein gutes Ende gekrönt und du bist nicht mehr wie der Tag der klar beginnt, aber im Sturmwetter endet. Das Feuer des Heiligen Geistes erlösche niemals in dir, so dass du glücklich ausharrst in seinem Geheimnis und zur höchsten Seligkeit gelangst.^pNun aber, Diener Gottes, empfehle ich deinen Gebeten mit der ganzen Inbrunst meines Herzens meinen geliebten Sohn, den Abt von Sankt Eucharius{1#@jetzt St. Matthias in Trier}, der mich trotz meiner Unwürdigkeit „Mutter“ nennt. Bitte für ihn den allmächtigen Gott, er möge dem guten Willen seines Herzens ein gutes Wirken verleihen und ihn im gegenwärtigen Leben so bereiten, dass er zu den Freuden des ewigen Lebens gelangt. Auch ich werde, soweit ich es mit der Hilfe meines Gottes vermag, gern für dich beten und bitte dich in der Liebe Gottes, gütigst beim Herrn auch an mich zu denken.",
+        "resp1": "Gott, der in euch das gute Werk begonnen hat,",
+        "resp2": "er wird das Werk auch vollenden.",
+        "resp3": "Er ist es, der in euch das Wollen und das Vollbringen bewirkt."
+      },
+      {
+        "autor": "Joseph Pascher († 1979)",
+        "werk": "Aus dem Buch „Sinngerechtes Brevierbeten“",
+        "text": "^hBrevier, Privatgebet, Arbeit und Erholung^pEs gehört zu den gesicherten Erkenntnissen über jedes geistliche Leben, dass das liturgische Beten nicht genügt, um den Geist des Christen auf der Höhe des göttlichen Lebens zu halten. Im Blick über die Kirche als ganze hat sich immer gezeigt, dass neben dem liturgischen Gebet eine ganz umfangreiche fruchtbare Privatfrömmigkeit liegt. Das ist nicht nur deswegen so, weil das Volk der Kulturhöhe des römischen Breviers nicht gewachsen ist, sondern auch, weil das Brevier nicht alle Möglichkeiten und Notwendigkeiten des geistlichen Lebens erschöpft.^pEs wäre wahrlich eine untragbare Verarmung, wollte man die religiöse Wirklichkeit der Kirche des Reichtums berauben, der täglich aus den Seelen frei und privat emporsteigt, ohne dass er jemals seinen Niederschlag in fester und in die Überlieferung eingehender Form findet. Hätte man die Möglichkeit, alle Christen im Breviergebet zu vereinigen, was natürlich ein vollkommener Irrealismus ist, aber hätte man wirklich die Möglichkeit, es wäre unmöglich, auf das andere zu verzichten. Ja, wenn beides unvereinbar wäre, müsste man lieber das Brevier oder einen Teil davon aufgeben.^pGroße Teile der privaten Frömmigkeit finden dauernd ihre feste Form und gehen heutzutage durch Drucklegung in die Frömmigkeitsüberlieferung ein. Es ist wahr, nicht alles steht nach Inhalt und Form so hoch, dass es die Tradierung verdient. Aber eine Auslese dauert und trägt immer wieder zum geistlichen Reichtum der Kirche bei, und auch das übrige tut seine Dienste für die Förderung des religiösen Lebens, während nur weniges das Wachstum der Frömmigkeit stört.^pImmer wieder erfährt die Liturgie selbst Förderung von seiten der privaten Frömmigkeit. Diese ist der unerschöpfliche Quellgrund für das Wachstum und Blühen des liturgischen Lebens. Hier ist der gesunde Quell für die Liturgie."
+      }
+    ]
+  },
+  "j-29-0": {
+    "patr_selector": [
+      {
+        "autor": "Irenäus von Lyon (†°um 202)",
+        "werk": "Aus dem Buch „Gegen die Irrlehren“.",
+        "text": "^hDie Erkenntnis des Vaters ist Offenbarung des Sohnes^pNiemand kann den Vater erkennen ohne das Wort Gottes, das heißt, nur durch eine Offenbarung des Sohnes, und niemand kann den Sohn erkennen, wenn es dem Vater nicht gefällt. Was dem Vater gefällt, das vollbringt der Sohn: Der Vater sendet, gesendet wird der Sohn, und er kommt. Den Vater, der für uns unsichtbar und unermesslich ist, erkennt sein eigenes Wort und verkündigt ihn uns, obgleich er unerklärbar ist; sein Wort wiederum erkennt allein der Vater. Dass beides sich so verhält, hat uns der Herr kundgetan. Darum enthüllt der Sohn die Erkenntnis des Vaters durch sein Erscheinen. Denn die Erkenntnis des Vaters ist Offenbarung des Sohnes, alle Offenbarung geschieht ja durch das Wort.^pDazu aber hat der Vater den Sohn geoffenbart, um durch ihn allen zu erscheinen und alle, die an ihn glauben, in gerechter Vergeltung in die Unvergänglichkeit und in die ewige Ruhe aufzunehmen. – An ihn glauben heißt nämlich, seinen Willen erfüllen.^pDurch die Schöpfung offenbart das Wort Gott als den Schöpfer, durch die geordnete Welt den, der sie erbaut hat, durch das Kunstwerk den Künstler, der es geschaffen hat, und durch den Sohn den Vater, der ihn gezeugt hat. Alle drücken es in ihren Gesprächen ähnlich aus, aber ihr Glaube ist nicht der gleiche.^pSchon durch das Gesetz und die Propheten verkündete das Wort sich selbst und den Vater. Das ganze Volk hörte es in gleicher Weise, aber ihr Glaube war nicht der gleiche.^pDas Wort wurde sichtbar und berührbar, und so zeigte sich der Vater, obwohl nicht alle an ihn in gleicher Weise glaubten. Doch alle sahen im Sohn den Vater, denn das Unsichtbare des Sohnes ist der Vater, und das Sichtbare des Vaters ist der Sohn.^pVon Anfang bis zur Vollendung dient der Sohn dem Vater und vollbringt alles, und ohne ihn kann niemand Gott erkennen. Denn die Erkenntnis des Vaters ist der Sohn, die Erkenntnis des Sohnes aber ist im Vater. Darum sagt der Herr: „Niemand kennt den Sohn, nur der Vater, und niemand kennt den Vater, nur der Sohn und der, dem es der Sohn offenbaren will.“{1#Mt 11,27}^p„Wem es der Sohn offenbaren will“ ist nicht allein von der Zukunft gesagt, als ob das Wort den Vater erst offenbarte, seit es aus der Jungfrau Maria geboren wurde. Es gilt vielmehr ganz allgemein von aller Zeit. Von Anfang an steht das Wort seinem Geschöpf zur Seite, und es offenbart allen Menschen den Vater, wem, wie und wann dieser es will. Darum ist in allem und durch alles der eine Gott der Vater; das eine Wort der Sohn; und der eine Geist das eine Heil für alle, die an ihn glauben.",
+        "resp1": "Niemand hat Gott je gesehen.",
+        "resp2": "Der Einzige, der Gott ist und am Herz des Vaters ruht, er hat Kunde gebracht.",
+        "resp3": "Niemand kennt den Vater, nur der Sohn und der, dem es der Sohn offenbaren will."
+      },
+      {
+        "autor": "Augustinus († 430)",
+        "werk": "Aus einer Auslegung zu Psalm 86 (85).",
+        "text": "^hDu bist ein guter und freundlicher Gott^pDu, o Gott, bist ein guter und freundlicher Gott. Was heißt das: ein freundlicher Gott? Du trägst mich, bis ich in deinen Händen reif geworden bin. Es ist wahr, meine Brüder – lasst mich als Menschen unter Menschen reden, als einen aus den Menschen –: ein jeder von euch nehme sein Herz in die Hand und schaue sich an ohne Schmeicheln, ohne Streicheln. Es gibt nichts Dümmeres, als wenn jemand sich selber streichelt und so in die Irre führt. Ein jeder schaue hin und sehe, was alles in solch einem Menschenherzen vorgeht: wie selbst die meisten Gebete von müssigen Gedanken behindert werden, so dass das Herz kaum stillzustehen vermag vor seinem Gott, und es möchte sich festhalten, um stehen bleiben zu können, und dann flieht es gleichsam von sich fort und findet keine Schranken, die es einschlössen, und keinen Riegel, der es zurückhielte von seinem Fortfliegen und von seiner schweifenden Unruhe, dass es endlich einmal stillhalte, um sich bescheiden zu lassen von seinem Gott. Kaum je gelingt das einem unter unseren vielen Gebeten. Jeder ist geneigt zu glauben, es erginge nur ihm so und den anderen nicht; aber da finden wir irgendwo in der Schrift, wie David betet: „Ich habe mein Herz gefunden o Herr, um zu dir zu beten.“ Er sagt, er habe sein Herz gefunden, als ob dieses Herz die Gewohnheit hätte, von ihm wegzulaufen, und er müsste ihm nachsetzen wie einem Flüchtenden und könne es nicht erreichen, und so ruft er zu Gott: „Mein Herz hat mich verlassen.“^pWenn ich also hier finde, meine Brüder, dass er sagt: „Du bist ein guter und freundlicher Gott“, so glaube ich zu sehen, was er mit ‚freundlich' meint. „Erquicke die Seele deines Knechtes, denn zu dir habe ich meine Seele erhoben; denn du bist ein guter und freundlicher Gott.“ Ich glaube, ich sehe, warum er Gott freundlich nennt, weil er das alles an uns erträgt und doch erwartet, dass wir beten, damit er uns zur Reife bringen kann. Und wenn wir unser Gebet vor ihn bringen, nimmt er es bereitwillig auf und erhört es und denkt nicht mehr an die vielen wirren Gebete, die wir gesprochen haben, und nimmt das eine an, das uns nur mit Mühe gelang.^pWeil es so etwas gibt wie Hoffnung auf Gott, weil seine Barmherzigkeit groß ist, wollen wir zu ihm sprechen: „Erquicke die Seele deines Knechtes; denn zu dir habe ich meine Seele erhoben.“ Wie habe ich sie erhoben können? Soweit ich konnte, soweit du die Kraft dazu gabst, soweit ich die Fliehende festzuhalten vermochte. „Und dann ist sie dir wieder entwischt“, sagt Gott, „denn sobald du vor mir standest, hast du an alle möglichen, nichtigen und überflüssigen Dinge gedacht, und kaum je hast du ein klares, festumrissenes Gebet vor mir zustande gebracht.“^pDu bist ein guter und freundlicher Gott. Weil du freundlich bist, erträgst du mich. Weil ich krank bin, zerfließe ich nach allen Seiten; heile du mich, und ich halte still vor dir; festige du mich, und ich werde fest. Bis dahin aber erträgst du mich; denn du bist ein guter und freundlicher Gott.",
+        "resp1": "Erquicke die Seele deines Knechtes,",
+        "resp2": "denn zu dir habe ich meine Seele erhoben.",
+        "resp3": "Ich habe mein Herz gefunden, o Herr, um zu dir zu beten."
+      }
+    ]
+  },
+  "j-34-0": {
+    "patr_selector": [
+      {
+        "autor": "Origenes († 253/254)",
+        "werk": "Aus dem Buch „Über das Gebet“.",
+        "text": "^hDein Reich komme^pUnser Herr sagt: „Das Reich Gottes kommt nicht so, dass man es an äußeren Zeichen erkennen könnte. Man kann auch nicht sagen: Seht, hier ist es!, Oder: Dort ist es! Denn das Reich Gottes ist in uns.“{1#Lk 17,20.21} Ferner: „Das Wort ist ganz nah bei dir, es ist in deinem Mund und in deinem Herzen“{2#Dtn 30,14}.^pWer daher um das Kommen des Gottesreiches betet, der bittet zweifellos darum, dass das Reich Gottes ^win ihm^0w aufgeht, Frucht bringt und vollendet wird. Jeder Heilige wird ja von Gott, dem König, beherrscht und gehorcht den vom Geist erfüllten Gesetzen Gottes, der in ihm wohnt wie in einer wohlgeordneten Stadt. Der Vater ist bei ihm, und mit dem Vater regiert Christus in der vollkommenen Seele nach dem Wort: „Wir werden zu ihm kommen und bei ihm wohnen.“{3#Joh 14,23}^pWenn wir also das Reich Gottes in uns haben und im Reiche Gottes unablässig wachsen, dann steht uns die höchste Vollendung bevor: Das Wort des Apostels wird sich erfüllen, dass Christus, wenn ihm alle Feinde zu Füßen gelegt sind, „seine Herrschaft Gott, dem Vater, übergibt, damit Gott herrscht über alles und in allem“{4#1 Kor 15,24.28}. Darum beten wir unablässig in derselben Gesinnung, die dem göttlichen Wort zu eigen ist, und rufen zu unserem Vater im Himmel: „Dein Name werde geheiligt, dein Reich komme.“{5#Mt 6,9.10}^pWenn wir also wollen, dass Gott König über uns ist, dann soll niemals die Sünde in unserem sterblichen Leib herrschen{6#vgl. Röm 6,12}. Lasst uns töten, was in uns irdisch ist{7#vgl. Kol 3,5}, und Früchte des Geistes bringen, damit der Herr mit uns wie in einem Paradies des Geistes verkehrt, dass er allein in uns herrscht mit seinem Christus, der zur Rechten der Kraft des Geistes sitzt, um die wir beten, bis alle seine Feinde in uns ihm zu Füßen gelegt sind und jede Macht, Gewalt und Kraft in uns vernichtet ist{8#vgl. 1 Kor 15,24}.^pDas kann in jedem von uns geschehen, und in jedem von uns kann als letzter Feind der Tod vernichtet werden{9#vgl. 1 Kor 15,26}, so dass Christus auch in uns spricht: „Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“{10#1 Kor 15,55}",
+        "resp1": "Die Herrschaft über die Welt hat unser Herr und sein Gesalbter,",
+        "resp2": "und er wird herrschen in Ewigkeit.",
+        "resp3": "Alle Stämme der Völker werfen sich vor ihm nieder, denn der Herr regiert als König."
+      },
+      {
+        "autor": "Romano Guardini († 1968)",
+        "werk": "Aus dem Buch „Der Herr“.",
+        "text": "^hGottes°Trost°in°der°Bedrängnis^pDie Geheime Offenbarung ist ein Buch des Trostes. Keine Theologie der Geschichte oder der letzten Dinge, sondern ein Trost, den Gott beim Ausgang der Apostelzeit seiner Kirche in die Hand gegeben hat. Dieses Trostes bedurfte sie, denn sie war sehr bedrängt.^pWie tröstet aber Gott? Nicht so, dass er sagte: „Die Not sei im Grunde nicht so schlimm“; sie ist schlimm und wird auch schlimm gesehen. Gott verheißt auch keine wunderbaren Eingriffe. Die Geschichte hat ihre Zeit und ihre Macht, auch wo sie sich wider Gott richtet, und die werden nicht aufgehoben.^pDoch über der irdischen Wirklichkeit wird die himmlische gezeigt. Über den bedrängenden Mächten der Geschichte erscheint, schweigend und wartend, der, den sie angreifen, Christus. Ihm gehört die Ewigkeit. Er sieht alles, wägt alles, vom innersten Beginn im Herzen bis zur letzten Auswirkung im Gang der Ereignisse, und schreibt alles in „das Buch“ seines unfehlbaren Wissens.^pUnd einmal schlägt die Stunde, da alle Dinge ihre Zeit gehabt haben. Dann vergehen sie, Christus aber lebt. Alles wird vor Ihn kommen, und Er wird das Wort sprechen, das jedes Menschenwerk enthüllt, jedem seinen genauen Wert gibt und ewig währt.^pDas ist der Trost. Ein Trost des Glaubens, der voraussetzt, dass der Hörende die Überwindung des Glaubens vollbringe. Und er ist nicht auf morgen und das nächste Jahr bezogen, überhaupt nicht auf dieses Leben, sondern über den Tod hinweg auf die Ewigkeit, und hilft soviel, als den Hörenden Gott und Christus und Ewigkeit wirklich sind."
+      }
+    ]
+  },
+  "k-1-1": {
+    "patr_selector": [
+      {
+        "autor": "Athanasius († 373)",
+        "werk": "Aus dem Brief an Epiktet.",
+        "text": "^hDem ganzen Menschen ist Heil widerfahren^pDer Apostel sagt, das Wort habe sich der Nachkommenschaft Abrahams angenommen. Es musste darum in allem seinen Brüdern gleich sein {1#vgl.°Hebr°2,16–17} und einen uns ähnlichen Leib annehmen. Eben dafür war Maria erwählt: Von ihr sollte er ihn nehmen und als seinen eigenen für uns opfern.^pDie Schrift erwähnt die Geburt und sagt: „Sie wickelte ihn in Windeln“{2#vgl.°Lk 2,7}; die Brust, die ihn stillte, wird seliggepriesen{3#vgl.°Lk 11,27}, weil er der Erstgeborene war{4#vgl.°Lk 2,7}, wird für ihn das Opfer dargebracht.^pGabriel übermittelte ihr zurückhaltend die Botschaft{5#vgl.°Lk 1,14}. Er sagte nicht einfach: „Was in dir wird“, damit man nicht meint, der Leib werde von außen in sie hineingebracht. Er sagt vielmehr: „aus dir“; denn dies sollte der Glaube sein: „Was da gezeugt wird, hat seinen Ursprung^w aus ^0wihr.“^pDas war die Absicht: Das Wort nahm das Unsrige an und brachte es als Opfer dar und nahm es damit gänzlich hinweg. Als er uns dann mit dem Seinigen bekleidete, konnte der Apostel schreiben: „Dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit.“{6#vgl.°1 Kor 15,53}^pDas ist keine erdichtete Annahme, wie einige gemeint haben. Keineswegs! Als vielmehr der Erlöser wahrhaft Mensch wurde, erlangte der ganze Mensch das Heil. Unser Heil ist wahrhaft keine erdichtete Sache, und es geht nicht bloß den Leib, sondern den ganzen Menschen an: Leib und Seele ist im Wort Heil widerfahren.^pWas aus Maria gemäß der Schrift hervorging, war seinem Wesen nach ein wirklicher Mensch, und es war der wahre Leib des Herrn. Wirklich: ein wahrer Leib war es, weil er dem unsern gleich war. Denn Maria ist unsere Schwester, weil wir alle von Adam abstammen.^pWenn es bei Johannes heißt: „Das Wort ist Fleisch geworden“{7#Joh 1,14}, so ist damit dasselbe gemeint, wie wenn Paulus sagt: „Christus hat für uns den Fluch auf sich genommen.“{8#vgl.°Gal 3,13} Dem menschlichen Leib ist aus der Gemeinschaft mit dem Wort größerer Reichtum zugewachsen: denn aus dem sterblichen Leib wurde ein unsterblicher; er war ein irdischer Leib und wurde ein überirdischer{9#vgl.°1 Kor 15,44}; er war aus Erde gemacht und durfte dennoch das Tor des Himmels durchschreiten.^pDie Dreieinigkeit blieb immer Dreieinigkeit, auch nachdem das Wort aus Maria Fleisch angenommen hat, und sie erfuhr weder Zuwachs noch Minderung; sie ist vielmehr immer vollendet, und in der Dreieinigkeit wird der eine Gott erkannt. So wird von der Kirche verkündet: ein Gott, der Vater des Wortes!",
+        "resp1": "Heilige und unbefleckte Jungfrau, ich weiß nicht, mit welchem Lob ich dich preisen soll:",
+        "resp2": "Ihn, den die Himmel nicht fassen können, hast du in deinem Schoß getragen,",
+        "resp3": "Du bist gesegnet unter den Frauen, und gesegnet ist die Frucht deines Leibes."
+      },
+      {
+        "autor": "Walther von der Vogelweide († um 1230) zugeschrieben",
+        "werk": "An°Maria.",
+        "text": "^h^pMaria klar,^ßviel hochgelobte Herrin, süße,^lHilf mir durch deines Kindes Ehr,^ßdass ich die Sünde büße.^lDu flutige Flut der Tugend,^ßErbarmung, aller Güte,^lDer süße Gottesgeist^ßaus deinem edlen Herzen blühte:^lEr ist dein Kind,^ßdein Vater und dein Schöpfer. ^pWohl uns, dass du^ßihn durftest einst gebären!^lDen Höhe, Tiefe, Breite, Länge^ßnie umgreifen ging,^lDein kleiner Leib^ßmit süßer Keusche ihn umfing,^lKein Wunder gleicht^ßdem wunderbaren Ding:^lDer Engel Königin,^ßdu trugst ihn ohne alle Schweren."
+      }
+    ]
+  },
+  "k-12-22": {
+    "patr_selector": [
+      {
+        "autor": "Beda Venerabilis (†°735)",
+        "werk": "Aus dem Kommentar zum Lukasevangelium.",
+        "text": "^h„Meine Seele preist die Größe des Herrn, und mein Geist jubelt über Gott, meinen Retter“^pMaria sagt: Mit so großer und unvorstellbarer Gnade hat der Herr mich erhöht, dass kein Wort es zu erklären vermag und dass es kaum mit der innersten Bewegung des Gemütes erfühlt werden kann. Darum biete ich alle Kräfte meiner Seele auf, um Lob und Dank zu sagen. Indem ich seine grenzenlose Größe betrachte, gebe ich freudig dankend alles dahin, alles, was ich erlebe, fühle und denke. Denn mein Geist erfreut sich an der Gottheit Jesu, des Retters, der in der leiblichen Empfängnis die Frucht meines Leibes geworden ist. „Denn der Mächtige hat Großes an mir getan, und sein Name ist heilig.“^pMaria schaut noch einmal auf den Anfang ihres Liedes zurück, wo es heißt: „Meine Seele preist die Größe des Herrn.“ Denn nur diese Seele, der Gott Großes getan hat, vermag ihn mit gebührendem Lob zu preisen; nur sie kann die Gefähretn, welche ihr Verlangen und Streben teilen, aufrufen: „Verherrlicht mit mir den Herrn, lasst uns gemeinsam seinen Namen rühmen.“{1#Ps 34,4} Denn wer es ablehnt, den Herrn, den er doch erkannt hat, auch nach Kräften zu verherrlichen und seinen Namen zu preisen, „der wird der Geringste im Himmelreich sein“{2#vgl.°Mt 5,19}.^p„Heilig“ ist sein Name, weil er mit seiner einzigartigen Macht über alle Geschöpfe hinausragt und alles, was er geschaffen hat, weit übersteigt.^p„Er nimmt sich seines Knechtes Israel an und denkt an sein Erbarmen.“^pSehr zutreffend nennt er Israel den gehorsamen und demütigen Knecht des Herrn, dessen er sich angenommen hat, um ihn zu retten, wie Hosea sagt: „Knecht ist Israel, und ich liebe ihn.“{3#vgl.°Hos 11,1 Vg} Wer sich nicht demütigen will, kann nicht gerettet werden, und er kann nicht mit dem Propheten sprechen: „Gott ist mein Helfer, der Herr beschützt mein Leben.“{4#Ps 54,6} „Wer sich selbst erniedrigt wie diese Kinder, der ist der Größte im Himmelreich.“{5#vgl.°Mt 18,4}^pSo hat er unsern Vätern verheißen, „Abraham und seinen Nachkommen auf ewig“.^pMit „Nachkommen Abrahams“ sind nicht die leiblichen, sondern die geistlichen Nachkommen gemeint, das heißt nicht nur die, welche leiblich von ihm stammen, sondern auch die, welche im Glauben seinen Spuren gefolgt sind, seien sie beschnitten oder nicht. Denn Abraham, der selbst nicht beschnitten war, glaubte, und der Glaube wurde ihm als Gerechtigkeit angerechnet{8#vgl.°Gen 15,6; Röm 4,3}.",
+        "resp1": "In Christus wurde alles erschaffen;",
+        "resp2": "er ist das Ebenbild des unsichtbaren Gottes.",
+        "resp3": "In ihm hat alles Bestand."
+      },
+      {
+        "button": "Aus den „Sprüchen der Sibylle“: Kommen°wird°ein°heiliger°Fürst",
+        "autor": "LEER",
+        "werk": "Aus „Sprüche der Sibylle“ (1.–3. Jh.)",
+        "text": "^hKommen°wird°ein°heiliger°Fürst^hI^pWenn auch Ägypten einst^ßvon Rom besiegt und beherrscht wird,^leine Grenze sie eint,^ßja dann wird endlich erscheinen^lunter Menschen^ßdas größte Reich unsterblichen Königs:^lKommen wird ein heiliger Fürst^ßund schwingen das Zepter^lüber die Länder der Welt hinfort^ßbis in ewige Zeiten.^hII^pNicht in Herrlichkeit, er kommt^ßals Mensch in die Schöpfung,^lelend, niedrig und arm:^ßElenden Hoffnung zu bringen^lgibt dem morschen Fleische Gestalt^ßund himmlischen Glauben^lGlaubenslosen, und neu gestaltet er^ßwieder den Menschen,^lwie er einst erstand^ßaus Gottes heiligen Händen.^hIII^pWenn er die Arme breitet,^ßdas All umspannt, auf dem Haupte^ldorngeflochtene Krone trägt^ßund wenn ihm die Seite^lnach dem Gesetz der Speer durchstößt,^ßwird schauriges Dunkel,^lwird drei Stunden die Nacht sich senken^ßmitten am Tage,^lund ein großes Zeichen geschieht^ßvor den Augen der Menschen^lim Salomonischen Tempel,^ßwenn er zum Hause des Hades^lniedersteigt und Auffahrt ruft^ßdem Volke der Toten.^hIV^pUnd erstanden gesellt zuerst^ßden Seinen der Herr sich^lwieder im Fleisch, wie er vordem war,^ßdoch an Händen und Füßen^lzeigt er der Schar vier Male,^ßdie ihm die Glieder durchbohrten,^lAufgang nämlich und Untergang^ßund Mittag und Mitternacht:^lSoviel Königreiche der Welt^ßbegehen in Zukunft^lfrevelhafte niedrige Tat^ßam Vorbild der Menschen."
+      }
+    ]
+  },
+  "k-12-23": {
+    "patr_selector": [
+      {
+        "autor": "Hippolyt von Rom (†°nach 235)",
+        "werk": "Aus dem Buch „Gegen die Irrlehre des Noëtus“.",
+        "text": "^hOffenbarung des göttlichen Heilsplanes^pBrüder, Gott ist der Eine. Wir kennen ihn nur aus der Heiligen Schrift, und nicht aus anderer Quelle. Alles, was also die heiligen Schriften verkündigen, das wollen wir wissen; alles, was sie lehren, wollen wir erkennen.^pWie der Vater im Glauben erkannt sein will, so wollen wir glauben. Wie er will, dass der Sohn verherrlicht wird, so wollen wir ihn verherrlichen. Wie er den Heiligen Geist schenken will, so wollen wir ihn empfangen. Nicht nach eigenem Willen, nicht nach unserem eigenen Sinn und ohne dem Gewalt anzutun, was von Gott gegeben ist, sondern wie er es uns durch die heiligen Schriften lehren will, so wollen wir es verstehen.^pDa Gott der Einzige war und es neben ihm nichts gab, was ewig ist wie er, wollte er die Welt erschaffen. Er dachte die Welt. Indem er sie wollte und sie aussprach, hat er die Welt erschaffen. Sofort entstand sie ihm, geschaffen, wie er es wollte; und wie er es wollte, hat er sie vollendet. Es genügt uns, zu wissen, dass es neben Gott nichts gibt, das so ewig ist wie er. Nichts war außer ihm, er war der Einzige, er war das Ganze. Er war ja nicht ohne Geist, nicht ohne die Weisheit, nicht ohne die Macht, nicht ohne den Rat. Alles war in ihm, er war alles.^pAls er wollte und wie er wollte, zu der Zeit, die bei ihm festgesetzt war, offenbarte er sein Wort, durch das er alles erschaffen hat.^pDa er dieses Wort in sich trug und es für die geschaffene Welt unsichtbar war, hat er es sichtbar gemacht, indem er es erstmals bei der Schöpfung nach außen ausgesprochen hat. Er zeugte das Licht aus dem Licht und gab der Schöpfung ihren Herrn: sein Wort. Was zuerst nur für ihn sichtbar war, der Welt aber unsichtbar, das hat er sichtbar gemacht. So sollte die Welt ihn bei seinem Erscheinen sehen, so sollte sie heil werden.^pDies aber ist das Wort, das in die Welt hinausging und sich als Knecht Gottes erwies. „Durch ihn ist alles geworden“{1#vgl.°Joh 1,3}, er allein ist aus dem Vater.^pDieser gab das ganze Gesetz und die Propheten; er drängte die Propheten durch den Heiligen Geist zu reden. Vom Geisthauch des allmächtigen Vaters beseelt, verkündeten sie dessen Ratschluss und Willen.^pDas Wort wurde sichtbar, wie es der Evangelist Johannes sagt. Dieser fasst alles zusammen, was die Propheten verkündigt haben, und zeigt, dass es das Wort ist, durch das alles geworden ist. Denn er spricht: „Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott. Im Anfang war es bei Gott. Alles ist durch das Wort geworden, und ohne das Wort wurde nichts, was geworden ist. In ihm war das Leben, und das Leben war das Licht der Menschen.“{2#Joh 1,1-4} Und weiter sagt er: „Die Welt ist durch ihn geworden, aber die Welt erkannte ihn nicht. Er kam in sein Eigentum, aber die Seinen nahmen ihn nicht auf.“{3#Joh 1,10-11}",
+        "resp1": "Viele Male und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; in dieser Endzeit hat er zu uns gesprochen durch seinen Sohn, durch den er die Welt erschuf.",
+        "resp2": "Er ist der Abglanz seiner Herrlichkeit.",
+        "resp3": "In ihm war das Leben, und das Leben war das Licht der Menschen."
+      },
+      {
+        "autor": "Heinrich Schlier († 1978)",
+        "werk": "Aus dem Buch „Der Herr ist nahe – Adventsbetrachtungen“.",
+        "text": "^hDes°Herrn°Nähe^pIn welcher Weise können wir denn „in Ihm“ sein und also „in Ihm“ uns freuen? Ist er denn nicht in die äußerste Ferne gerückt, sei es, dass er als der am Kreuz einmal Gestorbene irdisch vergangen ist, wie wir alle einmal vergehen als Menschen, sei es, dass er als der von den Toten Erweckte im Jenseits, im Himmel, bei Gott ist, und wir sind heute hier auf Erden, und morgen holt uns der Tod zu sich? Wie können wir uns seiner freuen, nein, zur Freude „in Ihm“ gelangen, wenn er als der Gekreuzigte und Auferstandene und Erhöhte nicht gegenwärtig ist, gegenwärtig in der Gegenwart unserer Welt und Zeit?^pDarauf gibt der Apostel mit seiner Formulierung Antwort: „Der Herr ist nahe!“{1#Phil 4,5} „Im Herrn“ können und sollen wir uns freuen, weil der Herr „nahe“ ist.^pUnd dieses „Nahesein“ meint nicht nur und nicht zuerst und zuletzt ein Nahesein im zeitlichen Sinn. Es meint eine sachliche Nähe, ein Nahegekommen und in der Nähe, ein in das Erreichbare und das Erreichen Gerücktsein. Und es meint dies auch in der zeitlichen Nähe. Es meint mit anderen Worten, dass seine Ankunft in Kreuz und Auferstehung und Erhöhung zu Gott zugleich ein Ankommen in die Nähe zu uns ist. Er ist uns nahegekommen und ist in unserer Nähe. Ja man kann sagen: Er ist unsere Nähe.^pAdvent hat sich erfüllt in seinem Nahesein. Er ist der, der da kommen soll. Und Er ist in den Horizont der Welt und unseres Lebens eingetreten, der uns von allen Seiten umgibt und angeht.^pUnd als solcher ist er der Grund jener Freude, die über alle Freude und noch Freude im Leid ist. Seine Ankunft in die Nähe erweckt die Freude, die Adventsfreude seiner Nähe.^pEr ist ja so nahe, dass wir sein Wort hören. Er ist – und das ist nicht metaphorisch gemeint – nahe in seinem Wort, im Wort seines Weges, im Wort seines Wirkens, im Wort seiner Person. Dies Wort ist mit ihm und seinem Leben laut geworden und hat sich im Wort des Evangeliums zur Sprache gebracht. Dieses Wort des Herrn in Menschenwort stellt die Welt und unser Leben in das Licht der Wahrheit und erleuchtet unseren Weg.^pSo nahe ist der Herr, dass er über alle Zeiten hinweg, ja dass er über die Grenze zwischen Himmel und Erde hinweg uns mit seinem Wort erreicht und sich uns glaub-würdig macht, dass wir ihn und sein Heil im Glauben erkennen und erfahren können.^pAber die nächste Nähe des Herrn erfahren wir, wenn er sich uns unter den einfachen Zeichen von Brot und Wein auf die Lippen legt und so uns selbst sich mitteilt und mit sich sein ganzes Heil. So nahe ist er, dass wir nur im Glauben unseren Mund zu öffnen brauchen, und wir werden von ihm gespeist."
+      }
+    ]
+  },
+  "k-12-24": {
+    "patr_selector": [
+      {
+        "autor": "Augustinus (†°430)",
+        "werk": "Aus einer Predigt über die Gnade der Menschwerdung Gottes.",
+        "text": "^h„Wahrheit sprosst aus der Erde hervor; Gerechtigkeit blickt vom Himmel hernieder“^pWach auf, du Mensch! Gott ist für dich Mensch geworden. „Wach auf, du Schläfer, und steh auf von den Toten, und Christus wird dein Licht sein.“{1#Eph 5,14} Auf ewig wärest du tot, wäre Gott nicht in der Zeit geboren worden. Wenn er nicht die Gestalt des Fleisches angenommen hätte, „der Macht der Sünde unterworfen“{2#vgl.°Röm 8,3}, nie wärest du frei geworden vom Joch des Fleisches, vom Joch der Sünde. Dem ewigen Unglück wärest du anheimgefallen, wäre dieses Werk der Barmherzigkeit nicht geschehen. Du wärest nicht wieder zum Leben gekommen, wäre er dir im Tod nicht gleichgeworden. Du wärest verschmachtet, wäre er nicht zu Hilfe gekommen. Du wärest zugrunde gegangen, wäre er nicht gekommen.^pLasst uns mit Freude das Kommen unseres Heils und unserer Erlösung feiern. Lasst uns den Festtag begehen. Denn der große, ewige Tag ist aus dem großen und ewigen Tag in diesen unseren kurzen irdischen Tag gekommen. Er ist uns Gerechtigkeit geworden, Heiligung und Erlösung{3#vgl.°1 Kor 1,30}. „Wer sich also rühmen will, der rühme sich des Herrn; so heißt es schon in der Schrift.“{4#1 Kor 1,31}^p„Wahrheit sprosst aus der Erde hervor.“{5#Ps 85,12a} Christus, der sagt: „Ich bin die Wahrheit“{6#vgl.°Joh 14,6}, er ist von der Jungfrau geboren. „Gerechtigkeit blickt vom Himmel hernieder“{7#Ps 85,12b}: denn der Mensch, der an den Eingeborenen glaubt, wird nicht aus sich selbst, sondern von Gott gerechtfertigt. Die Wahrheit sprosst aus der Erde auf, weil „das Wort Fleisch geworden ist“{8#vgl.°Joh 1,14}.",
+        "resp1": "Ein Reis wird aus dem Stumpf Isais sprossen, ein Schössling aus seinen Wurzeln Frucht bringen.",
+        "resp2": "Gerechtigkeit ist der Gurt seiner Hüften und Treue der Gürtel seiner Lenden.",
+        "resp3": "Auf ihm ruht der Geist des Herrn: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke."
+      },
+      {
+        "autor": "Franz von Sales († 1622)",
+        "werk": "Aus einer Predigt zur Vigil von Weihnachten.",
+        "text": "^hMorgen°werdet°ihr seine°Herrlichkeit°sehen^pDie heilige Kirche ist gewohnt, uns am Vorabend der großen Feste vorzubereiten, damit wir begierig sind, die großen Gnadenerweise zu erkennen, die wir in ihnen von Gott empfangen haben. Wenn die Christen der Urkirche unserem Herrn gewissermaßen Genugtuung leisten wollten für sein Blut, das er bei seinem Tod am Kreuz so freigebig vergossen hat, dann waren sie sorgsam bedacht, die Zeit der Feste recht zu nutzen und sie möglichst ganz zu feiern.^pDie heilige Kirche will also, dass wir uns in der Vigil des heiligen Weihnachtsfestes vorbereiten, und als ganz liebenswürdige Mutter will sie nicht, dass wir von einem so großen Geheimnis unvorbereitet überrascht werden; deshalb sagt sie uns die Worte: „Heute sollt ihr wissen, dass unser Herr morgen kommt.“ Das heißt soviel wie: Morgen wird er geboren, und ihr werdet ihn als ganz kleines Kind in einer Krippe liegend sehen{1#vgl. Lk 2,12}. Dabei hat sie keine andere Absicht, als zu erreichen, dass wir unseren Verstand in die Betrachtung der Größe des Geheimnisses der hochheiligen Geburt unseres Herrn versenken.^pUm das möglichst gut zu machen, werden wir vor allem unseren Verstand demütigen und anerkennen, dass er in keiner Weise fähig ist, auf den Grund dieses großen Geheimnisses vorzudringen, das ein wahrhaft christliches Mysterium ist.^pIch sage „christlich“, weil nur die Christen jemals begreifen konnten, dass Gott Mensch und der Mensch vergöttlicht wurde. Es ist ja ein Geheimnis, das verborgen ist im Dunkel und in der Finsternis der Nacht; nicht als ob das Geheimnis dunkel in sich selbst wäre, denn Gott ist nur Licht{2#vgl. Joh 1,5.9}.^pMan weiß ja, dass unsere Augen nicht fähig sind, das Licht oder die Klarheit der Sonne zu betrachten, ohne zu erblinden (wenn wir es unternehmen wollten, dieses Licht zu betrachten, sind wir gezwungen, die Augen zu schließen, und sind einige Zeit unfähig, etwas zu sehen). Ebenso liegt das, was uns daran hindert, das Geheimnis der hochheiligen Geburt unseres Herrn zu begreifen, nicht daran, dass es in sich dunkel wäre, sondern daran, dass es nichts als helles Licht ist.^pUnser Verstand, der das Auge unserer Seele ist, kann es nicht lange betrachten, ohne sich zu trüben, und muss demütig bekennen, dass er dieses Geheimnis nicht ergründen kann, um zu begreifen, wie Gott im jungfräulichen Schoß der allerseligsten Jungfrau Fleisch angenommen hat und Mensch geworden ist gleich uns, um uns Gott ähnlich zu machen."
+      }
+    ]
+  },
+  "k-12-25": {
+    "les_selector": [
+      {
+        "buch": "Aus dem Buch Jesaja.",
+        "stelle": "11,1–10",
+        "text": "^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.^pEr richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist. Er schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange.^pMan tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist.^pAn jenem Tag wird es der Spross aus der Wurzel Isais sein, der dasteht als Zeichen für die Nationen; die Völker suchen ihn auf; sein Wohnsitz ist prächtig.",
+        "resp1": "Heute wurde der König des Himmels von der Jungfrau geboren^SLICE, um den Menschen, der verloren war, zum Himmelreich zurückzurufen.",
+        "resp2": "Das Heer der Engel freut sich, weil dem Menschengeschlecht das ewige Heil erschienen ist.",
+        "resp3": "Ehre sei Gott in der Höhe und auf Erden Friede den Menschen seiner Gnade."
+      },
+      {
+        "resp1": "Vom Himmel stieg herab der wahre Gott^SLICE, vom Vater geboren. Er scheute nicht den Schoß der Jungfrau und nahm an das Fleisch des Menschen, in dem Adam geschaffen war,",
+        "resp2": "und ist uns sichtbar erschienen, Gott und Mensch, Licht und Leben, Schöpfer der Welt.",
+        "resp3": "Durch ihn ist alles geschaffen, für uns Menschen und um unseres Heiles willen stieg er vom Himmel herab"
+      }
+    ],
+    "patr_selector": [
+      {
+        "autor": "Leo der Große (†°461)",
+        "werk": "Aus einer Weihnachtspredigt.",
+        "text": "^hChrist, erkenne deine Würde!^pLasst uns froh sein: Heute ist unser Retter geboren, Traurigkeit hat keinen Raum am Geburtstag des Lebens, das uns die Angst vor dem Sterben genommen hat und uns die Freude über die verheißene Ewigkeit bringt.^pNiemand wird von der Fröhlichkeit ausgeschlossen, alle haben den einen Grund zur Freude gemeinsam: Denn unser Herr, der Sünde und Tod vernichtet hat, fand keinen, der von Schuld frei war. Deshalb kam er, um alle zu befreien. Der Heilige juble, weil ihm die Siegespalme winkt. Der Sünder freue sich, weil er zur Versöhnung eingeladen ist. Der Heide atme auf; denn er ist zum Leben gerufen.^pDie Fülle der Zeit ist gekommen, die Gottes unerforschlicher Ratschluss festgesetzt hat: Der Sohn Gottes hat die Natur des Menschengeschlechts angenommen, um sie mit ihrem Schöpfer zu versöhnen und den Urheber des Todes, den Teufel, durch eben jene Natur zu besiegen, durch die er einst selbst gesiegt hat.^pDie jubelnden Engel singen bei der Geburt des Herrn: „Ehre sei Gott in der Höhe!“, und auf Erden wird den Menschen seiner Gnade Friede verkündet {1#vgl.°Lk 2,14}. Denn die Engel sehen, wie aus allen Völkern der Erde das himmlische Jerusalem erbaut wird. Wie sehr muss sich der geringe Mensch über dieses Werk der unsagbaren Güte Gottes freuen, wenn schon die erhabenen Engel vor Freude jubeln.^pLasst uns also Gott dem Vater danken durch seinen Sohn im Heiligen Geist, dass er uns in seiner übergroßen Huld geliebt und sich unser erbarmt hat; wir waren durch unsere Sünden tot, aber er hat uns zusammen mit Christus wieder lebendig gemacht {2#vgl.°Eph 2,5}, um uns in ihm zu einer neuen Schöpfung {3#vgl.°2 Kor 5,17}, zu einem neuen Menschen zu machen. Lasst uns also den alten Menschen mit seinen Werken ablegen {4#vgl.°2°Petr°1,4}, und da wir an der Geburt Christi teilhaben, lasst uns den Werken des Fleisches entsagen.^pChrist, erkenne deine Würde! Du bist der göttlichen Natur teilhaftig geworden {5#vgl.°Kol 1,13}, kehre nicht zu der alten Erbärmlichkeit zurück und lebe nicht unter deiner Würde. Denk an das Haupt und den Leib, dem du als Glied angehörst! Bedenke, dass du der Macht der Finsternis entrissen und in das Licht und das Reich Gottes aufgenommen bist {6#vgl.°2 Petr 1,4}.^pDurch das Sakrament der Taufe wurdest du ein Tempel des Heiligen Geistes. Verjage nicht durch deine Sünden den hohen Gast, der in dir Wohnung genommen hat. Unterwirf dich nicht wieder der Knechtschaft Satans; denn der Preis für deine Freiheit ist das Blut Christi.",
+        "resp1": "Heute ist der wahre Friede vom Himmel zur Erde herabgekommen^SLICE;",
+        "resp2": "heute leuchtet der Himmel freundlich über der ganzen Welt.",
+        "resp3": "Der Tag neuer Erlösung ist aufgegangen, der Tag, von alters her vorbereitet, der Tag ewigen Glückes."
+      },
+      {
+        "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt,",
+        "resp2": "und wir haben seine Herrlichkeit gesehen, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit.",
+        "resp3": "Er erschien auf der Erde und verkehrte unter den Menschen,"
+      }
+    ]
+  },
+  "k-12-31": {
+    "patr_selector": [
+      {
+        "autor": "Augustinus (†°430)",
+        "werk": "Aus den Reden über das Johannesevangelium.",
+        "text": "^hDie Befreiung von der Zeit^pAls die Fülle der Zeit kam, erschien auch er, der uns von der Zeit befreien wollte. Denn befreit von der Zeit, sollen wir zu jener Ewigkeit gelangen, wo keine Zeit ist. Und da sagt man nicht: Wann wird die Stunde kommen? Denn es ist ein ewiger Tag, dem kein gestriger vorangeht und dem kein morgiger nachfolgt.^pIn dieser Welt aber rollen die Tage dahin, die einen gehen, die anderen kommen, keiner bleibt. Auch die Augenblicke, da wir reden, verdrängen einander, und es bleibt die erste Silbe nicht stehen, damit die zweite erklingen kann. Seitdem wir reden, sind wir etwas älter geworden, und ohne Zweifel bin ich jetzt älter als heute morgen.^pSo steht nichts still, nichts bleibt fest in der Zeit. Darum müssen wir den, durch den die Zeiten geworden sind, lieben, um von der Zeit befreit und in der Ewigkeit befestigt zu werden, wo es keine Veränderlichkeit der Zeit mehr gibt.^pEine große Barmherzigkeit also ist es von unserem Herrn Jesus Christus, dass er unseretwegen in der Zeit geworden ist, er, durch den die Zeiten geworden sind; dass er mitten unter allen Dingen geworden ist, er, durch den alle Dinge geworden sind; dass er das geworden ist, was er gemacht hat. Denn er ist geworden, was er gemacht hatte: er wurde Mensch, er, der den Menschen gemacht hatte, damit nicht verloren ginge, was er gemacht hatte.",
+        "resp1": "In Christus wohnt die ganze Fülle des göttlichen Lebens;",
+        "resp2": "er ist das Haupt aller Mächte und Gewalten.",
+        "resp3": "Mit Christus wurden wir in der Taufe begraben, mit ihm auch auferweckt."
+      },
+      {
+        "autor": "Hugo Rahner († 1968)",
+        "werk": "Aus dem Buch „Maria und die Kirche“.",
+        "text": "^hMaria°ist°Mutter der°Glieder°Christi^pDer Urbeginn unserer Erlösung liegt in dem unbegreiflichen Ratschluss des ewigen Vaters, seinen eingeborenen Sohn uns als Menschen zu schenken.^pIn diesem göttlichen Gnadenentschluss ist aber auch mitgegeben der von eben dieser Gnade angerührte und ermöglichte freie Entschluss jenes Menschenkindes, das auserwählt ward, Mutter des Menschensohnes zu werden. In dem freien Ja der Jungfrau Maria ist gleichsam alles schon eingeschlossen, was je im Lauf der Erlösungsgeschichte an Gnade und Gottesliebe sich in das Geschlecht des Adam ergießen wird.^pDas Jawort der Jungfrau ist in einem wahren Sinn der Anfang der Kirche. Augustinus hat dies in einem berühmten Wort ausgesprochen: „Wahrlich, Maria ist auch die Mutter der Christusglieder, die wir selber sind. Denn sie hat mitgewirkt in Liebe, dass Glaubende in der Kirche geboren werden, Glaubende, die da sind die Glieder jenes Hauptes, dessen Mutter sie leiblich wurde.“{1#@Augustinus, De sancta virginitate 6} Diese „liebende Mitwirkung“ ist zunächst einmal ihr Jawort, das den Einstrom der göttlichen Begnadigung in das ganze Menschengeschlecht durch die Menschwerdung Gottes ermöglicht hat.^pIm jungfräulichen Schoß Marias beginnt also, wie die Väter so oft sagen, in Wahrheit die Existenz der Kirche. Denn durch die hochzeitliche Vereinigung von Gottheit und Menschheit in der einen Person Christi ist der weltgestaltende Heilsschluss des Vaters festgelegt und begonnen: alles, was nun folgt, vom erlösenden Kreuz dieses aus Maria für den Vater geborenen Menschenkindes bis zur Vollendung in der herrlichen Wiederkunft des Gottmenschen, also die ganze Geschichte der Kirche, ist Entfaltung des Geheimnisses, das sich am Herzen Marias vollzog.^pEs ist das eigentliche Mysterium der Kirche – so wie es einmal in einem wundervollen Hymnus des achten Jahrhunderts heißt: „Das Mysterium der Kirche wollen wir besingen in einem Hymnus auf Christus, den die mütterliche Frau geboren hat, das Wort des Vaters. Groß nämlich ist das Mysterium, das Maria anvertraut ward.“{2#@vgl.°Analecta Hymnica 51} Jenes „große Mysterium“, von dem Paulus in Bezug auf die Kirche spricht, beginnt schon in Marias Schoß.^pIn der klassischen Diktion seiner Theologie hat uns dieses Geheimnis der Kirche der heilige Papst Leo in einer seiner Weihnachtspredigten verkündet: „Indem wir die Menschwerdung unseres Erlösers anbeten, feiern wir offenbar auch den Beginn unseres eigenen Lebens. Ist doch die Zeugung Christi der Ursprung des christlichen Volkes. Der Geburtstag des Hauptes ist zugleich der Geburtstag des Leibes. Mag auch jeder einzelne von den Berufenen seinen besonderen Stand haben, mögen auch alle Kinder der Kirche durch die Folge der Zeiten voneinander getrennt sein: die Gesamtheit aller Gläubigen, die aus dem Taufquell hervorgingen, ist mit Christus in seiner Geburt geboren worden.“{3#@Leo der Große, Sermo 26,2}^pWeihnacht ist für die alte Kirche ein Fest der Kirche, Maria der Inbegriff aller Mysterien, die sich in unserer Wiedergeburt an uns selbst vollziehen."
+      }
+    ]
+  },
+  "k-1-3": {
+    "patr_selector": [
+      {
+        "autor": "Mechtild von Magdeburg (†°um 1294)",
+        "werk": "Aus der Schrift „Das fließende Licht der Gottheit“.",
+        "text": "^hGottes Atem muss auch in sich ziehen^pDies spricht die Braut Gottes:^lJa, ich frage ihn, Gottes Sohn, wohl,^lwenn wir in die Blumen der°heiligen°Erkenntnis°gehen.^lUnd bitte ihn voll Verlangen,^ldass er mir die spielende Flut aufschließe,^ldie in der Heiligen Dreifaltigkeit fließt,^lvon der die Seele allein lebt.^lSoll ich getröstet werden^lnach dem Maß eines edlen Verlangens,^lmuss mich Gottes Atem in sich ziehen^lohne Beschwerlichkeit.^pDenn die spielende Sonne der°lebendigen°Gottheit^lscheint durch das klare Wasser der°seligen°Menschheit,^lund die süße Lust des Heiligen Geistes^list aus ihnen beiden gekommen^lund hat mir alles genommen,^lwas unterhalb der Gottheit wohnt.^pMir schmeckt nichts denn Gott allein;^lIch bin dieser Welt ganz wunderlich tot,^lihren Geschmack will°ich°mit°Freuden°entbehren,^ldamit Gott wunderbar gepriesen werde.^pDenn wenn ich unwürdiger Mensch^lmit meinen Kräften Gott nicht loben kann,^lsende ich alle Kreaturen zum°himmlischen°Hof^lund heiße sie Gott für mich preisen^lmit all ihrer Weisheit,^lmit all ihrer Liebe,^lmit all ihrer Schönheit,^lmit all ihrer Sehnsucht,^lwie sie unverletzt von Gott geschaffen waren,^lund auch mit all ihren Stimmen, wie°sie°nun°singen.^lWenn ich dieses große Lob anseh’,^ldann ist mir nirgends weh.^pIch kann es aber nicht leiden,^ldass ein einziger Trost mich berühre,^laußer von meinem Viellieben.^lMeine irdischen Freunde liebe ich^lwie Gefährten der Ewigkeit,^lund meine Feinde liebe ich^lin heiligem Schmerz nach ihrer Seligkeit.^pGott allein hat an allen Dingen genug,^lnur allein die Berührung der Seele^lwird ihm nie genug.",
+        "resp1": "Ahmt Gott nach als seine geliebten Kinder und übt die Liebe,",
+        "resp2": "weil auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt.",
+        "resp3": "Die Liebe Christi drängt uns, wenn wir erklären: Einer ist für alle gestorben, also sind alle gestorben."
+      },
+      {
+        "autor": "Theresia vom Kinde Jesus (†°1897)",
+        "werk": "Aus einem Brief an Schwester Marie du Sacré-Cœur.",
+        "text": "^hMeine°Berufung°ist°die°Liebe^pAls beim Gebet meine Begierden mich ein wahres Martyrium erleiden ließen, schlug ich die Briefe des heiligen Paulus auf, um irgendeine Antwort zu suchen. Das 12. und 13.°Kapitel des ersten Korintherbriefes fiel mir in die Hände. Ich las im ersten, dass nicht alle zugleich Apostel, Propheten, Lehrer usw. sein können, dass die Kirche sich aus verschiedenen Gliedern zusammensetzt und dass das Auge nicht zugleich Hand sein kann {1#vgl.°1 Kor 12,29.12.21}.^pDie Antwort war klar, stillte aber mein Sehnen nicht und brachte mir keinen Frieden. Wie Magdalena sich immer wieder über das leere Grab beugte und schließlich fand, was sie suchte, so erniedrigte ich mich bis in die Tiefen meines Nichts, und da erhob ich mich so hoch, dass ich mein Ziel erreichte {2#@Hl. Johannes vom Kreuz, Gedichte, Zweiter Gesang über eine Ekstase}. Ohne mich entmutigen zu lassen, setzte ich meine Lesung fort und fand Trost in folgendem Satz: „Strebt eifrig nach den vollkommensten Gaben, aber ich will euch einen noch vorzüglicheren Weg zeigen.“ {3#1 Kor 12,31} Und der Apostel erklärt, wie die vollkommenen Gaben nichts sind ohne die Liebe. Dass die Liebe {4#@‚charité‘ – die christliche Gottes- und Nächstenliebe} der vortreffliche Weg ist, der mit Sicherheit zu Gott führt.^pEndlich hatte ich Ruhe gefunden. Den mystischen Leib der Kirche betrachtend, hatte ich mich in keinem der vom heiligen Paulus geschilderten Glieder wiedererkannt, oder vielmehr, ich wollte mich in allen wiedererkennen. Die Liebe gab mir den Schlüssel meiner Berufung. Ich begriff, dass wenn die Kirche einen aus verschiedenen Gliedern bestehenden Leib hat, ihr auch das notwendigste, das edelste von allen nicht fehlt; ich begriff, dass die Kirche ein Herz hat und dass dieses Herz von Liebe brennt. Ich erkannte, dass die Liebe allein die Glieder der Kirche in Tätigkeit setzt, und würde die Liebe erlöschen, so würden die Apostel das Evangelium nicht mehr verkünden, die Märtyrer sich weigern, ihr Blut zu vergießen. Ich begriff, dass die Liebe alle Berufungen in sich schließt, dass die Liebe alles ist, dass sie alle Zeiten und Orte umspannt. Mit einem Wort: dass sie ewig ist!^pDa rief ich im Übermaß meiner überschäumenden Freude: O Jesus, meine Liebe, endlich habe ich meine Berufung gefunden: Meine Berufung ist die Liebe!^pJa, ich habe meinen Platz in der Kirche gefunden, und diesen Platz, mein Gott, den hast du mir geschenkt: Im Herzen der Kirche, meiner Mutter, werde ich die Liebe sein; so werde ich alles sein."
+      }
+    ]
+  },
+  "k-1-4": {
+    "patr_selector": [
+      {
+        "autor": "Johannes vom Kreuz (†°1591)",
+        "werk": "Aus den Dichtungen.",
+        "text": "^hDie Flamme lebendiger Liebe^pO Flamme lebendigen Lebens,^ldie zart meine Seele entzündet^lin ihrem tiefen Grunde:^lSchon lohest du, nicht vergebens.^lSchon ist, wie vorverkündet,^lverzehrt, was uns verwebt^ßin innigem Bunde.^pO süße Versehrung! O°Wunde,^lzartestes aller Zeichen!^lSanfteste Hand,^ßdie dies Geschenk gegeben!^lEwigen Lebens Kunde^lwird alle Schuld begleichen,^ltötend, den Tod verwandelnd^ßin das Leben.^pO Lampen voll Feuergefunkels,^lin die Höhlen der blinden, getrübten^lSinne niederscheinend,^ldurchstrahlend^ßdie Schatten des Dunkels^lund für den Geliebten^lSchönheit mit Licht und Wärme^ßseltsam einend.^pWie du, der heimlich im Innern^lallein in mir wohnt, der Verhüllte,^lAugen aufschlägst aus der Nacht!^lWie dein Anhauch aus süßem Erinnern,^lder mit Wohltun und Glorie gefüllte,^lmich liebt und dich lieben macht!",
+        "resp1": "Gott ist Licht, und Finsternis gibt es nicht in ihm.",
+        "resp2": "Wenn wir im Licht leben, wie er im Licht ist, dann haben wir miteinander Gemeinschaft.",
+        "resp3": "Wir wissen, dass wir ihm ähnlich sein werden, denn wir werden ihn sehen, wie er ist."
+      },
+      {
+        "autor": "Reginald Garrigou-Lagrange (†°1964)",
+        "werk": "Aus dem Buch „Mystik und christliche Vollendung“.",
+        "text": "^hDie°vollkommene°Liebe^pNach dem heiligen Johannes vom Kreuz findet sich die wahre, auf Erden noch mögliche Vollkommenheit nur in der umbildenden Vereinigung oder geistigen Vermählung {1#@Geistl.°Gesang, III.°Teil, 22.°Strophe}. Es erfüllt sich da, was im Hohenliede geschrieben steht: „Schon ist der Winter vorüber, der Regen hat aufgehört und ist vergangen, schon erscheinen die Blumen in unserem Lande.“ {2#vgl.°Hld°2,11}^pDas ist die volle Entfaltung der Liebe. Die vollkommene Liebe nimmt Gottes wegen jedes Werk oder jedes Opfer auf sich, sie findet darin sogar eine heilige Freude {3#@a.a.O.,°24.°Strophe}. Sie schreckt vor dem Tode nicht zurück, sondern wünscht ihn herbei; nichts schreibt sie sich selbst zu, sondern bezieht alles auf Gott. In ihn bildet sie sich gewissermaßen um nach dem Wort des heiligen Paulus: „Wer aber dem Herrn anhängt, ist EIN Geist mit ihm.“ {4#vgl.°1°Kor°6,17}^p„Gott selbst ist es, der sich ihr in wunderbarer Herrlichkeit mitteilt und sie umgestaltet. In diesem Stande werden beide eins wie das Glas und der Sonnenstrahl, wie die Kohle und das Feuer, wie das Licht der Sterne und das Sonnenlicht, wenn auch diese Vereinigung noch nicht so wesenhaft und so vollkommen ist wie im anderen Leben.“ {5#@a.a.O.,°26.°Strophe}"
+      }
+    ]
+  },
+  "k-1-5": {
+    "patr_selector": [
+      {
+        "autor": "Johannes vom Kreuz (†°1591)",
+        "werk": "Aus den Dichtungen.",
+        "text": "^hChristus, der junge Hirt, und°die°Menschheit^pEin junger Hirt, vereinsamt, wacht°im°Leeren,^lder Freude fern, entfremdet°dem°Behagen.^lAn seine Hirtin denkt er. Und°die°Klagen^lder Liebe sind es, die°sein°Herz°verzehren.^pNicht weint er, weil°Gedanken°ihn°versehren^lan Liebe, die°so°trauernd°ihn°betrübte,^ldass ihm das Herz wie wund war, weil°es°liebte.^lEr weint, weil°er°vergessen°ist°im°Leeren.^pWeil er so ganz vergessen ist im°Leeren^lvon seiner schönen Hirtin. Unter°Schmerzen^lmisshandeln lässt er sich, doch°nur°im°Herzen^lfühlt er die Liebe ihn°mit°Leid°beschweren.^pEs spricht der junge Hirt: „Weh°mir!°Entbehren^lmuss ich die Liebe, die°mir°weit°entfernte,^ldie meine Gegenwart nie°kennenlernte,^lund darum meiner Brust den°Schmerz°bescheren.“^pUnd über eine Zeit, an°jenem°hehren^lBaum hoch erhöht, die°schönen°Arme°breitend,^ldas Haupt inmitten neigt’ er, schwer°verscheidend,^ldas Liebesherz erfüllt°von°Gram°und°Zähren.",
+        "resp1": "Auch mächtige Wasser können die Liebe nicht löschen;",
+        "resp2": "auch Ströme schwemmen sie nicht weg.",
+        "resp3": "Stark wie der Tod ist die Liebe."
+      },
+      {
+        "autor": "Ernest Hello (†°1885)",
+        "werk": "Aus dem Buch „Der Mensch“.",
+        "text": "^hDie°christliche°Liebe^pMan sollte sich doch darüber klar sein: Je schöner ein Wort ist, um so gefährlicher ist es. Es lässt sich gar nicht sagen, welch ungeheure Bedeutung die Sprache hat. Worte sind Brot oder Gift, und die allgemeine Verwirrung ist eines der Kennzeichen unserer Zeit.^pDurch ihre Nachgiebigkeit werden die Zeichen, die der Sprache zur Verfügung stehen, zu furchtbaren Werkzeugen. Jeden beliebigen Missbrauch kann man mit ihnen treiben, sie widersprechen nicht. Sie lassen sich ruhig entehren, und die Entstellung der Worte offenbart sich lediglich durch die gründliche Unordnung, die sie in der Wirklichkeit anrichtet.^pEs gibt ein Wort des heiligen Paulus, dessen Tiefe unbekannt ist: Der Heidenapostel erklärt, wenn er durch seinen Glauben Berge versetzte und hätte die Liebe nicht, so wäre er nichts. Dies Wort hat einen Umfang, den nur wenige kennen. Der es gesprochen, wusste um seltsame Geheimnisse.^p„Der Teufel ist der, der nicht liebt“, hat die heilige Theresia gesagt, und die heilige Brigitte hat dies schreckliche Geständnis aus dem Munde des Verfluchten selbst vernommen. Da der Teufel zu Jesus spricht, sagt er ihm die Worte: „Richter, ich bin die Kälte.“^p„Wer nicht liebt, ist nichts“, sagt der heilige Paulus. Wie verhält sich das Nichts zur Sünde?^pWelchen Namen trüge die Liebe in einer Sprache, die höher stünde als die unsere? Wäre es nicht ein und derselbe Name?^pWie tiefe Geheimnisse auch die fleischliche Liebe hüten mag, in der sittlichen Ordnung ist die Liebe jedenfalls das Gesetz des Lebens. Sie ist der Urgrund selber der Tätigkeit. Hätten die Menschen nicht gar soviel Geschäfte am Halse, so könnten sie vielleicht einen Augenblick über diese Dinge nachdenken. Sie ist zu alltäglich, um bemerkt, zu tief, um verstanden zu werden.^pAber eben deshalb, weil die Liebe^w das ^0werhabene Ding und^w die ^0wWirklichkeit in des Wortes verwegenster Bedeutung, dazu das Knochenmark der Schöpfung ist, gerade deswegen muss es ganz besonders gefährlich sein, wenn die Liebe missbraucht und ihr Name falsch angewendet wird. Das Beste wird, wenn es verdorben wird, zum Allerschlechtesten. Je schöner der Name Liebe, um so schrecklicher ist er! Und wenn er sich nun mit der Macht bewaffnet, die er für das Leben empfing und sie gegen die Wahrheit kehrt, so wird er dem Tode jeden Dienst leisten.^pImmer dann, wenn man sich mit dem Irrtum unter dem Vorwand, die Menschen zu schonen, verträgt, statt ihn auszurotten, richtet man den Namen der Liebe wider das Licht. Und so schafft man sich womöglich den Vorwand, sich das Schlechte in der eigenen Seele, das Schlechte, das man so gerne hätschelt, zu verzeihen.^pDer Mensch wird gegenüber der Schwäche, die Besitz von ihm ergreifen will, weichlich, sobald es ihm erst einmal zur Gewohnheit geworden ist, die völlige Anpassung an jedwede Schwäche Liebe zu nennen."
+      }
+    ]
+  },
+  "Kirchweihe": {
+    "patr_selector": [
+      {
+        "autor": "Origenes († 253/254)",
+        "werk": "Aus einer Homilie zum Buch Josua. (Hom.°9^v,1–2^0v)",
+        "text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
+        "resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
+        "resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^HALLo",
+        "resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
+      },
+      {
+        "autor": "Augustinus († 430)",
+        "werk": "Aus einer Predigt zur Weihe einer Kirche. (Sermo°336^v,1.6^0v)",
+        "text": "^hDer°Aufbau°und°die°Weihe des°Hauses°Gottes°in°uns^pWir sind hier versammelt, um ein Haus des Gebets feierlich zu weihen. Dies hier ist also ein Haus für unser Beten; Haus Gottes dagegen sind wir selbst. Wenn wir selbst Haus Gottes sind, werden wir in dieser Welt aufgebaut, um am Ende der Zeiten geweiht zu werden. Das Bauwerk, vor allem das Bauen, bringt Mühsal, die Weihe Jubel.^pWas hier geschah, als diese Mauern erstanden, ereignet sich nun, da die Christusgläubigen sich versammeln. Im Glauben werden sozusagen in den Wäldern die Hölzer gefällt und in den Bergen die Steine gebrochen. Werden aber die Glaubenden unterrichtet, getauft und herangebildet, ist es, als würden sie von den Händen der Zimmerleute und Steinmetzen behauen, gerichtet und geglättet.^pAber sie werden nicht zum Haus des Herrn, wenn sie nicht durch die Liebe verbunden werden. Wenn diese Hölzer und Steine nicht nach einem bestimmten Bauplan miteinander zusammenhingen, wenn sie nicht friedlich ineinandergefügt wären, wenn sie einander nicht gewissermaßen lieb hätten, niemand würde hier eintreten. Wenn du jedoch siehst, dass in einem Gebäude Hölzer und Steine gut miteinander zusammenhängen, trittst du unbesorgt ein und fürchtest keinen Einsturz.^pAls darum Christus der Herr eintreten und in uns wohnen wollte, sagte er gewissermaßen als Baumeister: „Ein neues Gebot gebe ich euch: Liebet einander“ {1#Joh 13, 34}. Ich gebe euch ein Gebot, sagt er: Ihr wart alt, bautet mir noch kein Haus, lagt in Trümmern. Nun liebt einander, damit ihr aus eurer alten Trümmerstätte herauskommt.^pDenkt also daran, meine Lieben, dass dieses Haus auf der ganzen Erde gebaut wird; so ist es vorausgesagt und versprochen. Denn als der Tempel nach der Gefangenschaft erbaut wurde, hieß es, wie in einem andern Psalm steht: „Singt dem Herrn ein neues Lied, singt dem Herrn, alle Lande“ {2#Ps 96, 1}.^pWas dort hieß „neues Lied“, hieß beim Herrn „neues Gebot“. Denn was soll „neues Lied“, wenn nicht „neue Liebe“?! Wer liebt, muss singen. Dieses Sängers Stimme ist das Feuer heiliger Liebe.^pWas wir in diesen Wänden leiblich vollbracht sehen, geschehe geistig in den Herzen, und was wir hier vollendet sehen in Stein und Holz, möge, erbaut von Gottes Gnade, in eurem Leib vollendet werden.^pIn erster Linie wollen wir also dem Herrn, unserem Gott, danken, von dem jede gute Gabe und jedes vollkommene Geschenk kommt {3#Jak 1, 17}. Seine Güte wollen wir mit der ganzen Freudigkeit des Herzens loben, weil er für den Bau dieses Hauses des Gebets den Geist seiner Gläubigen besucht, ihr Herz angespornt, ihre Mühen hilfreich mitgetragen hat.^pAls sie noch nicht wollten, hat er sie zum Wollen erweckt. Die Regungen ihres guten Wollens hat er unterstützt zum Vollbringen. So hat Gott, der in den Seinen „das Wollen und das Vollbringen nach seinem Wohlgefallen wirkt“ {4#Phil 2,13 Vg}, dies alles selbst begonnen und selbst vollendet {5#vgl. Phil 1,6}.",
+        "resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!",
+        "resp2": "Meine Seele verlangt und sehnt sich nach den Vorhöfen des Herrn.^Ö",
+        "resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben."
+      }
+    ]
+  },
+  "Köln-09-27": {
+    "patr_selector": [
+      {
+        "autor": "Emmanuel Célestin Kardinal Suhard",
+        "werk": "Aus der Predigt des Emmanuel Célestin Kardinal Suhard bei der 700-Jahr-Feier der Grundsteinlegung des Domes (Kölner Domjubiläum 1948, hrsg. v. Kölner Domkapitel, Düsseldorf 1950, 97f.)",
+        "text": "^hDer Dom aus Steinen – ein Bild der lebendigen Kirche^pDombau! Hier wird die Vergangenheit lebendig, hier wird die Zukunft bereits Wirklichkeit, die Zukunft, die sich uns Christen als erste Aufgabe stellt. Unser Denken und Handeln findet sich hier programmatisch vorgezeichnet: Wir müssen im Reich der Menschen eine geistige Kirche errichten, die in allem unserem Gotteshaus aus Stein ähnlich ist.^pGehen wir in den Dom hinein! Was sehen wir? Zunächst als Mittelpunkt, auf den der ganze Bau hinzustrebt: den Altar. Der Altar, d.h. der Tisch aus Stein, auf dem unaufhörlich das Opfer Christi dargebracht wird, der Stein, mit den Reliquien von Märtyrern, über dem Gottes Zelt errichtet ist. Wir wollen das Bild ausdeuten: Einen Altar neu bauen heißt in einer Zeit, die nur Vernunft und Materie gelten lässt, das Heilige wieder zur Geltung zu bringen. Wir werden den Menschen nicht durch die Menschen allein retten. Jeder Fortschritt der Menschheit, der unterwegs Halt machen möchte und sich nicht zum Himmel empor tragen lassen will in dem Ganzopfer, das Christus in ihr seinem Vater darbringt, wird vergeblich sein.^pUnsere Kirchen haben überdies ein Querschiff, jenes geheimnisvolle Bild des Kreuzes, das unsere Vorfahren erdachten, um ständig auf das Kreuz Christi hinzuweisen. Auch diese Lehre lasst uns nicht vergessen! Wenn unsere Zeit einen Humanismus nötig hat – und wir zögern nicht, daran zu glauben –, soll es ein Humanismus sein, der das Kreuz zum Mittelpunkt hat. Wehe einer Kultur, die sich für fähig hielte, aus eigener Kraft zum Ziele zu kommen, anstatt im Kreuzesholz von Kalvaria die Grundlage eines höheren Lebens zu suchen.^pVor dem Altar und auf ihn hingerichtet eine einzige Bewegung: das mächtige Hauptschiff mit seinen riesigen Pfeilern; steht dieses zum Himmel flehende Gewölbe, das sich über das betende Volk Gottes ausspannt, um es zu bergen! Seht das Kirchenschiff, das die vielgestaltige Menge der Gläubigen aus allen Himmelsrichtungen in sich sammelt! Wunde der Einheit! Rassen, Völker, Reich und Arm finden sich, ohne etwas von ihrem eigenen Wesen aufzugeben, vereint in einer einzigen geheimnisvollen Gemeinschaft, in der die Lebenden und Toten zusammen einen einzigen Leib bilden, den mystischen Leib Christi. In einem Jahrhundert, das von brudermörderischen Kämpfen zerrissen wird, eine unvergessliche Mahnung! Inmitten einer solchen Zeit und gegen sie haben die Christen ihre Aufgabe, unermüdlich alles zu versuchen, um über die Grenzen und Ozeane hinweg diese Annäherung der Menschen untereinander zu verwirklichen; und sie wird nicht möglich sein, wenn ihr nicht die grundlegende Einheit der Christen vorangeht und wenn sie nicht von ihr verklärt wird. Mehr als sonstwo muss man hier jede Selbsttäuschung ausschalten; der Friede, der die Frucht der Gerechtigkeit ist, ist ebenso sehr und in gleichem Maße die Frucht der Liebe.^pSeht schließlich den Eingang zum Gotteshaus; seht die drei Hauptportale, durch die die Menschen zu Gott kommen und durch die Gott zu den Menschen kommt! Der mystische Dom, den wir anstreben, wird immer seine Tore haben müssen; Tore, die bisweilen geschlossen sind, um im Sturm der Zeiten die zu schützen, die der Herr sich durch sein Blut erkauft hat. Wenn die Kirche für alle Menschen weit offen steht, sie prüft die Ideen und verschließt sich, wenn es an der Zeit ist, den Lehren des Stolzes, des Fleisches, des Mammons, die selbst jene in Fesseln schlagen, die von ihnen zu befreien behaupten. Die Tore der Kirche sind weit offen für alle Menschen, die guten Willens sind. Heute wie gestern sind diese Hallen, die sich über die Welt eröffnen, ein Bild und ein Programm für unser Handeln. Der Bau, den man von uns erwartet, ist nicht eine kleine Kapelle, in der man nur die eigenen Privilegien hütet. Er ist die allen zugängliche und alle aufnehmende Wohnung, wo jedes Leid eine Zuflucht, wo jede Bemühung um die Wahrheit ein Echo findet; denn, wenn die Kirche das Haus Gottes ist, ist sie auch das Haus der Menschen. Sie warten auf sie, um sie mit ihren besonderen Begabungen und ihren echten Errungenschaften aufzunehmen. Die römische Kirche verschließt sich nicht gegenüber der modernen Welt. Sie öffnet sich ihr, um sie zu taufen. Wenn sie also ihre Kinder zusammenruft, dann nur, um sie hinauszuschicken als bessere Menschen und als eifrigere Apostel zu den unzähligen Menschen, die nur auf diese Liebe warten, um zu leben und um sich zu lieben.^pDer Altar, das Kreuz, das Schiff, das Portal: das ist der Dom, den wir zu bauen haben. Was wir getrennt nicht bringen, wird die Anstrengung aller erreichen. Verlieren wir nicht das Vertrauen! Die Generationen vergehen, die Kulturepochen lösen einander ab. Aber über den Ruinen, höher als Häuser und Monumente, steht beherrschend der Dom. Wenn alles einstürzt, wenn alles in Vergessenheit gerät, die Kirche bleibt!",
+        "resp1": "Fest gegründet steht das Haus des Herrn auf dem höchsten der Berge, es ragt empor über alle Hügel.",
+        "resp2": "Alle Völker strömen zu ihm hin und rufen: Ehr sei dir, o Herr!",
+        "resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
+      },
+      {
+        "autor": "LEER",
+        "werk": "Aus der Kölner Königschronik.",
+        "text": "^hDie Grundsteinlegung des Domes^pIm Jahr des Herrn 1248 war das Domkapitel mit Zustimmung des Erzbischofs und der hohen Geistlichen der Stadt übereingekommen, die alte Domkirche vollständig abzutragen und durch eine neue, großartigere zu ersetzen.^pDie Baumeister gingen mit großer Eile daran, den östlichen Teil der Kirchenmauern zu unterhöhlen und die Höhlungen mit Holzstämmen abzustützen; dann zündeten sie die Stämme an, so dass die darüber stehende Baulast bald zusammenstürzte.^pAber sie gingen dabei unvorsichtig zu Werke: Sie legten nämlich zu große Feuerstellen an, und so breitete sich – auch durch den Wind, der hereinschlug – das Feuer aus und verzehrte das ehrwürdige, wenn auch alte Bauwerk der Kirche bis auf die Außenmauern völlig. Dabei wurden auch die beiden vergoldeten Kronleuchter vernichtet, die im Innenraum der Kirche hingen.^pAber Gottes Fügung zeigte sich offensichtlich darin, dass man vor dem Anlegen des Feuers den Dreikönigsschrein von seinem Platz mitten in der Kirche zum Domportal gebracht hatte, und zwar nicht, weil man wegen des Feuers in Sorge war, sondern wegen des Einsturzes von Mauern. So konnte man, als dann die Kirche voller Rauch war, den Schrein, wenn auch nur mit großer Mühe, noch hinausschaffen, und er blieb ohne die geringste Beschädigung erhalten.^pZur Grundsteinlegung der neuen Domkirche lud dann Erzbischof Konrad die geistlichen Prälaten sowie die weltlichen Adeligen und Ministerialen ein; und auch eine kaum zählbare Volksmenge kam, durch die Prediger dazu ermuntert, zusammen.^pNach dem feierlichen Hochamt am Fest der Aufnahme der seligen Jungfrau Maria in den Himmel legte der Erzbischof den Grundstein in der Vollmacht des Herrn Papstes wie auch seiner eigenen und der des päpstlichen Legaten.^pAlle Suffragane der Kirche von Köln aber förderten den Bau in einer der Gläubigen bislang unerhörten Großzügigkeit. Selbst brachten sie ihre Spenden oder schickten sie zum Baufonds der erwähnten Kirche.^pSeit dieser Zeit begann man unter großem Aufwand mit dem Bau des Fundaments der neuen Basilika des heiligen Petrus, der Hauptkirche Kölns, eines Fundaments, über dessen Mächtigkeit und Tiefe man staunen musste."
+      }
+    ]
+  },
+  "Köln-10-21": {
+    "patr_selector": [
+      {
+        "autor": "Joseph Teusch († 1976)",
+        "werk": "Aus einer Predigt von Joseph Teusch († 1976)",
+        "text": "^hDas Blut der Märtyrer ist der Same neuer Christen^pIm letzten Buch der Heiligen Schrift, der Geheimen Offenbarung, schreibt Johannes: „Dann schaute ich auf, und siehe da: eine große Schar, die niemand zu zählen vermochte, aus allen Völkern und Stämmen und Zungen und Sprachen. Sie trugen weiße Gewänder und Palmen in den Händen. Sie standen vor dem Thron und dem Lamm“ (Offb 7,9). Jetzt erlebt Johannes einen Gottesdienst im Himmel: „Die mit den weißen Gewändern rufen mit gewaltiger Stimme: Heil unserem Gott, der auf dem Thron sitzt, und dem Lamm“ (ebd. 7,10).^pDie mit den weißen Gewändern sind die Märtyrer aus allen Völkern und Jahrhunderten. Jetzt ist die irdische Not vergangen, Verfolgte und Verfolger sind nicht mehr auf der Erde zu finden, und für die Verfolgten beginnt das neue Leben mit Gott und in Gott.^pNun erheben wir unsere Augen und schauen mitten hinein in die Vision des Johannes. Da sehen wir Bekannte, Jungfrauen aus Köln: Ursula und ihre Schar. Sie steht da mit den vielen Tausenden, die Opfer der Verfolgung des Römischen Reiches geworden sind.^pWenn wir aber die große Schar schauen, die niemand zu zählen vermag, dann erkennen wir, dass die Märtyrer aus unserem Jahrhundert zahlreicher sind als die Märtyrer aus den übrigen Jahrhunderten zusammengenommen. Wir sind eine Kirche der Märtyrer und eine Kirche der Bekenner.^pNach dem Vorbild und dem Auftrag Christi verbreitet sich der Glaube durch die Verkündigung. Der Verkündiger wird glaubhaft durch die Werke der Liebe: „Seht, wie sie einander lieben“, und: „Der Herr führte ihnen täglich Neue zu“ (Apg 2,47). Die Verkündigung wird aber auch glaubhaft durch das Martyrium. Wenn jemand Freiheit und Leben, Besitz und Einkommen, ja das Wohl der eigenen Familie aufs Spiel setzt, dann muss es ihm doch wohl ernst sein mit dem, was er verkündet. So hat sich schon früh in der Christenheit das Wort gebildet: „Das Blut der Märtyrer ist Same neuer Christen“.^pBis zum Jahr 313 von Geschlecht zu Geschlecht, unaufhörlich, ohne dass ein Ende abzusehen ist, Verfolgung über Verfolgung. Wenn dann 313 die äußere Freiheit kommt, hat das Römische Reich eine christliche Bürgerschaft, besonders in den Städten. Die heidnischen Restbestände werden weggegelebt. Die neu eintretenden Völker der Germanen und Slawen werden Christen. So sind die Grundlagen gelegt für das christliche Mittelalter, für das christliche Abendland. Wir verneigen uns vor Ursula und ihrer Schar und vor all den Märtyrern des Römischen Reiches.^pGläubige kann man töten, den Glauben nicht. Im Gegenteil: Das Blut der Märtyrer ist der Same neuer Christen.^pWenn wir jetzt das Fest zu Ehren der heiligen Ursula und ihrer Schar begehen, dann sind wir einbezogen in diesen großen Gottesdienst, den im Himmel die Chöre der Märtyrer und aller Heiligen und die Chöre der Engel feiern und zu dem hier Erde und Meer und alles, was darin ist, ihr Echo geben. Wir danken Gott dem Herrn, dass er die Chöre der Engel geschaffen und durch seinen Geist die Chöre der Märtyrer und der Heiligen aufgebaut hat; wir bitten ihn, dass derselbe Geist als Geist der mutigen Verkündigung, als Geist der tätigen Liebe, als Geist zumindest der Bereitschaft zu allem in uns lebendig bleibe.",
+        "resp1": "Das sind jene, die für den Bund mit Gott ihren Leib hingegeben haben.",
+        "resp2": "Ihre Gewänder haben sie gewaschen und im Blut des Lammes weiß gemacht.",
+        "resp3": "Sie gaben ihren Leib den Marterqualen hin um Gottes willen, als Lohn erhielten sie ewige Kronen."
+      },
+      {
+        "autor": "LEER",
+        "werk": "Aus einer mittelalterlichen Predigt am Todestag der heiligen Jungfrauen.",
+        "text": "^hDas Martyrium der Jungfrauen – eine Ehre für Köln^pDie heiligen Jungfrauenscharen von Köln sind für uns am heutigen Tag ebenso der Bewunderung wie der Verehrung würdig. An ihrem Festtag, den wir allzeit feierlich begehen, wissen wir nicht, welches ihrer Verdienste wir zuerst, welches zuletzt nennen sollen; denn wir kennen nur überaus große.^pWer in aller Welt kann sich darüber wundern, dass die Taten und Kämpfe dieser himmlischen Schar nicht gleich von Anfang an aufgezeichnet worden sind, um sie der Nachwelt rein und klar zu überliefern, da doch die allgemeine Drangsal der Völker, herbeigeführt durch tobende Barbaren gerade in dieser Gegend, dieses Versäumnis genügend erklärt?^pSo kam es auch dazu, dass das Andenken an diese heiligen Jungfrauen allmählich aus dem Leben des kurz vorher bekehrten Volkes schwand – zunächst aus dem Mund, dann auch aus dem Herzen –, nachdem die Hüterin der heiligen Leiber, nämlich die Kirche der heiligen Jungfrauen, abgebrannt war. Ja, die Verehrung der heiligen Stätten mit so kostbarem Schatz war bei den Unsrigen so sehr vergessen worden, dass aus weit entlegener Gegend im Osten ein gewisser Mann namens Clematius nach Köln kommen musste, ein berühmter, frommer Mann, durch Ruf und Stellung wohl geeignet, um die Verehrung und Verherrlichung der Grabstätten der heiligen Jungfrauen wieder zu beleben, wie es uns der Erfolg zeigt. Er kam, angeregt durch häufige Zeichen, Schreckbilder und Mahnungen, und vollendete das, was er in seiner Heimat anfangs aus Furcht gelobt hatte, hier frommen Sinnes, indem er die Kirche der heiligen Jungfrauen wieder aufbaute. Eine Denkschrift darüber, in Stein gehauen, wird dort aufbewahrt; ich hielt es für notwendig, sie wörtlich in diese Rede aufzunehmen: „Durch gottgesandte Flammenvisionen öfters gemahnt und durch die gewaltige Majestät des Martyriums der himmlischen Jungfrauen, die ihm erschienen, aus der östlichen Reichshälfte herbeigeholt, hat auf Grund eines Gelübdes Clematius aus senatorischer Familie auf eigene Kosten und auf eigenem Gelände diese Basilika von Grund auf wiederhergestellt, wie er es seinem Gelübde schuldig war.“^pWie scharf die Klugheit der Jungfrauen, wie gelassen ihre Gerechtigkeit, wie echt ihre Selbstüberwindung, wie beherzt ihre Tapferkeit gewesen ist, als sie im Begriff waren, für ihren Herrn zu streiten und mit klarem Blick ihr Herz und ihren Sinn auf die wahre Weisheit zu richten, das können nur jene treffend und vernünftig erkennen, die in der glücklichen Bereitschaft sind, ihnen im Leben nachzufolgen. Übrigens freuen wir uns nicht nur am heutigen Tag, sondern rühmen uns der heiligen Jungfrauen allzeit mit Stolz. Als ihnen die unmenschlichen Henker entgegenkamen, begrüßten sie den Boden der Agrippina Colonia nicht nur flüchtig wie Gäste, sondern blieben hier und empfingen die Märtyrerkrone, sie verherrlichen die Stadt als ihre eigene durch Vergießen ihres Blutes. Mit ihren heiligen Leibern brachten sie uns so viel Schutz, als sie mit ihrer tausendfältigen Fürbittstimme denen, die sie würdig anrufen, am Thron der Barmherzigkeit unseres Erlösers, des eingeborenen Sohnes des Vaters, erlangen können. In seiner Güte gibt er den Scharen der heiligen Jungfrauen, die ihm folgen, wohin er geht, die Liebe, für uns zu beten, und verleiht in seiner Huld das Erbetene, er, der mit Gott, seinem Vater, und dem Heiligen Geist, der Liebe beider, als allmächtiger Gott lebt und herrscht in alle Ewigkeit. Amen.",
+        "resp1": "Die Heiligen vergossen ihr Blut für den Herrn, sie liebten Christus in ihrem Leben und folgten ihm nach bis in den Tod.",
+        "resp2": "Darum schenkte ihnen der Herr den Siegeskranz.",
+        "resp3": "Ein Geist und ein Glaube war in ihnen."
+      }
+    ]
+  },
+  "Limburg-02-14": {
+    "patr_selector": [
+      {
+        "autor": "Alfred Delp († 1945)",
+        "werk": "Aus seinem Tagebuch „Im Angesicht des Todes\".",
+        "text": "^hIch muss mich innerlich loslassen und mich hergeben^pBis jetzt hat mir der Hergott sehr herrlich und herzlich geholfen. Ich bin noch nicht erschrocken und noch nicht zusammengebrochen. Jetzt bin ich ja erst Mensch geworden, innerlich frei und viel echter, wahrhafter und wirklicher als früher ... Ja, ganz ehrlich gesagt, ich glaube noch nicht an den Galgen. Ich weiß nicht, was das ist. Vielleicht eine große Gnade und Hilfe des väterlichen Gottes, der mich so in der Wüste bestehen lässt, ohne in ihr verdursten zu müssen. Während der ganzen Verhandlung, auch als ich merkte, das „Wunder\" bleibt aus, war ich weit oben darüber und unberührbar durch all die Vorgänge und Aussichten. Ist das das Wunder, oder was ist das? Ich bin Gott gegenüber wirklich in einiger Verlegenheit und muss mir darüber klar werden.^pDiese ganzen bitteren Monate der Reife und des Unglücks stehen unter einem ganz eigenartigen Gesetz. Von der ersten Minute an war ich innerlich sicher, es würde alles gutgehen. Gott hat mich in dieser Sicherheit immer wieder bestärkt. Ich habe in diesen letzten Tagen gezweifelt und überlegt, ob ich Selbsttäuschungen zum Opfer gefallen bin, ob sich mein Lebenswille in religiöse Einbildungen sublimiert hat ... Aber diese vielen spürbaren Erhebungen mitten im Unglück, diese Sicherheit und Unberührtheit in allen Schlägen ... diese Tröstungen beim Gebet und beim Opfer; diese Gnadenstunden vor dem Tabernakel; diese erbetenen und immer wieder gegebenen Zeichen: ich weiß nicht, ob ich das alles jetzt wegtun darf ... Will der Herrgott das Opfer, das ich ihm nicht versagen will, oder will er die Bewährung des Glaubens und Vertrauens bis zum äußersten Punkt der Möglichkeit? ...^pEs ging (aber) alles schief, was ich unternahm, um mir zu helfen. Ja, nicht nur schief, es war eigentlich immer zum Unheil. So auch jetzt bei der Verhandlung ... Die Dinge, die wir für unsere Verteidigung vorbereitet hatten, wurden uns in neue Belastungen umgedeutet. Der ganze äußere Verlauf war Scheitern und Schiffbruch und Ohnmacht über Ohnmacht ...^pWas will der Herrgott mit alledem? Ist es Erziehung zur ganzen Freiheit und vollen Hingabe? Will er den ganzen Kelch bis zum letzten Tropfen, und gehören dazu diese Stunden des Wartens ...? Oder will er die Glaubensprobe?^pWas soll ich jetzt tun, ohne untreu zu werden? Soll ich weiterhoffen, trotz der Aussichtslosigkeit? Ist es Untreue, wenn ich davon ablasse? Soll ich mich ganz loslassen und die Abschiede vollziehen und mich ganz auf den Galgen einstellen? Ist es Feigheit oder Trägheit, dies nicht zu tun und noch zu hoffen? Soll ich einfach in der Freiheit zur Verfügung bleiben und in der Bereitschaft? Ich kenne mich noch nicht recht aus und bete dauernd um Erleuchtung und Führung ...^pAuf jeden Fall muss ich mich innerlich gehörig loslassen und mich hergeben. Es ist die Zeit der Aussaat, nicht der Ernte. Gott sät, einmal wird er auch wieder ernten. Um das eine will ich mich mühen: wenigstens als fruchtbares und gesundes Saatkorn in die Erde zu fallen. Und in des Herrgotts Hand. Und mich gegen den Schmerz und die Wehmut wehren, die mich manchmal anfallen wollen. Wenn der Herrgott diesen Weg will – und alles Sichtbare deutet darauf hin –, dann muss ich ihn freiwillig und ohne Erbitterung gehen ...^pIch bitte auch die Freunde, nicht zu trauern, sondern für mich zu beten und mir zu helfen, solange ich der Hilfe bedarf. Und sich nachher darauf zu verlassen, dass ich geopfert wurde, nicht erschlagen. Ich hatte nicht daran gedacht, dass dies mein Weg sein könnte ... Ehrlich und gerade: Ich würde gern noch weiterleben und gern und jetzt erst recht noch weiterschaffen und viele neue Worte und Werte verkünden, die ich jetzt erst entdeckt habe. Es ist anders gekommen. Gott halte mich in der Kraft, ihm und seiner Fügung und Zulassung gewachsen zu sein ... Ich aber will hier ehrlich warten auf des Herrgotts Fügung und Führung. Ich werde auf ihn vertrauen, bis ich abgeholt werde.",
+        "resp1": "Es ist die Zeit der Aussaat, nicht der Ernte. Ich muss mich innerlich loslassen und mich hergeben. Gern würde ich noch weiterleben und verkünden, was mir aufgegangen ist.",
+        "resp2": "Aber nicht mein, sondern dein Wille soll geschehen.",
+        "resp3": "Vater, wenn du willst, nimm diesen Kelch von mir."
+      },
+      {
+        "autor": "Augustinus (†°430)",
+        "werk": "Aus einer Predigt zum Fest des hl. Valentin.",
+        "text": "^h^pDer Triumphzug des seligen Blutzeugen Valentin kehrt heute in der jährlichen Festesfeier wieder. Die Kirche freut sich über seine Verherrlichung; gleichzeitig stellt sie uns sein Beispiel zur Nachahmung vor Augen. Denn wenn wir mit ihm leiden, werden wir auch mit ihm verherrlicht werden.^pBei diesem ruhmvollen Kampf müssen wir vorzüglich auf zwei Dinge achten, auf die harte Grausamkeit des Henkers und auf die unbeugsame Standhaftigkeit des Blutzeugen, um sie nachzuahmen.^pVernimm, was der Psalmist solcher Bosheit gegenüber ausruft: „Beneide nicht die Übeltäter! Denn sie verwelken rasch wie Gras.“^pDass wir den Bösen gegenüber Standhaftigkeit zeigen müssen, darüber höre den Apostel! Er mahnt uns: „Standhaftigkeit tut euch not, um die Verheißungen zu erlangen.“"
+      }
+    ]
+  },
+  "Limburg-04-23": {
+    "patr_selector": [
+      {
+        "autor": "Theodor Schnitzler",
+        "werk": "Aus dem Buch „Die Heiligen im Jahr des Herrn“.",
+        "text": "^hSankt Georg als Persönlichkeitstyp^pEr hat gelebt. Die Legende hat ihn umrankt. Gesichert sind Existenz und Martyrium des heiligen Georg. Schon im 4. Jahrhundert wurde ihm eine Basilika zu Lydda-Diospolis, bekannt aus der Apostelgeschichte, geweiht. Die Jerusalempilger besuchten dieses Heiligtum mit Vorliebe. 1191 wurde die Georgsbasilika von Sultan Saladin zerstört.^pDiese historische Gegebenheit nimmt sich gegenüber den Ausweitungen der Legende armselig aus. Die Patrozinien Sankt Georgs umfassen eine Welt. Die Merowinger sahen ihn als Stammvater ihres Königshauses an. Russland, Genua, England, die Bauern und die Harnischmacher, die mittelalterlichen Ritter und die modernen Pfadfinder, die trierische Stiftskirche und das neuzeitliche Bistum Limburg wählten ihn als Patron. Auf der Insel Zypern zählte man 60 Georgskirchen, in England deren 160. Die Dardanellen trugen den Namen Meerenge des heiligen Georg. Das orthodoxe ökumenische Patriarchat von Konstantinopel hat seinen Sitz bei der Georgskirche. Man könnte diese Aufzählungen fortsetzen.^pSie zeigen, dass Georg, ähnlich wie Christophorus, nicht in erster Linie als Persönlichkeit, sondern als Persönlichkeitstyp gesehen wird: der ritterliche, soldatische Mensch, der dienstbewusst gegen das Böse und gegen die Bösen kämpft, getreu bis in den Tod! Sankt Georg ist eher ein Kapitel christlicher Moral und Aszese als ein Kapitel christlicher Geschichte. Wenn man in der Verehrung eine konkrete geschichtliche Person sucht, kommt man bei St. Georg nicht auf seine Rechnung. Sucht man aber ein christliches Ideal, dann erhebt sich eine jähe Höhe. Man kann zum heiligen Georg schwer ein „Du“ finden. Aber er redet uns mit „Du“ an: Du sollst dieser Mensch sein!"
+      }
+    ]
+  },
+  "Limburg-05-15": {
+    "patr_selector": [
+      {
+        "autor": "Hildegard von Bingen († 1179)",
+        "werk": "Aus dem Leben des heiligen Rupert.",
+        "text": "^hEr folgte Christi Ruf^pFromme Männer erteilten dem heiligen Rupert den Rat, das Evangelium zu beachten, in welchem geschrieben steht: „Gehe und verkaufe alles, was du hast, teile es unter die Armen aus, und dann komm und folge mir“{1#Mt 19,21}, auf dass seine Pilgerfahrt gut und nützlich werde und der Reichtum seines Standes ihn nicht ins Verderben führe.^pRupert fügte sich ihrem Rate und beschloss in seinem Herzen, dass er also tun wolle. Er kehrte endlich zu seiner Mutter zurück, ließ auf seinen Ländereien, welche sehr ausgedehnt waren, Wohnstätten und Kirchen an Orten, wo sich solche noch nicht befanden, anlegen und verteilte dieselben an seine Mannen, auf dass dieselben darin Aufenthalt nehmen, und seiner Mutter, solange sie lebte, dienen, auch allen, welche dorthin kämen und sich in drückender Not befänden, ihre Hilfe angedeihen lassen möchten.^pEr selber aber sann darauf, wie er sein Herzogtum, seinen Hausstand, seine Besitzungen, kurz alles, was er hatte, verlassen und um des Namens Christi willen ein Fremdling werden könne.^pAls er zwanzig Jahre alt geworden war, suchten ihn viele seiner Anverwandten und Dienstmannen von seinem Weg zu Gott abzubringen. Diese wies er, der ganz in der Liebe Gottes entbrannt war, mit angemessenen und frommen Worten zurück, weil Gott, welcher alles Zukünftige, Vergangene und Gegenwärtige kennt, etwas ganz anderes mit ihm vorhatte.^pDer Selige glich einem mit Früchten beladenen Baume, von fruchtbarer und schöner Beschaffenheit; sein Herz hätte also durch seine großmütige Gesinnung und den Reichtum der Welt ins Gegenteil vom Guten verkehrt und der Heiligkeit verdorrend absterben können, wie schon oft es vielen Menschen begegnet ist, welche mit guten Werken begannen, in welchen sie nachher dürre zu werden anfingen. Gott zog ihn daher selbst zu sich. Er kam ihm zuvor und zog ihn, als er noch im Glanze der Unschuld strahlte, aus diesem Leben hinweg."
+      }
+    ]
+  },
+  "Limburg-08-11": {
+    "patr_selector": [
+      {
+        "autor": "Bischof Franz Rudolf Bornewasser (†°1951)",
+        "werk": "Festpredigt zum Domjubiläum 1935",
+        "text": "^hAller Geschichte letzter Sinn ist und bleibt die Ehre Gottes^pWie stehen wir oft so staunend und bewundernd vor den gewaltigen Domen des deutschen Mittelalters – Denkmälern des hochgespannten Selbstbewusstseins deutschen Bürgertums und deutscher Kaisermacht! Noch mehr Denkmäler der Hochblüte deutschen Kunstsinnes und Kunstschaffens, die das Märchen vom finsteren Mittelalter nur dort noch kümmerlich leben lässt, wo Nichtwissen und Übelwollen sich die Hand reichen.^pNoch mehr aber Denkmäler eines lebendigen Gottesbewusstseins in Bauherr, Künstler und Volk, die letzten Endes dem einen, ewigen, unendlichen, überweltlichen Gott aller Menschen, aller Völker und aller Zeiten Dome bauten, die weit hinausragten über die nüchternen Notwendigkeiten, die in unserer Zeit Norm und Richtschnur der Dinge sind und oft sein müssen.^pIhm dem Ewigen, wurden die Dome für Jahrtausende gebaut. Ihm, der da war, ehe denn die Berge wurden, aus denen die Steine auch für dieses Heiligtum gebrochen wurden. Ihm, der war, bevor die Wasser rauschten, die im Fluss drunten vorüberziehen. Ihm, der war, ehe die Sonne am Himmel stand, deren Strahlen sich brechen im leuchtenden Farbenglanz der Domfenster. Ihm, der noch sein wird, wenn einst in kommenden Jahrtausenden fremde Menschen im mit Moos überwachsenen Gestein die Formen des einstigen Georgsdomes suchen. Ihm, dem ewigen, unwandelbaren Gott, dem Ruhm und Ehre sei in Ewigkeit!^pDenn aller Geschichte letzter Sinn ist und bleibt die Ehre Gottes, eine Erkenntnis, die die gewaltigen Dome des deutschen Mittelalters uns künden, auch das zu Stein gewordene Gloria Dei des Limburger Domes.^pIn diesem Augenblick drängt sich uns allen wohl eine ernste Frage auf die Lippen. Die herrlichen Baudenkmale unserer Vorfahren, auch Limburgs Georgsdom, sind uns geblieben. Ist uns auch der Geist geblieben, in dem unsere Väter sie schufen? Ist die Gloria Dei, die Ehre Gottes, noch der treibende Gedanke im Denken und Wollen und Leben ihrer christlichen Nachfahren geblieben? Wer hätte den Mut, auf diese Frage ein klares Ja zu sagen?^pMöge Limburgs Dom auch für die kommenden Jahrhunderte das Symbol der Gloria Dei bleiben und Gotteswohnung, in der die Menschen der kommenden Zeit den Frieden für ihre Seele und Gottes Gnadenkraft für ihren Lebensweg finden! Möge er bleiben ein Zelt Gottes, Zelt des Friedens, der Kraft und des Mutes in der heutigen Zeit!",
+        "resp1": "Herr, wenn dein Volk an dieser Stätte betet,",
+        "resp2": "vergib ihm seine Sünden und zeige ihm den rechten Weg, auf dem es wandeln soll, und offenbare deine Herrlichkeit an dieser Stätte.",
+        "resp3": "Der du Israel weidest, höre, der du Josephs Stamm wie eine Herde führst, der du über den Cherubim thronst,"
+      },
+      {
+        "autor": "Rüdiger Müller",
+        "werk": "Aus „Strom und Ufer“.",
+        "text": "^hDer Dom zu Limburg^pVieltürmig ward der Dom^laus schroffem Fels geboren^lin Zeiten deren Strom^lim Dunkel sich verloren.^pSein wohlgefügtes Maß^list Kraft und Trost geblieben.^lDein Wort das man vergaß^lhat sich in Stein geschrieben.^pDie Macht die uns bewahrt^llässt sich als Gleichnis künden^lvon Giebeln rings umschart^lkann ich den Domplatz finden.^pJäh wächst der Dom empor^lden Tag und Sturm berennen^lder Dohlen schriller Chor^lscheint irren Hohn zu kennen.^pDa steh’ ich klein und stumm^lund spür’ was mich zersplittert^lich wend’ mich schweigend um^lim Alltag eingegittert.^pVieltürmig ward der Dom^laus schroffem Fels geboren^lin Zeiten die mir fern^lim Dunkel sich verloren."
+      }
+    ]
+  },
+  "Limburg-09-11": {
+    "patr_selector": [
+      {
+        "autor": "LEER",
+        "werk": "Aus der Gründungslegende des Bistums Trier",
+        "text": "^hDie drei Gründerbischöfe^pNachdem der Apostel Petrus nach Rom gekommen war und sich dort niedergelassen hatte, richtete er seinen Blick auch auf die Völker in Gallien und Germanien, um sie für Christus zu gewinnen. Für das Trierer Gebiet wählte er seine Schüler Eucharius, Valerius und Maternus als Missionare aus. Er weihte den Eucharius zum Bischof, den Valerius zum Diakon und den Maternus zum Subdiakon und sandte sie aus. Auf ihrer Reise kamen sie über die Schweiz nach dem Elsass, wo Maternus an Fieber erkrankte und starb. Entmutigt kehrten Eucharius und Valerius nach Rom zurück und berichteten dem Apostel über ihr Missgeschick. Petrus aber sandte sie zurück und gab ihnen seinen Bischofsstab mit, und zwar mit der Weisung, ihn dem toten Maternus aufzulegen und ihm im Namen Gottes zu befehlen, wieder ins Leben zurückzukehren. Die beiden reisten ab und kamen nach vierzig Tagen beim Grab des Maternus an, öffneten es und taten, wie ihnen geheißen.^pDie Legende lässt den Eucharius sprechen: „Maternus, du Apostel Christi, ich gebiete dir in der Kraft Jesu Christi, vom Tod zum Leben aufzuerstehen.“^pIn Trier angekommen, predigten die drei Missionare auf Straßen und Plätzen. Die Priester der heidnischen Götter aber traten ihnen entgegen und forderten das Volk auf, die Sendboten des neuen Glaubens zu steinigen. Als aber die Leute nach den Steinen griffen, standen sie plötzlich gelähmt da. Eucharius betete für sie, und sie wurden geheilt, doch ließen sich zunächst nur wenige taufen. Größeren Erfolg hatten die Missionare erst, nachdem Eucharius den verstorbenen Sohn der Witwe Albana wieder zum Leben erweckt hatte. Albana ließ sich mit ihrer ganzen Familie taufen und stellte bald darauf, als auch ein Trierer Senator sich dem Eucharius angeschlossen hatte und viele Menschen dem Schritt des Senators gefolgt waren, ihr Haus zur Einrichtung einer Kirche zur Verfügung.^pEucharius wirkte 23 Jahre als Bischof von Trier. Auf dem Sterbebett bestimmte er den Valerius zu seinem Nachfolger. Dieser verwaltete das Bischofsamt 15 Jahre lang. Während seiner Zeit wurde die Zahl der Christen bereits größer als die der Heiden. Valerius setzte den Maternus zum Nachfolger ein, der durch 40 Jahre die trierische Gemeinde leitete. Nach seinem Tod wurde er in der Nähe der gemeinsamen Grabstätte von Eucharius und Valerius beigesetzt. Seine Grabkirche ist neben der Kirche St. Eucharius im Jahr 978 in einer Urkunde bezeugt.",
+        "resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+        "resp2": "Komm, nimm teil an der Freude deines Herrn.",
+        "resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+      },
+      {
+        "autor": "LEER",
+        "werk": "Aus einer liturgischen Lesung der Benediktinerabtei St. Matthias in Trier.",
+        "text": "^hDies sind deine Väter und wahren Hirten.^pAn zweiter Stelle in der Trierer Bischofsliste steht der heilige Valerius. Was sein Vorgänger, der heilige Eucharius, in der blühenden, heidnischen Trevererstadt des dritten Jahrhunderts für die Begründung des Christentums geleistet hat, das musste Valerius, der den Hirtenstab des ersten Bischofs übernahm, für seine Befestigung und Weiterführung tun. Der Erfolg dieses Werkes ist zu ermessen an der Bedeutung der Trierer Christengemeinde am Ende des dritten und zu Beginn des vierten Jahrhunderts. In dieser Gemeinde hatte Kaiser Konstantin in den Jahren seiner Trierer Residenz, die unmittelbar dem Ende der Christenverfolgungen (313) vorausgingen, täglich die Lebenskraft des Christenglaubens vor Augen. Was Valerius weitergeführt, ist auch für Triers Zukunft entscheidend geworden. Nicht der Glanz der römischen Kaiserresidenz verbürgte den Fortbestand der Stadt über die Völkerwanderungszeit, sondern die geduldige Hirtensorge ihrer Bischöfe. Was Leo der Große über Rom und die Apostelfürsten sagte, könnte man in ähnlicher Weise auf Trier und seine beiden ersten Bischöfe anwenden: „Diese, o Rom, sind deine Väter und wahren Hirten, die dich dem himmlischen Reiche einfügten und viel besser und viel glücklicher begründeten als jene, durch deren Eifer die ersten Fundamente deiner Mauern gelegt sind.“^pEs ist also fromm und recht, wenn um das Jahr 450 Bischof Cyrillus den Gründerbischöfen und Vätern unseres Glaubens in der neugebauten Grabkirche auf dem südlichen Gräberfeld einen Altar weihte, selbst dort bei seinen Vorgängern seine Grabstätte wählte und dies mit der Bauinschrift dokumentierte: „Wie schön vereint Gottes Macht, die einst Gefährten waren im Leben! Ehrenvoll birgt dieser Ort der beiden Priester Gebeine, tut kund des Eucharius und Valerius Namen. Freudig bettet Cyrill die zum Leben berufenen Leiber und weiht den Altar den seligen Brüdern zur Ehre. So schmückt für den eigenen Leib der Bauherr die künftige Ruhstatt.“^pWas die spätere Legende erzählt, kann uns zwar wenig an historisch sicheren Berichten über das Leben des heiligen Valerius bieten. Es bringt aber zum Ausdruck, was aus seinem Wirken geworden ist: Ein Bischofssitz und ein Bistum, die weithin Bedeutung hatten und missionarische Kraft besaßen und die sich ihrer Verbindung mit dem Nachfolger des heiligen Petrus bewusst waren."
+      }
+    ]
+  },
+  "MariaCommLh": {
+    "les_selector": [
+      {
+        "buch": "Aus dem Buch Jesaja.",
+        "stelle": "7,10-14;11,1-9",
+        "text": "^hDas Zeichen des Immanuel^pDer Herr sprach zu Ahas; er sagte: Erbitte dir vom Herrn, deinem Gott, ein Zeichen, sei es von unten, aus der Unterwelt, oder von oben, aus der Höhe.^pAhas antwortete: Ich will um nichts bitten und den Herrn nicht auf die Probe stellen.^pDa sagte Jesaja: Hört her, ihr vom Haus David! Genügt es euch nicht, Menschen zu belästigen? Müsst ihr auch noch meinen Gott belästigen?^pDarum wird euch der Herr von sich aus ein Zeichen geben: Seht, die Jungfrau wird ein Kind empfangen, sie wird einen Sohn gebären und sie wird ihm den Namen Immanuel – Gott mit uns – geben.^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.^pEr richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist.^pEr schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange.^pMan tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist.",
+        "resp1": "Siehe, die Jungfrau wird empfangen und einen Sohn gebären,",
+        "resp2": "sein Name wird sein: Wunderbarer Ratgeber, Starker Gott.",
+        "resp3": "Auf dem Thron Davids herrscht er über sein Reich für alle Zeiten.",
+        "resp1_lat": "Ecce, virgo concípiet et páriet fílium;",
+        "resp2_lat": "et vocábitur nomen eius Admirábilis, Deus, Fortis.",
+        "resp3_lat": "Super sólium David et super regnum eius sedébit in ætérnum._lat"
+      },
+      {
+        "buch": "Aus dem Brief an die Galater.",
+        "stelle": "3,22-4,7",
+        "text": "^hAls die Zeit erfüllt war, sandte Gott seinen Sohn, geboren°von°einer°Frau^pDie Schrift hat alles der Sünde unterworfen, damit durch den Glauben an Jesus Christus die Verheißung sich an denen erfüllt, die glauben.^pEhe der Glaube kam, waren wir im Gefängnis des Gesetzes, festgehalten bis zu der Zeit, da der Glaube offenbart werden sollte. So hat das Gesetz uns in Zucht gehalten bis zum Kommen Christi, damit wir durch den Glauben gerecht gemacht werden. Nachdem aber der Glaube gekommen ist, stehen wir nicht mehr unter dieser Aufsicht.^hGlaube und Gottessohnschaft^pIhr seid alle durch den Glauben Söhne Gottes in Christus Jesus. Denn ihr alle, die ihr auf Christus getauft seid, habt Christus (als Gewand) angelegt. Es gibt nicht mehr Juden und Griechen, nicht Sklaven und Freie, nicht Mann und Frau; denn ihr alle seid „einer“ in Christus Jesus.^pWenn ihr aber zu Christus gehört, dann seid ihr Abrahams Nachkommen, Erben kraft der Verheißung.^pIch will damit sagen: Solange der Erbe unmündig ist, unterscheidet er sich in keiner Hinsicht von einem Sklaven, obwohl er Herr ist über alles; er steht unter Vormundschaft, und sein Erbe wird verwaltet bis zu der Zeit, die sein Vater festgesetzt hat. So waren auch wir, solange wir unmündig waren, Sklaven der Elementarmächte dieser Welt.^pAls aber die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.^pWeil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unser Herz, den Geist, der ruft: Abba, Vater. Daher bist du nicht mehr Sklave, sondern Sohn; bist du aber Sohn, dann auch Erbe, Erbe durch Gott.",
+        "resp1": "Als aber die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt,",
+        "resp2": "damit er die freikaufte, die unter dem Gesetz standen.",
+        "resp3": "In seiner großen Liebe, mit der er uns geliebt hat, sandte Gott seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht.",
+        "resp1_lat": "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras, natum de Vírgine, factum sub lege;",
+        "resp2_lat": "ut eos, qui sub lege erant, redímeret.",
+        "resp3_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, Fílium suum misit in similitúdinem carnis peccáti._lat"
+      }
+    ]
+  },
+  "MariaSaLd": {
+    "les_selector": [
+      {
+        "buch": "Gal",
+        "stelle": "4,4–5",
+        "text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+        "text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus.",
+        "resp1": "Du bliebst unversehrt nach der Geburt,",
+        "resp2": "heilige°Jungfrau°Maria.",
+        "resp3": "Gottesgebärerin, bitte für uns.",
+        "resp1_lat": "Post partum, Virgo,",
+        "resp2_lat": "invioláta°permansísti.",
+        "resp3_lat": "Dei Génetrix, intercéde pro nobis."
+      },
+      {
+        "buch": "Jes",
+        "stelle": "61,10ab",
+        "text": "Von Herzen will ich mich freuen über den Herrn. Meine Seele soll jubeln über meinen Gott. Denn er kleidet mich in Gewänder des Heils, er hüllt mich in den Mantel der Gerechtigkeit.",
+        "text_lat": "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me, quasi sponsam ornátam monílibus suis.",
+        "resp1": "Von Anbeginn hat der Herr sie erwählt,",
+        "resp2": "vor allen hat er sie erkoren.",
+        "resp3": "In seinem Zelt lässt er sie wohnen.",
+        "resp1_lat": "Elégit eam Dóminus,",
+        "resp2_lat": "et°præelégit°eam.",
+        "resp3_lat": "In tabernáculo suo habitáre facit eam._lat"
+      },
+      {
+        "buch": "Offb",
+        "stelle": "12,1",
+        "text": "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond war unter ihren Füßen und ein Kranz von zwölf Sternen auf ihrem Haupt.",
+        "text_lat": "Signum magnum appáruit in cælo: múlier amícta sole, et luna sub pédibus eius, et super caput eius coróna stellárum duódecim.",
+        "resp1": "Gegrüßet seist du, Maria,",
+        "resp2": "du bist voll der Gnade.",
+        "resp3": "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
+        "resp1_lat": "Ave, María, grátia plena;",
+        "resp2_lat": "Dóminus°tecum.",
+        "resp3_lat": "Benedícta tu in muliéribus, et benedíctus fructus ventris tui._lat"
+      }
+    ]
+  },
+  "MariaSaLh": {
+    "patr_selector": [
+      {
+        "autor": "Proclus von Konstantinopel († 446)",
+        "werk": "Aus einer Predigt zum Weihnachtsfest.",
+        "text": "^hDer°die°Menschen°liebt, ist°Mensch°geworden, geboren°von°der°Jungfrau^p„Die Himmel sollen sich freuen, die Wolken Gerechtigkeit regnen, denn der Herr hat sich seines Volkes erbarmt. Die Himmel sollen sich freuen“, denn als sie geschaffen wurden, wurde auch Adam von seinem Schöpfer gebildet aus jungfräulicher Erde; er wurde Gottes Freund und Hausgenosse.^p„Die Himmel sollen sich freuen“{1#Ps 96,11}, denn heute wurde durch das Kommen des Herrn im Fleisch die Erde geheiligt und die Menschen von den Götzenopfern befreit.^p„Die Wolken sollen Gerechtigkeit regnen“{2#vgl. Jes 45,8}, denn heute wurde die Sünde Evas weggenommen und vergeben um der Reinheit der Jungfrau Maria willen und durch den, der als Gott und Mensch von ihr geboren wurde. Heute wurde Adam von jenem schrecklichen Urteil befreit, das ihn einst zur Todesnacht verdammt hatte.^pHeute wurde Christus geboren von der Jungfrau, aus der er nach dem Heilsplan Gottes Fleisch angenommen hatte.^p„Das Wort ist Fleisch geworden und hat unter uns gewohnt“{3#Joh 1,14}, und daher wurde die Jungfrau zur Mutter Gottes. Sie wurde Mutter und blieb doch Jungfrau, denn ohne eines Mannes Zutun ist das Wort Fleisch geworden und wurde von ihr geboren; so bewahrte sie ihre Jungfräulichkeit durch die wunderbare Geburt dessen, der es so gewollt hatte.^pSie ist Mutter wegen der menschlichen Natur des göttlichen Wortes, das in ihr Fleisch geworden und der Welt erschienen ist; Wort und Fleisch wurden eins gemäß der Weisheit und dem Willen dessen, der große Wunder vollbringt.^pEr ist aus menschlichem Geschlecht, wie der heilige Paulus sagt. Er war, was er nun ist und sein und bleiben wird.^pUnseretwillen ist er Mensch geworden. Er, der den Menschen liebt, ist Mensch geworden, was er vorher nicht war. Er ist Mensch geworden und blieb doch Gott, ohne jede Veränderung. Er ist mir also ähnlich geworden um meinetwillen; er ist geworden, was er nicht war, und bewahrte dennoch, was er war. Er ist Mensch geworden, um sich unsere Leiden zu eigen zu machen, um uns die Macht zu geben, „Kinder Gottes zu werden“{4#Joh 1,12}, und uns sein Reich zu schenken.^pDessen mache uns würdig die Gnade und Barmherzigkeit des Herrn Jesus Christus, dem mit dem Vater und dem Heiligen Geist Ruhm und Ehre und Macht ist jetzt und alle Zeit und in Ewigkeit. Amen.",
+        "resp1": "Es strömt wie Regen herab auf das Feld.",
+        "resp2": "Seine°Herrlichkeit erfüllt die ganze Erde.",
+        "resp3": "Seht das Zelt Gottes unter den Menschen. Er wird in ihrer Mitte wohnen, Gott selbst wird mit ihnen sein."
+      },
+      {
+        "autor": "Guerricus (Werricho von Igny) († 1157)",
+        "werk": "Aus einer Predigt zu Mariä Aufnahme in den Himmel.",
+        "text": "^hMaria,°die°Mutter°Christi und°die°Mutter°der°Christen^pEinen einzigen Sohn hat Maria geboren. Wie dieser im Himmel der einzige Sohn des Vaters ist, so ist er auf Erden der einzige Sohn seiner Mutter. Sie, die einzige Jungfrau-Mutter, die sich rühmen darf, des Vaters einzigen Sohn geboren zu haben, umfängt diesen, ihren einzigen Sohn, in all seinen Gliedern. Sie scheut sich nicht, Mutter all derer genannt zu werden, in denen sie erkennt, dass ihr Christus schon Gestalt angenommen hat oder annimmt.^pDie Urmutter Eva war weniger eine Mutter als eine Stiefmutter: Sie gab ihre Kinder dem Tode preis, noch bevor diese das Licht des Tages erblickten. Sie heißt zwar „Mutter aller Lebenden“{1#Gen 3,20}, doch in Wirklichkeit ist sie die Mörderin der Lebenden oder die Gebärerin der Sterbenden, denn ihr Gebären ist nichts anderes als ein Gebären zum Tod.^pWeil Eva ihren Namen nicht wahrzumachen vermochte, hat Maria den geheimnisvollen Sinn dieses Namens verwirklicht. Denn wie die Kirche, deren Vorbild sie ist, ist sie die Mutter aller, die zum Leben wiedergeboren werden. Sie ist in Wahrheit die Mutter derer, die das Leben haben, denn indem sie das Leben selber gebar, hat sie in gewisser Weise allen, die von diesem Leben leben sollten, das neue Leben geschenkt.^pAufgrund dieses Geheimnisses erkennt sich die selige Mutter Christi als die Mutter der Christen; sie erweist sich auch als deren Mutter durch ihre Fürsorge und ihre liebevolle Zuneigung. Sie ist niemals hart gegenüber ihren Kindern, so als wären sie nicht ihr eigen. Denn ihr Schoß, der zwar nur einmal ein Kind getragen hat, blieb auch nachher nicht ohne Frucht, niemals hörte er auf, Früchte des Erbarmens zu gebären.^pWenn schon Paulus, der Knecht Christi, immer wieder neuen Kindern das Leben schenkt, erfüllt vom brennenden Verlangen, dass Christus in ihnen Gestalt gewinne{2#vgl. Gal 4,19}, um wie viel mehr Maria, die Mutter Christi. Paulus schenkte ihnen das Leben, indem er ihnen das Wort der Wahrheit verkündete, durch das sie wiedergeboren wurden. Maria aber schenkte ihnen das Leben auf eine Gott ähnlichere und weit heiligere Weise, indem sie das göttliche Wort selber gebar. An Paulus lobe ich den Dienst der Verkündigung, an Maria aber bewundere und verehre ich das Geheimnis ihrer Mutterschaft.^pBedenkt nun, ob nicht auch die Kinder ihrerseits ganz offensichtlich ihre Mutter erkennen: Getrieben von einem gleichsam angeborenen Vertrauen, rufen sie in allen möglichen Gefahren zuerst und ganz besonders ihren Namen an und flüchten sich zu ihr wie die Kleinen in die Arme ihrer Mutter. Deshalb halte ich es nicht für abwegig, dass auf diese Kinder angewandt werden kann, was durch den Propheten verheißen ist: „Deine Kinder werden in dir wohnen“, ohne zu übersehen, dass diese Verheißung in erster Linie von der Kirche gilt.^pDenn schon jetzt wohnen wir im Schutz der Mutter des Allerhöchsten, wir sind unter ihrer Obhut geboren, gleichsam „im Schatten ihrer Flügel“. Dereinst werden wir durch die Teilhabe an ihrer Herrlichkeit Ruhe finden in ihren Armen. Dann werden alle sich freuen und wie aus einem Munde ihrer Mutter zurufen: Wir alle freuen uns, denn „unsere Wohnstatt ist in dir“, heilige Mutter Gottes.",
+        "resp1": "Das Kind, das Maria erwartet, ist vom Heiligen Geist; sie wird einen Sohn gebären.",
+        "resp2": "Er wird sein Volk von seinen Sünden erlösen.",
+        "resp3": "Seine Macht wird reichen bis an die Grenzen der Erde, und er wird der Friede sein."
+      },
+      {
+        "autor": "Johannes Chrysostomus († 407)",
+        "werk": "Aus einer Homilie zum Karfreitag.",
+        "text": "^hAdam°und°Christus, Eva°und°Maria^pHast du den staunenswerten Sieg gesehen? Hast du die herrlichen Tage des Kreuzes gesehen? Soll ich dir sagen, was noch wunderbarer ist? Achte auf die Art und Weise, wie der Sieg errungen wurde, und du wirst noch mehr staunen. Das nämlich, wodurch der Teufel einst gesiegt hat, genau dadurch hat Christus über ihn gesiegt. Mit seinen eigenen Waffen hat er ihn geschlagen. Höre, wie das geschah:^pEine Jungfrau, ein Holz und der Tod, das waren die Symbole der Niederlage. Die Jungfrau war Eva, denn noch hatte sie keinen Mann erkannt; das Holz war ein Baum; der Tod war die Strafe, die über Adam verhängt war.^pDoch siehe, die Jungfrau, das Holz und der Tod, diese Symbole der Niederlage, sind zu Zeichen des Sieges geworden. An die Stelle Evas trat Maria, an die Stelle des Holzes der Erkenntnis von Gut und Böse trat das Holz des Kreuzes; an die Stelle des Todes Adams ist Christi Tod getreten.^pSiehst du, dass der Teufel mit den gleichen Waffen besiegt wurde, mit denen er gesiegt hatte? Unter dem Baum hat der Teufel den Adam zu Fall gebracht; am Kreuz hat Christus den Teufel bezwungen. Jenes Holz schickte zur Unterwelt; dieses aber führte sogar die aus der Unterwelt zurück, die dorthin bereits hinabgestiegen waren.^pDer eine Baum versteckte den gefallenen Menschen, der sich seiner Nacktheit schämte{1#vgl. Gen 3,8}; der andere Baum hat vor aller Augen einen nackten Menschen als Sieger erhöht.^pJener Tod verdammte alle, die nach ihm geboren wurden, dieser aber erweckte von den Toten, sogar jene, die vor ihm geboren waren.^p„Wer wird die Großtaten des Herrn verkünden?“{2#Ps 106,2} Sein Sterben hat uns unsterblich gemacht: Das sind die wunderbaren Werke des Kreuzes. Begreifst du diesen Sieg! Begreifst du, wie er zustande kam?^pHöre nun, wie dieser Sieg ohne unsere Mühen und unseren Schweiß errungen wurde. Wir haben keine Waffen mit Blut gerötet, wir haben in keiner Schlachtreihe gestanden, uns wurden keine Wunden geschlagen, wir haben keinen Krieg gesehen und doch den Sieg davongetragen. Des Herrn war der Kampf, unser ist die Krone.^pDa dieser Sieg auch unser Sieg ist, so lasst uns, den Kriegern gleich, heute mit freudiger Stimme Siegeslieder singen; lasst uns den Herrn preisen, indem wir rufen: „Verschlungen ist der Tod im Sieg. Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“{#1 Kor 15,55}^pDas sind die herrlichen Werke, die das Kreuz vollbracht hat zu unserem Heil; das Kreuz ist das Siegeszeichen, aufgerichtet gegen die Dämonen; es ist das gegen die Sünde gezückte Schwert, das Schwert, mit dem Christus die Schlange durchbohrt hat. Das Kreuz ist der Wille des Vaters, der Ruhm des Eingeborenen, die Freude des Heiligen Geistes, die Zierde der Engel, die Sicherheit der Kirche, der Stolz des Paulus{#vgl. Gal 6,14}, das Bollwerk der Heiligen, ein Licht für die ganze Welt.",
+        "resp1": "Der Herr überhäuft mit Ehren, wen er will,",
+        "resp2": "damit die Tugend die Sünde zudeckt, die Gnade die Schuld.",
+        "resp3": "Vom Dornbusch kommt die Rose, von Eva kam Maria."
+      },
+      {
+        "autor": "II. Vatikanisches Konzil (1962–1965)",
+        "werk": "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
+        "text": "^hDie°selige°Jungfrau°und°die°Kirche^pDie selige Jungfrau ist durch das Geschenk und die Aufgabe der göttlichen Mutterschaft, durch die sie mit ihrem Sohn und Erlöser vereint ist, und durch ihre einzigartigen Gnaden und Gaben auch mit der Kirche auf das innigste verbunden. Die Gottesmutter ist, wie schon der heilige Ambrosius lehrte, der Typus der Kirche unter der Rücksicht des Glaubens, der Liebe und der vollkommenen Einheit mit Christus.^pIm Geheimnis der Kirche, die ja auch selbst mit Recht Mutter und Jungfrau genannt wird, ist die selige Jungfrau Maria vorangegangen, da sie in hervorragender und einzigartiger Weise das Urbild sowohl der Jungfrau wie der Mutter darstellt. Im Glauben und Gehorsam gebar sie den Sohn des Vaters auf Erden, und zwar ohne einen Mann zu erkennen, vom Heiligen Geist überschattet, als neue Eva, die nicht der alten Schlange, sondern dem Boten Gottes einen von keinem Zweifel verfälschten Glauben schenkte. Sie gebar aber einen Sohn, den Gott gesetzt hat zum Erstgeborenen unter vielen Brüdern {1#Röm 8,29}. Mit mütterlicher Liebe wirkt sie mit bei deren Geburt und Erziehung in mütterlicher Liebe mit.^pNun aber wird die Kirche, indem sie Marias geheimnisvoll Heiligkeit betrachtet, ihre Liebe nachahmt und den Willen des Vaters getreu erfüllt, durch die gläubige Annahme des Wortes Gottes auch selbst Mutter: Durch Predigt und Taufe nämlich gebiert sie die vom Heiligen Geist empfangenen und aus Gott geborenen Kinder zum neuen und unsterblichen Leben. Auch sie ist Jungfrau, da sie das Treuewort, das sie dem Bräutigam gegeben hat, unversehrt und rein bewahrt und in Nachahmung der Mutter ihres Herrn in der Kraft des Heiligen Geistes jungfräulich einen unversehrten Glauben, eine feste Hoffnung und eine aufrichtige Liebe bewahrt.^pWährend aber die Kirche in der seligsten Jungfrau schon zur Vollkommenheit gelangt ist, in der sie ohne Makel und Runzel ist {2#vgl. Eph 5,27}, bemühen sich die Christgläubigen noch, die Sünde zu besiegen und in der Heiligkeit zu wachsen. Daher richten sie ihre Augen auf Maria, die der ganzen Gemeinschaft der Auserwählten als Urbild der Tugenden voranleuchtet. Indem die Kirche über Maria in frommer Erwägung nachdenkt und sie im Licht des menschgewordenen Wortes betrachtet, dringt sie verehrend in das erhabene Geheimnis der Menschwerdung tiefer ein und wird ihrem Bräutigam mehr und mehr gleichgestaltet.^pDenn Maria vereinigt, da sie zuinnerst in die Heilsgeschichte eingegangen ist, gewissermaßen die größten Glaubensgeheimnisse in sich und strahlt sie wider. Daher ruft ihre Verkündigung und Verehrung die Gläubigen hin zu ihrem Sohn und seinem Opfer und zur Liebe des Vaters.^pDie Kirche aber wird, um die Ehre Christi zu mehren, ihrem erhabenen Typus ähnlicher durch dauerndes Wachstum in Glaube, Hoffnung und Liebe und durch das Suchen und Befolgen des Willens Gottes in allem.^pDaher blickt die Kirche auch in ihrem apostolischen Wirken mit Recht zu ihr auf, die Christus geboren hat, der dazu vom Heiligen Geist empfangen und von der Jungfrau geboren wurde, dass er durch die Kirche auch in den Herzen der Gläubigen geboren werde und wachse. Diese Jungfrau war in ihrem Leben das Beispiel jener mütterlichen Liebe, von der alle beseelt sein müssen, die in der apostolischen Sendung der Kirche zur Wiedergeburt der Menschen mitwirken.",
+        "resp1": "Durch Maria, die Jungfrau, ist allen, die glauben, das Heil der Welt erschienen.",
+        "resp2": "Ihr ruhmreiches Leben erleuchtet die ganze Kirche.",
+        "resp3": "Lasst uns voll Ehrfurcht das Gedächtnis der seligen Jungfrau Maria feiern."
+      },
+      {
+        "group": "Lesungen aus den Commune-Texten zur°Auswahl°…"
+      },
+      {
+        "autor": "Sophronius von Jerusalem († 638)",
+        "werk": "Aus einer Rede über die Verkündigung des Herrn.",
+        "text": "^hDurch°Maria°ist°den°Menschen der°Segen°des°Vaters°aufgeleuchtet^p„Sei gegrüßt, du Begnadete, der Herr ist mit dir“ {1#Lk 1,28}. Jungfrau Mutter, welche Freude könnte für dich größer sein als diese? Welche Gnade großartiger als die, welche allein dir von Gott zuerkannt wurde? Oder was ließe sich Beglückenderes und Leuchtenderes erdenken? Alles ist weit entfernt von dem Wunder, das wir in dir schauen; alles liegt unter deiner Begnadung. Ihr steht alles andere nach, auch das Höchstgeschätzte; von diesem Glanz wird alles weit überstrahlt.^p„Der Herr ist mit dir“: Wer könnte dir da den Rang streitig machen wollen? Gott aus dir: Wer wird vor dir nicht zur Seite treten und dir mit freudem Vortritt und Vorrang lassen?^pIch sehe deinen Vorrang über alle Geschöpfe und rufe dir mit höchstem Lobpreis zu: „Sei gegrüßt, du Begnadete, der Herr ist mit dir.“ Denn nicht nur den Menschen ist aus dir Freude zuteil geworden; auch die überirdischen Mächte haben sie empfangen.^pWahrhaft „gesegnet bist du unter den Frauen“ {2#Lk 1,42}; denn du hast den Fluch über Eva in Segen verwandelt, hast erwirkt, dass Adam durch dich gesegnet wurde, der zuvor, vom Fluch getroffen, dahingestreckt lag.^pWahrhaft „gesegnet bist du unter den Frauen“; denn durch dich ist über den Menschen der Segen des Vaters aufgeleuchtet und hat sie vom alten Fluch befreit.^pWahrhaft „gesegnet bist du unter den Frauen“; denn durch dich finden deine Ahnen das Heil; du wirst ja den Retter gebären, der ihnen das göttliche Heil bereitet.^pWahrhaft „gesegnet bist du unter den Frauen“; denn ohne Samen hast du jene Frucht gebracht, die dem Erdkreis Segen spendet und ihn von dem Fluch erlöst, der Dornen sprossen ließ.^pWahrhaft „gesegnet bist du unter den Frauen“; denn du, von Natur eine irdische Frau, wirst wahrhaft Gottesmutter sein. Und wenn der, der aus dir geboren wird, in Wahrheit menschgewordener Gott ist, dann nennt man dich mit Fug und Recht Gottesgebärerin, weil du wirklich Gott gebierst.^pDu beherbergst im Gemach deines Schoßes Gott selbst, ihn, der als Mensch in dir wohnt und aus dir hervorgeht wie ein Bräutigam, der allen Freude bereitet und dem All göttliches Licht spendet.^pDenn in dir, Jungfrau, hat Gott wie im reinsten, strahlenden Himmel sein Zelt errichtet. Er wird aus dir hervorgehen wie der Bräutigam aus dem Brautgemach. Einem Giganten gleich wird er im Leben seinen Weg laufen, der für alle Lebenden zum Heil führt und sich vom höchsten Himmel zum höchsten Himmel spannt, um alles mit göttlicher Glut und lebenspendendem Glanz zu erfüllen.",
+        "resp1": "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
+        "resp2": "Durch dich leuchtet der Segen des Vaters den Menschen auf.",
+        "resp3": "Deine Stammväter haben durch dich das Heil gefunden."
+      },
+      {
+        "autor": "Aelred von Rievaulx († 1167)",
+        "werk": "Aus einer Predigt zu Mariae Geburt.",
+        "text": "^hMaria,°unsere°Mutter^pLasst uns hintreten zur Braut Christi, hintreten zu seiner Mutter, hintreten zu seiner besten Magd. All das ist die selige Maria.^pAber was sollen wir ihr tun? Was für Gaben ihr bringen? Könnten wir ihr wenigstens geben, worauf sie von Rechts wegen Anspruch hat? Wir schulden ihr Ehre, schulden ihr Dienst, schulden ihr Liebe, schulden ihr Lob.^pWir schulden ihr Ehre, weil sie die Mutter unseres Herrn ist. Denn wer die Mutter nicht ehrt, versagt ohne Zweifel die Ehre dem Sohn. In der Schrift steht ja: „Ehre deinen Vater und deine Mutter“ {1#Ex 20,1-2}. Was sollen wir da sagen? Ist sie nicht unsere Mutter? Ganz gewiss, Brüder: Sie ist wirklich unsere Mutter. Durch sie sind wir geboren, nicht für die Welt, sondern für Gott. Ihr glaubt und wisst es: Wir waren alle im Tod, im Alter, in Finsternis, im Elend, im Tod, denn wir hatten Gott verloren; im Alter, weil im Zerfall, in der Finsternis, denn wir hatten das Licht der Weisheit verloren und so waren wir ganz und gar untergegangen.^pAber durch die selige Maria sind wir weit besser geboren worden als durch Eva, weil von Maria Christus geboren worden ist. Anstelle des Alters haben wir die Neuheit gewonnen, anstelle des Zerfalls die Unvergänglichkeit, anstelle der Finsternis das Licht.^pUnsere Mutter ist sie, Mutter unseres Lebens, Mutter unserer Unvergänglichkeit, Mutter unseres Lichts. Der Apostel sagt vom Herrn: „Er wurde für uns Weisheit von Gott und Gerechtigkeit und Heiligung und Erlösung“ {2#1 Kor 1,30}. Sie, die Mutter Christi, ist die Mutter unserer Weisheit, Mutter unserer Gerechtigkeit, Mutter unserer Heiligung, Mutter unserer Erlösung. Darum ist sie uns mehr Mutter als unsere leibliche Mutter. Unsere Geburt aus ihr hat höheren Rang; denn aus ihr stammt unsere Heiligkeit, unsere Weisheit, unsere Gerechtigkeit, unsere Heiligung, unsere Erlösung.^pIn der Schrift steht: „Lobt den Herrn in seinen Heiligen“ {3#Ps 150,1 Vg}. Wenn man Gott in jenen Heiligen loben soll, durch die er Machttaten und Wunder schafft, wie sehr muss man ihn dann loben in der Frau, in der er sich selbst geschaffen hat, er, der über alle Wunder wunderbar ist.",
+        "resp1": "Selig bist du, heilige Jungfrau Maria, und allen Lobes würdig.",
+        "resp2": "Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott und Heiland.",
+        "resp3": "In großer Freude feiern wir dein Fest, heilige Jungfrau Maria."
+      },
+      {
+        "autor": "II. Vatikanisches Konzil (1962–1965)",
+        "werk": "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
+        "text": "^hDie°Mutterschaft°Marias in°der°Ordnung°der°Gnade^pDie selige Jungfrau, die von Ewigkeit her zusammen mit der Menschwerdung des göttlichen Wortes als Mutter Gottes vorherbestimmt wurde, war nach dem Ratschluss der göttlichen Vorsehung hier auf Erden die erhabene Mutter des göttlichen Erlösers, in einzigartiger Weise vor anderen seine großmütige Gefährtin und die demütige Magd des Herrn. Indem sie Christus empfing, gebar und nährte, im Tempel dem Vater darstellte und mit ihrem am Kreuz sterbenden Sohn litt, hat sie beim Werk des Erlösers in durchaus einzigartiger Weise in Gehorsam, Glaube, Hoffnung und brennender Liebe mitgewirkt zur Wiederherstellung des übernatürlichen Lebens der Seelen. Deshalb ist sie uns in der Ordnung der Gnade Mutter.^pDiese Mutterschaft Marias in der Gnadenordnung dauert unaufhörlich fort, von der Zustimmung an, die sie bei der Verkündigung gläubig gab und unter dem Kreuz ohne Zögern festhielt, bis zur ewigen Vollendung aller Auserwählten. In den Himmel aufgenommen, hat sie diesen heilbringenden Auftrag nicht aufgegeben, sondern fährt durch ihre vielfältige Fürbitte fort, uns die Gaben des ewigen Heils zu erwirken. In ihrer mütterlichen Liebe trägt sie Sorge für die Brüder ihres Sohnes, die noch auf der Pilgerfahrt sind und in Gefahren und Bedrängnissen weilen, bis sie zur ewigen Heimat gelangen. Deshalb wird die selige Jungfrau in der Kirche unter dem Titel der Fürsprecherin, der Helferin, des Beistandes und der Mittlerin angerufen.^pDas ist so zu verstehen, dass es der Würde und Wirksamkeit Christi, des einzigen Mittlers, nichts abträgt und nichts hinzufügt. Kein Geschöpf nämlich kann mit dem menschgewordenen Wort und Erlöser jemals in einer Reihe aufgezählt werden.^pAm Priestertum Christi nehmen, wenn auch in verschiedener Weise, sowohl die Amtspriester als auch das gläubige Volk teil. Überhaupt ist die eine Gutheit Gottes auf die Geschöpfe in verschiedener Weise ausgegossen. So ist auch Christus zwar der eine und einzige Mittler, aber das schließt nicht aus, dass es im geschöpflichen Bereich eine vielfache und unterschiedliche Teilnahme an dieser einzigen Quelle (dem einzigen Erlöser und Mittler) gibt. Gerade dadurch wird eine so reiche Mitwirkung möglich.^pEine solche untergeordnete Aufgabe Marias zu bekennen, zögert die Kirche nicht, sie erfährt sie auch ständig und legt sie den Gläubigen ans Herz, damit sie unter diesem mütterlichen Schutz dem Mittler und Erlöser inniger anhangen.",
+        "resp1": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
+        "resp2": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
+        "resp3": "Gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes."
+      },
+      {
+        "group": "Lesungen von Mariengedenktagen zur°Auswahl°…"
+      },
+      {
+        "bezug": "(vom°Gedenktag°Herz°Mariae)",
+        "autor": "Laurentius Justiniani (†°1455)",
+        "werk": "Aus einer Predigt am Fest der Darstellung des Herrn.",
+        "text": "^hMaria°bewahrte°alles, was°geschehen°war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
+        "resp1": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
+        "resp2": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
+        "resp3": "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
+      },
+      {
+        "bezug": "(vom Gedenktag U.L.Fr.°vom°Berge°Karmel)",
+        "autor": "Leo der Große (†°461)",
+        "werk": "Aus einer Weihnachtspredigt.",
+        "text": "^hMaria°empfing°in°ihrem°Geist, bevor°sie°in°ihrem°Leib°empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘{1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘{2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen.^pMit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“{3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
+        "resp1": "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
+        "resp2": "Heilig ist sein Name.",
+        "resp3": "Von Geschlecht zu Geschlecht währt sein Erbarmen über jenen, welche ihn fürchten."
+      },
+      {
+        "bezug": "(vom Gedenktag Maria°Königin)",
+        "autor": "Amadeus von Lausanne († 1159)",
+        "werk": "Aus einer Homilie über Maria.",
+        "text": "^hKönigin°der°Welt und Königin°des°Friedens^pSchon vor der Aufnahme Marias in den Himmel erstrahlte ihr Name auf der ganzen Erde, ihr erhabener Ruf verbreitete sich überall, noch bevor ihre Hoheit über die Himmel erhoben wurde{1#vgl.°Ps 8,2 Vg.}. So war es angemessen: um der Ehre ihres Sohnes willen musste die jungfräuliche Mutter zunächst auf der Erde herrschen, dann erst durfte sie den Himmel empfangen; ihr Ruf musste sich zunächst hier unten verbreiten, um dann in heiliger Fülle in die überirdischen Reiche Eingang zu finden; wie sie in dieser Welt getragen wurde von stets wachsender Kraft{2#vgl.°Ps 84,8}, so musste sie auch in der anderen Welt durch den Geist des Herrn getragen werden von Herrlichkeit zu Herrlichkeit.^pAls sie noch im Irdischen lebte, kostete sie bereits die Erstlingsgaben des kommenden Reiches: Bald preist sie die unaussprechliche Hoheit Gottes; bald lässt sie sich in unsagbarer Liebe zu den Mitmenschen herab. Bald dienen ihr die Engel, bald betet sie Gott an durch den Dienst an den Menschen. Gabriel diente ihr mit den Engeln. Johannes freut sich, dass ihm die jungfräuliche Mutter unter dem Kreuz anvertraut wird, und er dient ihr mit den Aposteln. Die einen freuen sich, ihre Königin zu schauen, die anderen, ihre Herrin zu sehen. Alle dienen ihr mit liebender Hingabe.^pJetzt thront sie in der hohen Burg des Himmels. Ein Meer göttlicher Gaben strömt von ihr aus, und sie selber gießt über das dürstende Volk der Gläubigen in verschwenderischer Fülle jene Gnade aus, durch die sie alle überragt. Sie schenkt dem Leib Gesundheit, der Seele Salbung; sie hat die Macht, vom Tod des Leibes und der Seele zu erwecken. Wer ist jemals von ihr gegangen, krank oder traurig, ohne der himmlischen Geheimnisse innezuwerden? Wer kam nicht nach Hause, froh und glücklich, von der Mutter des Herrn erlangt zu haben, was er erbat?^pDie Braut, die Mutter des einzigen Bräutigams, ist überreich an hohem Gut. Gütig und liebenswert ist sie in ihrer Seligkeit, Quelle im Garten des Lebens, Brunnen lebendigen und lebenspendenden Wassers, das machtvoll vom göttlichen Libanon herabfließt. Vom Berg Zion kommt es, bis es draußen alle Völker umfließt: Ströme des Friedens und Bäche der Gnaden, die vom Himmel kommen.^pAls die Jungfrau der Jungfrauen von Gott und ihrem Sohn, dem König der Könige, entrückt wurde, jubelten die Engel, freuten sich die Erzengel, der Himmel brach in Lobrufe aus, und die Weissagung des Psalmisten kam in Erfüllung: „Die Braut steht dir zur Rechten, ihr Gewand ist durchwirkt mit Gold und Perlen.“{3#Ps 45,10.14}",
+        "resp1": "Ein großes Zeichen erschien im Himmel; eine Frau mit der Sonne bekleidet, der Mond zu ihren Füßen,",
+        "resp2": "auf ihrem Haupt eine Krone von zwölf Sternen.",
+        "resp3": "Die Königin steht dir zur Rechten im golddurchwirkten Gewand."
+      },
+      {
+        "bezug": "(vom Gedenktag Mariae Namen)",
+        "autor": "Bernhard von Clairvaux († 1153)",
+        "werk": "Aus einer Rede über Mariä Namen.",
+        "text": "^hUnd°der°Name°der°Jungfrau°war°Maria: Stern°des°Meeres^p„Der Name der Jungfrau“, sagt der Evangelist, „war Maria“{1#Lk 1,27}. Wir wollen ein wenig über diesen Namen sprechen. Er heißt übersetzt: Stern des Meeres und eignet sich sehr wohl für die Jungfrau-Mutter. Sehr zutreffend nämlich ist sie einem Stern vergleichbar.^pWie der Stern ohne Einbuße seiner selbst seinen Strahl aussendet, so hat sie als Jungfrau den Sohn geboren, ohne dass ihre Jungfräulichkeit gemindert wurde. Der Strahl mindert nicht des Sternes Helligkeit, so auch nicht der Sohn die Unversehrtheit der Jungfrau.^pSie ist jener hehre Stern, aufgegangen aus Jakob, dessen Strahl die ganze Welt erleuchtet, dessen Glanz die Himmel überstrahlt, die Tiefen durchdringt und alle Lande erhellt. Er erwärmt mehr den Geist als den Körper, lässt die Tugenden reifen und verbrennt die Laster. Sie ist, sage ich, jener herrliche, auserlesene Stern, unendlich erhoben über das weite Meer, strahlend durch Verdienste, leuchtend als Vorbild.^pWenn du erfährst, dass dieses Erdenleben mehr ein Dahintreiben in Wellen, Wind und Wetter ist als ein Dahinschreiten auf festem Land: Wende deine Augen nicht ab vom Licht dieses Sternes, damit du nicht untergehst in den Stürmen.^lWenn die Sturmwinde der Versuchungen daherbrausen, wenn du zwischen die Klippen der Drangsale verschlagen wirst, blick auf zum Stern, ruf zu Maria!^lWenn dich emporschleudern Wogen des Stolzes, des Ehrgeizes, der Verleumdung, der Eifersucht – blick auf zum Stern, ruf zu Maria!^lWenn Zorn, Habsucht oder die Begierde des Eleisches deine Seele erschüttern – blick auf zu Maria!^lWenn dich die Last der Sünden drückt und die Schmach des Gewissens beschämt, wenn dich die Strenge des Gerichtes schreckt, wenn du drohst von abgrundtiefer Traurigkeit und Verzweiflung verschlungen zu werden – denk an Maria!^pIn Gefahren, in Ängsten, in Zweifeln – denk an Maria, ruf zu Maria! Ihr Name weiche nicht aus deinem Munde, weiche nicht aus deinem Herzen!^pDamit du aber ihre Hilfe und Fürbitte erlangest, vergiss nicht das Vorbild ihres Wandels!^lFolge ihr, und du wirst nicht vom Wege weichen.^lBitte sie, und niemals bist du hoffnungslos.^lDenk an sie, dann irrst du nicht.^lHält sie dich fest, wirst du nicht fallen.^lSchützt sie dich, dann fürchte nichts.^lFührt sie dich, wirst du nicht müde.^pIst sie dir gnädig, dann kommst du ans Ziel und wirst selbst erfahren, wie richtig es heißt: Und der Name der Jungfrau war Maria – Stern des Meeres.",
+        "resp1": "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
+        "resp2": "Durch dich leuchtet die Huld des Vaters den Menschen auf.",
+        "resp3": "Die vor dir waren, haben durch dich das Heil gefunden."
+      },
+      {
+        "bezug": "(vom Gedenktag U.L.Fr.°vom°Rosenkranz)",
+        "autor": "Bernhard von Clairvaux († 1153)",
+        "werk": "Aus einer Predigt über den Aquädukt.",
+        "text": "^hWir sollen die Geheimnisse des Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}. Der Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 Vg.} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten{11#vgl.°Ps 88,6 röm.} in der Welt des Todes sich als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt  {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
+        "resp1": "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
+        "resp2": "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+        "resp3": "Sei gegrüßt, du Gnadenvolle, der Herr ist mit dir."
+      },
+      {
+        "bezug": "(vom Gedenktag U.L.Fr.°von°Jerusalem)",
+        "autor": "Augustinus († 430)",
+        "werk": "Aus einer Predigt über Maria als°Vorbild°christlichen°Glaubens.",
+        "text": "^hIm°Glauben°vertraute°sie, im°Glauben°empfing°sie^pAchtet darauf, was Christus der Herr gesagt hat: „Er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50}^pHandelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie, die im Glauben vertraute und im Glauben empfing; sie, die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie, die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde?^pJa, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28}^pAuch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte.^pChristus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria ein Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch ein Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied. Der Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
+        "resp1": "Der Herr hat mich bekleidet mit dem Gewand des Heiles, das Kleid der Freude hat er mir angelegt.",
+        "resp2": "Er hat mich mit einer Krone geschmückt wie eine Braut.",
+        "resp3": "Mit einem Gewand, aus Gold gewoben, hat der Herr mich bekleidet, mit unschätzbarem Geschmeide hat er mich geziert."
+      }
+    ]
+  },
+  "q-4-0": {
+    "patr_selector": [
+      {
+        "autor": "Athanasius (†°373)",
+        "werk": "Aus einem Osterbrief.",
+        "text": "^hWir feiern das nahe Fest des Herrn nicht nur mit Worten, sondern auch mit Taten^pNahe ist uns das Wort, das für uns alles geworden ist, unser Herr Jesus Christus, der uns verspricht, immer bei uns zu bleiben. Deswegen rief er: „Ich bin bei euch alle Tage bis zum Ende der Welt.“{1#Mt 28,20} Er wurde für uns der Hirt, der Hohepriester, der Weg, die Tür, überhaupt alles. So ist er auch an dem Hochfest für uns erschienen, wie der selige Apostel schreibt: „Als unser Paschalamm ist Christus geopfert worden“{2#1°Kor°5,7}, er, auf den die Menschheit gewartet hat. Er hat auch Licht geworfen auf die Worte des Psalmisten, der gesagt hat: „Du mein Frohlocken, rette mich vor denen, die mich umringen!“{3#Ps 32,7 LXX}^pDas ist der wahre Jubel, dies das echte Hochfest: der Sieg über das Böse. Jeder, der dahin gelangen will, führe ein Leben der Redlichkeit und Besinnlichkeit in der Ruhe der Gottesfurcht.^pSo lebten die Heiligen, und dadurch verbrachten sie ihr ganzes Leben in Freude, als wäre es ein Hochfest. Einer von ihnen, David, erhob sich nicht nur einmal des Nachts, sondern siebenmal{4#vgl.°Ps°119,164}, und stimmte Gott gnädig durch sein Gebet. Ein anderer, der große Mose, jubelte in Hymnen. Er stimmte einen Lobgesang an auf den Sieg über den Pharao und über die, welche die Hebräer bei der Arbeit quälten. Andere haben im immerwährenden Freudendienst Gott gedient wie der große Samuel und der selige Elija. Wegen ihres redlichen Lebens erlangten sie die Freiheit, und jetzt feiern sie im Himmel das Fest. Sie jubeln über ihre einstige Pilgerschaft im Schatten und können nun die Wirklichkeit vom Bild unterscheiden.^pWelche Wege sollen wir einschlagen, da wir jetzt das Hochfest begehen? Da das Fest nun nahe ist, welchen Führer werden wir haben? Meine Lieben, keinen anderen als ihn, den ihr selbst mit mir nennen werdet: unseren Herrn Jesus Christus, der spricht: „Ich bin der Weg“{5#Joh 14,6}, der, wie der heilige Johannes sagt, „die Sünde der Welt hinwegnimmt“{6#Joh 1,29}. Er reinigt nach dem Propheten Jeremia unsere Herzen: „Stellt euch auf die Wege und haltet Ausschau, fragt, wo der Weg zum Guten liegt; geht auf ihm, so werdet ihr Ruhe finden für eure Seele!“{7#Jer 6,16}^pEinst wurde das Blut von Böcken und Kälbern über die Unreinen ausgesprengt und konnte doch nur den Leib reinigen{8#vgl.°Hebr 9,13}; jetzt aber wird ein jeder durch die Gnade des göttlichen Wortes mehr als rein. Dem Wort müssen wir alsbald folgen. Dann dürfen wir hier wie in einem Vorraum des himmlischen Jerusalem das ewige Fest vorwegnehmen. Die heiligen Apostel waren im Gefolge ihres Erlösers. Sie waren damals und sie sind bis zur Gegenwart Lehrer dieser Gnade. Sie sprachen: „Du weißt, wir haben alles verlassen und sind dir nachgefolgt.“{9#Mt 19,27} Wir folgen also dem Herrn und feiern sein Fest nicht nur mit Worten, sondern auch mit Taten.",
+        "resp1": "Jesus ist als Vorläufer für uns in das Allerheiligste eingetreten,",
+        "resp2": "er, das Lamm ohne Fehl, nach der Ordnung Melchisedeks Hohepriester auf ewig.",
+        "resp3": "Seht das Lamm Gottes, das die Sünde der Welt hinwegnimmt."
+      },
+      {
+        "autor": "Augustinus († 430)",
+        "werk": "Zum Johannesevangelium.",
+        "text": "^hDie°Heilung°des°Blindgeborenen^pÜber den Blindgeborenen, den der Herr Jesus sehend gemacht hat, ist eine lange Lesung vorgetragen worden. In aller Kürze gebe ich das Mysterium dieses sehend gewordenen Blinden zu überlegen.^pWas unser Herr Jesus Christus da getan hat, ist erschreckend und wunderbar. Es sind Werke, und es sind Worte; Werke, weil es getan wurde, Worte, weil es Zeichen sind.^pWenn wir also darüber nachdenken, was der Vorgang eigentlich bedeutet, so kommen wir zu dem Ergebnis: der Blinde ist das Menschengeschlecht. Zu dieser Blindheit kam es beim ersten Menschen durch die Sünde; von ihm kommen wir alle her, von ihm haben wir nicht nur den Tod, sondern auch die Sünde.^pWenn die Blindheit der Unglaube ist und das Sehendwerden der Glaube, wen hat Christus glaubend vorgefunden, als er kam? Der Apostel, der doch aus dem Geschlecht der Propheten stammt, sagt: „Auch wir waren von Natur aus Kinder des Zorns wie die anderen“.{1#Eph 2,3} Waren wir aber Kinder des Zorns, dann waren wir auch der Rache, der Strafe, der Hölle verfallen.^pWieso ‚von Natur aus‘? Weil der erste Mensch gesündigt hat, nistete das Böse sich in die Natur ein. Wenn sich das Böse in die Natur einnistet, dann ist dem Sinn nach jeder Mensch blind geboren. Sieht er nämlich, dann braucht er keinen Führer und keinen, der ihn sehend macht. Braucht er aber einen Blindenführer und einen, der ihn sehend macht, dann ist er blind von Geburt an.^pDer Herr kam! Was tat er? Er schenkte uns ein großes Mysterium. „Er spie auf die Erde“ und machte mit seinem Speichel einen Teig; denn das Wort ist Fleisch geworden. Er salbte die Augen des Blinden. Nun war er gesalbt, sah aber noch nicht.^pEr schickte ihn zum Teich Schiloach. Es ist eine Erklärung des Evangelisten, wenn da steht: „das heißt übersetzt ‚der Gesandte‘“. Ihr wisst, wer der Gesandte ist. Wäre er nicht gesandt, dann wäre keiner von uns aus der Schuld entlassen. Er wusch also die Augen in dem Teich, der ‚Gesandter‘ heißt: Er wurde getauft in Christus! Als Christus ihn in sich taufte, da machte er ihn sehend. Vielleicht machte er ihn zum Katechumenen, als er ihn salbte.",
+        "resp1": "Jesus sprach zum Blinden: Geh, wasche dich im Teiche Schiloach.",
+        "resp2": "Der Blinde wusch sich und konnte sehen.",
+        "resp3": "Erschreckend und wunderbar ist, was unser Herr getan hat!"
+      }
+    ]
+  },
+  "q-6-4": {
+    "patr_selector": [
+      {
+        "autor": "Ephräm der Syrer (†°373)",
+        "werk": "Aus dem Buch „Lobgesang°aus°der°Wüste“.",
+        "text": "^hLoblied auf den Abendmahlssaal^pSelig bist du, o°Raum (des Abendmahls)! Denn in dir war die Waage der Wahrheit aufgerichtet für beide Seiten. Zwei Pascha waren da und zwei Lämmer, und zwei Völker, zwei Gesetze. Das Volk glich seinem Pascha: ein vergängliches Lamm; und wie die Zeit des Lammes verging und schwand das Volk. Die Erlösung der Völker ist die Wahrheit, die nicht schwindet; denn es ist das Lamm, das nicht vergeht.^pSelig bist du, o°Raum! Denn zwei Jünger wurden ausgesandt{1#vgl. Mk 14,13}, und sie kamen und bezeichneten dich für sein Abendmahl. Verachtet wurden der Tempel, den Salomo baute, und der Palast des Herodes. Reinheit wählte er, und in dir sah er sie. Keuschheit wählte er, und in dir fand er sie.^pDie Serafim erschauderten, da sie den Sohn sahen, wie er das Linnenkleid um seine Hüfte legte{2#vgl. Joh 13,4} und die Füße im Becken wusch, auch den Schmutz des Diebes, der ihn verriet.^pUnser Herr reinigte den Körper der Brüder im Becken, das ein Symbol der Eintracht ist. Symbolisch wurde auch das Glied abgetrennt, das sich selber abschnitt, sich selber preisgab. Im Schoß des Taufwassers hat Christus uns auf neue Weise zusammengefügt. Seien wir nicht getrennte Glieder, die gegen sich selber disputieren, ohne zu merken, dass sie mit ihrer Liebe streiten!^pSelig, o°Raum, dessen Kleinheit gegen die ganze Schöpfung gestellt ist! Was in dir geschah, die ganze Schöpfung ist davon voll, sie ist zu klein dafür. Selig deine Wohnung, in der gebrochen wurde jenes Brot aus der gesegneten Garbe. In dir wurde gekeltert die Traube aus Maria, der Kelch des Heils.^pSelig, o°Raum! Denn kein Mensch sah und wird sehen, was du gesehen hast: unser Herr zum wahren Altar geworden, Priester und Brot und Kelch des Heils, er für sich allein all das umfassend! Dass einer ihn voll erfasse, ist unmöglich. Altar und Lamm, Opfer und Opferpriester, Priester und Opferspeise.^pSelig, o°Raum! Denn niemals wurde aufgestellt unter Königen ein Tisch wie der deine, auch nicht im Zelt des Allerheiligsten, wo die Schaubrote aufgestellt waren. In dir wurde zuerst gebrochen jenes Brot; denn du (o°Raum) wurdest zu seiner Kirche. Erstling der Altäre, der es wurde durch sein Opfer, in dir erschien er zuerst.^pIn dir, o°Raum, ist auch abgebildet die Trennung, jene neue, die kommen wird. Es ging nämlich weg in die Nacht hinaus der Sohn der Finsternis, und er legte das ihm verwandte Kleid des Dunkels an. Im Gericht werden seine Verwandten, die Böcke, getrennt von den Lämmern des Lichts.",
+        "resp1": "Erkennt im Brot den Herrn, der am Kreuze hing, im Kelch das Blut, das aus seiner Seite strömte.",
+        "resp2": "Nehmt und esst den Leib Christi! Nehmt und trinkt das Blut Christi!",
+        "resp3": "Der Herr stiftete dieses Sakrament als Denkmal seines Leidens, als Erfüllung der alten Zeichen, als größtes der von ihm gewirkten Wunder."
+      },
+      {
+        "autor": "Romano Guardini († 1968)",
+        "werk": "Aus dem Buch „Der Herr“.",
+        "text": "^hGetsemane^pIn der Stunde von Getsemane erreicht das immerwährende Leiden des Herrn seine bitterste Schärfe.^pDas Leben Gottes hat keine Zeit und keine Veränderung; es steht in unendlicher und einfacher Gegenwart. Das Leben des Menschen geht in Zeiten, steigt und fällt. Im Herrn war beides, die ewige Gegenwart und der Wandel in der Zeit; so wird auch jenes innere Leiden seine Zeiten gehabt haben – des Umfangs, der Dringlichkeit, der Schärfe. Nun war die Stunde, da „alles vollbracht“ werden sollte.^pWer will wissen, wie Gott, der Vater, ihm damals entgegentrat? Immer war er sein Vater, und immer ging vom Vater zum Sohne die unendliche Liebe, welche der Geist ist; dennoch ist einmal der Augenblick gekommen, den das Wort ausdrückt: „Mein Gott, mein Gott, warum hast du mich verlassen?“{1#vgl. Mt 27,46}^pWenn wir vor diesem Wort nicht lieber schweigen wollen, dann werden wir sagen müssen, der Vater habe sich Jesus so zu erfahren gegeben, als wäre er der von Gott wegverlorene und verworfene Mensch. Jesus habe in jener Stunde die Einheit mit uns bis ins Geheimnis hinein ausgekostet.^pDas hat aber doch wohl nicht erst in jenem letzten Augenblick am Kreuze eingesetzt, sondern schon vorher. Wohl schon vorher ist ihm der Vater als jener entgegengetreten, der er dem Sünder gegenüber ist – dem Sünder, dessen Dasein Christus ja als das seine an sich genommen hatte.^pVielleicht dürfen wir sagen, dass in der Stunde von Getsemane jenes Wissen um die Menschenschuld und Menschenverlorenheit sich vor dem Angesicht des Vaters, der ihn zu „verlassen“ begann, in seiner letzten Schärfe aufgerichtet hat. Da hat jenes Wissen und Leiden eine Furchtbarkeit angenommen, von der Jesu sichtbares Sich-Ängsten und Zurückschaudern, das „gewaltigere Beten“, und der Schweiß, der „wie Tropfen Blutes wurde, die zur Erde niederrannen“{2#vgl. Lk 22,44}, das letzte an uns gelangende Zeichen waren – so wie ein Wirbel an der Oberfläche des Meeres das äußerste Anzeichen einer Katastrophe sein mag, die auf dessen Grunde vor sich geht und deren Ausmaße unsere Vorstellungskraft übersteigen.^pDas war die Stunde von Getsemane: dass Jesu Menschenherz und ^-geist in die letzte Erfahrung dessen eintrat, was die Sünde vor dem richtenden und rächenden Antlitz Gottes bedeutet. Dass sein Vater von ihm forderte, er solle diese Sünde als die seine aufnehmen. Und dass er, wenn man so sagen darf, den Zorn des Vaters wider die Sünde gegen sich, der sie auf sich genommen, gerichtet sah und die Abwendung des ihn „verlassenden“ heiligen Gottes erfuhr.^pDa ist alles durchgekämpft worden. Was nachher kam, war der Vollzug dieser Stunde. In ihr wurde alles vorweggenommen; was nachher kam, war nur das Vollbringen."
+      }
+    ]
+  },
+  "q-6-6": {
+    "patr_selector": [
+      {
+        "autor": "Meliton von Sardes (†°vor 190)",
+        "werk": "Aus einer Osterpredigt.",
+        "text": "^hDie österliche Verkündigung Christi^pDer Herr hat den Menschen (d.°h.°Menschengestalt) angezogen und hat gelitten wegen des Leidenden und wurde gefesselt wegen des Gefangenen und gerichtet wegen des Verurteilten und begraben wegen des im Grabe Liegenden, er erstand von den Toten und ließ so seine Stimme ertönen: „Wer ist es, der mit mir rechtet? Er soll gegen mich auftreten! Ich habe den Verurteilten befreit. Ich habe den Toten lebendig gemacht. Ich wecke den Begrabenen auf. Wer will mir widersprechen?“^pIch bin der Christus, sagt er, ich habe den Tod vernichtet und über den Feind triumphiert. Ich habe die Unterwelt mit Füßen getreten, den Starken gefesselt{1#vgl. Mk 3,27} und den Menschen entrissen zur Höhe des Himmels. Ich, so sagt er, ich selbst, der Christus.^pKommt also, alle Stämme der Menschen, die ihr in Sünde seid, und empfangt die Vergebung. Ich bin eure Vergebung, ich bin das Pascha des Heils. Ich bin das Lamm, das für euch geschlachtet wurde, ich bin euer Lösegeld, euer Leben, eure Auferstehung, ich bin euer Licht und euer Heil, ich bin euer König{2#vgl. Joh 11,25; 8,12; 18,37}. Ich führe euch empor zu den Höhen des Himmels; ich werde euch erwecken durch meine Rechte, ich werde euch den Vater im Himmel zeigen.^pDieser ist es, der Himmel und Erde geschaffen und am Anfang den Menschen gebildet hat, der durch Gesetz und Propheten verkündigt wird; der in der Jungfrau Fleisch geworden, der ans Holz Gehängte, der in die Erde Begrabene, der von den Toten Auferstandene und zu den Höhen der Himmel Zurückgekehrte, der zur Rechten des Vaters Sitzende. Ihm gebührt die Ehre und die Macht in alle Ewigkeit. Amen.",
+        "resp1": "Verschlungen ist der Tod vom Sieg. Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?",
+        "resp2": "Gott sei Dank, der uns den Sieg geschenkt hat durch Jesus Christus, unseren Herrn!",
+        "resp3": "Ich lege mich nieder und schlafe ein, ich wache wieder auf, denn der Herr beschützt mich."
+      },
+      {
+        "autor": "Leo der Große († 461)",
+        "werk": "Aus einer Predigt über die Passion des Herrn.",
+        "text": "^hWer sein Kreuz nicht auf sich nimmt und°mir°nicht°nachfolgt, der°ist°meiner°nicht°wert^pMit allen Kräften unseres Geistes und unseres Leibes müssen wir danach trachten, unzertrennlich mit dem Geheimnis des Leidens Christi verbunden zu bleiben; denn der Herr sagt: „Wer nicht sein Kreuz auf sich nimmt und mir nachfolgt, ist meiner nicht würdig.“{1#Mt 10,38} Und der Apostel spricht: „Wenn wir mit ihm leiden, werden wir auch mit ihm verherrlicht werden.“{2#vgl. Röm 8,17}^pWer anders erweist also nach diesen Worten dem wahrhaft leidenden, sterbenden und auferstehenden Christus seine Verehrung, als wer mit ihm leidet, stirbt und aufersteht?^pDiese Teilnahme an dem Leiden des Herrn hat bei allen Kindern der Kirche schon mit ihrer wunderbaren Wiedergeburt begonnen: Durch die Tilgung der Sünde ersteht hier der Mensch zu neuem Leben, und durch das dreimalige Untertauchen wird der dreitägige Tod des Herrn versinnbildet. Bei der Taufe wird gleichsam die Erddecke von einem Grabe entfernt. Mit unserem alten Menschen steigen wir in den Taufquell hinab, und neugeboren kommen wir aus ihm hervor.^pWas aber durch dieses Sakrament mit uns begonnen wurde, das müssen wir durch Taten vollenden. Die ganze Lebenszeit, die den im Heiligen Geiste Wiedergeborenen noch übrig bleibt, muss ein beständiges Tragen des Kreuzes sein. Obgleich nämlich durch die Macht des Leidens Christi dem starken und grausamen Feinde (unseres Geschlechtes) die „Gefäße der alten Erbeutung“ entrissen wurden und „der Herrscher dieser Welt“{3#Joh 12,31} über die Herzen der Erlösten keine Gewalt mehr hat, verfolgt er doch die Menschen selbst nach ihrer Rechtfertigung immer noch mit seiner alten Bosheit.^pAuf mancherlei Art greift er die an, in denen er nicht mehr herrscht, um nachlässige und sorglose Seelen aufs neue mit noch grausameren Banden an sich zu ketten, um sie aus dem Paradies der Kirche zu vertreiben und sie zu Genossen seiner Verdammnis zu machen. Wenn darum jemand merkt, dass er die Grenzen der christlichen Gebote überschreitet und dass seine Begierden auf Dinge gerichtet sind, die ihn vom rechten Wege abbringen könnten, so nehme er seine Zuflucht zum Kreuze des Herrn und kreuzige sein sündhaftes Wollen und Wünschen auf dem Baume des Lebens."
+      }
+    ]
+  },
+  "Speyer-01-27": {
+    "patr_selector": [
+      {
+        "autor": "Paul Josef Nardini (1821–1862)",
+        "werk": "Aus „Der christliche Pilger“ vom 27. Januar 1861",
+        "text": "^hDas Gottvertrauen und der Segen des Allmächtigen hat dies alles gebaut^pAuf das hohe Weihnachtsfest im Jahre 1854 geschah es, dass bei der Krippe desjenigen, der gesagt hat: „Es ist der Wille meines Vaters, dass keines dieser Kleinen verloren gehe“, und der Kind geworden ist, um vor allem die Kinder zu erlösen und uns alle zu Kindern Gottes zu heiligen, der Entschluss gefasst wurde, zur Linderung der schreienden Not der Zeiten in gottgeweihten Jungfrauen den verwaisten und verlassenen Kindern, den Armen und Kranken, Mütter und Trösterinnen zu erziehen nach dem Vorbilde derjenigen, die wir als die unbefleckte Jungfrau und Mutter des Jesuskindes verehren, die wir Trösterin der Betrübten und Heil der Kranken nennen. Was an der Krippe mit Gott beschlossen wurde, das wurde nach mündlicher Unterredung mit dem Hochwürdigsten Herrn Bischof im Jahr 1855 auf den Tag der heiligen Agatha im Vertrauen auf Gott versuchsweise begonnen, und mehrere Jungfrauen unserer Diözese verließen Vater und Mutter, Bruder und Schwester, Häuser und Güter, und kamen nach Pirmasens, um sich selbst entsagen zu lernen und sich nach der III. Regel unseres heiligen Vaters Franziskus dem Dienst der armen Kinder, der Kranken und Elenden zu weihen und deren Mägde zu werden.^pDer Anfang geschah in einem gemieteten Häuschen, das sogleich überfüllt war von elenden, ausgehungerten, mit manchfachem Übel bedeckten Kindern, zu denen täglich über hundert Arme der Stadt kamen, welche die bitterste Not litten. Der Pestgeruch, welcher infolge der vielen Gebrechen und Unreinlichkeiten das Häuschen erfüllte, zeigte, was hier zu überwinden sei. Es war aber den gottbegeisterten Jungfrauen Wohlgeruch. Und derjenige, welcher in die Hände derer, die alles verlassen hatten, den Segen von allen Seiten zur Erhaltung ihrer Kinder und Armen strömen ließ, bewahrte sie auch vor der drohenden Ansteckung. In Ermangelung der Betten für die immer mehr wachsende Kinderzahl wurde Stroh bei der christlichen Barmherzigkeit gebettelt, und statt der Federn musste der Wald sein demütiges Moos hergeben zur Füllung der Oberbetten. Ihre aus der Welt mitgebrachten Kleider wurden zerschnitten, zurecht gerichtet, um die Blöße der Kinder und Armen zu bedecken. In welch fruchtbares Erdreich das Senfkörnlein gefallen, und wie wunderbar der Himmel es segnete, offenbarte sich immer mehr.^pGegenwärtig am Ende des Jahres 1860 beläuft sich die Anzahl der seit sechs Jahren eingekleideten Schwestern über zweihundert; elf hat bereits der himmlische Bräutigam in die Ewigkeit abgerufen.^pIn dem Mutterhause selbst befinden sich vier Schulen. Die Anzahl der Kinder des Armenkinderhauses ist bis Ende dieses Jahres auf zweihundertfünfzig angewachsen, darunter hundertvierzig Knaben. Die besonders befähigten der letzteren besuchen die hiesige Lateinschule. Unter diesen sind auch einige Kinder von besseren Familien, welche auf Bitten ihrer Eltern gegen ein entsprechendes Kostgeld in das Armenkinderhaus aufgenommen sind. Die übrigen Knaben werden nach genossenem Schulunterricht entweder für den Ackerbau weitererzogen oder lernen ein Handwerk. Im Hause selbst können sie Schuster, Schneider, Weber, Schreiner und Maurer werden. Auch sind Knaben einigen zuverlässigen Meistern in der Stadt Pirmasens zur Erlernung anderer Handwerke übergeben, in der Weise jedoch, dass sie stets Kost, Wohnung und Erziehung bei den Schwestern haben. Die heranreifenden Mädchen werden vor allem in den häuslichen Geschäften erzogen und sollen bei erlangter Zuverlässigkeit als Dienstboten verwendet werden. Die befähigteren von ihnen lernen feinere weibliche Arbeiten in der täglichen Arbeitsschule, welche nebstdem von vielen Mädchen der besseren Stände aus der Stadt besucht wird. Nebenbei sind auch sechzehn gebrechliche alte Leute aufgenommen und bilden gleichsam eine kleine Pfründneranstalt. Die ganze Familie des Mutterhauses dahier beläuft sich gegenwärtig auf dreihundertvierzig Personen.^pFragst du aber staunend: Wodurch ist dies alles geworden?, so kann dir nur darauf geantwortet werden: Das Gottvertrauen und der Segen des Allmächtigen hat dies alles gebaut. – Und das Rosenkranzgebet hat dies gebaut, denn so viele der Steinchen an diesen Gebäuden sind, so viel mal und noch öfters hat das Ave Maria aus dem Munde der Kinder und Jungfrauen die Mutter des Herrn gegrüßt. – Und der heilige Josef, der Besorger und das Haupt der heiligen Familie, hat bauen helfen und den Töchtern der heiligen Familie ihr Kloster gezimmert. – Und die Kinder alle, welche dem Verderben entrissen, seit sechs Jahren in den Armen der Schwestern des ewigen Schlafes entschlafen als reine Engel in die Gemeinschaft der Heiligen eingetreten sind, haben bauen helfen. – Und was vor allem nicht verschwiegen werden kann, sämtliche Glieder des Wittelsbacher Königshauses, angefangen von dem edlen und großmütigen König Ludwig, haben bauen helfen und Fundamentsteine beigebracht. – Und die Schwestern selbst haben gebaut durch das Opfer ihres Vermögens und ihres Schweißes.^pMöge auch hierfür der Segen, den unser Hochwürdigster Herr Bischof bei der letzten Visitation am 6. August 1859 den Armen Franziskanerinnen und ihren Kindern mit so väterlichem Herzen erteilte, sich immer wirksamer erweisen, sowohl in der inneren Begründung dieser religiösen Genossenschaft und ihrer Wohltätigkeitsanstalten im Mutterhause, als auch in ihrer opferfreudigen Wirksamkeit nach außen, zur größeren Ehre Gottes und zum Troste der verlassenen Kinder, der Armen und Kranken.",
+        "resp1": "Wir sind arm und machen doch viele reich; wir haben nichts und haben doch alles.",
+        "resp2": "Alles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen zur Verherrlichung Gottes.",
+        "resp3": "Darum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert."
+      },
+      {
+        "autor": "Paul Josef Nardini (1821–1862)",
+        "werk": "Aus einer Predigt vom 11. September 1853.",
+        "text": "^hLiebe ist unser Leben, Liebe°ist°unsere°Bestimmung^p„Wer Vater oder Mutter mehr liebt als mich, der ist meiner nicht wert. Und wer Bruder oder Schwester mehr liebt als mich, ist meiner nicht wert. Und wer um meinetwillen nicht alles verlassen kann, der ist meiner nicht wert“, sagt der Meister.^pIn seinem Geiste dürfen wir fortfahren und sagen: Wer sein Amt, seine Wissenschaft, seine Kunst, seinen Handel, sein Gewerbe, seinen Acker, mehr liebt als Gott, der ist seiner nicht wert.^pDer Christ kennt nur ein Höchstes – Gott. Alles Übrige ist diesem einen untergeordnet und erhält erst Wert durch seine Beziehung zu diesem Einen.^pWas teilt das Herz so oft zwischen Gott und der Welt, zwischen dem Ewigen und dem Zeitlichen, zwischen Himmel und Erde? Einzig die Sünde, welche der heilige Augustin die Unterordnung der Liebe nennt. Denn wir sind vor Gott nicht eher strafbar, als wenn wir lieben, was wir nicht lieben sollen. Und alle unsere Laster sind nichts anderes als Ausartungen unserer Liebe.^pLiebt, wie die Schrift fordert, Gott von ganzem Herzen, dann vermag die Sünde nichts mehr wider euch. Eitle Lockungen werden sich noch immer zeigen, aber die Liebe mäßigt den Reiz und stärkt die Kraft zum Widerstande. An Aufforderungen, Pflicht, Recht, Wahrheit zu verleugnen, wird es noch immer nicht fehlen, aber die Liebe ist der Schutzgeist, der euch warnt, der Schild, der euch deckt, das Schwert, welches abwehrt alle Pfeile der Hölle.^pIhr werdet, solange ihr wandelt in dieser Zeit der Unvollkommenheit, nicht aufhören zu fühlen, dass ihr sündhafte Menschen seid. Aber je reiner die Flamme der Liebe in euch brennt, umso freier werdet ihr sein von Versuchungen, umso höher euch erheben über das Böse, umso näher treten euerem Gott. Ihr entwindet euch immer mehr dem Gesetze des Fleisches und erkennt immer mehr das Gesetz des Geistes, das zur vollkommenen Freiheit der Kinder Gottes führt.^pWer liebt die Menschen wahrer, reiner, aufopfernder als der Christ? Und warum? Weil er sie nicht liebt um ihrer selbst willen, sondern um Gottes willen. Er sieht in seinen Mitmenschen Geschöpfe, die aus Gottes Hand hervorgegangen sind wie er, für die Ewigkeit berufen wie er, und er weiß, dass ihnen der Vater das höchste Zeugnis ihrer Würde und den höchsten Beweis seiner Liebe dadurch gegeben hat, dass er seinen eingeborenen Sohn hingab, damit alle, die an ihn glauben, nicht verloren gehen, sondern das ewige Leben haben. Er weiß, was er dem Geringsten von seinen Brüdern tut, das tut er Gott. Darum liebt er sie alle, darum kann er in seiner Liebe sich nicht nur genug tun und des schönen Werkes, zu segnen und wohl zu tun nach seinen Kräften, kein Ende finden. Seht, wohin sein Herz mit seiner Liebe sich wendet, in Gott hat sie ihren Quell und in Gott ihr Ziel. Das aber heißt: Gott lieben aus seinem ganzen Herzen.^pLiebe ist unser Leben, Liebe ist unsere Bestimmung. Liebe ist das Einzige, was Gott von uns fordert, denn die Erfüllung aller Pflicht fließt aus ihr.",
+        "resp1": "Der HERR ist gut zu allen, sein Erbarmen waltet über all seinen Werken.",
+        "resp2": "Da wirst du schauen und strahlen, dein Herz wird erbeben und sich weiten.",
+        "resp3": "Nahe ist der HERR allen, die ihn rufen, allen die ihn aufrichtig rufen."
+      }
+    ]
+  },
+  "Speyer-04-05": {
+    "patr_selector": [
+      {
+        "autor": "Guido von Arezzo († um 1050)",
+        "werk": "Aus dem Brief an den Mönch Michael in Pomposa (um 1026).",
+        "text": "^hAbt Guido – Liebling Gottes und bei den Menschen hochgeschätzt^pHart kommen uns die Zeiten an oder doch unverständlich die Prüfungen und Ratschlüsse Gottes, weil so oft Täuschung die Wahrheit und Missgunst die Liebe mit Füßen tritt. Beides ist auch unserem Orden durchaus nicht ferngeblieben. So geschieht unter uns das gleiche wie einst, als die Schar der Philister an Israel die Strafe für seine Verkommenheit vollzog. Dadurch wird verhindert, dass man allzu sehr auf sich selbst vertraut und so dem Verderben anheimfällt, was ja leicht vorkommen könnte, wenn alles so ganz nach unserem Willen geschähe. Alles, was wir tun, ist eben nur dann wahrhaft gut, wenn wir unser ganzes Können unserem Schöpfer zuschreiben.^pSo kommt es, dass du mich weit von meiner Heimat verbannt findest und dass du selbst unter dem Druck des Neides kaum atmen kannst. Weil dir nun deine Gefangenschaft kaum noch Hoffnung auf Freiheit lässt, will ich dir den Lauf der Dinge der Reihe nach brieflich darlegen.^pAls Johannes, der jetzt den Apostolischen Stuhl innehat und die Römische Kirche leitet, von unserer Schule reden hörte und erfuhr, wie mit Hilfe unserer Antiphonarien die Chorknaben bisher noch nicht gehörte Gesänge erlernten, staunte er sehr und ließ mich durch drei Abgesandte zu sich rufen. Ich reiste also nach Rom in Begleitung des hochwürdigsten Herrn Abtes Grunwald und des Herrn Propstes Petrus von Arezzo, eines nach den Verhältnissen unserer Zeit höchst gebildeten Mannes. Über meine Ankunft zeigte sich der Papst sehr erfreut; er unterhielt sich lange mit mir und erkundigte sich eingehend über dies und jenes. Er blätterte in unserem Antiphonar hin und her, als sei es ein Wunderwerk und murmelte die vorangestellten Regeln immer wieder vor sich hin. Er ließ nicht eher davon ab und erhob sich nicht von seinem Sitz, bis er selbst einen bis dahin nicht gehörten Vers seiner Wahl zu singen gelernt und so, was er bei anderen kaum für möglich gehalten, bei sich selbst in so kurzer Zeit als möglich erfahren hatte. Was wollte ich noch mehr?^pWenige Tage später besuchte ich euren und meinen Vater, den Herrn Abt Guido von Pomposa. Dieser Mann gilt ja ob seiner Tugend und Weisheit mit Recht als Liebling Gottes und ist bei den Menschen hochgeschätzt. Mir selbst ist er besonders ans Herz gewachsen, und so sehnte ich mich danach, ihn wiederzusehen. Kaum hatte dieser mit seinem scharfen, durchdringenden Geist Einblick genommen in unser Antiphonar, drückte er auch schon sofort seine Anerkennung und Wertschätzung dafür aus. Zugleich bedauerte er aufrichtig, dass er früher einmal unseren Gegnern beigepflichtet hatte.{1#@Guido von Arezzo, zuerst selbst Mönch in Pomposa, hatte um 1025  wegen des Widerstandes seiner Mitbrüder gegen seine neue Methode des Gesangsunterrichtes das Kloster Pomposa verlassen müssen.} Er lud mich dann ein, nach Pomposa zu kommen, wobei er mich davon zu überzeugen suchte, dass ich als Mönch die Klöster den Bischofsresidenzen vorziehen müsse, allen voran natürlich Pomposa. Denn dank der Gnade Gottes und des hochwürdigsten Herrn Guido Bemühung, befasst man sich dort erstmals in Italien ernsthaft mit meiner Methode. Den Bitten eines so geschätzten Vaters will ich mich beugen und seinen Weisungen gehorchen. Deshalb will ich mit Gottes Hilfe dieses einzigartige Kloster mit diesem unserem Werk verherrlichen und mich als rechter Mönch unter Mönchen erweisen.",
+        "resp1": "Nie sollen Liebe und Treue dich verlassen; binde sie dir um den Hals, schreib sie auf die Tafel deines Herzens!",
+        "resp2": "Dann erlangst du Gunst und Beifall bei Gott und den Menschen.^HALLo",
+        "resp3": "Mein Sohn, vergiss meine Unterweisung nicht!"
+      },
+      {
+        "autor": "Petrus Damiani († 1072)",
+        "werk": "Brief an die Mönche von Pomposa (um 1044).",
+        "text": "^hIch beschwöre euch, ohne Unterlass für mich zu beten^pPetrus entbietet allen gottesfürchtigen und heiligen Männern, die im Kloster von Komposita ein gottgeweihtes Leben führen, seine ergebensten Grüße.^pGeliebte Väter und Herren, ich habe nicht die Absicht, davon zu schreiben, wie mein Herz erglüht in treuer Zuneigung zu euch oder von welch flammender Liebe es erfüllt ist zu allem, was in irgendeinem Bezug steht zum Kloster von Pomposa, denn ich könnte ja gar leicht den Anschein erwecken, als wollte ich mich in Schmeicheleien ergehen. Für die Ehrlichkeit meiner Zuneigung ist ja mein Gewissen selbst ein guter Zeuge. Auch kann die Wahrheit meiner Worte jenen Menschen nicht verborgen bleiben, die häufig mit mir Gespräche führen. Und ihr, vielgeliebte Brüder, dürft mich nicht als Außenstehenden ansehen, mag ich auch dem Leibe nach von euch getrennt sein. Erachtet mich bitte nicht wie irgendeinen Freund oder beliebigen Weggenossen, sondern betrachtet mich und meine ganze Klostergemeinschaft ohne Bedenken als euren ureigensten Besitz. Gebt uns Weisungen nach eurem Belieben und zwar ohne zu zögern, als ob wir eure Untergebenen und Hausgenossen wären. Daher beschwöre ich euch, geliebte Brüder, unter Tränen und werfe mich flehentlich euch zu Füßen: Betet ohne Unterlass für mich, euren Diener, besonders nach meinem Tode. Was immer ihr tut im Hinblick auf ein Mitglied eurer Ordensgemeinschaft, das tut – darum bitte ich euch – auch im Hinblick auf mich Armen.^pNun bitte ich euch, ehrwürdige Herren, nehmt den bescheidenen Segensgruß aus der Hand eures Dieners wohlwollend an. Lenkt eure Aufmerksamkeit weniger auf die Gabe und mehr auf den Geber. Achtet nicht so sehr darauf, wie gering die Gabe ist, sondern bedenkt, dass sie aus ganzem Herzen kommt.",
+        "resp1": "Ich bitte euch, meine Brüder und Schwestern, bei unserem Herrn Jesu Christi:",
+        "resp2": "Kämpft mit mir in den Gebeten für mich vor Gott.^HALLo",
+        "resp3": "Unablässig denke ich an euch in allen meinen Gebeten."
+      }
+    ]
+  },
+  "Speyer-05-05": {
+    "patr_selector": [
+      {
+        "autor": "Wilhelm von Saint Thierry (†°1148)",
+        "werk": "Aus dem „Goldenen Brief“.",
+        "text": "^hDie Zelle als Heiligtum des Dieners Gottes^pDie Frömmigkeit ist eine beständige Erinnerung an Gott, eine ununterbrochene Aufmerksamkeit, um ihn zu erkennen, eine unermüdliche, liebende Hinwendung zu seiner Liebe, sodass kein Tag – was sage ich? – keine Stunde jemals den Diener Gottes antrifft, in der er sich nicht abmüht in geistlicher Übung und bestrebt ist, Fortschritte zu machen, oder in der ihm nicht die Süßigkeit der Erfahrung Gottes geschenkt wird und die Freude des Genusses. Wer immer von euch diese Frömmigkeit nicht in seinem Herzen besitzt, nicht in seinem Leben kundtut, nicht in seiner Zelle übt, sollte nicht Einsiedler genannt werden, sondern Einsamer. Die Zelle ist für ihn nicht Zelle, sondern Gefängnis und Kerker. Wirklich einsam ist der, mit dem Gott nicht ist. In Wahrheit ist jener ein Gefangener, der nicht in Gott frei ist. Denn Einsamkeit und Gefängnis sind Namen des Elends. Die Zelle aber darf in keiner Weise ein erzwungenes Gefängnis sein, sondern sie muss eine Wohnung des Friedens sein. Das verschlossene Tor soll nicht ein Versteck sein, sondern Abgeschiedenheit. Der nämlich, mit dem Gott ist, ist niemals weniger allein, als wenn er allein ist. Denn dann genießt er in Freiheit seine Freude. Dann gehört er sich selbst, um Gott in sich zu genießen und sich in Gott.^pDeswegen lebt ihr entsprechend eurer Berufung mehr im Himmel als in den Zellen. Ihr habt die Welt völlig von euch ausgeschlossen und habt euch ganz mit Gott eingeschlossen. Zelle und Himmel sind ja verwandte Wohnungen. Denn wie Himmel und Zelle (caelum – cella) irgendwie verwandte Worte zu sein scheinen, so sind sie auch in der Frömmigkeit verwandt. Von „verbergen“ (celare) scheinen nämlich die Worte Himmel und Zelle abgeleitet zu sein. Was im Himmel verborgen ist, das ist auch in den Zellen verborgen. Was man im Himmel tut, das tut man auch in den Zellen. Worin besteht dieses Tun? Es ist ein Frei^-Sein für Gott, ein Genießen Gottes. Wenn das nach der Regel in den Zellen fromm und treu gefeiert wird, wage ich zu sagen, dass die heiligen Engel Gottes in den Zellen wie im Himmel wohnen und sich in den Zellen in gleicher Weise wie im Himmel freuen.^pDie Zelle wärmt, ernährt und umarmt den Sohn der Gnade, die Frucht ihres Leibes, und führt ihn zur Fülle der Vollkommenheit, macht ihn würdig des Gespräches mit Gott. Einen Fremden aber oder unechten Sohn weist sie schnell von sich und verwirft ihn. Daher sagt der Herr zu Mose: „Löse die Sandalen von deinen Füßen. Denn der Ort, wo du stehst, ist heiliges Land.“ ^pDenn ein heiliger Ort oder ein heiliges Land kann nicht lange einen Leichnam von toten Gefühlen ertragen, oder einen Menschen, der im Herzen abgestorben ist.^pDie Zelle ist ein heiliges Land, ist ein heiliger Ort, in dem der Herr und sein Diener oft miteinander sprechen, wie ein Mann mit seinem Freund, wo sich die treue Seele oft mit dem Wort Gottes verbindet, sich die Braut mit dem Bräutigam vereint, das Himmlische mit dem Irdischen, das Göttliche mit dem Menschlichen. Wie der Tempel das Heiligtum Gottes ist, so ist die Zelle das Heiligtum des Dieners Gottes. Denn sowohl im Tempel als auch in der Zelle werden die göttlichen Geheimnisse gefeiert; öfter aber in der Zelle. Im Tempel werden sichtbar und zeichenhaft von Zeit zu Zeit die Sakramente des christlichen Glaubens gespendet. In den Zellen aber wird wie im Himmel in derselben Wahrheit und Ordnung, zwar noch nicht in der Majestät der Reinheit selbst und noch nicht in der Sicherheit der Ewigkeit die Wirklichkeit aller Sakramente unseres Glaubens ohne Unterbrechung gefeiert.",
+        "resp1": "Ihr seid Licht im Herrn. Lebt als Kinder des Lichts!",
+        "resp2": "Denn das Licht bringt lauter Güte, Gerechtigkeit und Wahrheit hervor.^HALLo",
+        "resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
+      },
+      {
+        "autor": "Edith Stein (1891–1942)",
+        "werk": "Aus der Schrift „Verborgenes Leben und Epiphanie“.",
+        "text": "^h^pJe tiefer eine Seele mit Gott verbunden ist, je restloser der Gnade hingegeben, desto stärker wird ihr Einfluss auf die Gestaltung der Kirche sein. Umgekehrt: je mehr eine Zeit in der Nacht der Sünde und Gottesferne versunken ist, desto mehr bedarf sie der gottverbundenen Seelen. Gott lässt es auch daran nicht fehlen. Aus der dunkelsten Nacht treten die größten Propheten – Heiligengestalten – hervor. Aber zum großen Teil bleibt der gestaltende Strom des mystischen Lebens unsichtbar. Sicherlich werden die entscheidenden Wendungen in der Weltgeschichte wesentlich mitbestimmt durch Seelen, von denen kein Geschichtsbuch etwas meldet. Und welchen Seelen wir die entscheidenden Wendungen unseres persönlichen Lebens verdanken, das werden wir auch erst an dem Tage erfahren, an dem alles Verborgene offenbar wird.^pWeil die verborgenen Seelen nicht abgesondert leben, sondern in lebendigem Zusammenhang und in einer großen göttlichen Ordnung stehen, darum sprechen wir von einer unsichtbaren Kirche. Ihre Wirksamkeit und ihr Zusammenhang können ihnen selbst und anderen während ihres ganzen Erdenlebens verborgen bleiben. Es ist aber auch möglich, dass etwas davon in der äußeren Ordnung sichtbar wird. So war es bei den Personen und Ereignissen, die in das Geheimnis der Menschwerdung verflochten sind. Maria und Josef, Zacharias und Elisabeth, die Hirten und die Könige, Simeon und Anna – sie alle hatten ein einsames Leben mit Gott hinter sich und waren für ihre besondere Aufgabe vorbereitet, ehe sie sich in jenen wunderbaren Begegnungen und Begebenheiten zusammenfanden und ihren bisherigen Weg rückschauend als Hinführung zu den Höhepunkten verstanden. In den überlieferten Lobgesängen kommt ihre staunende Anbetung vor den göttlichen Großtaten zum Ausdruck.^pWir leben heute wieder in einer Zeit, die der Erneuerung aus den verborgenen Quellen gottverbundener Seelen dringend bedarf. Es setzen auch viele heute ihre letzte Hoffnung auf diese verborgenen Quellen des Heils. Das ist ein ernster Mahnruf: rückhaltlose Hingabe an den Herrn, der uns gerufen hat, das wird von uns verlangt, damit das Angesicht der Erde erneuert werden könne. In gläubigem Vertrauen müssen wir unsere Seelen dem Walten des Heiligen Geistes überlassen. Es ist nicht nötig, dass wir die „Epiphanie“ unseres Lebens erfahren. Wir dürfen in der Glaubensgewissheit leben, dass das, was der Geist Gottes verborgen in uns wirkt, seine Früchte trägt im Reich Gottes. Wir werden sie schauen in der Ewigkeit.",
+        "resp1": "Dieser ist es, der vor Gott viel Gutes tat und den Herrn pries von ganzem Herzen.",
+        "resp2": "Er möge eintreten für die Sünden der Menschen.^HALLo",
+        "resp3": "Seht den Mann, der niemals murrte, der Gott verehrte mit ungeteiltem Herzen, der sich allem bösen Tuns enthielt und sich frei von Schuld bewahrte."
+      }
+    ]
+  },
+  "Speyer-06-30": {
+    "patr_selector": [
+      {
+        "autor": "LEER",
+        "werk": "Aus der Ebbo-Vita Ottos von Bamberg.",
+        "text": "^hOtto verstand, den irdischen Herren so zu dienen, als°diente°er°Gott^pIn jener Zeit erbaute der glorreiche Kaiser Heinrich jene große und bewundernswerte Speyerer Kirche zu Ehren der immerwährenden Jungfrau, die er besonders verehrte, mit königlicher Großzügigkeit.^pAber die Werkmeister verbrauchten betrügerisch und ohne Gottesfurcht eine große Menge Geldes für die eigene Tasche, so dass oft das Geld zu dem so wunderbaren Bau ausging. Den Kaiser schmerzte dies sehr. Nachdem er die Sache bedacht und seinen vertrauten Ratgeber Otto hinzugezogen hatte, übertrug er diesem die Leitung des gesamten Werkes, da dessen oft erprobte Weisheit geeignet war, größere und schwierigere Aufgaben zu erledigen.^pOtto ging klug und umsichtig an das übertragene Werk – er verstand nämlich, gemäß dem apostolischen Gebot, den irdischen Herren so zu dienen, als diente er Gott{1#vgl. Eph 6,5-7} –, kehrte häufig an den königlichen Hof zurück und erstattete das beim Bau erübrigte Geld getreulich. Darüber hinaus legte er als Zeichen seiner geistreichen Umsicht ein von ihm klug überlegtes Gleichmaß der Fenster der Kirche dem Kaiser zur Erwägung vor.^pFür dies fortdauernde aufrichtige Vertrauen erwies er sich nicht nur dem König, sondern auch allen Fürsten als Freund, so dass sie Gott für seine Bekanntschaft dankten.",
+        "resp1": "Er ist der Hohepriester, der am Haus Gottes gebaut und in seinen Tagen das Heiligtum gefestigt hat.",
+        "resp2": "Er sorgte für sein Volk und rettete es vor dem Untergang.",
+        "resp3": "Er machte weit den Zugang zum Heiligtum; wie die Sonne strahlt, so leuchtet er im Tempel seines Gottes."
+      },
+      {
+        "autor": "Bernhard von Clairvaux († 1153)",
+        "werk": "Aus dem Traktat über das Leben und das Amt des Bischofs.",
+        "text": "^hDer Bischof soll die Ehre Gottes und das°Heil°der°Nächsten°suchen^pDie Reinheit des Herzens besteht in zwei Dingen: im Suchen der Ehre Gottes und des Nutzens für den Nächsten. So soll der Bischof in all seinen Taten und Worten gar nicht seine Ehre, sondern nur die Ehre Gottes oder das Heil der Nächsten oder beides suchen.^pWenn er so handelt, hat er nicht nur die Pflicht eines Oberhirten (pontifex = Brückenbauer) erfüllt, sondern auch die sprachliche Ableitung seines Namens verwirklicht: Er macht sich so zur Brücke (pontem) zwischen Gott und dem Nächsten. Diese Brücke reicht bis zu Gott, begründet in seinem Vertrauen, wodurch er nicht seine, sondern Gottes Ehre sucht; sie reicht bis zum Nächsten, begründet in jener gütigen Gesinnung, aufgrund deren er nicht sich selbst zu nützen bestrebt ist.^pEr bringt als guter Mittler die Bitten und Gaben des Volkes Gott dar und übermittelt dem Volk Gottes Segen und Gnade.^pFlehentlich bittet er Gottes Majestät um Vergebung für die Ausschweifungen der Sünder und ahndet das Unrecht, das die Sünder Gott antun. Den Undankbaren macht er die Wohltaten der Güte Gottes zum Vorwurf; den Verächtern bringt er die Strenge seiner Macht bei.^pDoch müht er sich nichtsdestoweniger, den Zorn, den Gott in seinem Unwillen über beide hat, zu besänftigen, indem er auf der einen Seite den Menschen ihre Schwäche vorhält, auf der anderen Seite die Größe der göttlichen Güte betont.^pMag er schließlich überschäumen, er tut es für Gott; mag er maßvoll sein, er tut es für uns. Es drängt ihn, entweder immer Gott zu gefallen, wo er nur kann, oder uns zu helfen. Nicht seinen Nutzen sucht er, sondern den von vielen.^pTreu wird der Bischof erfunden, der alle Güter, die durch seine Hände fließen, seien es göttliche Wohltaten an die Menschen, seien es die Gaben der Menschen an Gott, mit dem Auge einer Taube überwacht und für sich nichts von allem zurückbehält. Er sucht nicht ein Geschenk seitens des Volkes, sondern dessen Nutzen, und maßt sich nicht Gottes Ehre an.^pDas empfangene Talent vergräbt er nicht im Schweißtuch, sondern verteilt es durch Wechsler, von denen er auch Zinsen nimmt, doch nicht für sich, sondern für den Herrn{1#vgl. Mt 25,14-30}.",
+        "resp1": "Komm, du tüchtiger und treuer Diener, über Weniges warst du treu, über vieles werde ich dich setzen.",
+        "resp2": "Komm, nimm teil am Freudenfest deines Herrn!",
+        "resp3": "Herr, fünf Talente hast du mir gegeben; sieh her, ich habe noch fünf dazugewonnen."
+      },
+      {
+        "autor": "Johannes Paul II. († 2005)",
+        "werk": "Aus der Predigt in Speyer am 4. Mai 1987.",
+        "text": "^hGott will keinen erzwungenen, sondern°einen°freiwilligen°Dienst^pLiebe Brüder und Schwestern!^lDer letzte große Baumeister am Dom von Speyer war der hl. Otto, der spätere Bischof von Bamberg. Von ihm ist bekannt, dass er in Gnesen den Frieden vermittelte zwischen Polen und den Mecklenburgern und Pommern. Zugleich führte er diese beiden Stämme in wenigen Jahren zum Christentum, wobei er dem Grundsatz folgte, keine Missionierung mit Zwang und Gewalt durchzuführen. Von ihm stammt das großartige Wort: „Gott will keinen erzwungenen, sondern einen freiwilligen Dienst.“{1#Phlm 14}^pWie aktuell ist doch dieses Wort über die Zeiten hinweg für Europa und die Welt von heute! Wie ein Leuchtturm sei es über die Probleme der Gegenwart gestellt, über die Konflikte und harten Fronten innerhalb einzelner Staaten.^pNicht Polizei- oder Militärmacht, nicht diktatorische Maßnahmen vermögen die grundsätzlichen Fragen zu beantworten, die Klagen zu beheben, eine gerechte Ordnung des Gemeinschaftslebens herbeizuführen. Auf weite Sicht gesehen sind Wege in eine bessere Zukunft, in eine befriedete Welt, zu fruchtbarer Zusammenarbeit aller Gesellschaftsschichten nur möglich unter diesem allgemein anzuerkennenden Leitwort: „Gott will keinen erzwungenen, sondern einen freiwilligen Dienst.“^pUnter dieser Idee allein werden auch die bedrohlichen internationalen Gegensätze zwischen den Staaten und Machtblöcken überwunden werden können, kann ein neues, geeintes Europa vom Atlantik bis zum Ural geschaffen werden.^pBei gewissenhafter Beachtung dieses Grundsatzes werden vor allem die Grundrechte des Menschen in der Gesellschaft und gegenüber der staatlichen Gewalt am besten gesichert sein. Eines der höchsten und heiligsten von diesen ist die Freiheit, Gott verehren und die eigene Religion ohne Zwang oder Behinderung ausüben zu dürfen.^pDieser Dom hat es erlebt, wie blinder Hass gegen Gott und den christlichen Glauben ihn entweihte, den Gottesdienst verbot und seine Heiligtümer den Flammen preisgab. Darum erheben wir gerade von hier aus unsere Stimme, um alle Verantwortlichen in den einzelnen Ländern zu bitten, dahin zu wirken, dass in Gesamteuropa die Einschränkung und Unterdrückung der freien Religionsausübung für Personen und Gemeinschaften sowie für das Wirken der Kirchen endlich ein Ende finden.^pZusammen mit dem Recht auf Religionsfreiheit muss die Achtung aller Grundrechte der Einzelpersonen sowie aller Grundwerte für ein menschenwürdiges Zusammenleben das unabdingbare Fundament für die Zukunft Europas sein.",
+        "resp1": "Lasst euch verwandeln durch die Erneuerung des Denkens,",
+        "resp2": "damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: das Gute, Wohlgefällige und Vollkommene!",
+        "resp3": "Lasst euch erneuern durch den Geist in eurem Denken! Zieht den neuen Menschen an,"
+      }
+    ]
+  },
+  "Speyer-07-08": {
+    "patr_selector": [
+      {
+        "autor": "Hildegard von Bingen († 1179)",
+        "werk": "Sequenz an den heiligen Disibod.",
+        "text": "^hDie Welt gabst du preis für°das°leuchtende°Leben^pO Lenker der wahren Stadt,^lim Tempel des Ecksteins^ldu stiegest zum Himmel empor,^lauf Erden warst du zu Boden geworfen^lum Gottes willen.^pDem irdischen Samen [der Heimat] entfremdet,^lhast du dich gesehnt, ein°Verbannter°zu°sein^laus Liebe zu Christus.^pDu Berg des verschlossenen Sinnes,^lohne Unterlass hältst du°dein°strahlendes°Antlitz^ldem Spiegel der Taube offen entgegen.^pDu weiltest gar heimlich verborgen,^lberauscht von dem Dufte der Blumen,^lim Gehege der Heiligen leuchtend°vor°Gott.^pO Gipfel all derer, die°öffnen°den°Himmel,^ldie Welt gabst du preis für°das°leuchtende°Leben.^lDen Kampf führst du immer, o°milder°Bekenner.^pDer lebendige Quell hat°im°strahlenden°Licht^ldie reinen Gewässer aus°deinem°Gemüt^ldurch den Heilsweg geführt.^pGewaltiger Turm vor°des°höchsten°Gottes°Altar,^lmit würzigem Rauche umwölkst du die^lSpitze des Turmes.^pO Disibod, durch dein strahlendes Beispiel^lvon lauterem Klang hast du erbaut^ldie Glieder von herrlichem Lobpreis^lin zweiseitigem Chore^r¹^0r –^ldurch den Menschensohn.^pDu stehst in der Höhe. Vor°Gott,°dem°lebendigen,^lerrötest du nicht, du°bedeckst°mit°belebendem°Tau,^ldie mit ihrer Stimme das Gotteslob singen.^pO Leben so süß, o Beharrlichkeit selig,^lim heiligen Disibod hast du das°glorreiche°Licht^lfür immer entfacht im°himmlischen°Jerusalem.^pUnd nun sei Gott Lob!^lEr hat in Gestalt dieses herrlichen Mönches^lgar kraftvoll gewirkt.^lDie himmlischen Bürger mögen sich freuen^lall derer, die so ihnen folgen!^p^r¹^0r Anspielung auf das schöne, hochgelegene Disibodenberger Kloster.",
+        "resp1": "O Lebenskraft aus Gottes Hand, mit der Gott eine Pflanzung setzte! Sie leuchtet in der Höhe auf wie eine Säule ragend hoch.",
+        "resp2": "Ruhmgekrönt bist du, durch Gott gewirkt.",
+        "resp3": "Und du, o Bergeshöhe, wirst niemals wanken, wenn Gott prüft. Und dennoch stehst du in der Ferne wie vereinsamt. Doch der Bewaffnete hat nicht die Macht, dich zu ergreifen."
+      },
+      {
+        "autor": "Basilius der Große († 379)",
+        "werk": "Aus dem Brief an seinen Schüler Chilo.",
+        "text": "^hHier ist Christus, der°Freund°der°Einsamkeit^pWenn dir Gedanken der Versuchung kommen: Wann nützt es mir, an diesem einsamen Ort zu leben, welcher Gewinn erwächst mir aus der Absonderung von der menschlichen Gesellschaft?, dann halte es so: Will diese schlimme Vorstellung mit vielen und verschiedenen wohlklingenden Scheingründen dich zu Fall bringen, so stelle ihr in frommer Erwägung die praktische Erfahrung gegenüber und sprich: Du sagst mir, die Dinge dieser Welt seien gut; aber gerade deshalb bin ich hierher übergesiedelt, weil ich mich der Güter der Welt für unwürdig hielt.^pMit den Gütern der Welt sind aber auch Übel vermischt, und die Übel überwiegen bei weitem. Deshalb ziehe ich mich wie ein Sperling auf die Berge zurück.^pIch lebe in dieser Einöde, wo der Herr verweilt hat. Hier ist die Eiche Mamre, hier die Leiter, die zum Himmel führt; hier sind die Engelscharen, die Jakob sah.^lHier ist die Wüste, in der das gereinigte Volk das Gesetz erhielt und so ins Gelobte Land einzog und Gott schaute.^lHier ist der Berg Karmel, auf dem Elija hauste, Gott zum Wohlgefallen.^lHier ist die Ebene, in die Esra sich zurückzog, um alle göttlich inspirierten Bücher im Auftrag Gottes zu erforschen.^lHier ist die Wüste, wo der heilige Johannes Heuschrecken aß und den Menschen Buße predigte.^lHier ist der Ölberg, den Christus erstieg, um zu beten und uns beten zu lehren.^pHier ist Christus, der Freund der Einsamkeit; denn er sagt ja: „Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen.“{1#Mt 18,20}^lHier ist „der enge und schmale Weg, der zum Leben führt“{2#Mt 7,14}.^lHier sind die Lehrer und Propheten, die „in Wüsten und Gebirgen, in den Höhlen und Schluchten des Landes umherirren“{3#vgl. Hebr 11,38}.^lHier findet man die Apostel und Evangelisten und das stadtferne Leben der Mönche.^pDas habe ich freiwillig übernommen, um zu erlangen, was den Blutzeugen Christi und allen anderen Heiligen verheißen ist, und um in Wahrheit sagen zu können: „Ich habe den Herrn beständig vor Augen.“{4#Ps 16,8}.",
+        "resp1": "O glückliche Seele, du hast auf dem Pilgerweg dieser Welt gesiegt über deinen der Erde entstammenden Leib.",
+        "resp2": "Vom göttlichen Geiste – der dich zu seinem Spiegel gemacht – wurdest du darob gekrönt.",
+        "resp3": "Der Heilige Geist erschaute in dir die eigene Wohnstatt."
+      }
+    ]
+  },
+  "Speyer-07-15": {
+    "patr_selector": [
+      {
+        "autor": "Johannes Trithemius († 1516)",
+        "werk": "Aus den Annalen des Klosters Hirsau.",
+        "text": "^hZu jeder Zeit und an jedem Ort in°der°Furcht°des°Herrn^pDem Markgrafen Jakob wurde ein fünfter Sohn geboren, man gab ihm den Namen Bernhard. Dieser blieb nach dem Zeugnis vieler Zeitgenossen aus Liebe zur ehelosen Keuschheit bis zu seinem Tode unverheiratet.^pBernhard wurde von Kindheit an zur Gottesfurcht angehalten und bewahrte deshalb sein Leben in voller sittlicher Lauterkeit. Wenn er auch kraft seiner führenden Stellung Waffen trug, so hat er dennoch niemanden gekränkt, niemanden verletzt, niemandem Schmach oder Unrecht zugefügt.^pLange Zeit hat er am Hofe Kaiser Friedrichs gedient, sich aber der Ausschweifungen höfischen Lebens enthalten. Seine gesamte Lebensführung war eher die eines Mönchs als die eines Soldaten.^pDen Armen zeigte er seine Zuneigung und nahm sich mit großer Umsicht der Bedürftigen an. Oft traf er bei seinem Gang durch den kaiserlichen Hof einen Mönch oder einen armen Kleriker oder Landarbeiter oder irgendeinen Menschen, der wegen seines niederen Standes oder wegen seiner Hilflosigkeit sich beim Kaiser oder dessen Beamten kein Gehör verschaffen konnte. Bernhard übernahm stets aus Liebe zu Gott die Aufgabe eines zuverlässigen Anwalts. Er trug das Anliegen des hilflosen Menschen bei Kaiser und Beamten mit Nachdruck vor und nahm von seinen energischen Bemühungen nicht eher Abstand, bis er den armen Bittsteller in seiner gerechten Sache wunschgemäß zufriedengestellt hatte.^pSein pflichtbewusstes Mitgefühl mit den Armen war so groß, dass er alles, was er in seinen Besitz bringen konnte, ausschließlich zu ihrem Nutzen verwendete, wobei er keinen Unterschied machte im Ansehen der Person.^pAuf dem bloßen Leib trug Bernhard einen eisernen Büßergürtel oder ein härenes Hemd, das er klugerweise verbarg, da er in der Öffentlichkeit in gepflegteren Kleidern einherging, wie es sich für einen Adeligen geziemte.^pIm Gebet bewies Bernhard Beharrlichkeit, und oft geschah es, dass er, während andere fröhlich lachten, schweigend dasaß und in großer innerer Ergriffenheit dem Herrn unter Tränen seine Bitten vortrug.^pSeitdem Bernhard diesen heiligen Lebenswandel begonnen hatte, zog er sich erst dann zum Schlafen zurück, wenn er zuvor seine eventuellen täglichen Vernachlässigungen dem priesterlichen Hofkaplan, der ihm stets zur Verfügung stand, in aufrichtiger Reue gebeichtet hatte. Er sagte sich nämlich, dass für einen Christen nichts gefährlicher sei, als in der Verfassung schlafen zu gehen, in welcher er nicht zu sterben wage.^pDiese menschliche Situation hatte der Gott wohlgefällige Mann in Klugheit stets vor Augen und war so zu jeder Zeit und an jedem Ort in der Furcht des Herrn wachen Geistes auf den Tod gefasst, um eben nicht unvorbereitet vom Tod überrascht zu werden.^pNachdem Bernhard sein Leben mit guten Werken erfüllt hatte, starb er schließlich im Mannesalter so, wie die Schrift sagt: „Er gefiel Gott und wurde von ihm geliebt; da er mitten unter Sündern lebte, wurde er entrückt. Er wurde weggenommen, damit nicht Schlechtigkeit seine Einsicht verkehrte und Arglist seine Seele täuschte.“{1#Weish 4,10-11} „Da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen.“{2#Weish 4,14} „Früh vollendet, hat der Gerechte doch ein volles Leben gehabt.“{3#Weish 4,13}",
+        "resp1": "Früh vollendet, hat der selige Bernhard doch ein volles Leben gehabt.",
+        "resp2": "Da seine Seele dem Herrn gefiel, enteilte sie aus der Mitte des Bösen.",
+        "resp3": "Er hat die Königskrone der Herrlichkeit empfangen und das Diadem der Schönheit aus der Hand des Herrn."
+      },
+      {
+        "autor": "Thomas von Kempen († 1471)",
+        "werk": "Aus dem Buch „Nachfolge Christi“.",
+        "text": "^hVon dem guten Gewissen^p1. Der Ruhm des guten Menschen ist°das°Zeugnis°seines°guten°Gewissens{1#2 Kor 1,12}.^pHabe immer ein gutes Gewissen, und°du°wirst°immer°Freude°haben.^pEin gutes Gewissen kann viele Lasten tragen und kann auch mitten in Trübsalen heiter sein.^lAber ein böses Gewissen ist immer voll Furcht und Unruhe.^pNie wird es dir an einem sanften Ruhekissen fehlen, wenn dich dein Herz nicht straft.^pSuche keine Freude außer im Rechttun, kein Wohlsein außer im Gutsein.^pDenn die Bösen haben keine wahre Freude und genießen nichts von dem inneren Frieden. Kein Friede den Gottlosen {2#Jes 57,21}, spricht der Herr.^pUnd wenn sie es noch so oft sagen: O ja, wir haben Frieden, über uns kommt kein Übel, wer sollte es wagen dürfen, uns wehe zu tun? {3#Jer 6,12}, so glaube du ihnen nicht.^pDenn siehe! Schnell bricht der Zorn des Herrn herein, und zu nichts wird all das Tun der Gottlosen, und verloren auf immer sind alle ihre Anschläge.^p2. Wer die Liebe hat, wird es nicht schwer finden, sich sogar seiner Trübsal zu rühmen.^lDenn das heißt eigentlich, seinen Ruhm im Kreuze Christi suchen.^pFlüchtig und unstet ist alle Ehre, die Menschen von einander nehmen und Menschen einander geben. Die Ehre der Welt hat immer Angst und Traurigkeit in ihrem Gefolge.^pDie Guten haben ihre Ehre in sich, in ihrem Gewissen, nicht außer sich in dem Munde der Menschen.^lDie Gerechten freuen sich nur in Gott und um ihres Gottes wegen; sie haben ihre Herzenslust an der Wahrheit.^pWer die wahre, die unvergängliche Ehre sucht, der bekümmert sich nicht viel um die vergängliche.^pUnd wer noch vergängliche Ehre sucht oder sie noch nicht von ganzem Herzen verschmäht, der beweist eben dadurch, dass ihm die unvergängliche Ehre noch nicht über alles lieb und teuer ist.^pGroße Seelenruhe hat der, welcher sich weder die Lobsprüche noch die Schmähworte nahe ans Herz gehen lässt.^p3. Wer ein reines Gewissen hat, der ist mit wenigem zufrieden und leicht zu begnügen.^pDu bist nicht besser, wenn man dich lobt, und nicht schlechter, wenn man dich lästert.^lWas du bist, das bist du, und alle Worte der Menschen können dich nicht größer reden, als du in dem Urteil Gottes wirklich bist.^pWenn du nur darauf siehst, was du im Innern wirklich bist, so wird es dich nicht sonderlich kränken, was die Menschen von außen gern aus dir machten.^pDer Mensch sieht auf das Gesicht, Gott in das Herz {4#1 Kön 16,7}. Der Mensch legt nur auf die Waage, was die Menschen tun; Gott hat eine Waage für die Absicht, welche die Menschen treibt, das zu tun, was sie wirklich tun.^pImmer recht tun vor Gottes Auge und doch gering in seinem eigenen sein, das ist der rechte Probstein einer demütigen Seele.^pWenn du dir keinen Trost mehr von den Geschöpfen holen magst, so ist es ein sicheres Zeichen, dass dein Herz große Lauterkeit in sich hat.^p4. Wer kein Zeugnis von außen für sich aufsucht, der gibt zu verstehen, dass er sich ganz in die Hand Gottes gelegt hat.^pDenn nicht der ist ein bewährter Mann, der von sich selbst gut spricht, sondern der, für den sein Gott gut spricht, der ist wahrhaftig gut, wie der hl. Paulus lehrt {5#2 Kor 10,18}.^pIm Innern mit Gott freien Umgang haben und in diesem freien Umgang sich durch keine Neigung nach außen stören lassen, darin besteht das Leben des innerlichen Menschen.",
+        "resp1": "Weil ich lauter bin, Herr, nimmst du mich auf.",
+        "resp2": "Du stellst mich vor dein Antlitz für immer.",
+        "resp3": "Lieber an der Schwelle stehen im Haus meines Gottes, als wohnen in den Zelten der Frevler."
+      }
+    ]
+  },
+  "Speyer-08-01": {
+    "patr_selector": [
+      {
+        "autor": "Petrus Faber (†°1546)",
+        "werk": "Aus seinem Memoriale.",
+        "text": "^hGedenken aller Wohltaten und aller hierzulande begangenen Sünden^pAn einem Tag dieses Monats Oktober (1542), als ich in einem Flecken und Städtchen bei einem Herrn aus Speyer war und mich um Mitternacht zum Gebet erhob, fand ich mich bald im Zwiegespräch mit Gott, der allerseligsten Jungfrau und den Heiligen. Ich flehte sie für dieses ganze Volk an, für Lebende und Verstorbene, mit großer Andacht und unter Tränen. Der Gebetsweg, auf dem ich da geführt wurde, war eine umfassende, dankbare Erkenntlichkeit für alle die Wohltaten, die ich diesem Volk geschenkt fand: Ich bat im Namen aller um Verzeihung, ich hielt bei jedem Punkt Danksagung und erbat verschiedene Gnaden. Ich beweinte die Sünden; ich wünschte, dass alles, was Gott unmittelbar oder durch seine Heiligen hier gewirkt hat und immer noch wirkt, dankbar anerkannt würde. So sprach ich denn: „Herr Jesu Christ, wer hat deine Güte dankbar erkannt, die dieser Gegend so viele Erdengüter geschenkt hat; die ihr das allerheiligste Sakrament und alle anderen Sakramente, Lehren und Feiern der christlichen Glaubensüberlieferung gelassen hat? Verzeih, Herr, dass man hier dessen nicht gedenkt, darum nicht bittet, nicht darauf achtet! Verzeih, dass man der Armen Seelen nicht gedenkt, wie sie es nötig hätten! Erhalte, Herr, diesem Volk all diese Güter; schau nicht auf ihren Unverstand und ihre Nachlässigkeit, nicht auf ihren Undank, sondern auf Christus, unseren Erlöser, auf die heiligen Engel und die Seelen der Heiligen, die dir für alles an unserer statt danksagen!“^pIn dieses Gedenken aller Wohltaten und aller hierzulande begangenen Sünden schloss ich die Ackerfrüchte ein, den zeitlichen Frieden, den katholischen Glauben, die Kirchen, die Heiligenbilder, die Diener der Sakramente und diese Sakramente selbst, das Weihwasser, die Reliquien der Heiligen, die Beinhäuser; dass sie eine so lange Reihe weltlicher Herren gehabt haben, die ihnen Frieden und Wohlstand sicherten, dass sie Priester, Bischöfe und Prediger haben. Ich wünschte ihnen viele gar gute Dinge: sie möchten sehend werden und alles das erkennen; sie möchten einsehen, was sie an ihrem Gott haben, an Jesus Christus, an seiner Menschwerdung, Geburt, Beschneidung, seinem Tod, an der allerseligsten Jungfrau Maria, an den Engeln und Heiligen, am Kirchengerät, den Verstorbenen im Fegefeuer, der Heiligen Schrift [...]",
+        "resp1": "Dem Herrn will ich meine Gelübde erfüllen, offen vor seinem ganzen Volk.",
+        "resp2": "In den Vorhöfen am Hause des Herrn, in deiner Mitte, Jerusalem.",
+        "resp3": "Ein Opfer des Dankes will ich bringen und anrufen den Namen des Herrn."
+      },
+      {
+        "autor": "Petrus Faber († 1546)",
+        "werk": "Aus seinem Brief an Ignatius von Loyola vom 7. November 1542.",
+        "text": "^hWir hatten eine offene Tür zu einer reichen Ernte gefunden^pMein letzter Brief war vom Oktober. Der Bischof (von Speyer) war schon entschlossen, mich eine theologische Vorlesung halten zu lassen; der Klerus war für uns sehr aufgeschlossen und ebenso die angesehensten Laienpersönlichkeiten, nicht nur aus der Reichskammer (gemeint: dem Reichskammergericht), sondern auch die führenden Leute der Stadt. Es war uns gelungen, ein paar wichtige Versöhnungen zustande zu bringen, und wir hatten eine offene Tür zu einer reichen Ernte gefunden – doch der Kardinal von Mainz hatte dringendst nach mir verlangt, und es hatte sich mir eine gute Gelegenheit geboten, mich mit meinen Gefährten von Speyer zu verabschieden. So langte ich hier in Mainz an, von wo aus mich Seine Eminenz mit einigen seiner Theologen zum Konzil schicken will (obwohl ich ja gezeigt habe, wie unfähig ich zu Aufgaben solchen Gewichts bin), und er hat mich geheißen, mich zur Reise bereitzumachen [...] Gott weiß, was ich in Speyer ausgestanden habe, wo ich gegen die Verzweiflung am Wohle Deutschlands zu kämpfen hatte. Schließlich bin ich zum Schluss doch zu recht froher Zuversicht gekommen; ja ich sehe sogar ganz gewiss, dass der Herr uns dort noch viele Seelen bereithält, die bereit wären, sich durch die Exerzitien schulen zu lassen. Allerdings lässt er mich die bereitstehende Frucht nicht genießen, bis ich wieder vom Konzil zurückgekehrt bin. Der Herr weiß, warum er mir nie die Gnade gibt, lange an einem Ort bleiben zu können; warum man mich immer dann abberuft, wenn die Sachen gut zu gehen beginnen und die Erntezeit beginnt. Bisher hat das immer zum besten ausgeschlagen. Das sehe ich wohl; und so möchte ich um nichts in der Welt Rom nicht verlassen haben, um nach Parma zu ziehen; Parma, um nach Deutschland zu kommen; noch werde ich je den Ruf bereuen, der mich von Deutschland nach Spanien holte und noch viel weniger den anderen, der mich von Spanien hierher nach Speyer und von Speyer nach Mainz geführt hat [...] Ich schließe, indem ich den allergütigsten Herrn bitte, uns nach seinem allerheiligsten Willen immer weiter vorankommen zu lassen [...]",
+        "resp1": "Wir waren euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben.",
+        "resp2": "Denn ihr seid uns sehr lieb geworden.",
+        "resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
+      }
+    ]
+  },
+  "Speyer-08-09": {
+    "patr_selector": [
+      {
+        "autor": "Edith Stein († 1942)",
+        "werk": "Aus dem Vortrag „Das Weihnachtsgeheimnis“ (1931 in Ludwigshafen/Rhein).",
+        "text": "^hGotteskind sein heißt: an Gottes Hand gehen^pGotteskind sein heißt: an Gottes Hand gehen, Gottes Willen, nicht den eigenen Willen tun, alle Sorge und alle Hoffnung in Gottes Hand legen, nicht mehr um sich und seine Zukunft sorgen. Darauf beruht die Freiheit und Fröhlichkeit des Gotteskindes.^pWie wenige, auch von den wahrhaft Frommen, selbst heroisch Opferwilligen, besitzen sie! Sie gehen immer niedergebeugt unter der schweren Last ihrer Sorgen und Pflichten. Alle kennen das Gleichnis von den Vögeln unter dem Himmel und den Lilien auf dem Felde{1#Mt 6,26-30}. Aber wenn sie einem Menschen begegnen, der kein Vermögen, keine Pension und keine Versicherung hat und doch unbekümmert um seine Zukunft lebt, dann schütteln sie den Kopf wie über etwas Ungewöhnliches. Freilich, wer von dem Vater im Himmel erwartet, dass er ihm jederzeit für das Einkommen und die Lebensverhältnisse sorgen werde, die er für wünschenswert hält, der könnte sich schwer verrechnet haben. Nur dann wird das Gottvertrauen unerschüttert standhalten, wenn es die Bereitschaft einschließt, alles und jedes aus des Vaters Hand entgegenzunehmen. Er allein weiß ja, was uns guttut{2#vgl. Mt 6,32}. Und wenn einmal Not und Entbehrung angebrachter wären als behaglich gesichertes Auskommen, oder Misserfolg und Verdemütigung besser als Ehre und Ansehen, dann muss man sich auch dafür bereithalten. Tut man das, so kann man unbelastet durch die Zukunft der Gegenwart leben.^pDas „Dein Wille geschehe“{3#Mt 6,10} in seinem vollen Ausmaß muss die Richtschnur des Christenlebens sein. Es muss den Tageslauf vom Morgen bis zum Abend, den Gang des Jahres und das ganze Leben regeln. Es wird dann auch des Christen einzige Sorge sein. Alle anderen Sorgen nimmt der Herr auf sich{4#1 Petr 5,7}. Diese eine aber bleibt uns, solange wir leben. Es ist objektiv so, dass wir nicht endgültig versichert sind, immer auf Gottes Wegen zu bleiben. Wie die ersten Menschen aus der Gotteskindschaft in die Gottesferne fallen konnten, so steht jeder von uns immer auf des Messers Schneide zwischen dem Nichts und der Fülle des göttlichen Lebens. Und früher oder später wird uns das auch subjektiv fühlbar. In den Kindertagen des geistlichen Lebens, wenn wir eben angefangen haben, uns Gottes Führung zu überlassen, da fühlen wir die leitende Hand ganz stark und fest; sonnenhell hegt es vor uns, was wir zu tun und zu lassen haben. Aber das bleibt nicht immer so. Wer Christus angehört, der muss das ganze Christusleben durchleben. Er muss zum Mannesalter Christi heranreifen{5#vgl. Eph 4,13}, er muss einmal den Kreuzweg antreten{6#vgl. Mk 8,34}, nach Getsemani und Golgota. Und alle Leiden, die von außen kommen, sind nichts im Vergleich zu der dunklen Nacht der Seele, wenn das göttliche Licht nicht mehr leuchtet und die Stimme des Herrn nicht mehr spricht. Gott ist da, aber er ist verborgen und schweigt. Warum das so ist? Es sind Gottes Geheimnisse, von denen wir sprechen, und die lassen sich nicht restlos durchdringen. Aber ein wenig hineinschauen können wir schon. Gott ist Mensch geworden{7#vgl. Joh 1,14}, um uns auf‘s neue teilhaben zu lassen an seinem Leben. Damit beginnt es, und das ist das letzte Ziel.",
+        "resp1": "Wie die Augen der Knechte auf die Hand ihres Herrn, wie die Augen der Magd auf die Hand ihrer Herrin,",
+        "resp2": "so schauen unsre Augen auf den Herrn, unsern Gott.",
+        "resp3": "Euer Vater weiß, was ihr braucht, noch ehe ihr ihn bittet."
+      },
+      {
+        "autor": "Edith Stein († 1942)",
+        "werk": "Aus den Ausführungen über das Gebet.",
+        "text": "^hDas Gebet der Kirche als Liturgie und Eucharistie^pAus den evangelischen Berichten wissen wir, dass Christus gebetet hat, wie ein gläubiger und gesetzestreuer Jude betete. Wie von Kindheit an mit seinen Eltern, so ist er später mit seinen Jüngern zu den vorgeschriebenen Zeiten nach Jerusalem gepilgert, um die Hochfeste im Tempel mitzufeiern. Gewiss hat er mit den Seinen in heiliger Begeisterung die Jubellieder gesungen, in denen die Vorfreude der Wallfahrer ausströmte: „Ich freute mich, da man mir sagte: Wir wollen zum Hause des Herrn gehen“{1#Ps 122,1}. Dass er die alten Segenssprüche betete, wie sie noch heute über Brot, Wein und Feldfrüchte gebetet werden{2#@„Gepriesen seist du. Ewiger, unser Gott, König der Weit, der du aus der Erde Brot hervorbringst, […] der du die Frucht des Weinstocks schufst.“}, bezeugt uns die Erzählung von seinem letzten Zusammensein mit seinen Jüngern, das der Erfüllung einer der heiligsten religiösen Pflichten gewidmet war: dem feierlichen Ostermahl, dem Gedächtnis an die Errettung aus der Knechtschaft Ägyptens. Und vielleicht gibt uns gerade dies Zusammensein den tiefsten Einblick in das Beten Christi und den Schlüssel zum Verständnis des Gebetes der Kirche.^p„Während sie aber speisten, nahm Jesus das Brot, segnete und brach es, gab es seinen Jüngern und sprach: Nehmet hin und esset, dies ist mein Leib! Und er nahm den Kelch, dankte und gab ihnen denselben mit den Worten: Trinket alle daraus, denn dieses ist das Blut des Neuen Testamentes, das für viele vergossen werden wird zur Vergebung der Sünden.“{3#Mt 26,26-28}^pSegnung und Verteilung von Brot und Wein gehörten zum Ritus des Ostermahls. Aber beides bekommt hier einen völlig neuen Sinn. Damit nimmt das Leben der Kirche seinen Anfang. Wohl wird sie erst am Pfingstfest als geisterfüllte und sichtbare Gemeinschaft öffentlich hervortreten. Aber hier beim Ostermahl erfolgt das Einsenken der Reben in den Weinstock, das die Geistausgießung möglich macht. Die alten Segenssprüche sind im Munde Christi lebenschaffendes Wort geworden. Die Früchte der Erde sind sein Fleisch und Blut geworden, von seinem Leben erfüllt. Die sichtbare Schöpfung, in die er sich schon durch die Menschwerdung hineinbegab, ist nun auf eine neue, geheimnisvolle Weise mit ihm verbunden. Die Stoffe, die dem Aufbau des menschlichen Leibes dienen, sind von Grund auf umgewandelt, und durch ihren gläubigen Genuss werden auch die Menschen umgewandelt: in die Lebenseinheit mit Christus einbezogen und von seinem göttlichen Leben erfüllt. Die lebensschaffende Kraft des Wortes ist an das Opfer gebunden. Das Wort ist Fleisch geworden, um das Leben, das es annahm, hinzugeben; um sich selbst und die durch seine Selbsthingabe entsühnte Schöpfung dem Schöpfer als Lobopfer darzubringen. Durch das letzte Abendmahl des Herrn ist das Ostermahl des Alten Bundes übergeführt in das Ostermahl des Neuen Bundes: in das Kreuzesopfer von Golgota und jene Freudenmahle der Zeit zwischen Ostern und Himmelfahrt, bei denen die Jünger den Herrn am Brotbrechen erkannten und in das Messopfer mit der heiligen Kommunion.",
+        "resp1": "Erkennt im Brot den Herrn, der am Kreuze hing, im Kelch das Blut, das aus seiner Seite strömte.",
+        "resp2": "Nehmt und esst den Leib Christi! Nehmt und trinkt das Blut Christi!",
+        "resp3": "Der Herr stiftete dieses Sakrament als Denkmal seines Leidens, als Erfüllung der alten Zeichen, als größtes der von ihm gewirkten Wunder."
+      },
+      {
+        "autor": "Johannes Paul II. († 2005)",
+        "werk": "Aus der Predigt zur Seligsprechung Edith Steins am 1. Mai 1987.",
+        "text": "^hGeprägt von einer unermüdlichen Suche  nach der Wahrheit^p„Selig sind, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht“{1#Offb 7,14}. Unter diesen seligen Männern und Frauen grüßen wir heute in tiefer Verehrung und mit heiliger Freude eine Tochter des jüdischen Volkes, reich an Weisheit und Tapferkeit. Aufgewachsen in der strengen Schule der Tradition Israels, ausgezeichnet durch ein Leben der Tugend und Entsagung im Orden, bewies sie eine heldenhafte Gesinnung auf dem Weg ins Vernichtungslager. Vereint mit dem gekreuzigten Herrn, gab sie ihr Leben dahin „für den wahren Frieden“ und „für das Volk“{2#@Kölner Selig- und Heiligsprechungsprozess}: Edith Stein, Jüdin, Philosophin, Ordensfrau, Märtyrin. Der ganze Lebensweg von Edith Stein ist geprägt von einer unermüdlichen Suche nach der Wahrheit und erhellt vom Segen des Kreuzes Christi. Entsprechend ihrer hohen geistigen Begabung wollte sie nichts ungeprüft hinnehmen, nicht einmal den Glauben ihrer Väter. Sie will den Dingen selber auf den Grund gehen. Darum sucht sie unermüdlich nach der Wahrheit. Im späteren Rückblick auf diese Zeit geistiger Unruhe erkennt sie doch darin eine wichtige Stufe ihres inneren Reifungsprozesses, indem sie feststellt: „Meine Suche nach der Wahrheit war ein einziges Gebet“{3#@Teresia Renata de Spiritu Sancto, Edith Stein, S. 55} – ein herrliches Wort des Trostes für alle, die sich mit dem Gottesglauben schwertun! Schon die Suche nach Wahrheit ist zutiefst ein Suchen nach Gott. Das lange Ringen um ihre persönliche Entscheidung für den Glauben an Jesus Christus fand erst 1921 ein Ende, als sie bei einer Freundin{4#@Hedwig Conrad-Martius in Bergzabern} das autobiographische „Leben der heiligen Teresa von Avila“ zu lesen begann. Sie war sofort gefangen und hörte nicht mehr auf bis zum Ende: „Als ich das Buch schloss, sagte ich mir: Das ist die Wahrheit!“{5#@Teresia Renata de Spiritu Sancto, Edith Stein, S. 55} Die ganze Nacht hindurch hatte sie gelesen, bis zum Aufgang der Sonne. In dieser Nacht hat sie die Wahrheit gefunden, nicht die Wahrheit der Philosophie, sondern die Wahrheit in Person, das liebende Du Gottes. Edith Stein hatte die Wahrheit gesucht und Gott gefunden. Sie ließ sich unverzüglich taufen und in die katholische Kirche aufnehmen{6#@am 1.1.1922 in Bergzabern}. Obwohl seit der Begegnung mit den Schriften der heiligen Teresa von Avila der Karmel das Ziel Edith Steins geworden war, musste sie noch über ein Jahrzehnt warten, bis Christus ihr im Gebet den Weg zum Eintritt zeigte. In ihrer Tätigkeit als Lehrerin und Dozentin in der Schul- und Bildungsarbeit, meist in Speyer, zuletzt auch in Münster, bemühte sie sich fortan, Wissenschaft und Glauben miteinander zu verbinden und gemeinsam weiterzuvermitteln. Dabei will sie nur „ein Werkzeug des Herrn“{7#@Brief Nr. 76 vom 19.12.1930} sein. „Wer zu mir kommt, den möchte ich zu ihm führen.“{8#ebd.} Zugleich lebt sie in dieser Zeit schon wie eine Klosterfrau, legt privat die drei Gelübde ab und wird zur großen, begnadeten Beterin. Aus ihrem intensiven Studium des heiligen Thomas von Aquin lernt sie, dass es möglich ist, „Wissenschaft als Gottesdienst zu betreiben ... Nur daraufhin habe ich mich entschließen können, wieder ernstlich (nach der Konversion) an wissenschaftliche Arbeit heranzugehen.“{9#@Brief Nr. 45 vom 12.2.1928} Bei aller Hochschätzung der Wissenschaft erkennt Edith Stein immer deutlicher, dass das Herz des Christseins nicht Wissenschaft, sondern Liebe ist. Wir verneigen uns tief vor dem Zeugnis des Lebens und Sterbens von Edith Stein, der herausragenden Tochter Israels und zugleich Tochter des Karmels, Schwester Teresia Benedicta vom Kreuz, eine Persönlichkeit, die eine dramatische Synthese unseres Jahrhunderts in ihrem reichen Leben vereint. Die Synthese einer Geschichte voller tiefer Wunden, die noch immer schmerzen, für deren Heilung sich aber verantwortungsbewusste Männer und Frauen bis in unsere Tage immer wieder einsetzen; und zugleich die Synthese der vollen Wahrheit über den Menschen, in einem Herzen, das so lange unruhig und unerfüllt blieb, „bis es schließlich Ruhe fand in Gott“{10#@Augustinus, Bekenntnisse I, 1. Vgl. Brief Nr. 38a vom 13.9.1925}.",
+        "resp1": "Meine Seele dürstet nach Gott, nach dem lebendigen Gott",
+        "resp2": "Wann darf ich kommen und Gottes Antlitz schauen?",
+        "resp3": "Ich wählte den Weg der Wahrheit; nach deinen Urteilen hab’ ich Verlangen."
+      },
+      {
+        "autor": "Edith Stein († 1942)",
+        "werk": "Aus dem Buch „Kreuzeswissenschaft“.",
+        "text": "^hGlaube an den Gekreuzigten – Weg zum Leben^pChristus hat das Joch des Gesetzes auf sich genommen, indem er es vollkommen erfüllte und für und durch das Gesetz starb. Eben damit hat er die vom Gesetz befreit, die von ihm das Leben empfangen wollen. Aber sie können es nur empfangen, wenn sie ihr eigenes Leben preisgeben. Denn die auf Christus getauft sind, sind auf seinen Tod getauft{1#vgl. Röm 6,3}. Sie tauchen unter in sein Leben, um Glieder seines Leibes zu werden und als solche mit ihm zu leiden und mit ihm zu sterben, aber auch mit ihm aufzuerstehen zum ewigen, göttlichen Leben. Dieses Leben wird in seiner Fülle für uns erst kommen am Tage der Herrlichkeit. Wir haben aber jetzt schon – „im Fleisch“ – Anteil daran, indem wir glauben: glauben, dass Christus für uns gestorben ist, um uns das Leben zu geben. Dieser Glaube ist es, der uns mit ihm eins werden lässt wie die Glieder mit dem Haupt und uns öffnet für das Zuströmen seines Lebens. So ist der Glaube an den Gekreuzigten – der lebendige Glaube, der mit liebender Hingabe gepaart ist – für uns der Zugang zum Leben und der Anfang der künftigen Herrlichkeit; darum das Kreuz unser einziger Ruhmestitel: „Ferne sei es von mir, mich zu rühmen, außer im Kreuz unseres Herrn Jesus Christus, durch den mir die Welt gekreuzigt ist und ich der Welt“{2#Gal 6,14}. Wer sich für Christus entschieden hat, der ist für die Welt tot und sie für ihn. Er trägt die Wundmale des Herrn an seinem Leibe{3#vgl. Gal 6,17}, ist schwach und verachtet vor den Menschen, aber gerade darum stark, weil in den Schwachen Gottes Kraft mächtig ist{4#vgl. 2 Kor 12,9}. In dieser Erkenntnis nimmt der Jünger Jesu nicht nur das Kreuz an, das auf ihn gelegt ist, sondern kreuzigt sich selbst: „Die Christus angehören, haben ihr Fleisch gekreuzigt mit seinen Lastern und Begierden.“{5#Gal 5,24} Sie haben einen unerbittlichen Kampf geführt gegen ihre Natur, damit das Leben der Sünde in ihnen ersterbe und Raum werde für das Leben des Geistes. Auf das letzte kommt es an. Das Kreuz ist nicht Selbstzweck. Es ragt empor und weist nach oben. Doch es ist nicht nur Zeichen – es ist die starke Waffe Christi, der Hirtenstab, mit dem der göttliche David gegen den höllischen Goliat auszieht, womit er machtvoll an das Himmelstor pocht und es aufstößt. Dann fluten die Ströme des göttlichen Lichtes heraus und umfangen alle, die im Gefolge des Gekreuzigten sind.",
+        "resp1": "Ich bin mit Christus gekreuzigt worden; nicht mehr ich lebe, sondern Christus lebt in mir.",
+        "resp2": "Der mich geliebt und sich für mich hingegeben hat.",
+        "resp3": "Soweit ich aber jetzt noch in dieser Welt lebe, lebe ich im Glauben an den Sohn Gottes."
+      }
+    ]
+  },
+  "Speyer-08-15": {
+    "patr_selector": [
+      {
+        "autor": "Nikolaus von Weis († 1869)",
+        "werk": "Aus seinen Hirtenbriefen vom 29. September 1853 und vom 2. Februar 1855 über den Dom in Speyer.",
+        "text": "^hDie Mutterkirche des Bistums – dem Andenken der glorreich in den Himmel Aufgenommenen geweiht^pDer Kaiserdom in Speyer ist die Mutterkirche des ganzen Bistums, geweiht dem Andenken der allerseligsten Jungfrau und Gottesmutter Maria, der glorreich in den Himmel Aufgenommenen, zu der aus der Nähe und Ferne an festlichen Tagen viele herbeiströmen, um Heil zu suchen bei dem Heil der Kranken, um Zuflucht zu finden bei der Zuflucht der Sünder, um Trost zu erlangen bei der Trösterin der Betrübten, um Hilfe zu erflehen bei der Hilfe der Christen.^pBeim Eintritt in den Dom zu Speyer stellen sich den Blicken in den Schöpfungen der Kunst die großen Taten Gottes dar, die er gewirkt in der Verheißung und Vollendung der Erlösung des Menschengeschlechtes. Sie führen uns durch die Sehnsucht des Alten Bundes in die Gnadenfülle des Neuen Bundes und bis in die selige Vollendung im Himmel. Der Name aber, welcher diese frommen Bilder zu einem Ganzen verbindet, ist der süße Name Maria, der allerseligsten Jungfrau und Gottesmutter, der Patronin dieses erhabenen Gotteshauses, der Schutzherrin des ganzen Bistums.^pDie heilige Überlieferung der Kirche hat uns einen besonderen Vorzug der wunderbaren Jungfrau und Mutter aufbewahrt, welcher darin besteht, dass auch ihr Leib, welcher die Wohnstätte des Sohnes Gottes gewesen, alsbald in den Himmel aufgenommen und dort mit der hochbeglückten Seele wieder vereinigt worden. [...] Da Maria nie mit einer Sünde behaftet gewesen, so hatte sie auch nicht die Schuld der Sünde zu büßen, dass nach dem gerechten Urteil Gottes ihr Leib in den Staub zurückkehrte, aus dem er genommen. Dies wird uns noch fasslicher werden, wenn wir die großen Vorzüge beherzigen, welche Maria beim Erlösungswerk zukommen. Der heilige Bernhard wendet sich lobpreisend zu Maria und ruft ihr zu: „Durch dich ward der Himmel mit neuen Mitbürgern erfüllt; durch dich ward der Hölle ihre Beute entrissen; durch dich ward dem himmlischen Jerusalem sein Verlust ersetzt; durch dich ward das verlorene Leben den armen Erdenpilgern wieder geschenkt.“ Wir haben die frohe Verheißung, dass der Leib, welcher im Grab verwest, dereinst verklärt auferstehen werde, da in ihn durch die Erlösung und durch die Speisung mit dem Leib und Blut Jesu Christi ein himmlisches Samenkorn gelegt ist, das dem ewigen Leben den sterblichen Leib entgegenreifen macht; warum sollten wir Bedenken haben, ob der jungfräuliche Leib der allerseligsten Jungfrau bald nach dem Tode und ohne der Verwesung verfallen zu sein, in den Himmel aufgenommen und mit der Seele wieder vereinigt worden sei? Sollte nicht auch darin, wie in so vielem anderen, die Mutter eine Ähnlichkeit mit ihrem göttlichen Sohne haben, dass auch ihr Leib nicht der Verwesung verfallen ist? Von der Unverweslichkeit, die der Heilige, der Sohn Gottes und Maria, nicht sehen durfte, hat auch Maria den Vorzug erlangt, dass ihr Leib nicht im Grab geblieben, nicht in die Verwesung übergegangen ist, wie sie auch durch die Erlösungsgnade des Sohnes von aller Sünde bewahrt worden ist. Sollte nicht Maria auch im Tode Christo ähnlich werden, den der Apostel als den Erstandenen von den Toten den Erstling der Entschlafenen nennt (1 Kor 15, 20)? Maria ist sonach unter den Menschen, die am Jüngsten Tage auferstehen, ein Erstling der Entschlafenen, da ihr Leib aus dem Todesschlaf erweckt und mit der Seele im Himmel wieder vereinigt wurde. Dadurch hat die Mutter des Herrn den verdienten Vorzug vor allen anderen Auserwählten, deren Leiber erst am Jüngsten Tag auferweckt und mit der Seele zur ewigen Wonne im Himmel vereinigt werden [...]",
+        "resp1": "Selig bist du, Jungfrau Maria, Mutter Gottes; du hast dem Herrn geglaubt; an dir hat sich erfüllt, was dir gesagt worden war. Nun wirst du über die Chöre der Engel erhöht.",
+        "resp2": "Bitte für uns beim Herrn, unserm Gott.",
+        "resp3": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir."
+      }
+    ]
+  },
+  "Speyer-09-10": {
+    "patr_selector": [
+      {
+        "autor": "Cäsarius von Arles († 542)",
+        "werk": "Aus den Reden an das Volk.",
+        "text": "^hDurch Wort und Beispiel belehrt der Bischof das ihm anvertraute Volk^pViele Bezeichnungen werden mit Fug und Recht auf die Bischöfe angewandt. Man nennt uns nämlich Hirten, heißt uns Steuerleute und Wächter. Wenn wir wirklich Hirten sind, dann müssen wir für die geistliche Nahrung des Gottesvolkes sorgen. Sind wir Steuerleute, müssen wir mit Gottes Hilfe das Schiff der Kirche mutig und kraftvoll durch die Wogen dieser Zeit steuern, damit wir durch alle Stürme hindurch unbeirrt und geradlinig den Hafen des Paradieses anlaufen können.^pBischof bedeutet eigentlich oberster Wächter; weil wir eine erhobene Stellung einnehmen, müssen wir mit Gottes Hilfe dieses Amt mit größter Sorgfalt ausüben. Wir sollten immer um die Schafe des göttlichen Herrn besorgt sein und in Furcht bedenken, was der Herr in schreckenerregender Weise von den Bischöfen und Äbten verkündet: „Ich fordere meine Schafe aus der Hand der Hirten zurück; denn die verletzten verbindet ihr nicht, die verirrten holt ihr nicht zurück, die gesunden und starken dagegen richtet ihr zugrunde.“{1#vgl. Ez 34,10.4}^pDa wir vom Herrn eingesetzt wurden, um das Schiff der Kirche zu leiten, müssen wir es, gestützt auf Gott, mit dem zweifachen Steuer der beiden Testamente führen, und zwar so, dass wir weder zur rechten noch zur linken Seite durch irgendwelche Nachlässigkeit abweichen und inmitten der zahlreichen Gefahren dieser Welt den geraden Kurs auf das Leben einhalten können. Wie nämlich kein Schiff ohne viel Mühe irgendwelche irdischen Reichtümer herbeischaffen kann, so kann auch das Schiff der Kirche nicht ohne Drangsal den Schatz oder die Freude der ewigen Heimat erreichen. Wenn sich die Steuerleute auf Grund falscher Sicherheit allzu sehr dem Schlaf hingeben und die Seeleute nicht auf ihre Aufgaben und Pflichten aufmerksam machen, werden sie sehr bald Schiffbruch erleiden. Ebenso: wenn die Kirchenführer nicht mit größter Sorgfalt belehren, abschrecken, bisweilen sogar zwingen – einmal durch maßvolle Zurechtweisung, ein andermal durch strenges Drohen mit dem Tag des Gerichtes –, um den geraden Weg zum ewigen Leben vorzuschreiben, dann ist zu befürchten, dass ihnen zum Gericht wird, was ihnen hätte zum Heil dienen können. So viel es an uns liegt, wollen wir uns deshalb Mühe geben, auf Gottes Eingebung und Hilfe bauend, das uns anvertraute Volk durch Wort und Beispiel zu belehren, damit wir einmal vor dem Richterstuhl Gottes zuversichtlich sprechen können: „Siehe, Herr, hier bin ich und die Kinder, die du mir geschenkt hast.“{2#vgl. Jes 8,18}",
+        "resp1": "Gebt acht auf die ganze Herde, in der euch der Heilige Geist zu Bischöfen bestellt hat.",
+        "resp2": "Sorgt wie Hirten für die Kirche Gottes, die er sich durch das Blut seines eigenen Sohnes erworben hat.",
+        "resp3": "Von Verwaltern verlangt man, dass sie sich treu erweisen."
+      },
+      {
+        "autor": "Maximus von Turin († wahrsch. um 420)",
+        "werk": "Aus einer Predigt am Gedenktag Turiner Märtyrer.",
+        "text": "^hBesondere Verehrung derer, die hierzulande ihr Blut vergossen haben^pBrüder, wenn wir den Geburtstag aller heiligen Blutzeugen ganz fromm feiern sollen, so muss doch ganz besonders das Fest derjenigen ehrfürchtig begangen werden, die in unserer Heimat ihr eigenes Blut vergossen haben. Gewiss sind alle Heiligen überall da und sind ein Segen für alle; gleichwohl legen ganz besonders diejenigen Fürbitte für uns ein, die dazu noch Marterqualen für uns erduldet haben. Denn wenn ein Blutzeuge leidet, so leidet er nicht nur für seine Person, sondern auch für seine Mitbürger. Für sich leidet er zur Belohnung, für seine Mitbürger als Vorbild. Für sich leidet er, um zur ewigen Ruhe einzugehen, für seine Mitbürger, damit sie zum Heile gelangen. Denn durch ihr Beispiel haben wir gelernt, an Christus zu glauben, haben wir gelernt, bei allen Unbilden das ewige Leben zu suchen, haben wir gelernt, den Tod nicht zu fürchten. Seht also, was wir den Blutzeugen schulden: Der eine ist gefoltert worden, damit der andere gerettet würde; der eine erduldete den Henker, damit der andere Christus anerkenne; der eine ist dem Tode geweiht worden, damit der andere das ewige Leben erlange. Und schließlich ist der Heilige getötet worden, damit der Sünder heil davonkomme. Die Blutzeugen haben also nicht für sich selbst gelebt, noch sind sie für sich selbst gestorben.{1#vgl. Rom 14,7} Denn sie haben uns durch ihr frommes Leben ein Beispiel des Lebenswandels hinterlassen, ein Beispiel des Leidens durch ihr tapferes Ertragen. Deshalb nämlich wollte der Herr, dass die Blutzeugen auf der ganzen Welt und an verschiedenen Orten leiden sollten, um uns gewissermaßen durch das augenblickliche Glaubensbeispiel ihres Zeugnisses gleichsam als die berechtigten Zeugen anzutreiben. In ihrer Schwachheit tun sich die Menschen ja schwer, auf die Botschaft des Herrn hin zu glauben, da die Kunde davon bereits weiter zurückliegt. Um so mehr soll ihr Glaube gefestigt werden durch das Blutzeugnis der Seligen, deren Martyrium ihnen an dieser Stätte ständig vor Augen steht. Darum lasst uns, Brüder, in dieser Welt diejenigen feiern, die wir später als Verteidiger haben können. Wir wollen uns mit ihnen in der Nachahmung ihres Glaubens verbinden.",
+        "resp1": "Weil ihr nicht aus der Welt seid, sondern weil ich euch aus der Welt erwählt habe, hasst euch die Welt.",
+        "resp2": "Der Knecht ist nicht größer als sein Herr, denn wenn sie mich verfolgt haben, werden sie auch euch verfolgen.",
+        "resp3": "Das alles werden sie euch antun um meines Namens willen!"
+      }
+    ]
+  },
+  "Speyer-09-17": {
+    "patr_selector": [
+      {
+        "autor": "Hildegard von Bingen († 1179)",
+        "werk": "Aus dem Buch „Scivias“ (Vorrede).",
+        "text": "^hEin feuriges Licht kam vom offenen Himmel hernieder^pIm Jahre 1141 der Menschwerdung Jesu Christi, des Gottessohnes, als ich zweiundvierzig Jahre und sieben Monate alt war, kam ein feuriges Licht mit Blitzesleuchten vom offenen Himmel hernieder. Es durchströmte mein Gehirn und durchglühte mir Herz und Brust gleich einer Flamme, die jedoch nicht brannte, sondern wärmte, wie die Sonne den Gegenstand erwärmt, auf den sie ihre Strahlen legt. Nun erschloss sich mir plötzlich der Sinn der Schriften, des Psalters, des Evangeliums und der übrigen katholischen Bücher des Alten und Neuen Testamentes. Als ich die Mädchenjahre überschritten hatte und zu dem erwähnten gereiften Alter gekommen war, hörte ich eine Stimme vom Himmel sagen: „Ich bin das lebendige Licht, das alles Dunkel durchleuchtet. Den Menschen, den Ich erwählt{1#Hildegard} und den Ich, wie es Mir gefiel, machtvoll erschüttert habe, stellte Ich in große Wunder hinein, mehr noch als die Menschen der alten Zeiten, die viele Geheimnisse in Mir schauten. Doch warf Ich ihn zur Erde nieder, damit er sich nicht in Geistesaufgeblasenheit erhebe. Die Welt hatte keine Freude und kein Ergötzen an ihm und fand ihn ungeschickt für weltliche Geschäfte, denn Ich habe ihn von trotziger Verwegenheit befreit. Furcht erfüllt ihn, und er zittert in seinen Mühen. Er leidet Schmerzen in seinem Marke und in den Adern seines Fleisches. Sinn und Gefühl sind ihm beengt, und schweres Leiden duldet er in seinem Körper, so dass keine Sicherheit in ihm wohnt, er sich vielmehr in allem als schuldig erachtet. Die Ritzen seines Herzens habe Ich umzäunt, damit sein Geist sich nicht in Stolz und Ehrsucht erhebe, sondern aus all dem mehr Furcht und Schmerz als Freude und Lust schöpfe.“ All dieses sah und hörte ich, und dennoch – ich weigerte mich zu schreiben. Nicht aus Hartnäckigkeit, sondern aus dem Empfinden meiner Unfähigkeit, wegen der Zweifelssucht, des Achselzuckens und des mannigfachen Geredes der Menschen, bis Gottes Geißel mich auf das Krankenlager warf. Da endlich legte ich, bezwungen durch die vielen Leiden, Hand ans Schreiben.^pAls ich nun zu schreiben begann und alsbald, wie anfangs berichtet, die Gabe tiefsinnender Schriftauslegung in mir wirksam fühlte, kam ich wieder zu Kräften und stand von meiner Krankheit auf. Nur mit Mühe brachte ich in zehn Jahren dieses Werk zustande und vollendete es. In den Tagen des Erzbischofs Heinrich von Mainz, des Römischen Königs Konrad und des Abtes Kuno vom Disibodenberg, unter dem Papste Eugenius, sind diese Geschichten und Worte an mich ergangen. Und ich sagte und schrieb dies nicht nach der Erfindung meines Herzens oder irgendeines Menschen, sondern wie ich es in Himmelskundgebungen sah, hörte und empfing durch die verborgenen Geheimnisse Gottes.^pUnd wiederum hörte ich die Stimme vom Himmel. Sie sprach: „So rufe denn und schreibe also.“"
+      },
+      {
+        "autor": "Hildegard von Bingen († 1179)",
+        "werk": "Aus einem Brief an Bischof Günther von Speyer (1146–1161).",
+        "text": "^hHöre: Weise die Ermahnung Gottes nicht von dir^pDas Licht der höchsten Einhauchung sagt zu dir, o Mensch: Weise die Ermahnung des Heiligen Geistes, die in dir aufsteigt, nicht durch gewohnheitsmäßige schlechte Werke von dir. Denn Gott hält Suche nach dir, weil er von jeher darauf bedacht ist, das verirrte Schaf zurückzuführen. Als er die Missetaten der Menschen abwusch, wurde der alte Betrüger zuschanden, da der stärkste Streiter ihn überwand.^pGott blickt durch Fenster auf dich, denn er ist gütig und barmherzig. Dessen spotte kein Mensch irgendwie durch ein Wahngebilde seines Willens. Höre: Weise die Ermahnung Gottes nicht von dir, damit er dich nicht züchtige mit seiner Geißel. Denn Gott will in seinem Eifer solch feindlichen Handel niedertreten, weil dessen Verfechter mitsamt ihren Genossen durch ihre Großtuerei seiner spotten. Darum spannt er den Bogen seiner Mahnung und beweist, dass ihm niemand widerstehen kann. O Mensch, in vielfache Schwärze gehüllt, steh schnell auf nach dem Sturz und baue im Himmlischen. So werden die Schwarzen und Schmutzigen sich schämen ob deiner Erhöhung. Schau wie durch ein Bild{1#vgl. 1 Kor 13,12} zum himmlischen Leben auf. Wie lichtes Morgenrot leuchtet dann das gute Wollen in dir.^pHöre, o Mensch: Ein Mann besaß ein Land, das sich als sehr fruchtbar erwies. Wenn der Pflug die Erde geschaufelt hatte, trieb sie in kräftigem Keimen jedwede in sie gesäte Frucht. Da gefiel es dem Mann, aus diesem Land einen Gewürzgarten zu machen. Gewürzkräuter von lieblichstem Duft sollten darin wachsen, Heilmittel gegen Wunden und Verletzungen. Und das Land wurde besser als früher. Nun also, o Mensch, wähle von beidem, was für dich von größerem Nutzen ist.^pDas Fundament des himmlischen Jerusalems wurde zuerst mit Steinen gelegt, die durch große Stürze gespalten und durch die Risse ihrer Laster verunstaltet waren, aber hernach ihre Missetaten in Reue untergehen ließen. Dieses erste Fundament hat der Baumeister der Welt mit rauen und ungeglätteten Steinen gelegt, und diese Steine tragen die Stadt Gottes. Fliehe daher die Ausgelassenheit der schiffbrüchigen, in Unreinheit liegenden Welt, und sei dem Sardis gleich und dem Topas, und schnell wie der Hirsch, um mit der Zunge aus dem reinsten Quell zu schöpfen. Und du wirst leben in Ewigkeit.",
+        "resp1": "Der Böse verlasse seinen Weg und der sündige Mann seine Gedanken. Er kehre zurück zum Herrn. Dann wird er sich seiner erbarmen.",
+        "resp2": "Denn er ist gütig und barmherzig.",
+        "resp3": "Der Herr will nicht den Tod des Sünders, sondern dass er sich bekehre und lebe."
+      }
+    ]
+  },
+  "Speyer-10-05": {
+    "patr_selector": [
+      {
+        "autor": "Johannes Emil Gugumus (†°1979)",
+        "werk": "Aus einem Aufsatz anlässlich der 900^-Jahrfeier der Domweihe.",
+        "text": "^hAbbild der höheren, übersinnlichen und übernatürlichen Welt^pWer ehrfürchtig das Heiligtum des Speyerer Domes betritt, der spürt, dass auch hier alles Irdische nur Bild und Gleichnis ist. Wie der mittelalterliche Mensch die Musik als Widerklang der himmlischen Sphärenmusik deutete, so haben auch die Erbauer des Domes in dem sakralen Bau ein Abbild der höheren, übersinnlichen und übernatürlichen Welt, in seinen Maßen und Proportionen einen Abglanz der himmlischen Ordnung gesehen. Bis in das Hochmittelalter hinein betrachtete man das Gotteshaus als Abbild der Kirche und des Reiches Gottes auf Erden. Hugo von St. Viktor (1097–1141) nennt das Gotteshaus Sinnbild der heiligen katholischen Kirche, die aus lebendigen Steinen erbaut ist. Ein weiterer Zeitgenosse, Bruno von Asti, bemerkt: „Die Kirche, die aus Holz oder Stein erbaut wird, zeichnet die Kirche nach, die aus lebenden Steinen erbaut ist, deren Steine nicht mit Kalk, sondern mit Liebe verbunden und zu einer Einheit zusammengeschlossen werden, deren Tore die Apostel sind, deren Säulen die Bischöfe sind und Gelehrten.“ So ist auch unser Dom mit seinen mächtigen Quadern Sinnbild der Kirche Gottes. Die Kirche ist aber in der Auffassung jener Zeit auch ein Abbild des himmlischen Jerusalem. Dies kam zum Ausdruck in den kostbaren, mächtigen Kronleuchtern. Die Krone Christi war das himmlische Jerusalem.^pDie Idee des Gotteshauses als Abbild der Kirche wurde in der romanischen Architektur ausgestaltet zur Himmelsburg des göttlichen Kaisers, zur Gottesburg der romanischen Dome. Dieser Burgcharakter zeigt sich auch am Speyerer Dom in seinem zum Teil bis sechs Meter dicken Mauerwerk und in der Sechszahl seiner Türme und Kuppeln. Wie ein Bollwerk ragt er empor, wie ein heiliges, zinnenbewehrtes Jerusalem, gegen das Satan und die höllischen Mächte vergebens anrennen, Zeichen der alles überwindenden Kraft des Glaubens und Ort der Geborgenheit für die Gläubigen. Nicht Askese und Weltflucht, sondern christliche Durchdringung der Welt, nicht schmerzvolle Resignation, sondern sieghafter Glaube prägen die steinerne Gottesstadt. Sie ist Abbild der göttlichen Weltordnung und ebenso Ausdruck der mittelalterlichen Gesellschaft, die streng in Stände gegliedert war und in der jeder seinen bestimmten Platz hatte. Wie jedes Bauglied eingeordnet ist in den Gesamtbau und von ihm seine Bestimmung erhält, so ist der Mensch einbezogen in die Ordnung der Schöpfung und in die Gnadenordnung der heiligen Kirche.^pDie Kirche war nach frühmittelalterlicher Auffassung die Civitas Dei, das Reich Gottes auf Erden, der Gottesstaat. Er wurde regiert von zwei Gewalten, von Kaisertum (Impedum) und Priestertum (Sacerdotium). Beide sind Gnadengaben Gottes und stammen aus demselben Ursprung, sind eine göttliche Institution. Noch auf dem Reichstag Christi 1188 in Mainz führte nicht Kaiser Friedrich Barbarossa den Vorsitz. Der Thronsessel in der Mitte des Chors war für Christus, den wahren Kaiser des Reiches, freigelassen; zu seinen Seiten saßen die Stellvertreter Christi auf Erden, der Kaiser und der päpstliche Legat. Diese Reichssymbolik spricht sich auch in unserem Dom aus. Die Apsis im Osten ist der Sitz des Bischofs, der die geistliche Gewalt im Reich Gottes repräsentiert. Das Westwerk ist Sinnbild der weltlichen Gewalt. Sacerdotium und Imperium spielten ineinander über. Gottes Reich auf Erden verkörpert sich hier.",
+        "resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
+        "resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!",
+        "resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
+      },
+      {
+        "autor": "Nikolaus von Weis († 1869)",
+        "werk": "Aus einem Hirtenwort anlässlich der 800-Jahrfeier der Domkirchweihe.",
+        "text": "^hDieses Gotteshaus ist die Kathedralkirche unseres Bistums^pDass wir die Weihe unseres Gotteshauses mit solcher Feier begehen, hat seine noch größere Berechtigung in der Würde und Bedeutung, welche dieser geheiligten Stätte zukommt, weil dieses Gotteshaus die Kathedralkirche unseres Bistums ist. Sie wird es dadurch, dass, wie auch ihr Name es sagt, in ihr der Stuhl (Cathedra) des Bischofs steht; sie wird es dadurch, dass sie das Heiligtum Gottes unter einem rechtmäßigen Nachfolger der Apostel ist und so der Mittelpunkt der Einheit für alle Gläubigen, welche in dem Sprengel Gott dienen und dem einen Hirtenstab des Oberhirten in freiem Gehorsam folgen. Von diesem Lehrstuhl aus wird für die Verkündigung des lauteren Evangeliums gesorgt, wie es nicht Menschensatzung und Menschendünkel gemacht, sondern wie es der Herr selber in der Kirche niedergelegt hat. Mit diesem Hirtenstab wird die ganze Herde geführt auf gesunde Weide, wird die rechte Zucht gewahrt, die kirchliche Ordnung aufrechterhalten und das ganze christliche Leben gepflegt. Von diesem Mittelpunkt, wie aus einem unversiegbaren Gnadenbrunnen, strömen die Segnungen der Einheit und der Ordnung in die einzelnen kirchlichen Gemeinden der Diözese. So wird die Kirche, wo der Stuhl des Bischofs steht, zur Mutterkirche aller Tochterkirchen des Sprengels, die ihr Gehorsam und Ehrerbietung schulden, wie die Mutterkirche ihnen wiederum Schuldnerin ist in allen schweren Pflichten des Oberhirtenamtes. Denn wenn überall, so wird vor allem in der Kirche die Pflicht dessen, der gehorcht, überboten durch die schwere Pflicht dessen, der befiehlt. Wo aber der Gebietende gebietet aus Gehorsam gegen Gott und der Gehorchende gehorcht, nicht weil es ein Mensch, sondern weil es Gott gebietet, da ist der Geist, da ist der Friede, da ist die Gnade unseres Herrn Jesu Christi. [...]^pIm Bischof, dessen Stuhl in der Mutterkirche steht, hat demnach jedes Bistum seinen Mittelpunkt für das Lehramt, für das Richteramt und für die Weihegewalt in der Kirche. Mit ihm teilt Würde und Bürde sein Klerus, der teils mit ihm vereint ist in der Mutterkirche, teils mit dem Hirtenamt in den einzelnen Gemeinden des Sprengels nach kirchlicher Ordnung betraut ist. Wie entfernt auch die einzelnen Herden, wie mannigfach auch die Bedürfnisse, unzertrennlich ist die Gemeinschaft, festbegründet ist die Einheit. Wie aber die einzelnen Pfarrsprengel mit ihren Seelsorgern nicht für sich ohne die von Christus in der Kirche bestimmte Unterordnung zum Bischof und zur Mutterkirche bestehen können, so bestehen auch die Bischöfe und die Bistümer nicht ohne Unterordnung und die Verbindung mit dem einen, von Christus gesetzten Mittelpunkt für die ganze Kirche in Petrus, auf den er die Kirche gebaut hat [...] So wird also durch den Vorsteher der Mutterkirche, durch den mit dem Nachfolger Petri geeinten Bischof, die rechtmäßige und beglaubigte apostolische Sendung und Nachfolge in den ihm anvertrauten Gemeinden fortgeführt und stets darin erhalten.",
+        "resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
+        "resp2": "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.",
+        "resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben."
+      },
+      {
+        "autor": "Caesarius von Heisterbach († 1240)",
+        "werk": "Aus den wunderbaren und denkwürdigen Geschichten.",
+        "text": "^hSeine Freude galt nicht vergänglichen Gebäuden, sondern dem Bau des himmlischen Jerusalem^pEs ergab sich einmal, dass einige Äbte unseres Ordens zu Kaiser Heinrich, dem Sohne Friedrichs, reisen mussten, um in den Angelegenheiten unseres Ordens vorzusprechen. An der Spitze dieser Abordnung stand Abt Petrus der Einäugige von Clairvaux{1#@O.Cist., sel., † 1186}. Er genoss sowohl wegen seines heiligmäßigen Lebens als auch wegen seiner Verdienste hohes Ansehen. Weil der Abt von Citeaux nicht persönlich kommen konnte, sandte er an seiner statt seinen Prior. Die Äbte kamen auch nach Speyer. Sie beteten in der Kirche der seligen Gottesmutter, einem Bauwerk von bewundernswerter Größe. Während nun die übrigen Mitglieder dieser Gesandtschaft sich allzu schnell vom Gebet erhoben und umhergingen, um die Baulichkeiten eben dieser Kirche zu besichtigen, verharrte der bereits erwähnte Abt Petrus weiterhin im Gebet. Seine Gedanken und seine Freude galten nicht vergänglichen Gebäuden, sondern dem Bau des himmlischen Jerusalem. Schließlich verließen alle die Kirche und wurden in der Vorhalle von den Chorherren ehrenvoll begrüßt und mit großer Herzlichkeit zum Essen eingeladen. Ein Abt fragte, zu welches Heiligen Ehre die Kirche geweiht worden sei. Die Chorherren antworteten: „Zu Ehren Unserer Lieben Frau“. Da entschlüpfte dem Abt von Clairvaux die Äußerung: „Das habe ich schon gewusst“. Der Prior von Citeaux hörte dies, schwieg aber zunächst. Nachdem die Abordnung der Äbte bald darauf die Stadt verlassen hatte, erinnerte sich der Prior an die Bemerkung des Abtes von Clairvaux und wandte sich an diesen mit den Worten: „Herr Abt, sagen Sie mir: Woher wussten Sie, dass die Bischofskirche in Speyer Unserer Lieben Frau geweiht ist?“ Der Abt bedauerte seine spontane Äußerung und antwortete: „Mir schien es nur recht und billig, dass zur Patronin eines so wunderbaren Bauwerkes die Mutter Gottes und Königin der Himmel gewählt worden sei“. Der Prior kannte den frommen Sinn dieses Mannes. Auf Grund seiner Antwort vermutete er, dass ihm in der Kirche etwas offenbart worden war und sagte deshalb zu dem Abt: „Auf dieser Reise vertrete ich den Herrn Abt von Citeaux. In der Vollmacht dieses Abtes trage ich Euch auf, mir die volle Wahrheit zu sagen.“ Abt Petrus nun, im Gehorsam verpflichtet, erwiderte mit Ehrerbietung: „Als ich vor dem Altare kniefällig für meine Sünden und für die Verfehlungen auf unserem Weg inständig betete, erschien mir die selige Jungfrau Maria selbst. Sie sprach den Segen, den unser Orden nach guter Gewohnheit den heimkehrenden Mitbrüdern zukommen lässt, über mich und gebrauchte dabei folgende Worte: ,Allmächtiger, ewiger Gott, erbarme dich deines Dieners.^pWas immer sich auf der Reise durch Sehen von Bösem oder durch Anhören von unnützem Gerede in seine Seele eingeschlichen hat, das alles verzeihe ihm gnädig in deiner unaussprechlichen Liebe, durch Christus, unseren Herrn‘.“ Dieses Erlebnis des Abtes Petrus ist mir von einem gottesfürchtigen Abt unseres Ordens berichtet worden, den eben dieser Petrus des Öfteren in seinem Hause besucht hat. Auf Grund des oben erwähnten Segens kam der Abt Petrus zu der Erkenntnis, dass die Jungfrau Maria die Schutzpatronin eben jener Kirche ist. Ein Novize rief aus: „O glückliches Gebet, durch das man sich den Segen der so mächtigen Jungfrau verdient!“ Ein Mönch antwortete: „Die Jungfrau pflegt nicht nur diejenigen mit ihrem Segen zu trösten, die still für sich beten, sondern auch jene, die im Chor gemeinsam den Psalmengesang verrichten.“",
+        "resp1": "Deine Mauern sind aus edlem Stein.",
+        "resp2": "Aus Perlen sind Jerusalems Türme erbaut.",
+        "resp3": "Die Tore sind aus Saphir und Smaragd, aus kostbaren Steinen die Mauern rings um die Stadt."
+      }
+    ]
+  },
+  "Speyer-11-03": {
+    "patr_selector": [
+      {
+        "autor": "Pirmin († 753)",
+        "werk": "Aus dem Pastoralbüchlein des heiligen Pirmin.",
+        "text": "^hSeht, das ist der Vertrag und das Versprechen, das bei Gott gilt!^pGeliebte, wie der Heilige Geist sagt durch den Propheten: „Reines Wasser werde ich über euch ausgießen und ihr werdet rein werden von allen euren Sünden. Von allen euren Götzen werde ich euch reinigen. Ich werde euch ein neues Herz geben und meinen Geist in euer Inneres legen.“{1#Ez 36,25-26} Und im Evangelium: „Niemand geht ein in das Reich Gottes, der nicht wiedergeboren wird aus Wasser und dem Heiligen Geist“{2#Joh 3,5}, das heißt, der nicht glaubt und getauft worden ist. Deswegen, Brüder, erinnern wir euch, welchen Vertrag (pactum) wir in unserer Taufe mit Gott geschlossen haben. Als wir vom Priester nach unserem Namen gefragt wurden, da hast du geantwortet, wenn du schon antworten konntest, oder doch gewiss jener, der für dich den Glauben bekannt hat und dich vom Taufbrunnen aufnahm: Johannes soll er heißen oder einen anderen Namen. Der Priester aber fragt: Johannes, widersagst du dem Teufel, allen seinen Werken und all seinem Prunk? Du hast geantwortet: Ich widersage. Das heißt: ich verachte und verlasse alles schlechte und teuflische Tun. Nach dieser Absage an den Teufel und an alle seine Werke bist du vom Priester gefragt worden: Glaubst du an den allmächtigen Gott, den Vater, Schöpfer des Himmels und der Erde? Da hast du geantwortet: Ich glaube! Und weiter: Glaubst du an Jesus Christus, seinen eingeborenen Sohn, unseren Herrn, der empfangen ist vom Heiligen Geist, geboren aus Maria der Jungfrau, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben; abgestiegen zur Hölle, am dritten Tage auferstanden von den Toten, aufgefahren zum Himmel, sitzend zur Rechten Gottes, des allmächtigen Vaters, von dannen er kommen wird zu richten die Lebendigen und die Toten? Wiederum hast du geantwortet: Ich glaube! Und zum dritten Mal hat dich der Priester gefragt: Glaubst du an den Heiligen Geist, an die heilige katholische Kirche, an die Gemeinschaft der Heiligen, an die Vergebung der Sünden, Auferstehung des Fleisches und das ewige Leben? Da hast du oder dein Taufpate für dich geantwortet: Ich glaube! Seht, das ist der Vertrag und das Versprechen, das ist euer Bekenntnis, das bei Gott gilt! Als Glaubender bist du getauft worden im Namen des Vaters und des Sohnes und des Heiligen Geistes zur Vergebung aller Sünden, vom Priester bist du mit dem Chrisam des Heils zum ewigen Leben gesalbt worden, dein Leib hat das weiße Gewand angezogen, deine Seele aber mit Christus die himmlische Gnade. Dir zum Schutz ist ein heiliger Engel bestimmt worden. Du hast den Namen Christi angenommen und der katholischen Kirche zugezählt, bist du ein Glied Christi geworden, so wie der Apostel sagt: „Ihr seid der Leib Christi, einzeln aber seine Glieder“{3#1 Kor 12,27}, weil Christus unser Haupt ist, wir aber seine Glieder. Denn von Christus sind wir ja Christen genannt."
+      },
+      {
+        "autor": "Ursmar Engelmann OSB († 1986)",
+        "werk": "Aus der Einführung in das Pastoralbüchlein des heiligen Pirmin.",
+        "text": "^hFahrend in fremdes Land hat°er°den°Himmel verdient^pHrabanus Maurus, Abt und Lehrer von Fulda, später Erzbischof von Mainz († 856), hat dem heiligen Pirmin die folgende Grabinschrift gewidmet:^pPerminius præsul Christi confessor et ipse.^lHanc ædem inhabitat, consecrat atque locum.^lQui propter Christum præsentia gaudia mundi^lSpernens, pauperiem elegit atque sibi.^lDeseruit patriam, gentem simul atque propinquos^lAc peregrina petens æthera promeruit.^lGentem hic Francorum quæsivit dogmate claro,^lPlurima construxit et loca sancta deo.^lhic quoque nunc pausat deponens corporis artus.^lAtque anima sursum regna beata tenet.^lAdiuvat et quosque, qui digne cælestia quærunt,^lRiteque conservat ipse suos famulos.^pPirminius, Bischof und Christi Bekenner zugleich,^lwohnt in diesem Haus und heiligt den Ort.^lDie Freuden dieser Welt hat er um Christi willen verschmäht^lund sich die Armut erwählt.^lDie Heimat, das Volk und die Sippe hat er verlassen,^lfahrend in fremdes Land hat er den Himmel verdient.^lHier hat er das Volk der Franken mit der Lehre des Glaubens gesucht,^lviele heilige Stätten Gott gegründet.^lHier nun ruht er mit den Gliedern des Leibes,^ldoch die Seele wohnt droben im seligen Reich.^lAllen hilft er, die würdig den Himmel erstreben,^lgetreu behütet er selbst seine Diener.{1#@Hrabani Mauri carmina LXVIII (MGH Poctac latini II, 224 f.)}^p„Peregrini monachi“ ist der oft wiederholte Terminus für die Mönche. Pilgerschaft, Fremdlingschaft und die damit verbundene Heimatlosigkeit sind biblisch begründet. Schon den Mönchsvätern ist die Heimatlosigkeit eine vertraute Vorstellung. Basilius d. Gr. berichtet in einem Brief aus dem Jahre 357 von seiner Klosterreise, auf der er Menschen angetroffen hat, die das Evangelium leben, und meint, dass diese beweisen, „Fremdlinge hienieden zu sein, und was es heißt, seinen Wandel im Himmel zu haben.“{2#@Migne PG°32,°823–824} Pirmin und seine Mönche nannten sich „peregrini“, also Fremdlinge, Pilger. Sie nannten sich nicht deswegen so, weil sie zum Teil wirklich Landfremde waren, sondern sie wussten sich als Landfremde, als Pilger, weil sie das Leben der Ewigkeit mehr ersehnten als das in der Zeit, weil sie die Gefährdung des Christen in der Zeit erkannten, und weil das Reich Gottes ihr Reich, ihre Heimat war, und weil sie deshalb Heimatlose hier auf Erden geworden waren. Aus dieser Glaubensgewissheit hat Pirmin seine Klöster im 8. Jahrhundert gegründet.",
+        "resp1": "Sie alle haben das Verheißene nur von ferne geschaut und gegrüßt.",
+        "resp2": "Sie haben bekannt, dass sie Fremde und Gäste sind auf Erden.",
+        "resp3": "Nun aber streben sie nach einer besseren Heimat, nämlich der himmlischen."
+      }
+    ]
+  },
+  "Trier-02-24": {
+    "patr_selector": [
+      {
+        "autor": "John Henry Kardinal Newman († 1890)",
+        "werk": "Aus einer Predigt am Festtag des heiligen Matthias.",
+        "text": "^hViele aber, die jetzt die Ersten sind, werden dann die Letzten sein^pHeute ist der einzige Heiligenfesttag, der mit den Gefühlen der Freude und Trauer zugleich gefeiert werden sollte. Er erinnert uns sowohl an den Fall, wie an die Erwählung eines Apostels: Der heilige Matthias wurde an Stelle des Verräters Judas erwählt.^pDer Gedanke, der bei der Betrachtung der Wahl des heiligen Matthias im Geist aufsteigt, ist folgender: Wie leicht kann Gott sein Ziel ohne uns erreichen und andere an unsere Stelle setzen, wenn wir gegen ihn ungehorsam sind. Es geschieht oft, dass jene, die lange in seiner Gunst gestanden sind, selbstsicher und vermessen werden. Sie betrachten sich als persönlich verknüpft mit den Absichten seiner in der Kirche geoffenbarten Barmherzigkeit und als so wichtig in seinem Plan, dass sie glauben, sein Wort ginge fehl, wenn sie fielen. Sie hätten, denken sie, mehr als andere einen besonderen Anspruch auf seine Verheißungen. Schon die Annahme, sie könnten fallen, beleidigt sie.^pNicht lange vor dem Fall und Verrat des Judas versprach Christus, wie es schien, eine Segnung aller Apostel einschließlich des Verräters. »Ihr, die ihr mir nachgefolgt seid, werdet beim Neubeginn, wenn der Menschensohn auf dem Thron seiner Herrlichkeit sitzen wird, ebenfalls auf zwölf Thronen sitzen und die zwölf Stämme Israels richten.«{1#vgl. Mt 19,28} Wer hätte nicht gedacht, dass Judas des ewigen Lebens sicher wäre, eben auf diese Verheißung hin? Es ist wahr, dass er hinzufügte, gleichsam als Anspielung auf ihn: »Viele, die die Ersten sind, werden die Letzten sein.«{2#vgl. Mt 19,30} Doch er sagte nichts, um die aufzuklären, die es ablehnten, das Grundgesetz seiner Vorsehung zu berücksichtigen und auf sich selbst anzuwenden. Alle seine zwölf Apostel schienen nach dem Buchstaben zum Leben vorherbestimmt zu sein. Nichtsdestoweniger hatte Matthias in wenigen Monaten Thron und Krone des einen von ihnen inne.^pEs liegt etwas Auffallendes in dem Umstand selbst, dass unser Herr sie bis zu der vollen Zwölfzahl ergänzt haben wollte, nachdem einer gefallen war. Warum anders geschieht das, als um uns zu zeigen, dass er nicht auf uns als bloße Individuen schaut, sondern als auf eine Gemeinschaft, als auf ein gewisses, bestimmtes Ganzes, dessen Teile sich ändern können in dem Vorgang, der sie aus der sündigen Welt erlöst. Welche Fülle feierlicher, überwältigender Gedanken muss den heiligen Matthias überfallen haben, als er von den elf Aposteln begrüßt wurde und seinen Sitz unter ihnen einnahm als ihr Bruder. Gerade seine Erwählung war ein Zeugnis gegen ihn selbst, falls er ihr nicht nachkommen sollte. Das gleiche gilt auch für uns. Wir nehmen, wie Matthias, den Platz anderer ein, die uns vorausgegangen sind. Viele sind berufen, wenige auserwählt; die Kirche verliert alte Zweige und setzt neue an. Wie lange uns das Evangelium anvertraut sein wird, wissen wir nicht. Wir sind in der Gegenwart Zeugen der Wahrheit und gerade unser Ruhm ist unsere Warnung. Wegen des abergläubischen Wesens, der Unehrerbietigkeit, der Gleichgültigkeit und des Unglaubens der sogenannten christlichen Welt ist es unsere Pflicht, demütig zu sein, während wir predigen; zu zittern, wenn wir uns freuen.^pWie kommt es, dass der eine ausharrt, der andere fällt? Das sind feingewebte Fragen. Sicher wissen wir, dass wir aus uns selbst nichts tun können und doch das Heil in unseren Händen liegt; denn wie tief verzweigt auch immer die Wurzel des Bösen in uns ist, so ist doch Gottes Gnade ausreichend für unsere Not.",
+        "resp2": "auf dass er die Stelle dieses Apostelamtes erhalte."
+      }
+    ]
+  },
+  "Trier-08-18": {
+    "patr_selector": [
+      {
+        "autor": "Ambrosius († 397)",
+        "werk": "Aus der Trauerrede auf Kaiser Theodosius.",
+        "text": "^hEs öffne sich die Erde, dass das Heil aufleuchte!^pÄngstlich besorgt für ihren Sohn Konstantin, dem die Herrschaft über das römische Weltreich zugefallen war, eilte Helena nach Jerusalem und erforschte die Stelle, wo der Herr gelitten hatte. Sie begab sich auf Golgotha und sprach: „Sieh, der Ort des Kampfes! Wo ist der Sieg? Ich suche das Panier des Kreuzes, aber ich finde es nicht. Ich auf dem Throne, und das Kreuz des Herrn im Staube? Ich in Gold, und Christi Triumph im Schutt? Dieser noch begraben und vergraben die Siegespalme des ewigen Lebens? Wie soll ich an meine Erlösung glauben, wenn die Erlösung selbst sich dem Auge entzieht? Weg also mit dem Schutt, auf dass das Leben erscheine! Es öffne sich die Erde, dass das Heil aufleuchte!“^pHelena lässt nun den Boden aufgraben, das Erdreich wegnehmen. Da stößt sie auf drei durcheinanderliegende Marterhölzer, die der Schutt bedeckt, der Feind versteckt hatte. Doch Christi Triumph konnte nicht in Nacht vergraben bleiben. Der Heilige Geist gibt ihr einen sicheren Fingerzeig; sie findet das mittlere Kreuz mit der Aufschrift: Jesus von Nazareth, König der Juden.{1#vgl. Joh 19,19} Hieraus konnte der wahre Sachverhalt erschlossen werden: Aus der Aufschrift ward das Kreuz des Heiles offenbar. Sie fand also die Aufschrift und betete den König, nicht das Holz an, denn das wäre gottloser Aberglaube. Sie betete vielmehr den an, der am Holz gehangen, dessen Name auf der Überschrift gestanden; der für seine Verfolger laut zum Vater um Verzeihung ihrer Sünden flehte.{2#vgl. Lk 23,34} Voll Verlangen trachtete die Frau, das Heilmittel der Unsterblichkeit zu berühren, scheute sich aber, das Geheimnis des Heils mit dem Fuße zu treten. So gelangte sie hin zur Liegestelle der Wahrheit: Das Holz leuchtete auf, die Gnade erstrahlte.^pHelena suchte ebenfalls die Nägel, mit denen der Herr ans Kreuz geheftet wurde, und fand sie. Den einen verwandte sie zur Schmucksache, den anderen zum Weihegegenstand. Maria ward heimgesucht zur Erlösung der Eva, Helena ward heimgesucht zur Erlösung der Kaiser. Sie sandte ihrem Sohn Konstantin das Diadem, mit Edelsteinen geschmückt, die dem Eisen des Nagels eingefügt waren und das den noch kostbareren Edelstein des Kreuzes der göttlichen Erlösung zusammenhielt.{3#@Wie aus dem Zusammenhang zu entnehmen ist, wurde der Nagel in Kreuzesform in das Diadem verarbeitet.} Weise handelte Helena, da sie das Kreuz auf dem Haupte der Könige aufpflanzte. Es sollte das Kreuz Christi an den Königen verehrt werden. Ein Gut ist dieser Nagel im Zügel der römischen Herrschaft. Er beherrscht den ganzen Erdkreis und schmückt die Stirn der Kaiser, so dass sie jetzt Prediger sind, die so oft die Verfolger waren.",
+        "resp1": "Heute feiert die heilige Kirche den Gedenktag der ruhmvollen Kaiserin, die das siegreiche Holz des Kreuzes aufgefunden hat:",
+        "resp2": "An dem der Urheber des Heiles durch eigenen Tod den Tod aller überwunden hat.",
+        "resp3": "Helena, die Mutter Konstantins, hat mit Eifer das Kreuz gesucht, das mit vortrefflicher Zierde ausgezeichnet ist."
+      },
+      {
+        "autor": "Eusebius von Cäsarea († 339)",
+        "werk": "Aus der Vita Constantini.",
+        "text": "^hHelena, eine Frau voller Hochherzigkeit, Wohltätigkeit und Frömmigkeit^pHelena spendete von Stadt zu Stadt ganzen Gemeinden wie auch einzelnen, die sich an sie wandten, unzählige Wohltaten; unzählige Geschenke verteilte sie auch mit freigebiger Hand an die Heeresabteilungen und ungemein viel schenkte sie nackten und hilflosen Armen, denen sie teils Geldgeschenke, teils reichlich das zur Bedeckung ihres Leibes Notwendige zukommen ließ. Andere befreite sie, die in Gefängnissen und Bergwerken elend schmachten mussten; solche, die von Mächtigeren bedrückt wurden, erlöste sie und andere hinwiederum rief sie aus der Verbannung zurück.^pWährend sie sich durch solche edle Werke auszeichnet, vernachlässigte sie aber keineswegs die sonstigen Pflichten der Frömmigkeit gegen Gott; daher ließ sie sich durchweg fleißig in der Kirche Gottes sehen; mit herrlichen Kleinodien schmückte sie die Bethäuser und selbst die Tempel in den kleinsten Städten übersah sie dabei nicht. So konnte man oft sehen, wie die bewundernswerte Frau in ehrwürdiger und einfacher Kleidung sich mitten unter dem Volke zeigt und ihre Gottesverehrung durch lauter gottgefällige Werke an den Tag legte.^pAls sie aber schon am Ziele ihres reichlich zugemessenen Lebens angelangt, zu einem besseren Lose berufen werden sollte, da nahm sie, wohl an die achtzig Jahre alt, ihrem Ende schon nahe, Abschied und machte ihr Testament, worin sie zugunsten ihres einzigen Sohnes, des Kaisers, des alleinigen Beherrschers der Welt, und zugunsten seiner Söhne, der Cäsaren, ihrer Enkel, ihren letzten Willen festsetzte. Von ihren Enkeln wies sie einem jeden etwas von ihrem Privatvermögen an, soviel sie nur immer auf dem ganzen Erdkreis besaß. Und nachdem sie diese Verfügung getroffen hatte, beschloss sie ihr Leben in Gegenwart ihres großen Sohnes, der ihr zu Seite stand, sie pflegte und ihre Hände in den seinigen hielt.^pMit Recht scheint daher die Kaiserin allen, die verständig urteilen, nicht eigentlich gestorben zu sein, sondern in Wahrheit nur das irdische Leben mit dem himmlischen vertauscht zu haben. Ihre Seele ward aufgenommen zu ihrem Erlöser. Auch der Leiche der Seligen wurden mit ganz ungewöhnlichem Eifer Ehren erwiesen. Unter zahlreichem militärischem Ehrengeleite wurde sie in die Kaiserstadt gebracht und dort in den kaiserlichen Grabstätten beigesetzt."
+      }
+    ]
+  },
+  "Trier-10-03": {
+    "patr_selector": [
+      {
+        "autor": "Niketius († um 566)",
+        "werk": "Aus einem Brief an die katholische Gattin des arianischen Langobardenkönigs Alboin.",
+        "text": "^hEin Gott in drei Personen^pDer gnädigsten Herrin und Tochter in Christus, der Königin Chlodoswinda, Niketius, der Sünder. Gott kann wegen seiner Größe von keinem Menschenauge wahrgenommen werden, denn er ist so erhaben, so voll Glanz und lodernd wie Feuer. Wir lesen: So weit Himmel und Erde reichen, so weit reicht seine Wohnung.{1#vgl. Ps 18, 12} Was wegen dieser Größe und diesem blendenden Glanz von einem Menschen nicht geschaut werden kann, das hat der sichtbar gemacht, den der Vater von jeher bei sich hat. Der Sohn hat sich im Fleisch verborgen, wie es die Schrift sagt: „Er hüllte sich ein in Finsternis.“{2#ebd.} Desgleichen sagt das Wort Gottes im Evangelium, das Johannes verkündet: Was im Anfang war, das Wort, ist Fleisch geworden, und was aus Maria stammte, den Menschen, hat er so an sich genommen, dass er mit ihm eins geworden ist.{3#vgl. Joh 1, 1 ff.} Ferner hat er durch die Schrift gesagt: „Vom Zion her, der Krone der Schönheit, geht Gott strahlend auf.“{4#vgl. Ps 50, 2} Das bedeutet: Der Mensch wird emporgehoben zu Gott. In den Evangelien hat er selbst gesagt: „Ich bin vom Vater ausgegangen und in diese Welt gekommen.“{5#vgl. Mt 11, 25–27} Dem Dreifaltigen ruft das ganze Engelheer Tag für Tag zu: „Heilig, heilig, heilig, Herr, Gott der Scharen.“{6#vgl. Jes 6, 3}^pNicht drei Heilige sind es, sondern dreimal heilig nennen sie den Herrn, den Gott der Scharen: Heilig den Vater, heilig den Sohn, heilig den Geist. Einer ist der Heilige wie auch einer der Herr ist! So lehrte auch der Evangelist Johannes: „Er ist es, der ist, der war und der kommen wird, der Retter.“{7#vgl. Joh 1, 30} Nennt man allein ihre Namen, scheint es Unterschiede zu geben. Wenn du Vater hörst, scheint er dem Namen nach größer zu sein, wie Christus denn auch gesagt hat: Der Vater ist größer als ich! Aber nur dem Namen nach. Was die göttliche Natur betrifft, wissen wir in aller Klarheit durch Christus und seine Apostel, dass der Vater und der Sohn darin eins sind. Denn, als er von einem Jünger gefragt wurde: Herr, zeig uns den Vater!, hat er selbst geantwortet: Du siehst mich und fragst noch nach dem Vater? Du siehst: Als Dreifaltiger wird er angerufen, und doch als der Eine erfunden. Wenn du den Vater nennen hörst, glaube nicht, er sei ohne den Sohn. Wenn du den Sohn nennen hörst, zweifle nicht, dass er beim Vater ist. Zweifle auch nicht, dass es drei Personen sind, die als einer in der Gottheit bekannt werden. Und so hat er auch zu seinen Jüngern gesagt: „Geht, tauft im Namen des Vaters und des Sohnes und des Heiligen Geistes.“{8#vgl. Mt 28, 19} In dem Namen sagte er, nicht auf die Namen, weil er ihnen in der einen Gottheit zu taufen gebot, nicht aber auf drei verschiedene Gottheit. Auch der Heilige Geist kann nicht von der einen Gottheit getrennt werden, denn von ihm kommt bekanntlich die Gnade Gottes. Wir kennen ihn als die göttliche Gabe, von der alle guten Dinge ausgehen, wie der Apostel sagt: „Aus ihm, und durch ihn und in ihm ist alles.“{9#vgl. Röm 11, 36} Und so sagt der Psalmist in prophetischer Rede: „Du allein der Höchste, ja, du allein bist der Höchste über die ganze Erde.“{10#vgl. Ps 83, 19 b} Abraham, der Gottesfreund genannt wird und sich als solcher erwiesen hat, hat drei gesehen und einen geglaubt, als er vor den drei niedergefallen ist. Er weist, wie ich schon sagte, auf die Dreifaltigkeit hin. Da er sie aber bittet, in ein Haus einzutreten, bekennt er die eine Macht. Wie oft hat diese Allmacht zu Mose gesprochen: „Ich bin, der ich bin und neben mir gibt es keinen anderen.“{11#vgl. Ex 3, 14; 20, 3}",
+        "resp1": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus:",
+        "resp2": "Durch ihn habt ihr das Siegel des verheißenen Heiligen Geistes empfangen, als ihr den Glauben annahmt.",
+        "resp3": "Er hat beschlossen, die Fülle der Zeiten heraufzuführen, in Christus alles zu vereinen, alles, was im Himmel und auf Erden ist."
+      },
+      {
+        "autor": "Gregor von Tours († 594)",
+        "werk": "Aus dem Buch „Über das Leben der Väter“.",
+        "text": "^hGern sterbe ich für die Gerechtigkeit^pAls der Bischof der Stadt Trier gestorben war, befahl König Theoderich (Theuderich), Niketius als Nachfolger einzusetzen. Mit Zustimmung des Volkes und auf Grund königlichen Dekretes sollte Niketius daraufhin von Männern, die beim König in höchsten Ehren standen, zur Bischofsweihe eingeholt werden. Als die Beauftragten des Königs in der Nähe der Stadt, in der Niketius als Abt eines Klosters lebte, bei Sonnenuntergang ihre Zelte aufgeschlagen und sich eine Bleibe für die Nacht hergerichtet hatten, jagten sie die ausgeschirrten Pferde ohne große Umschweife in die Saatfelder der armen Leute.^pSobald der selige Niketius davon erfuhr, sagte er von Mitleid bewegt: „Treibt so schnell ihr könnt eure Pferde aus der Saat, sonst schließe ich euch von der Kirchengemeinschaft mit mir aus.“ Jene antworteten verstimmt: „Was ist denn das für eine Rede, die du da führst? Noch hast du nicht den Bischofsstuhl bestiegen, und schon drohst du uns mit der Exkommunikation!“ „So wahr ich lebe, sage ich euch“, gab Niketius ihnen zur Antwort, „der König hat zwar bestimmt, mich aus dem Kloster zu nehmen und auf seine Anordnung hin für die Bürde des Bischofsdienstes zu weihen. Es geschehe der Wille Gottes! Aber der Wille des Königs wird, soweit ich es verhindern kann, in schlechten Dingen nicht geschehen.“ Dann lief er selbst hin und jagte die Pferde aus der Saat. So wurde er von jenen Männern voller Respekt zur Stadt Trier geführt.^pNiketius beugte sich nicht vor der Person eines Mächtigen, sondern er fürchtete allein Gott, der ins Herz schaut und die Tat eines jeden kennt. Nachdem er seinen bischöflichen Dienst angetreten hatte, zeigte er sich gegenüber allen, die Gottes Gebote nicht achteten, als drohender Mahner.^pFolgende Begebenheit trug sich an einem Sonntag zu: König Theudobert betrat mit seinen Gefolgsleuten die Kirche, obwohl Niketius einem Teil von ihnen auferlegt hatte, sich von der Eucharistiefeier fernzuhalten. Nachdem die Lesungen aus der Heiligen Schrift vorgetragen waren, wie es die althergebrachte Ordnung verlangte, und nachdem man die Opfergaben auf dem Altar bereitgestellt hatte, sagte Bischof Niketius: „Hier wird heute die Messe solange nicht weiter gefeiert, bis nicht die Exkommunizierten die Kirche verlassen haben.“ Der König gab schließlich Anweisung, dass alle aus seinem Gefolge, die vom Bischof exkommuniziert worden waren, die Kirche verlassen sollten.^pBischof Niketius predigte regelmäßig vor dem Volk, nannte deutlich die Verfehlungen der einzelnen und betete beständig um Vergebung für diejenigen, die ihre Schuld bekannten. Von daher war er oft Hassausbrüchen ausgesetzt, wenn er die bösen Taten vieler wahrheitsgemäß aufdeckte. Sein Wahlspruch lautete: „Gern sterbe ich für die Gerechtigkeit!“ Ferner übte sich Niketius in strengem Fasten. Oft, wenn die anderen beim Essen saßen, pilgerte er, einen Umhang über den Kopf geschlagen, um in der Öffentlichkeit nicht erkannt zu werden, in Begleitung eines Knaben zu den einzelnen Basiliken der Heiligen.^pAls er den Tag seines Hinübergangs herannahen fühlte, sagte er zu seinen Mitbrüdern: „Ich habe den heiligen Apostel Petrus und Johannes den Täufer gesehen, die mich zur ewigen Ruhe einladen.“ Wenige Tage später gab er sein Leben in die Hände des Herrn zurück. Er wurde in der Basilika des heiligen Maximin begraben.",
+        "resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir Großes übertragen.",
+        "resp2": "Komm, nimm teil an der Freude deines Herrn.",
+        "resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
+      }
+    ]
+  },
+  "Trier-11-07": {
+    "patr_selector": [
+      {
+        "autor": "Beda Venerabilis († 735)",
+        "werk": "Aus der Kirchengeschichte des englischen Volkes.",
+        "text": "^hWillibrord predigte weit und breit bei den Friesen das Glaubenswort^pAls der Mönch und Bischof Egbert aus dem irischen Kloster Rathmelsigi sah, dass es ihm nicht vergönnt war, zur Mission bei den Germanenstämmen aufzubrechen, da er wegen eines anderen Dienstes für die Kirche in Anspruch genommen war, versuchte er, fromme und eifrige Männer für den Dienst am Wort Gottes auszusenden. Unter ihnen ragte der würde- und verdienstvolle Priester Willibrord hervor.^pBevor diese Männer – es waren ihrer zwölf – in ihr Missionsgebiet kamen, machten sie einen Umweg zu Pippin, dem Hausmeier der Franken. Dieser nahm sie bereitwillig auf. Da Pippin kurz zuvor Westfriesland erobert hatte, schickte er die zwölf Männer zur Missionierung in dieses Gebiet. Er selbst unterstützte sie mit der Autorität des Herrschers, damit niemand den Missionaren ein Leid zufügen könne. Er versprach denen, die den Glauben annehmen wollten, viele Vergünstigungen. Mit Hilfe der göttlichen Gnade konnten die Missionare in kurzer Zeit viele vom Götzendienst zum Glauben an Christus bekehren.^pWillibrord beeilte sich schon in der ersten Zeit nach der Ankunft in Friesland, die Verkündigung des Evangeliums dadurch sicherzustellen, dass er Papst Sergius in Rom aufsuchte, um mit dessen Erlaubnis und Segen das geplante Missionswerk bei den Stämmen der Friesen zu beginnen. Zugleich hoffte er, Reliquien der seligen Apostel und Märtyrer Christi vom Papst zu erhalten. Wenn er einem Stamm gepredigt und seine Götzenbilder zerstört hatte, sollten die Reliquien der Heiligen dazu dienen, neuerrichtete Kirchen auf ihren Namen zu weihen. Als Willibrord alle Wünsche für die Vorbereitung seines großes Werkes erfüllt sah, kehrte er in die Mission zurück.^pNachdem die Missionare jahrelang in Friesland gepredigt hatten, schickte Pippin Willibrord mit Zustimmung seiner Gefährten nach Rom. Papst Sergius sollte ihn zum Erzbischof des Stammes der Friesen weihen. Dies geschah, wie Pippin gewünscht, im Jahre 696 nach der Geburt des Herrn. Willibrord wurde in der Kirche der heiligen Märtyrerin Cäcilia an deren Todestag geweiht. Papst Sergius gab ihm den Namen Clemens und sandte ihn schon nach vierzehn Tagen nach Friesland zurück. Pippin wies Willibrord einen Bischofssitz in einem berühmten, befestigten Ort an, der in der gallischen Sprache Traiectum{1#@das heutige Utrecht} genannt wird.^pAls Willibrord dort eine Kirche gebaut hatte, predigte der Bischof weit und breit das Glaubenswort. Er brachte viele vom Irrglauben ab und errichtete in jenem Land weitere Kirchen und auch einige Klöster. Wenig später setzte er in diesen Gebieten Bischöfe in ihr Amt ein. Er nahm sie aus der Zahl der Brüder, die entweder mit ihm oder nach ihm zur Predigt dorthin ausgesandt worden waren. Mehrere von ihnen ruhen schon im Herrn. Willibrord selbst aber, mit Beinamen Clemens, ist noch am Leben. In ehrwürdigem Alter steht er inzwischen bereits im sechsunddreißigsten Bischofsjahr. Nach vielen Kämpfen im himmlischen Dienst sehnt er sich nun von ganzem Herzen nach der Auszeichnung des himmlischen Lohnes.",
+        "resp1": "Ich diene der Kirche durch das Amt, das Gott mir übertragen hat.",
+        "resp2": "Damit ich euch das Wort Gottes in seiner Fülle verkündige.",
+        "resp3": "Ich stand zwischen dem Herrn und euch, um euch das Wort des Herrn weiterzugeben."
+      }
+    ]
+  },
+  "Trier-12-07": {
+    "patr_selector": [
+      {
+        "autor": "Paulinus († nach 422)",
+        "werk": "Aus der Lebensbeschreibung des Diakons Paulinus über seinen Bischof Ambrosius.",
+        "text": "^hEine Erzählung aus der frühesten Kindheit des Heiligen^pAmbrosius wurde geboren, als sein Vater, der den gleichen Namen trug, die Präfektur über die gallischen Provinzen{1#@Sitz der Präfektur der gallischen Provinzen war zur Zeit der Geburt des heiligen Ambrosius Trier.} innehatte. Eines Tages lag das Kind im Hof des Prätoriums in seiner Wiege und schlief mit offenem Mund. Da bedeckte plötzlich ein Bienenschwarm Gesicht und Mund des Kindes, und die Bienen flogen im Munde ein und aus. Der Vater, der mit der Mutter oder mit der Tochter in der Nähe auf und ab ging, verbot der Amme des Kindes, einer Magd des Hauses, den Bienenschwarm zu verscheuchen. Die Amme war nämlich besorgt, die Bienen könnten dem Kinde schaden. Mit väterlichem Interesse wartete er ab, welches Ende dieses Wunder nehmen würde. Die Bienen flogen aber nach einer Weile fort und erhoben sich in die Luft in solche Höhe, dass sie von Menschenaugen nicht mehr gesehen werden konnten. Der Vater war erschrocken und sprach: „Wenn dieses Kind am Leben bleibt, wird etwas Großes aus ihm werden.“ Denn schon damals, in der Kindheit seines noch so jungen Dieners, war der Herr am Werk. Das Wort sollte sich nämlich an ihm erfüllen: „Freundliche Worte sind wie Wabenhonig.“{2#Spr 16,24} Der Bienenschwarm zeigte im Voraus die Honigwaben der Schriften an, in denen Ambrosius die himmlischen Gaben verkünden und die Herzen der Menschen von den irdischen Dingen zum Himmel lenken sollte."
+      }
+    ]
+  },
+  "Trier-12-08": {
+    "patr_selector": [
+      {
+        "autor": "Franz Rudolf Bornewasser (†1951)",
+        "werk": "Aus einem Hirtenwort zur Weihe des Bistums Trier an Maria, die Unbefleckt Empfangene.",
+        "text": "^hSiehe, von nun an werden mich selig preisen alle Geschlechter^pDer Trierer Erzbischof und Kurfürst Karl Kaspar von der Leyen (†°1676) hat die allerseligste Jungfrau Maria unter dem Titel der „Unbefleckten Empfängnis“ zur Patronin des Trierer Landes gewählt. Seit dieser Zeit wird Maria, die Unbefleckt Empfangene, in den Trierer Landen als „Patrona patriæ“ verehrt, während der heilige Apostel Matthias seit alter Zeit Patron der Diözese ist.^pKarl Kaspar von der Leyen, ein ebenso guter Landesvater des Kurstaates Trier wie seeleneifriger Bischof seiner Diözese, wollte in den schweren Zeiten seiner vierundzwanzigjährigen Regierung Land und Bistum unter den besonderen Schutz der lieben Gottesmutter unter dem Titel der „Unbefleckten Empfängnis“ stellen.^pAuch unsere Zeiten sind ernst und schwer. Auch wir bedürfen heute des besonderen Schutzes unseres Herrn und Gottes. Es vergeht ja auch kein Tag, ohne dass wir betend und flehend unsere Hände zu Gott erheben.^pAber eine soll uns beten und flehen helfen um den Schutz des himmlischen Vaters: jene, die wir jeden Tag mit dem Ave Maria des Erzengels Gabriel begrüßen, die liebe Gottesmutter, die wir als die allerseligste Jungfrau unter dem Titel der Unbefleckten Empfängnis besonders verehren. Ihr wollen wir an ihrem Feste unsere ganze Diözese weihen, damit sie uns Fürsprecherin sei an dem Throne Gottes, der uns behüten und der ganzen Welt segensreichen Frieden schenken möge.^pDie ragende Säule auf dem Markusberg bei Trier, von der das Standbild der Unbefleckten seit dem Jahre 1866 hineinleuchtet ins Trierer Land, erinnert uns immer wieder an den 8. Dezember 1854, an dem der oberste Lehrer der Kirche das Dogma von der Unbefleckten Empfängnis der allerseligsten Jungfrau Maria verkündet hat. In alle Welt drang der Glaubensruf: „Maria, ohne Makel der Erbsünde empfangen.“^pMutter Jesu! Wie ist Dein prophetisches Wort in Erfüllung gegangen: „Siehe, von nun an werden mich selig preisen alle Geschlechter.“{1#vgl. Lk 1,48}. Auch wir preisen Dich selig, Dich, die Hochgebenedeite, Dich, die Unbefleckt Empfangene, Dich, die Mutter unseres Herrn, Dich, die Du auch unsere Mutter bist. Wie unsere Vorfahren Dir unser Trierer Land geweiht, so wollen wir in diesen ernsten Tagen Dir unsere Diözese weihen, damit Du uns Schutzherrin bist und bleibst."
+      }
+    ]
+  },
+  "VerstLesehore": {
+    "les_selector": [
+      {
+        "buch": "Aus dem ersten Brief an die Korinther.",
+        "stelle": "15,12–34",
+        "text": "^hDie Auferweckung Christi und der Christen^pWenn verkündigt wird, dass Christus von den Toten auferweckt worden ist, wie können dann einige von euch sagen: Eine Auferstehung der Toten gibt es nicht? Wenn es keine Auferstehung der Toten gibt, ist auch Christus nicht auferweckt worden. Ist aber Christus nicht auferweckt worden, dann ist unsere Verkündigung leer und euer Glaube sinnlos. Wir werden dann auch als falsche Zeugen Gottes entlarvt, weil wir im Widerspruch zu Gott das Zeugnis abgelegt haben: Er hat Christus auferweckt. Er hat ihn eben nicht auferweckt, wenn Tote nicht auferweckt werden. Denn wenn Tote nicht auferweckt werden, ist auch Christus nicht auferweckt worden. Wenn aber Christus nicht auferweckt worden ist, dann ist euer Glaube nutzlos und ihr seid immer noch in euren Sünden; und auch die in Christus Entschlafenen sind dann verloren. Wenn wir unsere Hoffnung nur in diesem Leben auf Christus gesetzt haben, sind wir erbärmlicher daran als alle anderen Menschen.^pNun aber ^wist^0w Christus von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch einen Menschen der Tod gekommen ist, kommt durch einen Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.^pEs gibt aber eine bestimmte Reihenfolge: Erster ist Christus; dann folgen, wenn Christus kommt, alle, die zu ihm gehören. Danach kommt das Ende, wenn er jede Macht, Gewalt und Kraft vernichtet hat und seine Herrschaft Gott, dem Vater, übergibt. Denn er muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat. Der letzte Feind, der entmachtet wird, ist der Tod. Sonst hätte er ihm nicht alles zu Füßen gelegt. Wenn es aber heißt, alles sei unterworfen, ist offenbar der ausgenommen, der ihm alles unterwirft. Wenn ihm dann alles unterworfen ist, wird auch er, der Sohn, sich dem unterwerfen, der ihm alles unterworfen hat, damit Gott herrscht über alles und in allem.^pWie kämen sonst einige dazu, sich für die Toten taufen zu lassen? Wenn Tote gar nicht auferweckt werden, warum lässt man sich dann taufen für sie? Warum setzen dann auch wir uns stündlich der Gefahr aus? Täglich sehe ich dem Tod ins Auge, so wahr ihr, Brüder, mein Ruhm seid, den ich in Christus Jesus, unserem Herrn, empfangen habe. Was habe ich dann davon, dass ich in Ephesus, wie man so sagt, mit wilden Tieren gekämpft habe? Wenn Tote nicht auferweckt werden, dann lasst uns essen und trinken; denn morgen sind wir tot. Lasst euch nicht irreführen! Schlechter Umgang verdirbt gute Sitten. Werdet nüchtern, wie es sich gehört, und sündigt nicht! Einige Leute wissen nichts von Gott; ich sage das, damit ihr euch schämt.",
+        "resp1": "Alle, die in den Gräbern sind, werden die Stimme des Menschensohnes hören, und sie werden herauskommen.",
+        "resp2": "Die das Gute getan haben, werden zum Leben auferstehen, die das Böse getan haben, zum Gericht.",
+        "resp3": "Plötzlich, in einem Augenblick, beim letzten Posaunenschall werden die Toten auferweckt zur Unvergänglichkeit."
+      },
+      {
+        "buch": "Aus dem ersten Brief an die Korinther.",
+        "stelle": "15,35-57",
+        "text": "^hDie°Auferstehung°der°Toten und°das°Kommen°des°Herrn^pEs könnte einer fragen: Wie werden die Toten auferweckt, was für einen Leib werden sie haben? Was für eine törichte Frage! Auch das, was du säst, wird nicht lebendig, wenn es nicht stirbt. Und was du säst, hat noch nicht die Gestalt, die entstehen wird; es ist nur ein nacktes Samenkorn, zum Beispiel ein Weizenkorn oder ein anderes. Gott gibt ihm die Gestalt, die er vorgesehen hat, jedem Samen eine andere.^pAuch die Lebewesen haben nicht alle die gleiche Gestalt. Die Gestalt der Menschen ist anders als die der Haustiere, die Gestalt der Vögel anders als die der Fische.^pAuch gibt es Himmelskörper und irdische Körper. Die Schönheit der Himmelskörper ist anders als die der irdischen Körper. Der Glanz der Sonne ist anders als der Glanz des Mondes, anders als der Glanz der Sterne; denn auch die Gestirne unterscheiden sich durch ihren Glanz.^pSo ist es auch mit der Auferstehung der Toten. Was gesät wird, ist verweslich, was auferweckt wird, unverweslich. Was gesät wird, ist armselig, was auferweckt wird, herrlich. Was gesät wird, ist schwach, was auferweckt wird, ist stark. Gesät wird ein irdischer Leib, auferweckt ein überirdischer Leib.^pWenn es einen irdischen Leib gibt, gibt es auch einen überirdischen. So steht es auch in der Schrift: Adam, der Erste Mensch, wurde ein irdisches Lebewesen. Der Letzte Adam wurde lebendig machender Geist. Aber zuerst kommt nicht das Überirdische; zuerst kommt das Irdische, dann das Überirdische.^pDer Erste Mensch stammt von der Erde und ist Erde; der Zweite Mensch stammt vom Himmel. Wie der von der Erde irdisch war, so sind es auch seine Nachfahren. Und wie der vom Himmel himmlisch ist, so sind es auch seine Nachfahren. Wie wir nach dem Bild des Irdischen gestaltet wurden, so werden wir auch nach dem Bild des Himmlischen gestaltet werden.^pDamit will ich sagen, Brüder: Fleisch und Blut können das Reich Gottes nicht erben; das Vergängliche erbt nicht das Unvergängliche.^pSeht, ich enthülle euch ein Geheimnis: Wir werden nicht alle entschlafen, aber wir werden alle verwandelt werden – plötzlich, in einem Augenblick, beim letzten Posaunenschall. Die Posaune wird erschallen, die Toten werden zur Unvergänglichkeit auferweckt, wir aber werden verwandelt werden. Denn dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit. Wenn sich aber dieses Vergängliche mit Unvergänglichkeit bekleidet und dieses Sterbliche mit Unsterblichkeit, dann erfüllt sich das Wort der Schrift:^pVerschlungen ist der Tod vom Sieg.^lTod, wo ist dein Sieg?^lTod, wo ist dein Stachel?^pDer Stachel des Todes aber ist die Sünde,^ldie Kraft der Sünde ist das Gesetz.^lGott aber sei Dank, der°uns°den°Sieg°geschenkt°hat^ldurch Jesus Christus, unseren Herrn.",
+        "resp1": "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
+        "resp2": "Der letzte Feind, der vernichtet wird, ist der Tod.",
+        "resp3": "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und der Tod und die Totenwelt werden in den Feuersee geworfen."
+      },
+      {
+        "buch": "Aus dem zweiten Brief an die Korinther.",
+        "stelle": "4,16b – 5,10",
+        "text": "^hWenn°unser°irdisches°Zelt abgebrochen°wird, dann°haben°wir ein°ewiges°Haus°im°Himmel^pWenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde.^pGott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben. Wir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.^pDeswegen suchen wir unsere Ehre darin, ihm zu gefallen, ob wir daheim oder in der Fremde sind. Denn wir alle müssen vor dem Richterstuhl Christi offenbar werden, damit jeder seinen Lohn empfängt für das Gute oder Böse, das er im irdischen Leben getan hat.",
+        "resp1": "Herr, richte mich nicht nach meinem Tun, denn meine Taten können vor dir nicht bestehen. Darum flehe ich zur dir:",
+        "resp2": "Herr, tilge all meine Frevel.",
+        "resp3": "Gott, wasche meine Schuld von mir ab und mache mich rein von meiner Sünde."
+      }
+    ],
+    "patr_selector": [
+      {
+        "autor": "Anastatius von Antiochien († 599)",
+        "werk": "Aus einer Rede über die Auferstehung Christi. (Or.°5^v,6-7.9^0v)",
+        "text": "^hChristus wird unsern Leib verwandeln^p„Christus ist gestorben und wieder lebendig geworden, um Herr zu sein über Lebende und Tote“ {1#Röm 14,9}. Doch Gott ist „ein Gott von Lebenden, nicht von Toten“ {2#Mt 22,32 par.}. Also sind die Toten, über die der Lebende herrscht, nicht länger tot, sondern sie leben. Deswegen herrscht das Leben über sie, dass sie leben, ohne den Tod fürchten zu müssen, wie „Christus, von den Toten auferweckt, nicht mehr stirbt“ {3#Röm 6,9}.^pSo werden auch die den Tod nicht mehr zu fürchten haben, die auferweckt und von der Vergänglichkeit des Fleisches befreit sind. Sie werden teilhaft der Auferstehung Christi, wie dieser selbst ihres Todes teilhaftig wurde.^pEben deswegen kam er auf die Erde, die durch ewige Riegel versperrt ist, um „die ehernen Tore zu zerbrechen und die eisernen Riegel zu zerschlagen“ {4#vgl. Ps 107,16}, um uns statt der Knechtschaft die Freiheit zu schenken, unser Leben aus der Vergänglichkeit zu retten und mit dem seinen zu vereinigen.^pDieser Heilsplan scheint noch nicht voll verwirklicht zu sein. Denn noch sterben Menschen, der Leib geht zugrunde und löst sich auf. Aber das darf nicht Anlass sein, dass wir Unrecht tun. Denn schon vor der vollen Verwirklichung haben wir ein Unterpfand in unserem Erstling, durch den wir zum Himmel aufgestiegen sind und zur Rechten des Herrn sitzen, der uns zur Höhe mitgenommen hat, wie Paulus sagt: „Er hat uns mit Christus auferweckt und uns mit ihm einen Platz im Himmel gegeben“ {5#Eph 2,6}.^pWenn aber die vom Vater festgesetzte Zeit kommt, werden wir die Vollendung erlangen. Wir werden ablegen, was kindlich ist, und das volle Mannesalter erreichen. Der ewige Vater hat das so gewollt, damit die Gabe, die er uns geschenkt hat, Bestand hat und unser Geist nicht wieder in das Kindesalter zurückfällt.^pEs braucht kaum darauf hingewiesen zu werden, dass der auferstandene Leib überirdisch ist, da doch Paulus vom Leib bezeugt, dass Irdisches gesät wird, Überirdisches aber aufersteht {6#vgl. 1 Kor 15,44}. Das Irdische wird verwandelt wie Christus, der in herrlicher Verklärung vorangegangen ist.^pAuch Paulus war sich ganz klar darüber, dass dies dem ganzen Menschengeschlecht geschehen soll durch Christus, „der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes“ {7#Phil 3,21}.^pDie Verklärung besteht darin, dass der Leib in der Verwandlung überirdisch wird und die verherrlichte Gestalt Christi erhält. Mit einem überirdischen Leib ist Christus auferstanden. Aber der Leib ist der gleiche, der in Armseligkeit gesät, aber in Herrlichkeit verwandelt wurde.^pChristus hat die Erstlinge unserer Natur zum Vater geführt, er wird auch die ganze Welt zu ihm geleiten, wie er versprochen hat: „Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen“ {8#Joh 12,32}.",
+        "resp1": "Alle, die in den Gräbern sind, werden die Stimme des Menschensohnes hören; und sie werden herauskommen.",
+        "resp2": "Die das Gute getan haben, werden zum Leben auferstehen, die das Böse getan haben, zum Gericht.",
+        "resp3": "Plötzlich, in einem Augenblick, beim letzten Posaunenschall werden die Toten auferweckt zur Unvergänglichkeit."
+      },
+      {
+        "autor": "Braulio von Saragossa († um 651)",
+        "werk": "Aus einem Brief.",
+        "text": "^hDer°auferstandene°Christus ist°die°Hoffnung°aller°Gläubigen^pChristus ist die Hoffnung aller Gläubigen. Er nennt alle, die aus der Welt scheiden, Schlafende, nicht Tote. Denn er sagt: „Lazarus, unser Freund, schläft“ {1#Joh 11,11}.^pAuch der Apostel will nicht, dass wir über die Entschlafenen trauern {2#1 Thess 4,13}.^pWenn wir glauben, dass alle Christgläubigen nach dem Evangelium „in Ewigkeit nicht sterben“ {3#Joh 11,26}, dann wissen wir das durch den Glauben, dass Christus nicht gestorben ist und dass auch wir nicht sterben.^p„Der Herr selbst wird vom Himmel herabkommen, wenn der Befehl ergeht, der Erzengel ruft und die Fanfare Gottes erschallt; und die Toten, die in Christus sind, werden auferstehen“ {4#1 Thess 4,16}.^pDie Hoffnung, dass wir auferstehen, soll uns Mut machen; denn was wir hier verlieren, werden wir dort wiedersehen. So wichtig ist es, fest an Gott zu glauben und seine Gebote zu halten, da er doch alle Kraft besitzt und leichter einen Toten erweckt, als wir einen Schlafenden.^pSo sagen wir. Und doch werden wir im Widerspruch dazu von einer Gemütsbewegung zu Tränen übermannt, und die Sehnsucht des Gemüts bricht die Kraft des gläubigen Geistes. Ach, wie elend ist der Mensch! Ohne Christus ist unser ganzes Leben sinnlos.^pO Tod, du trennst, was verbunden ist, und grausam reißt du auseinander, was in Freundschaft vereint ist! Aber deine Kraft ist schon gebrochen. Zerbrochen ist dein unheilvolles Joch durch ihn, der dir bereits durch Hosea drohte: „O Tod, ich werde dein Tod sein!“ {5#Hos 13,14 Vg} Darum verspotten wir ihn mit dem Apostel: „Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“ {6#1 Kor 15,50}^pEr, der dich besiegt hat, hat uns erlöst. Er gab seinen Herzensliebiling in die Hand der Gottlosen {7#vgl. Jer 12,7}, um aus den Gottlosen Freunde zu machen. In langer Aufzählung wäre vieles aus der Heiligen Schrift zum allgemeinen Trost heranzuziehen. Uns genüge die Hoffnung, dass wir auferstehen, und die Herrlichkeit des Erlösers, auf die sich unser Auge richtet. Wie wir glauben, sind wir in ihm schon auferstanden, da der Apostel sagt: „Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden“ {8#Röm 6,8}.^pDenn wir gehören uns nicht selbst, sondern ihm, der uns erlöst hat, von dessen Willen unser Wille stets abhängig sein muss; deswegen sagen wir im Gebet: „Dein Wille geschehe!“ {9#Mt 6,10} Darum müssen wir beim Begräbnis mit Ijob sprechen: „Der Herr hat gegeben, der Herr hat genommen; gelobt sei der Name des Herrn!“ {10#Ijob 1,21} So wollen wir hier mit Ijob sprechen, damit sich dort zeigt, wie ähnlich wir ihm in unserer gegenwärtigen Lage sind.",
+        "resp1": "Über die Verstorbenen sollt ihr nicht trauern wie die anderen, die keine Hoffnung haben.",
+        "resp2": "Wenn Jesus – und das ist unser Glaube – gestorben und auferstanden ist, dann wird Gott durch Jesus auch die Verstorbenen zusammen mit ihm zur Herrlichkeit führen.",
+        "resp3": "Weint nicht um den Toten und beklagt ihn nicht."
+      }
+    ]
+  },
+  "VerstVesper": {
+    "les_selector": [
+      {
+        "buch": "1°Kor",
+        "stelle": "15,55–57",
+        "text": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch Jesus Christus, unseren Herrn.",
+        "text_lat": "„Ubi est, mors, victória tua? Ubi est, mors, stímulus tuus?“. Stímulus autem mortis peccátum est, virtus vero peccáti lex. Deo autem grátias, qui dedit nobis victóriam per Dóminum nostrum Iesum Christum.",
+        "resp1": "Christus muss herrschen^SLICE, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
+        "resp2": "Der letzte Feind der vernichtet wird, ist der Tod.",
+        "resp3": "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und Tod und die Totenwelt werden in den Feuersee geworfen.",
+        "resp1_lat": "In te, Dómine, sperávi:",
+        "resp2_lat": "Non confúndar in ætérnum.",
+        "resp3_lat": "Exsultábo et lætábor in misericórdia tua."
+      },
+      {
+        "resp1": "Herr, in deinem Erbarmen",
+        "resp2": "gib ihnen ewige Ruhe.",
+        "resp3": "Du wirst kommen in Herrlichkeit, zu richten die Lebenden und die Toten,",
+        "resp1_lat": "In misericórdia tua, Dómine,",
+        "resp2_lat": "dona eis réquiem.",
+        "resp3_lat": "Qui ventúrus es iudicáre vivos et mórtuos,"
+      }
+    ]
+  },
+  "vigil-Allerheiligen": {
+    "les_selector": [
+      {
+        "text": "Mt 5,13-16"
+      },
+      {
+        "text": "Joh 15,1-8"
+      },
+      {
+        "text": "Joh 15,9-17"
+      }
+    ]
+  },
+  "vigil-Christkönig": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 25,31-46"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Joh 18,33b-37"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 23,35b-43"
+      }
+    ]
+  },
+  "vigil-Darstellung": {
+    "les_selector": [
+      {
+        "text": "Joh 1,1-18"
+      },
+      {
+        "text": "Joh 3,16-21"
+      },
+      {
+        "excludeYear": "!so",
+        "text": "Lk 24,13-35"
+      }
+    ]
+  },
+  "vigil-Dreifaltigkeit": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Joh 3,16-18"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mt 28,16-20"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Joh 16,12-15"
+      }
+    ]
+  },
+  "vigil-Erscheinung": {
+    "les_selector": [
+      {
+        "text": "Joh 1,1-18"
+      },
+      {
+        "text": "Joh 2,1-11"
+      }
+    ]
+  },
+  "vigil-Fronleichnam": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Joh 6,51-58"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 14,12-16.22-26"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 9,11b-17"
+      }
+    ]
+  },
+  "vigil-Heilige": {
+    "les_selector": [
+      {
+        "text": "Mt 5,1-12a"
+      },
+      {
+        "text": "Mt 5,13-16"
+      },
+      {
+        "text": "Mt 7,21-27"
+      },
+      {
+        "text": "Mt 11,25-30"
+      },
+      {
+        "text": "Mt 13,44-46"
+      },
+      {
+        "text": "Mt 16,24-27"
+      },
+      {
+        "text": "Mt 18,1-5"
+      },
+      {
+        "text": "Mt 19,3-12"
+      },
+      {
+        "text": "Mt 19,27-29"
+      },
+      {
+        "text": "Mt 22,34-40"
+      },
+      {
+        "text": "Mt 25,1-13"
+      },
+      {
+        "text": "Mt 25,14-30"
+      },
+      {
+        "text": "Mt 25,31-46"
+      },
+      {
+        "text": "Mk 3,31-35"
+      },
+      {
+        "text": "Mk 10,13-16"
+      },
+      {
+        "text": "Mk 10,17-30"
+      },
+      {
+        "text": "Lk 6,27-38"
+      },
+      {
+        "text": "Lk 9,57-62"
+      },
+      {
+        "text": "Lk 10,38-42"
+      },
+      {
+        "text": "Lk 12,32-34"
+      },
+      {
+        "text": "Lk 12,35-40"
+      },
+      {
+        "text": "Lk 14,25-33"
+      },
+      {
+        "text": "Joh 15,1-8"
+      },
+      {
+        "text": "Joh 15,9-17"
+      },
+      {
+        "text": "Joh 17,20-26"
+      }
+    ]
+  },
+  "vigil-HerzJesu": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 11,25-30"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Joh 19,31-37"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 15,3-7"
+      }
+    ]
+  },
+  "vigil-Himmelfahrt": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 28,16-20"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 16,15-20"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 24,46-53"
+      }
+    ]
+  },
+  "vigil-Hirten": {
+    "les_selector": [
+      {
+        "text": "Mk 3,13-19"
+      },
+      {
+        "text": "Mt 9,35-38"
+      },
+      {
+        "bezug": "[Für einen Papst]",
+        "text": "Mt 16,13-19"
+      },
+      {
+        "text": "Mt 23,8-12"
+      },
+      {
+        "bezug": "[Für Glaubensboten]",
+        "text": "Mt 28,16-20"
+      },
+      {
+        "text": "Mk 1,14-20"
+      },
+      {
+        "bezug": "[Für Glaubensboten]",
+        "text": "Mk 16,15-20"
+      },
+      {
+        "bezug": "[Für Glaubensboten]",
+        "text": "Lk 5,1-11"
+      },
+      {
+        "text": "Lk 10,1-9"
+      },
+      {
+        "text": "Lk 22,24-30"
+      },
+      {
+        "text": "Joh 10,11-16"
+      },
+      {
+        "text": "Joh 15,9-17"
+      },
+      {
+        "bezug": "[Für einen Papst]",
+        "text": "Joh 21,1.15-17"
+      }
+    ]
+  },
+  "vigil-HlFamilie": {
+    "les_selector": [
+      {
+        "text": "Joh 20,19-31"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Mt 2,13-15.19-23"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Lk 2,22-40"
+      },
+      {
+        "excludeYear": "b",
+        "bezug": "(Kurzfassung)",
+        "text": "Lk 2,22.39-40"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 2,41-52"
+      }
+    ]
+  },
+  "vigil-Jgfr": {
+    "les_selector": [
+      {
+        "text": "Mt 19,3-12"
+      },
+      {
+        "text": "Mt 25,1-13"
+      },
+      {
+        "text": "Lk 10,38-42"
+      }
+    ]
+  },
+  "vigil-Johannes": {
+    "les_selector": [
+      {
+        "text": "Lk 1,5-17"
+      },
+      {
+        "text": "Joh 1,29-34"
+      },
+      {
+        "text": "Joh 3,22-30"
+      }
+    ]
+  },
+  "vigil-Josef": {
+    "les_selector": [
+      {
+        "text": "Mt 1,16.18-21.24a"
+      },
+      {
+        "text": "Lk 2,41-51a"
+      }
+    ]
+  },
+  "vigil-Karfreitag": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 27,1-2.11-56"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 15,1-41"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 23,1-49"
+      }
+    ]
+  },
+  "vigil-Karsamstag": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 27,57-66"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 15,42-47"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 23,50-56"
+      }
+    ]
+  },
+  "vigil-Kirchenlehrer": {
+    "les_selector": [
+      {
+        "text": "Mt 5,13-16"
+      },
+      {
+        "text": "Mt 7,21-29"
+      },
+      {
+        "text": "Mt 13,47-52"
+      },
+      {
+        "text": "Mt 23,8-12"
+      },
+      {
+        "text": "Mk 4,1-10.13-20"
+      },
+      {
+        "text": "Lk 6,43-45"
+      }
+    ]
+  },
+  "vigil-Kirchweihe": {
+    "les_selector": [
+      {
+        "text": "Mt 16,13-19"
+      },
+      {
+        "text": "Lk 19,1-10"
+      },
+      {
+        "text": "Joh 2,13-22"
+      },
+      {
+        "text": "Joh 4,19-24"
+      }
+    ]
+  },
+  "vigil-Kreuzerhöhung": {
+    "les_selector": [
+      {
+        "text": "Joh 12,31-36a"
+      },
+      {
+        "excludeYear": "!so",
+        "text": "Joh 21,1-14"
+      }
+    ]
+  },
+  "vigil-Maria": {
+    "les_selector": [
+      {
+        "text": "Lk 1,26-38"
+      },
+      {
+        "text": "Lk 1,39-47"
+      },
+      {
+        "text": "Joh 19,25-27"
+      },
+      {
+        "group": "weitere Evangelien zur Auswahl ..."
+      },
+      {
+        "text": "Mt 1,1-16.18-23"
+      },
+      {
+        "text": "Mt 2,13-15.19-23"
+      },
+      {
+        "text": "Mt 12,46-50"
+      },
+      {
+        "text": "Lk 2,1-14"
+      },
+      {
+        "text": "Lk 2,15b-19"
+      },
+      {
+        "text": "Lk 2,27-35"
+      },
+      {
+        "text": "Lk 2,41-52"
+      },
+      {
+        "text": "Lk 11,27-28"
+      },
+      {
+        "text": "Joh 2,1-11"
+      }
+    ]
+  },
+  "vigil-Märtyrer": {
+    "les_selector": [
+      {
+        "text": "Mt 10,17-22"
+      },
+      {
+        "text": "Mt 10,28-33"
+      },
+      {
+        "text": "Mt 10,34-39"
+      },
+      {
+        "text": "Lk 9,23-26"
+      },
+      {
+        "text": "Joh 12,24-26"
+      },
+      {
+        "text": "Joh 15,18-21"
+      },
+      {
+        "text": "Joh 17,6a.11b-19"
+      }
+    ]
+  },
+  "vigil-PeterPaul": {
+    "les_selector": [
+      {
+        "text": "Joh 21,1.15-19"
+      },
+      {
+        "text": "Lk 5,1-11"
+      },
+      {
+        "text": "Joh 6,60-70"
+      }
+    ]
+  },
+  "vigil-q-1": {
+    "les_selector": [
+      {
+        "text": "Lk 13,22-33"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Mt 4,1-11"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 1,12-15"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 4,1-13"
+      }
+    ]
+  },
+  "vigil-q-2": {
+    "les_selector": [
+      {
+        "text": "Mk 8,27-38"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Mt 17,1-9"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 9,2-10"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 9,28b-36"
+      }
+    ]
+  },
+  "vigil-q-3": {
+    "les_selector": [
+      {
+        "text": "Mk 9,30-48"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Joh 4,5-42"
+      },
+      {
+        "excludeYear": "a",
+        "bezug": "(Kurzfassung)",
+        "text": "Joh 4,5-42k"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Joh 2,13-25"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 13,1-9"
+      }
+    ]
+  },
+  "vigil-q-4": {
+    "les_selector": [
+      {
+        "text": "Mk 10,32-45"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Joh 9,1-41"
+      },
+      {
+        "excludeYear": "a",
+        "bezug": "(Kurzfassung)",
+        "text": "Joh 9,1-41k"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Joh 3,14-21"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 15,1-3.11-32"
+      }
+    ]
+  },
+  "vigil-q-5": {
+    "les_selector": [
+      {
+        "text": "Mt 21,33-46"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Joh 11,1-45"
+      },
+      {
+        "excludeYear": "a",
+        "bezug": "(Kurzfassung)",
+        "text": "Joh 11,1-45k"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Joh 12,20-33"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Joh 8,1-11"
+      }
+    ]
+  },
+  "vigil-So-8": {
+    "les_selector": [
+      {
+        "text": "Joh 21,1-14"
+      }
+    ]
+  },
+  "vigil-Taufe": {
+    "les_selector": [
+      {
+        "text": "Mt 28,1-10.16-20"
+      },
+      {
+        "excludeYear": "a",
+        "text": "Mt 3,13-17"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 1,7-11"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 3,15-16.21-22"
+      }
+    ]
+  },
+  "vigil-Verklärung": {
+    "les_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 17,1-9"
+      },
+      {
+        "excludeYear": "b",
+        "text": "Mk 9,2-10"
+      },
+      {
+        "excludeYear": "c",
+        "text": "Lk 9,28b-36"
+      },
+      {
+        "excludeYear": "!so",
+        "text": "Mk 16,1-20"
+      }
+    ]
+  }
 };
-
-export const lectureAlternatives_swd = {
-    // Lesejahr I
-    "q-4-0": {
-        second: [{
-            patr_autor: "Augustinus († 430)",
-            patr_werk: "Zum Johannesevangelium.",
-            patr_text: "^hDie°Heilung°des°Blindgeborenen^pÜber den Blindgeborenen, den der Herr Jesus sehend gemacht hat, ist eine lange Lesung vorgetragen worden. In aller Kürze gebe ich das Mysterium dieses sehend gewordenen Blinden zu überlegen.^pWas unser Herr Jesus Christus da getan hat, ist erschreckend und wunderbar. Es sind Werke, und es sind Worte; Werke, weil es getan wurde, Worte, weil es Zeichen sind.^pWenn wir also darüber nachdenken, was der Vorgang eigentlich bedeutet, so kommen wir zu dem Ergebnis: der Blinde ist das Menschengeschlecht. Zu dieser Blindheit kam es beim ersten Menschen durch die Sünde; von ihm kommen wir alle her, von ihm haben wir nicht nur den Tod, sondern auch die Sünde.^pWenn die Blindheit der Unglaube ist und das Sehendwerden der Glaube, wen hat Christus glaubend vorgefunden, als er kam? Der Apostel, der doch aus dem Geschlecht der Propheten stammt, sagt: „Auch wir waren von Natur aus Kinder des Zorns wie die anderen“.{1#Eph 2,3} Waren wir aber Kinder des Zorns, dann waren wir auch der Rache, der Strafe, der Hölle verfallen.^pWieso ‚von Natur aus‘? Weil der erste Mensch gesündigt hat, nistete das Böse sich in die Natur ein. Wenn sich das Böse in die Natur einnistet, dann ist dem Sinn nach jeder Mensch blind geboren. Sieht er nämlich, dann braucht er keinen Führer und keinen, der ihn sehend macht. Braucht er aber einen Blindenführer und einen, der ihn sehend macht, dann ist er blind von Geburt an.^pDer Herr kam! Was tat er? Er schenkte uns ein großes Mysterium. „Er spie auf die Erde“ und machte mit seinem Speichel einen Teig; denn das Wort ist Fleisch geworden. Er salbte die Augen des Blinden. Nun war er gesalbt, sah aber noch nicht.^pEr schickte ihn zum Teich Schiloach. Es ist eine Erklärung des Evangelisten, wenn da steht: „das heißt übersetzt ‚der Gesandte‘“. Ihr wisst, wer der Gesandte ist. Wäre er nicht gesandt, dann wäre keiner von uns aus der Schuld entlassen. Er wusch also die Augen in dem Teich, der ‚Gesandter‘ heißt: Er wurde getauft in Christus! Als Christus ihn in sich taufte, da machte er ihn sehend. Vielleicht machte er ihn zum Katechumenen, als er ihn salbte.",
-            patr_resp1: "Jesus sprach zum Blinden: Geh, wasche dich im Teiche Schiloach.",
-            patr_resp2: "Der Blinde wusch sich und konnte sehen.",
-            patr_resp3: "Erschreckend und wunderbar ist, was unser Herr getan hat!"
-        }]
-    },
-    "j-11-2": {
-        first: [{
-            les_buch: "Aus dem Buch der Richter.",
-            les_stelle: "5,1-21",
-            les_text: "^hDas°Debora^-Lied^pDebora und Barak, der Sohn Abinoams, sangen an jenem Tag dieses Lied:^pDass Führer Israel führten^lund das Volk sich bereit zeigte,^ldafür preist den Herrn!^lHört, ihr Könige, horcht auf, ihr Fürsten!^lIch will dem Herrn zu Ehren singen,^lich will zu Ehren des Herrn,^ldes Gottes Israels, spielen.^pHerr, als du auszogst aus Seir,^lals du vom Grünland Edoms heranschrittest,^lda bebte die Erde, die°Himmel°ergossen°sich,^lja, aus den Wolken ergoss sich das Wasser.^lDie Berge wankten vor°dem°Blick°des°Herrn,^lvor dem Blick des Herrn, des Gottes Israels.^pIn den Tagen Schamgars, des°Sohnes°des°Anat,^lin den Tagen Jaëls lagen°die°Wege°verlassen°da;^lwer unterwegs war, musste°Umwege°machen.^lBewohner des offenen Landes gab°es°nicht°mehr,^les gab sie nicht mehr in Israel,^lbis du dich erhobst, Debora,^lbis du dich erhobst, Mutter in Israel.^pMan hatte sich neue Götter erwählt.^lEs gab kein Brot an den Toren.^lSchild und Speer waren°nicht°mehr°zu°sehen^lbei den Vierzigtausend in Israel.^pMein Herz gehört Israels Führern.^lIhr, die ihr bereit seid im Volk,^lpreist den Herrn!^lIhr, die ihr auf weißen Eselinnen reitet,^ldie ihr auf Teppichen sitzt,^ldie ihr auf der Straße dahinzieht,^lsingt!^pHorch, sie jubeln zwischen den Tränken,^ldort besingt man die°rettenden°Taten°des°Herrn,^lseine hilfreiche Tat an den Bauern in Israel.^lDamals zog das Volk des Herrn hinab°zu°den°Toren.^pAuf, auf, Debora!^lAuf, auf, sing ein Lied!^lErheb dich, Barak,^lführ deine Gefangenen heim, Sohn°Abinoams!^lDann stieg herab,^lwas übrig ist unter°den°Herrlichen°des°Volkes.^lDer Herr steige herab mit°mir°unter°den°Helden.^pAus Efraim zogen sie hinunter ins Tal,^lhinter ihnen Benjamin mit seinen Scharen;^lvon Machir stiegen die Führer hinab,^lvon Sebulon die, die das Zepter tragen.^lDie Fürsten Issachars zusammen°mit°Debora^lund wie Issachar so auch Barak,^lins Tal getragen von seinen Füßen.^pIn Rubens Bezirken überlegte°man°lange.^lGilead bleibt jenseits des Jordan.^lWarum verweilt Dan bei den Schiffen?^lAscher sitzt am Ufer des Meeres,^lbleibt ruhig an seinen Buchten.^lSebulon ist ein Volk, das°sein°Leben°aufs°Spiel°setzt,^lauch Naftali auf den Höhen des Feldes.^pKönige kamen und kämpften,^ldamals kämpften Kanaans Könige^lin Taanach, an den Wassern Megiddos,^ldoch Beute an Silber machten sie nicht.^lVom Himmel her kämpften die Sterne,^lvon ihren Bahnen aus kämpften°sie°gegen°Sisera.^lDer Bach Kischon schwemmte sie fort,^lder altberühmte Bach, der Bach Kischon.^pMeine Seele soll auftreten mit Macht.^lDamals stampften die Hufe der Pferde^lim Jagen, im Dahinjagen der Hengste.^lIhr sollt Meros verfluchen,^lspricht der Engel des Herrn.^lMit Flüchen flucht seinen Bewohnern;^ldenn sie kamen dem Herrn nicht zu Hilfe,^lzu Hilfe dem Herrn unter den Helden.^pGepriesen sei Jaël unter den Frauen,^ldie Frau des Keniters Heber,^lgepriesen unter den Frauen im Zelt.^lEr hatte Wasser verlangt, sie°gab°ihm°Milch,^lin einer prächtigen Schale reichte sie Sahne.^lIhre Hand streckte sie aus nach dem Pflock,^lihre Rechte nach°dem°Hammer°des°Schmieds.^lSie erschlug Sisera, zermalmte sein Haupt,^lzerschlug, durchbohrte seine Schläfe.^lZu ihren Füßen brach er zusammen,^lfiel nieder, lag da,^lzu ihren Füßen brach er zusammen, fiel°nieder.^lWo er zusammenbrach, da lag er vernichtet.^pAus ihrem Fenster blickt Siseras Mutter^lund klagt durch das Gitter:^lWarum säumt sein Wagen zu kommen,^lwarum zögert der°Hufschlag°seiner°Gespanne?^lEine Kluge aus ihren Fürstinnen antwortet°ihr,^lund sie selbst wiederholt deren Worte:^lSicher machen und teilen sie Beute,^lein, zwei Frauen für jeden Mann,^lBeute an Kleidern für Sisera,^lBeute an Kleidern,^lfür meinen Hals als°Beute°ein,°zwei°bunte°Tücher.^pSo gehen all deine Feinde zugrunde, Herr.^lDoch die, die ihn lieben, sind°wie°die°Sonne,^lwenn sie aufgeht in ihrer Kraft.^pDann hatte das Land vierzig Jahre lang Ruhe.",
-            resp1: "Hört, ihr Könige, horcht auf, ihr Fürsten!",
-            resp2: "Ich will jubeln vor dem Gott Israels.",
-            resp3: "Wer dich liebt, ist wie der prachtvolle Aufgang der Sonne."
-        }]
-    },
-    "j-34-0": {
-        second: [{
-            patr_autor: "Romano Guardini († 1968)",
-            patr_werk: "Aus dem Buch „Der Herr“.",
-            patr_text: "^hGottes°Trost°in°der°Bedrängnis^pDie Geheime Offenbarung ist ein Buch des Trostes. Keine Theologie der Geschichte oder der letzten Dinge, sondern ein Trost, den Gott beim Ausgang der Apostelzeit seiner Kirche in die Hand gegeben hat. Dieses Trostes bedurfte sie, denn sie war sehr bedrängt.^pWie tröstet aber Gott? Nicht so, dass er sagte: „Die Not sei im Grunde nicht so schlimm“; sie ist schlimm und wird auch schlimm gesehen. Gott verheißt auch keine wunderbaren Eingriffe. Die Geschichte hat ihre Zeit und ihre Macht, auch wo sie sich wider Gott richtet, und die werden nicht aufgehoben.^pDoch über der irdischen Wirklichkeit wird die himmlische gezeigt. Über den bedrängenden Mächten der Geschichte erscheint, schweigend und wartend, der, den sie angreifen, Christus. Ihm gehört die Ewigkeit. Er sieht alles, wägt alles, vom innersten Beginn im Herzen bis zur letzten Auswirkung im Gang der Ereignisse, und schreibt alles in „das Buch“ seines unfehlbaren Wissens.^pUnd einmal schlägt die Stunde, da alle Dinge ihre Zeit gehabt haben. Dann vergehen sie, Christus aber lebt. Alles wird vor Ihn kommen, und Er wird das Wort sprechen, das jedes Menschenwerk enthüllt, jedem seinen genauen Wert gibt und ewig währt.^pDas ist der Trost. Ein Trost des Glaubens, der voraussetzt, dass der Hörende die Überwindung des Glaubens vollbringe. Und er ist nicht auf morgen und das nächste Jahr bezogen, überhaupt nicht auf dieses Leben, sondern über den Tod hinweg auf die Ewigkeit, und hilft soviel, als den Hörenden Gott und Christus und Ewigkeit wirklich sind.",
-        }]
-    },
-    //Lesejahr II
-    "q-6-4": {
-        second: [{
-            patr_autor: "Romano Guardini († 1968)",
-            patr_werk: "Aus dem Buch „Der Herr“.",
-            patr_text: "^hGetsemane^pIn der Stunde von Getsemane erreicht das immerwährende Leiden des Herrn seine bitterste Schärfe.^pDas Leben Gottes hat keine Zeit und keine Veränderung; es steht in unendlicher und einfacher Gegenwart. Das Leben des Menschen geht in Zeiten, steigt und fällt. Im Herrn war beides, die ewige Gegenwart und der Wandel in der Zeit; so wird auch jenes innere Leiden seine Zeiten gehabt haben – des Umfangs, der Dringlichkeit, der Schärfe. Nun war die Stunde, da „alles vollbracht“ werden sollte.^pWer will wissen, wie Gott, der Vater, ihm damals entgegentrat? Immer war er sein Vater, und immer ging vom Vater zum Sohne die unendliche Liebe, welche der Geist ist; dennoch ist einmal der Augenblick gekommen, den das Wort ausdrückt: „Mein Gott, mein Gott, warum hast du mich verlassen?“{1#vgl. Mt 27,46}^pWenn wir vor diesem Wort nicht lieber schweigen wollen, dann werden wir sagen müssen, der Vater habe sich Jesus so zu erfahren gegeben, als wäre er der von Gott wegverlorene und verworfene Mensch. Jesus habe in jener Stunde die Einheit mit uns bis ins Geheimnis hinein ausgekostet.^pDas hat aber doch wohl nicht erst in jenem letzten Augenblick am Kreuze eingesetzt, sondern schon vorher. Wohl schon vorher ist ihm der Vater als jener entgegengetreten, der er dem Sünder gegenüber ist – dem Sünder, dessen Dasein Christus ja als das seine an sich genommen hatte.^pVielleicht dürfen wir sagen, dass in der Stunde von Getsemane jenes Wissen um die Menschenschuld und Menschenverlorenheit sich vor dem Angesicht des Vaters, der ihn zu „verlassen“ begann, in seiner letzten Schärfe aufgerichtet hat. Da hat jenes Wissen und Leiden eine Furchtbarkeit angenommen, von der Jesu sichtbares Sich-Ängsten und Zurückschaudern, das „gewaltigere Beten“, und der Schweiß, der „wie Tropfen Blutes wurde, die zur Erde niederrannen“{2#vgl. Lk 22,44}, das letzte an uns gelangende Zeichen waren – so wie ein Wirbel an der Oberfläche des Meeres das äußerste Anzeichen einer Katastrophe sein mag, die auf dessen Grunde vor sich geht und deren Ausmaße unsere Vorstellungskraft übersteigen.^pDas war die Stunde von Getsemane: dass Jesu Menschenherz und ^-geist in die letzte Erfahrung dessen eintrat, was die Sünde vor dem richtenden und rächenden Antlitz Gottes bedeutet. Dass sein Vater von ihm forderte, er solle diese Sünde als die seine aufnehmen. Und dass er, wenn man so sagen darf, den Zorn des Vaters wider die Sünde gegen sich, der sie auf sich genommen, gerichtet sah und die Abwendung des ihn „verlassenden“ heiligen Gottes erfuhr.^pDa ist alles durchgekämpft worden. Was nachher kam, war der Vollzug dieser Stunde. In ihr wurde alles vorweggenommen; was nachher kam, war nur das Vollbringen.",
-        }]
-    },
-    "q-6-6": {
-        second: [{
-            patr_autor: "Leo der Große († 461)",
-            patr_werk: "Aus einer Predigt über die Passion des Herrn.",
-            patr_text: "^^hWer sein Kreuz nicht auf sich nimmt und°mir°nicht°nachfolgt, der°ist°meiner°nicht°wert^pMit allen Kräften unseres Geistes und unseres Leibes müssen wir danach trachten, unzertrennlich mit dem Geheimnis des Leidens Christi verbunden zu bleiben; denn der Herr sagt: „Wer nicht sein Kreuz auf sich nimmt und mir nachfolgt, ist meiner nicht würdig.“{1#Mt 10,38} Und der Apostel spricht: „Wenn wir mit ihm leiden, werden wir auch mit ihm verherrlicht werden.“{2#vgl. Röm 8,17}^pWer anders erweist also nach diesen Worten dem wahrhaft leidenden, sterbenden und auferstehenden Christus seine Verehrung, als wer mit ihm leidet, stirbt und aufersteht?^pDiese Teilnahme an dem Leiden des Herrn hat bei allen Kindern der Kirche schon mit ihrer wunderbaren Wiedergeburt begonnen: Durch die Tilgung der Sünde ersteht hier der Mensch zu neuem Leben, und durch das dreimalige Untertauchen wird der dreitägige Tod des Herrn versinnbildet. Bei der Taufe wird gleichsam die Erddecke von einem Grabe entfernt. Mit unserem alten Menschen steigen wir in den Taufquell hinab, und neugeboren kommen wir aus ihm hervor.^pWas aber durch dieses Sakrament mit uns begonnen wurde, das müssen wir durch Taten vollenden. Die ganze Lebenszeit, die den im Heiligen Geiste Wiedergeborenen noch übrig bleibt, muss ein beständiges Tragen des Kreuzes sein. Obgleich nämlich durch die Macht des Leidens Christi dem starken und grausamen Feinde (unseres Geschlechtes) die „Gefäße der alten Erbeutung“ entrissen wurden und „der Herrscher dieser Welt“{3#Joh 12,31} über die Herzen der Erlösten keine Gewalt mehr hat, verfolgt er doch die Menschen selbst nach ihrer Rechtfertigung immer noch mit seiner alten Bosheit.^pAuf mancherlei Art greift er die an, in denen er nicht mehr herrscht, um nachlässige und sorglose Seelen aufs neue mit noch grausameren Banden an sich zu ketten, um sie aus dem Paradies der Kirche zu vertreiben und sie zu Genossen seiner Verdammnis zu machen. Wenn darum jemand merkt, dass er die Grenzen der christlichen Gebote überschreitet und dass seine Begierden auf Dinge gerichtet sind, die ihn vom rechten Wege abbringen könnten, so nehme er seine Zuflucht zum Kreuze des Herrn und kreuzige sein sündhaftes Wollen und Wünschen auf dem Baume des Lebens.",
-        }]
-    },
-    "j-12-0": {
-        second: [{
-            patr_autor: "Meister Eckehart († vor 1328)",
-            patr_werk: "Aus den Reden der Unterweisung.",
-            patr_text: "^hWesen°und°Werk°der°Liebe^pZwei Dinge musst du beachten, die sich in der Liebe finden: Das eine ist das Wesen der Liebe, das andere ist ein Werk oder ein Ausdruck des Wesens der Liebe.^pDie Stätte der Liebe ist allein im Willen; wer mehr Willen hat, der hat auch mehr Liebe. Aber wer davon mehr hat, das weiß niemand vom andern; das liegt verborgen in der Seele, während Gott im Grunde der Seele liegt.^pNun gibt’s aber noch ein Zweites: das ist ein Ausdruck oder ein Werk der Liebe. Das tritt uns recht in die Augen, wie zum Beispiel Innigkeit und Andacht und Jubilieren, und ist dennoch allwegs nicht das Beste. Denn es stammt mitunter gar nicht von der Liebe her, sondern es kommt bisweilen aus der Natur, dass man solches Wohlgefühl und süßes Empfinden hat, oder es mag des Himmels Einfluss oder auch durch die Sinne eingetragen sein.^pDie dergleichen öfter erfahren, das sind nicht allwegs die Allerbesten. Denn, sei’s auch, dass es wirklich von Gott stamme, so gibt unser Herr das solchen Menschen, um sie zu locken oder zu reizen, auf dass man dadurch von anderen Menschen recht ferngehalten wird. Wenn aber diese gleichen Menschen hernach an Liebe zunehmen, so mögen sie nicht mehr soviel Gefühle und Empfindungen haben, und daran erst wird ganz deutlich, dass sie Liebe haben: wenn sie auch ohne solchen Rückhalt Gott ganz und fest Treue bewahren.^pMan soll nämlich von solchem Jubilus bisweilen ablassen um eines Besseren aus Liebe willen und um zuweilen ein Liebeswerk zu wirken, wo es dessen not tut, sei’s geistlich oder weltlich oder leiblich. Wie ich auch sonst schon gesagt habe: Wäre der Mensch so in Verzückung, wie’s Sankt Paulus war, und wüsste einen kranken Menschen, der eines Süppleins von ihm bedürfte, ich erachtete es für weit besser, du ließest aus Liebe von der Verzückung ab und dientest dem Bedürftigen in größerer Liebe.^pNicht soll der Mensch wähnen, dass er dabei Gnaden versäume; denn was der Mensch aus Liebe willig lässt, das wird ihm um vieles herrlicher zuteil, wie Christus sprach: „Wer etwas lässt um meinetwillen, der wird hundertmal soviel zurückerhalten.“{1#vgl. Mk 10,29f}",
-        }]
-    },
-    "j-14-6": {
-        second: [{
-            patr_autor: "Gemeinsame Synode der Bistümer in der Bundesrepublik Deutschland (1971–1975)",
-            patr_werk: "Aus dem Synodenbeschluss „Ehe und Familie“.",
-            patr_text: "^hEhe im Verständnis christlichen Glaubens^pDie christliche Ehe lebt aus dem Glauben an Gott, der sich in Jesus Christus der Welt selbst vorbehaltlos mitgeteilt hat. Diese seine Liebe ist jedem einzelnen und der gesamten Menschheit so zugewandt, dass wir für unser eigenes Leben und für die ganze menschliche Geschichte Hoffnung auf eine Vollendung und Erfüllung haben dürfen, welche alles Vorstellen übersteigt.^pDie lebendige Gegenwart der in Jesus Christus geschenkten Liebe Gottes zu bezeugen und die in ihr für alle Menschen begründete Hoffnung zu verkünden, ist die eine, alles umgreifende Sendung der Kirche. An ihr hat die Ehe ihren Anteil; denn christliche Ehepartner bezeugen in ihrem gemeinsamen Leben die Liebe Gottes, indem sie durch ihre eigene Liebe und Treue die Liebe Gottes sichtbar machen.^p„In ihrer Aufgabe, menschliches Leben weiterzugeben“, einer Sendung, die nur ihnen zukommt, sind sie „Interpreten“ der schöpferischen Liebe Gottes. Indem sie in hochherziger menschlicher und christlicher Verantwortung Kindern das Leben schenken, erfüllen sie einen wesentlichen Auftrag der Ehe{1#@Gaudium et spes 50,2}. Die Ehe behält jedoch als Lebensgemeinschaft in gegenseitiger Liebe ihren Wert, auch wenn sie kinderlos bleibt.^pChristliche Ehepartner leben ihre auf Glaube, Hoffnung und Liebe begründete Ehe in der Kirche als dem konkreten Ort der Erlösung. Sie werden dort mit der Heilkraft Jesu Christi beschenkt. So dienen sie zugleich dem Aufbau und Auftrag der Kirche; denn sie leben „nicht sich selbst“, sondern „für den Herrn“{2#Röm 14,7f}.^pDas Leben in und mit der christlichen Gemeinde kann zum Gelingen der Ehe beitragen; es soll die Ehepartner zu vertiefter Begegnung befähigen und zu unverbrüchlicher Treue führen. Aber auch die christliche Gemeinde muss durch ihre Solidarität mit den Ehepaaren dazu beitragen, deren Belastungen und Konflikte leichter zu bewältigen.^p^hAnthropologische Voraussetzungen^pDie unbedingte Annahme des anderen Menschen wird existentielle Wirklichkeit in der Treue. Durch sie ist der innerste Wille der Liebe dem Wechsel der Gefühle und der Willkür entzogen. In der Treue gewinnt die Liebe Dauer. Die unbedingte Treue der Gatten wird verlangt durch ihr gegenseitiges Sichschenken in Liebe sowie durch das Wohl ihrer Kinder, die von ihren Eltern ein Leben lang angenommen sein wollen.^pDiese Liebe in Treue ist vor allem dem möglich, der in der Tiefe seiner Person hoffen kann, dass er selbst wie auch der andere nicht im Tod dem Nichts anheimfallen. Darum lebt solche Liebe immer – selbst wenn sie es nicht weiß – aus der Hoffnung auf Gott. Treue ist eine Frucht der Hoffnung und bringt auch in das Dasein des anderen Menschen die Möglichkeit zur Hoffnung.^pFür Christen heißt das: In der Bindung bis in den Tod bringt ein Ehegatte die Liebe Christi, von der nichts scheiden kann{3#Röm 8,35}, in die alltägliche Nähe des Ehepartners. In solcher ein ganzes Leben umspannender Treue zeigt sich die Fülle christlicher Existenz: der Glaube an den Auferstandenen, welcher den Glauben an die Auferweckung des Ehepartners einschließt; die Hoffnung, welche für den anderen hofft, indem sie auf Christus setzt; die Liebe, die am anderen festhält, weil sie ihn in Christi Liebe zu bejahen vermag.^pVor diesem Hintergrund wird verständlich, warum Ehescheidung für Christen unmöglich ist. Jesus sagt: „Wer seine Frau entlässt und eine andere heiratet, begeht Ehebruch gegen sie. Und wenn sie ihren Mann entlässt und einen anderen heiratet, begeht sie Ehebruch.“{4#Mk 10,11f}",
-        },]
-    },
-    "j-22-3": {
-        second: [{
-            patr_autor: "Joseph Pascher († 1979)",
-            patr_werk: "Aus dem Buch „Sinngerechtes Brevierbeten“",
-            patr_text: "^hBrevier, Privatgebet, Arbeit und Erholung^pEs gehört zu den gesicherten Erkenntnissen über jedes geistliche Leben, dass das liturgische Beten nicht genügt, um den Geist des Christen auf der Höhe des göttlichen Lebens zu halten. Im Blick über die Kirche als ganze hat sich immer gezeigt, dass neben dem liturgischen Gebet eine ganz umfangreiche fruchtbare Privatfrömmigkeit liegt. Das ist nicht nur deswegen so, weil das Volk der Kulturhöhe des römischen Breviers nicht gewachsen ist, sondern auch, weil das Brevier nicht alle Möglichkeiten und Notwendigkeiten des geistlichen Lebens erschöpft.^pEs wäre wahrlich eine untragbare Verarmung, wollte man die religiöse Wirklichkeit der Kirche des Reichtums berauben, der täglich aus den Seelen frei und privat emporsteigt, ohne dass er jemals seinen Niederschlag in fester und in die Überlieferung eingehender Form findet. Hätte man die Möglichkeit, alle Christen im Breviergebet zu vereinigen, was natürlich ein vollkommener Irrealismus ist, aber hätte man wirklich die Möglichkeit, es wäre unmöglich, auf das andere zu verzichten. Ja, wenn beides unvereinbar wäre, müsste man lieber das Brevier oder einen Teil davon aufgeben.^pGroße Teile der privaten Frömmigkeit finden dauernd ihre feste Form und gehen heutzutage durch Drucklegung in die Frömmigkeitsüberlieferung ein. Es ist wahr, nicht alles steht nach Inhalt und Form so hoch, dass es die Tradierung verdient. Aber eine Auslese dauert und trägt immer wieder zum geistlichen Reichtum der Kirche bei, und auch das übrige tut seine Dienste für die Förderung des religiösen Lebens, während nur weniges das Wachstum der Frömmigkeit stört.^pImmer wieder erfährt die Liturgie selbst Förderung von seiten der privaten Frömmigkeit. Diese ist der unerschöpfliche Quellgrund für das Wachstum und Blühen des liturgischen Lebens. Hier ist der gesunde Quell für die Liturgie.",
-        },]
-    },
-    "j-29-0": {
-        second: [{
-            patr_autor: "Augustinus († 430)",
-            patr_werk: "Aus einer Auslegung zu Psalm 86 (85).",
-            patr_text: "^hDu bist ein guter und freundlicher Gott^pDu, o Gott, bist ein guter und freundlicher Gott. Was heißt das: ein freundlicher Gott? Du trägst mich, bis ich in deinen Händen reif geworden bin. Es ist wahr, meine Brüder – lasst mich als Menschen unter Menschen reden, als einen aus den Menschen –: ein jeder von euch nehme sein Herz in die Hand und schaue sich an ohne Schmeicheln, ohne Streicheln. Es gibt nichts Dümmeres, als wenn jemand sich selber streichelt und so in die Irre führt. Ein jeder schaue hin und sehe, was alles in solch einem Menschenherzen vorgeht: wie selbst die meisten Gebete von müssigen Gedanken behindert werden, so dass das Herz kaum stillzustehen vermag vor seinem Gott, und es möchte sich festhalten, um stehen bleiben zu können, und dann flieht es gleichsam von sich fort und findet keine Schranken, die es einschlössen, und keinen Riegel, der es zurückhielte von seinem Fortfliegen und von seiner schweifenden Unruhe, dass es endlich einmal stillhalte, um sich bescheiden zu lassen von seinem Gott. Kaum je gelingt das einem unter unseren vielen Gebeten. Jeder ist geneigt zu glauben, es erginge nur ihm so und den anderen nicht; aber da finden wir irgendwo in der Schrift, wie David betet: „Ich habe mein Herz gefunden o Herr, um zu dir zu beten.“ Er sagt, er habe sein Herz gefunden, als ob dieses Herz die Gewohnheit hätte, von ihm wegzulaufen, und er müsste ihm nachsetzen wie einem Flüchtenden und könne es nicht erreichen, und so ruft er zu Gott: „Mein Herz hat mich verlassen.“^pWenn ich also hier finde, meine Brüder, dass er sagt: „Du bist ein guter und freundlicher Gott“, so glaube ich zu sehen, was er mit ‚freundlich' meint. „Erquicke die Seele deines Knechtes, denn zu dir habe ich meine Seele erhoben; denn du bist ein guter und freundlicher Gott.“ Ich glaube, ich sehe, warum er Gott freundlich nennt, weil er das alles an uns erträgt und doch erwartet, dass wir beten, damit er uns zur Reife bringen kann. Und wenn wir unser Gebet vor ihn bringen, nimmt er es bereitwillig auf und erhört es und denkt nicht mehr an die vielen wirren Gebete, die wir gesprochen haben, und nimmt das eine an, das uns nur mit Mühe gelang.^pWeil es so etwas gibt wie Hoffnung auf Gott, weil seine Barmherzigkeit groß ist, wollen wir zu ihm sprechen: „Erquicke die Seele deines Knechtes; denn zu dir habe ich meine Seele erhoben.“ Wie habe ich sie erhoben können? Soweit ich konnte, soweit du die Kraft dazu gabst, soweit ich die Fliehende festzuhalten vermochte. „Und dann ist sie dir wieder entwischt“, sagt Gott, „denn sobald du vor mir standest, hast du an alle möglichen, nichtigen und überflüssigen Dinge gedacht, und kaum je hast du ein klares, festumrissenes Gebet vor mir zustande gebracht.“^pDu bist ein guter und freundlicher Gott. Weil du freundlich bist, erträgst du mich. Weil ich krank bin, zerfließe ich nach allen Seiten; heile du mich, und ich halte still vor dir; festige du mich, und ich werde fest. Bis dahin aber erträgst du mich; denn du bist ein guter und freundlicher Gott.",
-            patr_resp1: "Erquicke die Seele deines Knechtes,",
-            patr_resp2: "denn zu dir habe ich meine Seele erhoben.",
-            patr_resp3: "Ich habe mein Herz gefunden, o Herr, um zu dir zu beten."
-        }]
-    },
-    "12-22": {
-        second: [{
-            button: "Aus den „Sprüchen der Sibylle“: Kommen°wird°ein°heiliger°Fürst",
-            patr_autor: "LEER",
-            patr_werk: "Aus „Sprüche der Sibylle“ (1.–3. Jh.)",
-            patr_text: "^hKommen°wird°ein°heiliger°Fürst^hI^pWenn auch Ägypten einst^ßvon Rom besiegt und beherrscht wird,^leine Grenze sie eint,^ßja dann wird endlich erscheinen^lunter Menschen^ßdas größte Reich unsterblichen Königs:^lKommen wird ein heiliger Fürst^ßund schwingen das Zepter^lüber die Länder der Welt hinfort^ßbis in ewige Zeiten.^hII^pNicht in Herrlichkeit, er kommt^ßals Mensch in die Schöpfung,^lelend, niedrig und arm:^ßElenden Hoffnung zu bringen^lgibt dem morschen Fleische Gestalt^ßund himmlischen Glauben^lGlaubenslosen, und neu gestaltet er^ßwieder den Menschen,^lwie er einst erstand^ßaus Gottes heiligen Händen.^hIII^pWenn er die Arme breitet,^ßdas All umspannt, auf dem Haupte^ldorngeflochtene Krone trägt^ßund wenn ihm die Seite^lnach dem Gesetz der Speer durchstößt,^ßwird schauriges Dunkel,^lwird drei Stunden die Nacht sich senken^ßmitten am Tage,^lund ein großes Zeichen geschieht^ßvor den Augen der Menschen^lim Salomonischen Tempel,^ßwenn er zum Hause des Hades^lniedersteigt und Auffahrt ruft^ßdem Volke der Toten.^hIV^pUnd erstanden gesellt zuerst^ßden Seinen der Herr sich^lwieder im Fleisch, wie er vordem war,^ßdoch an Händen und Füßen^lzeigt er der Schar vier Male,^ßdie ihm die Glieder durchbohrten,^lAufgang nämlich und Untergang^ßund Mittag und Mitternacht:^lSoviel Königreiche der Welt^ßbegehen in Zukunft^lfrevelhafte niedrige Tat^ßam Vorbild der Menschen."
-        }]
-    },
-    "12-23": {
-        second: [{
-            patr_autor: "Heinrich Schlier († 1978)",
-            patr_werk: "Aus dem Buch „Der Herr ist nahe – Adventsbetrachtungen“.",
-            patr_text: "^hDes°Herrn°Nähe^pIn welcher Weise können wir denn „in Ihm“ sein und also „in Ihm“ uns freuen? Ist er denn nicht in die äußerste Ferne gerückt, sei es, dass er als der am Kreuz einmal Gestorbene irdisch vergangen ist, wie wir alle einmal vergehen als Menschen, sei es, dass er als der von den Toten Erweckte im Jenseits, im Himmel, bei Gott ist, und wir sind heute hier auf Erden, und morgen holt uns der Tod zu sich? Wie können wir uns seiner freuen, nein, zur Freude „in Ihm“ gelangen, wenn er als der Gekreuzigte und Auferstandene und Erhöhte nicht gegenwärtig ist, gegenwärtig in der Gegenwart unserer Welt und Zeit?^pDarauf gibt der Apostel mit seiner Formulierung Antwort: „Der Herr ist nahe!“{1#Phil 4,5} „Im Herrn“ können und sollen wir uns freuen, weil der Herr „nahe“ ist.^pUnd dieses „Nahesein“ meint nicht nur und nicht zuerst und zuletzt ein Nahesein im zeitlichen Sinn. Es meint eine sachliche Nähe, ein Nahegekommen und in der Nähe, ein in das Erreichbare und das Erreichen Gerücktsein. Und es meint dies auch in der zeitlichen Nähe. Es meint mit anderen Worten, dass seine Ankunft in Kreuz und Auferstehung und Erhöhung zu Gott zugleich ein Ankommen in die Nähe zu uns ist. Er ist uns nahegekommen und ist in unserer Nähe. Ja man kann sagen: Er ist unsere Nähe.^pAdvent hat sich erfüllt in seinem Nahesein. Er ist der, der da kommen soll. Und Er ist in den Horizont der Welt und unseres Lebens eingetreten, der uns von allen Seiten umgibt und angeht.^pUnd als solcher ist er der Grund jener Freude, die über alle Freude und noch Freude im Leid ist. Seine Ankunft in die Nähe erweckt die Freude, die Adventsfreude seiner Nähe.^pEr ist ja so nahe, dass wir sein Wort hören. Er ist – und das ist nicht metaphorisch gemeint – nahe in seinem Wort, im Wort seines Weges, im Wort seines Wirkens, im Wort seiner Person. Dies Wort ist mit ihm und seinem Leben laut geworden und hat sich im Wort des Evangeliums zur Sprache gebracht. Dieses Wort des Herrn in Menschenwort stellt die Welt und unser Leben in das Licht der Wahrheit und erleuchtet unseren Weg.^pSo nahe ist der Herr, dass er über alle Zeiten hinweg, ja dass er über die Grenze zwischen Himmel und Erde hinweg uns mit seinem Wort erreicht und sich uns glaub-würdig macht, dass wir ihn und sein Heil im Glauben erkennen und erfahren können.^pAber die nächste Nähe des Herrn erfahren wir, wenn er sich uns unter den einfachen Zeichen von Brot und Wein auf die Lippen legt und so uns selbst sich mitteilt und mit sich sein ganzes Heil. So nahe ist er, dass wir nur im Glauben unseren Mund zu öffnen brauchen, und wir werden von ihm gespeist."
-        }]
-    },
-    "12-24": {
-        second: [{
-            patr_autor: "Franz von Sales († 1622)",
-            patr_werk: "Aus einer Predigt zur Vigil von Weihnachten.",
-            patr_text: "^hMorgen°werdet°ihr seine°Herrlichkeit°sehen^pDie heilige Kirche ist gewohnt, uns am Vorabend der großen Feste vorzubereiten, damit wir begierig sind, die großen Gnadenerweise zu erkennen, die wir in ihnen von Gott empfangen haben. Wenn die Christen der Urkirche unserem Herrn gewissermaßen Genugtuung leisten wollten für sein Blut, das er bei seinem Tod am Kreuz so freigebig vergossen hat, dann waren sie sorgsam bedacht, die Zeit der Feste recht zu nutzen und sie möglichst ganz zu feiern.^pDie heilige Kirche will also, dass wir uns in der Vigil des heiligen Weihnachtsfestes vorbereiten, und als ganz liebenswürdige Mutter will sie nicht, dass wir von einem so großen Geheimnis unvorbereitet überrascht werden; deshalb sagt sie uns die Worte: „Heute sollt ihr wissen, dass unser Herr morgen kommt.“ Das heißt soviel wie: Morgen wird er geboren, und ihr werdet ihn als ganz kleines Kind in einer Krippe liegend sehen{1#vgl. Lk 2,12}. Dabei hat sie keine andere Absicht, als zu erreichen, dass wir unseren Verstand in die Betrachtung der Größe des Geheimnisses der hochheiligen Geburt unseres Herrn versenken.^pUm das möglichst gut zu machen, werden wir vor allem unseren Verstand demütigen und anerkennen, dass er in keiner Weise fähig ist, auf den Grund dieses großen Geheimnisses vorzudringen, das ein wahrhaft christliches Mysterium ist.^pIch sage „christlich“, weil nur die Christen jemals begreifen konnten, dass Gott Mensch und der Mensch vergöttlicht wurde. Es ist ja ein Geheimnis, das verborgen ist im Dunkel und in der Finsternis der Nacht; nicht als ob das Geheimnis dunkel in sich selbst wäre, denn Gott ist nur Licht{2#vgl. Joh 1,5.9}.^pMan weiß ja, dass unsere Augen nicht fähig sind, das Licht oder die Klarheit der Sonne zu betrachten, ohne zu erblinden (wenn wir es unternehmen wollten, dieses Licht zu betrachten, sind wir gezwungen, die Augen zu schließen, und sind einige Zeit unfähig, etwas zu sehen). Ebenso liegt das, was uns daran hindert, das Geheimnis der hochheiligen Geburt unseres Herrn zu begreifen, nicht daran, dass es in sich dunkel wäre, sondern daran, dass es nichts als helles Licht ist.^pUnser Verstand, der das Auge unserer Seele ist, kann es nicht lange betrachten, ohne sich zu trüben, und muss demütig bekennen, dass er dieses Geheimnis nicht ergründen kann, um zu begreifen, wie Gott im jungfräulichen Schoß der allerseligsten Jungfrau Fleisch angenommen hat und Mensch geworden ist gleich uns, um uns Gott ähnlich zu machen."
-        }]
-    },
-    "12-25": {
-        first: [{
-            resp1: "Vom Himmel stieg herab der wahre Gott^SLICE, vom Vater geboren. Er scheute nicht den Schoß der Jungfrau und nahm an das Fleisch des Menschen, in dem Adam geschaffen war,",
-            resp2: "und ist uns sichtbar erschienen, Gott und Mensch, Licht und Leben, Schöpfer der Welt.",
-            resp3: "Durch ihn ist alles geschaffen, für uns Menschen und um unseres Heiles willen stieg er vom Himmel herab"
-        }],
-        second: [{
-            patr_resp1: "Das Wort ist Fleisch geworden und hat unter uns gewohnt,",
-            patr_resp2: "und wir haben seine Herrlichkeit gesehen, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit.",
-            patr_resp3: "Er erschien auf der Erde und verkehrte unter den Menschen,"
-        }]
-    },
-    "12-31": {
-        second: [{
-            patr_autor: "Hugo Rahner († 1968)",
-            patr_werk: "Aus dem Buch „Maria und die Kirche“.",
-            patr_text: "^hMaria°ist°Mutter der°Glieder°Christi^pDer Urbeginn unserer Erlösung liegt in dem unbegreiflichen Ratschluss des ewigen Vaters, seinen eingeborenen Sohn uns als Menschen zu schenken.^pIn diesem göttlichen Gnadenentschluss ist aber auch mitgegeben der von eben dieser Gnade angerührte und ermöglichte freie Entschluss jenes Menschenkindes, das auserwählt ward, Mutter des Menschensohnes zu werden. In dem freien Ja der Jungfrau Maria ist gleichsam alles schon eingeschlossen, was je im Lauf der Erlösungsgeschichte an Gnade und Gottesliebe sich in das Geschlecht des Adam ergießen wird.^pDas Jawort der Jungfrau ist in einem wahren Sinn der Anfang der Kirche. Augustinus hat dies in einem berühmten Wort ausgesprochen: „Wahrlich, Maria ist auch die Mutter der Christusglieder, die wir selber sind. Denn sie hat mitgewirkt in Liebe, dass Glaubende in der Kirche geboren werden, Glaubende, die da sind die Glieder jenes Hauptes, dessen Mutter sie leiblich wurde.“{1#@Augustinus, De sancta virginitate 6} Diese „liebende Mitwirkung“ ist zunächst einmal ihr Jawort, das den Einstrom der göttlichen Begnadigung in das ganze Menschengeschlecht durch die Menschwerdung Gottes ermöglicht hat.^pIm jungfräulichen Schoß Marias beginnt also, wie die Väter so oft sagen, in Wahrheit die Existenz der Kirche. Denn durch die hochzeitliche Vereinigung von Gottheit und Menschheit in der einen Person Christi ist der weltgestaltende Heilsschluss des Vaters festgelegt und begonnen: alles, was nun folgt, vom erlösenden Kreuz dieses aus Maria für den Vater geborenen Menschenkindes bis zur Vollendung in der herrlichen Wiederkunft des Gottmenschen, also die ganze Geschichte der Kirche, ist Entfaltung des Geheimnisses, das sich am Herzen Marias vollzog.^pEs ist das eigentliche Mysterium der Kirche – so wie es einmal in einem wundervollen Hymnus des achten Jahrhunderts heißt: „Das Mysterium der Kirche wollen wir besingen in einem Hymnus auf Christus, den die mütterliche Frau geboren hat, das Wort des Vaters. Groß nämlich ist das Mysterium, das Maria anvertraut ward.“{2#@vgl.°Analecta Hymnica 51} Jenes „große Mysterium“, von dem Paulus in Bezug auf die Kirche spricht, beginnt schon in Marias Schoß.^pIn der klassischen Diktion seiner Theologie hat uns dieses Geheimnis der Kirche der heilige Papst Leo in einer seiner Weihnachtspredigten verkündet: „Indem wir die Menschwerdung unseres Erlösers anbeten, feiern wir offenbar auch den Beginn unseres eigenen Lebens. Ist doch die Zeugung Christi der Ursprung des christlichen Volkes. Der Geburtstag des Hauptes ist zugleich der Geburtstag des Leibes. Mag auch jeder einzelne von den Berufenen seinen besonderen Stand haben, mögen auch alle Kinder der Kirche durch die Folge der Zeiten voneinander getrennt sein: die Gesamtheit aller Gläubigen, die aus dem Taufquell hervorgingen, ist mit Christus in seiner Geburt geboren worden.“{3#@Leo der Große, Sermo 26,2}^pWeihnacht ist für die alte Kirche ein Fest der Kirche, Maria der Inbegriff aller Mysterien, die sich in unserer Wiedergeburt an uns selbst vollziehen."
-        }]
-    },
-    "01-01": {
-        second: [{
-            patr_autor: "Walther von der Vogelweide († um 1230) zugeschrieben",
-            patr_werk: "An°Maria.",
-            patr_text: "^h^pMaria klar,^ßviel hochgelobte Herrin, süße,^lHilf mir durch deines Kindes Ehr,^ßdass ich die Sünde büße.^lDu flutige Flut der Tugend,^ßErbarmung, aller Güte,^lDer süße Gottesgeist^ßaus deinem edlen Herzen blühte:^lEr ist dein Kind,^ßdein Vater und dein Schöpfer. ^pWohl uns, dass du^ßihn durftest einst gebären!^lDen Höhe, Tiefe, Breite, Länge^ßnie umgreifen ging,^lDein kleiner Leib^ßmit süßer Keusche ihn umfing,^lKein Wunder gleicht^ßdem wunderbaren Ding:^lDer Engel Königin,^ßdu trugst ihn ohne alle Schweren."
-        }]
-    },
-    "01-03": {
-        second: [{
-            patr_autor: "Theresia vom Kinde Jesus (†°1897)",
-            patr_werk: "Aus einem Brief an Schwester Marie du Sacré-Cœur.",
-            patr_text: "^hMeine°Berufung°ist°die°Liebe^pAls beim Gebet meine Begierden mich ein wahres Martyrium erleiden ließen, schlug ich die Briefe des heiligen Paulus auf, um irgendeine Antwort zu suchen. Das 12. und 13.°Kapitel des ersten Korintherbriefes fiel mir in die Hände. Ich las im ersten, dass nicht alle zugleich Apostel, Propheten, Lehrer usw. sein können, dass die Kirche sich aus verschiedenen Gliedern zusammensetzt und dass das Auge nicht zugleich Hand sein kann {1#vgl.°1 Kor 12,29.12.21}.^pDie Antwort war klar, stillte aber mein Sehnen nicht und brachte mir keinen Frieden. Wie Magdalena sich immer wieder über das leere Grab beugte und schließlich fand, was sie suchte, so erniedrigte ich mich bis in die Tiefen meines Nichts, und da erhob ich mich so hoch, dass ich mein Ziel erreichte {2#@Hl. Johannes vom Kreuz, Gedichte, Zweiter Gesang über eine Ekstase}. Ohne mich entmutigen zu lassen, setzte ich meine Lesung fort und fand Trost in folgendem Satz: „Strebt eifrig nach den vollkommensten Gaben, aber ich will euch einen noch vorzüglicheren Weg zeigen.“ {3#1 Kor 12,31} Und der Apostel erklärt, wie die vollkommenen Gaben nichts sind ohne die Liebe. Dass die Liebe {4#@‚charité‘ – die christliche Gottes- und Nächstenliebe} der vortreffliche Weg ist, der mit Sicherheit zu Gott führt.^pEndlich hatte ich Ruhe gefunden. Den mystischen Leib der Kirche betrachtend, hatte ich mich in keinem der vom heiligen Paulus geschilderten Glieder wiedererkannt, oder vielmehr, ich wollte mich in allen wiedererkennen. Die Liebe gab mir den Schlüssel meiner Berufung. Ich begriff, dass wenn die Kirche einen aus verschiedenen Gliedern bestehenden Leib hat, ihr auch das notwendigste, das edelste von allen nicht fehlt; ich begriff, dass die Kirche ein Herz hat und dass dieses Herz von Liebe brennt. Ich erkannte, dass die Liebe allein die Glieder der Kirche in Tätigkeit setzt, und würde die Liebe erlöschen, so würden die Apostel das Evangelium nicht mehr verkünden, die Märtyrer sich weigern, ihr Blut zu vergießen. Ich begriff, dass die Liebe alle Berufungen in sich schließt, dass die Liebe alles ist, dass sie alle Zeiten und Orte umspannt. Mit einem Wort: dass sie ewig ist!^pDa rief ich im Übermaß meiner überschäumenden Freude: O Jesus, meine Liebe, endlich habe ich meine Berufung gefunden: Meine Berufung ist die Liebe!^pJa, ich habe meinen Platz in der Kirche gefunden, und diesen Platz, mein Gott, den hast du mir geschenkt: Im Herzen der Kirche, meiner Mutter, werde ich die Liebe sein; so werde ich alles sein."
-        }]
-    },
-    "01-04": {
-        second: [{
-            patr_autor: "Reginald Garrigou-Lagrange (†°1964)",
-            patr_werk: "Aus dem Buch „Mystik und christliche Vollendung“.",
-            patr_text: "^hDie°vollkommene°Liebe^pNach dem heiligen Johannes vom Kreuz findet sich die wahre, auf Erden noch mögliche Vollkommenheit nur in der umbildenden Vereinigung oder geistigen Vermählung {1#@Geistl.°Gesang, III.°Teil, 22.°Strophe}. Es erfüllt sich da, was im Hohenliede geschrieben steht: „Schon ist der Winter vorüber, der Regen hat aufgehört und ist vergangen, schon erscheinen die Blumen in unserem Lande.“ {2#vgl.°Hld°2,11}^pDas ist die volle Entfaltung der Liebe. Die vollkommene Liebe nimmt Gottes wegen jedes Werk oder jedes Opfer auf sich, sie findet darin sogar eine heilige Freude {3#@a.a.O.,°24.°Strophe}. Sie schreckt vor dem Tode nicht zurück, sondern wünscht ihn herbei; nichts schreibt sie sich selbst zu, sondern bezieht alles auf Gott. In ihn bildet sie sich gewissermaßen um nach dem Wort des heiligen Paulus: „Wer aber dem Herrn anhängt, ist EIN Geist mit ihm.“ {4#vgl.°1°Kor°6,17}^p„Gott selbst ist es, der sich ihr in wunderbarer Herrlichkeit mitteilt und sie umgestaltet. In diesem Stande werden beide eins wie das Glas und der Sonnenstrahl, wie die Kohle und das Feuer, wie das Licht der Sterne und das Sonnenlicht, wenn auch diese Vereinigung noch nicht so wesenhaft und so vollkommen ist wie im anderen Leben.“ {5#@a.a.O.,°26.°Strophe}"
-        }]
-    },
-    "01-05": {
-        second: [{
-            patr_autor: "Ernest Hello (†°1885)",
-            patr_werk: "Aus dem Buch „Der Mensch“.",
-            patr_text: "^hDie°christliche°Liebe^pMan sollte sich doch darüber klar sein: Je schöner ein Wort ist, um so gefährlicher ist es. Es lässt sich gar nicht sagen, welch ungeheure Bedeutung die Sprache hat. Worte sind Brot oder Gift, und die allgemeine Verwirrung ist eines der Kennzeichen unserer Zeit.^pDurch ihre Nachgiebigkeit werden die Zeichen, die der Sprache zur Verfügung stehen, zu furchtbaren Werkzeugen. Jeden beliebigen Missbrauch kann man mit ihnen treiben, sie widersprechen nicht. Sie lassen sich ruhig entehren, und die Entstellung der Worte offenbart sich lediglich durch die gründliche Unordnung, die sie in der Wirklichkeit anrichtet.^pEs gibt ein Wort des heiligen Paulus, dessen Tiefe unbekannt ist: Der Heidenapostel erklärt, wenn er durch seinen Glauben Berge versetzte und hätte die Liebe nicht, so wäre er nichts. Dies Wort hat einen Umfang, den nur wenige kennen. Der es gesprochen, wusste um seltsame Geheimnisse.^p„Der Teufel ist der, der nicht liebt“, hat die heilige Theresia gesagt, und die heilige Brigitte hat dies schreckliche Geständnis aus dem Munde des Verfluchten selbst vernommen. Da der Teufel zu Jesus spricht, sagt er ihm die Worte: „Richter, ich bin die Kälte.“^p„Wer nicht liebt, ist nichts“, sagt der heilige Paulus. Wie verhält sich das Nichts zur Sünde?^pWelchen Namen trüge die Liebe in einer Sprache, die höher stünde als die unsere? Wäre es nicht ein und derselbe Name?^pWie tiefe Geheimnisse auch die fleischliche Liebe hüten mag, in der sittlichen Ordnung ist die Liebe jedenfalls das Gesetz des Lebens. Sie ist der Urgrund selber der Tätigkeit. Hätten die Menschen nicht gar soviel Geschäfte am Halse, so könnten sie vielleicht einen Augenblick über diese Dinge nachdenken. Sie ist zu alltäglich, um bemerkt, zu tief, um verstanden zu werden.^pAber eben deshalb, weil die Liebe^w das ^0werhabene Ding und^w die ^0wWirklichkeit in des Wortes verwegenster Bedeutung, dazu das Knochenmark der Schöpfung ist, gerade deswegen muss es ganz besonders gefährlich sein, wenn die Liebe missbraucht und ihr Name falsch angewendet wird. Das Beste wird, wenn es verdorben wird, zum Allerschlechtesten. Je schöner der Name Liebe, um so schrecklicher ist er! Und wenn er sich nun mit der Macht bewaffnet, die er für das Leben empfing und sie gegen die Wahrheit kehrt, so wird er dem Tode jeden Dienst leisten.^pImmer dann, wenn man sich mit dem Irrtum unter dem Vorwand, die Menschen zu schonen, verträgt, statt ihn auszurotten, richtet man den Namen der Liebe wider das Licht. Und so schafft man sich womöglich den Vorwand, sich das Schlechte in der eigenen Seele, das Schlechte, das man so gerne hätschelt, zu verzeihen.^pDer Mensch wird gegenüber der Schwäche, die Besitz von ihm ergreifen will, weichlich, sobald es ihm erst einmal zur Gewohnheit geworden ist, die völlige Anpassung an jedwede Schwäche Liebe zu nennen."
-        }]
-    },
-    // beide Lesejahre
-    "46": {
-        second: [{
-            patr_autor: "Thomas von Aquin († 1274)",
-            patr_werk: "Sequenz°zum°Fronleichnamsfest.",
-            patr_text: "^h^pLauda, Sion, Salvatórem,^llauda ducem et pastórem^lin hymnis et cánticis.^lQuantum potes, tantum aude,^lquia maior omni laude,^lnec laudáre súfficis.^pLaudis thema speciális,^lpanis vivus et vitális^lhódie propónitur.^lQuem in sacræ mensa cœnæ^lturbæ fratrum duodénæ^ldatum non ambígitur.^pSit laus plena, sit sonóra;^lsit iucúnda, sit decóra^lmentis iubilátio.^lDies enim solémnis ágitur^lin qua mensæ prima recólitur^lhuius institútio.^pIn hac mensa novi Regis^lnovum Pascha novæ legis^lphase vetus términat.^lVetustátem nóvitas,^lumbram fugat véritas,^lnoctem lux elíminat.^pQuod in cœna Christus gessit,^lfaciéndum hoc expréssit^lin sui memóriam:^lDocti sacris institútis^lpanem, vinum in salútis^lconsecrámus hóstiam.^pDogma datur Christiánis,^lquod in carnem transit panis^let vinum in sánguinem.^lQuod non capis, quod non vides,^lanimósa firmat fides^lpræter rerum órdinem.^pSub divérsis speciébus,^lsignis tantum et non rebus,^llatent res exímiæ:^lCaro cibus, sanguis potus,^lmanet tamen Christus totus^lsub utráque spécie.^pA suménte non concísus,^lnon confráctus, non divísus^línteger accípitur.^lSumit unus, sumunt mille,^lquantum isti, tantum ille,^lnec sumptus consúmitur.^pSumunt boni, sumunt mali,^lsorte tamen inæquáli,^lvitæ vel intéritus:^lMors est malis, vita bonis,^lvide paris sumptiónis^lquam sit dispar éxitus.^pFracto demum sacraménto,^lne vacilles, sed meménto^ltantum esse sub fragménto,^lquantum toto tégitur.^pNulla rei fit scissúra,^lsigni tantum fit fractúra,^lqua nec status nec statúra^lsignáti minúitur^pEcce panis Angelórum,^lfactus cibus viatórum,^lvere panis filiórum,^lnon mitténdus cánibus!^pIn figúris præsignátur,^lcum Isaac immolátur,^lagnus Paschæ deputátur,^ldatur manna pátribus.^pBone pastor, panis vere,^lJesu, nostri miserére,^ltu nos pasce, nos tuére,^ltu nos bona fac vidére^lin terra vivéntium.^pTu qui cuncta scis et vales,^lqui nos pascis hic mortáles,^ltuos ibi commensáles,^lcohærédes et sodáles^lfac sanctórum cívium.^lAmen. Allelúja."
-        }]
-    },
-    "09-16": {
-        second: [{
-            button: "Aus den Akten über das Martyrium des°heiligen°Cyprian.",
-            patr_autor: "LEER",
-            patr_werk: "Aus den Akten über das Martyrium des°heiligen°Cyprian.",
-            patr_text: "^hCyprian°starb unter°der Königsherrschaft°Jesu°Christi^pAm 18. Tag vor den Kalenden des Monats Oktober (14.°September) kam auf Befehl des Prokonsuls Galerius Maximus viel Volk morgens früh zum Ager Sexti. Der Prokonsul saß an diesem Tag im Atrium Sauciolum zu Gericht und ließ den Cyprian vor sich bringen. Als er vorgeführt war, sagte der Prokonsul Galerius Maximus zum Bischof Cyprian: „Du bist Thascius Cyprianus?“ Der Bischof Cyprian antwortete: „Ich bin es.“ Der Prokonsul Galerius Maximus sagte: „Du hast dich gottlos gesinnten Menschen als Papst zur Verfügung gestellt.“ Der Bischof Cyprian antwortete: „Ja, ich habe es getan!“ Der Prokonsul Galerius Maximus sagte: „Die heiligen Kaiser haben dir befohlen zu opfern.“ Der Bischof Cyprian erwiderte: „Das tue ich nicht!“ Galerius Maximus sagte: „Überlege es dir!“ Der Bischof Cyprian antwortete: „Tu, was dir befohlen ist; in einer so gerechten Sache gibt es nichts zu überlegen.“^pGalerius Maximus besprach sich mit seinen Räten und gab dann widerwillig das Urteil ab mit den Worten: „Du hast lange in einem ruchlosen Geist gelebt, viele Menschen in einer ruchlosen Verschwörung um dich versammelt und dich zum Feind der römischen Götter und der heiligen Bräuche gemacht. Die frommen und heiligen Fürsten, die Kaiser Valerianus und Gallienus und der erlauchte Unterkaiser Valerianus konnten dich nicht zur Gemeinschaft ihrer heiligen Riten zurückrufen. Da du also als Urheber und Rädelsführer schlimmer Verbrechen erfasst bist, soll – für diese, die du für deinen Frevel gewonnen hast, zum warnenden Beispiel – die heilige Ordnung mit deinem Blut bestätigt werden.“ Nach diesen Worten verlas er aus der Tabelle das Urteil: „Thascius Cyprianus soll mit dem Schwert hingerichtet werden.“ Der Bischof Cyprian sprach: „Dank sei Gott!“^pNach diesem Urteilsspruch sagte die Schar der Brüder: „Auch wir wollen mit ihm enthauptet werden.“ Darum gab es laute Unruhe unter den Brüdern, und eine große Menge folgte ihm. So wurde Cyprian zum Ager Sexti geführt. Dort legte er den roten Mantel ab, kniete nieder und warf sich zu Boden, um zum Herrn zu beten. Dann zog er die Dalmatik aus und reichte sie den Diakonen. Nun stand er im Linnengewand da und wartete auf den Scharfrichter. Als dieser kam, gebot Cyprian den Seinen, ihm 25 Goldstücke zu reichen. Leintücher und Handbinden wurden ihm von den Brüdern hingehalten. Dann verband sich Cyprian mit eigener Hand die Augen. Da er sich die Streifen für die Hände nicht selbst binden konnte, banden sie ihm der Presbyter Julian und der Subdiakon Julian.^pSo litt der heilige Cyprian. Wegen der Neugierde der Heiden wurde der Leib in der Nähe beigesetzt. Von dort holte man ihn bei Nacht mit Kerzen und Fackeln ab und brachte ihn unter Gebet in großem Triumphzug zur Grabstätte des Prokurators Macrobius Candidus, die an der Straße nach Mappalia bei den Fischteichen liegt. Der Prokonsul Galerius Maximus starb wenige Tage später.^pDer heilige Märtyrer Cyprian starb am 18.°Tag vor den Kalenden des Oktobers (14.°September) unter den Kaisern Valerian und Gallienus, unter der Königsherrschaft Jesu Christi, dem Ehre und Herrlichkeit ist in Ewigkeit. Amen."
-        }]
-    },
-    "10-21": {
-        second: [{
-            patr_autor: "Breviarium Coloniense (1521)",
-            patr_werk: "LEER",
-            patr_text: "^hDient°untadelig°eurem°himmlischen°König^pDie heilige Ursula setzte ihr Vertrauen auf das Wort der göttlichen Verheißung. Dennoch war sie auch bemüht um die menschliche Gebrechlichkeit. Sie hatte ihre Mitjungfrauen schon mit Worten und durch das christliche Beispiel belehrt. Doch nun ermahnte sie alle: In eurer bedrängten Lage müsst ihr um so entschlossener an der Tür des göttlichen Erbarmens pochen! Den Gürtel der Keuschheit dürft ihr niemals verlieren! Er ist ja das Zeichen, unter dem ihr eurem himmlischen König untadelig dient.^pMit diesen Worten „gab sie einen Sporn denen, die schon liefen“! Die gottverlobten Jungfrauen brachen in Tränen aus. Von ganzem Herzen und in der Glut des Geistes begannen sie die göttliche Hilfe anzurufen: Gott möge jeder einzelnen, besonders aber der Königin, die Jungfräulichkeit erhalten!^pDer gütige Gott ist allzeit denen nahe, die ihn in der Wahrheit anrufen. Darum wies er ein so frommes Gebet nicht ab. Aus seinen Schatzkammern holte er den Wind hervor. Von ihm wurden die Schiffe so angetrieben, dass sie in einem Tag und einer Nacht in glücklicher Fahrt zum Hafen gelangten, der Tyele heißt. Die Zahl der Schiffe und die Schar der Mädchen erlitt unterdessen keinen Schaden.^pSie gingen ans Ufer, das ihr Ziel war. Die Frau, die ihre Anführerin war, wurde Maria der Prophetin ähnlicher, als sie das Rote Meer vor den Heeren des Pharao durchschritten hatte. Sie sang dem himmlischen Bräutigam das hochzeitliche Lob, das sie ihm schuldete. Die Gemeinschaft der Mädchen stimmte darin ein, nicht mit lautem Rufen, sondern in der Harmonie des Gesanges. Sie sangen das frohe Lied der Schwester des Mose. Es klang empor zum Ohr Gott Zebaots wie lieblicher Klang.^pDort machten sie zur Nacht Station. Am folgenden Tag kauften sie, was sie notwendig hatten. Es war dort Markt. Dann gingen sie zu den Schiffen zurück und lichteten die Anker. Gegen die Strömung des Flusses ruderten sie. So kamen sie zu jener berühmten Stadt Köln, wo heute noch ihre Leiber in Frieden ruhen.^pSie gingen an Land. Nach dem Abendbrot überwältigte der Schlaf die von gottgefälliger Arbeit Übermüdeten. Die heilige Jungfrau Ursula hatte Gottes Wohlgefallen gefunden durch das Bekenntnis zur engelgleichen Keuschheit. Darum sah sie im Traum eine Engelsgestalt voll Licht und Hoheit. Er sagte ihr: Wisse, Tochter, was du so sehr ersehnt hast, wirst du unter dem himmlischen Schutz Gottes mit dieser lieben Gemeinschaft deiner Schwestern erlangen. Du wirst nach Rom gelangen. Die Zahl deiner Gefährtinnen wird keine Minderung erfahren. Die Gelöbnisse werden unvermindert erhalten. Gott hat euch hier die Ruhe in Ewigkeit bestimmt. Hier werdet ihr in Frieden ruhen.",
-        }]
-    },
-    "11-01": {
-        second: [{
-            patr_autor: "Romano Guardini († 1968)",
-            patr_werk: "Aus der „Vorschule des Betens“.",
-            patr_text: "^hIn°den°Heiligen strahlt die°Freiheit°und°Herrlichkeit der°Kinder°Gottes^pDie im Namen Christi sterben, gehen nicht ins Wesenlose, sondern in die Fülle heiliger Wirklichkeit ein.^pDas unwillkürliche Gefühl meint, die Toten würden schattenhaft, wendet sich von ihnen ab und sucht das warme Licht der irdischen Sonne oder es glaubt, sie bekämen eine unheimliche, zerstörende Macht, und sucht sich davor zu schützen.^pDiese Empfindungen werden aber im Glauben überwunden. Er sagt uns, dass die in der Gnade Heimgegangenen zur „Herrlichkeit der Kinder Gottes“ und zur reinen Vollendung ihres Wesens im ewigen Lichte gelangen.^pLiegt es da nicht nahe, jene Menschen, die schon auf Erden Zeugen göttlicher Liebe und Macht gewesen sind, auch in ihrer Erfüllung aufzusuchen? So ist es denn auch geschehen, und wir finden von den frühesten christlichen Zeiten an eine lebendige Beziehung der Gläubigen zu jenen, die sich auf Erden in besonderer Weise als Freunde Gottes erwiesen haben, den Heiligen. Und zwar ist diese Beziehung sehr mannigfaltig.^pAuf den ersten Blick scheint sie ganz in der Bitte um Hilfe zu bestehen, und diese Bitte hat recht, denn die Not des Daseins ist groß. In ihr aber zu denen zu rufen, die ganz in Gottes Gemeinschaft eingegangen, mit seinem Willen eins und seiner Gnade voll sind, bedeutet nichts anderes als die Verbundenheit des gläubigen Daseins.^pNeben der Bitte tritt aber auch das Lob hervor: die Freude an dem frommen und edlen Leben der Heiligen; an der göttlichen Führung, die darin deutlich wird; an ihren Überwindungen und Taten. Sie sind Zeugen der Erlösung. Die neue Schöpfung, die immerfort aus Christi Tat hervorgeht, ist verhüllt; alles widerspricht ihr, und der Glaube hat Mühe, sich der einstigen Vollendung gewiss zu halten. In den Heiligen strahlt „die Freiheit und Herrlichkeit der Kinder Gottes“{1#Röm 8,21} auf und hilft der Hoffnung.^pDie Heiligen können auch eine besondere Bedeutung für die Weise erhalten, wie der einzelne sein Leben führt. Sie öffnen den Reichtum Christi. Dieser ist „das Licht“, einfach und alleinbegreifend zugleich; die Heiligen aber sind wie Prismen, welche seine Unbegreiflichkeit aufbrechen und bald diese, bald jene Farbe daraus erstrahlen lassen. So können sie dem Glaubenden helfen, sich selber besser aus Christus heraus zu verstehen und den Weg zu finden, den er gehen soll.^pWas aber im Tiefsten zu den Heiligen treibt, ist doch wohl einfach der Wunsch, bei ihnen zu sein, mit ihnen umzugehen, Anteil an ihnen zu haben. Es ist die Liebe, welche die Gemeinschaft derer sucht, die ganz in der Liebe gelebt haben und nun in ihr vollendet sind.",
-            patr_resp1: "Preist unsern Gott, all seine Knechte und alle, die ihn fürchten, klein und groß.",
-            patr_resp2: "Der°Herr°ist König geworden, Gott, der Herrscher des Alls.",
-            patr_resp3: "Jubelt dem Herrn, ihr Gerechten, den Frommen kommt es zu, Gott zu loben.",
-        }]
-    },
-    "11-02": {
-        second: [{
-            patr_autor: "LEER",
-            patr_werk: "Sequenz°„Dies°irae“",
-            patr_text: "^pDies iræ, dies illa,^lsolvet sæclum in favílla,^lteste David cum Sibýlla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pQuid sum miser tunc dictúrus,^lquem patrónum rogatúrus,^lcum vix iustus sit secúrus?^pRex treméndæ maiestátis,^lqui salvándos salvas gratis,^lsalva me, fons pietátis.^pRecordáre, Iesu pie,^lquod sum causa tuæ viæ,^lne me perdas illa die.^pQuærens me sedísti lassus,^lredemísti crucem passus;^ltantus labor non sit cassus.^pIuste iudex ultiónis,^ldonum fac remissiónis^lante diem ratiónis.^pIngemísco tamquam reus,^lculpa rubet vultus meus;^lsupplicánti parce, Deus.^pQui Maríam absolvísti^let latrónem exaudísti,^lmihi quoque spem dedísti.^pPreces meæ non sunt dignæ,^lsed tu, bonus, fac benígne,^lne perénni cremer igne.^pInter oves locum præsta^let ab hædis me sequéstra^lstátuens in parte dextra.^pConfutátis maledíctis,^lflammis ácribus addíctis,^lvoca me cum benedíctis.^pOro supplex et aclínis,^lcor contrítum quasi cinis,^lgere curam mei finis.^pLacrimósa dies illa,^lqua resúrget ex favílla^liudicándus homo reus:^lhuic ergo parce, Deus!^pPie Iesu, Dómine,^ldona eis réquiem. Amen."
-        }]
-    },
-    "Kirchweihe": {
-        second: [{
-            patr_autor: "Augustinus († 430)",
-            patr_werk: "Aus einer Predigt zur Weihe einer Kirche. (Sermo°336^v,1.6^0v)",
-            patr_text: "^hDer°Aufbau°und°die°Weihe des°Hauses°Gottes°in°uns^pWir sind hier versammelt, um ein Haus des Gebets feierlich zu weihen. Dies hier ist also ein Haus für unser Beten; Haus Gottes dagegen sind wir selbst. Wenn wir selbst Haus Gottes sind, werden wir in dieser Welt aufgebaut, um am Ende der Zeiten geweiht zu werden. Das Bauwerk, vor allem das Bauen, bringt Mühsal, die Weihe Jubel.^pWas hier geschah, als diese Mauern erstanden, ereignet sich nun, da die Christusgläubigen sich versammeln. Im Glauben werden sozusagen in den Wäldern die Hölzer gefällt und in den Bergen die Steine gebrochen. Werden aber die Glaubenden unterrichtet, getauft und herangebildet, ist es, als würden sie von den Händen der Zimmerleute und Steinmetzen behauen, gerichtet und geglättet.^pAber sie werden nicht zum Haus des Herrn, wenn sie nicht durch die Liebe verbunden werden. Wenn diese Hölzer und Steine nicht nach einem bestimmten Bauplan miteinander zusammenhingen, wenn sie nicht friedlich ineinandergefügt wären, wenn sie einander nicht gewissermaßen lieb hätten, niemand würde hier eintreten. Wenn du jedoch siehst, dass in einem Gebäude Hölzer und Steine gut miteinander zusammenhängen, trittst du unbesorgt ein und fürchtest keinen Einsturz.^pAls darum Christus der Herr eintreten und in uns wohnen wollte, sagte er gewissermaßen als Baumeister: „Ein neues Gebot gebe ich euch: Liebet einander“ {1#Joh 13, 34}. Ich gebe euch ein Gebot, sagt er: Ihr wart alt, bautet mir noch kein Haus, lagt in Trümmern. Nun liebt einander, damit ihr aus eurer alten Trümmerstätte herauskommt.^pDenkt also daran, meine Lieben, dass dieses Haus auf der ganzen Erde gebaut wird; so ist es vorausgesagt und versprochen. Denn als der Tempel nach der Gefangenschaft erbaut wurde, hieß es, wie in einem andern Psalm steht: „Singt dem Herrn ein neues Lied, singt dem Herrn, alle Lande“ {2#Ps 96, 1}.^pWas dort hieß „neues Lied“, hieß beim Herrn „neues Gebot“. Denn was soll „neues Lied“, wenn nicht „neue Liebe“?! Wer liebt, muss singen. Dieses Sängers Stimme ist das Feuer heiliger Liebe.^pWas wir in diesen Wänden leiblich vollbracht sehen, geschehe geistig in den Herzen, und was wir hier vollendet sehen in Stein und Holz, möge, erbaut von Gottes Gnade, in eurem Leib vollendet werden.^pIn erster Linie wollen wir also dem Herrn, unserem Gott, danken, von dem jede gute Gabe und jedes vollkommene Geschenk kommt {3#Jak 1, 17}. Seine Güte wollen wir mit der ganzen Freudigkeit des Herzens loben, weil er für den Bau dieses Hauses des Gebets den Geist seiner Gläubigen besucht, ihr Herz angespornt, ihre Mühen hilfreich mitgetragen hat.^pAls sie noch nicht wollten, hat er sie zum Wollen erweckt. Die Regungen ihres guten Wollens hat er unterstützt zum Vollbringen. So hat Gott, der in den Seinen „das Wollen und das Vollbringen nach seinem Wohlgefallen wirkt“ {4#Phil 2,13 Vg}, dies alles selbst begonnen und selbst vollendet {5#vgl. Phil 1,6}.",
-            patr_resp1: "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!",
-            patr_resp2: "Meine Seele verlangt und sehnt sich nach den Vorhöfen des Herrn.^Ö",
-            patr_resp3: "Selig, die in deinem Hause wohnen, die dich allezeit loben.",
-        }]
-    },
-    "VerstLesehore": {
-        first: [
-            {
-                les_buch: "Aus dem ersten Brief an die Korinther.",
-                les_stelle: "15,35-57",
-                les_text: "^hDie°Auferstehung°der°Toten und°das°Kommen°des°Herrn^pEs könnte einer fragen: Wie werden die Toten auferweckt, was für einen Leib werden sie haben? Was für eine törichte Frage! Auch das, was du säst, wird nicht lebendig, wenn es nicht stirbt. Und was du säst, hat noch nicht die Gestalt, die entstehen wird; es ist nur ein nacktes Samenkorn, zum Beispiel ein Weizenkorn oder ein anderes. Gott gibt ihm die Gestalt, die er vorgesehen hat, jedem Samen eine andere.^pAuch die Lebewesen haben nicht alle die gleiche Gestalt. Die Gestalt der Menschen ist anders als die der Haustiere, die Gestalt der Vögel anders als die der Fische.^pAuch gibt es Himmelskörper und irdische Körper. Die Schönheit der Himmelskörper ist anders als die der irdischen Körper. Der Glanz der Sonne ist anders als der Glanz des Mondes, anders als der Glanz der Sterne; denn auch die Gestirne unterscheiden sich durch ihren Glanz.^pSo ist es auch mit der Auferstehung der Toten. Was gesät wird, ist verweslich, was auferweckt wird, unverweslich. Was gesät wird, ist armselig, was auferweckt wird, herrlich. Was gesät wird, ist schwach, was auferweckt wird, ist stark. Gesät wird ein irdischer Leib, auferweckt ein überirdischer Leib.^pWenn es einen irdischen Leib gibt, gibt es auch einen überirdischen. So steht es auch in der Schrift: Adam, der Erste Mensch, wurde ein irdisches Lebewesen. Der Letzte Adam wurde lebendig machender Geist. Aber zuerst kommt nicht das Überirdische; zuerst kommt das Irdische, dann das Überirdische.^pDer Erste Mensch stammt von der Erde und ist Erde; der Zweite Mensch stammt vom Himmel. Wie der von der Erde irdisch war, so sind es auch seine Nachfahren. Und wie der vom Himmel himmlisch ist, so sind es auch seine Nachfahren. Wie wir nach dem Bild des Irdischen gestaltet wurden, so werden wir auch nach dem Bild des Himmlischen gestaltet werden.^pDamit will ich sagen, Brüder: Fleisch und Blut können das Reich Gottes nicht erben; das Vergängliche erbt nicht das Unvergängliche.^pSeht, ich enthülle euch ein Geheimnis: Wir werden nicht alle entschlafen, aber wir werden alle verwandelt werden – plötzlich, in einem Augenblick, beim letzten Posaunenschall. Die Posaune wird erschallen, die Toten werden zur Unvergänglichkeit auferweckt, wir aber werden verwandelt werden. Denn dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit. Wenn sich aber dieses Vergängliche mit Unvergänglichkeit bekleidet und dieses Sterbliche mit Unsterblichkeit, dann erfüllt sich das Wort der Schrift:^pVerschlungen ist der Tod vom Sieg.^lTod, wo ist dein Sieg?^lTod, wo ist dein Stachel?^pDer Stachel des Todes aber ist die Sünde,^ldie Kraft der Sünde ist das Gesetz.^lGott aber sei Dank, der°uns°den°Sieg°geschenkt°hat^ldurch Jesus Christus, unseren Herrn.",
-                resp1: "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
-                resp2: "Der letzte Feind, der vernichtet wird, ist der Tod.",
-                resp3: "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und der Tod und die Totenwelt werden in den Feuersee geworfen.",
-            },
-            {
-                les_buch: "Aus dem zweiten Brief an die Korinther.",
-                les_stelle: "4,16b – 5,10",
-                les_text: "^hWenn°unser°irdisches°Zelt abgebrochen°wird, dann°haben°wir ein°ewiges°Haus°im°Himmel^pWenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde.^pGott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben. Wir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.^pDeswegen suchen wir unsere Ehre darin, ihm zu gefallen, ob wir daheim oder in der Fremde sind. Denn wir alle müssen vor dem Richterstuhl Christi offenbar werden, damit jeder seinen Lohn empfängt für das Gute oder Böse, das er im irdischen Leben getan hat.",
-                resp1: "Herr, richte mich nicht nach meinem Tun, denn meine Taten können vor dir nicht bestehen. Darum flehe ich zur dir:",
-                resp2: "Herr, tilge all meine Frevel.",
-                resp3: "Gott, wasche meine Schuld von mir ab und mache mich rein von meiner Sünde.",
-            }
-        ],
-        second: [{
-            patr_autor: "Braulio von Saragossa († um 651)",
-            patr_werk: "Aus einem Brief.",
-            patr_text: "^hDer°auferstandene°Christus ist°die°Hoffnung°aller°Gläubigen^pChristus ist die Hoffnung aller Gläubigen. Er nennt alle, die aus der Welt scheiden, Schlafende, nicht Tote. Denn er sagt: „Lazarus, unser Freund, schläft“ {1#Joh 11,11}.^pAuch der Apostel will nicht, dass wir über die Entschlafenen trauern {2#1 Thess 4,13}.^pWenn wir glauben, dass alle Christgläubigen nach dem Evangelium „in Ewigkeit nicht sterben“ {3#Joh 11,26}, dann wissen wir das durch den Glauben, dass Christus nicht gestorben ist und dass auch wir nicht sterben.^p„Der Herr selbst wird vom Himmel herabkommen, wenn der Befehl ergeht, der Erzengel ruft und die Fanfare Gottes erschallt; und die Toten, die in Christus sind, werden auferstehen“ {4#1 Thess 4,16}.^pDie Hoffnung, dass wir auferstehen, soll uns Mut machen; denn was wir hier verlieren, werden wir dort wiedersehen. So wichtig ist es, fest an Gott zu glauben und seine Gebote zu halten, da er doch alle Kraft besitzt und leichter einen Toten erweckt, als wir einen Schlafenden.^pSo sagen wir. Und doch werden wir im Widerspruch dazu von einer Gemütsbewegung zu Tränen übermannt, und die Sehnsucht des Gemüts bricht die Kraft des gläubigen Geistes. Ach, wie elend ist der Mensch! Ohne Christus ist unser ganzes Leben sinnlos.^pO Tod, du trennst, was verbunden ist, und grausam reißt du auseinander, was in Freundschaft vereint ist! Aber deine Kraft ist schon gebrochen. Zerbrochen ist dein unheilvolles Joch durch ihn, der dir bereits durch Hosea drohte: „O Tod, ich werde dein Tod sein!“ {5#Hos 13,14 Vg} Darum verspotten wir ihn mit dem Apostel: „Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“ {6#1 Kor 15,50}^pEr, der dich besiegt hat, hat uns erlöst. Er gab seinen Herzensliebiling in die Hand der Gottlosen {7#vgl. Jer 12,7}, um aus den Gottlosen Freunde zu machen. In langer Aufzählung wäre vieles aus der Heiligen Schrift zum allgemeinen Trost heranzuziehen. Uns genüge die Hoffnung, dass wir auferstehen, und die Herrlichkeit des Erlösers, auf die sich unser Auge richtet. Wie wir glauben, sind wir in ihm schon auferstanden, da der Apostel sagt: „Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden“ {8#Röm 6,8}.^pDenn wir gehören uns nicht selbst, sondern ihm, der uns erlöst hat, von dessen Willen unser Wille stets abhängig sein muss; deswegen sagen wir im Gebet: „Dein Wille geschehe!“ {9#Mt 6,10} Darum müssen wir beim Begräbnis mit Ijob sprechen: „Der Herr hat gegeben, der Herr hat genommen; gelobt sei der Name des Herrn!“ {10#Ijob 1,21} So wollen wir hier mit Ijob sprechen, damit sich dort zeigt, wie ähnlich wir ihm in unserer gegenwärtigen Lage sind.",
-            patr_resp1: "Über die Verstorbenen sollt ihr nicht trauern wie die anderen, die keine Hoffnung haben.",
-            patr_resp2: "Wenn Jesus – und das ist unser Glaube – gestorben und auferstanden ist, dann wird Gott durch Jesus auch die Verstorbenen zusammen mit ihm zur Herrlichkeit führen.",
-            patr_resp3: "Weint nicht um den Toten und beklagt ihn nicht."
-        }]
-    },
-    "VerstVesper": {
-        first: [{
-            resp1: "Herr, in deinem Erbarmen",
-            resp2: "gib ihnen ewige Ruhe.",
-            resp3: "Du wirst kommen in Herrlichkeit, zu richten die Lebenden und die Toten,",
-            resp1_lat: "In misericórdia tua, Dómine,",
-            resp2_lat: "dona eis réquiem.",
-            resp3_lat: "Qui ventúrus es iudicáre vivos et mórtuos,"
-        }]
-    },
-    "MariaSaLh": {
-        second: [
-            {
-                patr_autor: "Guerricus (Werricho von Igny) († 1157)",
-                patr_werk: "Aus einer Predigt zu Mariä Aufnahme in den Himmel.",
-                patr_text: "^hMaria,°die°Mutter°Christi und°die°Mutter°der°Christen^pEinen einzigen Sohn hat Maria geboren. Wie dieser im Himmel der einzige Sohn des Vaters ist, so ist er auf Erden der einzige Sohn seiner Mutter. Sie, die einzige Jungfrau-Mutter, die sich rühmen darf, des Vaters einzigen Sohn geboren zu haben, umfängt diesen, ihren einzigen Sohn, in all seinen Gliedern. Sie scheut sich nicht, Mutter all derer genannt zu werden, in denen sie erkennt, dass ihr Christus schon Gestalt angenommen hat oder annimmt.^pDie Urmutter Eva war weniger eine Mutter als eine Stiefmutter: Sie gab ihre Kinder dem Tode preis, noch bevor diese das Licht des Tages erblickten. Sie heißt zwar „Mutter aller Lebenden“{1#Gen 3,20}, doch in Wirklichkeit ist sie die Mörderin der Lebenden oder die Gebärerin der Sterbenden, denn ihr Gebären ist nichts anderes als ein Gebären zum Tod.^pWeil Eva ihren Namen nicht wahrzumachen vermochte, hat Maria den geheimnisvollen Sinn dieses Namens verwirklicht. Denn wie die Kirche, deren Vorbild sie ist, ist sie die Mutter aller, die zum Leben wiedergeboren werden. Sie ist in Wahrheit die Mutter derer, die das Leben haben, denn indem sie das Leben selber gebar, hat sie in gewisser Weise allen, die von diesem Leben leben sollten, das neue Leben geschenkt.^pAufgrund dieses Geheimnisses erkennt sich die selige Mutter Christi als die Mutter der Christen; sie erweist sich auch als deren Mutter durch ihre Fürsorge und ihre liebevolle Zuneigung. Sie ist niemals hart gegenüber ihren Kindern, so als wären sie nicht ihr eigen. Denn ihr Schoß, der zwar nur einmal ein Kind getragen hat, blieb auch nachher nicht ohne Frucht, niemals hörte er auf, Früchte des Erbarmens zu gebären.^pWenn schon Paulus, der Knecht Christi, immer wieder neuen Kindern das Leben schenkt, erfüllt vom brennenden Verlangen, dass Christus in ihnen Gestalt gewinne{2#vgl. Gal 4,19}, um wie viel mehr Maria, die Mutter Christi. Paulus schenkte ihnen das Leben, indem er ihnen das Wort der Wahrheit verkündete, durch das sie wiedergeboren wurden. Maria aber schenkte ihnen das Leben auf eine Gott ähnlichere und weit heiligere Weise, indem sie das göttliche Wort selber gebar. An Paulus lobe ich den Dienst der Verkündigung, an Maria aber bewundere und verehre ich das Geheimnis ihrer Mutterschaft.^pBedenkt nun, ob nicht auch die Kinder ihrerseits ganz offensichtlich ihre Mutter erkennen: Getrieben von einem gleichsam angeborenen Vertrauen, rufen sie in allen möglichen Gefahren zuerst und ganz besonders ihren Namen an und flüchten sich zu ihr wie die Kleinen in die Arme ihrer Mutter. Deshalb halte ich es nicht für abwegig, dass auf diese Kinder angewandt werden kann, was durch den Propheten verheißen ist: „Deine Kinder werden in dir wohnen“, ohne zu übersehen, dass diese Verheißung in erster Linie von der Kirche gilt.^pDenn schon jetzt wohnen wir im Schutz der Mutter des Allerhöchsten, wir sind unter ihrer Obhut geboren, gleichsam „im Schatten ihrer Flügel“. Dereinst werden wir durch die Teilhabe an ihrer Herrlichkeit Ruhe finden in ihren Armen. Dann werden alle sich freuen und wie aus einem Munde ihrer Mutter zurufen: Wir alle freuen uns, denn „unsere Wohnstatt ist in dir“, heilige Mutter Gottes.",
-                patr_resp1: "Das Kind, das Maria erwartet, ist vom Heiligen Geist; sie wird einen Sohn gebären.",
-                patr_resp2: "Er wird sein Volk von seinen Sünden erlösen.",
-                patr_resp3: "Seine Macht wird reichen bis an die Grenzen der Erde, und er wird der Friede sein."
-            },
-            {
-                patr_autor: "Johannes Chrysostomus († 407)",
-                patr_werk: "Aus einer Homilie zum Karfreitag.",
-                patr_text: "^hAdam°und°Christus, Eva°und°Maria^pHast du den staunenswerten Sieg gesehen? Hast du die herrlichen Tage des Kreuzes gesehen? Soll ich dir sagen, was noch wunderbarer ist? Achte auf die Art und Weise, wie der Sieg errungen wurde, und du wirst noch mehr staunen. Das nämlich, wodurch der Teufel einst gesiegt hat, genau dadurch hat Christus über ihn gesiegt. Mit seinen eigenen Waffen hat er ihn geschlagen. Höre, wie das geschah:^pEine Jungfrau, ein Holz und der Tod, das waren die Symbole der Niederlage. Die Jungfrau war Eva, denn noch hatte sie keinen Mann erkannt; das Holz war ein Baum; der Tod war die Strafe, die über Adam verhängt war.^pDoch siehe, die Jungfrau, das Holz und der Tod, diese Symbole der Niederlage, sind zu Zeichen des Sieges geworden. An die Stelle Evas trat Maria, an die Stelle des Holzes der Erkenntnis von Gut und Böse trat das Holz des Kreuzes; an die Stelle des Todes Adams ist Christi Tod getreten.^pSiehst du, dass der Teufel mit den gleichen Waffen besiegt wurde, mit denen er gesiegt hatte? Unter dem Baum hat der Teufel den Adam zu Fall gebracht; am Kreuz hat Christus den Teufel bezwungen. Jenes Holz schickte zur Unterwelt; dieses aber führte sogar die aus der Unterwelt zurück, die dorthin bereits hinabgestiegen waren.^pDer eine Baum versteckte den gefallenen Menschen, der sich seiner Nacktheit schämte{1#vgl. Gen 3,8}; der andere Baum hat vor aller Augen einen nackten Menschen als Sieger erhöht.^pJener Tod verdammte alle, die nach ihm geboren wurden, dieser aber erweckte von den Toten, sogar jene, die vor ihm geboren waren.^p„Wer wird die Großtaten des Herrn verkünden?“{2#Ps 106,2} Sein Sterben hat uns unsterblich gemacht: Das sind die wunderbaren Werke des Kreuzes. Begreifst du diesen Sieg! Begreifst du, wie er zustande kam?^pHöre nun, wie dieser Sieg ohne unsere Mühen und unseren Schweiß errungen wurde. Wir haben keine Waffen mit Blut gerötet, wir haben in keiner Schlachtreihe gestanden, uns wurden keine Wunden geschlagen, wir haben keinen Krieg gesehen und doch den Sieg davongetragen. Des Herrn war der Kampf, unser ist die Krone.^pDa dieser Sieg auch unser Sieg ist, so lasst uns, den Kriegern gleich, heute mit freudiger Stimme Siegeslieder singen; lasst uns den Herrn preisen, indem wir rufen: „Verschlungen ist der Tod im Sieg. Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“{#1 Kor 15,55}^pDas sind die herrlichen Werke, die das Kreuz vollbracht hat zu unserem Heil; das Kreuz ist das Siegeszeichen, aufgerichtet gegen die Dämonen; es ist das gegen die Sünde gezückte Schwert, das Schwert, mit dem Christus die Schlange durchbohrt hat. Das Kreuz ist der Wille des Vaters, der Ruhm des Eingeborenen, die Freude des Heiligen Geistes, die Zierde der Engel, die Sicherheit der Kirche, der Stolz des Paulus{#vgl. Gal 6,14}, das Bollwerk der Heiligen, ein Licht für die ganze Welt.",
-                patr_resp1: "Der Herr überhäuft mit Ehren, wen er will,",
-                patr_resp2: "damit die Tugend die Sünde zudeckt, die Gnade die Schuld.",
-                patr_resp3: "Vom Dornbusch kommt die Rose, von Eva kam Maria."
-            },
-            {
-                patr_autor: "II. Vatikanisches Konzil (1962–1965)",
-                patr_werk: "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
-                patr_text: "^hDie°selige°Jungfrau°und°die°Kirche^pDie selige Jungfrau ist durch das Geschenk und die Aufgabe der göttlichen Mutterschaft, durch die sie mit ihrem Sohn und Erlöser vereint ist, und durch ihre einzigartigen Gnaden und Gaben auch mit der Kirche auf das innigste verbunden. Die Gottesmutter ist, wie schon der heilige Ambrosius lehrte, der Typus der Kirche unter der Rücksicht des Glaubens, der Liebe und der vollkommenen Einheit mit Christus.^pIm Geheimnis der Kirche, die ja auch selbst mit Recht Mutter und Jungfrau genannt wird, ist die selige Jungfrau Maria vorangegangen, da sie in hervorragender und einzigartiger Weise das Urbild sowohl der Jungfrau wie der Mutter darstellt. Im Glauben und Gehorsam gebar sie den Sohn des Vaters auf Erden, und zwar ohne einen Mann zu erkennen, vom Heiligen Geist überschattet, als neue Eva, die nicht der alten Schlange, sondern dem Boten Gottes einen von keinem Zweifel verfälschten Glauben schenkte. Sie gebar aber einen Sohn, den Gott gesetzt hat zum Erstgeborenen unter vielen Brüdern {1#Röm 8,29}. Mit mütterlicher Liebe wirkt sie mit bei deren Geburt und Erziehung in mütterlicher Liebe mit.^pNun aber wird die Kirche, indem sie Marias geheimnisvoll Heiligkeit betrachtet, ihre Liebe nachahmt und den Willen des Vaters getreu erfüllt, durch die gläubige Annahme des Wortes Gottes auch selbst Mutter: Durch Predigt und Taufe nämlich gebiert sie die vom Heiligen Geist empfangenen und aus Gott geborenen Kinder zum neuen und unsterblichen Leben. Auch sie ist Jungfrau, da sie das Treuewort, das sie dem Bräutigam gegeben hat, unversehrt und rein bewahrt und in Nachahmung der Mutter ihres Herrn in der Kraft des Heiligen Geistes jungfräulich einen unversehrten Glauben, eine feste Hoffnung und eine aufrichtige Liebe bewahrt.^pWährend aber die Kirche in der seligsten Jungfrau schon zur Vollkommenheit gelangt ist, in der sie ohne Makel und Runzel ist {2#vgl. Eph 5,27}, bemühen sich die Christgläubigen noch, die Sünde zu besiegen und in der Heiligkeit zu wachsen. Daher richten sie ihre Augen auf Maria, die der ganzen Gemeinschaft der Auserwählten als Urbild der Tugenden voranleuchtet. Indem die Kirche über Maria in frommer Erwägung nachdenkt und sie im Licht des menschgewordenen Wortes betrachtet, dringt sie verehrend in das erhabene Geheimnis der Menschwerdung tiefer ein und wird ihrem Bräutigam mehr und mehr gleichgestaltet.^pDenn Maria vereinigt, da sie zuinnerst in die Heilsgeschichte eingegangen ist, gewissermaßen die größten Glaubensgeheimnisse in sich und strahlt sie wider. Daher ruft ihre Verkündigung und Verehrung die Gläubigen hin zu ihrem Sohn und seinem Opfer und zur Liebe des Vaters.^pDie Kirche aber wird, um die Ehre Christi zu mehren, ihrem erhabenen Typus ähnlicher durch dauerndes Wachstum in Glaube, Hoffnung und Liebe und durch das Suchen und Befolgen des Willens Gottes in allem.^pDaher blickt die Kirche auch in ihrem apostolischen Wirken mit Recht zu ihr auf, die Christus geboren hat, der dazu vom Heiligen Geist empfangen und von der Jungfrau geboren wurde, dass er durch die Kirche auch in den Herzen der Gläubigen geboren werde und wachse. Diese Jungfrau war in ihrem Leben das Beispiel jener mütterlichen Liebe, von der alle beseelt sein müssen, die in der apostolischen Sendung der Kirche zur Wiedergeburt der Menschen mitwirken.",
-                patr_resp1: "Durch Maria, die Jungfrau, ist allen, die glauben, das Heil der Welt erschienen.",
-                patr_resp2: "Ihr ruhmreiches Leben erleuchtet die ganze Kirche.",
-                patr_resp3: "Lasst uns voll Ehrfurcht das Gedächtnis der seligen Jungfrau Maria feiern."
-            },
-            { group: "Lesungen aus den Commune-Texten zur°Auswahl°…", },
-            {
-                patr_autor: "Sophronius von Jerusalem († 638)",
-                patr_werk: "Aus einer Rede über die Verkündigung des Herrn.",
-                patr_text: "^hDurch°Maria°ist°den°Menschen der°Segen°des°Vaters°aufgeleuchtet^p„Sei gegrüßt, du Begnadete, der Herr ist mit dir“ {1#Lk 1,28}. Jungfrau Mutter, welche Freude könnte für dich größer sein als diese? Welche Gnade großartiger als die, welche allein dir von Gott zuerkannt wurde? Oder was ließe sich Beglückenderes und Leuchtenderes erdenken? Alles ist weit entfernt von dem Wunder, das wir in dir schauen; alles liegt unter deiner Begnadung. Ihr steht alles andere nach, auch das Höchstgeschätzte; von diesem Glanz wird alles weit überstrahlt.^p„Der Herr ist mit dir“: Wer könnte dir da den Rang streitig machen wollen? Gott aus dir: Wer wird vor dir nicht zur Seite treten und dir mit freudem Vortritt und Vorrang lassen?^pIch sehe deinen Vorrang über alle Geschöpfe und rufe dir mit höchstem Lobpreis zu: „Sei gegrüßt, du Begnadete, der Herr ist mit dir.“ Denn nicht nur den Menschen ist aus dir Freude zuteil geworden; auch die überirdischen Mächte haben sie empfangen.^pWahrhaft „gesegnet bist du unter den Frauen“ {2#Lk 1,42}; denn du hast den Fluch über Eva in Segen verwandelt, hast erwirkt, dass Adam durch dich gesegnet wurde, der zuvor, vom Fluch getroffen, dahingestreckt lag.^pWahrhaft „gesegnet bist du unter den Frauen“; denn durch dich ist über den Menschen der Segen des Vaters aufgeleuchtet und hat sie vom alten Fluch befreit.^pWahrhaft „gesegnet bist du unter den Frauen“; denn durch dich finden deine Ahnen das Heil; du wirst ja den Retter gebären, der ihnen das göttliche Heil bereitet.^pWahrhaft „gesegnet bist du unter den Frauen“; denn ohne Samen hast du jene Frucht gebracht, die dem Erdkreis Segen spendet und ihn von dem Fluch erlöst, der Dornen sprossen ließ.^pWahrhaft „gesegnet bist du unter den Frauen“; denn du, von Natur eine irdische Frau, wirst wahrhaft Gottesmutter sein. Und wenn der, der aus dir geboren wird, in Wahrheit menschgewordener Gott ist, dann nennt man dich mit Fug und Recht Gottesgebärerin, weil du wirklich Gott gebierst.^pDu beherbergst im Gemach deines Schoßes Gott selbst, ihn, der als Mensch in dir wohnt und aus dir hervorgeht wie ein Bräutigam, der allen Freude bereitet und dem All göttliches Licht spendet.^pDenn in dir, Jungfrau, hat Gott wie im reinsten, strahlenden Himmel sein Zelt errichtet. Er wird aus dir hervorgehen wie der Bräutigam aus dem Brautgemach. Einem Giganten gleich wird er im Leben seinen Weg laufen, der für alle Lebenden zum Heil führt und sich vom höchsten Himmel zum höchsten Himmel spannt, um alles mit göttlicher Glut und lebenspendendem Glanz zu erfüllen.",
-                patr_resp1: "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
-                patr_resp2: "Durch dich leuchtet der Segen des Vaters den Menschen auf.",
-                patr_resp3: "Deine Stammväter haben durch dich das Heil gefunden."
-            },
-            {
-                patr_autor: "Aelred von Rievaulx († 1167)",
-                patr_werk: "Aus einer Predigt zu Mariae Geburt.",
-                patr_text: "^hMaria,°unsere°Mutter^pLasst uns hintreten zur Braut Christi, hintreten zu seiner Mutter, hintreten zu seiner besten Magd. All das ist die selige Maria.^pAber was sollen wir ihr tun? Was für Gaben ihr bringen? Könnten wir ihr wenigstens geben, worauf sie von Rechts wegen Anspruch hat? Wir schulden ihr Ehre, schulden ihr Dienst, schulden ihr Liebe, schulden ihr Lob.^pWir schulden ihr Ehre, weil sie die Mutter unseres Herrn ist. Denn wer die Mutter nicht ehrt, versagt ohne Zweifel die Ehre dem Sohn. In der Schrift steht ja: „Ehre deinen Vater und deine Mutter“ {1#Ex 20,1-2}. Was sollen wir da sagen? Ist sie nicht unsere Mutter? Ganz gewiss, Brüder: Sie ist wirklich unsere Mutter. Durch sie sind wir geboren, nicht für die Welt, sondern für Gott. Ihr glaubt und wisst es: Wir waren alle im Tod, im Alter, in Finsternis, im Elend, im Tod, denn wir hatten Gott verloren; im Alter, weil im Zerfall, in der Finsternis, denn wir hatten das Licht der Weisheit verloren und so waren wir ganz und gar untergegangen.^pAber durch die selige Maria sind wir weit besser geboren worden als durch Eva, weil von Maria Christus geboren worden ist. Anstelle des Alters haben wir die Neuheit gewonnen, anstelle des Zerfalls die Unvergänglichkeit, anstelle der Finsternis das Licht.^pUnsere Mutter ist sie, Mutter unseres Lebens, Mutter unserer Unvergänglichkeit, Mutter unseres Lichts. Der Apostel sagt vom Herrn: „Er wurde für uns Weisheit von Gott und Gerechtigkeit und Heiligung und Erlösung“ {2#1 Kor 1,30}. Sie, die Mutter Christi, ist die Mutter unserer Weisheit, Mutter unserer Gerechtigkeit, Mutter unserer Heiligung, Mutter unserer Erlösung. Darum ist sie uns mehr Mutter als unsere leibliche Mutter. Unsere Geburt aus ihr hat höheren Rang; denn aus ihr stammt unsere Heiligkeit, unsere Weisheit, unsere Gerechtigkeit, unsere Heiligung, unsere Erlösung.^pIn der Schrift steht: „Lobt den Herrn in seinen Heiligen“ {3#Ps 150,1 Vg}. Wenn man Gott in jenen Heiligen loben soll, durch die er Machttaten und Wunder schafft, wie sehr muss man ihn dann loben in der Frau, in der er sich selbst geschaffen hat, er, der über alle Wunder wunderbar ist.",
-                patr_resp1: "Selig bist du, heilige Jungfrau Maria, und allen Lobes würdig.",
-                patr_resp2: "Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott und Heiland.",
-                patr_resp3: "In großer Freude feiern wir dein Fest, heilige Jungfrau Maria."
-            },
-            {
-                patr_autor: "II. Vatikanisches Konzil (1962–1965)",
-                patr_werk: "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
-                patr_text: "^hDie°Mutterschaft°Marias in°der°Ordnung°der°Gnade^pDie selige Jungfrau, die von Ewigkeit her zusammen mit der Menschwerdung des göttlichen Wortes als Mutter Gottes vorherbestimmt wurde, war nach dem Ratschluss der göttlichen Vorsehung hier auf Erden die erhabene Mutter des göttlichen Erlösers, in einzigartiger Weise vor anderen seine großmütige Gefährtin und die demütige Magd des Herrn. Indem sie Christus empfing, gebar und nährte, im Tempel dem Vater darstellte und mit ihrem am Kreuz sterbenden Sohn litt, hat sie beim Werk des Erlösers in durchaus einzigartiger Weise in Gehorsam, Glaube, Hoffnung und brennender Liebe mitgewirkt zur Wiederherstellung des übernatürlichen Lebens der Seelen. Deshalb ist sie uns in der Ordnung der Gnade Mutter.^pDiese Mutterschaft Marias in der Gnadenordnung dauert unaufhörlich fort, von der Zustimmung an, die sie bei der Verkündigung gläubig gab und unter dem Kreuz ohne Zögern festhielt, bis zur ewigen Vollendung aller Auserwählten. In den Himmel aufgenommen, hat sie diesen heilbringenden Auftrag nicht aufgegeben, sondern fährt durch ihre vielfältige Fürbitte fort, uns die Gaben des ewigen Heils zu erwirken. In ihrer mütterlichen Liebe trägt sie Sorge für die Brüder ihres Sohnes, die noch auf der Pilgerfahrt sind und in Gefahren und Bedrängnissen weilen, bis sie zur ewigen Heimat gelangen. Deshalb wird die selige Jungfrau in der Kirche unter dem Titel der Fürsprecherin, der Helferin, des Beistandes und der Mittlerin angerufen.^pDas ist so zu verstehen, dass es der Würde und Wirksamkeit Christi, des einzigen Mittlers, nichts abträgt und nichts hinzufügt. Kein Geschöpf nämlich kann mit dem menschgewordenen Wort und Erlöser jemals in einer Reihe aufgezählt werden.^pAm Priestertum Christi nehmen, wenn auch in verschiedener Weise, sowohl die Amtspriester als auch das gläubige Volk teil. Überhaupt ist die eine Gutheit Gottes auf die Geschöpfe in verschiedener Weise ausgegossen. So ist auch Christus zwar der eine und einzige Mittler, aber das schließt nicht aus, dass es im geschöpflichen Bereich eine vielfache und unterschiedliche Teilnahme an dieser einzigen Quelle (dem einzigen Erlöser und Mittler) gibt. Gerade dadurch wird eine so reiche Mitwirkung möglich.^pEine solche untergeordnete Aufgabe Marias zu bekennen, zögert die Kirche nicht, sie erfährt sie auch ständig und legt sie den Gläubigen ans Herz, damit sie unter diesem mütterlichen Schutz dem Mittler und Erlöser inniger anhangen.",
-                patr_resp1: "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
-                patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
-                patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes."
-            },
-            { group: "Lesungen von Mariengedenktagen zur°Auswahl°…", },
-            {
-                patr_autor: "Laurentius Justiniani (†°1455)",
-                patr_werk: "Aus einer Predigt am Fest der Darstellung des Herrn.",
-                bezug: "(vom°Gedenktag°Herz°Mariae)",
-                patr_text: "^hMaria°bewahrte°alles, was°geschehen°war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
-                patr_resp1: "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
-                patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
-                patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
-            },
-            {
-                patr_autor: "Leo der Große (†°461)",
-                patr_werk: "Aus einer Weihnachtspredigt.",
-                bezug: "(vom Gedenktag U.L.Fr.°vom°Berge°Karmel)",
-                patr_text: "^hMaria°empfing°in°ihrem°Geist, bevor°sie°in°ihrem°Leib°empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘{1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘{2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen.^pMit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“{3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
-                patr_resp1: "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
-                patr_resp2: "Heilig ist sein Name.",
-                patr_resp3: "Von Geschlecht zu Geschlecht währt sein Erbarmen über jenen, welche ihn fürchten."
-            },
-            {
-                patr_autor: "Amadeus von Lausanne († 1159)",
-                patr_werk: "Aus einer Homilie über Maria.",
-                bezug: "(vom Gedenktag Maria°Königin)",
-                patr_text: "^hKönigin°der°Welt und Königin°des°Friedens^pSchon vor der Aufnahme Marias in den Himmel erstrahlte ihr Name auf der ganzen Erde, ihr erhabener Ruf verbreitete sich überall, noch bevor ihre Hoheit über die Himmel erhoben wurde{1#vgl.°Ps 8,2 Vg.}. So war es angemessen: um der Ehre ihres Sohnes willen musste die jungfräuliche Mutter zunächst auf der Erde herrschen, dann erst durfte sie den Himmel empfangen; ihr Ruf musste sich zunächst hier unten verbreiten, um dann in heiliger Fülle in die überirdischen Reiche Eingang zu finden; wie sie in dieser Welt getragen wurde von stets wachsender Kraft{2#vgl.°Ps 84,8}, so musste sie auch in der anderen Welt durch den Geist des Herrn getragen werden von Herrlichkeit zu Herrlichkeit.^pAls sie noch im Irdischen lebte, kostete sie bereits die Erstlingsgaben des kommenden Reiches: Bald preist sie die unaussprechliche Hoheit Gottes; bald lässt sie sich in unsagbarer Liebe zu den Mitmenschen herab. Bald dienen ihr die Engel, bald betet sie Gott an durch den Dienst an den Menschen. Gabriel diente ihr mit den Engeln. Johannes freut sich, dass ihm die jungfräuliche Mutter unter dem Kreuz anvertraut wird, und er dient ihr mit den Aposteln. Die einen freuen sich, ihre Königin zu schauen, die anderen, ihre Herrin zu sehen. Alle dienen ihr mit liebender Hingabe.^pJetzt thront sie in der hohen Burg des Himmels. Ein Meer göttlicher Gaben strömt von ihr aus, und sie selber gießt über das dürstende Volk der Gläubigen in verschwenderischer Fülle jene Gnade aus, durch die sie alle überragt. Sie schenkt dem Leib Gesundheit, der Seele Salbung; sie hat die Macht, vom Tod des Leibes und der Seele zu erwecken. Wer ist jemals von ihr gegangen, krank oder traurig, ohne der himmlischen Geheimnisse innezuwerden? Wer kam nicht nach Hause, froh und glücklich, von der Mutter des Herrn erlangt zu haben, was er erbat?^pDie Braut, die Mutter des einzigen Bräutigams, ist überreich an hohem Gut. Gütig und liebenswert ist sie in ihrer Seligkeit, Quelle im Garten des Lebens, Brunnen lebendigen und lebenspendenden Wassers, das machtvoll vom göttlichen Libanon herabfließt. Vom Berg Zion kommt es, bis es draußen alle Völker umfließt: Ströme des Friedens und Bäche der Gnaden, die vom Himmel kommen.^pAls die Jungfrau der Jungfrauen von Gott und ihrem Sohn, dem König der Könige, entrückt wurde, jubelten die Engel, freuten sich die Erzengel, der Himmel brach in Lobrufe aus, und die Weissagung des Psalmisten kam in Erfüllung: „Die Braut steht dir zur Rechten, ihr Gewand ist durchwirkt mit Gold und Perlen.“{3#Ps 45,10.14}",
-                patr_resp1: "Ein großes Zeichen erschien im Himmel; eine Frau mit der Sonne bekleidet, der Mond zu ihren Füßen,",
-                patr_resp2: "auf ihrem Haupt eine Krone von zwölf Sternen.",
-                patr_resp3: "Die Königin steht dir zur Rechten im golddurchwirkten Gewand."
-            },
-            {
-                patr_autor: "Bernhard von Clairvaux († 1153)",
-                patr_werk: "Aus einer Rede über Mariä Namen.",
-                bezug: "(vom Gedenktag Mariae Namen)",
-                patr_text: "^hUnd°der°Name°der°Jungfrau°war°Maria: Stern°des°Meeres^p„Der Name der Jungfrau“, sagt der Evangelist, „war Maria“{1#Lk 1,27}. Wir wollen ein wenig über diesen Namen sprechen. Er heißt übersetzt: Stern des Meeres und eignet sich sehr wohl für die Jungfrau-Mutter. Sehr zutreffend nämlich ist sie einem Stern vergleichbar.^pWie der Stern ohne Einbuße seiner selbst seinen Strahl aussendet, so hat sie als Jungfrau den Sohn geboren, ohne dass ihre Jungfräulichkeit gemindert wurde. Der Strahl mindert nicht des Sternes Helligkeit, so auch nicht der Sohn die Unversehrtheit der Jungfrau.^pSie ist jener hehre Stern, aufgegangen aus Jakob, dessen Strahl die ganze Welt erleuchtet, dessen Glanz die Himmel überstrahlt, die Tiefen durchdringt und alle Lande erhellt. Er erwärmt mehr den Geist als den Körper, lässt die Tugenden reifen und verbrennt die Laster. Sie ist, sage ich, jener herrliche, auserlesene Stern, unendlich erhoben über das weite Meer, strahlend durch Verdienste, leuchtend als Vorbild.^pWenn du erfährst, dass dieses Erdenleben mehr ein Dahintreiben in Wellen, Wind und Wetter ist als ein Dahinschreiten auf festem Land: Wende deine Augen nicht ab vom Licht dieses Sternes, damit du nicht untergehst in den Stürmen.^lWenn die Sturmwinde der Versuchungen daherbrausen, wenn du zwischen die Klippen der Drangsale verschlagen wirst, blick auf zum Stern, ruf zu Maria!^lWenn dich emporschleudern Wogen des Stolzes, des Ehrgeizes, der Verleumdung, der Eifersucht – blick auf zum Stern, ruf zu Maria!^lWenn Zorn, Habsucht oder die Begierde des Eleisches deine Seele erschüttern – blick auf zu Maria!^lWenn dich die Last der Sünden drückt und die Schmach des Gewissens beschämt, wenn dich die Strenge des Gerichtes schreckt, wenn du drohst von abgrundtiefer Traurigkeit und Verzweiflung verschlungen zu werden – denk an Maria!^pIn Gefahren, in Ängsten, in Zweifeln – denk an Maria, ruf zu Maria! Ihr Name weiche nicht aus deinem Munde, weiche nicht aus deinem Herzen!^pDamit du aber ihre Hilfe und Fürbitte erlangest, vergiss nicht das Vorbild ihres Wandels!^lFolge ihr, und du wirst nicht vom Wege weichen.^lBitte sie, und niemals bist du hoffnungslos.^lDenk an sie, dann irrst du nicht.^lHält sie dich fest, wirst du nicht fallen.^lSchützt sie dich, dann fürchte nichts.^lFührt sie dich, wirst du nicht müde.^pIst sie dir gnädig, dann kommst du ans Ziel und wirst selbst erfahren, wie richtig es heißt: Und der Name der Jungfrau war Maria – Stern des Meeres.",
-                patr_resp1: "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
-                patr_resp2: "Durch dich leuchtet die Huld des Vaters den Menschen auf.",
-                patr_resp3: "Die vor dir waren, haben durch dich das Heil gefunden."
-            },
-            {
-                patr_autor: "Bernhard von Clairvaux († 1153)",
-                patr_werk: "Aus einer Predigt über den Aquädukt.",
-                bezug: "(vom Gedenktag U.L.Fr.°vom°Rosenkranz)",
-                patr_text: "^hWir sollen die Geheimnisse des Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}. Der Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 Vg.} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten{11#vgl.°Ps 88,6 röm.} in der Welt des Todes sich als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt  {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
-                patr_resp1: "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
-                patr_resp2: "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
-                patr_resp3: "Sei gegrüßt, du Gnadenvolle, der Herr ist mit dir."
-            },
-            {
-                patr_autor: "Augustinus († 430)",
-                patr_werk: "Aus einer Predigt über Maria als Vorbild christlichen Glaubens.",
-                bezug: "(vom Gedenktag U.L.Fr.°von°Jerusalem)",
-                patr_text: "^hIm°Glauben°vertraute°sie, im°Glauben°empfing°sie^pAchtet darauf, was Christus der Herr gesagt hat: „er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50} Handelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie, die im Glauben vertraute und im Glauben empfing; sie, die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie, die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde? Ja, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28} Auch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte. Christus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria ein Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch ein Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied. Der Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
-                patr_resp1: "Der Herr hat mich bekleidet mit dem Gewand des Heiles, das Kleid der Freude hat er mir angelegt.",
-                patr_resp2: "Er hat mich mit einer Krone geschmückt wie eine Braut.",
-                patr_resp3: "Mit einem Gewand, aus Gold gewoben, hat der Herr mich bekleidet, mit unschätzbarem Geschmeide hat er mich geziert."
-            },
-        ]
-    },
-    "MariaSaLd": {
-        first: [
-            {
-                les_buch: "Jes",
-                les_stelle: "61,10ab",
-                les_text: "Von Herzen will ich mich freuen über den Herrn. Meine Seele soll jubeln über meinen Gott. Denn er kleidet mich in Gewänder des Heils, er hüllt mich in den Mantel der Gerechtigkeit.",
-                resp1: "Von Anbeginn hat der Herr sie erwählt,",
-                resp2: "vor allen hat er sie erkoren.",
-                resp3: "In seinem Zelt lässt er sie wohnen.",
-                les_text_lat: "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me, quasi sponsam ornátam monílibus suis.",
-                resp1_lat: "Elégit eam Dóminus,",
-                resp2_lat: "et°præelégit°eam.",
-                resp3_lat: "In tabernáculo suo habitáre facit eam._lat"
-            },
-            {
-                les_buch: "Offb",
-                les_stelle: "12,1",
-                les_text: "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond war unter ihren Füßen und ein Kranz von zwölf Sternen auf ihrem Haupt.",
-                resp1: "Gegrüßet seist du, Maria,",
-                resp2: "du bist voll der Gnade.",
-                resp3: "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
-                les_text_lat: "Signum magnum appáruit in cælo: múlier amícta sole, et luna sub pédibus eius, et super caput eius coróna stellárum duódecim.",
-                resp1_lat: "Ave, María, grátia plena;",
-                resp2_lat: "Dóminus°tecum.",
-                resp3_lat: "Benedícta tu in muliéribus, et benedíctus fructus ventris tui._lat"
-            },
-        ],
-    },
-    "vigil-So-8": {
-        first: [
-            { les_stelle: "^Q:Joh 21,1-14", },
-        ],
-    },
-    "vigil-w-1-0": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 2,13-15.19-23", },
-            { excludeYear: "b", les_stelle: "^Q:Lk 2,22-40", },
-            { excludeYear: "b", les_stelle: "^Q:Lk 2,22.39-40", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 2,41-52", },
-        ],
-    },
-    "vigil-40": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 3,16-18", },
-            { excludeYear: "b", les_stelle: "^Q:Mt 28,16-20", },
-            { excludeYear: "c", les_stelle: "^Q:Joh 16,12-15", },
-        ],
-    },
-    "vigil-44": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 6,51-58", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 14,12-16.22-26", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 9,11b-17", },
-        ],
-    },
-    "vigil-45": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 11,25-30", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 19,31-37", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 15,3-7", },
-        ],
-    },
-    "vigil-o-6-4": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 28,16-20", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 16,15-20", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 24,46-53", },
-        ],
-    },
-    "vigil-j-34-0": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 25,31-46", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 18,33b-37", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 23,35b-43", },
-        ],
-    },
-    "vigil-01-06": {
-        first: [
-            { les_stelle: "^Q:Joh 1,1-18", },
-            { les_stelle: "^Q:Joh 2,1-11", },
-        ],
-    },
-    "vigil-02-02": {
-        first: [
-            { les_stelle: "^Q:Joh 1,1-18", },
-            { les_stelle: "^Q:Joh 3,16-21", },
-            { excludeYear: "!so", les_stelle: "^Q:Lk 24,13-35", },
-        ],
-    },
-    "vigil-03-19": {
-        first: [
-            { les_stelle: "^Q:Mt 1,16.18-21.24a", },
-            { les_stelle: "^Q:Lk 2,41-51a", },
-        ],
-    },
-    "vigil-06-24": {
-        first: [
-            { les_stelle: "^Q:Joh 3,22-30", },
-            { les_stelle: "^Q:Joh 1,29-34", },
-        ],
-    },
-    "vigil-06-29": {
-        first: [
-            { les_stelle: "^Q:Lk 5,1-11", },
-            { les_stelle: "^Q:Joh 6,60-70", },
-        ],
-    },
-    "vigil-08-06": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 9,2-10", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 9,28b-36", },
-            { excludeYear: "!so", les_buch: "^Q:Mk 16,1-20", },
-        ],
-    },
-    "vigil-09-14": {
-        first: [
-            { excludeYear: "!so", les_stelle: "^Q:Joh 21,1-14" },
-        ],
-    },
-    "vigil-11-01": {
-        first: [
-            { les_stelle: "^Q:Mt 5,13-16", },
-            { les_stelle: "^Q:Joh 15,1-8", },
-            { les_stelle: "^Q:Joh 15,9-17", },
-        ],
-    },
-    "vigil-q-1": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 4,1-11", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 1,12-15", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 4,1-13", },
-        ],
-    },
-    "vigil-q-2": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 9,2-10", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 9,28b-36", },
-        ],
-    },
-    "vigil-q-3": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 4,5-42", },
-            { excludeYear: "a", les_stelle: "^Q:Joh 4,5-42k", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 2,13-25", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 13,1-9", },
-        ],
-    },
-    "vigil-q-4": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 9,1-41", },
-            { excludeYear: "a", les_stelle: "^Q:Joh 9,1-41k", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 3,14-21", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 15,1-3.11-32", },
-        ],
-    },
-    "vigil-q-5": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Joh 11,1-45", },
-            { excludeYear: "a", les_stelle: "^Q:Joh 11,1-45k", },
-            { excludeYear: "b", les_stelle: "^Q:Joh 12,20-33", },
-            { excludeYear: "c", les_stelle: "^Q:Joh 8,1-11", },
-        ],
-    },
-    "vigil-q-6-5": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 27,1-2.11-56", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 15,1-41", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 23,1-49", },
-        ],
-    },
-    "vigil-q-6-6": {
-        first: [
-            { excludeYear: "a", les_stelle: "^Q:Mt 27,57-66", },
-            { excludeYear: "b", les_stelle: "^Q:Mk 15,42-47", },
-            { excludeYear: "c", les_stelle: "^Q:Lk 23,50-56", },
-        ],
-    },
-    "vigil-Kirchweihe": {
-        first: [
-            { les_stelle: "^Q:Mt 16,13-19", },
-            { les_stelle: "^Q:Lk 19,1-10", },
-            { les_stelle: "^Q:Joh 2,13-22", },
-            { les_stelle: "^Q:Joh 4,19-24", },
-        ],
-    },
-    "vigil-Maria": {
-        first: [
-            { les_stelle: "^Q:Lk 1,26-38", },
-            { les_stelle: "^Q:Lk 1,39-47", },
-            { les_stelle: "^Q:Joh 19,25-27", },
-            { group: "weitere Evangelien zur Auswahl ..." },
-            { les_stelle: "^Q:Mt 1,1-16.18-23", },
-            { les_stelle: "^Q:Mt 2,13-15.19-23", },
-            { les_stelle: "^Q:Mt 12,46-50", },
-            { les_stelle: "^Q:Lk 2,1-14", },
-            { les_stelle: "^Q:Lk 2,15b-19", },
-            { les_stelle: "^Q:Lk 2,27-35", },
-            { les_stelle: "^Q:Lk 2,41-52", },
-            { les_stelle: "^Q:Lk 11,27-28", },
-            { les_stelle: "^Q:Joh 2,1-11", },
-        ],
-    },
-    "vigil-Märtyrer": {
-        first: [
-            { les_stelle: "^Q:Mt 10,17-22", },
-            { les_stelle: "^Q:Mt 10,28-33", },
-            { les_stelle: "^Q:Mt 10,34-39", },
-            { les_stelle: "^Q:Lk 9,23-26", },
-            { les_stelle: "^Q:Joh 12,24-26", },
-            { les_stelle: "^Q:Joh 15,18-21", },
-            { les_stelle: "^Q:Joh 17,6a.11b-19", },
-        ],
-    },
-    "vigil-Hirten": {
-        first: [
-            { les_stelle: "^Q:Mt 9,35-38", },
-            { les_stelle: "^Q:Mt 16,13-19", bezug: "[Für einen Papst]", },
-            { les_stelle: "^Q:Mt 23,8-12", },
-            { les_stelle: "^Q:Mt 28,16-20", bezug: "[Für Glaubensboten]", },
-            { les_stelle: "^Q:Mk 1,14-20", },
-            { les_stelle: "^Q:Mk 16,15-20", bezug: "[Für Glaubensboten]", },
-            { les_stelle: "^Q:Lk 5,1-11", bezug: "[Für Glaubensboten]", },
-            { les_stelle: "^Q:Lk 10,1-9", },
-            { les_stelle: "^Q:Lk 22,24-30", },
-            { les_stelle: "^Q:Joh 10,11-16", },
-            { les_stelle: "^Q:Joh 15,9-17", },
-            { les_stelle: "^Q:Joh 21,1.15-17", bezug: "[Für einen Papst]", },
-        ],
-    },
-    "vigil-Heilige": {
-        first: [
-            { les_stelle: "^Q:Mt 5,1-12a", },
-            { les_stelle: "^Q:Mt 5,13-16", },
-            { les_stelle: "^Q:Mt 7,21-27", },
-            { les_stelle: "^Q:Mt 11,25-30", },
-            { les_stelle: "^Q:Mt 13,44-46", },
-            { les_stelle: "^Q:Mt 16,24-27", },
-            { les_stelle: "^Q:Mt 18,1-5", },
-            { les_stelle: "^Q:Mt 19,3-12", },
-            { les_stelle: "^Q:Mt 19,27-29", },
-            { les_stelle: "^Q:Mt 22,34-40", },
-            { les_stelle: "^Q:Mt 25,1-13", },
-            { les_stelle: "^Q:Mt 25,14-30", },
-            { les_stelle: "^Q:Mt 25,31-46", },
-            { les_stelle: "^Q:Mk 3,31-35", },
-            { les_stelle: "^Q:Mk 10,13-16", },
-            { les_stelle: "^Q:Mk 10,17-30", },
-            { les_stelle: "^Q:Lk 6,27-38", },
-            { les_stelle: "^Q:Lk 9,57-62", },
-            { les_stelle: "^Q:Lk 10,38-42", },
-            { les_stelle: "^Q:Lk 12,32-34", },
-            { les_stelle: "^Q:Lk 12,35-40", },
-            { les_stelle: "^Q:Lk 14,25-33", },
-            { les_stelle: "^Q:Joh 15,1-8", },
-            { les_stelle: "^Q:Joh 15,9-17", },
-            { les_stelle: "^Q:Joh 17,20-26", },
-        ],
-    },
-    "vigil-Kirchenlehrer": {
-        first: [
-            { les_stelle: "^Q:Mt 5,13-16", },
-            { les_stelle: "^Q:Mt 7,21-29", },
-            { les_stelle: "^Q:Mt 13,47-52", },
-            { les_stelle: "^Q:Mt 23,8-12", },
-            { les_stelle: "^Q:Mk 4,1-10.13-20", },
-            { les_stelle: "^Q:Lk 6,43-45", },
-        ],
-    },
-    "vigil-Jgfr": {
-        first: [
-            { les_stelle: "^Q:Mt 19,3-12", },
-            { les_stelle: "^Q:Mt 25,1-13", },
-            { les_stelle: "^Q:Lk 10,38-42", },
-        ],
-    },
-    "MUSTERsecond": {
-        second: [
-            {
-                patr_autor: "",
-                patr_werk: "",
-                patr_text: "",
-                patr_resp1: "",
-                patr_resp2: "",
-                patr_resp3: ""
-            },
-        ]
-    },
-    "MUSTERresp": {
-        // Wenn nur resp eingetragen ist,
-        // wird der Selector unter der Überschrift RESPONSORIUM angezeigt.
-        // Mit dem ^SLICE-Tag kann der Teil von resp1 abgegrenzt werden,
-        // der im Button angezeigt wird.
-        first: [
-            {
-                resp1: "^SLICE",
-                resp2: "",
-                resp3: ""
-            },
-        ],
-        second: [
-            {
-                patr_resp1: "^SLICE",
-                patr_resp2: "",
-                patr_resp3: ""
-            },
-        ]
-    },
-    "MUSTER": {
-        first: [
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                resp1: "",
-                resp2: "",
-                resp3: ""
-            }, // Eine weitere alternative Erste Lesung kann hier ergänzt werden
-        ],
-        second: [
-            {
-                patr_autor: "",
-                patr_werk: "",
-                patr_text: "",
-                patr_resp1: "",
-                patr_resp2: "",
-                patr_resp3: ""
-            }, // Eine weitere alternative Zweite Lesung kann hier ergänzt werden
-        ]
-    },
-    // Weitere Stichwörter können hier ergänzt werden
-};
-
-export const namesOfBooks = {
-    // Neues Testament - Evangelien
-    "Matthäus": "Mt",
-    "Markus": "Mk",
-    "Lukas": "Lk",
-    "Johannes": "Joh",
-
-    // Apostelgeschichte
-    "Apostelgeschichte": "Apg",
-
-    // Paulusbriefe
-    "Römer": "Röm",
-    "ersten Brief an die Korinther": "1\u00a0Kor",
-    "ersten Korintherbrief": "1\u00a0Kor",
-    "zweiten Brief an die Korinther": "2\u00a0Kor",
-    "zweiten Korintherbrief": "2\u00a0Kor",
-    "Galater": "Gal",
-    "Epheser": "Eph",
-    "Philipper": "Phil",
-    "Kolosser": "Kol",
-    "ersten Brief an die Thessalonicher": "1\u00a0Thess",
-    "ersten Thessalonicherbrief": "1\u00a0Thess",
-    "zweiten Brief an die Thessalonicher": "2\u00a0Thess",
-    "zweiten Thessalonicherbrief": "2\u00a0Thess",
-    "ersten Timotheusbrief": "1\u00a0Tim",
-    "zweiten Timotheusbrief": "2\u00a0Tim",
-    "Titus": "Tit",
-    "Philemon": "Phlm",
-
-    // Hebräerbrief
-    "Hebräerbrief": "Hebr",
-
-    // Katholische Briefe
-    "Jakobusbrief": "Jak",
-    "ersten Petrusbrief": "1\u00a0Petr",
-    "zweiten Petrusbrief": "2\u00a0Petr",
-    "ersten Johannesbrief": "1\u00a0Joh",
-    "zweiten Johannesbrief": "2\u00a0Joh",
-    "dritten Johannesbrief": "3\u00a0Joh",
-    "Judasbrief": "Jud",
-
-    // Offenbarung
-    "Offenbarung": "Offb",
-
-    // Altes Testament - Die fünf Bücher Mose (Pentateuch/Tora)
-    "Genesis": "Gen",
-    "Exodus": "Ex",
-    "Levitikus": "Lev",
-    "Numeri": "Num",
-    "Deuteronomium": "Dtn",
-
-    // Geschichtsbücher
-    "Josua": "Jos",
-    "Richter": "Ri",
-    "Rut": "Rut",
-    "ersten Buch Samuel": "1\u00a0Sam",
-    "ersten Samuelbuch": "1\u00a0Sam",
-    "zweiten Buch Samuel": "2\u00a0Sam",
-    "zweiten Samuelbuch": "2\u00a0Sam",
-    "ersten Buch der Könige": "1\u00a0Kön",
-    "ersten Königsbuch": "1\u00a0Kön",
-    "zweiten Buch der Könige": "2\u00a0Kön",
-    "zweiten Königsbuch": "2\u00a0Kön",
-    "ersten Buch der Chronik": "1\u00a0Chr",
-    "ersten Chronikbuch": "1\u00a0Chr",
-    "zweiten Buch der Chronik": "2\u00a0Chr",
-    "zweiten Chronikbuch": "2\u00a0Chr",
-    "Esra": "Esra",
-    "Nehemia": "Neh",
-    "Tobit": "Tob",
-    "Judit": "Jdt",
-    "Ester": "Est",
-    "ersten Makkabäerbuch": "1\u00a0Makk",
-    "ersten Buch der Makkabäer": "1\u00a0Makk",
-    "zweiten Makkabäerbuch": "2\u00a0Makk",
-    "zweiten Buch der Makkabäer": "2\u00a0Makk",
-
-    // Poetische und Weisheitsbücher
-    "Hiob": "Ijob",
-    "Ijob": "Ijob",
-    "Sprichwörter": "Spr",
-    "Kohelet": "Koh",
-    "Hohelied": "Hld",
-    "Hohenlied": "Hld",
-
-    // Deuterokanonische Bücher (katholisch)
-    "Weisheit": "Weish",
-    "Sirach": "Sir",
-
-    // Große Propheten
-    "Jesaja": "Jes",
-    "Buch Jesaja": "Jes",
-    "Jeremia": "Jer",
-    "Baruch": "Bar",
-    "Klagelieder": "Klgl",
-    "Hesekiel": "Ez",
-    "Ezechiel": "Ez",
-    "Daniel": "Dan",
-
-    // Kleine Propheten (Zwölfprophetenbuch)
-    "Hosea": "Hos",
-    "Joel": "Joel",
-    "Amos": "Am",
-    "Obadja": "Obd",
-    "Jona": "Jona",
-    "Micha": "Mi",
-    "Nahum": "Nah",
-    "Habakuk": "Hab",
-    "Zefanja": "Zef",
-    "Haggai": "Hag",
-    "Sacharja": "Sach",
-    "Maleachi": "Mal",
-
-    // Fallback-Einträge
-    "Aus de": "LEER",
-    "Lesung aus": "LEER",
-}
-
-// Erweiterte Datenstruktur für Bibelbuchtitel
-export const bibleBooks = [
-    // Neues Testament - Evangelien
-    { match: "Matthäus", abbr: "Mt", medium: "Aus dem Matthäusevangelium", long: "Aus dem Evangelium nach Matthäus" },
-    { match: "Markus", abbr: "Mk", medium: "Aus dem Markusevangelium", long: "Aus dem Evangelium nach Markus" },
-    { match: "Lukas", abbr: "Lk", medium: "Aus dem Lukasevangelium", long: "Aus dem Evangelium nach Lukas" },
-    { match: "Johannes", abbr: "Joh", medium: "Aus dem Johannesevangelium", long: "Aus dem Evangelium nach Johannes" },
-
-    // Apostelgeschichte
-    { match: "Apostelgeschichte", abbr: "Apg", long: "Aus der Apostelgeschichte" },
-
-    // Paulusbriefe
-    { match: "Römer", abbr: "Röm", medium: "Aus dem Römerbrief", long: "Aus dem Brief an die Römer" },
-    { match: "ersten Brief an die Korinther", abbr: "1\u00a0Kor", medium: "Aus dem ersten Korintherbrief", long: "Aus dem ersten Brief an die Korinther" },
-    { match: "ersten Korintherbrief", abbr: "1\u00a0Kor", medium: "Aus dem ersten Korintherbrief", long: "Aus dem ersten Brief an die Korinther" },
-    { match: "zweiten Brief an die Korinther", abbr: "2\u00a0Kor", medium: "Aus dem zweiten Korintherbrief", long: "Aus dem zweiten Brief an die Korinther" },
-    { match: "zweiten Korintherbrief", abbr: "2\u00a0Kor", medium: "Aus dem zweiten Korintherbrief", long: "Aus dem zweiten Brief an die Korinther" },
-    { match: "Galater", abbr: "Gal", medium: "Aus dem Galaterbrief", long: "Aus dem Brief an die Galater" },
-    { match: "Epheser", abbr: "Eph", medium: "Aus dem Epheserbrief", long: "Aus dem Brief an die Epheser" },
-    { match: "Philipper", abbr: "Phil", medium: "Aus dem Philipperbrief", long: "Aus dem Brief an die Philipper" },
-    { match: "Kolosser", abbr: "Kol", medium: "Aus dem Kolosserbrief", long: "Aus dem Brief an die Kolosser" },
-    { match: "ersten Brief an die Thessalonicher", abbr: "1\u00a0Thess", medium: "Aus dem ersten Thessalonicherbrief", long: "Aus dem ersten Brief an die Thessalonicher" },
-    { match: "ersten Thessalonicherbrief", abbr: "1\u00a0Thess", medium: "Aus dem ersten Thessalonicherbrief", long: "Aus dem ersten Brief an die Thessalonicher" },
-    { match: "zweiten Brief an die Thessalonicher", abbr: "2\u00a0Thess", medium: "Aus dem zweiten Thessalonicherbrief", long: "Aus dem zweiten Brief an die Thessalonicher" },
-    { match: "zweiten Thessalonicherbrief", abbr: "2\u00a0Thess", medium: "Aus dem zweiten Thessalonicherbrief", long: "Aus dem zweiten Brief an die Thessalonicher" },
-    { match: "ersten Timotheusbrief", abbr: "1\u00a0Tim", medium: "Aus dem ersten Timotheusbrief", long: "Aus dem ersten Brief an Timotheus" },
-    { match: "zweiten Timotheusbrief", abbr: "2\u00a0Tim", medium: "Aus dem zweiten Timotheusbrief", long: "Aus dem zweiten Brief an Timotheus" },
-    { match: "Titus", abbr: "Tit", medium: "Aus dem Titusbrief", long: "Aus dem Brief an Titus" },
-    { match: "Philemon", abbr: "Phlm", medium: "Aus dem Philemonbrief", long: "Aus dem Brief an Philemon" },
-
-    // Hebräerbrief
-    { match: "Hebräerbrief", abbr: "Hebr", long: "Aus dem Hebräerbrief" },
-
-    // Katholische Briefe
-    { match: "Jakobusbrief", abbr: "Jak", long: "Aus dem Jakobusbrief" },
-    { match: "ersten Petrusbrief", abbr: "1\u00a0Petr", long: "Aus dem ersten Petrusbrief" },
-    { match: "zweiten Petrusbrief", abbr: "2\u00a0Petr", long: "Aus dem zweiten Petrusbrief" },
-    { match: "ersten Johannesbrief", abbr: "1\u00a0Joh", long: "Aus dem ersten Johannesbrief" },
-    { match: "zweiten Johannesbrief", abbr: "2\u00a0Joh", long: "Aus dem zweiten Johannesbrief" },
-    { match: "dritten Johannesbrief", abbr: "3\u00a0Joh", long: "Aus dem dritten Johannesbrief" },
-    { match: "Judasbrief", abbr: "Jud", long: "Aus dem Judasbrief" },
-
-    // Offenbarung
-    { match: "Offenbarung", abbr: "Offb", long: "Aus der Offenbarung des Johannes" },
-
-    // Altes Testament - Die fünf Bücher Mose
-    { match: "Genesis", abbr: "Gen", long: "Aus dem Buch Genesis" },
-    { match: "Exodus", abbr: "Ex", long: "Aus dem Buch Exodus" },
-    { match: "Levitikus", abbr: "Lev", long: "Aus dem Buch Levitikus" },
-    { match: "Numeri", abbr: "Num", long: "Aus dem Buch Numeri" },
-    { match: "Deuteronomium", abbr: "Dtn", long: "Aus dem Buch Deuteronomium" },
-
-    // Geschichtsbücher
-    { match: "Josua", abbr: "Jos", long: "Aus dem Buch Josua" },
-    { match: "Richter", abbr: "Ri", long: "Aus dem Buch der Richter" },
-    { match: "Rut", abbr: "Rut", long: "Aus dem Buch Rut" },
-    { match: "ersten Buch Samuel", abbr: "1\u00a0Sam", long: "Aus dem ersten Buch Samuel" },
-    { match: "ersten Samuelbuch", abbr: "1\u00a0Sam", long: "Aus dem ersten Buch Samuel" },
-    { match: "zweiten Buch Samuel", abbr: "2\u00a0Sam", long: "Aus dem zweiten Buch Samuel" },
-    { match: "zweiten Samuelbuch", abbr: "2\u00a0Sam", long: "Aus dem zweiten Buch Samuel" },
-    { match: "ersten Buch der Könige", abbr: "1\u00a0Kön", long: "Aus dem ersten Buch der Könige" },
-    { match: "ersten Königsbuch", abbr: "1\u00a0Kön", long: "Aus dem ersten Buch der Könige" },
-    { match: "zweiten Buch der Könige", abbr: "2\u00a0Kön", long: "Aus dem zweiten Buch der Könige" },
-    { match: "zweiten Königsbuch", abbr: "2\u00a0Kön", long: "Aus dem zweiten Buch der Könige" },
-    { match: "ersten Buch der Chronik", abbr: "1\u00a0Chr", long: "Aus dem ersten Buch der Chronik" },
-    { match: "ersten Chronikbuch", abbr: "1\u00a0Chr", long: "Aus dem ersten Buch der Chronik" },
-    { match: "zweiten Buch der Chronik", abbr: "2\u00a0Chr", long: "Aus dem zweiten Buch der Chronik" },
-    { match: "zweiten Chronikbuch", abbr: "2\u00a0Chr", long: "Aus dem zweiten Buch der Chronik" },
-    { match: "Esra", abbr: "Esra", long: "Aus dem Buch Esra" },
-    { match: "Nehemia", abbr: "Neh", long: "Aus dem Buch Nehemia" },
-    { match: "Tobit", abbr: "Tob", long: "Aus dem Buch Tobit" },
-    { match: "Judit", abbr: "Jdt", long: "Aus dem Buch Judit" },
-    { match: "Ester", abbr: "Est", long: "Aus dem Buch Ester" },
-    { match: "ersten Makkabäerbuch", abbr: "1\u00a0Makk", long: "Aus dem ersten Buch der Makkabäer" },
-    { match: "ersten Buch der Makkabäer", abbr: "1\u00a0Makk", long: "Aus dem ersten Buch der Makkabäer" },
-    { match: "zweiten Makkabäerbuch", abbr: "2\u00a0Makk", long: "Aus dem zweiten Buch der Makkabäer" },
-    { match: "zweiten Buch der Makkabäer", abbr: "2\u00a0Makk", long: "Aus dem zweiten Buch der Makkabäer" },
-
-    // Poetische und Weisheitsbücher
-    { match: "Hiob", abbr: "Ijob", long: "Aus dem Buch Ijob" },
-    { match: "Ijob", abbr: "Ijob", long: "Aus dem Buch Ijob" },
-    { match: "Sprichwörter", abbr: "Spr", long: "Aus dem Buch der Sprichwörter" },
-    { match: "Kohelet", abbr: "Koh", long: "Aus dem Buch Kohelet" },
-    { match: "Hohelied", abbr: "Hld", long: "Aus dem Hohelied" },
-    { match: "Hohenlied", abbr: "Hld", long: "Aus dem Hohelied" },
-
-    // Deuterokanonische Bücher
-    { match: "Weisheit", abbr: "Weish", long: "Aus dem Buch der Weisheit" },
-    { match: "Sirach", abbr: "Sir", long: "Aus dem Buch Jesus Sirach" },
-
-    // Große Propheten
-    { match: "Jesaja", abbr: "Jes", long: "Aus dem Buch Jesaja" },
-    { match: "Buch Jesaja", abbr: "Jes", long: "Aus dem Buch Jesaja" },
-    { match: "Jeremia", abbr: "Jer", long: "Aus dem Buch Jeremia" },
-    { match: "Baruch", abbr: "Bar", long: "Aus dem Buch Baruch" },
-    { match: "Klagelieder", abbr: "Klgl", long: "Aus den Klageliedern" },
-    { match: "Hesekiel", abbr: "Ez", long: "Aus dem Buch Ezechiel" },
-    { match: "Ezechiel", abbr: "Ez", long: "Aus dem Buch Ezechiel" },
-    { match: "Daniel", abbr: "Dan", long: "Aus dem Buch Daniel" },
-
-    // Kleine Propheten
-    { match: "Hosea", abbr: "Hos", long: "Aus dem Buch Hosea" },
-    { match: "Joel", abbr: "Joel", long: "Aus dem Buch Joel" },
-    { match: "Amos", abbr: "Am", long: "Aus dem Buch Amos" },
-    { match: "Obadja", abbr: "Obd", long: "Aus dem Buch Obadja" },
-    { match: "Jona", abbr: "Jona", long: "Aus dem Buch Jona" },
-    { match: "Micha", abbr: "Mi", long: "Aus dem Buch Micha" },
-    { match: "Nahum", abbr: "Nah", long: "Aus dem Buch Nahum" },
-    { match: "Habakuk", abbr: "Hab", long: "Aus dem Buch Habakuk" },
-    { match: "Zefanja", abbr: "Zef", long: "Aus dem Buch Zefanja" },
-    { match: "Haggai", abbr: "Hag", long: "Aus dem Buch Haggai" },
-    { match: "Sacharja", abbr: "Sach", long: "Aus dem Buch Sacharja" },
-    { match: "Maleachi", abbr: "Mal", long: "Aus dem Buch Maleachi" },
-
-    // Fallback
-    { match: "Aus de", abbr: "LEER", long: "LEER" },
-    { match: "Lesung aus", abbr: "LEER", long: "LEER" }
-];
-
-// Hilfsfunktion: Normalisiert Strings für fuzzy matching
-function normalizeString(str: string): string {
-    return str
-        .toLowerCase()
-        .replace(/[äöüß]/g, (char: string) => {
-            const map: { [key: string]: string } = { 'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss' };
-            return map[char] || char;
-        })
-        .replace(/\s+/g, ' ')
-        .trim();
-}
-
-// Hilfsfunktion: Berechnet Levenshtein-Distanz (für fuzzy matching)
-function levenshteinDistance(str1: string, str2: string): number {
-    const m = str1.length;
-    const n = str2.length;
-    const dp: number[][] = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
-
-    for (let i = 0; i <= m; i++) dp[i][0] = i;
-    for (let j = 0; j <= n; j++) dp[0][j] = j;
-
-    for (let i = 1; i <= m; i++) {
-        for (let j = 1; j <= n; j++) {
-            if (str1[i - 1] === str2[j - 1]) {
-                dp[i][j] = dp[i - 1][j - 1];
-            } else {
-                dp[i][j] = Math.min(
-                    dp[i - 1][j] + 1,
-                    dp[i][j - 1] + 1,
-                    dp[i - 1][j - 1] + 1
-                );
-            }
-        }
-    }
-
-    return dp[m][n];
-}
-
-// TypeScript Interfaces
-interface BibleBook {
-    match: string;
-    abbr: string;
-    medium?: string;
-    long: string;
-}
-
-type RefType = 'abbr' | 'medium' | 'long' | 'match';
-
-// Hauptfunktion: Ersetzt Bibelbuch-Referenzen
-export function replaceBibleRef(input: string, type: RefType = 'abbr', punctuation: boolean = true): string {
-    if (!input || typeof input !== 'string') {
-        return input;
-    }
-
-    // Normalisiere Input für abbr-Vergleich (ersetze verschiedene Leerzeichen-Typen)
-    const normalizedInput = input.replace(/[\u00a0°\s]/g, ' ').trim();
-
-    // Zusätzlich: Version ohne Leerzeichen für mehrteilige Bücher (z.B. "1Joh")
-    const compactInput = input.replace(/[\u00a0°\s]/g, '').trim();
-
-    let result: string | null = null;
-
-    // 1. Suche nach exakter Übereinstimmung mit abbr (mit und ohne Leerzeichen)
-    for (const book of bibleBooks) {
-        const normalizedAbbr = book.abbr.replace(/\u00a0/g, ' ');
-        const compactAbbr = book.abbr.replace(/[\u00a0\s]/g, '');
-
-        if (normalizedInput === normalizedAbbr || compactInput === compactAbbr) {
-            // Fallback zu 'long' wenn 'medium' nicht existiert
-            result = type === 'medium' && !book.medium
-                ? book.long
-                : (book[type] || input);
-            break;
-        }
-    }
-
-    // 2. Suche nach exakter Übereinstimmung mit match
-    if (!result) {
-        for (const book of bibleBooks) {
-            if (input === book.match) {
-                // Fallback zu 'long' wenn 'medium' nicht existiert
-                result = type === 'medium' && !book.medium
-                    ? book.long
-                    : (book[type] || input);
-                break;
-            }
-        }
-    }
-
-    // 3. Fuzzy matching für match (mit Toleranz für Schreibfehler)
-    if (!result) {
-        const normalizedInputLower = normalizeString(input);
-        let bestMatch: BibleBook | null = null;
-        let bestDistance = Infinity;
-        const maxDistance = Math.floor(input.length * 0.25); // 25% Toleranz
-
-        for (const book of bibleBooks) {
-            const normalizedMatch = normalizeString(book.match);
-            const distance = levenshteinDistance(normalizedInputLower, normalizedMatch);
-
-            // Prüfe auch, ob Input ein Substring des Match ist (für verkürzte Eingaben)
-            const isSubstring = normalizedMatch.includes(normalizedInputLower) ||
-                normalizedInputLower.includes(normalizedMatch);
-
-            if ((distance < bestDistance && distance <= maxDistance) || isSubstring) {
-                bestDistance = distance;
-                bestMatch = book;
-            }
-        }
-
-        if (bestMatch) {
-            // Fallback zu 'long' wenn 'medium' nicht existiert
-            result = type === 'medium' && !bestMatch.medium
-                ? bestMatch.long
-                : (bestMatch[type] || input);
-        }
-    }
-
-    // 4. Kein Match gefunden - gib Original zurück
-    if (!result) return input;
-
-    // 5. Füge Punkt hinzu, wenn type 'long' oder 'medium' und punctuation true ist
-    if ((type === 'long' || type === 'medium') && punctuation && !result.endsWith('.'))
-        result += '.';
-
-    return result;
-}
-
-export default lectureAlternatives
