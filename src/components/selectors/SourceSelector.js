@@ -241,7 +241,7 @@ const SourceSelector = ({
                     </button>
                 );
             })}
-            {texts.calendar1962?.length > 0 && (
+            {texts.calendar1962?.length > 0 && viewMode === 'prayer' && (
                 <div className="w-full p-1 pt-2 text-sm text-center text-gray-600 dark:text-gray-400">
                     {texts.calendar1962.map((entry, index) => (
                         <div key={index}>{formatText(entry)}</div>

@@ -75,6 +75,23 @@ Wenn die ^A- und ^Q-Tags nicht mehr verwendet werden, kann deren Löschung durch
     - `patr_selector[i]`: `autor, werk, text, text_lat, resp1, resp2, resp3, resp1_lat, resp2_lat, resp3_lat`
     - Nebeneffekt: bereinigt die bisherige Inkonsistenz, dass `second`-Einträge in LectureAlternatives.ts bislang `patr_resp1` (mit Präfix) hießen, `first`-Einträge aber schon `resp1` (ohne Präfix) – künftig einheitlich `resp1` in beiden Arrays.
     - Die **Top-Level-Feldnamen im texts-Objekt** (`les_buch`, `les_text`, `patr_resp1` usw., für Fälle ohne Alternativen) bleiben unverändert – keine Umbenennung dort, um Fehlerquellen zu vermeiden.
+11. **Sonderfall: diözesane Referenz + Alternative (z.B. Trier 7.11., Willibrord/Alkuin)**. Bisher: `resolveAndMergeSource` (BrevierDataProcessor.js Z. 61-68) löst `Laudes.referenz` (z.B. `AAA-11-7-n1`) auf und mergt die diözesane Override-Ebene (`data`) über die referenzierten Realdaten (`resolvedData`) via `deepMerge(resolvedData, data)`. Bisher stand der `^A`-Tag nur in `patr_autor`, so dass `patr_text` unangetastet blieb und die ererbte Alkuin-Lesung aus AAA als Standard erhalten blieb.
+    - **Problem beim Umbau**: Künftig steht der Lookup-Key direkt in `patr_text` (z.B. `"Trier-11-07"`). Würde `data.patr_text` unverändert in den Merge gehen, überschriebe der bloße Key beim `deepMerge` den ererbten Alkuin-Realtext aus `resolvedData` – der Standard ginge verloren.
+    - **Lösung**: `resolveAndMergeSource` bekommt eine minimale Ergänzung, die nur das Clobbering verhindert (Array-Logik bleibt zentral in der allgemeinen Auflösungsfunktion):
+      ```js
+      ['les_text', 'patr_text'].forEach(field => {
+          if (reference && data[field] && lectureAlternatives[data[field]]) {
+              data[`${field}_selectorKeyword`] = data[field];
+              delete data[field];
+          }
+      });
+      ```
+      Der Key wird vor dem Merge in ein Marker-Feld ausgelagert; `data[field]` bleibt leer, sodass `deepMerge` den ererbten Realtext aus `resolvedData` unverändert durchreicht.
+    - **Auflösung danach**: Die allgemeine ^A/^Q-Auflösungsfunktion erkennt zwei Fälle:
+      - **Marker-Feld vorhanden** (Referenzfall): Index 0 wird aus dem soeben gemergten `les_text`/`patr_text` (+ Nachbarfeldern) synthetisiert – nicht aus LectureAlternatives.ts gelesen. Der synthetisierte Eintrag wird per Array-Spread vorangestellt: `patr_selector = [synthesizedStandard, ...lectureAlternatives[keyword].second]`. Da JS-Arrays rein positionell sind, rutschen die gespeicherten Alternativen dadurch automatisch auf Position 1, 2, 3, … – keine manuelle Neuindizierung nötig.
+      - **Kein Marker, `les_text`/`patr_text` selbst ist ein gültiger Key** (Normalfall): Index 0 kommt wie geplant statisch aus LectureAlternatives.ts.
+    - **Konsequenz für die Excel-Pflege**: Für referenz-synthetisierte Stichworte (wie `Trier-11-07`) darf in LectureAlternatives.ts **kein** eigener Index-0-Standard eingetragen werden – sonst gäbe es zwei „Standard"-Einträge. Nur echte Zusatz-Alternativen eintragen, empfohlen ab Index 1 durchnummeriert (0 bewusst freilassen als Gedächtnisstütze; der Konverter selbst wertet die Index-Spalte nur als Sortierschlüssel, siehe Punkt 12).
+12. **Wie der Konverter die Arrays aus der Excel-Tabelle baut**: Pro Stichwort+Typ werden die Zeilen nach der Index-Spalte sortiert und sequenziell in ein JS-Array gepackt. Die Index-Zahl aus Excel ist nur ein **Sortierschlüssel**, kein gespeicherter Wert im erzeugten `LectureAlternatives.ts` – ein Array hat ohnehin nur lückenlose Positionen (0, 1, 2, …). Bei referenz-synthetisierten Stichworten (keine Index-0-Zeile in Excel) wird die niedrigste vorhandene Zeile trotzdem zu Array-Position 0 im gespeicherten Array; das Voranstellen des synthetisierten Standards zur Laufzeit (Punkt 11) verschiebt sie danach automatisch auf Position 1.
 
 ### Noch offen
-Keine offenen Punkte mehr aus der ersten Klärungsrunde. Nächster Schritt: converter.py/Excel-Migration (Evangelien.ts → Perikopen.ts, RufvdEv.ts → Perikopen_Messe.ts, LectureAlternatives.ts-Import/Export).
+Keine offenen Punkte mehr aus der aktuellen Klärungsrunde. Nächster Schritt: converter.py/Excel-Migration (Evangelien.ts → Perikopen.ts, RufvdEv.ts → Perikopen_Messe.ts, LectureAlternatives.ts-Import/Export).
