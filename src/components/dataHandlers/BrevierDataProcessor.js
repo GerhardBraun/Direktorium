@@ -658,21 +658,26 @@ function processAntABC(hours, yearABC, swdCombined) {
     // nach Lesejahr ABC unterschiedlich sind,
     // werden die des aktuellen Lesejahres
     // dem relevanten Feld antEv zugewiesen.
+    // Analog wird der zugehörige Psalmton (mode) dem Feld modeEv zugewiesen.
 
 
     ['erstev', 'laudes', 'vesper'].forEach(hour => {
-        let antField = 'ant' + yearABC;
+        let yearField = yearABC;
         if (swdCombined === 'j-34-6' && hour === 'vesper') {
-            const followingYearABC = yearABC === 'a' ? 'b' : (yearABC === 'b' ? 'c' : 'a');
-            antField = 'ant' + followingYearABC
+            yearField = yearABC === 'a' ? 'b' : (yearABC === 'b' ? 'c' : 'a');
         }
+        const antField = 'ant' + yearField;
         const antFieldLat = antField + '_lat';
+        const modeField = 'mode' + yearField;
 
         if (hours[hour].wt?.[antField])
             hours[hour].wt.antev = hours[hour].wt[antField];
 
         if (hours[hour].wt?.[antFieldLat])
             hours[hour].wt.antev_lat = hours[hour].wt[antFieldLat];
+
+        if (hours[hour].wt?.[modeField])
+            hours[hour].wt.modeev = hours[hour].wt[modeField];
 
     });
 }

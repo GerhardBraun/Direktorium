@@ -75,7 +75,7 @@ interface BrevierEntry {
   bitten_lat?: string;
   oration?: string;
   oration_lat?: string;
-  }
+}
 
 interface BrevierData {
   [season: string]: {
@@ -107,7 +107,7 @@ export const brevierData = {
           "antb_lat": "Ecce nomen Dómini venit de longínquo, et cláritas eius replet orbem terrárum."
         },
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,1-12"
+          "les_text": "Lk 24,1-12"
         },
         "Laudes": {
           "ant1": "An jenem Tag triefen die Berge von Süßigkeit, und von den Höhen strömen Milch und Honig.^HALLxq",
@@ -230,7 +230,7 @@ export const brevierData = {
           "anta_lat": "Venit Ioánnes Baptísta prǽdicans in desérto et dicens: Pæniténtiam ágite; appropinquávit enim regnum cælórum."
         },
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,13-35"
+          "les_text": "Lk 24,13-35"
         },
         "Laudes": {
           "ant1": "Unsere feste Stadt ist Zion: Der Erlöser ist ihre Mauer und ihr Wall. Öffnet die Tore! Gott ist mit uns.^HALLxq",
@@ -352,7 +352,7 @@ export const brevierData = {
           "antb_lat": "Fuit homo missus a Deo, cui nomen erat Ioánnes; hic venit ut testimónium perhibéret de lúmine."
         },
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,35-53"
+          "les_text": "Lk 24,35-53"
         },
         "Laudes": {
           "ant1": "Der Herr wird kommen und nicht säumen, und hell wird, was im Finstern lag: Offenbaren wird er seine Herrlichkeit, und die Völker werden ihn schauen.^HALLxq",
@@ -465,7 +465,7 @@ export const brevierData = {
           "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlvR"
         },
         "Vigil": {
-          "les_stelle": "^Q:Joh 20,1-18"
+          "les_text": "Joh 20,1-18"
         },
         "Laudes": {
           "ant1": "Stoßt in die Posaune auf dem Zion. Denn nahe ist der Tag des Herrn. Seht, er kommt, uns zu erlösen.^HALLxq",
@@ -1335,9 +1335,7 @@ export const brevierData = {
           "psalm2": 199.103,
           "psalm3": 199.104,
           "ant0": "So spricht der Herr: Freut euch und jubelt, denn eure Namen sind im Himmel verzeichnet.^HALLxq",
-          "les_buch": "^A:vigil-Hirten:",
-          "les_stelle": "^Q:Mk 3,13-19",
-          "les_text": "LEER",
+          "les_text": "vigil-Hirten",
           "les_text_neu": "",
           "ant0_lat": "Gaudéte et exsultáte, quia nómina vestra scripta sunt in cælis, dicit Dóminus."
         },
@@ -1622,8 +1620,7 @@ export const brevierData = {
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen, seid bereit für die Ankunft des Herrn.^HALLxq",
-          "les_buch": "^A:vigil-Heilige:",
-          "les_text": "LEER",
+          "les_text": "vigil-Heilige",
           "les_text_neu": "",
           "ant0_lat": "Sint lumbi vestri præcíncti, et lucérnæ ardéntes in mánibus vestris."
         }
@@ -2367,8 +2364,7 @@ export const brevierData = {
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "Um Mitternacht erscholl der Ruf: Seht, der Bräutigam kommt! Auf, ihm entgegen, Christus, dem Herrn.^HALLxq",
-          "les_buch": "^A:vigil-Heilige:",
-          "les_text": "LEER",
+          "les_text": "vigil-Jgfr",
           "les_text_neu": "",
           "ant0_lat": "Média nocte clamor factus est: Ecce Sponsus venit, exíte óbviam ei."
         },
@@ -2701,8 +2697,7 @@ export const brevierData = {
           "psalm2": 181.1,
           "psalm3": 199.118,
           "ant0": "Gepriesen bist du, Herr, im Tempel deiner Herrlichkeit, hoch gerühmt und verherrlicht in Ewigkeit.^HALLxq",
-          "les_buch": "ML Comm",
-          "les_text": "LEER",
+          "les_text": "vigil-Kirchweihe",
           "les_text_neu": "",
           "ant0_lat": "Benedíctus es in templo sancto glóriæ tuæ, quod ædificátum est ad laudem et glóriam nóminis tui, Dómine.^ALLxq"
         },
@@ -3163,8 +3158,7 @@ export const brevierData = {
           "psalm2": 193.2,
           "psalm3": 199.109,
           "ant0": "Freue dich, Jungfrau Maria, du hast getragen den Schöpfer der Welt, aus dir ging hervor unser Retter.^HALLxq",
-          "les_buch": "^A:vigil-Maria:",
-          "les_text": "LEER",
+          "les_text": "vigil-Maria",
           "les_text_neu": "",
           "ant0_lat": "María Virgo, lætáre, quæ meruísti Christum portáre, cæli et terræ conditórem, quia protuísti mundi Salvatórem."
         },
@@ -3407,8 +3401,7 @@ export const brevierData = {
           "psalm2": 199.103,
           "psalm3": 199.104,
           "ant0": "Gott wird jede Träne aus ihren Augen wischen, der Tod wird nicht mehr sein, nicht Trauer noch Klage noch Mühsal. Denn die alte Welt ist vergangen.^HALLxq",
-          "les_buch": "^A:vigil-Märtyrer:",
-          "les_text": "LEER",
+          "les_text": "vigil-Märtyrer",
           "les_text_neu": "",
           "ant0_lat": "Abstérget Deus omnem lácrimam ab óculis sanctórum, et iam non erit ámplius neque luctus neque clamor, sed nec ullus dolor, quóniam prióra transiérunt."
         },
@@ -3833,8 +3826,7 @@ export const brevierData = {
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "In meinem irdischen Leib erfülle ich das Maß der Leiden Christi für seinen Leib, die Kirche.^HALLxq",
-          "les_buch": "^A:vigil-Märtyrer:",
-          "les_text": "LEER",
+          "les_text": "vigil-Märtyrer",
           "les_text_neu": "",
           "ant0_lat": "Adímpleo in carne mea quæ desunt passiónibu Christi pro córpore eius, quod est Ecclésia."
         },
@@ -5949,8 +5941,7 @@ export const brevierData = {
           "psalm2": 174.0,
           "psalm3": 193.0,
           "ant0": "Dein ist die Macht und das Reich, dein ist die Herrschaft über alle Völker. Gib Frieden, Herr, in unseren Tagen.",
-          "les_buch": "^A:vigil-Christkönig:",
-          "les_text": "LEER",
+          "les_text": "vigil-Christkönig",
           "les_text_neu": "",
           "ant0_lat": "Tua est poténtia, tuum regnum, Dómine, tu es super omnes gentes: da pacem in diébus nostris."
         },
@@ -7847,8 +7838,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Wahrhaftig, du bist ein verborgener Gott, Israels Gott ist sein Retter.^HALLxq",
-          "les_buch": "^A:vigil-HlFamilie:",
-          "les_stelle": "^Q:Joh 20,19-31",
+          "les_text": "vigil-HlFamilie",
           "ant0_lat": "Vere tu es Deus abscónditus, Deus Israel Salvátor."
         },
         "Laudes": {
@@ -7983,7 +7973,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Immanuel wird sein Name sein: Gott mit uns.^HALLxq",
-          "les_stelle": "^Q:Joh 21,1-14",
+          "les_text": "Joh 21,1-14",
           "ant0_lat": "Vocábitur nomen eius Emmánuel, quod interpretátur „Nobíscum-Deus“."
         },
         "Laudes": {
@@ -8532,7 +8522,7 @@ export const brevierData = {
           "versikel1_lat": "Viso Dómino.^ALLo"
         },
         "Vigil": {
-          "les_stelle": "^Q:Mk 16,1-20"
+          "les_text": "Mk 16,1-20"
         },
         "Laudes": {
           "hymn_kl": 0.0,
@@ -8745,7 +8735,7 @@ export const brevierData = {
           "anta_lat": "Mane nobíscum, quóniam advesperáscit et inclináta est iam dies.^ALLo"
         },
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,1-12"
+          "les_text": "Lk 24,1-12"
         },
         "Laudes": {
           "ant1": "Der Herr ist König, bekleidet mit Hoheit.^HALLo^FIRST",
@@ -8890,7 +8880,7 @@ export const brevierData = {
           "antb_lat": "Ego sum pastor bonus: bonus pastor ánimam suam ponit pro óvibus.^ALLo"
         },
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,13-35"
+          "les_text": "Lk 24,13-35"
         },
         "Laudes": {
           "ant1": "Ich werde nicht sterben, sondern leben und die Taten des Herrn verkünden.^HALLo",
@@ -9034,7 +9024,7 @@ export const brevierData = {
           "anta_lat": "Si abíero et præparávero vobis locum, íterum vénio et accípiam vos ad meípsum, ut ubi sum ego, et vos sitis.^ALLo"
         },
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,35-53"
+          "les_text": "Lk 24,35-53"
         },
         "Laudes": {
           "ant1": "Wer dürstet, dem wird das Wasser des Lebens geschenkt.^HALLo",
@@ -9178,7 +9168,7 @@ export const brevierData = {
           "anta_lat": "Ego rogábo Patrem, et álium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum.^ALLo"
         },
         "Vigil": {
-          "les_stelle": "^Q:Joh 20,1-18"
+          "les_text": "Joh 20,1-18"
         },
         "Laudes": {
           "ant1": "Dies ist der Tag, den der Herr gemacht hat.^HALLo",
@@ -9385,7 +9375,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^HALLo",
-          "les_stelle": "^Q:Joh 20,19-31"
+          "les_text": "Joh 20,19-31"
         },
         "Laudes": {
           "ant1": "Der Herr ist König, bekleidet mit Hoheit.^HALLo",
@@ -9682,7 +9672,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Ich lasse euch nicht als Waisen zurück: Ich gehe hin und komme wieder zu euch, und euer Herz wird sich freuen.^HALLo",
-          "les_stelle": "^Q:Mt 28,16-20",
+          "les_text": "Mt 28,16-20",
           "ant0_lat": "Non relínquam vos órphanos, et gaudébit cor vestrum.^ALLo"
         },
         "Laudes": {
@@ -14873,49 +14863,49 @@ export const brevierData = {
     "1": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Mt 28,1-10.16-20"
+          "les_text": "Mt 28,1-10.16-20"
         }
       }
     },
     "2": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Mk 16,1-20"
+          "les_text": "Mk 16,1-20"
         }
       }
     },
     "3": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,1-12"
+          "les_text": "Lk 24,1-12"
         }
       }
     },
     "4": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,13-35"
+          "les_text": "Lk 24,13-35"
         }
       }
     },
     "5": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Lk 24,35-53"
+          "les_text": "Lk 24,35-53"
         }
       }
     },
     "6": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Joh 20,1-18"
+          "les_text": "Joh 20,1-18"
         }
       }
     },
     "7": {
       "0": {
         "Vigil": {
-          "les_stelle": "^Q:Joh 20,19-31"
+          "les_text": "Joh 20,19-31"
         }
       }
     },
@@ -15014,9 +15004,7 @@ export const brevierData = {
           "antc_lat": "Iesus plenus Spíritu Sancto regréssus est ab Iordáne et agebátur in Spíritu in desértum diébus quadragínta et tentabátur a diábolo."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-1:",
-          "les_stelle": "^Q:Lk 13,22-33",
-          "les_text": "LEER",
+          "les_text": "vigil-q-1",
           "les_text_neu": ""
         },
         "Laudes": {
@@ -15167,9 +15155,7 @@ export const brevierData = {
           "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-2:",
-          "les_stelle": "^Q:Mk 8,27-38",
-          "les_text": "LEER",
+          "les_text": "vigil-q-2",
           "les_text_neu": ""
         },
         "Laudes": {
@@ -15318,9 +15304,7 @@ export const brevierData = {
           "anta_lat": "Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non sítiet in ætérnum."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-3:",
-          "les_stelle": "^Q:Mk 9,30-48",
-          "les_text": "LEER",
+          "les_text": "vigil-q-3",
           "les_text_neu": ""
         },
         "Laudes": {
@@ -15470,9 +15454,7 @@ export const brevierData = {
           "antb_lat": "Sicut Móyses exaltávit serpéntem in desérto, ita exaltári opórtet Fílium hóminis, ut omnis qui credit, in ipso hábeat vitam ætérnam."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-4:",
-          "les_stelle": "^Q:Mk 10,32-45",
-          "les_text": "LEER",
+          "les_text": "vigil-q-4",
           "les_text_neu": ""
         },
         "Laudes": {
@@ -15630,9 +15612,7 @@ export const brevierData = {
           "les_text_lat": "Scitóte quod non corruptibílibus argénto vel auro redémpti estis de vana vestra conversatióne a pátribus trádita, sed pretióso sánguine quasi Agni incontamináti et immaculáti Christi, præcógniti quidem ante constitutiónem mundi, manifestáti autem novíssimis tempóribus propter vos, qui per ipsum fidéles estis in Deum, qui suscitávit eum a mórtuis et dedit ei glóriam, ut fides vestra et spes esset in Deum."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-5:",
-          "les_stelle": "^Q:Mt 21,33-46",
-          "les_text": "LEER",
+          "les_text": "vigil-q-5",
           "les_text_neu": ""
         },
         "Laudes": {
@@ -16032,7 +16012,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Jesus warf sich zu Boden und betete: Vater, wenn du willst, nimm diesen Kelch von mir. Doch nicht mein Wille geschehe, sondern der deine.",
-          "les_stelle": "^Q:Joh 8,21-30",
+          "les_text": "Joh 8,21-30",
           "ant0_lat": "Pósitis génibus, Iesus orábat dicens: Pater, si vis, transfer cálicem istum a me; verúntamen non mea volúntas, sed tua fiat."
         },
         "Laudes": {
@@ -16441,8 +16421,7 @@ export const brevierData = {
           "psalm3": 199.121,
           "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
           "mode0": "I",
-          "les_buch": "^A:vigil-Karfreitag:",
-          "les_text": "LEER",
+          "les_text": "vigil-Karfreitag",
           "les_text_neu": "",
           "ant0_lat": "Apérto mílitis láncea látere crucifíxi Dómini, exívit sanguis et aqua in redemptiónem salútis nostræ."
         },
@@ -16603,8 +16582,7 @@ export const brevierData = {
           "psalm3": 199.121,
           "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
           "mode0": "I",
-          "les_buch": "^A:vigil-Karsamstag:",
-          "les_text": "LEER",
+          "les_text": "vigil-Karsamstag",
           "les_text_neu": "",
           "ant0_lat": "Dum tribulárer, clamávi ad Dóminum de ventre ínferi, et exaudívit me."
         },
@@ -17817,9 +17795,7 @@ export const brevierData = {
           "psalm2": 199.114,
           "psalm3": 194.0,
           "ant0": "Jesus steigt in den Jordan hinab, die Wasser erbeben und weichen zurück. Und den Fluten entsteigt die neue Schöpfung.^HALLxq",
-          "les_buch": "^A:vigil-Taufe:",
-          "les_stelle": "^Q:Mt 28,1-10.16-20",
-          "les_text": "LEER",
+          "les_text": "vigil-Taufe",
           "les_text_neu": ""
         },
         "Laudes": {
@@ -17970,8 +17946,7 @@ export const brevierData = {
           "psalm2": 199.122,
           "psalm3": 199.123,
           "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^HALLo",
-          "les_buch": "^A:vigil-Himmelfahrt:",
-          "les_text": "LEER",
+          "les_text": "vigil-Himmelfahrt",
           "les_text_neu": ""
         },
         "Laudes": {
