@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
-import rufvdevData from "../data/RufvdEv.ts";
 import { sourceKeys } from '../selectors/SourceSelector.js';
 
 const MassReadingsSelector = ({
@@ -103,14 +102,10 @@ const MassReadings = ({
 
     const kvRepeat = ms_aps_kv ? '°^r–°Kv^0r' : '';
 
-    let ruf_stelle = ms_ruf_stelle || '',
-        ruf_text = ms_ruf_text || '';
-
-    const rufData = rufvdevData?.[ms_ruf_text]
-    if (rufData) {
-        ruf_stelle = rufData.Stelle;
-        ruf_text = rufData.Text;
-    }
+    // ms_ruf_stelle/ms_ruf_text sind bereits im BrevierDataProcessor
+    // gegen Perikopen_Messe.ts aufgelöst.
+    const ruf_stelle = ms_ruf_stelle || '';
+    const ruf_text = ms_ruf_text || '';
 
     let resp = 'Halleluja.',
         respWithRepeat = 'Halleluja. Halleluja.'

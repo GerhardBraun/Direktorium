@@ -19,6 +19,7 @@ import { sourceKeys } from '../selectors/SourceSelector.js';
 import { calendarData } from '../data/Calendar.ts';
 import { calendar1962Data } from '../data/Calendar1962.ts';
 import { perikopen } from '../data/Perikopen.ts';
+import { perikopenMesse } from '../data/Perikopen_Messe.ts';
 import { lectureAlternatives } from '../data/LectureAlternatives.ts';
 
 const personalData = (() => {
@@ -886,6 +887,38 @@ function resolveLectureSelectorsForSource(data, yearABC, dayOfWeek) {
 // Wendet resolveLectureSelectorsForSource auf alle Stunden und alle darin vorkommenden
 // Sources an (wt, pers, oblig, n1-n5, d1-d5, dmob, dpar, mar, kirchw, alt, continuous, …
 // sowie com1/com2), da prefSource erst zur Laufzeit interaktiv gewählt wird (GetValue.js).
+// Feldzuordnung für den Perikopen_Messe.ts-Abgleich der Messlesungen:
+// ms_<type>_text ist der Lookup-Key, die übrigen Felder werden nur befüllt, wenn leer.
+// ms_aps_* und ms_ruf_* kennen kein Buch/Motto (siehe LectureABC.ts), ms_les_*/ms_les2_*/ms_ev_* schon.
+const MESSE_READING_TYPES = {
+    les: ['buch', 'stelle', 'motto'],
+    les2: ['buch', 'stelle', 'motto'],
+    ev: ['buch', 'stelle', 'motto'],
+    aps: ['stelle'],
+    ruf: ['stelle'],
+};
+
+// Löst ms_les_text, ms_aps_text, ms_les2_text, ms_ruf_text, ms_ev_text gegen
+// Perikopen_Messe.ts auf (Vorbild war bisher nur die Sonderbehandlung von ms_ruf_text
+// über RufvdEv.ts in MassReadings.js, jetzt auf alle Messlesungs-Felder verallgemeinert
+// und wie bei les_selector/patr_selector in die Datenaufbereitung verschoben).
+function resolveMassReadingsForSource(data) {
+    if (!data || typeof data !== 'object') return;
+    Object.entries(MESSE_READING_TYPES).forEach(([type, extraFields]) => {
+        const textField = `ms_${type}_text`;
+        const key = data[textField];
+        if (typeof key !== 'string' || !key || !perikopenMesse[key]) return;
+        const p = perikopenMesse[key];
+        data[textField] = p.Text;
+        extraFields.forEach(bare => {
+            const targetField = `ms_${type}_${bare}`;
+            const sourceValue = p[bare.charAt(0).toUpperCase() + bare.slice(1)];
+            if (!data[targetField] && sourceValue) data[targetField] = sourceValue;
+        });
+    });
+}
+
+// Löst Lesungsalternativen, Perikopen-Verweise (Brevier) und Messlesungs-Verweise auf.
 function resolveLectureSelectors(finalData) {
     const hourNames = [
         'erstev', 'invitatorium', 'lesehore', 'vigil', 'laudes',
@@ -898,9 +931,11 @@ function resolveLectureSelectors(finalData) {
             const sourceData = hourData[source];
             if (!sourceData || typeof sourceData !== 'object') return;
             resolveLectureSelectorsForSource(sourceData, finalData.yearABC, finalData.dayOfWeek);
+            if (hour === 'messe') resolveMassReadingsForSource(sourceData);
             ['com1', 'com2'].forEach(commune => {
                 if (sourceData[commune]) {
                     resolveLectureSelectorsForSource(sourceData[commune], finalData.yearABC, finalData.dayOfWeek);
+                    if (hour === 'messe') resolveMassReadingsForSource(sourceData[commune]);
                 }
             });
         });

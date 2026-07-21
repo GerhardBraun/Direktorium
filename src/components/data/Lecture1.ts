@@ -3610,18 +3610,12 @@ export const lecture1Data = {
           "patr_resp3": "Wir bekennen den einen Christus und müssen EIN Leib unter EINEM Haupte sein."
         },
         "Messe": {
-          "ms_les_buch": "Ex",
-          "ms_les_stelle": "14,5-18",
-          "ms_les_motto": "Die Ägypter sollen erkennen, dass ich der HERR bin, wenn ich am Pharao meine Herrlichkeit erweise",
-          "ms_les_text": "In jenen Tagen^l^EINZUGals man dem König von Ägypten meldete,^l^EINZUGdas Volk sei geflohen,^l^EINZUGänderten der Pharao und seine Diener^l^EINZUGihre Meinung über das Volk^lund sagten:^l^EINZUGWie konnten wir nur Israel aus unserem Dienst entlassen!^pEr ließ seinen Streitwagen anspannen^l^EINZUGund nahm sein Kriegsvolk mit.^lSechshundert auserlesene Streitwagen nahm er mit^lund alle anderen Streitwagen der Ägypter^l^EINZUGmit Vorkämpfern auf jedem von ihnen.^pDer HERR verhärtete das Herz des Pharao,^l^EINZUGdes Königs von Ägypten,^l^EINZUGsodass er den Israeliten nachjagte,^ldie Israeliten aber zogen aus mit hoch erhobener Hand.^pDie Ägypter jagten mit allen Pferden und Streitwagen des Pharao,^l^EINZUGmit seiner Reiterei und seiner Streitmacht hinter ihnen her^l^EINZUGund holten sie ein, als sie gerade am Meer lagerten.^lEs war bei Pi-Hahirot vor Baal-Zefon.^pAls der Pharao sich näherte, blickten die Israeliten auf^l^EINZUGund sahen plötzlich die Ägypter von hinten anrücken.^lDa erschraken die Israeliten sehr^l^EINZUGund schrien zum HERRN.^pZu Mose sagten sie:^l^EINZUGGab es denn keine Gräber in Ägypten,^l^EINZUGdass du uns zum Sterben in die Wüste holst?^lWas hast du uns da angetan,^l^EINZUGuns aus Ägypten herauszuführen?^lHaben wir dir in Ägypten nicht gleich gesagt: Lass uns in Ruhe!^lWir wollen Sklaven der Ägypter bleiben;^ldenn es ist für uns immer noch besser,^l^EINZUGSklaven der Ägypter zu sein,^l^EINZUGals in der Wüste zu sterben.^pMose aber sagte zum Volk: Fürchtet euch nicht!^lBleibt stehen^l^EINZUGund schaut zu, wie der HERR euch heute rettet!^lWie ihr die Ägypter heute seht,^l^EINZUGso seht ihr sie niemals wieder.^lDer HERR kämpft für euch,^lihr aber könnt ruhig abwarten.^pDer HERR sprach zu Mose: Was schreist du zu mir?^lSag den Israeliten, sie sollen aufbrechen.^lUnd du heb deinen Stab hoch,^lstreck deine Hand über das Meer und spalte es,^l^EINZUGdamit die Israeliten^l^EINZUGauf trockenem Boden in das Meer hineinziehen können!^pIch aber will das Herz der Ägypter verhärten,^l^EINZUGdamit sie hinter ihnen hineinziehen.^lSo will ich am Pharao und an seiner ganzen Streitmacht,^l^EINZUGan seinen Streitwagen und Reitern^l^EINZUGmeine Herrlichkeit erweisen.^pDie Ägypter sollen erkennen, dass ich der HERR bin,^lwenn ich am Pharao, an seinen Streitwagen und Reitern^l^EINZUGmeine Herrlichkeit erweise.",
+          "ms_les_text": "Ex 14,5-18",
           "ms_aps_stelle": "Ex 15,1b-2b.2c-3.4-5.6+13",
           "ms_aps_kv": "Dem Herrn will ich singen,^lmachtvoll hat er sich kundgetan.",
           "ms_aps_text": "Ich singe dem HERRN ein Lied,^+denn er ist hoch und erhaben.^*Ross und Reiter warf er ins Meer.^pMeine Stärke und mein Lied ist der HERR,^*er ist mir zur Rettung geworden. – (R)^PEr ist mein Gott, ihn will ich preisen;^*den Gott meines Vaters will ich rühmen.^pDer HERR ist ein Krieger,^*HERR ist sein Name. – (R)^PPharaos Wagen und seine Streitmacht warf er ins Meer.^*Seine besten Vorkämpfer versanken im Roten Meer.^pFluten deckten sie zu,^*sie sanken in die Tiefe wie Steine. – (R)^PDeine Rechte, HERR, ist herrlich an Stärke;^*deine Rechte, HERR, zerschmettert den Feind.^pDu lenktest in deiner Güte das Volk, das du erlöst hast,^*du führtest sie machtvoll zu deiner heiligen Wohnung. – R^P",
           "ms_ruf_text": "Ps 95,7",
-          "ms_ev_buch": "Mt",
-          "ms_ev_stelle": "12,38-42",
-          "ms_ev_motto": "Die Königin des Südens wird beim Gericht gegen diese Generation auftreten",
-          "ms_ev_text": "In jener Zeit sagten einige Schriftgelehrte und Pharisäer zu Jesus:^lMeister, wir möchten von dir ein Zeichen sehen.^pEr antwortete ihnen:^l^EINZUGDiese böse und treulose Generation fordert ein Zeichen,^laber es wird ihr kein Zeichen gegeben werden^l^EINZUGaußer das Zeichen des Propheten Jona.^lDenn wie Jona^l^EINZUGdrei Tage und drei Nächte im Bauch des Fisches war,^l^EINZUGso wird auch der Menschensohn^l^EINZUGdrei Tage und drei Nächte im Schoß der Erde sein.^pDie Männer von Ninive^l^EINZUGwerden beim Gericht mit dieser Generation auftreten^l^EINZUGund sie verurteilen;^ldenn sie sind auf die Botschaft des Jona hin umgekehrt.^lUnd siehe, hier ist mehr als Jona.^pDie Königin des Südens^l^EINZUGwird beim Gericht gegen diese Generation auftreten^l^EINZUGund sie verurteilen;^ldenn sie kam vom Ende der Erde,^l^EINZUGum die Weisheit Salomos zu hören.^lUnd siehe, hier ist mehr als Salomo."
+          "ms_ev_text": "Mt 12,38-42"
         }
       },
       "2": {
@@ -3640,18 +3634,12 @@ export const lecture1Data = {
           "patr_resp3": "Weil wir von EINEM Brote essen, sind wir, die Vielen, ein einziger Leib."
         },
         "Messe": {
-          "ms_les_buch": "Ex",
-          "ms_les_stelle": "14,21 - 15,1",
-          "ms_les_motto": "Die Israeliten waren auf trockenem Boden mitten durch das Meer gezogen",
-          "ms_les_text": "In jenen Tagen^l^EINZUGstreckte Mose seine Hand über das Meer aus^lund der HERR trieb die ganze Nacht^l^EINZUGdas Meer durch einen starken Ostwind fort.^lEr ließ das Meer austrocknen^lund das Wasser spaltete sich.^lDie Israeliten zogen auf trockenem Boden ins Meer hinein,^lwährend rechts und links von ihnen^l^EINZUGdas Wasser wie eine Mauer stand.^lDie Ägypter setzten ihnen nach;^lalle Pferde des Pharao, seine Streitwagen und Reiter^l^EINZUGzogen hinter ihnen ins Meer hinein.^pUm die Zeit der Morgenwache^l^EINZUGblickte der HERR aus der Feuer- und Wolkensäule^l^EINZUGauf das Lager der Ägypter^l^EINZUGund brachte es in Verwirrung.^lEr hemmte die Räder an ihren Wagen^lund ließ sie nur schwer vorankommen.^lDa sagte der Ägypter:^l^EINZUGIch muss vor Israel fliehen;^ldenn der HERR kämpft auf ihrer Seite gegen Ägypten.^pDarauf sprach der HERR zu Mose:^l^EINZUGStreck deine Hand über das Meer,^ldamit das Wasser zurückflutet^l^EINZUGund den Ägypter, seine Wagen und Reiter zudeckt!^lMose streckte seine Hand über das Meer^lund gegen Morgen flutete das Meer an seinen alten Platz zurück,^l^EINZUGwährend die Ägypter auf der Flucht ihm entgegenliefen.^lSo trieb der HERR die Ägypter mitten ins Meer.^pDas Wasser kehrte zurück^l^EINZUGund bedeckte Wagen und Reiter,^ldie ganze Streitmacht des Pharao,^l^EINZUGdie den Israeliten ins Meer nachgezogen war.^lNicht ein Einziger von ihnen blieb übrig.^lDie Israeliten aber waren auf trockenem Boden^l^EINZUGmitten durch das Meer gezogen,^lwährend rechts und links von ihnen^l^EINZUGdas Wasser wie eine Mauer stand.^pSo rettete der HERR an jenem Tag Israel aus der Hand der Ägypter.^pIsrael sah die Ägypter tot am Strand liegen.^lAls Israel sah,^l^EINZUGdass der HERR^l^EINZUGmit mächtiger Hand an den Ägyptern gehandelt hatte,^l^EINZUGfürchtete das Volk den HERRN.^lSie glaubten an den HERRN^l^EINZUGund an Mose, seinen Knecht.^pDamals sang Mose mit den Israeliten dem HERRN dieses Lied;^lsie sagten:^l^EINZUGIch singe dem HERRN ein Lied,^l^EINZUGdenn er ist hoch und erhaben.^lRoss und Reiter warf er ins Meer.",
+          "ms_les_text": "Ex 14,21 - 15,1",
           "ms_aps_stelle": "Ex 15,8b-9.10+12.17",
           "ms_aps_kv": "Dem Herrn will ich singen,^lmachtvoll hat er sich kundgetan.",
           "ms_aps_text": "Wasser türmte sich, Wogen standen als Wall,^*Fluten erstarrten im Herzen des Meeres.^pDa sagte der Feind: Ich jage nach, hole ein.^+Ich teile die Beute, ich stille die Gier.^*Ich zücke mein Schwert, meine Hand jagt sie davon. – (R)^PDa schnaubtest du Sturm. Das Meer deckte sie zu.^*Sie sanken wie Blei ins tosende Wasser.^pDu strecktest deine Rechte aus,^*da verschlang sie die Erde. – (R)^PDu wirst sie hinbringen und auf den Berg deines Erbes einpflanzen,^*den du, HERR, zu deiner Wohnstätte gemacht hast,^pum dich niederzulassen, zu einem Heiligtum,^*HERR, von deinen Händen gegründet. – R^p",
           "ms_ruf_text": "Joh 14,23",
-          "ms_ev_buch": "Mt",
-          "ms_ev_stelle": "12,46-50",
-          "ms_ev_motto": "Er streckte die Hand über seine Jünger aus und sagte: Siehe, meine Mutter und meine Brüder",
-          "ms_ev_text": "In jener Zeit,^l^EINZUGals Jesus mit den Leuten redete,^l^EINZUGstanden seine Mutter und seine Brüder vor dem Haus^lund wollten mit ihm sprechen.^lDa sagte jemand zu ihm:^l^EINZUGSiehe, deine Mutter und deine Brüder stehen draußen^l^EINZUGund wollen mit dir sprechen.^pDem, der ihm das gesagt hatte, erwiderte er:^lWer ist meine Mutter^lund wer sind meine Brüder?^pUnd er streckte die Hand über seine Jünger aus^lund sagte: Siehe, meine Mutter und meine Brüder.^lDenn wer den Willen meines himmlischen Vaters tut,^l^EINZUGder ist für mich Bruder und Schwester und Mutter."
+          "ms_ev_text": "Mt 12,46-50"
         }
       },
       "3": {
@@ -3670,18 +3658,12 @@ export const lecture1Data = {
           "patr_resp3": "Selig der Knecht, den ich wachend finde."
         },
         "Messe": {
-          "ms_les_buch": "Ex",
-          "ms_les_stelle": "16,1-5.9-15",
-          "ms_les_motto": "Ich will euch Brot vom Himmel regnen lassen",
-          "ms_les_text": "Die ganze Gemeinde der Israeliten brach von Elim auf^l^EINZUGund kam in die Wüste Sin,^l^EINZUGdie zwischen Elim und dem Sinai liegt.^lEs war der fünfzehnte Tag des zweiten Monats^l^EINZUGnach ihrem Auszug aus Ägypten.^pDie ganze Gemeinde der Israeliten^l^EINZUGmurrte in der Wüste gegen Mose und Aaron.^lDie Israeliten sagten zu ihnen:^l^EINZUGWären wir doch im Land Ägypten^l^EINZUGdurch die Hand des HERRN gestorben,^l^EINZUGals wir an den Fleischtöpfen saßen^l^EINZUGund Brot genug zu essen hatten.^lIhr habt uns nur deshalb in diese Wüste geführt,^l^EINZUGum alle, die hier versammelt sind, an Hunger sterben zu lassen.^pDa sprach der HERR zu Mose:^lIch will euch Brot vom Himmel regnen lassen.^lDas Volk soll hinausgehen,^l^EINZUGum seinen täglichen Bedarf zu sammeln.^lIch will es prüfen,^l^EINZUGob es nach meiner Weisung lebt oder nicht.^lWenn sie am sechsten Tag feststellen,^l^EINZUGwas sie zusammengebracht haben,^l^EINZUGwird es doppelt so viel sein,^l^EINZUGwie sie sonst täglich gesammelt haben.^pDann sagte Mose zu Aaron:^lSag der ganzen Gemeinde der Israeliten:^l^EINZUGTretet hin vor den HERRN; denn er hat euer Murren gehört!^lWährend Aaron zur ganzen Gemeinde der Israeliten sprach,^l^EINZUGwandten sie sich zur Wüste hin.^lDa erschien plötzlich in der Wolke die Herrlichkeit des HERRN.^pDer HERR sprach zu Mose:^lIch habe das Murren der Israeliten gehört.^lSag ihnen:^l^EINZUGIn der Abenddämmerung werdet ihr Fleisch zu essen haben,^lam Morgen werdet ihr satt werden von Brot^lund ihr werdet erkennen, dass ich der HERR, euer Gott, bin.^pAm Abend kamen die Wachteln und bedeckten das Lager.^lAm Morgen lag eine Schicht von Tau rings um das Lager.^lAls sich die Tauschicht gehoben hatte,^l^EINZUGlag auf dem Wüstenboden etwas Feines, Knuspriges,^l^EINZUGfein wie Reif, auf der Erde.^pAls das die Israeliten sahen,^l^EINZUGsagten sie zueinander: Was ist das?^lDenn sie wussten nicht, was es war.^lDa sagte Mose zu ihnen:^l^EINZUGDas ist das Brot, das der HERR euch zu essen gibt.",
+          "ms_les_text": "Ex 16,1-5.9-15",
           "ms_aps_stelle": "Ps 78,18-19.23-24.25-26.27-28",
           "ms_aps_kv": "Der Herr gab ihnen Brot vom Himmel.",
           "ms_aps_text": "In ihrem Herzen versuchten sie Gott:^*Sie forderten Nahrung für ihr Verlangen.^pSie redeten gegen Gott; sie fragten:^*„Kann uns denn Gott den Tisch decken in der Wüste?“^KV^PEr gebot den Wolken droben^*und öffnete die Tore des Himmels.^pEr ließ Manna auf sie regnen als Speise,^*er gab ihnen Korn vom Himmel.^KV^PJeder aß vom „Brot der Starken“;^*er sandte Nahrung, sie zu sättigen.^pEr ließ den Ostwind losbrechen am Himmel,^*führte in seiner Macht den Südwind herbei.^KV^PEr ließ Fleisch auf sie regnen wie Staub,^*gefiederte Vögel wie Sand am Meer.^pEr ließ sie mitten ins Lager fallen,^*rings um ihre Zelte.",
           "ms_ruf_text": "Der Samen ist das Wort Gottes, der Sämann ist Christus.^lWer Christus findet, der bleibt in Ewigkeit.",
-          "ms_ev_buch": "Mt",
-          "ms_ev_stelle": "13,1-9",
-          "ms_ev_motto": "Die Körner brachten hundertfache Frucht",
-          "ms_ev_text": "An jenem Tag verließ Jesus das Haus^l^EINZUGund setzte sich an das Ufer des Sees.^lDa versammelte sich eine große Menschenmenge um ihn.^lEr stieg deshalb in ein Boot und setzte sich.^lUnd alle Menschen standen am Ufer.^lUnd er sprach lange zu ihnen in Gleichnissen.^pEr sagte: Siehe, ein Sämann ging hinaus, um zu säen.^lAls er säte,^l^EINZUGfiel ein Teil auf den Weg^lund die Vögel kamen und fraßen es.^pEin anderer Teil fiel auf felsigen Boden,^l^EINZUGwo es nur wenig Erde gab,^lund ging sofort auf,^l^EINZUGweil das Erdreich nicht tief war;^lals aber die Sonne hochstieg,^l^EINZUGwurde die Saat versengt^lund verdorrte, weil sie keine Wurzeln hatte.^pWieder ein anderer Teil fiel in die Dornen^lund die Dornen wuchsen und erstickten die Saat.^pEin anderer Teil aber fiel auf guten Boden^l^EINZUGund brachte Frucht,^lteils hundertfach, teils sechzigfach, teils dreißigfach.^pWer Ohren hat, der höre!"
+          "ms_ev_text": "Mt 13,1-9"
         }
       },
       "4": {
@@ -3700,17 +3682,11 @@ export const lecture1Data = {
           "patr_resp3": "An diesen beiden Geboten hängt das ganze Gesetz und die Propheten."
         },
         "Messe": {
-          "ms_les_buch": "Ex",
-          "ms_les_stelle": "19,1-2.9-11.16-20",
-          "ms_les_motto": "Der HERR wird vor den Augen des ganzen Volkes auf den Berg Sinai herabsteigen",
-          "ms_les_text": "Im dritten Monat nach dem Auszug der Israeliten aus Ägypten,^l^EINZUGan diesem Tag,^l^EINZUGkamen sie in der Wüste Sinai an.^lSie waren von Refidim aufgebrochen^l^EINZUGund kamen in die Wüste Sinai.^lSie schlugen in der Wüste das Lager auf.^lDort lagerte Israel gegenüber dem Berg.^pDer HERR sprach zu Mose:^lIch werde zu dir in einer dichten Wolke kommen;^ldas Volk soll es hören, wenn ich mit dir rede,^l^EINZUGdamit sie auch dir für immer vertrauen.^lDa berichtete Mose dem HERRN, was das Volk gesagt hatte.^pDer HERR sprach zu Mose:^lGeh zum Volk!^lHeilige sie heute und morgen!^lSie sollen ihre Kleider waschen^l^EINZUGund sich für den dritten Tag bereithalten.^lAm dritten Tag nämlich^l^EINZUGwird der HERR vor den Augen des ganzen Volkes^l^EINZUGauf den Berg Sinai herabsteigen.^pAm dritten Tag, im Morgengrauen,^l^EINZUGbegann es zu donnern und zu blitzen.^lSchwere Wolken lagen über dem Berg^lund gewaltiger Hörnerschall erklang.^lDas ganze Volk im Lager begann zu zittern.^lMose führte das Volk aus dem Lager hinaus Gott entgegen.^lUnten am Berg blieben sie stehen.^lDer ganze Sinai war in Rauch gehüllt,^ldenn der HERR war im Feuer auf ihn herabgestiegen.^lDer Rauch stieg vom Berg auf wie Rauch aus einem Schmelzofen.^lDer ganze Berg bebte gewaltig^l^EINZUGund der Hörnerschall wurde immer lauter.^lMose redete^lund Gott antwortete ihm mit verstehbarer Stimme.^lDer HERR war auf den Sinai,^l^EINZUGauf den Gipfel des Berges, herabgestiegen.^lEr hatte Mose zu sich auf den Gipfel des Berges gerufen^lund Mose war hinaufgestiegen.",
+          "ms_les_text": "Ex 19,1-2.9-11.16-20",
           "ms_aps_stelle": "Dan 3,52-56",
           "ms_aps_text": "Gepriesen bist du, HERR, du Gott unserer Väter.^*^rR^0r°°°Gerühmt und verherrlicht in Ewigkeit.^pGepriesen bist du im Tempel deiner heiligen Herrlichkeit.^*^rR^0r°°°Gerühmt und verherrlicht in Ewigkeit.^pGepriesen bist du, der in die Tiefen schaut und auf Kerubim thront.^*^rR^0r°°°Gerühmt und verherrlicht in Ewigkeit.^pGepriesen bist du auf dem Thron deiner Herrschaft.^*^rR^0r°°°Gerühmt und verherrlicht in Ewigkeit.^pGepriesen bist du am Gewölbe des Himmels.^*^rR^0r°°°Gerühmt und verherrlicht in Ewigkeit.",
           "ms_ruf_text": "Mt 11,25",
-          "ms_ev_buch": "Mt",
-          "ms_ev_stelle": "13,10-17",
-          "ms_ev_motto": "Euch ist es gegeben, die Geheimnisse des Himmelreichs zu verstehen; ihnen aber ist es nicht gegeben",
-          "ms_ev_text": "In jener Zeit^l^EINZUGtraten die Jünger zu Jesus^lund sagten: Warum redest du zu ihnen in Gleichnissen?^pEr antwortete ihnen:^l^EINZUGEuch ist es gegeben,^l^EINZUGdie Geheimnisse des Himmelreichs zu verstehen;^lihnen aber ist es nicht gegeben.^lDenn wer hat,^l^EINZUGdem wird gegeben^lund er wird im Überfluss haben;^lwer aber nicht hat,^l^EINZUGdem wird auch noch weggenommen, was er hat.^lDeshalb rede ich zu ihnen in Gleichnissen,^lweil sie sehen und doch nicht sehen^lund hören und doch nicht hören und nicht verstehen.^pAn ihnen erfüllt sich das Prophetenwort Jesajas:^pHören sollt ihr,^lhören und doch nicht verstehen;^lsehen sollt ihr,^lsehen und doch nicht einsehen.^lDenn das Herz dieses Volkes ist hart geworden.^lMit ihren Ohren hören sie schwer^lund ihre Augen verschließen sie,^l^EINZUGdamit sie mit ihren Augen nicht sehen^l^EINZUGund mit ihren Ohren nicht hören^lund mit ihrem Herzen^l^EINZUGnicht zur Einsicht kommen^l^EINZUGund sich bekehren^l^EINZUGund ich sie heile.^pEure Augen aber sind selig,^lweil sie sehen,^l^EINZUGund eure Ohren, weil sie hören.^lDenn, amen, ich sage euch:^lViele Propheten und Gerechte haben sich danach gesehnt^l^EINZUGzu sehen, was ihr seht,^lund haben es nicht gesehen,^lund zu hören, was ihr hört,^lund haben es nicht gehört."
+          "ms_ev_text": "Mt 13,10-17"
         }
       },
       "5": {
@@ -3729,18 +3705,12 @@ export const lecture1Data = {
           "patr_resp3": "Wer bittet, der erhält; wer sucht, der findet."
         },
         "Messe": {
-          "ms_les_buch": "Ex",
-          "ms_les_stelle": "20,1-17",
-          "ms_les_motto": "Alles, was aus Gott gezeugt ist, besiegt die Welt",
-          "ms_les_text": "Schwestern und Brüder!^lJeder, der glaubt, dass Jesus der Christus ist,^l^EINZUGist aus Gott gezeugt^lund jeder, der den Vater liebt,^l^EINZUGliebt auch den, der aus ihm gezeugt ist.^lDaran erkennen wir, dass wir die Kinder Gottes lieben:^l^EINZUGwenn wir Gott lieben und seine Gebote erfüllen.^pDenn darin besteht die Liebe zu Gott,^l^EINZUGdass wir seine Gebote halten;^lund seine Gebote sind nicht schwer.^lDenn alles, was aus Gott gezeugt ist, besiegt die Welt.^lUnd das ist der Sieg, der die Welt besiegt hat:^l^EINZUGunser Glaube.^lWer sonst besiegt die Welt^l^EINZUGaußer dem, der glaubt, dass Jesus der Sohn Gottes ist?^pDieser ist es, der durch Wasser und Blut gekommen ist:^l^EINZUGJesus Christus.^lEr ist nicht nur im Wasser gekommen,^l^EINZUGsondern im Wasser und im Blut.^lUnd der Geist ist es, der Zeugnis ablegt;^ldenn der Geist ist die Wahrheit.",
+          "ms_les_text": "Ex 20,1-17",
           "ms_aps_stelle": "Ps 19,8.9.10",
           "ms_aps_kv": "Herr, du hast Worte ewigen Lebens.",
           "ms_aps_text": "Die Weisung des HERRN ist vollkommen,^*sie erquickt den Menschen.^pDas Zeugnis des HERRN ist verlässlich,^*den Unwissenden macht es weise.^KV^PDie Befehle des HERRN sind gerade,^*sie erfüllen das Herz mit Freude.^pDas Gebot des HERRN ist rein,^*es erleuchtet die Augen.^KV^PDie Furcht des HERRN ist lauter,^*sie besteht für immer.^pDie Urteile des HERRN sind wahrhaftig,^*gerecht sind sie alle.",
           "ms_ruf_text": "Lk 8,15",
-          "ms_ev_buch": "Mt",
-          "ms_ev_stelle": "13,18-23",
-          "ms_ev_motto": "Wer das Wort hört und es auch versteht, der bringt Frucht",
-          "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lHört, was das Gleichnis vom Sämann bedeutet.^lZu jedem Menschen, der das Wort vom Reich hört^l^EINZUGund es nicht versteht,^l^EINZUGkommt der Böse^lund nimmt weg, was diesem Menschen ins Herz gesät wurde;^lbei diesem ist der Samen auf den Weg gefallen.^pAuf felsigen Boden ist der Samen bei dem gefallen,^l^EINZUGder das Wort hört und sofort freudig aufnimmt;^ler hat aber keine Wurzeln, sondern ist unbeständig;^lsobald er um des Wortes willen bedrängt oder verfolgt wird,^l^EINZUGkommt er sofort zu Fall.^pIn die Dornen ist der Samen bei dem gefallen,^l^EINZUGder das Wort hört,^l^EINZUGund die Sorgen dieser Welt^l^EINZUGund der trügerische Reichtum ersticken es^lund es bleibt ohne Frucht.^pAuf guten Boden ist der Samen bei dem gesät,^l^EINZUGder das Wort hört und es auch versteht;^ler bringt Frucht –^lhundertfach oder sechzigfach oder dreißigfach."
+          "ms_ev_text": "Mt 13,18-23"
         }
       },
       "6": {
@@ -3762,7 +3732,7 @@ export const lecture1Data = {
           "ms_les_buch": "Ex",
           "ms_les_stelle": "24,3-8",
           "ms_les_motto": "Das ist das Blut des Bundes, den der HERR mit euch schließt",
-          "ms_les_text": "In jenen Tagen^l^EINZUGkam Mose und übermittelte dem Volk^l^EINZUGalle Worte und Rechtssatzungen des HERRN.^lDas ganze Volk antwortete einstimmig^lund sagte: Alles, was der HERR gesagt hat,^l^EINZUGwollen wir tun.^pMose schrieb alle Worte des HERRN auf.^lAm frühen Morgen stand er auf^l^EINZUGund errichtete am Fuß des Berges einen Altar^l^EINZUGund zwölf Steinmale für die zwölf Stämme Israels.^pEr schickte die jungen Männer der Israeliten aus^l^EINZUGund sie brachten Brandopfer dar^l^EINZUGund schlachteten junge Stiere als Heilsopfer für den HERRN.^lMose nahm die Hälfte des Blutes^l^EINZUGund goss es in eine Schüssel,^lmit der anderen Hälfte besprengte er den Altar.^lDarauf nahm er das Buch des Bundes^l^EINZUGund verlas es vor dem Volk.^lSie antworteten:^l^EINZUGAlles, was der HERR gesagt hat, wollen wir tun;^lund wir wollen es hören.^pDa nahm Mose das Blut,^lbesprengte damit das Volk^lund sagte: Das ist das Blut des Bundes,^l^EINZUGden der HERR aufgrund all dieser Worte^l^EINZUGmit euch schließt.",
+          "ms_les_text": "Ex 24,3-8",
           "ms_aps_stelle": "Ps 50,1-2.5-6.14-15",
           "ms_aps_kv": "Bring dem Höchsten ein Opfer des Dankes!",
           "ms_aps_text": "Gott, ja Gott, der HERR, hat gesprochen,^+er rief die Erde^*vom Aufgang der Sonne bis zu ihrem Untergang.^pVom Zion her, der Krone der Schönheit,^*ging Gott auf in strahlendem Glanz.^KV^P„Versammelt mir all meine Frommen,^*die den Bund mit mir schließen beim Opfer!“^pDa taten die Himmel seine Gerechtigkeit kund;^*weil Gott selbst der Richter ist.^KV^P„Bring Gott ein Opfer des Dankes^*und erfülle dem Höchsten deine Gelübde!^pRuf mich am Tage der Not;^*dann rette ich dich und du wirst mich ehren.“",
@@ -3770,7 +3740,7 @@ export const lecture1Data = {
           "ms_ev_buch": "Mt",
           "ms_ev_stelle": "13,24-30",
           "ms_ev_motto": "Lasst beides wachsen bis zur Ernte!",
-          "ms_ev_text": "In jener Zeit^l^EINZUGerzählte Jesus der Menge folgendes Gleichnis:^lMit dem Himmelreich^l^EINZUGist es wie mit einem Mann,^l^EINZUGder guten Samen auf seinen Acker säte.^lWährend nun die Leute schliefen,^l^EINZUGkam sein Feind,^lsäte Unkraut unter den Weizen^lund ging wieder weg.^pAls die Saat aufging und sich die Ähren bildeten,^l^EINZUGkam auch das Unkraut zum Vorschein.^lDa gingen die Knechte zu dem Gutsherrn^lund sagten: Herr,^l^EINZUGhast du nicht guten Samen auf deinen Acker gesät?^lWoher kommt dann das Unkraut?^lEr antwortete: Das hat ein Feind von mir getan.^lDa sagten die Knechte zu ihm: Sollen wir gehen und es ausreißen?^pEr entgegnete: Nein,^lsonst reißt ihr zusammen mit dem Unkraut auch den Weizen aus.^lLasst beides wachsen bis zur Ernte.^lWenn dann die Zeit der Ernte da ist,^l^EINZUGwerde ich den Arbeitern sagen:^l^EINZUGSammelt zuerst das Unkraut^l^EINZUGund bindet es in Bündel, um es zu verbrennen;^lden Weizen aber bringt in meine Scheune."
+          "ms_ev_text": "Mt 13,24-30"
         }
       }
     },
