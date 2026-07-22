@@ -7043,7 +7043,7 @@ export const calendarData: CalendarData = {
             "patr_resp1": "Jesus sagte zu Maria: Halte mich nicht fest! Geh zu meinen Brüdern und sage ihnen:",
             "patr_resp2": "Ich gehe zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.",
             "patr_resp3": "Maria ging hin und verkündete den Jüngern, was der Herr ihr gesagt hatte:",
-            "hymn_1_lat": 0
+            "hymn_1_lat": 8722.4
           },
           "Laudes": {
             "button": "Hl. Maria Magdalena",
@@ -7060,7 +7060,7 @@ export const calendarData: CalendarData = {
             "resp2": "Der Herr ist vom Tode erstanden.",
             "resp3": "Geh hin zu den Brüdern und verkünde:",
             "antev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.",
-            "hymn_1_lat": 0,
+            "hymn_1_lat": 8722.2,
             "ant1_lat": "",
             "ant2_lat": "",
             "ant3_lat": "",
@@ -7081,7 +7081,7 @@ export const calendarData: CalendarData = {
             "resp2": "Der Herr ist vom Tode erstanden.",
             "resp3": "Geh hin zu den Brüdern und verkünde:",
             "antev": "Maria ging hin und verkündete den Jüngern: Ich habe den Herrn gesehen.^HALLxq",
-            "hymn_1_lat": 0,
+            "hymn_1_lat": 8722.4,
             "ant1_lat": "",
             "ant2_lat": "",
             "ant3_lat": "",
