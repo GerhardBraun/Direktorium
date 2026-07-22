@@ -338,6 +338,9 @@ export const calendar1962Data: Calendar1962Data = {
     "28": [
       "Ss. Nazarii et Celsi Mm., Victoris°I°Papæ°et°Mart., ac°Innocentii°I°Papæ°et°Conf."
     ],
+    "29": [
+      "Comm. Ss. Felicis, Simplicii, Faustini°et°Beatricis°Mm."
+    ],
     "3": [
       "S. Irenæi Ep.°et°Mart. (28.06.)"
     ],
