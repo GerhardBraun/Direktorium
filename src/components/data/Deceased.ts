@@ -6239,6 +6239,14 @@ export const deceasedData =  {
         "birth": "26.°Juli°1912°in°Ratibor (Racibórz,°PL¥-47¥-4..)",
         "grave": "Friedhof°Königsee°(D¥-07426)",
         "age": 75
+      },
+      {
+        "year": 2026,
+        "birthdate": "2239-08-06",
+        "name": "Hans¥-Ludwig°Schmank, Pfr.i.R., GR, Fulda¥-Horas",
+        "birth": "6.°August°1939°in°Hanau",
+        "grave": "Friedhof°Bad°Orb",
+        "age": 86
       }
     ],
     "21": [
