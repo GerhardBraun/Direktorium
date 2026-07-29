@@ -1,4 +1,4 @@
-// Perikopen_Messe.ts - Automatisch generiert am 21.07.2026 08:46:50
+// Perikopen_Messe.ts - Automatisch generiert am 29.07.2026 03:05:33
 // Perikopen_Messe-Datenbank: ID -> { Buch?, Stelle, Motto?, Text }
 
 export const perikopenMesse = {
@@ -5701,5 +5701,11 @@ export const perikopenMesse = {
     "Stelle": "26,14-25",
     "Motto": "Der Menschensohn muss zwar seinen Weg gehen, wie die Schrift über ihn sagt. Doch weh dem Menschen, durch den der Menschensohn verraten wird",
     "Text": "In jener Zeit^l^EINZUGging einer der Zwölf namens Judas Iskariot^l^EINZUGzu den Hohepriestern^lund sagte: Was wollt ihr mir geben,^l^EINZUGwenn ich euch Jesus ausliefere?^lUnd sie boten ihm dreißig Silberstücke.^lVon da an suchte er nach einer Gelegenheit, ihn auszuliefern.^pAm ersten Tag des Festes der Ungesäuerten Brote^l^EINZUGgingen die Jünger zu Jesus^lund fragten:^l^EINZUGWo sollen wir das Paschamahl für dich vorbereiten?^pEr antwortete:^l^EINZUGGeht in die Stadt zu dem und dem^lund sagt zu ihm: Der Meister lässt dir sagen:^l^EINZUGMeine Zeit ist da;^l^EINZUGbei dir will ich mit meinen Jüngern das Paschamahl feiern.^lDie Jünger taten, wie Jesus ihnen aufgetragen hatte,^lund bereiteten das Paschamahl vor.^pAls es Abend wurde,^l^EINZUGbegab er sich mit den zwölf Jüngern zu Tisch.^pUnd während sie aßen,^l^EINZUGsprach er: Amen, ich sage euch:^lEiner von euch wird mich ausliefern.^pDa wurden sie sehr traurig^lund einer nach dem andern fragte ihn:^l^EINZUGBin ich es etwa, Herr?^pEr antwortete:^l^EINZUGDer die Hand mit mir in die Schüssel eintunkt,^l^EINZUGwird mich ausliefern.^pDer Menschensohn muss zwar seinen Weg gehen,^l^EINZUGwie die Schrift über ihn sagt.^lDoch weh dem Menschen,^l^EINZUGdurch den der Menschensohn ausgeliefert wird!^lFür ihn wäre es besser, wenn er nie geboren wäre.^pDa fragte Judas, der ihn auslieferte:^l^EINZUGBin ich es etwa, Rabbi?^lJesus antwortete: Du sagst es."
+  },
+  "Joh 11,19-27": {
+    "Buch": "Joh",
+    "Stelle": "11,19-27",
+    "Motto": "Ich glaube, dass du der Christus bist, der Sohn Gottes",
+    "Text": "In jener Zeit^l^EINZUGwaren viele Juden zu Marta und Maria gekommen,^l^EINZUGum sie wegen ihres Bruders zu trösten.^lAls Marta hörte, dass Jesus komme,^l^EINZUGging sie ihm entgegen,^lMaria aber blieb im Haus sitzen.^pMarta sagte zu Jesus:^l^EINZUGHerr, wärst du hier gewesen,^l^EINZUGdann wäre mein Bruder nicht gestorben.^lAber auch jetzt weiß ich:^l^EINZUGAlles, worum du Gott bittest,^l^EINZUGwird Gott dir geben.^lJesus sagte zu ihr: Dein Bruder wird auferstehen.^pMarta sagte zu ihm:^l^EINZUGIch weiß, dass er auferstehen wird^l^EINZUGbei der Auferstehung am Jüngsten Tag.^lJesus sagte zu ihr:^l^EINZUGIch bin die Auferstehung und das Leben.^lWer an mich glaubt,^l^EINZUGwird leben, auch wenn er stirbt,^lund jeder, der lebt und an mich glaubt,^l^EINZUGwird auf ewig nicht sterben.^lGlaubst du das?^pMarta sagte zu ihm:^l^EINZUGJa, Herr, ich glaube, dass du der Christus bist,^lder Sohn Gottes, der in die Welt kommen soll."
   }
 };
