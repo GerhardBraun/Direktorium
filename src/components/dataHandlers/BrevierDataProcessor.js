@@ -275,10 +275,11 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
     const lectureYear = date.getFullYear() + (
         // Am 1. Advent beginnt das neue Lesejahr,
         // das nach der Jahreszahl des folgenden Jahres bestimmt wird:
-        // Tage im November und Dezember, die nicht im Jahreskreis liegen
+        // Tage im November und Dezember, die nicht im Jahreskreis liegen (Advent und Weihnachtszeit)
         (calendarMonth > 10 && season !== 'j')
             ? 1 : 0);
     const yearABC = ['c', 'a', 'b'][lectureYear % 3]
+    const yearI2 = lectureYear % 2 === 0 ? 'II' : 'I';
     const lectureData = lectureYear % 2 === 0 ? lecture2Data : null;
 
     // Initialize structure
@@ -496,7 +497,7 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
 
         return {
             season, week, dayOfWeek,
-            swd,
+            swd, yearABC, yearI2,
             rank: {
                 wt: rank_wt,
                 date: rank_date,
@@ -848,7 +849,7 @@ const BARE_LES_FIELD_MAP = Object.fromEntries(Object.keys(LES_FIELD_MAP).map(k =
 // Löst in einem einzelnen Source-Objekt (z.B. hours.lesehore.oblig) die Lesungsalternativen
 // (LectureAlternatives.ts) und anschließend die Perikopen-Verweise (Perikopen.ts) auf.
 // Reihenfolge: erst Alternativen, danach Perikopen (siehe doc/Verweise und Alternativen.md).
-function resolveLectureSelectorsForSource(data, yearABC, dayOfWeek) {
+function resolveLectureSelectorsForSource(data, yearABC, yearI2, dayOfWeek) {
     if (!data || typeof data !== 'object') return;
 
     [
@@ -869,7 +870,10 @@ function resolveLectureSelectorsForSource(data, yearABC, dayOfWeek) {
             const cloned = JSON.parse(JSON.stringify(lectureAlternatives[data[field]][selectorKey]));
             data[selectorKey] = cloned.filter(entry => {
                 if (!entry.excludeYear) return true;
+                // Sonntagslesungen (Messe): dreijähriger Zyklus a/b/c (yearABC).
                 if (entry.excludeYear === yearABC) return false;
+                // Lesehore-Lesungen: zweijähriger Zyklus I/II (yearI2), unabhängig von yearABC.
+                if (entry.excludeYear === yearI2) return false;
                 if (entry.excludeYear === '!so' && dayOfWeek > 0) return false;
                 return true;
             });
@@ -930,11 +934,11 @@ function resolveLectureSelectors(finalData) {
         Object.keys(hourData).forEach(source => {
             const sourceData = hourData[source];
             if (!sourceData || typeof sourceData !== 'object') return;
-            resolveLectureSelectorsForSource(sourceData, finalData.yearABC, finalData.dayOfWeek);
+            resolveLectureSelectorsForSource(sourceData, finalData.yearABC, finalData.yearI2, finalData.dayOfWeek);
             if (hour === 'messe') resolveMassReadingsForSource(sourceData);
             ['com1', 'com2'].forEach(commune => {
                 if (sourceData[commune]) {
-                    resolveLectureSelectorsForSource(sourceData[commune], finalData.yearABC, finalData.dayOfWeek);
+                    resolveLectureSelectorsForSource(sourceData[commune], finalData.yearABC, finalData.yearI2, finalData.dayOfWeek);
                     if (hour === 'messe') resolveMassReadingsForSource(sourceData[commune]);
                 }
             });
@@ -1103,7 +1107,7 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDateToRead);
 
     // Prüfe, ob erste Vesper benötigt wird
-    const { season, dayOfWeek } = todayData;
+    const { dayOfWeek } = todayData;
     const rank_wt = todayData.rank.wt;
     const rank_date = todayData.rank.date;
     const swdCombined = todayData.swd.combined;
@@ -1128,16 +1132,12 @@ export function processBrevierData(todayDate) {
             // hinreichende Bedingung: morgen Hochfest oder Herrenfest am Sonntag
             (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6)));
 
-    //Lesejahr ABC
-    let year = todayDate.getFullYear();
-    if (season === 'a' || (todayMonth === 12 && season !== 'j'))
-        year += 1;
-    const yearABC = ['c', 'a', 'b'][year % 3]
-
     // Stelle die endgültigen Daten zusammen
+    // yearABC und yearI2 kommen bereits über ...todayData mit,
+    // aus derselben lectureYear-Berechnung wie lectureData in getPrayerTexts
+    // (keine eigenständige zweite Berechnung mehr, siehe doc/Verweise und Alternativen.md).
     const finalData = {
         ...todayData,
-        yearABC,
         rank: {
             ...todayData.rank,
             nextWt: rankNextWt,
@@ -1166,7 +1166,7 @@ export function processBrevierData(todayDate) {
 
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
-    processAntABC(finalData, yearABC, swdCombined);
+    processAntABC(finalData, finalData.yearABC, swdCombined);
     if (todayInfo.season === 'o')
         processEasterResponses(finalData);
     resolveLectureSelectors(finalData);

@@ -1,4 +1,4 @@
-Calendar Data Processing Log - 2026-08-01 14:05:05.420981
+Calendar Data Processing Log - 2026-08-02 09:49:47.436650
 ============================================================
 
 nur lateinischer Eintrag: AAA-3-33-oblig-Laudes
@@ -25,21 +25,24 @@ nur lateinischer Eintrag: AAA-12-24-oblig-Non
 ÜBERSCHNEIDUNG [Paderborn]: 10-25 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [Limburg]: 10-29 d1 (bestehende Quellen: d1)
 ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
+ÜBERSCHNEIDUNG [Berlin]: 11-19 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
 === ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
-Gesamt gefundene Überschneidungen: 17
+Gesamt gefundene Überschneidungen: 18
 Limburg: 10 Überschneidungen
 Köln: 1 Überschneidungen
 AAA: 3 Überschneidungen
 Speyer: 2 Überschneidungen
 Paderborn: 1 Überschneidungen
+Berlin: 1 Überschneidungen
 
 Zur Unterdrückung von Warnungen können folgende Einträge
 dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
   'AAA-11-9-oblig',
   'AAA-12-13-oblig',
   'AAA-5-66-oblig',
+  'Berlin-11-19-oblig',
   'Köln-5-21-oblig',
   'Limburg-1-5-d1',
   'Limburg-10-13-d1',
