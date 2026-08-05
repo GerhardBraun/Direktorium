@@ -3296,7 +3296,7 @@ export const lecture1Data = {
           "ms_aps_kv": "Gott ist unsre Stärke.",
           "ms_aps_text": "Mein Volk hat nicht auf meine Stimme gehört;^*Israel hat mich nicht gewollt.^pDa überließ ich sie ihrem verstockten Herzen:^*„Sollen sie gehen nach ihren eigenen Plänen.“^KV^PAch, dass mein Volk doch auf mich hörte,^*dass Israel gehen wollte auf meinen Wegen!^pWie bald würde ich seine Feinde beugen,^*meine Hand gegen seine Bedränger wenden.^KV^PDie den HERRN hassen, müssten ihm schmeicheln.^*Aber ihre Zeit soll zur Ewigkeit werden.^pIch würde es nähren mit bestem Weizen,^*dich sättigen mit Honig aus dem Felsen.",
           "ms_ruf_text": "Mt 4,4",
-          "ms_ev_text": "Mt 14,13-21"
+          "ms_ev_text": "ms-j-18-1"
         }
       },
       "2": {
@@ -3320,7 +3320,7 @@ export const lecture1Data = {
           "ms_aps_kv": "Erbarme dich unser, o°Herr.",
           "ms_aps_text": "Gott, sei mir gnädig nach deiner Huld,^*tilge meine Frevel nach deinem reichen Erbarmen!^pWasch meine Schuld von mir ab^*und mach mich rein von meiner Sünde!^KV^PDenn ich erkenne meine bösen Taten,^*meine Sünde steht mir immer vor Augen.^pGegen dich allein habe ich gesündigt,^*ich habe getan, was böse ist in deinen Augen.^KV^PSo behältst du recht mit deinem Urteilsspruch,^*lauter stehst du da als Richter.^pSiehe, in Schuld bin ich geboren^*und in Sünde hat mich meine Mutter empfangen.^KV^PErschaffe mir, Gott, ein reines Herz^*und einen festen Geist erneuere in meinem Innern!^pVerwirf mich nicht vor deinem Angesicht,^*deinen heiligen Geist nimm nicht von mir!",
           "ms_ruf_text": "Joh 1,49",
-          "ms_ev_text": "Mt 14,22-36"
+          "ms_ev_text": "ms-j-18-2"
         }
       },
       "3": {

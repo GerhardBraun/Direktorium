@@ -1838,5 +1838,28 @@ export const lectureAlternatives = {
         "text": "Mk 16,1-20"
       }
     ]
+  },
+  "ms-j-18-1": {
+    "ms_ev_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 14,13-21"
+      },
+      {
+        "excludeYear": "bc",
+        "text": "Mt 14,22-36"
+      }
+    ]
+  },
+  "ms-j-18-2": {
+    "ms_ev_selector": [
+      {
+        "excludeYear": "a",
+        "text": "Mt 14,22-36"
+      },
+      {
+        "text": "Mt 15,1-2.10-14"
+      }
+    ]
   }
 };

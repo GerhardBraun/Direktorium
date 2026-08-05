@@ -819,6 +819,18 @@ const PATR_FIELD_MAP = {
     resp1_lat: 'patr_resp1_lat', resp2_lat: 'patr_resp2_lat', resp3_lat: 'patr_resp3_lat',
     button: 'button',
 };
+// Feldzuordnungen für die Messlesungen-Alternativen (ms_les_selector usw.) – dieselbe
+// Rolle wie LES_FIELD_MAP/PATR_FIELD_MAP, nur für die fünf Messlesungs-Typen. ms_aps/ms_ruf
+// kennen kein Buch/Motto (siehe LectureABC.ts).
+const MS_LES_FIELD_MAP = { buch: 'ms_les_buch', stelle: 'ms_les_stelle', motto: 'ms_les_motto', text: 'ms_les_text' };
+const MS_LES2_FIELD_MAP = { buch: 'ms_les2_buch', stelle: 'ms_les2_stelle', motto: 'ms_les2_motto', text: 'ms_les2_text' };
+const MS_EV_FIELD_MAP = { buch: 'ms_ev_buch', stelle: 'ms_ev_stelle', motto: 'ms_ev_motto', text: 'ms_ev_text' };
+const MS_APS_FIELD_MAP = { stelle: 'ms_aps_stelle', text: 'ms_aps_text' };
+const MS_RUF_FIELD_MAP = { stelle: 'ms_ruf_stelle', text: 'ms_ruf_text' };
+const MESSE_TYPE_FIELD_MAPS = {
+    les: MS_LES_FIELD_MAP, les2: MS_LES2_FIELD_MAP, ev: MS_EV_FIELD_MAP,
+    aps: MS_APS_FIELD_MAP, ruf: MS_RUF_FIELD_MAP,
+};
 
 // Baut aus den aktuellen (bereits gemergten) les_*/patr_*-Feldern eines Source-Objekts
 // einen Array-Eintrag mit präfixlosen Feldnamen (für den synthetisierten Index-0-Standard
@@ -831,7 +843,7 @@ function synthesizeStandardEntry(data, fieldMap) {
     return entry;
 }
 
-// Perikopen-Abgleich: überschreibt text immer, buch/stelle/text_neu/text_lat nur wenn leer.
+// Perikopen-Abgleich (Brevier, Perikopen.ts): überschreibt text immer, buch/stelle/text_neu/text_lat nur wenn leer.
 // target: entweder ein Array-Element (präfixlose Felder) oder das Source-Objekt selbst (mit fieldMap).
 function applyPerikope(target, fieldMap) {
     const key = target[fieldMap.text];
@@ -844,17 +856,42 @@ function applyPerikope(target, fieldMap) {
     if (!target[fieldMap.text_lat] && p.les_text_lat) target[fieldMap.text_lat] = p.les_text_lat;
 }
 
-const BARE_LES_FIELD_MAP = Object.fromEntries(Object.keys(LES_FIELD_MAP).map(k => [k, k]));
+// Perikopen-Abgleich (Messe, Perikopen_Messe.ts): gleiches Prinzip wie applyPerikope, andere
+// Datenbank und Feldnamen-Schreibweise (Buch/Stelle/Motto/Text, großgeschrieben).
+function applyPerikopeMesse(target, fieldMap) {
+    const key = target[fieldMap.text];
+    if (typeof key !== 'string' || !perikopenMesse[key]) return;
+    const p = perikopenMesse[key];
+    target[fieldMap.text] = p.Text;
+    if (fieldMap.buch && !target[fieldMap.buch] && p.Buch) target[fieldMap.buch] = p.Buch;
+    if (fieldMap.stelle && !target[fieldMap.stelle] && p.Stelle) target[fieldMap.stelle] = p.Stelle;
+    if (fieldMap.motto && !target[fieldMap.motto] && p.Motto) target[fieldMap.motto] = p.Motto;
+}
 
-// Löst in einem einzelnen Source-Objekt (z.B. hours.lesehore.oblig) die Lesungsalternativen
-// (LectureAlternatives.ts) und anschließend die Perikopen-Verweise (Perikopen.ts) auf.
+// Erzeugt aus einer {bareKey: präfixierterKey}-Feldzuordnung eine {bareKey: bareKey}-Variante
+// für den Zugriff auf Array-Elemente (dort tragen die Felder keinen Präfix, siehe Punkt 10 der Doku).
+const bareFieldMap = (fieldMap) => Object.fromEntries(Object.keys(fieldMap).map(k => [k, k]));
+const BARE_LES_FIELD_MAP = bareFieldMap(LES_FIELD_MAP);
+const BARE_MESSE_TYPE_FIELD_MAPS = Object.fromEntries(
+    Object.entries(MESSE_TYPE_FIELD_MAPS).map(([type, fieldMap]) => [type, bareFieldMap(fieldMap)])
+);
+
+// Löst in einem einzelnen Source-Objekt (z.B. hours.lesehore.oblig oder hours.messe.oblig) die
+// Lesungsalternativen (LectureAlternatives.ts) und anschließend die Perikopen-Verweise
+// (Perikopen.ts bzw. Perikopen_Messe.ts) auf.
 // Reihenfolge: erst Alternativen, danach Perikopen (siehe doc/Verweise und Alternativen.md).
+// Die ms_*-Einträge durchlaufen dieselbe Schleife wie les_text/patr_text; der REF&-Marker-Fall
+// greift für sie nie (Messlesungen kennen keine diözesane Referenz über Laudes.referenz),
+// der Normalfall (Textfeld = Lookup-Key) funktioniert aber identisch.
 function resolveLectureSelectorsForSource(data, yearABC, yearI2, dayOfWeek) {
     if (!data || typeof data !== 'object') return;
 
     [
         { field: 'les_text', selectorKey: 'les_selector', fieldMap: LES_FIELD_MAP },
         { field: 'patr_text', selectorKey: 'patr_selector', fieldMap: PATR_FIELD_MAP },
+        ...Object.entries(MESSE_TYPE_FIELD_MAPS).map(([type, fieldMap]) => ({
+            field: `ms_${type}_text`, selectorKey: `ms_${type}_selector`, fieldMap,
+        })),
     ].forEach(({ field, selectorKey, fieldMap }) => {
         const markerKey = `${field}_selectorKeyword`;
         const marker = data[markerKey];
@@ -870,9 +907,11 @@ function resolveLectureSelectorsForSource(data, yearABC, yearI2, dayOfWeek) {
             const cloned = JSON.parse(JSON.stringify(lectureAlternatives[data[field]][selectorKey]));
             data[selectorKey] = cloned.filter(entry => {
                 if (!entry.excludeYear) return true;
-                // Sonntagslesungen (Messe): dreijähriger Zyklus a/b/c (yearABC).
-                if (entry.excludeYear === yearABC) return false;
+                // Sonntagslesungen (Messe): dreijähriger Zyklus a/b/c (yearABC). Auch Kombinationen
+                // wie "bc" möglich (schließt B UND C aus, Lesung erscheint nur im Lesejahr A).
+                if (entry.excludeYear.includes(yearABC)) return false;
                 // Lesehore-Lesungen: zweijähriger Zyklus I/II (yearI2), unabhängig von yearABC.
+                // Keine Kombinationen nötig, da I und II sich bereits gegenseitig ausschließen.
                 if (entry.excludeYear === yearI2) return false;
                 if (entry.excludeYear === '!so' && dayOfWeek > 0) return false;
                 return true;
@@ -880,7 +919,7 @@ function resolveLectureSelectorsForSource(data, yearABC, yearI2, dayOfWeek) {
         }
     });
 
-    // Perikopen-Abgleich (nur les_text/les_selector; patr_text ist nie eine Bibelstelle)
+    // Perikopen-Abgleich Brevier (nur les_text/les_selector; patr_text ist nie eine Bibelstelle)
     if (Array.isArray(data.les_selector)) {
         data.les_selector.forEach(entry => applyPerikope(entry, BARE_LES_FIELD_MAP));
     } else {
@@ -888,37 +927,20 @@ function resolveLectureSelectorsForSource(data, yearABC, yearI2, dayOfWeek) {
     }
 }
 
-// Wendet resolveLectureSelectorsForSource auf alle Stunden und alle darin vorkommenden
-// Sources an (wt, pers, oblig, n1-n5, d1-d5, dmob, dpar, mar, kirchw, alt, continuous, …
-// sowie com1/com2), da prefSource erst zur Laufzeit interaktiv gewählt wird (GetValue.js).
-// Feldzuordnung für den Perikopen_Messe.ts-Abgleich der Messlesungen:
-// ms_<type>_text ist der Lookup-Key, die übrigen Felder werden nur befüllt, wenn leer.
-// ms_aps_* und ms_ruf_* kennen kein Buch/Motto (siehe LectureABC.ts), ms_les_*/ms_les2_*/ms_ev_* schon.
-const MESSE_READING_TYPES = {
-    les: ['buch', 'stelle', 'motto'],
-    les2: ['buch', 'stelle', 'motto'],
-    ev: ['buch', 'stelle', 'motto'],
-    aps: ['stelle'],
-    ruf: ['stelle'],
-};
-
-// Löst ms_les_text, ms_aps_text, ms_les2_text, ms_ruf_text, ms_ev_text gegen
-// Perikopen_Messe.ts auf (Vorbild war bisher nur die Sonderbehandlung von ms_ruf_text
-// über RufvdEv.ts in MassReadings.js, jetzt auf alle Messlesungs-Felder verallgemeinert
-// und wie bei les_selector/patr_selector in die Datenaufbereitung verschoben).
+// Löst ms_les_text, ms_aps_text, ms_les2_text, ms_ruf_text, ms_ev_text (bzw. deren
+// ms_*_selector-Arrays, falls durch resolveLectureSelectorsForSource bereits angelegt)
+// gegen Perikopen_Messe.ts auf. Vorbild war ursprünglich nur die Sonderbehandlung von
+// ms_ruf_text über RufvdEv.ts in MassReadings.js, inzwischen auf alle Messlesungs-Felder
+// verallgemeinert und in die Datenaufbereitung verschoben.
 function resolveMassReadingsForSource(data) {
     if (!data || typeof data !== 'object') return;
-    Object.entries(MESSE_READING_TYPES).forEach(([type, extraFields]) => {
-        const textField = `ms_${type}_text`;
-        const key = data[textField];
-        if (typeof key !== 'string' || !key || !perikopenMesse[key]) return;
-        const p = perikopenMesse[key];
-        data[textField] = p.Text;
-        extraFields.forEach(bare => {
-            const targetField = `ms_${type}_${bare}`;
-            const sourceValue = p[bare.charAt(0).toUpperCase() + bare.slice(1)];
-            if (!data[targetField] && sourceValue) data[targetField] = sourceValue;
-        });
+    Object.entries(MESSE_TYPE_FIELD_MAPS).forEach(([type, fieldMap]) => {
+        const selectorKey = `ms_${type}_selector`;
+        if (Array.isArray(data[selectorKey])) {
+            data[selectorKey].forEach(entry => applyPerikopeMesse(entry, BARE_MESSE_TYPE_FIELD_MAPS[type]));
+        } else {
+            applyPerikopeMesse(data, fieldMap);
+        }
     });
 }
 
