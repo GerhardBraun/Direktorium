@@ -44,6 +44,9 @@ export const calendar1962Data: Calendar1962Data = {
     "24": [
       "S. Timothei Ep.°et°Mart. (26.01.)"
     ],
+    "25": [
+      "Comm. S. Petri Ap."
+    ],
     "26": [
       "S. Polycarpi Ep.°et°Mart. (23.02.)"
     ],
@@ -79,6 +82,9 @@ export const calendar1962Data: Calendar1962Data = {
     ],
     "18": [
       "Comm. S. Simeonis Ep.°et°Mart."
+    ],
+    "22": [
+      "Comm. S. Pauli Ap."
     ],
     "23": [
       "S. Petri Damiani Ep.,°Conf.°et°Eccl.°Doct. (21.02.)"
@@ -604,7 +610,7 @@ export const calendar1962Data: Calendar1962Data = {
       "S. Thomæ Ap. (03.07.)"
     ],
     "25": [
-      "In secunda Missa: Comm.°S.°Anastasiæ°Mart."
+      "In IIª Missa: Comm.°S.°Anastasiæ°Mart."
     ],
     "4": [
       "S. Petri Chrysologi Ep.,°Conf.°et°Eccl.°Doct. (30.07.)"
