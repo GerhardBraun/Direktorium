@@ -131,7 +131,8 @@ export const getValue = ({
 
     // Bei lokaler Feier als Hochfest oder Fest-/Hochfest-Rang:
     // Oration immer aus den Laudes
-    if (field.startsWith('oration') && (prefSollemnity || rank.date > 2))
+    if (field.startsWith('oration') &&
+        (prefSollemnity || (rank.date > 2 && rank.date > rank.wt)))
         return result(texts.laudes[prefSource]);
 
     // Ergänzungspsalmodie über localPrefErgPs:
