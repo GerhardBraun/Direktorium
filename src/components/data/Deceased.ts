@@ -27,7 +27,7 @@ export const deceasedData =  {
       {
         "year": 2024,
         "birthdate": "2246-11-09",
-        "name": "Erwin°Bednarczyk, Pfr.i.R., Duisburg",
+        "name": "Erwin°Bednarczyk°Fulda, Pfr.i.R., Duisburg",
         "birth": "9.°November°1946°in°Frankfurt°a.°M.",
         "grave": "Waldfriedhof°Duisburg",
         "age": 77
@@ -6897,6 +6897,16 @@ export const deceasedData =  {
         "birth": "6.°Dezember°1964°in°Fulda",
         "grave": "Friedhof°Veitsteinbach",
         "age": 60
+      }
+    ],
+    "11": [
+      {
+        "year": 2026,
+        "birthdate": "2238-06-05",
+        "name": "Dr.°Lucian°Lamza, Apostol.°Protonotar, Fulda",
+        "birth": "5.°Juni°1938°in°Pschow/Oberschlesien (Pszów,°PL¥-44-370)",
+        "grave": "Zentralfriedhof°Fulda",
+        "age": 88
       }
     ],
     "12": [
