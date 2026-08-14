@@ -129,10 +129,10 @@ export const getValue = ({
     if (hour === 'vesper' && prefSollemnity === 'soll')
         hour = 'prefsollemnity';
 
-    // Bei lokaler Feier als Hochfest oder Fest-/Hochfest-Rang:
-    // Oration immer aus den Laudes
+    // Bei lokaler Feier als Hochfest: Oration immer aus den Laudes,
+    // bei Fest-/Hochfest-Rang: in den Kleinen Horen Oration aus den Laudes
     if (field.startsWith('oration') &&
-        (prefSollemnity || (rank.date > 2 && rank.date > rank.wt)))
+        (prefSollemnity || (isTSN && rank.date > 2 && rank.date > rank.wt)))
         return result(texts.laudes[prefSource]);
 
     // Ergänzungspsalmodie über localPrefErgPs:
