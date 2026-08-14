@@ -112,10 +112,10 @@ export const sollemnitiesData = {
             "lesehore": {
                 "hymn_1": 1139.0,
                 "psalm1": 24.0,
-                "psalm2": 84.101,
+                "psalm2": 84.0,
                 "psalm3": 87.0,
                 "ant1": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^HALLo",
-                "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^HALLo",
+                "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^HALLo^FIRST",
                 "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^HALLo",
                 "versikel0": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^HALLo",
                 "versikel1": "Ich lobe deinen Namen, denn du bist gütig.^HALLo",
