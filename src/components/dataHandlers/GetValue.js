@@ -131,6 +131,7 @@ export const getValue = ({
 
     // Bei lokaler Feier als Hochfest: Oration immer aus den Laudes,
     // bei Fest-/Hochfest-Rang: in den Kleinen Horen Oration aus den Laudes
+    // (Sicherung für den Fall, dass Gedenktagtage in einem Diözesankalender einen höheren Rang haben)
     if (field.startsWith('oration') &&
         (prefSollemnity || (isTSN && rank.date > 2 && rank.date > rank.wt)))
         return result(texts.laudes[prefSource]);
