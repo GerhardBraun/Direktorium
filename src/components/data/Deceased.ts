@@ -6897,6 +6897,14 @@ export const deceasedData =  {
         "birth": "6.°Dezember°1964°in°Fulda",
         "grave": "Friedhof°Veitsteinbach",
         "age": 60
+      },
+      {
+        "year": 2026,
+        "birthdate": "2244-07-13",
+        "name": "Klaus¥-Dieter°Bittner",
+        "birth": "13.°Juli°1944°in°Ittenbach (D¥-53639°Königswinter)",
+        "grave": "Kath.°Friedhof°Bad°Homburg°vor°der°Höhe",
+        "age": 82
       }
     ],
     "11": [
@@ -6904,7 +6912,7 @@ export const deceasedData =  {
         "year": 2026,
         "birthdate": "2238-06-05",
         "name": "Dr.°Lucian°Lamza, Apostol.°Protonotar, Fulda",
-        "birth": "5.°Juni°1938°in°Pschow/Oberschlesien (Pszów,°PL¥-44-370)",
+        "birth": "5.°Juni°1938°in°Pschow/Oberschlesien (Pszów,°PL¥-44¥-370)",
         "grave": "Zentralfriedhof°Fulda",
         "age": 88
       }
