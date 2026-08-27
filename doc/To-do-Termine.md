@@ -1,7 +1,7 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
 
-**08-26** `Lesungen der Lesehore` ab Do der 21. Woche i. Jkr.
+**08-29** `Lesungen der Lesehore` ab 22. Woche i. Jkr.
 **09-02** `Calendar-Lesungen`: ab 3. September
 **ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.
 **ohne Frist** `Psalmen zum Singen` zur Lesehore

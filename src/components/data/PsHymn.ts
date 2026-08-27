@@ -3890,11 +3890,11 @@ export const psalmsData = {
   },
   1038: {
     0.0: {
-        "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lebens helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lichtes helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       },
     5.0: {
         "title": "Du große Herrin, schönste Frau ^v(wie°in°den°Laudes)^0v",
-        "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lebens helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lichtes helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1043: {
