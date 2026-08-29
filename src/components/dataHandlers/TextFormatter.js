@@ -650,7 +650,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
         .replace(/\^ANT/, '^rAnt.\u00A0\u00A0^0r')
         .replace(/\^KV/g, '^r\u00A0–\u00A0(Kv)^0r')
         .replace(/\^(ODER|VEL)/g, (match, text) => '^l^RUBR' + firstCapital(text) + ':^0RUBR^l')
-        .replace(/([.?!]|)( |)(EINE?[RMN]?)/g, (match, punctuation, space, text) => {
+        .replace(/([.?!]|)([ \u00A0]|)(EINE?[RMN]?)/g, (match, punctuation, space, text) => {
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
