@@ -12286,7 +12286,7 @@ export const brevierData = {
         "Non": {
           "les_buch": "›Weish",
           "les_stelle": "1,13–15",
-          "les_text": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen und heilbringend sind die Geschöpfe der Welt. Kein Gift des Verderbens ist in ihnen, das Reich des Todes hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
+          "les_text": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen, und heilbringend sind die Geschöpfe der Welt. Kein Gift des Verderbens ist in ihnen, das Reich des Todes hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
           "les_text_neu": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen, und heilbringend sind die Geschöpfe der Welt. Kein Gift des Verderbens ist in ihnen, das Reich der Unterwelt hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
           "resp0": "Der Herr entriss mein Leben dem Tod.",
           "resp1": "Ich gehe meinen Weg vor ihm im Lande der Lebenden.",
