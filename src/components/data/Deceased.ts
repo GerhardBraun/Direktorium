@@ -7875,6 +7875,16 @@ export const deceasedData =  {
         "age": 82
       }
     ],
+    "20": [
+      {
+        "year": 2026,
+        "birthdate": "2252-09-11",
+        "name": "P.°Ljubo°Lebo°OFM",
+        "birth": "11.°September°1952°in°Rastovača (BIH¥-88240°Posušje)",
+        "grave": "Friedhof°Martića°Križ°in°Posušje ",
+        "age": 74
+      }
+    ],
     "21": [
       {
         "year": 1981,
