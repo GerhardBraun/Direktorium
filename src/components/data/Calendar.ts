@@ -14092,7 +14092,7 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wer sich des Armen erbarmt, der liebt den Herrn."
           },
           "Laudes": {
-            "button": "Sel. Maria Katharina Kasper"
+            "button": "Hl. Maria Katharina Kasper"
           }
         }
       }
@@ -18432,7 +18432,7 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Selig das Volk, dessen Gott der Herr ist."
           },
           "Laudes": {
-            "button": "Hl. Hathumar und hl. Badurad und sel. Meinwerk",
+            "button": "Hl. Hathumar und hl. Badurad und sel.°Meinwerk",
             "genitiv": "der heiligen Hathumar und Badurad und des seligen Meinwerk"
           }
         }
@@ -18675,7 +18675,7 @@ export const calendarData: CalendarData = {
             "patr_text": "Speyer-04-05"
           },
           "Laudes": {
-            "button": "Sel. Guido von Pomposa",
+            "button": "Hl. Guido von Pomposa",
             "antev": "Der gute Herrscher schenkte Speyer die Gebeine des Seligen zu würdiger Verehrung. Geht, ihr Gläubigen, lauft eilends, nehmt sie entgegen wie eine große Gnade!^HALLo"
           },
           "Vesper": {
