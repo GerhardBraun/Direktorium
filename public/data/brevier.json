@@ -813,7 +813,7 @@
       },
       "each": {
         "Invitatorium": {
-          "ant0": "Den Herrn, den König der kommen wird – kommt, wir beten ihn an!^ODER^ANTFallt nieder vor dem Herrn, unserm König; er wird kommen und uns retten.",
+          "ant0": "Den Herrn, den König der kommen wird – kommt,°wir°beten°ihn°an!^ODER^ANTFallt nieder vor dem Herrn, unserm König; er wird kommen und uns retten.",
           "ant0_lat": "Regem ventúrum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
@@ -1131,7 +1131,7 @@
         },
         "Invitatorium": {
           "psalm3": 0.0,
-          "ant0": "Der Herr ist nahe; kommt, wir beten ihn an.",
+          "ant0": "Der Herr ist nahe; kommt,°wir°beten°ihn°an!",
           "mode0": "V",
           "ant0_lat": "Prope est iam Dóminus: veníte, adorémus."
         },
@@ -1209,7 +1209,7 @@
           "les_text_lat": "Erant omnes perseverántes in doctrína apostolórum et communicatióne, in fractióne panis et oratiónibus. Fiébat autem omni ánimæ timor; multa quoque prodígia et signa per apóstolos fiébant. Omnes autem, qui credíderant erant páriter et habébant ómnia commúnia et possessiónes et substántias vendébant et dividébant illas ómnibus, prout cuíque opus erat."
         },
         "Invitatorium": {
-          "ant0": "Den Herrn, den König der Apostel – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Den Herrn, den König der Apostel – kommt,°wir°beten°ihn°an!^HALLo",
           "ant0_lat": "Regem Apostolórum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
@@ -1380,7 +1380,7 @@
       },
       "Evang": {
         "Invitatorium": {
-          "ant0": "Christus, den Herrn, der im Evangelium spricht – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Christus, den Herrn, der im Evangelium spricht – kommt,°wir°beten°ihn°an!^HALLo",
           "ant0_lat": "Dóminum in Evangélio loquéntem, veníte adorémus.^ALLo"
         },
         "Laudes": {
@@ -1584,7 +1584,7 @@
           "les_text_lat": "Quæ desúrsum est sapiéntia primum quidem pudíca est, deínde pacífica, modésta, suadíbilis, plena misericórdia et frúctibus bonis, non iúdicans, sine simulatióne; fructus autem iustítiæ in pace seminátur faciéntibus pacem."
         },
         "Invitatorium": {
-          "ant0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Christus, den Quell der Weisheit – kommt,°wir°beten°ihn°an!^HALLo",
           "ant0_lat": "Fontem sapiéntiæ, Dóminum, veníte, adorémus.^ALLo"
         },
         "Lesehore": {
@@ -1748,7 +1748,7 @@
           "les_text_lat": "Quæ mihi erant lucra, hæc arbitrátus sum propter Christum detriméntum. Verúmtamen exístimo ómnia detriméntum esse propter eminéntiam sciéntiæ Christi Iesu Dómini mei, propter quem ómnia detriméntum feci et árbitror ut stércora, ut Christum lucri fáciam."
         },
         "Invitatorium": {
-          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^HALLo^ODER^ANTLasst uns Gott loben am Fest der heiligen ^GEN!^HALLo",
+          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt,°wir°beten°ihn°an!^HALLo^ODER^ANTLasst uns Gott loben am Fest der heiligen ^GEN!^HALLo",
           "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^ALLo^VEL^ANTLaudémus Deum nostrum in celebritáte sanctæ ^GEN.^ALLo"
         },
         "Lesehore": {
@@ -1998,7 +1998,7 @@
           "les_text_lat": "Senióres, qui in vobis sunt, óbsecro, consénior et testis Christi passiónum, qui et eius, quæ in futúro revelánda est, glóriæ communicátor: Páscite, qui est in vobis, gregem Dei, providéntes non coácto sed spontánee secúndum Deum, neque turpis lucri grátia sed voluntárie, neque ut dominántes in cleris sed formæ facti gregis. Et cum apparúerit Princeps pastórum, percipiétis immarcescíbilem glóriæ corónam."
         },
         "Invitatorium": {
-          "ant0": "Christus, den obersten Hirten der Kirche – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Christus, den obersten Hirten der Kirche – kommt,°wir°beten°ihn°an!^HALLo",
           "ant0_lat": "Christum, pastórum príncipem, veníte, adorémus.^ALLo"
         },
         "Lesehore": {
@@ -2226,7 +2226,7 @@
           "les_text_lat": "Qui sine uxóre est, sollícitus est, quæ Dómini sunt, quómodo pláceat Dómino. Et múlier innúpta et virgo cógitat, quæ Dómini sunt, ut sit sancta et córpore et spíritu."
         },
         "Invitatorium": {
-          "ant0": "Den Herrn, den König der Jungfrauen – kommt, wir beten ihn an!^HALLo^ODER^ANTDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^HALLo",
+          "ant0": "Den Herrn, den König der Jungfrauen – kommt,°wir°beten°ihn°an!^HALLo^ODER^ANTDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^HALLo",
           "ant0_lat": "Regem vírginum Dóminum, veníte, adorémus.^ALLo^VEL^ANTAgnum, quem sequúntur vírgines, veníte, adorémus.^ALLo"
         },
         "Lesehore": {
@@ -2431,7 +2431,7 @@
           "antev": "Wer die Gebote Gottes hält und sie halten lehrt, der wird groß sein im Himmelreich.^HALLo"
         },
         "Invitatorium": {
-          "ant0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^HALLo"
+          "ant0": "Christus, den Quell der Weisheit – kommt,°wir°beten°ihn°an!^HALLo"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -2564,7 +2564,7 @@
           "les_text_lat": ""
         },
         "Invitatorium": {
-          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^HALLo^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt,°wir°beten°ihn°an!^HALLo^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt,°wir°beten°ihn°an!^HALLo",
           "ant0_lat": ""
         },
         "Lesehore": {
@@ -2763,7 +2763,7 @@
           "les_text_lat": "Quæ mihi erant lucra, hæc arbitrátus sum propter Christum detriméntum. Verúmtamen exístimo ómnia detriméntum esse propter eminéntiam sciéntiæ Christi Iesu Dómini mei, propter quem ómnia detriméntum feci et árbitror ut stércora, ut Christum lucri fáciam."
         },
         "Invitatorium": {
-          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^HALLo^ODER^ANTLasst uns Gott loben am Fest des heiligen ^GEN!^HALLo",
+          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt,°wir°beten°ihn°an!^HALLo^ODER^ANTLasst uns Gott loben am Fest des heiligen ^GEN!^HALLo",
           "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^ALLo^VEL^ANTLaudémus Deum nostrum in celebritáte sancti ^GEN.^ALLo"
         },
         "Lesehore": {
@@ -3040,7 +3040,7 @@
           "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
         },
         "Invitatorium": {
-          "ant0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^ODER^ANTAm Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
+          "ant0": "Christus, den Sohn Mariens – kommt,°wir°beten°ihn°an!^ODER^ANTAm Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
           "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^VEL^ANTFestivitátem beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
         },
         "Lesehore": {
@@ -3263,7 +3263,7 @@
           "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persécutio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos. Certus sum enim quia neque mors neque vita neque ángeli neque principátus neque instántia neque futúra neque virtútes neque altitúdo neque profúndum neque ália quǽlibet creatúra póterit nos separáre a caritáte Dei, quæ est in Christo Iesu Dómino nostro."
         },
         "Invitatorium": {
-          "ant0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!",
+          "ant0": "Den Herrn, den König der Märtyrer – kommt,°wir°beten°ihn°an!",
           "ant0_lat": "Regem mártyrum Dóminum, veníte, adorémus.^ALLo"
         },
         "Lesehore": {
@@ -3688,7 +3688,7 @@
           "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persécutio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos. Certus sum enim quia neque mors neque vita neque ángeli neque principátus neque instántia neque futúra neque virtútes neque altitúdo neque profúndum neque ália quǽlibet creatúra póterit nos separáre a caritáte Dei, quæ est in Christo Iesu Dómino nostro."
         },
         "Invitatorium": {
-          "ant0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Den Herrn, den König der Märtyrer – kommt,°wir°beten°ihn°an!^HALLo",
           "ant0_lat": "Regem mártyrum Dóminum, veníte, adorémus.^ALLo"
         },
         "Lesehore": {
@@ -5819,7 +5819,7 @@
           "les_text_lat": "Deus suscitávit Christum a mórtuis et constítuit ad déxteram suam in cæléstibus supra omnem principátum et potestátem et virtútem et dominatiónem et omne nomen, quod nominátur, non solum in hoc sǽculo sed et in futúro; et ómnia subiécit sub pédibus eius, et ipsum dedit caput supra ómnia ecclésiæ, quæ est corpus ipsíus, plenitúdo eius, qui ómnia in ómnibus adimplétur."
         },
         "Invitatorium": {
-          "ant0": "Jesus Christus, den König der Könige – kommt, wir beten ihn an!",
+          "ant0": "Jesus Christus, den König der Könige – kommt,°wir°beten°ihn°an!",
           "mode0": "II",
           "ant0_lat": "Jesum Christum, regem regum, veníte, adorémus."
         },
@@ -6148,7 +6148,7 @@
       },
       "6": {
         "Invitatorium": {
-          "ant0": "Dem Herrn gehört die Erde und was sie erfüllt; kommt, wir beten ihn an!",
+          "ant0": "Dem Herrn gehört die Erde und was sie erfüllt; kommt,°wir°beten°ihn°an!",
           "mode0": "VI",
           "ant0_lat": "Dómini est terra et plenitúdo eius; veníte, adorémus eum."
         },
@@ -6188,7 +6188,7 @@
     "even": {
       "0": {
         "Invitatorium": {
-          "ant0": "Wir sind das Volk des Herrn, die Herde seiner Weide; kommt, wir beten ihn an!^HALLxq",
+          "ant0": "Wir sind das Volk des Herrn, die Herde seiner Weide; kommt,°wir°beten°ihn°an!^HALLxq",
           "mode0": "VIII",
           "ant0_lat": "Pópulus Dómini et oves páscuæ eius, veníte, adorémus eum.^ALLxq"
         },
@@ -7708,7 +7708,7 @@
           "les_text_lat": "Scitis grátiam Dómini nostri Iesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
         },
         "Invitatorium": {
-          "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt, wir beten ihn an!",
+          "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt,°wir°beten°ihn°an!",
           "mode0": "VI",
           "ant0_lat": "Christum, Dei Fílium, Maríæ et Ioseph súbditum, veníte adorémus."
         },
@@ -10141,7 +10141,7 @@
           "resp3_lat": "Viso Dómino."
         },
         "Invitatorium": {
-          "ant0": "Christus ist erstanden; kommt, wir beten ihn an!^HALLo",
+          "ant0": "Christus ist erstanden; kommt,°wir°beten°ihn°an!^HALLo",
           "mode0": "VII",
           "ant0_lat": "Surréxit Dóminus vere.^ALLo"
         },
@@ -10377,7 +10377,7 @@
           "resp3_lat": "Docébit vos ómnia."
         },
         "Invitatorium": {
-          "ant0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an!^HALLo",
+          "ant0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt,°wir°beten°ihn°an!^HALLo",
           "mode0": "VIII",
           "ant0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^ALLo"
         },
@@ -16302,7 +16302,7 @@
           "oration_lat": "Réspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Iesus Christus non dubitávit mánibus tradi nocéntium et crucis subíre torméntum.^ORlR"
         },
         "Invitatorium": {
-          "ant0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!",
+          "ant0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt,°wir°beten°ihn°an!",
           "mode0": "II",
           "ant0_lat": "Christum, Dei Fílium, qui suo nos redémit sánguine, veníte, adorémus."
         },
@@ -16462,7 +16462,7 @@
           "oration_lat": "Omnípotens sempitérne Deus, cuius Unigénitus ad inferióra terræ descéndit, unde et gloriósus ascéndit, concéde propítius, ut fidéles tui, cum eo consepúlti in baptísmate, ipso resurgénte, ad vitam profíciant sempitérnam.^ORlvR"
         },
         "Invitatorium": {
-          "ant0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!",
+          "ant0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt,°wir°beten°ihn°an!",
           "mode0": "II",
           "ant0_lat": " Christum Dóminum pro nobis passum et sepúltum, veníte, adorémus."
         },
@@ -16612,7 +16612,7 @@
       },
       "each": {
         "Invitatorium": {
-          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.",
+          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt,°wir°beten°ihn°an!",
           "mode0": "II",
           "ant0_lat": "Christum Dóminum pro nobis tentátum et passum, veníte, adorémus."
         },
@@ -17129,7 +17129,7 @@
       },
       "each": {
         "Invitatorium": {
-          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^ODER^ANTVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
+          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt,°wir°beten°ihn°an!^ODER^ANTVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
           "ant0_lat": "Christum Dóminum, pro nobis tentátum et passum, veníte, adorémus.^VEL^ANTUtinam hódie vocem Dómini audiátis: Nolíte obduráre corda vestra."
         },
         "Lesehore": {
@@ -17368,7 +17368,7 @@
           "resp3_lat": "Et habitávit in nobis."
         },
         "Invitatorium": {
-          "ant0": "Christus ist uns geboren; kommt, wir beten ihn an.",
+          "ant0": "Christus ist uns geboren; kommt,°wir°beten°ihn°an!",
           "mode0": "IV",
           "ant0_lat": "Christus natus est nobis: veníte, adorémus."
         },
@@ -17467,7 +17467,7 @@
           "resp3_lat": "Omnes gentes magnificábunt eum."
         },
         "Invitatorium": {
-          "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
+          "ant0": "Christus ist uns erschienen; kommt,°wir°beten°ihn°an!",
           "mode0": "IV",
           "ant0_lat": "Christus appáruit nobis; veníte, adorémus."
         },
@@ -17681,7 +17681,7 @@
           "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^ORV"
         },
         "Invitatorium": {
-          "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt, wir beten ihn an!",
+          "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt,°wir°beten°ihn°an!",
           "mode0": "II"
         },
         "Lesehore": {
@@ -17828,7 +17828,7 @@
           "les_text_lat": "Deus, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo — grátia estis salváti — et conresuscitávit et consedére fecit in cæléstibus in Christo Iesu."
         },
         "Invitatorium": {
-          "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^HALLo",
+          "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt,°wir°beten°ihn°an!^HALLo",
           "mode0": "VII",
           "ant0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus.^ALLo"
         },
