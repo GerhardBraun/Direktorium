@@ -467,7 +467,7 @@
             "les_text_lat": "Deus nos salvos fecit et vocávit vocatióne sancta, non secúndum ópera nostra sed secúndum propósitum suum et grátiam, quæ data est nobis in Christo Iesu ante témpora sæculária, manifestáta autem nunc per illustratiónem salvatóris nostri Iesu Christi, qui destrúxit quidem mortem, illuminávit autem vitam et incorruptiónem per evangélium."
           },
           "Invitatorium": {
-            "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
+            "ant0": "Christus ist uns erschienen; kommt,°wir°beten°ihn°an!",
             "mode0": "IV",
             "ant0_lat": "Christus appáruit nobis; veníte, adorémus."
           },
@@ -634,7 +634,7 @@
             "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt, wir beten ihn an!",
+            "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt,°wir°beten°ihn°an!",
             "mode0": "II",
             "ant0_lat": "Christum, Fílium diléctum, in quo Pater sibi complácuit, veníte, adorémus."
           },
@@ -1387,7 +1387,7 @@
             "les_text_lat": "Ingrédiens mundum dicit: Hóstiam et oblatiónem noluísti, corpus autem aptásti mihi; holocaustómata et sacrifícia pro peccáto non tibi placuérunt. Tunc dixi: Ecce vénio, in capítulo libri scriptum est de me, ut fáciam, Deus, voluntátem tuam."
           },
           "Invitatorium": {
-            "ant0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt, wir beten ihn an!",
+            "ant0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Ecce venit ad templum sanctum suum dominátor Dóminus: veníte, adorémus."
           },
           "Lesehore": {
@@ -2477,7 +2477,7 @@
             "les_text_lat": "Quod fuit ab inítio, quod audívimus, quod vídimus óculis nostris, quod perspéximus et manus nostræ contrectavérunt, de verbo vitæ; et vita appáruit, et vídimus et testámur et annuntiámus vobis vitam ætérnam, quæ erat coram Patre et appáruit nobis."
           },
           "Invitatorium": {
-            "ant0": "Christus, das ewige Wort, nahm heute Fleisch an für uns; kommt, wir beten ihn an!^HALLo",
+            "ant0": "Christus, das ewige Wort, nahm heute Fleisch an für uns; kommt,°wir°beten°ihn°an!^HALLo",
             "mode0": "II",
             "ant0_lat": "Verbum caro factum est: veníte, adorémus.^ALLo"
           },
@@ -3914,7 +3914,7 @@
             "oration_lat": "Rerum cónditor, Deus, qui legem labóris humáno géneri statuísti, concéde propítius, ut, sancti Ioseph exémplo et patrocínio, ópera perficiámus quæ prǽcipis, et prǽmia consequámur quæ promíttis.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^HALLo",
+            "ant0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt,°wir°beten°ihn°an!^HALLo",
             "mode0": "II",
             "ant0_lat": "Christum Dóminum, qui putári dignátus est fabri fílius, veníte, adorémus.^ALLo"
           },
@@ -4120,7 +4120,7 @@
             "les_text_lat": "Deus, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo — grátia estis salváti — et conresuscitávit et consedére fecit in cæléstibus in Christo Iesu."
           },
           "Invitatorium": {
-            "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^HALLo",
+            "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt,°wir°beten°ihn°an!^HALLo",
             "mode0": "VII",
             "ant0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus.^ALLo"
           },
@@ -4323,7 +4323,7 @@
             "les_text_lat": "O altitúdo divitiárum et sapiéntiæ et sciéntiæ Dei! Quam incomprehensibília sunt iudícia eius et investigábiles viæ eius! Quis enim cognóvit sensum Dómini? Aut quis consiliárius eius fuit? Aut quis prior dedit illi, et retribuétur ei? Quóniam ex ipso et per ipsum et in ipsum ómnia. Ipsi glória in sǽcula. Amen."
           },
           "Invitatorium": {
-            "ant0": "Gott ist einer in der Dreiheit und dreifaltig in der Einheit; kommt, wir beten ihn an!",
+            "ant0": "Gott ist einer in der Dreiheit und dreifaltig in der Einheit; kommt,°wir°beten°ihn°an!",
             "mode0": "V",
             "ant0_lat": "Deum verum, unum in Trinitáte et Trinitátem in Unitáte, veníte, adorémus."
           },
@@ -4567,7 +4567,7 @@
             "les_text_lat": "Calix benedictiónis, cui benedícimus, nonne communicátio sánguinis Christi est? Et panis, quem frángimus, nonne communicátio córporis Christi est? Quóniam unus panis, unum corpus multi sumus, omnes enim de uno pane participámur."
           },
           "Invitatorium": {
-            "ant0": "Christus, unser Herr, ist das Brot des Lebens; kommt, wir beten ihn an!",
+            "ant0": "Christus, unser Herr, ist das Brot des Lebens; kommt,°wir°beten°ihn°an!",
             "mode0": "II",
             "ant0_lat": "Panem vitæ, Christum Dóminum, veníte, adorémus."
           },
@@ -5632,7 +5632,7 @@
       "11": {
         "oblig": {
           "Invitatorium": {
-            "ant0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^HALLo",
+            "ant0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt,°wir°beten°ihn°an!^HALLo",
             "mode0": "II",
             "ant0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus.^ALLo"
           },
@@ -7834,7 +7834,7 @@
             "les_text_lat": "Noster municipátus in cælis est, unde étiam salvatórem exspectámus Dóminum Iesum Christum, qui transfigurábit corpus humilitátis nostræ confórme fíeri córpori glóriæ suæ secúndum operatiónem, qua possit étiam subícere sibi ómnia."
           },
           "Invitatorium": {
-            "ant0": "Christus, den König der Herrlichkeit – kommt, wir beten ihn an!",
+            "ant0": "Christus, den König der Herrlichkeit – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Summum Regem glóriæ, veníte, adorémus."
           },
           "Lesehore": {
@@ -8209,7 +8209,7 @@
       "22": {
         "oblig": {
           "Invitatorium": {
-            "ant0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!",
+            "ant0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Christum regem, qui suam coronávit Matrem, veníte, adorémus."
           },
           "major": {
@@ -9332,7 +9332,7 @@
             "les_text_lat": "Prædicámus Christum crucifíxum, Iudǽis quidem scándalum, géntibus autem stultítiam; ipsis autem vocátis, Iudǽis atque Græcis, Christum Dei virtútem et Dei sapiéntiam."
           },
           "Invitatorium": {
-            "ant0": "Christus, den König, der am Kreuz für uns erhöht ist – kommt, wir beten ihn an!",
+            "ant0": "Christus, den König, der am Kreuz für uns erhöht ist – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Christum regem pro nobis in cruce exaltátum, veníte, adorémus."
           },
           "Lesehore": {
@@ -9481,7 +9481,7 @@
             "oration_lat": "Deus, qui Fílio tuo in cruce exaltáto compatiéntem Matrem astáre voluísti, da Ecclésiæ tuæ, ut, Christi passiónis cum ipsa consors effécta, eiúsdem resurrectiónis párticeps esse mereátur.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Den Heiland der Welt, mit dem seine Mutter im Leiden vereint war – kommt, wir beten ihn an!",
+            "ant0": "Den Heiland der Welt, mit dem seine Mutter im Leiden vereint war – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Salvatórem mundi, qui passióni suæ Matrem sociávit, veníte, adorémus."
           },
           "Lesehore": {
@@ -9604,7 +9604,7 @@
             "oration_lat": "Deus, qui miro órdine angelórum ministéria hominúmque dispénsas, concéde propítius, ut, a quibus tibi ministrántibus in cælo semper assístitur, ab his in terra vita nostra muniátur.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Der Herr, vor dessen Thron die Engel stehen – kommt, wir beten ihn an!",
+            "ant0": "Der Herr, vor dessen Thron die Engel stehen – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "In conspéctu angelórum, veníte, adorémus Dóminum."
           },
           "Lesehore": {
@@ -10448,7 +10448,7 @@
             "oration_lat": "Deus, qui ineffábili providéntia sanctos ángelos tuos ad nostram custódiam míttere dignáris, largíre supplícibus tuis, et eórum semper protectióne deféndi, et ætérna societáte gaudére.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Den Herrn, dem die Engel dienen – kommt, wir beten ihn an!",
+            "ant0": "Den Herrn, dem die Engel dienen – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Dóminum, cui minístrant ángeli, veníte, adorémus."
           },
           "Lesehore": {
@@ -10456,7 +10456,7 @@
             "hymn_nacht": 0.0,
             "patr_autor": "Bernhard von Clairvaux († 1153)",
             "patr_werk": "Aus einer Predigt zu Psalm 91 (90).",
-            "patr_text": "^hSie behüten dich auf all deinen Wegen^p„Er befiehlt seinen Engeln, dich zu behüten auf all deinen Wegen.“ {1#Ps 91,11} „Sie sollen dem Herrn danken für seine Huld, für sein wunderbares Tun an den Menschen.“ {2#vgl.°Ps 107,8} Sie sollen ihn preisen und unter den Völkern verkünden, dass der Herr an ihnen Großes getan hat {3#vgl.°Ps 126,2}.^pHerr, was ist der Mensch, da du auf ihn achtest? Oder warum richtest du deinen Sinn auf ihn {4#vgl.°Ijob 7,17}? Du richtest deinen Sinn auf ihn, du sorgst dich um ihn, und du sorgst für ihn. Zuletzt schickst du ihm deinen Eingeborenen, gibst ihm den Heiligen Geist und versprichst ihm dein Angesicht. Damit aber keiner der Himmlischen von der Mühe und Sorge entbunden ist, schickst du unseretwegen die seligen Geister zum Dienst aus {5#vgl.°Hebr 1,14}, bestimmst sie zu unserm Schutz und befiehlst ihnen, unsere Erzieher zu sein.^p„Er befiehlt seinen Engeln, dich zu behüten auf all deinen Wegen.“ {6#Ps 91,11} Welche Ehrfurcht muss dir dieses Wort einflößen, welche Hingabe muss es hervorbringen und welches Vertrauen muss es dir schenken. Ehrfurcht wegen ihrer Anwesenheit, Hingabe wegen ihres Wohlwollens, Vertrauen wegen ihres Schutzes. Sie sind also da: Sie sind bei dir, nicht nur mit dir, sondern auch für dich. Sie sind da, um zu schützen, sie sind da, um zu helfen. Aber wenn auch Gott sie aufgeboten hat, so dürfen doch wir nicht gegen sie undankbar sein. Denn aus großer Liebe gehorchen sie ihm, und sie kommen uns in dieser großen Not zu Hilfe.^pLasst uns also diesen großen Beschützern ergeben und dankbar sein, ihre Liebe erwidern und sie ehren, soviel wir vermögen, wie es unsere Pflicht gebietet. Unsere ganze Liebe und Verehrung soll jedoch dem gehören, von dem uns alles kommt, auch dass wir verehren oder lieben können und Ehre und Liebe empfangen dürfen.^pLiebe Brüder, in ihm also wollen wir seine Engel lieben, sie, die einst unsere Miterben sein werden, inzwischen aber vom Vater als unsere Sachwalter, Beschützer und Wegweiser für uns bestimmt sind. Denn schon jetzt sind wir Kinder Gottes {7#vgl.°1 Joh 3,2}, wenn das auch noch nicht sichtbar ist, weil wir noch unmündige Kinder sind und unter der Vormundschaft stehen, nicht unterschieden von Sklaven {8#vgl.°Gal 4,1.2}.^pIm übrigen: Wenn wir auch noch Kinder sind und noch ein weiter Weg vor uns liegt – er ist nicht nur weit, sondern auch gefährlich –, warum sollten wir uns fürchten, da wir doch so hohe Beschützer haben. Niemand kann sie besiegen und verführen – am wenigsten können sie selbst verführen –, die uns auf all unseren Wegen behüten. Sie sind treu, klug und mächtig; warum zittern wir? Wir brauchen ihnen nur zu folgen, ihnen anzuhangen, und wir leben unter dem Schutz Gottes.",
+            "patr_text": "^hSie behüten dich auf all deinen Wegen^p„Er befiehlt seinen Engeln, dich zu behüten auf all deinen Wegen.“ {1#Ps 91,11} „Sie sollen dem Herrn danken für seine Huld, für sein wunderbares Tun an den Menschen.“ {2#vgl.°Ps 107,8} Sie sollen ihn preisen und unter den Völkern verkünden, dass der Herr an ihnen Großes getan hat {3#vgl.°Ps 126,2}.^pHerr, was ist der Mensch, dass du auf ihn achtest? Oder warum richtest du deinen Sinn auf ihn {4#vgl.°Ijob 7,17}? Du richtest deinen Sinn auf ihn, du sorgst dich um ihn, und du sorgst für ihn. Zuletzt schickst du ihm deinen Eingeborenen, gibst ihm den Heiligen Geist und versprichst ihm dein Angesicht.^pDamit aber keiner der Himmlischen von der Mühe und Sorge entbunden ist, schickst du unseretwegen die seligen Geister zum Dienst aus {5#vgl.°Hebr 1,14}, bestimmst sie zu unserm Schutz und befiehlst ihnen, unsere Erzieher zu sein: „Er befiehlt seinen Engeln, dich zu behüten auf all deinen Wegen.“ {6#Ps 91,11}^pWelche Ehrfurcht muss dir dieses Wort einflößen, welche Hingabe muss es hervorbringen, und welches Vertrauen muss es dir schenken: Ehrfurcht wegen ihrer Anwesenheit, Hingabe wegen ihres Wohlwollens, Vertrauen wegen ihres Schutzes.^pSie sind also da: Sie sind bei dir, nicht nur mit dir, sondern auch für dich. Sie sind da, um zu schützen, sie sind da, um zu helfen. Aber wenn auch Gott sie aufgeboten hat, so dürfen doch wir nicht gegen sie undankbar sein. Denn aus großer Liebe gehorchen sie ihm, und sie kommen uns in dieser großen Not zu Hilfe.^pLasst uns also diesen großen Beschützern ergeben und dankbar sein, ihre Liebe erwidern und sie ehren, soviel wir vermögen, wie es unsere Pflicht gebietet. Unsere ganze Liebe und Verehrung soll jedoch dem gehören, von dem uns alles kommt, auch dass wir verehren oder lieben können und Ehre und Liebe empfangen dürfen.^pLiebe Brüder, in ihm also wollen wir seine Engel lieben, sie, die einst unsere Miterben sein werden, inzwischen aber vom Vater als unsere Sachwalter, Beschützer und Wegweiser für uns bestimmt sind. Denn schon jetzt sind wir Kinder Gottes {7#vgl.°1 Joh 3,2}, wenn das auch noch nicht sichtbar ist, weil wir noch unmündige Kinder sind und unter der Vormundschaft stehen, nicht unterschieden von Sklaven {8#vgl.°Gal 4,1.2}.^pIm übrigen: Wenn wir auch noch Kinder sind und noch ein weiter Weg vor uns liegt – er ist nicht nur weit, sondern auch gefährlich –, warum sollten wir uns fürchten, da wir doch so hohe Beschützer haben? Niemand kann sie besiegen und verführen – am wenigsten können sie selbst verführen –, die uns auf all unseren Wegen behüten. Sie sind treu, klug und mächtig; warum zittern wir? Wir brauchen ihnen nur zu folgen, ihnen anzuhangen, und wir leben unter dem Schutz Gottes.",
             "patr_resp1": "Seine Engel bietet er auf für dich, dich zu behüten auf all deinen Wegen.",
             "patr_resp2": "Auf Händen werden sie dich tragen, damit dein Fuß an keinen Stein stößt.",
             "patr_resp3": "Kein Unheil wird dir begegnen, deinem Zelt keine Plage sich nahen.",
@@ -10569,9 +10569,9 @@
           },
           "Lesehore": {
             "patr_autor": "Bernhard von Clairvaux († 1153)",
-            "patr_werk": "Aus einer Predigt über den Aquädukt.",
-            "patr_text": "^hWir sollen die Geheimnisse des Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}.^pDer Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 Vg} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten{11#vgl.°Ps 88,6 röm} in der Welt des Todes sich als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt  {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
-            "patr_resp1": "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
+            "patr_werk": "Aus einer Predigt über°den°Aquädukt.",
+            "patr_text": "^hWir sollen die Geheimnisse des°Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“{1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“{2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“{3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“{4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“{5#ebd.} und wohnte infolgedessen im unzugänglichen Licht{6#vgl.°1 Tim 6,16}.^pDer Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“{7#Jer 29,11 Vg} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“{8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“{9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen{10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten{11#vgl.°Ps 88,6 röm} in der Welt des Todes sich als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: Ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
+            "patr_resp1": "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: Du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
             "patr_resp2": "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
             "patr_resp3": "Sei gegrüßt, du Gnadenvolle, der Herr ist mit dir."
           },
@@ -10804,8 +10804,8 @@
           },
           "Lesehore": {
             "patr_autor": "Bruno (†°1101)",
-            "patr_werk": "Aus einem Brief an seine Söhne, die Kartäuser.",
-            "patr_text": "^hMein Geist juble im Herrn^pDurch die wiederholten Berichte unseres heiligen Bruders Landowin weiß ich von dem unbeugsamen Ernst eurer klugen und lobenswerten Lebensordnung. Ich habe von eurer heiligen Liebe gehört und von eurem Eifer für alle, die lauter und ehrbar sind. Darüber jubelt mein Geist im Herrn. Ich juble wirklich, und es drängt mich, dem Herrn Lob und Dank zu sagen.^pDennoch muss ich bitter seufzen. Ich juble zwar, wie es recht ist, über die wachsende Frucht eurer Tugend. Doch über mich selber empfinde ich Schmerz und Scham, weil ich untätig und träge im Elend meiner Sünden verharre.^pFreut euch also, meine lieben Brüder, dass ihr ein glückliches Los habt und dass die Hand Gottes für euch voll von Gnade ist. Freut euch, dass ihr den vielfältigen Gefahren und dem Schiffbruch auf den Wogen dieser Welt entgangen seid. Freut euch, dass ihr den stillen und sicheren Hafenplatz der inneren Welt erreicht habt. Viele wollten schon dahin gelangen, viele gaben sich auch einige Mühe, versuchten es, kamen aber nicht hin. Viele hatten es schon erreicht, wurden aber ausgeschlossen. Es war ihnen nicht vergönnt.^pHaltet es für sicher und bewiesen: Wer dieses begehrenswerte Gut genießen darf, aber etwas davon wieder verliert, der wird es bis zum Ende beklagen – wenn ihm das Heil seiner Seele überhaupt noch etwas bedeutet und irgendeiner Mühe wert ist.^pEuretwegen, meine lieben Laienbrüder, sage ich: „Meine Seele preist die Größe des Herrn“{1#Lk 1,46}. Denn euer liebenswerter Prior und Vater beglückwünscht sich euretwegen sehr und freut sich. Ich sehe aus seinem Bericht, wie groß die Barmherzigkeit Gottes über euch ist. So will also auch ich mich freuen. Ihr könnt zwar nicht schreiben, aber Gott kann mit seinem Finger nicht nur die Liebe in euer Herz einzeichnen, sondern auch die Kenntnis seines heiligen Gesetzes. Denn durch die Arbeit zeigt ihr, was ihr liebt und was ihr wisst. Mit aller Sorgfalt und allem Eifer beobachtet ihr wahren Gehorsam, und so ist es offenbar, dass es euch gegeben ist, mit Weisheit im Garten Gottes die süßen und lebenspendenden Früchte der Heiligen Schrift zu lesen.",
+            "patr_werk": "Aus einem Brief an°seine°Söhne, die°Kartäuser.",
+            "patr_text": "^hMein Geist juble im Herrn^pDurch die wiederholten Berichte unseres heiligen Bruders Landowin weiß ich von dem unbeugsamen Ernst eurer klugen und lobenswerten Lebensordnung. Ich habe von eurer heiligen Liebe gehört und von eurem Eifer für alle, die lauter und ehrbar sind. Darüber jubelt mein Geist im Herrn. Ich juble wirklich, und es drängt mich, dem Herrn Lob und Dank zu sagen.^pDennoch muss ich bitter seufzen. Ich juble zwar, wie es recht ist, über die wachsende Frucht eurer Tugend. Doch über mich selber empfinde ich Schmerz und Scham, weil ich untätig und träge im Elend meiner Sünden verharre.^pFreut euch also, meine lieben Brüder, dass ihr ein glückliches Los habt und dass die Hand Gottes für euch voll von Gnade ist. Freut euch, dass ihr den vielfältigen Gefahren und dem Schiffbruch auf den Wogen dieser Welt entgangen seid. Freut euch, dass ihr den stillen und sicheren Hafenplatz der inneren Welt erreicht habt. Viele wollten schon dahin gelangen, viele gaben sich auch einige Mühe, versuchten es, kamen aber nicht hin. Viele hatten es schon erreicht, wurden aber ausgeschlossen. Es war ihnen nicht vergönnt.^pHaltet es für sicher und bewiesen: Wer dieses begehrenswerte Gut genießen darf, aber etwas davon wieder verliert, der wird es bis zum Ende beklagen – wenn ihm das Heil seiner Seele überhaupt noch etwas bedeutet und irgendeiner Mühe wert ist.^pEuretwegen, meine lieben Laienbrüder, sage ich: „Meine Seele preist die Größe des Herrn“{1#Lk 1,46}. Denn euer liebenswerter Prior und Vater beglückwünscht sich euretwegen sehr und freut sich. Ich sehe aus seinem Bericht, wie groß die Barmherzigkeit Gottes über euch ist. So will also auch ich mich freuen.^pIhr könnt zwar nicht schreiben, aber Gott kann mit seinem Finger nicht nur die Liebe in euer Herz einzeichnen, sondern auch die Kenntnis seines heiligen Gesetzes. Denn durch die Arbeit zeigt ihr, was ihr liebt und was ihr wisst.^pMit aller Sorgfalt und allem Eifer beobachtet ihr wahren Gehorsam, und so ist es offenbar, dass es euch gegeben ist, mit Weisheit im Garten Gottes die süßen und lebenspendenden Früchte der Heiligen Schrift zu lesen.",
             "patr_resp1": "Hätte ich doch Flügel wie die Tauben, dann wollte ich davonfliegen, bis ich Ruhe fände.",
             "patr_resp2": "Weit fort möchte ich fliegen und in der Wüste bleiben.",
             "patr_resp3": "Die Welt vergeht und ihre Begierde; wer aber den Willen des Herrn tut, bleibt in Ewigkeit."
@@ -10827,7 +10827,7 @@
           },
           "Lesehore": {
             "patr_autor": "Ambrosius (†°397)",
-            "patr_werk": "Aus einer Auslegung zu Psalm 119 (118).",
+            "patr_werk": "Aus einer Auslegung zu°Psalm°119°(118).",
             "patr_text": "^hSei ein treuer und tapferer Zeuge!^pEs gibt vielerlei Verfolgungen und so auch vielerlei Martyrien. Täglich kannst du Zeuge Christi sein.^pWenn du vom Geist der Unzucht versucht wirst, aber das kommende Gericht Christi fürchtest und darum die Keuschheit des Leibes und der Seele nicht verletzen zu dürfen glaubst, dann bist du ein Zeuge Christi. Wenn der Geist des Geizes dich versucht, den Besitz der Ärmeren anzutasten und die Rechte der Wehrlosen Witwe zu verletzen, du jedoch die Gebote Gottes bedenkst und dich entscheidest, lieber zu helfen als Unrecht zu tun, dann bist du ein Zeuge Christi! Solche Zeugen liebt Christus, wie die Schrift sagt; „Verschafft den Waisen Recht, tretet ein für die Witwen!, spricht der Herr“{1#Jes 1,17}.^pWenn dich der Geist des Stolzes versucht, du aber beim Anblick der Armen und Bedürftigen Mitleid im Herzen fühlst und die Demut mehr liebst als die Anmaßung, dann bist du ein Zeuge Christi. Nicht nur mit Worten gibst du Zeugnis, sondern durch Taten.^pWelcher Zeuge wäre glaubwürdiger als der, welcher bekennt: „Jesus Christus ist im Fleisch gekommen“{2#1°Joh°4,2}, und der die Gebote des Evangeliums hält? Denn wer hört, aber nicht tut, leugnet Jesus Christus. Wenn er auch mit dem Mund bekennt, so leugnet er doch durch die Tat. „Viele werden an jenem Tag sagen: Herr, Herr, sind wir nicht in deinem Namen als Propheten aufgetreten, und haben wir nicht mit deinem Namen Dämonen ausgetrieben und mit deinem Namen viele Wunder vollbracht?“ Aber der Herr wird erwidern: „Weg von mir, ihr Übertreter des Gesetzes!“{3#Mt 7,22.23} Ein Zeuge ist also der, bei dem Worte und Taten übereinstimmen und der so die Gebote des Herrn bezeugt.^pWie viele Märtyrer Christi, die den Herrn Jesus bekennen, gibt es also täglich im verborgenen! Der Apostel weiß um dieses Martyrium, da er schreibt: „Das ist unser Ruhm, und dafür zeugt auch unser Gewissen“{4#2°Kor°1,12}. Wie viele haben äußerlich bekannt und innerlich geleugnet. Es heißt: „Traut nicht jedem Geist!“{5#1°Joh°4,1}, sondern an ihren Früchten erkennt, wem von ihnen ihr trauen könnt. Sei also treu und tapfer in den inneren Verfolgungen, damit du dich auch in den äußeren bewährst.",
             "patr_resp1": "Die Heiligen Gottes schritten durch Feuer und Wasser und blieben heil.",
             "patr_resp2": "Sie empfingen von Gott, dem Herrn, den Siegeskranz.",
@@ -11462,7 +11462,7 @@
             "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt, wir beten ihn an!"
+            "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt,°wir°beten°ihn°an!"
           },
           "Lesehore": {
             "hymn_1": 2514.0,
@@ -11604,7 +11604,7 @@
             "les_text_lat": "Accessístis ad Sion montem et civitátem Dei vivéntis, Ierúsalem cæléstem, et multa mília angelórum, frequéntiam et ecclésiam primogenitórum, qui conscrípti sunt in cælis, et iúdicem Deum ómnium, et spíritus iustórum, qui consummáti sunt, et testaménti novi mediatórem Iesum, et sánguinem aspersiónis, mélius loquéntem quam Abel."
           },
           "Invitatorium": {
-            "ant0": "Inmitten seiner Heiligen wird Gott verherrlicht; kommt, wir beten ihn an!",
+            "ant0": "Inmitten seiner Heiligen wird Gott verherrlicht; kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Deum, qui glorificátur in concílio sanctórum, veníte, adorémus."
           },
           "Lesehore": {
@@ -13011,7 +13011,7 @@
             "oration_lat": "Da nobis, quǽsumus, Dómine, imitári quod cólimus, ut discámus et inimícos dilígere, quia eius natalícia celebrámus, qui novit étiam pro persecutóribus exoráre.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Christus, der Herr, der für uns Mensch geworden ist, hat Stephanus gekrönt; kommt, wir beten ihn an!",
+            "ant0": "Christus, der Herr, der für uns Mensch geworden ist, hat Stephanus gekrönt; kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Christum natum, qui beátum coronávit Stéphanum, veníte, adorémus."
           },
           "Lesehore": {
@@ -13137,7 +13137,7 @@
             "oration_lat": "Deus, cuius hodiérna die præcónium Innocéntes mártyres non loquéndo, sed moriéndo conféssi sunt, da, quǽsumus, ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Christus, der Herr, der für uns Mensch geworden ist, gab unschuldigen Kindern den Kranz des Martyriums – kommt, wir beten ihn an!",
+            "ant0": "Christus, der Herr, der für uns Mensch geworden ist, gab unschuldigen Kindern den Kranz des Martyriums – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Christum natum, qui Innocéntes coronávit mártyres, veníte, adorémus."
           },
           "Lesehore": {
@@ -13838,7 +13838,7 @@
       "6": {
         "mar": {
           "Invitatorium": {
-            "ant0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^ODER^ANTAm Gedenktag der seligen Jungfrau Maria lasst uns den Herrn lobpreisen!",
+            "ant0": "Christus, den Sohn Mariens – kommt,°wir°beten°ihn°an!^ODER^ANTAm Gedenktag der seligen Jungfrau Maria lasst uns den Herrn lobpreisen!",
             "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^VEL^ANTMemóriam beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
           },
           "Lesehore": {
@@ -14646,7 +14646,7 @@
             "les_text_lat": "Áliis generatiónibus non innótuit fíliis hóminum, sicuti nunc revelátum est sanctis apóstolis eius et prophétis in Spíritu, esse gentes coherédes et concorporáles et compartícipes promissiónis in Christo Iesu per evangélium, cuius factus sum miníster secúndum donum grátiæ Dei, quæ data est mihi secúndum operatiónem virtútis eius."
           },
           "Invitatorium": {
-            "ant0": "Gott hat uns durch den heiligen Bonifatius aus der Finsternis in sein wunderbares Licht gerufen; kommt, wir beten ihn an!^HALLo",
+            "ant0": "Gott hat uns durch den heiligen Bonifatius aus der Finsternis in sein wunderbares Licht gerufen; kommt,°wir°beten°ihn°an!^HALLo",
             "ant0_lat": "Deum, per beátum Bonifátium nos vocántem de ténebris in admirábile lumen suum, venite adorémus.^ALLo"
           },
           "Lesehore": {
@@ -14880,7 +14880,7 @@
             "oration_lat": "Deus, qui beátam Líobam in evangélio propagándo beáto Bonifátio sóciam dedísti, mitte, quǽsumus, operários in messem tuam, quorum prece et zelo apostólico in pópulo nostro fides semper vera profíciat.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Gott ist die Liebe; kommt, wir beten ihn an!",
+            "ant0": "Gott ist die Liebe; kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Deus, qui cáritas est, veníte, adorémus."
           },
           "Lesehore": {
@@ -15195,7 +15195,7 @@
             "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
           },
           "Invitatorium": {
-            "ant0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!",
+            "ant0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt,°wir°beten°ihn°an!",
             "ant0_lat": "Christum Dóminum, pastórem et epíscopum animárum nostrárum, veníte, adorémus."
           },
           "Lesehore": {
@@ -15924,7 +15924,7 @@
             "oration": "Herr, unser Gott, blicke auf dein Volk, dem der heilige Bischof Eucharius das Evangelium verkündet und die Sakramente des Heils gebracht hat. Durch seinen Dienst hast du unsere Vorfahren zum Glauben geführt, bewahre uns auf seine Fürbitte in diesem Glauben.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Christus den Herrn, den Hirten der Hirten – kommt, wir beten ihn an!"
+            "ant0": "Christus den Herrn, den Hirten der Hirten – kommt,°wir°beten°ihn°an!"
           },
           "Lesehore": {
             "hymn_1": 9209.1,
@@ -16054,7 +16054,7 @@
             "oration": "Gott, du hast nicht zugelassen, dass das ungenähte Gewand unseres Erlösers zerteilt wurde, und hast es so zum Sinnbild für die Einheit deiner Kirche gemacht. Gib, dass alle, die in der Taufe Christus angezogen haben, in dem einen Glauben und in der Gemeinschaft der Liebe eins seien in ihm, Jesus Christus, deinem Sohn, unserem Herrn und Gott,^ORR"
           },
           "Invitatorium": {
-            "ant0": "Christus, mit Herrlichkeit umkleidet kommt, wir beten ihn an!^HALLo"
+            "ant0": "Christus, mit Herrlichkeit umkleidet kommt,°wir°beten°ihn°an!^HALLo"
           },
           "Lesehore": {
             "hymn_1": 8599.1,
@@ -16933,7 +16933,7 @@
       "30": {
         "oblig": {
           "Invitatorium": {
-            "ant0": "Christus, der uns Otto als Boten des Glaubens gesandt hat – kommt, wir beten ihn an."
+            "ant0": "Christus, der uns Otto als Boten des Glaubens gesandt hat – kommt,°wir°beten°ihn°an!"
           },
           "Lesehore": {
             "les_buch": "Aus dem ersten Thessalonicherbrief.",
@@ -17286,7 +17286,7 @@
             "oration": "Gott, du Licht aller Völker, du hast den Weisen aus dem Morgenland auf ihrem Weg zu deinem Sohn dein Licht aufleuchten lassen. Gib auch uns die Fülle dieses Lichtes und allen Völkern das Glück deines Friedens.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Den Herrn, den König der Könige, kommt, wir beten ihn an!"
+            "ant0": "Den Herrn, den König der Könige, kommt,°wir°beten°ihn°an!"
           },
           "Lesehore": {
             "hymn_1": 3244.1,
@@ -17465,7 +17465,7 @@
             "oration": "Gott, du hast den Grund zur Festfreude des heutigen Tages geschenkt, an dem wir das Blutzeugnis des heiligen Gereon und seiner Gefährten feiern. Du hast sie durch den Sieg des Martyriums zur ewigen Freude geführt, so schenke auch uns ewigen Lohn bei dir.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Den Herrn, den König der Märtyrer, kommt, wir beten ihn an!"
+            "ant0": "Den Herrn, den König der Märtyrer, kommt,°wir°beten°ihn°an!"
           },
           "Lesehore": {
             "hymn_1": 9010.1,
@@ -17473,8 +17473,8 @@
             "resp2": "Von dir her strömt wie aus frischer Quelle der Ruhm deiner Heiligen.",
             "resp3": "Dein Volk ehrt und preist dich, denn von dir kommt all seine Kraft.",
             "patr_autor": "Helinand († nach 1229)",
-            "patr_werk": "Prolog zur Passio der thebäischen Märtyrer.",
-            "patr_text": "^hFröhlich in der Hoffnung, geduldig in der Bedrängnis^pDieser Tag lädt uns ein, die heilige Legion der thebäischen Märtyrer festlich zu preisen, der Tag, an dem wir die kostbaren Vertreter dieser Gemeinschaft, Gereon, Victor, Cassius, Florentius und ihre Gefährten verehren. Denn in der Freude des ewigen Lohnes sind sie vereint, die gemeinsam standhaft geblieben sind in ihrem siegreichen Leiden. Denn obgleich sie nicht an dem selben Tag und an dem selben Ort die Herrlichkeit des Märtyrertodes erlangten, hatten sie doch nach dem Wort des Apostels den einen Herrn, den einen Glauben, die eine Taufe, den einen Gott und Vater aller {1#vgl. Eph 4,5 f}, den Gott, der in Ewigkeit gepriesen wird. Ihm dienten sie alle mit gleicher Absicht, gleicher Hingabe und fruchtbarer Ausdauer; so erfüllten sie das Wort des Psalmensängers: „Gott nahe zu sein ist mein Glück; ich setze auf Gott, den Herrn, mein Vertrauen“ {2#Ps 73,28}. Standhaft und einmütig bedachten sie die höchste Liebe, die Gott ist, mit dem Herzen glaubend zur Gerechtigkeit, mit dem Mund bekennend zum Heil {3#vgl. Röm 10,10}, und bereiteten sich mit Willen und Tat vor auf die unerschrockene Haltung des Apostels: „Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert?“ {4#Röm 8,35}. Sie fügten auch den Grund ihres sicheren Vertrauens hinzu: „Doch all das überwinden wir durch den, der uns geliebt hat“ {5#Röm 8,37}.^pEs soll sich niemand daran stören, dass wir in dieser unserer Aufzählung die Taten der einzelnen thebäischen Märtyrer und ihren heiligen Kampf für den Christusglauben nicht vollständig nach Art der Historiker darlegen.^pDenn mit dieser Rede haben wir uns vorgenommen, die Herzen der Zuhörer mit uns zusammen zur geistlichen Freude hinzuführen; sie sollen durch die Sehnsucht nach himmlischen Dingen entflammt werden und so mehr danach streben, durch aufbauende Liebe auf dem Weg zur Gemeinschaft mit den Märtyrern vorwärts zu kommen, als durch aufgeblasenes Wissen den Genuss der ewigen Freude zu verlieren.^pNach dem siegreichen Leiden des seligen Mauritius (Wallis) hat die wunderbare Vorsehung des allmächtigen Gottes diese berühmten Sieger noch eine Weile aufbewahrt – fröhlich in der Hoffnung, geduldig in der Bedrängnis. So weit es menschlichem Forschen gegeben ist, können wir vermuten, dass sie umso glücklicher die Frucht der ewigen Freude ernten sollten, je mehr sie in Tränen gesät hatten {6#vgl. Ps 127,5}. Und je länger sie das Beispiel der um Christi Namen willen übernommenen Mühe ausdehnen, umso mehr sollten sie zur Nachahmung ihrer Standhaftigkeit und Großherzigkeit anspornen, da sie selbst doch endlich, die Herzen zum Himmel erhoben, in jenem Wunsch des Apostels erglühten: „Ich sehne mich danach, aufzubrechen und bei Christus zu sein – um wie viel besser wäre das!“ {7#Phil 1,23}. Tatsächlich blieben schon kurze Zeit nach ihrem Martyrium in der Provinz, in der sie gelitten hatten, nur noch wenige zurück, die nicht glühend dasselbe wünschen, was ihnen früher Schrecken eingeflößt hätte, so als ob der enge Weg vorher nicht begehbar gewesen wäre, der nun durch die Fußspuren so vieler Vorangehender gebahnt war.",
+            "patr_werk": "Prolog zur Passio der°thebäischen°Märtyrer.",
+            "patr_text": "^hFröhlich in der Hoffnung, geduldig°in°der°Bedrängnis^pDieser Tag lädt uns ein, die heilige Legion der thebäischen Märtyrer festlich zu preisen, der Tag, an dem wir die kostbaren Vertreter dieser Gemeinschaft, Gereon, Victor, Cassius, Florentius und ihre Gefährten verehren. Denn in der Freude des ewigen Lohnes sind sie vereint, die gemeinsam standhaft geblieben sind in ihrem siegreichen Leiden.^pDenn obgleich sie nicht an dem selben Tag und an dem selben Ort die Herrlichkeit des Märtyrertodes erlangten, hatten sie doch nach dem Wort des Apostels den einen Herrn, den einen Glauben, die eine Taufe, den einen Gott und Vater aller{1#vgl. Eph 4,5 f}, den Gott, der in Ewigkeit gepriesen wird.^pIhm dienten sie alle mit gleicher Absicht, gleicher Hingabe und fruchtbarer Ausdauer; so erfüllten sie das Wort des Psalmensängers: „Gott nahe zu sein, ist mein Glück; ich setze auf Gott, den Herrn, mein Vertrauen“{2#Ps 73,28}. Standhaft und einmütig bedachten sie die höchste Liebe, die Gott ist, mit dem Herzen glaubend zur Gerechtigkeit, mit dem Mund bekennend zum Heil{3#vgl. Röm 10,10}, und bereiteten sich mit Willen und Tat vor auf die unerschrockene Haltung des Apostels: „Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert?“{4#Röm 8,35}. Sie fügten auch den Grund ihres sicheren Vertrauens hinzu: „Doch all das überwinden wir durch den, der uns geliebt hat“{5#Röm 8,37}.^pEs soll sich niemand daran stören, dass wir in dieser unserer Aufzählung die Taten der einzelnen thebäischen Märtyrer und ihren heiligen Kampf für den Christusglauben nicht vollständig nach Art der Historiker darlegen.^pDenn mit dieser Rede haben wir uns vorgenommen, die Herzen der Zuhörer mit uns zusammen zur geistlichen Freude hinzuführen; sie sollen durch die Sehnsucht nach himmlischen Dingen entflammt werden und so mehr danach streben, durch aufbauende Liebe auf dem Weg zur Gemeinschaft mit den Märtyrern vorwärts zu kommen, als durch aufgeblasenes Wissen den Genuss der ewigen Freude zu verlieren.^pNach dem siegreichen Leiden des seligen Mauritius (Wallis) hat die wunderbare Vorsehung des allmächtigen Gottes diese berühmten Sieger noch eine Weile aufbewahrt – fröhlich in der Hoffnung, geduldig in der Bedrängnis. Soweit es menschlichem Forschen gegeben ist, können wir vermuten, dass sie umso glücklicher die Frucht der ewigen Freude ernten sollten, je mehr sie in Tränen gesät hatten{6#vgl. Ps 127,5}.^pUnd je länger sie das Beispiel der um Christi Namen willen übernommenen Mühe ausdehnen, umso mehr Menschen sollten sie zur Nachahmung ihrer Standhaftigkeit und Großherzigkeit anspornen, da sie selbst doch endlich, die Herzen zum Himmel erhoben, in jenem Wunsch des Apostels erglühten: „Ich sehne mich danach, aufzubrechen und bei Christus zu sein – um wie viel besser wäre das!“{7#Phil 1,23}.^pTatsächlich blieben schon kurze Zeit nach ihrem Martyrium in der Provinz, in der sie gelitten hatten, nur noch wenige zurück, die nicht glühend dasselbe ersehnten, was ihnen früher Schrecken eingeflößt hätte, so als ob der enge Weg vorher nicht begehbar gewesen wäre, der nun durch die Fußspuren so vieler Vorangehender gebahnt war.",
             "patr_resp1": "Dem Kaiser geben wir, was dem Kaiser gehört, und Gott, was Gott gehört. Christus verehren wir, keinem anderen Gott können wir dienen als ihm allein.",
             "patr_resp2": "Denn er ist Gott, gepriesen in Ewigkeit.",
             "patr_resp3": "Die heilige Schar wollte ihr Haupt nicht beugen vor Göttern, sie betete Christus an."
@@ -17645,8 +17645,8 @@
             "oration": "Gott, du Licht deiner Heiligen, du hast den heiligen Bischof Bruno als Boten des Friedens in Staat und Kirche gesandt. Auf seine Fürsprache gib, dass alle, die in Eintracht leben, den Frieden bewahren, und alle, die entzweit sind, durch deine friedensstiftende Liebe versöhnt werden.^ORV"
           },
           "Lesehore": {
-            "patr_autor": "Bruno (†°1101)",
-            "patr_werk": "Abschiedsworte des heiligen Bruno vor seinem Tod in Reims (Ruotger, Lebensbeschreibung des heiligen Erzbischofs Bruno von Köln, übers. v. Irene Schmale-Ott, Münster – Köln 1954, 79-81)",
+            "patr_autor": "Bruno (†°965)",
+            "patr_werk": "Abschiedsworte vor seinem Tod in Reims.",
             "patr_text": "^hDreifaches Bekenntnis^pDrei Arten von Bekenntnis scheint es mir zu geben, durch die sich das Herz des Menschen für seinen Herrn und Gott öffnet, der die Herzen und heimlichen Gedanken kennt und durchforscht (vgl. Weish 1,6); nicht um es ihm, dem Allwissenden, klarer zu offenbaren, sondern damit jener, der sich allzu wenig kennt, sich selbst wahrhaftiger erkennt und entweder Gott wegen seiner Wohltaten lobt oder sich seiner eigenen Missetaten wegen anklagt.^pWenn man dies auch immer tun soll – so wird uns nämlich geboten zu wachen, damit der Dieb nicht komme zu einer Stunde, da er sich einschleichen und Schaden stiften kann, weil wir nicht wachsam sind –, so ist es doch dann, wenn der Herr des Hauses anklopft durch beschwerliche Krankheit, notwendig, dass der Geist sich mit aller Kraft aufrichte, sich mit ganzer Bereitwilligkeit zu seinem nahenden Richter erhebe, alle irdischen Wünsche in sich ertöte und in der Hoffnung auf das Überirdische entbrenne, an den ewigen Gütern, auch wenn er sie nicht verdient hat, keineswegs verzweifle, sich selbst misstraue, dem Herrn aber vertraue.^pSeht, geliebte Brüder, wie ihr erkennt, klopft es an der Pforte meines Herzens, ich werde gerufen, um über mein Werk Rechenschaft abzulegen. Wenn ihr etwas vermögt, so bitte ich euch: leiht mir euren Beistand, reicht mir die Hand eures Gebetes. Unsicher schwanke ich zwischen Furcht und Hoffnung, und ich muss darauf achten, mich nach keiner Seite allzu bereitwillig zu neigen. Aber was für Kräfte habe ich denn? Ich harre auf das Heilmittel der Barmherzigkeit, ich bin in der Hand meines Schöpfers, ich erwarte, dass mit mir geschehe, was ihm gefällt.^pWie schön ist es, den Herrn zu preisen (vgl. Ps 92/91,2); er waltet in Hoheit und Pracht (vgl. Ps 111/110,3). Denn nichts Gutes kann getan werden, ohne dass er es wirkt.^pEs gibt aber eine Art des Bekenntnisses, das nicht die Sünden beweint, dennoch aber das Erbarmen anfleht; von ihm sagt Gott in der Person des Psalmisten: „Wer Opfer des Lobes bringt, ehrt mich; wer rechtschaffen lebt, dem zeig ich mein Heil“ (Ps 50/4,23). Dieses Heil, das heißt den Herrn Jesus, bekenne ich mit dem Munde, und an ihn glaube ich mit dem Herzen (vgl. Röm 10,10), weil Gott ihn von den Toten erweckte. Ich erkenne an, dass hier alle Schätze der Weisheit und Erkenntnis verborgen sind (vgl. Kol 2,3). Ihn kann niemand den Herrn Jesus nennen, wenn er nicht aus dem Heiligen Geist redet (vgl. 1 Kor 12,3).^pVor ihm liegt all mein Sehnen offen, mein Seufzen ist ihm nicht verborgen (vgl. Ps 38/37,5). Ich sagte, ich will dem Herrn mein Unrecht bekennen (vgl. Ps 32/31,5); das ist die zweite Art des Bekenntnisses, zu klagen über seine Sünden.^pDie dritte Art des Bekenntnisses, die der heilige Apostel Jakobus empfiehlt, wenn er sagt: „Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet“ (Jak 5,16), die will ich mit euch zusammen, meine Herren und Brüder, vollziehen; um dieses bitte ich angsterfüllt. Ich hoffe aber, dass wir einen Beistand haben beim Vater, Jesus Christus, den Gerechten, und dass er selbst die Sühne für unsere Sünden ist (vgl. 1 Joh 2,1-2).",
             "patr_resp1": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet.",
             "patr_resp2": "Viel vermag das inständige Gebet eines Gerechten.",
@@ -18497,7 +18497,7 @@
       "5": {
         "oblig": {
           "Invitatorium": {
-            "ant0": "Christus, den König der Könige, durch den die Herrscher herrschen – kommt, wir beten ihn an!"
+            "ant0": "Christus, den König der Könige, durch den die Herrscher herrschen – kommt,°wir°beten°ihn°an!"
           },
           "Lesehore": {
             "les_buch": "Aus der Offenbarung des Johannes.",
