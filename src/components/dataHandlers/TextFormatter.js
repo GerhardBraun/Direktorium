@@ -25,10 +25,10 @@ export const resolveReference = (ref) => {
 // Hilfsfunktion zur Berechnung der maximalen Zeilenlänge in einem Hymnus
 const calculateMaxLineLength = (text) => {
     if (!text.includes('^/') && !text.includes('^ß')) {
-        return 0; // Kein ^/-Tag vorhanden, keine Berechnung nötig
+        return 0; // Kein ^/- oder ^ß-Tag vorhanden, keine Berechnung nötig
     }
 
-    // Entferne alle Formatierungs-Tags außer ^l und ^p für die Längenberechnung
+    // Entferne alle Formatierungs-Tags außer ^l und ^p und ^h für die Längenberechnung
     let cleanText = text
         .replace(/\^r.*?\^0r/g, '') // Rubriken entfernen
         .replace(/\^w.*?\^0w/g, '$1') // Gesperrten Text normal zählen
@@ -70,8 +70,8 @@ const calculateMaxLineLength = (text) => {
         return 0.6;
     };
 
-    // Teile den Text in Strophen (^p) und dann in Zeilen (^l oder ^/)
-    const strophes = cleanText.split(/\^p/);
+    // Teile den Text in Strophen (^p oder ^h) und dann in Zeilen (^l oder ^/)
+    const strophes = cleanText.split(/\^[ph]/);
     let maxLength = 0;
     let zeile = 0;
 
@@ -89,10 +89,15 @@ const calculateMaxLineLength = (text) => {
                 for (let i = 0; i < trimmedLine.length; i++) {
                     lineWidth += calculateCharWidth(trimmedLine[i]);
                 }
+                if (lineWidth > maxLength) {
+                    console.log('NEUES maxLength:', lineWidth, 'Zeilen:', zeile);
+                }
+                else console.log('lineWidth:', lineWidth, 'Zeilen:', zeile);
                 maxLength = Math.max(maxLength, lineWidth);
             }
         });
     });
+    console.log('RETURN maxLength:', maxLength, 'Zeilen:', zeile);
     return maxLength;
 };
 

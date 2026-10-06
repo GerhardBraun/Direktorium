@@ -1265,6 +1265,7 @@ export default function Stundenbuch() {
     const checkScreenWidthInEm = () => {
       // 1pt=4/3px, 0.7 als Puffer für Padding
       setWidthForHymns((window.innerWidth / baseFontSize * .75) - .7);
+      console.log('widthForHymns:', widthForHymns);
     };
 
     checkScreenWidthInEm();

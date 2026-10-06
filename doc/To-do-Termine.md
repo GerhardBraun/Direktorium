@@ -1,8 +1,8 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
 
-**10-08** `Calendar-Lesungen`: ab 9. Oktober
-**10-10** `Lesungen der Lesehore` ab 28. Woche i. Jkr.
+**10-08** `Calendar-Lesungen`: ab 14. Oktober
+**10-17** `Lesungen der Lesehore` ab 29. Woche i. Jkr.
 **ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.
 **ohne Frist** `Psalmen zum Singen` zur Lesehore
 **ohne Frist** ^INVANT in Psalmen des Benedikt. Antiphonale
