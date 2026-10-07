@@ -22,6 +22,7 @@
             "les_buch": "Gal",
             "les_stelle": "4,4–5",
             "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+            "les_text_neu": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, damit wir die Sohnschaft erlangen. Weil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unsere Herzen, den Geist, der ruft: Abba, Vater.",
             "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
@@ -161,6 +162,7 @@
             "les_buch": "Gal",
             "les_stelle": "4,4–5",
             "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+            "les_text_neu": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, damit wir die Sohnschaft erlangen. Weil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unsere Herzen, den Geist, der ruft: Abba, Vater.",
             "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
@@ -10584,7 +10586,8 @@
             "resp1_lat": "Ave, María, grátia plena;",
             "resp2_lat": "Dóminus°tecum.",
             "resp3_lat": "Benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
-            "antev_lat": "Beáta Mater et intácta Virgo, gloriósa Regína mundi, séntiant omnes tuum iuvámen, quicúmque célebrant tuam sanctam festivitátem."
+            "antev_lat": "Beáta Mater et intácta Virgo, gloriósa Regína mundi, séntiant omnes tuum iuvámen, quicúmque célebrant tuam sanctam festivitátem.",
+            "les_text_lat": "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me."
           },
           "Vesper": {
             "hymn_1": 1019.0,
@@ -10598,6 +10601,7 @@
             "les_buch": "Gal",
             "les_stelle": "4,4–5",
             "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+            "les_text_neu": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, damit wir die Sohnschaft erlangen. Weil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unsere Herzen, den Geist, der ruft: Abba, Vater.",
             "resp1": "Gegrüßet seist du, Maria,",
             "resp2": "du°bist°voll°der°Gnade.",
             "resp3": "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
@@ -10609,17 +10613,20 @@
             "resp1_lat": "Ave, María, grátia plena;",
             "resp2_lat": "Dóminus°tecum.",
             "resp3_lat": "Benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
-            "antev_lat": "María conservábat ómnia verba hæc cónferens in corde suo."
+            "antev_lat": "María conservábat ómnia verba hæc cónferens in corde suo.",
+            "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
           },
           "each": {
-            "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, beáta María Vírgine intercedénte, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlV",
+            "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, beáta María Vírgine intercedénte, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlV"
+          },
+          "major": {
             "comm_1": "Maria",
             "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Höre auf die Fürsprache der seligen Jungfrau Maria und führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORV"
           },
           "Lesehore": {
             "patr_autor": "Bernhard von Clairvaux († 1153)",
             "patr_werk": "Aus einer Predigt über°den°Aquädukt.",
-            "patr_text": "^hWir sollen die Geheimnisse des°Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“{1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“{2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“{3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“{4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“{5#ebd.} und wohnte infolgedessen im unzugänglichen Licht{6#vgl.°1 Tim 6,16}.^pDer Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“{7#Jer 29,11 Vg} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“{8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“{9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen{10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du.^lNun, dadurch, dass er^lin der Krippe lag,^lim Schoß der Jungfrau weilte,^lauf dem Berg predigte,^lNächte hindurch betete,^ldadurch, dass er am°Kreuz°hing,^lim Tod erblasste,^lfrei unter Toten{11#vgl.°Ps 88,6 röm} in°der°Welt°des°Todes sich°als°Herr°erwies,^lam dritten Tag auferstand,^lden Aposteln die Male der Nägel,^ldie Zeichen seines Sieges zeigte,^lund zuletzt dadurch, dass er vor ihnen in°den°Himmel°aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: Ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
+            "patr_text": "^hWir sollen die Geheimnisse des°Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“{1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“{2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“{3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“{4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“{5#ebd.} und wohnte infolgedessen im unzugänglichen Licht{6#vgl.°1 Tim 6,16}.^pDer Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“{7#Jer 29,11 Vg} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“{8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“{9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen{10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab.^pWas sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du.^lNun, dadurch, dass er^lin der Krippe lag,^lim Schoß der Jungfrau weilte,^lauf dem Berg predigte,^lNächte hindurch betete,^ldadurch, dass er am°Kreuz°hing,^lim Tod erblasste,^lfrei unter Toten{11#vgl.°Ps 88,6 röm} in°der°Welt°des°Todes sich°als°Herr°erwies,^lam dritten Tag auferstand,^lden Aposteln die Male der Nägel, die°Zeichen°seines°Sieges°zeigte,^lund zuletzt dadurch, dass er vor ihnen in°den°Himmel°aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: Ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt {12#vgl.°Ex 17,6}.^pMaria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
             "patr_resp1": "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: Du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
             "patr_resp2": "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
             "patr_resp3": "Sei gegrüßt, du Gnadenvolle, der Herr ist mit dir."
@@ -12892,6 +12899,7 @@
             "les_buch": "Gal",
             "les_stelle": "4,4–5",
             "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+            "les_text_neu": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, damit wir die Sohnschaft erlangen. Weil ihr aber Söhne seid, sandte Gott den Geist seines Sohnes in unsere Herzen, den Geist, der ruft: Abba, Vater.",
             "resp1": "Heute sollt ihr wissen, dass der Herr kommt,",
             "resp2": "und morgen werdet ihr schauen seine Herrlichkeit.",
             "resp3": "Heiligt euch heute und macht euch bereit.",
