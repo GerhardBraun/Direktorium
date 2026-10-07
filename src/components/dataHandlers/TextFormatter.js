@@ -89,15 +89,10 @@ const calculateMaxLineLength = (text) => {
                 for (let i = 0; i < trimmedLine.length; i++) {
                     lineWidth += calculateCharWidth(trimmedLine[i]);
                 }
-                if (lineWidth > maxLength) {
-                    console.log('NEUES maxLength:', lineWidth, 'Zeilen:', zeile);
-                }
-                else console.log('lineWidth:', lineWidth, 'Zeilen:', zeile);
                 maxLength = Math.max(maxLength, lineWidth);
             }
         });
     });
-    console.log('RETURN maxLength:', maxLength, 'Zeilen:', zeile);
     return maxLength;
 };
 
