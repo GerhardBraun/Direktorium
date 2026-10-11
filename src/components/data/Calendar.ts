@@ -11021,11 +11021,12 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden.^ORV",
-            "oration_lat": "Deus, qui sanctum Ioánnem Henrícum, presbýterum, lumen benígnum tuum sequéntem pacem in Ecclésia tua inveníre contulísti, concéde propítius ut, eius intercessióne et exémplo, ex umbris et imagínibus in plenitúdinem veritátis tuæ perducámur.^ORlV"
+            "oration_lat": "Deus, qui sanctum Ioánnem Henrícum presbýterum, lumen benígnum tuum sequéntem, pacem in Ecclésia tua inveníre contulísti, concéde propítius ut, eius intercessióne et exémplo, ex umbris et imagínibus in plenitúdinem veritátis tuæ perducámur.^ORlV"
           },
           "Laudes": {
             "button": "Hl. John Henry Newman",
             "genitiv": "des heiligen John Henry Newman",
+            "vokativ": "Heiliger John Henry Newman",
             "genitiv_lat": "sancti Ioánnis Henríci"
           },
           "Messe": {

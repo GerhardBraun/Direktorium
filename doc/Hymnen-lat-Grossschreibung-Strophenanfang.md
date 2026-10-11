@@ -38,6 +38,7 @@ Bei der Prüfung des Strophenendes wurden Rubriken (`^RUBR…^0RUBR`, `^r…^0r`
 | 3321 | 2 | 2 | `Nostris malis offéndimus` | `flectámus iram víndicem:` |
 | 3341 | 1 | 2 | `Adésto nunc Ecclésiæ,` | `præcéperas ieiúnium,` |
 | 3341 | 1 | 4 | `Ut, expiáti ánnuis` | `custódiam mitíssime,` |
+
 | 3343 | 1 | 2 | `Quo, vulnerátus ínsuper` | `suspénsus est patíbulo;` |
 | 3361 | 1 | 2 | `Te nunc orántes póscimus,` | `mortis solvísti légibus,` |
 | 3362 | 1 | 3 | `Illum a nobis iúgiter` | `fronte signáti, férimus,` |
@@ -61,6 +62,7 @@ Bei der Prüfung des Strophenendes wurden Rubriken (`^RUBR…^0RUBR`, `^r…^0r`
 | 3954 | 1 | 3 | `Ill>e amor, almus ártifex` | `quod vetus ill>e abstúlerat:` |
 | 3991 | 1 | 2 | `Rex virtútum, rex glóriæ,` | `totus desiderábilis:` |
 | 3991 | 1 | 3 | `Te cæli chorus prǽdicat` | `honor cæléstis cúriæ:` |
+
 | 4003 | 2 | 2 | `Ut simus habitáculum` | `trinæ virtútis glóriam,` |
 | 4006 | 1 | 2 | `Exstíngue flammas lítium,` | `et ígnibus merídiem,` |
 | 4006 | 6 | 4 | `Unum rogémus et Patrem` | `quos sævus hostis íncutit,` |
@@ -95,6 +97,7 @@ Bei der Prüfung des Strophenendes wurden Rubriken (`^RUBR…^0RUBR`, `^r…^0r`
 | 4162 | 0 | 5 | `In quo, Redémptor, quǽsumus,` | `dies erit iudícii,` |
 | 4162 | 0 | 6 | `Ut, cum preces suscéperis` | `ad déxteram nos cólloca,` |
 | 4163 | 0 | 3 | `Ut mane illud últimum,` | `nox áttulit culpæ, cadat,` |
+
 | 4200 | 0 | 2 | `Ac, mole tanta cóndita,` | `censu replésti múnerum,` |
 | 4200 | 0 | 3 | `Concéde nunc mortálibus` | `ut nos levémur grátius:` |
 | 4200 | 0 | 4 | `Ut cum treméndi iúdicis` | `et munerári prósperis,` |
@@ -122,6 +125,7 @@ Bei der Prüfung des Strophenendes wurden Rubriken (`^RUBR…^0RUBR`, `^r…^0r`
 | 4262 | 1 | 2 | `Quo nascénte suscitámur,` | `illustrátor méntium:` |
 | 4262 | 1 | 3 | `Mortis quo victóres facti,` | `quo sumus perlúcidi;` |
 | 4263 | 0 | 2 | `Per quem creátor ómnium` | `Christi faténtes grátiam,` |
+
 | 5450 | 0 | 2 | `Nova véniens e cælo,` | `sicut sponsa cómite,` |
 | 5450 | 0 | 3 | `Portæ nitent margarítis` | `ex auro puríssimo;` |
 | 5464 | 0 | 2 | `Divíni tu consílii` | `præ creatúris ómnibus,` |
@@ -154,6 +158,7 @@ Bei der Prüfung des Strophenendes wurden Rubriken (`^RUBR…^0RUBR`, `^r…^0r`
 | 8829 | 2 | 3 | `Ut pius mundi^/sator et redémptor,` | `dírige calles,` |
 | 8829 | 4 | 2 | `Prophetíæ præcónia,` | `evangelísta lúminis,` |
 | 8829 | 4 | 4 | `Huiúsce mort>e>m innóxiam,` | `monstráverat baptísmatis,` |
+
 | 8908 | 2 | 2 | `Appáre, dulcis fília,` | `virgo mater mirífica,` |
 | 8908 | 4 | 2 | `María, virgo régia,` | `lucísque sumus fílii;` |
 | 8908 | 4 | 3 | `Tu nos, avúlso véteri,` | `quam dignitáte súbolis,` |

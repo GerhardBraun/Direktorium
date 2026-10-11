@@ -1,4 +1,4 @@
-// Perikopen_Messe.ts - Automatisch generiert am 28.09.2026 07:46:24
+// Perikopen_Messe.ts - Automatisch generiert am 09.10.2026 19:18:22
 // Perikopen_Messe-Datenbank: ID -> { Buch?, Stelle, Motto?, Text }
 
 export const perikopenMesse = {
@@ -5218,7 +5218,7 @@ export const perikopenMesse = {
   },
   "Joh 12,31": {
     "Stelle": "vgl. Joh 12,31b–32",
-    "Text": "^SPRICHTJetzt wird der Herrscher dieser Welt hinausgeworfen werden;^lund wenn ich über die Erde erhöht bin, werde alle an mich ziehen."
+    "Text": "^SPRICHTJetzt wird der Herrscher dieser Welt hinausgeworfen werden;^lund wenn ich über die Erde erhöht bin, werde ich alle an mich ziehen."
   },
   "Joh 13,34": {
     "Stelle": "Joh 13,34ac",
