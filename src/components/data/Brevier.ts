@@ -6288,7 +6288,7 @@ export const brevierData = {
       },
       "1": {
         "Invitatorium": {
-          "ant0": "Lasst uns jubeln vor dem Herrn, vor ihm jauchzen mit Lieder!",
+          "ant0": "Lasst uns jubeln vor dem Herrn, vor ihm jauchzen mit Liedern!",
           "mode0": "III",
           "ant0_lat": "Exsultémus Dómino, et in psalmis iubilémus ei."
         },
