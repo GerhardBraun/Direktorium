@@ -1,9 +1,8 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
 
-**10-17** `Lesungen der Lesehore` ab 29. Woche i. Jkr.
+**11-07** `Lesungen der Lesehore` ab 32. Woche i. Jkr.
 **10-31** `Calendar-Lesungen`: ab 1. November
 **ohne Frist** Nachtrag: Lesungen der 6. und 7. Woche i. Jkr., 8. So.
-**ohne Frist** `Psalmen zum Singen` zur Lesehore
+**ohne Frist** `Psalmen zum Singen` zur Lesehore: 6, 9, 10, 12, 18, 31, 35, 37, 39, 44, 50, 52, 73, 78, 89, 102, 105, 106, 107
 **ohne Frist** ^INVANT in Psalmen des Benedikt. Antiphonale
-**11-26** `BuM ABC`: Advent C, 3. Advent B, Fasten- und Osterzeit BC

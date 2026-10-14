@@ -15,7 +15,8 @@
           "ant2_lat": "Ecce Dóminus véniet, et omnes sancti eius cum eo, et erit in die illa lux magna.^ALLxq",
           "ant3_lat": "Véniet Dóminus in potestáte magna, et vidébit eum omnis caro.",
           "anta_lat": "Vigiláte ergo, dicit Iesus, quia nescítis qua die Dóminus vester ventúrus sit.^ALLxq",
-          "antb_lat": "Ecce nomen Dómini venit de longínquo, et cláritas eius replet orbem terrárum."
+          "antb_lat": "Ecce nomen Dómini venit de longínquo, et cláritas eius replet orbem terrárum.",
+          "antc_lat": "Erunt signa in sole et luna et stellis, et super terram pressúra géntium, et tunc vidébunt Fílium hóminis veniéntem in nube cum potestáte et glória magna."
         },
         "Vigil": {
           "les_text": "Lk 24,1-12"
@@ -29,7 +30,8 @@
           "ant2_lat": "Montes et colles cantábunt coram Deo laudem, et ómnia ligna silvárum plaudent mánibus: quóniam véniet Dóminus dominátor in regnum ætérnum.^ALLxq",
           "ant3_lat": "Ecce véniet Prophéta magnus, et ipse renovábit Ierúsalem.^ALLxq",
           "anta_lat": "Si sciret paterfamílias qua hora fur ventúrus esset, vigiláret útique et non síneret pérfodi domum suam.",
-          "antb_lat": "Vigiláte ergo: nescítis enim quando dóminus domus véniat: sero an média nocte, an galli cantu an mane."
+          "antb_lat": "Vigiláte ergo: nescítis enim quando dóminus domus véniat: sero an média nocte, an galli cantu an mane.",
+          "antc_lat": "Respícite et leváte cápita vestra, quóniam appropínquat redémptio vestra."
         },
         "Vesper": {
           "ant1": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem!^HALLxq",
@@ -40,7 +42,8 @@
           "ant2_lat": "Rex noster advéniet Christus, quem Ioánnes prædicávit Agnum esse ventúrum.",
           "ant3_lat": "Ecce vénio cito, et merces mea mecum est, dicit Dóminus: dare unicuíque secúndum ópera sua.",
           "anta_lat": "Spíritus Sanctus in te descéndet, María: ne tímeas, habébis in útero Fílium Die.^ALLxq",
-          "antb_lat": "Ne tímeas, María, invenísti enim grátiam apud Dóminum: ecce concípies et páries Fílium.^ALLxq"
+          "antb_lat": "Ne tímeas, María, invenísti enim grátiam apud Dóminum: ecce concípies et páries Fílium.^ALLxq",
+          "antc_lat": "Beáta es, María, quæ credidísti Dómino, perficiéntur in te, quæ dicta sunt tibi a Dómino.^ALLxq"
         }
       },
       "1": {
@@ -138,7 +141,9 @@
           "ant1_lat": "Gaude et lætáre, nova Sion: ecce enim Rex tuus véniet, mitis et salvans ánimas nostras.",
           "ant2_lat": "Confortáte manus dissolútas; confortámini, dícite: Ecce Deus noster véniet et salvábit nos.^ALLxq",
           "ant3_lat": "Lex per Móysen data est, grátia et véritas per Iesum Christum facta est.",
-          "anta_lat": "Venit Ioánnes Baptísta prǽdicans in desérto et dicens: Pæniténtiam ágite; appropinquávit enim regnum cælórum."
+          "anta_lat": "Venit Ioánnes Baptísta prǽdicans in desérto et dicens: Pæniténtiam ágite; appropinquávit enim regnum cælórum.",
+          "antb_lat": "Ecce mitto ángelum meum ante fáciem tuam, qui præparávit viam tuam.",
+          "antc_lat": "Veni, Dómine, visitáre nos in pace, ut lætémur coram te corde perfécto."
         },
         "Vigil": {
           "les_text": "Lk 24,13-35"
@@ -151,7 +156,9 @@
           "ant1_lat": "Urbs fortitúdinis nostræ Sion, Salvátor ponétur in ea murus et antemurále: aperíte portas, quia nobíscum Deus.^ALLxq",
           "ant2_lat": "Omnes sitiéntes, veníte ad aquas: quærite Dóminum dum inveníri potest.^ALLxq",
           "ant3_lat": "Ecce Dóminus noster cum virtúte véniet, ut illúminet óculos servórum suórum.^ALLxq",
-          "anta_lat": "Vox clamántis in desérto: Paráte viam Dómini, rectas fácite sémitas eius!"
+          "anta_lat": "Vox clamántis in desérto: Paráte viam Dómini, rectas fácite sémitas eius!",
+          "antb_lat": "Fuit Ioánnes in desérto, baptízans et prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum.",
+          "antc_lat": "Factum est verbum Dei super Ioánnem Zacharíæ fílium in desérto, et venit prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum."
         },
         "Vesper": {
           "ant1": "Siehe, auf den Wolken des Himmels kommt der Herr mit großer Macht und Herrlichkeit.^HALLxq",
@@ -161,7 +168,9 @@
           "ant1_lat": "Ecce in núbibus cæli Dóminus véniet cum potestáte magna.^ALLxq",
           "ant2_lat": "Ecce apparébit Dóminus, et non mentiétur; si moram fécerit, exspécta eum, quia véniet et non tardábit.Lö",
           "ant3_lat": "Dóminus légifer noster, Dóminus rex noster: ipse véniet et salvábit nos.",
-          "anta_lat": "Ego vos baptízo in aqua in pæniténtiam, dixit Ioánnes. Qui post me ventúrus est, fórtior me est: ipse vos baptizábit in Spíritu Sancto et igni."
+          "anta_lat": "Ego vos baptízo in aqua in pæniténtiam, dixit Ioánnes. Qui post me ventúrus est, fórtior me est: ipse vos baptizábit in Spíritu Sancto et igni.",
+          "antb_lat": "Ioánnes prædicábat dicens: Venit fórtior me post me, cuius non sum dignus procúmbens sólvere corrígiam calceamentórum.",
+          "antc_lat": "Omnis vallis implébitur, et omnis mons et collis humiliábitur: et vidébit omnis caro salutáre Dei."
         }
       },
       "1": {
@@ -260,7 +269,8 @@
           "ant2_lat": "Ego Dóminus prope feci iustítiam meam; non elongábitur, et salus mea non morábitur.",
           "ant3_lat": "Emítte Agnum, Dómine, dominatórem terræ, de Petra desérti, ad montem fíliæ Sion.",
           "anta_lat": "Ante me non est formátus Deus, et post me non erit: quia mihi curvábitur omne genu, et confitébitur omnis lingua.",
-          "antb_lat": "Fuit homo missus a Deo, cui nomen erat Ioánnes; hic venit ut testimónium perhibéret de lúmine."
+          "antb_lat": "Fuit homo missus a Deo, cui nomen erat Ioánnes; hic venit ut testimónium perhibéret de lúmine.",
+          "antc_lat": "Interrogábant Ioánnem turbæ dicéntes: Quid ergo faciémus? Respóndens autem dicébat illis: Qui habet duas túnicas, det non habénti; et qui habet escas, simíliter faciat."
         },
         "Vigil": {
           "les_text": "Lk 24,35-53"
@@ -274,7 +284,8 @@
           "ant2_lat": "Montes et omnes colles humiliabúntur, et erunt prava in dirécta et áspera in vias planas. Veni, Dómine, et noli tardáre.^ALLxq",
           "ant3_lat": "Dabo in Sion salútem, et in Ierúsalem glóriam meam",
           "anta_lat": "Ioánnes cum audísset in vínculis ópera Christi, mittens duos ex discípulis suis, ait illi: Tu es qui ventúrus es, an álium exspectámus?",
-          "antb_lat": "Ait Ioánnes: Ego vox clamántis in desérto: Dirígite viam Dómini."
+          "antb_lat": "Ait Ioánnes: Ego vox clamántis in desérto: Dirígite viam Dómini.",
+          "antc_lat": "Dixit Ioánnes ómnibus: Ego quidem aqua baptízo vos. Venit autem fórtior me: ipse vos baptizábit in Spíritu Sancto et igni."
         },
         "Vesper": {
           "ant1": "Seht, der Herr wird kommen; er wird die Völker regieren vom Thron seiner Herrlichkeit.",
@@ -285,7 +296,8 @@
           "ant2_lat": "Erúmpant montes iucunditátem et colles iustítiam, quia lux mundi Dóminus cum poténtia venit.",
           "ant3_lat": "Iuste et pie vivámus, exspectántes beátam spem et advéntum Dómini.",
           "anta_lat": "Tu es qui ventúrus es, an álium exspectámus? Dícite Ioánni quæ vidístis: Ad lumen rédeunt cæci, mortui resúrgunt, páuperes evangelizántur.^ALLxq",
-          "antb_lat": "Ego baptízo in aqua. Médius vestrum stat, quem vos non scitis, qui post me ventúrus est."
+          "antb_lat": "Ego baptízo in aqua. Médius vestrum stat, quem vos non scitis, qui post me ventúrus est.",
+          "antc_lat": "Respóndit Ioánnes dicens: Venit fórtior me, cuius ventilábrum in manu eius ad purgándam áream suam et ad congregándum tríticum in hórreum suum."
         }
       },
       "1": {
@@ -551,8 +563,8 @@
       },
       "2": {
         "Lesehore": {
-          "versikel0": "Bereitet dem Herrn einen Weg.",
-          "versikel1": "Ebnet unserm Gott die Straßen.",
+          "versikel0": "Bereitet dem Herrn einen°Weg.",
+          "versikel1": "Ebnet unserm Gott die°Straßen.",
           "versikel0_lat": "Vox clamántis in desérto: Paráte viam Dómini.",
           "versikel1_lat": "Rectas fácite sémitas Dei nostri."
         },
@@ -661,8 +673,8 @@
       },
       "4": {
         "Lesehore": {
-          "versikel0": "Hört das Wort des Herrn, ihr Völker.",
-          "versikel1": "Verkündet es an den Grenzen der Erde.",
+          "versikel0": "Hört das Wort des Herrn, ihr°Völker.",
+          "versikel1": "Verkündet es an den Grenzen der°Erde.",
           "versikel0_lat": "Audíte verbum Dómini, gentes.",
           "versikel1_lat": "Et annuntiáte illud in fínibus terræ."
         },
@@ -716,8 +728,8 @@
       },
       "5": {
         "Lesehore": {
-          "versikel0": "Herr, über mich komme deine Huld.",
-          "versikel1": "Deine Hilfe, wie du es verheißen hast.",
+          "versikel0": "Herr, über mich komme deine°Huld.",
+          "versikel1": "Deine Hilfe, wie du es verheißen°hast.",
           "versikel0_lat": "Véniat super me misericórdia tua, Dómine.",
           "versikel1_lat": "Salutáre tuum, secúndum elóquium tuum."
         },
@@ -771,7 +783,7 @@
       },
       "6": {
         "Lesehore": {
-          "versikel0": "Der Herr verkündet Jakob sein Wort.",
+          "versikel0": "Der Herr verkündet Jakob sein°Wort.",
           "versikel1": "Seine Satzungen und Rechte Israel.",
           "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
           "versikel1_lat": "Iustítias et iudícia sua Israel."
@@ -1223,7 +1235,7 @@
           "ant1": "Ihre Botschaft ging in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde.^HALLo",
           "ant2": "Sie verkündeten Gottes Taten und bedachten sein Wirken.^HALLo",
           "ant3": "Sie verkündeten die Gerechtigkeit des Herrn, und alle Völker schauten seine Herrlichkeit.^HALLo",
-          "versikel0": "Sie priesen den Herrn und erzählten von seiner Macht.^HALLo",
+          "versikel0": "Sie priesen den Herrn und erzählten von°seiner°Macht.^HALLo",
           "versikel1": "Von den Wundertaten, die er vollbracht.^HALLo",
           "les_buch": "Aus dem ersten Brief an die Korinther.",
           "les_stelle": "4,1–16",
@@ -1762,8 +1774,8 @@
           "ant1": "Zu weiser Rede öffnet sie den Mund, und das Gesetz der Güte ist auf ihrer Zunge.^HALLo",
           "ant2": "Die heiligen Frauen haben auf Gott vertraut, sie sangen dem Herrn ein Lied in ihrem Herzen.^HALLo",
           "ant3": "Mit Freude und Jubel werden sie zum Herrn geleitet.^HALLo",
-          "versikel0": "Was ich im Herzen erwäge, stehe dir vor Augen.^HALLo",
-          "versikel1": "Herr, mein Fels und mein Erlöser.^HALLo",
+          "versikel0": "Was ich im Herzen erwäge, stehe°dir°vor°Augen.^HALLo",
+          "versikel1": "Herr, mein Fels und mein°Erlöser.^HALLo",
           "les_buch": "",
           "les_stelle": "",
           "les_text": "",
@@ -2012,7 +2024,7 @@
           "ant1": "Will einer der Erste sein, so soll er der Letzte von allen sein und der Diener aller.^HALLo",
           "ant2": "Wenn der oberste Hirt erscheint, werdet ihr den Kranz der Herrlichkeit empfangen, der nie verwelkt.^HALLo",
           "ant3": "Du guter und treuer Knecht, nimm teil an der Freude deines Herrn.^HALLo",
-          "versikel0": "Aus meinem Mund wirst du das Wort vernehmen.^HALLo",
+          "versikel0": "Aus meinem Mund wirst du das°Wort°vernehmen.^HALLo",
           "versikel1": "Und in meinem Auftrag wirst du es verkünden.^HALLo",
           "les_buch": "",
           "les_stelle": "",
@@ -2240,8 +2252,8 @@
           "ant1": "O Jungfrau, strahlend im Glanz der Klugheit und Weisheit: das ewige Wort ist dein Bräutigam.^HALLo",
           "ant2": "Mehr als die ganze Welt und ihre Pracht galt mir die Liebe Jesu Christi, meines Herrn.^HALLo",
           "ant3": "Der König verlangt nach deiner Schönheit; er ist dein Herr und dein Gott.^HALLo",
-          "versikel0": "Du zeigst mir den Pfad zum Leben.^HALLo",
-          "versikel1": "Vor deinem Angesicht herrscht Freude in Fülle.^HALLo",
+          "versikel0": "Du zeigst mir den Pfad zum°Leben.^HALLo",
+          "versikel1": "Vor deinem Angesicht herrscht Freude in°Fülle.^HALLo",
           "les_buch": "",
           "les_stelle": "",
           "les_text": "",
@@ -2575,8 +2587,8 @@
           "ant1": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^HALLo",
           "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^HALLo^FIRST",
           "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^HALLo",
-          "versikel0": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^HALLo",
-          "versikel1": "Ich lobe deinen Namen, denn du bist gütig.^HALLo",
+          "versikel0": "Ich werfe mich nieder in Ehrfurcht vor°deinem heiligen°Tempel.^HALLo",
+          "versikel1": "Ich lobe deinen Namen, denn°du°bist°gütig.^HALLo",
           "les_buch": "Aus dem ersten Petrusbrief.",
           "les_stelle": "2,1–17",
           "les_text": "Legt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auserwählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!",
@@ -3703,7 +3715,7 @@
           "ant2": "Die Leiden dieser Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll.^HALLo",
           "ant3": "Wie Gold im Ofen hat der Herr sie erprobt, als Opfer nahm er die Erwählten an in Ewigkeit.^HALLo",
           "versikel0": "Mich trafen Not und Bedrängnis.^HALLo",
-          "versikel1": "Doch deine Gebote machen mich froh.^HALLo",
+          "versikel1": "Doch deine Gebote machen mich°froh.^HALLo",
           "les_buch": "Aus dem zweiten Brief an die Korinther.",
           "les_stelle": "4,7–5,8",
           "les_text": "^hLeidensgemeinschaft mit Christus^pWir tragen den Schatz (unseres Glaubens) in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt. Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum; wir wissen weder aus noch ein und verzweifeln dennoch nicht; wir werden gehetzt und sind doch nicht verlassen; wir werden niedergestreckt und doch nicht vernichtet. Wohin wir auch kommen, immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird.^pDenn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird. So erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch vor sein Angesicht stellen wird.^pAlles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen, Gott zur Ehre. Darum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig. Wir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde. Gott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben.^pWir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.",
@@ -5832,8 +5844,8 @@
           "ant1": "Ich bin von Gott als König eingesetzt auf Zion, seinem heiligen Berg, um seinen Willen kundzutun.",
           "ant2": "Alle Könige müssen ihm huldigen, alle Völker ihm dienen.",
           "ant3": "Alle Völker werden ihn preisen und in ihm sich segnen.",
-          "versikel0": "Siehe, ich mache dich zum Licht der Heiden.",
-          "versikel1": "Du sollst ihr Heil sein bis an die Enden der Erde.",
+          "versikel0": "Siehe, ich mache dich zum Licht der°Heiden.",
+          "versikel1": "Du sollst ihr Heil sein bis an die Enden der°Erde.",
           "hymn_1_lat": 3991.1,
           "ant1_lat": "Ego constitútus sum rex ab eo super Sion, montem sanctum eius, prǽdicans præcéptum eius.",
           "ant2_lat": "Adorábunt eum omnes reges, omnes gentes sérvient ei.",
@@ -6273,8 +6285,8 @@
           "oration_lat": "Da, quǽsumus, Dómine, pópulo tuo inviolábilem fídei firmitátem, ut, qui Unigénitum tuum in tua tecum glória sempitérnum in veritáte nostri córporis natum de Matre Vírgine confiténtur, et a præséntibus liberéntur advérsis, et mansúris gáudiis inserántur.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Singt dem Herrn und preist seinen Namen.",
-          "versikel1": "Von Tag zu Tag verkündet sein Heil.",
+          "versikel0": "Singt dem Herrn und preist seinen°Namen.",
+          "versikel1": "Von Tag zu Tag verkündet sein°Heil.",
           "versikel0_lat": "Cantáte Dómino, et benedícite nómini eius.",
           "versikel1_lat": "Annuntiáte de die in diem salutáre eius."
         },
@@ -6336,7 +6348,7 @@
           "oration_lat": "Deus, qui, per beátum sacræ Vírginis partum, Fílii tui carnem humánis fecísti præiudíciis non tenéri, præsta, quǽsumus, ut, huius creatúræ novitáte suscépti, vetustátis antíquæ contágiis exuámur.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Der Sohn Gottes ist gekommen und hat uns Einsicht verliehen.",
+          "versikel0": "Der Sohn Gottes ist gekommen und hat uns Einsicht°verliehen.",
           "versikel1": "Damit wir den wahren Gott erkennen.",
           "versikel0_lat": "Fílius Dei venit, et dedit nobis sensum.",
           "versikel1_lat": "Ut cognoscámus verum Deum."
@@ -6400,7 +6412,7 @@
         },
         "Lesehore": {
           "versikel0": "In ihm war das Leben.",
-          "versikel1": "Und das Leben war das Licht der Menschen.",
+          "versikel1": "Und das Leben war das Licht der°Menschen.",
           "versikel0_lat": "In ipso vita erat.",
           "versikel1_lat": "Et vita erat lux hóminum."
         },
@@ -6526,7 +6538,7 @@
         },
         "Lesehore": {
           "versikel0": "Die Himmel künden seine Gerechtigkeit.",
-          "versikel1": "Seine Herrlichkeit schauen alle Völker.",
+          "versikel1": "Seine Herrlichkeit schauen alle°Völker.",
           "resp1": "Der Geist des Herrn ist über mir; denn der Herr hat mich gesalbt. Er hat mich gesandt, den Armen die frohe Botschaft zu bringen,",
           "resp2": "alle zu heilen, deren Herz bedrückt ist.",
           "resp3": "Ich bin nicht von mir aus gekommen, sondern der Vater hat mich gesandt.",
@@ -6595,7 +6607,7 @@
         },
         "Lesehore": {
           "versikel0": "Jerusalem, lobe den Herrn.",
-          "versikel1": "Denn er sendet sein Wort zur Erde.",
+          "versikel1": "Denn er sendet sein Wort zur°Erde.",
           "versikel0_lat": "Lauda, Ierúsalem, Dóminum.",
           "versikel1_lat": "Qui emíttit elóquium suum in terra."
         },
@@ -6657,7 +6669,7 @@
           "oration_lat": "Deus, illuminátor ómnium géntium, da pópulis tuis perpétua pace gaudére, et illud córdibus nostris spléndidum lumen infúnde, quod patrum nostrórum méntibus aspersísti.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Der Herr zeige uns seine Wege.",
+          "versikel0": "Der Herr zeige uns seine°Wege.",
           "versikel1": "Und wir wandeln auf seinen Pfaden.",
           "versikel0_lat": "Dóminus vias suas docébit nos.",
           "versikel1_lat": "Et ambulábimus in sémitis eius."
@@ -6784,7 +6796,7 @@
         },
         "Lesehore": {
           "versikel0": "In ihm war das Leben.",
-          "versikel1": "Und das Leben war das Licht der Menschen.",
+          "versikel1": "Und das Leben war das Licht der°Menschen.",
           "versikel0_lat": "In ipso vita erat.",
           "versikel1_lat": "Et vita erat lux hóminum."
         },
@@ -6896,7 +6908,7 @@
           "oration_lat": "Deus, humánæ cónditor et redémptor natúræ, qui Verbum tuum in útero perpétuæ virginitátis carnem assúmere voluísti, réspice propítius ad preces nostras, ut Unigénitus tuus, nostra humanitáte suscépta, nos divíno suo consórtio sociáre dignétur.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Der Herr verkündet Jakob sein Wort.",
+          "versikel0": "Der Herr verkündet Jakob sein°Wort.",
           "versikel1": "Seine Satzungen und Rechte Israel.",
           "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
           "versikel1_lat": "Iustítias et iudícia sua Israel."
@@ -6962,7 +6974,7 @@
           "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut, qui sub peccáti iugo ex vetústa servitúte deprímimur, exspectáta Unigéniti tui nova nativitáte liberémur.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Richtet euch auf und erhebt euer Haupt.",
+          "versikel0": "Richtet euch auf und erhebt euer°Haupt.",
           "versikel1": "Denn es naht eure Erlösung.",
           "versikel0_lat": "Respícite et leváte cápita vestra.",
           "versikel1_lat": "Quóniam appropínquat redémptio vestra."
@@ -7028,8 +7040,8 @@
           "oration_lat": "Deus, qui splendórem glóriæ tuæ per sacræ Vírginis partum mundo dignátus es reveláre, tríbue, quǽsumus, ut tantæ incarnatiónis mystérium et fídei integritáte colámus, et devóto semper obséquio frequentémus.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Erweise uns, Herr, deine Huld.",
-          "versikel1": "Und gewähre uns dein Heil.",
+          "versikel0": "Erweise uns, Herr, deine°Huld.",
+          "versikel1": "Und gewähre uns dein°Heil.",
           "versikel0_lat": "Osténde nobis, Dómine, misericórdiam tuam.",
           "versikel1_lat": "Et salutáre tuum da nobis."
         },
@@ -7091,8 +7103,8 @@
           "oration_lat": "Deus, cuius ineffábile Verbum, Angelo nuntiánte, Virgo immaculáta suscépit, et, domus divinitátis effécta, Sancti Spíritus luce replétur, quǽsumus, ut nos, eius exémplo, voluntáti tuæ humíliter adhærére valeámus.^ORlV"
         },
         "Lesehore": {
-          "versikel0": "Bereitet dem Herrn einen Weg.",
-          "versikel1": "Ebnet unserm Gott die Straßen",
+          "versikel0": "Bereitet dem Herrn einen°Weg.",
+          "versikel1": "Ebnet unserm Gott die°Straßen",
           "versikel0_lat": "Vox clamántis in desérto: Paráte viam Dómini.",
           "versikel1_lat": "Rectas fácite sémitas Dei nostri."
         },
@@ -7217,8 +7229,8 @@
           "oration_lat": "Deus, qui hóminem delápsum in mortem conspíciens, Unigéniti tui advéntu redímere voluísti, præsta, quǽsumus, ut qui húmili eius incarnatiónem devotióne faténtur, ipsíus étiam Redemptóris consórtia mereántur.^ORlvR"
         },
         "Lesehore": {
-          "versikel0": "Hört das Wort des Herrn, ihr Völker.",
-          "versikel1": "Verkündet es an den Grenzen der Erde.",
+          "versikel0": "Hört das Wort des Herrn, ihr°Völker.",
+          "versikel1": "Verkündet es an den Grenzen der°Erde.",
           "versikel0_lat": "Audíte verbum Dómini, gentes.",
           "versikel1_lat": "Et annuntiáte illud in fínibus terræ."
         },
@@ -7280,8 +7292,8 @@
           "oration_lat": "Omnípotens sempitérne Deus, nativitátem Fílii tui secúndum carnem propinquáre cernéntes, quǽsumus, ut nobis indígnis fámulis tuis misericórdiam præstet Verbum, quod ex Vírgine María dignátum est caro fíeri, et habitáre in nobis.^ORlR"
         },
         "Lesehore": {
-          "versikel0": "Herr, über mich komme deine Huld.",
-          "versikel1": "Deine Hilfe, wie du es verheißen hast.",
+          "versikel0": "Herr, über mich komme deine°Huld.",
+          "versikel1": "Deine Hilfe, wie du es verheißen°hast.",
           "versikel0_lat": "Véniat super me misericórdia tua, Dómine.",
           "versikel1_lat": "Salutáre tuum, secúndum elóquium tuum."
         },
@@ -7348,7 +7360,7 @@
           "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
         },
         "Lesehore": {
-          "versikel0": "Der Herr verkündet Jakob sein Wort.",
+          "versikel0": "Der Herr verkündet Jakob sein°Wort.",
           "versikel1": "Seine Satzungen und Rechte Israel.",
           "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
           "versikel1_lat": "Iustítias et iudícia sua Israel."
@@ -7546,7 +7558,7 @@
           "ant1": "Treue sprosst aus der Erde hervor; Gerechtigkeit blickt vom Himmel hernieder.",
           "ant2": "Huld und Treue schreiten vor deinem Antlitz her.",
           "ant3": "Er wird zu mir rufen: Mein Vater bist du.^HALLxq",
-          "versikel0": "Der Herr hat kundgemacht sein Heil.^HALLxq",
+          "versikel0": "Der Herr hat kundgemacht sein°Heil.^HALLxq",
           "versikel1": "Vor den Augen der Völker.^HALLxq",
           "ant1_lat": "Véritas de terra orta est, et iustítia de cælo prospéxit.",
           "ant2_lat": "Misericórdia et véritas præcédent fáciem tuam, Dómine.",
@@ -7618,8 +7630,8 @@
           "ant1": "Der Himmel freue sich, die Erde jauchze vor dem Antlitz des Herrn, denn er kommt.",
           "ant2": "Ein Licht erstrahlt den Gerechten und Freude den Menschen mit redlichem Herzen.",
           "ant3": "Der Herr hat kundgemacht sein Heil. Halleluja,°halleluja.",
-          "versikel0": "In dieser Endzeit hat Gott zu uns gesprochen durch seinen Sohn.",
-          "versikel1": "Durch den er auch die Welt erschaffen hat.",
+          "versikel0": "In dieser Endzeit hat Gott zu uns gesprochen durch°seinen°Sohn.",
+          "versikel1": "Durch den er auch die Welt erschaffen°hat.",
           "ant1_lat": "Læténtur cæli et exsúltet terra ante fáciem Dómini, quóniam venit.",
           "ant2_lat": "Lux orta est iusto, rectis corde lætítia.^ALLxq",
           "ant3_lat": "Notum fecit Dóminus salutáre suum.^ALLxq",
@@ -7719,7 +7731,7 @@
           "ant1": "Die Eltern brachten Jesus in den Tempel. Simeon nahm das Kind in seine Arme und lobte Gott für seine Huld.",
           "ant2": "Die Weisen gingen in das Haus und fanden das Kind und Maria, seine Mutter.",
           "ant3": "Noch in der Nacht stand Josef auf und floh mit dem Kind und seiner Mutter nach Ägypten.",
-          "versikel0": "Der Herr hat kundgemacht sein Heil.^HALLxq",
+          "versikel0": "Der Herr hat kundgemacht sein°Heil.^HALLxq",
           "versikel1": "Vor den Augen der Völker.^HALLxq",
           "les_buch": "Aus dem Brief an die Epheser.",
           "les_stelle": "5,21–6,4",
@@ -8079,7 +8091,7 @@
           "ant2": "Ich habe meinen Vater gebeten, und er gab mir die Völker zum Erbe.^HALLo",
           "ant3": "Ich legte mich nieder und schlief ein; ich wachte wieder auf, denn der Herr hat mich beschützt.^HALLo",
           "versikel0": "Der Herr ist den Jüngern erschienen.^HALLo",
-          "versikel1": "Sie sahen ihn und freuten sich.^HALLo",
+          "versikel1": "Sie sahen ihn und freuten°sich.^HALLo",
           "ant1_lat": "Ego sum qui sum, et consílium meum non est cum ímpiis; sed in lege Dómini volúntas mea est.^ALLo",
           "ant2_lat": "Postulávi Patrem meum; dedit mihi gentes in hereditátem.^ALLo",
           "ant3_lat": "Ego dormívi et somnum cepi et exsurréxi, quóniam Dóminus suscépit me.^ALLo",
@@ -8115,7 +8127,7 @@
           "ant2": "Preist unsern Gott, ihr Völker; denn er hat mich aufgeweckt.^HALLo",
           "ant3": "Kommt und hört, was der Herr mir Gutes getan hat.^HALLo",
           "versikel0": "Gott hat Christus von den Toten erweckt.^HALLo",
-          "versikel1": "Damit wir an Gott glauben und auf ihn hoffen.^HALLo",
+          "versikel1": "Damit wir an Gott glauben und auf°ihn°hoffen.^HALLo",
           "ant1_lat": "Dóminus virtútum, ipse est Rex glóriæ.^ALLo",
           "ant2_lat": "Benedícite, gentes, Deum nostrum, quóniam pósuit ánimam meam ad vitam.^ALLo",
           "ant3_lat": "Veníte, et audíte quanta fecit Dóminus ánimæ meæ.^ALLo",
@@ -8151,7 +8163,7 @@
           "ant2": "Herr, von der Herrlichkeit deiner Werke ist die Erde erfüllt.^HALLo",
           "ant3": "Ewig währe die Herrlichkeit des Herrn.^HALLo",
           "versikel0": "Gott hat den Herrn aus dem Grab erweckt.^HALLo",
-          "versikel1": "Er wird auch uns erwecken durch seine Kraft.^HALLo",
+          "versikel1": "Er wird auch uns erwecken durch°seine°Kraft.^HALLo",
           "ant1_lat": "Dómine Deus meus, magnificátus es veheménter.^ALLo",
           "ant2_lat": "De fructu óperum tuórum, Dómine, sátias terram.^ALLo",
           "ant3_lat": "Sit glória Dómini in sǽculum.^ALLo",
@@ -8187,7 +8199,7 @@
           "ant2": "Der Herr ist mein Retter geworden.^HALLo",
           "ant3": "Das hat der Herr vollbracht. Vor unseren Augen geschah dieses Wunder.^HALLo",
           "versikel0": "In deiner Auferstehung, Christus.^HALLo",
-          "versikel1": "Freuen sich Himmel und Erde.^HALLo",
+          "versikel1": "Freuen sich Himmel und°Erde.^HALLo",
           "ant1_lat": "Dicat nunc Israel: In sǽculum misericórdia eius.^ALLo",
           "ant2_lat": "Factus est mihi Dóminus in salútem.^ALLo",
           "ant3_lat": "A Dómino factum est istud, et est mirábile in óculis nostris.^ALLo",
@@ -8223,7 +8235,7 @@
           "ant2": "Danket dem Herrn: Er hat Israel herausgeführt aus Ägypten.^HALLo",
           "ant3": "Danket dem Herrn: Er hat uns den Feinden entrissen.^HALLo",
           "versikel0": "Gott hat uns gezeugt zu lebendiger Hoffnung.^HALLo",
-          "versikel1": "Durch die Auferstehung Jesu Christi von den Toten.^HALLo",
+          "versikel1": "Durch die Auferstehung Jesu Christi von°den°Toten.^HALLo",
           "ant1_lat": "Confitémini Dómino, qui facit mirabília magna solus.^ALLo",
           "ant2_lat": "Edúxit Israel de médio Ægýpti, in ætérnum misericórdia eius.^ALLo",
           "ant3_lat": "Redémit nos Dóminus ab inimícis nostris.^ALLo",
@@ -8259,7 +8271,7 @@
           "ant2": "Die Herrlichkeit seines Königtums hat der Herr kundgetan.^HALLo",
           "ant3": "Alles, was lebt, preise Gottes heiligen Namen immer und ewig.^HALLo",
           "versikel0": "Gott hat Christus von den Toten erweckt.^HALLo",
-          "versikel1": "Damit wir an Gott glauben und auf ihn hoffen.^HALLo",
+          "versikel1": "Damit wir an Gott glauben und auf°ihn°hoffen.^HALLo",
           "ant1_lat": "Magnus Dóminus, et magnitúdinis eius non est finis.^ALLo",
           "ant2_lat": "Notam fecit Dóminus glóriam magnificéntiæ regni sui.^ALLo",
           "ant3_lat": "Benedícat omnis caro nómini sancto tuo in sǽculum sǽculi.^ALLo",
@@ -8419,7 +8431,7 @@
           "ant2": "Ich habe meinen Vater gebeten, und er gab mir die Völker zum Erbe.^HALLo",
           "ant3": "Ich legte mich nieder und schlief ein; ich wachte wieder auf, denn der Herr hat mich beschützt.^HALLo",
           "versikel0": "Der Herr ist den Jüngern erschienen.^HALLo",
-          "versikel1": "Sie sahen ihn und freuten sich.^HALLo",
+          "versikel1": "Sie sahen ihn und freuten°sich.^HALLo",
           "ant1_lat": "Ego sum qui sum, et consílium meum non est cum ímpiis; sed in lege Dómini volúntas mea est.^ALLo",
           "ant2_lat": "Postulávi Patrem meum; dedit mihi gentes in hereditátem.^ALLo",
           "ant3_lat": "Ego dormívi et somnum cepi et exsurréxi, quóniam Dóminus suscépit me.^ALLo",
@@ -8637,7 +8649,9 @@
           "ant1_lat": "Excélsus super omnes cælos Deus, suscitávit a terra ínopem.^ALLo",
           "ant2_lat": "Dirupísti, Dómine, víncula mea: tibi sacrificábo hóstiam laudis.^ALLo",
           "ant3_lat": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ.^ALLo",
-          "anta_lat": "Mane nobíscum, quóniam advesperáscit et inclináta est iam dies.^ALLo"
+          "anta_lat": "Mane nobíscum, quóniam advesperáscit et inclináta est iam dies.^ALLo",
+          "antb_lat": "Ipse Iesus stetit in médio discipulórum, et dicit eis: Pax vobis.^ALLo",
+          "antc_lat": "Dixit Iesus discípulis suis: Afférte de píscibus, quos prendidístis nunc. Ascéndit autem Simon Petrus et traxit rete in terram, plenam magnis píscibus.^ALLo"
         },
         "Vigil": {
           "les_text": "Lk 24,1-12"
@@ -8654,7 +8668,9 @@
           "ant1_lat": "Dóminus regnávit, decórem indútus est.^ALLo^FIRST",
           "ant2_lat": "Liberábitur creatúra in libertátem glóriæ filiórum Dei.^ALLo",
           "ant3_lat": "Exaltátum est nomen Dómini super cælum et terram.^ALLo",
-          "anta_lat": "Oportébat Christum pati et resúrgere a mórtuis tértia die.^ALLo"
+          "anta_lat": "Oportébat Christum pati et resúrgere a mórtuis tértia die.^ALLo",
+          "antb_lat": "Vidéte manus meas et pedes meos, quia ego sum. Palpáte me et vidéte.^ALLo",
+          "antc_lat": "Venit Iesus et áccipit panem et dat eis, et piscem simíliter. Hoc iam tértio manifestátus est Iesus discípulis, cum resurrexísset a mórtuis.^ALLo"
         },
         "Vesper": {
           "ant1": "Christus, der Erbe des Alls, hat die Reinigung von den Sünden vollbracht. Dann setzte er sich zur Rechten der Herrlichkeit Gottes in der Höhe.^HALLo",
@@ -8668,7 +8684,9 @@
           "ant1_lat": "Purgatiónem peccatórum fáciens, sedet ad déxteram maiestátis in excélsis.^ALLo",
           "ant2_lat": "Redemptiónem misit Dóminus pópulo suo.^ALLo",
           "ant3_lat": "Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei.^ALLo",
-          "anta_lat": "Dum recúmberet cum illis, accépit panem et benedíxit ac fregit et porrigébat illis. Et apérti sunt óculi eórum et cognovérunt eum.^ALLo"
+          "anta_lat": "Dum recúmberet cum illis, accépit panem et benedíxit ac fregit et porrigébat illis. Et apérti sunt óculi eórum et cognovérunt eum.^ALLo",
+          "antb_lat": "Sic scriptum est, Christum pati et resúrgere a mórtuis die tértia, et prædicári in nómine eius pæniténtiam in remissiónem peccatórum in omnes gentes.^ALLo",
+          "antc_lat": "Simon Ioánnis, amas me? Dómine, tu ómnia scis, tu cognóscis quia amo te. Dicit ei Iesus: Pasce oves meas.^ALLo"
         }
       },
       "1": {
@@ -8780,9 +8798,10 @@
           "modeev": "I",
           "ant1_lat": "Pax Christi exsúltet in córdibus vestris.^ALLo",
           "ant2_lat": "Redemísti nos Deo in sánguine tuo.^ALLo",
-          "ant3_lat": "Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam?^ALLo",
+          "ant3_lat": "Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam?.^ALLo",
           "anta_lat": "Amen dico vobis: qui intrat per óstium, pastor est óvium. Ante eas vadit, et oves illum sequúntur, quia sciunt vocem eius.^ALLo",
-          "antb_lat": "Ego sum pastor bonus: bonus pastor ánimam suam ponit pro óvibus.^ALLo"
+          "antb_lat": "Ego sum pastor bonus: bonus pastor ánimam suam ponit pro óvibus.^ALLo",
+          "antc_lat": "Oves meæ vocem meam áudiunt, et ego Dóminus agnósco eas.^ALLo"
         },
         "Vigil": {
           "les_text": "Lk 24,13-35"
@@ -8799,7 +8818,9 @@
           "ant1_lat": "Non móriar, sed vivam et narrábo ópera Dómini.^ALLo",
           "ant2_lat": "Benedíctum nomen glóriæ tuæ sanctum.^ALLo",
           "ant3_lat": "Date magnificéntiam Deo nostro; Dei perfécta sunt ópera, et omnes viæ eius iudícia.^ALLo",
-          "anta_lat": "Ego sum óstium, dicit Dóminus; per me si quis introíerit, salvábitur et páscua invéniet.^ALLo"
+          "anta_lat": "Ego sum óstium, dicit Dóminus; per me si quis introíerit, salvábitur et páscua invéniet.^ALLo",
+          "antb_lat": "Ego sum pastor óvium; ego sum via, véritas et vita; ego sum pastor bonus, et cognósco oves meas, et cognóscunt me meæ.^ALLo",
+          "antc_lat": "Ego vitam ætérnam do óvibus meis, et non períbunt in ætérnum, et non rápiet eas quisquam de manu mea.^ALLo"
         },
         "Vesper": {
           "ant1": "Ihr seid mit Christus auferweckt, sucht also, was droben ist, wo Christus thront zur Rechten des Vaters.^HALLo",
@@ -8813,7 +8834,9 @@
           "ant1_lat": "Quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens.^ALLo",
           "ant2_lat": "Exórtum est in ténebris lumen rectis corde.^ALLo",
           "ant3_lat": "Allelúia, salus et glória et virtus Deo nostro.^ALLo",
-          "anta_lat": "Ego sum pastor bonus: ego veni, ut vitam hábeant, et abundántius hábeant.^ALLo"
+          "anta_lat": "Ego sum pastor bonus: ego veni, ut vitam hábeant, et abundántius hábeant.^ALLo",
+          "antb_lat": "Alias oves hábeo, quæ non sunt ex hoc ovíli, et illas opórtet me addúcere, et vocem meam áudient, et fient unus grex, unus pastor.^ALLo",
+          "antc_lat": "Pater meus quod dedit mihi, maius ómnibus est, et nemo potest rápere de manu Patris.^ALLo"
         }
       },
       "1": {
@@ -8926,7 +8949,9 @@
           "ant1_lat": "Elevátio mánuum meárum ut sacrifícium vespertínum.^ALLo",
           "ant2_lat": "Eduxísti de custódia ánimam meam ad confiténdum nómini tuo.^ALLo",
           "ant3_lat": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ.^ALLo",
-          "anta_lat": "Si abíero et præparávero vobis locum, íterum vénio et accípiam vos ad meípsum, ut ubi sum ego, et vos sitis.^ALLo"
+          "anta_lat": "Si abíero et præparávero vobis locum, íterum vénio et accípiam vos ad meípsum, ut ubi sum ego, et vos sitis.^ALLo",
+          "antb_lat": "Ego sum vitis vera, et Pater meus agrícola est. Omnem pálmitem qui fert fructum, purgat eum ut fructum plus áfferat.^ALLo",
+          "antc_lat": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo.^ALLo"
         },
         "Vigil": {
           "les_text": "Lk 24,35-53"
@@ -8943,7 +8968,9 @@
           "ant1_lat": "Qui sitit accípiet aquam vitæ gratis.^ALLo",
           "ant2_lat": "Adoráte Dóminum, qui fecit cælum et terram, mare et fontes aquárum.^ALLo",
           "ant3_lat": "Exsultábunt sancti in glória.^ALLo",
-          "anta_lat": "Ego sum via, véritas et vita: nemo venit ad Patrem, nisi per me.^ALLo"
+          "anta_lat": "Ego sum via, véritas et vita: nemo venit ad Patrem, nisi per me.^ALLo",
+          "antb_lat": "Qui manet in me, et ego in eo, hic fert fructum multum, dicit Dóminus.^ALLo",
+          "antc_lat": "Mandátum novum do vobis: ut diligátis ínvicem sicut diléxi vos, dicit Dóminus.^ALLo"
         },
         "Vesper": {
           "ant1": "Auferstanden ist der Herr und sitzt zur Rechten Gottes.^HALLo",
@@ -8957,7 +8984,9 @@
           "ant1_lat": "Surréxit Dóminus et sedet ad déxteram Dei.^ALLo",
           "ant2_lat": "Erípuit nos de potestáte tenebrárum et tránstulit in regnum Fílii sui.^ALLo",
           "ant3_lat": "Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei.^ALLo",
-          "anta_lat": "Dómine, osténde nobis Patrem, et súfficit nobis. Dicit ei Iesus: Tanto témpore vobíscum sum, et non cognovísti me, Philíppe? Qui vidit me, vidit Patrem.^ALLo"
+          "anta_lat": "Dómine, osténde nobis Patrem, et súfficit nobis. Dicit ei Iesus: Tanto témpore vobíscum sum, et non cognovísti me, Philíppe? Qui vidit me, vidit Patrem.^ALLo",
+          "antb_lat": "In hoc clarificátus est Pater meus, ut fructum multum afferátis et efficiámini mei discípuli.^ALLo",
+          "antc_lat": "In hoc cognóscent omnes quia mei discípuli estis, si dilectiónem habuéritis ad ínvicem.^ALLo"
         }
       },
       "1": {
@@ -9069,8 +9098,10 @@
           "modeev": "III",
           "ant1_lat": "Qui facit veritátem, venit ad lucem.^ALLo",
           "ant2_lat": "Solútis dolóribus inférni, Dóminus surréxit.^ALLo",
-          "ant3_lat": "Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam?^ALLo",
-          "anta_lat": "Ego rogábo Patrem, et álium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum.^ALLo"
+          "ant3_lat": "Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam?.^ALLo",
+          "anta_lat": "Ego rogábo Patrem, et álium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum.^ALLo",
+          "antb_lat": "Sicut diléxit me Pater, et ego diléxi vos; manéte in dilectióne mea.^ALLo",
+          "antc_lat": "Si quis díligit me, sermónem meum servábit, et Pater meus díliget eum, et ad eum veniémus, et mansiónem apud eum faciémus.^ALLo"
         },
         "Vigil": {
           "les_text": "Joh 20,1-18"
@@ -9087,7 +9118,9 @@
           "ant1_lat": "Hæc dies quam fecit Dóminus.^ALLo",
           "ant2_lat": "Benedíctus es in firmaménto cæli, et laudábilis in sǽcula, Deus noster.^ALLo",
           "ant3_lat": "Adoráte Deum sedéntem super thronum, dicéntes: Amen.^ALLo",
-          "anta_lat": "Non vos relínquam órphanos: vado et vénio ad vos, et gaudébit cor vestrum.^ALLo"
+          "anta_lat": "Non vos relínquam órphanos: vado et vénio ad vos, et gaudébit cor vestrum.^ALLo",
+          "antb_lat": "Hæc locútus sum vobis, ut gáudium meum in vobis sit, et gáudium vestrum impleátur.^ALLo",
+          "antc_lat": "Spíritus Sanctus, quem mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia quæ dixi vobis.^ALLo"
         },
         "Vesper": {
           "psalm3": 157.0,
@@ -9102,7 +9135,9 @@
           "ant1_lat": "Suscitávit Christum a mórtuis, et constítuit ad déxteram suam in cæléstibus.^ALLo",
           "ant2_lat": "A simulácris convérsi estis ad Deum vivum.^ALLo",
           "ant3_lat": "Allelúia, salus et glória et virtus Deo nostro.^ALLo^FIRST",
-          "anta_lat": "Qui díligit me, diligétur a Patre meo; et ego díligam eum, et manifestábo ei meípsum.^ALLo"
+          "anta_lat": "Qui díligit me, diligétur a Patre meo; et ego díligam eum, et manifestábo ei meípsum.^ALLo",
+          "antb_lat": "Hoc est præcéptum meum, ut diligátis ínvicem sicut diléxi vos; maiórem hac dilectiónem nemo habet, ut ánimam suam quis ponat pro amícis suis.^ALLo",
+          "antc_lat": "Pacem relínquo vobis, pacem meam do vobis; non quómodo mundus dat, ego do vobis. Non turbétur cor vestrum neque formídet.^ALLo"
         }
       },
       "1": {
@@ -9266,6 +9301,8 @@
           "ant2_lat": "Dirupísti, Dómine, víncula mea: tibi sacrificábo hóstiam laudis.^ALLo",
           "ant3_lat": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ.^ALLo",
           "anta_lat": "Hæc est vita ætérna, ut cognóscant te solum verum Deum, et quem misísti, Iesum Christum.^ALLo",
+          "antb_lat": "Pater sancte, serva eos in nómine tuo, quod dedísti mihi, ut sint unum sicut nos.^ALLo",
+          "antc_lat": "Non pro his rogo tantum, sed et pro eis qui creditúri sunt per verbum eórum in me, ut omnes unum sint.^ALLo",
           "bitten_e_lat": "Benedicámus Christum, super quem Spíritus Sanctus descéndit corporáli spécie. Eum invocémus, et oratiónem confirmémus dicéntes:",
           "bitten_r_lat": "Amen.",
           "bitten_lat": "Mitte, Dómine, quem missúrus es,^qut Ecclésia tua semper renovétur et iuvenéscat.^pOmnes gentes tibi regi et Deo psallant,^qet Israel fiat posséssio tua.^pQui dǽmones expulísti,^qaufer a fínibus nostris scándala et perversitátes.^pQui in Pentecóste dispersiónem Babélicam superásti,^qper Spíritum tuum unitátem éffice fideíque universalitátem.^pSpíritus tuus hábitet in nobis,^qut mortália córpora nostra vivíficet."
@@ -9298,6 +9335,8 @@
           "ant2_lat": "Liberábitur creatúra in libertátem glóriæ filiórum Dei.^ALLo",
           "ant3_lat": "Exaltátum est nomen Dómini super cælum et terram.^ALLo",
           "anta_lat": "Pater, ego te clarificávi super terram; opus consummávi, quod dedísti mihi ut fáciam.^ALLo",
+          "antb_lat": "Nunc ad te vénio et hæc loquor in mundo, ut hábeant gáudium meum implétum in semetípsis.^ALLo",
+          "antc_lat": "Ego claritátem quam dedísti mihi, dedi illis, ut sint unum sicut nos unum sumus.^ALLo",
           "bitten_e_lat": "Cum ómnibus, qui in Spíritu Dei iustificáti sunt, nos in láudibus et oratióne coniungámus, dicéntes:",
           "bitten_r_lat": "Spíritus tuus ádiuvet nos.",
           "bitten_lat": "Dómine Iesu, da ut hódie a Spíritu Dei agámur,^qet semper ut fílii Dei ambulémus.^pPer Spíritum tuum a Patre efflágita,^qut digni efficiámur promissiónibus tuis.^pRedde nos magnánimos, ne quærámus quod nostrum est,^qsed aliórum bonum pótius intendámus.^pDa nobis sciéntiam Dei,^qut in cognitióne tui ac Patris per Spíritum Sanctum progrediámur."
@@ -9318,6 +9357,8 @@
           "ant2_lat": "Redemptiónem misit Dóminus pópulo suo.^ALLo",
           "ant3_lat": "Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei.^ALLo",
           "anta_lat": "Cum vénerit Paráclitus, quem ego mittam vobis, Spíritum veritátis, qui a Patre procédit, ille testimónium perhibébit de me.^ALLo",
+          "antb_lat": "Sicut me misísti in mundum, et ego misi eos in mundum; et pro eis ego sanctífico meípsum, ut sint et ipsi sanctificáti in veritáte.^ALLo",
+          "antc_lat": "Pater, quos dedísti mihi, volo ut ubi ego sum, et illi sint mecum, ut vídeant claritátem meam quam dedísti mihi.^ALLo",
           "bitten_e_lat": "Quid orémus sicut opórtet nescímus, sed ipse Spíritus Sanctus póstulat pro nobis gemítibus inenarrabílibus. Quaprópter dicámus:",
           "bitten_r_lat": "Spíritus Sanctus póstulet pro nobis.",
           "bitten_lat": "Christe, pastor cæléstis, sapiéntiam et consílium nostris largíre pastóribus,^qut gregem tuum efficácius ducant ad salútem.^pQui in altis hábitas et dives es in misericórdia,^qréspice ínopes et páuperes in terra.^pQui, Spíritu Sancto obumbránte, concéptus es de María Vírgine,^qserva vírgines sacras in spíritu consecratiónis suæ.^pSacérdos noster, qui Patrem in Spíritu Sancto laudas,^qtibi laudánti hómines univérsos consócia.^pPervéniant defúncti ad libertátem glóriæ filiórum Dei,^qet ad plenam redemptiónem córporis sui."
@@ -9732,8 +9773,8 @@
           "ant1": "Halleluja. Der Stein ist weggewälzt vom Eingang des Grabes.^HALLo",
           "ant2": "Halleluja. Was sucht ihr den, der lebt, bei den Toten?^HALLo",
           "ant3": "Halleluja. Weine nicht, Maria, der Herr ist vom Tod erstanden.^HALLo",
-          "versikel0": "Mir wurde geholfen; da jubelte mein Herz.^HALLo",
-          "versikel1": "Ich will mit meinem Lied ihm danken.^HALLo",
+          "versikel0": "Mir wurde geholfen; da jubelte mein°Herz.^HALLo",
+          "versikel1": "Ich will mit meinem Lied ihm°danken.^HALLo",
           "hymn_2_lat": 0.0,
           "ant1_lat": "Allelúia, lapis revolútus est ab óstio monuménti.^ALLo",
           "ant2_lat": "Allelúia, quem quæris, múlier? Vivéntem cum mórtuis.^ALLo",
@@ -9866,7 +9907,7 @@
       },
       "2": {
         "Lesehore": {
-          "versikel0": "Christus ist erstanden und stirbt nicht mehr.^HALLo",
+          "versikel0": "Christus ist erstanden und stirbt nicht°mehr.^HALLo",
           "versikel1": "Der Tod hat über ihn keine Macht mehr.^HALLo",
           "versikel0_lat": "Christus resúrgens ex mórtuis iam non móritur.^ALLo",
           "versikel1_lat": "Mors illi ultra non dominábitur.^ALLo"
@@ -9922,7 +9963,7 @@
       "3": {
         "Lesehore": {
           "versikel0": "Gott hat Christus von den Toten erweckt.^HALLo",
-          "versikel1": "Damit wir an Gott glauben und auf ihn hoffen.^HALLo",
+          "versikel1": "Damit wir an Gott glauben und auf°ihn°hoffen.^HALLo",
           "versikel0_lat": "Deus suscitávit Christum a mórtuis.^ALLo",
           "versikel1_lat": "Ut fides nostra et spes esset in Deo.^ALLo"
         },
@@ -9977,7 +10018,7 @@
       "4": {
         "Lesehore": {
           "versikel0": "Gott hat den Herrn aus dem Grab erweckt.^HALLo",
-          "versikel1": "Er wird auch uns erwecken durch seine Kraft.^HALLo",
+          "versikel1": "Er wird auch uns erwecken durch°seine°Kraft.^HALLo",
           "versikel0_lat": "Deus et Dóminum suscitávit.^ALLo",
           "versikel1_lat": "Et nos suscitábit per virtútem suam.^ALLo"
         },
@@ -10032,7 +10073,7 @@
       "5": {
         "Lesehore": {
           "versikel0": "In deiner Auferstehung, Christus.^HALLo",
-          "versikel1": "Freuen sich Himmel und Erde.^HALLo",
+          "versikel1": "Freuen sich Himmel und°Erde.^HALLo",
           "versikel0_lat": "In resurrectióne tua, Christe.^ALLo",
           "versikel1_lat": "Cæli et terra læténtur.^ALLo"
         },
@@ -10087,7 +10128,7 @@
       "6": {
         "Lesehore": {
           "versikel0": "Gott hat uns gezeugt zu lebendiger Hoffnung.^HALLo",
-          "versikel1": "Durch die Auferstehung Jesu Christi von den Toten.^HALLo",
+          "versikel1": "Durch die Auferstehung Jesu Christi von°den°Toten.^HALLo",
           "versikel0_lat": "Deus regenerávit nos in spem vivam.^ALLo",
           "versikel1_lat": "Per resurrectiónem Iesu Christi ex mórtuis.^ALLo"
         },
@@ -10463,7 +10504,7 @@
           "ant2": "Ich habe meinen König eingesetzt auf Zion, meinem heiligen Berg.^HALLxq",
           "ant3": "Du, Herr, bist ein Schild für mich, du richtest mich auf.^HALLxq",
           "versikel0": "Das Wort Christi wohne bei euch mit seinem ganzen Reichtum.",
-          "versikel1": "Belehrt und ermahnt einander in aller Weisheit.",
+          "versikel1": "Belehrt und ermahnt einander in°aller°Weisheit.",
           "ant1_lat": "Lignum vitæ in cruce Dómini manifestátum est.",
           "ant2_lat": "Ego constítui Regem meum super Sion.",
           "ant3_lat": "Tu, Dómine, protéctor meus, et exáltans caput meum.",
@@ -10594,7 +10635,7 @@
           "ant2": "Für den Bedrückten wird der Herr zur Burg, zur Burg in Zeiten der Not.^HALLo",
           "ant3": "Deinen Ruhm will ich verkünden in den Toren von Zion.^HALLo",
           "versikel0": "Gib mir Einsicht, o°Herr, und ich folge deiner Weisung.",
-          "versikel1": "Ich halte mich an sie aus ganzem Herzen.",
+          "versikel1": "Ich halte mich an sie aus°ganzem°Herzen.",
           "ant1_lat": "Salvum me fac, Dómine, propter misericórdiam tuam.^ALLo",
           "ant2_lat": "Factus est Dóminus refúgium páuperi in tribulatióne.^ALLo",
           "ant3_lat": "Annuntiábo laudatiónes tuas in portis fíliæ Sion.^ALLo",
@@ -10732,8 +10773,8 @@
           "ant1": "Der Herr verschafft den Armen ihr Recht.^HALLo",
           "ant2": "Herr, du schaust auf Unheil und Kummer, du bist den Verwaisten ein Helfer.^HALLo",
           "ant3": "Die Worte des Herrn sind lautere Worte, Silber geschmolzen im Ofen.^HALLo",
-          "versikel0": "Die Demütigen leitet der Herr nach seinem Recht.",
-          "versikel1": "Die Gebeugten lehrt er seinen Weg.",
+          "versikel0": "Die Demütigen leitet der Herr nach°seinem°Recht.",
+          "versikel1": "Die Gebeugten lehrt er seinen°Weg.",
           "ant1_lat": "Iudicábit Dóminus in iustítia páuperes.^ALLo",
           "ant2_lat": "Tu, Dómine, labórem et dolórem consíderas.^ALLo",
           "ant3_lat": "Elóquia Dómini elóquia casta; argéntum igne examinátum.^ALLo",
@@ -10870,7 +10911,7 @@
           "ant1": "Ich will dich rühmen, Herr, meine Stärke.^HALLo^FIRST",
           "ant2": "Der Herr befreite mich, denn er hatte an mir Gefallen.^HALLo",
           "ant3": "Herr, lass meine Leuchte erstrahlen, mach meine Finsternis hell.^HALLo",
-          "versikel0": "Alle staunten über die Kraft seiner Rede.",
+          "versikel0": "Alle staunten über die Kraft seiner°Rede.",
           "versikel1": "Über die Worte aus seinem Mund.",
           "ant1_lat": "Díligam te, Dómine, virtus mea.^ALLo^FIRST",
           "ant2_lat": "Salvum me fecit Dóminus, quóniam vóluit me.^ALLo",
@@ -11148,8 +11189,8 @@
           "ant1": "Erhebe dich, Herr, und komm mir zu Hilfe.^HALLo",
           "ant2": "Tritt ein für mein Recht, denn du bist mächtig.^HALLo",
           "ant3": "Deine Gerechtigkeit will ich verkünden den ganzen Tag.^HALLo",
-          "versikel0": "Mein Sohn, bewahre meine Worte.",
-          "versikel1": "Beachte meine Gebote und du wirst leben.",
+          "versikel0": "Mein Sohn, bewahre meine°Worte.",
+          "versikel1": "Beachte meine Gebote, und°du°wirst°leben.",
           "ant1_lat": "Exsúrge, Dómine, in adiutórium mihi.^ALLo",
           "ant2_lat": "Iúdica causam meam; defénde, quia potens es, Dómine.^ALLo",
           "ant3_lat": "Lingua mea, tota die, meditábitur iustítiam tuam.^ALLo",
@@ -11286,8 +11327,8 @@
           "ant1": "Singet dem Herrn, gedenkt all seiner Wunder.^HALLo",
           "ant2": "Den Gerechten, der verkauft worden war, hat der Herr nicht verlassen. Er befreite ihn aus den Händen der Sünder.^HALLo",
           "ant3": "Der Herr dachte an sein heiliges Wort: Er hat sein Volk herausgeführt in Freude.^HALLo",
-          "versikel0": "Kommt und schaut die Taten des Herrn.",
-          "versikel1": "Der Wunderbares vollbringt auf der Erde.",
+          "versikel0": "Kommt und schaut die Taten des°Herrn.",
+          "versikel1": "Der Wunderbares vollbringt auf°der°Erde.",
           "ant1_lat": "Cantáte Dómino, mementóte mirabílium eius quae fecit.^ALLo",
           "ant2_lat": "Vénditum iustum Dóminus non derelíquit, sed a peccatóribus liberávit eum.^ALLo",
           "ant3_lat": "Memor fuit Dóminus verbi sancti sui, et edúxit pópulum suum in exsultatióne.^ALLo",
@@ -11424,7 +11465,7 @@
           "ant1": "Herr, mein Gott, du bist bekleidet mit Hoheit und Pracht; du hüllst dich in Licht wie in ein Gewand.^HALLxq",
           "ant2": "Nach deinem Willen, o°Herr, bringt die Erde Brot hervor und Wein, der das Herz des Menschen erfreut.^HALLxq",
           "ant3": "Gott sah alles, was er geschaffen, und es war sehr gut.^HALLxq",
-          "versikel0": "Selig seid ihr, denn eure Augen sehen.",
+          "versikel0": "Selig seid ihr, denn°eure°Augen°sehen.",
           "versikel1": "Und eure Ohren hören.",
           "ant1_lat": "Dómine Deus meus, confessiónem et decórem induísti, amíctus lúmine sicut vestiménto.^ALLxq",
           "ant2_lat": "Edúxit Dóminus panem de terra, et vinum lætíficans cor hóminis.^ALLxq",
@@ -11557,8 +11598,8 @@
           "ant1": "Wende dein Ohr mir zu, erlöse mich bald.",
           "ant2": "Lass dein Angesicht leuchten über deinem Knecht.^HALLo",
           "ant3": "Gepriesen sei der Herr, der wunderbar an mir gehandelt hat.^HALLo",
-          "versikel0": "Führe mich in deiner Treue und lehre mich.",
-          "versikel1": "Denn du bist der Gott meines Heiles.",
+          "versikel0": "Führe mich in deiner Treue und°lehre°mich.",
+          "versikel1": "Denn du bist der Gott meines°Heiles.",
           "ant1_lat": "Inclína ad me, Dómine, aurem tuam, ut éruas me.",
           "ant2_lat": "Illúmina fáciem tuam super servum tuum, Dómine.^ALLo",
           "ant3_lat": "Benedíctus Dóminus, quóniam mirificávit misericórdiam suam mihi.^ALLo",
@@ -11697,8 +11738,8 @@
           "ant1": "Befiehl dem Herrn deinen Weg und vertrau ihm; er wird es fügen.^HALLo",
           "ant2": "Meide das Böse und tu das Gute; der Herr verlässt seine Frommen nicht.^HALLo",
           "ant3": "Hoffe auf den Herrn und bleib auf seinem Weg.^HALLo",
-          "versikel0": "Lehre mich Erkenntnis und rechtes Urteil.",
-          "versikel1": "Ich vertraue auf deine Gebote.",
+          "versikel0": "Lehre mich Erkenntnis und rechtes°Urteil.",
+          "versikel1": "Ich vertraue auf°deine°Gebote.",
           "ant1_lat": "Commítte Dómino viam tuam, et ipse fáciet.^ALLo",
           "ant2_lat": "Declína a malo et fac bonum; confírmat iustos Dóminus.^ALLo",
           "ant3_lat": "Exspécta Dóminum, et custódi viam eius.^ALLo",
@@ -11836,7 +11877,7 @@
           "ant2": "Höre mein Gebet, o°Herr, und schweige nicht zu meinen Tränen.",
           "ant3": "Auf Gottes Huld vertraue ich immer und ewig.^HALLo",
           "versikel0": "Ich hoffe auf den Herrn.",
-          "versikel1": "Ich warte voll Vertrauen auf sein Wort.",
+          "versikel1": "Ich warte voll Vertrauen auf°sein°Wort.",
           "ant1_lat": "Ipsi intra nos gémimus, exspectántes redemptiónem córporis nostri.",
           "ant2_lat": "Exáudi oratiónem meam, Dómine; pércipe lácrimas meas.",
           "ant3_lat": "Ego autem sperávi in misericórdia Dei in ætérnum.^ALLo",
@@ -12114,8 +12155,8 @@
           "ant1": "Schwer lastet deine Hand auf mir, strafe mich nicht in deinem Zorn.",
           "ant2": "All mein Sehnen, Herr, liegt offen vor dir, mein Seufzen ist dir nicht verborgen.^HALLo",
           "ant3": "Ich bekenne dir meine Schuld; verlass mich nicht, Herr du mein Heil.^HALLo",
-          "versikel0": "Nach deiner Hilfe sehnt sich meine Seele.",
-          "versikel1": "Meine Augen sehnen sich nach deiner Verheißung.",
+          "versikel0": "Nach deiner Hilfe sehnt sich meine°Seele.",
+          "versikel1": "Meine Augen sehnen sich nach°deiner°Verheißung.",
           "ant1_lat": "Ne in ira tua corrípias me, Dómine.",
           "ant2_lat": "Dómine, ante te omne desidérium meum.^ALLo",
           "ant3_lat": "Iniquitátem meam annuntiábo tibi; ne derelínquas me, Dómine, salus mea.^ALLo",
@@ -12391,7 +12432,7 @@
           "ant1": "Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig.^HALLxq",
           "ant2": "Dein Königtum, o°Herr, ist ein Königtum für ewige Zeiten.^HALLxq",
           "ant3": "Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten.^HALLxq^FIRST",
-          "versikel0": "Mein Sohn, achte auf meine Worte.",
+          "versikel0": "Mein Sohn, achte auf meine°Worte.",
           "versikel1": "Neige dein Ohr meiner Rede.",
           "ant1_lat": "Per síngulos dies benedícam te, Dómine.^ALLxq",
           "ant2_lat": "Regnum tuum, Dómine, regnum ómnium sæculórum.^ALLxq",
@@ -12669,7 +12710,7 @@
           "ant2": "Gott ist ein Gott, der uns Rettung bringt; Gott, der Herr, führt uns heraus aus dem Tod.^HALLo",
           "ant3": "Ihr Königreiche der Erde, singt für Gott und spielt für den Herrn.^HALLo",
           "versikel0": "Ich will hören, was Gott redet.",
-          "versikel1": "Frieden verkündet der Herr seinem Volk.",
+          "versikel1": "Frieden verkündet der Herr seinem°Volk.",
           "ant1_lat": "Exsúrgit Deus, et fúgiunt qui odérunt eum a fácie eius.^ALLo",
           "ant2_lat": "Deus noster, Deus ad salvándum; et Dómini sunt éxitus mortis.^ALLo",
           "ant3_lat": "Regna terræ, cantáte Deo; psállite Dómino.^ALLo",
@@ -12808,7 +12849,7 @@
           "ant2": "Der Sohn Gottes ist dem Fleische nach gekommen als Nachkomme Davids.^HALLo",
           "ant3": "Ich habe David, meinem Knecht, geschworen: Sein Geschlecht soll bleiben auf ewig.^HALLo",
           "versikel0": "Herr, deine Worte bringen Erleuchtung.",
-          "versikel1": "Den Unerfahrenen schenken sie Einsicht.",
+          "versikel1": "Den Unerfahrenen schenken°sie Einsicht.",
           "ant1_lat": "Misericórdia et véritas præcédent fáciem tuam, Dómine.^ALLo",
           "ant2_lat": "Fílius Dei factus est ex sémine David secúndum carnem.^ALLo",
           "ant3_lat": "Semel iurávi David servo meo: Semen eius in ætérnum manébit.^ALLo",
@@ -12945,8 +12986,8 @@
           "ant1": "Herr, denk daran, was uns geschehen, blick her und sieh unsere Schmach.",
           "ant2": "Ich bin die Wurzel Davids und sein Stamm, ich bin der leuchtende Stern, der Morgenstern.^HALLo",
           "ant3": "Unsere Jahre vergehen wie Gras. Du aber, Gott, bleibst in Ewigkeit.^HALLo",
-          "versikel0": "Herr, bei dir ist die Quelle des Lebens.",
-          "versikel1": "In deinem Licht schauen wir das Licht.",
+          "versikel0": "Herr, bei dir ist die Quelle des°Lebens.",
+          "versikel1": "In deinem Licht schauen wir das°Licht.",
           "ant1_lat": "Intuére, Dómine, et réspice oppróbrium nostrum.",
           "ant2_lat": "Ego sum radix et genus David, stella spléndida et matutína.^ALLo",
           "ant3_lat": "Anni nostri sicut herba tránseunt: a sǽculo tu es, Deus.^ALLo",
@@ -13228,8 +13269,8 @@
           "ant1": "Danket dem Herrn für seine Huld, für sein wunderbares Tun an den Menschen.^HALLo",
           "ant2": "Sie bestaunten die Werke des Herrn, alle Wunder, die er getan.^HALLo",
           "ant3": "Die Redlichen sehen, und sie freuen sich; sie begreifen die Huld des Herrn.^HALLo",
-          "versikel0": "Herr, deine Treue reicht, so weit die Wolken ziehn.",
-          "versikel1": "Deine Urteile sind tief wie das Meer.",
+          "versikel0": "Herr, deine Treue reicht, so°weit°die°Wolken°ziehn.",
+          "versikel1": "Deine Urteile sind tief wie°das°Meer.",
           "ant1_lat": "Confiteántur Dómino misericórdiæ eius, et mirabília eius fíliis hóminum.^ALLo",
           "ant2_lat": "Ipsi vidérunt ópera Dei et mirabília eius.^ALLo",
           "ant3_lat": "Vidébunt recti et lætabúntur, et intéllegent misericórdias Dómini.^ALLo",
@@ -13367,8 +13408,8 @@
           "ant1": "Wer darf hinaufziehen zum Berg des Herrn, wer darf stehen an seiner heiligen Stätte?^HALLxq",
           "ant2": "Ihr Völker, preist unseren Gott, er erhält uns am Leben.^HALLxq",
           "ant3": "Die ihr Gott fürchtet, kommt alle und hört; ich will euch erzählen, was der Herr mir getan.^HALLxq",
-          "versikel0": "Lebendig ist das Wort Gottes und voll Kraft.",
-          "versikel1": "Schärfer als jedes zweischneidige Schwert.",
+          "versikel0": "Lebendig ist das Wort Gottes und°voll°Kraft.",
+          "versikel1": "Schärfer als jedes zweischneidige°Schwert.",
           "ant1_lat": "Quis ascéndet in montem Dómini, aut quis stabit in loco sancto eius?",
           "ant2_lat": "Benedícite, gentes, Deum nostrum, qui pósuit ánimam nostram ad vitam.^ALLxq",
           "ant3_lat": "Audíte, omnes, qui timétis Deum, quanta fecit ánimæ meæ.^ALLxq",
@@ -13639,8 +13680,8 @@
           "ant1": "Mein Schreien dringe zu dir, o°Herr, verbirg dein Antlitz nicht vor mir.^HALLo",
           "ant2": "Wende dich dem Gebet der Verlassenen zu, verschmähe ihre Bitten nicht.^HALLo",
           "ant3": "Du, o°Herr, hast der Erde Grund gelegt, die Himmel sind das Werk deiner Hände.^HALLo",
-          "versikel0": "Mein Volk, vernimm meine Weisung.",
-          "versikel1": "Wendet euer Ohr zu den Worten meines Mundes.",
+          "versikel0": "Mein Volk, vernimm meine°Weisung.",
+          "versikel1": "Wendet euer Ohr zu den Worten meines°Mundes.",
           "ant1_lat": "Clamor meus, Dómine, ad te pervéniat; non abscóndas fáciem tuam a me.^ALLo",
           "ant2_lat": "Réspice, Dómine, in oratiónem humílium.^ALLo",
           "ant3_lat": "Tu, Dómine, terram fundásti, et ópera mánuum tuárum sunt cæli.^ALLo",
@@ -13779,8 +13820,8 @@
           "ant1": "Lobe den Herrn, meine Seele, und vergiss nicht, was er dir Gutes getan hat.^HALLo",
           "ant2": "Wie ein Vater sich seiner Kinder erbarmt, so erbarmt sich der Herr über alle, die ihn fürchten.^HALLo",
           "ant3": "Lobet den Herrn, all seine Werke.^HALLo",
-          "versikel0": "Lass mich den Weg begreifen, den du mir zeigst.",
-          "versikel1": "Nachsinnen will ich über deine Wunder.",
+          "versikel0": "Lass mich den Weg begreifen, den°du°mir°zeigst.",
+          "versikel1": "Nachsinnen will ich über deine°Wunder.",
           "ant1_lat": "Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes eius.^ALLo",
           "ant2_lat": "Quómodo miserétur pater filiórum, misértus est Dóminus timéntibus se.^ALLo",
           "ant3_lat": "Benedícite Dómino, ómnia ópera eius.^ALLo",
@@ -13919,7 +13960,7 @@
           "ant1": "Nicht ihr eigener Arm hat ihnen den Sieg verschafft, nein, deine Rechte, o°Herr, und dein leuchtendes Angesicht.^HALLo",
           "ant2": "Wenn ihr euch zum Herrn bekehrt, wird er sein Angesicht nicht von euch wenden.^HALLo",
           "ant3": "Wach auf! Warum schläfst du, o°Herr? Erwache, verstoß uns nicht für immer.^HALLo",
-          "versikel0": "Lass dein Angesicht leuchten über deinem Knecht.",
+          "versikel0": "Lass dein Angesicht leuchten über°deinem°Knecht.",
           "versikel1": "Lehre mich deine Gesetze.",
           "ant1_lat": "Bráchium eórum non salvábit eos, sed déxtera tua et illuminátio vultus tui.^ALLo",
           "ant2_lat": "Non avértet Dóminus fáciem suam a vobis, si revérsi fuéritis ad eum.^ALLo",
@@ -14060,8 +14101,8 @@
           "ant1": "Die Väter erzählten uns die ruhmreichen Taten des Herrn, die Wunder, die er getan hat^HALLo",
           "ant2": "Die Kinder Israels aßen das Manna und tranken aus dem Felsen, der mit ihnen zog.^HALLo",
           "ant3": "Sie dachten daran, dass Gott ihr Fels ist und ihr Erlöser.^HALLo",
-          "versikel0": "Mein Sohn, merke auf meine Weisheit.",
-          "versikel1": "Meiner Einsicht neige dein Ohr.",
+          "versikel0": "Mein Sohn, merke auf meine°Weisheit.",
+          "versikel1": "Meiner Einsicht neige°dein°Ohr.",
           "ant1_lat": "Patres nostri narravérunt nobis virtútes Dómini et mirabília eius quae fecit.^ALLo",
           "ant2_lat": "Fílii Israel manducavérunt manna et bibébant de spiritáli, consequénte eos, petra.^ALLo",
           "ant3_lat": "Rememoráti sunt quia Deus adiútor et redémptor eórum est.^ALLo",
@@ -14200,7 +14241,7 @@
           "ant1": "Denkt an Gottes mächtige Hand, denkt an den Tag, an dem er euch befreite.^HALLo",
           "ant2": "Er brachte sie in sein heiliges Land, zum Berge, den seine Rechte sich erworben.^HALLo",
           "ant3": "Der Herr hat sich Juda zum Eigentum erwählt und David zum Hirten seines Volkes.^HALLo",
-          "versikel0": "Wir hören nicht auf, für euch zu beten.",
+          "versikel0": "Wir hören nicht auf, für°euch°zu°beten.",
           "versikel1": "Dass ihr den Willen Gottes erkennt.",
           "ant1_lat": "Redémit eos Dóminus de manu tribulántis.^ALLo",
           "ant2_lat": "Indúxit eos Dóminus in montem sanctificatiónis suae.^ALLo",
@@ -14906,6 +14947,7 @@
           "ant2_lat": "Tunc invocábis, et Dóminus exáudiet; clamábis, et dicet: Ecce adsum.",
           "ant3_lat": "Christus pro peccátis nostris mórtuus est, iustus pro iniústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem Spíritu.",
           "anta_lat": "Ductus est Iesus in desértum a Spíritu, ut tentarétur a diábolo; et cum ieiunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit.",
+          "antb_lat": "Iesus erat in desérto quadragínta diébus et tentabátur a Sátana; erátque cum béstiis, et ángeli ministrábant illi.",
           "antc_lat": "Iesus plenus Spíritu Sancto regréssus est ab Iordáne et agebátur in Spíritu in desértum diébus quadragínta et tentabátur a diábolo."
         },
         "Vigil": {
@@ -14925,6 +14967,7 @@
           "ant2_lat": "Hymnum dícite, et superexaltáte Deum in sǽcula.",
           "ant3_lat": "Beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem.",
           "anta_lat": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei.",
+          "antb_lat": "Venit Iesus in Galilǽam prǽdicans evangélium Dei et dicens: Implétum est tempus, et appropinquávit regnum Dei. Pænitémini et crédite evangélio.",
           "antc_lat": "Nihil manducávit Iesus in diébus illis et, consummátis illis, esúriit."
         },
         "Vesper": {
@@ -14940,6 +14983,7 @@
           "ant2_lat": "Ecce nunc tempus acceptábile, ecce nunc dies salútis.",
           "ant3_lat": "Ecce ascéndimus Ierosólymam, et consummabúntur ómnia quæ scripta sunt de Fílio hóminis.",
           "anta_lat": "Dicit Iesus: Vade, Sátanas! Scriptum est enim: Dóminum Deum tuum adorábis et illi soli sérvies. Et ángeli accessérunt et ministrábant ei.",
+          "antb_lat": "Evígila super nos, ætérne Salvátor, ne nos apprehéndat cállidus tentátor, quia tu nobis factus es sempitérnus adiútor.",
           "antc_lat": "Consummáta omni tentatióne, diábolus recéssit ab illo, usque ad tempus."
         },
         "Lesehore": {
@@ -15057,7 +15101,9 @@
           "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
           "ant2_lat": "Resplénduit fácies eius sicut sol, vestiménta autem eius facta sunt alba sicut nix.",
           "ant3_lat": "Móyses et Elías dicébant excéssum eius, quem completúrus erat in Ierúsalem.",
-          "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum."
+          "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum.",
+          "antb_lat": "Transfigurátus est Iesus coram ipsis; et vestiménta eius facta sunt splendéntia, cándida nimis. Et appáruit illis Elías cum Móyse, et erant loquéntes cum Iesu.",
+          "antc_lat": "Facta est, dum oráret Iesus, spécies vultus eius áltera et vestítus eius albus refúlgens. Et ecce duo viri loquebántur cum illo, et erant Móyses et Elías."
         },
         "Vigil": {
           "les_text": "vigil-q-2",
@@ -15075,7 +15121,9 @@
           "ant1_lat": "Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.",
           "ant2_lat": "Trium puerórum cantémus hymnum, quem cantábant in camíno ignis, benedicéntes Dóminum.",
           "ant3_lat": "Laudáte Dóminum in firmaménto virtútis eius.",
-          "anta_lat": "Ecce vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte."
+          "anta_lat": "Ecce vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte.",
+          "antb_lat": "Petrus dixit Iesu: Rabbi, bonum est nos hic esse; et faciámus tria tabernácula: tibi unum, et Móysi unum et Elíæ unum.",
+          "antc_lat": "Dóminus noster Iesus Christus destrúxit mortem et illuminávit vitam et incorruptiónem per Evangélium."
         },
         "Vesper": {
           "ant1": "Der Herr reicht dir das Zepter deiner Macht, wenn du erscheinst in heiligem Schmuck.",
@@ -15089,7 +15137,9 @@
           "ant1_lat": "Virgam virtútis tuæ emíttet Dóminus in splendóribus sanctórum.",
           "ant2_lat": "Deus unus est, quem cólimus, qui fecit cælum et terram.",
           "ant3_lat": "Próprio Fílio suo non pepércit Deus, sed pro nobis ómnibus trádidit illum.",
-          "anta_lat": "Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis."
+          "anta_lat": "Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis.",
+          "antb_lat": "Facta est nubes obúmbrans eos, et venit vox de nube: Hic est Fílius meus diléctus: audíte illum.",
+          "antc_lat": "Vox facta est de nube dicens: Hic est Fílius meus diléctus; ipsum audíte. Et dum fíeret vox, invéntus est Iesus solus."
         },
         "Lesehore": {
           "versikel0_lat": "Vox Patris de nube audíta est.",
@@ -15206,7 +15256,9 @@
           "ant1_lat": "Pænitémini et crédite Evangélio, dicit Dóminus.",
           "ant2_lat": "Sacrificábo hóstiam laudis, et nomen Dómini invocábo.",
           "ant3_lat": "Nemo tollit a me ánimam meam, sed ego pono eam et íterum sumo eam.",
-          "anta_lat": "Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non sítiet in ætérnum."
+          "anta_lat": "Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non sítiet in ætérnum.",
+          "antb_lat": "Dixit Iesus: Auférte ista hinc: Nolíte fácere domum Patris mei domum negotiatiónis.",
+          "antc_lat": "Dico vobis: Nisi pæniténtiam egéritis, omnes simíliter períbitis."
         },
         "Vigil": {
           "les_text": "vigil-q-3",
@@ -15224,7 +15276,9 @@
           "ant1_lat": "Super voces aquárum multárum, testimónia tua, Dómine, credibília facta sunt nimis.",
           "ant2_lat": "Benedícite, fontes, Dómino; laudáte et superexaltáte eum in sǽcula.",
           "ant3_lat": "Reges terræ et omnes pópuli, laudáte Deum.",
-          "anta_lat": "Venit hora et nunc est, quando veri adoratóres adorábunt Patrem in Spíritu et veritáte: nam et Pater tales quærit, qui adórent eum."
+          "anta_lat": "Venit hora et nunc est, quando veri adoratóres adorábunt Patrem in Spíritu et veritáte: nam et Pater tales quærit, qui adórent eum.",
+          "antb_lat": "Sólvite templum hoc, dicit Dóminus, et post tríduum reædificábo illud. Hoc autem dicébat de templo córporis sui.",
+          "antc_lat": "Iustificáti ex fide, pacem habeámus ad Deum, per Dóminum nostrum Iesum Christum."
         },
         "Vesper": {
           "ant1": "Herr, allmächtiger König, um deines Namens willen mach uns frei und gib, dass wir uns zu dir bekehren.",
@@ -15238,7 +15292,9 @@
           "ant1_lat": "Dómine, rex omnípotens, líbera nos propter nomen tuum, et da nobis locum pæniténtiæ.",
           "ant2_lat": "Redémpti sumus pretióso sánguine agni immaculáti Christi.",
           "ant3_lat": "Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.",
-          "anta_lat": "Multo plures credidérunt et mulíeri dicébant: Iam non propter tuam loquélam crédimus; ipsi enim audívimus et scimus quia hic est vere Salvátor mundi!"
+          "anta_lat": "Multo plures credidérunt et mulíeri dicébant: Iam non propter tuam loquélam crédimus; ipsi enim audívimus et scimus quia hic est vere Salvátor mundi!",
+          "antb_lat": "Cum esset Iesus Hierosólymis in Pascha, in die festo, multi credidérunt in nómine Iesu, vidéntes signa eius, quæ faciébat.",
+          "antc_lat": "Dómine, dimítte illam et hoc anno, usque dum fódiam circa illam, et síquidem fécerit fructum in futúrum."
         },
         "Lesehore": {
           "versikel0_lat": "Cibávit illum pane vitæ et intelléctus.",
@@ -15356,7 +15412,8 @@
           "ant2_lat": "Surge, qui dormis, et exsúrge a mórtuis, et illuminábit te Christus.",
           "ant3_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, cum essémus mórtui peccátis, convivificávit nos in Christo.",
           "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo.",
-          "antb_lat": "Sicut Móyses exaltávit serpéntem in desérto, ita exaltári opórtet Fílium hóminis, ut omnis qui credit, in ipso hábeat vitam ætérnam."
+          "antb_lat": "Sicut Móyses exaltávit serpéntem in desérto, ita exaltári opórtet Fílium hóminis, ut omnis qui credit, in ipso hábeat vitam ætérnam.",
+          "antc_lat": "Surgam et ibo ad patrem meum, et dicam illi: Pater, peccávi in cælum et coram te, et iam non sum dignus vocári fílius tuus."
         },
         "Vigil": {
           "les_text": "vigil-q-4",
@@ -15375,7 +15432,8 @@
           "ant2_lat": "Potens es, Dómine, erípere nos de manu forti; líbera nos, Deus noster.",
           "ant3_lat": "Laudáte Dóminum in magnálibus eius.",
           "anta_lat": "Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos: ábii et lavi et modo vídeo.",
-          "antb_lat": "Sic Deus diléxit mundum, ut Fílium suum unigénitum daret; ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam."
+          "antb_lat": "Sic Deus diléxit mundum, ut Fílium suum unigénitum daret; ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam.",
+          "antc_lat": "Cito proférte stolam primam et indúite illum et date ánulum in manum eius et calceaménta in pedes: quia hic fílius meus mórtuus erat et revíxit, períerat et invéntus est."
         },
         "Vesper": {
           "ant1": "Der Herr steht dir zur Seite. Er hat dich eingesetzt als Richter über Lebende und Tote.",
@@ -15390,7 +15448,8 @@
           "ant2_lat": "Iucúndus homo, qui miserétur in Dómino: non commovébitur in ætérnum.",
           "ant3_lat": "Quæ prænuntiávit Deus per os ómnium prophetárum, pati Christum suum, sic implévit.",
           "anta_lat": "A sǽculo non est audítum quia quis apéruit óculos cæci nati, nisi Christus Fílius Dei.",
-          "antb_lat": "Qui facit veritátem venit ad lucem, ut manifesténtur eius ópera, quia in Deo sunt facta."
+          "antb_lat": "Qui facit veritátem venit ad lucem, ut manifesténtur eius ópera, quia in Deo sunt facta.",
+          "antc_lat": "Fili, tu semper mecum es, et ómnia mea tua sunt; epulári autem et gaudére oportébat, quia frater tuus mórtuus fúerat et revíxit, períerat et invéntus est."
         },
         "Lesehore": {
           "versikel0_lat": "Verba tua, Dómine, spíritus et vita sunt.",
@@ -15514,6 +15573,7 @@
           "ant3_lat": "Cum esset Fílius Dei, dídicit ex iis quæ passus est obœdiéntiam.",
           "anta_lat": "Lázarus, amícus noster, dormit; eámus, et a somno excitémus eum.",
           "antb_lat": "Nisi granum fruménti cadens in terram mórtuum fúerit, ipsum solum manet; si autem mórtuum fúerit, multum fructum affert.",
+          "antc_lat": "Iesus inclínans se deórsum dígito scribébat in terra. Qui sine peccáto est vestrum, primus in illam lápidem mittat.",
           "les_text_lat": "Scitóte quod non corruptibílibus argénto vel auro redémpti estis de vana vestra conversatióne a pátribus trádita, sed pretióso sánguine quasi Agni incontamináti et immaculáti Christi, præcógniti quidem ante constitutiónem mundi, manifestáti autem novíssimis tempóribus propter vos, qui per ipsum fidéles estis in Deum, qui suscitávit eum a mórtuis et dedit ei glóriam, ut fides vestra et spes esset in Deum."
         },
         "Vigil": {
@@ -15538,6 +15598,7 @@
           "ant3_lat": "Venit hora ut clarificétur Fílius hóminis.",
           "anta_lat": "Ego sum resurréctio et vita. Qui credit in me, etsi mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.",
           "antb_lat": "Si quis mihi minístrat, me sequátur, et ubi sum ego, illic et miníster meus erit.",
+          "antc_lat": "Audiéntes unus post unum exíbant, incipiéntes a senióribus, et remánsit solus, et múlier in médio stans.",
           "les_text_lat": "Hæ sunt ergo fériæ Dómini, convéntus sancti, quas celebráre debétis tempóribus suis. Mense primo, quarta décima die mensis ad vésperum Pascha Dómini est. Et quinta décima die mensis huius sollémnitas Azymórum Dómini est. Septem diébus ázyma comedétis. Die primo erit vobis convéntus sanctus; omne opus servíle non faciétis in eo."
         },
         "Terz": {
@@ -15579,6 +15640,7 @@
           "ant3_lat": "Ipse vulnerátus est propter iniquitátes nostras, attrítus est propter scélera nostra, et livóre eius sanáti sumus.",
           "anta_lat": "Ego crédidi quia tu es Christus Fílius Dei, qui in mundum venísti.",
           "antb_lat": "Ego, si exaltátus fúero a terra, ómnia traham ad meípsum.",
+          "antc_lat": "Múlier, ubi sunt? Nemo te condemnávit? Nemo, Dómine. Dixit autem Iesus: Nec ego te condémno. Vade, et iam noli peccáre.",
           "les_text_lat": "Viri fratres, nobis verbum salútis huius missum est. Qui habitábant Ierúsalem et príncipes eórum, Iesum ignorántes et voces Prophetárum, quæ per omne sábbatum legúntur, iudicántes implevérunt, et nullam causam mortis inveniéntes petiérunt a Piláto, ut interficerétur; cumque consummássent ómnia, quæ de eo scripta erant, deponéntes eum de ligno posuérunt in monuménto. Deus vero suscitávit eum a mórtuis."
         },
         "Lesehore": {
@@ -16619,7 +16681,7 @@
         "Lesehore": {
           "hymn_1": 3313.0,
           "hymn_2": 0.0,
-          "versikel0": "Wenn ich von der Erde erhöht bin.",
+          "versikel0": "Wenn ich von der Erde erhöht°bin.",
           "versikel1": "Werde ich alle an mich ziehen.",
           "hymn_1_lat": 3313.1,
           "hymn_2_lat": 0.0,
@@ -16812,8 +16874,8 @@
       },
       "1": {
         "Lesehore": {
-          "versikel0": "Kehrt um und glaubt dem Evangelium.",
-          "versikel1": "Denn das Reich Gottes ist nahe.",
+          "versikel0": "Kehrt um und glaubt dem°Evangelium.",
+          "versikel1": "Denn das Reich Gottes ist°nahe.",
           "versikel0_lat": "Pænitémini et crédite Evangélio.",
           "versikel1_lat": "Appropinquávit enim regnum Dei."
         },
@@ -16868,7 +16930,7 @@
       "2": {
         "Lesehore": {
           "versikel0": "Jetzt ist sie da, die rechte Zeit.",
-          "versikel1": "Jetzt ist er da, der Tag des Heils.",
+          "versikel1": "Jetzt ist er da, der Tag des°Heils.",
           "versikel0_lat": "Ecce nunc tempus acceptábile.",
           "versikel1_lat": "Ecce nunc dies salútis."
         },
@@ -16922,8 +16984,8 @@
       },
       "3": {
         "Lesehore": {
-          "versikel0": "Kehrt um, wendet euch ab von all euren Vergehen.",
-          "versikel1": "Schafft euch ein neues Herz und einen neuen Geist.",
+          "versikel0": "Kehrt um, wendet euch ab von°all°euren°Vergehen.",
+          "versikel1": "Schafft euch ein neues Herz und°einen°neuen°Geist.",
           "versikel0_lat": "Convertímini et ágite pæniténtiam.",
           "versikel1_lat": "Fácite vobis cor novum et spíritum novum."
         },
@@ -16978,7 +17040,7 @@
       "4": {
         "Lesehore": {
           "versikel0": "Wer über die Weisung des Herrn nachsinnt.",
-          "versikel1": "Der bringt Frucht zur rechten Zeit.",
+          "versikel1": "Der bringt Frucht zur rechten°Zeit.",
           "versikel0_lat": "Qui meditátur in lege Dómini.",
           "versikel1_lat": "Dabit fructum suum in témpore suo."
         },
@@ -17032,8 +17094,8 @@
       },
       "5": {
         "Lesehore": {
-          "versikel0": "Kehrt um zum Herrn, eurem Gott.",
-          "versikel1": "Denn er ist gnädig und barmherzig.",
+          "versikel0": "Kehrt um zum Herrn, eurem°Gott.",
+          "versikel1": "Denn er ist gnädig und°barmherzig.",
           "versikel0_lat": "Convertímini ad Dóminum Deum vestrum.",
           "versikel1_lat": "Quia benígnus et miséricors est."
         },
@@ -17087,7 +17149,7 @@
       },
       "6": {
         "Lesehore": {
-          "versikel0": "Wer die Wahrheit tut, kommt ans Licht.",
+          "versikel0": "Wer die Wahrheit tut, kommt°ans°Licht.",
           "versikel1": "Und seine Werke werden offenbar.",
           "versikel0_lat": "Qui facit veritátem, venit ad lucem.",
           "versikel1_lat": "Ut manifesténtur ópera eius."
