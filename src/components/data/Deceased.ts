@@ -5487,7 +5487,7 @@ export const deceasedData =  {
       {
         "year": 2003,
         "birthdate": "2238-05-05",
-        "name": "Dr.°Anton°Thaler, Prof., Generalvikar, St.°Gallen/Schweiz",
+        "name": "Dr.°Anton°Thaler°(St.°Gallen), Prof., Generalvikar, St.°Gallen/Schweiz",
         "birth": "5.°Mai°1938°in°Bazenheid (CH¥-9602)",
         "grave": "Friedhof°Bazenheid",
         "age": 65
@@ -6901,7 +6901,7 @@ export const deceasedData =  {
       {
         "year": 2026,
         "birthdate": "2244-07-13",
-        "name": "Klaus¥-Dieter°Bittner",
+        "name": "Klaus¥-Dieter°Bittner, Friedrichsdorf",
         "birth": "13.°Juli°1944°in°Ittenbach (D¥-53639°Königswinter)",
         "grave": "Kath.°Friedhof°Bad°Homburg°vor°der°Höhe",
         "age": 82
@@ -7879,7 +7879,7 @@ export const deceasedData =  {
       {
         "year": 2026,
         "birthdate": "2252-09-11",
-        "name": "P.°Ljubo°Lebo°OFM",
+        "name": "P.°Ljubo°Lebo°OFM, Posušje/Herzegowina",
         "birth": "11.°September°1952°in°Rastovača (BIH¥-88240°Posušje)",
         "grave": "Friedhof°Martića°Križ°in°Posušje ",
         "age": 74
@@ -9039,7 +9039,7 @@ export const deceasedData =  {
       {
         "year": 2022,
         "birthdate": "2238-04-18",
-        "name": "Dr.°Winfried°Kurzschenkel, OStR°i.K.i.R., Fulda",
+        "name": "Dr.°Winfried°Kurzschenkel, OStR°i.K.i.R., Msgr., Fulda",
         "birth": "18.°April°1938°in°Großauheim",
         "grave": "Friedhof°Großauheim",
         "age": 84
