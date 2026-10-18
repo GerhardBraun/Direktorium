@@ -1,4 +1,4 @@
-// Perikopen_Messe.ts - Automatisch generiert am 09.10.2026 19:18:22
+// Perikopen_Messe.ts - Automatisch generiert am 18.10.2026 05:10:06
 // Perikopen_Messe-Datenbank: ID -> { Buch?, Stelle, Motto?, Text }
 
 export const perikopenMesse = {
