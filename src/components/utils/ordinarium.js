@@ -285,7 +285,8 @@ export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSource 
     // Te Deum
     if (['lesehore', 'vigil'].includes(hour) &&
         ((texts?.rank?.wt > 2 && texts?.season !== 'q')
-            || (texts?.rank?.date > 2 && texts?.rank.date > texts?.rank?.wt && prefSource === 'oblig')
+            || (texts?.rank?.date > 2 && texts?.rank.date > texts?.rank?.wt &&
+                prefSource === 'oblig' && texts.date.mmdd !== '11-02')
             || prefSollemnity)) {
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || ordinariumData.TeDeum.dt || {};
     }

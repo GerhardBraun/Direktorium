@@ -11592,7 +11592,8 @@ export const calendarData: CalendarData = {
             "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt,°wir°beten°ihn°an!"
+            "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt,°wir°beten°ihn°an!",
+            "ant0_lat": "Regem cui ómnia vivunt, veníte, adorémus."
           },
           "Lesehore": {
             "hymn_1": 2514.0,
@@ -11603,8 +11604,6 @@ export const calendarData: CalendarData = {
             "ant1": "Du hast mich aus Erde gebildet und mich mit Fleisch umkleidet; Herr, mein Erlöser, erwecke mich am Jüngsten Tag.",
             "ant2": "Reiß mich heraus, o°Herr; eile mir zu Hilfe.",
             "ant3": "Meine Seele dürstet nach dem lebendigen Gott; wann darf ich kommen und Gottes Antlitz schauen?",
-            "mode2": "211",
-            "mode3": "211.1",
             "les_buch": "Aus dem ersten Brief an die Korinther.",
             "les_stelle": "15,12–34",
             "les_text": "^hDie Auferweckung Christi und der Christen^pWenn verkündigt wird, dass Christus von den Toten auferweckt worden ist, wie können dann einige von euch sagen: Eine Auferstehung der Toten gibt es nicht? Wenn es keine Auferstehung der Toten gibt, ist auch Christus nicht auferweckt worden. Ist aber Christus nicht auferweckt worden, dann ist unsere Verkündigung leer und euer Glaube sinnlos. Wir werden dann auch als falsche Zeugen Gottes entlarvt, weil wir im Widerspruch zu Gott das Zeugnis abgelegt haben: Er hat Christus auferweckt. Er hat ihn eben nicht auferweckt, wenn Tote nicht auferweckt werden. Denn wenn Tote nicht auferweckt werden, ist auch Christus nicht auferweckt worden. Wenn aber Christus nicht auferweckt worden ist, dann ist euer Glaube nutzlos und ihr seid immer noch in euren Sünden; und auch die in Christus Entschlafenen sind dann verloren. Wenn wir unsere Hoffnung nur in diesem Leben auf Christus gesetzt haben, sind wir erbärmlicher daran als alle anderen Menschen.^pNun aber^w ist ^0wChristus von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch einen Menschen der Tod gekommen ist, kommt durch einen Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.^pEs gibt aber eine bestimmte Reihenfolge: Erster ist Christus; dann folgen, wenn Christus kommt, alle, die zu ihm gehören. Danach kommt das Ende, wenn er jede Macht, Gewalt und Kraft vernichtet hat und seine Herrschaft Gott, dem Vater, übergibt. Denn er muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat. Der letzte Feind, der entmachtet wird, ist der Tod. Sonst hätte er ihm nicht alles zu Füßen gelegt. Wenn es aber heißt, alles sei unterworfen, ist offenbar der ausgenommen, der ihm alles unterwirft. Wenn ihm dann alles unterworfen ist, wird auch er, der Sohn, sich dem unterwerfen, der ihm alles unterworfen hat, damit Gott herrscht über alles und in allem.^pWie kämen sonst einige dazu, sich für die Toten taufen zu lassen? Wenn Tote gar nicht auferweckt werden, warum lässt man sich dann taufen für sie? Warum setzen dann auch wir uns stündlich der Gefahr aus? Täglich sehe ich dem Tod ins Auge, so wahr ihr, Brüder, mein Ruhm seid, den ich in Christus Jesus, unserem Herrn, empfangen habe. Was habe ich dann davon, dass ich in Ephesus, wie man so sagt, mit wilden Tieren gekämpft habe? Wenn Tote nicht auferweckt werden, dann lasst uns essen und trinken; denn morgen sind wir tot. Lasst euch nicht irreführen! Schlechter Umgang verdirbt gute Sitten. Werdet nüchtern, wie es sich gehört, und sündigt nicht! Einige Leute wissen nichts von Gott; ich sage das, damit ihr euch schämt.",
@@ -11790,7 +11789,7 @@ export const calendarData: CalendarData = {
             "ant2_lat": "Sancti Dómini, Dóminum benedícite in ætérnum.",
             "ant3_lat": "Hymnus ómnibus sanctis eius, fíliis Israel, pópulo appropinquánti sibi; glória hæc est ómnibus sanctis eius.",
             "resp1_lat": "Lætámini in Dómino,",
-            "resp2_lat": "Et exsultáte, iusti.",
+            "resp2_lat": "et exsultáte, iusti.",
             "resp3_lat": "Et gloriámini, omnes recti corde.",
             "antev_lat": "Iusti fulgébunt sicut sol in regno Patris eórum.^ALLxq",
             "bitten_e_lat": "Deum, corónam sanctórum ómnium, gaudénter deprecémur:",
@@ -11807,8 +11806,8 @@ export const calendarData: CalendarData = {
             "les_stelle": "65,18–19",
             "les_text": "Ihr sollt euch ohne Ende freuen und jubeln über das, was ich erschaffe. Denn ich mache aus Jerusalem Jubel und aus seinen Einwohnern Freude. Ich will über Jerusalem jubeln und mich freuen über mein Volk. Nie mehr hört man dort lautes Weinen und lautes Klagen.",
             "les_text_neu": "Jubelt und jauchzt ohne Ende über das, was ich erschaffe! Denn siehe, ich erschaffe Jerusalem zum Jauchzen und sein Volk zum Jubel. Ich werde über Jerusalem jubeln und frohlocken über mein Volk. Nicht mehr hört man dort lautes Weinen und Klagegeschrei.",
-            "resp0": "Freut euch und jubelt, all ihr Heiligen.",
-            "resp1": "Denn euer Lohn ist groß im Himmel.",
+            "resp0": "Freut euch und jubelt, all°ihr°Heiligen.",
+            "resp1": "Denn euer Lohn ist groß im°Himmel.",
             "ant0_lat": "Consolábitur Dóminus Sion; gáudium et lætítia inveniétur in ea, gratiárum áctio et vox laudis.",
             "resp0_lat": "Gaudéte et exsultáte, omnes sancti.",
             "resp1_lat": "Quóniam merces vestra copiósa est in cælis.",
@@ -11823,7 +11822,7 @@ export const calendarData: CalendarData = {
             "les_stelle": "1,15–16",
             "les_text": "Wie er, der euch berufen hat, heilig ist, so soll auch euer ganzes Leben heilig werden. Denn es heißt in der Schrift: Seid heilig, denn ich bin heilig.",
             "les_text_neu": "Wie er, der euch berufen hat, heilig ist, so soll auch eure ganze Lebensführung heilig sein. Denn es steht geschrieben: Seid heilig, wie ich heilig bin!",
-            "resp0": "Freut euch im Herr, und jauchzt, ihr Gerechten. ",
+            "resp0": "Freut euch im Herrn, und°jauchzt,°ihr°Gerechten. ",
             "resp1": "Preist seinen heiligen Namen.",
             "ant0_lat": "Sapiéntiam sanctórum narrant pópuli, et laudem eórum pronúntiat omnis Ecclésia.",
             "resp0_lat": "Lætámini, iusti, in Dómino.",
@@ -11839,7 +11838,7 @@ export const calendarData: CalendarData = {
             "les_stelle": "21,10–11a; 22,3b–4",
             "les_text": "Der Engel entrückte mich in der Verzückung auf einen großen, hohen Berg und zeigte mir die heilige Stadt Jerusalem, wie sie von Gott her aus dem Himmel herabkam, erfüllt von der Herrlichkeit Gottes. Der Thron Gottes und des Lammes wird in der Stadt stehen, und seine Knechte werden ihm dienen. Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben.",
             "resp0": "Die Gerechten preisen deinen Namen, o°Herr.",
-            "resp1": "Die Redlichen wohnen in Frieden vor dir.",
+            "resp1": "Die Redlichen wohnen in°Frieden°vor°dir.",
             "ant0_lat": "Sancti per fidem vicérunt regna, operáti sunt iustítiam, adépti sunt promissiónes.",
             "resp0_lat": "Iusti confitebúntur nómini tuo, Dómine.",
             "resp1_lat": "Et habitábunt recti in conspéctu tuo.",
@@ -11869,13 +11868,13 @@ export const calendarData: CalendarData = {
             "ant2_lat": "Deus tentávit illos et invénit eos dignos se; ídeo accípient regnum decóris de manu Dómini.",
             "ant3_lat": "Redemísti nos, Dómine Deus, in sánguine tuo ex omni tribu et lingua et pópulo et natióne, et fecísti nos Deo nostro regnum.",
             "resp1_lat": "Sancti et iusti,",
-            "resp2_lat": "in Dómino gaudéte.",
+            "resp2_lat": "in°Dómino°gaudéte.",
             "resp3_lat": "Vos elégit Deus in hereditátem sibi.",
             "antev_lat": "O quam gloriósum est regnum, in quo cum Christo gaudent omnes sancti; amícti stolis albis sequúntur Agnum quocúmque íerit.",
             "bitten_e_lat": "Deum, corónam sanctórum ómnium, gaudénter deprecémur:",
             "bitten_r_lat": "Per intercessiónem sanctórum salva nos, Dómine.",
             "bitten_lat": "Deus sapientíssime, qui Apóstolos per Christum fundaméntum Ecclésiæ constituísti,^qserva fidéles tuos in eórum doctrína.^pQui martýribus fortitúdinem testimónii usque ad effusiónem sánguinis dedísti,^qredde christiános testes fidéles Fílii tui.^pQui sanctis virgínibus donum insígne dedísti Christum vírginem imitándi,^qiísdem concéde, ut virginitátem tibi consecrátam peculiáre signum cæléstium bonórum agnóscant.^pQui in sanctis ómnibus præséntiam, vultum et verbum tuum maniféstas,^qtríbue fidélibus ut, eos coléndo, tibi propinquióres se esse séntiant.^pDefúnctis concéde, ut cum beáta María Vírgine, beáto Ioseph et ómnibus sanctis perénniter hábitent,^qatque per intercessiónem eórum idem cæléste consórtium nobis largíre.",
-            "les_text_lat": "Vos enim estis templum Dei vivi; sicut dicit Deus: Inhabitábo in illis et inambulábo et ero illórum Deus, et ipsi erunt mihi pópulus. Has ígitur habéntes promissiónes, caríssimi, mundémus nos ab omni inquinaménto carnis et spíritus, perficiéntes sanctificatiónem in timóre Dei."
+            "les_text_lat": "Vos estis templum Dei vivi; sicut dicit Deus: Inhabitábo in illis et inambulábo et ero illórum Deus, et ipsi erunt mihi pópulus. Has ígitur habéntes promissiónes, caríssimi, mundémus nos ab omni inquinaménto carnis et spíritus, perficiéntes sanctificatiónem in timóre Dei."
           }
         }
       },

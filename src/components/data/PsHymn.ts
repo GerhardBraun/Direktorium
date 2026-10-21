@@ -4081,7 +4081,7 @@ export const psalmsData = {
   },
   1440: {
     0.0: {
-        "text": "Wenn wir im Tode leiblich°zerfallen,^lsind wir im Geist schon jenseits°der°Schwelle^lewiger Nacht.^pDenn in der Quelle lebenden°Wassers^ltauchte uns Christus bei°unsrer°Taufe^lin seinen Tod.^pSind wir im Sterben mit°ihm°begraben,^lwissen wir gläubig, dass°auch°sein°Ostern^ler mit uns teilt.^pEhre dem Vater, Ehre°dem°Sohne,^lihm, der im Geiste Leben°und°Rettung^lewig uns schenkt.^lAmen."
+        "text": "Wenn wir im Tode^/leiblich zerfallen,^lsind wir im Geist schon^/jenseits der Schwelle^lewiger Nacht.^pDenn in der Quelle^/lebenden Wassers^ltauchte uns Christus^/bei unsrer Taufe^lin seinen Tod.^pSind wir im Sterben^/mit ihm begraben,^lwissen wir gläubig,^/dass auch sein Ostern^ler mit uns teilt.^pEhre dem Vater,^/Ehre dem Sohne,^lihm, der im Geiste^/Leben und Rettung^lewig uns schenkt. Amen."
       }
   },
   2110: {
@@ -6212,7 +6212,7 @@ export const psalmsData = {
         "text_lat": "Christe, redémptor ómnium,^lconsérva tuos fámulos,^lbeátæ semper Vírginis^lplacátus sanctis précibus.^pBeáta quoque ágmina^lcæléstium spirítuum,^lprætérita, præséntia,^lfutúra mala péllite.^pVates ætérni iúdicis^lapostolíque Dómini,^lsupplíciter expóscimus^lsalvári vestris précibus.^pMártyres Dei íncliti^lconfessorésque lúcidi,^lvestris oratiónibus^lnos ferte in cæléstibus.^pChori sanctárum vírginum^lmonachorúmque ómnium,^lsimul cum sanctis ómnibus^lconsórtes Christi fácite.^pSit Trinitáti glória,^lvestrásque voces iúngite^lut illi laudes débitas^lpersolvámus alácriter. Amen."
       },
     4.0: {
-        "text": "Himmlische Chöre preisen den Höchsten.^lEngel und Menschen danken ihm ewig.^pSterbliche Wesen rief er zum Leben,^lgab seine Gnade Sündern und Armen.^pHeilige Freunde, Zeichen der Hoffnung.^lTod und Verderben habt ihr bestanden.^pIhr seid vollendet, lebt in der Freude.^lUns ruft von Ferne eure Gemeinschaft.^pJenseits des Todes wartet das Leben,^ldas für uns alle Christus erwirkt hat.^pIhm sei die Ehre, der uns berufen,^lewig im Lichte vor ihm zu stehen. Amen."
+        "text": "Himmlische Chöre^/preisen den Höchsten.^lEngel und Menschen^/danken ihm ewig.^pSterbliche Wesen^/rief er zum Leben,^lgab seine Gnade^/Sündern und Armen.^pHeilige Freunde,^/Zeichen der Hoffnung.^lTod und Verderben^/habt ihr bestanden.^pIhr seid vollendet,^/lebt in der Freude.^lUns ruft von Ferne^/eure Gemeinschaft.^pJenseits des Todes^/wartet das Leben,^ldas für uns alle^/Christus erwirkt hat.^pIhm sei die Ehre,^/der uns berufen,^lewig im Lichte^/vor ihm zu stehen. Amen."
       }
   },
   9111: {

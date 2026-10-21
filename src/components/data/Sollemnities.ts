@@ -325,7 +325,7 @@ export const sollemnitiesData = {
             },
             "invitatorium": {
                 "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt, wir beten ihn an!",
-                "ant0_lat": ""
+                "ant0_lat": "Regem cui ómnia vivunt, veníte, adorémus."
             },
             "lesehore": {
                 "hymn_1": 2514.0,
@@ -338,6 +338,10 @@ export const sollemnitiesData = {
                 "ant3": "Meine Seele dürstet nach dem lebendigen Gott; wann darf ich kommen und Gottes Antlitz schauen?",
                 "les_text": "VerstLesehore",
                 "patr_text": "VerstLesehore",
+                "versikel0": "Groß ist dein Erbarmen, o°Gott.",
+                "versikel1": "Durch dein Wort belebe mich.",
+                "versikel0_lat": "Misericórdiæ tuæ multæ, Dómine.",
+                "versikel1_lat": "Secúndum verbum tuum vivífica me.",
                 "hymn_1_lat": 5698.1,
                 "hymn_2_lat": 5698.2,
                 "hymn_3_lat": 5698.3,
@@ -376,7 +380,7 @@ export const sollemnitiesData = {
                 "ant2_lat": "A porta ínferi érue, Dómine, ánimam meam.",
                 "ant3_lat": "Laudábo Deum meum in vita mea.",
                 "resp1_lat": "Exaltábo te, Dómine,",
-                "resp2_lat": "quóniam suscepísti me.",
+                "resp2_lat": "quóniam°suscepísti°me.",
                 "resp3_lat": "Convertísti planctum meum in gáudium mihi.",
                 "antev_lat": "Ego sum resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.",
                 "bitten_e_lat": "Deum Patrem omnipoténtem, qui suscitávit Iesum Christum a mórtuis et vivificábit mortália córpora nostra, deprecémur, clamántes:",
