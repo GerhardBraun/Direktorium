@@ -163,13 +163,14 @@ const HymnSelector = ({ texts, hour, season,
                     const titleField = `title${languageSuffix}`;
 
                     const hymnText = hymnData?.[textField]?.replace('LEER', '')
-                    const hymnTitle = hymnData?.[titleField]
-                        || hymnText?.split('^l')[0]
+                    const givenTitle = hymnData?.[titleField]
+                    const hymnTitle = (givenTitle === 'Pro pluribus defunctis' || !givenTitle)
+                        ? hymnText?.split('^l')[0]
                             .trim()
                             .replace(/[.!?,:;-]+$/, '')
                             .replace('^/', ' ')
                             .replace('>', '')
-                        || ''
+                        : givenTitle
                     const stb3 = (['kl. Stb:', 'pers:'].includes(sourceLabel)
                         && hymnData?.stb3) ? hymnData.stb3 : ''
 
@@ -193,7 +194,14 @@ const HymnSelector = ({ texts, hour, season,
 
             const specialHymns = dataSpecialHymns?.[prefSollemnity]?.[localPrefLanguage]?.[hour]
                 || dataSpecialHymns?.[prefSollemnity]?.[hour];
-            const hymnNumbers = Array.isArray(specialHymns) ? specialHymns : [specialHymns];
+            let hymnNumbers = Array.isArray(specialHymns) ? specialHymns : [specialHymns];
+
+            // Allerseelen: aus N.1, N.2, N.3 (männl./weibl./Plural) nur die Pluralform N.3 übernehmen
+            if (texts?.date?.mmdd === '11-02' && hymnNumbers.length === 3) {
+                const bases = hymnNumbers.map(num => Math.floor(Number(num) || 0));
+                if (bases[0] > 0 && bases.every(base => base === bases[0]))
+                    hymnNumbers = [bases[0] + 0.3];
+            }
 
             hymnNumbers?.forEach((specialHymn, index) => {
                 addNewHymn({

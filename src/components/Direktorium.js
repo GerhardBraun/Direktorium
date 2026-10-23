@@ -899,8 +899,8 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {texts?.rank?.hasVigil && hour === 'lesehore'
-          && !['kirchw', 'verst'].includes(prefSollemnity) && (
+        {(texts?.rank?.hasVigil || prefSollemnity === 'kirchw') && hour === 'lesehore'
+          && !['verst'].includes(prefSollemnity) && (
             <button
               id="scroll-to-TeDeum"
               onClick={() => {

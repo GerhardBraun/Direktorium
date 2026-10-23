@@ -223,7 +223,7 @@ const SectionHeader = ({
     const isTSN = ["terz", "sext", "non"].includes(hour);
     const showErgPs = isTSN && isPsalmodie
         && !texts?.rank?.useComplementaryPsalms
-        && !(prefSollemnity || rank.date === 5);
+        && !(prefSollemnity === 'kirchw' || rank.date === 5);
     const showErgPsWt = isTSN && isPsalmodie
         && texts?.rank?.useComplementaryPsalms;
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
@@ -232,6 +232,7 @@ const SectionHeader = ({
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
     const isGoodFriday = texts?.swd?.combined === 'q-6-5' && hour === 'vesper';
+    const allSouls = texts?.date?.mmdd === '11-02' && texts?.dayOfWeek > 0;
     const showAltPsalms = !!hasAltPsalms && isPsalmodie;
 
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
@@ -261,7 +262,7 @@ const SectionHeader = ({
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
-    if (rank.date < 3 && ( // an Gedenktagen
+    if (rank.date < 3 && showErgPs && ( // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
             !field.startsWith('hymn_') && field !== 'oration'
         ) || (
@@ -284,7 +285,7 @@ const SectionHeader = ({
     if (prefSollemnity && !showBothComm && !isErsteLesung)
         skipCommune = true
 
-    if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst')
+    if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst' || allSouls)
         skipCommune = true
 
     if (["ERÖFFNUNG", "SCHULDBEKENNTNIS", "HYMNUS", "RESPONSORIUM", "ABSCHLUSS"].includes(title))
@@ -437,7 +438,7 @@ const SectionHeader = ({
                         onClick={() => setLocalPrefErgPs(false)}
                         className={!localPrefErgPs ? 'underline' : ''}
                     >
-                        vom Wt
+                        {`${allSouls || prefSollemnity === 'verst' ? 'Comm Verst' : 'vom Wt'}`}
                     </button>
                     {" | "}
                     <button

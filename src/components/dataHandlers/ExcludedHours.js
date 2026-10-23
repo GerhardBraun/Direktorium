@@ -1,8 +1,11 @@
 // Hilfsfunktion zur Bestimmung der ausgeschlossenen Horen
 // basierend auf Ergänzungspsalmodie
 export const getExcludedHours = (texts, localPrefErgPs, title) => {
-    if (title !== 'PSALMODIE' || !localPrefErgPs)
-        return [];
+    if (title !== 'PSALMODIE' || !localPrefErgPs
+        || texts?.vesper?.oblig?.psalm1
+    ) return [];
+
+    if (texts?.date?.mmdd === '11-02') return ['terz']; // All Souls Day: exclude all
 
     const excludedHours = [];
     const checkHours = ['terz', 'sext', 'non'];

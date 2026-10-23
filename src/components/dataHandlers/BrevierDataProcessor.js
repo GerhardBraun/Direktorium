@@ -988,6 +988,22 @@ function processBarnabas(data, isEasterSeason) {
     });
 }
 
+// Sonderregel für Allerseelen (2. November): von den lateinischen Hymnen in oblig.com1
+// nur die Pluralform (NNNN.3) übernehmen – hymn_1_lat wird NNNN.3, hymn_2_lat und hymn_3_lat entfallen.
+function processAllerseelen(data) {
+    const latFields = ['hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat'];
+    Object.keys(data).forEach(hour => {
+        const com1 = data[hour]?.oblig?.com1;
+        if (!com1) return;
+        // Nur anwenden, wenn alle drei Hymnen vorhanden sind und denselben Ganzzahl-Anteil haben
+        const bases = latFields.map(field => Math.floor(Number(com1[field]) || 0));
+        if (bases[0] <= 0 || bases.some(base => base !== bases[0])) return;
+        com1.hymn_1_lat = bases[0] + 0.3;
+        delete com1.hymn_2_lat;
+        delete com1.hymn_3_lat;
+    });
+}
+
 function processKompletData(data, dateToRead) {
     // Hier wird zusammengestellt, welche Komplet-Formulare
     // am Tag zur Auswahl stehen und welches davon die 1. Wahl ist.
@@ -1204,6 +1220,7 @@ export function processBrevierData(todayDate) {
     const { mmdd } = todayInfo.date;
 
     if (mmdd === '06-11') processBarnabas(finalData, todayInfo.season === 'o');
+    if (mmdd === '11-02') processAllerseelen(finalData);
 
     if ([61, 66].includes(todayInfo?.aroundPentecost)) finalData.rank.aroundPentecost = 2
 

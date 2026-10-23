@@ -23,28 +23,6 @@ export const getValue = ({
     // Weihnachtsoktav: Vesper im Rang eines Festes (rank.wt=2.4)
     const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
 
-    if (['kirchw', 'verst'].includes(prefSollemnity)) {
-        const data = sollemnitiesData[prefSollemnity]
-        const readValue = (field) => {
-            const value = data?.[season]?.[hour]?.[field]
-                || data?.each?.[hour]?.[field]
-                || data?.each?.each?.[field]
-                || null
-
-            //Sonderfall: Orationen für Allerseelen
-            if (typeof value === 'string' && allSouls) {
-                if (value?.startsWith('^A:OmniumDefunctorum:'))
-                    return "Preces nostras, quǽsumus, Dómine, benígnus exáudi, ut, dum attóllitur nostra fides in Fílio tuo a mórtuis suscitáto, in famulórum tuórum præstolánda resurrectióne spes quoque nostra firmétur.^ORlV"
-                else if (value?.startsWith('^A:Allerseelen:'))
-                    return "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
-            }
-            return value
-        }
-        const value = readValue(languageField)
-        return value ? value + localPrefLanguage
-            : readValue(field)
-    }
-
     const replaceErgPs = (data) => {
         // Prüfe nur die kritischen Psalmen, die ersetzt werden müssen
         if (![121, 122, 126, 127].includes(data)) return data;
@@ -63,6 +41,67 @@ export const getValue = ({
             return (data === 127) ? 131 : 129;
         return data;
     };
+
+    const isPsalmodie = field.startsWith('psalm')
+        ? true
+        : (field.startsWith('ant') && !field.startsWith('antev')
+            ? 'inclAnt'
+            : false);
+    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt);
+
+    const isTSN = ['terz', 'sext', 'non'].includes(hour)
+
+    const checkAnt0 = `ant0${isForeignLanguage}`
+    const hasAnt0 = field.startsWith('ant') &&
+        (texts[hour][prefSource]?.[checkAnt0]
+            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.[checkAnt0]
+            || (prefSource === 'oblig' && texts[hour].wt?.[checkAnt0])
+        )
+    const hasObligPs = field.startsWith('psalm')
+        && (texts[hour][prefSource]?.psalm1
+            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.psalm1
+            //    || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
+        )
+
+    // Ergänzungspsalmodie über localPrefErgPs:
+    // auch am Sonntag werden die Ergänzungspsalmen genommen
+    // -> in const data entfällt der Vorzug von dayOfWeek vor each
+    // Steht vor dem Zweig für kirchw/verst, damit sie auch bei prefSollemnity=verst greift
+    // (kirchw hat die ErgPs schon im Commune vorgesehen)
+    if (localPrefErgPs && isTSN && isPsalmodie
+        && prefSollemnity !== 'kirchw'
+        && !localPrefPsalmsWt
+        && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
+    ) {
+        if ((!hasObligPs && !hasAnt0) || allSouls || prefSollemnity === 'verst') {
+            const data = sollemnitiesData.soll.each?.[hour]?.[languageField]
+                || sollemnitiesData.soll.each?.[hour]?.[field]
+            if (data) return replaceErgPs(data)
+        }
+    }
+
+    if (['kirchw', 'verst'].includes(prefSollemnity)) {
+        const data = sollemnitiesData[prefSollemnity]
+        const readValue = (field) => {
+            const value = data?.[season]?.[hour]?.[field]
+                || data?.each?.[hour]?.[field]
+                || data?.each?.each?.[field]
+                || null
+
+            //Sonderfall: Orationen für Allerseelen
+            if (typeof value === 'string' && allSouls) {
+                if (value?.startsWith('^A:OmniumDefunctorum:'))
+                    return "Preces nostras, quǽsumus, Dómine, benígnus exáudi, ut, dum attóllitur nostra fides in Fílio tuo a mórtuis suscitáto, in famulórum tuórum præstolánda resurrectióne spes quoque nostra firmétur.^ORlV"
+                else if (value?.startsWith('^A:Allerseelen:'))
+                    return "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
+            }
+            return value
+        }
+        const value = readValue(languageField)
+        // Sprachsuffix nur an Texte anhängen; Arrays (les_selector/patr_selector) unverändert durchreichen
+        if (value) return typeof value === 'string' ? value + localPrefLanguage : value
+        return readValue(field)
+    }
 
     const result = (data) => {
         const standField = field.replace(/^c_/, '');
@@ -87,27 +126,6 @@ export const getValue = ({
         }
         return standardResult;
     }
-
-    const isPsalmodie = field.startsWith('psalm')
-        ? true
-        : (field.startsWith('ant') && !field.startsWith('antev')
-            ? 'inclAnt'
-            : false);
-    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt);
-
-    const isTSN = ['terz', 'sext', 'non'].includes(hour)
-
-    const checkAnt0 = `ant0${isForeignLanguage}`
-    const hasAnt0 = field.startsWith('ant') &&
-        (texts[hour][prefSource]?.[checkAnt0]
-            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.[checkAnt0]
-            || (prefSource === 'oblig' && texts[hour].wt?.[checkAnt0])
-        )
-    const hasObligPs = field.startsWith('psalm')
-        && (texts[hour][prefSource]?.psalm1
-            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.psalm1
-            //    || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
-        )
 
     const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
 
@@ -135,20 +153,6 @@ export const getValue = ({
     if (field.startsWith('oration') &&
         (prefSollemnity || (isTSN && rank.date > 2 && rank.date > rank.wt)))
         return result(texts.laudes[prefSource]);
-
-    // Ergänzungspsalmodie über localPrefErgPs:
-    // auch am Sonntag werden die Ergänzungspsalmen genommen
-    // -> in const data entfällt der Vorzug von dayOfWeek vor each
-    if (localPrefErgPs && isTSN && isPsalmodie
-        && !localPrefPsalmsWt
-        && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
-    ) {
-        if (!hasAnt0 && !hasObligPs) {
-            const data = sollemnitiesData.soll.each?.[hour]?.[languageField]
-                || sollemnitiesData.soll.each?.[hour]?.[field]
-            if (data) return replaceErgPs(data)
-        }
-    }
 
     // Laudes-Festpsalmen und Ergänzungspsalmodie über rank:
     // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
@@ -189,8 +193,9 @@ export const getValue = ({
             || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie
             || (isTSN && !memorialWithTSN)) // Kleine Horen: ganz vom Wt
     ) skipCommune = true
-    if (rank.date < 5 && isTSN && isPsalmodie) // an Festen: Ant und Ps in Kleinen Horen vom Wt
-        skipCommune = true
+    if (rank.date < 5 && isTSN && isPsalmodie   // an Festen: Ant und Ps in Kleinen Horen vom Wt
+        && (!allSouls && dayOfWeek > 0)  // außer an Allerseelen, wenn werktags: Ant und Ps in Kleinen Horen aus dem Commune
+    ) skipCommune = true
     if (isSollemnity) skipCommune = false
     if (isPsalmodie) {
         if (localPrefPsalmsWt) {
@@ -198,7 +203,7 @@ export const getValue = ({
             if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt')
                 skipCommune = false
         }
-        //console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
+        // console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
     }
 
     const prefTexts = texts[hour]?.[prefSource] || texts[hour]?.pers
