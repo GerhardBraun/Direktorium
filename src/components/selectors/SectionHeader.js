@@ -115,7 +115,10 @@ const SectionHeader = ({
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSource]?.[field];
         const hasWt = texts[hour].wt?.[field];
-        const hasAltPsalms = texts[hour].alt?.[field];
+        const hasAltPsalms = hour === 'laudes' && field === 'psalm1'
+            && (prefSollemnity === 'verst' || texts?.date?.mmdd === '11-02')
+            ? 'verst'
+            : texts[hour].alt?.[field];
         const hasComm1 = texts[hour][prefSource]?.com1?.[field];
         const hasComm2 = texts[hour][prefSource]?.com2?.[field];
         const nameComm1 =
@@ -575,18 +578,19 @@ const SectionHeader = ({
             )}
             {showAltPsalms && (
                 <ButtonGroup>
+                    {hasAltPsalms === 'verst' ? 'als 3. Psalm:\u00A0\u00A0' : ''}
                     <button
                         onClick={() => setAlternativePsalms(false)}
                         className={!alternativePsalms ? 'underline' : ''}
                     >
-                        vom Wt
+                        {hasAltPsalms === 'verst' ? 'Ps 146' : 'vom Wt'}
                     </button>
                     {" | "}
                     <button
                         onClick={() => setAlternativePsalms(true)}
                         className={alternativePsalms ? 'underline' : ''}
                     >
-                        Fr der III. Woche
+                        {hasAltPsalms === 'verst' ? 'Ps 150' : 'Fr der III. Woche'}
                     </button>
                 </ButtonGroup>
             )}

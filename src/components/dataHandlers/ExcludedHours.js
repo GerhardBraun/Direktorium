@@ -5,7 +5,7 @@ export const getExcludedHours = (texts, localPrefErgPs, title) => {
         || texts?.vesper?.oblig?.psalm1
     ) return [];
 
-    if (texts?.date?.mmdd === '11-02') return ['terz']; // All Souls Day: exclude all
+    if (texts?.date?.mmdd === '11-02') return ['terz']; // Allerseelen: Terz wird ausgeschlossen wegen Ps 121 in der Vesper
 
     const excludedHours = [];
     const checkHours = ['terz', 'sext', 'non'];

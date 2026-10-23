@@ -629,6 +629,11 @@ const PrayerTextDisplay = ({
         note += "^lIn der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen°Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }
     }
+    // Anmerkung zur Vesper an Allerseelen, wenn es auf einen Samstag fällt
+    if (texts.date.mmdd === '11-02' && texts.dayOfWeek === 6 && hour === 'vesper') {
+      // zusätzliche Anmerkung in Laudes und Vesper
+      note = "Wird am heutigen Allerseelentag die Vesper mit dem Volk gefeiert, kann diese aus dem Offizium für die Verstorbenen genommen werden. Nutzen°Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
+    }
     if (texts.date.mmdd === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
       note = "Ein gesegnetes neues Jahr!"
     // Vesper am Gründonnerstag

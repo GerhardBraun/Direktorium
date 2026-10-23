@@ -1,8 +1,6 @@
-Calendar Data Processing Log - 2026-10-23 06:12:38.361980
+Calendar Data Processing Log - 2026-10-23 12:14:51.502078
 ============================================================
 
-nur lateinischer Eintrag: AAA-3-33-oblig-Laudes
-nur lateinischer Eintrag: AAA-3-34-oblig-Lesehore
 nur lateinischer Eintrag: AAA-10-7-oblig-each
 nur lateinischer Eintrag: AAA-12-24-oblig-Invitatorium
 nur lateinischer Eintrag: AAA-12-24-oblig-Lesehore

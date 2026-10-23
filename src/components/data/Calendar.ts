@@ -2777,11 +2777,7 @@ export const calendarData: CalendarData = {
             "ant3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
             "mode1": "IVa",
             "mode2": "II",
-            "mode3": "VII"
-          }
-        },
-        "oblig": {
-          "Laudes": {
+            "mode3": "VII",
             "ant1_lat": "Tibi soli peccávi, Dómine; miserére mei.",
             "ant2_lat": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
             "ant3_lat": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius."
@@ -2799,11 +2795,7 @@ export const calendarData: CalendarData = {
             "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.",
             "mode1": "IV",
             "mode2": "I",
-            "mode3": "II"
-          }
-        },
-        "oblig": {
-          "Lesehore": {
+            "mode3": "II",
             "ant1_lat": "Laborávi clamans, dum spero in Deum meum.",
             "ant2_lat": "Dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
             "ant3_lat": "Quǽrite Dóminum, et vivet ánima vestra."

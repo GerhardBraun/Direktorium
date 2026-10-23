@@ -80,6 +80,17 @@ export const getValue = ({
         }
     }
 
+    // Commune für die Verstorbenen (Ged der Verst oder Allerseelen):
+    // in den Laudes wahlweise Ps 150 statt Ps 146;
+    // steht vor dem Zweig für kirchw/verst und vor der Commune-Abfrage, die sonst vorher zurückkehren
+    if (alternativePsalms && hour === 'laudes' && (prefSollemnity === 'verst' || allSouls)) {
+        const altData = sollemnitiesData.verst?.alt?.laudes;
+        const languageValue = altData?.[languageField];
+        if (languageValue)
+            return typeof languageValue === 'string' ? languageValue + localPrefLanguage : languageValue;
+        if (altData?.[field]) return altData[field];
+    }
+
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = sollemnitiesData[prefSollemnity]
         const readValue = (field) => {
