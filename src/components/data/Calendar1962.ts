@@ -518,7 +518,7 @@ export const calendar1962Data: Calendar1962Data = {
       "S. Antonii Mariæ Claret Ep.°et°Conf. (24.10.)"
     ],
     "23": [
-      "S. Raphælis Archang. (29.09.)"
+      "S. Raphaëlis Archang. (29.09.)"
     ],
     "24": [
       "Comm. Ss. Chrysanthi et Dariæ Mm."

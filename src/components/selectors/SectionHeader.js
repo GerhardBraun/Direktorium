@@ -112,13 +112,40 @@ const SectionHeader = ({
         (["terz", "sext", "non"].includes(hour) && title === 'RESPONSORIUM'))
         return <h2 className="prayer-heading" aria-hidden="true">VERSIKEL</h2>;
 
+    // Commune für die Verstorbenen (Ged der Verst oder Allerseelen):
+    // in den Laudes vor dem 3. Psalm ein Header ohne Titel, nur mit der Wahl zwischen Ps 146 und Ps 150
+    const showDeceasedPsalms = hour === 'laudes' && provField === 'psalm3'
+        && (prefSollemnity === 'verst' || texts?.date?.mmdd === '11-02');
+    if (showDeceasedPsalms)
+        return (
+            // mt-6 übernimmt den Abstand zum 2. Psalm; -mb-4 hebt das mt-6 der folgenden Antiphon
+            // weitgehend auf (Margins fallen zusammen), damit die Auswahl dicht über der 3. Antiphon steht
+            <h2 className="prayer-heading mt-6 -mb-4" aria-hidden="true">
+                <span className="inline-block font-normal text-[0.85em]">
+                    {"zur Auswahl für den 3. Psalm:   "}
+                    <button
+                        onClick={() => setAlternativePsalms(false)}
+                        className={!alternativePsalms ? 'underline' : ''}
+                    >
+                        Ps 146
+                    </button>
+                    {" | "}
+                    <button
+                        onClick={() => setAlternativePsalms(true)}
+                        className={alternativePsalms ? 'underline' : ''}
+                    >
+                        Ps 150
+                    </button>
+                </span>
+            </h2>
+        );
+    // Header ohne Titel wird nur für die Psalmwahl im Verstorbenen-Commune gebraucht
+    if (!title) return null;
+
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSource]?.[field];
         const hasWt = texts[hour].wt?.[field];
-        const hasAltPsalms = hour === 'laudes' && field === 'psalm1'
-            && (prefSollemnity === 'verst' || texts?.date?.mmdd === '11-02')
-            ? 'verst'
-            : texts[hour].alt?.[field];
+        const hasAltPsalms = !!texts[hour].alt?.[field];
         const hasComm1 = texts[hour][prefSource]?.com1?.[field];
         const hasComm2 = texts[hour][prefSource]?.com2?.[field];
         const nameComm1 =
@@ -236,7 +263,7 @@ const SectionHeader = ({
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
     const isGoodFriday = texts?.swd?.combined === 'q-6-5' && hour === 'vesper';
     const allSouls = texts?.date?.mmdd === '11-02' && texts?.dayOfWeek > 0;
-    const showAltPsalms = !!hasAltPsalms && isPsalmodie;
+    const showAltPsalms = hasAltPsalms && isPsalmodie;
 
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
@@ -578,19 +605,18 @@ const SectionHeader = ({
             )}
             {showAltPsalms && (
                 <ButtonGroup>
-                    {hasAltPsalms === 'verst' ? 'als 3. Psalm:\u00A0\u00A0' : ''}
                     <button
                         onClick={() => setAlternativePsalms(false)}
                         className={!alternativePsalms ? 'underline' : ''}
                     >
-                        {hasAltPsalms === 'verst' ? 'Ps 146' : 'vom Wt'}
+                        vom Wt
                     </button>
                     {" | "}
                     <button
                         onClick={() => setAlternativePsalms(true)}
                         className={alternativePsalms ? 'underline' : ''}
                     >
-                        {hasAltPsalms === 'verst' ? 'Ps 150' : 'Fr der III. Woche'}
+                        Fr der III. Woche
                     </button>
                 </ButtonGroup>
             )}

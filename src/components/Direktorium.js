@@ -825,6 +825,13 @@ const PrayerTextDisplay = ({
 
                 return (
                   <div key={num}>
+                    {/* Commune für die Verstorbenen: Wahl zwischen Ps 146 und Ps 150 direkt vor dem 3. Psalm */}
+                    {num === 3 && hour === 'laudes' && (
+                      <SectionHeader
+                        title=""
+                        field="psalm3"
+                      />
+                    )}
                     {ant && (
                       <div className={`mb-3 ${num > 1 ? 'mt-6' : ''}`}>
                         {formatPrayerText(ant, `${num}. Ant.°°`)}
