@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.4",
-  "dataVersion": "2026.06.22_06-21",
-  "updateNotes": "Option zur Verschiebung von Epiphanie, Himmelfahrt und Fronleichnam auf den Sonntag; Eigenfeiern für Köln, Paderborn, Trier, Limburg und Speyer"
+  "appVersion": "1.5",
+  "dataVersion": "2026.10.24_07-46",
+  "updateNotes": "Verbesserung zur korrekten Anzeige an Allerseelen; fortgesetzte Korrektur des Textbestandes"
 }
