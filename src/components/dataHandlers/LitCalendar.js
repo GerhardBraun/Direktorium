@@ -146,8 +146,9 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, aroundEpipha
             return false;
         // Aschermittwoch trotz Rang 5 keine Vigil
         if (swdCombined === 'q-0-3') return false;
-        // Allerseelen trotz Rang 3 keine Vigil
-        if (month === 11 && day === 2) return false;
+        // Allerseelen trotz Rang 3 keine Vigil;
+        // am Sonntag werden Lesehore und Vigil aber vom Sonntag gebetet
+        if (month === 11 && day === 2 && dayOfWeek !== 0) return false;
         // in der Karwoche trotz Rang 5 nur Palmsonntag, Karfreitag und Karsamstag
         if (swdCombined.startsWith('q-6-') && (dayOfWeek + 2) % 7 > 2)
             return false;

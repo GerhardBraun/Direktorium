@@ -107,38 +107,52 @@ const SectionHeader = ({
     }, [title, hour, texts, prefSource, prefSollemnity, localPrefKomplet,
         localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous, localPrefInv, localPrefLanguage]);
 
-    //  VERSIKEL-Header ohne Buttons
+    //  VERSIKEL-Header immer ohne Buttons
     if (title === 'VERSIKEL' ||
+        // In den Kleinen Horen wird RESPONSORIUM in VERSIKEL umbenannt
         (["terz", "sext", "non"].includes(hour) && title === 'RESPONSORIUM'))
         return <h2 className="prayer-heading" aria-hidden="true">VERSIKEL</h2>;
 
-    // Commune für die Verstorbenen (Ged der Verst oder Allerseelen):
-    // in den Laudes vor dem 3. Psalm ein Header ohne Titel, nur mit der Wahl zwischen Ps 146 und Ps 150
-    const showDeceasedPsalms = hour === 'laudes' && provField === 'psalm3'
-        && (prefSollemnity === 'verst' || texts?.date?.mmdd === '11-02');
-    if (showDeceasedPsalms)
+    // Psalmauswahl: Header ohne Titel direkt vor dem betreffenden Psalm (field = psalm1/2/3),
+    // nur mit den Buttons zur Wahl zwischen den Psalmen in psalmSelection.
+    // alternativePsalms enthält den Index des gewählten Eintrags (0 = erster Eintrag = Standard).
+    // Weitere Fälle können hier mit ihrem psalmSelection-Array nachgetragen werden.
+    // ACHTUNG: Die Verarbeitung von alternativePsalms-Werten > 1 ist in GetValue.js noch nicht implementiert, da es bisher keinen betreffenden Fall gibt.
+    if (title === 'psalmSelector') {
+        let psalmSelection = [];
+
+        // Commune für die Verstorbenen (Ged der Verst oder Allerseelen):
+        // in den Laudes wahlweise Ps 150 statt Ps 146
+        if (hour === 'laudes' && provField === 'psalm3'
+            && (prefSollemnity === 'verst' || texts?.date?.mmdd === '11-02'))
+            psalmSelection = ['Ps 146', 'Ps 150'];
+
+        if (!psalmSelection.length) return null;
+
+        const num = provField.replace('psalm', '');
         return (
-            // mt-6 übernimmt den Abstand zum 2. Psalm; -mb-4 hebt das mt-6 der folgenden Antiphon
-            // weitgehend auf (Margins fallen zusammen), damit die Auswahl dicht über der 3. Antiphon steht
-            <h2 className="prayer-heading mt-6 -mb-4" aria-hidden="true">
+            // ab dem 2. Psalm: mt-6 übernimmt den Abstand zum vorhergehenden Psalm;
+            // -mb-4 hebt das mt-6 der folgenden Antiphon weitgehend auf (Margins fallen zusammen),
+            // damit die Auswahl dicht über der Antiphon steht
+            // (die 1. Antiphon hat kein mt-6, deshalb dort kein Ausgleich)
+            <h2 className={`prayer-heading ${num !== '1' ? 'mt-6 -mb-4' : ''}`} aria-hidden="true">
                 <span className="inline-block font-normal text-[0.85em]">
-                    {"zur Auswahl für den 3. Psalm:   "}
-                    <button
-                        onClick={() => setAlternativePsalms(false)}
-                        className={!alternativePsalms ? 'underline' : ''}
-                    >
-                        Ps 146
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => setAlternativePsalms(true)}
-                        className={alternativePsalms ? 'underline' : ''}
-                    >
-                        Ps 150
-                    </button>
+                    {`Auswahl für den ${num}. Psalm:   `}
+                    {psalmSelection.map((psalmLabel, index) => (
+                        <React.Fragment key={psalmLabel}>
+                            {index > 0 && " | "}
+                            <button
+                                onClick={() => setAlternativePsalms(index)}
+                                className={alternativePsalms === index ? 'underline' : ''}
+                            >
+                                {psalmLabel}
+                            </button>
+                        </React.Fragment>
+                    ))}
                 </span>
             </h2>
         );
+    }
     // Header ohne Titel wird nur für die Psalmwahl im Verstorbenen-Commune gebraucht
     if (!title) return null;
 
@@ -292,18 +306,18 @@ const SectionHeader = ({
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
-    if (rank.date < 3 && showErgPs && ( // an Gedenktagen
+    if (rank.date < 3 && ( // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
             !field.startsWith('hymn_') && field !== 'oration'
         ) || (
             ['laudes', 'vesper'].includes(hour) &&  // Laudes/Vesper Psalmodie
             isPsalmodie && texts?.laudes?.oblig?.com1?.button !== 'Evang'
         )
-        || ['terz', 'sext', 'non'].includes(hour) // Kleinen Horen: ganz vom Wt
+        || isTSN // Kleinen Horen: ganz vom Wt
     )) skipCommune = true;
 
     if (rank.date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
-        ['terz', 'sext', 'non'].includes(hour) && isPsalmodie
+        isTSN && isPsalmodie
     ) skipCommune = true;
 
     if (isCommemoration) skipCommune = true
@@ -606,15 +620,15 @@ const SectionHeader = ({
             {showAltPsalms && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setAlternativePsalms(false)}
-                        className={!alternativePsalms ? 'underline' : ''}
+                        onClick={() => setAlternativePsalms(0)}
+                        className={alternativePsalms === 0 ? 'underline' : ''}
                     >
                         vom Wt
                     </button>
                     {" | "}
                     <button
-                        onClick={() => setAlternativePsalms(true)}
-                        className={alternativePsalms ? 'underline' : ''}
+                        onClick={() => setAlternativePsalms(1)}
+                        className={alternativePsalms === 1 ? 'underline' : ''}
                     >
                         Fr der III. Woche
                     </button>

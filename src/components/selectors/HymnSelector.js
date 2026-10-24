@@ -164,13 +164,15 @@ const HymnSelector = ({ texts, hour, season,
 
                     const hymnText = hymnData?.[textField]?.replace('LEER', '')
                     const givenTitle = hymnData?.[titleField]
-                    const hymnTitle = (givenTitle === 'Pro pluribus defunctis' || !givenTitle)
+                    const hymnTitle = (!givenTitle || (givenTitle === 'Pro pluribus defunctis' && texts?.date?.mmdd === '11-02'))
                         ? hymnText?.split('^l')[0]
                             .trim()
                             .replace(/[.!?,:;-]+$/, '')
                             .replace('^/', ' ')
                             .replace('>', '')
                         : givenTitle
+                    // Bei Hymnen aus dem Kleinen Stundenbuch oder aus Personal.ts
+                    // wird die Seitenzahl im Großen Stundenbuch angezeigt
                     const stb3 = (['kl. Stb:', 'pers:'].includes(sourceLabel)
                         && hymnData?.stb3) ? hymnData.stb3 : ''
 
@@ -180,6 +182,7 @@ const HymnSelector = ({ texts, hour, season,
                     hymns.push({
                         id,
                         source: sourceLabel,
+                        // Standardwert für Einzug: 16, bei längeren Labels wird auf 20 erhöht
                         indent: sourceLabel.length > 9 ? '20' : '',
                         stb3,
                         text: hymnText,

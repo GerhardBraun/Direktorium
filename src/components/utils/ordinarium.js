@@ -282,8 +282,8 @@ export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSource 
     // Normalfall: Abruf in Abhängigkeit von der Hore
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 
-    // Te Deum
-    if (['lesehore', 'vigil'].includes(hour) &&
+    // Te Deum (nie im Totenoffizium: prefSollemnity='verst')
+    if (['lesehore', 'vigil'].includes(hour) && prefSollemnity !== 'verst' &&
         ((texts?.rank?.wt > 2 && texts?.season !== 'q')
             || (texts?.rank?.date > 2 && texts?.rank.date > texts?.rank?.wt &&
                 prefSource === 'oblig' && texts.date.mmdd !== '11-02')

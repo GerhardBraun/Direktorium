@@ -7,7 +7,7 @@ export const getValue = ({
     localPrefKomplet, localPrefComm,
     localPrefPsalmsWt, localPrefErgPs,
     localPrefContinuous, localPrefLanguage = '',
-    alternativePsalms = false, skipPersonal = false }) => {
+    alternativePsalms = 0, skipPersonal = false }) => {
     if (!hour || !texts || !texts[hour])
         return null;
 
@@ -83,7 +83,7 @@ export const getValue = ({
     // Commune für die Verstorbenen (Ged der Verst oder Allerseelen):
     // in den Laudes wahlweise Ps 150 statt Ps 146;
     // steht vor dem Zweig für kirchw/verst und vor der Commune-Abfrage, die sonst vorher zurückkehren
-    if (alternativePsalms && hour === 'laudes' && (prefSollemnity === 'verst' || allSouls)) {
+    if (alternativePsalms === 1 && hour === 'laudes' && (prefSollemnity === 'verst' || allSouls)) {
         const altData = sollemnitiesData.verst?.alt?.laudes;
         const languageValue = altData?.[languageField];
         if (languageValue)
@@ -260,7 +260,7 @@ export const getValue = ({
 
     }
     return (!skipPersonal && result(texts[hour].pers))
-        || (alternativePsalms && result(texts[hour].alt))
+        || (alternativePsalms === 1 && result(texts[hour].alt))
         || result(texts[hour].wt)
         || null;
 }

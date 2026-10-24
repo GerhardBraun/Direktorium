@@ -399,7 +399,8 @@ const PrayerTextDisplay = ({
   const [localPrefLongform, setLocalPrefLongform] = useState(localStorage.getItem('prefLongform') === 'true');
   const [showKomplet, setShowKomplet] = useState(true);
   const [ommitConfiteor, setOmmitConfiteor] = useState(localStorage.getItem('ommitConfiteor') === 'true');
-  const [alternativePsalms, setAlternativePsalms] = useState(texts.rank?.useAlternativePsalms || false);
+  // Index der gewählten Psalmen-Alternative (0 = Standard, 1 = erste Alternative …)
+  const [alternativePsalms, setAlternativePsalms] = useState(texts.rank?.useAlternativePsalms ? 1 : 0);
   const [showMarAntInVesper, setShowMarAntInVesper] = useState(false);
 
   useEffect(() => {
@@ -424,7 +425,7 @@ const PrayerTextDisplay = ({
       setLocalPrefComm(texts?.vesper?.prefComm);
     };
     setLocalPrefLongform(localStorage.getItem('prefLongform') === 'true');
-    setAlternativePsalms(texts?.rank?.useAlternativePsalms || false);
+    setAlternativePsalms(texts?.rank?.useAlternativePsalms ? 1 : 0);
     setShowMarAntInVesper(false);
   }, [hour, texts]);
 
@@ -825,13 +826,11 @@ const PrayerTextDisplay = ({
 
                 return (
                   <div key={num}>
-                    {/* Commune für die Verstorbenen: Wahl zwischen Ps 146 und Ps 150 direkt vor dem 3. Psalm */}
-                    {num === 3 && hour === 'laudes' && (
-                      <SectionHeader
-                        title=""
-                        field="psalm3"
-                      />
-                    )}
+                    {/* Psalmauswahl direkt vor dem Psalm (bleibt leer, wenn keine Auswahl besteht) */}
+                    <SectionHeader
+                      title="psalmSelector"
+                      field={`psalm${num}`}
+                    />
                     {ant && (
                       <div className={`mb-3 ${num > 1 ? 'mt-6' : ''}`}>
                         {formatPrayerText(ant, `${num}. Ant.°°`)}
@@ -911,8 +910,9 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {(texts?.rank?.hasVigil || prefSollemnity === 'kirchw') && hour === 'lesehore'
-          && !['verst'].includes(prefSollemnity) && (
+        {(texts?.rank?.hasVigil || prefSollemnity) && hour === 'lesehore'
+          //im Totenoffizium keine Vigil, z.B. Allerseelen am Sonntag
+          && prefSollemnity !== 'verst' && (
             <button
               id="scroll-to-TeDeum"
               onClick={() => {

@@ -263,7 +263,9 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
     // Eigenschaften, die nur ins texts-Objekt kommen, wenn sie true sind
     const passThrough = {}
     if (isCommemoration) passThrough.isCommemoration = true;
-    if (hasVigil) passThrough.hasVigil = true;
+    // verlegte Hochfeste haben immer eine Vigil, auch wenn der Ersatztag selbst keinen Rang dafür hat
+    const isTransferred = dateToRead instanceof Date && dateToRead.getTime() !== date.getTime();
+    if (hasVigil || isTransferred) passThrough.hasVigil = true;
 
     // Variablen bezeichnen das ursprüngliche Datum einer Heiligenfeier,
     // auch wenn sie verlegt wurde
