@@ -202,7 +202,7 @@ export const sollemnitiesData = {
                 "bitten_r": "Herr, gedenke deiner Kirche.",
                 "bitten": "Du hast deine Kirche auf Felsen gebaut;^qstärke unseren Glauben und festige unsere Zuversicht.^pAus deiner Seite strömen Blut und Wasser;^qerneuere deine Gemeinde durch die Sakramente des Neuen Bundes.^pDu bist mitten unter denen, die in deinem Namen versammelt sind;^qerhöre unser einmütiges Gebet.^pMit dem Vater und dem Heiligen Geist nimmst du Wohnung bei denen, die dich lieben;^qgib, dass die Liebe zum dreifaltigen Gott in uns wachse.",
                 "hymn_1_lat": 5446,
-                "ant1_lat": "Domus meus domus orationis vocabitur.^ALLo",
+                "ant1_lat": "Domus meus domus oratiónis vocábitur.^ALLo",
                 "ant2_lat": "Benedíctus es, Dómine, in templo sancto tuo.^ALLo",
                 "ant3_lat": "Laudate Dóminum in ecclésia sanctórum.^ALLo",
                 "resp1_lat": "Magnus Dóminus",

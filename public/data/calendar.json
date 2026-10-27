@@ -266,7 +266,7 @@
             "comm_1": "Mann_Ord",
             "comm_2": "MärtSg",
             "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle ^(im „Finstern Wald“^) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe.^ORV",
-            "oration_lat": "Deus, cuius múnere beátus Meinrad Christum páuperem et húmilem perseverávit imitári, concéde nobis, ipso intercedénte, ut, in vocatióne nostra fidéliter ambulántes, ad eam perfectiónem, quam nobis in Fílio tuo proposuísti, pervenire valeámus.^ORlV"
+            "oration_lat": "Deus, cuius múnere beátus Meinrad Christum páuperem et húmilem perseverávit imitári, concéde nobis, ipso intercedénte, ut, in vocatióne nostra fidéliter ambulántes, ad eam perfectiónem, quam nobis in Fílio tuo proposuísti, perveníre valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Johannes Cassianus (†°um 430)",
@@ -666,7 +666,7 @@
             "ant0": "Jesus steigt in den Jordan hinab, die Wasser erbeben und weichen zurück. Und den Fluten entsteigt die neue Schöpfung.^HALLxq",
             "les_text": "vigil-Taufe",
             "les_text_neu": "",
-            "ant0_lat": "Iordánis flúvius se retínuit, intránte Dómino, aqua contrémuit, nova creátio surxit de flúmine, quæ illúminat omne sæculum."
+            "ant0_lat": "Iordánis flúvius se retínuit, intránte Dómino, aqua contrémuit, nova creátio surxit de flúmine, quæ illúminat omne sǽculum."
           },
           "Laudes": {
             "hymn_1": 3229.0,
@@ -1552,7 +1552,7 @@
             "button": "Hl. Cyrill und hl. Methodius",
             "nominativ": "Die Heiligen Cyrill und Methodius",
             "genitiv": "der Heiligen Cyrill und Methodius",
-            "genitiv_lat": "sanctórum Cyrilli et Methodii",
+            "genitiv_lat": "sanctórum Cyrílli et Methódii",
             "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
             "antev_lat": "In sanctitáte et iustítia serviérunt Dómino ómnibus diébus suis."
           },
@@ -2166,7 +2166,7 @@
           "Laudes": {
             "button": "Hl. Walburga",
             "genitiv": "der heiligen Walburga",
-            "genitiv_lat": "sanctæ Walburgæ",
+            "genitiv_lat": "sanctæ Walbúrgæ",
             "ant_komm": "Mein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.",
             "ant_komm_lat": "Ecce prudens virgo migrávit ad Christum, fulgens inter choros vírginum sicut sol in virtúte cælésti."
           },
@@ -2940,7 +2940,7 @@
             "genitiv": "der heiligen Mathilde",
             "genitiv_lat": "sanctæ Mathíldis",
             "ant_komm": "Selig, die Frieden stiften, selig, die reinen Herzens sind; denn sie werden Gott schauen.",
-            "ant_komm_lat": "Beáti pacífici; beáti mundo corde, quóniam ipsi Deum videbunt."
+            "ant_komm_lat": "Beáti pacífici; beáti mundo corde, quóniam ipsi Deum vidébunt."
           },
           "Vesper": {
             "ant_komm": "Preiset sie für den Ertrag ihrer Hände. Lobt ihre Werke an den Toren der Stadt.",
@@ -2975,13 +2975,13 @@
           "Laudes": {
             "button": "Hl. Klemens Maria Hofbauer",
             "genitiv": "des heiligen Klemens Maria Hofbauer",
-            "genitiv_lat": "sancti Cleméntis Mariæ",
+            "genitiv_lat": "sancti Cleméntis Maríæ",
             "ant_komm": "Allen bin ich alles geworden, um alle zu retten.",
             "ant_komm_lat": "Omnibus ómnia factus sum, ut omnes fácerem salvos."
           },
           "Vesper": {
             "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
-            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
+            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensúram."
           },
           "Messe": {
             "ms_les_buch": "1°Kor",
@@ -3128,7 +3128,7 @@
           },
           "Vesper": {
             "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
-            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
+            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensúram."
           },
           "Messe": {
             "ms_les_buch": "2°Tim",
@@ -3151,7 +3151,7 @@
             "comm_1": "Hirten",
             "comm_2": "MärtSg",
             "oration": "Gott, du hast dem heiligen Bischof Oscar Romero die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV",
-            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Ansgári usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Ansgári usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia advérsa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Oscar Arnulfo Romero",
@@ -3197,7 +3197,7 @@
           },
           "Vesper": {
             "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
-            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
+            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensúram."
           },
           "Messe": {
             "ms_les_buch": "1°Thess",
@@ -3605,7 +3605,7 @@
           "major": {
             "comm_1": "MärtSg",
             "oration": "Herr, unser Gott, du hast dem seligen Märtyrer Marcel Callo brennenden Eifer gegeben: Bis zu seinem grausamen Tod hat er sich unermüdlich unter den jungen Arbeitern für dein Reich eingesetzt. Auf seine Fürsprache stärke uns, den christlichen Glauben in unserer Zeit mit der gleichen Begeisterung und Kühnheit zu bezeugen.^ORV",
-            "oration_lat": "comm:Deus, qui ad illustrándam Ecclésiam tuam beátum Marcéllum martýrii victória decoráre dignátus es, concéde propítius, ut, sicut ipse domínicæ passiónis imitátor fuit, ita nos, per eius vestígia gradiéntes, ad gáudia sempitérna pervenire mereámur.^ORlV"
+            "oration_lat": "comm:Deus, qui ad illustrándam Ecclésiam tuam beátum Marcéllum martýrii victória decoráre dignátus es, concéde propítius, ut, sicut ipse domínicæ passiónis imitátor fuit, ita nos, per eius vestígia gradiéntes, ad gáudia sempitérna perveníre mereámur.^ORlV"
           },
           "Laudes": {
             "button": "Sel. Marcel Callo",
@@ -3857,7 +3857,7 @@
           "Laudes": {
             "button": "Hl. Ludwig Maria Grignion de Montfort",
             "genitiv": "des heiligen Ludwig Maria",
-            "genitiv_lat": "sancti Ludovíci Mariæ"
+            "genitiv_lat": "sancti Ludovíci Maríæ"
           },
           "Messe": {
             "ms_aps_kv": "Zum Haus des HERRN wollen wir gehen.",
@@ -4104,10 +4104,10 @@
             "ant1_lat": "Exívi a Patre et veni in mundum; íterum relínquo mundum et vado ad Patrem.^ALLo",
             "ant2_lat": "Dóminus Iesus, postquam locútus est discípulis suis, ascéndit in cælum et sedet a dextris Dei.^ALLo",
             "ant3_lat": "Nemo ascéndit in cælum, nisi qui de cælo descéndit, Fílius hóminis, qui est in cælo.^ALLo",
-            "resp2_lat": "Gott steigt empor unter Jubel.",
-            "resp3_lat": "Allelúia,°allelúia.",
-            "anta_lat": "Pater, manifestávi nomen tuum homínibus, quos dedísti mihi; nunc autem pro eis rogo, non pro mundo, quia ad te vénio.^ALLo",
-            "antev_lat": "Der Herr beim Schall der Posaunen.",
+            "resp1_lat": "Ascéndit Deus in iubilatióne,",
+            "resp2_lat": "Allelúia,°allelúia.",
+            "resp3_lat": "Et Dóminus in voce tubæ.",
+            "antev_lat": "Pater, manifestávi nomen tuum homínibus, quos dedísti mihi; nunc autem pro eis rogo, non pro mundo, quia ad te vénio.^ALLo",
             "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
             "bitten_r_lat": "Tu rex glóriæ, Christe.",
             "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
@@ -4168,10 +4168,10 @@
             "ant1_lat": "Viri Galilǽi, quid aspícitis in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet.^ALLo",
             "ant2_lat": "Exaltáte regem regum, et hymnum dícite Deo.^ALLo",
             "ant3_lat": "Vidéntibus illis, elevátus est, et nubes suscépit eum in cælo.^ALLo",
-            "resp2_lat": "Ascéndens Christus in altum,",
-            "resp3_lat": "Allelúia,°allelúia.",
-            "anta_lat": "Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum.^ALLo",
-            "antev_lat": "Captívam duxit captivitátem.",
+            "resp1_lat": "Ascéndens Christus in altum,",
+            "resp2_lat": "Allelúia,°allelúia.",
+            "resp3_lat": "Captívam duxit captivitátem.",
+            "antev_lat": "Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum.^ALLo",
             "bitten_e_lat": "Dóminum, exaltátum a terra et ómnia ad seípsum trahéntem, invocémus cum exsultatióne, acclamántes:",
             "bitten_r_lat": "Tu rex glóriæ, Christe.",
             "bitten_lat": "O rex glóriæ, Dómine Iesu, qui, semel oblátus ut hóstia pro peccátis, victor ad Patris déxteram ascendísti,^qin sempitérnum consúmma sanctificátos.^pSacérdos ætérne et novi miníster testaménti, semper vivens ad interpellándum pro nobis,^qsalva pópulum deprecántem.^pQui te præbuísti vivum post passiónem tuam et per dies quadragínta discípulis apparuísti,^qhódie fidem nostram confírma.^pQui hódie Spíritum Apóstolis promisísti, ut tibi testes fíerent usque ad últimum terræ,^qper virtútem Spíritus testimónium róbora nostrum.",
@@ -4251,10 +4251,10 @@
             "ant1_lat": "Ascéndit in cælos, sedet ad déxteram Patris.^ALLo",
             "ant2_lat": "Ascéndit Deus in iubilatióne, et Dóminus in voce tubæ.^ALLo",
             "ant3_lat": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo.^ALLo",
-            "resp2_lat": "Ascéndo ad Patrem meum et Patrem vestrum,",
-            "resp3_lat": "Allelúia,°allelúia.",
-            "anta_lat": "O rex glóriæ, Dómine virtútum, qui triumphátor hódie super omnes cælos ascendísti, ne derelínquas nos órphanos; sed mitte promíssum Patris in nos, Spíritum veritátis.^ALLo",
-            "antev_lat": "Deum meum et Deum vestrum.",
+            "resp1_lat": "Ascéndo ad Patrem meum et Patrem vestrum,",
+            "resp2_lat": "Allelúia,°allelúia.",
+            "resp3_lat": "Deum meum et Deum vestrum.",
+            "antev_lat": "O rex glóriæ, Dómine virtútum, qui triumphátor hódie super omnes cælos ascendísti, ne derelínquas nos órphanos; sed mitte promíssum Patris in nos, Spíritum veritátis.^ALLo",
             "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
             "bitten_r_lat": "Tu rex glóriæ, Christe.",
             "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
@@ -5226,7 +5226,7 @@
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
             "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten.^ORV",
-            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Ioánni Nepomucénsi usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Ioánni Nepomucénsi usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia advérsa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Gregor der Große (†°604)",
@@ -6876,7 +6876,7 @@
             "genitiv": "des heiligen Benedikt",
             "hymn_1": 8711.101,
             "antev": "Benedikt, wahrhaft ein Gesegneter des Herrn, ein Mann von verehrungswürdigem Leben!",
-            "genitiv_lat": "sancti Benedicti",
+            "genitiv_lat": "sancti Benedícti",
             "hymn_1_lat": 8711.2,
             "antev_lat": "Fuit vir vitæ venerábilis, grátia Benedíctus et nómine."
           },
@@ -8749,7 +8749,7 @@
             "farbe": "r",
             "nominativ": "Der heilige Maximilian",
             "genitiv": "des heiligen Maximilian Maria Kolbe",
-            "genitiv_lat": "sancti Maximiliáni Mariæ"
+            "genitiv_lat": "sancti Maximiliáni Maríæ"
           },
           "Messe": {
             "ms_les_buch": "Weish",
@@ -10376,7 +10376,7 @@
           "major": {
             "comm_1": "MärtPl",
             "oration": "Schenke uns, o Herr, die gleiche Opferbereitschaft, mit der deine heiligen Märtyrer Lorenzo und Gefährten dir und dem Nächsten treu gedient haben, da diejenigen selig sind in deinem Reich, die um der Gerechtigkeit willen verfolgt werden.^ORV",
-            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Lauréntio et sóciis eius usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui sancto Lauréntio et sóciis eius usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia advérsa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Lorenzo Ruiz und Gefährten",
@@ -10822,7 +10822,7 @@
           "major": {
             "comm_1": "MärtPl",
             "oration": "Gott, du hast den heiligen Dionysius und seine Gefährten gesandt, in Gallien deine Macht und Größe zu verkünden, und ihnen die Kraft zum Martyrium gegeben. Gib, dass wir über dem Irdischen stehen und keine Verfolgung fürchten, sondern im Leben und Sterben auf dich schauen.^ORV",
-            "oration_lat": "Deus, qui beátum Dionýsium eiúsque sócios ad prædicándam géntibus glóriam tuam misísti, eósque virtúte constántiæ in passióne roborásti, tríbue nobis, quæsumus, ex eórum imitatióne próspera mundi despícere, et nulla eius advérsa formidáre.^ORlV"
+            "oration_lat": "Deus, qui beátum Dionýsium eiúsque sócios ad prædicándam géntibus glóriam tuam misísti, eósque virtúte constántiæ in passióne roborásti, tríbue nobis, quǽsumus, ex eórum imitatióne próspera mundi despícere, et nulla eius advérsa formidáre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Ambrosius (†°397)",
@@ -12057,7 +12057,7 @@
           "Laudes": {
             "button": "Hl. Karl Borromäus",
             "genitiv": "des heiligen Karl Borromäus",
-            "genitiv_lat": "sancti Caróli Borromeo"
+            "genitiv_lat": "sancti Caróli Borroméo"
           },
           "Messe": {
             "ms_les_buch": "Röm",
@@ -13275,7 +13275,7 @@
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV",
-            "oration_lat": "comm:Deus, cuius múnere sanctus Carólus Christum páuperem et húmilem perseverávit imitári, concéde nobis, ipso intercedénte, ut, in vocatióne nostra fidéliter ambulántes, ad eam perfectiónem, quam nobis in Fílio tuo proposuísti, pervenire valeámus.^ORlV"
+            "oration_lat": "comm:Deus, cuius múnere sanctus Carólus Christum páuperem et húmilem perseverávit imitári, concéde nobis, ipso intercedénte, ut, in vocatióne nostra fidéliter ambulántes, ad eam perfectiónem, quam nobis in Fílio tuo proposuísti, perveníre valeámus.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Charles de Foucauld",
@@ -14552,7 +14552,7 @@
           },
           "Vesper": {
             "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
-            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
+            "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensúram."
           },
           "Messe": {
             "ms_aps_kv": "Geht in alle Welt, Halleluja,^lund seid meine Zeugen. Halleluja.",
@@ -14630,7 +14630,7 @@
             "bitten": "Du hast die Stämme unseres Volkes durch die Predigt des heiligen Bonifatius im Glauben geeint;^qschenke uns die verlorene Glaubenseinheit zurück.^pDu hast den heiligen Bonifatius für unsere Vorfahren zum Boten deiner versöhnenden Liebe gemacht;^qgib unserem Volk wieder die volle Einheit und befreie es von Hass und Gewalt.^pDu hast als oberster Hirte deiner Kirche den heiligen Bonifatius zum Bischof bestellt;^qsegne unseren Bischof ^NB und alle, die sich um das Wohl unseres Bistums sorgen.^pDeinem Ruf ist Bonifatius bereitwillig gefolgt und als Künder deiner Wahrheit in ein fremdes Land gezogen;^qberufe auch heute viele junge Menschen in deinen missionarischen Dienst.^pDu hast Bonifatius in die Zahl deiner heiligen Märtyrer aufgenommen;^qgib den Verstorbenen ewige Gemeinschaft mit ihnen.",
             "ant1_lat": "Collocávit eum Dóminus cum princípibus pópuli sui et dedit illi testaméntum sacerdótii ætérni.^ALLo",
             "ant2_lat": "Diléxit nomen Dómini, in ætérnum exsultábit in Deo suo.^ALLo",
-            "ant3_lat": "In dilatatióne veræ fídei beátus Bonifátius accendébat fidéles, et erat die ac nocte meditátio eius in præcéptis Altissimi.^ALLo",
+            "ant3_lat": "In dilatatióne veræ fídei beátus Bonifátius accendébat fidéles, et erat die ac nocte meditátio eius in præcéptis Altíssimi.^ALLo",
             "resp1_lat": "Omnes gentes vénient",
             "resp2_lat": "et adorábunt coram te, Dómine.",
             "resp3_lat": "Et glorificábunt nomen tuum.",
@@ -14701,7 +14701,7 @@
             "antev_lat": "Gaude, Fulda, plaude, Germánia, patris tui et apóstoli erudíta doctrínis, illustráta virtútibus, suffúlta patrocíniis, et in eo magnífica Dei magnália.^ALLo",
             "bitten_e_lat": "Benedíctus Deus, qui sanctum Bonifátium elégit apóstolum Germanórum. Súpplices eum rogémus:",
             "bitten_r_lat": "Fidem nostrum corróbora, Domine.",
-            "bitten_lat": "Qui patres nostros per beátum Bonifátium ad fidem duxísti,^qda nobis, cotídie ad te convérti.^pQui sanctum Bonifátium vocásti, ut Ecclésiam in terra nostra super fundaméntum beáti Petri fundáret,^qfunda vitam nostram super fidem apostolórum.^pQui sanctum Bonifátium posuísti dispensatórem fidélem et defensórem vigilántem tuæ Ecclésiæ,^qfac nos studiósos in ædificándo regno tuo.^pBeatus Bonitátius proprio sánguine opus suum consignávit et veritátem tuam testificátus est;^qconsérva in nobis fidelitátem finálem.",
+            "bitten_lat": "Qui patres nostros per beátum Bonifátium ad fidem duxísti,^qda nobis, cotídie ad te convérti.^pQui sanctum Bonifátium vocásti, ut Ecclésiam in terra nostra super fundaméntum beáti Petri fundáret,^qfunda vitam nostram super fidem apostolórum.^pQui sanctum Bonifátium posuísti dispensatórem fidélem et defensórem vigilántem tuæ Ecclésiæ,^qfac nos studiósos in ædificándo regno tuo.^pBeátus Bonitátius proprio sánguine opus suum consignávit et veritátem tuam testificátus est;^qconsérva in nobis fidelitátem finálem.",
             "les_text_lat": "Secúndum grátiam Dei, quæ data est mihi, ut sápiens architéctus fundaméntum pósui; álius autem superædíficat. Unusquísque autem vídeat quómodo superædíficet; fundaméntum enim áliud nemo potest pónere præter id, quod pósitum est, qui est Iesus Christus."
           },
           "Terz": {
@@ -14933,7 +14933,7 @@
             "resp1_lat": "Dómine, diléxi præcépta tua.",
             "resp2_lat": "super aurum et obrýzum.",
             "resp3_lat": "Quia lex tua delectátio mea est.",
-            "antev_lat": "Bonifátius Líobam vírginem, cum ipsa venísset, summa veneratióne suscépit propter sanctitátem vitae et sapiéntiae doctrínam.",
+            "antev_lat": "Bonifátius Líobam vírginem, cum ipsa venísset, summa veneratióne suscépit propter sanctitátem vitæ et sapiéntiæ doctrínam.",
             "les_text_lat": "Ab infántia Sacras Lítteras nostri, quæ te possunt instrúere ad salútem per fidem, quæ est in Christo Iesu. Omnis Scriptúra divínitus inspiráta est et útilis ad docéndum, ad arguéndum, ad corrigéndum, ad erudiéndum in iustítia, ut perféctus sit homo Dei, ad omne opus bonum instrúctus."
           },
           "Terz": {
@@ -15750,7 +15750,7 @@
           "Lesehore": {
             "patr_autor": "Augustinus (†°430)",
             "patr_werk": "Zu Psalm 127 (126).",
-            "patr_text": "^hDer Herr baut das Haus und°bewacht°die°Stadt^pDer Herr baut das Haus, der Herr Jesus Christus erbaut sein Haus. Viele arbeiten an dem Bau, aber wenn er es nicht baut, müht sich jeder umsonst, der daran baut.^pWer sind sie, die sich mühen am Bau? Alle, die in der Kirche das Wort Gottes verkünden, die Ausspender der Sakramente Gottes.^pWir also reden außen, er baut innen. Wir nehmen wahr, wie ihr zuhört; was ihr aber denkt, weiß allein er, der eure Gedanken sieht. Er baut, er ermahnt, er versetzt in Furcht, er öffnet das Verständnis, er führt euren Geist und Sinn zum Glauben. Und doch arbeiten auch wir als Bauleute; doch „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^p(Das neue Jerusalem) hat auch Wächter. Wie es Bauleute hat, die sich um seine Auferbauung mühen, so hat es auch solche, die es bewachen, und zwar tun das die Bischöfe. Darum ist der Platz der Bischöfe erhöht, damit sie die Übersicht haben und gleichsam über dem Volk wachen. Das griechische epískopos heißt übersetzt Beaufsichtiger, weil er die Aufsicht hat, weil er von oben herab sieht.^pÜber diesen erhöhten Platz wird eine gefährliche Rechenschaft verlangt, wenn wir hier nicht in einer solchen Gesinnung stehen, dass wir demutsvoll den Platz zu euren Füßen einnehmen und für euch beten, dass er euch behüte, der eure Gesinnungen kennt.^pDenn wir können euch zwar hereinkommen und hinausgehen sehen; aber was ihr in euren Herzen denkt, sehen wir umso weniger, als wir nicht einmal sehen können, was ihr in euren Häusern tut.^pWie führen wir denn dann die Aufsicht? Nach Menschenweise, soviel wir können, soviel wir empfangen haben.^pWenn wir aber nach Menschenweise Aufsicht führen und nur unvollkommen Wache halten können, bleibt ihr darum ohne Aufsicht? Das sei fern. Denn wo bliebe der, von dem es heißt: „Wenn nicht der Herr die Stadt bewacht, wacht der Wachter umsonst?“ Wir bemühen uns, Aufsicht zu führen, doch unsere Mühe ist vergebens, wenn er nicht wacht, der eure Gedanken sieht. Er hält Wache, wenn ihr wach seid, er hält auch Wache, wenn ihr schlaft.^pWir wachen über euch, da wir durch unser Verwaltungsamt dazu verpflichtet sind. Doch möchten wir auch zusammen mit euch beschirmt werden. Euch gegenüber sind wir Hirten, aber unter jenem Hirten sind wir zusammen mit euch Schafe. Euch gegenüber sind wir von diesem Platz aus Lehrer, doch unter jenem einzigen Lehrer sind wir in dieser Schule eure Mitschüler.",
+            "patr_text": "^hDer Herr baut das Haus und°bewacht°die°Stadt^pDer Herr baut das Haus, der Herr Jesus Christus erbaut sein Haus. Viele arbeiten an dem Bau, aber wenn er es nicht baut, müht sich jeder umsonst, der daran baut.^pWer sind sie, die sich mühen am Bau? Alle, die in der Kirche das Wort Gottes verkünden, die Ausspender der Sakramente Gottes.^pWir also reden außen, er baut innen. Wir nehmen wahr, wie ihr zuhört; was ihr aber denkt, weiß allein er, der eure Gedanken sieht. Er baut, er ermahnt, er versetzt in Furcht, er öffnet das Verständnis, er führt euren Geist und Sinn zum Glauben. Und doch arbeiten auch wir als Bauleute; doch „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^p(Das neue Jerusalem) hat auch Wächter. Wie es Bauleute hat, die sich um seine Auferbauung mühen, so hat es auch solche, die es bewachen, und zwar tun das die Bischöfe. Darum ist der Platz der Bischöfe erhöht, damit sie die Übersicht haben und gleichsam über dem Volk wachen. Das griechische epískopos heißt übersetzt Beaufsichtiger, weil er die Aufsicht hat, weil er von oben herab sieht.^pÜber diesen erhöhten Platz wird eine gefährliche Rechenschaft verlangt, wenn wir hier nicht in einer solchen Gesinnung stehen, dass wir demutsvoll den Platz zu euren Füßen einnehmen und für euch beten, dass er euch behüte, der eure Gesinnungen kennt.^pDenn wir können euch zwar hereinkommen und hinausgehen sehen; aber was ihr in euren Herzen denkt, sehen wir umso weniger, als wir nicht einmal sehen können, was ihr in euren Häusern tut.^pWie führen wir denn dann die Aufsicht? Nach Menschenweise, soviel wir können, soviel wir empfangen haben.^pWenn wir aber nach Menschenweise Aufsicht führen und nur unvollkommen Wache halten können, bleibt ihr darum ohne Aufsicht? Das sei fern. Denn wo bliebe der, von dem es heißt: „Wenn nicht der Herr die Stadt bewacht, wacht der Wachter umsonst“? Wir bemühen uns, Aufsicht zu führen, doch unsere Mühe ist vergebens, wenn er nicht wacht, der eure Gedanken sieht. Er hält Wache, wenn ihr wach seid, er hält auch Wache, wenn ihr schlaft.^pWir wachen über euch, da wir durch unser Verwaltungsamt dazu verpflichtet sind. Doch möchten wir auch zusammen mit euch beschirmt werden. Euch gegenüber sind wir Hirten, aber unter jenem Hirten sind wir zusammen mit euch Schafe. Euch gegenüber sind wir von diesem Platz aus Lehrer, doch unter jenem einzigen Lehrer sind wir in dieser Schule eure Mitschüler.",
             "patr_resp1": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht.",
             "patr_resp2": "Wenn du das tust, rettest du dich und alle, die auf dich hören.",
             "patr_resp3": "Weise zurecht, tadle, ermahne, in unermüdlicher und geduldiger Belehrung."
@@ -17889,7 +17889,7 @@
             "bitten_r": "Herr, gedenke deiner Kirche.",
             "bitten": "Du hast den hl. Liborius der Kirche von Le Mans als Bischof geschenkt:^qSchenk ihr Wachstum im Glauben, in der Hoffnung und in der Liebe.^pDu hast den hl. Liborius der Kirche von Paderborn als Patron gegeben:^qSchütze unseren Erzbischof, die Weihbischöfe, die Priester, die Diakone, die Ordensleute und alle Gläubigen.^pDu hast den hl. Liborius zum Dienst der Einheit und des Friedens für die Völker bestellt:^qEine die Völker Europas und lass sie hilfreich einstehen für alle Menschen.^pDu hast den hl. Liborius zum Patron und Fürsprecher der Kranken gemacht:^qGib ihnen die Gesundheit des Leibes und der Seele und neue Hoffnung auf Leben.^pDu hast den hl. Liborius in die Schar deiner Heiligen aufgenommen:^qRufe alle Toten und auch uns am Ende unseres Lebens in die Herrlichkeit des Himmels.",
             "ant1_lat": "Libório plaudat Gállia, quæ tantum virum édidit: felícior nunc Germánia, cui corpus illa crédidit.",
-            "ant2_lat": "Beatus cui Martínus ádfuit in dulci tránsitu, vocátus vir divínus cæli supérno mónitu.",
+            "ant2_lat": "Beátus cui Martínus ádfuit in dulci tránsitu, vocátus vir divínus cæli supérno mónitu.",
             "ant3_lat": "Felix Páderæ cívitas, in qua refúlget hódie ille, quem cæli bónitas ornat signis cotídie.",
             "resp1_lat": "Pax Christi dominétur in córdibus vestris;",
             "resp2_lat": "ad quam et vocáti estis in uno córpore.",
@@ -17920,7 +17920,7 @@
             "ant2_lat": "Cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam.",
             "ant3_lat": "Serve bone et fidélis, intra in gáudium Dómini tui.",
             "versikel0_lat": "Audies de ore meo verbum.",
-            "versikel1_lat": "Et annunti<abis eis ex me."
+            "versikel1_lat": "Et annuntiábis eis ex me."
           },
           "Laudes": {
             "button": "Hl. Liborius",
@@ -17979,7 +17979,7 @@
             "bitten_r": "Herr, sei du der Hirte deines Volkes.",
             "bitten": "Du hast die Bischöfe und Gläubigen von Paderborn und Le Mans im Liebesbund ewiger Bruderschaft geeint.^qSchenke unseren Kirchen auch in Zukunft deinen Segen.^pDu hast die Menschen Europas auf die Fürsprache des heiligen Liborius zusammengeführt.^qLass sie nicht müde werden, für die Einheit der Völker Europas einzutreten.^pDu hast die Bitten der Kranken und Notleidenden am Grab des heiligen Liborius erhört.^qLass sie stets auf seine Fürsprache bauen.^pDu hast auf die Fürsprache des heiligen Liborius die Kirche von Paderborn erstarken lassen.^qLass uns Tag für Tag im Glauben, in der Hoffnung und in der Liebe wachsen.",
             "ant1_lat": "Libório plaudat Gállia, quæ tantum virum édidit: felícior nunc Germánia, cui corpus illa crédidit.",
-            "ant2_lat": "Beatus cui Martínus ádfuit in dulci tránsitu, vocátus vir divínus cæli supérno mónitu.",
+            "ant2_lat": "Beátus cui Martínus ádfuit in dulci tránsitu, vocátus vir divínus cæli supérno mónitu.",
             "ant3_lat": "Felix Páderæ cívitas, in qua refúlget hódie ille, quem cæli bónitas ornat signis cotídie.",
             "resp1_lat": "Pax Christi dominétur in córdibus vestris;",
             "resp2_lat": "ad quam et vocáti estis in uno córpore.",
@@ -18134,7 +18134,7 @@
           "major": {
             "comm_1": "MärtSg",
             "oration": "Herr, schenke uns in Freude die Erfüllung unserer Gebete; am Jahrestag des Leidens des heiligen Märtyrers Patroklus bitten wir dich; lass uns seine Standhaftigkeit im Glauben erlangen und in der Liebe zu dir wachsen.^ORV",
-            "oration_lat": "Præsta, Dómine, précibus nostris cum exsultatióne provéntum, ut sancti mártyris Pátrocli, cuius diem passiónis ánnua devotióne recólimus, étiam fídei constántiam subsequámur et in amóre erga te crescamus.^ORlV"
+            "oration_lat": "Præsta, Dómine, précibus nostris cum exsultatióne provéntum, ut sancti mártyris Pátrocli, cuius diem passiónis ánnua devotióne recólimus, étiam fídei constántiam subsequámur et in amóre erga te crescámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Benedikt XVI. (†°2022)",
@@ -18247,8 +18247,8 @@
             "nominativ": "Die selige Pauline",
             "genitiv": "der seligen Pauline",
             "vokativ": "Selige Pauline",
-            "genitiv_lat": "beatæ Paulinæ",
-            "vokativ_lat": "beata Paulina"
+            "genitiv_lat": "beátæ Paulínæ",
+            "vokativ_lat": "beáta Paulína"
           }
         }
       }
@@ -18431,7 +18431,7 @@
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Herr und Gott, durch das Wirken des heiligen Abtes Sturmius hast du unsere Heimat zum Glauben berufen. Lass seine Fürsprache, die er sterbend seinen Brüdern zugesagt hat, auch uns zugutekommen, damit unser Glaube zunehme und fruchtbar werde in der Liebe.^ORV",
-            "oration_lat": "Deus, qui per beátum Stúrmium abbátem patres nostros vocásti ad fidem, præsta, quǽsumus, ut ipsíus intercéssio, quam frátribus ex hac vita migratúrus promísit, nobis profíciat ad augmentum fídei in caritáte fecúndæ.^ORlV"
+            "oration_lat": "Deus, qui per beátum Stúrmium abbátem patres nostros vocásti ad fidem, præsta, quǽsumus, ut ipsíus intercéssio, quam frátribus ex hac vita migratúrus promísit, nobis profíciat ad augméntum fídei in caritáte fecúndæ.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Eigil († 822)",

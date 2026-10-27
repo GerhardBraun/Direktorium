@@ -1,0 +1,801 @@
+# Akzentprüfung _lat-Felder
+
+Geprüft: Brevier.ts, Calendar.ts, Calendar1962.ts, Deceased.ts, Direktorium.ts, Direktorium_dev.ts, Evangelien.ts, Lecture1.ts, Lecture2.ts, LectureABC.ts, LectureAlternatives.ts, NamesOfBooks.ts, Perikopen.ts, Perikopen_Messe.ts, Personal.ts, PsHymn.ts, RufvdEv.ts, Sollemnities.ts
+
+# Teil A: Liturgische Texte (alle _lat-Felder außer title_lat/quote_lat)
+
+## 1. Wörter ab 3 Silben ohne Akzent (Kleinbuchstabe am Anfang)
+
+160 verschiedene Wörter, 207 Vorkommen
+
+- Brevier.ts : a : 2 : 0 : Laudes (ant2_lat): **quærite**
+- Brevier.ts : a : 2 : 6 : Laudes (antev_lat): **nationibus**
+- Brevier.ts : a : 3 : 0 : ErsteV (antc_lat): **faciat**
+- Brevier.ts : a : 3 : 0 : Vesper (anta_lat): **mortui**
+- Brevier.ts : a : each : 1 : Laudes (bitten_e_lat): **iustitiam**
+- Brevier.ts : a : each : 4 : Vesper (les_text_lat): **exspectat**
+- Brevier.ts : a : even : 0 : Laudes (bitten_lat): **peccatores**
+- Brevier.ts : com : Hirten : each : Vesper (antev_lat): **mensuram**
+- Brevier.ts : j : 1 : each : Lesehore (oration_lat): **videant**
+- Brevier.ts : j : 1 : 0 : Vigil (ant0_lat): **sæculum**
+- Brevier.ts : j : 5 : 0 : each (oration_lat): **innititur**
+- Brevier.ts : j : 5 : 0 : ErsteV (oration_lat): **innititur**
+- Brevier.ts : j : 5 : each : Lesehore (oration_lat): **innititur**
+- Brevier.ts : j : 27 : 0 : each (oration_lat): **metuit**
+- Brevier.ts : j : 27 : 0 : ErsteV (oration_lat): **metuit**
+- Brevier.ts : j : 27 : each : Lesehore (oration_lat): **metuit**
+- Brevier.ts : j : 30 : 0 : each (oration_lat): **præcipis**
+- Brevier.ts : j : 30 : 0 : ErsteV (oration_lat): **præcipis**
+- Brevier.ts : j : 30 : each : Lesehore (oration_lat): **præcipis**
+- Brevier.ts : k : 1 : 3 : Laudes (bitten_lat): **obœdiens**
+- Brevier.ts : k : 1 : 3 : Terz (les_text_lat): **arguet**
+- Brevier.ts : k : 1 : 10 : Terz (les_text_lat): **arguet**
+- Brevier.ts : k : 12 : 17 : Vesper (antev_lat): **attingens**
+- Brevier.ts : k : 12 : 18 : Sext (les_text_lat): **invicem**
+- Brevier.ts : k : 12 : 19 : Terz (les_text_lat): **reliquiæ**
+- Brevier.ts : k : 12 : 21 : Vesper (antev_lat): **iustitiæ**
+- Brevier.ts : k : 12 : 22 : Vesper (les_text_lat): **exspectat**
+- Brevier.ts : k : 12 : 23 : Vesper (antev_lat): **gentium**
+- Brevier.ts : kso : 4 : 0 : Laudes (bitten_lat): **peccatores**
+- Brevier.ts : p : 1 : 0 : ErsteV (resp2_lat): **opera**
+- Brevier.ts : p : 2 : 0 : Lesehore (versikel0_lat): **beati**
+- Brevier.ts : p : 2 : 3 : Terz (versikel1_lat): **gerechtes**
+- Brevier.ts : p : 2 : 3 : Terz (resp1_lat): **videbunt**
+- Brevier.ts : p : 3 : 0 : ErsteV (resp2_lat): **opera**
+- Brevier.ts : q : 1 : 3 : each (oration_lat): **quæsumus**
+- Calendar.ts : AAA : 1 : 21 : n1 : major (oration_lat): **pervenire**
+- Calendar.ts : AAA : 1 : 67 : oblig : Vigil (ant0_lat): **sæculum**
+- Calendar.ts : AAA : 3 : 14 : n1 : Laudes (ant_komm_lat): **videbunt**
+- Calendar.ts : AAA : 3 : 15 : n1 : Vesper (ant_komm_lat): **mensuram**
+- Calendar.ts : AAA : 3 : 23 : n1 : Vesper (ant_komm_lat): **mensuram**
+- Calendar.ts : AAA : 3 : 24 : n1 : major (oration_lat): **adversa**
+- Calendar.ts : AAA : 3 : 26 : n1 : Vesper (ant_komm_lat): **mensuram**
+- Calendar.ts : AAA : 4 : 19 : n2 : major (oration_lat): **pervenire**
+- Calendar.ts : AAA : 5 : 16 : n1 : major (oration_lat): **adversa**
+- Calendar.ts : AAA : 6 : 5 : oblig : each (oration_lat): **firmiter**
+- Calendar.ts : AAA : 9 : 22 : n1 : major (oration_lat): **intercessione**
+- Calendar.ts : AAA : 9 : 28 : n3 : major (oration_lat): **adversa**
+- Calendar.ts : AAA : 10 : 9 : n1 : major (oration_lat): **quæsumus**
+- Calendar.ts : AAA : 12 : 1 : n1 : major (oration_lat): **pervenire**
+- Calendar.ts : Fulda : 2 : 12 : d1 : major (oration_lat): **sapientiæ**
+- Calendar.ts : Fulda : 2 : 12 : d1 : Vesper (ant_komm_lat): **mensuram**
+- Calendar.ts : Fulda : 6 : 5 : oblig : ErsteV (bitten_lat): **populi**, **tempore**
+- Calendar.ts : Fulda : 6 : 5 : oblig : ErsteV (les_text_lat): **sicuti**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Invitatorium (ant0_lat): **venite**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Laudes (bitten_lat): **proprio**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Sext (les_text_lat): **fundati**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Vesper (ant3_lat): **gloria**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Vesper (antev_lat): **sanguine**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Vesper (bitten_lat): **populi**, **tempore**
+- Calendar.ts : Fulda : 6 : 7 : d1 : Laudes (antev_lat): **martyrii**
+- Calendar.ts : Fulda : 9 : 28 : oblig : Terz (les_text_lat): **vinculum**
+- Calendar.ts : Fulda : 11 : 19 : oblig : ErsteV (bitten_lat): **nonnisi**
+- Calendar.ts : Fulda : 11 : 19 : oblig : Vesper (resp3_lat): **supergressa**
+- Calendar.ts : Fulda : 11 : 19 : oblig : Vesper (bitten_lat): **nonnisi**
+- Calendar.ts : Fulda : 12 : 16 : oblig : Lesehore (ant1_lat): **æternam**
+- Calendar.ts : Fulda : 12 : 9 : d11 : Vesper (antev_lat): **omnia**
+- Calendar.ts : Fulda : 8 : 16 : d1 : major (oration_lat): **temporibus**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : Lesehore (versikel1_lat): **annuntiabis**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : Vesper (bitten_lat): **hodie**
+- Calendar.ts : Paderborn : 1 : 21 : d1 : major (oration_lat): **crescamus**
+- Calendar.ts : Paderborn : 2 : 9 : d1 : major (oration_lat): **eiusdem**
+- Calendar.ts : Paderborn : 4 : 30 : d11 : Laudes (genitiv_lat): **beatæ**
+- Calendar.ts : Paderborn : 4 : 30 : d11 : Laudes (vokativ_lat): **beata**
+- Calendar.ts : Paderborn : 11 : 7 : d11 : major (oration_lat): **honorem**
+- Calendar.ts : Paderborn : 12 : 16 : d1 : major (oration_lat): **augmentum**
+- PsHymn.ts : 1 : 0.0 (text_lat): **impii**
+- PsHymn.ts : 12 : 0.0 (text_lat): **filios**
+- PsHymn.ts : 17 : 0.0 (text_lat): **videant**, **sperantes**, **impio**
+- PsHymn.ts : 17 : 1.0 (text_lat): **videant**, **sperantes**
+- PsHymn.ts : 17 : 2.0 (text_lat): **impio**
+- PsHymn.ts : 18 : 5.0 (text_lat): **obœdivit**
+- PsHymn.ts : 18 : 6.0 (text_lat): **iniquo**
+- PsHymn.ts : 19 : 1.0 (text_lat): **finibus**
+- PsHymn.ts : 19 : 2.0 (text_lat): **reficiens**
+- PsHymn.ts : 22 : 1.0 (text_lat): **rugitus**
+- PsHymn.ts : 22 : 3.0 (text_lat): **familiæ**
+- PsHymn.ts : 22 : 4.0 (text_lat): **rugitus**
+- PsHymn.ts : 24 : 0.0 (text_lat): **æternales**
+- PsHymn.ts : 25 : 2.0 (text_lat): **dimitte**, **delicta**
+- PsHymn.ts : 26 : 0.0 (text_lat): **auditas**
+- PsHymn.ts : 27 : 0.0 (text_lat): **prœlium**
+- PsHymn.ts : 27 : 1.0 (text_lat): **prœlium**
+- PsHymn.ts : 31 : 2.0 (text_lat): **manibus**
+- PsHymn.ts : 33 : 0.0 (text_lat): **filios**
+- PsHymn.ts : 33 : 2.0 (text_lat): **filios**
+- PsHymn.ts : 35 : 3.0 (text_lat): **dixerunt**, **lætentur**
+- PsHymn.ts : 37 : 3.0 (text_lat): **quæsivi**
+- PsHymn.ts : 39 : 1.0 (text_lat): **delinquam**
+- PsHymn.ts : 45 : 0.0 (text_lat): **consortibus**, **æternum**
+- PsHymn.ts : 45 : 1.0 (text_lat): **consortibus**
+- PsHymn.ts : 45 : 2.0 (text_lat): **æternum**
+- PsHymn.ts : 48 : 0.0 (text_lat): **universæ**
+- PsHymn.ts : 49 : 1.0 (text_lat): **animæ**
+- PsHymn.ts : 50 : 3.0 (text_lat): **præcepta**, **odisti**
+- PsHymn.ts : 51 : 0.0 (text_lat): **vitulos**
+- PsHymn.ts : 59 : 0.0 (text_lat): **iniquitatem**
+- PsHymn.ts : 61 : 0.0 (text_lat): **deprecationem**, **intende**, **orationi**
+- PsHymn.ts : 66 : 2.0 (text_lat): **exaudivit**
+- PsHymn.ts : 69 : 3.0 (text_lat): **vitulum**
+- PsHymn.ts : 71 : 2.0 (text_lat): **iterum**
+- PsHymn.ts : 78 : 6.0 (text_lat): **elegit**
+- PsHymn.ts : 102 : 2.0 (text_lat): **audiret**
+- PsHymn.ts : 103 : 2.0 (text_lat): **longanimis**
+- PsHymn.ts : 103 : 4.0 (text_lat): **longanimis**
+- PsHymn.ts : 106 : 3.0 (text_lat): **audivit**
+- PsHymn.ts : 118 : 0.0 (text_lat): **exaudivit**
+- PsHymn.ts : 118 : 1.0 (text_lat): **exaudivit**
+- PsHymn.ts : 118 : 4.0 (text_lat): **exaudivit**
+- PsHymn.ts : 119 : 153.0 (text_lat): **veritas**
+- PsHymn.ts : 127 : 0.0 (text_lat): **vigilat**
+- PsHymn.ts : 132 : 2.0 (text_lat): **induam**
+- PsHymn.ts : 135 : 1.0 (text_lat): **percussit**
+- PsHymn.ts : 139 : 1.0 (text_lat): **dixero**
+- PsHymn.ts : 139 : 2.0 (text_lat): **opera**
+- PsHymn.ts : 140 : 0.0 (text_lat): **prœlia**
+- PsHymn.ts : 144 : 1.0 (text_lat): **prœlium**
+- PsHymn.ts : 144 : 3.0 (text_lat): **prœlium**
+- PsHymn.ts : 161 : 0.0 (text_lat): **omnia**
+- PsHymn.ts : 162 : 0.0 (text_lat): **electi**
+- PsHymn.ts : 162 : 1.0 (text_lat): **electi**
+- PsHymn.ts : 164 : 0.0 (text_lat): **oleo**
+- PsHymn.ts : 165 : 0.0 (text_lat): **alius**
+- PsHymn.ts : 166 : 0.0 (text_lat): **submersi**, **populo**
+- PsHymn.ts : 174 : 0.0 (text_lat): **gaudio**
+- PsHymn.ts : 176 : 0.0 (text_lat): **popule**
+- PsHymn.ts : 181 : 0.0 (text_lat): **arguet**, **montium**
+- PsHymn.ts : 181 : 1.0 (text_lat): **montium**
+- PsHymn.ts : 183 : 0.0 (text_lat): **ambulat**, **iustitiis**, **loquitur**, **æquitates**, **rapinis**, **excutit**, **munera**, **accipiat**, **obturat**, **audiat**, **sanguinem**, **oculos**, **videat**, **excelsis**, **habitabit**, **munimenta**, **saxorum**, **refugium**, **fideles**
+- PsHymn.ts : 185 : 0.0 (text_lat): **nescientes**
+- PsHymn.ts : 186 : 0.0 (text_lat): **acceptum**
+- PsHymn.ts : 193 : 2.0 (text_lat): **constitui**, **custodes**, **perpetuo**, **tacebunt**, **commonetis**, **taceatis**, **silentium**, **stabiliat**
+- PsHymn.ts : 194 : 0.0 (text_lat): **repleamini**
+- PsHymn.ts : 199 : 101.0 (text_lat): **locuta**
+- PsHymn.ts : 199 : 108.0 (text_lat): **populo**
+- PsHymn.ts : 199 : 121.0 (text_lat): **ideo**
+- PsHymn.ts : 199 : 123.0 (text_lat): **medio**, **sperabunt**
+- PsHymn.ts : 3412 : 1.0 (text_lat): **vitia**
+- PsHymn.ts : 4153 : 0.0 (text_lat): **omnìque**
+- PsHymn.ts : 4215 : 0.0 (text_lat): **agmina**
+- PsHymn.ts : 5616 : 0.0 (text_lat): **curia**
+- PsHymn.ts : 8204 : 102.0 (text_lat): **fuerat**, **instruens**
+- PsHymn.ts : 8204 : 104.0 (text_lat): **credito**
+- PsHymn.ts : 8605 : 104.0 (text_lat): **fecisti**
+- PsHymn.ts : 8815 : 2.0 (text_lat): **tuère**
+- PsHymn.ts : 8928 : 101.0 (text_lat): **litteris**
+- PsHymn.ts : 9010 : 2.0 (text_lat): **sæculorum**
+- PsHymn.ts : 9021 : 2.0 (text_lat): **faciem**
+- PsHymn.ts : 9119 : 101.0 (text_lat): **vitæque**, **adspicis**
+- PsHymn.ts : 9216 : 101.0 (text_lat): **litteris**, **imphrvias**, **cœtibus**
+- PsHymn.ts : 9216 : 102.0 (text_lat): **præsulum**, **æmulis**
+- Sollemnities.ts : kirchw : each : laudes (ant1_lat): **orationis**, **vocabitur**
+- Sollemnities.ts : verst : each : non (les_text_lat): **facie**
+
+## 2. Wörter ab 3 Silben ohne Akzent mit Großbuchstaben am Anfang
+
+162 verschiedene Wörter, 673 Vorkommen
+
+- Brevier.ts : a : 1 : 1 : Vesper (antev_lat): **Angelus**#
+- Brevier.ts : a : 1 : 2 : Laudes (antev_lat): **Domini**
+- Brevier.ts : a : 1 : 4 : each (oration_lat): **Excita**#
+- Brevier.ts : a : 1 : 5 : each (oration_lat): **Excita**
+- Brevier.ts : a : 2 : 4 : each (oration_lat): **Excita**
+- Brevier.ts : a : 2 : 4 : Laudes (antev_lat): **Israel**#
+- Brevier.ts : a : 2 : 6 : Laudes (antev_lat): **Israel**
+- Brevier.ts : a : 3 : 2 : Vesper (antev_lat): **Antequam**#
+- Brevier.ts : a : 4 : 0 : ErsteV (ant2_lat): **Israel**
+- Brevier.ts : a : 4 : 0 : ErsteV (antev_lat): **AntiphonaDiei**#
+- Brevier.ts : a : 4 : 0 : ErsteV (oration_lat): **Angelo**#
+- Brevier.ts : a : each : 0 : Vesper (bitten_lat): **Angelo**, **Oriens**#
+- Brevier.ts : a : each : 0 : Vesper (les_text_lat): **Iterum**#
+- Brevier.ts : a : each : 1 : Terz (les_text_lat): **Israel**
+- Brevier.ts : a : each : 1 : Non (les_text_lat): **Israel**
+- Brevier.ts : a : each : 2 : Sext (les_text_lat): **Israel**
+- Brevier.ts : a : each : 3 : Terz (les_text_lat): **Oculi**#
+- Brevier.ts : a : each : 3 : Vesper (bitten_lat): **Abrahæ**#, **Memento**
+- Brevier.ts : a : each : 4 : Terz (les_text_lat): **Israel**
+- Brevier.ts : a : each : 5 : Laudes (bitten_e_lat): **Ideo**#
+- Brevier.ts : a : each : 5 : Laudes (bitten_lat): **Omnibus**#
+- Brevier.ts : a : each : 5 : Vesper (bitten_lat): **Elige**#
+- Brevier.ts : a : each : 6 : Lesehore (versikel1_lat): **Israel**
+- Brevier.ts : a : each : 6 : Terz (les_text_lat): **Israel**
+- Brevier.ts : a : even : 2 : Vesper (bitten_lat): **Animas**#
+- Brevier.ts : a : last : 2 : Laudes (ant3_lat): **Domine**#
+- Brevier.ts : a : last : 2 : Vesper (ant3_lat): **Domine**
+- Brevier.ts : a : last : 6 : Laudes (ant3_lat): **Israel**
+- Brevier.ts : com : Apostel : each : Vesper (antev_lat): **Israel**
+- Brevier.ts : com : Apostel : Evang : Vesper (ant2_lat): **Omnia**#
+- Brevier.ts : com : Frau : each : Laudes (les_text_lat): **Obsecro**#
+- Brevier.ts : com : Hirten : each : ErsteV (antev_lat): **Omnibus**#
+- Brevier.ts : com : Hirten : each : Lesehore (versikel0_lat): **Audies**#
+- Brevier.ts : com : Mann : each : Laudes (les_text_lat): **Obsecro**
+- Brevier.ts : com : Mann : each : Non (ant0_lat): **Oculus**#
+- Brevier.ts : com : Mann : Pl : ErsteV (antev_lat): **Oculi**#
+- Brevier.ts : com : Maria : each : Laudes (ant2_lat): **Israel**
+- Brevier.ts : com : Maria : each : Terz (les_text_lat): **Israel**
+- Brevier.ts : com : Maria : each : Sext (resp0_lat): **Mariæ**
+- Brevier.ts : com : MariaSa : each : Laudes (antev_lat): **Israel**
+- Brevier.ts : com : MärtPl : each : Lesehore (versikel0_lat): **Anima**#
+- Brevier.ts : com : MärtPl : each : Laudes (ant1_lat): **Adiuva**#
+- Brevier.ts : com : MärtPl : o : Vesper (les_text_lat): **Ideo**#
+- Brevier.ts : com : MärtSg : each : Lesehore (ant1_lat): **Eritis**#
+- Brevier.ts : com : MärtSg : o : Vesper (les_text_lat): **Ideo**#
+- Brevier.ts : j : 1 : 0 : Non (les_text_lat): **Israel**
+- Brevier.ts : j : 3 : 0 : Laudes (anta_lat): **Ambulans**#
+- Brevier.ts : j : 9 : 0 : Vesper (antc_lat): **Israel**
+- Brevier.ts : j : 11 : 0 : Laudes (anta_lat): **Israel**
+- Brevier.ts : j : 16 : 0 : Vesper (antc_lat): **Optimam**#
+- Brevier.ts : j : 21 : 0 : Laudes (antc_lat): **Abraham**, **Isaac**#
+- Brevier.ts : j : 23 : 0 : Laudes (antb_lat): **Effetha**#
+- Brevier.ts : j : 26 : 0 : ErsteV (antc_lat): **Abrahæ**
+- Brevier.ts : j : 31 : 0 : Laudes (antc_lat): **Abrahæ**
+- Brevier.ts : j : 32 : 0 : Laudes (antc_lat): **Abraham**, **Isaac**
+- Brevier.ts : j : 34 : 0 : Laudes (ant1_lat): **Oriens**
+- Brevier.ts : j : 34 : 0 : Sext (les_text_lat): **Omnia**#
+- Brevier.ts : j : 34 : 0 : Vesper (les_text_lat): **Omnia**
+- Brevier.ts : j : 34 : each : Lesehore (oration_lat): **Excita**#
+- Brevier.ts : k : 1 : 3 : Vesper (bitten_e_lat): **Ideo**
+- Brevier.ts : k : 1 : 4 : Terz (les_text_lat): **Israel**
+- Brevier.ts : k : 1 : 5 : Non (les_text_lat): **Israel**
+- Brevier.ts : k : 1 : 7 : Sext (les_text_lat): **Israel**
+- Brevier.ts : k : 1 : 7 : Non (les_text_lat): **Israel**
+- Brevier.ts : k : 1 : 8 : Laudes (les_text_lat): **Israel**
+- Brevier.ts : k : 1 : 10 : Vesper (bitten_lat): **Adiuva**#
+- Brevier.ts : k : 1 : 11 : Terz (les_text_lat): **Israel**
+- Brevier.ts : k : 1 : 11 : Vesper (antev_lat): **Angelo**
+- Brevier.ts : k : 1 : 12 : Non (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 17 : Lesehore (versikel1_lat): **Israel**
+- Brevier.ts : k : 12 : 17 : Terz (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 17 : Vesper (antev_lat): **Sapientia**
+- Brevier.ts : k : 12 : 18 : Vesper (antev_lat): **Israel**
+- Brevier.ts : k : 12 : 18 : Vesper (les_text_lat): **Iterum**#
+- Brevier.ts : k : 12 : 19 : Terz (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 19 : Non (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 20 : each (oration_lat): **Angelo**
+- Brevier.ts : k : 12 : 20 : Sext (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 20 : Vesper (antev_lat): **Israel**
+- Brevier.ts : k : 12 : 20 : Vesper (bitten_lat): **Animas**
+- Brevier.ts : k : 12 : 21 : Terz (les_text_lat): **Oculi**
+- Brevier.ts : k : 12 : 21 : Vesper (antev_lat): **Oriens**
+- Brevier.ts : k : 12 : 22 : Terz (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 23 : Laudes (antev_lat): **Angelum**
+- Brevier.ts : k : 12 : 24 : Lesehore (versikel1_lat): **Israel**
+- Brevier.ts : k : 12 : 24 : Laudes (ant1_lat): **Israel**
+- Brevier.ts : k : 12 : 24 : Terz (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 28 : Vesper (bitten_r_lat): **Filii**
+- Brevier.ts : k : 12 : 28 : Vesper (bitten_lat): **Omnium**
+- Brevier.ts : k : 12 : 29 : Lesehore (ant3_lat): **Animas**
+- Brevier.ts : k : 12 : 29 : Laudes (bitten_lat): **Israel**, **Abraham**
+- Brevier.ts : k : 12 : 29 : Non (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 30 : Sext (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 30 : Non (les_text_lat): **Israel**
+- Brevier.ts : k : 12 : 31 : Laudes (antev_lat): **Angelo**
+- Brevier.ts : k : 12 : 31 : Laudes (bitten_lat): **Israel**
+- Brevier.ts : k : 12 : 31 : Laudes (les_text_lat): **Israel**
+- Brevier.ts : kso : 1 : 0 : Vigil (ant0_lat): **Israel**
+- Brevier.ts : kso : 1 : 0 : Laudes (anta_lat): **Israel**
+- Brevier.ts : kso : 2 : 0 : Non (les_text_lat): **Israel**
+- Brevier.ts : kso : 4 : 0 : each (oration_lat): **Angelo**
+- Brevier.ts : kso : 4 : 0 : Vesper (les_text_lat): **Iterum**
+- Brevier.ts : o : 1 : 4 : Lesehore (ant1_lat): **Israel**
+- Brevier.ts : o : 1 : 5 : Lesehore (ant2_lat): **Israel**
+- Brevier.ts : o : 2 : 3 : each (oration_lat): **Annua**#
+- Brevier.ts : o : 4 : 0 : Vesper (antb_lat): **Alias**
+- Brevier.ts : o : 4 : 1 : Vesper (antev_lat): **Alias**
+- Brevier.ts : o : 4 : 2 : Laudes (antev_lat): **Opera**#
+- Brevier.ts : o : 6 : 2 : Vesper (antev_lat): **Expedit**#
+- Brevier.ts : o : 6 : 3 : each (oration_lat): **Annue**#
+- Brevier.ts : o : 7 : 0 : ErsteV (bitten_lat): **Israel**
+- Brevier.ts : o : 7 : 1 : Vesper (bitten_lat): **Animas**
+- Brevier.ts : o : 7 : 3 : Laudes (bitten_e_lat): **Ideo**
+- Brevier.ts : o : 8 : 0 : ErsteV (bitten_lat): **Irriga**#
+- Brevier.ts : o : 8 : 0 : Laudes (les_text_lat): **Israel**
+- Brevier.ts : o : each : 0 : Vesper (bitten_lat): **Israel**
+- Brevier.ts : o : each : 4 : Laudes (bitten_lat): **Adiuva**#
+- Brevier.ts : o : each : 4 : Vesper (bitten_lat): **Adiuva**
+- Brevier.ts : o : each : 5 : Laudes (les_text_lat): **Israel**
+- Brevier.ts : o : each : 5 : Terz (les_text_lat): **Israel**
+- Brevier.ts : o : each : 5 : Non (les_text_lat): **Etenim**#, **Itaque**#
+- Brevier.ts : o : even : 3 : Vesper (bitten_lat): **Israel**
+- Brevier.ts : o : even : 5 : Laudes (bitten_lat): **Opera**, **Aperi**
+- Brevier.ts : p : 1 : 0 : ErsteV (resp3_lat): **Omnia**
+- Brevier.ts : p : 1 : 0 : ErsteV (bitten_lat): **Odio**
+- Brevier.ts : p : 1 : 1 : Vesper (ant1_lat): **Oculi**
+- Brevier.ts : p : 1 : 1 : Vesper (bitten_e_lat): **Ideo**
+- Brevier.ts : p : 1 : 2 : Laudes (ant1_lat): **Innocens**#
+- Brevier.ts : p : 1 : 3 : Laudes (bitten_e_lat): **Ideo**
+- Brevier.ts : p : 1 : 4 : Laudes (les_text_lat): **Omnia**
+- Brevier.ts : p : 1 : 5 : Laudes (ant2_lat): **Israel**
+- Brevier.ts : p : 2 : 0 : Terz (ant2_lat): **Israel**
+- Brevier.ts : p : 2 : 0 : Vesper (bitten_lat): **Animas**
+- Brevier.ts : p : 2 : 1 : Terz (les_text_lat): **Israel**
+- Brevier.ts : p : 2 : 3 : Laudes (bitten_e_lat): **Ideo**
+- Brevier.ts : p : 2 : 3 : Vesper (bitten_lat): **Aerem**#
+- Brevier.ts : p : 2 : 4 : Laudes (ant1_lat): **Excita**
+- Brevier.ts : p : 2 : 4 : Laudes (les_text_lat): **Itaque**
+- Brevier.ts : p : 2 : 4 : Vesper (bitten_e_lat): **Animas**
+- Brevier.ts : p : 2 : 4 : Vesper (les_text_lat): **Animas**
+- Brevier.ts : p : 2 : 5 : Lesehore (versikel0_lat): **Oculi**
+- Brevier.ts : p : 2 : 5 : Laudes (antev_lat): **Oriens**
+- Brevier.ts : p : 3 : 0 : ErsteV (resp3_lat): **Omnia**
+- Brevier.ts : p : 3 : 0 : Laudes (les_text_lat): **Israel**
+- Brevier.ts : p : 3 : 0 : Vesper (bitten_lat): **Omnibus**
+- Brevier.ts : p : 3 : 1 : Lesehore (ant2_lat): **Immola**#
+- Brevier.ts : p : 3 : 1 : Terz (resp0_lat): **Oculi**
+- Brevier.ts : p : 3 : 1 : Vesper (ant1_lat): **Oculi**
+- Brevier.ts : p : 3 : 1 : Vesper (bitten_e_lat): **Ideo**
+- Brevier.ts : p : 3 : 2 : Lesehore (versikel0_lat): **Audiam**#
+- Brevier.ts : p : 3 : 2 : Laudes (ant2_lat): **Anima**
+- Brevier.ts : p : 3 : 4 : Laudes (oration_lat): **Oriens**
+- Brevier.ts : p : 3 : 4 : Terz (ant2_lat): **Adiuva**
+- Brevier.ts : p : 3 : 4 : Non (les_text_lat): **Israel**
+- Brevier.ts : p : 3 : 4 : Vesper (bitten_lat): **Omnibus**
+- Brevier.ts : p : 3 : 5 : Laudes (bitten_e_lat): **Itaque**
+- Brevier.ts : p : 3 : 5 : Vesper (ant2_lat): **Israel**
+- Brevier.ts : p : 3 : 6 : Laudes (les_text_lat): **Omnia**
+- Brevier.ts : p : 3 : 6 : Terz (resp0_lat): **Sacrificium**
+- Brevier.ts : p : 4 : 1 : Lesehore (ant1_lat): **Israel**
+- Brevier.ts : p : 4 : 1 : Laudes (bitten_lat): **Aperi**
+- Brevier.ts : p : 4 : 1 : Laudes (les_text_lat): **Abraham**, **Isaac**
+- Brevier.ts : p : 4 : 1 : Terz (les_text_lat): **Eritis**#
+- Brevier.ts : p : 4 : 1 : Vesper (bitten_lat): **Omnibus**
+- Brevier.ts : p : 4 : 2 : Laudes (bitten_e_lat): **Ideo**
+- Brevier.ts : p : 4 : 3 : Laudes (ant2_lat): **Induit**#
+- Brevier.ts : p : 4 : 5 : Lesehore (ant2_lat): **Israel**
+- Brevier.ts : p : 4 : 5 : Laudes (antev_lat): **Oriens**
+- Brevier.ts : p : 4 : 5 : Vesper (ant2_lat): **Oculi**
+- Brevier.ts : p : 4 : 6 : Lesehore (ant3_lat): **Israel**
+- Brevier.ts : pj : 2 : 6 : Lesehore (ant2_lat): **Israel**
+- Brevier.ts : pj : 4 : 6 : Lesehore (ant2_lat): **Invoca**#
+- Brevier.ts : pj : 4 : 6 : Lesehore (ant3_lat): **Sacrificium**
+- Brevier.ts : po : 1 : 2 : Laudes (ant2_lat): **Agite**#
+- Brevier.ts : po : 1 : 5 : Laudes (ant2_lat): **Israel**
+- Brevier.ts : po : 3 : 2 : Vesper (ant2_lat): **Israel**
+- Brevier.ts : po : 3 : 5 : Laudes (ant1_lat): **Amplius**#
+- Brevier.ts : po : 4 : 1 : Laudes (ant3_lat): **Omnia**
+- Brevier.ts : po : 4 : 4 : Laudes (ant2_lat): **Iterum**#
+- Brevier.ts : po : 4 : 6 : Laudes (ant3_lat): **Omnia**
+- Brevier.ts : q : 0 : 3 : Laudes (ant2_lat): **Induit**#
+- Brevier.ts : q : 4 : 4 : Vesper (antev_lat): **Opera**
+- Brevier.ts : q : 5 : 0 : Laudes (ant2_lat): **Erue**#
+- Brevier.ts : q : 5 : 1 : Non (les_text_lat): **Israel**
+- Brevier.ts : q : 5 : 4 : Vesper (antev_lat): **Abraham**
+- Brevier.ts : q : 6 : 0 : Lesehore (versikel1_lat): **Omnia**
+- Brevier.ts : q : 6 : 1 : Non (les_text_lat): **Israel**
+- Brevier.ts : q : 6 : each : Lesehore (versikel1_lat): **Omnia**
+- Brevier.ts : q : each : 0 : Sext (les_text_lat): **Israel**
+- Brevier.ts : q : each : 1 : Vesper (les_text_lat): **Obsecro**
+- Brevier.ts : q : each : 2 : Vesper (bitten_lat): **Omnibus**
+- Brevier.ts : q : each : 3 : Terz (les_text_lat): **Israel**
+- Brevier.ts : q : each : 3 : Vesper (bitten_e_lat): **Ideo**
+- Brevier.ts : q : each : 3 : Vesper (les_text_lat): **Omnia**
+- Brevier.ts : q : each : 4 : Laudes (les_text_lat): **Israel**
+- Brevier.ts : q : each : 5 : Laudes (les_text_lat): **Ideo**
+- Brevier.ts : q : each : 6 : Sext (les_text_lat): **Israel**
+- Brevier.ts : q : each : each : Invitatorium (ant0_lat): **Utinam**#
+- Brevier.ts : q : each : each : Non (resp0_lat): **Sacrificium**
+- Brevier.ts : q : even : 0 : Vesper (bitten_e_lat): **Ideo**
+- Brevier.ts : q : even : 0 : Vesper (bitten_lat): **Angelus**
+- Brevier.ts : q : even : 1 : Laudes (bitten_lat): **Intimam**#
+- Brevier.ts : w : each : each : Terz (resp1_lat): **Israel**
+- Brevier.ts : w : okt : each : Laudes (ant2_lat): **Angelus**
+- Calendar.ts : AAA : 1 : 1 : oblig : Laudes (les_text_lat): **Israel**
+- Calendar.ts : AAA : 1 : 1 : oblig : Terz (resp1_lat): **Israel**
+- Calendar.ts : AAA : 1 : 1 : oblig : Terz (les_text_lat): **Israel**
+- Calendar.ts : AAA : 1 : 21 : oblig : Laudes (ant1_lat): **Anulo**#
+- Calendar.ts : AAA : 1 : 25 : oblig : Lesehore (ant2_lat): **Israel**
+- Calendar.ts : AAA : 1 : 66 : oblig : ErsteV (bitten_r_lat): **Animas**
+- Calendar.ts : AAA : 1 : 66 : oblig : Sext (les_text_lat): **Israel**
+- Calendar.ts : AAA : 1 : 66 : oblig : Vesper (bitten_r_lat): **Animas**
+- Calendar.ts : AAA : 1 : 67 : oblig : Non (les_text_lat): **Israel**
+- Calendar.ts : AAA : 1 : 27 : n1 : Laudes (genitiv_lat): **Angelæ**#
+- Calendar.ts : AAA : 2 : 2 : oblig : ErsteV (bitten_r_lat): **Oculi**
+- Calendar.ts : AAA : 2 : 2 : oblig : ErsteV (bitten_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Lesehore (ant1_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Laudes (ant1_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Laudes (ant3_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Laudes (bitten_r_lat): **Oculi**
+- Calendar.ts : AAA : 2 : 2 : oblig : Laudes (bitten_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Terz (resp1_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Terz (les_text_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Non (les_text_lat): **Israel**
+- Calendar.ts : AAA : 2 : 2 : oblig : Vesper (bitten_r_lat): **Oculi**
+- Calendar.ts : AAA : 2 : 2 : oblig : Vesper (bitten_lat): **Israel**
+- Calendar.ts : AAA : 2 : 14 : oblig : Laudes (genitiv_lat): **Cyrilli**, **Methodii**
+- Calendar.ts : AAA : 2 : 5 : oblig : major (oration_lat): **Agatha**#
+- Calendar.ts : AAA : 2 : 5 : oblig : Laudes (antev_lat): **Agatha**
+- Calendar.ts : AAA : 2 : 11 : n1 : Laudes (antev_lat): **Oriens**
+- Calendar.ts : AAA : 2 : 25 : n1 : major (oration_lat): **Walburgam**
+- Calendar.ts : AAA : 2 : 25 : n1 : Laudes (genitiv_lat): **Walburgæ**
+- Calendar.ts : AAA : 3 : 19 : oblig : Lesehore (ant1_lat): **Angelus**
+- Calendar.ts : AAA : 3 : 19 : oblig : Lesehore (ant2_lat): **Angelus**
+- Calendar.ts : AAA : 3 : 25 : oblig : ErsteV (bitten_e_lat): **Angelum**
+- Calendar.ts : AAA : 3 : 25 : oblig : Laudes (bitten_lat): **Angelo**
+- Calendar.ts : AAA : 3 : 25 : oblig : Terz (resp0_lat): **Angelus**
+- Calendar.ts : AAA : 3 : 25 : oblig : Vesper (ant1_lat): **Angelus**
+- Calendar.ts : AAA : 3 : 25 : oblig : Vesper (bitten_e_lat): **Angelum**
+- Calendar.ts : AAA : 3 : 15 : n1 : Laudes (genitiv_lat): **Mariæ**
+- Calendar.ts : AAA : 3 : 15 : n1 : Laudes (ant_komm_lat): **Omnibus**
+- Calendar.ts : AAA : 3 : 17 : n2 : Vesper (antev_lat): **Abraham**, **Isaac**
+- Calendar.ts : AAA : 4 : 5 : n1 : Vesper (ant_komm_lat): **Omnibus**
+- Calendar.ts : AAA : 4 : 28 : n2 : Laudes (genitiv_lat): **Mariæ**
+- Calendar.ts : AAA : 5 : 1 : n2 : Lesehore (ant1_lat): **Angelus**
+- Calendar.ts : AAA : 5 : 1 : n2 : Lesehore (ant2_lat): **Angelus**
+- Calendar.ts : AAA : 5 : 40 : oblig : ErsteV (antev_lat): **Posaunen**
+- Calendar.ts : AAA : 5 : 60 : oblig : ErsteV (ant2_lat): **Unitas**#
+- Calendar.ts : AAA : 5 : 60 : oblig : ErsteV (antev_lat): **Unitas**
+- Calendar.ts : AAA : 5 : 65 : oblig : Laudes (les_text_lat): **Israel**
+- Calendar.ts : AAA : 5 : 65 : oblig : Terz (les_text_lat): **Israel**
+- Calendar.ts : AAA : 5 : 10 : n1 : Laudes (genitiv_lat): **Avila**#
+- Calendar.ts : AAA : 5 : 10 : n1 : Laudes (vokativ_lat): **Avila**
+- Calendar.ts : AAA : 6 : 24 : oblig : ErsteV (les_text_lat): **Israel**
+- Calendar.ts : AAA : 6 : 24 : oblig : Vigil (ant0_lat): **Dominum**
+- Calendar.ts : AAA : 6 : 24 : oblig : Laudes (antev_lat): **Israel**
+- Calendar.ts : AAA : 6 : 24 : oblig : Laudes (bitten_r_lat): **Oriens**
+- Calendar.ts : AAA : 6 : 24 : oblig : Non (les_text_lat): **Israel**
+- Calendar.ts : AAA : 6 : 24 : oblig : Vesper (les_text_lat): **Israel**
+- Calendar.ts : AAA : 6 : 5 : oblig : each (oration_lat): **Domine**
+- Calendar.ts : AAA : 6 : 28 : oblig : major (oration_lat): **Irenæo**
+- Calendar.ts : AAA : 7 : 2 : oblig : Laudes (les_text_lat): **Israel**
+- Calendar.ts : AAA : 7 : 11 : oblig : Laudes (genitiv_lat): **Benedicti**
+- Calendar.ts : AAA : 7 : 26 : oblig : Laudes (antev_lat): **Israel**
+- Calendar.ts : AAA : 7 : 26 : oblig : Vesper (resp1_lat): **Israel**
+- Calendar.ts : AAA : 7 : 26 : oblig : Vesper (antev_lat): **Inclita**
+- Calendar.ts : AAA : 7 : 6 : n1 : Laudes (genitiv_lat): **Goretti**
+- Calendar.ts : AAA : 7 : 16 : n1 : major (oration_lat): **Adiuvet**#
+- Calendar.ts : AAA : 7 : 20 : n1 : major (oration_lat): **Margaretæ**
+- Calendar.ts : AAA : 7 : 31 : oblig : Laudes (antev_lat): **Utinam**
+- Calendar.ts : AAA : 8 : 15 : oblig : Terz (les_text_lat): **Ozias**
+- Calendar.ts : AAA : 8 : 29 : oblig : Laudes (bitten_r_lat): **Oriens**
+- Calendar.ts : AAA : 8 : 29 : oblig : Vesper (les_text_lat): **Israel**
+- Calendar.ts : AAA : 8 : 8 : oblig : major (oration_lat): **Adiuvet**
+- Calendar.ts : AAA : 8 : 14 : n1 : Laudes (genitiv_lat): **Mariæ**
+- Calendar.ts : AAA : 8 : 28 : oblig : major (oration_lat): **Innova**#
+- Calendar.ts : AAA : 9 : 8 : oblig : Laudes (ant1_lat): **Abrahæ**
+- Calendar.ts : AAA : 9 : 8 : oblig : Vesper (antev_lat): **Angelo**
+- Calendar.ts : AAA : 9 : 14 : oblig : Laudes (bitten_lat): **Israel**
+- Calendar.ts : AAA : 9 : 14 : oblig : Laudes (les_text_lat): **Videmus**
+- Calendar.ts : AAA : 9 : 15 : oblig : Vesper (les_text_lat): **Omnia**
+- Calendar.ts : AAA : 9 : 29 : oblig : Laudes (ant2_lat): **Angeli**
+- Calendar.ts : AAA : 9 : 29 : oblig : Laudes (les_text_lat): **Abraham**, **Isaac**
+- Calendar.ts : AAA : 9 : 29 : oblig : Non (resp0_lat): **Angelis**
+- Calendar.ts : AAA : 9 : 5 : n1 : Laudes (genitiv_lat): **Teresæ**
+- Calendar.ts : AAA : 9 : 20 : oblig : Laudes (genitiv_lat): **Andreæ**
+- Calendar.ts : AAA : 9 : 23 : oblig : major (oration_lat): **Filii**
+- Calendar.ts : AAA : 9 : 25 : n1 : Laudes (genitiv_lat): **Nicolæ**
+- Calendar.ts : AAA : 10 : 2 : oblig : Laudes (ant3_lat): **Angeli**
+- Calendar.ts : AAA : 10 : 2 : oblig : Terz (les_text_lat): **Angelus**
+- Calendar.ts : AAA : 10 : 2 : oblig : Vesper (resp1_lat): **Angelis**
+- Calendar.ts : AAA : 10 : 2 : oblig : Vesper (antev_lat): **Angeli**
+- Calendar.ts : AAA : 10 : 2 : oblig : Vesper (les_text_lat): **Angelus**
+- Calendar.ts : AAA : 10 : 7 : oblig : Vesper (ant1_lat): **Angelus**
+- Calendar.ts : AAA : 10 : 7 : oblig : each (oration_lat): **Angelo**
+- Calendar.ts : AAA : 10 : 5 : n1 : Laudes (genitiv_lat): **Faustinæ**
+- Calendar.ts : AAA : 10 : 9 : n2 : Laudes (genitiv_lat): **Leonardi**
+- Calendar.ts : AAA : 10 : 19 : n1 : major (oration_lat): **Isaac**
+- Calendar.ts : AAA : 10 : 19 : n1 : Laudes (genitiv_lat): **Isaac**
+- Calendar.ts : AAA : 10 : 19 : n2 : major (oration_lat): **Impetret**#
+- Calendar.ts : AAA : 10 : 21 : n1 : major (oration_lat): **Ursulæ**#
+- Calendar.ts : AAA : 10 : 21 : n1 : Laudes (genitiv_lat): **Ursulæ**
+- Calendar.ts : AAA : 11 : 1 : oblig : Laudes (ant3_lat): **Israel**
+- Calendar.ts : AAA : 11 : 1 : oblig : Non (les_text_lat): **Angelus**
+- Calendar.ts : AAA : 11 : 11 : oblig : Laudes (ant2_lat): **Oculis**
+- Calendar.ts : AAA : 11 : 11 : oblig : Laudes (ant3_lat): **Abrahæ**
+- Calendar.ts : AAA : 11 : 4 : oblig : Laudes (genitiv_lat): **Borromeo**
+- Calendar.ts : AAA : 11 : 12 : oblig : major (oration_lat): **Excita**#
+- Calendar.ts : AAA : 12 : 8 : oblig : ErsteV (ant2_lat): **Induit**
+- Calendar.ts : AAA : 12 : 8 : oblig : Laudes (les_text_lat): **Israel**
+- Calendar.ts : AAA : 12 : 8 : oblig : Vesper (ant2_lat): **Israel**
+- Calendar.ts : AAA : 12 : 25 : oblig : Non (les_text_lat): **Israel**
+- Calendar.ts : AAA : 12 : 24 : oblig : Lesehore (versikel1_lat): **Israel**
+- Calendar.ts : AAA : 12 : 24 : oblig : Laudes (ant1_lat): **Israel**
+- Calendar.ts : AAA : 12 : 24 : oblig : Terz (les_text_lat): **Israel**
+- Calendar.ts : AAA : 12 : 1 : n1 : Laudes (genitiv_lat): **Foucauld**
+- Calendar.ts : AAA : 13 : 6 : mar : Lesehore (oration_lat): **Adiuvet**
+- Calendar.ts : AAA : 13 : 6 : mar : Laudes (oration_lat): **Adiuvet**
+- Calendar.ts : Fulda : 6 : 5 : oblig : ErsteV (ant3_lat): **Altissimi**
+- Calendar.ts : Fulda : 6 : 5 : oblig : ErsteV (antev_lat): **Domino**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Laudes (bitten_r_lat): **Domine**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Laudes (bitten_lat): **Beatus**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Sext (ant0_lat): **Dominus**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Vesper (ant2_lat): **Ideo**
+- Calendar.ts : Fulda : 6 : 5 : oblig : Vesper (resp2_lat): **Dominus**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : ErsteV (ant2_lat): **Beatus**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : Lesehore (versikel0_lat): **Audies**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : Laudes (bitten_lat): **Gratias**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : Laudes (les_text_lat): **Iterum**
+- Calendar.ts : Paderborn : 7 : 23 : oblig : Vesper (ant2_lat): **Beatus**
+- Calendar.ts : Paderborn : 2 : 9 : d1 : major (oration_lat): **Mariam**
+- Calendar.ts : Paderborn : 4 : 30 : d11 : major (oration_lat): **Mallinckrodt**
+- Calendar.ts : Paderborn : 4 : 30 : d11 : Laudes (genitiv_lat): **Paulinæ**
+- Calendar.ts : Paderborn : 4 : 30 : d11 : Laudes (vokativ_lat): **Paulina**
+- LectureAlternatives.ts : VerstLesehore : les_selector : [2] (resp3_lat): **Amplius**
+- PsHymn.ts : 1 : 0.0 (text_lat): **Ideo**
+- PsHymn.ts : 2 : 0.0 (text_lat): **Filius**
+- PsHymn.ts : 8 : 0.0 (text_lat): **Omnia**
+- PsHymn.ts : 10 : 1.0 (text_lat): **Oculi**, **Irruit**#
+- PsHymn.ts : 11 : 0.0 (text_lat): **Oculi**
+- PsHymn.ts : 13 : 0.0 (text_lat): **Usquequo**#
+- PsHymn.ts : 14 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 17 : 0.0 (text_lat): **Auribus**#
+- PsHymn.ts : 17 : 1.0 (text_lat): **Auribus**
+- PsHymn.ts : 18 : 1.0 (text_lat): **Diligam**
+- PsHymn.ts : 19 : 2.0 (text_lat): **Etenim**#, **Iustitiæ**
+- PsHymn.ts : 22 : 1.0 (text_lat): **Israel**
+- PsHymn.ts : 22 : 2.0 (text_lat): **Erue**#, **Aruit**#
+- PsHymn.ts : 22 : 3.0 (text_lat): **Israel**, **Anima**
+- PsHymn.ts : 22 : 4.0 (text_lat): **Israel**, **Erue**, **Aruit**
+- PsHymn.ts : 23 : 0.0 (text_lat): **Etenim**
+- PsHymn.ts : 24 : 0.0 (text_lat): **Innocens**
+- PsHymn.ts : 25 : 2.0 (text_lat): **Israel**, **Oculi**, **Anima**
+- PsHymn.ts : 26 : 0.0 (text_lat): **Iudica**
+- PsHymn.ts : 31 : 2.0 (text_lat): **Eripe**
+- PsHymn.ts : 33 : 0.0 (text_lat): **Anima**, **Timeat**
+- PsHymn.ts : 33 : 1.0 (text_lat): **Timeat**
+- PsHymn.ts : 33 : 2.0 (text_lat): **Anima**
+- PsHymn.ts : 34 : 2.0 (text_lat): **Oculi**
+- PsHymn.ts : 35 : 1.0 (text_lat): **Omnia**, **Anima**, **Iudica**
+- PsHymn.ts : 35 : 3.0 (text_lat): **Etenim**
+- PsHymn.ts : 38 : 0.0 (text_lat): **Amici**
+- PsHymn.ts : 38 : 2.0 (text_lat): **Amici**
+- PsHymn.ts : 39 : 1.0 (text_lat): **Etenim**
+- PsHymn.ts : 39 : 2.0 (text_lat): **Etenim**, **Amove**#
+- PsHymn.ts : 41 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 43 : 0.0 (text_lat): **Iudica**
+- PsHymn.ts : 45 : 0.0 (text_lat): **Filiæ**
+- PsHymn.ts : 45 : 1.0 (text_lat): **Filiæ**
+- PsHymn.ts : 46 : 0.0 (text_lat): **Auferet**#
+- PsHymn.ts : 47 : 0.0 (text_lat): **Abraham**
+- PsHymn.ts : 49 : 1.0 (text_lat): **Etenim**
+- PsHymn.ts : 50 : 2.0 (text_lat): **Israel**, **Immola**
+- PsHymn.ts : 50 : 3.0 (text_lat): **Arguam**
+- PsHymn.ts : 51 : 0.0 (text_lat): **Amplius**#
+- PsHymn.ts : 53 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 55 : 1.0 (text_lat): **Auribus**
+- PsHymn.ts : 55 : 3.0 (text_lat): **Auribus**
+- PsHymn.ts : 57 : 0.0 (text_lat): **Anima**
+- PsHymn.ts : 59 : 0.0 (text_lat): **Eripe**
+- PsHymn.ts : 61 : 0.0 (text_lat): **Exaudi**
+- PsHymn.ts : 68 : 1.0 (text_lat): **Israel**
+- PsHymn.ts : 68 : 2.0 (text_lat): **Etenim**
+- PsHymn.ts : 68 : 3.0 (text_lat): **Israel**, **Increpa**#, **Ægypto**
+- PsHymn.ts : 69 : 1.0 (text_lat): **Israel**
+- PsHymn.ts : 69 : 2.0 (text_lat): **Eripe**
+- PsHymn.ts : 69 : 3.0 (text_lat): **Videant**
+- PsHymn.ts : 71 : 2.0 (text_lat): **Israel**
+- PsHymn.ts : 72 : 0.0 (text_lat): **Israel**, **Afferant**#, **Arabum**#
+- PsHymn.ts : 72 : 1.0 (text_lat): **Afferant**, **Arabum**
+- PsHymn.ts : 72 : 2.0 (text_lat): **Israel**
+- PsHymn.ts : 73 : 1.0 (text_lat): **Ideo**
+- PsHymn.ts : 74 : 1.0 (text_lat): **Usquequo**
+- PsHymn.ts : 76 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 76 : 1.0 (text_lat): **Israel**
+- PsHymn.ts : 77 : 0.0 (text_lat): **Vigiles**, **Aaron**
+- PsHymn.ts : 78 : 1.0 (text_lat): **Israel**, **Ægypti**
+- PsHymn.ts : 78 : 2.0 (text_lat): **Israel**, **Ideo**
+- PsHymn.ts : 78 : 4.0 (text_lat): **Israel**, **Ægypto**
+- PsHymn.ts : 78 : 5.0 (text_lat): **Israel**, **Abstulit**#
+- PsHymn.ts : 78 : 6.0 (text_lat): **Israel**
+- PsHymn.ts : 79 : 0.0 (text_lat): **Adiuva**, **Usquequo**
+- PsHymn.ts : 80 : 0.0 (text_lat): **Excita**, **Israel**
+- PsHymn.ts : 81 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 82 : 0.0 (text_lat): **Usquequo**
+- PsHymn.ts : 84 : 0.0 (text_lat): **Etenim**
+- PsHymn.ts : 85 : 0.0 (text_lat): **Etenim**, **Audiam**
+- PsHymn.ts : 86 : 0.0 (text_lat): **Auribus**
+- PsHymn.ts : 86 : 1.0 (text_lat): **Auribus**
+- PsHymn.ts : 88 : 0.0 (text_lat): **Oculi**
+- PsHymn.ts : 88 : 2.0 (text_lat): **Oculi**
+- PsHymn.ts : 89 : 1.0 (text_lat): **Israel**
+- PsHymn.ts : 89 : 5.0 (text_lat): **Usquequo**
+- PsHymn.ts : 93 : 0.0 (text_lat): **Etenim**
+- PsHymn.ts : 94 : 1.0 (text_lat): **Usquequo**, **Viduam**
+- PsHymn.ts : 94 : 2.0 (text_lat): **Irruunt**#
+- PsHymn.ts : 95 : 0.0 (text_lat): **Utinam**#, **Venite**
+- PsHymn.ts : 96 : 0.0 (text_lat): **Etenim**
+- PsHymn.ts : 96 : 2.0 (text_lat): **Etenim**
+- PsHymn.ts : 98 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 99 : 0.0 (text_lat): **Aaron**
+- PsHymn.ts : 101 : 0.0 (text_lat): **Oculi**
+- PsHymn.ts : 103 : 1.0 (text_lat): **Israel**, **Benedic**
+- PsHymn.ts : 103 : 3.0 (text_lat): **Benedic**
+- PsHymn.ts : 103 : 4.0 (text_lat): **Israel**, **Benedic**
+- PsHymn.ts : 103 : 5.0 (text_lat): **Benedic**
+- PsHymn.ts : 104 : 1.0 (text_lat): **Benedic**
+- PsHymn.ts : 104 : 2.0 (text_lat): **Oritur**#
+- PsHymn.ts : 104 : 3.0 (text_lat): **Omnia**
+- PsHymn.ts : 105 : 1.0 (text_lat): **Israel**, **Abraham**, **Isaac**
+- PsHymn.ts : 105 : 3.0 (text_lat): **Israel**, **Abraham**, **Aaron**, **Edidit**#
+- PsHymn.ts : 106 : 1.0 (text_lat): **Aaron**
+- PsHymn.ts : 106 : 2.0 (text_lat): **Ægypto**
+- PsHymn.ts : 106 : 3.0 (text_lat): **Israel**
+- PsHymn.ts : 114 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 115 : 0.0 (text_lat): **Israel**, **Aaron**, **Similes**
+- PsHymn.ts : 118 : 0.0 (text_lat): **Israel**, **Aaron**
+- PsHymn.ts : 118 : 1.0 (text_lat): **Israel**, **Aaron**
+- PsHymn.ts : 118 : 4.0 (text_lat): **Israel**, **Aaron**
+- PsHymn.ts : 118 : 9.0 (text_lat): **Israel**
+- PsHymn.ts : 119 : 1.0 (text_lat): **Utinam**
+- PsHymn.ts : 119 : 17.0 (text_lat): **Benefac**, **Incola**#
+- PsHymn.ts : 119 : 33.0 (text_lat): **Amove**
+- PsHymn.ts : 119 : 57.0 (text_lat): **Portio**
+- PsHymn.ts : 119 : 81.0 (text_lat): **Omnia**
+- PsHymn.ts : 119 : 105.0 (text_lat): **Anima**
+- PsHymn.ts : 119 : 113.0 (text_lat): **Duplices**
+- PsHymn.ts : 119 : 121.0 (text_lat): **Oculi**, **Ideo**
+- PsHymn.ts : 121 : 0.0 (text_lat): **Israel**, **Levabo**
+- PsHymn.ts : 122 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 124 : 0.0 (text_lat): **Israel**, **Anima**
+- PsHymn.ts : 125 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 128 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 129 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 130 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 131 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 132 : 1.0 (text_lat): **Ephratha**#
+- PsHymn.ts : 133 : 0.0 (text_lat): **Aaron**
+- PsHymn.ts : 135 : 1.0 (text_lat): **Israel**, **Omnia**
+- PsHymn.ts : 135 : 2.0 (text_lat): **Israel**, **Aaron**
+- PsHymn.ts : 136 : 2.0 (text_lat): **Israel**
+- PsHymn.ts : 136 : 3.0 (text_lat): **Israel**
+- PsHymn.ts : 136 : 4.0 (text_lat): **Israel**
+- PsHymn.ts : 136 : 5.0 (text_lat): **Israel**
+- PsHymn.ts : 140 : 0.0 (text_lat): **Eripe**
+- PsHymn.ts : 141 : 0.0 (text_lat): **Domine**
+- PsHymn.ts : 143 : 0.0 (text_lat): **Eripe**
+- PsHymn.ts : 144 : 2.0 (text_lat): **Eripe**
+- PsHymn.ts : 145 : 3.0 (text_lat): **Oculi**, **Allevat**#, **Aperis**#
+- PsHymn.ts : 147 : 1.0 (text_lat): **Ædificans**
+- PsHymn.ts : 147 : 2.0 (text_lat): **Israel**
+- PsHymn.ts : 148 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 149 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 153 : 0.0 (text_lat): **Omnia**
+- PsHymn.ts : 157 : 0.0 (text_lat): **Quoniam**
+- PsHymn.ts : 160 : 0.0 (text_lat): **Israel**, **Benedic**, **Benedicat**
+- PsHymn.ts : 161 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 162 : 0.0 (text_lat): **Israel**, **Agite**#
+- PsHymn.ts : 162 : 1.0 (text_lat): **Israel**, **Agite**
+- PsHymn.ts : 164 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 165 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 171 : 0.0 (text_lat): **Israel**, **Innova**, **Alleva**#
+- PsHymn.ts : 174 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 175 : 0.0 (text_lat): **Operit**#, **Egressus**
+- PsHymn.ts : 176 : 0.0 (text_lat): **Israel**
+- PsHymn.ts : 182 : 0.0 (text_lat): **Anima**
+- PsHymn.ts : 192 : 0.0 (text_lat): **Israel**, **Abraham**, **Isaac**
+- PsHymn.ts : 193 : 2.0 (text_lat): **Dominum**, **Ierusalem**
+- PsHymn.ts : 195 : 0.0 (text_lat): **Anima**
+- PsHymn.ts : 195 : 2.0 (text_lat): **Israel**, **Anima**, **Ostia**
+- PsHymn.ts : 195 : 3.0 (text_lat): **Anima**
+- PsHymn.ts : 199 : 102.0 (text_lat): **Etenim**
+- PsHymn.ts : 199 : 104.0 (text_lat): **Ideo**
+- PsHymn.ts : 199 : 106.0 (text_lat): **Beatus**
+- PsHymn.ts : 199 : 107.0 (text_lat): **Ideo**
+- PsHymn.ts : 199 : 108.0 (text_lat): **Israel**
+- PsHymn.ts : 199 : 109.0 (text_lat): **Opera**
+- PsHymn.ts : 199 : 115.0 (text_lat): **Israel**
+- PsHymn.ts : 199 : 118.0 (text_lat): **Israel**
+- PsHymn.ts : 199 : 123.0 (text_lat): **Israel**
+- PsHymn.ts : 3211 : 1.0 (text_lat): **Intonat**#
+- PsHymn.ts : 3211 : 2.0 (text_lat): **Assidet**#
+- PsHymn.ts : 3221 : 2.0 (text_lat): **Angeli**
+- PsHymn.ts : 3221 : 3.0 (text_lat): **Abrahæ**
+- PsHymn.ts : 3241 : 1.0 (text_lat): **Unice**#
+- PsHymn.ts : 3311 : 2.0 (text_lat): **Unitas**#
+- PsHymn.ts : 3321 : 2.0 (text_lat): **Unitas**
+- PsHymn.ts : 3341 : 2.0 (text_lat): **Unitas**
+- PsHymn.ts : 4006 : 1.0 (text_lat): **Unice**
+- PsHymn.ts : 4009 : 1.0 (text_lat): **Unice**
+- PsHymn.ts : 4105 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4112 : 1.0 (text_lat): **Unice**
+- PsHymn.ts : 4115 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4122 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4125 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4135 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4145 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4152 : 1.0 (text_lat): **Unitas**, **Unice**
+- PsHymn.ts : 4153 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4155 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4162 : 1.0 (text_lat): **Unice**
+- PsHymn.ts : 4200 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4202 : 1.0 (text_lat): **Israel**
+- PsHymn.ts : 4205 : 0.0 (text_lat): **Unitas**
+- PsHymn.ts : 4223 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4225 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4233 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4242 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4245 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 4262 : 0.0 (text_lat): **Unitas**
+- PsHymn.ts : 5498 : 0.0 (text_lat): **Angelus**
+- PsHymn.ts : 5509 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 5580 : 3.0 (text_lat): **Inclitus**#
+- PsHymn.ts : 5600 : 0.0 (text_lat): **Unice**
+- PsHymn.ts : 8101 : 104.0 (text_lat): **Omega**#
+- PsHymn.ts : 8204 : 102.0 (text_lat): **Blandior**
+- PsHymn.ts : 8325 : 2.0 (text_lat): **Angelus**
+- PsHymn.ts : 8325 : 4.0 (text_lat): **Angelus**
+- PsHymn.ts : 8501 : 2.0 (text_lat): **Artifex**#
+- PsHymn.ts : 8605 : 101.0 (text_lat): **Impias**#
+- PsHymn.ts : 8611 : 0.0 (text_lat): **Abdicans**#
+- PsHymn.ts : 8629 : 0.0 (text_lat): **Aurea**
+- PsHymn.ts : 8723 : 502.0 (text_lat): **Unice**
+- PsHymn.ts : 8726 : 4.0 (text_lat): **Abrahæ**
+- PsHymn.ts : 8815 : 2.0 (text_lat): **Asseclas**#
+- PsHymn.ts : 8913 : 0.0 (text_lat): **Aureo**
+- PsHymn.ts : 8928 : 101.0 (text_lat): **Anglia**#
+- PsHymn.ts : 8929 : 104.0 (text_lat): **Angelus**, **Angelum**
+- PsHymn.ts : 9010 : 2.0 (text_lat): **Abrahæ**
+- PsHymn.ts : 9021 : 2.0 (text_lat): **Obviam**#
+- PsHymn.ts : 9101 : 1.0 (text_lat): **Omnium**
+- PsHymn.ts : 9201 : 1.0 (text_lat): **Ordinat**#
+- PsHymn.ts : 9228 : 2.0 (text_lat): **Israel**
+- Sollemnities.ts : kirchw : each : laudes (ant3_lat): **Laudate**
+- Sollemnities.ts : verst : each : each (oration_lat): **OmniumDefunctorum**
+- Sollemnities.ts : verst : each : lesehore : les_selector : [2] (resp3_lat): **Amplius**#
+
+## 3. Unsichere Silbenzahl (2 oder 3)
+
+10 verschiedene Wörter, 16 Vorkommen
+
+- Brevier.ts : com : Maria : each : ErsteV (ant3_lat): **vitae** (2–3 Silben: ae ohne Ligatur – Tippfehler für æ/œ?)
+- Brevier.ts : j : 8 : 0 : ErsteV (antc_lat): **Eice** (2–3 Silben: ei (Diphthong?))
+- Brevier.ts : p : 2 : 0 : Lesehore (versikel1_lat): **vestrae** (2–3 Silben: ae ohne Ligatur – Tippfehler für æ/œ?)
+- Brevier.ts : p : 4 : 5 : Lesehore (versikel1_lat): **meae** (2–3 Silben: ae ohne Ligatur – Tippfehler für æ/œ?)
+- Brevier.ts : p : 4 : 6 : Lesehore (ant2_lat): **suae** (1–3 Silben: ae ohne Ligatur – Tippfehler für æ/œ?; su+V (suavis?))
+- Brevier.ts : q : 6 : 4 : Vesper (ant1_lat): **terrae** (2–3 Silben: ae ohne Ligatur – Tippfehler für æ/œ?)
+- Calendar.ts : AAA : 1 : 21 : n1 : major (oration_lat): **Meinrad** (2–3 Silben: ei (Diphthong?))
+- Calendar.ts : Fulda : 9 : 28 : oblig : Laudes (antev_lat): **vitae** (2–3 Silben: ae ohne Ligatur – Tippfehler für æ/œ?)
+- PsHymn.ts : 60 : 0.0 (text_lat): **Ephraim** (2–3 Silben: ai (Diphthong?))
+- PsHymn.ts : 68 : 1.0 (text_lat): **Sinai** (2–3 Silben: ai (Diphthong?))
+- PsHymn.ts : 78 : 1.0 (text_lat): **Ephraim** (2–3 Silben: ai (Diphthong?))
+- PsHymn.ts : 78 : 6.0 (text_lat): **Ephraim** (2–3 Silben: ai (Diphthong?))
+- PsHymn.ts : 80 : 0.0 (text_lat): **Ephraim** (2–3 Silben: ai (Diphthong?))
+- PsHymn.ts : 108 : 0.0 (text_lat): **Ephraim** (2–3 Silben: ai (Diphthong?))
+- PsHymn.ts : 183 : 0.0 (text_lat): **reicit** (2–3 Silben: ei (Diphthong?))
+- PsHymn.ts : 199 : 122.0 (text_lat): **Ephraim** (2–3 Silben: ai (Diphthong?))
+
+# Teil B: Psalm-Überschriften und -Zitate (title_lat, quote_lat) – sollen keine Akzente haben
+
+## Wörter MIT Akzent (zu entfernen)
+
+35 verschiedene Wörter, 39 Vorkommen
+
+- PsHymn.ts : 107 : 1.0 (quote_lat): **fíliis**
+- PsHymn.ts : 170 : 0.0 (quote_lat): **sǽcula**
+- PsHymn.ts : 3313 : 0.0 (title_lat): **gloriósi**, **prœ́lium**, **certáminis**
+- PsHymn.ts : 3313 : 1.0 (title_lat): **gloriósi**, **prœ́lium**, **certáminis**
+- PsHymn.ts : 3944 : 1.0 (title_lat): **gloriósi**, **córporis**, **mystérium**
+- PsHymn.ts : 5446 : 0.0 (title_lat): **Anguláris**, **fundaméntum**
+- PsHymn.ts : 5537 : 0.0 (title_lat): **convállium**
+- PsHymn.ts : 5546 : 0.0 (title_lat): **castitátis**, **sígnifer**
+- PsHymn.ts : 5553 : 0.0 (title_lat): **Vírginis**, **opiféxque**
+- PsHymn.ts : 8204 : 103.0 (title_lat): **creátor**, **Spíritus**
+- PsHymn.ts : 8605 : 101.0 (title_lat): **Bonifáti**
+- PsHymn.ts : 8605 : 102.0 (title_lat): **Cáritas**, **contumáces**
+- PsHymn.ts : 8629 : 2.0 (title_lat): **Apostolórum**, **pássio**, **sacrávit**, **sǽculi**
+- PsHymn.ts : 8928 : 101.0 (title_lat): **Instánte**, **Bonifátio**, **venísti**
+- PsHymn.ts : 8928 : 102.0 (title_lat): **Favénte**, **grátia**, **fidéles**, **féminas**
+- PsHymn.ts : 9216 : 101.0 (title_lat): **relíctis**, **sequúntur**, **ómnibus**
+- PsHymn.ts : 9216 : 102.0 (title_lat): **carébit**, **pérfido**
+
+# Teil C: Nebenbefunde
+
+## Nicht ersetzte Akzentmarkierung `<`
+
+`<` markiert den folgenden Vokal bzw. die Ligatur für einen Akzent; die Makro-Ersetzung ist hier ausgeblieben.
+
+- `annunti<abis` — Calendar.ts : Paderborn : 7 : 23 : oblig : Lesehore (versikel1_lat)
+- `pr<œlia` — PsHymn.ts : 140 : 0.0 (text_lat)
+
+## Auffällige Zeichen innerhalb von Wörtern (Tippfehler?)
+
+Nicht gewertet: `>` (Elision in Hymnen). Gemeldet: Ziffern, `|` in _lat-Feldern sowie Gravis.
+
+- `longani1mis` — PsHymn.ts : 103 : 2.0 (text_lat)
+- `longani1mis` — PsHymn.ts : 103 : 4.0 (text_lat)
+- `omnìque` — PsHymn.ts : 4153 : 0.0 (text_lat)
+- `tuère` — PsHymn.ts : 8815 : 2.0 (text_lat)
+
+## Offenbar deutscher Text in _lat-Feldern
+
+- Brevier.ts : p : 2 : 3 : Terz (versikel1_lat): „Der Herr ist gerecht, er liebt gerechtes Handeln.“
+- Calendar.ts : AAA : 5 : 40 : oblig : ErsteV (antev_lat): „Der Herr beim Schall der Posaunen.“

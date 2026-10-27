@@ -258,9 +258,12 @@ const SectionHeader = ({
         && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSource]?.ant0 || texts[hour][prefSource]?.ant1);
-    const hasContinuous = hour === 'lesehore' && !!texts.lesehore?.continuous;
     const showContinuous = askContinuous && hour === 'lesehore' && !isCommemoration
-        && (hasContinuous || (hasEig && hasWt));
+        && ((hasEig && hasWt)
+            // Allerseelen:
+            || (texts?.date?.mmdd === '11-02' && !prefSollemnity)
+            // Wochentagslesung, die an Hochfesten gesichert worden ist:
+            || texts.lesehore?.continuous);
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isLesung = field.includes('_text') && hour === 'lesehore';
     const isContinuous = isLesung && localPrefContinuous;
@@ -495,13 +498,12 @@ const SectionHeader = ({
             )}
             {showContinuous && (
                 <ButtonGroup>
-                    {(hasEig || hasContinuous) && (<button
+                    <button
                         onClick={() => setLocalPrefContinuous(false)}
                         className={!localPrefContinuous ? 'underline' : ''}
                     >
                         Eigenlesung
                     </button>
-                    )}
                     {" | "}
                     <button
                         onClick={() => setLocalPrefContinuous(true)}
