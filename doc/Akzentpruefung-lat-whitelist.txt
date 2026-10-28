@@ -60,6 +60,7 @@ Etenim
 Exaudi
 Excita
 Expedit
+Foucauld
 Ideo
 Immola
 Impetret
@@ -82,6 +83,7 @@ Isaac
 Israel
 Itaque
 Iterum
+Mallinckrodt
 Meinrad
 Obsecro
 Obviam
@@ -107,4 +109,6 @@ Unitas
 Ursulæ
 Usquequo
 Utinam
+baráthro
+bárathro
 Ædificans

@@ -204,7 +204,7 @@ export const sollemnitiesData = {
                 "hymn_1_lat": 5446,
                 "ant1_lat": "Domus meus domus oratiónis vocábitur.^ALLo",
                 "ant2_lat": "Benedíctus es, Dómine, in templo sancto tuo.^ALLo",
-                "ant3_lat": "Laudate Dóminum in ecclésia sanctórum.^ALLo",
+                "ant3_lat": "Laudáte Dóminum in ecclésia sanctórum.^ALLo",
                 "resp1_lat": "Magnus Dóminus",
                 "resp2_lat": "et laudábilis nimis.",
                 "resp3_lat": "In civitáte Dei nostri, in monte sancto eius.",
@@ -546,7 +546,7 @@ export const sollemnitiesData = {
                 "ant0_lat": "Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me.",
                 "resp0_lat": "Exáudi, Deus, oratiónem meam.",
                 "resp1_lat": "Ad te omnis caro véniet.",
-                "les_text_lat": "Præcipitábit mortem in sempitérnum et abstérget Dóminus Deus lácrimam ab omni facie et oppróbrium pópuli sui áuferet de univérsa terra, quia Dóminus locútus est."
+                "les_text_lat": "Præcipitábit mortem in sempitérnum et abstérget Dóminus Deus lácrimam ab omni fácie et oppróbrium pópuli sui áuferet de univérsa terra, quia Dóminus locútus est."
             },
             "vesper": {
                 "hymn_1": 2512.0,
