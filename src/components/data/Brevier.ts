@@ -3361,7 +3361,7 @@ export const brevierData = {
           "bitten_e_lat": "Hac hora, qua Rex mártyrum vitam suam in cena óbtulit et in cruce depósuit, grátias agámus illi, dicéntes:",
           "bitten_r_lat": "Te, Dómine, celebrámus.",
           "bitten_lat": "Te, Dómine, celebrámus, quia in finem dilexísti nos, salvátor noster, omnis martýrii fons et exémplum:^pQuia omnes peccatóres pæniténtes in prǽmium vitæ vocásti:^pQuia sánguinem novi et aetérni testaménti, in remissiónem peccatórum effúsum, hódie obtúlimus:^pQuia hac die per grátiam tuam in fide perseverávimus:^pQuia tuæ morti multos fratres hódie sociásti:",
-          "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persécutio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos. Certus sum enim quia neque mors neque vita neque ángeli neque principátus neque instántia neque futúra neque virtútes neque altitúdo neque profúndum neque ália quǽlibet creatúra póterit nos separáre a caritáte Dei, quæ est in Christo Iesu Dómino nostro."
+          "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persecútio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos. Certus sum enim quia neque mors neque vita neque ángeli neque principátus neque instántia neque futúra neque virtútes neque altitúdo neque profúndum neque ália quǽlibet creatúra póterit nos separáre a caritáte Dei, quæ est in Christo Iesu Dómino nostro."
         },
         "Invitatorium": {
           "ant0": "Den Herrn, den König der Märtyrer – kommt,°wir°beten°ihn°an!",
@@ -3786,7 +3786,7 @@ export const brevierData = {
           "bitten_e_lat": "Hac hora, qua Rex mártyrum vitam suam in cena óbtulit et in cruce depósuit, grátias agámus illi, dicéntes:",
           "bitten_r_lat": "Te, Dómine, celebrámus.",
           "bitten_lat": "Te, Dómine, celebrámus, quia in finem dilexísti nos, salvátor noster, omnis martýrii fons et exémplum:^pQuia omnes peccatóres pæniténtes in prǽmium vitæ vocásti:^pQuia sánguinem novi et ætérni testaménti, in remissiónem peccatórum effúsum, hódie obtúlimus:^pQuia hac die per grátiam tuam in fide perseverávimus:^pQuia tuæ morti multos fratres hódie sociásti:",
-          "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persécutio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos. Certus sum enim quia neque mors neque vita neque ángeli neque principátus neque instántia neque futúra neque virtútes neque altitúdo neque profúndum neque ália quǽlibet creatúra póterit nos separáre a caritáte Dei, quæ est in Christo Iesu Dómino nostro."
+          "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persecútio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos. Certus sum enim quia neque mors neque vita neque ángeli neque principátus neque instántia neque futúra neque virtútes neque altitúdo neque profúndum neque ália quǽlibet creatúra póterit nos separáre a caritáte Dei, quæ est in Christo Iesu Dómino nostro."
         },
         "Invitatorium": {
           "ant0": "Den Herrn, den König der Märtyrer – kommt,°wir°beten°ihn°an!^HALLo",
@@ -4655,7 +4655,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV",
-          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te supplíces exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
+          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te súpplices exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
         },
         "ErsteV": {
           "anta": "Hört auf die Gebote des Herrn, eures Gottes, und er wird euch segnen.",
@@ -4668,7 +4668,7 @@ export const brevierData = {
           "anta_lat": "Non omnis qui dicit mihi: Dómine, Dómine, intrábit in regnum cælórum, sed qui facit voluntátem Patris mei, qui in cælis est, ipse intrábit in regnum cælórum.",
           "antb_lat": "Sábbatum propter hóminem factum est, et non homo propter sábbatum, dicit Dóminus.",
           "antc_lat": "Cum audísset centúrio de Iesu, misit ad eum senióres Iudæórum, rogans eum, ut veníret et salváret servum eius.",
-          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te supplíces exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
+          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te súpplices exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
         },
         "Laudes": {
           "anta": "Wer meine Worte hört und sie befolgt, der gleicht einem klugen Mann, der sein Haus auf Fels gebaut hat.",
@@ -4696,7 +4696,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV",
-          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te supplíces exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
+          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te súpplices exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
         }
       }
     },
@@ -4802,7 +4802,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
-          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instrúis.^ORlV"
+          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis.^ORlV"
         },
         "ErsteV": {
           "anta": "Rühmt den Namen des Herrn; er rettet das Leben der Armen.",
@@ -4815,7 +4815,7 @@ export const brevierData = {
           "anta_lat": "Quod dico vobis in ténebris dícite in lúmine; et quod in aure audítis, prædicáte super tecta.",
           "antb_lat": "Dómine, salva nos, perímus; ímpera et fac, Deus, tranquillitátem.",
           "antc_lat": "Dixit Iesus discípulis suis: Vos autem quem me esse dícitis? Respóndens Petrus dixit: Christus Dei.",
-          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instrúis.^ORlV"
+          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis.^ORlV"
         },
         "Laudes": {
           "anta": "Was ich euch im Dunkeln sage, das verkündet am hellen Tag.",
@@ -4843,7 +4843,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
-          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instrúis.^ORlV"
+          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis.^ORlV"
         }
       }
     },
@@ -5537,7 +5537,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita supplícum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia métuit, et adícias quod orátio non præsúmit.^ORlV"
+          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita súpplicum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia métuit, et adícias quod orátio non præsúmit.^ORlV"
         },
         "ErsteV": {
           "anta": "Der Weinberg des Herrn der Heere ist das Haus Israel.",
@@ -5550,7 +5550,7 @@ export const brevierData = {
           "anta_lat": "Cum tempus frúctuum appropinquásset, dóminus víneæ misit servos suos ad agrícolas, ut accíperent fructus eius.",
           "antb_lat": "Accedéntes pharisǽi interrogábant Iesum: Si licet viro uxórem dimíttere. Quibus respóndens ait: Quod Deus coniúnxit, homo non séparet.",
           "antc_lat": "Dixérunt apóstoli Dómino: Adáuge nobis fidem!^ALLxq",
-          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita supplícum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia métuit, et adícias quod orátio non præsúmit.^ORlV"
+          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita súpplicum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia métuit, et adícias quod orátio non præsúmit.^ORlV"
         },
         "Laudes": {
           "anta": "Der Stein, den die Bauleute verwarfen, er ist zum Eckstein geworden.",
@@ -5578,7 +5578,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita supplícum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia métuit, et adícias quod orátio non præsúmit.^ORlV"
+          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita súpplicum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia métuit, et adícias quod orátio non præsúmit.^ORlV"
         }
       }
     },
@@ -5733,7 +5733,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offénsióne currámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offensióne currámus.^ORlV"
         },
         "ErsteV": {
           "anta": "Alle haben wir denselben Vater, uns alle hat der eine Gott erschaffen. Warum handeln wir treulos einer gegen den andern?",
@@ -5746,7 +5746,7 @@ export const brevierData = {
           "anta_lat": "Omnes vos fratres estis: unus est Pater vester, qui in cælis est.",
           "antb_lat": "Díliges Dóminum Deum tuum ex toto corde tuo. Díliges próximum tuum tamquam teípsum. Maius horum áliud mandátum non est.",
           "antc_lat": "Zachǽe, festínans descénde, quia hódie in domo tua opórtet me manére; at ille festínans descéndit et excépit illum gaudens in domo sua.",
-          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offénsióne currámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offensióne currámus.^ORlV"
         },
         "Laudes": {
           "anta": "Nur einer ist euer Meister, ihr alle aber seid Brüder. Der Größte unter euch soll euer Diener sein.",
@@ -5774,7 +5774,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offénsióne currámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offensióne currámus.^ORlV"
         }
       }
     },
@@ -12009,7 +12009,7 @@ export const brevierData = {
           "bitten_e_lat": "Benedíctus Deus salvátor noster, qui usque ad consummatiónem sǽculi se ómnibus diébus cum Ecclésia sua mansúrum promísit. Ideo ei grátias agéntes clamémus:",
           "bitten_r_lat": "Mane nobíscum, Dómine.",
           "bitten_lat": "Mane nobíscum, Dómine, toto die,^qnumquam declínet a nobis sol grátiæ tuæ.^pHunc diem tibi tamquam oblatiónem consecrámus,^qdum nos nihil pravi factúros aut probatúros pollicémur.^pFac, Dómine, ut donum lucis hic totus dies evádat,^qut simus sal terræ et lux mundi.^pSpíritus Sancti tui cáritas dírigat corda et lábia nostra,^qut in tua iustítia semper et laude maneámus.",
-          "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persécutio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos.",
+          "les_text_lat": "Quis nos separábit a caritáte Christi? Tribulátio an angústia an persecútio an fames an núditas an perículum an gládius? Sed in his ómnibus supervíncimus per eum, qui diléxit nos.",
           "oration_lat": "Emítte, quǽsumus, Dómine, in corda nostra tui lúminis claritátem, ut in via mandatórum tuórum iúgiter ambulántes, nihil umquam patiámur erróris.^ORlV"
         },
         "Terz": {

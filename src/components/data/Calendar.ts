@@ -2046,7 +2046,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Jgfr",
             "comm_2": "Frau_Ord",
             "oration": "Gott, du hast die heilige Josefine aus der Sklaverei befreit und ihr die Würde verliehen, deine Tochter und die Braut Christi zu sein. Gib uns, so bitten wir, dass wir nach ihrem Beispiel dem gekreuzigten Herrn Jesus in unablässiger Liebe nachfolgen und in tätiger Liebe beharrlich Barmherzigkeit üben.^ORV",
-            "oration_lat": "Deus, qui beátam Iosephínam a servitúte abiécta ad dignitátem fíliæ tuæ et Christi sponsæ adduxísti, da nobis, quǽsumus, eius exémplo, Dóminum Iesum crucifíxum constánti dilectióne proséqui et in caritáte ad misericórdiam propénsos perseveráre.^ORlV"
+            "oration_lat": "Deus, qui beátam Iosephínam a servitúte abiécta ad dignitátem fíliæ tuæ et Christi sponsæ adduxísti, da nobis, quǽsumus, eius exémplo, Dóminum Iesum crucifíxum constánti dilectióne prósequi et in caritáte ad misericórdiam propénsos perseveráre.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Josefine Bakhita",
@@ -5169,7 +5169,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen.^ORV",
-            "oration_lat": "comm:Magnificántes, Dómine, poténtiam tuam, súpplices exorámus, ut, sicut sanctus Floriánus et sócii eius domínicæ passiónis imitátores, ita sint fragilitátis nostræ prompti adiutóres.^ORlV"
+            "oration_lat": "comm:Magnificántes, Dómine, poténtiam tuam, súpplices exorámus, ut, sicut sanctus Floriánus et sócii eius domínicæ passiónis imitatóres, ita sint fragilitátis nostræ prompti adiutóres.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "LEER",
@@ -7200,7 +7200,7 @@ export const calendarData: CalendarData = {
             "resp2": "in seiner barmherzigen Liebe.",
             "resp3": "Aus dem Geschlecht Davids ließ er Jesus hervorgehen, den Retter.",
             "antev": "Gepriesen sei der Herr, der Gott Israels! Er hat uns einen starken Retter erweckt im Hause seines Knechtes David.",
-            "genitiv_lat": "sanctórum Ioáchim et Annæ",
+            "genitiv_lat": "sanctórum Ióachim et Annæ",
             "hymn_1_lat": 8726.2,
             "resp1_lat": "Per víscera misericórdiæ suæ",
             "resp2_lat": "visitávit nos Dóminus.",
@@ -7326,7 +7326,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
             "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen.^ORV",
-            "oration_lat": "Deus, qui nos hódie beátæ Maríæ Gorétti ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
+            "oration_lat": "Deus, qui nos hódie beátæ Maríæ Goretti ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Pius XII. (†°1958)",
@@ -10992,7 +10992,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes Leonardi",
             "nominativ": "Der heilige Johannes Leonardi",
             "genitiv": "des heiligen Johannes Leonardi",
-            "genitiv_lat": "sancti Ióannis Leonardi"
+            "genitiv_lat": "sancti Ioánnis Leonardi"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -13538,7 +13538,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Hirten",
             "comm_2": "Mann_Liebe",
             "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden.^ORV",
-            "oration_lat": "Deus Pater miséricors, qui beátum Adólphum Kolping de arte sutrína ad sacerdótium vocásti, ut per eum iúvenes e misériis spirituálibus et sociálibus eríperes, da nobis, quǽsumus, eius intercessióne, ut res advérsas témporum nostrórum cognoscámus et fratrum necessitátibus, te adiuvánte, subveníre póssimus.^ORlV"
+            "oration_lat": "Deus Pater miséricors, qui beátum Adólphum Kolping de arte sutrína ad sacerdótium vocásti, ut per eum iúvenes e misériis spirituálibus et sociálibus eríperes, da nobis, quǽsumus, eius intercessióne, ut res advérsas témporum nostrórum cognoscámus et fratrum necessitátibus, te adiuvánte, subveníre possímus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Adolph Kolping (1813–1865)",
@@ -13803,7 +13803,7 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "nominativ": "Die heilige Luzia",
             "genitiv": "der heiligen Luzia",
-            "genitiv_lat": "sanctæ Lucíæ",
+            "genitiv_lat": "sanctæ Lúciæ",
             "antev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
             "antev_lat": "Ego húmilis ancílla nihil áliud egi, nisi Deo vivo sacrificávi; iam enim, quia nihil supérerat, meípsam óffero."
           },
@@ -14639,7 +14639,7 @@ export const calendarData: CalendarData = {
             "resp3": "Den Schöpfer ehrt, wer sich des Armen erbarmt.",
             "antev": "Reichlich gibt er den Armen, sein Heil hat Bestand für immer; er ist mächtig und hoch geehrt.",
             "hymn_1_lat": 8204.104,
-            "ant1_lat": "Quis habitábit in tabernáculo Dei? Qui ingredítur sine mácula et operátur iustítiam.",
+            "ant1_lat": "Quis habitábit in tabernáculo Dei? Qui ingréditur sine mácula et operátur iustítiam.",
             "ant2_lat": "Iucúndus homo, qui miserétur et cómmodat.",
             "ant3_lat": "Qui ad iustítiam erudíerint multos, fulgébunt quasi stellæ in perpétuas æternitátes.",
             "resp1_lat": "Amen dico vobis:",
@@ -15067,7 +15067,7 @@ export const calendarData: CalendarData = {
             "resp1": "Durch den Heiligen Geist, der uns gegeben ist.",
             "resp0_lat": "Cáritas Dei diffúsa est in córdibus nostris.",
             "resp1_lat": "Per Spíritum Sanctum, qui datus est nobis.",
-            "les_text_lat": "Indúite vos víscera misericórdiæ, benignités, humilitátem, mansuetudínem, patiéntiam. Super ómnia autem hæc caritátem, quod est vínculum perfeciónis. Verbum Christi hábitet in vobis abundánter, in omni sapiéntia docéntes et commonéntes vosmetípsos."
+            "les_text_lat": "Indúite vos víscera misericórdiæ, benignités, humilitátem, mansuetúdinem, patiéntiam. Super ómnia autem hæc caritátem, quod est vínculum perfeciónis. Verbum Christi hábitet in vobis abundánter, in omni sapiéntia docéntes et commonéntes vosmetípsos."
           },
           "Sext": {
             "les_buch": "Spr",
@@ -15089,7 +15089,7 @@ export const calendarData: CalendarData = {
             "resp1": "Er bewirke in uns, was ihm gefällt.",
             "resp0_lat": "Deus pacis aptet vos in omni bono.",
             "resp1_lat": "Fáciens in nobis, quod pláceat coram se.",
-            "les_text_lat": "Nescítis quod hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum? Sic curríte ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
+            "les_text_lat": "Nescítis quod hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum? Sic cúrrite ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
           },
           "Vesper": {
             "hymn_1": 8928.4,
@@ -15220,11 +15220,11 @@ export const calendarData: CalendarData = {
             "hymn_2_lat": 0.0,
             "ant1_lat": "Ad Deum vigilávit Elísabeth in terris, cum eo in luce per sǽcula regnat in cælis.",
             "ant2_lat": "Benedícant Deo cunctæ creatúræ, quia dedit beátæ Elísabeth ánimam miseratióne plenam.",
-            "ant3_lat": "Laudáte Deum, qui mirabílem se osténdit in fámula sua Elísabeth.",
+            "ant3_lat": "Laudáte Deum, qui mirábilem se osténdit in fámula sua Elísabeth.",
             "resp1_lat": "Cáritas pátiens est.",
             "resp2_lat": "Benígna est cáritas.",
             "resp3_lat": "Non quærit quæ sua sunt.",
-            "antev_lat": "O mulíerem vere fortem, beáta Elísabeth, scivísti et abundáre et penúriam pati in terris; adsta hódie fuis in láudibus congregátis et précáre pro nobis Deum, quocum nunc regnas in cælis.",
+            "antev_lat": "O mulíerem vere fortem, beáta Elísabeth, scivísti et abundáre et penúriam pati in terris; adsta hódie fuis in láudibus congregátis et precáre pro nobis Deum, quocum nunc regnas in cælis.",
             "bitten_e_lat": "Benedicéntes Dómino Iesu Christo, qui sanctæ Elísabeth donávit cor miseratióne plenum, orémus:",
             "bitten_r_lat": "Da nobis, Dómine, spíritum amóris tui.",
             "bitten_lat": "Qui beátam Elísabeth grátiæ tuæ amœnitáte decorásti;^qpræsta nobis templa fíeri Spíritus Sancti.^pQui fámulam tuam Elísabeth paupéribus et egénis advocátam posuísti;^qánimum nostrum dírige ad despéctos hómines sublevándos.^pQui sanctæ Elísabeth in ægrótis et infírmis apparuísti;^qda nobis, hódie in egénis te agnóscere.^pPropter te Elísabeth ómnia dimísit, ut in te ómnia inveníret;^qfac nos fíeri páuperes spíritu, ut álios ditémus.",
@@ -15309,7 +15309,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Hirten",
             "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV",
             "hymn_nacht_lat": 0.0,
-            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
+            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémniter est proféssus ad beáti Petri sepúlcrum.^ORlV"
           },
           "Invitatorium": {
             "ant0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt,°wir°beten°ihn°an!",
@@ -15419,7 +15419,7 @@ export const calendarData: CalendarData = {
             "resp0": "Wenn der Herr das Haus nicht baut,",
             "resp1": "müht sich jeder umsonst, der daran baut.",
             "resp0_lat": "Nisi Dóminus ædificáverit domum.",
-            "resp1_lat": "In vanum laboránt qui ædíficant eam.",
+            "resp1_lat": "In vanum labórant qui ædíficant eam.",
             "les_text_lat": "Fide obœdívit in locum exíre, quem acceptúrus erat in hereditátem, et exívit nésciens, quo iret. Fide peregrináius est in terra promissiónis, in cásulis habitándo cum cohærédibus promissiónis eiúsdem; exspectábat enim fundaménta habéntem civitátem, cuius ártifex et cónditor Deus."
           },
           "Sext": {
@@ -15459,7 +15459,7 @@ export const calendarData: CalendarData = {
             "antev": "Brüder, ihr wisst, dass es meine Hauptsorge war, dass ihr nach meinem Tod in der Erfüllung des Willens Christi verharrt. Nun also haltet an eurem guten Vorsatz beharrlich fest.",
             "hymn_1_lat": 9216.104,
             "ant1_lat": "Bonum est viro, cum portáverit iugum Dómini ab adolescéntia sua.",
-            "ant2_lat": "Mementóte præpositórum vestrórum, qui vobis locúti sunt verbum Dei, quorum intúéntes éxitum conversatiónis imitámini fidem.",
+            "ant2_lat": "Mementóte præpositórum vestrórum, qui vobis locúti sunt verbum Dei, quorum intuéntes éxitum conversatiónis imitámini fidem.",
             "ant3_lat": "O beátum virum, cuius ánima paradísum póssidet; intercéde pro nobis ad Dóminum nostrum Iesum Christum.",
             "resp1_lat": "Beátus vir, qui non ábiit in consílio impiórum.",
             "resp2_lat": "In lege Dómini volúntas eius.",
@@ -15497,7 +15497,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
             "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV",
-            "oration_lat": "Cunctórum Pater fidélium, omnípotens Deus, patiéntiam nobis concéde perseverántem in promoéndo Ecclésiæ unitátem; pro qua beáto Libório presbýtero et mártýri donásti vitam impéndere et passiónem subíre.^ORlV"
+            "oration_lat": "Cunctórum Pater fidélium, omnípotens Deus, patiéntiam nobis concéde perseverántem in promoéndo Ecclésiæ unitátem; pro qua beáto Libório presbýtero et mártyri donásti vitam impéndere et passiónem subíre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Paul VI. (†°1978)",
@@ -18020,7 +18020,7 @@ export const calendarData: CalendarData = {
             "bitten_e_lat": "Orémus Iesum Christum, qui est in nobis spes glóriæ.",
             "bitten_r_lat": "Recordáre Ecclésiæ tuæ, Dómine.",
             "bitten_lat": "Qui sanctum Libórium ecclésiæ Cenomanénsi epíscopum constituísti:^qauge in ea fidem, spem, caritátem.^pQui sanctum Libórium ecclésiæ Paderbornénsi patrónum dedísti:^qArchiepíscopum nostrum, auxiliáres eius totúmque clerum cum ómnibus fidélibus tuére.^pQui sanctum Libórium pópulis minístrum unitátis et pacis constituísti:^qconiúnge pópulos Európæ et fac, ut ómnibus adsint homínibus.^pQui sanctum Libórium patrónum et deprecatórem ægrotórum fecísti:^qda eis salútem et córporis et ánimæ novámque spem vitæ.^pQui sanctum Libórium inter Sanctos tuos suscepísti:^qnos quoque in fine vitæ nostræ ad glóriam cæléstem vocáre dignéris.",
-            "les_text_lat": "Digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocátionis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium; qui super omnes et per ómnia et in ómnibus."
+            "les_text_lat": "Digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocatiónis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium; qui super omnes et per ómnia et in ómnibus."
           },
           "Lesehore": {
             "hymn_1": 8723.1,
@@ -18110,7 +18110,7 @@ export const calendarData: CalendarData = {
             "bitten_e_lat": "Benedíctus sit Iesus Christus, pastor bonus, qui vitam suam trádidit pro amícis suis:",
             "bitten_r_lat": "Dómine, tu esto pastor pópuli tui.",
             "bitten_lat": "Dómine, qui epíscopos et fidéles Paderbornénses et Cenomanénses perpétua caritáte iunxísti,^qlargíre Ecclésiis nostris étiam in futúrum benedictiónem tuam.^pDómine, qui hómines Európæ sancti Libórii intercessióne coniunxísti,^qpræsta, ut non desístant pro unitáte populórum laboráre.^pDómine, qui ad sepúlcrum sancti Libórii preces ægrotórum et egenórum exaudísti,^qfac, ut semper eius intercessióni confídant.^pDómine, qui sancti Libórii intercessióne Ecclésiam Paderbornénsem roborásti,^qauge hódie in nobis fidem, spem, caritátem.",
-            "les_text_lat": "Digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocátionis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium; qui super omnes et per ómnia et in ómnibus."
+            "les_text_lat": "Digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum longanimitáte, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis; unum corpus et unus Spíritus, sicut et vocáti estis in una spe vocatiónis vestræ; unus Dóminus, una fides, unum baptísma; unus Deus et Pater ómnium; qui super omnes et per ómnia et in ómnibus."
           }
         }
       },
@@ -18473,7 +18473,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, in deiner unaussprechlichen Barmherzigkeit hat der heiligen Adalhard den unergründlichen Reichtum der Liebe Christi verkündet; lass uns auf seine Fürsprache in deiner Erkenntnis wachsen, Frucht bringen in guten Werken und in der Wahrheit des Evangeliums treu vor dir wandeln.^ORV",
-            "oration_lat": "Deus, cuius ineffábili misericórdia beátus Adalhárdus evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evángelii veritátem coram te fidéliter ambuláre.^ORlV"
+            "oration_lat": "Deus, cuius ineffábili misericórdia beátus Adalhárdus evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Benedikt von Nursia († 547)",

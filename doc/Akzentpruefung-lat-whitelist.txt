@@ -61,6 +61,7 @@ Exaudi
 Excita
 Expedit
 Foucauld
+Goretti
 Ideo
 Immola
 Impetret
@@ -83,6 +84,7 @@ Isaac
 Israel
 Itaque
 Iterum
+Leonardi
 Mallinckrodt
 Meinrad
 Obsecro
