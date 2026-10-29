@@ -18,7 +18,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Konstanten
-const EXCEL_PATH = "C:/Users/Gerhard Braun/OneDrive - Bistum-FD/0_Allgemeines/05_Dioezese/059_Sonstiges/Direktorium/Direktorium_dev.xlsm";
+const EXCEL_PATH = "C:/Direktorium/Direktorium_dev.xlsm";
 const OUTPUT_PATH = "./src/components/data/Direktorium_dev.ts"; // Pfad anpassen je nach Projektstruktur
 const TEMP_EXCEL_PATH = "./temp_direktorium.xlsx";
 const WORKSHEETS = {
