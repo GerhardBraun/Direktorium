@@ -329,7 +329,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Agnes",
             "farbe": "r",
-            "nominativ": "die heilige Agnes",
+            "nominativ": "Die heilige Agnes",
             "genitiv": "der heiligen Agnes",
             "psalm1": 63.0,
             "psalm2": 160.0,
@@ -946,7 +946,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Basilius und hl. Gregor von Nazianz",
             "genitiv": "der Heiligen Basilius und Gregor",
             "vokativ": "Heiliger Basilius und heiliger Gregor",
-            "genitiv_lat": "sanctórum Basilíi et Gregórii",
+            "vokativ_lat": "sancte Basíli et sancte Gregóri",
             "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "antev_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stellæ in perpétuas æternitátes."
           },
@@ -986,8 +986,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Valentin",
-            "genitiv": "des heiligen Valentin",
-            "genitiv_lat": "sancti Valentíni"
+            "genitiv": "des heiligen Valentin"
           },
           "Messe": {
             "ms_les_buch": "Jes",
@@ -1019,8 +1018,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Raimund von Penyafort",
-            "genitiv": "des heiligen Raimund",
-            "genitiv_lat": "sancti Raimúndi"
+            "genitiv": "des heiligen Raimund"
           }
         }
       },
@@ -1041,8 +1039,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Severin",
-            "genitiv": "des heiligen Severin",
-            "genitiv_lat": "sancti Severíni"
+            "genitiv": "des heiligen Severin"
           },
           "Messe": {
             "ms_les_buch": "Jak",
@@ -1079,7 +1076,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Hilarius",
             "genitiv": "des heiligen Hilarius",
             "vokativ": "Heiliger Hilarius",
-            "genitiv_lat": "sancti Hilárii"
+            "vokativ_lat": "sancte Hilári"
           },
           "Messe": {
             "ms_les_buch": "1°Joh",
@@ -1151,8 +1148,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Fabian",
             "farbe": "r",
-            "genitiv": "des heiligen Fabian",
-            "genitiv_lat": "sancti Fabiáni"
+            "genitiv": "des heiligen Fabian"
           },
           "Messe": {
             "ms_les_buch": "1°Petr",
@@ -1294,7 +1290,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Franz von Sales",
             "genitiv": "des heiligen Franz von Sales",
             "vokativ": "Heiliger Franz von Sales",
-            "genitiv_lat": "sancti Francísci"
+            "vokativ_lat": "sancte Francísce"
           },
           "Messe": {
             "ms_les_buch": "Eph",
@@ -1329,7 +1325,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Timotheus und hl. Titus",
             "genitiv": "der Heiligen Timotheus und Titus",
-            "genitiv_lat": "sanctórum Timóthei et Titi",
             "antev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
             "antev_lat": "Prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína."
           },
@@ -1408,7 +1403,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Thomas von Aquin",
             "genitiv": "des heiligen Thomas",
             "vokativ": "Heiliger Thomas",
-            "genitiv_lat": "sancti Thomæ",
             "vokativ_lat": "sancte Thomas",
             "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
             "antev_lat": "Benedíctus Dóminus, pro cuius amóre beátus Thomas stúduit, vigilávit et laborávit."
@@ -1672,9 +1666,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Cyrill und hl. Methodius",
-            "nominativ": "Die Heiligen Cyrill und Methodius",
             "genitiv": "der Heiligen Cyrill und Methodius",
-            "genitiv_lat": "sanctórum Cyrílli et Methódii",
             "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
             "antev_lat": "In sanctitáte et iustítia serviérunt Dómino ómnibus diébus suis."
           },
@@ -1841,8 +1833,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Ansgar",
-            "genitiv": "des heiligen Ansgar",
-            "genitiv_lat": "sancti Ansgárii"
+            "genitiv": "des heiligen Ansgar"
           },
           "Messe": {
             "ms_les_buch": "Jes",
@@ -1876,8 +1867,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Blasius",
             "farbe": "r",
-            "genitiv": "des heiligen Blasius",
-            "genitiv_lat": "sancti Blásii"
+            "genitiv": "des heiligen Blasius"
           }
         }
       },
@@ -2206,7 +2196,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Petrus Damiani",
             "genitiv": "des heiligen Petrus Damiani",
             "vokativ": "Heiliger Petrus Damiani",
-            "genitiv_lat": "sancti Petri Damiáni",
+            "vokativ_lat": "sancte Petre Damiáni",
             "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
           },
@@ -2322,7 +2312,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Gregor von Narek",
             "genitiv": "des heiligen Gregor",
             "vokativ": "Heiliger Gregor",
-            "genitiv_lat": "sancti Gregórii",
             "vokativ_lat": "sancte Gregóri",
             "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
@@ -2987,7 +2976,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Bruno von Querfurt",
             "farbe": "r",
             "genitiv": "des heiligen Bruno",
-            "genitiv_lat": "sancti Brunónis",
             "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
             "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
           },
@@ -3097,7 +3085,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Klemens Maria Hofbauer",
             "genitiv": "des heiligen Klemens Maria Hofbauer",
-            "genitiv_lat": "sancti Cleméntis Maríæ",
             "ant_komm": "Allen bin ich alles geworden, um alle zu retten.",
             "ant_komm_lat": "Omnibus ómnia factus sum, ut omnes fácerem salvos."
           },
@@ -3173,7 +3160,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Patrick",
             "genitiv": "des heiligen Patrick",
-            "genitiv_lat": "sancti Patrícii",
             "ant_komm": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.",
             "antev_lat": "Eúntes, docéte omnes gentes, baptizántes eos in nómine Patris et Fílii et Spíritus Sancti."
           },
@@ -3207,7 +3193,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Cyrill von Jerusalem",
             "genitiv": "des heiligen Cyrill",
-            "genitiv_lat": "sancti Cyrílli Hierosolymitáni",
+            "vokativ": "Heiliger Cyrill",
+            "vokativ_lat": "sancte Cyrílle",
             "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
           },
@@ -3244,7 +3231,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Turibio von Mongrovejo",
             "genitiv": "des heiligen Turibio",
-            "genitiv_lat": "sancti Turíbii",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
@@ -3279,7 +3265,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Oscar Arnulfo Romero",
             "farbe": "r",
             "genitiv": "des heiligen Oscar Romero",
-            "genitiv_lat": "sancti Ansgárii",
             "ant_komm": "Selig, die Frieden stiften, selig, die reinen Herzens sind; denn sie werden Gott schauen.",
             "ant_komm_lat": "Beáti pacífici, beáti mundo corde, quóniam ipsi Deum vidébunt."
           },
@@ -3313,7 +3298,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Liudger",
             "genitiv": "des heiligen Liudger",
-            "genitiv_lat": "sancti Liudgérii",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
@@ -3504,7 +3488,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Isidor von Sevilla",
             "genitiv": "des heiligen Isidor",
             "vokativ": "Heiliger Isidor",
-            "genitiv_lat": "sancti Isidóri",
+            "vokativ_lat": "sancte Isidóre",
             "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
           },
@@ -3545,7 +3529,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Vinzenz Ferrer",
             "genitiv": "des heiligen Vinzenz Ferrer",
-            "genitiv_lat": "sancti Vincéntii",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
@@ -3627,7 +3610,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Stanislaus",
             "farbe": "r",
             "genitiv": "des heiligen Stanislaus",
-            "genitiv_lat": "sancti Stanislái",
             "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
             "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
           },
@@ -3670,7 +3652,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Martin I.",
             "farbe": "r",
             "genitiv": "des heiligen Martin I.",
-            "genitiv_lat": "sancti Papæ Martíni",
             "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
             "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
           },
@@ -3706,8 +3687,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Leo IX.",
-            "genitiv": "des heiligen Leo IX.",
-            "genitiv_lat": "sancti Papæ Leónis"
+            "genitiv": "des heiligen Leo IX."
           },
           "Messe": {
             "ms_les_buch": "Ez",
@@ -3790,7 +3770,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Anselm",
             "genitiv": "des heiligen Anselm",
             "vokativ": "Heiliger Anselm",
-            "genitiv_lat": "sancti Ansélmi",
             "vokativ_lat": "sancte Ansélme"
           },
           "Messe": {
@@ -3820,8 +3799,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Adalbert",
             "farbe": "r",
-            "genitiv": "des heiligen Adalbert",
-            "genitiv_lat": "sancti Adalbérti"
+            "genitiv": "des heiligen Adalbert"
           },
           "Messe": {
             "ms_les_buch": "Phil",
@@ -3854,8 +3832,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Georg",
             "farbe": "r",
-            "genitiv": "des heiligen Georg",
-            "genitiv_lat": "sancti Geórgii"
+            "genitiv": "des heiligen Georg"
           },
           "Messe": {
             "ms_aps_kv": "Geht in alle Welt, Halleluja,^lund seid meine Zeugen. Halleluja.",
@@ -3884,8 +3861,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Fidelis von Sigmaringen",
             "farbe": "r",
-            "genitiv": "des heiligen Fidelis",
-            "genitiv_lat": "sancti Fidélis"
+            "genitiv": "des heiligen Fidelis"
           },
           "Messe": {
             "ms_les_buch": "Offb",
@@ -3918,7 +3894,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Petrus Kanisius",
             "genitiv": "des heiligen Petrus Kanisius",
             "vokativ": "Heiliger Petrus Kanisius",
-            "genitiv_lat": "sancti Petri Canísii",
             "vokativ_lat": "sancte Petre Canísi"
           },
           "Messe": {
@@ -3978,8 +3953,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Ludwig Maria Grignion de Montfort",
-            "genitiv": "des heiligen Ludwig Maria",
-            "genitiv_lat": "sancti Ludovíci Maríæ"
+            "genitiv": "des heiligen Ludwig Maria"
           },
           "Messe": {
             "ms_aps_kv": "Zum Haus des HERRN wollen wir gehen.",
@@ -4006,8 +3980,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Pius V.",
-            "genitiv": "des heiligen Pius V.",
-            "genitiv_lat": "sancti Papæ Pii"
+            "genitiv": "des heiligen Pius V."
           },
           "Messe": {
             "ms_les_buch": "1°Kor",
@@ -5146,7 +5119,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Athanasius",
             "genitiv": "des heiligen Athanasius",
             "vokativ": "Heiliger Athanasius",
-            "genitiv_lat": "sancti Athanásii",
             "vokativ_lat": "sancte Athanási"
           },
           "Messe": {
@@ -5212,8 +5184,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Godehard",
-            "genitiv": "des heiligen Godehard",
-            "genitiv_lat": "sancti Godehárdis"
+            "genitiv": "des heiligen Godehard"
           },
           "Messe": {
             "ms_les_buch": "Röm",
@@ -5238,7 +5209,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes von Avila",
             "genitiv": "des heiligen Johannes von Avila",
             "vokativ": "Heiliger Johannes von Avila",
-            "genitiv_lat": "sancti Ioánnis de Avila",
             "vokativ_lat": "sancte Ioánnes de Avila"
           },
           "Messe": {
@@ -5361,8 +5331,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes Nepomuk",
             "farbe": "r",
-            "genitiv": "des heiligen Johannes Nepomuk",
-            "genitiv_lat": "sancti Ioánnis Nepomucénsis"
+            "genitiv": "des heiligen Johannes Nepomuk"
           },
           "Messe": {
             "ms_les_buch": "Weish",
@@ -5394,8 +5363,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes I.",
             "farbe": "r",
-            "genitiv": "des heiligen Johannes I.",
-            "genitiv_lat": "sancti Papæ Ioánnis"
+            "genitiv": "des heiligen Johannes I."
           },
           "Messe": {
             "ms_les_buch": "Offb",
@@ -5487,8 +5455,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Christopher Magallanes und Gefährten",
             "farbe": "r",
-            "genitiv": "des heiligen Christopher Magallanes und seiner Gefährten",
-            "genitiv_lat": "sancti Christóphori et sociórum eius"
+            "genitiv": "des heiligen Christopher Magallanes und seiner Gefährten"
           }
         },
         "z1": {
@@ -5499,8 +5466,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Eugen von Mazenod",
-            "genitiv": "des heiligen Eugen",
-            "genitiv_lat": "sancti Eugénii"
+            "genitiv": "des heiligen Eugen"
           }
         }
       },
@@ -5593,8 +5559,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Gregor VII.",
-            "genitiv": "des heiligen Papstes Gregor VII.",
-            "genitiv_lat": "sancti Papæ Gregórii"
+            "genitiv": "des heiligen Papstes Gregor VII."
           }
         },
         "n3": {
@@ -5674,8 +5639,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Augustinus von Canterbury",
-            "genitiv": "des heiligen Augustinus",
-            "genitiv_lat": "sancti Augustíni"
+            "genitiv": "des heiligen Augustinus"
           },
           "Messe": {
             "ms_les_buch": "1°Thess",
@@ -5701,8 +5665,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Paul VI.",
-            "genitiv": "des heiligen Papstes Paul VI.",
-            "genitiv_lat": "sancti Papæ Pauli"
+            "genitiv": "des heiligen Papstes Paul VI."
           },
           "Messe": {
             "ms_aps_kv": "Unsre Seele ist wie ein Vogel dem Netz des Jägers entkommen.",
@@ -6239,8 +6202,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Marcellinus und hl. Petrus",
             "farbe": "r",
-            "genitiv": "der Heiligen Marcellinus und Petrus",
-            "genitiv_lat": "sanctórum Marcellíni et Petri"
+            "genitiv": "der Heiligen Marcellinus und Petrus"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -6350,8 +6312,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Norbert von Xanten",
-            "genitiv": "des heiligen Norbert",
-            "genitiv_lat": "sancti Norbértis"
+            "genitiv": "des heiligen Norbert"
           },
           "Messe": {
             "ms_les_buch": "Ez",
@@ -6387,7 +6348,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Ephräm der Syrer",
             "genitiv": "des heiligen Ephräm",
             "vokativ": "Heiliger Ephräm",
-            "genitiv_lat": "sancti Ephræm",
             "vokativ_lat": "sancte Ephræm"
           },
           "Messe": {
@@ -6492,8 +6452,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Benno",
-            "genitiv": "des heiligen Benno",
-            "genitiv_lat": "sancti Bennónis"
+            "genitiv": "des heiligen Benno"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -6591,8 +6550,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Paulinus von Nola",
-            "genitiv": "des heiligen Paulinus",
-            "genitiv_lat": "sancti Paulíni Noláni"
+            "genitiv": "des heiligen Paulinus"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -6644,8 +6602,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Josefmaria Escrivá de Balaguer",
-            "genitiv": "des heiligen Josefmaria",
-            "genitiv_lat": "sancti Ioseph Maríæ"
+            "genitiv": "des heiligen Josefmaria"
           }
         }
       },
@@ -6667,7 +6624,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Hemma von Gurk",
             "genitiv": "des heiligen Hemma",
-            "genitiv_lat": "sancti Emmæ"
+            "genitiv_lat": "sanctæ Emmæ"
           },
           "Messe": {
             "ms_les_buch": "1°Tim",
@@ -6702,7 +6659,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Cyrill von Alexandrien",
             "genitiv": "des heiligen Cyrill",
             "vokativ": "Heiliger Cyrill",
-            "genitiv_lat": "sancti Cyrílli Alexandríni"
+            "vokativ_lat": "sancte Cyrílle"
           },
           "Messe": {
             "ms_aps_kv": "Du, Herr, bist der Hirt deines Volkes.",
@@ -6732,7 +6689,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Irenäus",
             "farbe": "r",
             "genitiv": "des heiligen Irenäus",
-            "genitiv_lat": "sancti Irenǽi",
             "antev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
             "antev_lat": "Irenǽus, nómini suo vere respóndens, vitæ institúto ac propósito pacíficus, pro Ecclesiárum pace strénue certávit."
           },
@@ -6794,8 +6750,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Otto",
-            "genitiv": "des heiligen Otto",
-            "genitiv_lat": "sancti Ottónis"
+            "genitiv": "des heiligen Otto"
           },
           "Messe": {
             "ms_les_buch": "Ez",
@@ -7036,7 +6991,6 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Maria Magdalena",
-            "nominativ": "Die heilige Maria Magdalena",
             "genitiv": "der heiligen Maria Magdalena",
             "ant1": "Am ersten Tag der Woche kam Maria von Magdala zum Grabe – frühmorgens, als es noch dunkel war.",
             "ant2": "Mit glühendem Herzen verlange ich danach, meinen Herrn zu sehen; ich suche ihn und kann ihn nicht finden.^HALLxq",
@@ -7049,6 +7003,7 @@ export const calendarData: CalendarData = {
             "resp2": "Der Herr ist vom Tode erstanden.",
             "resp3": "Geh hin zu den Brüdern und verkünde:",
             "antev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.",
+            "genitiv_lat": "sanctæ Maríæ Magdalénæ",
             "hymn_1_lat": 8722.2,
             "ant1_lat": "",
             "ant2_lat": "",
@@ -7106,7 +7061,6 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Birgitta von Schweden",
-            "nominativ": "Die heilige Birgitta",
             "genitiv": "der heiligen Birgitta",
             "genitiv_lat": "sanctæ Brigíttæ"
           },
@@ -7243,8 +7197,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Ulrich",
-            "genitiv": "des heiligen Ulrich",
-            "genitiv_lat": "sancti Uldríci"
+            "genitiv": "des heiligen Ulrich"
           },
           "Messe": {
             "ms_les_buch": "Hebr",
@@ -7375,8 +7328,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Willibald",
-            "genitiv": "des heiligen Willibald: Aus dem Stundenbuch",
-            "genitiv_lat": "sancti Willibáldis"
+            "genitiv": "des heiligen Willibald: Aus dem Stundenbuch"
           },
           "Messe": {
             "ms_les_buch": "Hebr",
@@ -7412,9 +7364,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hll. Kilian und Gefährten",
             "farbe": "r",
-            "nominativ": "Der heilige Kilian und seine Gefährten",
-            "genitiv": "des heiligen Kilian und seiner Gefährten",
-            "genitiv_lat": "sancti Kiliáni et sociórum eius"
+            "genitiv": "des heiligen Kilian und seiner Gefährten"
           },
           "Messe": {
             "ms_les_buch": "Weish",
@@ -7554,8 +7504,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Kamillus von Lellis",
             "nominativ": "Der heilige Kamillus",
             "genitiv": "des heiligen Kamillus",
-            "genitiv_lat": "sancti Camílli",
-            "vokativ_lat": "sancte Camílle"
+            "genitiv_lat": "sancti Camílli"
           },
           "Messe": {
             "ms_les_buch": "1°Joh",
@@ -7592,7 +7541,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Bonaventura",
             "genitiv": "des heiligen Bonaventura",
             "vokativ": "Heiliger Bonaventura",
-            "genitiv_lat": "sancti Bonaventúræ",
             "vokativ_lat": "sancte Bonaventúra"
           },
           "Messe": {
@@ -7697,8 +7645,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Apollinaris",
             "farbe": "r",
-            "genitiv": "des heiligen Apollinaris",
-            "genitiv_lat": "sancti Apollinárii"
+            "genitiv": "des heiligen Apollinaris"
           }
         }
       },
@@ -7722,7 +7669,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Laurentius von Brindisi",
             "genitiv": "des heiligen Laurentius",
             "vokativ": "Heiliger Laurentius",
-            "genitiv_lat": "sancti Lauréntii",
             "vokativ_lat": "sancte Laurénti"
           },
           "Messe": {
@@ -7850,7 +7796,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Petrus Chrysologus",
             "genitiv": "des heiligen Petrus Chrysologus",
             "vokativ": "Heiliger Petrus Chrysologus",
-            "genitiv_lat": "sancti Petri Chrysólogi",
             "vokativ_lat": "sancte Petre Chrysóloge"
           },
           "Messe": {
@@ -7889,7 +7834,6 @@ export const calendarData: CalendarData = {
             "nominativ": "Der heilige Ignatius",
             "genitiv": "des heiligen Ignatius",
             "genitiv_lat": "sancti Ignátii",
-            "vokativ_lat": "sancte Ignáti",
             "antev": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
             "antev_lat": "Utinam possim cognóscere Christum et virtútem resurrectiónis eius et societátem passiónum illíus!",
             "hymn_1_lat": 8731.0
@@ -8120,6 +8064,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Laurentius",
             "farbe": "r",
+            "genitiv": "des heiligen Laurentius",
             "ant1": "Meine Seele hängt an dir, Gott, du mein Gott; denn für dich wurde mein Leib verbrannt.",
             "ant2": "Der Herr hat seinen Engel gesandt und mich befreit aus der lodernden Flamme, aus der Mitte des Feuers.",
             "ant3": "Der heilige Laurentius betete und sprach: Ich sage dir Dank, o°Herr, dass du mich aufgenommen hast in deine Herrlichkeit.",
@@ -8471,7 +8416,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Alfons Maria von Liguori",
             "genitiv": "des heiligen Alfons Maria",
             "vokativ": "Heiliger Alfons",
-            "genitiv_lat": "sancti Alfónsi Maríæ",
             "vokativ_lat": "sancte Alfónse"
           },
           "Messe": {
@@ -8506,8 +8450,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Eusebius",
-            "genitiv": "des heiligen Eusebius",
-            "genitiv_lat": "sancti Eusébii"
+            "genitiv": "des heiligen Eusebius"
           },
           "Messe": {
             "ms_les_buch": "1°Joh",
@@ -8697,7 +8640,6 @@ export const calendarData: CalendarData = {
             "nominativ": "Der heilige Dominikus",
             "genitiv": "des heiligen Dominikus",
             "genitiv_lat": "sancti Domínici",
-            "vokativ_lat": "sancte Domínice",
             "hymn_1_lat": 8808.0
           },
           "Vesper": {
@@ -8832,8 +8774,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Pontianus und hl. Hippolyt",
             "farbe": "r",
-            "genitiv": "der Heiligen Pontianus und Hippolyt",
-            "genitiv_lat": "sanctórum Pontiáni et Hippólyti"
+            "genitiv": "der Heiligen Pontianus und Hippolyt"
           },
           "Messe": {
             "ms_les_buch": "1°Petr",
@@ -9021,8 +8962,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Pius X.",
-            "genitiv": "des heiligen Pius X.",
-            "genitiv_lat": "sancti Papæ Pii"
+            "genitiv": "des heiligen Pius X."
           },
           "Messe": {
             "ms_les_buch": "1°Thess",
@@ -9184,8 +9124,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Sel. Johannes Paul I.",
-            "genitiv": "des seligen Johannes Pauls I.",
-            "genitiv_lat": "sancti Papæ Iohánnis Pauli"
+            "genitiv": "des seligen Johannes Pauls I."
           },
           "Messe": {
             "ms_aps_kv": "Der HERR ist mein Licht und mein Heil.",
@@ -9254,7 +9193,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Augustinus",
             "genitiv": "des heiligen Augustinus",
             "vokativ": "Heiliger Augustinus",
-            "genitiv_lat": "sancti Augustíni",
             "vokativ_lat": "sancte Augustíne",
             "antev": "Deine Gnade ist es, o°Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
             "antev_lat": "Tu éxcitas, Dómine, ut laudáre te deléctet, quia fecísti nos ad te; et inquiétum est cor nostrum donec requiéscat in te.",
@@ -9299,8 +9237,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Paulinus von Trier",
             "farbe": "r",
-            "genitiv": "des heiligen Paulinus",
-            "genitiv_lat": "sancti Paulíni"
+            "genitiv": "des heiligen Paulinus"
           },
           "Messe": {
             "ms_les_buch": "1°Joh",
@@ -9891,7 +9828,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Gregor der Große",
             "genitiv": "des heiligen Gregor",
             "vokativ": "Heiliger Gregor",
-            "genitiv_lat": "sancti Gregórii",
             "vokativ_lat": "sancte Gregóri",
             "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
             "antev_lat": "Pastor exímius Gregórius pastorális vitæ spécimen trádidit et régulam.",
@@ -10009,7 +9945,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes Chrysostomus",
             "genitiv": "des heiligen Johannes Chrysostomus",
             "vokativ": "Heiliger Johannes Chrysostomus",
-            "genitiv_lat": "sancti Iohánnis Chrysóstomi",
             "vokativ_lat": "sancte Ioánnes Chrysóstome",
             "hymn_1_lat": 8913.0
           },
@@ -10042,7 +9977,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Kornelius und hl. Cyprian",
             "farbe": "r",
             "genitiv": "der Heiligen Kornelius und Cyprian",
-            "genitiv_lat": "sanctórum Cornélii et Cypriáni",
             "antev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
             "antev_lat": "Pretiósa mors, quæ emit immortalitátem prétio sui sánguinis!"
           },
@@ -10122,7 +10056,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Robert Bellarmin",
             "genitiv": "des heiligen Robert Bellarmin",
             "vokativ": "Heiliger Robert Bellarmin",
-            "genitiv_lat": "sancti Robérti Béllarmino",
             "vokativ_lat": "sancte Robérte"
           },
           "Messe": {
@@ -10152,8 +10085,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Lambert",
             "farbe": "r",
-            "genitiv": "des heiligen Lambert",
-            "genitiv_lat": "sancti Lambérti"
+            "genitiv": "des heiligen Lambert"
           },
           "Messe": {
             "ms_les_buch": "Ez",
@@ -10190,8 +10122,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Januarius",
             "farbe": "r",
-            "genitiv": "des heiligen Januarius",
-            "genitiv_lat": "sancti Ianuárii"
+            "genitiv": "des heiligen Januarius"
           },
           "Messe": {
             "ms_les_buch": "Hebr",
@@ -10214,8 +10145,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Andreas Kim Taegon, hl.°Paulus°Chong°Hasang und°Gefährten",
             "farbe": "r",
-            "genitiv": "der heiligen Andreas und Paulus und ihrer Gefährten",
-            "genitiv_lat": "sanctórum Andreæ, Pauli et sociórum"
+            "genitiv": "der heiligen Andreas und Paulus und ihrer Gefährten"
           },
           "Messe": {
             "ms_les_buch": "1°Kor",
@@ -10302,7 +10232,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Rupert und hl. Virgil",
             "genitiv": "der Heiligen Rupert und Virgil",
-            "genitiv_lat": "sanctórum Rupérti et Virgílis",
             "antev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen."
           },
           "Vesper": {
@@ -10381,8 +10310,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Kosmas und hl. Damian",
             "farbe": "r",
-            "genitiv": "der Heiligen Kosmas und hl. Damian",
-            "genitiv_lat": "sanctórum Cosmæ et Damiáni"
+            "genitiv": "der Heiligen Kosmas und hl. Damian"
           },
           "Messe": {
             "ms_les_buch": "Weish",
@@ -10503,8 +10431,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Lorenzo Ruiz und Gefährten",
             "farbe": "r",
-            "genitiv": "des heiligen Lorenzo Ruiz und seiner Gefährten",
-            "genitiv_lat": "sancti Lauréntii et eius sociórum"
+            "genitiv": "des heiligen Lorenzo Ruiz und seiner Gefährten"
           },
           "Messe": {
             "ms_aps_kv": "Kündet Gottes machtvolle Taten!",
@@ -10533,7 +10460,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Hieronymus",
             "genitiv": "des heiligen Hieronymus",
             "vokativ": "Heiliger Hieronymus",
-            "genitiv_lat": "sancti Hierónymi",
             "vokativ_lat": "sancte Hierónyme",
             "hymn_1_lat": 8930.0
           },
@@ -10775,7 +10701,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Lukas",
             "farbe": "r",
-            "genitiv_lat": "sancti Lucæ",
             "antev": "Lukas, ein Bote des Evangeliums, hat Christus verkündet, das Licht, das aufstrahlt aus der Höhe.",
             "antev_lat": "Evangélium Christi tradens, sanctus Lucas annuntiávit solem oriéntem ex alto.",
             "hymn_1_lat": 9018.0
@@ -11019,7 +10944,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. John Henry Newman",
             "genitiv": "des heiligen John Henry Newman",
             "vokativ": "Heiliger John Henry Newman",
-            "genitiv_lat": "sancti Ioánnis Henríci"
+            "vokativ_lat": "sancte Ioánnes Henríce"
           },
           "Messe": {
             "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
@@ -11039,8 +10964,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Johannes XXIII.",
-            "genitiv": "des heiligen Johannes XXIII.",
-            "genitiv_lat": "sancti Papæ Ioánnis"
+            "genitiv": "des heiligen Johannes XXIII."
           },
           "Messe": {
             "ms_aps_kv": "Meine Seele dürstet nach Gott,^lnach dem lebendigen Gott.",
@@ -11069,8 +10993,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Kallistus I.",
             "farbe": "r",
-            "genitiv": "des heiligen Kallistus I.",
-            "genitiv_lat": "sancti Callísti"
+            "genitiv": "des heiligen Kallistus I."
           },
           "Messe": {
             "ms_les_buch": "1°Petr",
@@ -11244,7 +11167,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Ignatius von Antiochien",
             "farbe": "r",
             "genitiv": "des heiligen Ignatius",
-            "genitiv_lat": "sancti Ignátii",
             "antev": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
             "antev_lat": "Illum quæro, qui pro nobis mórtuus est; illum volo, qui propter nos resurréxit."
           },
@@ -11287,8 +11209,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes de Brébeuf, hl.°Isaak°Jogues und°Gefährten",
             "farbe": "r",
-            "genitiv": "der Heiligen Johannes und Isaak und ihrer Gefährten",
-            "genitiv_lat": "sanctórum Ioánnis, Isaac et sociórum eórum"
+            "genitiv": "der Heiligen Johannes und Isaak und ihrer Gefährten"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -11419,8 +11340,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Johannes Paul II.",
-            "genitiv": "des heiligen Johannes Paul II.",
-            "genitiv_lat": "sancti Papæ Ioánnis Pauli"
+            "genitiv": "des heiligen Johannes Paul II."
           },
           "Messe": {
             "ms_aps_kv": "Selig, wer Gott fürchtet und auf seinen Wegen geht.",
@@ -11448,8 +11368,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Johannes von Capestrano",
-            "genitiv": "des heiligen Johannes",
-            "genitiv_lat": "sancti Ioánnis de Capestráno"
+            "genitiv": "des heiligen Johannes"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -11484,8 +11403,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Antonius Maria Claret",
-            "genitiv": "des heiligen Antonius Maria Claret",
-            "genitiv_lat": "sancti Antónii Maríæ"
+            "genitiv": "des heiligen Antonius Maria Claret"
           },
           "Messe": {
             "ms_les_buch": "Jes",
@@ -11521,7 +11439,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Simon und hl. Judas",
             "farbe": "r",
-            "genitiv_lat": "sanctórum Simónis et Iudæ",
             "hymn_1_lat": 9028.0
           },
           "Messe": {
@@ -11557,8 +11474,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Wolfgang",
-            "genitiv": "des heiligen Wolfgang",
-            "genitiv_lat": "sancti Wolfgang"
+            "genitiv": "des heiligen Wolfgang"
           },
           "Messe": {
             "ms_les_buch": "2°Kor",
@@ -11930,14 +11846,12 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Martin",
-            "nominativ": "Der heilige Martin",
             "genitiv": "des heiligen Martin",
             "hymn_1": 1215.0,
             "ant1": "Martin, Priester des Herrn, dir steht der Himmel offen und das Reich meines Vaters.",
             "ant2": "Martin verharrte unermüdlich im Gebet. Augen und Hände zum Himmel erhoben.^HALLxq",
             "ant3": "Martin, auf Erden arm und gering, geht reich in den Himmel ein und genießt in Abrahams Schoß ewige Freude.^HALLxq",
             "antev": "O seliger Mann, du hast die Freude des Paradieses erlangt! Jubelnd begrüßen dich Engel und Heilige, und die Jungfrauen heißen dich willkommen: Der Himmel sei deine Stätte in Ewigkeit.",
-            "genitiv_lat": "sancti Martíni",
             "hymn_1_lat": 9111.2,
             "ant1_lat": "Sacérdos Dei, Martíne, apérti sunt tibi cæli et regnum Patris mei.",
             "ant2_lat": "Oculis ac mánibus in cælum semper inténtis, invíctum ab oratióne spíritum non relaxábat.^ALLxq",
@@ -12052,8 +11966,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Hubert",
-            "genitiv": "des heiligen Hubert",
-            "genitiv_lat": "sancti Hubérti"
+            "genitiv": "des heiligen Hubert"
           },
           "Messe": {
             "ms_les_buch": "1°Kor",
@@ -12086,8 +11999,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Pirmin",
-            "genitiv": "des heiligen Pirmin",
-            "genitiv_lat": "sancti Pirmínis"
+            "genitiv": "des heiligen Pirmin"
           },
           "Messe": {
             "ms_les_buch": "Eph",
@@ -12178,8 +12090,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Karl Borromäus",
-            "genitiv": "des heiligen Karl Borromäus",
-            "genitiv_lat": "sancti Cároli Borroméo"
+            "genitiv": "des heiligen Karl Borromäus"
           },
           "Messe": {
             "ms_les_buch": "Röm",
@@ -12247,7 +12158,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Willibrord",
             "genitiv": "des heiligen Willibrord",
-            "genitiv_lat": "sancti Willibrórdis",
             "antev": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil."
           },
           "Vesper": {
@@ -12288,7 +12198,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Leo der Große",
             "genitiv": "des heiligen Leo",
             "vokativ": "Heiliger Leo",
-            "genitiv_lat": "sancti Leónis",
             "vokativ_lat": "sancte Leo",
             "antev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
             "antev_lat": "Beátus Petrus in accépta fortitúdine petræ persevérans, suscépta Ecclésiæ gubernácula non relíquit."
@@ -12332,8 +12241,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Josaphat",
             "farbe": "r",
-            "genitiv": "des heiligen Josaphat",
-            "genitiv_lat": "sancti Iósaphat"
+            "genitiv": "des heiligen Josaphat"
           },
           "Messe": {
             "ms_les_buch": "Eph",
@@ -12370,7 +12278,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Albert der Große",
             "genitiv": "des heiligen Albert der Große",
             "vokativ": "Heiliger Albert der Große",
-            "genitiv_lat": "sancti Albérti Magni",
             "vokativ_lat": "sancte Albérte"
           },
           "Messe": {
@@ -12668,8 +12575,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Klemens I.",
             "farbe": "r",
-            "genitiv": "des heiligen Papstes Klemens I.",
-            "genitiv_lat": "sancti Cleméntis"
+            "genitiv": "des heiligen Papstes Klemens I."
           },
           "Messe": {
             "ms_ruf_text": "Mt 25,10",
@@ -12795,8 +12701,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Konrad und hl. Gebhard",
-            "genitiv": "der Heiligen Konrad und Gebhard",
-            "genitiv_lat": "sanctórum Conrádi et Gebhárdis"
+            "genitiv": "der Heiligen Konrad und Gebhard"
           },
           "Messe": {
             "ms_les_buch": "Sir",
@@ -13162,6 +13067,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Stephanus",
             "farbe": "r",
+            "genitiv": "des heiligen Stephanus",
             "hymn_1": 9226.0,
             "hymn_kl": 0.0,
             "ant1": "Meine Seele hängt an dir, Gott, du mein Gott; denn für dich wurde mein Leib gesteinigt.",
@@ -13291,6 +13197,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Fest der Unschuldigen Kinder",
             "farbe": "r",
+            "genitiv": "der Unschuldigen Kinder",
             "hymn_1": 9228.0,
             "hymn_kl": 0.0,
             "ant1": "So spricht der Herr: Sie werden mit mir einhergehen in weißen Gewändern, denn sie sind dessen würdig.",
@@ -13455,8 +13362,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Franz Xaver",
-            "genitiv": "des heiligen Franz Xaver",
-            "genitiv_lat": "sancti Francísci Xavérii"
+            "genitiv": "des heiligen Franz Xaver"
           },
           "Messe": {
             "ms_les_buch": "1°Kor",
@@ -13520,7 +13426,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes von Damaskus",
             "genitiv": "des heiligen Johannes",
             "vokativ": "Heiliger Johannes",
-            "genitiv_lat": "sancti Ioánnis Damascéni",
             "vokativ_lat": "sancte Ioánnes Damascéne"
           },
           "Messe": {
@@ -13552,7 +13457,6 @@ export const calendarData: CalendarData = {
             "button": "Sel. Adolph Kolping",
             "nominativ": "Der selige Adolph Kolping",
             "genitiv": "des seligen Adolph Kolping",
-            "vokativ": "Seliger Adolph Kolping",
             "genitiv_lat": "beáti Adólphi Kolping"
           },
           "Messe": {
@@ -13583,8 +13487,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Anno",
-            "genitiv": "des heiligen Anno",
-            "genitiv_lat": "sancti Annónis"
+            "genitiv": "des heiligen Anno"
           },
           "Messe": {
             "ms_les_buch": "Eph",
@@ -13614,8 +13517,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Nikolaus",
-            "genitiv": "des heiligen Nikolaus",
-            "genitiv_lat": "sancti Nícolæ"
+            "genitiv": "des heiligen Nikolaus"
           },
           "Messe": {
             "ms_les_buch": "Jes",
@@ -13647,7 +13549,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Ambrosius",
             "genitiv": "des heiligen Ambrosius",
             "vokativ": "Heiliger Ambrosius",
-            "genitiv_lat": "sancti Ambrósii",
             "vokativ_lat": "sancte Ambrósi",
             "hymn_1_lat": 9203.0
           },
@@ -13717,8 +13618,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Damasus I.",
-            "genitiv": "des heiligen Damasus",
-            "genitiv_lat": "sancti Dámasi"
+            "genitiv": "des heiligen Damasus"
           },
           "Messe": {
             "ms_les_buch": "Apg",
@@ -13832,7 +13732,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes vom Kreuz",
             "genitiv": "des heiligen Johannes vom Kreuz",
             "vokativ": "Heiliger Johannes vom Kreuz",
-            "genitiv_lat": "sancti Ioánnis a Cruce",
             "vokativ_lat": "sancte Ioánnes a Cruce"
           },
           "Messe": {
@@ -13864,7 +13763,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes von Krakau",
             "genitiv": "des heiligen Johannes",
-            "genitiv_lat": "sancti Ioánnis de Kẹty",
             "ant_komm": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt.",
             "ant_komm_lat": "In hoc cognóscent omnes quia mei estis discípuli, si dilectiónem habuéritis ad ínvicem."
           },
@@ -13903,7 +13801,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Thomas Becket",
             "farbe": "r",
             "genitiv": "des heiligen Thomas Becket",
-            "genitiv_lat": "sancti Thomæ Becket",
             "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
             "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
           },
@@ -13940,7 +13837,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Silvester I.",
             "genitiv": "des heiligen Silvester",
-            "genitiv_lat": "sancti Silvéstri",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
@@ -14013,6 +13909,7 @@ export const calendarData: CalendarData = {
             "resp2": "er ist die Hoffnung auf Herrlichkeit.",
             "resp3": "Bleibt in ihm verwurzelt und auf ihn gegründet.",
             "button": "Hl. Johannes Nepomuk Neumann",
+            "genitiv": "des heiligen Johannes Nepomuk",
             "antev": "Dem Bischof Johannes wurden Gnade und Kraft zuteil durch unseren Herrn Jesus Christus, damit er ihm vorangehe und ihm den Weg bereite in den Herzen der Menschen."
           },
           "Vesper": {
@@ -14027,6 +13924,7 @@ export const calendarData: CalendarData = {
             "antev": "Bischof Johannes hat den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten. Jetzt liegt für ihn der Kranz der Gerechtigkeit bereit."
           },
           "major": {
+            "comm_1": "Hirten",
             "oration": "Gott, unser Vater, du hast den heiligen Johannes Nepomuk Neumann zum Bischof berufen und ihn befähigt, deinem Volk in den Gemeinden Amerikas mit großer Liebe zu dienen. Höre auf seine Fürsprache und mache uns durch das Beispiel seiner brüderlichen Liebe bereit, stets die Gemeinschaft deiner Kirche zu stärken und wie er die jungen Menschen zu überzeugten Christen zu erziehen.^ORV"
           }
         }
@@ -14274,6 +14172,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Elisabeth von Schönau",
             "genitiv": "der heiligen Elisabeth",
+            "genitiv_lat": "sanctæ Elisabéthæ",
             "hymn_1": 8619.2
           },
           "Vesper": {
@@ -14373,6 +14272,8 @@ export const calendarData: CalendarData = {
             "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
             "referenz": "Trier-8-18-d1",
             "button": "Hl. Helena",
+            "genitiv": "der heiligen Helena",
+            "genitiv_lat": "sanctæ Helenæ",
             "antev": "Dein Kreuz, o Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir: Denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
             "hymn_1": 8818.2
           },
@@ -14393,7 +14294,10 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "referenz": "Trier-8-13-d1",
-            "button": "Sel. Gertrud von Altenberg"
+            "button": "Sel. Gertrud von Altenberg",
+            "nominativ": "Die selige Gertrud",
+            "genitiv": "der seligen Gertrud",
+            "genitiv_lat": "beátæ Gertrúdis"
           }
         }
       }
@@ -14425,6 +14329,7 @@ export const calendarData: CalendarData = {
             "resp2": "wir preisen dein heiliges Leiden.",
             "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
             "button": "Hll. Eucharius, Valerius und Maternus",
+            "genitiv": "der Heiligen Eucharius, Valerius und Maternus",
             "antev": "Schaut euch um, wachet und betet, denn ihr wisst nicht, wann der Herr des Hauses kommt."
           },
           "Vesper": {
@@ -14564,7 +14469,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "referenz": "AAA-2-4-n1",
             "button": "Hl. Rabanus Maurus",
-            "nominativ": "Der heilige Rabanus Maurus",
             "genitiv": "des heiligen Rabanus Maurus",
             "hymn_1": 8204.1,
             "hymn_2": 8204.2,
@@ -14579,7 +14483,6 @@ export const calendarData: CalendarData = {
             "resp2": "damit das Kreuz Christi nicht um seine Kraft gebracht wird. ",
             "resp3": "Vielmehr verkündigen wir das Geheimnis der verborgenen Weisheit Gottes.",
             "antev": "Von seiner Weisheit erzählt die Gemeinde, sein Lob verkündet das versammelte Volk.",
-            "genitiv_lat": "sancti Rabáni Mauri",
             "hymn_1_lat": 8204.102,
             "ant1_lat": "Implévit eum Dóminus spíritu sapiéntiæ et intelléctus.",
             "ant2_lat": "Nos autem gloriári opórtet in cruce Dómini nostri Iesu Christi.",
@@ -14668,7 +14571,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Gregor II.",
             "genitiv": "des heiligen Papstes Gregor",
-            "genitiv_lat": "sancti Papæ Gregórii",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
@@ -14704,7 +14606,6 @@ export const calendarData: CalendarData = {
             "button": "Hl. Valentin",
             "farbe": "r",
             "genitiv": "des heiligen Valentin",
-            "genitiv_lat": "sancti Valentíni",
             "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
             "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
           },
@@ -14916,6 +14817,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hll. Eoban, Adelar und übrige°Gefährten des°hl.°Bonifatius",
             "farbe": "r",
+            "genitiv": "der heiligen Eoban, Adelar und ihrer Gefährten",
             "antev": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
             "antev_lat": "Qui vitæ ætérnæ semen cum sancto Bonifátio late divulgavérunt, iis cor erat unum et ánima una atque una eadémque palma martýrii.^ALLo"
           },
@@ -14948,8 +14850,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Bardo",
-            "genitiv": "des heiligen Bardo",
-            "genitiv_lat": "sancti Bardónis"
+            "genitiv": "des heiligen Bardo"
           },
           "Messe": {
             "ms_aps_kv": "Mein Gott, ich komme;^ldeinen Willen zu tun, ist mein Gefallen.",
@@ -14976,8 +14877,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Heimerad",
-            "genitiv": "des heiligen Heimerad",
-            "genitiv_lat": "sancti Heimerádi"
+            "genitiv": "des heiligen Heimerad"
           },
           "Messe": {
             "ms_aps_kv": "Selig, wer Gefallen hat an der Weisung des HERRN.^l^l^rOder:^0r^lGesegnet, wer auf den HERRN vertraut.^l^l^rOder:^0r^lDer Gerechte sprießt wie die Palme^lin den Höfen unseres Gottes.",
@@ -15328,6 +15228,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Bischofsweihe des hl. Bonifatius",
+            "genitiv": "des heiligen Bonifatius",
             "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
             "hymn_2_lat": 0.0,
             "antev_lat": "Omnis póntifex ex homínibus assúmptus pro homínibus constitúitur in his, quæ sunt ad Deum. Nec quisquam sumit sibi illum honórem, sed qui vocátur a Deo."
@@ -15383,7 +15284,6 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Sturmius",
-            "nominativ": "Der heilige Sturmius",
             "genitiv": "des heiligen Sturmius",
             "hymn_1": 9216.2,
             "hymn_2": 9216.6,
@@ -15399,7 +15299,6 @@ export const calendarData: CalendarData = {
             "resp2": "wie köstliches Salböl auf dem Haupt.",
             "resp3": "Dort spendet der Herr Segen.",
             "antev": "Das ist der Freund seiner Brüder und des Volkes. Er ist es, der viel betet für das Volk und für die ganze heilige Stadt.",
-            "genitiv_lat": "sancti Stúrmii",
             "hymn_1_lat": 9216.101,
             "hymn_2_lat": 9216.102,
             "ant1_lat": "Dúcam eum in solitúdinem et ibi loquar ad cor eius.",
@@ -15486,8 +15385,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Sola",
-            "genitiv": "des heiligen Sola",
-            "genitiv_lat": "sancti Solæ"
+            "genitiv": "des heiligen Sola"
           }
         }
       },
@@ -15511,7 +15409,6 @@ export const calendarData: CalendarData = {
             "button": "Sel. Liborius Wagner",
             "farbe": "r",
             "genitiv": "des seligen Liborius Wagner",
-            "genitiv_lat": "sancti Libórii",
             "antev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
             "antev_lat": "Antiquíssimæ fídei novus martyr, Libórius véterum mártyrum factus est novum exémplar, ut in servo fidéli glorificarétur Deus."
           },
@@ -15575,7 +15472,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Zacharias",
             "genitiv": "des heiligen Zacharias",
-            "genitiv_lat": "sancti Papæ Zacharíæ",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
@@ -15626,8 +15522,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Willibald und hl. Wunibald (FD Eig)",
-            "genitiv": "des heiligen Willibald und hl. Wunibald",
-            "genitiv_lat": "sanctórum Willibáldi et Wunibáldi"
+            "genitiv": "des heiligen Willibald und hl. Wunibald"
           },
           "Messe": {
             "ms_aps_kv": "Der Mächtige hat Großes an mir getan^lund sein Name ist heilig.^l^rOder:^0r^lSelig bist du, Jungfrau Maria,^ldu hast den Sohn des ewigen Vaters getragen.",
@@ -15654,7 +15549,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Übertragung des hl. Bonifatius",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des hl. Bonifatius"
           },
           "Messe": {
             "ms_aps_kv": "Mein Gott, ich komme;^ldeinen Willen zu tun, ist mein Gefallen.",
@@ -15682,8 +15578,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hll. Simplizius, Faustinus und Beatrix",
             "farbe": "r",
-            "genitiv": "der Heiligen Simplizius, Faustinus und Beatrix",
-            "genitiv_lat": "sanctórum Simplícii, Faustíni et Beatrícis"
+            "genitiv": "der Heiligen Simplizius, Faustinus und Beatrix"
           },
           "Messe": {
             "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
@@ -15850,8 +15745,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Lullus",
-            "genitiv": "des heiligen Lullus",
-            "genitiv_lat": "sancti Lulli"
+            "genitiv": "des heiligen Lullus"
           },
           "Messe": {
             "ms_aps_kv": "Herr, bewahre meine Seele in deinem Frieden!",
@@ -15879,8 +15773,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Witta (Albuin)",
-            "genitiv": "des heiligen Witta",
-            "genitiv_lat": "sancti Wittæ"
+            "genitiv": "des heiligen Witta"
           },
           "Messe": {
             "ms_aps_kv": "Den HERRN will ich preisen allezeit.^l^l^rOder:^0r^lKostet und seht, wie gut der HERR ist!",
@@ -15990,7 +15883,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
           },
           "Laudes": {
-            "button": "Hl. Kastor"
+            "button": "Hl. Kastor",
+            "nominativ": "Der heilige Kastor",
+            "genitiv": "des heiligen Kastor",
+            "genitiv_lat": "sancti Castóris"
           }
         }
       },
@@ -16009,7 +15905,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Bonosus"
+            "button": "Hl. Bonosus",
+            "genitiv": "des heiligen Bonosus"
           }
         }
       },
@@ -16028,7 +15925,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
           },
           "Laudes": {
-            "button": "Hl. Willigis"
+            "button": "Hl. Willigis",
+            "genitiv": "des heiligen Willigis"
           }
         }
       }
@@ -16159,7 +16057,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
           },
           "Laudes": {
-            "button": "Hl. Petrus Fourier"
+            "button": "Hl. Petrus Fourier",
+            "genitiv": "des heiligen Petrus Fourier"
           }
         }
       }
@@ -16296,7 +16195,9 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Nehmt euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun."
           },
           "Laudes": {
-            "button": "Hl. Irmina von Trier"
+            "button": "Hl. Irmina von Trier",
+            "genitiv": "der heiligen Irmina",
+            "genitiv_lat": "sanctæ Irminæ"
           }
         }
       },
@@ -16315,7 +16216,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Agritius"
+            "button": "Hl. Agritius",
+            "genitiv": "des heiligen Agritius"
           }
         }
       },
@@ -16334,7 +16236,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Valerius"
+            "button": "Hl. Valerius",
+            "genitiv": "des heiligen Valerius"
           }
         }
       },
@@ -16354,7 +16257,9 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
           },
           "Laudes": {
-            "button": "Hl. Adelgundis"
+            "button": "Hl. Adelgundis",
+            "genitiv": "der heiligen Adelgundis",
+            "genitiv_lat": "sanctæ Adelgundis"
           }
         }
       }
@@ -16376,7 +16281,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
           },
           "Laudes": {
-            "button": "Hl. Quiriakus"
+            "button": "Hl. Quiriakus",
+            "nominativ": "Der heilige Quiriakus",
+            "genitiv": "des heiligen Quiriakus",
+            "genitiv_lat": "sancti Quiriáci"
           }
         }
       },
@@ -16451,7 +16359,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Britto"
+            "button": "Hl. Britto",
+            "genitiv": "des heiligen Britto"
           }
         }
       },
@@ -16470,7 +16379,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Modoald"
+            "button": "Hl. Modoald",
+            "genitiv": "des heiligen Modoald"
           }
         }
       },
@@ -16491,7 +16401,9 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Rupert von Bingen",
-            "genitiv": "des heiligen Rupert"
+            "nominativ": "Der heilige Rupert von Bingen",
+            "genitiv": "des heiligen Rupert von Bingen",
+            "genitiv_lat": "sancti Rupértis"
           }
         }
       },
@@ -16512,7 +16424,9 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Sel. Blandine Merten",
-            "genitiv": "der seligen Schwester Blandine"
+            "nominativ": "Die selige Schwester Blandine",
+            "genitiv": "der seligen Schwester Blandine",
+            "genitiv_lat": "beátæ Blandinæ"
           }
         }
       },
@@ -16554,7 +16468,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
           },
           "Laudes": {
-            "button": "Hl. Simeon"
+            "button": "Hl. Simeon",
+            "nominativ": "Der heilige Simeon",
+            "genitiv": "des heiligen Simeon",
+            "genitiv_lat": "sancti Simeónis"
           }
         }
       },
@@ -16573,7 +16490,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Medard"
+            "button": "Hl. Medard",
+            "genitiv": "des heiligen Medard"
           }
         }
       },
@@ -16593,7 +16511,9 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Nehmt euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun."
           },
           "Laudes": {
-            "button": "Sel. Maria Rosa (Margaretha) Flesch"
+            "button": "Sel. Maria Rosa (Margaretha) Flesch",
+            "genitiv": "der seligen Maria Rosa",
+            "genitiv_lat": "beátæ Mariæ Rosæ"
           }
         }
       },
@@ -16612,7 +16532,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
           },
           "Laudes": {
-            "button": "Sel. Peter Friedhofen"
+            "button": "Sel. Peter Friedhofen",
+            "nominativ": "Der selige Peter Friedhofen",
+            "genitiv": "des seligen Peter Friedhofen",
+            "genitiv_lat": "beáti Petri Friedhofen"
           }
         }
       }
@@ -16635,7 +16558,9 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Goar",
-            "genitiv": "des heiligen Goar"
+            "nominativ": "Der heilige Goar",
+            "genitiv": "des heiligen Goar",
+            "genitiv_lat": "sancti Góaris"
           }
         }
       },
@@ -16655,7 +16580,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Dem Vater sei Ehre, dem Sohn und dem Heiligen Geist!"
           },
           "Laudes": {
-            "button": "Hl. Disibod"
+            "button": "Hl. Disibod",
+            "nominativ": "Der heilige Disibod",
+            "genitiv": "des heiligen Disibod",
+            "genitiv_lat": "sancti Disibodi"
           }
         }
       },
@@ -16674,7 +16602,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Magnerich"
+            "button": "Hl. Magnerich",
+            "genitiv": "des heiligen Magnerich"
           }
         }
       },
@@ -16694,7 +16623,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
           },
           "Laudes": {
-            "button": "Hl. Beatus und hl. Bantus"
+            "button": "Hl. Beatus und hl. Bantus",
+            "nominativ": "Die Heiligen Beatus und Bantus",
+            "genitiv": "der Heiligen Beatus und Bantus",
+            "genitiv_lat": "sanctórum Beati etBanti"
           }
         }
       }
@@ -16716,7 +16648,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Emidius",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Emidius"
           }
         }
       },
@@ -16752,7 +16685,9 @@ export const calendarData: CalendarData = {
             "patr_text": "Trier-08-18"
           },
           "Laudes": {
-            "button": "Hl. Helena"
+            "button": "Hl. Helena",
+            "genitiv": "der heiligen Helena",
+            "genitiv_lat": "sanctæ Helenæ"
           }
         }
       },
@@ -16771,7 +16706,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen."
           },
           "Laudes": {
-            "button": "Hl. Gregor von Pfalzel"
+            "button": "Hl. Gregor von Pfalzel",
+            "genitiv": "des heiligen Gregor von Pfalzel"
           }
         }
       },
@@ -16800,7 +16736,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Maternus"
+            "button": "Hl. Maternus",
+            "genitiv": "des heiligen Maternus"
           }
         }
       },
@@ -16836,7 +16773,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Basin und Hl. Liutwin"
+            "button": "Hl. Basin und hl. Liutwin",
+            "genitiv": "der Heiligen Basin und Liutwin"
           }
         }
       },
@@ -16870,7 +16808,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Remigius"
+            "button": "Hl. Remigius",
+            "genitiv": "des heiligen Remigius"
           }
         }
       },
@@ -16884,7 +16823,8 @@ export const calendarData: CalendarData = {
             "patr_text": "Trier-10-03"
           },
           "Laudes": {
-            "button": "Hl. Niketius"
+            "button": "Hl. Niketius",
+            "genitiv": "des heiligen Niketius"
           }
         }
       },
@@ -16904,7 +16844,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Gedenktag der Trierer Märtyrer",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "der heiligen Blutzeugen unseres Bistums"
           }
         }
       },
@@ -16925,7 +16866,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Lubentius",
             "nominativ": "Der heilige Lubentius",
-            "genitiv": "des heiligen Lubentius"
+            "genitiv": "des heiligen Lubentius",
+            "genitiv_lat": "sancti Lubéntii"
           }
         }
       },
@@ -16963,7 +16905,9 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wir haben nicht den Geist der Welt empfangen."
           },
           "Laudes": {
-            "button": "Hl. Modesta"
+            "button": "Hl. Modesta",
+            "genitiv": "der heiligen Modesta",
+            "genitiv_lat": "sanctæ Modestæ"
           }
         }
       },
@@ -16993,7 +16937,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Kunibert"
+            "button": "Hl. Kunibert",
+            "genitiv": "des heiligen Kunibert"
           }
         }
       }
@@ -17147,6 +17092,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Gedächtnis aller Märtyrer des°Bistums",
             "farbe": "r",
+            "genitiv": "der heiligen Blutzeugen unseres Bistums",
             "antev": "Wer sich vor den Menschen zu mir bekennt, zu dem werde ich mich vor meinem Vater im Himmel bekennen.",
             "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
             "bitten_r": "Erhöre uns, Christus.",
@@ -17215,7 +17161,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Sel. Maria Louise Merkert",
             "nominativ": "Die selige Maria Louise",
-            "genitiv": "der seligen Maria Louise"
+            "genitiv": "der seligen Maria Louise",
+            "genitiv_lat": "beátæ Maríæ Luísæ"
           }
         }
       }
@@ -17282,7 +17229,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Hyazinth",
             "nominativ": "Der heilige Hyzinth",
-            "genitiv": "des heiligen Hyazinth"
+            "genitiv": "des heiligen Hyazinth",
+            "genitiv_lat": "sancti Hyacínthi"
           }
         }
       }
@@ -17315,7 +17263,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Gunther",
             "nominativ": "Der heilige Gunther",
-            "genitiv": "des heiligen Gunther"
+            "genitiv": "des heiligen Gunther",
+            "genitiv_lat": "sancti Gunthéri"
           }
         }
       },
@@ -17349,6 +17298,7 @@ export const calendarData: CalendarData = {
             "button": "Sel. Contardo Ferrini",
             "nominativ": "Der selige Contardo",
             "genitiv": "des seligen Contardo",
+            "genitiv_lat": "beáti Contárdi Ferrini",
             "antev": "Eure Liebe werde überreich an aller Erkenntnis, damit ihr nach dem Höheren strebt, damit ihr rein und makellos dasteht am Tage Christi."
           },
           "Vesper": {
@@ -17373,7 +17323,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Sel. Maria Teresa vom hl. Josef",
             "nominativ": "Die selige Maria Teresa",
-            "genitiv": "der seligen Maria Teresa"
+            "genitiv": "der seligen Maria Teresa",
+            "genitiv_lat": "beátæ Maríæ Terésæ"
           }
         }
       }
@@ -17434,7 +17385,8 @@ export const calendarData: CalendarData = {
             "antev": "Die Weisen aus dem Morgenland kamen nach Betlehem, um dem Herrn zu huldigen. Sie taten ihre Schätze auf und brachten ihm ihre Gaben dar: Gold dem König, Weihrauch dem wahren Gott und Myrrhe für sein Begräbnis.",
             "bitten_e": "Lasset uns beten zu unserem Erlöser, den die Weisen angebetet haben:",
             "bitten_r": "Du Licht vom Licht, erhelle unseren Tag.",
-            "bitten": "Christus, geoffenbart im Fleisch,^qheilige die Welt durch dein Wort.^pChristus, gerechtfertigt im Geist,^qschenke uns deinen Heiligen Geist.^pChristus, geschaut von den Engeln,^qlass uns die Freuden des Himmels erfahren.^pChristus, verkündet unter den Heiden,^qöffne die Herzen der Menschen für dein Wort.^pChristus, geglaubt in der Welt,^qerneuere den Glauben in allen, die sich zu dir bekennen.^pChristus, aufgenommen in die Herrlichkeit,^qentzünde in uns die Sehnsucht nach deinem Reich."
+            "bitten": "Christus, geoffenbart im Fleisch,^qheilige die Welt durch dein Wort.^pChristus, gerechtfertigt im Geist,^qschenke uns deinen Heiligen Geist.^pChristus, geschaut von den Engeln,^qlass uns die Freuden des Himmels erfahren.^pChristus, verkündet unter den Heiden,^qöffne die Herzen der Menschen für dein Wort.^pChristus, geglaubt in der Welt,^qerneuere den Glauben in allen, die sich zu dir bekennen.^pChristus, aufgenommen in die Herrlichkeit,^qentzünde in uns die Sehnsucht nach deinem Reich.",
+            "genitiv_lat": "translatiónis reliquiárum sanctórum Magórum"
           },
           "Vesper": {
             "comm_1": "Mann",
@@ -17470,7 +17422,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Apollinaris",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Apollinaris"
           }
         }
       },
@@ -17490,7 +17443,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Johannes von Köln",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Johannes von Köln"
           }
         }
       },
@@ -17509,7 +17463,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Für euch, meine Kinder, erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt gewinnt."
           },
           "Laudes": {
-            "button": "Hl. Agilolf"
+            "button": "Hl. Agilolf",
+            "genitiv": "des heiligen Agilolf"
           }
         }
       }
@@ -17551,7 +17506,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "referenz": "Köln-10-10-oblig",
-            "button": "Hl. Cassius und hl.°Florentinus (Hochfest°in°Bonn)"
+            "button": "Hl. Cassius und hl.°Florentinus (Hochfest°in°Bonn)",
+            "genitiv": "der Heiligen Cassius und Florentinus"
           },
           "Terz": {
             "ant0": "Der Herr Jesus Christus, siegreich in seinem Leiden, hat die thebäische Legion erwählt, seinen Namen zu verherrlichen.",
@@ -17601,6 +17557,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Gereon und Gefährten",
             "farbe": "r",
+            "genitiv": "des heiligen Gereon",
             "hymn_1": 9010.2,
             "hymn_2": 9010.1,
             "psalm1": 63.0,
@@ -17693,7 +17650,8 @@ export const calendarData: CalendarData = {
             "antev": "Ihr Chöre der Märtyrer, lobt den Herrn im Himmel.",
             "bitten_e": "Lasst uns beten zu Jesus Christus, denn er ist der Ruhm und die Krone der Jungfrauen:",
             "bitten_r": "Christus, du Krone der heiligen Jungfrauen, erhöre uns.",
-            "bitten": "Dir, ihrem Bräutigam, haben sich die heiligen Jungfrauen geweiht;^qgib, dass auch uns nichts von deiner Liebe trenne.^pDu hast Maria, deine Mutter, zur Königin der Jungfrauen erhoben;^qauf ihre Fürsprache hin schenke uns die Reinheit des Herzens.^pDie heiligen Jungfrauen haben dir mit ungeteiltem Herzen gedient;^qgib, dass auch uns nichts in dieser vergänglichen Welt hindere auf dem Weg zu dir.^pDu bist der Bräutigam, auf dessen Ankunft die klugen Jungfrauen gewartet haben;^qgib, dass wir stets wachsam deine Wiederkunft erwarten.^pDu hast den heiligen Jungfrauen Ursula und ihren Gefährtinnen Weisheit und Klugheit geschenkt;^qschenke auch uns auf ihre Fürsprache Weisheit und reines Leben."
+            "bitten": "Dir, ihrem Bräutigam, haben sich die heiligen Jungfrauen geweiht;^qgib, dass auch uns nichts von deiner Liebe trenne.^pDu hast Maria, deine Mutter, zur Königin der Jungfrauen erhoben;^qauf ihre Fürsprache hin schenke uns die Reinheit des Herzens.^pDie heiligen Jungfrauen haben dir mit ungeteiltem Herzen gedient;^qgib, dass auch uns nichts in dieser vergänglichen Welt hindere auf dem Weg zu dir.^pDu bist der Bräutigam, auf dessen Ankunft die klugen Jungfrauen gewartet haben;^qgib, dass wir stets wachsam deine Wiederkunft erwarten.^pDu hast den heiligen Jungfrauen Ursula und ihren Gefährtinnen Weisheit und Klugheit geschenkt;^qschenke auch uns auf ihre Fürsprache Weisheit und reines Leben.",
+            "genitiv_lat": "sanctæ Ursulæ et sociárum eius"
           },
           "Terz": {
             "ant0": "Die heilige Ursula und ihre Gefährtinnen gelobten Gott unversehrte Jungfräulichkeit.",
@@ -17753,7 +17711,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Die heiligen Brüder Ewald",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "der heiligen Brüder Ewald"
           }
         }
       },
@@ -17800,7 +17759,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen."
           },
           "Laudes": {
-            "button": "Hl. Severin"
+            "button": "Hl. Severin",
+            "genitiv": "des heiligen Severin"
           }
         }
       },
@@ -17819,7 +17779,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Dies ist der Stein, der zum Eckstein geworden ist."
           },
           "Laudes": {
-            "button": "Hl. Evergislus"
+            "button": "Hl. Evergislus",
+            "genitiv": "des heiligen Evergislus"
           }
         }
       }
@@ -17850,7 +17811,9 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wer sich des Armen erbarmt, der liebt den Herrn."
           },
           "Laudes": {
-            "button": "Hl. Adelheid von Vilich"
+            "button": "Hl. Adelheid von Vilich",
+            "genitiv": "der heiligen Adelheid",
+            "genitiv_lat": "sænctæ Adelheid"
           }
         }
       }
@@ -17872,9 +17835,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Heribert",
-            "genitiv": "des heiligen Heribert",
-            "vokativ": "Heiliger Heribert",
-            "genitiv_lat": "sancti Heribérti"
+            "genitiv": "des heiligen Heribert"
           }
         }
       }
@@ -17895,7 +17856,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen."
           },
           "Laudes": {
-            "button": "Hl. Swidbert"
+            "button": "Hl. Swidbert",
+            "genitiv": "des heiligen Swidbert"
           }
         }
       },
@@ -17914,7 +17876,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "EIN Herr, Ein Glaube, EINE Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist."
           },
           "Laudes": {
-            "button": "Hl. Maternus"
+            "button": "Hl. Maternus",
+            "genitiv": "des heiligen Maternus"
           }
         }
       },
@@ -17950,7 +17913,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Dies ist der Stein, der zum Eckstein geworden ist."
           },
           "Laudes": {
-            "button": "Hl. Engelbert"
+            "button": "Hl. Engelbert",
+            "genitiv": "des heiligen Engelbert"
           }
         }
       },
@@ -17969,7 +17933,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wir haben die Liebe erkannt und an die Liebe geglaubt, die Gott zu uns hat."
           },
           "Laudes": {
-            "button": "Sel. Johannes Duns Scotus"
+            "button": "Sel. Johannes Duns Scotus",
+            "genitiv": "des seligen Johannes Duns Scotus"
           }
         }
       },
@@ -18245,7 +18210,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Meinolf von°Böddeken/Paderborn",
             "nominativ": "Der heilige Meinolf",
-            "genitiv": "des heiligen Meinolf"
+            "genitiv": "des heiligen Meinolf",
+            "genitiv_lat": "sancti Meinólfi"
           }
         }
       }
@@ -18269,9 +18235,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Patroklus",
             "farbe": "r",
-            "nominativ": "Der heilige Patroklus",
-            "genitiv": "des heiligen Patroklus",
-            "vokativ": "Heiliger Patroklus"
+            "genitiv": "des heiligen Patroklus"
           }
         }
       },
@@ -18293,9 +18257,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Sel. Nikolaus Groß",
             "farbe": "r",
-            "nominativ": "Der selige Nikolaus",
-            "genitiv": "des seligen Nikolaus",
-            "vokativ": "Seliger Nikolaus"
+            "genitiv": "des seligen Nikolaus"
           }
         }
       },
@@ -18316,9 +18278,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Julian",
-            "nominativ": "Der heilige Julian",
-            "genitiv": "des heiligen Julian",
-            "vokativ": "Heiliger Julian"
+            "genitiv": "des heiligen Julian"
           }
         }
       }
@@ -18343,7 +18303,7 @@ export const calendarData: CalendarData = {
             "button": "Sel. Maria Theresia Bonzel",
             "nominativ": "Die selige Maria Theresia",
             "genitiv": "der seligen Maria Theresia",
-            "vokativ": "Selige Maria Theresia"
+            "genitiv_lat": "beátæ Maríæ Terésiæ"
           }
         }
       }
@@ -18368,9 +18328,7 @@ export const calendarData: CalendarData = {
             "button": "Sel. Pauline von Mallinckrodt",
             "nominativ": "Die selige Pauline",
             "genitiv": "der seligen Pauline",
-            "vokativ": "Selige Pauline",
-            "genitiv_lat": "beátæ Paulínæ",
-            "vokativ_lat": "beáta Paulína"
+            "genitiv_lat": "beátæ Paulínæ"
           }
         }
       }
@@ -18393,9 +18351,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Erkanbert",
-            "nominativ": "Der heilige Erkanbert",
-            "genitiv": "des heiligen Erkanbert",
-            "vokativ": "Heiliger Erkanbert"
+            "genitiv": "des heiligen Erkanbert"
           }
         }
       },
@@ -18416,9 +18372,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Leo III.",
-            "nominativ": "Der heilige Papst Leo",
-            "genitiv": "des heiligen Papstes Leo",
-            "vokativ": "Heiliger Leo"
+            "genitiv": "des heiligen Papstes Leo"
           }
         }
       }
@@ -18464,7 +18418,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Ida von Herzfeld",
-            "genitiv": "der heiligen Ida"
+            "genitiv": "der heiligen Ida",
+            "genitiv_lat": "sanctæ Idæ"
           }
         }
       },
@@ -18484,7 +18439,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
           },
           "Laudes": {
-            "button": "Hl. Adalbert von Corvey"
+            "button": "Hl. Adalbert von Corvey",
+            "nominativ": "Der heilige Adalbert von Corvey",
+            "genitiv": "des heiligen Adalbert von Corvey",
+            "genitiv_lat": "sancti Adalbérti"
           }
         }
       }
@@ -18509,9 +18467,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Engelbert",
             "farbe": "r",
-            "nominativ": "Der heilige Engelbert",
-            "genitiv": "des heiligen Engelbert",
-            "vokativ": "Heiliger Engelbert"
+            "genitiv": "des heiligen Engelbert"
           }
         }
       },
@@ -18532,9 +18488,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Sel. Niels Stensen",
-            "nominativ": "Der selige Nils Stensen",
-            "genitiv": "des seligen Nils Stensen",
-            "vokativ": "Seliger Nils Stensen"
+            "genitiv": "des seligen Nils Stensen"
           }
         }
       }
@@ -18564,7 +18518,10 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Herr, wende deinen Zorn ab von deinem Volk und von deiner heiligen Stadt."
           },
           "Laudes": {
-            "button": "Hl. Sturmius"
+            "button": "Hl. Sturmius",
+            "nominativ": "Der heilige Sturmius",
+            "genitiv": "des heiligen Sturmius",
+            "genitiv_lat": "sancti Stúrmii"
           }
         }
       }
@@ -18603,7 +18560,10 @@ export const calendarData: CalendarData = {
             "patr_text": "Speyer-08-01"
           },
           "Laudes": {
-            "button": "Hl. Petrus Faber"
+            "button": "Hl. Petrus Faber",
+            "nominativ": "Der heilige Petrus Faber",
+            "genitiv": "des heiligen Petrus Faber",
+            "genitiv_lat": "sancti Petri Faber"
           }
         }
       },
@@ -18667,7 +18627,8 @@ export const calendarData: CalendarData = {
             "patr_text": "Speyer-01-27"
           },
           "Laudes": {
-            "button": "Sel. Paul Josef Nardini"
+            "button": "Sel. Paul Josef Nardini",
+            "genitiv": "des seligen Paul Josef Nardini"
           }
         }
       }
@@ -18684,6 +18645,9 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Guido von Pomposa",
+            "nominativ": "Der heilige Guido von Pomposa",
+            "genitiv": "des heiligen Guido von Pomposa",
+            "genitiv_lat": "sancti Guidónis",
             "antev": "Der gute Herrscher schenkte Speyer die Gebeine des Seligen zu würdiger Verehrung. Geht, ihr Gläubigen, lauft eilends, nehmt sie entgegen wie eine große Gnade!^HALLo"
           },
           "Vesper": {
@@ -18701,7 +18665,8 @@ export const calendarData: CalendarData = {
             "patr_text": "Speyer-05-05"
           },
           "Laudes": {
-            "button": "Hl. Philipp von Zell"
+            "button": "Hl. Philipp von Zell",
+            "genitiv": "des heiligen Philipp von Zell"
           }
         }
       }
@@ -18745,7 +18710,10 @@ export const calendarData: CalendarData = {
             "patr_text": "Speyer-07-15"
           },
           "Laudes": {
-            "button": "Sel. Bernhard von Baden"
+            "button": "Sel. Bernhard von Baden",
+            "nominativ": "Der selige Bernhard von Baden",
+            "genitiv": "des seligen Bernhard von Baden",
+            "genitiv_lat": "beáti Bernárdi"
           }
         }
       }
@@ -18763,7 +18731,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Theodard",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Theodard"
           }
         }
       },
@@ -18845,7 +18814,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Sel. Alojs Andritzki",
             "farbe": "r",
-            "nominativ": "Der heilige Alojs",
             "genitiv": "des heiligen Alojs",
             "hymn_1": 8203.2
           },
@@ -18869,7 +18837,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Zbóžny Alojs Andricki (sorbisch)",
             "farbe": "r",
-            "nominativ": "Der heilige Alojs",
             "genitiv": "des heiligen Alojs"
           }
         }
