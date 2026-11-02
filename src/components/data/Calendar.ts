@@ -12243,7 +12243,8 @@ export const calendarData: CalendarData = {
             "patr_text": "AAA-11-02"
           },
           "Laudes": {
-            "button": "Allerseelen"
+            "button": "Allerseelen",
+            "farbe": "v"
           },
           "Messe": {
             "ms_les_buch": "Ijob",
