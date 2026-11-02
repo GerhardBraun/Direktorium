@@ -22,11 +22,11 @@ const MassReadingsSelector = ({
     // Helper function for button colors
     const getButtonColor = (source) => {
         if (texts.date.mmdd === '11-02' && source === 'oblig')
-            return 'btn-violett';
+            return 'btn-violet';
         if (source === 'wt') {
             const season = texts?.season || 'j';
             if (season === 'j') return 'btn-green'
-            else if (['a', 'q'].includes(season)) return 'btn-violett'
+            else if (['a', 'q'].includes(season)) return 'btn-violet'
             else return 'btn-white';
         };
 

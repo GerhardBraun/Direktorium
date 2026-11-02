@@ -74,6 +74,7 @@ const SourceSelector = ({
 
         switch (color?.charAt(0)?.toLowerCase()) {
             case 'r': return 'btn-red'
+            case 'v': return 'btn-violet'
             case 'm': return 'btn-blue'
             default: return 'btn-white'
         }
@@ -84,7 +85,7 @@ const SourceSelector = ({
         switch (season) {
             case 'j': return 'btn-green';
             case 'a':
-            case 'q': return 'btn-violett';
+            case 'q': return 'btn-violet';
             default: return 'btn-gold';
         }
     };

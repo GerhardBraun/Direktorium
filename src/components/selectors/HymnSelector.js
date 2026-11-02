@@ -32,7 +32,7 @@ const HymnSelector = ({ texts, hour, season,
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
             if (['vesper', 'komplet'].includes(hour)) {
                 // Erste Vesper und Komplet zum 1. Advent und zu Weihnachten
-                if (texts?.swd.combined === 'j-34-6') return 'btn-violett';
+                if (texts?.swd.combined === 'j-34-6') return 'btn-violet';
                 if (texts?.date?.mmdd === '12-24') return 'btn-gold';
             }
             if (texts?.laudes?.wt?.farbe === 'r' ||
@@ -41,7 +41,7 @@ const HymnSelector = ({ texts, hour, season,
             } else if (season === 'j' && !['j-1-0', 'j-34-0'].includes(texts?.swd.combined))
                 return 'btn-green';
             else if (season === 'a' || season === 'q')
-                return 'btn-violett';
+                return 'btn-violet';
             else return 'btn-gold';
         };
 

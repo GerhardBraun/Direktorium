@@ -16,7 +16,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         {
             season: "a", // Advent und Weihnachtszeit (w)
             color: (Nativity) ? "btn-gold"
-                : (season === 'a') ? "btn-violett" : "btn-default",
+                : (season === 'a') ? "btn-violet" : "btn-default",
             title: "Erhabne Mutter des Erlösers",
             text: "Erhabne Mutter des Erlösers,^ldu allzeit offene Pforte des Himmels^lund Stern des Meeres,^lkomm, hilf deinem Volke,^ldas sich müht, vom Falle aufzustehn.^lDu hast geboren, der Natur zum Staunen,^ldeinen heiligen Schöpfer.^lUnversehrte Jungfrau,^ldie du aus Gabriels Munde^lnahmst das selige Ave,^lo erbarme dich der Sünder.",
             title_lat: "Alma Redemptoris Mater",
@@ -24,7 +24,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         },
         {
             season: "q", // Fastenzeit
-            color: (season === 'q') ? "btn-violett"
+            color: (season === 'q') ? "btn-violet"
                 : (Assumption) ? "btn-gold" : "btn-default",
             rubric: (Assumption) ? "In der Oktav von Mariae Himmelfahrt bis Maria°Königin kann passenderweise diese°Antiphon°bevorzugt°werden:" : "",
             rubric_lat: (Assumption) ? "Infra octavam Assumptionis Mariæ usque ad Mariæ°Reginæ°memoriam hanc°antiphonam°prævalere°convenit:" : "",

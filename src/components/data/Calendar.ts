@@ -337,6 +337,9 @@ export const calendarData: CalendarData = {
             "ant1": "Mit seinem Ring hat mich Christus, mein Herr, zur Treue verpflichtet und mich als Braut geschmückt mit einem Kranz.",
             "ant2": "Ihm, dem die Engel dienen, bin ich angetraut. Seine Schönheit bewundern Sonne und Mond.",
             "ant3": "Freut euch und dankt mit mir! Denn auf leuchtendem Thron ist mir ein Platz bereitet unter den Heiligen.",
+            "mode1": "VII",
+            "mode2": "IV",
+            "mode3": "VII",
             "les_buch": "2°Kor",
             "les_stelle": "1,3–5",
             "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
@@ -345,6 +348,7 @@ export const calendarData: CalendarData = {
             "resp2": "er steht ihr bei, sie wird nicht wanken.",
             "resp3": "Gott ist ihr Zuflucht und Stärke, ein Helfer in allen Nöten.",
             "antev": "Schon schaue ich, wonach ich mich sehnte, schon besitze ich, was ich erhoffte. Den ich auf Erden von Herzen geliebt, mit dem bin ich im Himmel vereint.",
+            "modeev": "VII",
             "genitiv_lat": "sanctæ Agnétis",
             "hymn_1_lat": 8121.2,
             "ant1_lat": "Anulo suo subarrhávit me Dóminus meus Iesus Christus, et tamquam sponsam decorávit me coróna.",
@@ -365,6 +369,9 @@ export const calendarData: CalendarData = {
             "ant1": "Mich schreckt keine Drohung, und kein Versprechen kann mich verlocken; denn als Jungfrau gehöre ich Christus an.",
             "ant2": "Ihm allein bewahre ich die Treue, ihm weihe ich mich von ganzem Herzen.",
             "ant3": "Ich preise dich, Vater meines Herrn Jesus Christus; denn durch ihn, deinen Sohn, hast du deiner Magd den Sieg verliehen.",
+            "mode1": "II",
+            "mode2": "I",
+            "mode3": "VIII",
             "les_buch": "1°Petr",
             "les_stelle": "4,13–14",
             "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
@@ -372,6 +379,7 @@ export const calendarData: CalendarData = {
             "resp2": "vor allen hat er sie erkoren.",
             "resp3": "In seinem Zelt lässt er sie wohnen.",
             "antev": "Die heilige Agnes breitete die Hände aus und betete: Heiliger Vater, dich rufe ich an. Siehe, ich komme zu dir, den ich geliebt und gesucht, nach dem ich mich allezeit gesehnt.",
+            "modeev": "VIII",
             "hymn_1_lat": 8121.2,
             "ant1_lat": "Christi virgo nec terróre concútitur nec blandiméntis sedúcitur.",
             "ant2_lat": "Ipsi soli servo fidem, ipsi me tota devotióne commítto.",
@@ -429,6 +437,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Lasst uns Gott loben am Fest der Bekehrung des heiligen Paulus!",
+            "mode0": "II",
             "ant0_lat": "Laudémus Deum nostrum in conversióne Doctóris géntium."
           },
           "Lesehore": {
@@ -464,6 +473,9 @@ export const calendarData: CalendarData = {
             "ant1": "Ich weiß, wem ich glaube, und ich bin sicher: er, mein gerechter Richter, hat die Macht, das mir anvertraute Gut zu bewahren bis zu seinem Tag.",
             "ant2": "Paulus, meine Gnade genügt dir. Denn in der Schwachheit erweist sie ihre Kraft.",
             "ant3": "Durch die Gnade Gottes bin ich, was ich bin. Sein gnädiges Handeln an mir blieb nicht ohne Wirkung.",
+            "mode1": "I",
+            "mode2": "IV",
+            "mode3": "VIII",
             "les_buch": "Apg",
             "les_stelle": "26,16b–18",
             "les_text": "Ich bin dir erschienen, um dich zum Diener und Zeugen dessen zu erwählen, was du gesehen hast und was ich dir noch zeigen werde. Ich will dich vor dem Volk und den Heiden retten, zu denen ich dich sende, um ihnen die Augen zu öffnen. Denn sie sollen sich von der Finsternis zum Licht und von der Macht des Satans zu Gott bekehren und sollen durch den Glauben an mich die Vergebung der Sünden empfangen und mit den Geheiligten am Erbe teilhaben.",
@@ -472,6 +484,7 @@ export const calendarData: CalendarData = {
             "resp2": "heiliger Apostel Paulus.",
             "resp3": "Ein Künder der Wahrheit in der ganzen Welt.",
             "antev": "Voll Freude feiern wir die Bekehrung des heiligen Paulus. Denn seinen Verfolger hat der Herr zu seinem Werkzeug erwählt.",
+            "modeev": "IIc",
             "hymn_1_lat": 8125.2,
             "ant1_lat": "Scio cui crédidi, et certus sum quia potens est depósitum meum serváre in illum diem iustus iudex.",
             "ant2_lat": "Súfficit tibi, Paule, grátia mea, nam virtus in infirmitáte perfícitur.",
@@ -503,6 +516,7 @@ export const calendarData: CalendarData = {
             "ant1": "",
             "ant2": "",
             "ant3": "",
+            "mode0": "IV",
             "les_buch": "1°Tim",
             "les_stelle": "1,14–15",
             "les_text": "So übergroß war die Gnade unseres Herrn, die mir in Christus Jesus den Glauben und die Liebe schenkte. Das Wort ist glaubwürdig und wert, dass man es beherzigt: Christus Jesus ist in die Welt gekommen, um die Sünder zu retten. Von ihnen bin ich der Erste.",
@@ -535,6 +549,9 @@ export const calendarData: CalendarData = {
             "ant1": "Mit Freuden rühme ich mich meiner Schwachheit, dass Christi Kraft in mir wohne.",
             "ant2": "Ich habe gepflanzt, Apollos hat begossen, Gott aber gab das Wachstum.",
             "ant3": "Für mich ist Christus das Leben, und Sterben ist mir Gewinn. Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen.",
+            "mode1": "I",
+            "mode2": "II",
+            "mode3": "VIII",
             "les_buch": "1°Kor",
             "les_stelle": "15,9–10",
             "les_text": "Ich bin der Geringste von den Aposteln; ich bin nicht wert, Apostel genannt zu werden, weil ich die Kirche Gottes verfolgt habe. Doch durch Gottes Gnade bin ich, was ich bin, und sein gnädiges Handeln an mir ist nicht ohne Wirkung geblieben. Mehr als sie alle habe ich mich abgemüht – nicht ich, sondern die Gnade Gottes zusammen mit mir.",
@@ -542,6 +559,7 @@ export const calendarData: CalendarData = {
             "resp2": "aus ganzem Herzen dir lobsingen.",
             "resp3": "Unter den Heiden will ich deinen Namen ehren.",
             "antev": "Heiliger Apostel Paulus, Verkünder der Wahrheit und Lehrer der Heiden, tritt für uns ein bei Gott, der dich erwählt hat.",
+            "modeev": "IIc",
             "hymn_1_lat": 8125.4,
             "ant1_lat": "Libénter gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.",
             "ant2_lat": "Ego plantávi, Apóllo rigávit, Deus autem increméntum dedit.",
@@ -948,10 +966,12 @@ export const calendarData: CalendarData = {
             "vokativ": "Heiliger Basilius und heiliger Gregor",
             "vokativ_lat": "sancte Basíli et sancte Gregóri",
             "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
+            "modeev": "VIII",
             "antev_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stellæ in perpétuas æternitátes."
           },
           "Vesper": {
             "antev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
+            "modeev": "III",
             "antev_lat": "Qui fécerit et docúerit, hic magnus vocábitur in regno cælórum."
           },
           "Messe": {
@@ -1326,10 +1346,12 @@ export const calendarData: CalendarData = {
             "button": "Hl. Timotheus und hl. Titus",
             "genitiv": "der Heiligen Timotheus und Titus",
             "antev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
+            "modeev": "IIc",
             "antev_lat": "Prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína."
           },
           "Vesper": {
             "antev": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn.",
+            "modeev": "IIc",
             "antev_lat": "Iuste et pie vivámus, exspectántes beátam spem et advéntum Dómini."
           },
           "Messe": {
@@ -1405,10 +1427,12 @@ export const calendarData: CalendarData = {
             "vokativ": "Heiliger Thomas",
             "vokativ_lat": "sancte Thomas",
             "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
+            "modeev": "VIII",
             "antev_lat": "Benedíctus Dóminus, pro cuius amóre beátus Thomas stúduit, vigilávit et laborávit."
           },
           "Vesper": {
             "antev": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
+            "modeev": "IV",
             "antev_lat": "Dedit ei Deus sapiéntiam multam nimis, quam sine fictióne dídicit et sine invídia communicávit."
           },
           "Messe": {
@@ -1480,6 +1504,9 @@ export const calendarData: CalendarData = {
             "ant1": "Maria und Josef brachten das Kind nach Jerusalem hinauf, um es dem Herrn zu weihen.",
             "ant2": "Zion, schmücke dein Brautgemach, nimm deinen König auf, der zu dir kommt: Christus, den Herrn.",
             "ant3": "Selig bist du, Simeon, du hast Christus, den Herrn, auf deinen Armen getragen, den Befreier seines Volkes.",
+            "mode1": "VI",
+            "mode2": "VII",
+            "mode3": "VIIIa",
             "les_buch": "Hebr",
             "les_stelle": "10,5–7",
             "les_text": "Bei seinem Eintritt in die Welt spricht Christus: Schlacht- und Speiseopfer hast du nicht gefordert, doch einen Leib hast du mir geschaffen; an Brand- und Sündopfern hast du kein Gefallen. Da sagte ich: Ja, ich komme – so steht es über mich in der Schriftrolle –, um deinen Willen, Gott, zu tun.",
@@ -1488,6 +1515,7 @@ export const calendarData: CalendarData = {
             "resp2": "das er bereitet hat vor allen Völkern.",
             "resp3": "Meine Augen haben sein Heil geschaut.",
             "antev": "O wunderbares Geschehen: Der Greis trägt das Kind, das Kind aber lenkt den Greis. Die Jungfrau betet an, den sie geboren hat.^HALLxq",
+            "modeev": "IV",
             "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde:",
             "bitten_r": "Lass alle Menschen dein Angesicht schauen.",
             "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pLass die Sterbenden in Frieden scheiden^qund schenke unseren Verstorbenen dein Heil.",
@@ -1506,6 +1534,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt,°wir°beten°ihn°an!",
+            "mode0": "I",
             "ant0_lat": "Ecce venit ad templum sanctum suum dominátor Dóminus: veníte, adorémus."
           },
           "Lesehore": {
@@ -1554,6 +1583,9 @@ export const calendarData: CalendarData = {
             "ant1": "Simeon war gerecht und fromm und erwartete die Rettung Israels, und der Heilige Geist ruhte auf ihm.",
             "ant2": "Simeon nahm das Kind auf seine Arme, er lobte Gott und sagte ihm Dank.",
             "ant3": "Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für dein Volk Israel.",
+            "mode1": "III",
+            "mode2": "II",
+            "mode3": "VIII",
             "les_buch": "Mal",
             "les_stelle": "3,1",
             "les_text": "Seht, ich sende meinen Boten; er soll den Weg für mich bahnen. Dann kommt plötzlich zu seinem Tempel der Herr, den ihr sucht, und der Bote des Bundes, den ihr herbeiwünscht. Seht, er kommt!, spricht der Herr der Heere.",
@@ -1562,6 +1594,7 @@ export const calendarData: CalendarData = {
             "resp2": "in seinem heiligen Tempel.",
             "resp3": "Lobpreis und Ehre bringet ihm dar",
             "antev": "Als die Eltern Jesus in den Tempel brachten, nahm Simeon das Kind auf seine Arme und lobte Gott.",
+            "modeev": "I",
             "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde. Zu ihm lasst uns beten:",
             "bitten_r": "Herr, zeige uns dein Angesicht.",
             "bitten": "Du bist der Ruhm deines Volkes Israel;^qmach uns froh in der Gemeinschaft deiner Kirche.^pDu bist das Licht zur Erleuchtung der Heiden;^qöffne unser Herz für die Sorgen der jungen Kirchen.^pDu hast dich in allem dem Willen des Vaters unterworfen;^qhilf uns heute, den Willen Gottes zu tun.^pMaria hat mit dir die Bitternis des Leidens getragen;^qauf ihre Fürsprache stärke uns, wenn wir leiden müssen.",
@@ -1618,6 +1651,9 @@ export const calendarData: CalendarData = {
             "ant1": "Simeon hatte vom Heiligen Geist die Verheißung empfangen, er werde den Tod nicht schauen, bevor er den Herrn gesehen habe.",
             "ant2": "Sie brachten dem Herrn ihr Opfer dar, wie das Gesetz es vorschrieb: ein Paar Turteltauben oder zwei junge Tauben.",
             "ant3": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
+            "mode1": "VIII",
+            "mode2": "II",
+            "mode3": "VIII",
             "les_buch": "Hebr",
             "les_stelle": "4,15–16",
             "les_text": "Wir haben nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat. Lasst uns also voll Zuversicht hingehen zum Thron der Gnade, damit wir Erbarmen und Gnade finden und so Hilfe erlangen zur rechten Zeit.",
@@ -1626,6 +1662,7 @@ export const calendarData: CalendarData = {
             "resp2": "das er bereitet hat vor allen Völkern.",
             "resp3": "Meine Augen haben sein Heil geschaut.",
             "antev": "Die Jungfrau Maria weiht heute im Tempel Gott, dem Herrn, ihr Kind. Erfüllt vom Heiligen Geist, nimmt es Simeon auf seine Arme und lobt den Herrn.",
+            "modeev": "IIc",
             "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde:",
             "bitten_r": "Lass alle Menschen dein Angesicht schauen.",
             "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pLass die Sterbenden in Frieden scheiden,^qund schenke unseren Verstorbenen dein Heil.",
@@ -1668,10 +1705,12 @@ export const calendarData: CalendarData = {
             "button": "Hl. Cyrill und hl. Methodius",
             "genitiv": "der Heiligen Cyrill und Methodius",
             "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
+            "modeev": "I",
             "antev_lat": "In sanctitáte et iustítia serviérunt Dómino ómnibus diébus suis."
           },
           "Vesper": {
             "antev": "Sie sind heilige Männer: Gott hat sie zu seinen Freunden gemacht, zu ruhmvollen Kündern seiner Wahrheit.",
+            "modeev": "VIII",
             "antev_lat": "Isti sunt viri sancti, facti amíci Dei, divínæ veritátis præcónio gloriósi."
           },
           "Messe": {
@@ -1727,11 +1766,15 @@ export const calendarData: CalendarData = {
             "ant1": "Der Herr sprach zu Simon: Fürchte dich nicht! Von jetzt an wirst du Menschen fangen.",
             "ant2": "Petrus bekannte und sagte: Du bist der Messias, der Sohn des lebendigen Gottes. Jesus sprach zu ihm: Selig bist du, Simon Petrus.",
             "ant3": "Der Herr sprach zu Petrus: Die Schlüssel des Himmelreiches will ich dir geben.",
+            "mode1": "VIII",
+            "mode2": "II",
+            "mode3": "V",
             "les_buch": "Apg",
             "les_stelle": "15,7b–9",
             "les_text": "Brüder, wie ihr wisst, hat Gott schon längst hier bei euch die Entscheidung getroffen, dass die Heiden durch meinen Mund das Wort des Evangeliums hören und zum Glauben gelangen sollen. Und Gott, der die Herzen kennt, bestätigte dies, indem er ihnen ebenso wie uns den Heiligen Geist gab. Er machte keinerlei Unterschied zwischen uns und ihnen; denn er hat ihre Herzen durch den Glauben gereinigt.",
             "les_text_neu": "Brüder, wie ihr wisst, hat Gott schon längst hier bei euch die Entscheidung getroffen, dass die Heiden durch meinen Mund das Wort des Evangeliums hören und zum Glauben gelangen sollen. Und Gott, der die Herzen kennt, hat dies bestätigt, indem er ihnen ebenso wie uns den Heiligen Geist gab. Er machte keinerlei Unterschied zwischen uns und ihnen; denn er hat ihre Herzen durch den Glauben gereinigt.",
             "antev": "Simon, ich habe für dich gebetet, dass dein Glaube nicht wanke. Du aber stärke deine Brüder.",
+            "modeev": "Ig",
             "hymn_1_lat": 8222.2,
             "ant1_lat": "Dixit Dóminus Simóni: Noli timére; ex hoc iam hómines eris cápiens.",
             "ant2_lat": "Tu es Christus, Fílius Dei vivi. Et tu beátus es, Simon Petre.",
@@ -1765,11 +1808,15 @@ export const calendarData: CalendarData = {
             "ant1": "Petrus, liebst du mich? – Herr, du weißt, dass ich dich liebe. – Weide meine Schafe.",
             "ant2": "Petrus wurde im Gefängnis bewacht. Die Gemeinde aber betete für ihn zu Gott ohne Unterlass.",
             "ant3": "Du bist Petrus, und auf diesen Felsen will ich meine Kirche bauen. Und die Mächte der Unterwelt werden sie nicht überwältigen.",
+            "mode1": "I",
+            "mode2": "IV",
+            "mode3": "VII",
             "les_buch": "1°Petr",
             "les_stelle": "1,3–5",
             "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn: Er hat uns in seinem großen Erbarmen neu geboren, damit wir durch die Auferstehung Jesu Christi von den Toten eine lebendige Hoffnung haben und das unzerstörbare, makellose und unvergängliche Erbe empfangen, das im Himmel für euch aufbewahrt ist. Gottes Macht behütet euch durch den Glauben, damit ihr das Heil erlangt, das am Ende der Zeit offenbart werden soll.",
             "les_text_neu": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns in seinem großen Erbarmen neu gezeugt zu einer lebendigen Hoffnung durch die Auferstehung Jesu Christi von den Toten, zu einem unzerstörbaren, makellosen und unvergänglichen Erbe, das im Himmel für euch aufbewahrt ist. Gottes Kraft behütet euch durch den Glauben, damit ihr die Rettung erlangt, die am Ende der Zeit offenbart werden soll.",
             "antev": "Du bist der Hirt der Herde, der Erste der Apostel. Dir wurden die Schlüssel des Himmelreiches übergeben.",
+            "modeev": "VIII",
             "hymn_1_lat": 8222.4,
             "ant1_lat": "Petre, amas me? Tu scis, Dómine, quia amo te. Pasce oves meas.",
             "ant2_lat": "Petrus servabátur in cárcere, et orátio fiébat pro eo sine intermissióne ab Ecclésia ad Deum.",
@@ -1799,10 +1846,12 @@ export const calendarData: CalendarData = {
             "button": "Hl. Matthias",
             "farbe": "r",
             "antev": "Einer von den Männern, die mit uns zusammen waren in der Zeit, als der Herr Jesus bei uns ein und aus ging – einer von diesen muss mit uns Zeuge für seine Auferstehung sein.",
+            "modeev": "Ig",
             "antev_lat": "Opórtet ex his viris, qui nobíscum sunt congregáti in omni témpore quo intrávit et exívit inter nos Dóminus Iesus, testem resurrectiónis eius nobíscum fíeri unum ex istis.^ALLo"
           },
           "Vesper": {
             "antev": "Nicht ihr habt mich erwählt, sondern ich habe euch erwählt, damit ihr hingeht und Frucht bringt und eure Frucht bleibt.",
+            "modeev": "III",
             "antev_lat": "Non vos me elegístis, sed ego elégi vos et pósui vos, ut eátis et fructum afferátis, et fructus vester máneat.^ALLo"
           },
           "Messe": {
@@ -1928,10 +1977,12 @@ export const calendarData: CalendarData = {
             "genitiv": "der heiligen Agatha",
             "genitiv_lat": "sanctæ Agáthæ",
             "antev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
+            "modeev": "I",
             "antev_lat": "Agatha lætíssime et gloriánter ibat ad cárcerem, quasi ad épulas invitáta, et agónem suum Dómino précibus commendábat."
           },
           "Vesper": {
             "antev": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
+            "modeev": "Ig",
             "antev_lat": "Dómine Iesu Christe, magíster bone, grátias ago tibi, qui me fecísti víncere torménta carníficum; iube me, Dómine, ad tuam immarcescíbilem glóriam felíciter perveníre."
           },
           "Messe": {
@@ -2073,6 +2124,7 @@ export const calendarData: CalendarData = {
             "genitiv": "der heiligen Scholastika",
             "genitiv_lat": "sanctæ Scholásticæ",
             "antev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
+            "modeev": "IIc",
             "antev_lat": "Ecce prudens virgo migrávit ad Christum, fulgens inter choros vírginum sicut sol in virtúte cælésti."
           },
           "Vesper": {
@@ -2113,10 +2165,12 @@ export const calendarData: CalendarData = {
             "button": "U.L.Fr. in Lourdes",
             "farbe": "m",
             "antev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
+            "modeev": "I",
             "antev_lat": "Præclára salútis auróra, ex te, Virgo María, exívit Sol iustítiæ, qui visitávit nos Oriens ex alto."
           },
           "Vesper": {
             "antev": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+            "modeev": "IIc",
             "antev_lat": "Ave, María, grátia plena; Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui."
           },
           "Messe": {
@@ -2155,6 +2209,7 @@ export const calendarData: CalendarData = {
             "genitiv": "der heiligen Gründer des Servitenordens",
             "genitiv_lat": "sanctórum Fundatórum",
             "antev": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht.",
+            "modeev": "V",
             "antev_lat": "Ecce quam bonum et quam iucúndum, habitáre fratres in unum!"
           },
           "Vesper": {
@@ -2239,10 +2294,12 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "des heiligen Polykarp",
             "antev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
+            "modeev": "IV",
             "antev_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?"
           },
           "Vesper": {
             "antev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
+            "modeev": "IIc",
             "antev_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui."
           },
           "Messe": {
@@ -3349,11 +3406,13 @@ export const calendarData: CalendarData = {
             "button": "Hl. Markus",
             "farbe": "r",
             "antev": "Durch die Gnade Jesu Christi wurden den Völkern Lehrer gesandt und Evangelisten, um ihrem Glauben zu dienen.^HALLo",
+            "modeev": "VIII",
             "antev_lat": "Iesu Christi grátia, credéntibus pópulis doctóres et evangelístæ sunt in ministério fídei missi.^ALLo",
             "hymn_1_lat": 8425.0
           },
           "Vesper": {
             "antev": "In Ewigkeit bleibt das Wort des Herrn, das Evangelium, das euch verkündet worden ist.^HALLo",
+            "modeev": "VIII",
             "antev_lat": "Verbum Dómini manet in ætérnum: hoc est autem verbum, quod evangelizátum est in vos.^ALLo",
             "hymn_1_lat": 8425.0
           },
@@ -3402,11 +3461,13 @@ export const calendarData: CalendarData = {
             "genitiv_lat": "sanctæ Catharínæ",
             "vokativ_lat": "sancta Catharína",
             "antev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^HALLo",
+            "modeev": "III",
             "antev_lat": "Sancta virgo Catharína non cessábat clamáre ad Dóminum, ut pacem rédderet Ecclésiæ suæ sanctæ.^ALLo",
             "hymn_1_lat": 8429.4
           },
           "Vesper": {
             "antev": "Immer und überall hat Katharina Gott gesucht. Sie fand ihn und hielt an ihm fest mit der ganzen Leidenschaft ihres Herzens.^HALLo",
+            "modeev": "IV",
             "antev_lat": "Semper et ubíque Catharína Deum quærébat, et inveniébat, et possidébat per actuálem afféctum et amóris uniónem.^ALLo",
             "hymn_1_lat": 8429.4
           },
@@ -4036,6 +4097,7 @@ export const calendarData: CalendarData = {
             "resp2": "über sein ganzes Haus.",
             "resp3": "Und zum Gebieter über seinen Besitz.",
             "antev": "Gewissenhaft hat der heilige Josef sein Handwerk ausgeübt als leuchtendes Beispiel für uns alle.^HALLo",
+            "modeev": "IIc",
             "bitten_e": "Gepriesen sei Gott, der sich seine Diener beruft. Zu ihm lasst uns beten:",
             "bitten_r": "Wir bitten dich, erhöre uns.",
             "bitten": "Herr, unser Gott, du hast unsere Väter im Glauben berufen, vor dir zu leben;^qgib uns die Kraft, ihrem Beispiel zu folgen.^pOhne zu zögern, hat Josef deinen Willen erfüllt;^qhilf uns, auf dich zu hören und dir zu gehorchen.^pDu hast Josef, dem Gerechten, Kindheit und Jugend deines menschgewordenen Sohnes anvertraut;^qgib, dass wir Christus in unseren Brüdern und Schwestern dienen.^pDu hast Josef erwählt, dass er mit seiner Hände Arbeit für Jesus und Maria sorge;^qsegne unsere Arbeit.",
@@ -4064,6 +4126,7 @@ export const calendarData: CalendarData = {
             "resp2": "er liebt gerechte Taten.",
             "resp3": "Redliche dürfen sein Angesicht schauen.",
             "antev": "Christus, der Herr, scheute sich nicht, als Sohn des Zimmermanns zu gelten.^HALLo",
+            "modeev": "IIc",
             "bitten_e": "Lasst uns beten zu Gott, unserem Vater:",
             "bitten_r": "Wir bitten dich, erhöre uns.",
             "bitten": "Vater im Himmel, du hast Josef durch den Engel deine Wege kundgetan;^qnimm dich der Ratlosen an.^pJosef hat mit seiner Hände Arbeit für Jesus und Maria das tägliche Brot verdient;^qschenke allen Schaffenden die Frucht ihrer Arbeit.^pJosef hat in Demut deinem Sohn gedient;^qsei allen nahe, die in Stille ihren Dienst tun.^pAuf die Fürsprache des heiligen Josef erbarme dich der Sterbenden;^qschenke ihnen einen gnädigen Tod.^pNimm unsere Verstorbenen auf in die Gemeinschaft deiner Heiligen;^qlass sie mit Maria und Josef bei dir selig sein.",
@@ -4144,7 +4207,11 @@ export const calendarData: CalendarData = {
             "ant1": "Herr, zeige uns den Vater. Das genügt uns.^HALLo",
             "ant2": "So lange schon bin ich bei euch, und ihr habt mich nicht erkannt? Wer mich sieht, der sieht auch den Vater.^HALLo",
             "ant3": "Euer Herz betrübe sich nicht und sei nicht verzagt. Ihr glaubt an Gott, glaubt auch an mich! Im Hause meines Vaters sind viele Wohnungen.^HALLo",
+            "mode1": "II",
+            "mode2": "VIII",
+            "mode3": "IV",
             "antev": "Philippus traf Natanael und sagte zu ihm: Wir haben den gefunden, über den Mose und die Propheten schrieben: Jesus von Nazaret, den Sohn Josefs.^HALLo",
+            "modeev": "I",
             "ant1_lat": "Dómine, osténde nobis Patrem, et súfficit nobis.^ALLo",
             "ant2_lat": "Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum.^ALLo",
             "ant3_lat": "Non turbétur cor vestrum, neque formídet; créditis in Deum, et in me crédite; in domo Patris mei mansiónes multæ sunt.^ALLo",
@@ -4154,7 +4221,11 @@ export const calendarData: CalendarData = {
             "ant1": "Philippus, wer mich sieht, der sieht auch den Vater.^HALLo",
             "ant2": "Habt ihr mich erkannt, dann werdet ihr auch meinen Vater erkennen. Schon jetzt kennt ihr ihn und habt ihn gesehen.^HALLo",
             "ant3": "Wenn ihr mich liebt, werdet ihr meine Gebote halten.^HALLo",
+            "mode1": "I",
+            "mode2": "IV",
+            "mode3": "VIII",
             "antev": "Wenn ihr in mir bleibt und wenn meine Worte in euch bleiben, dann bittet um alles, was ihr wollt: Ihr werdet es erhalten.^HALLo",
+            "modeev": "VIII",
             "ant1_lat": "Philíppe, qui videt me, videt et Patrem meum.^ALLo",
             "ant2_lat": "Si cognovissétis me, et Patrem meum útique cognovissétis, et ámodo cognoscétis eum, et vidístis eum.^ALLo",
             "ant3_lat": "Si dilígitis me, mandáta mea serváte.^ALLo",
@@ -5089,6 +5160,7 @@ export const calendarData: CalendarData = {
             "button": "Unbeflecktes Herz Mariens",
             "farbe": "m",
             "antev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
+            "modeev": "VIII",
             "antev_lat": "Cor meum et caro mea exsultavérunt in Deum vivum."
           },
           "Messe": {
@@ -5733,11 +5805,13 @@ export const calendarData: CalendarData = {
             "button": "Hl. Barnabas",
             "farbe": "r",
             "antev": "Barnabas zog nach Tarsus. Er suchte Saulus auf und nahm ihn mit nach Antiochia. Dort wirkten sie in der Gemeinde und verkündeten das Wort des Herrn.^HALLo",
+            "modeev": "IIc",
             "antev_lat": "Proféctus est Bárnabas Tarsum, ut quǽreret Saulum; quem cum invenísset, perdúxit Antiochíam; et conversáti sunt ibi in Ecclésia, et docuérunt turbam multam.^ALLo",
             "hymn_1_lat": 8611.0
           },
           "Vesper": {
             "antev": "Die ganze Versammlung schwieg. Und Barnabas und Paulus erzählten, welch große Zeichen und Wunder Gott durch sie getan hatte unter den Heiden.^HALLo",
+            "modeev": "VIII",
             "antev_lat": "Tácuit omnis multitúdo, et audiébant Bárnabam et Paulum narrántes quanta Deus fecísset signa et prodígia in géntibus per eos.^ALLo",
             "hymn_1_lat": 8611.0
           },
@@ -6163,10 +6237,12 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "des heiligen Justin",
             "antev": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^HALLo",
+            "modeev": "VII",
             "antev_lat": "In ómnibus oblatiónibus laudámus Creatórem ómnium per Fílium eius Iesum Christum et per Spíritum Sanctum.^ALLo"
           },
           "Vesper": {
             "antev": "Ein Feuer entbrannte in meinem Herzen, und es erfasste mich die Liebe zu den Propheten und zu all den Menschen, die Christi Freude sind.^HALLo",
+            "modeev": "III",
             "antev_lat": "Mihi statim in ánima ignis accénsus est, meque amor invásit prophetárum et hóminum illórum, qui Christi sunt amíci.^ALLo"
           },
           "Messe": {
@@ -6274,10 +6350,12 @@ export const calendarData: CalendarData = {
             "button": "Hl. Bonifatius",
             "farbe": "r",
             "genitiv": "des heiligen Bonifatius",
-            "antev": "Freue dich, du Land der Deutschen, und preise deinen Apostel und Bischof. Seine Predigt brachte dir das Licht des Glaubens. Seine Sorge um dich erfleht dir Gottes Schutz.^HALLo"
+            "antev": "Freue dich, du Land der Deutschen, und preise deinen Apostel und Bischof. Seine Predigt brachte dir das Licht des Glaubens. Seine Sorge um dich erfleht dir Gottes Schutz.^HALLo",
+            "modeev": "VIII"
           },
           "Vesper": {
-            "antev": "Heute hat Bonifatius, der treue Diener Gottes, den Glauben, der er unseren Vätern verkündete, mit seinem Blute besiegelt. Heute erlangte der mutige Kämpfer die Palme des Sieges.^HALLo"
+            "antev": "Heute hat Bonifatius, der treue Diener Gottes, den Glauben, der er unseren Vätern verkündete, mit seinem Blute besiegelt. Heute erlangte der mutige Kämpfer die Palme des Sieges.^HALLo",
+            "modeev": "Ig"
           },
           "Messe": {
             "ms_les_buch": "Apg",
@@ -6690,6 +6768,7 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "des heiligen Irenäus",
             "antev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
+            "modeev": "Ig",
             "antev_lat": "Irenǽus, nómini suo vere respóndens, vitæ institúto ac propósito pacíficus, pro Ecclesiárum pace strénue certávit."
           },
           "Messe": {
@@ -6727,10 +6806,12 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "der heiligen römischen Märtyrer",
             "antev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
+            "modeev": "III",
             "antev_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis."
           },
           "Vesper": {
             "antev": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
+            "modeev": "IIc",
             "antev_lat": "Amavérunt Christum in vita sua, imitáti sunt eum in morte; et ídeo cum ipso regnant in ætérnum."
           }
         },
@@ -6953,6 +7034,7 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Benedikt",
             "hymn_1": 8711.101,
             "antev": "Benedikt, wahrhaft ein Gesegneter des Herrn, ein Mann von verehrungswürdigem Leben!",
+            "modeev": "VIII",
             "genitiv_lat": "sancti Benedícti",
             "hymn_1_lat": 8711.2,
             "antev_lat": "Fuit vir vitæ venerábilis, grátia Benedíctus et nómine."
@@ -6960,6 +7042,7 @@ export const calendarData: CalendarData = {
           "Vesper": {
             "hymn_1": 8711.0,
             "antev": "Er hat Segen empfangen vom Herrn und Heil von Gott, seinem Helfer; denn er gehörte zu jenen, die Gottes Antlitz suchen.",
+            "modeev": "VII",
             "hymn_1_lat": 8711.4,
             "antev_lat": "Hic accépit benedictiónem a Dómino et misericórdiam a Deo salutári suo; quia hæc est generátio quæréntium Dóminum."
           }
@@ -6995,6 +7078,9 @@ export const calendarData: CalendarData = {
             "ant1": "Am ersten Tag der Woche kam Maria von Magdala zum Grabe – frühmorgens, als es noch dunkel war.",
             "ant2": "Mit glühendem Herzen verlange ich danach, meinen Herrn zu sehen; ich suche ihn und kann ihn nicht finden.^HALLxq",
             "ant3": "Maria weinte und beugte sich in das Grab hinein; da sah sie zwei Engel in weißen Gewändern.^HALLxq",
+            "mode1": "III",
+            "mode2": "VI",
+            "mode3": "II",
             "les_buch": "Röm",
             "les_stelle": "12,1–2",
             "les_text": "Angesichts des Erbarmens Gottes ermahne ich euch, meine Brüder, euch selbst als lebendiges und heiliges Opfer darzubringen, das Gott gefällt; das ist für euch der wahre und angemessene Gottesdienst. Gleicht euch nicht dieser Welt an, sondern wandelt euch durch ein neues Denken, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
@@ -7003,6 +7089,7 @@ export const calendarData: CalendarData = {
             "resp2": "Der Herr ist vom Tode erstanden.",
             "resp3": "Geh hin zu den Brüdern und verkünde:",
             "antev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.",
+            "modeev": "IIc",
             "genitiv_lat": "sanctæ Maríæ Magdalénæ",
             "hymn_1_lat": 8722.2,
             "ant1_lat": "",
@@ -7017,6 +7104,9 @@ export const calendarData: CalendarData = {
             "ant1": "Jesus sprach zu Maria: Frau, warum weinst du? Wen suchst du?",
             "ant2": "Sie haben meinen Herrn weggenommen, und ich weiß nicht, wohin man ihn gelegt hat.",
             "ant3": "Jesus sagte zu ihr: Maria! Da wandte sie sich um und sagte zu ihm: Meister!",
+            "mode1": "II",
+            "mode2": "III",
+            "mode3": "VII",
             "les_buch": "Röm",
             "les_stelle": "8,28–30",
             "les_text": "Wir wissen, dass Gott bei denen, die ihn lieben, alles zum Guten führt, bei denen, die nach seinem ewigen Plan berufen sind; denn alle, die er im voraus erkannt hat, hat er auch im voraus dazu bestimmt, der verherrlichten Gestalt seines Sohnes nachgebildet zu werden, damit dieser der Erstgeborene von vielen Brüdern sei. Die aber, die er vorausbestimmt hat, hat er auch berufen, und die er berufen hat, hat er auch gerecht gemacht; die er aber gerecht gemacht hat, die hat er auch verherrlicht.",
@@ -7025,6 +7115,7 @@ export const calendarData: CalendarData = {
             "resp2": "Der Herr ist vom Tode erstanden.",
             "resp3": "Geh hin zu den Brüdern und verkünde:",
             "antev": "Maria ging hin und verkündete den Jüngern: Ich habe den Herrn gesehen.^HALLxq",
+            "modeev": "VII",
             "hymn_1_lat": 8722.4,
             "ant1_lat": "",
             "ant2_lat": "",
@@ -7098,7 +7189,11 @@ export const calendarData: CalendarData = {
             "ant1": "Jesus sah Jakobus, den Sohn des Zebedäus, und seinen Bruder Johannes; und er rief sie zu sich.",
             "ant2": "Ohne zu zögern, verließen sie das Boot und ihren Vater und folgten Jesus.",
             "ant3": "Den Kelch, den ich trinke, werdet ihr trinken, und die Taufe, die ich empfangen muss, werdet auch ihr empfangen.",
+            "mode1": "II",
+            "mode2": "II",
+            "mode3": "I",
             "antev": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
+            "modeev": "IIc",
             "hymn_1_lat": 8725.0,
             "ant1_lat": "Procédens Iesus vidit Iacóbum Zebedǽi et Ioánnem fratrem eius, et vocávit eos.",
             "ant2_lat": "Illi autem statim, relíctis rétibus et patre, secúti sunt eum.",
@@ -7109,7 +7204,11 @@ export const calendarData: CalendarData = {
             "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich nach Getsémani. Da ergriff ihn Furcht und Angst.",
             "ant2": "Wachet und betet, damit ihr nicht in Versuchung geratet.",
             "ant3": "Der König Herodes ließ einige aus der Gemeinde verhaften und misshandeln. Jakobus, den Bruder des Johannes, ließ er hinrichten mit dem Schwert.",
+            "mode1": "I",
+            "mode2": "II",
+            "mode3": "IV",
             "antev": "Wer bei euch groß sein will, soll euer Diener sein; und wer bei euch der Erste sein will, der sei der Sklave aller.",
+            "modeev": "IIc",
             "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem secum, et cœpit pavére et tædére.",
             "ant2_lat": "Tunc ait illis: Vigiláte et oráte, ut non intrétis in tentatiónem.",
             "ant3_lat": "Misit Heródes rex manus, ut afflígeret quosdam de Ecclésia. Occídit autem Iacóbum fratrem Ioánnis gládio.",
@@ -7154,6 +7253,7 @@ export const calendarData: CalendarData = {
             "resp2": "in seiner barmherzigen Liebe.",
             "resp3": "Aus dem Geschlecht Davids ließ er Jesus hervorgehen, den Retter.",
             "antev": "Gepriesen sei der Herr, der Gott Israels! Er hat uns einen starken Retter erweckt im Hause seines Knechtes David.",
+            "modeev": "VIII",
             "genitiv_lat": "sanctórum Ióachim et Annæ",
             "hymn_1_lat": 8726.2,
             "resp1_lat": "Per víscera misericórdiæ suæ",
@@ -7171,6 +7271,7 @@ export const calendarData: CalendarData = {
             "resp2": "eingedenk seines Erbarmens.",
             "resp3": "So hat er es verheißen unseren Vätern für ewige Zeiten.",
             "antev": "Isaias edler Stamm bringt ein liebliches Reis hervor, aus ihm entsprießt eine Blüte von wunderbarem Duft.",
+            "modeev": "IV",
             "hymn_1_lat": 8726.4,
             "resp1_lat": "Suscépit Israel púerum suum,",
             "resp2_lat": "recordátus misericórdiæ suæ.",
@@ -7577,10 +7678,12 @@ export const calendarData: CalendarData = {
             "button": "Unsere Liebe Frau auf dem Berge Karmel",
             "farbe": "m",
             "antev": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
+            "modeev": "IV",
             "antev_lat": "Quæsívi sapiéntiam palam in oratióne mea, et efflóruit tamquam præcox uva."
           },
           "Vesper": {
             "antev": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
+            "modeev": "IIc",
             "antev_lat": "María audiébat verbum Dei et custodiébat illud, cónferens in corde suo."
           },
           "Messe": {
@@ -7755,11 +7858,13 @@ export const calendarData: CalendarData = {
             "genitiv": "der Heiligen Marta, Maria und Lazarus",
             "genitiv_lat": "sanctórum Marthæ, Maríæ et Lázari",
             "antev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
+            "modeev": "IV",
             "antev_lat": "Elevátis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!",
             "hymn_1_lat": 8729.2
           },
           "Vesper": {
             "antev": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
+            "modeev": "III",
             "antev_lat": "Diligébat Iesus Martham et sorórem eius Maríam et Lázarum fratrem eius.",
             "hymn_1_lat": 8729.4
           },
@@ -7835,11 +7940,13 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Ignatius",
             "genitiv_lat": "sancti Ignátii",
             "antev": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
+            "modeev": "VI",
             "antev_lat": "Utinam possim cognóscere Christum et virtútem resurrectiónis eius et societátem passiónum illíus!",
             "hymn_1_lat": 8731.0
           },
           "Vesper": {
             "antev": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?",
+            "modeev": "I",
             "antev_lat": "Quid prodest hómini si mundum univérsum lucrétur, ánimæ vero suæ detriméntum patiátur?",
             "hymn_1_lat": 8731.0
           },
@@ -7874,6 +7981,9 @@ export const calendarData: CalendarData = {
             "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
             "ant2": "Und siehe, Mose und Elija erschienen vor ihnen und redeten mit Jesus.",
             "ant3": "Herr, es ist gut, dass wir hier sind! Wenn du willst, werden wir hier drei Hütten bauen: eine für dich, eine für Mose und eine für Elija.",
+            "mode1": "II",
+            "mode2": "IV",
+            "mode3": "VII",
             "les_buch": "Phil",
             "les_stelle": "3,20–21",
             "les_text": "Unsere Heimat ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.",
@@ -7881,6 +7991,7 @@ export const calendarData: CalendarData = {
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Mit Pracht hat der Herr dich bekleidet.",
             "antev": "Heute ist der Herr auf der Höhe des Berges in Herrlichkeit erschienen. Christus Jesus, der Abglanz der Herrlichkeit des Vaters und das Abbild seines Wesens, der das All trägt durch sein machtvolles Wort.",
+            "modeev": "IIc",
             "ant1_lat": "Assúmpsit Iesus discípulos suos, et ascéndit in montem, et transfigurátus est ante eos.",
             "ant2_lat": "Et ecce apparuérunt eis Móyses et Elías loquéntes cum Iesu.",
             "ant3_lat": "Dómine, bonum est nos hic esse; si vis, faciámus hic tria tabernácula: tibi unum, Móysi unum et Elíæ unum.",
@@ -7895,6 +8006,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Christus, den König der Herrlichkeit – kommt,°wir°beten°ihn°an!",
+            "mode0": "VIII",
             "ant0_lat": "Summum Regem glóriæ, veníte, adorémus."
           },
           "Lesehore": {
@@ -7941,6 +8053,9 @@ export const calendarData: CalendarData = {
             "ant1": "Heute wurde der Herr auf dem Berge verklärt: Sein Antlitz strahlte wie die Sonne, und seine Kleider wurden weiß wie der Schnee.",
             "ant2": "Heute hat die Stimme des Vaters den Sohn bezeugt. Und Mose und Elija erschienen mit dem Herrn in strahlendem Licht und sprachen über das Ende, dem er entgegenging.",
             "ant3": "Mose, der Verkünder des Gesetzes, und Elija, der Prophet, sprachen mit dem Herrn, von göttlichem Licht umstrahlt, auf dem Berg der Verklärung.",
+            "mode1": "II",
+            "mode2": "I",
+            "mode3": "VIII",
             "les_buch": "Offb",
             "les_stelle": "21,10–11.23",
             "les_text": "Der Engel entrückte mich in der Verzückung auf einen großen, hohen Berg und zeigte mir die heilige Stadt Jerusalem, wie sie von Gott her aus dem Himmel herabkam. Die Stadt braucht weder Sonne noch Mond, die ihr leuchten. Denn die Herrlichkeit Gottes erleuchtet sie, und ihre Leuchte ist das Lamm.",
@@ -7948,6 +8063,7 @@ export const calendarData: CalendarData = {
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Du hast ihn eingesetzt als Herrscher über das Werk deiner Hände.",
             "antev": "Und siehe, aus der Wolke rief eine Stimme: Dieser ist mein geliebter Sohn, an ihm habe ich mein Gefallen. Ihn sollt ihr hören!",
+            "modeev": "I",
             "bitten_e": "Gepriesen sei Jesus Christus, der heute vor den Augen der Jünger verklärt wurde. Zu ihm lasst uns beten:",
             "bitten_r": "Lob sei dir, Christus.",
             "bitten": "Dein Angesicht wurde leuchtend wie die Sonne;^qlass deine Gnade über uns leuchten heute und immerdar.^pDeine Kleider wurden weiß wie das Licht;^qlass uns immer mehr von deinem Licht erfasst werden.^pDie Stimme aus der Wolke bezeugte dich als den geliebten Sohn Gottes;^qhilf uns, dass wir mit ganzem Herzen an dich glauben.^pDu hast den Jüngern dein Leiden vorausgesagt;^qlass uns nicht irre werden, wenn unser Glaube geprüft wird.",
@@ -7979,6 +8095,7 @@ export const calendarData: CalendarData = {
           },
           "Sext": {
             "ant0": "Jesus Christus, unser Herr, hat uns das Licht des unvergänglichen Lebens gebracht durch das Evangelium.",
+            "mode0": "VII",
             "les_buch": "Ex",
             "les_stelle": "33,9.11a",
             "les_text": "Sobald Mose das Zelt betrat, ließ sich die Wolkensäule herab und blieb am Zelteingang stehen. Dann redete der Herr mit Mose. Der Herr und Mose redeten miteinander Auge in Auge, wie Menschen miteinander reden.",
@@ -8011,6 +8128,9 @@ export const calendarData: CalendarData = {
             "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
             "ant2": "Eine lichte Wolke überschattete sie. Und siehe, aus der Wolke rief eine Stimme: Dieser ist mein geliebter Sohn, an ihm habe ich mein Gefallen.",
             "ant3": "Sagt niemand, was ihr gesehen und gehört habt, bis der Menschensohn von den Toten erstanden ist.",
+            "mode1": "II",
+            "mode2": "VII",
+            "mode3": "VII",
             "les_buch": "Röm",
             "les_stelle": "8,16–17",
             "les_text": "Der Geist selber bezeugt unserem Geist, dass wir Kinder Gottes sind. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und sind Miterben Christi, wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden.",
@@ -8019,6 +8139,7 @@ export const calendarData: CalendarData = {
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Macht und Glanz in seinem Heiligtum.",
             "antev": "Als die Jünger die Stimme aus der Wolke hörten, fielen sie auf ihr Angesicht nieder und fürchteten sich sehr. Da trat Jesus zu ihnen, fasste sie an und sprach: Steht auf und seid ohne Furcht.",
+            "modeev": "I",
             "bitten_e": "Lasst uns beten zu Jesus Christus, der vor den Augen seiner Jünger verklärt wurde:",
             "bitten_r": "Kyrie, eleison.",
             "bitten": "Auf dem Berg der Verklärung hast du den Jüngern ein Bild deiner Osterherrlichkeit gezeigt;^qgib deiner Kirche Hoffnung in der Drangsal.^pDu hast Petrus, Jakobus und Johannes zu Zeugen deiner Verherrlichung gemacht;^qhilf den Nachfolgern der Apostel, deine Auferstehung zu verkünden.^pAuf dem Berge hast du mit Mose und Elija geredet;^qlass das Volk des Alten Bundes zum vollen Licht der Erlösung gelangen.^pDie Stimme aus der Wolke bezeugte dich als den geliebten Sohn des Vaters;^qgib, dass alle Menschen guten Willens dich als Sohn Gottes erkennen.^pDu wirst uns einst verwandeln in die Gestalt deines verklärten Leibes;^qnimm unsere verstorbenen Brüder und Schwestern auf in deine Herrlichkeit.",
@@ -8068,7 +8189,11 @@ export const calendarData: CalendarData = {
             "ant1": "Meine Seele hängt an dir, Gott, du mein Gott; denn für dich wurde mein Leib verbrannt.",
             "ant2": "Der Herr hat seinen Engel gesandt und mich befreit aus der lodernden Flamme, aus der Mitte des Feuers.",
             "ant3": "Der heilige Laurentius betete und sprach: Ich sage dir Dank, o°Herr, dass du mich aufgenommen hast in deine Herrlichkeit.",
+            "mode1": "I",
+            "mode2": "VIII",
+            "mode3": "VII",
             "antev": "Fürchte dich nicht, mein Knecht, ich bin bei dir. Gehst du durch Feuer, so wirst du nicht verbrennen, die Flamme wird dich nicht versengen.",
+            "modeev": "VIII",
             "hymn_1_lat": 8810.2,
             "ant1_lat": "Adhǽsit ánima mea post te, quia caro mea igne cremáta est pro te, Deus meus.",
             "ant2_lat": "Misit Dóminus ángelum suum et liberávit me de médio ignis, et non sum æstuátus.",
@@ -8079,7 +8204,11 @@ export const calendarData: CalendarData = {
             "ant1": "Laurentius wurde aufgenommen in die Schar der Märtyrer, denn er hatte sich zum Namen Jesu Christi bekannt.",
             "ant2": "Der heilige Laurentius rief: Ich freue mich von Herzen, dass ich eine Opfergabe Christi werden darf.",
             "ant3": "Der heilige Laurentius betete und sprach: Ich sage dir Dank, o°Herr, dass du mich aufgenommen hast in deine Herrlichkeit.",
+            "mode1": "VIII",
+            "mode2": "I",
+            "mode3": "VII",
             "antev": "Der heilige Laurentius sprach: Meine Nacht kennt keine Dunkelheit, sie ist hell wie der Tag.",
+            "modeev": "IIc",
             "hymn_1_lat": 8810.4,
             "ant1_lat": "Lauréntius ingréssus est martyr, et conféssus est nomen Dómini Iesu Christi.",
             "ant2_lat": "Beátus Lauréntius clamávit dicens: Gáudeo plane, quia hóstia Christi éffici mérui.",
@@ -8105,6 +8234,9 @@ export const calendarData: CalendarData = {
             "ant1": "Christus ist aufgestiegen über die Himmel und hat seiner reinen Mutter eine Wohnung bereitet im ewigen Leben.^HALLxq",
             "ant2": "Des Paradieses Pforte war seit Eva verschlossen. Durch Maria, die Jungfrau, ist sie wieder aufgetan.^HALLxq",
             "ant3": "Über alle Himmel wurde die Jungfrau Maria erhoben. Kommt, lasst uns Christus preisen, den König, dessen Reich in Ewigkeit währt.",
+            "mode1": "VII",
+            "mode2": "I",
+            "mode3": "VIII",
             "les_buch": "Röm",
             "les_stelle": "8,30",
             "les_text": "Die Gott vorausbestimmt hat, hat er auch berufen, und die er berufen hat, hat er auch gerecht gemacht; die er aber gerecht gemacht hat, die hat er auch verherrlicht.",
@@ -8113,6 +8245,7 @@ export const calendarData: CalendarData = {
             "resp2": "Die Engel freuen sich und preisen den Herrn.",
             "resp3": "Der König der Herrlichkeit hat sie heute im Himmel gekrönt.",
             "antev": "Selig preisen mich alle Geschlechter, denn Großes hat der Mächtige an mir getan.^HALLxq",
+            "modeev": "VIII",
             "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der Maria, die Mutter seines Sohnes, den Menschen zur Fürsprecherin gegeben hat:",
             "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
             "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
@@ -8133,6 +8266,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Heute wurde die Mutter Christi in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!",
+            "mode0": "VIII",
             "ant0_lat": "Veníte adorémus Regem regum, cuius hódie ad æthéreum Virgo Mater assúmpta est cælum."
           },
           "Lesehore": {
@@ -8177,6 +8311,9 @@ export const calendarData: CalendarData = {
             "ant1": "Selig bist du, Jungfrau Maria; durch dich ist Christus gekommen, das Heil der Welt. Nun freust du dich vor ihm in deiner Herrlichkeit.",
             "ant2": "Über die Chöre der Engel wurde die Jungfrau Maria erhoben. Freut euch, ihr Gläubigen, und preist den Herrn.",
             "ant3": "Der Herr hat deinen Namen groß gemacht: Dein Lob wird nicht mehr verstummen im Munde der Menschen.",
+            "mode1": "I",
+            "mode2": "VII",
+            "mode3": "VIII",
             "les_buch": "Jes",
             "les_stelle": "61,10",
             "les_text": "Von Herzen will ich mich freuen über den Herrn. Meine Seele soll jubeln über meinen Gott. Denn er kleidet mich in Gewänder des Heils, er hüllt mich in den Mantel der Gerechtigkeit, wie ein Bräutigam sich festlich schmückt und wie eine Braut ihr Geschmeide anlegt.",
@@ -8185,6 +8322,7 @@ export const calendarData: CalendarData = {
             "resp2": "Mit Christus triumphiert sie auf ewig.",
             "resp3": "Zur Königin des Himmels hat ihr Sohn sie gekrönt.",
             "antev": "Schön bist du und voll Anmut, Tochter Jerusalem. Wie das Frührot am Morgen steigst du empor.",
+            "modeev": "VIIIa",
             "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
             "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
             "bitten": "Ewiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pSohn des lebendigen Gottes, du hast die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes.",
@@ -8215,6 +8353,7 @@ export const calendarData: CalendarData = {
           },
           "Sext": {
             "ant0": "Heilige Maria, Königin des Himmels, aus dir ging hervor die Sonne der Gerechtigkeit.",
+            "mode0": "V",
             "les_buch": "Offb",
             "les_stelle": "12,1",
             "les_text": "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond war unter ihren Füßen und ein Kranz von zwölf Sternen auf ihrem Haupt.",
@@ -8242,6 +8381,9 @@ export const calendarData: CalendarData = {
             "ant1": "Aufgenommen in den Himmel ist die Jungfrau Maria. Die Engel freuen sich und preisen den Herrn.",
             "ant2": "Die Jungfrau Maria ist aufgenommen in die Herrlichkeit des Himmels, wo der König der Könige im Licht der Sterne thront.",
             "ant3": "Gesegnet bist du, Tochter, vom Herrn, dem erhabenen Gott; die Frucht des Lebens wurde uns durch dich zuteil.",
+            "mode1": "VIII",
+            "mode2": "I",
+            "mode3": "VIII",
             "les_buch": "1°Kor",
             "les_stelle": "15,22–23",
             "les_text": "Wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden. Es gibt aber eine bestimmte Reihenfolge: Erster ist Christus; dann folgen, wenn Christus kommt, alle, die zu ihm gehören.",
@@ -8249,6 +8391,7 @@ export const calendarData: CalendarData = {
             "resp2": "Die Engel freuen sich und preisen den Herrn.",
             "resp3": "Der König der Herrlichkeit hat sie heute im Himmel gekrönt.",
             "antev": "Heute stieg die Jungfrau Maria zum Himmel empor. Freut euch, denn mit Christus herrscht sie in Ewigkeit.",
+            "modeev": "IIc",
             "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der Maria, die Mutter seines Sohnes, den Menschen zur Fürsprecherin gegeben hat:",
             "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
             "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
@@ -8271,6 +8414,7 @@ export const calendarData: CalendarData = {
         "oblig": {
           "Invitatorium": {
             "ant0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt,°wir°beten°ihn°an!",
+            "mode0": "VIII",
             "ant0_lat": "Christum regem, qui suam coronávit Matrem, veníte, adorémus."
           },
           "major": {
@@ -8291,11 +8435,13 @@ export const calendarData: CalendarData = {
             "button": "Maria Königin",
             "farbe": "m",
             "antev": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
+            "modeev": "VIII",
             "antev_lat": "Regína mundi digníssima, María virgo perpétua, tu genuísti Christum Dóminum, salvatórem ómnium.",
             "hymn_1_lat": 8822.2
           },
           "Vesper": {
             "antev": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig.",
+            "modeev": "VIII",
             "antev_lat": "Beáta es, Virgo María, quia credidísti quæ dicta sunt tibi a Dómino: cum Christo regnas in ætérnum.",
             "hymn_1_lat": 8822.4
           },
@@ -8319,6 +8465,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Das Lamm Gottes, dem Johannes im Leben vorausging – kommt, wir beten es an!",
+            "mode0": "I",
             "ant0_lat": "Agnum Dei, quem in passióne Ioánnes præcéssit, veníte, adorémus."
           },
           "Lesehore": {
@@ -8338,6 +8485,9 @@ export const calendarData: CalendarData = {
             "ant1": "Der Herr streckte seine Hand aus und berührte meinen Mund; zum Propheten für die Völker hat er mich bestimmt.",
             "ant2": "Herodes fürchtete sich vor Johannes, da er wusste, dass er ein gerechter und heiliger Mann war. Darum ließ er ihn bewachen.",
             "ant3": "Sooft Herodes den Johannes hörte, war er ratlos und bestürzt. Doch hörte er ihn gerne.",
+            "mode1": "I",
+            "mode2": "IV",
+            "mode3": "II",
             "les_buch": "Jes",
             "les_stelle": "49,1b–2",
             "les_text": "Der Herr hat mich schon im Mutterleib berufen; als ich noch im Schoß meiner Mutter war, hat er meinen Namen genannt. Er machte meinen Mund zu einem scharfen Schwert, er verbarg mich im Schatten seiner Hand. Er machte mich zum spitzen Pfeil und steckte mich in seinen Köcher.",
@@ -8346,6 +8496,7 @@ export const calendarData: CalendarData = {
             "resp2": "und er hat die Wahrheit bezeugt.",
             "resp3": "Er war wie eine Fackel, die brennt und leuchtet.",
             "antev": "Der Freund des Bräutigams freut sich von Herzen, wenn er die Stimme des Bräutigams hört. Das ist meine Freude – und sie hat sich erfüllt.",
+            "modeev": "VII",
             "bitten_e": "Gepriesen sei Gott, der Johannes den Täufer zum Vorläufer seines Sohnes bestellt hat. Zu ihm lasst uns beten:",
             "bitten_r": "Herr, lenke unsere Schritte auf den Weg des Friedens.",
             "bitten": "Vom Mutterschoß an hast du Johannes berufen, deinem Sohn den Weg zu bereiten;^qwie er dem Herrn vorausging, so lass uns Christus nachfolgen.^pDu wolltest, dass Johannes abnehme, Christus aber wachse;^qlehre uns Christus dienen.^pIm Martyrium des Johannes hast du die Treue deines Propheten offenbar gemacht;^qgib, dass wir ohne Menschenfurcht für deine Wahrheit Zeugnis ablegen.^pBei der Taufe im Jordan hast du Jesus deinen geliebten Sohn genannt;^qhilf uns, auf ihn zu hören.",
@@ -8370,6 +8521,9 @@ export const calendarData: CalendarData = {
             "ant1": "Fürchte dich nicht vor ihnen, denn ich bin mit dir, spricht der Herr.",
             "ant2": "Herodes gab einem Soldaten den Befehl, in den Kerker zu gehen und Johannes zu enthaupten.",
             "ant3": "Die Jünger des Johannes kamen, holten seinen Leichnam und legten ihn in ein Grab.",
+            "mode1": "VI",
+            "mode2": "I",
+            "mode3": "II",
             "les_buch": "Apg",
             "les_stelle": "13,23–25",
             "les_text": "Aus dem Geschlecht Davids hat Gott dem Volk Israel, der Verheißung gemäß, Jesus als Retter geschickt. Vor dessen Auftreten hat Johannes dem ganzen Volk Israel eine Taufe der Umkehr verkündet. Als Johannes aber seinen Lauf vollendet hatte, sagte er: Ich bin nicht der, für den ihr mich haltet; aber seht, nach mir kommt einer, dem die Sandalen von den Füßen zu lösen ich nicht wert bin.",
@@ -8378,6 +8532,7 @@ export const calendarData: CalendarData = {
             "resp2": "ich bin nur vor ihm her gesandt.",
             "resp3": "Ich bin nicht wert, ihm die Riemen seiner Schuhe zu lösen.",
             "antev": "Ich bin nicht der Messias, sondern nur ein Gesandter, der ihm vorausgeht. Er muss wachsen, ich aber muss kleiner werden.",
+            "modeev": "IV",
             "bitten_e": "Lasst uns zu Jesus Christus beten, der Johannes als seinen Vorläufer vor sich her gesandt hat:",
             "bitten_r": "Lamm Gottes, erbarme dich unser.",
             "bitten": "Durch die Botschaft des Johannes wurde dein Kommen angekündigt;^qsende Verkündiger deines Reiches in die ganze Welt.^pDurch die Predigt des Johannes hast du zur Buße aufgerufen;^qwende die Herzen der Sünder hin zu den Geboten Gottes.^pDu hast Johannes gepriesen, der für Gottes Gesetz einen schmählichen Tod auf sich genommen hat;^qsei denen nahe, die um deines Namens willen in Verlassenheit sterben.^pDu bist das Lamm Gottes, auf das Johannes hingewiesen hat;^qlass niemand verloren gehen, für den du dein Blut vergossen hast.^pGedenke aller, die aus dieser Welt geschieden sind,^qund nimm sie auf in deinen Frieden.",
@@ -8541,10 +8696,12 @@ export const calendarData: CalendarData = {
             "button": "Weihe der Basilika S. Maria Maggiore in Rom",
             "farbe": "m",
             "antev": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+            "modeev": "IIc",
             "antev_lat": "Sancta Dei Génetrix María, Virgo perpétua, benedícta tu in muliéribus et benedíctus fructus ventris tui."
           },
           "Vesper": {
             "antev": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
+            "modeev": "I",
             "antev_lat": "Sancta María, mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ."
           },
           "Messe": {
@@ -8922,11 +9079,13 @@ export const calendarData: CalendarData = {
             "genitiv_lat": "sancti Bernárdi",
             "vokativ_lat": "sancte Bernárde",
             "antev": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche.",
+            "modeev": "IV",
             "antev_lat": "Beátus Bernárdus, cuius ánima sempitérni Verbi mirífice fuit illustráta splendóribus, in univérsa Ecclésia fídei et doctrínæ lúmine radiávit.",
             "hymn_1_lat": 8820.0
           },
           "Vesper": {
             "antev": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!",
+            "modeev": "IV",
             "antev_lat": "Bernárdus, doctor mellífluus, amícus Sponsi, Vírginis Matris præco miríficus, in Claraválle pastor effúlsit claríssimus.",
             "hymn_1_lat": 8820.0
           },
@@ -9154,10 +9313,12 @@ export const calendarData: CalendarData = {
             "genitiv": "der heiligen Monika",
             "genitiv_lat": "sanctæ Mónicæ",
             "antev": "Du hast sie erhört, o°Herr, und ihre Tränen nicht verschmäht.",
+            "modeev": "IV",
             "antev_lat": "Exaudísti eam, Dómine, nec despexísti lácrimas eius, cum profluéntes rigárent terram in omni loco oratiónis eius."
           },
           "Vesper": {
             "antev": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint.",
+            "modeev": "Ig",
             "antev_lat": "Mónica in Christo vivificáta, étiam nondum a carne resolúta, sic vixit ut laudarétur nomen Dei in fide moribúsque eius."
           },
           "Messe": {
@@ -9195,11 +9356,13 @@ export const calendarData: CalendarData = {
             "vokativ": "Heiliger Augustinus",
             "vokativ_lat": "sancte Augustíne",
             "antev": "Deine Gnade ist es, o°Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
+            "modeev": "I",
             "antev_lat": "Tu éxcitas, Dómine, ut laudáre te deléctet, quia fecísti nos ad te; et inquiétum est cor nostrum donec requiéscat in te.",
             "hymn_1_lat": 8828.0
           },
           "Vesper": {
             "antev": "Spät habe ich begonnen dich zu lieben, o°Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen.",
+            "modeev": "IIc",
             "antev_lat": "Sero te amávi, pulchritúdo tam antíqua et tam nova, sero te amávi. Vocásti et clamásti et rupísti surditátem meam.",
             "hymn_1_lat": 8828.0
           },
@@ -9265,6 +9428,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Wir feiern die Geburt der seligen Jungfrau Maria und beten ihren Sohn an, Christus, unseren Herrn.",
+            "mode0": "II",
             "ant0_lat": "Nativitátem Vírginis Maríæ celebrémus: Christum eius Fílium adorémus Dóminum."
           },
           "Lesehore": {
@@ -9288,11 +9452,15 @@ export const calendarData: CalendarData = {
             "ant1": "Aus Abrahams Samen, aus Judas Stamm, aus Davids erhabenem Geschlecht ist Maria geboren, die Mutter des Herrn.",
             "ant2": "Deine Geburt, o°heilige Jungfrau, hat die Welt erleuchtet. Selig die Wurzel, heilig der Baum, der solche Frucht hervorbringt.",
             "ant3": "Voll Freude feiern wir deine Geburt, heilige Maria, bitte für uns bei Jesus, deinem Sohn.",
+            "mode1": "I",
+            "mode2": "VIII",
+            "mode3": "IV",
             "les_buch": "Jes",
             "les_stelle": "11,1–2",
             "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
             "les_text_neu": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn ruht auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Furcht des HERRN.",
             "antev": "Deine Geburt, Jungfrau und Gottesgebärerin, hat der ganzen Welt Freude gebracht. Denn aus dir ging hervor die Sonne der Gerechtigkeit, Christus, unser Gott. Er hat den alten Fluch gelöst und Segen gespendet, er hat den Tod vernichtet und ewiges Leben geschenkt.",
+            "modeev": "I",
             "hymn_1_lat": 8908.2,
             "ant1_lat": "Natívitas gloriósæ Vírginis Maríæ ex sémine Abrahæ, ortæ de tribu Iuda, clara ex stirpe David.",
             "ant2_lat": "Quando nata est Virgo sacratíssima, tunc illuminátus est mundus; stirps beáta, radix sancta et benedíctus fructus eius.",
@@ -9311,6 +9479,7 @@ export const calendarData: CalendarData = {
           },
           "Sext": {
             "ant0": "Aus königlichem Geschlecht ging Maria hervor. Inständig bitten wir, dass ihre Fürsprache uns helfe.",
+            "mode0": "VI",
             "les_buch": "Jdt",
             "les_stelle": "13,18b.19",
             "les_text": "Gepriesen sei der Herr, unser Gott, der Himmel und Erde geschaffen hat! Die Erinnerung an dein Vertrauen soll in Ewigkeit nicht aus den Herzen der Menschen entschwinden, die sich an die Macht Gottes erinnern.",
@@ -9329,11 +9498,15 @@ export const calendarData: CalendarData = {
             "ant1": "Aus Isais Geschlecht ging Maria hervor, in deren jungfräulichen Schoß der Geist des Höchsten herabstieg.",
             "ant2": "Heute feiern wir die Geburt der seligen Jungfrau Maria, auf deren Schönheit und Demut Gott in Gnaden geschaut hat.",
             "ant3": "Allen Lobes bist du würdig, heilige Maria, Jungfrau und Mutter. Bitte für uns bei Christus, deinem Sohn.",
+            "mode1": "VI",
+            "mode2": "III",
+            "mode3": "VIII",
             "les_buch": "Röm",
             "les_stelle": "9,4–5",
             "les_text": "Sie sind Israeliten; damit haben sie die Sohnschaft, die Herrlichkeit, die Bundesordnungen, ihnen ist das Gesetz gegeben, der Gottesdienst und die Verheißungen, sie haben die Väter, und dem Fleisch nach entstammt ihnen der Christus, der über allem als Gott steht, er ist gepriesen in Ewigkeit. Amen.",
             "les_text_neu": "Sie sind Israeliten; ihnen gehören die Sohnschaft, die Herrlichkeit und die Bundesschlüsse; ihnen ist das Gesetz gegeben, der Gottesdienst und die Verheißungen, ihnen gehören die Väter und ihnen entstammt der Christus dem Fleisch nach. Gott, der über allem ist, er sei gepriesen in Ewigkeit. Amen.",
             "antev": "Auf die Niedrigkeit seiner Magd hat Gott in Gnade geschaut. Der Engel brachte ihr die Botschaft, und sie empfing Christus, den Erlöser der Welt.",
+            "modeev": "VIII",
             "hymn_1_lat": 8908.4,
             "ant1_lat": "De Iesse progénie procéssit Virgo María, in cuius thálamum introívit Spíritus Altíssimi.",
             "ant2_lat": "Natívitas est hódie sanctæ Maríæ Vírginis, cuius pulchritúdinem respéxit Deus et visitávit humilitátem.",
@@ -9360,6 +9533,9 @@ export const calendarData: CalendarData = {
             "ant1": "Der am Kreuze starb, ist von den Toten erstanden und hat uns erlöst.^HALLxq",
             "ant2": "In der Mitte der heiligen Stadt Jerusalem steht der Baum des Lebens; die Blätter des Baumes heilen die Völker.",
             "ant3": "Wir müssen uns rühmen im Kreuz unseres Herrn Jesus Christus.",
+            "mode1": "IVa",
+            "mode2": "III",
+            "mode3": "II",
             "les_buch": "1°Kor",
             "les_stelle": "1,23–24",
             "les_text": "Wir verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
@@ -9368,6 +9544,7 @@ export const calendarData: CalendarData = {
             "resp2": "wenn der Herr zum Gericht kommt.",
             "resp3": "Erhebt eure Häupter, denn eure Erlösung ist nahe.",
             "antev": "Christus musste leiden und von den Toten auferstehen, um so in seine Herrlichkeit zu gelangen.",
+            "modeev": "IV",
             "bitten_e": "Lasst uns beten zu unserm Herrn Jesus Christus, der durch sein heiliges Kreuz die Welt erlöst hat:",
             "bitten_r": "Kyrie, eleison.",
             "bitten": "Du hast dich entäußert, du wurdest wie ein Sklave und den Menschen gleich;^qgib, dass die Welt deine Liebe erkennt.^pDu wurdest gehorsam bis zum Tod am Kreuz;^qhilf den Leidenden, ihr Geschick anzunehmen.^pGott hat dir den Namen verliehen, der alle Namen übertrifft;^qsteh allen bei, die sich zu diesem Namen bekennen.^pVor dir beugen die Knie alle Mächte im Himmel, auf der Erde und unter der Erde;^qgib, dass alle Menschen dich anbeten.^pDurch dein Kreuz hast du das Tor des Himmels geöffnet;^qnimm unsere verstorbenen Brüder und Schwestern auf.",
@@ -9386,6 +9563,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Christus, den König, der am Kreuz für uns erhöht ist – kommt,°wir°beten°ihn°an!",
+            "mode0": "VIII",
             "ant0_lat": "Christum regem pro nobis in cruce exaltátum, veníte, adorémus."
           },
           "Lesehore": {
@@ -9429,6 +9607,9 @@ export const calendarData: CalendarData = {
             "ant1": "Der die Macht des Todes zerbrach, nahm das heilige Kreuz auf sich; mit Herrlichkeit bekleidet, erstand er am dritten Tag.^HALLxq",
             "ant2": "Es leuchtet das heilige Kreuz, an dem der Herr im Fleische hing und unsere Wunden wusch mit seinem Blut.",
             "ant3": "In herrlichem Glanz erstrahlt das Kreuz. Siegreich herrscht es, tilgt alle Schuld und schenkt der Welt das Heil.^HALLxq",
+            "mode1": "VIII",
+            "mode2": "IVa",
+            "mode3": "III",
             "les_buch": "Hebr",
             "les_stelle": "2,9b–10",
             "les_text": "Wir sehen Jesus, um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
@@ -9436,6 +9617,7 @@ export const calendarData: CalendarData = {
             "resp2": "wir preisen dein heiliges Leiden.",
             "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
             "antev": "Dein Kreuz, o°Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir; denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
+            "modeev": "IV",
             "bitten_e": "Gepriesen sei unser Herr Jesus Christus, der durch sein heiliges Kreuz die Welt erlöst hat. Zu ihm lasst uns beten:",
             "bitten_r": "Christus, erbarme dich unser.",
             "bitten": "Du bist am Kreuz erhöht worden;^qHerr, erbarme dich unser.^pDu hast am Kreuz die Arme ausgebreitet, um alle an dich zu ziehen;^qHerr, erbarme dich unser.^pDu bist am Kreuz gestorben, damit wir leben;^qHerr, erbarme dich unser.^pDu hast im Tod den Tod überwunden;^qHerr, erbarme dich unser.",
@@ -9467,6 +9649,7 @@ export const calendarData: CalendarData = {
           },
           "Sext": {
             "ant0": "Rette uns, Heiland der Welt! Du hast uns durch dein Blut am Kreuz erlöst. Wir bitten dich: steh uns bei, du, unser Gott.",
+            "mode0": "II",
             "les_buch": "Eph",
             "les_stelle": "1,7–8",
             "les_text": "Durch das Blut Jesu Christi haben wir die Erlösung, die Vergebung der Sünden nach dem Reichtum seiner Gnade. Durch sie hat er uns mit aller Weisheit und Einsicht reich beschenkt.",
@@ -9500,6 +9683,9 @@ export const calendarData: CalendarData = {
             "ant1": "O unbegreifliches Werk der Liebe! Es starb der Tod, als am Kreuze das Leben starb.",
             "ant2": "Wir verehren dein Kreuz, o°Herr, und rühmen dein heiliges Leiden. Der du für uns gelitten hast, erbarme dich unser!",
             "ant3": "Wir beten dich an, Herr Jesus Christus, und preisen dich. Denn durch dein heiliges Kreuz hast du die Welt erlöst.",
+            "mode1": "IV",
+            "mode2": "III",
+            "mode3": "VII",
             "les_buch": "1°Kor",
             "les_stelle": "1,23–24",
             "les_text": "Wir verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
@@ -9508,6 +9694,7 @@ export const calendarData: CalendarData = {
             "resp2": "an dir triumphierte der König der Engel.",
             "resp3": "Durch dich kam Freude in die ganze Welt.",
             "antev": "Heiliges Kreuz, erhabenes Zeichen des Sieges, gib uns in der Herrlichkeit des Himmels Anteil an deinem Triumph.",
+            "modeev": "I",
             "bitten_e": "Lasst uns beten zu unserm Herrn Jesus Christus, der durch sein heiliges Kreuz die Welt erlöst hat:",
             "bitten_r": "Kyrie, eleison.",
             "bitten": "Du hast dich entäußert, du wurdest wie ein Sklave und den Menschen gleich;^qgib, dass die Welt deine Liebe erkennt.^pDu wurdest gehorsam bis zum Tod am Kreuz;^qhilf den Leidenden, ihr Geschick anzunehmen.^pGott hat dir den Namen verliehen, der alle Namen übertrifft;^qsteh allen bei, die sich zu diesem Namen bekennen.^pVor dir beugen die Knie alle Mächte im Himmel, auf der Erde und unter der Erde;^qgib, dass alle Menschen dich anbeten.^pDurch dein Kreuz hast du das Tor des Himmels geöffnet;^qnimm unsere verstorbenen Brüder und Schwestern auf.",
@@ -9535,6 +9722,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Den Heiland der Welt, mit dem seine Mutter im Leiden vereint war – kommt,°wir°beten°ihn°an!",
+            "mode0": "II",
             "ant0_lat": "Salvatórem mundi, qui passióni suæ Matrem sociávit, veníte, adorémus."
           },
           "Lesehore": {
@@ -9554,6 +9742,9 @@ export const calendarData: CalendarData = {
             "ant1": "Gott, du mein Gott, dich suche ich; Herr, meine Seele hängt an dir.",
             "ant2": "Freut euch, dass ihr Anteil habt an den Leiden Christi.",
             "ant3": "Gott wollte alles mit sich versöhnen durch das Blut Jesu Christi.",
+            "mode1": "VI",
+            "mode2": "VIIIa",
+            "mode3": "VI",
             "les_buch": "Kol",
             "les_stelle": "1,24–25",
             "les_text": "Jetzt freue ich mich in den Leiden, die ich für euch ertrage. Für den Leib Christi, die Kirche, ergänze ich in meinem irdischen Leben das, was an den Leiden Christi noch fehlt. Ich diene der Kirche durch das Amt, das Gott mir übertragen hat, damit ich euch das Wort Gottes in seiner Fülle verkündige.",
@@ -9562,6 +9753,7 @@ export const calendarData: CalendarData = {
             "resp2": "heilige°Jungfrau°Maria.",
             "resp3": "Durch dich schöpfen wir Heil aus den Wunden Christi,",
             "antev": "Freue dich, Mutter der Schmerzen! Nach so großen Leiden thronst du mit deinem Sohn als Königin in der Herrlichkeit des Himmels.",
+            "modeev": "IIc",
             "hymn_1_lat": 8915.102,
             "ant1_lat": "Adhǽsit ánima mea post te, Dómine Iesu.",
             "ant2_lat": "Communicántes Christi passiónibus, gaudeámus.",
@@ -9580,6 +9772,9 @@ export const calendarData: CalendarData = {
             "ant1": "Christus ist unser Friede. Er hat uns durch sein Kreuz mit Gott versöhnt.",
             "ant2": "Lasst uns hintreten zur Stadt des lebendigen Gottes, zu Jesus, dem Mittler eines neuen Bundes.",
             "ant3": "Durch Christi Blut haben wir die Erlösung, die Vergebung der Sünden.",
+            "mode1": "VIII",
+            "mode2": "I",
+            "mode3": "II",
             "les_buch": "2°Tim",
             "les_stelle": "2,10–12a",
             "les_text": "Alles erdulde ich um der Auserwählten willen, damit auch sie das Heil in Christus Jesus und die ewige Herrlichkeit erlangen. Das Wort ist glaubwürdig: Wenn wir mit Christus gestorben sind, werden wir auch mit ihm leben; wenn wir standhaft bleiben, werden wir auch mit ihm herrschen.",
@@ -9588,6 +9783,7 @@ export const calendarData: CalendarData = {
             "resp2": "die Königin des Himmels, die Herrin der Welt.",
             "resp3": "Die Krone des Martyriums empfing sie, ohne zu sterben,",
             "antev": "Als Jesus seine Mutter bei dem Kreuze stehen sah und bei ihr den Jünger, den er liebte, sagte er zu seiner Mutter: Frau, siehe, dein Sohn! Dann sagte er zu dem Jünger: Siehe, deine Mutter!",
+            "modeev": "I",
             "hymn_1_lat": 8915.104,
             "ant1_lat": "Christus est pax nostra, qui per crucem pacificávit nos cum Deo.",
             "ant2_lat": "Accedámus ad civitátem Dei vivéntis et testaménti novi mediatórem Iesum.",
@@ -9627,11 +9823,13 @@ export const calendarData: CalendarData = {
             "button": "Hl. Matthäus",
             "farbe": "r",
             "antev": "Jesus sah einen Mann mit Namen Matthäus an der Zollstätte sitzen und sagte zu ihm: Folge mir! Da stand Matthäus auf und folgte ihm.",
+            "modeev": "IIc",
             "antev_lat": "Vidit Iesus hóminem sedéntem in telóneo, Matthǽum nómine; et ait illi: Séquere me. Et surgens secútus est eum.",
             "hymn_1_lat": 8921.0
           },
           "Vesper": {
             "antev": "Barmherzigkeit will ich, nicht Opfer: Ich bin gekommen, die Sünder zu berufen, nicht die Gerechten.",
+            "modeev": "I",
             "antev_lat": "Misericórdiam volo, et non sacrifícium, dicit Dóminus; non enim veni vocáre iustos, sed peccatóres.",
             "hymn_1_lat": 8921.0
           },
@@ -9658,6 +9856,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Der Herr, vor dessen Thron die Engel stehen – kommt,°wir°beten°ihn°an!",
+            "mode0": "VII",
             "ant0_lat": "In conspéctu angelórum, veníte, adorémus Dóminum."
           },
           "Lesehore": {
@@ -9703,6 +9902,9 @@ export const calendarData: CalendarData = {
             "ant1": "Lasst uns rühmen den Herrn, den die Engel lobpreisen, dem Kerubim und Serafim in Ewigkeit singen: Heilig, heilig, heilig.",
             "ant2": "Preist den Herrn, ihr Engel des Herrn, preist ihn in Ewigkeit.",
             "ant3": "Dich loben alle Engel in der Höhe und rufen wie aus einem Munde: Dir gebührt Lobgesang, heiliger Gott.",
+            "mode1": "I",
+            "mode2": "VIII",
+            "mode3": "VII",
             "les_buch": "Gen",
             "les_stelle": "28,12–13a",
             "les_text": "Jakob hatte einen Traum: Er sah eine Treppe, die auf der Erde stand und bis zum Himmel reichte. Auf ihr stiegen Engel Gottes auf und nieder. Und siehe, der Herr stand oben und sprach: Ich bin der Herr, der Gott deines Vaters Abraham und der Gott Isaaks.",
@@ -9711,6 +9913,7 @@ export const calendarData: CalendarData = {
             "resp2": "vor°dem°Throne°Gottes.",
             "resp3": "Mit goldenem Räuchergefäß trat der Engel an den Altar",
             "antev": "Amen, amen, ich sage euch: Ihr werdet den Himmel offen sehen und die Engel Gottes schauen, die auf- und niedersteigen über dem Menschensohn.",
+            "modeev": "V",
             "bitten_e": "Gepriesen sei Gott, vor dessen Thron die Engel stehen. Zu ihm lasst uns beten:",
             "bitten_r": "Hosanna in der Höhe.",
             "bitten": "Du hast deinen Engeln befohlen, uns zu behüten;^qlass uns diesen Tag voll Zuversicht beginnen.^pDie Engel im Himmel schauen immerfort dein Angesicht;^qlass uns einstimmen in ihren Lobgesang.^pLass deine heiligen Engel unser Gebet emportragen^qund unsere Opfergabe niederlegen auf deinem himmlischen Altar.^pSende den Erzengel Michael uns zu Hilfe,^qdamit er uns verteidige gegen Satan und seine Engel.",
@@ -9748,6 +9951,7 @@ export const calendarData: CalendarData = {
             "ant1": "",
             "ant2": "",
             "ant3": "",
+            "mode0": "VIIIa",
             "les_buch": "Dan",
             "les_stelle": "9,22–23",
             "les_text": "Der Engel Gabriel redete mit mir und sagte: Daniel, ich bin jetzt gesandt worden, um dir klare Einsicht zu geben. Schon zu Beginn deines Gebets erging ein Gotteswort, und ich bin gekommen, um es dir zu verkünden; denn du bist (von Gott) geliebt. Achte also auf das Wort und begreife die Vision!",
@@ -9783,6 +9987,9 @@ export const calendarData: CalendarData = {
             "ant1": "Über den Himmel breitest du deine Hoheit aus, König der Engel.",
             "ant2": "Vor den Engeln will ich dir singen, Herr, du mein Gott.",
             "ant3": "Ich schaute das Lamm, mitten vor dem Thron; es sah aus wie geschlachtet. Und ich hörte die Stimme von vielen Engeln rings um den Thron.",
+            "mode1": "VII",
+            "mode2": "VIII",
+            "mode3": "IV",
             "les_buch": "Offb",
             "les_stelle": "1,4b–5",
             "les_text": "Gnade sei mit euch und Friede von Ihm, der ist und der war und der kommt, und von den sieben Geistern vor seinem Thron und von Jesus Christus; er ist der treue Zeuge, der Erstgeborene der Toten, der Herrscher über die Könige der Erde. Er liebt uns und hat uns von unseren Sünden erlöst durch sein Blut.",
@@ -9790,6 +9997,7 @@ export const calendarData: CalendarData = {
             "resp2": "vor°dem°Throne°Gottes.",
             "resp3": "Mit goldenem Räuchergefäß trat der Engel an den Altar",
             "antev": "Der Engel Gabriel sprach zu Maria: Du wirst empfangen und einen Sohn gebären. Dem sollst du den Namen Jesus geben.",
+            "modeev": "VII",
             "bitten_e": "Lasst uns beten zu Gott, dem die Engel dienen:",
             "bitten_r": "Wir bitten dich, erhöre uns.",
             "bitten": "Gott, immer wieder hast du Engel zum Dienst an den Menschen bestellt;^qsende deine Engel aus, dass sie über dein Volk wachen.^pDu hast dem Erzengel Michael geboten, gegen Satan zu kämpfen;^qsende deinen Engel allen zu Hilfe, die im Kampf mit dem Bösen stehen.^pDu hast den Erzengel Gabriel gesandt, Maria die Heilsbotschaft zu bringen;^qgib, dass alle Menschen den Messias aufnehmen, den er verkündet hat.^pDu hast den Erzengel Rafael beauftragt, den blinden Tobit zu heilen;^qlindere die Schmerzen der Kranken.^pErbarme dich unserer Verstorbenen;^qdie Chöre der Engel mögen sie empfangen.",
@@ -9830,11 +10038,13 @@ export const calendarData: CalendarData = {
             "vokativ": "Heiliger Gregor",
             "vokativ_lat": "sancte Gregóri",
             "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
+            "modeev": "I",
             "antev_lat": "Pastor exímius Gregórius pastorális vitæ spécimen trádidit et régulam.",
             "hymn_1_lat": 8903.0
           },
           "Vesper": {
             "antev": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht.",
+            "modeev": "VIII",
             "antev_lat": "Gregórius præsul implébat actu quidquid sermóne docébat, ut esset exémplum mýstica verba loquens.",
             "hymn_1_lat": 8903.0
           },
@@ -9978,10 +10188,12 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "der Heiligen Kornelius und Cyprian",
             "antev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
+            "modeev": "IIc",
             "antev_lat": "Pretiósa mors, quæ emit immortalitátem prétio sui sánguinis!"
           },
           "Vesper": {
             "antev": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi.",
+            "modeev": "VIII",
             "antev_lat": "O beátam Ecclésiam nostram, quam gloriósus mártyrum Christi sanguis illústrat!"
           },
           "Messe": {
@@ -10232,10 +10444,12 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Rupert und hl. Virgil",
             "genitiv": "der Heiligen Rupert und Virgil",
-            "antev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen."
+            "antev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen.",
+            "modeev": "VI"
           },
           "Vesper": {
-            "antev": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten."
+            "antev": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten.",
+            "modeev": "VII"
           },
           "Messe": {
             "ms_les_buch": "Hebr",
@@ -10272,10 +10486,12 @@ export const calendarData: CalendarData = {
             "nominativ": "Der heilige Niklaus von Flüe",
             "genitiv": "des heiligen Bruder Klaus",
             "genitiv_lat": "sancti Nícolæ",
-            "antev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens."
+            "antev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens.",
+            "modeev": "IV"
           },
           "Vesper": {
-            "antev": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht."
+            "antev": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht.",
+            "modeev": "III"
           },
           "Messe": {
             "ms_les_buch": "Röm",
@@ -10345,10 +10561,12 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Vinzenz",
             "genitiv_lat": "sancti Vincéntii",
             "antev": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
+            "modeev": "IV",
             "antev_lat": "Erat Vincéntius consolátor mæréntium, insígnis defénsor pupillórum, ac viduárum munerátor."
           },
           "Vesper": {
-            "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan."
+            "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
+            "modeev": "VI"
           },
           "Messe": {
             "ms_les_buch": "1°Kor",
@@ -10491,6 +10709,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Den Herrn, dem die Engel dienen – kommt,°wir°beten°ihn°an!",
+            "mode0": "VII",
             "ant0_lat": "Dóminum, cui minístrant ángeli, veníte, adorémus."
           },
           "Lesehore": {
@@ -10511,6 +10730,9 @@ export const calendarData: CalendarData = {
             "ant1": "Der Herr sendet seinen Engel mit dir und lenkt deinen Weg.",
             "ant2": "Gepriesen sei Gott! Er hat seinen Engel gesandt und seine Diener gerettet, die auf ihn vertrauten.",
             "ant3": "Lobet den Herrn, all seine Engel; all seine Scharen, lobet ihn!",
+            "mode1": "I",
+            "mode2": "VIII",
+            "mode3": "VII",
             "les_buch": "Ex",
             "les_stelle": "23,20–21",
             "les_text": "Ich werde einen Engel schicken, der dir vorausgeht. Er soll dich auf dem Weg behüten und dich an den Ort bringen, den ich bestimmt habe. Achte auf ihn und hör auf seine Stimme! Widersetze dich ihm nicht! Er würde es nicht ertragen, wenn ihr euch auflehnt, denn in ihm ist mein Name gegenwärtig.",
@@ -10519,6 +10741,7 @@ export const calendarData: CalendarData = {
             "resp2": "Vor den Engeln will ich dir singen und spielen.",
             "resp3": "Ich preise deinen Namen für deine Treue und Huld.",
             "antev": "Sie alle sind dienende Geister, ausgesandt, um denen zu helfen, denen das Heil zuteil werden soll.",
+            "modeev": "IV",
             "bitten_e": "Gepriesen sei Gott, vor dessen Thron die Engel stehen. Zu ihm lasst uns beten:",
             "bitten_r": "Hosanna in der Höhe.",
             "bitten": "Du hast deinen Engeln befohlen, uns zu behüten;^qlass uns diesen Tag voll Zuversicht beginnen.^pDie Engel im Himmel schauen immerfort dein Angesicht;^qlass uns einstimmen in ihren Lobgesang.^pLass deine heiligen Engel unser Gebet emportragen^qund unsere Opfergabe niederlegen auf deinen himmlischen Altar.^pSende den Erzengel Michael uns zu Hilfe,^qdamit er uns verteidige gegen Satan und seine Engel.",
@@ -10577,6 +10800,9 @@ export const calendarData: CalendarData = {
             "ant1": "Der Engel des Herrn schirmt alle, die ihn fürchten und ehren, und er befreit sie.",
             "ant2": "Es lebe der Herr! Sein Engel hat mich behütet.",
             "ant3": "Preist den Gott des Himmels! Bekennt vor allem, was lebt, dass er euch Barmherzigkeit erwiesen hat.",
+            "mode1": "VIII",
+            "mode2": "IV",
+            "mode3": "VIIIa",
             "les_buch": "Offb",
             "les_stelle": "8,3–4",
             "les_text": "Ein Engel kam und trat mit einer goldenen Räucherpfanne an den Altar; ihm wurde viel Weihrauch gegeben, den er auf dem goldenen Altar vor dem Thron verbrennen sollte, um so die Gebete aller Heiligen vor Gott zu bringen. Aus der Hand des Engels stieg der Weihrauch mit den Gebeten der Heiligen zu Gott empor.",
@@ -10584,6 +10810,7 @@ export const calendarData: CalendarData = {
             "resp2": "sie sollen dich behüten auf all deinen Wegen.",
             "resp3": "Sie tragen dich auf ihren Händen, damit dein Fuß an keinen Stein stößt.",
             "antev": "Ihre Engel schauen immerdar das Angesicht meines Vaters, der im Himmel ist.",
+            "modeev": "Ig",
             "bitten_e": "Lasst uns beten zu Gott, dem die Engel dienen:",
             "bitten_r": "Wir bitten dich, erhöre uns.",
             "bitten": "Gott, immer wieder hast du Engel zum Dienst an den Menschen bestellt;^qsende deine Engel aus, dass sie über dein Volk wachen.^pDu hast die Engel auf den Fluren von Bethlehem den Frieden auf Erden verkünden lassen;^qschenke den Völkern deinen Frieden.^pDie Engel der Kinder schauen allezeit dein Angesicht;^qhalte alles Böse von deinen Kindern fern.^pDu gabst den Engeln den Auftrag, deine Diener auf ihren Wegen zu behüten;^qführe alle, die unterwegs sind, heil zum Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qdie Chöre der Engel mögen sie empfangen.",
@@ -10611,6 +10838,9 @@ export const calendarData: CalendarData = {
             "ant1": "Von Maria wurde Jesus geboren, der Christus genannt wird.",
             "ant2": "Mit dir, o°Mutter, preisen wir den Herrn; sterbend hat er uns dir als Kinder anvertraut.",
             "ant3": "Maria wurde erhoben über die Chöre der Engel; auf ihrem Haupt leuchtet ein Kranz von zwölf Sternen.",
+            "mode1": "II",
+            "mode2": "IV",
+            "mode3": "VIII",
             "les_buch": "Jes",
             "les_stelle": "61,10ab",
             "les_text": "Von Herzen will ich mich freuen über den Herrn. Meine Seele soll jubeln über meinen Gott. Denn er kleidet mich in Gewänder des Heils, er hüllt mich in den Mantel der Gerechtigkeit.",
@@ -10619,6 +10849,7 @@ export const calendarData: CalendarData = {
             "resp2": "du°bist°voll°der°Gnade.",
             "resp3": "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
             "antev": "Selige Mutter, reinste Jungfrau, glorreiche Königin der Welt, lass alle deine Hilfe erfahren, die dieses heilige Fest begehen.",
+            "modeev": "Ig",
             "hymn_1_lat": 9007.0,
             "ant1_lat": "De María natus est Iesus, qui vocátur Christus.",
             "ant2_lat": "Tecum Dómino benedícimus, Mater, qui móriens nos tibi commendávit ut fílios.",
@@ -10638,6 +10869,9 @@ export const calendarData: CalendarData = {
             "ant1": "Der Engel des Herrn brachte Maria die Botschaft, und sie empfing vom Heiligen Geist.",
             "ant2": "Bei dem Kreuze Jesu stand Maria, seine Mutter.",
             "ant3": "Jungfrau und Mutter, freue dich! Christus ist aus dem Grabe erstanden.^HALLxq",
+            "mode1": "VIII",
+            "mode2": "I",
+            "mode3": "VIII",
             "les_buch": "Gal",
             "les_stelle": "4,4–5",
             "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
@@ -10646,6 +10880,7 @@ export const calendarData: CalendarData = {
             "resp2": "du°bist°voll°der°Gnade.",
             "resp3": "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
             "antev": "Maria bewahrte alles, was geschehen war, in ihrem Herzen und sann darüber nach.",
+            "modeev": "IIc",
             "hymn_1_lat": 9007.0,
             "ant1_lat": "Angelus Gábriel nuntiávit Maríæ, et concépit de Spíritu Sancto.",
             "ant2_lat": "Stabat iuxta crucem Iesu mater eius.",
@@ -10702,11 +10937,13 @@ export const calendarData: CalendarData = {
             "button": "Hl. Lukas",
             "farbe": "r",
             "antev": "Lukas, ein Bote des Evangeliums, hat Christus verkündet, das Licht, das aufstrahlt aus der Höhe.",
+            "modeev": "VIII",
             "antev_lat": "Evangélium Christi tradens, sanctus Lucas annuntiávit solem oriéntem ex alto.",
             "hymn_1_lat": 9018.0
           },
           "Vesper": {
             "antev": "In seinem heiligen Bericht hat Lukas uns Christi Güte und Erbarmen bezeugt. Darum preist ihn heute die ganze Kirche.",
+            "modeev": "III",
             "antev_lat": "Beátus Evangelísta Lucas, scriba mansuetúdinis Christi, digne in Ecclésia clarificári méruit.",
             "hymn_1_lat": 9018.0
           },
@@ -10749,10 +10986,12 @@ export const calendarData: CalendarData = {
             "genitiv_lat": "sanctæ Terésiæ",
             "vokativ_lat": "sancta Terésia",
             "antev": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
+            "modeev": "VII",
             "antev_lat": "Amen dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cælórum."
           },
           "Vesper": {
             "antev": "Freut euch und jubelt; denn eure Namen sind im Himmel verzeichnet.",
+            "modeev": "VII",
             "antev_lat": "Gaudéte et exsultáte, quia nómina vestra scripta sunt in cælis."
           },
           "Messe": {
@@ -10787,11 +11026,13 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Franz von Assisi",
             "genitiv_lat": "sancti Francísci",
             "antev": "Franziskus, arm und gering auf Erden, zieht reich in den Himmel ein, und festlicher Gesang erklingt zu seiner Ehre.",
+            "modeev": "I",
             "antev_lat": "Francíscus pauper et húmilis cælum dives ingréditur, hymnis cæléstibus honorátur.",
             "hymn_1_lat": 9004.0
           },
           "Vesper": {
             "antev": "Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen, denn ich trage die Male Jesu an meinem Leib.",
+            "modeev": "IV",
             "antev_lat": "Mihi absit gloriári, nisi in cruce Dómini nostri Iesu Christi; ego enim stígmata eius in córpore meo porto.",
             "hymn_1_lat": 9004.0
           },
@@ -11097,10 +11338,12 @@ export const calendarData: CalendarData = {
             "button": "Hl. Hedwig",
             "genitiv": "der heiligen Hedwig",
             "genitiv_lat": "sanctæ Hedvígis",
-            "antev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen."
+            "antev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen.",
+            "modeev": "Ia"
           },
           "Vesper": {
-            "antev": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen."
+            "antev": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen.",
+            "modeev": "V"
           },
           "Messe": {
             "ms_les_buch": "Gal",
@@ -11168,10 +11411,12 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "des heiligen Ignatius",
             "antev": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
+            "modeev": "IIc",
             "antev_lat": "Illum quæro, qui pro nobis mórtuus est; illum volo, qui propter nos resurréxit."
           },
           "Vesper": {
             "antev": "Gottes Brot will ich essen, das Fleisch Jesu Christi, das aus Davids Samen stammt, und sein Blut will ich trinken, die unvergängliche Liebe.",
+            "modeev": "Ia",
             "antev_lat": "Panem Dei volo, qui est caro Iesu Christi, qui ex sémine David factus est, et potum volo sánguinem ipsíus, qui est cáritas incorruptíbilis."
           },
           "Messe": {

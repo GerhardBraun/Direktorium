@@ -105,7 +105,7 @@ module.exports = {
         '.btn-green': {
           '@apply bg-liturgical-green text-hell hover:bg-liturgical-green-hover': {}
         },
-        '.btn-violett': {
+        '.btn-violet': {
           '@apply bg-liturgical-violett text-hell hover:bg-liturgical-violett-hover': {}
         },
         '.btn-gold': {
