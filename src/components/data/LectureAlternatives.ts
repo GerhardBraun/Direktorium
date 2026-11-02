@@ -1250,20 +1250,20 @@ export const lectureAlternatives = {
         "stelle": "15,55–57",
         "text": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch Jesus Christus, unseren Herrn.",
         "text_lat": "„Ubi est, mors, victória tua? Ubi est, mors, stímulus tuus?“. Stímulus autem mortis peccátum est, virtus vero peccáti lex. Deo autem grátias, qui dedit nobis victóriam per Dóminum nostrum Iesum Christum.",
-        "resp1": "Herr, auf dich vertraue ich,",
-        "resp2": "ich werde in Ewigkeit nicht zuschanden.",
-        "resp3": "Ich will jubeln über dein Erbarmen, über deine Huld mich freuen.",
-        "resp1_lat": "In te, Dómine, sperávi:",
-        "resp2_lat": "Non°confúndar°in°ætérnum.",
-        "resp3_lat": "Exsultábo et lætábor in misericórdia tua."
-      },
-      {
         "resp1": "Herr, in deinem Erbarmen",
         "resp2": "gib°ihnen°ewige°Ruhe.",
         "resp3": "Du wirst kommen in Herrlichkeit, zu richten die Lebenden und die Toten.",
         "resp1_lat": "In misericórdia tua, Dómine,",
         "resp2_lat": "dona°eis°réquiem.",
         "resp3_lat": "Qui ventúrus es iudicáre vivos et mórtuos,"
+      },
+      {
+        "resp1": "Herr, auf dich vertraue ich,",
+        "resp2": "ich werde in Ewigkeit nicht zuschanden.",
+        "resp3": "Ich will jubeln über dein Erbarmen, über deine Huld mich freuen.",
+        "resp1_lat": "In te, Dómine, sperávi:",
+        "resp2_lat": "Non°confúndar°in°ætérnum.",
+        "resp3_lat": "Exsultábo et lætábor in misericórdia tua."
       }
     ]
   },
