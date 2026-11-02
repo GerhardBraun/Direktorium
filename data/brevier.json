@@ -1504,6 +1504,7 @@
       "Evang": {
         "Invitatorium": {
           "ant0": "Christus, den Herrn, der im Evangelium spricht – kommt,°wir°beten°ihn°an!^HALLo",
+          "mode0": "II",
           "ant0_lat": "Dóminum in Evangélio loquéntem, veníte adorémus.^ALLo"
         },
         "Laudes": {
@@ -1511,6 +1512,9 @@
           "ant1": "Die heiligen Evangelisten erforschten die Weisheit der Alten und bekräftigten ihre Botschaft durch die Worte der Propheten.^HALLo",
           "ant2": "Zum Glauben an die Wahrheit hat Gott uns berufen durch das Evangelium, damit wir die Herrlichkeit unseres Herrn Jesus Christus erlangen.^HALLo",
           "ant3": "Viele loben ihre Weisheit; sie wird niemals vergehen.^HALLo",
+          "mode1": "I",
+          "mode2": "VII",
+          "mode3": "VIII",
           "les_buch": "›1°Kor",
           "les_stelle": "15,1–2a.3–4",
           "les_text": "Ich erinnere euch, Brüder, an das Evangelium, das ich euch verkündigt habe. Ihr habt es angenommen; es ist der Grund, auf dem ihr steht. Durch dieses Evangelium werdet ihr gerettet. Vor allem habe ich euch überliefert, was auch ich empfangen habe: Christus ist für unsere Sünden gestorben, gemäß der Schrift, und ist begraben worden. Er ist am dritten Tag auferweckt worden, gemäß der Schrift.",
@@ -1569,11 +1573,15 @@
           "ant1": "Der Frohen Botschaft diene ich – dank der Gnade Gottes.^HALLo",
           "ant2": "Ich tue alles um der Frohen Botschaft willen, damit ich teilhabe an der Verheißung.^HALLo",
           "ant3": "Diese Gnade wurde mir geschenkt: Ich soll den Heiden den unergründlichen Reichtum Christi verkünden.^HALLo",
+          "mode1": "I",
+          "mode2": "V",
+          "mode3": "VIII",
           "les_buch": "›Kol",
           "les_stelle": "1,3–6",
           "les_text": "Wir danken Gott, dem Vater Jesu Christi, unseres Herrn, jedes Mal, wenn wir für euch beten. Denn wir haben von eurem Glauben an Christus Jesus gehört und von der Liebe, die ihr zu allen Heiligen habt, weil im Himmel die Erfüllung eurer Hoffnung für euch bereitliegt. Schon früher habt ihr davon gehört durch das wahre Wort des Evangeliums, das zu euch gelangt ist. Wie in der ganzen Welt, so trägt es auch bei euch Frucht und wächst seit dem Tag, an dem ihr den Ruf der göttlichen Gnade vernommen und in Wahrheit erkannt habt.",
           "les_text_neu": "Wir danken Gott, dem Vater unseres Herrn Jesus Christus, allezeit, wenn wir für euch beten. Denn wir haben von eurem Glauben in Christus Jesus gehört und von der Liebe, die ihr zu allen Heiligen habt wegen der Hoffnung, die für euch im Himmel bereitliegt. Schon früher habt ihr davon gehört durch das wahre Wort des Evangeliums, das bei euch anwesend ist. Wie in der ganzen Welt, so trägt es auch bei euch Frucht und wächst seit dem Tag, an dem ihr den Ruf der göttlichen Gnade vernommen und in Wahrheit erkannt habt.",
           "antev": "In Ewigkeit bleibt das Wort des Herrn, das Evangelium, das euch verkündet worden ist.^HALLo",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der seine Jünger ausgesandt hat als Boten seiner Wahrheit und Liebe:",
           "bitten_r": "Herr, gedenke deiner Kirche.",
           "bitten": "Du hast die Jünger ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als ihre Nachfolger berufen hast.^pDu hast den Jüngern den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Jüngern befohlen, allen Menschen dein Reich zu verkünden;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Jüngern den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren.^pDu hast denen dein Reich verheißen, die an deine Botschaft glauben;^qnimm unsere Verstorbenen auf in das neue Jerusalem.",
