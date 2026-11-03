@@ -1,6 +1,5 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
-
 **11-05** `Calendar-Lesungen`: ab 6. November
 **11-28** `Lesungen der Lesehore` ab 1. Adventswoche I
 
