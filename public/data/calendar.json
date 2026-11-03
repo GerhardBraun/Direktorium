@@ -18153,11 +18153,12 @@
           "major": {
             "comm_1": "Hirten",
             "comm_2": "MärtSg",
-            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren.^ORV"
+            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren.^ORV",
+            "oration_lat": "Deus, spes imbecillórum, in cuius honórem beátus póntifex Engelbértus tuéndo oppréssos vitam suam impéndit; præsta, quǽsumus, ut omnes, qui eius implórant auxílium, petitiónis suæ virtútem consequántur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Augustinus (†°430)",
-            "patr_werk": "Aus dem Psalmenkommentar des hl. Augustinus (In Ps 126,2-3: PL 36,1668-1669)",
+            "patr_werk": "Aus dem Psalmenkommentar.",
             "patr_text": "^hUnsere Mühe ist vergeblich, wenn er nicht wacht^p„Der Herr baut sein Haus“: Der Herr Jesus Christus baut sein Haus. Viele mühen sich bei diesem Bauen ab, aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“{1#Ps 127,1}. Wer sind jene, die unter Mühen bauen? Es sind alle, die in der Kirche das Wort Gottes verkünden, die Diener der Geheimnisse Gottes. Wir also reden außen, er baut innen. Wir merken, wie ihr zuhört; aber was ihr denkt, weiß er allein, der eure Gedanken sieht. Er ist es, der baut, der ermahnt, der aufschreckt, der die Einsicht auftut, der euer Verständnis dem Glauben anpasst. Und doch arbeiten auch wir wie Werkleute; aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut.“^pWie die Kirche ihre Bauleute hat, so hat sie auch ihre Wächter. Dazu sind die Bischöfe da. Und darum ist der Platz der Bischöfe erhöht, damit sie einen Überblick haben und gleichsam über dem Volke wachen. Denn das griechische Wort „Episkopos“ bedeutet in unserer Sprache „Aufseher“. Und über diesen erhöhten Platz wird eine gefährliche Rechenschaft gefordert, wenn wir nicht mit solchem Herzen hier stehen, dass wir in Demut euch zu Füßen sind und für euch beten, dass er, der eure Seelen kennt, selbst die Wache übernehme. Denn wir können euch nur herein- und hinausgehen sehen, aber was ihr in eurem Herzen denkt, das wissen wir so wenig, wie wir auch nicht sehen können, was ihr in euren Häusern tut. Wie also halten wir Wache? Nach Art von Menschen: so gut wie wir es können und so weit wir es empfangen haben.^pDa wir also nur auf Menschenweise Aufsicht halten, vollkommene Wache aber nicht halten können – bleibt ihr deshalb ohne Aufsicht? Keineswegs! Denn wo ist der, von dem es heißt: „Wenn nicht der Herr die Stadt bewacht, wacht der Wächter umsonst“? Wir bemühen uns, Aufsicht zu halten, aber unser Bemühen ist umsonst, wenn nicht er die Aufsicht führt, der eure Gedanken kennt. Er hält Wache, wenn ihr wach seid; er hält auch Wache, wenn ihr schlaft. Wir wachen über euch gemäß unserem Amt der Ausspendung; aber wir möchten mit euch zusammen behütet werden. Wir sind eure Hirten, aber unter jenem Hirten sind wir mit euch zusammen Schafe. Wir sind für euch von diesem Platz der Lehrer, aber unter dem einen Lehrer sind wir in dieser Schule mit euch zusammen Schüler.",
             "patr_resp1": "Kommt zum Herrn, dem lebendigen Stein.",
             "patr_resp2": "Lasst euch als lebendige Steine aufbauen zu einem geistigen Haus, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen.",
@@ -18165,6 +18166,7 @@
           },
           "Laudes": {
             "button": "Hl. Engelbert",
+            "farbe": "r",
             "genitiv": "des heiligen Engelbert"
           }
         }
@@ -18703,22 +18705,11 @@
         "d11": {
           "major": {
             "comm_1": "MärtSg",
-            "comm_2": "Hirten",
-            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren.^ORV",
-            "oration_lat": "Deus, spes imbecillórum, in cuius honórem beátus póntifex Engelbértus tuéndo oppréssos vitam suam impéndit; præsta, quǽsumus, ut omnes, qui eius implórant auxílium, petitiónis suæ virtútem consequántur.^ORlV"
-          },
-          "Lesehore": {
-            "patr_autor": "Augustinus (†°430)",
-            "patr_werk": "Aus dem Psalmenkommentar.",
-            "patr_text": "^hUnsere Mühe ist vergeblich, wenn er nicht wacht^p„Der Herr baut sein Haus“: Der Herr Jesus Christus baut sein Haus. Viele mühen sich bei diesem Bauen ab, aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^pWer sind jene, die unter Mühen bauen? Es sind alle, die in der Kirche das Wort Gottes verkünden, die Diener der Geheimnisse Gottes. Wir also reden außen, er baut innen. Wir merken, wie ihr zuhört; aber was ihr denkt, weiß er allein, der eure Gedanken sieht. Er ist es, der baut, der ermahnt, der aufschreckt, der die Einsicht auftut, der euer Verständnis dem Glauben anpasst. Und doch arbeiten auch wir wie Werkleute; aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^pWie die Kirche ihre Bauleute hat, so hat sie auch ihre Wächter. Dazu sind die Bischöfe da. Und darum ist der Platz der Bischöfe erhöht, damit sie einen Überblick haben und gleichsam über dem Volke wachen. Denn das griechische Wort „Episkopos“ bedeutet in unserer Sprache „Aufseher“.^pUnd über diesen erhöhten Platz wird eine gefährliche Rechenschaft gefordert, wenn wir nicht mit solchem Herzen hier stehen, dass wir in Demut euch zu Füßen sind und für euch beten, dass er, der eure Seelen kennt, selbst die Wache übernehme. Denn wir können euch nur herein- und hinausgehen sehen, aber was ihr in eurem Herzen denkt, das wissen wir so wenig, wie wir auch nicht sehen können, was ihr in euren Häusern tut. Wie also halten wir Wache? Nach Art von Menschen: so gut wir es können und soweit wir es empfangen haben.^pDa wir also nur auf Menschenweise Aufsicht halten, vollkommene Wache aber nicht halten können – bleibt ihr deshalb ohne Aufsicht? Keineswegs! Denn wo ist der, von dem es heißt: „Wenn nicht der Herr die Stadt bewacht, wacht der Wächter umsonst“? Wir bemühen uns, Aufsicht zu halten, aber unser Bemühen ist umsonst, wenn nicht er die Aufsicht führt, der eure Gedanken kennt. Er hält Wache, wenn ihr wach seid; er hält auch Wache, wenn ihr schlaft.^pWir wachen über euch gemäß unserem Amt der Ausspendung; aber wir möchten mit euch zusammen behütet werden. Wir sind eure Hirten, aber unter jenem Hirten sind wir mit euch zusammen Schafe. Wir sind für euch von diesem Platz der Lehrer, aber unter dem einen Lehrer sind wir in dieser Schule mit euch zusammen Schüler.",
-            "patr_resp1": "Komm zum Herrn, dem lebendigen Stein.",
-            "patr_resp2": "Lasst euch als lebendige Steine aufbauen zu einem geistigen Haus, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen.",
-            "patr_resp3": "Dies ist der Stein, der zum Eckstein geworden ist."
+            "comm_2": "Hirten"
           },
           "Laudes": {
-            "button": "Hl. Engelbert",
-            "farbe": "r",
-            "genitiv": "des heiligen Engelbert"
+            "referenz": "Köln-11-7-oblig",
+            "button": "Hl. Engelbert"
           }
         }
       },
