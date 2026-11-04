@@ -45,6 +45,28 @@ const createLiturgicalDataLookup = (() => {
     };
 })();
 
+// Perikopenzeile mit nur einem ¥t (breites Label wie „REv+Ev:“ ist mit ° statt ¥t angeschlossen):
+// trennt Label und Bibelstelle am geschützten Leerzeichen direkt nach dem formatierten Label,
+// sonst am ersten geschützten Leerzeichen
+const splitLabelAndReference = (text) => {
+    const afterLabel = text.indexOf("</span> ");
+    const splitIndex =
+        afterLabel >= 0 ? afterLabel + "</span>".length : text.indexOf(" ");
+    return [text.substring(0, splitIndex), text.substring(splitIndex + 1)];
+};
+
+// Teilt einen Liturgie-Eintrag in Absätze (¥p). Ein leerer Absatz (¥p¥p) im Text steht für
+// eine Leerzeile; leere Absätze am Ende des Eintrags werden entfernt.
+// ¥p¥l (Absatz mit anschließendem Zeilenwechsel) wird wie in der Word-Druckfassung umgesetzt:
+// Leerzeile, danach beginnt der Text beim hängenden Einzug – gleichbedeutend mit ¥p¥p¥t
+const splitLiturgyParagraphs = (text) => {
+    const paragraphs = formatDirectoryText(text).replace(/¥p¥l/g, "¥p¥p¥t").split("¥p");
+    while (paragraphs.length > 0 && paragraphs[paragraphs.length - 1].trim() === "") {
+        paragraphs.pop();
+    }
+    return paragraphs;
+};
+
 // NotesSection-Komponente für formatierte Notizen
 const NotesSection = ({ content, fontSize = "0.93em" }) => {
     const processNotesContent = (content) => {
@@ -207,9 +229,15 @@ const DayEntry = ({
                             style={{ fontSize: "1em" }}
                             className="text-gray-900 dark:text-gray-100"
                         >
-                            {formatDirectoryText(entry.liturgy)
-                                .split("¥p")
+                            {splitLiturgyParagraphs(entry.liturgy)
                                 .map((paragraph, index) => {
+                                    if (paragraph.trim() === "") {
+                                        return (
+                                            <div key={index} style={{ marginBottom: "0.2em" }}>
+                                                {" "}
+                                            </div>
+                                        );
+                                    }
                                     const [marker, ...contentParts] = paragraph.split("¥t");
                                     const content = contentParts.join("¥t");
                                     const lines = content.split("¥l");
@@ -309,6 +337,76 @@ const DayEntry = ({
                                                                 />
                                                             </div>
                                                         );
+                                                    } else if (
+                                                        parts.length === 2 &&
+                                                        parts[0].includes(" ")
+                                                    ) {
+                                                        const [firstPart, pageNum] = parts;
+                                                        const [occasion, reference] =
+                                                            splitLabelAndReference(firstPart);
+
+                                                        return (
+                                                            <div
+                                                                key={lineIndex}
+                                                                style={{
+                                                                    ...commonLineStyle,
+                                                                    display: "grid",
+                                                                    gridTemplateColumns:
+                                                                        "minmax(2em, auto) minmax(0, 1fr) auto",
+                                                                    gap: "0.25em",
+                                                                    maxWidth: "25em",
+                                                                }}
+                                                            >
+                                                                <span
+                                                                    style={{
+                                                                        textAlign: "left",
+                                                                        minWidth: 0,
+                                                                        overflow: "hidden",
+                                                                        textOverflow: "ellipsis",
+                                                                        whiteSpace: "nowrap",
+                                                                    }}
+                                                                    dangerouslySetInnerHTML={{ __html: occasion }}
+                                                                />
+                                                                <TooltipProvider>
+                                                                    <Tooltip>
+                                                                        <TooltipTrigger asChild>
+                                                                            <span
+                                                                                style={{
+                                                                                    textAlign: "left",
+                                                                                    minWidth: 0,
+                                                                                    overflow: "hidden",
+                                                                                    textOverflow: "ellipsis",
+                                                                                    whiteSpace: "nowrap",
+                                                                                    cursor: "help",
+                                                                                    maxWidth: "100%",
+                                                                                    display: "block",
+                                                                                }}
+                                                                                dangerouslySetInnerHTML={{
+                                                                                    __html: reference,
+                                                                                }}
+                                                                            />
+                                                                        </TooltipTrigger>
+                                                                        <TooltipContent>
+                                                                            <p
+                                                                                dangerouslySetInnerHTML={{
+                                                                                    __html: reference.replace(
+                                                                                        /<[^>]*>/g,
+                                                                                        ""
+                                                                                    ),
+                                                                                }}
+                                                                            />
+                                                                        </TooltipContent>
+                                                                    </Tooltip>
+                                                                </TooltipProvider>
+                                                                <span
+                                                                    style={{
+                                                                        textAlign: "right",
+                                                                        whiteSpace: "nowrap",
+                                                                    }}
+                                                                    dangerouslySetInnerHTML={{ __html: pageNum }}
+                                                                />
+                                                            </div>
+                                                        );
                                                     } else {
                                                         return (
                                                             <div
@@ -343,9 +441,15 @@ const DayEntry = ({
                             style={{ fontSize: "1em" }}
                             className="text-gray-900 dark:text-gray-100"
                         >
-                            {formatDirectoryText(entry.sec_liturgy)
-                                .split("¥p")
+                            {splitLiturgyParagraphs(entry.sec_liturgy)
                                 .map((paragraph, index) => {
+                                    if (paragraph.trim() === "") {
+                                        return (
+                                            <div key={index} style={{ marginBottom: "0.2em" }}>
+                                                {" "}
+                                            </div>
+                                        );
+                                    }
                                     const [marker, ...contentParts] = paragraph.split("¥t");
                                     const content = contentParts.join("¥t");
                                     const lines = content.split("¥l");
@@ -452,14 +556,8 @@ const DayEntry = ({
                                                         parts[0].includes("\u00A0")
                                                     ) {
                                                         const [firstPart, pageNum] = parts;
-                                                        const firstSpaceIndex = firstPart.indexOf("\u00A0");
-                                                        const occasion = firstPart.substring(
-                                                            0,
-                                                            firstSpaceIndex
-                                                        );
-                                                        const reference = firstPart.substring(
-                                                            firstSpaceIndex + 1
-                                                        );
+                                                        const [occasion, reference] =
+                                                            splitLabelAndReference(firstPart);
 
                                                         return (
                                                             <div
