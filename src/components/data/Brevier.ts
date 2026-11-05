@@ -13428,7 +13428,7 @@ export const brevierData = {
           "psalm3": 90.0,
           "ant1": "Herr, denk daran, was uns geschehen, blick her und sieh unsere Schmach.",
           "ant2": "Ich bin die Wurzel Davids und sein Stamm, ich bin der leuchtende Stern, der Morgenstern.^HALLo",
-          "ant3": "Unsere Jahre vergehen wie Gras. Du aber, Gott, bleibst in Ewigkeit.^HALLo",
+          "ant3": "Unsere Jahre vergehen wie Gras. Du°aber, Gott, bleibst in Ewigkeit.^HALLo",
           "versikel0": "Herr, bei dir ist die Quelle des°Lebens.",
           "versikel1": "In deinem Licht schauen wir das°Licht.",
           "ant1_lat": "Intuére, Dómine, et réspice oppróbrium nostrum.",
