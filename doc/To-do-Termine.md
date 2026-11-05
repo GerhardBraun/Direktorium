@@ -1,11 +1,11 @@
 - Referenzen bei Lesungen, Perikopen-Datenbank
 
-**11-05** `Calendar-Lesungen`: ab 6. November
+**11-10** `Calendar-Lesungen`: ab 11. November
 **11-28** `Lesungen der Lesehore` ab 1. Adventswoche I
 
 **ohne Frist** `Psalmen zum Singen` zur Lesehore:
-6, 9 / 10, 12 / 18 / 35,
-31 / 37 / 39, 52 / 44,
-50
-102 / 44 / 78
-105, 106
+ / 44 / 78 (4. Woche)
+6, 9 / 10, 12 / 18 / 35 (1. Woche)
+31 / 37 / 39, 52  (2. Woche)
+50 (3. Woche)
+105, 106 (Advent)
