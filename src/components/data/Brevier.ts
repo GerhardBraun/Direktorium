@@ -13568,7 +13568,7 @@ export const brevierData = {
           "psalm3": 69.3,
           "ant1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
           "ant2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
-          "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^HALLo",
+          "ant3": "Ihr, die ihr Gott sucht: euer°Herz lebe°auf.^HALLo",
           "mode1": "IV",
           "mode2": "I",
           "mode3": "II",
