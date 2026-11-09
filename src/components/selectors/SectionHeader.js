@@ -513,7 +513,7 @@ const SectionHeader = ({
                     </button>
                 </ButtonGroup>
             )}
-            {showSources && !skipCommune && (
+            {showSources && !skipCommune && !showPsalmsWt && (
                 <ButtonGroup>
                     <button
                         onClick={() => {
