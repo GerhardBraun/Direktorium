@@ -2835,204 +2835,6 @@ export const brevierData = {
         }
       }
     },
-    "kirchw": {
-      "each": {
-        "each": {
-          "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
-          "oration_lat": ""
-        },
-        "ErsteV": {
-          "button": "1. Vesper zur Kirchweihe",
-          "hymn_1": 1154.0,
-          "hymn_kl": 0.0,
-          "psalm1": 147.1,
-          "psalm2": 147.2,
-          "psalm3": 153.0,
-          "ant1": "Im Heiligtum des Herrn rufen alle: O°herrlicher Gott!",
-          "ant2": "Der Herr hat die Riegel deiner Tore festgemacht, die Kinder in deiner Mitte gesegnet.^HALLo",
-          "ant3": "Ehre sei dir, o°Gott, durch Christus in deiner Kirche.",
-          "les_buch": "›Eph",
-          "les_stelle": "2,19–22",
-          "les_text": "Ihr seid jetzt nicht mehr Fremde ohne Bürgerrecht, sondern Mitbürger der Heiligen und Gottes Hausgenossen. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist Christus Jesus selbst. Durch ihn wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr im Geist zu einer Wohnung Gottes erbaut.",
-          "les_text_neu": "Ihr seid jetzt nicht mehr Fremde und ohne Bürgerrecht, sondern Mitbürger der Heiligen und Hausgenossen Gottes. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Eckstein ist Christus Jesus selbst. In ihm wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr zu einer Wohnung Gottes im Geist miterbaut. ",
-          "resp1": "Heiligkeit ziemt dem Hause des Herrn für alle Zeiten.",
-          "resp2": "Der Herr ist König, mit Hoheit bekleidet.",
-          "antev": "Freut euch mit Jerusalem und jubelt in Ewigkeit alle, die ihr es liebt.^HALLo",
-          "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
-          "bitten_r": "Wohne in unserer Mitte.",
-          "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Invitatorium": {
-          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt,°wir°beten°ihn°an!^HALLo^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt,°wir°beten°ihn°an!^HALLo",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "hymn_1": 1139.0,
-          "psalm1": 24.0,
-          "psalm2": 84.0,
-          "psalm3": 87.0,
-          "ant1": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^HALLo",
-          "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^HALLo^FIRST",
-          "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^HALLo",
-          "versikel0": "Ich werfe mich nieder in Ehrfurcht vor°deinem heiligen°Tempel.^HALLo",
-          "versikel1": "Ich lobe deinen Namen, denn°du°bist°gütig.^HALLo",
-          "les_buch": "Aus dem ersten Petrusbrief.",
-          "les_stelle": "2,1–17",
-          "les_text": "Legt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auserwählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!",
-          "les_text_neu": "",
-          "resp1": "Deine Mauern sind aus edlem Stein.",
-          "resp2": "Aus Perlen sind Jerusalems Türme erbaut.",
-          "resp3": "Die Tore sind aus Saphir und Smaragd, aus kostbaren Steinen die Mauern rings um die Stadt.",
-          "patr_autor": "Origenes († 253/254)",
-          "patr_werk": "Aus einer Homilie zum Buch Josua. (Hom. 9,1–2)",
-          "patr_text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
-          "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
-          "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o°Herr!^HALLo",
-          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
-        },
-        "Vigil": {
-          "psalm1": 195.3,
-          "psalm2": 181.1,
-          "psalm3": 199.118,
-          "ant0": "Gepriesen bist du, Herr, im Tempel deiner Herrlichkeit, hoch gerühmt und verherrlicht in Ewigkeit.^HALLxq",
-          "les_text": "vigil-Kirchweihe",
-          "les_text_neu": "",
-          "ant0_lat": "Benedíctus es in templo sancto glóriæ tuæ, quod ædificátum est ad laudem et glóriam nóminis tui, Dómine.^ALLxq"
-        },
-        "Laudes": {
-          "button": "Kirchw",
-          "hymn_1": 1150.0,
-          "hymn_kl": 0.0,
-          "ant1": "Mein Haus wird ein Haus des Gebetes sein für alle Völker.^HALLo",
-          "ant2": "Gepriesen bist du, Herr, in deinem heiligen Tempel.^HALLo",
-          "ant3": "Lobt den Herrn in der Gemeinde der Heiligen.^HALLo",
-          "les_buch": "›Jes",
-          "les_stelle": "56,7",
-          "les_text": "Ich bringe sie zu meinem heiligen Berg und erfülle sie in meinem Bethaus mit Freude. Ihre Brandopfer und Schlachtopfer finden Gefallen auf meinem Altar, denn mein Haus wird ein Haus des Gebets für alle Völker genannt.",
-          "les_text_neu": "Ich werde sie zu meinem heiligen Berg bringen und sie erfreuen in meinem Haus des Gebets. Ihre Brandopfer und Schlachtopfer werden Gefallen auf meinem Altar finden, denn mein Haus wird ein Haus des Gebetes für alle Völker genannt werden.",
-          "resp1": "Groß ist der Herr in seiner Stadt,",
-          "resp2": "er°ist°hoch°zu°preisen.",
-          "resp3": "Seht die Stadt unseres Gottes: Gott lässt sie ewig bestehen.",
-          "antev": "Zachäus, steige schnell herab. In deinem Hause muss ich heute bleiben. Da stieg er schnell herab und nahm Jesus voll Freude auf. Heute ist Gottes Heil in dieses Haus gekommen.^HALLo",
-          "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der die zerstreute Herde Gottes in seiner Kirche sammelt. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, gedenke deiner Kirche.",
-          "bitten": "Du hast deine Kirche auf Felsen gebaut;^qstärke unseren Glauben und festige unsere Zuversicht.^pAus deiner Seite strömen Blut und Wasser;^qerneuere deine Gemeinde durch die Sakramente des Neuen Bundes.^pDu bist mitten unter denen, die in deinem Namen versammelt sind;^qerhöre unser einmütiges Gebet.^pMit dem Vater und dem Heiligen Geist nimmst du Wohnung bei denen, die dich lieben;^qgib, dass die Liebe zum dreifaltigen Gott in uns wachse.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "psalm1": 120.0,
-          "psalm2": 121.0,
-          "psalm3": 129.0,
-          "ant0": "Heilig ist das Haus des Herrn; er selber baut und erhält es.^HALLo",
-          "les_buch": "›1°Kor",
-          "les_stelle": "3,16–17",
-          "les_text": "Wisst ihr nicht, dass ihr Gottes Tempel seid und der Geist Gottes in euch wohnt? Wer den Tempel Gottes verdirbt, den wird Gott verderben. Denn Gottes Tempel ist heilig, und der seid ihr.",
-          "les_text_neu": "",
-          "resp0": "Ich liebe, Herr, die Schönheit deines Hauses.^HALLo",
-          "resp1": "Die Wohnung deiner Herrlichkeit.^HALLo",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "psalm1": 123.0,
-          "psalm2": 124.0,
-          "psalm3": 125.0,
-          "ant0": "Deinem Haus, o°Herr, gebührt Heiligkeit für alle Zeiten.^HALLo",
-          "les_buch": "›2°Kor",
-          "les_stelle": "6,16b",
-          "les_text": "Wir sind der Tempel des lebendigen Gottes; denn Gott hat gesprochen: Ich will unter ihnen wohnen und mit ihnen gehen. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
-          "les_text_neu": "",
-          "resp0": "Erbittet für Jerusalem Frieden.^HALLo",
-          "resp1": "Wer dich liebt, sei in dir geborgen.^HALLo",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "psalm1": 126.0,
-          "psalm2": 127.0,
-          "psalm3": 128.0,
-          "ant0": "Das ist das Haus des Herrn: fest gefügt und gegründet auf sicherem Felsen.^HALLo",
-          "les_buch": "›Jer",
-          "les_stelle": "7,2b.4–5a.7a",
-          "les_text": "Hört das Wort des Herrn, ganz Juda, alle, die ihr durch diese Tore kommt, um dem Herrn zu huldigen! Vertraut nicht auf die trügerischen Worte: Der Tempel des Herrn, der Tempel des Herrn, der Tempel des Herrn ist hier. Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, will ich bei euch wohnen hier an diesem Ort.",
-          "les_text_neu": "Hört das Wort des HERRN, ganz Juda, alle, die ihr durch diese Tore kommt, um euch vor dem HERRN niederzuwerfen! Vertraut nicht auf die trügerischen Worte: Der Tempel des HERRN, der Tempel des HERRN, der Tempel des HERRN ist dies! Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, dann will ich bei euch wohnen hier an diesem Ort",
-          "resp0": "Tretet durch seine Tore ein mit Dank.^HALLo",
-          "resp1": "Kommt mit Lobgesang in die Höfe seines Tempels.^HALLo",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "hymn_1": 1154.0,
-          "hymn_kl": 0.0,
-          "psalm1": 46.0,
-          "psalm2": 122.0,
-          "psalm3": 155.0,
-          "ant1": "Geheiligt hat der Herr sein Haus. Gott wohnt in seiner Mitte, darum wankt es nicht.^HALLo",
-          "ant2": "Voll Freude ziehen wir hinauf zum Hause des Herrn.^HALLo",
-          "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
-          "les_buch": "›Offb",
-          "les_stelle": "21,2–3.22.27",
-          "les_text": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
-          "les_text_neu": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
-          "resp1": "Selig, die in deinem Hause wohnen,",
-          "resp2": "sie°loben°dich°in°Ewigkeit.",
-          "resp3": "Sie schauen Gott auf dem Zion.",
-          "antev": "Geheiligt hat der Herr sein Zelt; hier ist Gottes Haus, in dem er angerufen wird, wie geschrieben steht: Dort wird mein Name sein – Spruch des Herrn.^HALLo",
-          "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
-          "bitten_r": "Wohne in unserer Mitte.",
-          "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        }
-      }
-    },
     "Mann": {
       "each": {
         "ErsteV": {
@@ -4485,6 +4287,93 @@ export const brevierData = {
           "antev_lat": "Patefáctæ sunt iánuæ cæli beáto Stéphano, qui in número mártyrum primus est coronátus.",
           "les_text_lat": "Non est æquum nos derelinquéntes verbum Dei ministráre mensis; consideráte vero, fratres, viros ex vobis boni testimónii septem plenos Spíritu et sapiéntia, quos constituémus super hoc opus; nos vero oratióni et ministério verbi instántes érimus. Et plácuit sermo coram omni multitúdine.",
           "oration_lat": "Da nobis, quǽsumus, Dómine, imitári quod cólimus, ut discámus et inimícos dilígere, quia eius natalícia celebrámus, qui novit étiam pro persecutóribus exoráre.^ORlV"
+        }
+      }
+    },
+    "kirchw": {
+      "each": {
+        "each": {
+          "oration_lat": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORlV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORlV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORlV"
+        },
+        "ErsteV": {
+          "hymn_1_lat": 1154.0,
+          "ant1_lat": "Im Heiligtum des Herrn rufen alle: O°herrlicher Gott!",
+          "ant2_lat": "Der Herr hat die Riegel deiner Tore festgemacht, die Kinder in deiner Mitte gesegnet.^Ö",
+          "ant3_lat": "Ehre sei dir, o°Gott, durch Christus in deiner Kirche.",
+          "resp1_lat": "Heiligkeit ziemt dem Hause des Herrn für alle Zeiten.",
+          "resp2_lat": "Der Herr ist König, mit Hoheit bekleidet.",
+          "antev_lat": "Freut euch mit Jerusalem und jubelt in Ewigkeit alle, die ihr es liebt.^Ö",
+          "bitten_e_lat": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
+          "bitten_r_lat": "Wohne in unserer Mitte.",
+          "bitten_lat": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
+          "les_text_lat": "Ihr seid jetzt nicht mehr Fremde ohne Bürgerrecht, sondern Mitbürger der Heiligen und Gottes Hausgenossen. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist Christus Jesus selbst. Durch ihn wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr im Geist zu einer Wohnung Gottes erbaut."
+        },
+        "Invitatorium": {
+          "ant0_lat": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö"
+        },
+        "Lesehore": {
+          "hymn_1_lat": 1139.0,
+          "ant1_lat": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^Ö",
+          "ant2_lat": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^Ö",
+          "ant3_lat": "Herrliches sagt man von dir, du Stadt unseres Gottes.^Ö",
+          "versikel0_lat": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^Ö",
+          "versikel1_lat": "Ich lobe deinen Namen, denn du bist gütig.^Ö",
+          "resp1_lat": "Deine Mauern sind aus edlem Stein.",
+          "resp2_lat": "Aus Perlen sind Jerusalems Türme erbaut.",
+          "resp3_lat": "Die Tore sind aus Saphir und Smaragd, aus kostbaren Steinen die Mauern rings um die Stadt.",
+          "patr_resp1_lat": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
+          "patr_resp2_lat": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o°Herr!^Ö",
+          "patr_resp3_lat": "Mit Jubel kommen sie und bringen ihre Garben ein.",
+          "les_text_lat": "Legt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auserwählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!"
+        },
+        "Vigil": {
+          "ant0_lat": "Benedíctus es in templo sancto glóriæ tuæ, quod ædificátum est ad laudem et glóriam nóminis tui, Dómine.^ALLxq"
+        },
+        "Laudes": {
+          "hymn_1_lat": 1150.0,
+          "ant1_lat": "Mein Haus wird ein Haus des Gebetes sein für alle Völker.^Ö",
+          "ant2_lat": "Gepriesen bist du, Herr, in deinem heiligen Tempel.^Ö",
+          "ant3_lat": "Lobt den Herrn in der Gemeinde der Heiligen.^Ö",
+          "resp1_lat": "Groß ist der Herr in seiner Stadt,",
+          "resp2_lat": "er°ist°hoch°zu°preisen.",
+          "resp3_lat": "Seht die Stadt unseres Gottes: Gott lässt sie ewig bestehen.",
+          "antev_lat": "Zachäus, steige schnell herab. In deinem Hause muss ich heute bleiben. Da stieg er schnell herab und nahm Jesus voll Freude auf. Heute ist Gottes Heil in dieses Haus gekommen.^Ö",
+          "bitten_e_lat": "Gepriesen sei unser Erlöser Jesus Christus, der die zerstreute Herde Gottes in seiner Kirche sammelt. Zu ihm lasst uns beten:",
+          "bitten_r_lat": "Herr, gedenke deiner Kirche.",
+          "bitten_lat": "Du hast deine Kirche auf Felsen gebaut;^qstärke unseren Glauben und festige unsere Zuversicht.^pAus deiner Seite strömen Blut und Wasser;^qerneuere deine Gemeinde durch die Sakramente des Neuen Bundes.^pDu bist mitten unter denen, die in deinem Namen versammelt sind;^qerhöre unser einmütiges Gebet.^pMit dem Vater und dem Heiligen Geist nimmst du Wohnung bei denen, die dich lieben;^qgib, dass die Liebe zum dreifaltigen Gott in uns wachse.",
+          "les_text_lat": "Ich bringe sie zu meinem heiligen Berg und erfülle sie in meinem Bethaus mit Freude. Ihre Brandopfer und Schlachtopfer finden Gefallen auf meinem Altar, denn mein Haus wird ein Haus des Gebets für alle Völker genannt."
+        },
+        "Terz": {
+          "ant0_lat": "Heilig ist das Haus des Herrn; er selber baut und erhält es.^Ö",
+          "resp0_lat": "Ich liebe, Herr, die Schönheit deines Hauses.^Ö",
+          "resp1_lat": "Die Wohnung deiner Herrlichkeit.^Ö",
+          "les_text_lat": "Wisst ihr nicht, dass ihr Gottes Tempel seid und der Geist Gottes in euch wohnt? Wer den Tempel Gottes verdirbt, den wird Gott verderben. Denn Gottes Tempel ist heilig, und der seid ihr."
+        },
+        "Sext": {
+          "ant0_lat": "Deinem Haus, o°Herr, gebührt Heiligkeit für alle Zeiten.^Ö",
+          "resp0_lat": "Erbittet für Jerusalem Frieden.^Ö",
+          "resp1_lat": "Wer dich liebt, sei in dir geborgen.^Ö",
+          "les_text_lat": "Wir sind der Tempel des lebendigen Gottes; denn Gott hat gesprochen: Ich will unter ihnen wohnen und mit ihnen gehen. Ich werde ihr Gott sein, und sie werden mein Volk sein."
+        },
+        "Non": {
+          "ant0_lat": "Das ist das Haus des Herrn: fest gefügt und gegründet auf sicherem Felsen.^Ö",
+          "resp0_lat": "Tretet durch seine Tore ein mit Dank.^Ö",
+          "resp1_lat": "Kommt mit Lobgesang in die Höfe seines Tempels.^Ö",
+          "les_text_lat": "Hört das Wort des Herrn, ganz Juda, alle, die ihr durch diese Tore kommt, um dem Herrn zu huldigen! Vertraut nicht auf die trügerischen Worte: Der Tempel des Herrn, der Tempel des Herrn, der Tempel des Herrn ist hier. Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, will ich bei euch wohnen hier an diesem Ort."
+        },
+        "Vesper": {
+          "hymn_1_lat": 1154.0,
+          "ant1_lat": "Geheiligt hat der Herr sein Haus. Gott wohnt in seiner Mitte, darum wankt es nicht.^Ö",
+          "ant2_lat": "Voll Freude ziehen wir hinauf zum Hause des Herrn.^Ö",
+          "ant3_lat": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
+          "resp1_lat": "Selig, die in deinem Hause wohnen,",
+          "resp2_lat": "sie°loben°dich°in°Ewigkeit.",
+          "resp3_lat": "Sie schauen Gott auf dem Zion.",
+          "antev_lat": "Geheiligt hat der Herr sein Zelt; hier ist Gottes Haus, in dem er angerufen wird, wie geschrieben steht: Dort wird mein Name sein – Spruch des Herrn.^Ö",
+          "bitten_e_lat": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
+          "bitten_r_lat": "Wohne in unserer Mitte.",
+          "bitten_lat": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
+          "les_text_lat": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen."
         }
       }
     }

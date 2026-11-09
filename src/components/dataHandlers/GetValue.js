@@ -253,6 +253,14 @@ export const getValue = ({
             (prefTexts?.[`ant0${isForeignLanguage}`] || prefCommTexts?.[`ant0${isForeignLanguage}`])
         ) return null
 
+        // Lesungs-Alternativen (les_selector/patr_selector) gehören zu der Ebene, die den
+        // Lesungstext liefert: Hat die Eigenfeier eine eigene Lesung (z.B. patr_text am
+        // Weihetag der Lateranbasilika), aber kein eigenes Selector-Array, dann darf das
+        // Array weder aus dem Commune noch vom Wochentag kommen.
+        const selectorMatch = field.match(/^(les|patr)_selector$/)
+        if (selectorMatch && prefTexts?.[`${selectorMatch[1]}_text`] && !prefTexts?.[field])
+            return null
+
         // 1. Prüfe zuerst prefSource
         // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
         if (result(prefTexts) || result(prefCommTexts))

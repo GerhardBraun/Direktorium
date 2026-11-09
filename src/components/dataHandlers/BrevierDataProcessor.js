@@ -519,6 +519,10 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
     }
 }
 
+// Paare aus Selector-Array und zugehörigem Textfeld (das auch Lookup-Schlüssel für
+// LectureAlternatives.ts sein kann), siehe processCommune
+const SELECTOR_TEXT_PAIRS = [['les_selector', 'les_text'], ['patr_selector', 'patr_text']];
+
 function processCommune(hours, season, targetSource) {
     ['1', '2'].forEach(commNumber => {
         const commField = `comm_${commNumber}`;
@@ -549,10 +553,17 @@ function processCommune(hours, season, targetSource) {
                         ? sollemnitiesData?.[layerComm.toLowerCase()]?.[layerSeason?.toLowerCase()]?.[readingHour?.toLowerCase()]
                         : brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
                     if (communeData) {
-                        Object.assign(
-                            mergeToParent ? hours[hour][targetSource] : hours[hour][targetSource][targetKey],
-                            communeData
-                        );
+                        const target = mergeToParent ? hours[hour][targetSource] : hours[hour][targetSource][targetKey];
+                        // Lesungs-Alternativen: Die spätere (spezifischere) Ebene gewinnt.
+                        // Bringt sie ein fertiges Selector-Array mit (z.B. sollemnitiesData.kirchw.each.vigil),
+                        // muss ein Lookup-Schlüssel einer früheren Ebene (z.B. les_text "vigil-Heilige"
+                        // aus com.each.each) entfernt werden, sonst ersetzt resolveLectureSelectorsForSource
+                        // das Array später durch die Alternativen dieses Schlüssels – und umgekehrt.
+                        SELECTOR_TEXT_PAIRS.forEach(([selectorKey, textKey]) => {
+                            if (communeData[selectorKey]) delete target[textKey];
+                            else if (communeData[textKey]) delete target[selectorKey];
+                        });
+                        Object.assign(target, communeData);
                     }
                 }
 

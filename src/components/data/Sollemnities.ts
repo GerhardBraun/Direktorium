@@ -157,7 +157,7 @@ export const sollemnitiesData = {
                 "patr_selector": [
                     {
                         "autor": "Origenes († 253/254)",
-                        "werk": "Aus einer Homilie zum Buch Josua. (Hom.°9^v,1–2^0v)",
+                        "werk": "Aus einer Homilie zum Buch Josua.",
                         "text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
                         "resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
                         "resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^HALLo",
@@ -165,7 +165,7 @@ export const sollemnitiesData = {
                     },
                     {
                         "autor": "Augustinus († 430)",
-                        "werk": "Aus einer Predigt zur Weihe einer Kirche. (Sermo°336^v,1.6^0v)",
+                        "werk": "Aus einer Predigt zur Weihe einer Kirche.",
                         "text": "^hDer°Aufbau°und°die°Weihe des°Hauses°Gottes°in°uns^pWir sind hier versammelt, um ein Haus des Gebets feierlich zu weihen. Dies hier ist also ein Haus für unser Beten; Haus Gottes dagegen sind wir selbst. Wenn wir selbst Haus Gottes sind, werden wir in dieser Welt aufgebaut, um am Ende der Zeiten geweiht zu werden. Das Bauwerk, vor allem das Bauen, bringt Mühsal, die Weihe Jubel.^pWas hier geschah, als diese Mauern erstanden, ereignet sich nun, da die Christusgläubigen sich versammeln. Im Glauben werden sozusagen in den Wäldern die Hölzer gefällt und in den Bergen die Steine gebrochen. Werden aber die Glaubenden unterrichtet, getauft und herangebildet, ist es, als würden sie von den Händen der Zimmerleute und Steinmetzen behauen, gerichtet und geglättet.^pAber sie werden nicht zum Haus des Herrn, wenn sie nicht durch die Liebe verbunden werden. Wenn diese Hölzer und Steine nicht nach einem bestimmten Bauplan miteinander zusammenhingen, wenn sie nicht friedlich ineinandergefügt wären, wenn sie einander nicht gewissermaßen lieb hätten, niemand würde hier eintreten. Wenn du jedoch siehst, dass in einem Gebäude Hölzer und Steine gut miteinander zusammenhängen, trittst du unbesorgt ein und fürchtest keinen Einsturz.^pAls darum Christus der Herr eintreten und in uns wohnen wollte, sagte er gewissermaßen als Baumeister: „Ein neues Gebot gebe ich euch: Liebet einander“ {1#Joh 13, 34}. Ich gebe euch ein Gebot, sagt er: Ihr wart alt, bautet mir noch kein Haus, lagt in Trümmern. Nun liebt einander, damit ihr aus eurer alten Trümmerstätte herauskommt.^pDenkt also daran, meine Lieben, dass dieses Haus auf der ganzen Erde gebaut wird; so ist es vorausgesagt und versprochen. Denn als der Tempel nach der Gefangenschaft erbaut wurde, hieß es, wie in einem andern Psalm steht: „Singt dem Herrn ein neues Lied, singt dem Herrn, alle Lande“ {2#Ps 96, 1}.^pWas dort hieß „neues Lied“, hieß beim Herrn „neues Gebot“. Denn was soll „neues Lied“, wenn nicht „neue Liebe“?! Wer liebt, muss singen. Dieses Sängers Stimme ist das Feuer heiliger Liebe.^pWas wir in diesen Wänden leiblich vollbracht sehen, geschehe geistig in den Herzen, und was wir hier vollendet sehen in Stein und Holz, möge, erbaut von Gottes Gnade, in eurem Leib vollendet werden.^pIn erster Linie wollen wir also dem Herrn, unserem Gott, danken, von dem jede gute Gabe und jedes vollkommene Geschenk kommt {3#Jak 1, 17}. Seine Güte wollen wir mit der ganzen Freudigkeit des Herzens loben, weil er für den Bau dieses Hauses des Gebets den Geist seiner Gläubigen besucht, ihr Herz angespornt, ihre Mühen hilfreich mitgetragen hat.^pAls sie noch nicht wollten, hat er sie zum Wollen erweckt. Die Regungen ihres guten Wollens hat er unterstützt zum Vollbringen. So hat Gott, der in den Seinen „das Wollen und das Vollbringen nach seinem Wohlgefallen wirkt“ {4#Phil 2,13 Vg}, dies alles selbst begonnen und selbst vollendet {5#vgl. Phil 1,6}.",
                         "resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!",
                         "resp2": "Meine Seele verlangt und sehnt sich nach den Vorhöfen des Herrn.^Ö",
@@ -583,20 +583,20 @@ export const sollemnitiesData = {
                         "stelle": "15,55–57",
                         "text": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch Jesus Christus, unseren Herrn.",
                         "text_lat": "„Ubi est, mors, victória tua? Ubi est, mors, stímulus tuus?“. Stímulus autem mortis peccátum est, virtus vero peccáti lex. Deo autem grátias, qui dedit nobis victóriam per Dóminum nostrum Iesum Christum.",
-                        "resp1": "Herr, auf dich vertraue ich,",
-                        "resp2": "ich werde in Ewigkeit nicht zuschanden.",
-                        "resp3": "Ich will jubeln über dein Erbarmen, über deine Huld mich freuen.",
-                        "resp1_lat": "In te, Dómine, sperávi:",
-                        "resp2_lat": "Non°confúndar°in°ætérnum.",
-                        "resp3_lat": "Exsultábo et lætábor in misericórdia tua."
-                    },
-                    {
                         "resp1": "Herr, in deinem Erbarmen",
                         "resp2": "gib°ihnen°ewige°Ruhe.",
                         "resp3": "Du wirst kommen in Herrlichkeit, zu richten die Lebenden und die Toten.",
                         "resp1_lat": "In misericórdia tua, Dómine,",
                         "resp2_lat": "dona°eis°réquiem.",
                         "resp3_lat": "Qui ventúrus es iudicáre vivos et mórtuos,"
+                    },
+                    {
+                        "resp1": "Herr, auf dich vertraue ich,",
+                        "resp2": "ich werde in Ewigkeit nicht zuschanden.",
+                        "resp3": "Ich will jubeln über dein Erbarmen, über deine Huld mich freuen.",
+                        "resp1_lat": "In te, Dómine, sperávi:",
+                        "resp2_lat": "Non°confúndar°in°ætérnum.",
+                        "resp3_lat": "Exsultábo et lætábor in misericórdia tua."
                     }
                 ],
                 "antev": "Alles, was der Vater mir gibt, wird zu mir kommen, und wer zu mir kommt, den weise ich nicht zurück.",

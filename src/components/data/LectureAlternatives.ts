@@ -448,7 +448,7 @@ export const lectureAlternatives = {
     "patr_selector": [
       {
         "autor": "Origenes († 253/254)",
-        "werk": "Aus einer Homilie zum Buch Josua. (Hom.°9^v,1–2^0v)",
+        "werk": "Aus einer Homilie zum Buch Josua.",
         "text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
         "resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
         "resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^HALLo",
@@ -456,7 +456,7 @@ export const lectureAlternatives = {
       },
       {
         "autor": "Augustinus († 430)",
-        "werk": "Aus einer Predigt zur Weihe einer Kirche. (Sermo°336^v,1.6^0v)",
+        "werk": "Aus einer Predigt zur Weihe einer Kirche.",
         "text": "^hDer°Aufbau°und°die°Weihe des°Hauses°Gottes°in°uns^pWir sind hier versammelt, um ein Haus des Gebets feierlich zu weihen. Dies hier ist also ein Haus für unser Beten; Haus Gottes dagegen sind wir selbst. Wenn wir selbst Haus Gottes sind, werden wir in dieser Welt aufgebaut, um am Ende der Zeiten geweiht zu werden. Das Bauwerk, vor allem das Bauen, bringt Mühsal, die Weihe Jubel.^pWas hier geschah, als diese Mauern erstanden, ereignet sich nun, da die Christusgläubigen sich versammeln. Im Glauben werden sozusagen in den Wäldern die Hölzer gefällt und in den Bergen die Steine gebrochen. Werden aber die Glaubenden unterrichtet, getauft und herangebildet, ist es, als würden sie von den Händen der Zimmerleute und Steinmetzen behauen, gerichtet und geglättet.^pAber sie werden nicht zum Haus des Herrn, wenn sie nicht durch die Liebe verbunden werden. Wenn diese Hölzer und Steine nicht nach einem bestimmten Bauplan miteinander zusammenhingen, wenn sie nicht friedlich ineinandergefügt wären, wenn sie einander nicht gewissermaßen lieb hätten, niemand würde hier eintreten. Wenn du jedoch siehst, dass in einem Gebäude Hölzer und Steine gut miteinander zusammenhängen, trittst du unbesorgt ein und fürchtest keinen Einsturz.^pAls darum Christus der Herr eintreten und in uns wohnen wollte, sagte er gewissermaßen als Baumeister: „Ein neues Gebot gebe ich euch: Liebet einander“ {1#Joh 13, 34}. Ich gebe euch ein Gebot, sagt er: Ihr wart alt, bautet mir noch kein Haus, lagt in Trümmern. Nun liebt einander, damit ihr aus eurer alten Trümmerstätte herauskommt.^pDenkt also daran, meine Lieben, dass dieses Haus auf der ganzen Erde gebaut wird; so ist es vorausgesagt und versprochen. Denn als der Tempel nach der Gefangenschaft erbaut wurde, hieß es, wie in einem andern Psalm steht: „Singt dem Herrn ein neues Lied, singt dem Herrn, alle Lande“ {2#Ps 96, 1}.^pWas dort hieß „neues Lied“, hieß beim Herrn „neues Gebot“. Denn was soll „neues Lied“, wenn nicht „neue Liebe“?! Wer liebt, muss singen. Dieses Sängers Stimme ist das Feuer heiliger Liebe.^pWas wir in diesen Wänden leiblich vollbracht sehen, geschehe geistig in den Herzen, und was wir hier vollendet sehen in Stein und Holz, möge, erbaut von Gottes Gnade, in eurem Leib vollendet werden.^pIn erster Linie wollen wir also dem Herrn, unserem Gott, danken, von dem jede gute Gabe und jedes vollkommene Geschenk kommt {3#Jak 1, 17}. Seine Güte wollen wir mit der ganzen Freudigkeit des Herzens loben, weil er für den Bau dieses Hauses des Gebets den Geist seiner Gläubigen besucht, ihr Herz angespornt, ihre Mühen hilfreich mitgetragen hat.^pAls sie noch nicht wollten, hat er sie zum Wollen erweckt. Die Regungen ihres guten Wollens hat er unterstützt zum Vollbringen. So hat Gott, der in den Seinen „das Wollen und das Vollbringen nach seinem Wohlgefallen wirkt“ {4#Phil 2,13 Vg}, dies alles selbst begonnen und selbst vollendet {5#vgl. Phil 1,6}.",
         "resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!",
         "resp2": "Meine Seele verlangt und sehnt sich nach den Vorhöfen des Herrn.^Ö",
@@ -728,7 +728,7 @@ export const lectureAlternatives = {
         "resp3": "Die Königin steht dir zur Rechten im golddurchwirkten Gewand."
       },
       {
-        "bezug": "(vom Gedenktag Mariae Namen)",
+        "bezug": "(vom Gedenktag Mariae°Namen)",
         "autor": "Bernhard von Clairvaux († 1153)",
         "werk": "Aus einer Rede über Mariä Namen.",
         "text": "^hUnd°der°Name°der°Jungfrau°war°Maria: Stern°des°Meeres^p„Der Name der Jungfrau“, sagt der Evangelist, „war Maria“{1#Lk 1,27}. Wir wollen ein wenig über diesen Namen sprechen. Er heißt übersetzt: Stern des Meeres und eignet sich sehr wohl für die Jungfrau-Mutter. Sehr zutreffend nämlich ist sie einem Stern vergleichbar.^pWie der Stern ohne Einbuße seiner selbst seinen Strahl aussendet, so hat sie als Jungfrau den Sohn geboren, ohne dass ihre Jungfräulichkeit gemindert wurde. Der Strahl mindert nicht des Sternes Helligkeit, so auch nicht der Sohn die Unversehrtheit der Jungfrau.^pSie ist jener hehre Stern, aufgegangen aus Jakob, dessen Strahl die ganze Welt erleuchtet, dessen Glanz die Himmel überstrahlt, die Tiefen durchdringt und alle Lande erhellt. Er erwärmt mehr den Geist als den Körper, lässt die Tugenden reifen und verbrennt die Laster. Sie ist, sage ich, jener herrliche, auserlesene Stern, unendlich erhoben über das weite Meer, strahlend durch Verdienste, leuchtend als Vorbild.^pWenn du erfährst, dass dieses Erdenleben mehr ein Dahintreiben in Wellen, Wind und Wetter ist als ein Dahinschreiten auf festem Land: Wende deine Augen nicht ab vom Licht dieses Sternes, damit du nicht untergehst in den Stürmen.^lWenn die Sturmwinde der Versuchungen daherbrausen, wenn du zwischen die Klippen der Drangsale verschlagen wirst, blick auf zum Stern, ruf zu Maria!^lWenn dich emporschleudern Wogen des Stolzes, des Ehrgeizes, der Verleumdung, der Eifersucht – blick auf zum Stern, ruf zu Maria!^lWenn Zorn, Habsucht oder die Begierde des Eleisches deine Seele erschüttern – blick auf zu Maria!^lWenn dich die Last der Sünden drückt und die Schmach des Gewissens beschämt, wenn dich die Strenge des Gerichtes schreckt, wenn du drohst von abgrundtiefer Traurigkeit und Verzweiflung verschlungen zu werden – denk an Maria!^pIn Gefahren, in Ängsten, in Zweifeln – denk an Maria, ruf zu Maria! Ihr Name weiche nicht aus deinem Munde, weiche nicht aus deinem Herzen!^pDamit du aber ihre Hilfe und Fürbitte erlangest, vergiss nicht das Vorbild ihres Wandels!^lFolge ihr, und du wirst nicht vom Wege weichen.^lBitte sie, und niemals bist du hoffnungslos.^lDenk an sie, dann irrst du nicht.^lHält sie dich fest, wirst du nicht fallen.^lSchützt sie dich, dann fürchte nichts.^lFührt sie dich, wirst du nicht müde.^pIst sie dir gnädig, dann kommst du ans Ziel und wirst selbst erfahren, wie richtig es heißt: Und der Name der Jungfrau war Maria – Stern des Meeres.",
@@ -749,7 +749,7 @@ export const lectureAlternatives = {
         "bezug": "(vom Gedenktag U.L.Fr.°von°Jerusalem)",
         "autor": "Augustinus († 430)",
         "werk": "Aus einer Predigt über Maria als°Vorbild°christlichen°Glaubens.",
-        "text": "^hIm°Glauben°vertraute°sie, im°Glauben°empfing°sie^pAchtet darauf, was Christus der Herr gesagt hat: „Er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50}^pHandelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie, die im Glauben vertraute und im Glauben empfing; sie, die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie, die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde?^pJa, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28}^pAuch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte.^pChristus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria ein Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch ein Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied. Der Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
+        "text": "^hIm°Glauben°vertraute°sie, im°Glauben°empfing°sie^pAchtet darauf, was Christus der Herr gesagt hat: „Er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50}^pHandelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie,°die im Glauben vertraute und im Glauben empfing; sie,°die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie,°die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde?^pJa, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28}^pAuch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte.^pChristus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria EIN Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch EIN Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied.^pDer Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
         "resp1": "Der Herr hat mich bekleidet mit dem Gewand des Heiles, das Kleid der Freude hat er mir angelegt.",
         "resp2": "Er hat mich mit einer Krone geschmückt wie eine Braut.",
         "resp3": "Mit einem Gewand, aus Gold gewoben, hat der Herr mich bekleidet, mit unschätzbarem Geschmeide hat er mich geziert."
@@ -1376,9 +1376,6 @@ export const lectureAlternatives = {
         "text": "Mt 18,1-5"
       },
       {
-        "text": "Mt 19,3-12"
-      },
-      {
         "text": "Mt 19,27-29"
       },
       {
@@ -1391,34 +1388,16 @@ export const lectureAlternatives = {
         "text": "Mt 25,14-30"
       },
       {
-        "text": "Mt 25,31-46"
-      },
-      {
         "text": "Mk 3,31-35"
-      },
-      {
-        "text": "Mk 10,13-16"
-      },
-      {
-        "text": "Mk 10,17-30"
       },
       {
         "text": "Lk 6,27-38"
       },
       {
-        "text": "Lk 9,57-62"
-      },
-      {
         "text": "Lk 10,38-42"
       },
       {
-        "text": "Lk 12,32-34"
-      },
-      {
         "text": "Lk 12,35-40"
-      },
-      {
-        "text": "Lk 14,25-33"
       },
       {
         "text": "Joh 15,1-8"
@@ -1428,6 +1407,39 @@ export const lectureAlternatives = {
       },
       {
         "text": "Joh 17,20-26"
+      },
+      {
+        "group": "Für Ordensleute …"
+      },
+      {
+        "text": "Mt 19,3-12"
+      },
+      {
+        "text": "Mk 10,17-30"
+      },
+      {
+        "text": "Lk 9,57-62"
+      },
+      {
+        "text": "Lk 12,32-34"
+      },
+      {
+        "text": "Lk 14,25-33"
+      },
+      {
+        "group": "Für Heilige der Nächstenliebe …"
+      },
+      {
+        "text": "Mt 25,31-46"
+      },
+      {
+        "group": "Für Erzieher …"
+      },
+      {
+        "text": "Mk 9,34-37"
+      },
+      {
+        "text": "Mk 10,13-16"
       }
     ]
   },
@@ -1472,26 +1484,10 @@ export const lectureAlternatives = {
         "text": "Mt 9,35-38"
       },
       {
-        "bezug": "[Für einen Papst]",
-        "text": "Mt 16,13-19"
-      },
-      {
         "text": "Mt 23,8-12"
       },
       {
-        "bezug": "[Für Glaubensboten]",
-        "text": "Mt 28,16-20"
-      },
-      {
         "text": "Mk 1,14-20"
-      },
-      {
-        "bezug": "[Für Glaubensboten]",
-        "text": "Mk 16,15-20"
-      },
-      {
-        "bezug": "[Für Glaubensboten]",
-        "text": "Lk 5,1-11"
       },
       {
         "text": "Lk 10,1-9"
@@ -1506,8 +1502,25 @@ export const lectureAlternatives = {
         "text": "Joh 15,9-17"
       },
       {
-        "bezug": "[Für einen Papst]",
+        "group": "Für einen Papst …"
+      },
+      {
+        "text": "Mt 16,13-19"
+      },
+      {
         "text": "Joh 21,1.15-17"
+      },
+      {
+        "group": "Für Glaubensboten …"
+      },
+      {
+        "text": "Mt 28,16-20"
+      },
+      {
+        "text": "Mk 16,15-20"
+      },
+      {
+        "text": "Lk 5,1-11"
       }
     ]
   },
