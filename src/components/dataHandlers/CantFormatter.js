@@ -344,12 +344,13 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     const tone = new Array(slots.length).fill(0);
 
     if (b === 2) {
-        const preBars = sglBarIdxs.filter(idx => idx < dblBarIdx);
-        if (preBars.length >= 2) {
-            preBars.sort((a, b) => a - b);
-            assignTonesThreeStressed(tone, preBars[0], preBars[1], dblBarIdx);
+        // Bei b=2 spielt die Unterscheidung | / || keine Rolle: alle Betonungsmarker
+        // werden nur nach ihrer Reihenfolge im Halbvers ausgewertet.
+        const stressIdxs = [...sglBarIdxs, dblBarIdx].sort((a, b) => a - b);
+        if (stressIdxs.length >= 3) {
+            assignTonesThreeStressed(tone, stressIdxs[0], stressIdxs[1], stressIdxs[2]);
         } else {
-            assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
+            assignTonesB2(tone, slots, stressIdxs[0], stressIdxs[stressIdxs.length - 1]);
         }
     } else {
         if (isSingleTone) {
@@ -451,29 +452,18 @@ const assignTonesB1Sonderfall1 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdx
 };
 
 // Hilfsfunktion: Tonzuweisung für b=2 (weiblicher/männlicher Versschluss)
-const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
-    const postBars = sglBarIdxs.filter(idx => idx > dblBarIdx);
-    const firstStressed = cadStartIdx;
-    const secondStressed = postBars.length > 0 ? postBars[0] : dblBarIdx;
-
+// firstStressed/secondStressed: erster und zweiter Betonungsmarker (| oder ||, gleichwertig).
+const assignTonesB2 = (tone, slots, firstStressed, secondStressed) => {
     const isMasculine = !slots.slice(secondStressed + 1).some(s => s.text.trim().length > 0);
 
     tone[firstStressed] = 4; // Kadenzanfang: Unterstreichung
 
     if (!isMasculine) {
-        // Weiblicher Versschluss
-        if (firstStressed < dblBarIdx) {
-            // Normalfall: | vor ||
-            for (let i = firstStressed + 1; i < dblBarIdx; i++) tone[i] = 3;
-            tone[dblBarIdx] = 2;
-            if (postBars.length > 0) tone[postBars[0]] = 2;
-            const afterSecond = postBars.length > 0 ? postBars[0] : dblBarIdx;
-            for (let i = afterSecond + 1; i < slots.length; i++) tone[i] = 1;
-        } else if (postBars.length > 0) {
-            // || vor |: Kadenzanfang (||) bleibt T4, Zwischensilben → T3, | → T2, Koda → T1
-            for (let i = dblBarIdx + 1; i < postBars[0]; i++) tone[i] = 3;
-            tone[postBars[0]] = 2;
-            for (let i = postBars[0] + 1; i < slots.length; i++) tone[i] = 1;
+        // Weiblicher Versschluss: Zwischensilben → T3, zweite Betonung → T2, Koda → T1
+        if (secondStressed > firstStressed) {
+            for (let i = firstStressed + 1; i < secondStressed; i++) tone[i] = 3;
+            tone[secondStressed] = 2;
+            for (let i = secondStressed + 1; i < slots.length; i++) tone[i] = 1;
         }
     } else {
         // Männlicher Versschluss mit genau zwei |/||-Markern:
@@ -490,14 +480,14 @@ const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
     }
 };
 
-// Hilfsfunktion: Sonderfall drei betonte Silben (b=2, zwei | + ein ||)
-const assignTonesThreeStressed = (tone, bar1, bar2, dblBarIdx) => {
+// Hilfsfunktion: Sonderfall drei betonte Silben (b=2, drei Marker | / || in beliebiger Kombination)
+const assignTonesThreeStressed = (tone, bar1, bar2, bar3) => {
     tone[bar1] = 4; // erste betonte Silbe: Unterstreichung
     for (let i = bar1 + 1; i < bar2; i++) tone[i] = 3; // zwischen bar1 und bar2: Ton 3
     tone[bar2] = 2; // zweite betonte Silbe
-    // alle Folgesilben nach bar2 (vor ||) → Ton 2 (gleiche Gruppe wie zweiter |-Marker)
-    for (let i = bar2 + 1; i < dblBarIdx; i++) tone[i] = 2;
-    tone[dblBarIdx] = 1; // || → letzter Ton
+    // alle Folgesilben nach bar2 (vor bar3) → Ton 2 (gleiche Gruppe wie zweiter Marker)
+    for (let i = bar2 + 1; i < bar3; i++) tone[i] = 2;
+    tone[bar3] = 1; // dritte betonte Silbe → letzter Ton
 };
 
 // Baut den getaggten Text aus Slots und Ton-Zuweisung zusammen.
