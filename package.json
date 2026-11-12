@@ -24,6 +24,7 @@
   },
   "scripts": {
     "convert": "ts-node direktorium-converter.js",
+    "check:cant": "node scripts/checkCantMarkers.cjs",
     "convert:dev": "ts-node direktorium-converter.js dev",
     "convert:2026": "ts-node direktorium-converter.js 2026",
     "dli": "python C:/AppProjekte/excel-liturgical-converter/dli-converter.py",
