@@ -5,6 +5,8 @@
 //   node scripts/checkCantMarkers.cjs              alle Sprachfassungen
 //   node scripts/checkCantMarkers.cjs lat          nur eine Sprachfassung (dt, lat, neu, ben, …)
 //   npm run check:cant                             dasselbe wie der erste Aufruf
+// Der vollständige Bericht wird nach doc/cant-report.txt (bzw. doc/cant-report-<sprache>.txt)
+// geschrieben; im Terminal erscheint nur eine Kurzfassung.
 //
 // Geprüfte Quellen:
 //   - PsHymn.ts: jedes Feld eines Psalm-Abschnitts, das || enthält (text, text_lat, text_neu, …)
@@ -19,6 +21,9 @@
 //     Ermessensfall bei ≥ 2 Silben dazwischen; sonst Fehler.
 //   - Ab dem ersten Pipe-Marker sind alle Silbengrenzen markiert (Leerzeichen, °, ~, |, 0, 1–4).
 //     Die Silbenzählung ist eine Heuristik über Vokalgruppen (Diphthonge je Sprache).
+//   - Hinweise zur Prüfung: zwischen 1. und 2. Pipe-Silbe mehr als 2 (weiblich) bzw. 3 (männlich)
+//     Silben; mehr als eine Silbe zwischen || und einem folgenden |; Tilde zwischen 1. und 2.
+//     Pipe-Silbe oder nach der ||-Silbe.
 //   - Flexa (^+): kein ||, höchstens ein |, keine Countdown-Marker.
 //   - $ = Notation weicht vom Antiphonale zum Stundengebet ab → Hinweis.
 const fs = require('fs');
@@ -26,6 +31,11 @@ const path = require('path');
 const vm = require('vm');
 
 const BASE = path.join(__dirname, '..', 'src', 'components');
+const REPORT_DIR = path.join(__dirname, '..', 'doc');
+
+// Berichtszeilen sammeln; am Ende in doc/cant-report[-<sprache>].txt schreiben
+const lines = [];
+const out = (s = '') => lines.push(s);
 const langFilter = process.argv[2] || null;
 
 // ---- Quellen einsammeln ----
@@ -48,7 +58,7 @@ const fieldLang = (f) => (f.match(/^text_(.+)$/)?.[1]) ?? 'dt';
       sources.push({ loc: `PsHymn ${num}/${sec} ${f} [${mode}]`, text: v, lang });
     }
   }
-  console.log('PsHymn: annotierte Felder', fieldsSeen);
+  out('PsHymn: annotierte Felder ' + JSON.stringify(fieldsSeen));
 }
 {
   const src = fs.readFileSync(path.join(BASE, 'utils', 'ordinarium.js'), 'utf8');
@@ -174,7 +184,31 @@ for (const { loc, text, lang } of sources) {
     for (let q = firstStress; q < u.length; q++) {
       const nuc = nuclei(u[q].text, lang);
       if (nuc > 1) add(errors, 'Silbengrenze nach erstem Pipe-Marker nicht markiert', `${where}   [„${u[q].text}“ = ${nuc} Silben?]`);
+      if (nuc === 0) add(errors, 'Silbe ohne Vokal (Marker falsch gesetzt?)', `${where}   [„${u[q].text}“]`);
     }
+
+    // --- Abstände der Betonungen und Tilden (Hinweise zur Prüfung) ---
+    const stressIdxs = [...sgl, d].sort((a, b) => a - b);
+    const tildeIdxs = u.map((x, j) => x.markers.includes('~') ? j : -1).filter(j => j >= 0);
+    if (stressIdxs.length >= 2) {
+      const [s1, s2] = stressIdxs;
+      const between = s2 - s1 - 1;
+      if (!lastStressed && between === 3)
+        add(infos, 'Zur Prüfung: drei Silben zwischen 1. und 2. Pipe-Silbe (weiblich)', where);
+      if (!lastStressed && between > 3)
+        add(infos, 'Zur Prüfung: mehr als drei Silben zwischen 1. und 2. Pipe-Silbe (weiblich)', `${where}   [${between} Silben]`);
+      if (lastStressed && between === 4)
+        add(infos, 'Zur Prüfung: vier Silben zwischen 1. und 2. Pipe-Silbe (männlich)', where);
+      if (lastStressed && between > 4)
+        add(infos, 'Zur Prüfung: mehr als vier Silben zwischen 1. und 2. Pipe-Silbe (männlich)', `${where}   [${between} Silben]`);
+      if (tildeIdxs.some(j => j > s1 && j <= s2))
+        add(infos, 'Zur Prüfung: Tilde zwischen 1. und 2. Pipe-Silbe', where);
+    }
+    const postBar = sgl.find(x => x > d);
+    if (postBar !== undefined && postBar - d - 1 > 1)
+      add(infos, 'Zur Prüfung: mehr als eine Silbe zwischen ||-Silbe und folgender |-Silbe', `${where}   [${postBar - d - 1} Silben]`);
+    if (tildeIdxs.some(j => j > d))
+      add(infos, 'Zur Prüfung: Tilde nach der ||-Silbe', where);
 
     // --- Countdown-Regeln ---
     const masc = d === last; // || auf der Schlusssilbe
@@ -215,15 +249,25 @@ for (const { loc, text, lang } of sources) {
 
 // ---- Ausgabe ----
 const dump = (title, bag) => {
-  console.log(`\n===== ${title} =====`);
+  out(`\n===== ${title} =====`);
   const cats = Object.keys(bag);
-  if (!cats.length) console.log('(keine)');
+  if (!cats.length) out('(keine)');
   for (const c of cats) {
-    console.log(`\n--- ${c} (${bag[c].length}) ---`);
-    for (const m of bag[c]) console.log('  ' + m);
+    out(`\n--- ${c} (${bag[c].length}) ---`);
+    for (const m of bag[c]) out('  ' + m);
   }
 };
-console.log(`Sprachfassung: ${langFilter ?? 'alle'} – Texte: ${textCount}, Halbverse: ${hvCount}`);
+out(`Prüfung vom ${new Date().toLocaleString('de-DE')}`);
+out(`Sprachfassung: ${langFilter ?? 'alle'} – Texte: ${textCount}, Halbverse: ${hvCount}`);
 dump('FEHLER', errors);
 dump('HINWEISE', infos);
+const reportFile = path.join(REPORT_DIR, langFilter ? `cant-report-${langFilter}.txt` : 'cant-report.txt');
+fs.writeFileSync(reportFile, lines.join('\n') + '\n', 'utf8');
+
+// Kurzfassung im Terminal
+const count = (bag) => Object.values(bag).reduce((n, a) => n + a.length, 0);
+console.log(`Sprachfassung: ${langFilter ?? 'alle'} – Texte: ${textCount}, Halbverse: ${hvCount}`);
+console.log(`Fehler: ${count(errors)}, Hinweise: ${count(infos)}`);
+for (const [c, a] of Object.entries(errors)) console.log(`  ${c}: ${a.length}`);
+console.log(`Bericht: ${reportFile}`);
 process.exitCode = Object.keys(errors).length ? 1 : 0;

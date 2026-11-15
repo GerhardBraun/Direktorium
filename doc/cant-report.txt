@@ -1,0 +1,425 @@
+PsHymn: annotierte Felder {"text":343}
+Prüfung vom 15.11.2026, 05:34:54
+Sprachfassung: alle – Texte: 351, Halbverse: 7516
+
+===== FEHLER =====
+
+--- Silbe ohne Vokal (Marker falsch gesetzt?) (8) ---
+  PsHymn 38/0 text [Ia] HV21 MK: Freunde und Gefährten bleiben mir fern in°2|mei1nem°||Un0g0lück,   [„g“]
+  PsHymn 38/2 text [IIm] HV13 MK: Freunde und Gefährten bleiben mir fern in°2|mei1nem°||Un0g0lück,   [„g“]
+  PsHymn 55/1 text [IV] HV15 MK: Weit fort |möch2te 1ich ||f0lie0hen,   [„f“]
+  PsHymn 55/3 text [IV] HV15 MK: Weit fort |möch2te 1ich ||f0lie0hen,   [„f“]
+  PsHymn 108/0 text [VII] HV5 MK: Wacht auf, |Ha0r2fe 1und ||Sai0ten0spiel!   [„r“]
+  PsHymn 120/0 text [IV] HV8 SK: und glühende |G0ins4ter3koh2len 1da||zu.   [„G“]
+  PsHymn 144/1 text [II] HV10 SK: seine Tage sind wie ein |f3lüch2ti1ger ||Schat0ten.   [„f“]
+  PsHymn 144/3 text [II] HV10 SK: seine Tage sind wie ein |f3lüch2ti1ger ||Schat0ten.   [„f“]
+
+===== HINWEISE =====
+
+--- Zur Prüfung: mehr als drei Silben zwischen 1. und 2. Pipe-Silbe (weiblich) (15) ---
+  PsHymn 1/0 text [IV] HV7 SK: der an |Was0ser3bä2chen 1ge||pflanzt ist,   [4 Silben]
+  PsHymn 4/0 text [VIII] HV9 MK: Er|ei0fert ihr 2euch, 1so ||sün0digt nicht!   [4 Silben]
+  PsHymn 77/0 text [II] HV11 SK: ich will denken an |längst ver3gan2ge1ne ||Jah0re.   [4 Silben]
+  PsHymn 80/0 text [I] HV31 MK: |Sor0ge für 2die1sen ||Wein0stock   [4 Silben]
+  PsHymn 87/0 text [VIII] HV10 MK: |Je0der ist 2dort 1ge||bo0ren.   [4 Silben]
+  PsHymn 106/1 text [V] HV33 MK: Sie wurden im Lager |ei0fer0süch2tig°1auf°||Mo0se   [4 Silben]
+  PsHymn 119/169 text [VIII] HV5 MK: Meine Lippen sollen°|ü0ber0strö2men°1von°||Lob0preis;   [4 Silben]
+  PsHymn 151/0 text [II] HV18 MK: die Fülle der Zeiten her|auf0zu0füh2ren 1in°||Chri0stus   [4 Silben]
+  PsHymn 153/0 text [III] HV19 MK: der |Erst0ge0bo0re2ne 1der ||To0ten;   [5 Silben]
+  PsHymn 171/0 text [II] HV14 SK: mit Israel, den du deinen |Erst0ge3bo2re1nen ||nann0test!   [4 Silben]
+  PsHymn 183/0 text [V] HV11 SK: und seine |Was0ser3quel2le 1ver||siegt nicht.   [4 Silben]
+  PsHymn 192/0 text [IV] HV20 MK: weder Brandopfer noch Schlachtopfer, weder |Spei0se0op2fer 1noch ||Räu0cher0werk,   [4 Silben]
+  PsHymn 199/108 text [V] HV2 SK: mit Israel, den du deinen |Erst0ge3bo2re1nen ||nann0test.   [4 Silben]
+  PsHymn 199/123 text [VI] HV19 MK: Und ich lasse in deiner Mitte übrig ein°|de0mü0ti2ges°1und°||ar0mes°Volk,   [4 Silben]
+  ordinarium BENEDICTUS dt HV13 MK: ihm furchtlos dienen in°|Hei0lig0keit°2und°1Ge||rech0tig0keit   [4 Silben]
+
+--- Zur Prüfung: drei Silben zwischen 1. und 2. Pipe-Silbe (weiblich) (204) ---
+  PsHymn 1/0 text [IV] HV15 SK: noch die Sünder in der Ge|mein3de 2der 1Ge||rech0ten.
+  PsHymn 6/0 text [VI] HV10 SK: Wer wird dich in der |Un3ter2welt 1noch°||prei0sen?
+  PsHymn 14/0 text [IVg] HV14 SK: denn Gott steht auf der |Sei3te 2der 1Ge||rech0ten.
+  PsHymn 15/0 text [I] HV8 MK: der den Ver|wor0fe2nen 1ver||ach0tet,
+  PsHymn 16/0 text [VI] HV8 SK: ich nehme ihre Namen |nicht 3auf 2mei1ne ||Lip0pen.
+  PsHymn 16/0 text [VI] HV10 SK: du hältst mein |Los 3in 2dei1nen ||Hän0den.
+  PsHymn 17/0 text [IV] HV2 MK: |ach0te 2auf 1mein ||Fle0hen,
+  PsHymn 17/1 text [IV] HV2 MK: |ach0te 2auf 1mein ||Fle0hen,
+  PsHymn 18/1 text [VI] HV8 SK: mich erschreckten die |Flu3ten 2des 1Ver||der0bens.
+  PsHymn 18/1 text [VI] HV9 MK: Die Bande der |Un0ter2welt 1um||strick0ten°mich,
+  PsHymn 18/1 text [VI] HV13 MK: Aus seinem Heiligtum |hör0te°2er°1mein°||Ru0fen,
+  PsHymn 18/3 text [V] HV5 MK: Ja, ich habe alle seine |Ge0bo2te 1vor°||Au0gen,
+  PsHymn 18/3 text [V] HV14 SK: doch |falsch 3ge2gen 1den ||Fal0schen.
+  PsHymn 19/2 text [VIII] HV20 SK: sie sollen |nicht 3ü2ber 1mich ||herr0schen.
+  PsHymn 20/0 text [II] HV5 MK: An all deine |Spei0se2op1fer ||den0ke er,
+  PsHymn 22/1 text [IV] HV16 SK: |der 3soll 2ihn 1be||frei0en!
+  PsHymn 22/3 text [IV] HV20 MK: Vor ihm allein sollen niederfallen die°|Mäch0ti2gen°1der°||Er0de,
+  PsHymn 22/4 text [VIII] HV16 SK: |der 3soll 2ihn 1be||frei0en!
+  PsHymn 23/0 text [VI] HV12 SK: vor den |Au3gen 2mei1ner ||Fein0de.
+  PsHymn 25/2 text [IIm] HV12 SK: führe mich her|aus 3aus 2der 1Be||dräng0nis!
+  PsHymn 27/0 text [III] HV11 MK: Mag |Krieg ge2gen 1mich ||to0ben:
+  PsHymn 27/1 text [VIII] HV11 MK: Mag |Krieg ge2gen 1mich ||to0ben:
+  PsHymn 28/0 text [VI] HV6 SK: wenn ich die Hände zu deinem Aller|hei3lig2sten 1er||he0be.
+  PsHymn 30/0 text [III] HV23 MK: Was nützt dir mein |Blut, wenn°2ich°1be||gra0ben°bin?
+  PsHymn 30/2 text [IV] HV10 MK: Was nützt dir mein |Blut, wenn°2ich°1be||gra0ben°bin?
+  PsHymn 31/2 text [I] HV18 SK: entreiß mich der Hand meiner |Fein3de 2und 1Ver||fol0ger!
+  PsHymn 33/0 text [V] HV4 SK: spielt für ihn auf der |zehn3sai2ti1gen ||Har0fe!
+  PsHymn 33/1 text [V] HV4 SK: spielt für ihn auf der |zehn3sai2ti1gen ||Har0fe!
+  PsHymn 34/1 text [VIII] HV9 MK: Blickt auf zu ihm, so°wird°|eu0er°2Ge1sicht°||leuch0ten,
+  PsHymn 35/1 text [III] HV4 SK: steh auf, um mir zu helfen! Sag zu mir: |„Ich 3bin 2dei1ne ||Hil0fe.“
+  PsHymn 35/3 text [III] HV22 MK: Meine Zunge soll°deine°Ge|rech0tig2keit°1ver||kün0den,
+  PsHymn 37/3 text [VIII] HV23 MK: Der Herr |hilft ih2nen 1und ||ret0tet sie,
+  PsHymn 40/0 text [IV] HV39 SK: Herr, |ei3le 2mir 1zu ||Hil0fe!
+  PsHymn 40/2 text [IV] HV15 SK: Herr, |ei3le 2mir 1zu ||Hil0fe!
+  PsHymn 41/0 text [IV] HV19 MK: „Verderben hat sich |ü0ber 2ihn 1er||gos0sen;
+  PsHymn 41/0 text [IV] HV21 MK: Auch mein |Freund, dem 2ich 1ver||trau0te,
+  PsHymn 42/0 text [VI] HV14 MK: Harre auf Gott; denn°ich°|wer0de°2ihm°1noch°||dan0ken,
+  PsHymn 42/0 text [VI] HV18 MK: Flut ruft der Flut zu beim°|To0sen°2dei1ner°||Was0ser,
+  PsHymn 42/0 text [VI] HV23 SK: „Warum |hast 3du 2mich 1ver||ges0sen?
+  PsHymn 42/0 text [VI] HV32 MK: Harre auf Gott; denn°ich°|wer0de°2ihm°1noch°||dan0ken,
+  PsHymn 42/9 text [VI] HV10 MK: Sende dein |Licht und 2dei1ne ||Wahr0heit,
+  PsHymn 43/0 text [VI] HV8 MK: Sende dein |Licht und 2dei1ne ||Wahr0heit,
+  PsHymn 44/3 text [V] HV4 MK: Unser Herz ist |nicht von 2dir 1ge||wi0chen,
+  PsHymn 45/0 text [V] HV18 MK: Von Myrrhe, Aloë und Kassia duften°|all°dei2ne°1Ge||wän0der,
+  PsHymn 45/0 text [V] HV20 MK: Königstöchter |ge0hen 2dir 1ent||ge0gen,
+  PsHymn 45/1 text [V] HV18 MK: Von Myrrhe, Aloë und Kassia duften°|all°dei2ne°1Ge||wän0der,
+  PsHymn 45/1 text [V] HV20 MK: Königstöchter |ge0hen 2dir 1ent||ge0gen,
+  PsHymn 46/0 text [VII] HV7 MK: Der Herr der |Heer0scha2ren 1ist ||mit uns,
+  PsHymn 46/0 text [VII] HV15 MK: Der Herr der |Heer0scha2ren 1ist ||mit uns,
+  PsHymn 46/0 text [VII] HV25 MK: Der Herr der |Heer0scha2ren 1ist ||mit uns,
+  PsHymn 48/0 text [V] HV9 MK: Denn seht: Die |Kö0ni2ge 1ver||ein0ten sich
+  PsHymn 51/0 text [IV] HV7 MK: Gegen dich allein |ha0be 2ich 1ge||sün0digt,
+  PsHymn 51/0 text [IV] HV13 MK: Lauterer Sinn im Ver|bor0ge2nen 1ge||fällt°dir,
+  PsHymn 51/0 text [IV] HV31 MK: Herr, |öf0fne 2mir 1die ||Lip0pen,
+  PsHymn 51/0 text [IV] HV40 MK: an |Brand0op2fern 1und ||Ganz0op0fern,
+  PsHymn 55/1 text [IV] HV7 MK: Sie über|häu0fen 2mich 1mit ||Un0heil
+  PsHymn 55/2 text [VIII] HV11 MK: Am Abend, am Morgen, am°Mittag |seuf0ze°2ich°1und°||stöh0ne;
+  PsHymn 55/2 text [VIII] HV27 MK: Gewalttätige und Betrüger erreichen nicht die |Mit0te 2ih1res ||Le0bens.
+  PsHymn 55/3 text [IV] HV7 MK: Sie über|häu0fen 2mich 1mit ||Un0heil
+  PsHymn 55/5 text [VIII] HV4 MK: Am Abend, am Morgen, am°Mittag |seuf0ze°2ich°1und°||stöh0ne;
+  PsHymn 55/5 text [VIII] HV20 MK: Gewalttätige und Betrüger erreichen nicht die |Mit0te 2ih1res ||Le0bens.
+  PsHymn 62/0 text [I] HV13 SK: denn von |ihm 3kommt 2mei1ne ||Hoff0nung.
+  PsHymn 63/0 text [IV] HV6 SK: um deine Macht und |Herr3lich2keit 1zu ||se0hen.
+  PsHymn 63/0 text [IV] HV7 MK: Denn deine Huld ist°|bes0ser°2als°1das°||Le0ben;
+  PsHymn 65/0 text [VI] HV16 SK: du |gür3test 2dich 1mit ||Stär0ke.
+  PsHymn 65/0 text [VI] HV23 SK: du über|schüt3test 2es 1mit ||Reich0tum.
+  PsHymn 65/0 text [VI] HV31 SK: die Höhen um|gür3ten 2sich 1mit ||Ju0bel.
+  PsHymn 68/3 text [VII] HV12 SK: von deinem Tempel aus, |hoch 3ü2ber 1Je||ru0sa0lem.
+  PsHymn 69/2 text [IIm] HV7 MK: $Zieh mich her|aus aus 2dem 1Ver||der0ben,
+  PsHymn 71/1 text [II] HV28 SK: Mein Gott, |ei3le 2mir 1zu ||Hil0fe!
+  PsHymn 71/2 text [II] HV4 SK: und noch heute verkünde ich dein |wun3der2ba1res ||Wal0ten.
+  PsHymn 71/2 text [II] HV9 SK: und von deiner Gerechtigkeit, Gott, die°|grö3ßer°2ist°1als°||al0les.
+  PsHymn 76/0 text [V] HV25 SK: furchterregend ist er für die |Kö3ni2ge 1der ||Er0de.
+  PsHymn 76/2 text [V] HV12 SK: furchterregend ist er für die |Kö3ni2ge 1der ||Er0de.
+  PsHymn 77/0 text [II] HV33 MK: die Wasser |sa0hen 2dich 1und ||beb0ten.
+  PsHymn 77/0 text [II] HV44 MK: Du führtest dein |Volk wie 2ei1ne ||Her0de
+  PsHymn 78/1 text [V] HV5 MK: Was wir |hör0ten 2und 1er||fuh0ren,
+  PsHymn 78/4 text [III] HV4 SK: sie reizten den |hei3li2gen 1Gott ||Is0ra0els.
+  PsHymn 78/5 text [VI] HV23 SK: er war voll |Grimm 3ü2ber 1sein ||Ei0gen0tum.
+  PsHymn 86/0 text [IV] HV27 MK: Du hast mich den°Tiefen°des°|To0ten2reichs°1ent||ris0sen.
+  PsHymn 86/0 text [IV] HV38 MK: Alle, die mich hassen, sollen°es°|se0hen°2und°1sich°||schä0men,
+  PsHymn 89/1 text [V] HV36 SK: unser König dem |hei3li2gen 1Gott ||Is0ra0els.
+  PsHymn 90/0 text [I] HV4 SK: bist du, o°Gott, von |E3wig2keit 1zu ||E0wig0keit.
+  PsHymn 91/0 text [V] HV4 SK: mein |Gott, 3dem 2ich 1ver||trau0e.“
+  PsHymn 91/0 text [V] HV19 MK: Denn der |Herr ist 2dei1ne ||Zu0flucht,
+  PsHymn 91/0 text [V] HV33 SK: befreie ihn und |brin3ge 2ihn 1zu ||Eh0ren.
+  PsHymn 92/0 text [I] HV4 SK: und in den |Näch3ten 2dei1ne ||Treu0e
+  PsHymn 92/0 text [I] HV10 SK: wie |tief 3dei2ne 1Ge||dan0ken!
+  PsHymn 92/1 text [I] HV4 SK: und in den |Näch3ten 2dei1ne ||Treu0e
+  PsHymn 92/1 text [I] HV10 SK: wie |tief 3dei2ne 1Ge||dan0ken!
+  PsHymn 95/0 text [VI] HV9 MK: Sein ist das |Meer, das 2er 1ge||macht hat,
+  PsHymn 100/0 text [V] HV6 SK: sein Volk und die |Her3de 2sei1ner ||Wei0de.^INVANT
+  PsHymn 101/0 text [V] HV12 MK: Stolze Augen und |hoch0mü2ti1ge ||Her0zen
+  PsHymn 102/1 text [Im] HV12 MK: Ich bin wie eine |Doh0le 2in 1der ||Wü0ste,
+  PsHymn 105/1 text [VIII] HV17 MK: an den Bund, den°er°mit°|Ab0ra2ham°1ge||schlos0sen,
+  PsHymn 105/1 text [VIII] HV18 SK: an den Eid, den er |I3sa2ak 1ge||schwo0ren hat.
+  PsHymn 105/1 text [VIII] HV24 SK: nur |we3ni2ge 1und ||fremd im Land
+  PsHymn 105/1 text [VIII] HV26 SK: von |ei3nem 2Reich 1zum ||an0dern,
+  PsHymn 105/3 text [V] HV15 MK: Ihr Land |wim0mel2te 1von ||Frös0chen
+  PsHymn 106/2 text [IV] HV31 SK: sein |Mund 3re2de1te ||un0be0dacht.
+  PsHymn 108/0 text [VII] HV5 MK: Wacht auf, |Ha0r2fe 1und ||Sai0ten0spiel!
+  PsHymn 118/0 text [VI] HV24 MK: wie ein |Stroh0feu2er 1ver||lö0schen sie;
+  PsHymn 118/0 text [VI] HV30 MK: Frohlocken und Jubel erschallt in°den°|Zel0ten°2der°1Ge||rech0ten:
+  PsHymn 118/0 text [VI] HV38 MK: Öffnet mir die |To0re 2zur 1Ge||rech0tig0keit,
+  PsHymn 118/0 text [VI] HV44 MK: Der Stein, den die |Bau0leu2te 1ver||war0fen,
+  PsHymn 118/2 text [VI] HV6 MK: wie ein |Stroh0feu2er 1ver||lö0schen sie;
+  PsHymn 118/2 text [VI] HV12 MK: Frohlocken und Jubel erschallt in°den°|Zel0ten°2der°1Ge||rech0ten:
+  PsHymn 118/3 text [VI] HV1 MK: Öffnet mir die |To0re 2zur 1Ge||rech0tig0keit,
+  PsHymn 118/3 text [VI] HV7 MK: Der Stein, den die |Bau0leu2te 1ver||war0fen,
+  PsHymn 118/4 text [VI] HV24 MK: wie ein |Stroh0feu2er 1ver||lö0schen sie;
+  PsHymn 118/4 text [VI] HV30 MK: Frohlocken und Jubel erschallt in°den°|Zel0ten°2der°1Ge||rech0ten:
+  PsHymn 118/4 text [VI] HV34 MK: Ich werde nicht |ster0ben, 2son1dern ||le0ben,
+  PsHymn 118/9 text [VI] HV7 MK: Ich werde nicht |ster0ben, 2son1dern ||le0ben,
+  PsHymn 118/9 text [VI] HV9 MK: Der Stein, den die |Bau0leu2te 1ver||war0fen,
+  PsHymn 119/1 text [IV] HV3 MK: Wohl denen, die°seine°|Vor0schrif2ten°1be||fol0gen
+  PsHymn 119/1 text [IV] HV9 MK: Wären doch meine Schritte |fest°dar2auf°1ge||rich0tet,
+  PsHymn 119/9 text [III] HV11 MK: Nach deinen |Vor0schrif2ten 1zu ||le0ben
+  PsHymn 119/17 text [VI] HV3 MK: |Öff0ne 2mir 1die ||Au0gen
+  PsHymn 119/41 text [V] HV11 MK: Deine Gebote will°ich°vor°|Kö0ni2gen°1be||zeu0gen
+  PsHymn 119/41 text [V] HV12 SK: und mich |nicht 3vor 2ih1nen ||schä0men.
+  PsHymn 119/41 text [V] HV14 SK: ich |lie3be 2sie 1von ||Her0zen.
+  PsHymn 119/49 text [IV] HV5 MK: Frech ver|höh0nen 2mich 1die ||Stol0zen;
+  PsHymn 119/49 text [IV] HV15 MK: Deine Be|feh0le 2zu 1be||fol0gen,
+  PsHymn 119/57 text [II] HV5 MK: Ich über|den0ke 2mei1ne ||We0ge,
+  PsHymn 119/81 text [VIII] HV11 MK: Zuverlässig sind |all dei2ne 1Ge||bo0te.
+  PsHymn 119/89 text [VI] HV14 SK: doch mein Sinn achtet auf |das, 3was 2du 1ge||bie0test.
+  PsHymn 119/105 text [VIII] HV2 SK: ein |Licht 3für 2mei1ne ||Pfa0de.^)
+  PsHymn 119/105 text [VIII] HV14 SK: denn sie sind die |Freu3de 2mei1nes ||Her0zens.
+  PsHymn 119/113 text [II] HV5 MK: Weicht zu|rück von 2mir, 1ihr ||Bö0sen!
+  PsHymn 119/113 text [II] HV7 MK: Stütze mich, damit ich lebe, |wie°du°2es°1ver||hei0ßen°hast.
+  PsHymn 119/129 text [IV] HV9 MK: Festige meine Schritte, |wie°du°2es°1ver||hei0ßen°hast!
+  PsHymn 119/137 text [VIII] HV10 SK: doch ich vergesse |nie 3dei2ne 1Be||feh0le.
+  PsHymn 119/145 text [I] HV5 MK: Schon beim Morgengrauen |kom0me°2ich°1und°||fle0he;
+  PsHymn 119/145 text [I] HV11 MK: Mir nähern sich |tüc0ki2sche 1Ver||fol0ger;
+  PsHymn 119/169 text [VIII] HV4 SK: Reiß mich heraus ge|treu 3dei2ner 1Ver||hei0ßung!
+  PsHymn 122/0 text [VI] HV7 MK: wie es |Is0ra2el 1ge||bo0ten ist,
+  PsHymn 130/0 text [VII] HV2 SK: Herr, |hö3re 2mei1ne ||Stim0me!
+  PsHymn 130/0 text [VII] HV12 SK: mehr als die |Wäch3ter 2auf 1den ||Mor0gen.
+  PsHymn 130/0 text [VII] HV13 MK: Mehr als die |Wäch0ter 2auf 1den ||Mor0gen
+  PsHymn 130/0 text [VII] HV17 MK: Ja, er wird |Is0ra2el 1er||lö0sen
+  PsHymn 132/2 text [VIII] HV8 SK: auf deinem |Thron 3sit2zen 1für ||im0mer.“
+  PsHymn 135/1 text [II] HV25 MK: Ihr Land gab er |Is0ra2el 1zum ||Er0be,
+  PsHymn 139/2 text [IV] HV1 MK: Herr, du hast mein |In0ne2res 1ge||schaf0fen,
+  PsHymn 139/2 text [IV] HV3 MK: Ich danke dir, dass du mich so°|wun0der2bar°1ge||stal0tet°hast.
+  PsHymn 144/1 text [II] HV10 SK: seine Tage sind wie ein |f3lüch2ti1ger ||Schat0ten.
+  PsHymn 144/2 text [II] HV3 MK: der du den |Kö0ni2gen 1den ||Sieg ver0leihst
+  PsHymn 144/3 text [II] HV10 SK: seine Tage sind wie ein |f3lüch2ti1ger ||Schat0ten.
+  PsHymn 144/3 text [II] HV22 MK: der du den |Kö0ni2gen 1den ||Sieg ver0leihst
+  PsHymn 148/0 text [VII] HV24 SK: ihr |Al3ten 2mit 1den ||Jun0gen.
+  PsHymn 151/0 text [II] HV13 SK: nach dem |Reich3tum 2sei1ner ||Gna0de.
+  PsHymn 153/0 text [III] HV3 MK: Er hat uns der°Macht°der°|Fin0ster2nis°1ent||ris0sen
+  PsHymn 153/0 text [III] HV7 MK: Er ist das Ebenbild des°|un0sicht2ba1ren°||Got0tes,
+  PsHymn 153/0 text [III] HV10 SK: im |Him3mel 2und 1auf ||Er0den,
+  PsHymn 153/0 text [III] HV12 MK: Throne und Herrschaften, |Mäch0te°2und°1Ge||wal0ten;
+  PsHymn 153/0 text [III] HV22 SK: um durch ihn |al3les 2zu 1ver||söh0nen.
+  PsHymn 154/0 text [II] HV8 MK: die Zeit, deine |Knech0te 2zu 1be||loh0nen,
+  PsHymn 154/0 text [II] HV9 SK: die Pro|phe3ten 2und 1die ||Hei0li0gen
+  PsHymn 154/0 text [II] HV11 SK: die |Gro3ßen 2und 1die ||Klei0nen,
+  PsHymn 154/0 text [II] HV12 MK: die Zeit, |al0le 2zu 1ver||der0ben,
+  PsHymn 160/0 text [X] HV20 SK: sie lobe und |rüh3me 2ihn 1in ||E0wig0keit!
+  PsHymn 161/0 text [VIII] HV3 SK: von |E3wig2keit 1zu ||E0wig0keit.
+  PsHymn 161/0 text [VIII] HV6 SK: dein ist alles im |Him3mel 2und 1auf ||Er0den.
+  PsHymn 164/0 text [VI] HV16 SK: mein Volk wird |satt 3an 2mei1nen ||Ga0ben.
+  PsHymn 166/0 text [VIII] HV7 SK: den Gott meines |Va3ters 2will 1ich ||rüh0men.
+  PsHymn 166/0 text [VIII] HV9 MK: |Jah0we 2ist 1sein ||Na0me.
+  PsHymn 166/0 text [VIII] HV25 MK: Du lenktest in deiner Güte das |Volk, das°2du°1er||löst°hast,
+  PsHymn 166/9 text [VIII] HV7 SK: den Gott meines |Va3ters 2will 1ich ||rüh0men.
+  PsHymn 166/9 text [VIII] HV9 MK: |Jah0we 2ist 1sein ||Na0me.
+  PsHymn 166/9 text [VIII] HV25 MK: Du lenktest in deiner Güte das |Volk, das°2du°1er||löst°hast,
+  PsHymn 172/0 text [III] HV11 SK: bis zum Morgen |schrei3e 2ich 1um ||Hil0fe.
+  PsHymn 182/0 text [VIII] HV12 MK: Der Weg des Ge|rech0ten 2ist 1ge||ra0de,
+  PsHymn 184/0 text [VI] HV21 MK: sie gelten so viel wie°ein°|Stäub0chen°2auf°1der°||Waa0ge.
+  PsHymn 185/0 text [I] HV5 SK: eine |un3~heil2ba1re ||Wun0de.
+  PsHymn 185/0 text [I] HV9 SK: in ein |Land, 3das 2sie 1nicht ||ken0nen.
+  PsHymn 191/0 text [VIII] HV15 MK: „Ich hatte |sehr ~lan2ge 1ge||schwie0gen,
+  PsHymn 191/0 text [VIII] HV26 SK: was krumm ist, |ma3che 2ich 1ge||ra0de.“
+  PsHymn 194/0 text [V] HV6 SK: trinkt und labt euch an ihrem |müt3ter2li1chen ||Reich0tum!
+  PsHymn 199/101 text [VIII] HV14 SK: die Kenntnis des |Hei3li2gen 1ist ||Ein0sicht.
+  PsHymn 199/102 text [VI] HV13 SK: und sie angenommen als ein |voll3gül2ti1ges ||Op0fer.
+  PsHymn 199/103 text [V] HV4 SK: und der Herr wird ihr |Kö3nig 2sein 1in ||E0wig0keit.
+  PsHymn 199/104 text [VI] HV2 SK: und geleitete sie auf |wun3der2ba1rem ||We0ge.
+  PsHymn 199/109 text [V] HV8 MK: |fei0ert 2ihn 1mit ||Lob0ge0sang,
+  PsHymn 199/113 text [VI] HV1 MK: Herr, |hab mit 2uns 1Er||bar0men,
+  PsHymn 199/113 text [VI] HV4 SK: sei in der |Not 3un2se1re ||Ret0tung!
+  PsHymn 199/113 text [VI] HV5 MK: Vor dem lauten Getöse |flie0hen°2die°1Na||tio0nen;
+  PsHymn 199/113 text [VI] HV8 SK: er wird Zion mit Recht und Ge|rech3tig2keit 1er||fül0len.
+  PsHymn 199/115 text [I] HV1 MK: So spricht der Herr, der°Befreier°|Is0ra2els, 1sein°||Hei0li0ger,
+  PsHymn 199/115 text [I] HV5 MK: um des |Herrn wil2len, 1der ||treu ist,
+  PsHymn 199/115 text [I] HV22 MK: Alle Berge |ma0che 2ich 1zu ||We0gen,
+  PsHymn 199/116 text [VI] HV2 SK: man sagt zu euch „|Die3ner°2uns1res°||Got0tes“.
+  PsHymn 199/116 text [VI] HV5 MK: Doppelte Schande |muss0ten 2sie 1er||tra0gen,
+  PsHymn 199/117 text [VIII] HV14 SK: und be|fleck3te 2mei1ne ||Klei0der.
+  PsHymn 199/117 text [VIII] HV16 SK: und das Jahr der Er|lö3sung 2war 1ge||kom0men.
+  PsHymn 199/117 text [VIII] HV20 SK: mein |Zorn 3war 2mei1ne ||Stüt0ze.
+  PsHymn 199/118 text [II] HV6 MK: Vertraut nicht auf°die°|trü0ge2ri1schen°||Wor0te:
+  PsHymn 199/123 text [VI] HV8 MK: Denn vom |Feu0er 2mei1nes ||Ei0fers
+  PsHymn 199/123 text [VI] HV13 MK: bringen mir meine Ver|eh0rer 2dann 1als°||Ga0be
+  PsHymn 199/123 text [VI] HV23 MK: Ja, sie gehen |fried0lich 2auf 1die ||Wei0de,
+  ordinarium BENEDICTUS dt HV6 SK: durch den Mund seiner |hei3li2gen 1Pro||phe0ten.
+  ordinarium BENEDICTUS dt HV8 SK: und aus der Hand |al3ler, 2die 1uns ||has0sen;
+  ordinarium BENEDICTUS dt HV11 SK: an den Eid, den er unserm Vater |Ab3ra2ham 1ge||schwo0ren hat;
+  ordinarium BENEDICTUS lat HV17 MK: Et tu, puer, prophéta°Al|tís0si2mi°1vo||cá0be0ris:
+  ordinarium BENEDICTUS lat HV22 SK: in quibus visitávit nos |ó3ri2ens 1ex ||al0to:
+  ordinarium MAGNIFICAT dt HV18 SK: Abraham und seinen |Nach3kom2men 1auf ||e0wig.
+
+--- Zur Prüfung: vier Silben zwischen 1. und 2. Pipe-Silbe (männlich) (47) ---
+  PsHymn 8/0 text [V] HV11 MK: Du hast ihn nur wenig ge|rin0ger ge2macht 1als°||Gott,
+  PsHymn 16/0 text [VI] HV12 SK: Ja, mein 4|Er3be 2ge1fällt 1mir ||gut.
+  PsHymn 20/0 text [II] HV6 SK: nehme dein |Brand4op3fer 2gnä1dig ||an.
+  PsHymn 27/0 text [III] HV19 MK: Denn er |birgt mich in 2sei1nem ||Haus
+  PsHymn 27/1 text [VIII] HV19 MK: Denn er |birgt mich in 2sei1nem ||Haus
+  PsHymn 50/3 text [VII] HV7 SK: du machst dich mit |E4he3bre2chern 1ge||mein.
+  PsHymn 62/0 text [I] HV10 MK: Sie |seg0nen mit 2ih1rem ||Mund,
+  PsHymn 68/2 text [V] HV2 SK: groß ist der |Sie4ges3bo2tin1nen ||Schar.
+  PsHymn 68/3 text [VII] HV3 MK: voraus die Sänger, die°|Sai0ten0spie2ler°1da||nach,
+  PsHymn 69/1 text [III] HV11 MK: Zahlreicher als die |Haa0re auf°2mei1nem°||Kopf
+  PsHymn 74/2 text [IV] HV6 SK: ihn zum Fraß gegeben den |Un4ge3heu2ern 1der ||See.
+  PsHymn 77/0 text [II] HV37 SK: auch deine |Pfei4le 3flo2gen 1da||hin.
+  PsHymn 80/0 text [I] HV7 MK: Gott, |rich0te uns 2wie1der ||auf!
+  PsHymn 84/0 text [V] HV9 MK: Wohl denen, die°|woh0nen°in°2dei1nem°||Haus,
+  PsHymn 89/2 text [VII] HV18 MK: Ich mache ihn zum |erst0ge0bo2re1nen ||Sohn,
+  PsHymn 100/0 text [V] HV11 MK: |e0wig währt 2sei1ne ||Huld,
+  PsHymn 107/1 text [VI] HV9 MK: die |Hun0ger lit2ten 1und ||Durst,
+  PsHymn 116/1 text [X] HV4 SK: an dem |Tag, 4als 3ich 2zu 1ihm ||rief.
+  PsHymn 119/145 text [I] HV9 MK: Höre auf meine |Stim0me in 2dei1ner ||Huld;
+  PsHymn 123/0 text [II] HV9 MK: übersatt ist unsre |See0le von 2ih1rem ||Spott,
+  PsHymn 129/0 text [VI] HV14 SK: kein |Gar4ben3bin2der 1den ||Arm.
+  PsHymn 131/0 text [VI] HV5 MK: Ich ließ meine Seele |ru0hig wer2den 1und°||still;
+  PsHymn 132/2 text [VIII] HV4 SK: will ich |set4zen 3auf 2dei1nen ||Thron.
+  PsHymn 135/1 text [II] HV26 SK: zum Erbe |Is4ra3el, 2sei1nem ||Volk.
+  PsHymn 137/0 text [I] HV5 SK: an die 4|Wei3den 2in 1je1nem ||Land.
+  PsHymn 138/0 text [I] HV16 MK: Gehe ich auch |mit0ten durch 2gro1ße ||Not:
+  PsHymn 139/1 text [IV] HV12 MK: Wohin könnte ich |flie0hen vor°2dei1nem°||Geist,
+  PsHymn 139/2 text [IV] HV13 SK: wie ge|wal4tig 3ist 2ih1re ||Zahl!
+  PsHymn 141/0 text [II] HV5 MK: Herr, stell eine |Wa0che vor°2mei1nen°||Mund,
+  PsHymn 142/0 text [III] HV4 SK: er|öff4ne 3ihm 2mei1ne ||Not.
+  PsHymn 144/1 text [II] HV11 MK: Herr, neig deinen |Him0mel und°2steig°1her||ab,
+  PsHymn 144/3 text [II] HV11 MK: Herr, neig deinen |Him0mel und°2steig°1her||ab,
+  PsHymn 146/0 text [VII] HV15 MK: den |Hun0gern0den 2gibt 1er ||Brot;
+  PsHymn 147/1 text [V] HV3 MK: Der Herr baut Je|ru0sa0lem 2wie1der ||auf,
+  PsHymn 151/0 text [II] HV7 MK: er hat uns aus Liebe im°|Vor0aus°da2zu°1be||stimmt,
+  PsHymn 158/0 text [IV] HV3 SK: damit wir ihm |fol4gen 3auf 2sei1nem ||Weg.
+  PsHymn 159/0 text [VII] HV3 SK: ge|recht4fer3tigt 2durch 1den ||Geist,
+  PsHymn 173/0 text [V] HV1 MK: Mein Herz ist voll |Freu0de ü2ber°1den°||Herrn,
+  PsHymn 173/1 text [V] HV1 MK: Mein Herz ist voll |Freu0de ü2ber°1den°||Herrn,
+  PsHymn 175/0 text [IV] HV30 MK: Dennoch will ich |ju0beln ü2ber 1den ||Herrn
+  PsHymn 181/0 text [I] HV5 SK: Viele Nationen |ma4chen 3sich 2auf 1den ||Weg.
+  PsHymn 181/1 text [I] HV5 SK: Viele Nationen |ma4chen 3sich 2auf 1den ||Weg.
+  PsHymn 184/0 text [VI] HV9 MK: Wer misst das |Meer mit°der°2hoh1len°||Hand?
+  PsHymn 192/0 text [IV] HV22 MK: |Du a0ber 2nimm 1uns ||an.
+  PsHymn 195/2 text [V] HV6 SK: seine Türme und |Wäl4le 3aus 2rei1nem ||Gold;
+  PsHymn 199/115 text [I] HV12 MK: |auf0zu0hel2fen 1dem ||Land
+  PsHymn 199/116 text [VI] HV6 SK: sie wurden |an4ge3spuckt 2und 1ver||höhnt,
+
+--- Zur Prüfung: Tilde nach der ||-Silbe (27) ---
+  PsHymn 11/0 text [IV] HV15 MK: Auf die Frevler lasse er |Feu2er°1und°||Schwe~fel°reg0nen;
+  PsHymn 12/0 text [VI] HV14 SK: von Schlacken geschieden, 3ge2|läu1tert°||sie~ben0fach.
+  PsHymn 16/0 text [VI] HV16 SK: Er steht mir zur 3|Rech2ten, 1ich°||wan~ke°nicht.
+  PsHymn 16/0 text [VI] HV23 SK: zu deiner Rechten 3|Won2ne 1für ||al~le Zeit.
+  PsHymn 18/5 text [VI] HV5 SK: mei3ne 2|Knö1chel ||wan~ken nicht.
+  PsHymn 19/1 text [I] HV4 SK: eine Nacht 3|tut 2es 1der ||an~dern kund,
+  PsHymn 25/1 text [IV] HV11 SK: Auf dich 3|hof2fe 1ich ||al~le0zeit.
+  PsHymn 29/0 text [VIII] HV18 MK: sie reißt 2|gan1ze ||Wäl~der kahl.
+  PsHymn 47/0 text [VII] HV14 SK: 3|Spielt 2ihm 1ein ||Psal~men0lied!
+  PsHymn 50/2 text [III] HV14 MK: Soll ich denn das°2|Fleisch°1von°||Stie~ren°es0sen
+  PsHymn 50/2 text [III] HV15 SK: und 3das 2|Blut 1von ||Böc~ken trin0ken?
+  PsHymn 78/2 text [Im] HV26 MK: Er ließ sie |mit2ten 1ins ||La~ger fal0len,
+  PsHymn 81/0 text [VI] HV2 SK: 3|jauchzt 2dem 1Gott ||Ja~kobs zu!
+  PsHymn 85/0 text [IV] HV6 SK: und deinen 3|glü2hen1den ||Zorn ~ge0dämpft.
+  PsHymn 88/0 text [II] HV4 SK: wende dein 3Ohr 2|mei1nem ||Fle~hen zu!
+  PsHymn 88/1 text [II] HV4 SK: wende dein 3Ohr 2|mei1nem ||Fle~hen zu!
+  PsHymn 101/0 text [V] HV17 MK: In meinem Haus soll°2|kein°1Be||trü~ger°woh0nen;
+  PsHymn 104/2 text [VIII] HV2 SK: aus deinen Wol3ken 2|wird 1die ||Er~de satt.
+  PsHymn 106/1 text [V] HV17 MK: Er aber hat sie gerettet um°2|sei1nes°||Na~mens°wil0len,
+  PsHymn 106/3 text [III] HV33 SK: uns rühmen, 3|weil 2wir 1dich ||lo~ben dür0fen.
+  PsHymn 107/2 text [Im] HV28 SK: und er sie zum 3er2|sehn1ten ||Ha~fen führ0te:
+  PsHymn 107/3 text [VIIIa] HV18 SK: und vermehrte ihre Sip3pen, 2|ei1ner ||Her~de gleich.
+  PsHymn 119/9 text [III] HV14 SK: $und 3auf 2|dei1ne ||Pfa~de schaun.
+  PsHymn 145/1 text [I] HV13 MK: Sie sollen die Erinnerung an°deine°2|gro1ße°||Gü~te°wec0ken
+  PsHymn 145/4 text [I] HV13 MK: Sie sollen die Erinnerung an°deine°2|gro1ße°||Gü~te°wec0ken
+  PsHymn 171/0 text [II] HV4 SK: damit es deine 3|mäch2ti1gen ||Ta~ten sieht!
+  PsHymn 199/122 text [VI] HV11 SK: wie der Frühjahrsre3gen, 2|der 1die ||Er~de tränkt.
+
+--- Zur Prüfung: zwei 1-Marker bei ≥2 unbetonten Silben zwischen | und || (Ermessensfall) (13) ---
+  PsHymn 16/0 text [VI] HV12 SK: Ja, mein 4|Er3be 2ge1fällt 1mir ||gut.   [rückwärts: 11234]
+  PsHymn 22/2 text [II] HV17 SK: und werfen 4das 3|Los 2um 1mein 1Ge||wand.   [rückwärts: 11234]
+  PsHymn 22/4 text [VIII] HV41 SK: und werfen 4das 3|Los 2um 1mein 1Ge||wand.   [rückwärts: 11234]
+  PsHymn 54/0 text [IX] HV2 SK: verschaff 4mir 3|Recht 2mit 1dei1ner ||Kraft!   [rückwärts: 11234]
+  PsHymn 69/1 text [III] HV6 SK: 4die 3|Strö2mung 1reißt 1mich ||fort.   [rückwärts: 11234]
+  PsHymn 90/0 text [I] HV24 SK: und fürch4tet 3sich 2|vor 1dei1nem ||Grimm?   [rückwärts: 11234]
+  PsHymn 90/0 text [I] HV26 SK: Dann gewin4nen 3wir 2|ein 1wei1ses ||Herz.   [rückwärts: 11234]
+  PsHymn 114/0 text [IX] HV6 SK: 4der 3|Jor2dan 1wich 1zu||rück.   [rückwärts: 11234]
+  PsHymn 119/41 text [V] HV4 SK: denn ich 4ver3|trau2e 1auf 1dein ||Wort.   [rückwärts: 11234]
+  PsHymn 130/0 text [VII] HV14 SK: soll Isra4el 3|har2ren 1auf 1den ||Herrn!   [rückwärts: 11234]
+  PsHymn 137/0 text [I] HV5 SK: an die 4|Wei3den 2in 1je1nem ||Land.   [rückwärts: 11234]
+  PsHymn 154/0 text [II] HV3 SK: der 4du 3|bist 2und 1der 1du ||warst:   [rückwärts: 11234]
+  PsHymn 173/0 text [V] HV13 SK: die Wankenden a4ber 3|gür2ten 1sich 1mit ||Kraft.   [rückwärts: 11234]
+
+--- Zur Prüfung: mehr als eine Silbe zwischen ||-Silbe und folgender |-Silbe (26) ---
+  PsHymn 19/1 text [I] HV14 MK: und läuft 2bis 1ans ||an0de0re |En0de;   [2 Silben]
+  PsHymn 30/0 text [III] HV27 MK: Da hast du mein Kla2gen 1in°||Tan0zen°ver|wan0delt,   [2 Silben]
+  PsHymn 30/2 text [IV] HV14 MK: Da hast du mein Kla2gen 1in°||Tan0zen°ver|wan0delt,   [2 Silben]
+  PsHymn 31/1 text [II] HV14 MK: Dir sind alle verhasst, die°nich2ti1ge°||Göt0zen°ver|eh0ren,   [2 Silben]
+  PsHymn 37/2 text [III] HV11 MK: Besser das wenige, das°2der°1Ge||rech0te°be|sitzt,   [2 Silben]
+  PsHymn 40/0 text [IV] HV14 MK: und 2dei1ne ||Plä0ne mit |uns;   [2 Silben]
+  PsHymn 40/1 text [IV] HV14 MK: und 2dei1ne ||Plä0ne mit |uns;   [2 Silben]
+  PsHymn 52/0 text [VIIIa] HV17 SK: und 3auf 2sei1nen ||Fre0vel ge|baut.   [2 Silben]
+  PsHymn 64/0 text [IV] HV11 MK: $Sie 2ha1ben ||Bos0heit im |Sinn,   [2 Silben]
+  PsHymn 67/0 text [II] HV5 MK: Die Völker sol2len 1dir ||dan0ken, o°|Gott,   [2 Silben]
+  PsHymn 67/0 text [II] HV11 MK: Die Völker sol2len 1dir ||dan0ken, o°|Gott,   [2 Silben]
+  PsHymn 73/1 text [I] HV13 MK: Sie sehen kaum 2aus 1den ||Au0gen vor |Fett,   [2 Silben]
+  PsHymn 78/2 text [Im] HV7 MK: Zwar hat er 2an 1den ||Fel0sen ge|schla0gen,   [2 Silben]
+  PsHymn 78/5 text [VI] HV8 MK: ließ in ihren Zelten die°2Stäm1me°||Is0ra0els°|woh0nen   [2 Silben]
+  PsHymn 89/2 text [VII] HV2 MK: Einen Helden habe°2ich°1zum°||Kö0nig°ge|krönt,   [2 Silben]
+  PsHymn 103/2 text [Ig] HV11 MK: Wie ein Vater sich 2sei1ner°||Kin0der°er|barmt,   [2 Silben]
+  PsHymn 103/4 text [V] HV25 MK: Wie ein Vater sich 2sei1ner°||Kin0der°er|barmt,   [2 Silben]
+  PsHymn 105/2 text [I] HV1 MK: Der Herr 2rief 1den ||Hun0ger ins |Land,   [2 Silben]
+  PsHymn 106/2 text [IV] HV10 MK: wäre nicht Mose, sein Erwählter, für°sie°2in°1die°||Bre0sche°ge|sprun0gen,   [2 Silben]
+  PsHymn 107/3 text [VIIIa] HV7 MK: Dort siedel2te 1er ||Hun0gern0de |an,   [2 Silben]
+  PsHymn 127/0 text [X] HV7 MK: um das 2Brot 1der ||Müh0sal zu |es0sen;   [2 Silben]
+  PsHymn 136/3 text [VI] HV3 MK: der 2gro1ße ||Kö0ni0ge |schlug,   [2 Silben]
+  PsHymn 136/5 text [VI] HV17 MK: der 2gro1ße ||Kö0ni0ge |schlug,   [2 Silben]
+  PsHymn 145/2 text [I] HV3 MK: Sie sollen von der Herrlichkeit 2dei1nes°||Kö0nig0tums°|re0den,   [2 Silben]
+  PsHymn 145/4 text [I] HV21 MK: Sie sollen von der Herrlichkeit 2dei1nes°||Kö0nig0tums°|re0den,   [2 Silben]
+  PsHymn 199/123 text [VI] HV21 MK: Der Rest von Israel 2wird°1kein°||Un0recht°mehr°|tun   [2 Silben]
+
+--- Kompatibilität mit Antiphonale prüfen ($) (25) ---
+  PsHymn 26/0 text [III] HV1 MK: $Verschaff mir Recht, o°Herr; denn°ich°habe°2|oh1ne°||Schuld°ge0lebt.
+  PsHymn 36/0 text [VIII] HV20 SK: $in deinem Licht 4|schau3en 2wir 1das ||Licht.
+  PsHymn 38/0 text [Ia] HV42 MK: $Herr, verlass mich nicht, |bleib°2mir°1nicht°||fern,°mein°Gott!
+  PsHymn 38/3 text [IVa] HV17 MK: $Herr, verlass mich nicht, |bleib°2mir°1nicht°||fern,°mein°Gott!
+  PsHymn 40/0 text [IV] HV31 MK: $Du, Herr, verschließ°mir°|nicht°2dein°1Er||bar0men,
+  PsHymn 40/2 text [IV] HV7 MK: $Du, Herr, verschließ°mir°|nicht°2dein°1Er||bar0men,
+  PsHymn 55/2 text [VIII] HV1 MK: $2Nicht 1mein ||Feind be|schimpft mich,
+  PsHymn 55/4 text [IV] HV7 MK: $Denn 2nicht 1mein ||Feind be|schimpft mich,
+  PsHymn 62/0 text [I] HV9 SK: $Lü4gen 3|ist 2|ih1re ||Lust.
+  PsHymn 64/0 text [IV] HV11 MK: $Sie 2ha1ben ||Bos0heit im |Sinn,
+  PsHymn 69/1 text [III] HV3 MK: $Ich bin in 2tie1fem ||Schlamm ver|sun0ken
+  PsHymn 69/2 text [IIm] HV5 MK: $Ent|reiß 2mich 1dem ||Sumpf,
+  PsHymn 69/2 text [IIm] HV6 SK: $damit 3ich 2|nicht 1ver||sin0ke.
+  PsHymn 69/2 text [IIm] HV7 MK: $Zieh mich her|aus aus 2dem 1Ver||der0ben,
+  PsHymn 69/2 text [IIm] HV8 SK: $aus 3dem 2|tie1fen ||Was0ser!
+  PsHymn 69/3 text [VI] HV15 Flexa: $Seine Knechte werden dort wohnen und°das°Land°be0sit~zen,
+  PsHymn 72/0 text [V] HV43 MK: $Gepriesen sei sein herrlicher |Na2me 1in°||E0wig0keit!
+  PsHymn 72/0 text [V] HV44 SK: $Seine Herrlichkeit erfülle die ganze Erde. 3|A2men, 1ja ||a0men.
+  PsHymn 77/0 text [II] HV27 SK: $Wo ist ein Gott, 3so 2|groß 1wie ||un0ser Gott?
+  PsHymn 94/2 text [II] HV12 SK: $bald würde ich im Land 3des 2|Schwei1gens ||woh0nen.
+  PsHymn 119/9 text [III] HV14 SK: $und 3auf 2|dei1ne ||Pfa~de schaun.
+  PsHymn 119/17 text [VI] HV12 SK: $Denn was du 3|vor2schreibst, 1be||fol0ge ich.
+  PsHymn 143/0 text [IV] HV3 MK: $Geh mit deinem Knecht |nicht 2ins°1Ge||richt;
+  PsHymn 143/0 text [IV] HV4 SK: $denn keiner, der 3lebt, 2|ist 1ge||recht vor dir.
+  PsHymn 196/0 text [I] HV6 MK: $Ich |schenk’ euch ein 2|neu1es ||Herz
+
+--- Zur Prüfung: zwei 1-Marker fehlen (SK männl., eine Silbe zwischen | und ||) (8) ---
+  PsHymn 35/1 text [III] HV12 SK: Man wirft mir Dinge vor, von 4|de3nen 2|ich 1nichts ||weiß.   [rückwärts: 1234]
+  PsHymn 35/2 text [II] HV5 SK: so |ging 4ich 3be2|trübt 1um||her,   [rückwärts: 1234]
+  PsHymn 49/2 text [IV] HV8 SK: |4ja, 3er |2nimmt 1mich ||auf.   [rückwärts: 1234]
+  PsHymn 62/0 text [I] HV9 SK: $Lü4gen 3|ist 2|ih1re ||Lust.   [rückwärts: 1234]
+  PsHymn 104/1 text [VIII] HV5 SK: du spannst den |Him4mel 3aus 2|wie 1ein ||Zelt.   [rückwärts: 1234]
+  PsHymn 173/0 text [V] HV21 SK: er er|nie4drigt, 3und 2|er 1er||höht.   [rückwärts: 1234]
+  PsHymn 173/2 text [V] HV4 SK: er er|nie4drigt, 3und 2|er 1er||höht.   [rückwärts: 1234]
+  PsHymn 199/113 text [VI] HV18 SK: jetzt erhebe ich mich, jetzt 4|rich3te 2|ich 1mich ||auf.   [rückwärts: 1234]
+
+--- Zur Prüfung: mehr als vier Silben zwischen 1. und 2. Pipe-Silbe (männlich) (2) ---
+  PsHymn 120/0 text [IV] HV8 SK: und glühende |G0ins4ter3koh2len 1da||zu.   [5 Silben]
+  PsHymn 176/0 text [V] HV5 MK: wie |Re0gen0trop0fen 2auf 1das ||Gras   [5 Silben]
+
+--- Sonderform: kombinierte Marker auf einer Silbe (verkürzt) (4) ---
+  PsHymn 121/0 text [VI] HV8 SK: 32|schläft 1und ||schlum0mert nicht.   [rückwärts: 123]
+  PsHymn 150/0 text [VII] HV12 SK: 43|lo2be 1den ||Herrn!   [rückwärts: 1234]
+  PsHymn 156/0 text [IV] HV4 SK: 32|und 1den ||Men0schen gleich.   [rückwärts: 123]
+  PsHymn 158/0 text [IV] HV13 SK: 43|sind 2wir 1ge||heilt.   [rückwärts: 1234]
+
+--- kein || (Kehrvers, Rubrik, Intonation) (8) ---
+  PsHymn 159/0 text [VII] HV1 SK: ^rR^0r°Lobet den Herrn, alle Völker.
+  PsHymn 159/0 text [VII] HV4 SK: –°^rR^0r°Lobet den Herrn, alle Völker.°–
+  PsHymn 159/0 text [VII] HV7 SK: –°^rR^0r°Lobet den Herrn, alle Völker.°–
+  PsHymn 159/0 text [VII] HV10 SK: ^rR^0r°Lobet den Herrn, alle Völker.
+  PsHymn 182/0 text [VIII] HV1 SK: ^RUBRDer in Klammern gesetzte letzte Vers gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR
+  PsHymn 193/0 text [VIII] HV1 SK: ^RUBRDer in Klammern gesetzte Vers 2a gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR
+  PsHymn 193/1 text [VIII] HV1 SK: ^RUBRDer in Klammern gesetzte Vers 2a gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR
+  ordinarium MAGNIFICAT lat HV1 MK: Magníficat^r +^0r
+
+--- Zur Prüfung: Tilde zwischen 1. und 2. Pipe-Silbe (5) ---
+  PsHymn 185/0 text [I] HV5 SK: eine |un3~heil2ba1re ||Wun0de.
+  PsHymn 186/0 text [V] HV16 MK: Sie |weiß, ~was 2dir 1ge||fällt
+  PsHymn 191/0 text [VIII] HV15 MK: „Ich hatte |sehr ~lan2ge 1ge||schwie0gen,
+  PsHymn 193/0 text [VIII] HV30 MK: Wie der Bräutigam sich°|freut°~ü2ber°1die°||Braut,
+  PsHymn 193/2 text [VIII] HV9 MK: Wie der Bräutigam sich°|freut°~ü2ber°1die°||Braut,

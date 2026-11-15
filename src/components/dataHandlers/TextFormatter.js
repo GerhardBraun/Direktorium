@@ -22,6 +22,74 @@ export const resolveReference = (ref) => {
 
     return { number: wholePart, ...data };
 };
+// Geschätzte Zeichenbreite in em (Heuristik für eine Proportionalschrift)
+const calculateCharWidth = (char) => {
+    // Sehr schmale Zeichen (ca. 0.3em)
+    if (/[ijl.,;:!|]/.test(char)) return 0.3;
+
+    // Schmale Zeichen (ca. 0.4em)
+    if (/[Ijlt()[\]{}'"´`]/.test(char)) return 0.4;
+
+    // Etwas schmalere Zeichen (ca. 0.5em)
+    if (/[frs]/.test(char)) return 0.5;
+
+    // Sehr breite Zeichen (ca. 0.9em) - inkl. Ligaturen
+    if (/[mwMW]|æ|œ|Æ|Œ/.test(char)) return 0.9;
+
+    // Breite Zeichen (ca. 0.7em)
+    if (/[ABCDEFGHIJKLMNOPQRSTUVWXYZ0-9]/.test(char)) return 0.7;
+
+    // Leerzeichen (auch ° als künftiges geschütztes Leerzeichen)
+    if (/\s|°/.test(char)) return 0.3;
+
+    // Normale Zeichen (ca. 0.6em) - Standardbreite für Kleinbuchstaben
+    return 0.6;
+};
+
+// Geschätzte Breite einer Zeichenkette in em (Text muss bereits von Tags bereinigt sein)
+const measureTextWidth = (str) => {
+    let width = 0;
+    for (const char of str) width += calculateCharWidth(char);
+    return width;
+};
+
+// Entfernt Tags aus einem Textausschnitt, damit nur die sichtbaren Zeichen gemessen werden
+const cleanForMeasure = (str) => str
+    .replace(/\^RUBR.*?\^0RUBR/g, '')           // Lange Rubriken
+    .replace(/\^r.*?\^0r/g, '')                  // Rubriken
+    .replace(/\{(\d{1,2})#[^}]*\}?/g, '$1')      // Fußnoten nur als Nummer zählen
+    .replace(/\^-/g, '-')                        // Bindestriche
+    .replace(/[>$​]/g, '')                  // Elision, Gesangs-Hilfszeichen
+    .replace(/\^[A-Z]{2,}[a-z]*/g, '')           // Lange Tags (^HALLo, ^ANT …)
+    .replace(/\^0?./g, '');                      // Übrige Tags (^w, ^0w, ^u, ^b …)
+
+// Geschätzte sichtbare Breite eines Textes mit Tags in em
+export const measureVisibleWidth = (str) => measureTextWidth(cleanForMeasure(str));
+
+// Löst °-Wortgruppen auf, die breiter sind als die verfügbare Textbreite.
+// Die Wortgruppen sollen Zeilenumbrüche an sinnvollen Stellen erzwingen; eine Gruppe, die selbst
+// nicht in eine Bildschirmzeile passt, würde aber über den rechten Rand hinausragen. Für sie werden
+// die °-Marker daher in normale Leerzeichen umgewandelt. Jede Gruppe wird einzeln geprüft.
+const releaseOverlongWordGroups = (text, availableWidth) => {
+    if (!availableWidth || !text.includes('°')) return text;
+
+    return text.split(/(\s+)/).map(token => {
+        if (!token.includes('°')) return token;
+
+        // Zeilen- und Strophentrenner begrenzen eine Wortgruppe, auch wenn kein Leerzeichen folgt
+        // (z. B. „Herrn,^*und“). Asterisk und Flexa werden später per geschütztem Leerzeichen an
+        // das letzte Wort gebunden und zählen daher zur Breite der vorangehenden Gruppe.
+        const parts = token.split(/(\^[lphß\/*+])/);
+        return parts.map((part, i) => {
+            if (i % 2 === 1 || !part.includes('°')) return part;
+            const bindsMark = ['^*', '^+'].includes(parts[i + 1]);
+            const width = measureTextWidth(cleanForMeasure(part)) + (bindsMark ? 0.9 : 0);
+            // Doppelte ° (z. B. „Ant.°°“, „Kv°°“) sind Abstände nach Rubriken und bleiben erhalten
+            return width > availableWidth ? part.replace(/(?<!°)°(?!°)/g, ' ') : part;
+        }).join('');
+    }).join('');
+};
+
 // Hilfsfunktion zur Berechnung der maximalen Zeilenlänge in einem Hymnus
 const calculateMaxLineLength = (text) => {
     if (!text.includes('^/') && !text.includes('^ß')) {
@@ -31,11 +99,11 @@ const calculateMaxLineLength = (text) => {
     // Entferne alle Formatierungs-Tags außer ^l und ^p und ^h für die Längenberechnung
     let cleanText = text
         .replace(/\^r.*?\^0r/g, '') // Rubriken entfernen
-        .replace(/\^w.*?\^0w/g, '$1') // Gesperrten Text normal zählen
-        .replace(/\^f.*?\^0f/g, '$1') // Fetten Text normal zählen
-        .replace(/\^v.*?\^0v/g, '$1') // Kleinen Text normal zählen
-        .replace(/\^c.*?\^0c/g, '$1') // Kapitälchen normal zählen
-        .replace(/\^k.*?\^0k/g, '$1') // Kursiven Text normal zählen
+        .replace(/\^w(.*?)\^0w/g, '$1') // Gesperrten Text normal zählen
+        .replace(/\^f(.*?)\^0f/g, '$1') // Fetten Text normal zählen
+        .replace(/\^v(.*?)\^0v/g, '$1') // Kleinen Text normal zählen
+        .replace(/\^c(.*?)\^0c/g, '$1') // Kapitälchen normal zählen
+        .replace(/\^k(.*?)\^0k/g, '$1') // Kursiven Text normal zählen
         .replace(/\^RUBR.*?\^0RUBR/g, '') // Lange Rubriken entfernen
         .replace(/°/g, ' ') // Geschützte Leerzeichen als normale Leerzeichen
         .replace(/>/g, '')
@@ -45,30 +113,6 @@ const calculateMaxLineLength = (text) => {
         .replace(/\^-/g, '-') // Bindestriche
         .replace(/\{(\d{1,2})#.*?\}/g, '$1') // Fußnoten nur als Nummer zählen
         .replace(/\^[öÖLö]/g, ' Halleluja'); // Halleluja-Marker
-
-    // Funktion zur Berechnung der Zeichenbreite in em
-    const calculateCharWidth = (char) => {
-        // Sehr schmale Zeichen (ca. 0.3em)
-        if (/[ijl.,;:!|]/.test(char)) return 0.3;
-
-        // Schmale Zeichen (ca. 0.4em)
-        if (/[Ijlt()[\]{}'"´`]/.test(char)) return 0.4;
-
-        // Etwas schmalere Zeichen (ca. 0.5em)
-        if (/[frs]/.test(char)) return 0.5;
-
-        // Sehr breite Zeichen (ca. 0.9em) - inkl. Ligaturen
-        if (/[mwMW]|æ|œ|Æ|Œ/.test(char)) return 0.9;
-
-        // Breite Zeichen (ca. 0.7em)
-        if (/[ABCDEFGHIJKLMNOPQRSTUVWXYZ0-9]/.test(char)) return 0.7;
-
-        // Leerzeichen
-        if (/\s/.test(char)) return 0.3;
-
-        // Normale Zeichen (ca. 0.6em) - Standardbreite für Kleinbuchstaben
-        return 0.6;
-    };
 
     // Teile den Text in Strophen (^p oder ^h) und dann in Zeilen (^l oder ^/)
     const strophes = cleanText.split(/\^[ph]/);
@@ -85,11 +129,7 @@ const calculateMaxLineLength = (text) => {
             zeile = zeile + 1
             if (trimmedLine.length > 0) {
                 // Berechne die Breite durch Summierung der einzelnen Zeichenbreiten
-                let lineWidth = 0;
-                for (let i = 0; i < trimmedLine.length; i++) {
-                    lineWidth += calculateCharWidth(trimmedLine[i]);
-                }
-                maxLength = Math.max(maxLength, lineWidth);
+                maxLength = Math.max(maxLength, measureTextWidth(trimmedLine));
             }
         });
     });
@@ -135,7 +175,8 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
 };
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOverride = null, antIsFirst = false, showCantMarkers = false) => {
+export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOverride = null, antIsFirst = false, showCantMarkers = false, widthForHymns = false) => {
+    // widthForHymns: verfügbare Textbreite in em (für die Auflösung zu langer °-Wortgruppen)
     // num=0 für Invitatorium: keine verses, title, quote;
     // num=1-3 für Vigil: Ordinalzahlen bei den Cantica
     // num=-1 bei regulären Psalmen
@@ -206,14 +247,15 @@ export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOver
                     localPrefLanguage={localPrefLanguage}
                     number={number}
                     canonicalMode={cantMode}
+                    widthForHymns={widthForHymns}
                 />
                 : <>
                     {text && <div className="whitespace-pre-wrap">
-                        {formatPrayerText({ provText: text, localPrefLanguage })}
+                        {formatPrayerText({ provText: text, localPrefLanguage, widthForHymns })}
                     </div>}
                     {(![157, 160].includes(number) || (number === 157 && localPrefLanguage === "_lat")) &&
                         <div className="whitespace-pre-wrap">
-                            {formatPrayerText({ provText: doxology, localPrefLanguage })}
+                            {formatPrayerText({ provText: doxology, localPrefLanguage, widthForHymns })}
                         </div>}
                 </>
             }
@@ -275,7 +317,7 @@ export const formatDirectoryText = (text) => {
 };
 
 // Komponente für die gesungene Darstellung (showCantMarkers): Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
-const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonicalMode }) => {
+const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonicalMode, widthForHymns = false }) => {
     const [selectedMode, setSelectedMode] = useState(canonicalMode);
     const [showSelector, setShowSelector] = useState(false);
     const containerRef = useRef(null);
@@ -360,12 +402,12 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
             </div>
             {text && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText({ provText: text, localPrefLanguage, marker: 'cant' + selectedMode })}
+                    {formatPrayerText({ provText: text, localPrefLanguage, marker: 'cant' + selectedMode, widthForHymns })}
                 </div>
             )}
             {showDoxology && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText({ provText: doxology, localPrefLanguage, marker: 'cant' + selectedMode })}
+                    {formatPrayerText({ provText: doxology, localPrefLanguage, marker: 'cant' + selectedMode, widthForHymns })}
                 </div>
             )}
         </>
@@ -615,6 +657,9 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     const maxLineLength = calculateMaxLineLength(text);
     const OAntiphon = findOAntiphon(texts.laudes?.wt);
+
+    // Zu breite °-Wortgruppen auflösen, bevor ° in geschützte Leerzeichen umgewandelt wird
+    text = releaseOverlongWordGroups(text, widthForHymns);
 
     text = text
         .replace('O-AntiphonVomTag', OAntiphon.dt)

@@ -25,6 +25,7 @@ import {
   formatPsalm as extFormatPsalm,
   formatDirectoryText,
   formatPrayerText as extFormatPrayerText,
+  measureVisibleWidth,
 } from "./dataHandlers/TextFormatter.js";
 import { NavigationButtons } from "./ui/NavigationButtons.js";
 import PersonalSettings from "./utils/PersonalSettings.js";
@@ -35,6 +36,7 @@ import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
 import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
 import { sourceKeys } from './selectors/SourceSelector.js';
+import { useAvailableWidthInEm } from './utils/useAvailableWidthInEm.js';
 
 const FONT_FAMILIES = [
   { key: "cambria", label: "Cambria", value: "cambria, georgia, serif" },
@@ -390,6 +392,10 @@ const PrayerTextDisplay = ({
   addDebugLog,
   skipPersonal = false
 }) => {
+  // Tatsächliche Breite des Textfeldes in em; bis zur ersten Messung gilt der Wert aus der Fensterbreite
+  const textBoxRef = useRef(null);
+  const measuredTextWidth = useAvailableWidthInEm(textBoxRef, widthForHymns);
+  const availableTextWidth = measuredTextWidth ?? widthForHymns;
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
   const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
@@ -507,12 +513,12 @@ const PrayerTextDisplay = ({
   const formatPrayerText = (provText, marker = "") => {
     return extFormatPrayerText({
       provText, localPrefLanguage, localPrefLatin, marker, hour, texts,
-      prefSource, widthForHymns
+      prefSource, widthForHymns: availableTextWidth
     });
   };
 
   const formatPsalm = (psalm, num = -1, modeOverride = null, antIsFirst = false) => {
-    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst, showCantMarkers);
+    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst, showCantMarkers, availableTextWidth);
   };
 
   const ResponsorialDisplay = (role, text) => (
@@ -523,10 +529,27 @@ const PrayerTextDisplay = ({
   );
 
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
-    // 1. Wort des Responsums soll nicht am Zeilenende allein stehen,
-    // außer eine Wortgruppe ist schon durch ° gekennzeichnet
-    if (resp2 && !resp2.includes('°'))
-      resp2 = resp2.replace(/ /, '°');
+    // Zeilenumbruch im zweiten Teil des Responsoriums (resp2) steuern
+    if (resp2) {
+      // Von Hand ganz zu einer Wortgruppe zusammengefasste Texte (nur °, kein Leerzeichen) zunächst
+      // auflösen: Ob sie zusammengehalten werden, entscheidet unten die tatsächliche Spaltenbreite.
+      if (!resp2.includes(' '))
+        resp2 = resp2.replace(/°/g, ' ');
+
+      // Texte mit einzelnen, von Hand gesetzten Wortgruppen bleiben unverändert
+      if (!resp2.includes('°')) {
+        // Zeilenbreite: „ * “ vor resp2 und (außer in der Lesehore) „ – R“ danach;
+        // links daneben steht die Spalte „R  “, die von der Textbreite abgeht
+        const lineWidth = measureVisibleWidth(' * ' + resp2.replace(/_lat|_neu/g, ''))
+          + (hour !== 'lesehore' ? measureVisibleWidth(' – R') : 0);
+        const columnWidth = availableTextWidth - measureVisibleWidth('R  ');
+        resp2 = availableTextWidth && lineWidth <= columnWidth
+          // passt in eine Zeile: ganz zusammenhalten
+          ? resp2.replace(/ /g, '°')
+          // zu lang: nur verhindern, dass das 1. Wort allein am Ende der vorhergehenden Zeile steht
+          : resp2.replace(/ /, '°');
+      }
+    }
 
     const doxology = resp3?.endsWith("_lat")
       ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
@@ -722,7 +745,7 @@ const PrayerTextDisplay = ({
           )}
         </div>
       </div>
-      <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+      <div ref={textBoxRef} className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
         <PreliminaryNotes />
         {ordinariumTexts.aperi && showKomplet && (
           <div className="mt-0 mb-0">
