@@ -10967,7 +10967,7 @@ export const brevierData = {
           "ant1": "Herr, in deiner Huld bring mir Hilfe.^HALLo",
           "ant2": "Für den Bedrückten wird der Herr zur Burg, zur Burg in Zeiten der Not.^HALLo",
           "ant3": "Deinen Ruhm will ich verkünden in den Toren von Zion.^HALLo",
-          "versikel0": "Gib mir Einsicht, o°Herr, und°ich°folge deiner Weisung.",
+          "versikel0": "Gib mir Einsicht, o°Herr, und°ich°folge°deiner°Weisung.",
           "versikel1": "Ich halte mich an sie aus°ganzem°Herzen.",
           "ant1_lat": "Salvum me fac, Dómine, propter misericórdiam tuam.^ALLo",
           "ant2_lat": "Factus est Dóminus refúgium páuperi in tribulatióne.^ALLo",
