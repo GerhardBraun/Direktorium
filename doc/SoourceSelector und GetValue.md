@@ -99,3 +99,32 @@ alles vom Wochentag (außer am 11. Juni und am 2. Oktober)
 |Kurzlesung |Wt |
 |Versikel|Wt|
 |Oration |immer *eigen*|
+
+# Auswertung und Regeln
+## wirklich eigene Psalmen
+|Datum | Rang | Horen | Bem. zu Psalmen | Bem. zu übrigen Horen
+| 01-01 | 5 | nur Lh | wie Comm Maria, aber psalm3=99 | übrigen Horen: wie Weihnachtsoktav
+| 01-06 | 5 | alle außer Ld, Vig | Vp1 und Vp wie `j-1-0` | Vigil: wie Weihnachtszeit
+| j-1-0 | 4 | alle außer Ld, TSN | Vp1 und Vp wie `01-06`| TSN: So III. bzw. II. Woche
+| 02-02 | 4 | alle außer Ld, TSN | wie Weihnachten, Vig wie `03-25`: wie Weihn, aber Jes 9 statt Jes 40 | TSN: Ps vom Wt/So I
+| 03-25 | 5 | alle außer Ld, TSN | wie Weihnachten, Vig wie `02-02`: wie Weihn, aber Jes 9 statt Jes 40 | TSN: ErgPs
+| 05-40 | 5 | alle außer Ld
+| 05-60 | 5 | Vp1, Lh, Vp | --- | Vig: Jahreskreis; TSN: So I. Woche
+| 05-64 | 5 | alle außer Ld, TSN | --- | TSN: ErgPs (am So: So I. Woche)
+| 05-65 | 5 | alle außer Ld, TSN | --- | TSN: ErgPs
+| 08-06 | 4 | alle außer Ld, TSN | --- | TSN: Ps vom Wt/So I. Woche?
+| 09-14 | 4 | alle außer Ld, TSN | --- | TSN: Ps vom Wt/So I. Woche?
+
+## Commune-Psalmen vorgesehen bei eigenen Antiphonen
+### Hochfeste
+| 03-19 | Josef | Mann
+| 05-01 | Josef, der Arbeiter | Mann (wie `03-19`)
+| 06-24 | Johannes | Mann
+| 06-29 | Peter und Paul | Apostel
+### Gedenktage (LuV)
+| 01-21 | Agnes | Märtyrer
+| 08-29 | Enth. Joh.d.T. | Märtyrer
+### Gedenktage (LuV) OHNE eigene Antiphonen
+*auch Antiphonen aus dem Commune (!hasEigAnt)*
+11.06. Barnabas
+26.07. Joachim und Anna
