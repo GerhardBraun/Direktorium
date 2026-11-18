@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 import { namesOfBooks } from '../data/NamesOfBooks.ts';
+import SectionHeader from './SectionHeader.js';
 
 const LectureSelector = ({
     hour,
@@ -9,7 +10,7 @@ const LectureSelector = ({
     localPrefLanguage = '',
     formatPrayerText,
     getValue,
-    SectionHeader,
+    headerProps,
     ComposeResponse,
     advResp = ''
 }) => {
@@ -401,7 +402,7 @@ const LectureSelector = ({
             {/* ERSTE LESUNG */}
             {hasFirstLecture && (
                 <div className="mb-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                         title={hour === "vigil" ? "EVANGELIUM" :
                             hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
                         field="les_text"
@@ -444,7 +445,7 @@ const LectureSelector = ({
             {hasSecondLecture && !['lesehore', 'vigil'].includes(hour)
                 && mariendonk && (
                     <div className="mb-0">
-                        <SectionHeader
+                        <SectionHeader {...headerProps}
                             title="VÄTERLESUNG"
                             field="patr_text"
                             askContinuous={true}
@@ -464,7 +465,7 @@ const LectureSelector = ({
             {/* RESPONSORIUM zur ersten Lesung */}
             {selected("resp1") && (
                 <div className="mb-0 whitespace-pre-wrap">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                         title="RESPONSORIUM"
                         field="resp1"
                     />
@@ -485,7 +486,7 @@ const LectureSelector = ({
             {/* ZWEITE LESUNG */}
             {hasSecondLecture && ['lesehore', 'vigil'].includes(hour) && (
                 <div className="mb-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                         title="ZWEITE LESUNG"
                         field="patr_text"
                         askContinuous={true}
@@ -509,7 +510,7 @@ const LectureSelector = ({
             {/* RESPONSORIUM zur zweiten Lesung */}
             {selected("patr_resp1") && !advResp && (
                 <div className="mb-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                         title="RESPONSORIUM"
                         field="resp1"
                     />

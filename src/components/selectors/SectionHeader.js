@@ -6,7 +6,7 @@ import { resolveReference } from '../dataHandlers/TextFormatter.js';
 
 const SectionHeader = ({
     title,
-    provField,
+    field: provField,   // wird unten ggf. zu field umgedeutet (Invitatorium: psalm1 → ant0)
     askContinuous,
     onSelectHour,
     texts,

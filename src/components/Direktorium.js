@@ -13,7 +13,7 @@ import {
 } from "./ui/tooltip.jsx";
 import LanguageProgress from "./ui/languageProgress.js";
 import SourceSelector from "./selectors/SourceSelector.js";
-import ExtSectionHeader from "./selectors/SectionHeader.js";
+import SectionHeader from "./selectors/SectionHeader.js";
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
@@ -460,44 +460,18 @@ const PrayerTextDisplay = ({
       field,
     })
   }
-  // Component for section headers with source indicators
-  const SectionHeader = (props) => {
-    return (
-      <ExtSectionHeader
-        key={Date.now()}
-        {...props}
-        provField={props.field}
-        onSelectHour={onSelectHour}
-        texts={texts}
-        hour={hour}
-        addDebugLog={addDebugLog}
-        prefSource={prefSource}
-        prefSollemnity={prefSollemnity}
-        localPrefKomplet={localPrefKomplet}
-        localPrefComm={localPrefComm}
-        localPrefPsalmsWt={localPrefPsalmsWt}
-        localPrefErgPs={localPrefErgPs}
-        localPrefContinuous={localPrefContinuous}
-        localPrefInv={localPrefInv}
-        localPrefLatin={localPrefLatin}
-        localPrefLanguage={localPrefLanguage}
-        localPrefLongform={localPrefLongform}
-        ommitConfiteor={ommitConfiteor}
-        alternativePsalms={alternativePsalms}
-        showCantMarkers={showCantMarkers}
-        setLocalPrefLatin={setLocalPrefLatin}
-        setLocalPrefLanguage={setLocalPrefLanguage}
-        setShowCantMarkers={setShowCantMarkers}
-        setLocalPrefInv={setLocalPrefInv}
-        setLocalPrefPsalmsWt={setLocalPrefPsalmsWt}
-        setLocalPrefErgPs={setLocalPrefErgPs}
-        setLocalPrefContinuous={setLocalPrefContinuous}
-        setLocalPrefComm={setLocalPrefComm}
-        setLocalPrefLongform={setLocalPrefLongform}
-        setOmmitConfiteor={setOmmitConfiteor}
-        setAlternativePsalms={setAlternativePsalms}
-      />
-    );
+  // Gemeinsame Props aller Abschnittsüberschriften; Aufruf: <SectionHeader {...headerProps} title=… field=… />
+  // (bewusst kein Wrapper-Component innerhalb von PrayerTextDisplay: der wäre bei jedem Rendern
+  // ein neuer Komponententyp, und React würde alle Überschriften jedes Mal komplett neu aufbauen)
+  const headerProps = {
+    onSelectHour, texts, hour, addDebugLog,
+    prefSource, prefSollemnity,
+    localPrefKomplet, localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous,
+    localPrefInv, localPrefLatin, localPrefLanguage, localPrefLongform,
+    ommitConfiteor, alternativePsalms, showCantMarkers,
+    setLocalPrefLatin, setLocalPrefLanguage, setShowCantMarkers, setLocalPrefInv,
+    setLocalPrefPsalmsWt, setLocalPrefErgPs, setLocalPrefContinuous, setLocalPrefComm,
+    setLocalPrefLongform, setOmmitConfiteor, setAlternativePsalms,
   };
 
 
@@ -749,7 +723,7 @@ const PrayerTextDisplay = ({
         <PreliminaryNotes />
         {ordinariumTexts.aperi && showKomplet && (
           <div className="mt-0 mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="VORBEREITUNGSGEBET"
               field="versikel0"
             />
@@ -759,7 +733,7 @@ const PrayerTextDisplay = ({
 
         {ordinariumTexts.opening[0] && showKomplet && (
           <div className="mt-0 mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="ERÖFFNUNG"
               field="versikel0"
             />
@@ -779,7 +753,7 @@ const PrayerTextDisplay = ({
 
         {ordinariumTexts.confiteor && showKomplet && (
           <div>
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="SCHULDBEKENNTNIS"
               field="versikel0"
             />
@@ -788,7 +762,7 @@ const PrayerTextDisplay = ({
                 <div>
                   {formatPrayerText(ordinariumTexts.confiteor)}
                 </div>
-                <SectionHeader
+                <SectionHeader {...headerProps}
                   title="VERGEBUNGSBITTE"
                   field="versikel0" />
                 {ResponsorialDisplay("V", ordinariumTexts.confiteor_v)}
@@ -802,7 +776,7 @@ const PrayerTextDisplay = ({
 
         {getValue("hymn_1") && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="HYMNUS"
               field="hymn_1"
               onSelectHour={onSelectHour}
@@ -823,7 +797,7 @@ const PrayerTextDisplay = ({
 
         {(getValue("psalm1") || hour === "invitatorium") && (
           <div className="my-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title={"PSALMODIE"}
               field="psalm1"
             />
@@ -850,7 +824,7 @@ const PrayerTextDisplay = ({
                 return (
                   <div key={num}>
                     {/* Psalmauswahl direkt vor dem Psalm (bleibt leer, wenn keine Auswahl besteht) */}
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                       title="psalmSelector"
                       field={`psalm${num}`}
                     />
@@ -869,7 +843,7 @@ const PrayerTextDisplay = ({
         )}
         {getValue("versikel0") && (
           <div>
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="VERSIKEL"
               field="versikel0" />
             {getValue("versikel0") && ResponsorialDisplay("V", getValue("versikel0"))}
@@ -885,7 +859,7 @@ const PrayerTextDisplay = ({
           localPrefLanguage={localPrefLanguage}
           formatPrayerText={formatPrayerText}
           getValue={getValue}
-          SectionHeader={SectionHeader}
+          headerProps={headerProps}
           ComposeResponse={ComposeResponse}
           advResp={advResp}
         />
@@ -893,7 +867,7 @@ const PrayerTextDisplay = ({
         {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}
         {advResp && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="RESPONSORIUM"
               field="resp1" />
             <div className="flex gap-0">
@@ -953,7 +927,7 @@ const PrayerTextDisplay = ({
 
         {ordinariumTexts.cant && showKomplet && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title={ordinariumTexts.titel}
               field="antev"
             />
@@ -974,7 +948,7 @@ const PrayerTextDisplay = ({
         )}
         {getValue("bitten") && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title={"BITTEN"}
               field="bitten"
             />
@@ -1003,7 +977,7 @@ const PrayerTextDisplay = ({
 
         {ordinariumTexts.vu && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title={"VATERUNSER"}
               field=""
             />
@@ -1021,7 +995,7 @@ const PrayerTextDisplay = ({
 
         {hour !== "invitatorium" && hour !== "komplet" && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="ORATION"
               field="oration" />
             {getValue("oration") && (
@@ -1037,7 +1011,7 @@ const PrayerTextDisplay = ({
 
         {getValue("oration_komplet") && (
           <div className="mb-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="ORATION"
               field="oration_komplet" />
             <div>{formatPrayerText(getValue("oration_komplet"))}</div>
@@ -1069,7 +1043,7 @@ const PrayerTextDisplay = ({
 
                 {getValue("c_patr_text") && useCommemoration && (
                   <div className="mb-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                       title="ZWEITE LESUNG"
                       field="patr_text" />
                     <div>
@@ -1084,7 +1058,7 @@ const PrayerTextDisplay = ({
 
                 {getValue("c_patr_resp1") && useCommemoration && (
                   <div className="mb-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                       title="RESPONSORIUM"
                       field="resp1" />
                     <ComposeResponse
@@ -1098,7 +1072,7 @@ const PrayerTextDisplay = ({
 
                 {getValue("c_antev") && useCommemoration && (
                   <div className="mx-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                       title={`${ordinariumTexts.titel}-ANTIPHON`}
                       field="antev"
                     />
@@ -1110,7 +1084,7 @@ const PrayerTextDisplay = ({
 
                 {getValue("c_oration") && useCommemoration && (
                   <div className="mx-0">
-                    <SectionHeader
+                    <SectionHeader {...headerProps}
                       title="ORATION"
                       field="oration" />
                     <div className="whitespace-pre-wrap">
@@ -1130,7 +1104,7 @@ const PrayerTextDisplay = ({
 
         {ordinariumTexts.closing[0] && showKomplet && (
           <div className="mb-0 mt-0">
-            <SectionHeader
+            <SectionHeader {...headerProps}
               title="ABSCHLUSS"
               field="versikel0"
             />
@@ -1146,7 +1120,7 @@ const PrayerTextDisplay = ({
           || (hour === 'vesper' && showMarAntInVesper)
         ) && (
             <div className="mb-0">
-              <SectionHeader
+              <SectionHeader {...headerProps}
                 title="MARIANISCHE ANTIPHON"
                 field="marant"
               />
