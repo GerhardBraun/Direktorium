@@ -213,22 +213,26 @@ export const getValue = ({
     // an Festen: Ant und Ps in Kleinen Horen vom Wt, nicht aus dem Commune,
     //    andere Horen wie am Hochfest
     if (rank.date < 3  // an Gedenktagen
-        // Lesehore: nur Hymnus und Oration ggf. Commune
-        && ((hour === 'lesehore' && field !== 'oration')
-            // Laudes und Vesper: Psalmodie immer vom Wochentag
+        // Lesehore und Kleine Horen: ganz vom Wt
+        // (Hymnus der Lesehore kann im HymnSelector aus dem Commune genommen werden)
+        && (hour === 'lesehore' || isTSN
+            // Laudes und Vesper: Psalmodie immer vom Wochentag,
+            // das Übrige kann vom Commune genommen werden
             || (['laudes', 'vesper'].includes(hour) && isPsalmodie)
-            // Kleine Horen: ganz vom Wt
-            || (isTSN && !isMemorialWithTSN))
-    ) skipCommune = true
+        )) skipCommune = true
     // an LuV-Gedenktagen und Gedenktagen mit eigenen TSN-Texten
     // wird die entsprechende Hore wie an einem Fest gebetet: Eigentexte oder Commune
-    skipCommune = !(isMemorialWithLuV || isMemorialWithTSN)
-    // an Festen: Ant und Ps in Kleinen Horen vom Wt
+    // Ausnahme: Ant und Psalmen in den Kleinen Horen;
+    // das ist abgesichert in isMemorialWithTSN und durch die nächste Abfrage
+    if (isMemorialWithLuV || isMemorialWithTSN
+    ) skipCommune = false
+    // an Festen und Gedenktagen: Ant und Ps in Kleinen Horen vom Wt
     if (rank.date < 5 && isTSN && isPsalmodie
         // außer an Allerseelen, wenn werktags:
-        // Ant und Ps in Kleinen Horen aus dem Commune
+        // dann Ant und Ps in Kleinen Horen aus dem Commune
         && !(allSouls && dayOfWeek > 0)
     ) skipCommune = true
+    // an Hochfesten und bei Feier als Hochfest: nur Eigen- oder Commune-Texte, nicht vom Wt
     if (isSollemnity) skipCommune = false
     if (isPsalmodie) {
         // vorgesehene Commune-Psalmen und -Antiphonen können immer
@@ -241,34 +245,36 @@ export const getValue = ({
         // console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
     }
 
+    // Einlesen der Eigentexte
     const prefTexts = texts[hour]?.[prefSource] || texts[hour]?.pers
+    // Auslesen der Commune-Texte, wenn das Commune nicht übersprungen werden soll
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
-            || (prefSollemnity && localPrefComm === 0)
-        )
+            || (prefSollemnity && localPrefComm === 0))
             prefCommTexts = prefTexts?.com1
         if (localPrefComm === 2)
             prefCommTexts = prefTexts?.com2
     }
 
-    if ((!rank?.isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+    // Tage mit Kommemoration und Kl. Horen an Gedenktagen werden ausgeschlossen:
+    // nur wt-Werte, keine Eigen- oder Commune-Texte
+    // (Ausnahme: Gedenktage mit eigenen TSN-Texten, die wie ein Fest gebetet werden)
+    if ((!rank?.isCommemoration
         && !(rank.date < 3 && isTSN && !isMemorialWithTSN))
         || isSollemnity) {
 
-        //Sonderfall Wochentagspsalmen
+        // Sonderfall Psalmen aus dem Vierwochenpsalter (localPrefPsalmsWt)
         if (localPrefPsalmsWt && field.startsWith('psalm') &&
             hour !== 'invitatorium'
         ) return result(texts[hour]?.wt)
 
-        //Sonderfall Bahnlesung
-        if (localPrefContinuous && hour === 'lesehore') {
-            if (/^(patr_)/.test(field) ||
-                /^(les_|resp)/.test(field))
-                return result(texts[hour]?.continuous ?? texts[hour]?.wt)
-        }
+        // Sonderfall Bahnlesung (localPrefContinuous)
+        if (localPrefContinuous && hour === 'lesehore'
+            && /^(les_|patr_|resp)/.test(field)
+        ) return result(texts[hour]?.continuous ?? texts[hour]?.wt)
 
-        //Sonderfall Antiphonen: entweder ant0 oder ant1-3
+        // Sonderfall Antiphonen: entweder ant0 oder ant1-3
         if (languageField === `ant0${localPrefLanguage}` &&
             (prefTexts?.[`ant1${isForeignLanguage}`] || prefCommTexts?.[`ant1${isForeignLanguage}`])
         ) return null
@@ -285,7 +291,7 @@ export const getValue = ({
         if (selectorMatch && prefTexts?.[`${selectorMatch[1]}_text`] && !prefTexts?.[field])
             return null
 
-        // 1. Prüfe zuerst prefSource
+        // 1. Prüfe zuerst prefSource (Eigentexte)
         // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
         if (result(prefTexts) || result(prefCommTexts))
             return result(prefTexts) || result(prefCommTexts)
