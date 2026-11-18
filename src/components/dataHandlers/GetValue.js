@@ -114,11 +114,14 @@ export const getValue = ({
         return readValue(field)
     }
 
+    // Verarbeitet besondere Marker:
+    // c_ für Felder zur Kommemoration,
+    // comm: bei fehlenden lat. Orationen der Eigenfeiern des Regionalkalenders und der Diözesankalender
     const result = (data) => {
-        const standField = field.replace(/^c_/, '');
-        const langField = languageField.replace(/^c_/, '');
-        const standardResult = data?.[standField] || null;
-        const languageResult = data?.[langField] || null;
+        const standardField = field.replace(/^c_/, '');
+        const languageField = languageField.replace(/^c_/, '');
+        const standardResult = data?.[standardField] || null;
+        const languageResult = data?.[languageField] || null;
 
         if (typeof languageResult === 'string' &&
             languageResult?.startsWith('comm:')) {
@@ -138,11 +141,17 @@ export const getValue = ({
         return standardResult;
     }
 
-    const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
-
-    // Gedenktage mit Eigentexten für die Kleinen Horen:
-    // Barnabas und Schutzengel
-    const memorialWithTSN = ['06-11', '10-02'].includes(texts.date.mmdd)
+    // Gedenktage mit erweiterten Eigentexten
+    // Merkmal: eigene Kurzlesung (außer am 11.06. Barnabas: alles aus dem Commune):
+    // Die betreffenden Horen werden wie bei einem Fest behandelt:
+    // Commune-Texte, nicht Wt > skipCommune = false
+    // 21.01., 01.05., 11.06., 26.07., 29.08., 15.09., 02.10., 07.10., 11.11.
+    const isMemorialWithEig = (rank.date < 3 && texts[hour][prefSource]?.les_text)
+        || texts.date.mmdd === '06-11';
+    // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
+    const isMemorialWithLuV = isMemorialWithEig && ['laudes', 'vesper'].includes(hour);
+    // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
+    const isMemorialWithTSN = isMemorialWithEig && isTSN && !isPsalmodie;
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && texts?.rank?.hasErsteVesper)
@@ -198,17 +207,33 @@ export const getValue = ({
     }
 
     // Prüfe, ob Commune übersprungen werden soll
+    // Grundentscheidung: Wenn vom Wochentag gebetet wird, dann keine Commune-Texte
     let skipCommune = wtRankToCompare > 0 && wtRankToCompare >= rank.date;
+    // Grundregel: an Gedenktagen nur Eigentexte und Wt, kein Commune;
+    // an Hochfesten nur Eigentexte und Commune, kein Wt;
+    // an Festen: Ant und Ps in Kleinen Horen vom Wt, nicht aus dem Commune,
+    //    andere Horen wie am Hochfest
     if (rank.date < 3  // an Gedenktagen
-        && ((hour === 'lesehore' && field !== 'oration') // Lesehore: nur Hymnus und Oration ggf. Commune
-            || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie
-            || (isTSN && !memorialWithTSN)) // Kleine Horen: ganz vom Wt
+        // Lesehore: nur Hymnus und Oration ggf. Commune
+        && ((hour === 'lesehore' && field !== 'oration')
+            // Laudes und Vesper: Psalmodie immer vom Wochentag
+            || (['laudes', 'vesper'].includes(hour) && isPsalmodie)
+            // Kleine Horen: ganz vom Wt
+            || (isTSN && !isMemorialWithTSN))
     ) skipCommune = true
-    if (rank.date < 5 && isTSN && isPsalmodie   // an Festen: Ant und Ps in Kleinen Horen vom Wt
-        && (!allSouls && dayOfWeek > 0)  // außer an Allerseelen, wenn werktags: Ant und Ps in Kleinen Horen aus dem Commune
+    //  an LuV-Gedenktagen und Gedenktagen mit eigenen TSN-Texten (06-11 und 10-02)
+    // wird die entsprechende Hore wie an einem Fest gebetet: Eigentexte oder Commune
+    skipCommune = !(isMemorialWithLuV || isMemorialWithTSN)
+    // an Festen: Ant und Ps in Kleinen Horen vom Wt
+    if (rank.date < 5 && isTSN && isPsalmodie
+        // außer an Allerseelen, wenn werktags:
+        // Ant und Ps in Kleinen Horen aus dem Commune
+        && !(allSouls && dayOfWeek > 0)
     ) skipCommune = true
     if (isSollemnity) skipCommune = false
     if (isPsalmodie) {
+        // vorgesehene Commune-Psalmen und -Antiphonen können immer
+        // zugunsten des Vierwochenpsalters überspielt werden (localPrefPsalmsWt)
         if (localPrefPsalmsWt) {
             skipCommune = true
             if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt')
@@ -229,7 +254,7 @@ export const getValue = ({
     }
 
     if ((!rank?.isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
-        && !(rank.date < 3 && isTSN && !memorialWithTSN))
+        && !(rank.date < 3 && isTSN && !isMemorialWithTSN))
         || isSollemnity) {
 
         //Sonderfall Wochentagspsalmen

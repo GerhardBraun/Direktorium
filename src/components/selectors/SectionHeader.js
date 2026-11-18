@@ -40,10 +40,11 @@ const SectionHeader = ({
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
     const rank = texts?.rank || { wt: 0, date: 0 };
+    const isTSN = ["terz", "sext", "non"].includes(hour);
 
-    // Prüfe ob Terz/Sext/Non identische Psalmodie haben
+    // Prüfe, ob Terz/Sext/Non identische Psalmodie haben
     const isIdenticalTerzSext = useMemo(() => {
-        if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE')
+        if (!isTSN || title !== 'PSALMODIE')
             return false;
 
         const getValueTS = (hour, field) => {
@@ -71,12 +72,12 @@ const SectionHeader = ({
                 return false;
         }
         return true;
-    }, [hour, title, texts, prefSource, prefSollemnity, localPrefComm,
+    }, [isTSN, title, texts, prefSource, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
 
-    // Prüft, ob mindestens einer der für diese Psalmodie vorgesehenen Psalmen (normalerweise 3,
-    // in Invitatorium und Komplet 1 bzw. ggf. 2) Cant-Marker enthält; nur dann lohnt sich der
-    // cant-Schnellschalter (s. showCantToggle unten).
+    // Prüfe, ob mindestens einer der für diese Psalmodie vorgesehenen Psalmen
+    // (normalerweise 3, in Invitatorium und Komplet 1 bzw. ggf. 2)
+    // Cant-Marker enthält; nur dann lohnt sich der cant-Schnellschalter (s. showCantToggle unten).
     const hasAnnotatedPsalm = useMemo(() => {
         if (title !== 'PSALMODIE') return true;
 
@@ -110,7 +111,7 @@ const SectionHeader = ({
     //  VERSIKEL-Header immer ohne Buttons
     if (title === 'VERSIKEL' ||
         // In den Kleinen Horen wird RESPONSORIUM in VERSIKEL umbenannt
-        (["terz", "sext", "non"].includes(hour) && title === 'RESPONSORIUM'))
+        (isTSN && title === 'RESPONSORIUM'))
         return <h2 className="prayer-heading" aria-hidden="true">VERSIKEL</h2>;
 
     // Psalmauswahl: Header ohne Titel direkt vor dem betreffenden Psalm (field = psalm1/2/3),
@@ -159,24 +160,28 @@ const SectionHeader = ({
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSource]?.[field];
         const hasWt = texts[hour].wt?.[field];
+        // eigene Kurzlesung ist Merkmal für Gedenktage mit LuV
+        // und Gedenktage mit eigenen TSN-Texten (06-11 und 10-02)
+        const hasEigLesung = rank.date < 2 && texts[hour][prefSource]?.les_text;
+        // alternative Psalmen an Aschermittwoch und Gründonnerstag (Fr der III. Woche)
         const hasAltPsalms = !!texts[hour].alt?.[field];
-        const hasComm1 = texts[hour][prefSource]?.com1?.[field];
-        const hasComm2 = texts[hour][prefSource]?.com2?.[field];
-        const nameComm1 =
-            (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.commButton)
+        // labelCommN enthält zugleich die Button-Beschriftung des jeweiligen Commune
+        // (nie leer dank Rückfallwert '1'/'2'), sonst undefined
+        const labelComm1 = texts[hour][prefSource]?.com1?.[field]
+            && ((hour === 'vesper' && rank?.hasErsteVesper && texts?.vesper?.commButton)
                 ? texts.vesper.commButton
-                : texts.laudes[prefSource]?.com1?.button || '1';
-        const nameComm2 = texts.laudes[prefSource]?.com2?.button || '2';
+                : texts.laudes[prefSource]?.com1?.button || '1');
+        const labelComm2 = texts[hour][prefSource]?.com2?.[field]
+            && (texts.laudes[prefSource]?.com2?.button || '2');
 
         const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
-        const showSources = wtRankToCompare === 0 || rank.date > wtRankToCompare;
+        const showComm = wtRankToCompare === 0 || rank.date > wtRankToCompare;
 
         return {
             hasEig, hasWt, hasAltPsalms,
-            hasComm1, hasComm2,
-            nameComm1, nameComm2,
-            showSources: !hasEig && hasWt && hasComm1 && showSources,
-            showBothComm: hasComm1 && hasComm2
+            labelComm1, labelComm2,
+            showComm: !hasEig && hasWt && labelComm1 && showComm,
+            showBothComm: labelComm1 && labelComm2
         };
     };
 
@@ -242,9 +247,9 @@ const SectionHeader = ({
 
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
-    const isCommemoration = texts?.rank?.isCommemoration || false
-    const { hasEig, hasWt, hasAltPsalms, nameComm1, nameComm2,
-        showSources, showBothComm } = checkSources(field);
+    const isCommemoration = rank?.isCommemoration || false
+    const { hasEig, hasWt, hasAltPsalms, labelComm1, labelComm2,
+        showComm, showBothComm } = checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     // cant-Schnellschalter: bei jeder Psalmodie-Überschrift (auch Invitatorium/Komplet, anders als isPsalmodie
@@ -254,8 +259,13 @@ const SectionHeader = ({
     const showCantToggle = (title === 'PSALMODIE' && hasAnnotatedPsalm)
         || ['BENEDICTUS', 'MAGNIFICAT', 'NUNC DIMITTIS'].includes(title);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
-    const showPsalmsWt = hasWt && isPsalmodie
-        && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
+
+    // Psalmen des Vierwochenpsalters werden als Alternative angeboten,
+    // wenn der Festtag eigene Psalmen hat
+    // oder die Psalmen vom So der I. Woche vorgesehen sind;
+    // die Alternative gibt es aber nicht in den Sonntagslaudes (Ps 63 oder 118 als 1. Psalm)
+    const showPsalmsWt = isPsalmodie && hasWt
+        && (hasEig || (hour === 'laudes' && rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSource]?.ant0 || texts[hour][prefSource]?.ant1);
     const showContinuous = askContinuous && hour === 'lesehore' && !isCommemoration
@@ -267,12 +277,11 @@ const SectionHeader = ({
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isLesung = field.includes('_text') && hour === 'lesehore';
     const isContinuous = isLesung && localPrefContinuous;
-    const isTSN = ["terz", "sext", "non"].includes(hour);
     const showErgPs = isTSN && isPsalmodie
-        && !texts?.rank?.useComplementaryPsalms
+        && !rank?.useComplementaryPsalms
         && !(prefSollemnity === 'kirchw' || rank.date === 5);
     const showErgPsWt = isTSN && isPsalmodie
-        && texts?.rank?.useComplementaryPsalms;
+        && rank?.useComplementaryPsalms;
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
         && !(isPsalmodie && isIdenticalTerzSext && !localPrefErgPs);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
@@ -326,7 +335,7 @@ const SectionHeader = ({
     if (isCommemoration) skipCommune = true
 
     if (prefSollemnity === 'soll' ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom Wt
-        (texts?.rank?.hasErsteVesper && hour === 'vesper'))
+        (rank?.hasErsteVesper && hour === 'vesper'))
         skipCommune = false;
 
     if (prefSollemnity && !showBothComm && !isErsteLesung)
@@ -339,7 +348,7 @@ const SectionHeader = ({
         skipCommune = true;
 
     // einfacher Header ohne Buttons
-    if (!invPsalms && !showSources && !showLanguageToggle && !showLongformToggle
+    if (!invPsalms && !showComm && !showLanguageToggle && !showLongformToggle
         && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs && !showErgPsWt && !showAltPsalms
         && !showCantToggle
         && !["SCHULDBEKENNTNIS"].includes(title)
@@ -491,7 +500,7 @@ const SectionHeader = ({
                     <button
                         onClick={() => setLocalPrefErgPs(true)}
                         className={localPrefErgPs ? 'underline' : ''}
-                    >
+                    >isTSN
                         ErgPs
                     </button>
                 </ButtonGroup>
@@ -513,7 +522,7 @@ const SectionHeader = ({
                     </button>
                 </ButtonGroup>
             )}
-            {showSources && !skipCommune && !showPsalmsWt && (
+            {showComm && !skipCommune && !showPsalmsWt && (
                 <ButtonGroup>
                     <button
                         onClick={() => {
@@ -526,7 +535,7 @@ const SectionHeader = ({
                         className={(!isPsalmsWt && !isContinuous &&
                             localPrefComm === 1) ? 'underline' : ''}
                     >
-                        Comm {nameComm1}
+                        Comm {labelComm1}
                     </button>
                     {showBothComm && (
                         <>
@@ -542,7 +551,7 @@ const SectionHeader = ({
                                 className={(!isPsalmsWt && !isContinuous &&
                                     localPrefComm === 2) ? 'underline' : ''}
                             >
-                                {nameComm2}
+                                {labelComm2}
                             </button>
 
                         </>

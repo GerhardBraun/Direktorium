@@ -43,10 +43,38 @@ Im folgenden Regelwerk fehlen die Elemente, die nicht durch getValue gesteuert w
 
 ## Stundengebet an Gedenktagen (geboten oder nichtgeboten)
 Grundregeln:
-1. Wo es Eigentexte gibt, werden diese genommen (mit den üblichen Möglichkeiten, sie zu überspielen).
+1. Wo es Eigentexte gibt, werden diese genommen.
 2. Sonst wird grundsätzlich alles vom Wochentag genommen.
 3. Der User kann nach Belieben für einzelne Elemente die Commune-Texte bevorzugen.
-Bei diesen Elementen steht in der folgenden Aufstellung (Wt || Comm); wo "immer vom Wochentag" steht, ist diese Möglichkeit ausgeschlossen.
+
+### Eigentexte an Gedenktagen
+1. Alle Gedenktage haben Eigentexte für
+- Oration in Lesehore, Laudes und Vesper (in TSN nur am 11.06. und 02.10.)
+- Zweite Lesung mit Responsorium in der Lesehore
+2. **BuM**: Vielen Gedenktage haben zusätzlich eine eigene Benedictus- und Magnificat-Antiphon.
+3. **LuV**: Einige Gedenktage haben zusätzlich weitere Eigentexte für Laudes und Vesper:
+- Antiphonen (dazu Commune-Psalmen)
+- Kurzlesung mit Responsorium
+- Bitten/Fürbitten
+Keine eigenen Antiphonen haben jedoch 11.06. und 26.07.; hier werden Antiphonen und Psalmen aus dem Commune genommen.
+4. **Inv eigen**: 11.06., 29.08., 15.09., 02.10., 11.11.
+5. **Hymnus zur Lesehore**:
+11.06. Wt oder Commune
+29.08. Comm (nicht Wt)
+15.09. eigen
+02.10. eigen
+11.11. eigen (=Commune)
+
+### nach Belieben Comm statt Wt wählbar (wenn nicht eigen)
+- Antiphon zum Invitatorium
+- Hymnus in Lesehore, Laudes und Vesper
+- Kurzlesung mit Responsorium in Ld und Vp
+- Benedictus-/Magnificat-Antiphon
+- Bitten/Fürbitten in Ld und Vp
+
+### Eigen- bzw. Commune-Texte, denen Wt vorgezogen werden kann
+- *showContinuos*, *localPrefContinuous*: Zweite Lesung mit Responsorium der Lesehore (Bahnlesung erhalten)
+- *showPsalmsWt*, *localPrefPsalmsWt*: Commune-Psalmen (und ggf. Commune-Antiphonen) bei **LuV** (Vierwochenpsalter erhalten)
 
 ### Invitatorium
 |Antiphon | *vom Wochentag oder aus dem Commune*, wenn nicht eigen;|
