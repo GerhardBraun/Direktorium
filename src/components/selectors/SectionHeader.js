@@ -500,7 +500,7 @@ const SectionHeader = ({
                     <button
                         onClick={() => setLocalPrefErgPs(true)}
                         className={localPrefErgPs ? 'underline' : ''}
-                    >isTSN
+                    >
                         ErgPs
                     </button>
                 </ButtonGroup>

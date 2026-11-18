@@ -35,8 +35,8 @@ const HymnSelector = ({ texts, hour, season,
                 if (texts?.swd.combined === 'j-34-6') return 'btn-violet';
                 if (texts?.date?.mmdd === '12-24') return 'btn-gold';
             }
-            if (texts?.laudes?.wt?.farbe === 'r' ||
-                (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
+            if (texts?.laudes?.wt?.farbe?.startsWith('r') ||
+                (hour === 'vesper' && texts?.vesper?.wt?.farbe?.startsWith('r'))) {
                 return 'btn-red';
             } else if (season === 'j' && !['j-1-0', 'j-34-0'].includes(texts?.swd.combined))
                 return 'btn-green';

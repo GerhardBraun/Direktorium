@@ -209,7 +209,7 @@ const SourceSelector = ({
                 <button
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
-                        ${obligButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
+                        ${obligButton.farbe?.startsWith('r') ? 'btn-red' : 'btn-white'}
                         ${(prefSource === 'oblig' && !useCommemoration && !disableButtons.oblig)
                             ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.oblig}

@@ -141,17 +141,16 @@ export const getValue = ({
         return standardResult;
     }
 
-    // Gedenktage mit erweiterten Eigentexten
-    // Merkmal: eigene Kurzlesung (außer am 11.06. Barnabas: alles aus dem Commune):
+    // Gedenktage mit erweiterten Eigentexten - Merkmal: 'LuV' bzw. 'TSN' im farbe-Feld:
     // Die betreffenden Horen werden wie bei einem Fest behandelt:
     // Commune-Texte, nicht Wt > skipCommune = false
     // 21.01., 01.05., 11.06., 26.07., 29.08., 15.09., 02.10., 07.10., 11.11.
-    const isMemorialWithEig = (rank.date < 3 && texts[hour][prefSource]?.les_text)
-        || texts.date.mmdd === '06-11';
+    // Ternär statt &&: im Nein-Fall undefined (nicht false), damit ?.includes() unten greift
+    const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
     // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
-    const isMemorialWithLuV = isMemorialWithEig && ['laudes', 'vesper'].includes(hour);
+    const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
-    const isMemorialWithTSN = isMemorialWithEig && isTSN && !isPsalmodie;
+    const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && texts?.rank?.hasErsteVesper)
@@ -174,12 +173,12 @@ export const getValue = ({
         (prefSollemnity || (isTSN && rank.date > 2 && rank.date > rank.wt)))
         return result(texts.laudes[prefSource]);
 
-    // Laudes-Festpsalmen und Ergänzungspsalmodie über rank:
+    // Laudes-Festpsalmen und Ergänzungspsalmodie über rank;
     // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
     if (isPsalmodie && !localPrefPsalmsWt
         && ((hour === 'laudes' && rank?.useFeastPsalms)
             || (isTSN && rank?.useComplementaryPsalms)
-            || prefSollemnity
+            || prefSollemnity || isMemorialWithLuV
         )) {
         if (!hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]

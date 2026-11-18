@@ -332,8 +332,6 @@ export const calendarData: CalendarData = {
             "oration_lat": "Omnípotens sempitérne Deus, qui infírma mundi éligis ut fórtia quæque confúndas, concéde propítius, ut, qui beátæ Agnétis mártyris tuæ natalícia celebrámus, eius in fide constántiam subsequámur.^ORlV"
           },
           "Lesehore": {
-            "comm_1": "MärtSg_Jgfr",
-            "comm_2": "Jgfr",
             "patr_autor": "Ambrosius (†°397)",
             "patr_werk": "Aus dem Buch über die Jungfrauen.",
             "patr_text": "^hSie war noch zu jung, um bestraft zu werden, aber°schon°reif,°um°zu°siegen^p(Heute) ist der Gedenktag einer Jungfrau, lasst uns der Jungfräulichkeit folgen; es ist der Tag einer Märtyrin, lasst uns Gaben opfern!^pEs ist der Gedächtnistag der heiligen Agnes. Nach der Überlieferung hat sie mit zwölf Jahren das Martyrium erlitten. Welch abscheuerregende Grausamkeit, die auch das zarteste Alter nicht schonte! Aber groß war die Kraft des Glaubens, der auch von diesem Lebensalter Zeugnis erhielt.^pBot der kleine Leib Platz für Wunden? Sie hatte nichts, wo das Eisen sie treffen konnte; doch sie hatte, womit sie das Eisen besiegen konnte.^pMädchen in diesem Alter können den strengen Blick der Eltern nicht ertragen und weinen über Nadelstiche wie über Wunden. Sie steht unerschrocken unter den blutigen Händen der Henker. Sie steht, unbewegt vom Klirren der Ketten. Sie bietet dem Dolch des wütenden Soldaten den ganzen Leib. Sie weiß noch nicht, was Sterben heißt, aber sie ist bereit.^pGegen ihren Willen wird sie zum Altar gezerrt. Sie breitet inmitten der Flammen die Hände auf Christus hin aus, gerade dort am Götzenaltar bezeichnet sie sich mit dem Zeichen Christi, des Siegers. Jetzt legt sie Nacken und Hände in die eisernen Fesseln, aber keine Fessel vermag die zarten Glieder zu fassen.^pIst es eine neue Art des Martyriums? Noch zu jung, um bestraft zu werden, ist sie schon reif zum Sieg. Schwerlich kann sie kämpfen, doch leicht erringt sie den Siegeskranz. Sie ist eine Lehrmeisterin der Tugend und kann es doch dem Alter nach nicht sein. So eilt die Vermählte nicht zum Brautgemach wie die Jungfrau freudigen Schrittes und eilenden Fußes zum Richtplatz, das Haupt nicht im Schmuck des kunstvoll geflochtenen Haares, sondern mit Christus gekrönt, nicht mit Blumen umwunden, sondern mit Tugenden geziert.^pAlle weinen, nur sie nicht. Viele staunen, dass sie so leichthin das Leben verschwendet, als hätte sie schon ausgekostet, wovon sie kaum nippen durfte. Alle waren starr darüber, dass sie schon Zeugin der Gottheit war, obwohl sie dem Alter nach kaum rechtsfähig war. Aber sie brachte es dahin, dass Gott ihr die Zeugenfähigkeit gab, die ihr die Menschen versagten. Was die Kraft der Natur übersteigt, das wirkt der Schöpfer der Natur.^pMit welchen Schrecken droht der Henker, um sie einzuschüchtern, wie schmeichelt er, um sie zu verführen! Was versprechen ihr die vielen Freier alles, um sie heimzuführen! Sie aber spricht: Schon das wäre Unrecht gegen den Bräutigam, wollte ich darauf warten, ob ich jemand gefalle. Der mich zuerst erwählte, dem will ich gehören. Auf was wartest du, Henker? Der Leib vergehe; ihn könnten Augen lieben, deren Liebe ich nicht mag!^pDa stand sie, betete und beugte den Nacken. Da konntest du den Scharfrichter zittern sehen, als wäre ^wer^0w der Verurteilte. Seine Rechte schwankte, sein Gesicht wurde blass. Ihn sehreckte die Bedrohung des fremden Mädchens, das selbst die Gefahr nicht fürchtete.^pDa seht ihr an der einen Opfergabe das zweifache Martyrium: das der Reinheit und das des Glaubens. Sie blieb Jungfrau und gewann das Martyrium.",
@@ -344,12 +342,9 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Agnes",
-            "farbe": "r",
+            "farbe": "rLuV",
             "nominativ": "Die heilige Agnes",
             "genitiv": "der heiligen Agnes",
-            "psalm1": 63.0,
-            "psalm2": 160.0,
-            "psalm3": 149.0,
             "ant1": "Mit seinem Ring hat mich Christus, mein Herr, zur Treue verpflichtet und mich als Braut geschmückt mit einem Kranz.",
             "ant2": "Ihm, dem die Engel dienen, bin ich angetraut. Seine Schönheit bewundern Sonne und Mond.",
             "ant3": "Freut euch und dankt mit mir! Denn auf leuchtendem Thron ist mir ein Platz bereitet unter den Heiligen.",
@@ -377,11 +372,6 @@ export const calendarData: CalendarData = {
             "les_text_lat": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, Pater misericordiárum et Deus totíus consolatiónis, qui consolátur nos in omni tribulatióne nostra, ut possímus et ipsi consolári eos, qui in omni pressúra sunt, per exhortatiónem, qua exhortámur et ipsi a Deo; quóniam, sicut abúndant passiónes Christi in nobis, ita per Christum abúndat et consolátio nostra."
           },
           "Vesper": {
-            "comm_1": "MärtSg_Jgfr",
-            "comm_2": "Jgfr",
-            "psalm1": 116.1,
-            "psalm2": 116.2,
-            "psalm3": 152.0,
             "ant1": "Mich schreckt keine Drohung, und kein Versprechen kann mich verlocken; denn als Jungfrau gehöre ich Christus an.",
             "ant2": "Ihm allein bewahre ich die Treue, ihm weihe ich mich von ganzem Herzen.",
             "ant3": "Ich preise dich, Vater meines Herrn Jesus Christus; denn durch ihn, deinen Sohn, hast du deiner Magd den Sieg verliehen.",
@@ -2428,9 +2418,6 @@ export const calendarData: CalendarData = {
             "hymn_2": 0.0,
             "hymn_3": 0.0,
             "hymn_kl": 0.0,
-            "psalm1": 113.0,
-            "psalm2": 146.0,
-            "psalm3": 151.0,
             "ant1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.^HALLo",
             "ant2": "Der Engel Gabriel wurde zu Maria, der Jungfrau, gesandt, die mit Josef verlobt war.^HALLo",
             "ant3": "Maria, die Mutter Jesu, war mit Josef verlobt; noch bevor sie zusammenlebten, zeigte sich, dass Maria gesegnet war. Sie hatte empfangen durch den Heiligen Geist.^HALLo",
@@ -2501,9 +2488,6 @@ export const calendarData: CalendarData = {
             "versikel1_lat": "Et florébit in ætérnum ante Dóminum.^ALLo"
           },
           "Vigil": {
-            "psalm1": 199.119,
-            "psalm2": 199.106,
-            "psalm3": 199.107,
             "ant0": "Wer treu ist, wird reich gesegnet, wer über seinen Herrn wacht, empfängt Ehre und Lob.^HALLo",
             "les_text": "vigil-Josef",
             "ant0_lat": "Vir fidélis multum laudábitur, et qui custos est Dómini sui glorificábitur.^ALLo"
@@ -4173,9 +4157,6 @@ export const calendarData: CalendarData = {
         },
         "n2": {
           "Lesehore": {
-            "psalm1": 21.0,
-            "psalm2": 92.1,
-            "psalm3": 92.2,
             "ant1": "Ein Engel des Herrn erschien dem Josef und sprach: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben.^HALLo",
             "ant2": "Als Josef erwachte, tat er, was der Engel des Herrn ihm geboten hatte, und nahm Maria zu sich.^HALLo",
             "ant3": "Josef zog von Nazaret hinauf in die Stadt Davids, die Betlehem heißt, um sich eintragen zu lassen mit Maria, seiner Vermählten.^HALLo",
@@ -4190,9 +4171,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "referenz": "AAA-5-1-n1",
             "button": "Hl. Josef (mit°Ant°und°Ps°vom°19.°März)",
-            "psalm1": 63.0,
-            "psalm2": 160.0,
-            "psalm3": 149.0,
+            "farbe": "LuV",
             "ant1": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^HALLo",
             "ant2": "Josef und Maria, die Mutter Jesu, hörten voll Staunen, was man über Jesus sagte. Und Simeon segnete sie.^HALLo",
             "ant3": "Noch in der Nacht stand Josef auf, nahm das Kind und seine Mutter und floh nach Ägypten. Dort blieb er bis zum Tode des Herodes.^HALLo",
@@ -4204,9 +4183,6 @@ export const calendarData: CalendarData = {
             "ant3_lat": "Consúrgens Ioseph accépit Púerum et matrem eius nocte, et secéssit in Ægýptum, et erat ibi usque ad óbitum Heródis.^ALLo"
           },
           "Vesper": {
-            "psalm1": 15.0,
-            "psalm2": 112.0,
-            "psalm3": 155.0,
             "ant1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.^HALLo",
             "ant2": "Die Mutter Jesu sagte zu ihm: Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht.^HALLo",
             "ant3": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.^HALLo",
@@ -5837,7 +5813,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Barnabas",
-            "farbe": "r",
+            "farbe": "rLuVTSN",
             "antev": "Barnabas zog nach Tarsus. Er suchte Saulus auf und nahm ihn mit nach Antiochia. Dort wirkten sie in der Gemeinde und verkündeten das Wort des Herrn.^HALLo",
             "modeev": "IIc",
             "antev_lat": "Proféctus est Bárnabas Tarsum, ut quǽreret Saulum; quem cum invenísset, perdúxit Antiochíam; et conversáti sunt ibi in Ecclésia, et docuérunt turbam multam.^ALLo",
@@ -5870,9 +5846,6 @@ export const calendarData: CalendarData = {
           "ErsteV": {
             "button": "1. Vesper zum Hochfest",
             "hymn_1": 8624.0,
-            "psalm1": 113.0,
-            "psalm2": 146.0,
-            "psalm3": 151.0,
             "ant1": "Elisabeth gebar dem Zacharias einen Sohn: Johannes, den Täufer, den großen Mann, den Wegbereiter des Herrn.",
             "ant2": "Der Schoß der Kinderlosen wird fruchtbar, die Greisin gebiert einen Sohn: Johannes, den Wegbereiter des Herrn.",
             "ant3": "Unter allen vom Weibe Geborenen trat kein Größerer auf als Johannes der Täufer.",
@@ -5940,9 +5913,6 @@ export const calendarData: CalendarData = {
             "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lPræsta, quǽsumus, omnípotens Deus, ut família tua per viam salútis incédat, et, beáti Ioánnis Præcursóris hortaménta sectándo, ad eum quem prædíxit, secúra pervéniat, Dóminum nostrum Iesum Christum,^ORlR^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui beátum Ioánnem Baptístam suscitásti, ut perféctam plebem Christo Dómino præparáret, da pópulis tuis spiritálium grátiam gaudiórum, et ómnium fidélium mentes dírige in viam salútis et pacis.^ORlV"
           },
           "Vigil": {
-            "psalm1": 199.119,
-            "psalm2": 199.106,
-            "psalm3": 199.107,
             "ant0": "Könige werden es sehen und Fürsten sich erheben; sie werden niederfallen vor dem Herrn, deinem Gott, der dich erwählt hat.^HALLxq",
             "les_text": "vigil-Johannes",
             "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lAllmächtiger Gott, führe deine Kirche auf dem Weg des Heiles und gib uns die Gnade, den Weisungen Johannes des Täufers zu folgen, damit wir zu dem gelangen, den er vorausverkündet hat, zu unserem Herrn Jesus Christus, deinem Sohn,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lGott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegenzuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV",
@@ -6068,9 +6038,6 @@ export const calendarData: CalendarData = {
             "button": "1. Vesper zu Peter und Paul",
             "farbe": "r",
             "hymn_1": 8629.4,
-            "psalm1": 117.0,
-            "psalm2": 147.2,
-            "psalm3": 151.0,
             "ant1": "Petrus bekannte und sagte: Du bist der Messias, der Sohn des lebendigen Gottes. Jesus sprach zu ihm: Selig bist du, Simon Petrus.",
             "ant2": "Du bist Petrus, und auf diesen Felsen will ich meine Kirche bauen. Und die Mächte der Unterwelt werden sie nicht überwältigen.",
             "ant3": "Heiliger Apostel Paulus, auserwähltes Werkzeug des Herrn, Verkünder der Wahrheit in der ganzen Welt!",
@@ -6134,9 +6101,6 @@ export const calendarData: CalendarData = {
             "oration_lat": "^RUBRUt in I Vesperas:^0RUBR^lDa nobis, quǽsumus, Dómine Deus noster, beatórum apostolórum Petri et Pauli intercessiónibus sublevári, ut per quos Ecclésiæ tuæ supérni múneris rudiménta donásti, per eos subsídia perpétuæ salútis impéndas.^ORlV^p^RUBRVel ut in Laudes matutinas:^0RUBR^lDeus, qui huius diéi venerándam sanctámque lætítiam in apostolórum Petri et Pauli sollemnitáte tribuísti, da Ecclésiæ tuæ eórum in ómnibus sequi præcéptum, per quos religiónis sumpsit exórdium.^ORlV"
           },
           "Vigil": {
-            "psalm1": 199.116,
-            "psalm2": 199.103,
-            "psalm3": 199.104,
             "ant0": "Vereint im Glauben und im Leiden, besiegelten sie ihre Predigt durch einen heldenhaften Tod und empfingen die Krone des ewigen Lebens.^HALLxq",
             "les_text": "vigil-PeterPaul",
             "oration": "^RUBRWie in der Ersten Vesper:^0RUBR^lHerr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott,^ORR^p^RUBROder wie in den Laudes:^0RUBR^lHerr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
@@ -7277,6 +7241,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Joachim und hl. Anna",
+            "farbe": "LuV",
             "nominativ": "Die Heiligen Joachim und Anna",
             "genitiv": "der Heiligen Joachim und Anna",
             "les_buch": "Jes",
@@ -8262,9 +8227,6 @@ export const calendarData: CalendarData = {
             "button": "1. Vesper zu Mariae Himmelfahrt",
             "farbe": "m",
             "hymn_1": 8815.0,
-            "psalm1": 113.0,
-            "psalm2": 147.2,
-            "psalm3": 151.0,
             "ant1": "Christus ist aufgestiegen über die Himmel und hat seiner reinen Mutter eine Wohnung bereitet im ewigen Leben.^HALLxq",
             "ant2": "Des Paradieses Pforte war seit Eva verschlossen. Durch Maria, die Jungfrau, ist sie wieder aufgetan.^HALLxq",
             "ant3": "Über alle Himmel wurde die Jungfrau Maria erhoben. Kommt, lasst uns Christus preisen, den König, dessen Reich in Ewigkeit währt.",
@@ -8331,9 +8293,6 @@ export const calendarData: CalendarData = {
             "versikel1_lat": "Perfécta sunt in te quæ dicta sunt tibi."
           },
           "Vigil": {
-            "psalm1": 193.1,
-            "psalm2": 193.2,
-            "psalm3": 199.109,
             "ant0": "Maria, die Mutter des Herrn, wurde mit Seele und Leib in die Herrlichkeit des Himmels erhoben.^HALLxq",
             "les_text": "Lk 11,27-28",
             "ant0_lat": "Augústa Dei Mater, devícta morte, córpore et ánima ad supérnam cæli glóriam evécta est.^ALLxq"
@@ -8514,7 +8473,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Enthauptung des hl. Johannes des Täufers",
-            "farbe": "r",
+            "farbe": "rLuV",
             "hymn_1": 1118.0,
             "ant1": "Der Herr streckte seine Hand aus und berührte meinen Mund; zum Propheten für die Völker hat er mich bestimmt.",
             "ant2": "Herodes fürchtete sich vor Johannes, da er wusste, dass er ein gerechter und heiliger Mann war. Darum ließ er ihn bewachen.",
@@ -8549,9 +8508,6 @@ export const calendarData: CalendarData = {
           },
           "Vesper": {
             "hymn_1": 1123.0,
-            "psalm1": 116.1,
-            "psalm2": 116.2,
-            "psalm3": 152.0,
             "ant1": "Fürchte dich nicht vor ihnen, denn ich bin mit dir, spricht der Herr.",
             "ant2": "Herodes gab einem Soldaten den Befehl, in den Kerker zu gehen und Johannes zu enthaupten.",
             "ant3": "Die Jünger des Johannes kamen, holten seinen Leichnam und legten ihn in ein Grab.",
@@ -9771,7 +9727,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Mariae Schmerzen",
-            "farbe": "m",
+            "farbe": "mLuV",
             "hymn_1": 8915.0,
             "ant1": "Gott, du mein Gott, dich suche ich; Herr, meine Seele hängt an dir.",
             "ant2": "Freut euch, dass ihr Anteil habt an den Leiden Christi.",
@@ -9800,9 +9756,6 @@ export const calendarData: CalendarData = {
           },
           "Vesper": {
             "hymn_1": 8915.0,
-            "psalm1": 122.0,
-            "psalm2": 127.0,
-            "psalm3": 151.0,
             "ant1": "Christus ist unser Friede. Er hat uns durch sein Kreuz mit Gott versöhnt.",
             "ant2": "Lasst uns hintreten zur Stadt des lebendigen Gottes, zu Jesus, dem Mittler eines neuen Bundes.",
             "ant3": "Durch Christi Blut haben wir die Erlösung, die Vergebung der Sünden.",
@@ -10759,6 +10712,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hll. Schutzengel",
+            "farbe": "LuVTSN",
             "hymn_1": 9002.0,
             "hymn_kl": 0.0,
             "ant1": "Der Herr sendet seinen Engel mit dir und lenkt deinen Weg.",
@@ -10866,8 +10820,6 @@ export const calendarData: CalendarData = {
       "7": {
         "oblig": {
           "Laudes": {
-            "button": "Unsere Liebe Frau vom Rosenkranz",
-            "farbe": "m",
             "hymn_1": 1038.0,
             "ant1": "Von Maria wurde Jesus geboren, der Christus genannt wird.",
             "ant2": "Mit dir, o°Mutter, preisen wir den Herrn; sterbend hat er uns dir als Kinder anvertraut.",
@@ -10892,14 +10844,13 @@ export const calendarData: CalendarData = {
             "resp2_lat": "Dóminus°tecum.",
             "resp3_lat": "Benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
             "antev_lat": "Beáta Mater et intácta Virgo, gloriósa Regína mundi, séntiant omnes tuum iuvámen, quicúmque célebrant tuam sanctam festivitátem.",
-            "les_text_lat": "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me."
+            "les_text_lat": "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me.",
+            "button": "Unsere Liebe Frau vom Rosenkranz",
+            "farbe": "mLuV"
           },
           "Vesper": {
             "hymn_1": 1019.0,
             "hymn_2": 1043.0,
-            "psalm1": 122.0,
-            "psalm2": 127.0,
-            "psalm3": 151.0,
             "ant1": "Der Engel des Herrn brachte Maria die Botschaft, und sie empfing vom Heiligen Geist.",
             "ant2": "Bei dem Kreuze Jesu stand Maria, seine Mutter.",
             "ant3": "Jungfrau und Mutter, freue dich! Christus ist aus dem Grabe erstanden.^HALLxq",
@@ -12140,6 +12091,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Martin",
+            "farbe": "LuV",
             "genitiv": "des heiligen Martin",
             "hymn_1": 1215.0,
             "ant1": "Martin, Priester des Herrn, dir steht der Himmel offen und das Reich meines Vaters.",
@@ -12158,9 +12110,6 @@ export const calendarData: CalendarData = {
           },
           "Vesper": {
             "hymn_1": 1215.0,
-            "psalm1": 15.0,
-            "psalm2": 112.0,
-            "psalm3": 155.0,
             "ant1": "O unvergleichlicher Mann! Die Mühe des Lebens konnte dich nicht bezwingen, der Tod dich nicht besiegen! Obwohl du bereit warst, zu sterben, hast du dich nicht geweigert, die Bürde des Lebens weiterzutragen.",
             "ant2": "Herr, wenn dein Volk meiner noch bedarf, so weigere ich mich nicht. Dein Wille geschehe!",
             "ant3": "Der Bischof Martin hat die Welt verlassen. Nun herrscht er mit Christus im Himmel.",
@@ -13069,9 +13018,6 @@ export const calendarData: CalendarData = {
             "button": "1. Vesper zu Mariae Empfängnis",
             "farbe": "m",
             "hymn_1": 9208.0,
-            "psalm1": 113.0,
-            "psalm2": 147.2,
-            "psalm3": 151.0,
             "ant1": "Feindschaft stifte ich zwischen dir und der Frau, zwischen deinem Spross und ihrem Spross.",
             "ant2": "In Gewänder des Heils hat der Herr mich gekleidet und mich umhüllt mit dem Mantel der Gerechtigkeit.",
             "ant3": "Gegrüßet seist du Maria, voll der Gnade, der Herr ist mit dir.",
@@ -13135,9 +13081,6 @@ export const calendarData: CalendarData = {
             "versikel1_lat": "Et pósuit immaculátam viam meam."
           },
           "Vigil": {
-            "psalm1": 193.1,
-            "psalm2": 193.2,
-            "psalm3": 199.109,
             "ant0": "Sei gegrüßt, du Rose des Paradieses, erblüht durch Gottes Wohlgefallen. Sei gegrüßt, du Braut in goldenem Geschmeide. Dich hat der Herr über die Engel geliebt.^HALLxq",
             "ant0_lat": "Ave, rosa paradísi, frondens in grátiam Dei; ave, sponsa áureis monílibu ornáta; ave, placens Deo super angélico iucunditátis gáudio."
           },
@@ -15006,13 +14949,11 @@ export const calendarData: CalendarData = {
             "comm_2": ""
           },
           "ErsteV": {
+            "comm_1": "Hirten",
             "button": "1. Vesper zum Hochfest des hl. Bonifatius",
             "farbe": "r",
             "hymn_1": 8605.4,
             "hymn_2": 8605.5,
-            "psalm1": 113.0,
-            "psalm2": 146.0,
-            "psalm3": 151.0,
             "ant1": "Der Herr gab ihm einen Sitz bei den Edlen seines Volkes und als Vermächtnis das ewige Priestertum.^HALLo",
             "ant2": "Er liebte den Namen des Herrn, ewig wird er jubeln über seinen Gott.^HALLo",
             "ant3": "Bonifatius, der große Missionar und Seelsorger, betrachtete Tag und Nacht die Gebote des Höchsten.^HALLo",
@@ -15407,9 +15348,6 @@ export const calendarData: CalendarData = {
             "button": "1. Vesper zur hl. Elisabeth",
             "hymn_1": 9119.2,
             "hymn_2": 9119.3,
-            "psalm1": 113.0,
-            "psalm2": 147.2,
-            "psalm3": 151.0,
             "ant1": "Elisabeth erhielt ihren Sitz bei den Edlen des Volkes Gottes.",
             "ant2": "Elisabeth, preise den Herrn, denn er hat dich in seiner heiligen Stadt gesegnet.",
             "ant3": "Es strahlet, o°Hehre, über Länder und Meere deiner Heiligkeit Ehre.",
@@ -16470,7 +16408,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Gedenktag des hl. Rockes",
-            "farbe": "r",
+            "farbe": "rLuVTSN",
             "hymn_1": 8599.2,
             "psalm1": 63.0,
             "psalm2": 160.0,
@@ -17726,10 +17664,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Übertragung der Reliquien der°Heiligen°Drei°Könige",
+            "farbe": "LuV",
             "hymn_1": 8723.502,
-            "psalm1": 63.0,
-            "psalm2": 160.0,
-            "psalm3": 149.0,
             "ant1": "Drei Geschenke brachten die Weisen dem Herrn, dem Sohne Gottes, dem großen König: Gold, Weihrauch, Myrrhe.",
             "ant2": "Mit großer Freude schauten die Weisen den Stern. Sie traten in das Haus und taten ihre Schätze auf: Gold, Weihrauch und Myrrhe.",
             "ant3": "Dieser Stern leuchtet auf wie loderndes Feuer. Er zeigt Gott an, den König der Könige. Die Weisen sahen den Stern und brachten dem König ihre Gaben dar.",
@@ -17864,6 +17800,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "referenz": "Köln-10-10-oblig",
             "button": "Hl. Cassius und hl.°Florentinus (Hochfest°in°Bonn)",
+            "farbe": "rLuVTSN",
             "genitiv": "der Heiligen Cassius und Florentinus"
           },
           "Terz": {
@@ -17913,7 +17850,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Gereon und Gefährten",
-            "farbe": "r",
+            "farbe": "rLuV",
             "genitiv": "des heiligen Gereon",
             "hymn_1": 9010.2,
             "hymn_2": 9010.1,
@@ -17988,13 +17925,10 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Ursula und Gefährtinnen",
-            "farbe": "r",
+            "farbe": "rLuV",
             "hymn_1": 9021.2,
             "hymn_2": 9021.1,
             "hymn_3": 9021.4,
-            "psalm1": 63.0,
-            "psalm2": 160.0,
-            "psalm3": 149.0,
             "ant1": "Die heilige Ursula und ihre Gefährtinnen gelobten Gott unversehrte Jungfräulichkeit.",
             "ant2": "Die heilige Ursula führte ihre ganze Schar zur himmlischen Siegeskrone.",
             "ant3": "Lieber wollten sie sterben, als von Christus, ihrem Bräutigam, getrennt zu werden.",
@@ -18420,9 +18354,6 @@ export const calendarData: CalendarData = {
           "Vesper": {
             "hymn_1": 8723.4,
             "hymn_2": 8723.403,
-            "psalm1": 113.0,
-            "psalm2": 146.0,
-            "psalm3": 151.0,
             "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
             "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
             "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",

@@ -1253,10 +1253,10 @@ export function processBrevierData(todayDate) {
         && swdCombined !== 'q-0-3'
         && !swdCombined.startsWith('q-6-')
         && mmdd !== '11-02'
-    ) || // Gedenktage mit Psalmen vom Fest:
-        // Barnabas, Enthauptung Johannes des Täufers, Schmerzen Mariens, Schutzengel, U.L.Fr. vom Rosenkranz, Martin
-        // für Agnes (21.1.) und Josef der Arbeiter (1.5.) in den Eigentexten eingetragen, da andere Optionen wählbar sind
-        ['08-29', '09-15', '10-02', '10-07', '11-11'].includes(mmdd);
+    ) // Gedenktage mit Psalmen vom Fest: ACHTUNG: wird jetzt über isMemorialWithLuV geregelt (im farbe-Feld)
+    // Barnabas, Enthauptung Johannes des Täufers, Schmerzen Mariens, Schutzengel, U.L.Fr. vom Rosenkranz, Martin
+    // für Agnes (21.1.) und Josef der Arbeiter (1.5.) in den Eigentexten eingetragen, da andere Optionen wählbar sind
+    //||  ['08-29', '09-15', '10-02', '10-07', '11-11'].includes(mmdd);
     if (useFeastPsalms) finalData.rank.useFeastPsalms = true;
 
     const useComplementaryPsalms =
