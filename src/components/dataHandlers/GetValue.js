@@ -4,15 +4,15 @@ import { sollemnitiesData } from "../data/Sollemnities.ts";
 export const getValue = ({
     season, hour, texts, field,
     prefSource, prefSollemnity,
-    localPrefKomplet, localPrefComm,
-    localPrefPsalmsWt, localPrefErgPs,
-    localPrefContinuous, localPrefLanguage = '',
-    alternativePsalms = 0, skipPersonal = false }) => {
+    // userPrefs: Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs in Direktorium.js);
+    // hier gebraucht: comm, psalmsWt, ergPs, continuous, komplet, alternativePsalms
+    userPrefs = {}, localPrefLanguage = '',
+    skipPersonal = false }) => {
     if (!hour || !texts || !texts[hour])
         return null;
 
     if (hour === 'komplet')
-        return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
+        return getKompletValue({ texts, field, localPrefKomplet: userPrefs.komplet, localPrefLanguage })
 
     const { rank = { wt: 0, date: 0 }, dayOfWeek } = texts;
     const swdCombined = texts?.swd?.combined || '';
@@ -30,8 +30,8 @@ export const getValue = ({
         // Bestimme, ob Commune-Texte geprüft werden sollen
         const textsEig = texts.vesper?.[prefSource] || {};
         const textsCommune = (((prefSollemnity || (rank.date > 2 || rank.wt > 2))
-            && localPrefComm > 0) &&
-            texts.vesper?.[prefSource]?.[`com${localPrefComm}`])
+            && userPrefs.comm > 0) &&
+            texts.vesper?.[prefSource]?.[`com${userPrefs.comm}`])
             || {};
 
         // Prüfe in der Vesper auf Konflikte mit Eigenpsalmen oder Commune-Psalmen
@@ -47,31 +47,31 @@ export const getValue = ({
         : (field.startsWith('ant') && !field.startsWith('antev')
             ? 'inclAnt'
             : false);
-    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt);
+    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, userPrefs.psalmsWt);
 
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
 
     const checkAnt0 = `ant0${isForeignLanguage}`
     const hasAnt0 = field.startsWith('ant') &&
         (texts[hour][prefSource]?.[checkAnt0]
-            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.[checkAnt0]
+            || texts[hour][prefSource]?.[`com${userPrefs.comm}`]?.[checkAnt0]
             || (prefSource === 'oblig' && texts[hour].wt?.[checkAnt0])
         )
     const hasObligPs = field.startsWith('psalm')
         && (texts[hour][prefSource]?.psalm1
-            || texts[hour][prefSource]?.[`com${localPrefComm}`]?.psalm1
+            || texts[hour][prefSource]?.[`com${userPrefs.comm}`]?.psalm1
             //    || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
         )
 
-    // Ergänzungspsalmodie über localPrefErgPs:
+    // Ergänzungspsalmodie über userPrefs.ergPs:
     // auch am Sonntag werden die Ergänzungspsalmen genommen
     // -> in const data entfällt der Vorzug von dayOfWeek vor each
     // Steht vor dem Zweig für kirchw/verst, damit sie auch bei prefSollemnity=verst greift
     // (kirchw hat die ErgPs schon im Commune vorgesehen)
-    if (localPrefErgPs && isTSN && isPsalmodie
+    if (userPrefs.ergPs && isTSN && isPsalmodie
         && prefSollemnity !== 'kirchw'
-        && !localPrefPsalmsWt
-        && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour)
+        && !userPrefs.psalmsWt
+        && !getExcludedHours(texts, userPrefs.ergPs, 'PSALMODIE').includes(hour)
     ) {
         if ((!hasObligPs && !hasAnt0) || allSouls || prefSollemnity === 'verst') {
             const data = sollemnitiesData.soll.each?.[hour]?.[languageField]
@@ -83,7 +83,7 @@ export const getValue = ({
     // Commune für die Verstorbenen (Ged der Verst oder Allerseelen):
     // in den Laudes wahlweise Ps 150 statt Ps 146;
     // steht vor dem Zweig für kirchw/verst und vor der Commune-Abfrage, die sonst vorher zurückkehren
-    if (alternativePsalms && hour === 'laudes' && (prefSollemnity === 'verst' || allSouls)) {
+    if (userPrefs.alternativePsalms && hour === 'laudes' && (prefSollemnity === 'verst' || allSouls)) {
         const altData = sollemnitiesData.verst?.alt?.laudes;
         const languageValue = altData?.[languageField];
         if (languageValue)
@@ -151,7 +151,9 @@ export const getValue = ({
     const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
     const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
-
+    // if (isMemorialWithLuV || isMemorialWithTSN) {
+    //     console.log('isMemorialWithLuV/TSN: ', isMemorialWithLuV, isMemorialWithTSN, hour, field, texts?.laudes?.[prefSource]?.farbe);
+    // }
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && texts?.rank?.hasErsteVesper)
         || prefSollemnity || rank.date === 5 ||
@@ -175,7 +177,7 @@ export const getValue = ({
 
     // Laudes-Festpsalmen und Ergänzungspsalmodie über rank;
     // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
-    if (isPsalmodie && !localPrefPsalmsWt
+    if (isPsalmodie && !userPrefs.psalmsWt
         && ((hour === 'laudes' && rank?.useFeastPsalms)
             || (isTSN && rank?.useComplementaryPsalms)
             || prefSollemnity || isMemorialWithLuV
@@ -200,7 +202,7 @@ export const getValue = ({
 
         return antKomm
             || (field === 'c_antev' && data?.ant_komm)
-            || data?.[`com${localPrefComm}`]?.[field]
+            || data?.[`com${userPrefs.comm}`]?.[field]
             || data?.com1?.[field]
             || null;
     }
@@ -226,6 +228,7 @@ export const getValue = ({
     // das ist abgesichert in isMemorialWithTSN und durch die nächste Abfrage
     if (isMemorialWithLuV || isMemorialWithTSN
     ) skipCommune = false
+
     // an Festen und Gedenktagen: Ant und Ps in Kleinen Horen vom Wt
     if (rank.date < 5 && isTSN && isPsalmodie
         // außer an Allerseelen, wenn werktags:
@@ -236,13 +239,13 @@ export const getValue = ({
     if (isSollemnity) skipCommune = false
     if (isPsalmodie) {
         // vorgesehene Commune-Psalmen und -Antiphonen können immer
-        // zugunsten des Vierwochenpsalters überspielt werden (localPrefPsalmsWt)
-        if (localPrefPsalmsWt) {
+        // zugunsten des Vierwochenpsalters überspielt werden (userPrefs.psalmsWt)
+        if (userPrefs.psalmsWt) {
             skipCommune = true
-            if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt')
+            if (isPsalmodie === 'inclAnt' && userPrefs.psalmsWt !== 'inclAnt')
                 skipCommune = false
         }
-        // console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
+        // console.log('skipCommune: ', isPsalmodie, field, userPrefs.psalmsWt, skipCommune);
     }
 
     // Einlesen der Eigentexte
@@ -250,10 +253,10 @@ export const getValue = ({
     // Auslesen der Commune-Texte, wenn das Commune nicht übersprungen werden soll
     let prefCommTexts = '';
     if (!skipCommune) {
-        if (localPrefComm === 1
-            || (prefSollemnity && localPrefComm === 0))
+        if (userPrefs.comm === 1 ||
+            (userPrefs.comm === 0 && prefSollemnity))
             prefCommTexts = prefTexts?.com1
-        if (localPrefComm === 2)
+        if (userPrefs.comm === 2)
             prefCommTexts = prefTexts?.com2
     }
 
@@ -264,13 +267,13 @@ export const getValue = ({
         && !(rank.date < 3 && isTSN && !isMemorialWithTSN))
         || isSollemnity) {
 
-        // Sonderfall Psalmen aus dem Vierwochenpsalter (localPrefPsalmsWt)
-        if (localPrefPsalmsWt && field.startsWith('psalm') &&
+        // Sonderfall Psalmen aus dem Vierwochenpsalter (userPrefs.psalmsWt)
+        if (userPrefs.psalmsWt && field.startsWith('psalm') &&
             hour !== 'invitatorium'
         ) return result(texts[hour]?.wt)
 
-        // Sonderfall Bahnlesung (localPrefContinuous)
-        if (localPrefContinuous && hour === 'lesehore'
+        // Sonderfall Bahnlesung (userPrefs.continuous)
+        if (userPrefs.continuous && hour === 'lesehore'
             && /^(les_|patr_|resp)/.test(field)
         ) return result(texts[hour]?.continuous ?? texts[hour]?.wt)
 
@@ -298,7 +301,7 @@ export const getValue = ({
 
     }
     return (!skipPersonal && result(texts[hour].pers))
-        || (alternativePsalms && result(texts[hour].alt))
+        || (userPrefs.alternativePsalms && result(texts[hour].alt))
         || result(texts[hour].wt)
         || null;
 }

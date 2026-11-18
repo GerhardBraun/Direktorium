@@ -363,6 +363,29 @@ const PrayerMenu = ({
     </div>
   );
 };
+
+// Auswahl des Nutzers innerhalb einer Hore (über die Schalter in den Abschnittsüberschriften).
+// Wird bei jedem Wechsel des Tages (texts) auf diese Ausgangswerte zurückgesetzt;
+// longform und alternativePsalms zusätzlich bei jedem Wechsel der Hore.
+//   comm:              0 = Eigentexte/Wt, 1 bzw. 2 = Commune 1 bzw. 2
+//   continuous:        Lesehore: Bahnlesung statt Eigenlesung
+//   psalmsWt:          Psalmen aus dem Vierwochenpsalter (true) bzw. inkl. Antiphonen ('inclAnt')
+//   inv:               Nummer des gewählten Invitatoriumspsalms
+//   ergPs:             Kleine Horen: Ergänzungspsalmodie
+//   komplet:           'wt' = Wochentag, 'k1'/'k2' = erste/zweite Sonntagskomplet
+//   longform:          Fürbitten mit wiederholter Antwort (in localStorage gespeichert)
+//   alternativePsalms: Index der gewählten Psalmen-Alternative (0 = Standard, 1 = erste Alternative …)
+const defaultUserPrefs = (texts) => ({
+  comm: texts?.prefComm || 0,
+  continuous: false,
+  psalmsWt: false,
+  inv: texts?.invitatorium?.prefInv || 95,
+  ergPs: false,
+  komplet: texts?.komplet?.prefKomplet || "wt",
+  longform: localStorage.getItem('prefLongform') === 'true',
+  alternativePsalms: texts?.rank?.useAlternativePsalms ? 1 : 0,
+});
+
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
   hour,
@@ -396,44 +419,53 @@ const PrayerTextDisplay = ({
   const textBoxRef = useRef(null);
   const measuredTextWidth = useAvailableWidthInEm(textBoxRef, widthForHymns);
   const availableTextWidth = measuredTextWidth ?? widthForHymns;
-  const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
-  const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
-  const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
-  const [localPrefInv, setLocalPrefInv] = useState(texts?.invitatorium?.prefInv || 95);
-  const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
-  const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
-  const [localPrefLongform, setLocalPrefLongform] = useState(localStorage.getItem('prefLongform') === 'true');
+  // Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs oben)
+  const [userPrefs, setUserPrefs] = useState(() => defaultUserPrefs(texts));
+  // Ändert einen einzelnen Wert, z. B. setPref('comm', 1); die übrigen bleiben erhalten
+  const setPref = (key, value) => setUserPrefs(prev => ({ ...prev, [key]: value }));
   const [showKomplet, setShowKomplet] = useState(true);
   const [ommitConfiteor, setOmmitConfiteor] = useState(localStorage.getItem('ommitConfiteor') === 'true');
-  // Index der gewählten Psalmen-Alternative (0 = Standard, 1 = erste Alternative …)
-  const [alternativePsalms, setAlternativePsalms] = useState(texts.rank?.useAlternativePsalms ? 1 : 0);
   const [showMarAntInVesper, setShowMarAntInVesper] = useState(false);
 
   useEffect(() => {
-    setLocalPrefComm(texts?.prefComm || 0);
-    setLocalPrefContinuous(false);
-    setLocalPrefPsalmsWt(false);
-    setLocalPrefInv(texts?.invitatorium?.prefInv || 95);
-    setLocalPrefErgPs(false);
-    setLocalPrefKomplet(texts?.komplet?.prefKomplet || "wt");
+    setUserPrefs(defaultUserPrefs(texts));
   }, [texts]);
 
   useEffect(() => {
     setShowKomplet(!(
       hour === 'komplet' &&
-      localPrefKomplet === 'wt' &&
+      userPrefs.komplet === 'wt' &&
       !texts?.komplet?.showKompletWt
     ));
-  }, [texts, localPrefKomplet, hour]);
+  }, [texts, userPrefs.komplet, hour]);
 
   useEffect(() => {
-    if (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm) {
-      setLocalPrefComm(texts?.vesper?.prefComm);
-    };
-    setLocalPrefLongform(localStorage.getItem('prefLongform') === 'true');
-    setAlternativePsalms(texts?.rank?.useAlternativePsalms ? 1 : 0);
+    // läuft nach dem Effekt oben; bei Erster Vesper überschreibt deren Commune-Vorgabe den Ausgangswert
+    const useErsteVesperComm = hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm;
+    setUserPrefs(prev => ({
+      ...prev,
+      ...(useErsteVesperComm ? { comm: texts.vesper.prefComm } : {}),
+      longform: localStorage.getItem('prefLongform') === 'true',
+      alternativePsalms: texts?.rank?.useAlternativePsalms ? 1 : 0,
+    }));
     setShowMarAntInVesper(false);
   }, [hour, texts]);
+
+  // Gedenktage mit erweiterten Eigentexten (Merkmal 'LuV' bzw. 'TSN' im farbe-Feld, s. GetValue.js):
+  // In den betreffenden Horen ist das Commune die Vorauswahl (comm = 1), die der Nutzer wechseln kann;
+  // in den übrigen Horen bleibt es wie an jedem Gedenktag beim Wochentag (Ausgangswert des Tages).
+  // Wird bei jedem Wechsel der Hore bzw. der Quelle neu gesetzt; an anderen Tagen ohne Wirkung.
+  useEffect(() => {
+    const memorialFarbe = texts?.rank?.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
+    const hasLuV = memorialFarbe?.includes('LuV');
+    const hasTSN = memorialFarbe?.includes('TSN');
+    if (!hasLuV && !hasTSN) return;
+    // Erste Vesper des folgenden Tages hat eigene Commune-Vorgabe (s. Effekt oben)
+    if (hour === 'vesper' && texts?.rank?.hasErsteVesper) return;
+    const useCommune = (hasLuV && ['laudes', 'vesper'].includes(hour))
+      || (hasTSN && ['terz', 'sext', 'non'].includes(hour));
+    setUserPrefs(prev => ({ ...prev, comm: useCommune ? 1 : (texts?.prefComm || 0) }));
+  }, [hour, texts, prefSource]);
 
   if (!hour || !texts || !texts[hour]) {
     return <div className="p-4">Keine Daten hier verfügbar</div>;
@@ -448,13 +480,8 @@ const PrayerTextDisplay = ({
       season,
       prefSource,
       prefSollemnity,
-      localPrefKomplet,
-      localPrefComm,
-      localPrefPsalmsWt,
-      localPrefErgPs,
-      localPrefContinuous,
+      userPrefs,
       localPrefLanguage,
-      alternativePsalms,
       skipPersonal,
       texts,
       field,
@@ -466,12 +493,9 @@ const PrayerTextDisplay = ({
   const headerProps = {
     onSelectHour, texts, hour, addDebugLog,
     prefSource, prefSollemnity,
-    localPrefKomplet, localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous,
-    localPrefInv, localPrefLatin, localPrefLanguage, localPrefLongform,
-    ommitConfiteor, alternativePsalms, showCantMarkers,
-    setLocalPrefLatin, setLocalPrefLanguage, setShowCantMarkers, setLocalPrefInv,
-    setLocalPrefPsalmsWt, setLocalPrefErgPs, setLocalPrefContinuous, setLocalPrefComm,
-    setLocalPrefLongform, setOmmitConfiteor, setAlternativePsalms,
+    userPrefs, setPref,
+    localPrefLatin, localPrefLanguage, ommitConfiteor, showCantMarkers,
+    setLocalPrefLatin, setLocalPrefLanguage, setShowCantMarkers, setOmmitConfiteor,
   };
 
 
@@ -588,16 +612,16 @@ const PrayerTextDisplay = ({
               <Rubric>V&nbsp;&nbsp;</Rubric>
               <div>
                 {formatPrayerText(resp3)}
-                {(hour === "lesehore" || !localPrefLongform) && (
+                {(hour === "lesehore" || !userPrefs.longform) && (
                   formatPrayerText(adjustResp2(resp3, processedResp2), " *°")
                 )}
               </div>
             </div>
-            {hour !== "lesehore" && localPrefLongform && (
+            {hour !== "lesehore" && userPrefs.longform && (
               ResponsorialDisplay("R", adjustResp2(resp3, processedResp2))
             )}
             {hour !== "lesehore"  // in der Lesehore keine Doxologie und keine Wiederholung des Responsums
-              && (!localPrefLongform
+              && (!userPrefs.longform
                 ? <div>
                   {doxology}
                   <Rubric> –&#8288;&#160;R</Rubric>
@@ -667,7 +691,7 @@ const PrayerTextDisplay = ({
       ? ordinarium('advent', hour, localPrefLanguage) : {};
   // Große Fürbitten aus der Karfreitagsliturgie als Option für die Vesper am Karfreitag
   const goodFriday =
-    (texts?.swd.combined === 'q-6-5' && hour === 'vesper' && localPrefLongform)
+    (texts?.swd.combined === 'q-6-5' && hour === 'vesper' && userPrefs.longform)
       ? ordinarium('goodFriday', hour, localPrefLanguage) : '';
 
   return (
@@ -697,8 +721,8 @@ const PrayerTextDisplay = ({
           {hour === "komplet" ? (
             <KompletSelector
               texts={texts}
-              localPrefKomplet={localPrefKomplet}
-              setLocalPrefKomplet={setLocalPrefKomplet}
+              localPrefKomplet={userPrefs.komplet}
+              setLocalPrefKomplet={(value) => setPref('komplet', value)}
               className="mb-4"
             />
           ) : (
@@ -788,7 +812,7 @@ const PrayerTextDisplay = ({
               season={season}
               prefSource={prefSource}
               prefSollemnity={prefSollemnity}
-              localPrefKomplet={localPrefKomplet}
+              localPrefKomplet={userPrefs.komplet}
               localPrefLanguage={localPrefLanguage}
               formatPrayerText={formatPrayerText}
             />
@@ -807,8 +831,8 @@ const PrayerTextDisplay = ({
               </div>
             )}
             {hour === "invitatorium" &&
-              texts?.invitatorium?.psalms?.includes(localPrefInv) &&
-              formatPsalm(localPrefInv, 0, getValue('mode0')
+              texts?.invitatorium?.psalms?.includes(userPrefs.inv) &&
+              formatPsalm(userPrefs.inv, 0, getValue('mode0')
               )}
             {hour !== "invitatorium" &&
               [1, 2, 3].map((num) => {
@@ -964,7 +988,7 @@ const PrayerTextDisplay = ({
             )}
             {getValue("bitten") && !goodFriday && (
               <div className="mb-[-0.75em]">
-                {formatPrayerText(getValue("bitten"), localPrefLongform ? "^R:" + getValue("bitten_r") : '')}
+                {formatPrayerText(getValue("bitten"), userPrefs.longform ? "^R:" + getValue("bitten_r") : '')}
               </div>
             )}
             {goodFriday && (

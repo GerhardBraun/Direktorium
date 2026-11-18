@@ -14,29 +14,16 @@ const SectionHeader = ({
     addDebugLog,
     prefSource,
     prefSollemnity,
-    localPrefKomplet,
-    localPrefComm,
-    localPrefPsalmsWt,
-    localPrefErgPs,
-    localPrefContinuous,
-    localPrefInv,
+    userPrefs,   // Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs in Direktorium.js)
+    setPref,     // setPref('comm', 1) ändert einen einzelnen Wert in userPrefs
     localPrefLatin,
     localPrefLanguage,
-    localPrefLongform,
     ommitConfiteor,
     showCantMarkers,
     setLocalPrefLatin,
     setLocalPrefLanguage,
     setShowCantMarkers,
-    setLocalPrefInv,
-    setLocalPrefPsalmsWt,
-    setLocalPrefErgPs,
-    setLocalPrefContinuous,
-    setLocalPrefComm,
-    setLocalPrefLongform,
     setOmmitConfiteor,
-    alternativePsalms,
-    setAlternativePsalms
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
     const rank = texts?.rank || { wt: 0, date: 0 };
@@ -54,11 +41,7 @@ const SectionHeader = ({
                 texts,
                 prefSource,
                 prefSollemnity,
-                localPrefKomplet: 'wt', // nicht relevant für TSN
-                localPrefComm,
-                localPrefPsalmsWt,
-                localPrefErgPs,
-                localPrefContinuous,
+                userPrefs: { ...userPrefs, komplet: 'wt' }, // komplet nicht relevant für TSN
                 localPrefLanguage: ''
             })
         };
@@ -72,8 +55,7 @@ const SectionHeader = ({
                 return false;
         }
         return true;
-    }, [isTSN, title, texts, prefSource, prefSollemnity, localPrefComm,
-        localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
+    }, [isTSN, title, texts, prefSource, prefSollemnity, userPrefs]);
 
     // Prüfe, ob mindestens einer der für diese Psalmodie vorgesehenen Psalmen
     // (normalerweise 3, in Invitatorium und Komplet 1 bzw. ggf. 2)
@@ -89,15 +71,14 @@ const SectionHeader = ({
         };
 
         if (hour === 'invitatorium') {
-            if (!texts?.invitatorium?.psalms?.includes(localPrefInv)) return false;
-            return psalmHasMarkers(localPrefInv);
+            if (!texts?.invitatorium?.psalms?.includes(userPrefs.inv)) return false;
+            return psalmHasMarkers(userPrefs.inv);
         }
 
         const getValuePs = (field) => getValue({
             hour, field,
             season: texts?.season,
-            texts, prefSource, prefSollemnity, localPrefKomplet,
-            localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous,
+            texts, prefSource, prefSollemnity, userPrefs,
             localPrefLanguage: ''
         });
 
@@ -105,8 +86,7 @@ const SectionHeader = ({
             const psalmRef = getValuePs(`psalm${num}`);
             return psalmRef && psalmHasMarkers(psalmRef);
         });
-    }, [title, hour, texts, prefSource, prefSollemnity, localPrefKomplet,
-        localPrefComm, localPrefPsalmsWt, localPrefErgPs, localPrefContinuous, localPrefInv, localPrefLanguage]);
+    }, [title, hour, texts, prefSource, prefSollemnity, userPrefs, localPrefLanguage]);
 
     //  VERSIKEL-Header immer ohne Buttons
     if (title === 'VERSIKEL' ||
@@ -116,9 +96,9 @@ const SectionHeader = ({
 
     // Psalmauswahl: Header ohne Titel direkt vor dem betreffenden Psalm (field = psalm1/2/3),
     // nur mit den Buttons zur Wahl zwischen den Psalmen in psalmSelection.
-    // alternativePsalms enthält den Index des gewählten Eintrags (0 = erster Eintrag = Standard).
+    // userPrefs.alternativePsalms enthält den Index des gewählten Eintrags (0 = erster Eintrag = Standard).
     // Weitere Fälle können hier mit ihrem psalmSelection-Array nachgetragen werden.
-    // ACHTUNG: Die Verarbeitung von alternativePsalms-Werten > 1 ist in GetValue.js noch nicht implementiert, da es bisher keinen betreffenden Fall gibt.
+    // ACHTUNG: Die Verarbeitung von userPrefs.alternativePsalms-Werten > 1 ist in GetValue.js noch nicht implementiert, da es bisher keinen betreffenden Fall gibt.
     if (title === 'psalmSelector') {
         let psalmSelection = [];
 
@@ -143,8 +123,8 @@ const SectionHeader = ({
                         <React.Fragment key={psalmLabel}>
                             {index > 0 && " | "}
                             <button
-                                onClick={() => setAlternativePsalms(index)}
-                                className={alternativePsalms === index ? 'underline' : ''}
+                                onClick={() => setPref('alternativePsalms', index)}
+                                className={userPrefs.alternativePsalms === index ? 'underline' : ''}
                             >
                                 {psalmLabel}
                             </button>
@@ -160,9 +140,6 @@ const SectionHeader = ({
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSource]?.[field];
         const hasWt = texts[hour].wt?.[field];
-        // eigene Kurzlesung ist Merkmal für Gedenktage mit LuV
-        // und Gedenktage mit eigenen TSN-Texten (06-11 und 10-02)
-        const hasEigLesung = rank.date < 2 && texts[hour][prefSource]?.les_text;
         // alternative Psalmen an Aschermittwoch und Gründonnerstag (Fr der III. Woche)
         const hasAltPsalms = !!texts[hour].alt?.[field];
         // labelCommN enthält zugleich die Button-Beschriftung des jeweiligen Commune
@@ -175,6 +152,7 @@ const SectionHeader = ({
             && (texts.laudes[prefSource]?.com2?.button || '2');
 
         const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
+        // Schalter für Commune-Auswahl wird nur angezeigt, wenn eine Heiligenfeier begangen wird
         const showComm = wtRankToCompare === 0 || rank.date > wtRankToCompare;
 
         return {
@@ -258,14 +236,25 @@ const SectionHeader = ({
     // Psalmen tatsächlich Cant-Marker enthält (s. hasAnnotatedPsalm oben)
     const showCantToggle = (title === 'PSALMODIE' && hasAnnotatedPsalm)
         || ['BENEDICTUS', 'MAGNIFICAT', 'NUNC DIMITTIS'].includes(title);
-    const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
+    const isPsalmsWt = isPsalmodie && userPrefs.psalmsWt;
+
+    // Gedenktage mit erweiterten Eigentexten - Merkmal: 'LuV' bzw. 'TSN' im farbe-Feld
+    // (wie in GetValue.js): Die betreffenden Horen werden wie bei einem Fest behandelt
+    // Ternär statt &&: im Nein-Fall undefined (nicht false), damit ?.includes() unten greift
+    const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
+    // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
+    const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
+    // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
+    const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
 
     // Psalmen des Vierwochenpsalters werden als Alternative angeboten,
     // wenn der Festtag eigene Psalmen hat
-    // oder die Psalmen vom So der I. Woche vorgesehen sind;
+    // oder die Psalmen vom So der I. Woche vorgesehen sind
+    // (an Festen über rank.useFeastPsalms, an LuV-Gedenktagen wie in GetValue.js über isMemorialWithLuV);
     // die Alternative gibt es aber nicht in den Sonntagslaudes (Ps 63 oder 118 als 1. Psalm)
     const showPsalmsWt = isPsalmodie && hasWt
-        && (hasEig || (hour === 'laudes' && rank?.useFeastPsalms && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
+        && (hasEig || (hour === 'laudes' && (rank?.useFeastPsalms || isMemorialWithLuV)
+            && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSource]?.ant0 || texts[hour][prefSource]?.ant1);
     const showContinuous = askContinuous && hour === 'lesehore' && !isCommemoration
@@ -276,16 +265,16 @@ const SectionHeader = ({
             || texts.lesehore?.continuous);
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isLesung = field.includes('_text') && hour === 'lesehore';
-    const isContinuous = isLesung && localPrefContinuous;
+    const isContinuous = isLesung && userPrefs.continuous;
     const showErgPs = isTSN && isPsalmodie
         && !rank?.useComplementaryPsalms
         && !(prefSollemnity === 'kirchw' || rank.date === 5);
     const showErgPsWt = isTSN && isPsalmodie
         && rank?.useComplementaryPsalms;
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
-        && !(isPsalmodie && isIdenticalTerzSext && !localPrefErgPs);
+        && !(isPsalmodie && isIdenticalTerzSext && !userPrefs.ergPs);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
-    const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
+    const excludedHours = getExcludedHours(texts, userPrefs.ergPs, title);
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
     const isGoodFriday = texts?.swd?.combined === 'q-6-5' && hour === 'vesper';
     const allSouls = texts?.date?.mmdd === '11-02' && texts?.dayOfWeek > 0;
@@ -317,15 +306,19 @@ const SectionHeader = ({
         showLanguageToggle = localStorage.getItem('ommitOpening') === 'true' ? true : false
 
     // Prüfe, ob Commune übersprungen werden soll
+    // an Gedenktagen: Lesehore (außer Hymnus und Oration), Psalmodie in Laudes/Vesper und Kleine Horen vom Wt –
+    // außer an LuV-Gedenktagen (Laudes/Vesper) und Gedenktagen mit eigenen TSN-Texten:
+    // diese Horen werden wie an einem Fest gebetet (Eigentexte oder Commune);
+    // Ant und Psalmen der Kleinen Horen bleiben auch dann vom Wt (s. isMemorialWithTSN und die nächste Abfrage)
     let skipCommune = false;
     if (rank.date < 3 && ( // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
             !field.startsWith('hymn_') && field !== 'oration'
         ) || (
             ['laudes', 'vesper'].includes(hour) &&  // Laudes/Vesper Psalmodie
-            isPsalmodie && texts?.laudes?.oblig?.com1?.button !== 'Evang'
+            isPsalmodie && !isMemorialWithLuV
         )
-        || isTSN // Kleinen Horen: ganz vom Wt
+        || (isTSN && !isMemorialWithTSN) // Kleinen Horen: ganz vom Wt
     )) skipCommune = true;
 
     if (rank.date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
@@ -438,20 +431,20 @@ const SectionHeader = ({
                 <ButtonGroup>
                     <button
                         onClick={() => {
-                            setLocalPrefLongform(false);
+                            setPref('longform', false);
                             if (!isGoodFriday) setLocalStorage('prefLongform', 'false');
                         }}
-                        className={!localPrefLongform ? 'underline' : ''}
+                        className={!userPrefs.longform ? 'underline' : ''}
                     >
                         {isGoodFriday ? 'aus dem Stundenbuch' : 'kurz'}
                     </button>
                     {" | "}
                     <button
                         onClick={() => {
-                            setLocalPrefLongform(true);
+                            setPref('longform', true);
                             if (!isGoodFriday) setLocalStorage('prefLongform', 'true');
                         }}
-                        className={localPrefLongform ? 'underline' : ''}
+                        className={userPrefs.longform ? 'underline' : ''}
                     >
                         {isGoodFriday ? 'Messbuch' : 'lang'}
                     </button>
@@ -460,15 +453,15 @@ const SectionHeader = ({
             {showPsalmsWt && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setLocalPrefPsalmsWt(false)}
-                        className={!localPrefPsalmsWt ? 'underline' : ''}
+                        onClick={() => setPref('psalmsWt', false)}
+                        className={!userPrefs.psalmsWt ? 'underline' : ''}
                     >
                         Ps eig
                     </button>
                     {" | "}
                     <button
-                        onClick={() => setLocalPrefPsalmsWt(true)}
-                        className={localPrefPsalmsWt ? 'underline' : ''}
+                        onClick={() => setPref('psalmsWt', true)}
+                        className={userPrefs.psalmsWt ? 'underline' : ''}
                     >
                         vom Wt
                     </button>
@@ -476,11 +469,11 @@ const SectionHeader = ({
                         <>{" ("}
                             <button
                                 onClick={() => {
-                                    if (localPrefPsalmsWt === 'inclAnt')
-                                        setLocalPrefPsalmsWt(true)
-                                    else setLocalPrefPsalmsWt('inclAnt')
+                                    if (userPrefs.psalmsWt === 'inclAnt')
+                                        setPref('psalmsWt', true)
+                                    else setPref('psalmsWt', 'inclAnt')
                                 }}
-                                className={(localPrefPsalmsWt === 'inclAnt') ? 'underline' : ''}
+                                className={(userPrefs.psalmsWt === 'inclAnt') ? 'underline' : ''}
                             >
                                 auch Ant)
                             </button>
@@ -491,15 +484,15 @@ const SectionHeader = ({
             {showErgPs && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setLocalPrefErgPs(false)}
-                        className={!localPrefErgPs ? 'underline' : ''}
+                        onClick={() => setPref('ergPs', false)}
+                        className={!userPrefs.ergPs ? 'underline' : ''}
                     >
                         {`${allSouls || prefSollemnity === 'verst' ? 'Comm Verst' : 'vom Wt'}`}
                     </button>
                     {" | "}
                     <button
-                        onClick={() => setLocalPrefErgPs(true)}
-                        className={localPrefErgPs ? 'underline' : ''}
+                        onClick={() => setPref('ergPs', true)}
+                        className={userPrefs.ergPs ? 'underline' : ''}
                     >
                         ErgPs
                     </button>
@@ -508,15 +501,15 @@ const SectionHeader = ({
             {showContinuous && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setLocalPrefContinuous(false)}
-                        className={!localPrefContinuous ? 'underline' : ''}
+                        onClick={() => setPref('continuous', false)}
+                        className={!userPrefs.continuous ? 'underline' : ''}
                     >
                         Eigenlesung
                     </button>
                     {" | "}
                     <button
-                        onClick={() => setLocalPrefContinuous(true)}
-                        className={localPrefContinuous ? 'underline' : ''}
+                        onClick={() => setPref('continuous', true)}
+                        className={userPrefs.continuous ? 'underline' : ''}
                     >
                         {`${isErsteLesung ? 'Bahnlesung' : 'vom Wt'}`}
                     </button>
@@ -526,14 +519,14 @@ const SectionHeader = ({
                 <ButtonGroup>
                     <button
                         onClick={() => {
-                            setLocalPrefComm(1)
+                            setPref('comm', 1)
                             if (isPsalmodie)
-                                setLocalPrefPsalmsWt(false)
+                                setPref('psalmsWt', false)
                             if (isContinuous)
-                                setLocalPrefContinuous(false)
+                                setPref('continuous', false)
                         }}
                         className={(!isPsalmsWt && !isContinuous &&
-                            localPrefComm === 1) ? 'underline' : ''}
+                            userPrefs.comm === 1) ? 'underline' : ''}
                     >
                         Comm {labelComm1}
                     </button>
@@ -542,14 +535,14 @@ const SectionHeader = ({
                             {"  |  "}
                             <button
                                 onClick={() => {
-                                    setLocalPrefComm(2)
+                                    setPref('comm', 2)
                                     if (isPsalmodie)
-                                        setLocalPrefPsalmsWt(false)
+                                        setPref('psalmsWt', false)
                                     if (isContinuous)
-                                        setLocalPrefContinuous(false)
+                                        setPref('continuous', false)
                                 }}
                                 className={(!isPsalmsWt && !isContinuous &&
-                                    localPrefComm === 2) ? 'underline' : ''}
+                                    userPrefs.comm === 2) ? 'underline' : ''}
                             >
                                 {labelComm2}
                             </button>
@@ -562,12 +555,12 @@ const SectionHeader = ({
                             <button
                                 onClick={() => {
                                     if (isPsalmodie)
-                                        setLocalPrefPsalmsWt(true)
+                                        setPref('psalmsWt', true)
                                     else if (isLesung)
-                                        setLocalPrefContinuous(true)
-                                    else setLocalPrefComm(0)
+                                        setPref('continuous', true)
+                                    else setPref('comm', 0)
                                 }}
-                                className={(isPsalmsWt || isContinuous || localPrefComm === 0) ? 'underline' : ''}
+                                className={(isPsalmsWt || isContinuous || userPrefs.comm === 0) ? 'underline' : ''}
                             >
                                 {`${isErsteLesung ? 'Bahnlesung' : 'Wt'}`}
                             </button>
@@ -578,11 +571,11 @@ const SectionHeader = ({
                             {" ("}
                             <button
                                 onClick={() => {
-                                    if (localPrefPsalmsWt === 'inclAnt')
-                                        setLocalPrefPsalmsWt(true)
-                                    else setLocalPrefPsalmsWt('inclAnt')
+                                    if (userPrefs.psalmsWt === 'inclAnt')
+                                        setPref('psalmsWt', true)
+                                    else setPref('psalmsWt', 'inclAnt')
                                 }}
-                                className={(localPrefPsalmsWt === 'inclAnt') ? 'underline' : ''}
+                                className={(userPrefs.psalmsWt === 'inclAnt') ? 'underline' : ''}
                             >
                                 auch Ant)
                             </button>
@@ -614,15 +607,15 @@ const SectionHeader = ({
             {showErgPsWt && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setLocalPrefPsalmsWt(false)}
-                        className={!localPrefPsalmsWt ? 'underline' : ''}
+                        onClick={() => setPref('psalmsWt', false)}
+                        className={!userPrefs.psalmsWt ? 'underline' : ''}
                     >
                         ErgPs
                     </button>
                     {" | "}
                     <button
-                        onClick={() => setLocalPrefPsalmsWt(true)}
-                        className={localPrefPsalmsWt ? 'underline' : ''}
+                        onClick={() => setPref('psalmsWt', true)}
+                        className={userPrefs.psalmsWt ? 'underline' : ''}
                     >
                         Wt
                     </button>
@@ -631,15 +624,15 @@ const SectionHeader = ({
             {showAltPsalms && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setAlternativePsalms(0)}
-                        className={alternativePsalms === 0 ? 'underline' : ''}
+                        onClick={() => setPref('alternativePsalms', 0)}
+                        className={userPrefs.alternativePsalms === 0 ? 'underline' : ''}
                     >
                         vom Wt
                     </button>
                     {" | "}
                     <button
-                        onClick={() => setAlternativePsalms(1)}
-                        className={alternativePsalms === 1 ? 'underline' : ''}
+                        onClick={() => setPref('alternativePsalms', 1)}
+                        className={userPrefs.alternativePsalms === 1 ? 'underline' : ''}
                     >
                         Fr der III. Woche
                     </button>
@@ -653,9 +646,9 @@ const SectionHeader = ({
                             <React.Fragment key={psalmNumber}>
                                 {index > 0 && " | "}
                                 <button
-                                    onClick={() => isAvailable && setLocalPrefInv(psalmNumber)}
+                                    onClick={() => isAvailable && setPref('inv', psalmNumber)}
                                     disabled={!isAvailable}
-                                    className={`${localPrefInv === psalmNumber ? 'underline' : ''}
+                                    className={`${userPrefs.inv === psalmNumber ? 'underline' : ''}
                                 ${!isAvailable ? 'text-gray-400 cursor-not-allowed' : ''}`}
                                 >
                                     {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
