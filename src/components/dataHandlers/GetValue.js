@@ -118,10 +118,10 @@ export const getValue = ({
     // c_ für Felder zur Kommemoration,
     // comm: bei fehlenden lat. Orationen der Eigenfeiern des Regionalkalenders und der Diözesankalender
     const result = (data) => {
-        const standardField = field.replace(/^c_/, '');
-        const languageField = languageField.replace(/^c_/, '');
-        const standardResult = data?.[standardField] || null;
-        const languageResult = data?.[languageField] || null;
+        const standardFieldToRead = field.replace(/^c_/, '');
+        const languageFieldToRead = languageField.replace(/^c_/, '');
+        const standardResult = data?.[standardFieldToRead] || null;
+        const languageResult = data?.[languageFieldToRead] || null;
 
         if (typeof languageResult === 'string' &&
             languageResult?.startsWith('comm:')) {
@@ -221,7 +221,7 @@ export const getValue = ({
             // Kleine Horen: ganz vom Wt
             || (isTSN && !isMemorialWithTSN))
     ) skipCommune = true
-    //  an LuV-Gedenktagen und Gedenktagen mit eigenen TSN-Texten (06-11 und 10-02)
+    // an LuV-Gedenktagen und Gedenktagen mit eigenen TSN-Texten
     // wird die entsprechende Hore wie an einem Fest gebetet: Eigentexte oder Commune
     skipCommune = !(isMemorialWithLuV || isMemorialWithTSN)
     // an Festen: Ant und Ps in Kleinen Horen vom Wt
