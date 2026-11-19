@@ -5189,6 +5189,14 @@ export const deceasedData =  {
         "birth": "8.°September°1928°in°Voorburg (NL¥-22..)",
         "grave": "Friedhof°Niederklein",
         "age": 76
+      },
+      {
+        "year": 2012,
+        "birthdate": "2230-03-27",
+        "name": "P.°Winfried°Joiko°SAC",
+        "birth": "27.°März°1930°in°Neisse (Nysa,°PL¥-48¥-300)",
+        "grave": "",
+        "age": 82
       }
     ],
     "13": [
@@ -5857,6 +5865,14 @@ export const deceasedData =  {
         "birth": "16.°August°1902°in°Enschede (NL¥-75..)",
         "grave": "",
         "age": 65
+      },
+      {
+        "year": 2009,
+        "birthdate": "2213-03-21",
+        "name": "P.°Remigius°Unmüßig°SAC",
+        "birth": "21.°März°1913°in°Holzhausenᵒ",
+        "grave": "",
+        "age": 96
       }
     ],
     "9": [
@@ -6411,6 +6427,14 @@ export const deceasedData =  {
         "birth": "21.°Oktober°1904°in°Schwientochlowitz (Świętochłowice,°PL¥-41¥-60.)",
         "grave": "Friedhof°Ostbevern°(D¥-48346)",
         "age": 69
+      },
+      {
+        "year": 2005,
+        "birthdate": "2215-04-23",
+        "name": "P.°Georg°Sitkey°SJ",
+        "birth": "23.°April°1915°in°Nitra (SK¥-949°01)",
+        "grave": "",
+        "age": 90
       }
     ],
     "27": [
@@ -7099,6 +7123,14 @@ export const deceasedData =  {
         "birth": "21.°Februar°1953°in°Fulda",
         "grave": "Friedhof°am°Frauenberg,°Fulda",
         "age": 55
+      },
+      {
+        "year": 2017,
+        "birthdate": "2221-09-26",
+        "name": "P.°Ewald°Rieg°SAC",
+        "birth": "26.°September°1921°in°Bargau (D¥-73529°Schwäbisch°Gmünd)",
+        "grave": "",
+        "age": 95
       }
     ],
     "20": [
@@ -8965,6 +8997,14 @@ export const deceasedData =  {
         "birth": "5.°Dezember°1929°in°Eschwege",
         "grave": "Waldfriedhof°Gehilfersberg°bei°Rasdorf",
         "age": 86
+      },
+      {
+        "year": 2026,
+        "birthdate": "2236-02-09",
+        "name": "P.°Julian°Casado°Fidalgo°SSCC",
+        "birth": "9.°Februar°1936°in°Villar°de°Mazarife (E¥-24392)",
+        "grave": "",
+        "age": 90
       }
     ],
     "28": [
@@ -9495,6 +9535,14 @@ export const deceasedData =  {
         "birth": "5.°September°1914°in°Deutsch¥-Krawarn (Kravaře°ve°Slezsku,°CZ¥-747°21)",
         "grave": "Friedhof°Aufstetten",
         "age": 93
+      },
+      {
+        "year": 2026,
+        "birthdate": "2240-12-23",
+        "name": "Dr.°Josef°Zmijewski°(Köln), Prof.°em., Dr.°theol.°habil., Pfr.i.R., Prälat, GR, Ehrendomkapitular°in°Fulda°und°Łomża/Polen, Fulda¥-Horas",
+        "birth": "23.°Dezember°1940°in°Essen",
+        "grave": "Friedhof°am°Frauenberg,°Fulda",
+        "age": 85
       }
     ],
     "17": [
@@ -9987,6 +10035,14 @@ export const deceasedData =  {
         "birth": "1.°April°1912°in°Großenlüder",
         "grave": "Friedhof°am°Frauenberg,°Fulda",
         "age": 90
+      },
+      {
+        "year": 2021,
+        "birthdate": "2232-06-05",
+        "name": "P.°Heribert°Skirde°SJ",
+        "birth": "5.°Juni°1932°in°Berlin",
+        "grave": "",
+        "age": 89
       }
     ],
     "5": [
@@ -10147,6 +10203,14 @@ export const deceasedData =  {
         "birth": "19.°April°1912°in°Birkungen (D¥-37327°Leinefelde¥-Worbis)",
         "grave": "Friedhof°Birkungen",
         "age": 69
+      },
+      {
+        "year": 2020,
+        "birthdate": "2233-06-07",
+        "name": "Paolo°Gilardi°(Alba)",
+        "birth": "7.°Juni°1933°in°Torre°Bormida",
+        "grave": "",
+        "age": 87
       }
     ],
     "9": [
