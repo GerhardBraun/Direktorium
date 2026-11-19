@@ -6,18 +6,18 @@ export const getValue = ({
     prefSource, prefSollemnity,
     // userPrefs: Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs in Direktorium.js);
     // hier gebraucht: comm, psalmsWt, ergPs, continuous, komplet, alternativePsalms
-    userPrefs = {}, localPrefLanguage = '',
+    userPrefs = {}, userPrefLanguage = '',
     skipPersonal = false }) => {
     if (!hour || !texts || !texts[hour])
         return null;
 
     if (hour === 'komplet')
-        return getKompletValue({ texts, field, localPrefKomplet: userPrefs.komplet, localPrefLanguage })
+        return getKompletValue({ texts, field, userPrefs, userPrefLanguage })
 
     const { rank = { wt: 0, date: 0 }, dayOfWeek } = texts;
     const swdCombined = texts?.swd?.combined || '';
-    const languageField = field + localPrefLanguage
-    const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben/g, '')
+    const languageField = field + userPrefLanguage
+    const isForeignLanguage = userPrefLanguage.replace(/_neu|_ben/g, '')
     const allSouls = texts.date.mmdd === '11-02'
 
     // Weihnachtsoktav: Vesper im Rang eines Festes (rank.wt=2.4)
@@ -71,7 +71,7 @@ export const getValue = ({
     if (userPrefs.ergPs && isTSN && isPsalmodie
         && prefSollemnity !== 'kirchw'
         && !userPrefs.psalmsWt
-        && !getExcludedHours(texts, userPrefs.ergPs, 'PSALMODIE').includes(hour)
+        && !getExcludedHours(texts, userPrefs, 'PSALMODIE').includes(hour)
     ) {
         if ((!hasObligPs && !hasAnt0) || allSouls || prefSollemnity === 'verst') {
             const data = sollemnitiesData.soll.each?.[hour]?.[languageField]
@@ -87,7 +87,7 @@ export const getValue = ({
         const altData = sollemnitiesData.verst?.alt?.laudes;
         const languageValue = altData?.[languageField];
         if (languageValue)
-            return typeof languageValue === 'string' ? languageValue + localPrefLanguage : languageValue;
+            return typeof languageValue === 'string' ? languageValue + userPrefLanguage : languageValue;
         if (altData?.[field]) return altData[field];
     }
 
@@ -110,7 +110,7 @@ export const getValue = ({
         }
         const value = readValue(languageField)
         // Sprachsuffix nur an Texte anhängen; Arrays (les_selector/patr_selector) unverändert durchreichen
-        if (value) return typeof value === 'string' ? value + localPrefLanguage : value
+        if (value) return typeof value === 'string' ? value + userPrefLanguage : value
         return readValue(field)
     }
 
@@ -131,11 +131,11 @@ export const getValue = ({
             return "^RUBRLateinische Commune-Oration:^0RUBR^l"
                 + languageResult.replace('comm:', '')
                 + add
-                + localPrefLanguage;
+                + userPrefLanguage;
         }
         else if (languageResult) {
             return typeof languageResult === 'string'
-                ? languageResult + localPrefLanguage
+                ? languageResult + userPrefLanguage
                 : languageResult;
         }
         return standardResult;
@@ -196,8 +196,8 @@ export const getValue = ({
     if (field.startsWith('c_')) {
         const data = texts[hour][prefSource]
         if (result(data)) return result(data);
-        const antKomm = languageField === `c_antev${localPrefLanguage}`
-            && data?.[`ant_komm${localPrefLanguage}`]
+        const antKomm = languageField === `c_antev${userPrefLanguage}`
+            && data?.[`ant_komm${userPrefLanguage}`]
         //console.log('Kommemoration: field, antKomm: ', languageField, antKomm);
 
         return antKomm
@@ -278,11 +278,11 @@ export const getValue = ({
         ) return result(texts[hour]?.continuous ?? texts[hour]?.wt)
 
         // Sonderfall Antiphonen: entweder ant0 oder ant1-3
-        if (languageField === `ant0${localPrefLanguage}` &&
+        if (languageField === `ant0${userPrefLanguage}` &&
             (prefTexts?.[`ant1${isForeignLanguage}`] || prefCommTexts?.[`ant1${isForeignLanguage}`])
         ) return null
 
-        if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(languageField) &&
+        if ([`ant1${userPrefLanguage}`, `ant2${userPrefLanguage}`, `ant3${userPrefLanguage}`].includes(languageField) &&
             (prefTexts?.[`ant0${isForeignLanguage}`] || prefCommTexts?.[`ant0${isForeignLanguage}`])
         ) return null
 
@@ -306,15 +306,15 @@ export const getValue = ({
         || null;
 }
 
-const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '' }) => {
+const getKompletValue = ({ texts, field, userPrefs = {}, userPrefLanguage = '' }) => {
     if (!texts || !texts.komplet) return null;
-    if (localPrefKomplet === 'wt' && !texts?.komplet?.showKompletWt) return null
+    if (userPrefs.komplet === 'wt' && !texts?.komplet?.showKompletWt) return null
     let { season, dayOfWeek } = texts;
     const swdCombined = texts?.swd?.combined || '';
 
     // Helper function to actually retrieve the field value
     const getFieldValue = (targetField) => {
-        if (targetField.startsWith('oration') && localPrefKomplet !== 'wt') {
+        if (targetField.startsWith('oration') && userPrefs.komplet !== 'wt') {
             if ([0, 6].includes(dayOfWeek) && swdCombined !== 'q-6-6')
                 return dataKomplet?.[dayOfWeek]?.[targetField];
             else if (!swdCombined.startsWith('o-1-') && swdCombined !== 'o-2-0')
@@ -327,8 +327,8 @@ const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '
         ) return '';
 
         // Anpassungen für Wochentag
-        if (localPrefKomplet === 'k1') dayOfWeek = 6;
-        if (localPrefKomplet === 'k2') dayOfWeek = 0;
+        if (userPrefs.komplet === 'k1') dayOfWeek = 6;
+        if (userPrefs.komplet === 'k2') dayOfWeek = 0;
 
         return dataKomplet?.[season]?.[targetField]
             || dataKomplet?.[season]?.[dayOfWeek]?.[targetField]
@@ -338,7 +338,7 @@ const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '
     };
 
     // Get value with optional language suffix
-    return getFieldValue(`${field}${localPrefLanguage}`)
+    return getFieldValue(`${field}${userPrefLanguage}`)
         || getFieldValue(field);
 };
 

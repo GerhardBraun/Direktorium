@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, formatPrayerText, noSelection = false }) => {
+const MarAntSelector = ({ season, selectedDate, swdCombined, userPrefLatin, formatPrayerText, noSelection = false }) => {
     season = ['j-1-0', 'j-34-6'].includes(swdCombined) ? 'a' : season;
 
     const [selectedAntSeason, setSelectedAntSeason] = useState(null);
@@ -8,8 +8,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     const [Nativity, setNativity] = useState(false);
 
     const suffixLatin = useMemo(() => {
-        return localPrefLatin ? '_lat' : '';
-    }, [localPrefLatin]);
+        return userPrefLatin ? '_lat' : '';
+    }, [userPrefLatin]);
 
     // Definition der Marianischen Antiphonen mit direkter Zuordnung zur liturgischen Zeit
     const marianAntiphons = useMemo(() => [

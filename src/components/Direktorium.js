@@ -406,10 +406,10 @@ const PrayerTextDisplay = ({
   setPrefSollemnity,
   useCommemoration,
   setUseCommemoration,
-  localPrefLanguage,
-  localPrefLatin,
-  setLocalPrefLatin,
-  setLocalPrefLanguage,
+  userPrefLanguage,
+  userPrefLatin,
+  setUserPrefLatin,
+  setUserPrefLanguage,
   showCantMarkers,
   setShowCantMarkers,
   onSelectHour,
@@ -473,7 +473,7 @@ const PrayerTextDisplay = ({
       prefSource,
       prefSollemnity,
       userPrefs: effectivePrefs,
-      localPrefLanguage,
+      userPrefLanguage,
       skipPersonal,
       texts,
       field,
@@ -486,8 +486,8 @@ const PrayerTextDisplay = ({
     onSelectHour, texts, hour, addDebugLog,
     prefSource, prefSollemnity,
     userPrefs: effectivePrefs, setPref,
-    localPrefLatin, localPrefLanguage, ommitConfiteor, showCantMarkers,
-    setLocalPrefLatin, setLocalPrefLanguage, setShowCantMarkers, setOmmitConfiteor,
+    userPrefLatin, userPrefLanguage, ommitConfiteor, showCantMarkers,
+    setUserPrefLatin, setUserPrefLanguage, setShowCantMarkers, setOmmitConfiteor,
   };
 
 
@@ -502,13 +502,13 @@ const PrayerTextDisplay = ({
 
   const formatPrayerText = (provText, marker = "") => {
     return extFormatPrayerText({
-      provText, localPrefLanguage, localPrefLatin, marker, hour, texts,
+      provText, userPrefLanguage, userPrefLatin, marker, hour, texts,
       prefSource, widthForHymns: availableTextWidth
     });
   };
 
   const formatPsalm = (psalm, num = -1, modeOverride = null, antIsFirst = false) => {
-    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride, antIsFirst, showCantMarkers, availableTextWidth);
+    return extFormatPsalm(psalm, num, userPrefLanguage, modeOverride, antIsFirst, showCantMarkers, availableTextWidth);
   };
 
   const ResponsorialDisplay = (role, text) => (
@@ -652,19 +652,19 @@ const PrayerTextDisplay = ({
       note = "Ein gesegnetes neues Jahr!"
     // Vesper am Gründonnerstag
     if (texts?.swd?.combined === 'q-6-4' && hour === 'vesper') {
-      localPrefLanguage === '_lat'
+      userPrefLanguage === '_lat'
         ? note = "Vesperæ dicuntur tantum ab iis, qui Missæ vespertinæ in Cena Domini non intersunt."
         : note = "Die Vesper wird nur von denen gebetet, die nicht an der Abendmahlsmesse teilnehmen."
     }
     // Vesper am Karfreitag
     if (texts?.swd?.combined === 'q-6-5' && hour === 'vesper') {
-      localPrefLanguage === '_lat'
+      userPrefLanguage === '_lat'
         ? note = "Vesperæ dicuntur tantum ab iis, qui Actioni liturgicæ postmeridianæ non intersunt."
         : note = "Die Vesper wird nur von denen gebetet, die nicht an der nachmittäglichen Feier vom Leiden und Sterben Christi teilnehmen."
     }
     // Komplet am Karsamstag
     if (texts?.swd?.combined === 'q-6-6' && hour === 'komplet') {
-      localPrefLanguage === '_lat'
+      userPrefLanguage === '_lat'
         ? note = "Completorium dicitur tantum ab iis, qui Vigiliæ paschali non intersunt."
         : note = "Die Komplet wird nur von denen gebetet, die nicht an der Feier der Osternacht teilnehmen."
     }
@@ -674,17 +674,17 @@ const PrayerTextDisplay = ({
       </div>)
   }
 
-  const ordinariumTexts = ordinarium(texts, hour, localPrefLanguage, prefSource, prefSollemnity, useCommemoration)
+  const ordinariumTexts = ordinarium(texts, hour, userPrefLanguage, prefSource, prefSollemnity, useCommemoration)
   // erweitertes Responsorium nach der Zweiten Lesung der Lesehore am 1. Adventssonntag
   // deutsch: nur im Jahr II (durch patr_resp1 = LEER ermittelt), lateinisch: in jedem Jahr
   const { advResp = '', advVers = '' } =
     (texts?.swd.combined === 'a-1-0' && hour === 'lesehore'
-      && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
-      ? ordinarium('advent', hour, localPrefLanguage) : {};
+      && (getValue('patr_resp1') === 'LEER' || userPrefLatin))
+      ? ordinarium('advent', hour, userPrefLanguage) : {};
   // Große Fürbitten aus der Karfreitagsliturgie als Option für die Vesper am Karfreitag
   const goodFriday =
     (texts?.swd.combined === 'q-6-5' && hour === 'vesper' && userPrefs.longform)
-      ? ordinarium('goodFriday', hour, localPrefLanguage) : '';
+      ? ordinarium('goodFriday', hour, userPrefLanguage) : '';
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -713,8 +713,8 @@ const PrayerTextDisplay = ({
           {hour === "komplet" ? (
             <KompletSelector
               texts={texts}
-              localPrefKomplet={userPrefs.komplet}
-              setLocalPrefKomplet={(value) => setPref('komplet', value)}
+              userPrefs={userPrefs}
+              setPref={setPref}
               className="mb-4"
             />
           ) : (
@@ -804,8 +804,8 @@ const PrayerTextDisplay = ({
               season={season}
               prefSource={prefSource}
               prefSollemnity={prefSollemnity}
-              localPrefKomplet={userPrefs.komplet}
-              localPrefLanguage={localPrefLanguage}
+              userPrefs={userPrefs}
+              userPrefLanguage={userPrefLanguage}
               formatPrayerText={formatPrayerText}
             />
           </div>
@@ -872,7 +872,7 @@ const PrayerTextDisplay = ({
           hour={hour}
           prefSource={prefSource}
           prefSollemnity={prefSollemnity}
-          localPrefLanguage={localPrefLanguage}
+          userPrefLanguage={userPrefLanguage}
           formatPrayerText={formatPrayerText}
           getValue={getValue}
           headerProps={headerProps}
@@ -1144,7 +1144,7 @@ const PrayerTextDisplay = ({
                 season={season}
                 selectedDate={selectedDate}
                 swdCombined={texts?.swd?.combined}
-                localPrefLatin={localPrefLatin}
+                userPrefLatin={userPrefLatin}
                 formatPrayerText={formatPrayerText}
                 noSelection={hour === 'vesper'}
               />
@@ -1260,8 +1260,9 @@ export default function Stundenbuch() {
     const stored = localStorage.getItem('delaySolemnity');
     return stored ? JSON.parse(stored) : { epiphany: false, ascension: 0, corpusXP: 0 };
   });
-  const [deceasedMode, setDeceasedMode] = useState(() => localStorage.getItem("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
-  const [localPrefLatin, setLocalPrefLatin] = useState(() => localStorage.getItem("prefLanguage") === "_lat");
+  const [deceasedMode, setDeceasedMode] = useState(() => localStorage.getItem("deceasedMode") || "recent");
+  const [userPrefLanguage, setUserPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
+  const [userPrefLatin, setUserPrefLatin] = useState(() => localStorage.getItem("prefLanguage") === "_lat");
   const [showCantMarkers, setShowCantMarkers] = useState(() => localStorage.getItem("showCantMarker") === "true");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
@@ -1466,8 +1467,8 @@ export default function Stundenbuch() {
   }, [deceasedMode]);
 
   useEffect(() => {
-    setLocalPrefLatin(localPrefLanguage === "_lat");
-  }, [localPrefLanguage]);
+    setUserPrefLatin(userPrefLanguage === "_lat");
+  }, [userPrefLanguage]);
 
   const allEntries = useMemo(() => {
     const entries = [];
@@ -1677,9 +1678,9 @@ export default function Stundenbuch() {
     // Speichert die aktuelle Sprach-/Gesangs-Einstellung als Voreinstellung für den Programmstart
     // (ersetzt die frühere LongPress-Funktion auf den Sprachwahl-Buttons)
     const handleSaveLanguageDefault = () => {
-      setLocalStorage("prefLanguage", localPrefLanguage);
+      setLocalStorage("prefLanguage", userPrefLanguage);
       setLocalStorage("showCantMarker", String(showCantMarkers));
-      setStoredPrefLanguage(localPrefLanguage);
+      setStoredPrefLanguage(userPrefLanguage);
       setStoredShowCantMarkers(showCantMarkers);
     };
 
@@ -1763,8 +1764,8 @@ export default function Stundenbuch() {
     const LanguageButton = (value, label, className = "col-span-1") => {
       return (
         <button
-          onClick={() => setLocalPrefLanguage(value)}
-          className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
+          onClick={() => setUserPrefLanguage(value)}
+          className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${userPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
             }`}
         >
           {label}
@@ -2247,7 +2248,7 @@ export default function Stundenbuch() {
   };
 
   const formatPrayerText = (provText, marker = '') =>
-    extFormatPrayerText({ provText, localPrefLanguage, marker });
+    extFormatPrayerText({ provText, userPrefLanguage, marker });
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -2453,9 +2454,9 @@ export default function Stundenbuch() {
                 setPrefSollemnity={setPrefSollemnity}
                 useCommemoration={useCommemoration}
                 setUseCommemoration={setUseCommemoration}
-                localPrefLanguage={localPrefLanguage}
-                setLocalPrefLatin={setLocalPrefLatin}
-                setLocalPrefLanguage={setLocalPrefLanguage}
+                userPrefLanguage={userPrefLanguage}
+                setUserPrefLatin={setUserPrefLatin}
+                setUserPrefLanguage={setUserPrefLanguage}
                 showCantMarkers={showCantMarkers}
                 widthForHymns={widthForHymns}
                 onBack={() => {
@@ -2486,10 +2487,10 @@ export default function Stundenbuch() {
                 setPrefSollemnity={setPrefSollemnity}
                 useCommemoration={useCommemoration}
                 setUseCommemoration={setUseCommemoration}
-                localPrefLanguage={localPrefLanguage}
-                localPrefLatin={localPrefLatin}
-                setLocalPrefLatin={setLocalPrefLatin}
-                setLocalPrefLanguage={setLocalPrefLanguage}
+                userPrefLanguage={userPrefLanguage}
+                userPrefLatin={userPrefLatin}
+                setUserPrefLatin={setUserPrefLatin}
+                setUserPrefLanguage={setUserPrefLanguage}
                 showCantMarkers={showCantMarkers}
                 setShowCantMarkers={setShowCantMarkers}
                 widthForHymns={widthForHymns}
@@ -2527,10 +2528,10 @@ export default function Stundenbuch() {
               setPrefSollemnity={setPrefSollemnity}
               useCommemoration={useCommemoration}
               setUseCommemoration={setUseCommemoration}
-              localPrefLanguage={localPrefLanguage}
-              localPrefLatin={localPrefLatin}
-              setLocalPrefLatin={setLocalPrefLatin}
-              setLocalPrefLanguage={setLocalPrefLanguage}
+              userPrefLanguage={userPrefLanguage}
+              userPrefLatin={userPrefLatin}
+              setUserPrefLatin={setUserPrefLatin}
+              setUserPrefLanguage={setUserPrefLanguage}
               widthForHymns={widthForHymns}
               onBack={() => {
                 setViewMode("prayer");

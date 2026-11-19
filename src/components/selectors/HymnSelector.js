@@ -3,11 +3,11 @@ import { psalmsData } from '../data/PsHymn.ts'; // Import hinzufügen
 
 const HymnSelector = ({ texts, hour, season,
     prefSource, prefSollemnity,
-    localPrefKomplet, localPrefLanguage = '',
+    userPrefs = {}, userPrefLanguage = '',
     formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
 
-    localPrefLanguage = ['_neu', '_ben'].includes(localPrefLanguage) ? '' : localPrefLanguage
+    userPrefLanguage = ['_neu', '_ben'].includes(userPrefLanguage) ? '' : userPrefLanguage
     if (hour === 'vesper' && prefSollemnity === 'soll')
         hour = 'prefsollemnity';
     const isErsteVesper = hour === 'vesper' && texts?.rank?.hasErsteVesper && !prefSollemnity
@@ -66,7 +66,7 @@ const HymnSelector = ({ texts, hour, season,
 
     const removeAccents = (text) => {
         if (!text) return '';
-        if (localPrefLanguage !== '_lat') return text
+        if (userPrefLanguage !== '_lat') return text
         return text
             .replace(/[áéíóúý]/g, (match) => match.normalize('NFD').charAt(0))
             .replace(/[ÁÉÍÓÚÝ]/g, (match) => match.normalize('NFD').charAt(0))
@@ -146,10 +146,10 @@ const HymnSelector = ({ texts, hour, season,
 
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
-        const collectHymns = (localPrefLanguage = '') => {
+        const collectHymns = (userPrefLanguage = '') => {
             const hymns = [];
             const usedHymnNumbers = new Set();
-            const hasNachtHymn = texts[hour]?.wt?.[`hymn_nacht${localPrefLanguage}`];
+            const hasNachtHymn = texts[hour]?.wt?.[`hymn_nacht${userPrefLanguage}`];
 
             const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false, languageSuffix = '' }) => {
                 // Korrigierte Logik: Nur verarbeiten wenn hymnNumber existiert und noch nicht verwendet
@@ -158,7 +158,7 @@ const HymnSelector = ({ texts, hour, season,
                     const hymnData = resolveHymnReference(hymnNumber);
 
                     // Prüfe auf gewünschte Sprache
-                    languageSuffix = languageSuffix || localPrefLanguage;
+                    languageSuffix = languageSuffix || userPrefLanguage;
                     const textField = `text${languageSuffix}`;
                     const titleField = `title${languageSuffix}`;
 
@@ -195,7 +195,7 @@ const HymnSelector = ({ texts, hour, season,
                 }
             }
 
-            const specialHymns = dataSpecialHymns?.[prefSollemnity]?.[localPrefLanguage]?.[hour]
+            const specialHymns = dataSpecialHymns?.[prefSollemnity]?.[userPrefLanguage]?.[hour]
                 || dataSpecialHymns?.[prefSollemnity]?.[hour];
             let hymnNumbers = Array.isArray(specialHymns) ? specialHymns : [specialHymns];
 
@@ -269,7 +269,7 @@ const HymnSelector = ({ texts, hour, season,
 
             // Spezielle Komplet-Hymnen hinzufügen
             if (hour === 'komplet') {
-                const kompletHymnNumber = dataSpecialHymns[localPrefKomplet];
+                const kompletHymnNumber = dataSpecialHymns[userPrefs.komplet];
 
                 // Verwende die addNewHymn Funktion auch hier
                 addNewHymn({
@@ -330,7 +330,7 @@ const HymnSelector = ({ texts, hour, season,
         };
 
         // Erster Durchlauf: Mit Sprachpräferenz (oder Standard wenn nicht gesetzt)
-        const firstPass = collectHymns(localPrefLanguage);
+        const firstPass = collectHymns(userPrefLanguage);
         if (firstPass.length > 0) {
             return firstPass;
         }
@@ -338,7 +338,7 @@ const HymnSelector = ({ texts, hour, season,
         // Fallback: Standard-Sprache (nur wenn erster Durchlauf leer war)
         return collectHymns('');
 
-    }, [texts, hour, prefSource, prefSollemnity, sourceOrder, localPrefLanguage, localPrefKomplet]);
+    }, [texts, hour, prefSource, prefSollemnity, sourceOrder, userPrefLanguage, userPrefs.komplet]);
 
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {

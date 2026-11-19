@@ -268,12 +268,12 @@ Jede Bitte ist zweigeteilt (in der App durch `^q` markiert).
 ## Wiederholung der Response
 Im Vollzug des Stundengebetes in Gemeinschaft wird die Response nach jeder Bitte wiederholt.
 Sie wird aber in der Regel nur einmal nach der Einleitung abgedruckt.
-In der App gibt es die Option `kurz|lang` (`localPrefLongform`), um die Response nach jeder Bitte einzublenden. Das ist zB bei der Verwendung einer Vorlesefunktion hilfreich.
+In der App gibt es die Option `kurz|lang` (`userPrefs.longform`), um die Response nach jeder Bitte einzublenden. Das ist zB bei der Verwendung einer Vorlesefunktion hilfreich.
 
 ## Karfreitagsfürbitten
 In der Vesper am Karfreitag gibt es die Option, die ausführlichen Fürbitten aus dem Messbuch auch im Stundengebet zu verwenden. Diese haben einen anderen Aufbau.
 In der App kann das durch die Verwendung der Marker zur Textformatierung (`^l`, `^r`) berücksichtigt werden.
-Für die Unterscheidung wird `localPrefLongform` verwendet.
+Für die Unterscheidung wird `userPrefs.longform` verwendet.
 
 # Vaterunser (Laudes/Vesper)/Te Deum (Lesehore)
 Ordinariumstexte ohne Variationen, könnte also auch im UI implementiert werden.

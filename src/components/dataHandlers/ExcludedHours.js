@@ -1,7 +1,7 @@
 // Hilfsfunktion zur Bestimmung der ausgeschlossenen Horen
 // basierend auf Ergänzungspsalmodie
-export const getExcludedHours = (texts, localPrefErgPs, title) => {
-    if (title !== 'PSALMODIE' || !localPrefErgPs
+export const getExcludedHours = (texts, userPrefs, title) => {
+    if (title !== 'PSALMODIE' || !userPrefs?.ergPs
         || texts?.vesper?.oblig?.psalm1
     ) return [];
 

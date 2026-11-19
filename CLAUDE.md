@@ -105,12 +105,12 @@ Die Texte können aus verschiedenen Quellen stammen:
 
 ### Latein-/Spracheinstellung
 
-- `prefLanguage` / `localPrefLanguage`: Sprachpräferenz des Nutzers:
+- `prefLanguage` / `userPrefLanguage`: Sprachpräferenz des Nutzers:
   - Deutsch (nach dem offiziellen Stundenbuch)
   - Latein
   - Neue deutsche Einheitsübersetzung
   - Übersetzung des Münsterschwarzacher Psalters
-- `localPrefLatin`: Detaileinstellung für lateinische Texte
+- `userPrefLatin`: Detaileinstellung für lateinische Texte
 - Hintergrund: Das Stundengebet kann auf Deutsch oder Latein gebetet werden;
   für die Feier auf Deutsch werden außerdem verschiedene Psalmübersetzungen
   zur Verfügung gestellt.

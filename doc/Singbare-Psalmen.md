@@ -314,7 +314,7 @@ Das generierte TypeScript-Interface in `PsHymn.ts` erhält die beiden neuen Feld
 ### 4.1 Eigenschaften
 
 - Kennung: `_cant`
-- Es handelt sich um eine **deutsche** Variante → `localPrefLatin` bleibt `false`
+- Es handelt sich um eine **deutsche** Variante → `userPrefLatin` bleibt `false`
 - Die Fallback-Logik ist analog zu `_neu` und `_ben`
 - Kein „Unlock"-Mechanismus nötig (anders als `_ben`)
 
@@ -322,16 +322,16 @@ Das generierte TypeScript-Interface in `PsHymn.ts` erhält die beiden neuen Feld
 
 Bestehende Fallback-Kette (vereinfacht):
 ```javascript
-const text = psalm[`text${localPrefLanguage}`] || psalm.text;
+const text = psalm[`text${userPrefLanguage}`] || psalm.text;
 ```
 
-Für `localPrefLanguage === '_cant'` greift also:
+Für `userPrefLanguage === '_cant'` greift also:
 1. `psalm.text_cant` – falls vorhanden: Gesangstext mit Markierungen
 2. `psalm.text` – Fallback: normaler Stundenbuch-Text (ohne Gesangsmarkierungen)
 
 Dieselbe Fallback-Logik gilt für `title`, `verses`, `quote`.
 
-**`text_mode`** ist ein Sonderfall: Es wird nur ausgewertet, wenn `localPrefLanguage === '_cant'` und `psalm.text_mode` vorhanden ist (also nicht beim Fallback auf Standard-Text).
+**`text_mode`** ist ein Sonderfall: Es wird nur ausgewertet, wenn `userPrefLanguage === '_cant'` und `psalm.text_mode` vorhanden ist (also nicht beim Fallback auf Standard-Text).
 
 ### 4.3 `formatCantMarkers` – Implementierung als Subroutine
 
@@ -358,7 +358,7 @@ Die Doxologie „Ehre sei dem Vater …" wird mit dem Psalm gesungen und muss da
 Der aktuelle Code (vereinfacht):
 ```javascript
 const doxology =
-    (localPrefLanguage === "_lat" && psalm.text_lat)
+    (userPrefLanguage === "_lat" && psalm.text_lat)
         ? "Glória Patri ..."
         : "Ehre sei dem Vater ...";
 ```
@@ -368,14 +368,14 @@ const doxology =
 Da die Doxologie mit dem abstrakten Markierungssystem (§1.3) versehen wird, entfällt der `switch` nach `text_mode`. Der Text wird – analog zu den anderen beiden Fällen – direkt im `return` übergeben:
 
 ```javascript
-const getDoxology = (localPrefLanguage, psalm) => {
-    if (localPrefLanguage === "_lat" && psalm.text_lat) {
+const getDoxology = (userPrefLanguage, psalm) => {
+    if (userPrefLanguage === "_lat" && psalm.text_lat) {
         return "Glória Patri et Fílio^*"
              + "et Spirítui Sancto.^p"
              + "Sicut erat in princípio^*"
              + "et in sáecula saeculórum. Amen.";
     }
-    if (localPrefLanguage === "_cant" && psalm.text_cant) {
+    if (userPrefLanguage === "_cant" && psalm.text_cant) {
         return "Ehre sei dem |Vater 2und 1dem ||Sohn^*"
              + "und dem 3|Hei2li1gen ||Geist,^p"
              + "wie im Anfang, so°auch°2|jetzt°1und°||alle°Zeit^*"
@@ -610,7 +610,7 @@ Die Notenzeile wird nach `quote` und vor dem ersten Vers eingefügt (nur im `_ca
 und wenn `text_cant` tatsächlich vorhanden ist):
 
 ```jsx
-{localPrefLanguage === '_cant' && psalm.text_cant && psalm.text_mode && (
+{userPrefLanguage === '_cant' && psalm.text_cant && psalm.text_mode && (
   <div className="mb-2 mt-1">
     <img
       src={psalmToneImageSrc(psalm.text_mode)}

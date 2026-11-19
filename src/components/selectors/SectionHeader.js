@@ -16,12 +16,12 @@ const SectionHeader = ({
     prefSollemnity,
     userPrefs,   // Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs in Direktorium.js)
     setPref,     // setPref('comm', 1) ändert einen einzelnen Wert in userPrefs
-    localPrefLatin,
-    localPrefLanguage,
+    userPrefLatin,
+    userPrefLanguage,
     ommitConfiteor,
     showCantMarkers,
-    setLocalPrefLatin,
-    setLocalPrefLanguage,
+    setUserPrefLatin,
+    setUserPrefLanguage,
     setShowCantMarkers,
     setOmmitConfiteor,
 }) => {
@@ -42,7 +42,7 @@ const SectionHeader = ({
                 prefSource,
                 prefSollemnity,
                 userPrefs: { ...userPrefs, komplet: 'wt' }, // komplet nicht relevant für TSN
-                localPrefLanguage: ''
+                userPrefLanguage: ''
             })
         };
 
@@ -64,10 +64,10 @@ const SectionHeader = ({
         if (title !== 'PSALMODIE') return true;
 
         // Prüft dieselbe sprachspezifisch aufgelöste Textvariante, die formatPsalm auch tatsächlich
-        // anzeigt (psalm[text+localPrefLanguage] || psalm.text) – nicht immer nur den deutschen Text.
+        // anzeigt (psalm[text+userPrefLanguage] || psalm.text) – nicht immer nur den deutschen Text.
         const psalmHasMarkers = (ref) => {
             const psalm = resolveReference(ref);
-            return !!(psalm?.[`text${localPrefLanguage}`] || psalm?.text)?.includes('|');
+            return !!(psalm?.[`text${userPrefLanguage}`] || psalm?.text)?.includes('|');
         };
 
         if (hour === 'invitatorium') {
@@ -79,14 +79,14 @@ const SectionHeader = ({
             hour, field,
             season: texts?.season,
             texts, prefSource, prefSollemnity, userPrefs,
-            localPrefLanguage: ''
+            userPrefLanguage: ''
         });
 
         return [1, 2, 3].some(num => {
             const psalmRef = getValuePs(`psalm${num}`);
             return psalmRef && psalmHasMarkers(psalmRef);
         });
-    }, [title, hour, texts, prefSource, prefSollemnity, userPrefs, localPrefLanguage]);
+    }, [title, hour, texts, prefSource, prefSollemnity, userPrefs, userPrefLanguage]);
 
     //  VERSIKEL-Header immer ohne Buttons
     if (title === 'VERSIKEL' ||
@@ -178,26 +178,26 @@ const SectionHeader = ({
     }
 
     const handleLanguageToggle = () => {
-        const newIndex = languages.indexOf(localPrefLanguage) !== 0
+        const newIndex = languages.indexOf(userPrefLanguage) !== 0
             ? 0 : 1;
         const newLanguage = languages[newIndex];
-        setLocalPrefLatin(newLanguage === '_lat');
-        setLocalPrefLanguage(newLanguage);
+        setUserPrefLatin(newLanguage === '_lat');
+        setUserPrefLanguage(newLanguage);
     };
 
     const handleLongPress = (e) => {
         e.preventDefault();
         e.stopPropagation();
-        setLocalPrefLatin(false);
-        setLocalPrefLanguage('');
+        setUserPrefLatin(false);
+        setUserPrefLanguage('');
     };
 
     const handlePressStart = (e) => {
         let triggered = false;
         const timer = setTimeout(() => {
             triggered = true;
-            setLocalPrefLatin(false);
-            setLocalPrefLanguage('');
+            setUserPrefLatin(false);
+            setUserPrefLanguage('');
         }, 800);
         setPressTimer({ timer, getTriggered: () => triggered });
     };
@@ -287,7 +287,7 @@ const SectionHeader = ({
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
         && !(isPsalmodie && isIdenticalTerzSext && !userPrefs.ergPs);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
-    const excludedHours = getExcludedHours(texts, userPrefs.ergPs, title);
+    const excludedHours = getExcludedHours(texts, userPrefs, title);
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
     const isGoodFriday = texts?.swd?.combined === 'q-6-5' && hour === 'vesper';
     const allSouls = texts?.date?.mmdd === '11-02' && texts?.dayOfWeek > 0;
@@ -371,7 +371,7 @@ const SectionHeader = ({
     );
 
     const doUnderline = (key) => {
-        return languages[1] !== '_lat' && localPrefLanguage === languages[key] ? 'underline' : ''
+        return languages[1] !== '_lat' && userPrefLanguage === languages[key] ? 'underline' : ''
     }
 
     // Bestimme die Anzeigetexte für die Sprachen
@@ -403,7 +403,7 @@ const SectionHeader = ({
                     {"("}
                     {showLanguageToggle && (
                         <>
-                            {!localPrefLanguage && languages[0] && (
+                            {!userPrefLanguage && languages[0] && (
                                 <>
                                     <span className={'underline'}>
                                         {"Stb"}

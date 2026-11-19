@@ -161,8 +161,8 @@ const findOAntiphon = (data) => {
 
 const psalmToneImageSrc = (mode) => `${process.env.PUBLIC_URL}/images/psalmtones/${mode}.png`;
 
-const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
-    if (localPrefLanguage === "_lat" && (isBuM || psalm.text_lat)) {
+const getDoxology = (userPrefLanguage, psalm, isBuM = false) => {
+    if (userPrefLanguage === "_lat" && (isBuM || psalm.text_lat)) {
         return "Glória |Pa2tri 1et ||Fí0li0o^*"
             + "et Spir3|í2tu1i ||Sanc0to.^p"
             + "Sicut erat in princípio, et°2|nunc°1et°||sem0per,^*"
@@ -175,7 +175,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
 };
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOverride = null, antIsFirst = false, showCantMarkers = false, widthForHymns = false) => {
+export const formatPsalm = (psalmRef, num = -1, userPrefLanguage = '', modeOverride = null, antIsFirst = false, showCantMarkers = false, widthForHymns = false) => {
     // widthForHymns: verfügbare Textbreite in em (für die Auflösung zu langer °-Wortgruppen)
     // num=0 für Invitatorium: keine verses, title, quote;
     // num=1-3 für Vigil: Ordinalzahlen bei den Cantica
@@ -189,17 +189,17 @@ export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOver
     const psalm = isBuM ? '' : resolveReference(psalmRef);
     if (!isBuM && (!psalm || !psalm.text)) return null;
 
-    const number = isBuM ? 0 : psalm[`number${localPrefLanguage}`] || psalm.number;
-    const provText = isBuM ? psalmRef.cant : psalm[`text${localPrefLanguage}`] || psalm.text;
-    const verses = !num ? '' : psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
-    const title = !num ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
-    const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
+    const number = isBuM ? 0 : psalm[`number${userPrefLanguage}`] || psalm.number;
+    const provText = isBuM ? psalmRef.cant : psalm[`text${userPrefLanguage}`] || psalm.text;
+    const verses = !num ? '' : psalm[`verses${userPrefLanguage}`] || psalm.verses || "";
+    const title = !num ? '' : psalm[`title${userPrefLanguage}`] || psalm.title || "";
+    const quote = !num ? '' : psalm[`quote${userPrefLanguage}`] || psalm.quote || "";
 
     let text = antIsFirst ? provText : provText.replace('^\(', '').replace('^\)', '');
     text = text
         .replace(/\^INVANT/g, num ? '' : '^p^RUBR(Die Antiphon wird wiederholt.)^0RUBR')
         .replace(/\^INVlANT/g, num ? '' : '^p^RUBR(Repetitur antiphona.)^0RUBR')
-    let doxology = getDoxology(localPrefLanguage, psalm, isBuM);
+    let doxology = getDoxology(userPrefLanguage, psalm, isBuM);
 
     // Cant-Fähigkeit sprachunabhängig aus dem bereits aufgelösten Text ablesen (statt aus einem
     // eigenen text_cant-Feld) — sobald künftig auch andere Sprachvarianten Marker erhalten,
@@ -244,18 +244,18 @@ export const formatPsalm = (psalmRef, num = -1, localPrefLanguage = '', modeOver
                 ? <PsalmCantDisplay
                     text={text}
                     doxology={doxology}
-                    localPrefLanguage={localPrefLanguage}
+                    userPrefLanguage={userPrefLanguage}
                     number={number}
                     canonicalMode={cantMode}
                     widthForHymns={widthForHymns}
                 />
                 : <>
                     {text && <div className="whitespace-pre-wrap">
-                        {formatPrayerText({ provText: text, localPrefLanguage, widthForHymns })}
+                        {formatPrayerText({ provText: text, userPrefLanguage, widthForHymns })}
                     </div>}
-                    {(![157, 160].includes(number) || (number === 157 && localPrefLanguage === "_lat")) &&
+                    {(![157, 160].includes(number) || (number === 157 && userPrefLanguage === "_lat")) &&
                         <div className="whitespace-pre-wrap">
-                            {formatPrayerText({ provText: doxology, localPrefLanguage, widthForHymns })}
+                            {formatPrayerText({ provText: doxology, userPrefLanguage, widthForHymns })}
                         </div>}
                 </>
             }
@@ -317,7 +317,7 @@ export const formatDirectoryText = (text) => {
 };
 
 // Komponente für die gesungene Darstellung (showCantMarkers): Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
-const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonicalMode, widthForHymns = false }) => {
+const PsalmCantDisplay = ({ text, doxology, userPrefLanguage, number, canonicalMode, widthForHymns = false }) => {
     const [selectedMode, setSelectedMode] = useState(canonicalMode);
     const [showSelector, setShowSelector] = useState(false);
     const containerRef = useRef(null);
@@ -334,7 +334,7 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
 
     useEffect(() => {
         setSelectedMode(canonicalMode);
-    }, [text, localPrefLanguage, canonicalMode]);
+    }, [text, userPrefLanguage, canonicalMode]);
 
     // Psalmtöne in Zeilen gegliedert: Haupttöne, dann Varianten; null = Trennlinie
     const toneRows = [
@@ -349,7 +349,7 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
     const toneLabels = { 'IX': 'IX (per.)', 'X': 'X (irr.)' };
 
     const showDoxology = ![157, 160].includes(number)
-        || (number === 157 && localPrefLanguage === '_lat');
+        || (number === 157 && userPrefLanguage === '_lat');
 
     return (
         <>
@@ -402,12 +402,12 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
             </div>
             {text && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText({ provText: text, localPrefLanguage, marker: 'cant' + selectedMode, widthForHymns })}
+                    {formatPrayerText({ provText: text, userPrefLanguage, marker: 'cant' + selectedMode, widthForHymns })}
                 </div>
             )}
             {showDoxology && (
                 <div className="whitespace-pre-wrap">
-                    {formatPrayerText({ provText: doxology, localPrefLanguage, marker: 'cant' + selectedMode, widthForHymns })}
+                    {formatPrayerText({ provText: doxology, userPrefLanguage, marker: 'cant' + selectedMode, widthForHymns })}
                 </div>
             )}
         </>
@@ -415,7 +415,7 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLatin = false,
+export const formatPrayerText = ({ provText, userPrefLanguage = '', userPrefLatin = false,
     marker = '', hour = '', texts = {},
     prefSource = '', widthForHymns = false }) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
@@ -440,7 +440,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
     // bei Antwortpsalmen in den Messlesungen wird das Sternchen in Rubrik-Farbe angezeigt
     const isAps = marker === 'Aps';
 
-    // wiederholte Antworten in den Fürbitten bei localPrefLongform
+    // wiederholte Antworten in den Fürbitten bei userPrefs.longform
     let insertResponse = '';
     if (marker.startsWith('^R:')) {
         insertResponse = marker
@@ -647,7 +647,7 @@ export const formatPrayerText = ({ provText, localPrefLanguage = '', localPrefLa
             // Gottesname in Kapitälchen (neue Einheitsübersetzung und Benediktinisches Antiphonale)
             .replace(/(HERREN|HERRN?|GOTTES|GOTT|IHN)/g, (match) => {
                 const word = firstCapital(match);
-                return ['_neu', '_ben'].includes(localPrefLanguage) ? `^c${word}^0c` : word;
+                return ['_neu', '_ben'].includes(userPrefLanguage) ? `^c${word}^0c` : word;
             })
             .replace(/\$/g, '')
     }

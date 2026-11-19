@@ -2,8 +2,8 @@ import React from 'react';
 
 const KompletSelector = ({
     texts,
-    localPrefKomplet,
-    setLocalPrefKomplet,
+    userPrefs = {},
+    setPref,
     className = ''
 }) => {
     // Extrahiere die Show-Flags und den Standard-Wert aus den Texten
@@ -16,12 +16,12 @@ const KompletSelector = ({
     // Funktion zum Behandeln der Button-Klicks
     const handleKompletSelect = (value) => {
         if ((value === 'wt' && showKompletWt) || value.includes('k'))
-            setLocalPrefKomplet(value);
+            setPref('komplet', value);
     };
 
     // Gemeinsame Button-Styles
     const getButtonStyle = (value) => {
-        const isSelected = value === localPrefKomplet;
+        const isSelected = value === userPrefs.komplet;
         const isDefault = value === prefKomplet;
         const isDisabled = value === 'wt' && !showKompletWt
 

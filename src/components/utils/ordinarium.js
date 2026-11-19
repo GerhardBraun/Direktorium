@@ -186,9 +186,9 @@ const ordinariumData = {
     }
 }
 
-function getOpeningTexts(hour, localPrefLanguage) {
+function getOpeningTexts(hour, userPrefLanguage) {
 
-    const opening_inv = localPrefLanguage === '_lat' ? [
+    const opening_inv = userPrefLanguage === '_lat' ? [
         "Dómine, lábia mea apéries.",
         "Et os meum annuntiábit laudem tuam.",
         "", ""
@@ -227,7 +227,7 @@ function getOpeningTexts(hour, localPrefLanguage) {
         || hour === 'vigil') {
         return ["", "", "", ""];
     }
-    return localPrefLanguage === '_lat' ? [
+    return userPrefLanguage === '_lat' ? [
         "Deus, in adiutórium meum inténde.",
         "Dómine, ad adiuvándum me festína.",
         "Glória Patri et Fílio et Spirítui Sancto.",
@@ -240,8 +240,8 @@ function getOpeningTexts(hour, localPrefLanguage) {
     ];
 }
 
-function getClosingTexts(hour, localPrefLanguage, useCommemoration) {
-    const languageToRead = localPrefLanguage === '_lat' ? 'lat' : 'dt';
+function getClosingTexts(hour, userPrefLanguage, useCommemoration) {
+    const languageToRead = userPrefLanguage === '_lat' ? 'lat' : 'dt';
     if (hour === 'vigil') { hour = 'lesehore' }
 
     // Versuche zuerst spezifische Abschlusstexte für die Hore zu finden
@@ -250,7 +250,7 @@ function getClosingTexts(hour, localPrefLanguage, useCommemoration) {
 
 
     // Fallback für andere Horen (lesehore, terz, sext, non)
-    let closing = localPrefLanguage === '_lat'
+    let closing = userPrefLanguage === '_lat'
         ? ["Benedicámus Dómino.",
             "Deo grátias."]
         : ["Singet Lob und Preis.",
@@ -265,9 +265,9 @@ function getClosingTexts(hour, localPrefLanguage, useCommemoration) {
     return closing;
 
 }
-export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSource = '', prefSollemnity = false, useCommemoration = false) => {
+export const ordinarium = (texts, hour = '', userPrefLanguage = '', prefSource = '', prefSollemnity = false, useCommemoration = false) => {
 
-    const languageToRead = localPrefLanguage === '_lat' ? "lat" : "dt";
+    const languageToRead = userPrefLanguage === '_lat' ? "lat" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
 
     // Sonderfälle, die mit einem Stichwort als texts-Parameter abgerufen werden:
@@ -291,8 +291,8 @@ export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSource 
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || ordinariumData.TeDeum.dt || {};
     }
 
-    const openingTexts = getOpeningTexts(hour, localPrefLanguage);
-    const closingTexts = getClosingTexts(hour, localPrefLanguage, useCommemoration);
+    const openingTexts = getOpeningTexts(hour, userPrefLanguage);
+    const closingTexts = getClosingTexts(hour, userPrefLanguage, useCommemoration);
 
     return {
         ...ordinariumTexts,

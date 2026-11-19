@@ -5,7 +5,7 @@ import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 
 const MatutinDisplay = ({
     texts,
-    localPrefLanguage = '',
+    userPrefLanguage = '',
     showCantMarkers = false,
     formatPrayerText,
     TitleBar,
@@ -18,8 +18,8 @@ const MatutinDisplay = ({
     // Hole die Matutin-Daten
     const { matEinführung, matBuch, matStelle, matText,
         matPsalm, matAnt, matOration }
-        = ordinarium('matutin', 'lesehore', localPrefLanguage, true);
-    const { closing, vu: TeDeum } = ordinarium(texts, 'lesehore', localPrefLanguage, true);
+        = ordinarium('matutin', 'lesehore', userPrefLanguage, true);
+    const { closing, vu: TeDeum } = ordinarium(texts, 'lesehore', userPrefLanguage, true);
     const ordinalZahlen = ['ERSTE', 'ZWEITE', 'DRITTE', 'VIERTE'];
 
     return (
@@ -74,7 +74,7 @@ const MatutinDisplay = ({
                                             {formatPrayerText(matAnt[index], 'Ant.°°')}
                                         </div>
                                     )}
-                                    {formatPsalm(matPsalm[index], -1, localPrefLanguage, null, false, showCantMarkers)}
+                                    {formatPsalm(matPsalm[index], -1, userPrefLanguage, null, false, showCantMarkers)}
                                     {matAnt[index] && (
                                         <div className="mb-0">
                                             {formatPrayerText(matAnt[index], 'Ant.°°')}

@@ -7,7 +7,7 @@ const LectureSelector = ({
     hour,
     prefSource,
     prefSollemnity,
-    localPrefLanguage = '',
+    userPrefLanguage = '',
     formatPrayerText,
     getValue,
     headerProps,
@@ -53,14 +53,14 @@ const LectureSelector = ({
     const checkLanguageField = (bareField, altData, titleField = null) => {
         if (!bareField || !altData) return null;
 
-        const languageField = bareField + localPrefLanguage;
-        const result = localPrefLanguage
+        const languageField = bareField + userPrefLanguage;
+        const result = userPrefLanguage
             ? (altData[languageField] || altData[bareField] || null)
             : (altData[bareField] || '');
 
         // Wenn ein titleField angegeben ist, versuche eine Überschrift zu extrahieren
         if (titleField && altData[titleField]) {
-            const titleText = altData[titleField + localPrefLanguage] || altData[titleField];
+            const titleText = altData[titleField + userPrefLanguage] || altData[titleField];
             const extractedTitle = extractTitle(titleText);
             if (extractedTitle) {
                 return extractedTitle;
@@ -213,7 +213,7 @@ const LectureSelector = ({
             second: processSelectorArray(patrSelector, 'second')
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [lesSelector, patrSelector, localPrefLanguage, formatPrayerText]);
+    }, [lesSelector, patrSelector, userPrefLanguage, formatPrayerText]);
 
     // Funktion für die Auswahl der anzuzeigenden Daten
     const selected = (field) => {
@@ -224,7 +224,7 @@ const LectureSelector = ({
         if (!selectorArray) return getValue(field);
 
         const bareField = field.replace(/^(les_|patr_)/, '');
-        const languageField = bareField + localPrefLanguage;
+        const languageField = bareField + userPrefLanguage;
         const selectedIndex = selectedLecture[lectureType];
         const entry = selectorArray[selectedIndex] || selectorArray[0];
 
