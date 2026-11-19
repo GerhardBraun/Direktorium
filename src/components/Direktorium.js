@@ -366,8 +366,11 @@ const PrayerMenu = ({
 
 // Auswahl des Nutzers innerhalb einer Hore (über die Schalter in den Abschnittsüberschriften).
 // Wird bei jedem Wechsel des Tages (texts) auf diese Ausgangswerte zurückgesetzt;
-// longform und alternativePsalms zusätzlich bei jedem Wechsel der Hore.
+// beim Wechsel der Hore: psalmsWt, longform und alternativePsalms ganz, comm teilweise
+// (s. Effekte in Stundenbuch).
 //   comm:              0 = Eigentexte/Wt, 1 bzw. 2 = Commune 1 bzw. 2
+//   lastComm:          zuletzt gewähltes Commune (1/2), damit eine Wahl von Comm 2 den Tag über
+//                      erhalten bleibt, auch wenn zwischendurch eine Hore vom Wt kommt (comm = 0)
 //   continuous:        Lesehore: Bahnlesung statt Eigenlesung
 //   psalmsWt:          Psalmen aus dem Vierwochenpsalter (true) bzw. inkl. Antiphonen ('inclAnt')
 //   inv:               Nummer des gewählten Invitatoriumspsalms
@@ -377,6 +380,7 @@ const PrayerMenu = ({
 //   alternativePsalms: Index der gewählten Psalmen-Alternative (0 = Standard, 1 = erste Alternative …)
 const defaultUserPrefs = (texts) => ({
   comm: texts?.prefComm || 0,
+  lastComm: texts?.prefComm || 1,
   continuous: false,
   psalmsWt: false,
   inv: texts?.invitatorium?.prefInv || 95,
@@ -413,23 +417,21 @@ const PrayerTextDisplay = ({
   onNextDay,
   widthForHymns,
   addDebugLog,
+  // Auswahl des Nutzers (s. defaultUserPrefs oben); liegt in Stundenbuch,
+  // damit sie beim Wechsel der Hore über das Horen-Menü erhalten bleibt
+  userPrefs,
+  setUserPrefs,
   skipPersonal = false
 }) => {
   // Tatsächliche Breite des Textfeldes in em; bis zur ersten Messung gilt der Wert aus der Fensterbreite
   const textBoxRef = useRef(null);
   const measuredTextWidth = useAvailableWidthInEm(textBoxRef, widthForHymns);
   const availableTextWidth = measuredTextWidth ?? widthForHymns;
-  // Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs oben)
-  const [userPrefs, setUserPrefs] = useState(() => defaultUserPrefs(texts));
   // Ändert einen einzelnen Wert, z. B. setPref('comm', 1); die übrigen bleiben erhalten
   const setPref = (key, value) => setUserPrefs(prev => ({ ...prev, [key]: value }));
   const [showKomplet, setShowKomplet] = useState(true);
   const [ommitConfiteor, setOmmitConfiteor] = useState(localStorage.getItem('ommitConfiteor') === 'true');
   const [showMarAntInVesper, setShowMarAntInVesper] = useState(false);
-
-  useEffect(() => {
-    setUserPrefs(defaultUserPrefs(texts));
-  }, [texts]);
 
   useEffect(() => {
     setShowKomplet(!(
@@ -440,38 +442,28 @@ const PrayerTextDisplay = ({
   }, [texts, userPrefs.komplet, hour]);
 
   useEffect(() => {
-    // läuft nach dem Effekt oben; bei Erster Vesper überschreibt deren Commune-Vorgabe den Ausgangswert
-    const useErsteVesperComm = hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm;
-    setUserPrefs(prev => ({
-      ...prev,
-      ...(useErsteVesperComm ? { comm: texts.vesper.prefComm } : {}),
-      longform: localStorage.getItem('prefLongform') === 'true',
-      alternativePsalms: texts?.rank?.useAlternativePsalms ? 1 : 0,
-    }));
     setShowMarAntInVesper(false);
   }, [hour, texts]);
-
-  // Gedenktage mit erweiterten Eigentexten (Merkmal 'LuV' bzw. 'TSN' im farbe-Feld, s. GetValue.js):
-  // In den betreffenden Horen ist das Commune die Vorauswahl (comm = 1), die der Nutzer wechseln kann;
-  // in den übrigen Horen bleibt es wie an jedem Gedenktag beim Wochentag (Ausgangswert des Tages).
-  // Wird bei jedem Wechsel der Hore bzw. der Quelle neu gesetzt; an anderen Tagen ohne Wirkung.
-  useEffect(() => {
-    const memorialFarbe = texts?.rank?.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
-    const hasLuV = memorialFarbe?.includes('LuV');
-    const hasTSN = memorialFarbe?.includes('TSN');
-    if (!hasLuV && !hasTSN) return;
-    // Erste Vesper des folgenden Tages hat eigene Commune-Vorgabe (s. Effekt oben)
-    if (hour === 'vesper' && texts?.rank?.hasErsteVesper) return;
-    const useCommune = (hasLuV && ['laudes', 'vesper'].includes(hour))
-      || (hasTSN && ['terz', 'sext', 'non'].includes(hour));
-    setUserPrefs(prev => ({ ...prev, comm: useCommune ? 1 : (texts?.prefComm || 0) }));
-  }, [hour, texts, prefSource]);
 
   if (!hour || !texts || !texts[hour]) {
     return <div className="p-4">Keine Daten hier verfügbar</div>;
   }
 
   const rank = texts?.rank || { wt: 0, date: 0 };
+
+  // Bei Feier als Hochfest (prefSollemnity) wird gerade das Commune statt des Wt gewählt:
+  // Eine vorher getroffene Wahl „Wt“ gilt dann nicht – comm = 0 wirkt wie Comm 1,
+  // psalmsWt wie nicht gesetzt (nur Lesehore, Laudes, Vesper; in den Kleinen Horen steuert
+  // psalmsWt „ErgPs | Wt“). Die gespeicherte Wahl bleibt erhalten und gilt wieder,
+  // sobald prefSollemnity abgeschaltet wird.
+  // SectionHeader (Unterstreichung) und GetValue (Textauswahl) erhalten diese wirksamen Werte.
+  const effectivePrefs = prefSollemnity
+    ? {
+      ...userPrefs,
+      comm: userPrefs.comm || 1,
+      ...(['lesehore', 'laudes', 'vesper'].includes(hour) ? { psalmsWt: false } : {}),
+    }
+    : userPrefs;
 
   // Get value from sources in priority order: prefSource -> com1/com2 -> wt
   const getValue = (field) => {
@@ -480,7 +472,7 @@ const PrayerTextDisplay = ({
       season,
       prefSource,
       prefSollemnity,
-      userPrefs,
+      userPrefs: effectivePrefs,
       localPrefLanguage,
       skipPersonal,
       texts,
@@ -493,7 +485,7 @@ const PrayerTextDisplay = ({
   const headerProps = {
     onSelectHour, texts, hour, addDebugLog,
     prefSource, prefSollemnity,
-    userPrefs, setPref,
+    userPrefs: effectivePrefs, setPref,
     localPrefLatin, localPrefLanguage, ommitConfiteor, showCantMarkers,
     setLocalPrefLatin, setLocalPrefLanguage, setShowCantMarkers, setOmmitConfiteor,
   };
@@ -1210,6 +1202,56 @@ export default function Stundenbuch() {
   const [useCommemoration, setUseCommemoration] = useState(false);
   const [selectedHour, setSelectedHour] = useState(null);
   const [texts, setTexts] = useState(null);
+
+  // Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs oben).
+  // Liegt hier und nicht in PrayerTextDisplay: Diese Komponente wird beim Wechsel der Hore
+  // über das Horen-Menü neu aufgebaut, dabei ginge die Auswahl (z. B. Comm 2) verloren.
+  const [userPrefs, setUserPrefs] = useState(() => defaultUserPrefs(texts));
+
+  // Neuer Tag bzw. neue Quelle (texts wird dann neu berechnet): Ausgangswerte
+  useEffect(() => {
+    setUserPrefs(defaultUserPrefs(texts));
+  }, [texts]);
+
+  // Wechsel der Hore (läuft nach dem Effekt oben)
+  useEffect(() => {
+    // bei Erster Vesper überschreibt deren Commune-Vorgabe den Ausgangswert
+    const useErsteVesperComm = selectedHour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm;
+    setUserPrefs(prev => {
+      const lastComm = prev.comm > 0 ? prev.comm : prev.lastComm;
+      return {
+        ...prev,
+        // „Wt“ (comm = 0) gilt nur für die Hore, in der es gewählt wurde: zurück zur Vorauswahl
+        // (ist diese das Commune, dann das zuletzt gewählte);
+        // eine Wahl von Comm 1/2 bleibt dagegen über den Tag erhalten
+        // (s. doc/Klärung Psalmodie und Commune.md, A8)
+        comm: useErsteVesperComm ? texts.vesper.prefComm
+          : prev.comm === 0 ? (texts?.prefComm ? lastComm : 0) : prev.comm,
+        lastComm,
+        // Psalmen vom Wt (auch ErgPs | Wt) gelten nur für die Hore, in der sie gewählt wurden (F7)
+        psalmsWt: false,
+        longform: localStorage.getItem('prefLongform') === 'true',
+        alternativePsalms: texts?.rank?.useAlternativePsalms ? 1 : 0,
+      };
+    });
+  }, [selectedHour, texts]);
+
+  // Gedenktage mit erweiterten Eigentexten (Merkmal 'LuV' bzw. 'TSN' im farbe-Feld, s. GetValue.js):
+  // In den betreffenden Horen ist das Commune die Vorauswahl, die der Nutzer wechseln kann
+  // (das zuletzt gewählte, sonst Comm 1);
+  // in den übrigen Horen bleibt es wie an jedem Gedenktag beim Wochentag (Ausgangswert des Tages).
+  // Wird bei jedem Wechsel der Hore bzw. der Quelle neu gesetzt; an anderen Tagen ohne Wirkung.
+  useEffect(() => {
+    const memorialFarbe = texts?.rank?.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
+    const hasLuV = memorialFarbe?.includes('LuV');
+    const hasTSN = memorialFarbe?.includes('TSN');
+    if (!hasLuV && !hasTSN) return;
+    // Erste Vesper des folgenden Tages hat eigene Commune-Vorgabe (s. Effekt oben)
+    if (selectedHour === 'vesper' && texts?.rank?.hasErsteVesper) return;
+    const useCommune = (hasLuV && ['laudes', 'vesper'].includes(selectedHour))
+      || (hasTSN && ['terz', 'sext', 'non'].includes(selectedHour));
+    setUserPrefs(prev => ({ ...prev, comm: useCommune ? (prev.lastComm || 1) : (texts?.prefComm || 0) }));
+  }, [selectedHour, texts, prefSource]);
   const [diocese, setDiocese] = useState(() => localStorage.getItem('diocese') || 'Fulda');
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [prefFootnotes, setPrefFootnotes] = useState(() => localStorage.getItem("prefFootnotes") === "false" ? false : true);
@@ -2453,6 +2495,8 @@ export default function Stundenbuch() {
                 widthForHymns={widthForHymns}
                 addDebugLog={addDebugLog}
                 skipPersonal={skipPersonal}
+                userPrefs={userPrefs}
+                setUserPrefs={setUserPrefs}
                 onBack={() => {
                   setViewMode("prayer");
                   window.scrollTo({ top: 0, behavior: 'instant' });

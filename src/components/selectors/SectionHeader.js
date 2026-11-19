@@ -158,6 +158,7 @@ const SectionHeader = ({
         return {
             hasEig, hasWt, hasAltPsalms,
             labelComm1, labelComm2,
+            isSaintCelebrated: showComm,
             showComm: !hasEig && hasWt && labelComm1 && showComm,
             showBothComm: labelComm1 && labelComm2
         };
@@ -227,7 +228,7 @@ const SectionHeader = ({
         ? 'ant0' : provField;
     const isCommemoration = rank?.isCommemoration || false
     const { hasEig, hasWt, hasAltPsalms, labelComm1, labelComm2,
-        showComm, showBothComm } = checkSources(field);
+        isSaintCelebrated, showComm, showBothComm } = checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     // cant-Schnellschalter: bei jeder Psalmodie-Überschrift (auch Invitatorium/Komplet, anders als isPsalmodie
@@ -247,15 +248,27 @@ const SectionHeader = ({
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
     const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
 
-    // Psalmen des Vierwochenpsalters werden als Alternative angeboten,
-    // wenn der Festtag eigene Psalmen hat
-    // oder die Psalmen vom So der I. Woche vorgesehen sind
-    // (an Festen über rank.useFeastPsalms, an LuV-Gedenktagen wie in GetValue.js über isMemorialWithLuV);
-    // die Alternative gibt es aber nicht in den Sonntagslaudes (Ps 63 oder 118 als 1. Psalm)
-    const showPsalmsWt = isPsalmodie && hasWt
-        && (hasEig || (hour === 'laudes' && (rank?.useFeastPsalms || isMemorialWithLuV)
-            && ![63, 118].includes(texts?.laudes?.wt?.psalm1)))
-    const showInclAnt = isPsalmodie &&
+    // Psalmen-Schalter „Comm | Wt“ (s. doc/Klärung Psalmodie und Commune.md, E1–E4):
+    // An Hochfesten, Festen (auch in der Ersten Vesper) und LuV-Gedenktagen ist der Wt ausgeschlossen;
+    // gibt es keine eigenen Psalmen, werden die des Commune genommen –
+    // statt dieser kann man auch beim Vierwochenpsalter bleiben.
+    // Eigene Psalmen können dagegen nicht durch den Wt ersetzt werden.
+    // Nur Lesehore, Laudes und Vesper; in den Kleinen Horen gilt „ErgPs | Wt“ bzw. ganz vom Wt.
+    // Laudes: immer die Festpsalmen aus sollemnitiesData (Ps 63, Dan 3, Ps 149) –
+    // für beide Commune gleich, daher nur „Comm | Wt“ ohne labelCommN;
+    // die Wahl entfällt in den Sonntagslaudes (Ps 63 oder 118 als 1. Psalm):
+    // bei Ps 63 wären es dieselben Psalmen, Ps 118 ist dann für die Kleinen Horen vorgesehen.
+    // Bei prefSollemnity wird gerade das Commune statt des Wt gewählt: kein Psalmen-Schalter
+    // (bei zwei Commune bleibt die Wahl Comm 1 | Comm 2 über den allgemeinen Commune-Schalter).
+    const isPsalmsCommLaudes = hour === 'laudes'
+        && ![63, 118].includes(texts?.laudes?.wt?.psalm1);
+    const showPsalmsWt = isPsalmodie && hasWt && !hasEig && !prefSollemnity
+        && ((rank.date > 2 && isSaintCelebrated)
+            || isMemorialWithLuV
+            || (hour === 'vesper' && rank?.hasErsteVesper))
+        && (isPsalmsCommLaudes
+            || (['lesehore', 'vesper'].includes(hour) && labelComm1))
+    const showInclAnt = isPsalmodie && !prefSollemnity &&
         !(texts[hour][prefSource]?.ant0 || texts[hour][prefSource]?.ant1);
     const showContinuous = askContinuous && hour === 'lesehore' && !isCommemoration
         && ((hasEig && hasWt)
@@ -268,7 +281,7 @@ const SectionHeader = ({
     const isContinuous = isLesung && userPrefs.continuous;
     const showErgPs = isTSN && isPsalmodie
         && !rank?.useComplementaryPsalms
-        && !(prefSollemnity === 'kirchw' || rank.date === 5);
+        && !(['kirchw', 'soll'].includes(prefSollemnity) || rank.date === 5);
     const showErgPsWt = isTSN && isPsalmodie
         && rank?.useComplementaryPsalms;
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
@@ -452,18 +465,53 @@ const SectionHeader = ({
             )}
             {showPsalmsWt && (
                 <ButtonGroup>
-                    <button
-                        onClick={() => setPref('psalmsWt', false)}
-                        className={!userPrefs.psalmsWt ? 'underline' : ''}
-                    >
-                        Ps eig
-                    </button>
+                    {/* Comm-Knöpfe setzen comm für die ganze Hore und psalmsWt = false;
+                        Wt setzt nur psalmsWt (übrige Abschnitte bleiben beim Commune) */}
+                    {isPsalmsCommLaudes ? (
+                        // Laudes: Festpsalmen für beide Commune gleich;
+                        // eine Wahl von Comm 2 bleibt erhalten, nach „Wt“ (comm = 0) gilt wieder Comm 1
+                        <button
+                            onClick={() => {
+                                setPref('psalmsWt', false)
+                                if (userPrefs.comm === 0) setPref('comm', 1)
+                            }}
+                            className={!userPrefs.psalmsWt ? 'underline' : ''}
+                        >
+                            Comm
+                        </button>
+                    ) : (
+                        <>
+                            <button
+                                onClick={() => {
+                                    setPref('comm', 1)
+                                    setPref('psalmsWt', false)
+                                }}
+                                className={(!userPrefs.psalmsWt && userPrefs.comm !== 2) ? 'underline' : ''}
+                            >
+                                Comm {labelComm1}
+                            </button>
+                            {showBothComm && (
+                                <>
+                                    {"  |  "}
+                                    <button
+                                        onClick={() => {
+                                            setPref('comm', 2)
+                                            setPref('psalmsWt', false)
+                                        }}
+                                        className={(!userPrefs.psalmsWt && userPrefs.comm === 2) ? 'underline' : ''}
+                                    >
+                                        {labelComm2}
+                                    </button>
+                                </>
+                            )}
+                        </>
+                    )}
                     {" | "}
                     <button
                         onClick={() => setPref('psalmsWt', true)}
                         className={userPrefs.psalmsWt ? 'underline' : ''}
                     >
-                        vom Wt
+                        Wt
                     </button>
                     {showInclAnt && (
                         <>{" ("}
@@ -526,7 +574,8 @@ const SectionHeader = ({
                                 setPref('continuous', false)
                         }}
                         className={(!isPsalmsWt && !isContinuous &&
-                            userPrefs.comm === 1) ? 'underline' : ''}
+                            (userPrefs.comm === 1 || (userPrefs.comm === 0 && prefSollemnity === 'soll'))
+                        ) ? 'underline' : ''}
                     >
                         Comm {labelComm1}
                     </button>
@@ -549,7 +598,9 @@ const SectionHeader = ({
 
                         </>
                     )}
-                    {(!prefSollemnity || prefSollemnity) && (
+                    {/* bei prefSollemnity wird gerade das Commune statt des Wt gewählt:
+                        kein Wt-Knopf (Ausnahme: Bahnlesung bei der ersten Lesung der Lesehore) */}
+                    {(!prefSollemnity || isErsteLesung) && (
                         <>
                             {" | "}
                             <button
@@ -558,7 +609,14 @@ const SectionHeader = ({
                                         setPref('psalmsWt', true)
                                     else if (isLesung)
                                         setPref('continuous', true)
-                                    else setPref('comm', 0)
+                                    else {
+                                        // Wt gilt für die ganze Hore, auch für die Psalmodie
+                                        // (nur in Lesehore, Laudes, Vesper; in den Kleinen Horen
+                                        // steuert psalmsWt dagegen „ErgPs | Wt“)
+                                        setPref('comm', 0)
+                                        if (['lesehore', 'laudes', 'vesper'].includes(hour))
+                                            setPref('psalmsWt', true)
+                                    }
                                 }}
                                 className={(isPsalmsWt || isContinuous || userPrefs.comm === 0) ? 'underline' : ''}
                             >

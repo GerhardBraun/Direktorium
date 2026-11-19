@@ -188,7 +188,80 @@ Dazu gehört: Wenn bei den Fürbitten „Wt“ gewählt wird (`comm = 0`), aus w
 
 **Antwort:** *b), wie vorgeschlagen.* Beim Wechsel der Hore werden `psalmsWt` zurückgesetzt und `comm = 0` auf die Vorauswahl. Comm 1/2 bleiben über den Tag erhalten. Die bestehende Regel für LuV- und TSN-Tage (`comm` je nach Hore) und die Erste Vesper gehen vor.
 
-**Stand:** Alle Fragen sind geklärt. Der Umbau kann beginnen.
+**Stand:** Alle Fragen sind geklärt.
+
+### Umsetzung (18.11.2026, Zweig `umbau-psalmodie`, noch nicht getestet)
+
+- **SectionHeader `showPsalmsWt`:** neu nach E2/E3. Bedingungen: Psalmodie, Wt vorhanden, keine eigenen Psalmen, kein `prefSollemnity`; Fest/Hochfest, LuV-Gedenktag oder Erste Vesper. Laudes (außer Sonntagslaudes): „Comm | Wt“. Lesehore/Vesper: nur wenn das Commune Psalmen hat, dann „Comm {labelComm1} | {labelComm2} | Wt“.
+- **Knöpfe:** wie E4. In den Laudes setzt „Comm“ `psalmsWt = false`, und nur bei `comm = 0` zusätzlich `comm = 1`. So bleibt eine Wahl von Comm 2 erhalten.
+- **Allgemeiner Commune-Schalter:** kein „Wt“ bei `prefSollemnity`, außer bei der ersten Lesung (Bahnlesung). „Wt“ setzt `comm = 0` und in Lesehore, Laudes und Vesper zusätzlich `psalmsWt = true`. In den Kleinen Horen nicht, weil `psalmsWt` dort „ErgPs | Wt“ steuert. Diese Einschränkung habe ich selbst gewählt, sie folgt aus A1.
+- **Direktorium.js:** Beim Wechsel der Hore werden `psalmsWt = false` gesetzt und `comm = 0` auf die Vorauswahl. Die Erste Vesper und LuV/TSN behalten ihre Regeln.
+- **GetValue:** unverändert. Durch E4 und A8 tritt der Fall „`comm = 0`, aber Psalmodie auf Comm“ nicht mehr auf.
+- **Nachtrag 19.11.2026:** Bei `prefSollemnity` (`soll`, `kirchw`, `verst`) reicht Direktorium.js „wirksame“ Werte an SectionHeader und GetValue weiter (`effectivePrefs`): `comm = 0` wirkt wie Comm 1, und `psalmsWt` gilt in Lesehore, Laudes und Vesper als nicht gesetzt. Die gespeicherte Wahl bleibt erhalten. Vom Benutzer ergänzt: Bei `soll` gibt es kein `showErgPs`, und bei `prefSollemnity` kein „(auch Ant)“.
+
+### Testliste
+
+Erledigt (19.11.2026):
+- [x] 19.11. Elisabeth (Fuldaer Diözesankalender)
+- [x] 21.01. Agnes (LuV), Laudes: „Comm | Wt“
+- [x] „Wt“ gewählt, danach `prefSollemnity` zugeschaltet (auch `kirchw`, `verst`): Commune-Psalmen, „Comm“ unterstrichen; nach dem Abschalten wieder Wt
+- [x] HymnSelector: lateinischer Eigenhymnus nur bei der gewählten Feier, nicht bei `kirchw`/`verst`; 18.11. (`n1`); Commune der Evangelisten
+
+Psalmen-Schalter („Comm | Wt“):
+- [x] 1. Fest mit Commune-Psalmen in Lesehore/Vesper und zwei Commune: „Comm {Name 1} | {Name 2} | Wt“; Comm 2 holt die Psalmen und Antiphonen aus dem zweiten Commune.
+- [x] 2. Hochfest/Fest mit eigenen Psalmen (z. B. Lesehore/Vesper am 01.11., Vesper am 06.08.): kein Psalmen-Schalter.
+- [x] 3. Fest an einem Sonntag, Laudes: kein Psalmen-Schalter.
+- [x] 4. Erste Vesper eines Festes ohne eigene Psalmen: „Comm … | Wt“ erscheint. `Fehler behoben`
+- [x] 5. 11.06. (Barnabas) und 26.07. (Joachim und Anna): „(auch Ant)“ erscheint und tauscht auch die Antiphonen.
+
+Allgemeiner Commune-Schalter:
+- [x] 6. „Wt“ bei den Fürbitten an einem Fest/LuV-Tag: Die Psalmodie springt mit auf Wt, „Wt“ ist dort unterstrichen. Danach „Comm“ bei der Psalmodie: Die Psalmen und die Fürbitten kommen wieder aus dem Commune.
+- [x] 7. `prefSollemnity` „soll“ mit zwei Commune: „Comm 1 | Comm 2“ ohne Wt; bei der ersten Lesung der Lesehore bleibt „Bahnlesung“ wählbar.
+- [x] 8. `prefSollemnity` „soll“ mit nur einem Commune: kein Commune-Schalter.
+
+Wechsel der Hore:
+- [x] 9. In den Laudes eines Festes „Wt“ wählen (Bitten oder Psalmodie), zur Vesper wechseln: Die Vesper beginnt wieder mit Commune.
+- [x] 10. In den Laudes Comm 2 wählen, zur Vesper wechseln: Comm 2 bleibt. `Fehler behoben`
+- [x] 11. Hochfest, Kleine Horen: In der Terz bei „ErgPs | Wt“ „Wt“ wählen, zur Sext wechseln: Die Sext beginnt mit der Vorauswahl. „Wt“ bei Kurzlesung/Oration stellt den Psalmenschalter nicht mit um.
+
+Querprüfung, ob sich etwas verschlechtert hat:
+- [x] 12. Gewöhnlicher Gedenktag (nicht LuV): Laudes/Vesper ohne Psalmen-Schalter; Comm | Wt bei den übrigen Abschnitten wie bisher.
+- [x] 13. 02.10. Schutzengel (TSN): Kleine Horen beginnen mit Commune, Antiphonen und Psalmen vom Wt.
+
+Wenn alles passt: committen, `umbau-psalmodie` nach `main` übernehmen, veröffentlichen.
+
+### Fehler aus den Tests (19.11.2026)
+
+**Test 10 – Comm 2 geht beim Wechsel der Hore verloren: behoben (bitte erneut testen).**
+- Ursache 1: `userPrefs` lag in `PrayerTextDisplay`. Beim Wechsel der Hore über das Horen-Menü wird diese Komponente abgebaut und neu aufgebaut. Dabei begann die Auswahl jedes Mal mit der Vorauswahl. Das galt für alle Werte und hat bisher auch Test 9 „bestehen“ lassen.
+- Ursache 2: Der LuV/TSN-Effekt setzte in Laudes und Vesper fest `comm = 1`.
+- Lösung: `userPrefs` und die drei Effekte (neuer Tag, Wechsel der Hore, LuV/TSN) liegen jetzt in `Stundenbuch`. Neu ist `lastComm`, das zuletzt gewählte Commune. Der LuV/TSN-Effekt und das Zurücksetzen von `comm = 0` nehmen dieses statt fest Comm 1, wenn die Vorauswahl das Commune ist.
+- Bitte auch die Tests 9 und 11 noch einmal prüfen, denn sie liefen bisher über den Neuaufbau.
+
+**Test 4 – Erste Vesper ohne Psalmen-Schalter: Ursache in den Daten, Frage offen.**
+Für die Erste Vesper ersetzt BrevierDataProcessor die ganze Vesper durch `tomorrowData.erstev`. Darin gibt es keine Wochentagspsalmen (`vesper.wt.psalm1` fehlt). Deshalb ist `hasWt` falsch, und der Schalter erscheint nicht. Probelauf 2027, alle Ersten Vespern mit Commune-Psalmen:
+
+| Erste Vesper am | Fest | Commune-Psalmen | Wt-Psalmen |
+|---|---|---|---|
+| 18.03. | Josef | ja (Ps 113 …) | fehlen |
+| 23.06. | Geburt Johannes’ des Täufers | ja | fehlen |
+| 28.06. | Petrus und Paulus | ja | fehlen |
+| 14.08. | Aufnahme Mariens | ja | vorhanden (So-Vesper) |
+| 07.12. | Unbefleckte Empfängnis | ja | fehlen |
+
+Die Vesperdaten des laufenden Tages (mit dessen Wochentagspsalmen) werden vorher als `finalData.prefsollemnity` gesichert und wären also verfügbar.
+
+**A9 – Soll es in der Ersten Vesper überhaupt „Wt“ geben, und wenn ja, mit welchen Psalmen?**
+- **a)** Ja. Als Wt gelten die Vesperpsalmen des laufenden Wochentags aus dem Vierwochenpsalter (aus `prefsollemnity.wt`).
+- **b)** Nein. In der Ersten Vesper gibt es keinen Psalmen-Schalter; die Bedingung `hasErsteVesper` wird aus `showPsalmsWt` gestrichen. Dann wäre am 14.08. (Samstag vor Sonntag) ebenfalls kein Schalter.
+- **c)** anders: …
+
+**Antwort:** *Nach der Ersetzung die wt-Source aus `prefsollemnity` in die neue Vesper kopieren. Weil die wt-Daten an Hochfesten (und damit auch in der Ersten Vesper) normalerweise nicht zum Zuge kommen, stören sie nicht, erfüllen aber die Bedingung für `showPsalmsWt`.* (entspricht a)
+
+**Umgesetzt (BrevierDataProcessor):** Es werden nur `psalm1–3`, `ant0–3` und `mode0–3` übernommen, jeweils mit Sprachvarianten wie `ant1_lat`. Bei der Ersten Vesper eines Sonntags (`hasErsteVesper_wt`) wird nichts übernommen, denn deren wt-Texte sind die des Sonntags. Vorhandene Einträge der Ersten Vesper haben Vorrang.
+Grund für die Einschränkung: Der Probelauf 2027 hat gezeigt, dass bei vollständiger Übernahme Felder einspringen würden, wo die Erste Vesper bewusst nichts hat: Responsorien am 05.01., Magnificat-Antiphonen A/B/C und `hymn_kl` am 31.10., `hymn_2` am 24.12. Außerdem würde der HymnSelector an jeder Ersten Vesper eines Hochfestes den Wochentagshymnus anbieten.
+Nach der Änderung hat die Erste Vesper Wt-Psalmen am 18.03. (Ps 30), 23.06., 28.06. und 07.12. Am 05.01., 31.10. und 24.12. gibt es eigene Psalmen, dort bleibt es ohne Schalter.
+
 
 
 

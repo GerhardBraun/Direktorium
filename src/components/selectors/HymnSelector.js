@@ -280,17 +280,27 @@ const HymnSelector = ({ texts, hour, season,
                 });
             }
 
-            // NEUER SUCHLAUF: Prüfe nach eigenen Hymnen in anderen Sprachen
-            // Nur wenn prefSource === 'oblig' und für das Feld hymn_1
-            if (texts[hour]?.oblig) {
-                const eigData = texts[hour].oblig;
+            // NEUER SUCHLAUF: Prüfe nach eigenen Hymnen in anderen Sprachen (ID > 8000),
+            // wenn es keinen eigenen Hymnus in der aktuellen Sprache gibt (Feld hymn_1).
+            // Gesucht wird in der gewählten Feier (prefSource, z. B. oblig, n1, d1)
+            // und in deren Commune, soweit dieses für die Hymnen herangezogen wird (s. sourceOrder),
+            // z. B. lat. Hymnus im Commune der Evangelisten (Lesehore).
+            // Nicht bei Kirchweih bzw. Verstorbenen (prefSollemnity 'kirchw'/'verst'):
+            // dann sind die Hymnen der Tagesfeier nicht an der Reihe
+            if (!['kirchw', 'verst'].includes(prefSollemnity)) {
+                const fallbackSources = [
+                    prefSource,
+                    ...sourceOrder.filter(sourcePath => sourcePath.startsWith(`${prefSource}.com`))
+                ];
+                fallbackSources.forEach(sourcePath => {
+                    const eigData = sourcePath.split('.')
+                        .reduce((level, part) => level?.[part], texts[hour]);
+                    if (!eigData) return;
 
-                // Prüfe, ob hymn_1 in der aktuellen Sprache bereits vorhanden ist
-                const currentLanguageHymn1 = eigData?.hymn_1 || 0
+                    // Prüfe, ob hymn_1 in der aktuellen Sprache als eigener Hymnus vorhanden ist
+                    const currentLanguageHymn1 = eigData?.hymn_1 || 0
+                    if (currentLanguageHymn1 >= 8000) return;
 
-                // Wenn kein hymn_1 in der aktuellen Sprache vorhanden ist,
-                // suche nach hymn_1 mit Sprachsuffixen
-                if (currentLanguageHymn1 < 8000) {
                     // Definiere mögliche Sprachsuffixe (erweitere bei Bedarf)
                     const languageSuffixes = ['_lat', '_gr'];
 
@@ -299,21 +309,21 @@ const HymnSelector = ({ texts, hour, season,
                         const alternativeHymnNumber = eigData[alternativeHymnField];
                         if (alternativeHymnNumber > 8000) {
                             // Erstelle eindeutige ID für diesen alternativen Hymnus
-                            const alternativeId = `oblig_${alternativeHymnField}_fallback`;
+                            const alternativeId = `${sourcePath.replace('.', '_')}_${alternativeHymnField}_fallback`;
 
                             // Bestimme Sprachkennzeichnung für das Label
-                            let languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
-                            //languageLabel = ''
+                            const languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
+                            const sourceName = sourcePath === prefSource ? 'eigen' : 'Comm';
                             addNewHymn({
                                 hymnNumber: alternativeHymnNumber,
                                 id: alternativeId,
-                                sourceLabel: `eigen${languageLabel}:`,
+                                sourceLabel: `${sourceName}${languageLabel}:`,
                                 isNachtHymn: false,
                                 languageSuffix: suffix
                             });
                         }
                     });
-                }
+                });
             }
 
             return hymns;
@@ -328,7 +338,7 @@ const HymnSelector = ({ texts, hour, season,
         // Fallback: Standard-Sprache (nur wenn erster Durchlauf leer war)
         return collectHymns('');
 
-    }, [texts, hour, prefSource, sourceOrder, localPrefLanguage, localPrefKomplet]);
+    }, [texts, hour, prefSource, prefSollemnity, sourceOrder, localPrefLanguage, localPrefKomplet]);
 
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {

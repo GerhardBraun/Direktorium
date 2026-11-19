@@ -1207,6 +1207,22 @@ export function processBrevierData(todayDate) {
     // Ersetze Vesper-Daten wenn nötig
     if (hasErsteVesper_wt || hasErsteVesper_date) {
         finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
+        // Erste Vesper eines Festes an einem Wochentag: Psalmen und Antiphonen der heutigen
+        // Wochentagsvesper übernehmen (aus der Sicherung oben). Sie kommen in der Ersten Vesper
+        // normalerweise nicht zum Zuge, ermöglichen aber den Psalmen-Schalter „Comm | Wt“
+        // (showPsalmsWt), also die Psalmen des Vierwochenpsalters statt der Commune-Psalmen.
+        // Nur diese Felder: andere wt-Felder würden dort einspringen, wo die Erste Vesper
+        // bewusst nichts hat (z. B. Hymnen im HymnSelector, Magnificat-Antiphonen A/B/C).
+        // Nicht bei der Ersten Vesper eines Sonntags (hasErsteVesper_wt): deren wt-Texte
+        // sind die des Sonntags und werden gebraucht.
+        // Vorhandene Einträge der Ersten Vesper haben Vorrang.
+        if (!hasErsteVesper_wt) {
+            const wtPsalmody = Object.fromEntries(
+                Object.entries(finalData.prefsollemnity?.wt || {})
+                    .filter(([key]) => /^(psalm[1-3]|ant[0-3]|mode[0-3])/.test(key))
+            );
+            finalData.vesper.wt = { ...wtPsalmody, ...finalData.vesper.wt };
+        }
         finalData.vesper.prefComm = tomorrowData.prefComm;
         finalData.rank.hasErsteVesper = true;
         if (tomorrowData.laudes?.oblig?.com1?.button)
