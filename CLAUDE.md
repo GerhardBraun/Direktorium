@@ -185,13 +185,58 @@ Die Kalenderdaten werden in drei Schritten zusammengestellt:
 
 ### Benutzereinstellungen (localStorage)
 
-| Schlüssel        | Inhalt                                                     |
-|------------------|------------------------------------------------------------|
-| `baseFontSize`   | Schriftgröße (per Touch-Zoom einstellbar)                  |
-| `fontFamily`     | Schriftart (vom Nutzer wählbar)                            |
-| `diocese`        | Gewählte Diözese (z.B. `'Fulda'`)                         |
-| `selectedDate`   | Zuletzt gewähltes Datum (nur Datumsteil, kein Timestamp)   |
-| `prefLanguage`   | Sprachpräferenz                                            |
+Geschrieben wird meist über `setLocalStorage(key, value)` aus `PersonalSettings.js`
+(mit Fehlerbehandlung). Alle Werte sind Strings; Objekte und Listen werden als JSON gespeichert.
+
+**Darstellung**
+
+| Schlüssel        | Inhalt                                                                 |
+|------------------|------------------------------------------------------------------------|
+| `baseFontSize`   | Schriftgröße (per Touch-Zoom oder ThemeMenu einstellbar)               |
+| `baseFontFamily` | Schriftart (Standard: `cambria, georgia, serif`)                       |
+| `theme`          | Farbschema `dark` / `light`                                            |
+| `rubricColor`    | Farbe der Rubriken `red` / `gold` (Startwert je nach Farbschema)       |
+| `isDocked`       | Navigationsknöpfe am unteren Rand angedockt (`true`/`false`)           |
+
+**Stundengebet**
+
+| Schlüssel          | Inhalt                                                                          |
+|--------------------|---------------------------------------------------------------------------------|
+| `prefLanguage`     | Sprachvoreinstellung (`''` = Stundenbuch, `_lat`, `_neu`, `_ben`); State `userPrefLanguage` |
+| `languages`        | JSON-Liste der beiden Sprachen für den Schnellschalter (Standard `["", "_lat"]`) |
+| `showCantMarker`   | Psalmen mit Gesangsmarkern (Psalmtöne) anzeigen; State `showCantMarkers`         |
+| `prefLongform`     | Fürbitten mit wiederholtem Ruf nach jeder Bitte; Startwert für `userPrefs.longform` |
+| `prefFootnotes`    | Fußnoten anzeigen (Standard `true`)                                              |
+| `skipPersonal`     | persönliche Texte (Feld `pers` aus `personalData`) ausblenden                    |
+| `ommitConfiteor`   | Schuldbekenntnis in der Komplet weglassen                                       |
+| `sequenceInv`      | JSON-Liste: Invitatoriumspsalm je Wochentag (Standard `[95, 100, 24, 67, 67, 100, 24]`) |
+| `delaySolemnity`   | JSON-Objekt: Verlegung von Erscheinung, Himmelfahrt, Fronleichnam auf den Sonntag (`{ epiphany, ascension, corpusXP }`) |
+| `showCalendar1962` | Hinweise aus dem Kalender von 1962 anzeigen (ersetzt den alten Schlüssel `showOldCalendar`, der beim Start übernommen und gelöscht wird) |
+| `prayedHours`      | JSON-Objekt der gebeteten Horen, nur für heute und morgen aufbewahrt             |
+| `openMyLips`       | Datum (bzw. erste Hore) des Tages, an dem die Eröffnung „Herr, öffne meine Lippen“ schon gebetet wurde |
+| `ommitOpening`     | Eröffnung entfällt, weil die Hore per Navigationsknopf aus Invitatorium/Lesehore/Vigil aufgerufen wurde (vorübergehend) |
+
+**Person, Ort und Kalender**
+
+| Schlüssel        | Inhalt                                                                  |
+|------------------|-------------------------------------------------------------------------|
+| `diocese`        | Gewählte Diözese (Standard `'Fulda'`)                                   |
+| `popeName`, `popeNameLat` | Name des Papstes (deutsch / lateinisch) für den Platzhalter `^NP` |
+| `bishopName`, `bishopNameLat` | Name des Bischofs (deutsch / lateinisch) für den Platzhalter `^NB` |
+| `bishopTitle`    | Titel: `Bischof` (Standard), `Erzbischof` oder `Diözesanadministrator` |
+| `personalData`   | JSON: importierte persönliche Texte, werden in die Brevierdaten eingemischt |
+| `selectedDate`   | Zuletzt gewähltes Datum (nur Datumsteil, kein Timestamp)                |
+
+**Ansicht und App**
+
+| Schlüssel           | Inhalt                                                               |
+|---------------------|----------------------------------------------------------------------|
+| `startViewMode`     | Startansicht `directory` / `prayer` / `auto`                         |
+| `lastVisit`         | Datum des letzten Besuchs (für `startViewMode = auto`)               |
+| `deceasedMode`      | Totenverzeichnis: `recent` oder `all`                                |
+| `app-version`       | zuletzt gesehene App-Version (Hinweis auf Aktualisierung)            |
+| `unlockBenedictine` | `unlocked` = benediktinischer Psalter (`_ben`) wählbar               |
+| `mariendonk`        | Admin-Schalter (mit Passwort): Väterlesung aus Mariendonk außerhalb der Lesehore anzeigen |
 
 ### Hilfsfunktionen und Hooks
 
