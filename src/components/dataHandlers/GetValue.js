@@ -3,7 +3,7 @@ import { sollemnitiesData } from "../data/Sollemnities.ts";
 
 export const getValue = ({
     season, hour, texts, field,
-    prefSource, prefSollemnity,
+    selectedSource, prefSollemnity,
     // userPrefs: Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs in Direktorium.js);
     // hier gebraucht: comm, psalmsWt, ergPs, continuous, komplet, alternativePsalms
     userPrefs = {}, userPrefLanguage = '',
@@ -28,10 +28,10 @@ export const getValue = ({
         if (![121, 122, 126, 127].includes(data)) return data;
 
         // Bestimme, ob Commune-Texte geprüft werden sollen
-        const textsEig = texts.vesper?.[prefSource] || {};
+        const textsEig = texts.vesper?.[selectedSource] || {};
         const textsCommune = (((prefSollemnity || (rank.date > 2 || rank.wt > 2))
             && userPrefs.comm > 0) &&
-            texts.vesper?.[prefSource]?.[`com${userPrefs.comm}`])
+            texts.vesper?.[selectedSource]?.[`com${userPrefs.comm}`])
             || {};
 
         // Prüfe in der Vesper auf Konflikte mit Eigenpsalmen oder Commune-Psalmen
@@ -53,14 +53,14 @@ export const getValue = ({
 
     const checkAnt0 = `ant0${isForeignLanguage}`
     const hasAnt0 = field.startsWith('ant') &&
-        (texts[hour][prefSource]?.[checkAnt0]
-            || texts[hour][prefSource]?.[`com${userPrefs.comm}`]?.[checkAnt0]
-            || (prefSource === 'oblig' && texts[hour].wt?.[checkAnt0])
+        (texts[hour][selectedSource]?.[checkAnt0]
+            || texts[hour][selectedSource]?.[`com${userPrefs.comm}`]?.[checkAnt0]
+            || (selectedSource === 'oblig' && texts[hour].wt?.[checkAnt0])
         )
     const hasObligPs = field.startsWith('psalm')
-        && (texts[hour][prefSource]?.psalm1
-            || texts[hour][prefSource]?.[`com${userPrefs.comm}`]?.psalm1
-            //    || (prefSource === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
+        && (texts[hour][selectedSource]?.psalm1
+            || texts[hour][selectedSource]?.[`com${userPrefs.comm}`]?.psalm1
+            //    || (selectedSource === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
         )
 
     // Ergänzungspsalmodie über userPrefs.ergPs:
@@ -146,13 +146,13 @@ export const getValue = ({
     // Commune-Texte, nicht Wt > skipCommune = false
     // 21.01., 01.05., 11.06., 26.07., 29.08., 15.09., 02.10., 07.10., 11.11.
     // Ternär statt &&: im Nein-Fall undefined (nicht false), damit ?.includes() unten greift
-    const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
+    const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[selectedSource]?.farbe : undefined;
     // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
     const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
     const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
     // if (isMemorialWithLuV || isMemorialWithTSN) {
-    //     console.log('isMemorialWithLuV/TSN: ', isMemorialWithLuV, isMemorialWithTSN, hour, field, texts?.laudes?.[prefSource]?.farbe);
+    //     console.log('isMemorialWithLuV/TSN: ', isMemorialWithLuV, isMemorialWithTSN, hour, field, texts?.laudes?.[selectedSource]?.farbe);
     // }
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && texts?.rank?.hasErsteVesper)
@@ -173,7 +173,7 @@ export const getValue = ({
     // (Sicherung für den Fall, dass Gedenktagtage in einem Diözesankalender einen höheren Rang haben)
     if (field.startsWith('oration') &&
         (prefSollemnity || (isTSN && rank.date > 2 && rank.date > rank.wt)))
-        return result(texts.laudes[prefSource]);
+        return result(texts.laudes[selectedSource]);
 
     // Laudes-Festpsalmen und Ergänzungspsalmodie über rank;
     // am Sonntag werden in TSN die Psalmen vom Sonntag der I. Woche genommen, nicht die Ergänzungspsalmen
@@ -194,7 +194,7 @@ export const getValue = ({
 
     // Abruf der Werte für die Kommemoration
     if (field.startsWith('c_')) {
-        const data = texts[hour][prefSource]
+        const data = texts[hour][selectedSource]
         if (result(data)) return result(data);
         const antKomm = languageField === `c_antev${userPrefLanguage}`
             && data?.[`ant_komm${userPrefLanguage}`]
@@ -249,7 +249,7 @@ export const getValue = ({
     }
 
     // Einlesen der Eigentexte
-    const prefTexts = texts[hour]?.[prefSource] || texts[hour]?.pers
+    const prefTexts = texts[hour]?.[selectedSource] || texts[hour]?.pers
     // Auslesen der Commune-Texte, wenn das Commune nicht übersprungen werden soll
     let prefCommTexts = '';
     if (!skipCommune) {
@@ -294,7 +294,7 @@ export const getValue = ({
         if (selectorMatch && prefTexts?.[`${selectorMatch[1]}_text`] && !prefTexts?.[field])
             return null
 
-        // 1. Prüfe zuerst prefSource (Eigentexte)
+        // 1. Prüfe zuerst selectedSource (Eigentexte)
         // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
         if (result(prefTexts) || result(prefCommTexts))
             return result(prefTexts) || result(prefCommTexts)

@@ -12,7 +12,7 @@ const SectionHeader = ({
     texts,
     hour,
     addDebugLog,
-    prefSource,
+    selectedSource,
     prefSollemnity,
     userPrefs,   // Auswahl des Nutzers innerhalb der Hore (s. defaultUserPrefs in Direktorium.js)
     setPref,     // setPref('comm', 1) ändert einen einzelnen Wert in userPrefs
@@ -39,7 +39,7 @@ const SectionHeader = ({
                 hour, field,
                 season: texts?.season,
                 texts,
-                prefSource,
+                selectedSource,
                 prefSollemnity,
                 userPrefs: { ...userPrefs, komplet: 'wt' }, // komplet nicht relevant für TSN
                 userPrefLanguage: ''
@@ -55,7 +55,7 @@ const SectionHeader = ({
                 return false;
         }
         return true;
-    }, [isTSN, title, texts, prefSource, prefSollemnity, userPrefs]);
+    }, [isTSN, title, texts, selectedSource, prefSollemnity, userPrefs]);
 
     // Prüfe, ob mindestens einer der für diese Psalmodie vorgesehenen Psalmen
     // (normalerweise 3, in Invitatorium und Komplet 1 bzw. ggf. 2)
@@ -78,7 +78,7 @@ const SectionHeader = ({
         const getValuePs = (field) => getValue({
             hour, field,
             season: texts?.season,
-            texts, prefSource, prefSollemnity, userPrefs,
+            texts, selectedSource, prefSollemnity, userPrefs,
             userPrefLanguage: ''
         });
 
@@ -86,7 +86,7 @@ const SectionHeader = ({
             const psalmRef = getValuePs(`psalm${num}`);
             return psalmRef && psalmHasMarkers(psalmRef);
         });
-    }, [title, hour, texts, prefSource, prefSollemnity, userPrefs, userPrefLanguage]);
+    }, [title, hour, texts, selectedSource, prefSollemnity, userPrefs, userPrefLanguage]);
 
     //  VERSIKEL-Header immer ohne Buttons
     if (title === 'VERSIKEL' ||
@@ -138,18 +138,18 @@ const SectionHeader = ({
     if (!title) return null;
 
     const checkSources = (field) => {
-        const hasEig = texts[hour][prefSource]?.[field];
+        const hasEig = texts[hour][selectedSource]?.[field];
         const hasWt = texts[hour].wt?.[field];
         // alternative Psalmen an Aschermittwoch und Gründonnerstag (Fr der III. Woche)
         const hasAltPsalms = !!texts[hour].alt?.[field];
         // labelCommN enthält zugleich die Button-Beschriftung des jeweiligen Commune
         // (nie leer dank Rückfallwert '1'/'2'), sonst undefined
-        const labelComm1 = texts[hour][prefSource]?.com1?.[field]
+        const labelComm1 = texts[hour][selectedSource]?.com1?.[field]
             && ((hour === 'vesper' && rank?.hasErsteVesper && texts?.vesper?.commButton)
                 ? texts.vesper.commButton
-                : texts.laudes[prefSource]?.com1?.button || '1');
-        const labelComm2 = texts[hour][prefSource]?.com2?.[field]
-            && (texts.laudes[prefSource]?.com2?.button || '2');
+                : texts.laudes[selectedSource]?.com1?.button || '1');
+        const labelComm2 = texts[hour][selectedSource]?.com2?.[field]
+            && (texts.laudes[selectedSource]?.com2?.button || '2');
 
         const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
         // Schalter für Commune-Auswahl wird nur angezeigt, wenn eine Heiligenfeier begangen wird
@@ -242,7 +242,7 @@ const SectionHeader = ({
     // Gedenktage mit erweiterten Eigentexten - Merkmal: 'LuV' bzw. 'TSN' im farbe-Feld
     // (wie in GetValue.js): Die betreffenden Horen werden wie bei einem Fest behandelt
     // Ternär statt &&: im Nein-Fall undefined (nicht false), damit ?.includes() unten greift
-    const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[prefSource]?.farbe : undefined;
+    const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[selectedSource]?.farbe : undefined;
     // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
     const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
@@ -269,7 +269,7 @@ const SectionHeader = ({
         && (isPsalmsCommLaudes
             || (['lesehore', 'vesper'].includes(hour) && labelComm1))
     const showInclAnt = isPsalmodie && !prefSollemnity &&
-        !(texts[hour][prefSource]?.ant0 || texts[hour][prefSource]?.ant1);
+        !(texts[hour][selectedSource]?.ant0 || texts[hour][selectedSource]?.ant1);
     const showContinuous = askContinuous && hour === 'lesehore' && !isCommemoration
         && ((hasEig && hasWt)
             // Allerseelen:

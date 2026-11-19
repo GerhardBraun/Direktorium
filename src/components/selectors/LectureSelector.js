@@ -5,7 +5,7 @@ import SectionHeader from './SectionHeader.js';
 
 const LectureSelector = ({
     hour,
-    prefSource,
+    selectedSource,
     prefSollemnity,
     userPrefLanguage = '',
     formatPrayerText,

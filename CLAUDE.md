@@ -83,7 +83,7 @@ vorrangig gebetet werden:
 Bei hohem Rang (`isHighRank`: rank > 2) haben die Eigentexte des Tages Vorrang vor
 den Wochentagstexten.
 
-### Textquellen (`prefSource`)
+### Textquellen (`selectedSource`)
 
 Die Texte können aus verschiedenen Quellen stammen:
 
@@ -191,8 +191,6 @@ Die Kalenderdaten werden in drei Schritten zusammengestellt:
 | `fontFamily`     | Schriftart (vom Nutzer wählbar)                            |
 | `diocese`        | Gewählte Diözese (z.B. `'Fulda'`)                         |
 | `selectedDate`   | Zuletzt gewähltes Datum (nur Datumsteil, kein Timestamp)   |
-| `prefSource`        | Bevorzugte Textquelle                                      |
-| `prefSollemnity` | Einstellung Hochfest/Kirchweih                             |
 | `prefLanguage`   | Sprachpräferenz                                            |
 
 ### Hilfsfunktionen und Hooks

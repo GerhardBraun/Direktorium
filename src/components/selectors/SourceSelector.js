@@ -14,7 +14,7 @@ const formatText = (text) => {
 
 const SourceSelector = ({
     texts,
-    prefSource, setPrefSource,
+    selectedSource, setSelectedSource,
     prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration,
     onSelectHour,
@@ -25,7 +25,7 @@ const SourceSelector = ({
     className = ''
 }) => {
 
-    const [storedPrefSrc, setStoredPrefSrc] = useState('');
+    const [storedSource, setStoredSource] = useState('');
     const isErsteVesper = useMemo(() => {
         const buttonEig = texts?.vesper?.oblig?.button ? 'oblig' : 'wt';
         if (viewMode === 'prayerText') {
@@ -51,15 +51,15 @@ const SourceSelector = ({
     };
 
     useEffect(() => {
-        if (!prefSource) {
+        if (!selectedSource) {
             if (!['kirchw', 'verst'].includes(prefSollemnity)) {
-                setPrefSource(hasValidSource('oblig') ? 'oblig' : hasValidSource('any') ? 'any' : '')
+                setSelectedSource(hasValidSource('oblig') ? 'oblig' : hasValidSource('any') ? 'any' : '')
             }
         }
-        else if (!hasValidSource(prefSource)) {
-            setPrefSource('oblig')
+        else if (!hasValidSource(selectedSource)) {
+            setSelectedSource('oblig')
         };
-    }, [prefSource, texts]);
+    }, [selectedSource, texts]);
 
     if (!texts) return null;
 
@@ -117,7 +117,7 @@ const SourceSelector = ({
                     newPrefSollemnity = 'soll';
                     blockToggle = false
                 } else {
-                    setStoredPrefSrc(prefSource);
+                    setStoredSource(selectedSource);
                     blockToggle = false
                 }
             };
@@ -125,27 +125,27 @@ const SourceSelector = ({
             ) { blockToggle = false };
             if (source === 'wt') {
                 onSelectHour('vesper', texts);
-                setPrefSource('oblig');
+                setSelectedSource('oblig');
                 setPrefSollemnity('');
-                setStoredPrefSrc('');
+                setStoredSource('');
             }
         }
         if (!blockToggle) {
-            let newPrefSrc = source;
-            if (source === 'wt') { newPrefSrc = 'oblig' };
+            let newSource = source;
+            if (source === 'wt') { newSource = 'oblig' };
             if (source === 'lokal') {
-                if (storedPrefSrc) {
-                    newPrefSrc = storedPrefSrc;
-                    setStoredPrefSrc('');
+                if (storedSource) {
+                    newSource = storedSource;
+                    setStoredSource('');
                 } else {
-                    newPrefSrc = prefSource;
-                    if (prefSource === 'oblig' && !hasOblig) newPrefSrc = hasAdLib
-                    if (!prefSource) newPrefSrc = hasOblig ? 'oblig' : hasAdLib
-                    if (!newPrefSrc) newPrefSollemnity = ''
+                    newSource = selectedSource;
+                    if (selectedSource === 'oblig' && !hasOblig) newSource = hasAdLib
+                    if (!selectedSource) newSource = hasOblig ? 'oblig' : hasAdLib
+                    if (!newSource) newPrefSollemnity = ''
                 }
             };
-            if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'oblig' };
-            setPrefSource(newPrefSrc);
+            if (!newPrefSollemnity && !newSource) { newSource = 'oblig' };
+            setSelectedSource(newSource);
             setPrefSollemnity(newPrefSollemnity);
             if (source === 'wt') { setUseCommemoration(false) }
             else { setUseCommemoration(isCommemoration) }
@@ -174,7 +174,7 @@ const SourceSelector = ({
     }
 
     // Anzeige des Buttons für lokales Hochfest
-    let useToggle = (!(showWt && prefSource === 'oblig') || useCommemoration) &&
+    let useToggle = (!(showWt && selectedSource === 'oblig') || useCommemoration) &&
         ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
     if (isErsteVesper) useToggle = true
 
@@ -193,7 +193,7 @@ const SourceSelector = ({
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${getWeekdayButtonColor(season, disableButtons)}
-                        ${(prefSource === 'oblig' && !useCommemoration && !disableButtons.sources)
+                        ${(selectedSource === 'oblig' && !useCommemoration && !disableButtons.sources)
                             ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.wt}
                 >
@@ -210,7 +210,7 @@ const SourceSelector = ({
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${obligButton.farbe?.startsWith('r') ? 'btn-red' : 'btn-white'}
-                        ${(prefSource === 'oblig' && !useCommemoration && !disableButtons.oblig)
+                        ${(selectedSource === 'oblig' && !useCommemoration && !disableButtons.oblig)
                             ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     disabled={disableButtons.oblig}
                 >
@@ -226,7 +226,7 @@ const SourceSelector = ({
             {/* Saint Selection Buttons */}
             {sourceKeys.map(source => {
                 if (!hasValidSource(source)) return null;
-                const doUnderline = prefSource === source
+                const doUnderline = selectedSource === source
                     && (!isCommemoration || (isCommemoration && useCommemoration))
                     && !disableButtons.sources;
                 return (

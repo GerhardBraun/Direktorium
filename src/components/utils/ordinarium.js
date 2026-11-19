@@ -265,7 +265,7 @@ function getClosingTexts(hour, userPrefLanguage, useCommemoration) {
     return closing;
 
 }
-export const ordinarium = (texts, hour = '', userPrefLanguage = '', prefSource = '', prefSollemnity = false, useCommemoration = false) => {
+export const ordinarium = (texts, hour = '', userPrefLanguage = '', selectedSource = '', prefSollemnity = false, useCommemoration = false) => {
 
     const languageToRead = userPrefLanguage === '_lat' ? "lat" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
@@ -286,7 +286,7 @@ export const ordinarium = (texts, hour = '', userPrefLanguage = '', prefSource =
     if (['lesehore', 'vigil'].includes(hour) && prefSollemnity !== 'verst' &&
         ((texts?.rank?.wt > 2 && texts?.season !== 'q')
             || (texts?.rank?.date > 2 && texts?.rank.date > texts?.rank?.wt &&
-                prefSource === 'oblig' && texts.date.mmdd !== '11-02')
+                selectedSource === 'oblig' && texts.date.mmdd !== '11-02')
             || prefSollemnity)) {
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || ordinariumData.TeDeum.dt || {};
     }
