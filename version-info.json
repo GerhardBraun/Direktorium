@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.5",
-  "dataVersion": "2026.10.24_07-46",
-  "updateNotes": "Verbesserung zur korrekten Anzeige an Allerseelen; fortgesetzte Korrektur des Textbestandes"
+  "appVersion": "1.6",
+  "dataVersion": "2026.11.20_05-15",
+  "updateNotes": "Überarbeitung der Textwahlfunktion und der zugehörigen Schalter bei den Überschriften; vollständiger Textbestand für das Lesejahr II"
 }
