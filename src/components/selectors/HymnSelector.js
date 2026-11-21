@@ -174,6 +174,7 @@ const HymnSelector = ({ texts, hour, season,
                             .trim()
                             .replace(/[.!?,:;-]+$/, '')
                             .replace('^/', ' ')
+                            .replace('^ß', ' ')
                             .replace('>', '')
                         : givenTitle
                     // Bei Hymnen aus dem Kleinen Stundenbuch oder aus Personal.ts

@@ -46,8 +46,38 @@ const calculateCharWidth = (char) => {
     return 0.6;
 };
 
-// Geschätzte Breite einer Zeichenkette in em (Text muss bereits von Tags bereinigt sein)
+// Canvas-Kontext zum Messen der tatsächlichen Textbreite in der gewählten Schriftart
+// (null: noch nicht angelegt; false: nicht verfügbar → Schätzung über calculateCharWidth)
+let measureContext = null;
+let measureFont = '';
+const MEASURE_SIZE = 100; // Messung in 100px, Ergebnis / 100 = Breite in em
+const getMeasureContext = () => {
+    if (measureContext === null) {
+        try {
+            measureContext = document.createElement('canvas').getContext('2d') || false;
+        } catch {
+            measureContext = false;
+        }
+    }
+    return measureContext;
+};
+
+// Breite einer Zeichenkette in em (Text muss bereits von Tags bereinigt sein):
+// gemessen in der Schriftart der App (baseFontFamily), sonst geschätzt.
+// Die Schätzung liegt bei Kleinbuchstaben meist deutlich über der tatsächlichen Breite
+// und führte zu Umbrüchen an ^/ bzw. ^ß, obwohl die Zeile noch Platz hatte.
 const measureTextWidth = (str) => {
+    const ctx = getMeasureContext();
+    if (ctx) {
+        const fontFamily = localStorage.getItem('baseFontFamily') || 'cambria, georgia, serif';
+        const font = `${MEASURE_SIZE}px ${fontFamily}`;
+        if (font !== measureFont) {
+            ctx.font = font;
+            measureFont = font;
+        }
+        // ° wird als (geschütztes) Leerzeichen dargestellt
+        return ctx.measureText(str.replace(/°/g, ' ')).width / MEASURE_SIZE;
+    }
     let width = 0;
     for (const char of str) width += calculateCharWidth(char);
     return width;
@@ -168,7 +198,7 @@ const getDoxology = (userPrefLanguage, psalm, isBuM = false) => {
             + "Sicut erat in princípio, et°2|nunc°1et°||sem0per,^*"
             + "et in sǽcula sæ3cu2|ló1rum. ||A0men.";
     }
-    return "Ehre sei dem |Va0ter 2und 1dem ||Sohn^*"
+    return "Ehre sei dem |Va0ter 2und°1dem°||Sohn^*"
         + "und 4dem 3|Hei2li1gen ||Geist,^p"
         + "wie im Anfang, so°auch°2|jetzt°1und°||al0le°Zeit^*"
         + "und in 3|E2wig1keit. ||A0men.";

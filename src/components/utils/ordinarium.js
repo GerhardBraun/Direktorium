@@ -235,7 +235,7 @@ function getOpeningTexts(hour, userPrefLanguage) {
     ] : [
         "O Gott, komm mir zu Hilfe.",
         "Herr, eile, mir zu helfen.",
-        "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist.",
+        "Ehre sei dem Vater und°dem°Sohn und°dem°Heiligen°Geist.",
         "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^HALLxq"
     ];
 }
