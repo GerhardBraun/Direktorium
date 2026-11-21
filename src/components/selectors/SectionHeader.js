@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { getValue } from '../dataHandlers/GetValue.js';
+import { getValue, hasLuVPsalmody } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 import { setLocalStorage } from '../utils/PersonalSettings.js';
 import { resolveReference } from '../dataHandlers/TextFormatter.js';
@@ -245,6 +245,9 @@ const SectionHeader = ({
     const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[selectedSource]?.farbe : undefined;
     // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
     const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
+    // ... und für die Psalmodie: mit eigenen Antiphonen immer, ohne nur in der Osterzeit
+    // (s. hasLuVPsalmody in GetValue.js)
+    const isMemorialWithLuVPsalmody = isMemorialWithLuV && hasLuVPsalmody(texts, hour, selectedSource);
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
     const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
 
@@ -264,7 +267,7 @@ const SectionHeader = ({
         && ![63, 118].includes(texts?.laudes?.wt?.psalm1);
     const showPsalmsWt = isPsalmodie && hasWt && !hasEig && !prefSollemnity
         && ((rank.date > 2 && isSaintCelebrated)
-            || isMemorialWithLuV
+            || isMemorialWithLuVPsalmody
             || (hour === 'vesper' && rank?.hasErsteVesper))
         && (isPsalmsCommLaudes
             || (['lesehore', 'vesper'].includes(hour) && labelComm1))
@@ -329,7 +332,7 @@ const SectionHeader = ({
             !field.startsWith('hymn_') && field !== 'oration'
         ) || (
             ['laudes', 'vesper'].includes(hour) &&  // Laudes/Vesper Psalmodie
-            isPsalmodie && !isMemorialWithLuV
+            isPsalmodie && !isMemorialWithLuVPsalmody
         )
         || (isTSN && !isMemorialWithTSN) // Kleinen Horen: ganz vom Wt
     )) skipCommune = true;

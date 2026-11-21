@@ -1013,30 +1013,6 @@ function resolveLectureSelectors(finalData) {
     return finalData;
 }
 
-// Sonderregel für den 11. Juni (Barnabas): Commune-Texte aus oblig.com1 als Eigentexte in oblig übernehmen.
-// Ant und Psalmen werden nur bei Osterzeit übertragen (da Barnabas kein eigenes Psalterium hat).
-// VORERST AUSKOMMENTIERT (Nov. 2026): vermutlich überflüssig, seit isMemorialWithLuV und
-// isMemorialWithTSN in GetValue.js Gedenktage mit erweiterten Eigentexten wie ein Fest behandeln.
-// Nach Bestätigung im Browser endgültig löschen (samt Aufruf in processBrevierData).
-/*
-function processBarnabas(data, isEasterSeason) {
-    const psalmAntFields = [
-        'ant0', 'ant1', 'ant2', 'ant3',
-        'psalm1', 'psalm2', 'psalm3',
-        'ant0_lat', 'ant1_lat', 'ant2_lat', 'ant3_lat',
-        'psalm1_lat', 'psalm2_lat', 'psalm3_lat'
-    ];
-    Object.keys(data).forEach(hour => {
-        const com1 = data[hour]?.oblig?.com1;
-        if (!com1) return;
-        Object.entries(com1).forEach(([key, value]) => {
-            if (!isEasterSeason && psalmAntFields.includes(key)) return;
-            if (!(key in data[hour].oblig)) data[hour].oblig[key] = value;
-        });
-    });
-}
-*/
-
 // Sonderregel für Allerseelen (2. November): von den lateinischen Hymnen in oblig.com1
 // nur die Pluralform (NNNN.3) übernehmen – hymn_1_lat wird NNNN.3, hymn_2_lat und hymn_3_lat entfallen.
 function processAllerseelen(data) {
@@ -1287,8 +1263,6 @@ export function processBrevierData(todayDate) {
     finalData.date = todayInfo.date;
     const { mmdd } = todayInfo.date;
 
-    // vorerst auskommentiert, s. processBarnabas
-    // if (mmdd === '06-11') processBarnabas(finalData, todayInfo.season === 'o');
     if (mmdd === '11-02') processAllerseelen(finalData);
 
     if ([61, 66].includes(todayInfo?.aroundPentecost)) finalData.rank.aroundPentecost = 2

@@ -1,6 +1,17 @@
 import { getExcludedHours } from "./ExcludedHours.js";
 import { sollemnitiesData } from "../data/Sollemnities.ts";
 
+// LuV-Gedenktage (Eigentexte für Laudes und Vesper): Gilt das auch für die Psalmodie?
+// - mit eigenen Antiphonen: ja, dazu die Psalmen aus dem Commune;
+// - ohne eigene Antiphonen (11.06. Barnabas, 26.07. Joachim und Anna):
+//   nur in der Osterzeit Antiphonen und Psalmen aus dem Commune,
+//   sonst Psalmodie vom Wochentag (Commune nur über prefSollemnity='soll').
+// Wird auch in SectionHeader.js für den Psalmen-Schalter „Comm | Wt“ verwendet.
+export const hasLuVPsalmody = (texts, hour, selectedSource) => {
+    const ownTexts = texts?.[hour]?.[selectedSource];
+    return !!(ownTexts?.ant0 || ownTexts?.ant1) || texts?.season === 'o';
+};
+
 export const getValue = ({
     season, hour, texts, field,
     selectedSource, prefSollemnity,
@@ -149,6 +160,9 @@ export const getValue = ({
     const isMemorialWithEig = rank.date < 3 ? texts?.laudes?.[selectedSource]?.farbe : undefined;
     // Gedenktage mit Eigentexten für Laudes und Vesper (LuV):
     const isMemorialWithLuV = isMemorialWithEig?.includes('LuV') && ['laudes', 'vesper'].includes(hour);
+    // ... und für die Psalmodie (s. hasLuVPsalmody): bei Feldern außerhalb der Psalmodie wie isMemorialWithLuV
+    const isMemorialWithLuVPsalmody = isMemorialWithLuV
+        && (!isPsalmodie || hasLuVPsalmody(texts, hour, selectedSource));
     // Gedenktage mit Eigentexten für die Kleinen Horen (Barnabas und Schutzengel):
     const isMemorialWithTSN = isMemorialWithEig?.includes('TSN') && isTSN && !isPsalmodie;
     // if (isMemorialWithLuV || isMemorialWithTSN) {
@@ -180,7 +194,7 @@ export const getValue = ({
     if (isPsalmodie && !userPrefs.psalmsWt
         && ((hour === 'laudes' && rank?.useFeastPsalms)
             || (isTSN && rank?.useComplementaryPsalms)
-            || prefSollemnity || isMemorialWithLuV
+            || prefSollemnity || isMemorialWithLuVPsalmody
         )) {
         if (!hasAnt0 && !hasObligPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
@@ -225,8 +239,9 @@ export const getValue = ({
     // an LuV-Gedenktagen und Gedenktagen mit eigenen TSN-Texten
     // wird die entsprechende Hore wie an einem Fest gebetet: Eigentexte oder Commune
     // Ausnahme: Ant und Psalmen in den Kleinen Horen;
-    // das ist abgesichert in isMemorialWithTSN und durch die nächste Abfrage
-    if (isMemorialWithLuV || isMemorialWithTSN
+    // das ist abgesichert in isMemorialWithTSN und durch die nächste Abfrage;
+    // Psalmodie in Laudes und Vesper nur nach hasLuVPsalmody (s. isMemorialWithLuVPsalmody)
+    if (isMemorialWithLuVPsalmody || isMemorialWithTSN
     ) skipCommune = false
 
     // an Festen und Gedenktagen: Ant und Ps in Kleinen Horen vom Wt
