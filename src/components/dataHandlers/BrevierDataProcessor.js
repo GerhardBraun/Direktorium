@@ -430,6 +430,8 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
         if (calendarMonth === 11 && calendarDay === 2 && dayOfWeek === 0)
             processReadings(hours, yearABC, calendarMonth, calendarDay);
 
+        // Variable für den Fall, dass Gedenktage auf einen Sonntag fallen
+        let blockNotWtSources = false;
         // ZUSAMMENSTELLUNG DER oblig-, n- und d-SOURCES
         // sowie alt (alternative Psalmen an Aschermittwoch und Gründonnerstag)
         // und mar (Gedächtnis Mariens am Samstag)
@@ -454,19 +456,19 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             // 64=Do: Fronleichnam, 65=Fr: Herz-Jesu-Fest, 66=Sa: Unbefl. Herz Mariae
             processCalendar(hours, yearABC, season, 5, aroundPentecost,
                 // Mutter der Kirche und Herz Mariae werden als gebotene Gedenktage geladen,
-                // die Hochfeste hingegen in die wt-Source (replaceOblig='wt').
+                // die Hochfeste hingegen in die wt-Source (replaceSourceKey='wt').
                 [61, 66].includes(aroundPentecost) ? '' : 'wt');
 
             // Sonderfall: Zusammentreffen von MaterEcclesiae bzw. Herz Mariae
             // mit anderem gebotenen Gedenktag:
-            // letzterer wird als nichtgebotener Gedenktag geladen (replaceOblig='n1'),;
+            // letzterer wird als nichtgebotener Gedenktag geladen (replaceSourceKey='n1'),;
             // nicht gebotene Gedenktage (rank_date=0) werden verdrängt und deshalb nicht geladen
             if (rank_date === 2)
                 processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
         }
         else if (rank_date === 2 && isCommemoration) {
             // bei Kommemoration:
-            // gebotene Gedenktage werden als nichtgebotene Gedenktage geladen (replaceOblig='n1'),
+            // gebotene Gedenktage werden als nichtgebotene Gedenktage geladen (replaceSourceKey='n1'),
             // nichtgebotene Gedenktage behalten ihre Source (nur 'oblig' wird ersetzt)
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1',
                 // Ab hier werden auch Gedenktage berücksichtigt,
@@ -493,6 +495,11 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
             if (rank_date < 2 && season === "j" && dayOfWeek === 6)
                 processCalendar(hours, yearABC, season, 13, 6)
         }
+        else {
+            blockNotWtSources = true;
+            // processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
+        }
+        if (blockNotWtSources) passThrough.blockNotWtSources = true;
 
         // Finale Verarbeitungsschritte
         const calendar1962 = processCalendar1962(calendarMonth, calendarDay, swdCombined, dateFormats);
@@ -580,10 +587,10 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = '', swdCombined = '', dateFormats = {}) {
+function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceSourceKey = '', swdCombined = '', dateFormats = {}) {
     // Fortlaufende Lesungen der Lesehore sichern, bevor die wt-Source durch ein Hochfest überschrieben wird;
     // die gesicherten Texte stehen dann unter der source 'continuous' zur Auswahl.
-    if (replaceOblig === 'wt' && hours.lesehore?.wt) {
+    if (replaceSourceKey === 'wt' && hours.lesehore?.wt) {
         hours.lesehore.continuous = { ...hours.lesehore.wt };
     }
 
@@ -599,7 +606,7 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
 
     // 'alt' (alternative Psalmen an Aschermittwoch und Gründonnerstag) ist keine wählbare Feier
     // und steht deshalb nicht in sourceKeys, muss hier aber mit eingelesen werden
-    const keysToRead = replaceOblig === 'alt' ? [...sourceKeys, 'alt'] : sourceKeys;
+    const keysToRead = replaceSourceKey === 'alt' ? [...sourceKeys, 'alt'] : sourceKeys;
 
     [processData, swdData, ordinalData, ordinalLastData].forEach(data => {
         if (!data) return;
@@ -607,7 +614,7 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
             const sourceData = data[sourceKey];
             // dpar-Source immer als dmob einlesen (beweglicher Gedenktag des Diözesankalenders)
             const targetKey = sourceKey === 'dpar' ? 'dmob'
-                : (sourceKey === 'oblig' && replaceOblig) ? replaceOblig
+                : (sourceKey === 'oblig' && replaceSourceKey) ? replaceSourceKey
                     : sourceKey;
 
             if (sourceData) {
@@ -617,7 +624,7 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
         });
     });
 
-    processReadings(hours, yearABC, calendarMonth, calendarDay, replaceOblig);
+    processReadings(hours, yearABC, calendarMonth, calendarDay, replaceSourceKey);
 }
 
 // Heiligenfeiern nach dem alten Römischen Kalender (1962), rein informativ;
@@ -644,13 +651,13 @@ function processCalendar1962(calendarMonth, calendarDay, swdCombined, dateFormat
     return entries.length > 0 ? entries : undefined;
 }
 
-function processReadings(hours, yearABC, calendarMonth, calendarDay, replaceOblig = '') {
+function processReadings(hours, yearABC, calendarMonth, calendarDay, replaceSourceKey = '') {
     const diocese = localStorage.getItem('diocese') || 'Fulda';
     const readingsAData = lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.a;
     const readingsBCData = yearABC === 'a' ? null : lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.[yearABC];
     const diocesanReadingsData = diocese !== 'AAA' ? lectureABCData?.[diocese]?.[calendarMonth]?.[calendarDay]?.a : null;
 
-    const targetSource = replaceOblig || 'oblig';
+    const targetSource = replaceSourceKey || 'oblig';
     if (readingsAData) mergeData(hours, readingsAData, targetSource);
     if (readingsBCData) mergeData(hours, readingsBCData, targetSource);
     if (diocesanReadingsData) mergeData(hours, diocesanReadingsData, targetSource);

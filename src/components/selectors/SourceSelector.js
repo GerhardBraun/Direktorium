@@ -36,6 +36,7 @@ const SourceSelector = ({
     }, [viewMode, hour, prefSollemnity, texts]);
 
     const hasValidSource = (source) => {
+        if (texts?.rank?.blockNotWtSources && prefSollemnity !== 'soll') return false;
         if (source === 'any') {
             // Finde die erste source in sourceKeys (außer 'oblig'), die eine Oration hat
             return sourceKeys
@@ -266,8 +267,8 @@ const SourceSelector = ({
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
                             className={`flex-1 py-2 text-center rounded-sm
-                                bg-gray-100 dark:bg-gray-900 text-xs
-                                ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
+                            bg-gray-100 dark:bg-gray-900 text-xs
+                            ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
                                 hover:bg-gray-100 dark:hover:bg-gray-800
                                 ${prefSollemnity === 'soll' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                             disabled={!useToggle}

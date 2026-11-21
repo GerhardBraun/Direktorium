@@ -139,7 +139,9 @@ const HymnSelector = ({ texts, hour, season,
             sources = [...sources, useWt, ...communeSources];
         }
 
-        if (hour === 'komplet') { sources = ['pers', 'wt'] }
+        if (hour === 'komplet' ||
+            (texts?.rank?.blockNotWtSources && prefSollemnity !== 'soll')
+        ) { sources = ['pers', 'wt'] }
 
         return sources;
     }, [texts, hour, selectedSource, prefSollemnity]);
