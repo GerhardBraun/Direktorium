@@ -496,8 +496,28 @@ function getPrayerTexts(brevierData, personalData, date, dateToRead = 0) {
                 processCalendar(hours, yearABC, season, 13, 6)
         }
         else {
+            // Heiligenfeiern, die vom Rang des Tages verdrängt werden (v.a. an Sonntagen),
+            // werden trotzdem eingelesen, damit sie als lokale Feier im Rang eines Hochfestes
+            // (prefSollemnity='soll') gewählt werden können, z.B. als Kirchen- oder Namenspatron.
+            // Liturgisch ist das nur an Sonntagen im Jahreskreis zulässig; an Sonntagen der
+            // Geprägten Zeiten, Hochfesten des Kirchenjahres und in den Oktaven müsste die Feier
+            // verlegt werden. Die Verlegung ist (vorerst) nicht umgesetzt: Die Feier wird am
+            // eigenen Tag angeboten und kann ggf. durch Zurückblättern nachgeholt werden.
+            // Ohne prefSollemnity='soll' gelten nur die wt-Texte (blockNotWtSources).
             blockNotWtSources = true;
-            // processCalendar(hours, yearABC, season, calendarMonth, calendarDay, '', swdCombined, dateFormats);
+            // Ein gebotener Gedenktag oder ein Fest wird nicht in 'oblig', sondern in
+            // 'obligOnSunday' eingelesen: 'oblig' bleibt leer, sodass überall, wo
+            // selectedSource='oblig' gilt, automatisch die wt-Texte genommen werden.
+            // Die Erste Vesper wird vorher gesichert und als erstevWithoutNotWt abgelegt:
+            // Diese Fassung wird am Vortag als Vesper eingelesen, damit die Heiligenfeier
+            // nicht in die Erste Vesper des Sonntags gerät (s. processBrevierData).
+            // hours.erstev selbst behält die Heiligenfeier: Wird sie am Tag selbst als Hochfest
+            // gefeiert, steht damit auch ihre Erste Vesper zur Verfügung.
+            // (Zuweisung erst nach processCalendar, damit processCommune, das über alle
+            // Schlüssel von hours läuft, die Sicherung nicht verändert.)
+            const erstevWithoutNotWt = JSON.parse(JSON.stringify(hours.erstev));
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'obligOnSunday', swdCombined, dateFormats);
+            hours.erstevWithoutNotWt = erstevWithoutNotWt;
         }
         if (blockNotWtSources) passThrough.blockNotWtSources = true;
 
@@ -995,6 +1015,10 @@ function resolveLectureSelectors(finalData) {
 
 // Sonderregel für den 11. Juni (Barnabas): Commune-Texte aus oblig.com1 als Eigentexte in oblig übernehmen.
 // Ant und Psalmen werden nur bei Osterzeit übertragen (da Barnabas kein eigenes Psalterium hat).
+// VORERST AUSKOMMENTIERT (Nov. 2026): vermutlich überflüssig, seit isMemorialWithLuV und
+// isMemorialWithTSN in GetValue.js Gedenktage mit erweiterten Eigentexten wie ein Fest behandeln.
+// Nach Bestätigung im Browser endgültig löschen (samt Aufruf in processBrevierData).
+/*
 function processBarnabas(data, isEasterSeason) {
     const psalmAntFields = [
         'ant0', 'ant1', 'ant2', 'ant3',
@@ -1011,6 +1035,7 @@ function processBarnabas(data, isEasterSeason) {
         });
     });
 }
+*/
 
 // Sonderregel für Allerseelen (2. November): von den lateinischen Hymnen in oblig.com1
 // nur die Pluralform (NNNN.3) übernehmen – hymn_1_lat wird NNNN.3, hymn_2_lat und hymn_3_lat entfallen.
@@ -1213,7 +1238,10 @@ export function processBrevierData(todayDate) {
 
     // Ersetze Vesper-Daten wenn nötig
     if (hasErsteVesper_wt || hasErsteVesper_date) {
-        finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
+        // Erste Vesper ohne verdrängte Heiligenfeiern des Folgetages, falls vorhanden
+        // (s. blockNotWtSources in getPrayerTexts)
+        finalData.vesper = JSON.parse(JSON.stringify(
+            tomorrowData.erstevWithoutNotWt || tomorrowData.erstev));
         // Erste Vesper eines Festes an einem Wochentag: Psalmen und Antiphonen der heutigen
         // Wochentagsvesper übernehmen (aus der Sicherung oben). Sie kommen in der Ersten Vesper
         // normalerweise nicht zum Zuge, ermöglichen aber den Psalmen-Schalter „Comm | Wt“
@@ -1259,7 +1287,8 @@ export function processBrevierData(todayDate) {
     finalData.date = todayInfo.date;
     const { mmdd } = todayInfo.date;
 
-    if (mmdd === '06-11') processBarnabas(finalData, todayInfo.season === 'o');
+    // vorerst auskommentiert, s. processBarnabas
+    // if (mmdd === '06-11') processBarnabas(finalData, todayInfo.season === 'o');
     if (mmdd === '11-02') processAllerseelen(finalData);
 
     if ([61, 66].includes(todayInfo?.aroundPentecost)) finalData.rank.aroundPentecost = 2

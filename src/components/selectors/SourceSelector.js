@@ -5,7 +5,9 @@ import { useMemo, useEffect, useState } from "react";
 // Mit d1, d2 können Eigenfeiern VOR den denen des Regionalkalenders sortiert werden,
 // mit d11, d12 NACH denen des Regionalkalenders
 // mar ist nur für das Gedächtnis Mariens am Samstag
-export const sourceKeys = ['oblig', 'd1', 'd2', 'dpar', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'd13', 'd1mob', 'mar'];
+// obligOnSunday: gebotener Gedenktag oder Fest, der vom Rang des Tages verdrängt wird
+// (v.a. am Sonntag); nur wählbar bei Feier als Hochfest (s. blockNotWtSources)
+export const sourceKeys = ['oblig', 'obligOnSunday', 'd1', 'd2', 'dpar', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'd13', 'd1mob', 'mar'];
 
 // Hilfsfunktion zum Prüfen, ob eine Quelle gültige Daten hat
 const formatText = (text) => {
@@ -35,13 +37,25 @@ const SourceSelector = ({
         return false
     }, [viewMode, hour, prefSollemnity, texts]);
 
+    // Verdrängte Heiligenfeiern (z.B. am Sonntag) sind nur bei Feier als Hochfest wählbar
+    const isBlocked = !!texts?.rank?.blockNotWtSources && prefSollemnity !== 'soll';
+
+    // wählbare Source
     const hasValidSource = (source) => {
-        if (texts?.rank?.blockNotWtSources && prefSollemnity !== 'soll') return false;
+        if (isBlocked) return false;
+        return isSourcePresent(source);
+    };
+
+    // vorhandene Source (auch wenn sie wegen blockNotWtSources nicht wählbar ist)
+    const isSourcePresent = (source) => {
         if (source === 'any') {
-            // Finde die erste source in sourceKeys (außer 'oblig'), die eine Oration hat
+            // Finde die erste source in sourceKeys (außer 'oblig'), die in dieser Hore vorhanden ist
+            // (Einzelprüfung, damit z.B. 'mar' außerhalb von Invitatorium, Lesehore und Laudes
+            // nicht mitzählt: sonst erscheinen "Vom Wochentag" bzw. "lokale Feier als Hochfest"
+            // ohne wählbare Heiligenfeier)
             return sourceKeys
                 .filter(key => key !== 'oblig')
-                .find(key => texts?.laudes?.[key]?.oration) || false;
+                .find(key => isSourcePresent(key)) || false;
         }
 
         if (source === 'mar'
@@ -140,11 +154,23 @@ const SourceSelector = ({
                     setStoredSource('');
                 } else {
                     newSource = selectedSource;
-                    if (selectedSource === 'oblig' && !hasOblig) newSource = hasAdLib
-                    if (!selectedSource) newSource = hasOblig ? 'oblig' : hasAdLib
+                    // Vorauswahl: erste vorhandene Source gemäß sourceKeys
+                    // (auch verdrängte, die erst mit prefSollemnity='soll' wählbar werden)
+                    if (selectedSource === 'oblig' && !hasOblig) newSource = presentAdLib
+                    if (!selectedSource) newSource = hasOblig ? 'oblig' : presentAdLib
                     if (!newSource) newPrefSollemnity = ''
                 }
             };
+            // Abwahl von "lokale Feier als Hochfest" bei verdrängten Heiligenfeiern
+            // oder in der Vesper, die Erste Vesper des Folgetages ist:
+            // Rückkehr zur Feier des Tages
+            if (source === 'lokal' && newPrefSollemnity !== 'soll'
+                && (texts?.rank?.blockNotWtSources || isErsteVesperOfNextDay)
+            ) { newSource = 'oblig' };
+            // verdrängte Heiligenfeier ist ohne prefSollemnity='soll' nicht wählbar
+            if (texts?.rank?.blockNotWtSources && newPrefSollemnity !== 'soll'
+                && newSource && newSource !== 'oblig'
+            ) { newSource = 'oblig' };
             if (!newPrefSollemnity && !newSource) { newSource = 'oblig' };
             setSelectedSource(newSource);
             setPrefSollemnity(newPrefSollemnity);
@@ -157,8 +183,19 @@ const SourceSelector = ({
     const isCommemoration = rank?.isCommemoration || false
     const hasOblig = hasValidSource('oblig') // G, F oder H
     const hasAdLib = hasValidSource('any')
+    // vorhandene (ggf. verdrängte) Heiligenfeiern
+    const presentOblig = isSourcePresent('oblig')
+    const presentAdLib = isSourcePresent('any')
 
-    const showWt = hasAdLib && !hasOblig   // nur nichtgebotener Gedenktag
+    // Vesper, die Erste Vesper des folgenden Sonntags/Hochfestes ist
+    // (unabhängig davon, ob die Feier des Tages als Hochfest gewählt ist)
+    const isErsteVesperOfNextDay = hour === 'vesper' && !!texts?.rank?.hasErsteVesper
+
+    // "Vom Wochentag" nur bei nichtgebotenem Gedenktag;
+    // nicht bei verdrängten Heiligenfeiern und nicht in der Vesper, die Erste Vesper ist:
+    // dort erfolgt die Rückkehr durch Abwahl von "lokale Feier als Hochfest"
+    const showWt = hasAdLib && !hasOblig
+        && !texts?.rank?.blockNotWtSources && !isErsteVesperOfNextDay
 
     const disableButtons = {}
     disableButtons.wt = isErsteVesper && !prefSollemnity;
@@ -226,18 +263,20 @@ const SourceSelector = ({
             )}
             {/* Saint Selection Buttons */}
             {sourceKeys.map(source => {
-                if (!hasValidSource(source)) return null;
+                if (!isSourcePresent(source)) return null;
+                // verdrängte Heiligenfeier: sichtbar, aber erst bei Feier als Hochfest wählbar
+                const sourceDisabled = disableButtons.sources || !hasValidSource(source);
                 const doUnderline = selectedSource === source
                     && (!isCommemoration || (isCommemoration && useCommemoration))
-                    && !disableButtons.sources;
+                    && !sourceDisabled;
                 return (
                     <button
                         key={source}
                         onClick={() => handleSourceSelect(source)}
                         className={`w-full p-1 pt-2 text-sm text-center rounded-sm
-                                    ${getButtonColor(source, disableButtons)}
+                                    ${getButtonColor(source, { ...disableButtons, sources: sourceDisabled })}
                                     ${(doUnderline) ? 'ring-2 ring-[#b6a03a]' : ''}`}
-                        disabled={disableButtons.sources}
+                        disabled={sourceDisabled}
                     >
                         {formatText(texts.laudes[source].button) || "ein Heiliger"}
                     </button>
@@ -263,7 +302,7 @@ const SourceSelector = ({
                         Kirchweihe
                     </button>
 
-                    {(rank.date < 5 && (hasOblig || hasAdLib)) && (
+                    {(rank.date < 5 && (presentOblig || presentAdLib)) && (
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
                             className={`flex-1 py-2 text-center rounded-sm

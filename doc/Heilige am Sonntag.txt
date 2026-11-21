@@ -1,6 +1,4 @@
-Ich möchte mit Dir gerne eine Lücke in der Konzeption der Stundenbuch-App schließen.
-Was ich unten als Lösungsansatz für die Anpassung des BrevierDataProcessors beschrieben habe, kannst Du gleich umsetzen.
-Die weiteren nötigen Schritte für die Anpassung des HymnSelectors möchte ich dann noch mit Dir beraten.
+Ich möchte mit Dir gerne eine Lücke in der Konzeption der Stundenbuch-App schließen und die dazu nötigen Schritte mit Dir beraten, bevor wir an die Umsetzung gehen.
 
 Ausgangslage:
 prefSollemnity=soll bewirkt, dass eine Heiligenfeier, die eigentlich niedrigeren Rang hat (Gedenktag oder Fest, rank.date<5) wie ein Hochfest behandelt wird (als wäre rank.date=5). Das ist relevant, wenn ein Heiliger z.B. als Kirchenpatron oder vom User persönlich als Namenspatron besonders gefeiert werden soll.
@@ -8,14 +6,20 @@ Im BrevierDataProcessor werden Heiligenfeste von niedrigerem Rang zur Zeit gar n
 Dadurch hat der User an Sonntagen keinen Zugriff auf einen Heiligen, den er vielleicht als Patron feiern möchte. Morgen (22.11.) betrifft das z.B. die heilige Cäcilia, deren Gedenktag wegen des Sonntags (morgen sogar Christkönig im Rang eines Hochfestes) entfällt.
 
 Lösungsansatz:
-Im BrevierDataProcessor wird in getPrayerTexts die Funktion processCalendar in einem letzten 'else' noch einmal mit replaceSourceKey='prefSollemnity' aufgerufen.
-Das habe ich versuchsweise schon eingetragen; das Folgende muss noch implementiert werden:
-replaceSourceKey='prefSollemnity' sorgt in getPrayerTexts dafür, dass die Sources (oblig, n1, n2 usw.) nicht wie gewöhnlich als solche in texts[hour] eingelesen werden, sondern dass in texts[hour] ein Array prefSollemnity angelegt wird, in das die einzelnen Sources eingelesen werden.
-Bei einem gebotenen Gedenktag (z.B. morgen am 22.11. Cäcilia )gibt es in der Regel nur eine oblig-Source; dann enthält das Array texts[hour]prefSollemnity nur ein Element.
-Es können aber mehrere nichtgebotene Gedenktage am selben Tag stehen (z.B. letzten Sonntag am 15.11. Albert und Leopold); dann werden n1 (Albert) und n2 (Leopold) als zwei Elemente in das Array geladen.
-Die Anlage als Array trägt der Tatsache Rechnung, dass für den Fall der Heiligengedenktage am Sonntag die Unterscheidung der Sources (oblig, n, d) keine Rolle spielt.
-Die Existenz des Arrays prefSollemnity in einer Hore des texts-Objekts wird später für den HymnSelector das Signal für die besondere Behandlung, die noch zu entwickeln ist.
-Dass die Sources nicht wie gewöhnlich als oblig, n1, n2 usw. eingelesen werden, sorgt außerdem dafür, dass die Gedenktage an Sonntagen nicht als normale Option wie an einem Werktag angeboten werden.
+processCalendar wird doch ausgeführt, um die Sources für die Heiligenfeiern einzulesen; gleichzeitig wird aber die Eigenschaft blockNotWtSources gesetzt.
+Ich habe das in Z. 498ff schon eingetragen.
+Ergänzt werden muss aber, dass in "erstev" die NotWtSources gleich wieder gelöscht werden; sonst stören sie, wenn am Vortag eines Hochfestes erstev als vesper übernommen wird.
 
-Die folgenden Schritte sind noch genauer zu beraten, bevor etwas umgesetzt wird:
-Der HymnsSelector soll so angelegt werden, dass die in prefSollemnity hinterlegten Sources zunächst ausgeblendet angezeigt werden. Erst wenn der Schalter "lokale Feier als Hochfest" gewählt wird (also prefSollemnity=soll), werden diese Sources wählbar. Vorauswahl
+Außerdem habe ich im HymnSelector Z. 143 schon eingetragen, dass die Not-Wt-Sources - analog wie bei der Komplet - nicht berücksichtigt werden, wenn blockNotWtSources gesetzt und nicht "lokale Feier als Hochfest" (prefSollemnity=soll) gewählt ist.
+Das dürfte als nötige Anpassung im HymnSelector reichen.
+
+Die Grundidee ist, dass blockNotWtSources durch prefSollemnity=soll außer Kraft gesetzt wird; dann können auch die anderen Sources angewählt und als Hochfest gefeiert werden. Sonst bleibt selectedSource immer wt, und die zusätzlich eingelesenen Sources kommen nicht zum Zuge.
+
+Dafür muss der SourceSelector angepasst werden:
+Die NotWtSources werden zwar angezeigt, aber nur ausgeblendet und nicht wählbar.
+Erst wenn "lokale Feier als Hochfest" (prefSollemnity=soll) gewählt wird, werden die NotWtSources normal angezeigt und auswählbar; es wird auch die erste vorhandene Source (gemäß der Reihenfolge in sourceKeys) als Vorauswahl getroffen.
+Dann kann - falls es mehrere Sources gibt (z.B. am vergangenen Sonntag, dem 15.11.: n1=Albert und n2=Leopold) - zwischen diesen gewählt werden.
+In diesem Modus wird allerdings der Schalter "Vom Wochentag" nicht angezeigt; die Rückkehr zu selectedSource=wt erfolgt durch Abwahl von "lokale Feier als Hochfest", entweder direkt (prefSollemnity="") oder durch eine andere Option für prefSollemnity (kirchw oder verst).
+
+Eine ähnliche Funktion ist im SourceSelector schon enthalten für den Fall, dass es am gewählten Tag eine Erste Vesper gibt (rank.hasErsteVesper): Dann werden in der Vesper, die eigentlich die Erste Vesper des folgenden Sonntags/Hochfestes ist, auch die Not-Wt-Sources des laufenden Tages angezeigt, um ggf. für dessen Feier als Hochfest die Zweite Vesper zu beten, die vom BrevierDataProcessor in texts.prefSollemnity gesichert wurde, bevor erstev vom Folgetag als vesper eingelesen wurde (Z. 1212ff).
+Bei dieser Funktion im SourceSelector ist nebenbei noch zu korrigieren, dass der Button "Vom Wochentag" nicht angezeigt wird; der fällt sowieso schon weg, wenn eine oblig-Source vorhanden ist (wie heute am 21.11.), erscheint aber noch, wenn es nur AdLib-Sources gibt.

@@ -100,7 +100,10 @@ const HymnSelector = ({ texts, hour, season,
         const compareRanks =
             isErsteVesper
                 ? (texts?.rank?.nextWt || 0) > (texts?.rank?.nextDate || 0)
+                // Bei einer verdrängten Heiligenfeier, die als Hochfest gefeiert wird
+                // (z.B. Patron am Sonntag), dürfen die wt-Hymnen nicht vorangestellt werden
                 : rank_wt >= rank_date
+                && !(texts?.rank?.blockNotWtSources && prefSollemnity === 'soll')
 
         let useWt = ((prefSollemnity || aroundPentecost)
             && !['terz', 'sext', 'non'].includes(hour))
