@@ -7,6 +7,12 @@ import { useMemo, useEffect, useState } from "react";
 // mar ist nur für das Gedächtnis Mariens am Samstag
 // obligOnSunday: gebotener Gedenktag oder Fest, der vom Rang des Tages verdrängt wird
 // (v.a. am Sonntag); nur wählbar bei Feier als Hochfest (s. blockNotWtSources)
+// Box des SourceSelectors (und KompletSelectors) in der Horen-Ansicht mit dem Hintergrund
+// des Menüs (dark: gray-900) statt der Textbox (gray-800), damit sie optisch vom Textteil
+// getrennt ist (seit Nov. 2026); false = früheres Aussehen.
+// Steuert auch die Hintergrund- und Schriftfarben der Buttons (s. isOnTextBox).
+export const SELECTOR_PANEL_LIKE_MENU = true;
+
 export const sourceKeys = ['oblig', 'obligOnSunday', 'd1', 'd2', 'dpar', 'dmob', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'd13', 'd1mob', 'mar'];
 
 // Hilfsfunktion zum Prüfen, ob eine Quelle gültige Daten hat
@@ -28,6 +34,9 @@ const SourceSelector = ({
 }) => {
 
     const [storedSource, setStoredSource] = useState('');
+    // Steht der Selector auf dem Hintergrund der Textbox (gray-800) statt dem der Seite (gray-900)?
+    // Die reduzierte Fassung (Kommemoration) steht immer in der Textbox.
+    const isOnTextBox = viewMode === 'prayerText' && (reduced || !SELECTOR_PANEL_LIKE_MENU);
     const isErsteVesper = useMemo(() => {
         const buttonEig = texts?.vesper?.oblig?.button ? 'oblig' : 'wt';
         if (viewMode === 'prayerText') {
@@ -83,8 +92,8 @@ const SourceSelector = ({
         if (source === 'oblig' && disableButtons?.oblig) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
         if (disableButtons?.sources) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
         // verdrängte Heiligenfeier (blockNotWtSources): Hintergrund wie die Anzeige,
-        // damit nur die Schrift sichtbar ist – Horen-Ansicht wie die Textbox, Menü wie die Seite
-        if (disableButtons?.blocked) return viewMode === 'prayerText'
+        // damit nur die Schrift sichtbar ist – auf der Textbox gray-800, sonst wie die Seite gray-900
+        if (disableButtons?.blocked) return isOnTextBox
             ? 'bg-white dark:bg-gray-800 text-gray-400 dark:text-gray-600'
             : 'bg-white dark:bg-gray-900 text-gray-400 dark:text-gray-600';
         let color = 'w'
@@ -226,13 +235,13 @@ const SourceSelector = ({
     if (texts?.rank?.blockNotWtSources) useToggle = true
 
     // Hintergrund der drei prefSollemnity-Buttons (Kirchweihe, lokale Feier als Hochfest, Ged der Verst):
-    // in der Horen-Ansicht wie die Textbox (gray-800), im Menü wie die Seite (gray-900);
+    // auf der Textbox gray-800, sonst wie die Seite gray-900 (s. isOnTextBox);
     // Hover jeweils mit der anderen Farbe
-    const sollemnityButtonBg = viewMode === 'prayerText'
+    const sollemnityButtonBg = isOnTextBox
         ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900'
         : 'bg-gray-100 dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800'
     // abgeblendete Schrift nicht wählbarer prefSollemnity-Buttons: schwach sichtbar auf dem jeweiligen Hintergrund
-    const sollemnityButtonDisabledText = viewMode === 'prayerText'
+    const sollemnityButtonDisabledText = isOnTextBox
         ? 'text-gray-200 dark:text-gray-700'
         : 'text-gray-200 dark:text-gray-800'
 

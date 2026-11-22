@@ -35,7 +35,7 @@ import { ordinarium } from "./utils/ordinarium.js";
 import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
 import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
-import { sourceKeys } from './selectors/SourceSelector.js';
+import { sourceKeys, SELECTOR_PANEL_LIKE_MENU } from './selectors/SourceSelector.js';
 import { useAvailableWidthInEm } from './utils/useAvailableWidthInEm.js';
 
 const FONT_FAMILIES = [
@@ -709,7 +709,8 @@ const PrayerTextDisplay = ({
           onMarianAntClick={texts?.komplet?.prefKomplet === 'wt' && !texts?.komplet?.showKompletWt
             ? () => setShowMarAntInVesper(v => !v) : undefined}
         />
-        <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+        {/* Box für Source- bzw. KompletSelector: Hintergrund s. SELECTOR_PANEL_LIKE_MENU */}
+        <div className={`bg-white ${SELECTOR_PANEL_LIKE_MENU ? 'dark:bg-gray-900' : 'dark:bg-gray-800'} rounded-sm shadow pl-2 pr-6 pb-1`}>
           {hour === "komplet" ? (
             <KompletSelector
               texts={texts}
@@ -730,7 +731,8 @@ const PrayerTextDisplay = ({
               viewMode={viewMode}
               season={season}
               hour={hour}
-              className="mb-4"
+              // unterer Abstand kleiner als beim KompletSelector (mb-4)
+              className="mb-1"
             />
           )}
         </div>
