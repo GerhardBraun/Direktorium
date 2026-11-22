@@ -82,6 +82,11 @@ const SourceSelector = ({
     const getButtonColor = (source, disableButtons) => {
         if (source === 'oblig' && disableButtons?.oblig) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
         if (disableButtons?.sources) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
+        // verdrängte Heiligenfeier (blockNotWtSources): Hintergrund wie die Anzeige,
+        // damit nur die Schrift sichtbar ist – Horen-Ansicht wie die Textbox, Menü wie die Seite
+        if (disableButtons?.blocked) return viewMode === 'prayerText'
+            ? 'bg-white dark:bg-gray-800 text-gray-400 dark:text-gray-600'
+            : 'bg-white dark:bg-gray-900 text-gray-400 dark:text-gray-600';
         let color = 'w'
         if (source === 'erstev')
             color = texts?.vesper?.oblig?.farbe
@@ -215,6 +220,21 @@ const SourceSelector = ({
     let useToggle = (!(showWt && selectedSource === 'oblig') || useCommemoration) &&
         ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
     if (isErsteVesper) useToggle = true
+    // Verdrängte Heiligenfeier (z.B. am Sonntag): Sie wird erst durch "lokale Feier als Hochfest"
+    // wählbar, deshalb muss der Schalter auch bei Kirchweihe/Ged der Verst wählbar bleiben
+    // (an Werktagen wird dagegen zuerst die Heiligenfeier gewählt und dann hochgestuft)
+    if (texts?.rank?.blockNotWtSources) useToggle = true
+
+    // Hintergrund der drei prefSollemnity-Buttons (Kirchweihe, lokale Feier als Hochfest, Ged der Verst):
+    // in der Horen-Ansicht wie die Textbox (gray-800), im Menü wie die Seite (gray-900);
+    // Hover jeweils mit der anderen Farbe
+    const sollemnityButtonBg = viewMode === 'prayerText'
+        ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900'
+        : 'bg-gray-100 dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800'
+    // abgeblendete Schrift nicht wählbarer prefSollemnity-Buttons: schwach sichtbar auf dem jeweiligen Hintergrund
+    const sollemnityButtonDisabledText = viewMode === 'prayerText'
+        ? 'text-gray-200 dark:text-gray-700'
+        : 'text-gray-200 dark:text-gray-800'
 
     return (
         <div className={`space-y-1 ${className}`}
@@ -265,7 +285,8 @@ const SourceSelector = ({
             {sourceKeys.map(source => {
                 if (!isSourcePresent(source)) return null;
                 // verdrängte Heiligenfeier: sichtbar, aber erst bei Feier als Hochfest wählbar
-                const sourceDisabled = disableButtons.sources || !hasValidSource(source);
+                const sourceBlocked = !disableButtons.sources && !hasValidSource(source);
+                const sourceDisabled = disableButtons.sources || sourceBlocked;
                 const doUnderline = selectedSource === source
                     && (!isCommemoration || (isCommemoration && useCommemoration))
                     && !sourceDisabled;
@@ -274,7 +295,7 @@ const SourceSelector = ({
                         key={source}
                         onClick={() => handleSourceSelect(source)}
                         className={`w-full p-1 pt-2 text-sm text-center rounded-sm
-                                    ${getButtonColor(source, { ...disableButtons, sources: sourceDisabled })}
+                                    ${getButtonColor(source, { ...disableButtons, blocked: sourceBlocked })}
                                     ${(doUnderline) ? 'ring-2 ring-[#b6a03a]' : ''}`}
                         disabled={sourceDisabled}
                     >
@@ -294,9 +315,8 @@ const SourceSelector = ({
                     <button
                         onClick={() => handleSourceSelect('', 'kirchw')}
                         className={`flex-1 py-2 text-center rounded-sm
-                            bg-gray-100 dark:bg-gray-900 text-xs
+                            ${sollemnityButtonBg} text-xs
                             text-yellow-600 dark:text-yellow-500
-                            hover:bg-gray-100 dark:hover:bg-gray-800
                             ${prefSollemnity === 'kirchw' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                     >
                         Kirchweihe
@@ -306,9 +326,8 @@ const SourceSelector = ({
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
                             className={`flex-1 py-2 text-center rounded-sm
-                            bg-gray-100 dark:bg-gray-900 text-xs
-                            ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
-                                hover:bg-gray-100 dark:hover:bg-gray-800
+                            ${sollemnityButtonBg} text-xs
+                            ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : sollemnityButtonDisabledText}
                                 ${prefSollemnity === 'soll' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                             disabled={!useToggle}
                         >
@@ -319,9 +338,8 @@ const SourceSelector = ({
                     <button
                         onClick={() => handleSourceSelect('', 'verst')}
                         className={`flex-1 py-2 text-center rounded-sm
-                            bg-gray-100 dark:bg-gray-900 text-xs
-                            ${isErsteVesper !== 'erstev' ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
-                            hover:bg-gray-100 dark:hover:bg-gray-800
+                            ${sollemnityButtonBg} text-xs
+                            ${isErsteVesper !== 'erstev' ? 'text-yellow-600 dark:text-yellow-500' : sollemnityButtonDisabledText}
                             ${prefSollemnity === 'verst' ? 'ring-2 ring-[#b6a03a]' : ''}`}
                         disabled={isErsteVesper === 'erstev'}
                     >
