@@ -173,9 +173,9 @@ const HymnSelector = ({ texts, hour, season,
                         ? hymnText?.split('^l')[0]
                             .trim()
                             .replace(/[.!?,:;-]+$/, '')
-                            .replace('^/', ' ')
-                            .replace('^ß', ' ')
-                            .replace('>', '')
+                            .replace(/\^\//g, ' ')
+                            .replace(/\^ß/g, ' ')
+                            .replace(/>/g, '')
                         : givenTitle
                     // Bei Hymnen aus dem Kleinen Stundenbuch oder aus Personal.ts
                     // wird die Seitenzahl im Großen Stundenbuch angezeigt
