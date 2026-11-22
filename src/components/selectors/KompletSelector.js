@@ -1,4 +1,5 @@
 import React from 'react';
+import { SELECTOR_PANEL_LIKE_MENU } from './SourceSelector.js';
 
 const KompletSelector = ({
     texts,
@@ -19,6 +20,13 @@ const KompletSelector = ({
             setPref('komplet', value);
     };
 
+    // Hintergrund der Buttons wie bei den prefSollemnity-Buttons im SourceSelector:
+    // steht die Box im Dunkelmodus auf dem Menü-Hintergrund (gray-900, s. SELECTOR_PANEL_LIKE_MENU),
+    // haben die Buttons dieselbe Farbe, Hover mit gray-800; sonst wie bisher auf der Textbox (gray-800)
+    const buttonBg = SELECTOR_PANEL_LIKE_MENU
+        ? 'bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800'
+        : 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700';
+
     // Gemeinsame Button-Styles
     const getButtonStyle = (value) => {
         const isSelected = value === userPrefs.komplet;
@@ -27,9 +35,9 @@ const KompletSelector = ({
 
         //console.log('KompletSelector: value/isDefault', value, isDefault)
         return `p-1 pt-2 text-sm ${(askSelection && value === 'wt') ? 'text-right pr-3' : 'text-center'} rounded-sm
-            ${isDefault ? `text-rubric` : isDisabled ? 'text-gray-400 dark:text-gray-600' :
+            ${isDefault ? 'text-yellow-600 dark:text-yellow-500' : isDisabled ? 'text-gray-400 dark:text-gray-600' :
                 'text-gray-900 dark:text-gray-100'}
-            bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700
+            ${buttonBg}
             ${isSelected ? 'ring-2 ring-[#b6a03a]' : ''}`;
     };
 
