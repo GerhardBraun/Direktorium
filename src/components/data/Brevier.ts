@@ -6060,6 +6060,7 @@ export const brevierData = {
         "ErsteV": {
           "button": "1. Vesper zum Christkönigsfest",
           "hymn_1": 3994.0,
+          "hymn_3": 0.0,
           "psalm1": 113.0,
           "psalm2": 117.0,
           "psalm3": 152.0,
@@ -6102,6 +6103,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 3991.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "psalm1": 2.0,
           "psalm2": 72.1,
@@ -6131,6 +6133,7 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 3952.0,
+          "hymn_3": 0.0,
           "ant1": "O wahre Sonne, Aufgang des neuen Lichts! Seht, unser König sitzt auf seinem Thron und herrscht. Frieden verkündet er den Völkern.",
           "ant2": "Bis an die Enden der Erde reicht sein Ruhm. Er wird der Friede sein.",
           "ant3": "Herrschaft, Würde und Königtum hat ihm der Herr gegeben; alle Völker, Stämme und Sprachen werden ihm dienen.",
@@ -6226,6 +6229,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 3994.0,
+          "hymn_3": 0.0,
           "psalm1": 110.0,
           "psalm2": 145.4,
           "psalm3": 157.0,
