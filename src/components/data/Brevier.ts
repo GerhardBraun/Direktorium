@@ -6269,14 +6269,14 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des Heils empfangen.^ORV",
-          "hymn_3_lat": 3991.2,
+          "hymn_3_lat": 9131.1,
           "oration_lat": "Excita, quǽsumus, Dómine, tuórum fidélium voluntátes, ut, divíni óperis fructum propénsius exsequéntes, pietátis tuæ remédia maióra percípiant.^ORlV"
         },
         "Laudes": {
-          "hymn_3_lat": 3992.2
+          "hymn_3_lat": 9131.2
         },
         "Vesper": {
-          "hymn_3_lat": 3994.2
+          "hymn_3_lat": 9131.4
         }
       }
     },

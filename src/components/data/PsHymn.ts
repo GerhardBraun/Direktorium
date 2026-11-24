@@ -4803,17 +4803,11 @@ export const psalmsData = {
       },
     1.0: {
         "text_lat": "Iesu, rex admirábilis,^let triumphátor nóbilis,^ldulcédo ineffábilis,^ltotus desiderábilis:^pRex virtútum, rex glóriæ,^lrex insígnis victóriæ,^lIesu, largítor grátiæ,^lhonor cæléstis cúriæ:^pTe cæli chorus prǽdicat^let tuas laudes réplicat.^lIesus orbem lætíficat^let nos Deo pacíficat.^pIesus in pace ímperat,^lquæ omnem sensum súperat,^lhanc semper mens desíderat^let illo frui próperat.^pIam prosequámur láudibus^lIesum, hymnis et précibus,^lut nos donet cæléstibus^lcum ipso frui sédibus.^pIesu, flos matris vírginis,^lamor nostræ dulcédinis,^llaus tibi sine términis,^lregnum beatitúdinis. Amen."
-      },
-    2.0: {
-        "text_lat": "Dies iræ, dies illa,^lsolvet sæclum in favílla,^lteste David cum Sibýlla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
       }
   },
   3992: {
     1.0: {
         "text_lat": "Ætérn>a imág>o Altíssimi,^lLumen, Deus, de Lúmine,^ltibi, Redémptor, glória,^lhonor, potéstas régia.^pTu solus ante sǽcula^lspes atque centrum témporum;^ltibi voléntes súbdimur,^lqui iure cunctis ímperas.^pTu flos pudícæ Vírginis,^lnostræ caput propáginis,^llapis cadúcus vértice^lac mole terras óccupans.^pDiro tyránno súbdita,^ldamnáta stirps mortálium^lper te refrégit víncula^lsibíque cælum víndicat.^pDoctor, sacérdos, légifer,^lpræfers notátum sánguine^lin veste «Princeps príncipum^lregúmque rex altíssimus».^pPatri, tibi, Paráclito^lsit, Christe, perpes glória,^lqui nos redémptos sánguine^lad regna cæli pértrahis. Amen."
-      },
-    2.0: {
-        "text_lat": "Quid sum miser tunc dictúrus,^lquem patrónum rogatúrus,^lcum vix iustus sit secúrus?^pRex treméndæ maiestátis,^lqui salvándos salvas gratis,^lsalva me, fons pietátis.^pRecordáre, Iesu pie,^lquod sum causa tuæ viæ,^lne me perdas illa die.^pQuærens me sedísti lassus,^lredemísti crucem passus;^ltantus labor non sit cassus.^pIuste iudex ultiónis,^ldonum fac remissiónis^lante diem ratiónis.^pIngemísco tamquam reus,^lculpa rubet vultus meus;^lsupplicánti parce, Deus.^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
       }
   },
   3994: {
@@ -4824,9 +4818,6 @@ export const psalmsData = {
       },
     1.0: {
         "text_lat": "Te sæculórum príncipem,^lte, Christe, regem géntium,^lte méntium, te córdium^lunum fatémur árbitrum.^pQuem pron>a adórant ágmina^lhymnísque laudant cǽlitum,^lte nos ovántes ómnium^lregem suprémum dícimus.^pO Christe, princeps pácifer,^lmentes rebélles súbice,^ltuóqu>e amóre dévios^lovíl>e in unum cóngrega.^pAd hoc cruént>a ab árbore^lpendes apértis brácchiis,^ldiráque fossum cúspide^lcor igne flagrans éxhibes.^pAd hoc in aris ábderis^lvini dapísqu>e imágine,^lfundens salútem fíliis^ltransverberáto péctore.^pIesu, tibi sit glória,^lqui cunct>a amóre témperas,^lcum Patr>e et almo Spíritu^lin sempitérna sǽcula. Amen."
-      },
-    2.0: {
-        "text_lat": "Peccatrícem qui solvísti^let latrónem exaudísti,^lmihi quoque spem dedísti.^pPreces meæ non sunt dignæ,^lsed tu, bonus, fac benígne,^lne perénni cremer igne.^pInter oves locum præsta^let ab hædis me sequéstra^lstátuens in parte dextra.^pConfutátis maledíctis,^lflammis ácribus addíctis,^lvoca me cum benedíctis.^pOro supplex et aclínis,^lcor contrítum quasi cinis,^lgere curam mei finis.^pLacrimósa dies illa,^lqua resúrget ex favílla^liudicándus homo reus:^lhuic ergo parce, Deus!^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
       }
   },
   4003: {
@@ -6257,6 +6248,17 @@ export const psalmsData = {
   9130: {
     0.0: {
         "text_lat": "Captátor olim píscium,^liam nunc piscátor hóminum,^ltuis, Andréa, rétibus^lmundi nos rape flúctibus.^pGermánus Petri córpore^lnec mortis dispar órdine;^lquos una caro génuit,^lcrux cælo fratres édidit.^pO germen venerábile,^lo par coróna glóriæ!^lEcclésiæ patres pii^lcrucis sunt æque fílii.^pAd Iesum fratri prǽvius^lindéxque vitæ strénuus,^let nobis esto míseris^lbeáti dux itíneris.^pFratris comes egrégius,^lEcclésias impénsius^lda caritát>e exércitas^lpastóri Petro súbditas.^pVir Christo dilectíssime,^lamóre fac nos cúrrere,^lut læt>i adépti pátriam^lDeo canámus glóriam. Amen."
+      }
+  },
+  9131: {
+    1.0: {
+        "text_lat": "Dies iræ, dies illa,^lsolvet sæclum in favílla,^lteste David cum Sibýlla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
+      },
+    2.0: {
+        "text_lat": "Quid sum miser tunc dictúrus,^lquem patrónum rogatúrus,^lcum vix iustus sit secúrus?^pRex treméndæ maiestátis,^lqui salvándos salvas gratis,^lsalva me, fons pietátis.^pRecordáre, Iesu pie,^lquod sum causa tuæ viæ,^lne me perdas illa die.^pQuærens me sedísti lassus,^lredemísti crucem passus;^ltantus labor non sit cassus.^pIuste iudex ultiónis,^ldonum fac remissiónis^lante diem ratiónis.^pIngemísco tamquam reus,^lculpa rubet vultus meus;^lsupplicánti parce, Deus.^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
+      },
+    4.0: {
+        "text_lat": "Peccatrícem qui solvísti^let latrónem exaudísti,^lmihi quoque spem dedísti.^pPreces meæ non sunt dignæ,^lsed tu, bonus, fac benígne,^lne perénni cremer igne.^pInter oves locum præsta^let ab hædis me sequéstra^lstátuens in parte dextra.^pConfutátis maledíctis,^lflammis ácribus addíctis,^lvoca me cum benedíctis.^pOro supplex et aclínis,^lcor contrítum quasi cinis,^lgere curam mei finis.^pLacrimósa dies illa,^lqua resúrget ex favílla^liudicándus homo reus:^lhuic ergo parce, Deus!^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
       }
   },
   9201: {
