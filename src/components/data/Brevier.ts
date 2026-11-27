@@ -13199,7 +13199,7 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 2213.0,
-          "hymn_kl": 3444.1,
+          "hymn_kl": 3444.0,
           "psalm1": 86.0,
           "psalm2": 183.0,
           "psalm3": 98.0,

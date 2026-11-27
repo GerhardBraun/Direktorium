@@ -756,6 +756,7 @@ export const calendarData: CalendarData = {
             "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
           },
           "ErsteV": {
+            "button": "1. Vesper zu Taufe des Herrn",
             "hymn_1": 3229.0,
             "psalm1": 135.1,
             "psalm2": 135.2,
@@ -827,6 +828,7 @@ export const calendarData: CalendarData = {
             "ant0_lat": "Iordánis flúvius se retínuit, intránte Dómino, aqua contrémuit, nova creátio surxit de flúmine, quæ illúminat omne sǽculum."
           },
           "Laudes": {
+            "button": "Taufe des Herrn",
             "hymn_1": 3229.0,
             "hymn_kl": 0.0,
             "ant1": "Johannes tauft den Heiland: der Soldat seinen König, der Knecht seinen Herrn. Die Wasser des Jordan erbeben, die Taube gibt Zeugnis, und die Stimme des Vaters erschallt aus dem Himmel: Dieser ist mein Sohn.",
@@ -3475,13 +3477,13 @@ export const calendarData: CalendarData = {
             "antev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^HALLo",
             "modeev": "III",
             "antev_lat": "Sancta virgo Catharína non cessábat clamáre ad Dóminum, ut pacem rédderet Ecclésiæ suæ sanctæ.^ALLo",
-            "hymn_1_lat": 8429.4
+            "hymn_1_lat": 8429.2
           },
           "Vesper": {
             "antev": "Immer und überall hat Katharina Gott gesucht. Sie fand ihn und hielt an ihm fest mit der ganzen Leidenschaft ihres Herzens.^HALLo",
             "modeev": "IV",
             "antev_lat": "Semper et ubíque Catharína Deum quærébat, et inveniébat, et possidébat per actuálem afféctum et amóris uniónem.^ALLo",
-            "hymn_1_lat": 8429.4
+            "hymn_1_lat": 8429.2
           },
           "Messe": {
             "ms_les_buch": "1°Joh",
@@ -8246,7 +8248,7 @@ export const calendarData: CalendarData = {
             "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
             "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
             "oration": "Allmächtiger Gott, du hast die Jungfrau Maria zur Mutter deines ewigen Sohnes erwählt. Du hast auf deine niedrige Magd geschaut und sie mit Herrlichkeit gekrönt. Höre auf ihre Fürsprache und nimm auch uns in deine Herrlichkeit auf, da du uns erlöst hast durch den Tod deines Sohnes, unseres Herrn Jesus Christus,^ORR",
-            "hymn_1_lat": 8815.104,
+            "hymn_1_lat": 8815.4,
             "ant1_lat": "Ascéndit Christus super cælos, et præparávit suæ castíssimæ Matri immortalitátis locum.^ALLxq",
             "ant2_lat": "Paradísi porta per Evam cunctis clausa est et per Maríam Vírginem íterum patefácta est.^ALLxq",
             "ant3_lat": "Exaltáta est Virgo María super omnes cælos; veníte, omnes: magnificémus Christum regem, cuius regnum est ómnium sæculórum.",
@@ -8285,7 +8287,7 @@ export const calendarData: CalendarData = {
             "patr_resp1": "Heute stieg die jungfräuliche Gottesmutter zum Himmel empor.",
             "patr_resp2": "Wir rufen: „Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.“",
             "patr_resp3": "Selig bist du, heilige Jungfrau Maria, denn aus dir ging die Sonne der Gerechtigkeit hervor, Christus, unser Gott.",
-            "hymn_1_lat": 8815.101,
+            "hymn_1_lat": 8815.1,
             "ant1_lat": "Surge, Virgo Regína, et, ætérno digna decóre, conscénde præclárum palátium Regis ætérni.",
             "ant2_lat": "Elégit eam Deus et præelégit eam, in tabernáculo suo habitáre fecit eam.",
             "ant3_lat": "Gloriόsa dicta sunt de te, Virgo María.",
@@ -8319,7 +8321,7 @@ export const calendarData: CalendarData = {
             "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
             "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
             "bitten": "Ewiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pSohn des lebendigen Gottes, du hast die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes.",
-            "hymn_1_lat": 8815.102,
+            "hymn_1_lat": 8815.2,
             "ant1_lat": "Beáta es, María, quia per te mundi salus advénit; iam gloriósa gaudes ante Dóminum.",
             "ant2_lat": "Exaltáta est Virgo María super choros angelórum; gáudeant omnes fidéles et benedícant Dóminum.",
             "ant3_lat": "Nomen tuum ita magnificávit Dóminus, ut non recédat laus tua de ore hóminum.",
@@ -8388,7 +8390,7 @@ export const calendarData: CalendarData = {
             "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der Maria, die Mutter seines Sohnes, den Menschen zur Fürsprecherin gegeben hat:",
             "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
             "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
-            "hymn_1_lat": 8815.104,
+            "hymn_1_lat": 8815.4,
             "ant1_lat": "Assúmpta est María in cælum, gaudent ángeli, laudántes benedícunt Dóminum.",
             "ant2_lat": "María Virgo assúmpta est ad æthéreum thálamum, in quo Rex regum stelláto sedet sólio.",
             "ant3_lat": "Benedícta fília tu a Dómino, quia per te fructum vitæ communicávimus.",
